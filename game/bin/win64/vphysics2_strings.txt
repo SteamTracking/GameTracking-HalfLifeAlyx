@@ -1,4 +1,4 @@
-                AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZ\"
+                AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZCUtlBuffer::VaPrintf: String overflowed buffer [%llu]\n
      *Broadphase Update: %6.3f [ms] (%6.3f [ms]
      *Finalize Constraints: %6.3f [ms]
      *Move Proxies: %6.3f [ms]
@@ -95,7 +95,6 @@
 , %d hulls
 , %d meshes
 , %d spheres
-,RgB
 --  Increase the size of the resource stream   --\n
 --  Need %d bytes, but only have %d bytes\n
 --------------------WARNING----------------------\n
@@ -103,6 +102,7 @@
 -aggs
 -avx
 -cloth
+-enable_2gb_morphs
 -inf
 -mem
 -processheap
@@ -249,7 +249,7 @@
 .CRT$XTZ
 .bss
 .data
-.data$r
+.data$rs
 .edata
 .idata$2
 .idata$3
@@ -260,6 +260,7 @@
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .rnsave
 .text$di
@@ -276,14 +277,13 @@
 0.04
 0.05
 0.7f
-0.95
 00000000-0000-0000-0000-000000000000
+0\r50t
 0x%08X 
 0x%X
 1 (true)
 1 1 1
 1.0f
-1000
 1000000
 1DBlend
 2000
@@ -291,7 +291,7 @@
 320000
 3333333333333333
 3\fU348
-3\r%3t
+4\r%4t
 5?<unknown>
 99ccff;"><b>No</b> Collision
 99ccff;">Should <b>Not</b> Collide: 
@@ -346,22 +346,25 @@
 <tr><td>Mask <i>OFF<i></td>
 <tr><td>Set <b>ON</b></td>
 <unconnected>
+>0.95
+>333?
+?1000
 ?333?
+??0CThreadFastMutex@@QEAA@XZ
 ??0CThreadMutex@@QEAA@PEBD@Z
+??0CThreadMutex@@QEAA@XZ
 ??0CUniformRandomStream@@QEAA@XZ
-??1CThreadMutex@@QEAA@XZ
 ?AppendFormat@CBufferString@@QEAAHPEBDZZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
 ?Concat@CBufferString@@QEAAPEBDPEBD0ZZ
 ?DevMsg@@YAXPEBDZZ
 ?DevWarning@@YAXPEBDZZ
-?Dynamic-only 
 ?ExtractFileExtension@CBufferString@@QEAAPEBDPEBD@Z
 ?FixSlashes@CBufferString@@QEAAPEBDD@Z
 ?FixupPathName@CBufferString@@QEAAPEBDD@Z
 ?Format@CBufferString@@QEAAHPEBDZZ
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@VColor@@PEBDZZ
@@ -378,17 +381,17 @@
 ?ToLowerFast@CBufferString@@QEAAXH@Z
 ?Truncated data
 ?Unknown
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
+?VPhysXDiskShapeHeader_t
 ?V_SplitString@@YAXPEBD0AEAV?$CUtlVector@PEADV?$CUtlMemory@PEADH@@@@@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
 ?fff?
-?m_shape
 ?phys_res
 ?unsupported?
 @ %.2f, %.2f, %.2f
-@333?
-@@cloth_approximate_collide
 @UUUUUUUUUUUUUUUU
+@Use implicit integrator for gyroscopic forces
 AABB_t
 AABB_t RnHullRefl_t::m_Bounds
 AE_ACTION_SET_TURN_RATE_SCALE
@@ -506,7 +509,6 @@ AssetSystem001
 AssetSystemTest001
 Assuming parameter -sdk\n
 AttachObject called on motion controller with this object already attached.\n
-Attempting to restore from invalid version %u\n
 Attempting to restore invalid delta\n
 Attributes
 AutoLayer
@@ -522,6 +524,7 @@ BODY_DYNAMIC
 BODY_KEYFRAMED
 BODY_STATIC
 BODY_TYPE_COUNT
+B\vp\nP
 Bad KV3 data for resource: %s\n
 Bad header (unrecognized encoding specifier)
 Bad header format (expected ':'
@@ -923,7 +926,6 @@ CTwistConstraint
 CUtlBlockMemory overflow!\n
 CUtlBlockMemory<float const *,int>::ChangeSize
 CUtlBuffer::VaPrintf
-CUtlBuffer::VaPrintf: String overflowed buffer [%llu]\n
 CUtlHashtable
 CUtlIncrementalVector< CRnBody, CRnBody::CWorldIndexPred >
 CUtlIncrementalVector< CRnContact, CRnContact::CWorldIndexPred >
@@ -939,6 +941,7 @@ CUtlRBTree overflow with %u elements!\n
 CUtlRBTree<struct CUtlMap<char const *,class CAttachment,int,bool (__cdecl*)(char const * const &,char const * const &)>::Node_t,int,class CUtlMap<char const *,class CAttachment,int,bool (__cdecl*)(char const * const &,char const * const &)>::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<char const *,class CAttachment,int,bool (__cdecl*)(char const * const &,char const * const &)>::Node_t,int>,int> >::NewNode
 CUtlRBTree<struct CUtlMap<char const *,class CHitBoxSet,int,bool (__cdecl*)(char const * const &,char const * const &)>::Node_t,int,class CUtlMap<char const *,class CHitBoxSet,int,bool (__cdecl*)(char const * const &,char const * const &)>::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<char const *,class CHitBoxSet,int,bool (__cdecl*)(char const * const &,char const * const &)>::Node_t,int>,int> >::NewNode
 CUtlRBTree<struct CUtlMap<unsigned __int64,unsigned __int64,unsigned short,bool (__cdecl*)(unsigned __int64 const &,unsigned __int64 const &)>::Node_t,unsigned short,class CUtlMap<unsigned __int64,unsigned __int64,unsigned short,bool (__cdecl*)(unsigned __int64 const &,unsigned __int64 const &)>::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<unsigned __int64,unsigned __int64,unsigned short,bool (__cdecl*)(unsigned __int64 const &,unsigned __int64 const &)>::Node_t,unsigned short>,unsigned short> >::NewNode
+CUtlRBTree<void *,int,bool (__cdecl*)(void * const &,void * const &),class CUtlMemory<struct UtlRBTreeNode_t<void *,int>,int> >::NewNode
 CUtlSharedArray
 CUtlSortVector<class CRnBody *,class CUtlSortVectorDefaultLess<class CRnBody *>,class CUtlVector<class CRnBody *,class CUtlMemory<class CRnBody *,int> > >::FindLessOrEqual
 CUtlSortVector<class CRnBody *,class CUtlSortVectorDefaultLess<class CRnBody *>,class CUtlVector<class CRnBody *,class CUtlMemory<class CRnBody *,int> > >::InsertIfNotFound
@@ -1239,6 +1242,7 @@ DynNodeFriction
 DynNodeVertexSet
 Dynamic
 Dynamic 
+Dynamic-only 
 DynamicConfigList
 DynamicNodeFlags
 ENCODING_TYPE_COUNT
@@ -1446,7 +1450,6 @@ GoalStrength
 Gravity
 GravityScale
 GroupIndex
-HB-enable_2gb_morphs
 HELPER_BONE
 HMDAvatar
 HammerMapLoader001
@@ -1481,7 +1484,6 @@ HullCastRay
 HullCastSphere
 HullMassEdges
 Hulls
-I>UU
 IBphys
 IKChain
 IKChainOld
@@ -2407,6 +2409,7 @@ The <font color="red">Query</font> is Hitbox Query. The shape has Ignores For Hi
 The file was saved in format subversion %d, this binary is compiled with subversion %d. No migration path found.\n
 There is a %s [%d]
 Thickness
+ThreadAtomicNotifyAll
 Thumb
 TickCount
 Time
@@ -2485,7 +2488,6 @@ UpdateSolverContacts
 UpdateVelocities
 Updated
 Usage: phys_debug_draw [options]:\n\t\tclient                    - draw client world(s)\n\t\tserver                    - draw server world(s)\n\t\tother                     - draw other world(s) - useful in tools\n\t\twireframe                 - draw wireframe\n\t\tsolid                     - draw solid (not wireframe)\n\t\ttransparent 128           - draw transparent (0-255)\n\t\tnodraw | off              - draw nothing\n\t\t{collisionGroup, interactAs, interactWith, interactExclude} #FFFFFFFF\n\t\tlayer #401F or layer401F  - debug layer mask\n\t\tdebugName substring       - filter by substring in debug name\n\t\tnot                       - invert filter\n\t\tsurface slipperymetal     - filter by surface names or (#41BC2B3D) hash\n\t\tcfFF                      - collision function mask\n
-Use implicit integrator for gyroscopic forces
 Used Groups:
 Used Layers:
 UserData
@@ -2536,7 +2538,6 @@ VPhysXConstraintParams_t::FLAG0_SHIFT_CONSTRAIN
 VPhysXConstraintParams_t::FLAG0_SHIFT_INTERPENETRATE
 VPhysXDiskCapsule_t
 VPhysXDiskMesh2_t
-VPhysXDiskShapeHeader_t
 VPhysXDiskShapeHeader_t::VERSION
 VPhysXDiskShapeHeader_t::VersinEnum_t
 VPhysXJoint_t
@@ -2789,7 +2790,6 @@ bSleepEnabled
 bSleeping
 bStartInSolid
 bUpdate
-b\vp\nP
 baseNameHash
 binary
 binary_auto
@@ -2912,6 +2912,7 @@ client
 client 
 cloth_airdrag
 cloth_airdrag_override
+cloth_approximate_collide
 cloth_batch
 cloth_collide
 cloth_collision_layer0
@@ -4049,6 +4050,7 @@ m_sTargetMorph
 m_sceneObjects
 m_scrapeRough
 m_scrapeSmooth
+m_shape
 m_skeleton
 m_slaves
 m_snapshotName
@@ -4238,7 +4240,7 @@ nType
 nVertexNode
 nVirtElem
 nWeight
-n\f"pA3Q0
+n\f"pA3Q
 name
 nameHash
 nav_attribute_avoid

@@ -1,11 +1,12 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Sliding_Window.Up = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.100000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.010000
-		occlusion_scale = 0.700000
+		volume = 1.1
+		volume_fade_in = 0.2
+		volume_fade_out = 0.01
+		occlusion_scale = 0.7
 		mixgroup = "Doors"
 		should_pause = true
 		vsnd_files = 
@@ -16,10 +17,10 @@
 	Sliding_Window.Down = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.100000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.010000
-		occlusion_scale = 0.700000
+		volume = 1.1
+		volume_fade_in = 0.2
+		volume_fade_out = 0.01
+		occlusion_scale = 0.7
 		mixgroup = "Doors"
 		should_pause = true
 		vsnd_files = 
@@ -30,10 +31,10 @@
 	Sliding_Window.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		occlusion_scale = 0.900000
+		volume = 0.5
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
-		block_duration = 2.000000
+		block_duration = 2.0
 		block_match_this_event = true
 		vsnd_files = 
 		[
@@ -48,16 +49,16 @@
 	{
 		type = "hlvr_spinning_hinge_parent"
 		child_soundevent_name = "Carousel.Tick"
-		timer_min = 0.200000
-		timer_max = 0.500000
-		pitch_map_min = 1.000000
-		pitch_map_max = 1.050000
+		timer_min = 0.2
+		timer_max = 0.5
+		pitch_map_min = 1.0
+		pitch_map_max = 1.05
 	}
 	Carousel.Tick = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		occlusion_scale = 0.900000
+		volume = 0.6
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -70,8 +71,8 @@
 	Carousel.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		occlusion_scale = 0.900000
+		volume = 0.3
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -84,9 +85,9 @@
 	Seesaw.Move = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.3
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -101,8 +102,8 @@
 	Seesaw.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.150000
-		occlusion_scale = 0.900000
+		volume = 0.15
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -116,9 +117,9 @@
 	TicTacToe.Move = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.250000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.25
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -136,8 +137,8 @@
 	TicTacToe.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
-		occlusion_scale = 0.900000
+		volume = 0.2
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -151,10 +152,10 @@
 	Van_Sliding_Door.Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.010000
-		occlusion_scale = 0.900000
+		volume = 0.3
+		volume_fade_in = 0.2
+		volume_fade_out = 0.01
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		should_pause = true
 		vsnd_files = 
@@ -165,10 +166,10 @@
 	Van_Sliding_Door.Close = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.010000
-		occlusion_scale = 0.900000
+		volume = 0.3
+		volume_fade_in = 0.2
+		volume_fade_out = 0.01
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		should_pause = true
 		vsnd_files = 
@@ -179,8 +180,8 @@
 	Van_Sliding_Door.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		occlusion_scale = 0.900000
+		volume = 0.4
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -194,9 +195,9 @@
 	Van_Trunk.Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.5
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -208,9 +209,9 @@
 	Van_Trunk.Close = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.5
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -222,8 +223,8 @@
 	Van_Trunk.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
-		occlusion_scale = 0.900000
+		volume = 0.2
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -252,9 +253,9 @@
 	Metal_Cabinet_Drawer.Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		volume_fade_out = 0.020000
-		occlusion_scale = 0.900000
+		volume = 0.8
+		volume_fade_out = 0.02
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		should_pause = true
 		vsnd_files = 
@@ -265,9 +266,9 @@
 	Metal_Cabinet_Drawer.Close = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		volume_fade_out = 0.020000
-		occlusion_scale = 0.900000
+		volume = 0.8
+		volume_fade_out = 0.02
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		should_pause = true
 		vsnd_files = 
@@ -278,8 +279,8 @@
 	Metal_Cabinet_Drawer.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -292,9 +293,9 @@
 	Metal_Panel.Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.4
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -309,9 +310,9 @@
 	Metal_Panel.Close = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.4
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -326,9 +327,9 @@
 	Metal_Panel_Vert.Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		volume_fade_out = 0.500000
-		occlusion_scale = 0.100000
+		volume = 0.75
+		volume_fade_out = 0.5
+		occlusion_scale = 0.1
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -340,9 +341,9 @@
 	Metal_Panel_Vert.Close = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		volume_fade_out = 0.500000
-		occlusion_scale = 0.100000
+		volume = 0.75
+		volume_fade_out = 0.5
+		occlusion_scale = 0.1
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -354,8 +355,8 @@
 	Metal_Panel.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -370,9 +371,9 @@
 	Metal_Panel_Large.Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.5
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -387,9 +388,9 @@
 	Metal_Panel_Large.Close = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.5
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -404,8 +405,8 @@
 	Metal_Panel_Large.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.150000
-		occlusion_scale = 0.900000
+		volume = 0.15
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -420,9 +421,9 @@
 	Metal_Vet_Cage.Move = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.2
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -437,8 +438,8 @@
 	Metal_Vet_Cage.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -452,9 +453,9 @@
 	Toilet_Handle.Down = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.2
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -467,8 +468,8 @@
 	Toilet_Handle.Up = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
-		occlusion_scale = 0.900000
+		volume = 0.2
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -481,8 +482,8 @@
 	Toilet_Handle.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.150000
-		occlusion_scale = 0.900000
+		volume = 0.15
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -495,9 +496,9 @@
 	Metal_Locker_Door.Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.2
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -512,9 +513,9 @@
 	Metal_Locker_Door.Close = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.2
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -529,9 +530,9 @@
 	Metal_Locker_Door.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.100000
+		volume = 0.1
 		mixgroup = "Doors"
-		occlusion_scale = 0.900000
+		occlusion_scale = 0.9
 		vsnd_files = 
 		[
 			"sounds/world/hinges_drawers/metal_locker/reverse_01.vsnd",
@@ -544,10 +545,10 @@
 	Iron_Gate_Tunnel.Move = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.250000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 800.000000
-		occlusion_scale = 0.900000
+		volume = 0.25
+		volume_falloff_min = 400.0
+		volume_falloff_max = 800.0
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -557,10 +558,10 @@
 	Iron_Gate_Tunnel.Stop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.850000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 800.000000
-		occlusion_scale = 0.900000
+		volume = 0.85
+		volume_falloff_min = 400.0
+		volume_falloff_max = 800.0
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -570,10 +571,10 @@
 	Iron_Gate_Tunnel.Forward = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 900.000000
-		occlusion_scale = 0.900000
+		volume = 0.5
+		volume_falloff_min = 400.0
+		volume_falloff_max = 900.0
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -583,9 +584,9 @@
 	Metal_Dumpster_Lid.Move = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.5
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -600,8 +601,8 @@
 	Metal_Dumpster_Lid.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		occlusion_scale = 0.900000
+		volume = 0.3
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -615,9 +616,9 @@
 	Fridge_Door_Creaky.Move = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.3
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -634,8 +635,8 @@
 	Fridge_Door_Creaky.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
-		occlusion_scale = 0.900000
+		volume = 0.2
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -651,9 +652,9 @@
 	Dangling_Frame.Move = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.2
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -670,8 +671,8 @@
 	Dangling_Frame.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -687,9 +688,9 @@
 	Washing_Machine_Creaky_Door.Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.100000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.1
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -702,9 +703,9 @@
 	Washing_Machine_Creaky_Door.Close = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.100000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.1
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -717,8 +718,8 @@
 	Washing_Machine_Creaky_Door.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -732,8 +733,8 @@
 	Washing_Machine_Loader.Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
-		occlusion_scale = 0.900000
+		volume = 0.2
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		should_pause = true
 		vsnd_files = 
@@ -744,8 +745,8 @@
 	Washing_Machine_Loader.Close = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
-		occlusion_scale = 0.900000
+		volume = 0.2
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		should_pause = true
 		vsnd_files = 
@@ -756,8 +757,8 @@
 	Washing_Machine_Loader.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -771,9 +772,9 @@
 	Hazmat_Crate.Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.050000
-		occlusion_scale = 0.900000
-		volume_fade_out = 0.100000
+		volume = 0.05
+		occlusion_scale = 0.9
+		volume_fade_out = 0.1
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -784,9 +785,9 @@
 	Hazmat_Crate.Close = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.050000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.05
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -797,8 +798,8 @@
 	Hazmat_Crate.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -811,9 +812,9 @@
 	Stove_Lid.Move = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.3
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -828,8 +829,8 @@
 	Stove_Lid.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		occlusion_scale = 0.900000
+		volume = 0.3
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -843,10 +844,10 @@
 	Firebox_Door.Move = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.450000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
-		pitch = 0.900000
+		volume = 0.45
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
+		pitch = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -861,10 +862,10 @@
 	Firebox_Door.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		occlusion_scale = 0.900000
+		volume = 0.4
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
-		pitch = 0.900000
+		pitch = 0.9
 		vsnd_files = 
 		[
 			"sounds/world/hinges_drawers/stove/lid_reverse_01.vsnd",
@@ -877,9 +878,9 @@
 	Mailbox_Hinge.Move = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.4
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -894,8 +895,8 @@
 	Mailbox_Hinge.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.250000
-		occlusion_scale = 0.900000
+		volume = 0.25
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -909,9 +910,9 @@
 	Antenna_Array.Move = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.3
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -926,8 +927,8 @@
 	Antenna_Array.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		occlusion_scale = 0.900000
+		volume = 0.3
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -941,9 +942,9 @@
 	Wood_Drawer.Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_fade_out = 0.020000
-		occlusion_scale = 0.900000
+		volume = 0.5
+		volume_fade_out = 0.02
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		should_pause = true
 		vsnd_files = 
@@ -954,9 +955,9 @@
 	Wood_Drawer.Close = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_fade_out = 0.020000
-		occlusion_scale = 0.900000
+		volume = 0.5
+		volume_fade_out = 0.02
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		should_pause = true
 		vsnd_files = 
@@ -967,9 +968,9 @@
 	Wood_Drawer.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.150000
+		volume = 0.15
 		mixgroup = "Doors"
-		occlusion_scale = 0.900000
+		occlusion_scale = 0.9
 		vsnd_files = 
 		[
 			"sounds/world/hinges_drawers/wood_drawer/reverse_01.vsnd",
@@ -986,9 +987,9 @@
 	Wood_Drawer_Large.Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		volume_fade_out = 0.020000
-		occlusion_scale = 0.900000
+		volume = 0.6
+		volume_fade_out = 0.02
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		should_pause = true
 		vsnd_files = 
@@ -999,9 +1000,9 @@
 	Wood_Drawer_Large.Close = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		volume_fade_out = 0.020000
-		occlusion_scale = 0.900000
+		volume = 0.6
+		volume_fade_out = 0.02
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		should_pause = true
 		vsnd_files = 
@@ -1012,8 +1013,8 @@
 	Wood_Drawer_Large.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
-		occlusion_scale = 0.900000
+		volume = 0.2
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -1031,9 +1032,9 @@
 	Wood_Cabinet_Door.Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.150000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.15
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -1048,9 +1049,9 @@
 	Wood_Cabinet_Door.Close = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.100000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.1
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -1066,8 +1067,8 @@
 	Wood_Cabinet_Door.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -1084,9 +1085,9 @@
 	Wood_Wardrobe_Door.Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.250000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.25
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -1100,9 +1101,9 @@
 	Wood_Wardrobe_Door.Close = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.150000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.15
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -1116,8 +1117,8 @@
 	Wood_Wardrobe_Door.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.150000
-		occlusion_scale = 0.900000
+		volume = 0.15
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -1135,16 +1136,16 @@
 	{
 		type = "hlvr_spinning_hinge_parent"
 		child_soundevent_name = "Globe_Prop.Tick"
-		timer_min = 0.100000
-		timer_max = 0.400000
-		pitch_map_min = 0.950000
-		pitch_map_max = 1.050000
+		timer_min = 0.1
+		timer_max = 0.4
+		pitch_map_min = 0.95
+		pitch_map_max = 1.05
 	}
 	Globe_Prop.Tick = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -1155,16 +1156,16 @@
 	{
 		type = "hlvr_spinning_hinge_parent"
 		child_soundevent_name = "Camera_Prop.Tick"
-		timer_min = 0.100000
-		timer_max = 0.400000
-		pitch_map_min = 0.950000
-		pitch_map_max = 1.050000
+		timer_min = 0.1
+		timer_max = 0.4
+		pitch_map_min = 0.95
+		pitch_map_max = 1.05
 	}
 	Camera_Prop.Tick = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		occlusion_scale = 0.900000
+		volume = 0.3
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -1174,9 +1175,9 @@
 	Sink_Tap.Turn = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
-		volume_fade_in = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.2
+		volume_fade_in = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -1190,9 +1191,9 @@
 	Door_Default.Forward = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.9
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -1208,9 +1209,9 @@
 	Door_Default.Backward = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.9
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -1226,8 +1227,8 @@
 	Door_Default.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.550000
-		occlusion_scale = 0.900000
+		volume = 0.55
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -1246,9 +1247,9 @@
 	Door_Chainlink_Gate.Forward = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.3
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -1261,9 +1262,9 @@
 	Door_Chainlink_Gate.Backward = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.3
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -1276,8 +1277,8 @@
 	Door_Chainlink_Gate.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
-		occlusion_scale = 0.900000
+		volume = 0.2
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -1303,9 +1304,9 @@
 	Door_Metal_Barred.Forward = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.6
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -1318,9 +1319,9 @@
 	Door_Metal_Barred.Backward = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.900000
+		volume = 0.6
+		volume_fade_out = 0.1
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -1333,8 +1334,8 @@
 	Door_Metal_Barred.Reverse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.350000
-		occlusion_scale = 0.900000
+		volume = 0.35
+		occlusion_scale = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -1353,9 +1354,9 @@
 	Door_PortaPotty.Forward = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.5
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -1365,9 +1366,9 @@
 	Door_PortaPotty.Backward = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.5
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -1377,7 +1378,7 @@
 	Door_PortaPotty.Latch = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -1389,7 +1390,7 @@
 	Door_Combine_Transport.Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 2.000000
+		volume = 2.0
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -1399,7 +1400,7 @@
 	Door_Combine_Transport.Stop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 2.000000
+		volume = 2.0
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -1409,7 +1410,7 @@
 	Door_Vault_Wood.Slam = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.250000
+		volume = 1.25
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -1421,7 +1422,7 @@
 	Door_Vault_Metal.Slam = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.250000
+		volume = 1.25
 		mixgroup = "Doors"
 		vsnd_files = 
 		[

@@ -349,7 +349,6 @@ $\n\rresource_type
 '\n#eQueryCvarValueStatus_CvarProtected
 '\n\rsignedPayload
 'out_location' must not be NULL
-( 8PX
 (#GameUI_Disconnect_LoopLevelLoadActivate
 (#GameUI_Disconnect_RemoteProblem_BadCert
 (#GameUI_Disconnect_RemoteProblem_Timeout
@@ -449,12 +448,10 @@ $\n\rresource_type
 -networkvar_validate
 -nodns
 -noip
--perfectworld
 -sse2
 -sse3
 -sse4
 -steamnetworkingsockets_use_steamclient
--tt!-ds!-4r!-
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
 ...<truncated>...
@@ -463,7 +460,6 @@ $\n\rresource_type
 .?AUCCallbackInternal_OnSteamNetConnectionStatusChangedClient@CNetworkSystem@@
 .?AUCCallbackInternal_OnSteamNetConnectionStatusChangedServer@CNetworkSystem@@
 .?AUContainer@?$InternalMetadataWithArenaBase@VUnknownFieldSet@protobuf@google@@VInternalMetadataWithArena@internal@23@@internal@protobuf@google@@
-.?AUSource2SteamNetworkingSocketsCallbacks@@
 .?AV?$CBaseAppSystem@VINetworkSystem@@@@
 .?AV?$CBaseAppSystem@VINetworkSystemUtils@@@@
 .?AV?$CCallbackImpl@$0CMI@@@
@@ -472,9 +468,6 @@ $\n\rresource_type
 .?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CParallelProcessor@UBuildFlattenedSerializerInfo_t@@V?$CMemberFuncJobItemProcessor@UBuildFlattenedSerializerInfo_t@@VCBuildNetworkSerializerHierarchyOrder@@V2@@@$00@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CNetMessagePB@$02VCNETMsg_SplitScreenUser@@$0L@$00$0A@@@
 .?AV?$CNetMessagePB@$0?0VNetMessageConnectionClosed@@$0L@$00$0A@@@
-.?AV?$CNetMessagePB@$0?0VNetMessageConnectionCrashed@@$0L@$00$0A@@@
-.?AV?$CNetMessagePB@$0?0VNetMessagePacketEnd@@$0L@$00$0A@@@
-.?AV?$CNetMessagePB@$0?0VNetMessagePacketStart@@$0L@$00$0A@@@
 .?AV?$CNetMessagePB@$0?0VNetMessageSplitscreenUserChanged@@$0L@$00$0A@@@
 .?AV?$CRefCountServiceBase@$00VCRefMT@@@@
 .?AV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@
@@ -707,7 +700,6 @@ $\n\rresource_type
 .?AVIProtobufBinding@@
 .?AVIRefCounted@@
 .?AVISerializedEntities@@
-.?AVISteamNetworkingSocketsCallbacks@@
 .?AVIVConCommDataReceived@@
 .?AVInnerMap@?$Map@VMapKey@protobuf@google@@VMapValueRef@23@@protobuf@google@@
 .?AVInternalNode@CFieldPathHuffmanEncoder@@
@@ -723,11 +715,8 @@ $\n\rresource_type
 .?AVNetMessageConnectionClosed@@
 .?AVNetMessageConnectionClosed_t@@
 .?AVNetMessageConnectionCrashed@@
-.?AVNetMessageConnectionCrashed_t@@
 .?AVNetMessagePacketEnd@@
-.?AVNetMessagePacketEnd_t@@
 .?AVNetMessagePacketStart@@
-.?AVNetMessagePacketStart_t@@
 .?AVNetMessageSplitscreenUserChanged@@
 .?AVNetMessageSplitscreenUserChanged_t@@
 .?AVOneofDescriptorProto@protobuf@google@@
@@ -758,6 +747,7 @@ $\n\rresource_type
 .?AVZeroCopyOutputStream@io@protobuf@google@@
 .?AV__non_rtti_object@std@@
 .?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
 .?AVbad_cast@std@@
 .?AVbad_exception@std@@
 .?AVbad_typeid@std@@
@@ -807,11 +797,10 @@ $\n\rresource_type
 .bss
 .data
 .data$r
+.data$rs
 .dummy
 .edata
 .foo = value".
-.gfids$x
-.gfids$y
 .google.protobuf.EnumOptions
 .google.protobuf.FieldOptions
 .google.protobuf.FieldOptions"
@@ -831,6 +820,7 @@ $\n\rresource_type
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .rtc$IAA
 .rtc$IZZ
@@ -862,7 +852,6 @@ $\n\rresource_type
 0X8b?~
 0\n\vserializers
 0iN>/
-0x%p assigned %d to '%s'\n
 1#IND
 1#INF
 1#QNAN
@@ -873,7 +862,7 @@ $\n\rresource_type
 1267
 127.0.0.1
 1293
-1783
+1733
 1809
 1DBlend
 1\n-NETWORK_DISCONNECT_DIRECT_CONNECT_RESERVATION
@@ -886,7 +875,7 @@ $\n\rresource_type
 2+.google.protobuf.FieldDescriptorProto.Label
 2/.google.protobuf.MethodOptions.IdempotencyLevel:
 2\r.PrefetchType"5\n
-2\r52t
+2\vpxx
 3 FB
 37>k
 3>N;kU
@@ -899,7 +888,6 @@ $\n\rresource_type
 6NK>
 6\fXO>\ntA
 6\n\fmessage_type
-700WP
 7>I0
 7?GX
 7\n\tenum_type
@@ -908,6 +896,7 @@ $\n\rresource_type
 8\n\textension
 8\n\vdescriptors
 8ke?;
+8xP2 
 9>70
 9>powf
 9\n\noneof_decl
@@ -927,6 +916,7 @@ $\n\rresource_type
 =cQ6
 =e2m
 =imb;D
+>Unknown exception
 >cQ6
 >jtm}S
 ?!5WOo
@@ -936,10 +926,11 @@ $\n\rresource_type
 ?7zQ6$
 ?7{KV\nU
 ?8bunz8
+??0CThreadFastMutex@@QEAA@XZ
 ??0CThreadMutex@@QEAA@PEBD@Z
+??0CThreadMutex@@QEAA@XZ
 ??0CThreadRWLock_FastRead@@QEAA@_N@Z
 ??0CUniformRandomStream@@QEAA@XZ
-??1CThreadMutex@@QEAA@XZ
 ??1CThreadSemaphore@@QEAA@XZ
 ??1CThreadSyncObject@@QEAA@XZ
 ?@En[vP
@@ -949,7 +940,7 @@ $\n\rresource_type
 ?EncounteredComplexReadLockOperation@CThreadRWLock_FastRead@@IEAA_NI_NPEBDH@Z
 ?FixSlashes@CBufferString@@QEAAPEBDD@Z
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LockForRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
@@ -964,6 +955,7 @@ $\n\rresource_type
 ?StartsWith@CBufferString@@QEAA_NPEBD@Z
 ?Trim@CBufferString@@QEAAPEBDPEBD@Z
 ?UUUUUU
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?UnlockReadAccounting@CThreadRWLock_FastRead@@IEAAXPEBDHI@Z
@@ -1025,7 +1017,6 @@ A\n\nannotation
 AbsolutePoseControl
 Accepting Steam Net connection %s\n
 Access violation - no RTTI data!
-AcquireSRWLockExclusive
 Activates/deactivates net message validation
 AddAllocatedMessage
 AddBool
@@ -1071,8 +1062,10 @@ Animation
 AnimationList
 AnimationSystemUtils_001
 AnimationSystem_001
+AppPolicyGetProcessTerminationMethod
 ApplyOverrides_R:  couldn't find field from schema %s::%s\n
 April
+AreFileApisANSI
 AssertMsg_ConditionFailed
 AssetBrowserSystem_001
 AssetPreviewSystem_001
@@ -1184,7 +1177,6 @@ CFlattenedSerializer::WriteFieldList
 CFlattenedSerializer::WriteFieldList fieldDataBuf
 CFlattenedSerializer::[ent %d] Decode path %s array index %d out of range %d for field %s::%s [%d]\n
 CFlattenedSerializers_FS::BuildMergedSerializedEntity fieldDataBuf
-CFlattenedSerializers_FS::SpewSerializer: called with NULL serializer!!!\n
 CGlobalConfigValueRegistry::HookUpConfigValue
 CHECK failed: !coded_out.HadError(): 
 CHECK failed: !descriptor_: 
@@ -1301,6 +1293,7 @@ CNetworkSerializer::Init:  Couldn't find field %s in iterator for %s\n
 CNetworkSerializer::InitField
 CNetworkSystem::BufferToBufferDecompress with improperly sized dest buffer (%u in, %llu needed)\n
 CNetworkSystem::BufferToBufferDecompress with improperly sized dest buffer (%u in, %u needed)\n
+CNetworkSystem::CleanupDebugOutputFunction()\n
 CNetworkSystem::CloseAllSockets()\n
 CNetworkSystem::FlushPeerToPeerChannels
 CNetworkSystem::Init() m_SteamAPIContextClient.Init ( ) failed (no Steam?)\n
@@ -1435,6 +1428,7 @@ CUtlRBTree<struct NetworkFieldSerializerInfo_t const *,unsigned short,bool (__cd
 CUtlRBTree<struct OverrideWork_t,unsigned short,bool (__cdecl*)(struct OverrideWork_t const &,struct OverrideWork_t const &),class CUtlMemory<struct UtlRBTreeNode_t<struct OverrideWork_t,unsigned short>,unsigned short> >::NewNode
 CUtlRBTree<struct `public: void __cdecl CBucketTree::Spew(char const *)'::`2'::s_t,int,bool (__cdecl*)(struct `public: void __cdecl CBucketTree::Spew(char const *)'::`2'::s_t const &,struct `public: void __cdecl CBucketTree::Spew(char const *)'::`2'::s_t const &),class CUtlMemory<struct UtlRBTreeNode_t<struct `public: void __cdecl CBucketTree::Spew(char const *)'::`2'::s_t,int>,int> >::NewNode
 CUtlRBTree<void *,int,bool (__cdecl*)(void * const &,void * const &),class CUtlMemory<struct UtlRBTreeNode_t<void *,int>,int> >::NewNode
+CUtlRBTree<void *,unsigned short,bool (__cdecl*)(void * const &,void * const &),class CUtlMemory<struct UtlRBTreeNode_t<void *,unsigned short>,unsigned short> >::NewNode
 CUtlSortVector<int,class CNetworkMessages::CPriorityLess,class CUtlVector<int,class CUtlMemory<int,int> > >::Find
 CUtlSortVector<int,class CNetworkMessages::CPriorityLess,class CUtlVector<int,class CUtlMemory<int,int> > >::FindLessOrEqual
 CUtlSortVector<int,class CNetworkMessages::CPriorityLess,class CUtlVector<int,class CUtlMemory<int,int> > >::Insert
@@ -1537,7 +1531,6 @@ CalcDelta
 Call set methods to initialize MapKey.
 Can't 
 Can't ConnectLoopback between socket %d and %d, not enough slots\n
-Can't DisconnectLoopbackUnsafe between socket %d and %d, sockets out of range\n
 Can't create poll group for socket '%s'.  No SteamNetworkingSockets\n
 Can't get here.
 Can't get here: failed to get default value as string
@@ -1548,20 +1541,16 @@ Cannot allocate abstract class
 Cannot allocate buffer larger than kint32max for 
 Cannot deallocate abstract class
 Cannot get here
-Cannot reconnect loopback after initializing steam networking!\n
 Cannot register change callback priorities at this stage! Must do it earlier!\n
 Cannot save KV3 text to a non-text buffer!
 Cannot save as KV3_FORMAT_LOAD_WITH_NO_UPCONVERSION.
 Cannot show available settings until SteamNetworkingUtils initialized\n
-Cannot show values of SteamNetworkongSockets configuration values until initialized\n
+Cannot show values of SteamNetworkingSockets configuration values until initialized\n
 Cannot use priority equal to NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY!\n
 ChangeAccessorFieldPathIndex_t
 ClearField
 CloseHandle
 CloseSocket
-CloseThreadpoolTimer
-CloseThreadpoolWait
-CloseThreadpoolWork
 Closing '%s' P2P listen socket\n
 Closing '%s' SDR listen socket\n
 Closing '%s' UDP listen socket\n
@@ -1574,7 +1563,6 @@ Color
 CommandLine
 CommandProcedure
 CommandProcedureList
-CompareStringEx
 ComputeDepth
 ConVar(%s) defined with infinite float value (%s)\n
 ConVarRef %s doesn't point to an existing ConVar\n
@@ -1586,25 +1574,17 @@ ConnectP2P(%s) failed\n
 ConnectToHostedDedicatedServer(%s) failed\n
 Connected loopback %s=%x@%s <-> %s=%x@%s\n
 Constructing fake local field from metadata %s::%s in %s\n
-Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
 CorExitProcess
 Could not create an instance of 
 Could not find type "
 Couldn't parse default value "
 Couldn't resolve offset %u in %s at path %s\n
 Couldn't resolve offset %u in %s at path (%d = '%s')\n
-CreateEventExW
 CreateEventW
 CreateFileW
 CreateHostedDedicatedServerListenSocket for socket '%s' failed /+/ port %u vport %d\n
 CreateInterface
-CreateSemaphoreExW
-CreateSemaphoreW
 CreateSerializedEntityBlob:  removing %s from field path list, culled by another change.\n
-CreateSymbolicLinkW
-CreateThreadpoolTimer
-CreateThreadpoolWait
-CreateThreadpoolWork
 Created poll group for socket '%s'\n
 CycleOverride
 DIALOG_ASKCONNECT
@@ -1729,7 +1709,7 @@ Failed to install message handler for message %s in channel %s!\n
 Failed to open P2P network socket '%s'\n
 Failed to open UDP network socket '%s'\n
 Failed to save unsupported class
-Failed to set SteamNetSockets option '%s'\n
+Failed to set SteamNetworkingSockets option '%s'\n
 Failed to start listening for SDR on port %d.  Waiting and will retry\n
 Failed to unserialize message %s: expected message ID %u, encountered %u!\n
 False
@@ -1783,8 +1763,8 @@ FileOptions
 Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports "
 Files with optimize_for = LITE_RUNTIME cannot define services unless you set both options cc_generic_services and java_generic_sevices to false.
 FindClose
-FindFirstFileExA
-FindNextFileA
+FindFirstFileExW
+FindNextFileW
 First argument to Swap() (of type "
 First argument to SwapFields() (of type "
 FlattenedSerializersVersion001
@@ -1793,7 +1773,6 @@ FlsFree
 FlsGetValue
 FlsSetValue
 FlushFileBuffers
-FlushProcessWriteBuffers
 FontManager_001
 For network encoding stats, provide a notes field if field change count is above this many standard deviations for the average field change counts for the serializer.
 For servers behind NAT/DHCP meant to be exposed to the public internet, this is the public facing ip address string: ("x.x.x.x" )
@@ -1801,7 +1780,6 @@ Forces larger payloads.
 Found invalid proto option data for: 
 FreeEnvironmentStringsW
 FreeLibrary
-FreeLibraryWhenCallbackReturns
 Friday
 G>US
 GCTL
@@ -1811,6 +1789,7 @@ GameUIService_001
 GatherAllFieldOffsets_R:  local offset of %s::%s %u is too large (%u max)\n
 GeneratedCodeInfo
 GenericGameData
+Get or set SteamNetworkingSockets options such as fake packet lag and loss
 GetACP
 GetBitRange( %u -> %u ) end is before or same as start\n
 GetBool
@@ -1819,26 +1798,23 @@ GetCPUInformation
 GetCStringCharConversion
 GetCommandLineA
 GetCommandLineW
-GetConsoleCP
 GetConsoleMode
-GetCurrentPackageId
+GetConsoleOutputCP
 GetCurrentProcess
 GetCurrentProcessId
-GetCurrentProcessorNumber
 GetCurrentThreadId
 GetDefaultMiniDumpTypeFlags
 GetDouble
 GetEnumValue
 GetEnvironmentStringsW
-GetFileInformationByHandleEx
+GetFileSizeEx
 GetFileType
 GetFloat
 GetInt32
 GetInt64
 GetLastError
-GetLocaleInfoEx
 GetMessage
-GetModuleFileNameA
+GetModuleFileNameW
 GetModuleHandleExW
 GetModuleHandleW
 GetOEMCP
@@ -1865,12 +1841,9 @@ GetString
 GetStringReference
 GetStringTypeW
 GetSystemTimeAsFileTime
-GetSystemTimePreciseAsFileTime
-GetTickCount64
 GetUInt32
 GetUInt64
 Google.Protobuf.Reflection
-Got ISteamNetworkingSockets user interfaces from standalone lib\n
 Got ISteamNetworkingSockets user interfaces from steam client\n
 Got message on poll group for socket %s, but cannot find connection in table?
 Groups are not supported in proto3 syntax.
@@ -1892,6 +1865,7 @@ IKRigBiped
 IKRigBug
 IKRigSimple
 IND)ind)
+IND)ind)"
 INFO
 INITY
 INVALID_CPPTYPE
@@ -1913,13 +1887,10 @@ Import "
 Index out-of-bounds (field is empty).
 InitFakeField:  Couldn't find schema lookup for '%s' of type '%s'\n
 InitFakeField:  Parser function returned false for '%s' of type '%s'\n
-InitOnceExecuteOnce
-InitializeConditionVariable
 InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
-InitializeSRWLock
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
@@ -2138,6 +2109,7 @@ N\n"NETWORK_DISCONNECT_HLTVUNAVAILABLE
 N\n#NETWORK_DISCONNECT_REJECTED_BY_GAME
 NamePart
 NavSystem001
+Need Steam Networking sockets available to connect locally. Is Steam running?
 Need space between identifier and decimal point.
 Need space between number and identifier.
 Net graph %s\n
@@ -2363,7 +2335,6 @@ RegisterStringToken
 Release
 ReleaseLast
 ReleaseMessage
-ReleaseSRWLockExclusive
 Remove
 RemoveArrayElementsOutsideOfArrayMetadataBounds:  %s [ent %d] removing change '%s' for field %s (value '%s') on array that has metadata with only %d array elements!\n
 RemoveBoneAndChildren
@@ -2406,20 +2377,6 @@ SPAWN_GROUP_LOAD_STREAMING_DATA
 SPAWN_GROUP_SYNCHRONOUS_SPAWN
 SPEED
 SSE and SSE2 are required.
-STEAMAPPLIST_INTERFACE_VERSION001
-STEAMAPPS_INTERFACE_VERSION008
-STEAMHTMLSURFACE_INTERFACE_VERSION_005
-STEAMHTTP_INTERFACE_VERSION003
-STEAMINVENTORY_INTERFACE_V003
-STEAMMUSICREMOTE_INTERFACE_VERSION001
-STEAMMUSIC_INTERFACE_VERSION001
-STEAMPARENTALSETTINGS_INTERFACE_VERSION001
-STEAMREMOTESTORAGE_INTERFACE_VERSION014
-STEAMSCREENSHOTS_INTERFACE_VERSION003
-STEAMTV_INTERFACE_V001
-STEAMUGC_INTERFACE_VERSION013
-STEAMUSERSTATS_INTERFACE_VERSION011
-STEAMVIDEO_INTERFACE_V002
 STRING
 SVC_Messages_LowFrequency
 S\n!NETWORK_DISCONNECT_REMOTE_TIMEOUT
@@ -2456,7 +2413,6 @@ SetEnum
 SetEnumValue
 SetEnumValue accepts only valid integer values: value 
 SetEvent
-SetFileInformationByHandle
 SetFilePointerEx
 SetFloat
 SetInt32
@@ -2474,8 +2430,6 @@ SetRepeatedUInt32
 SetRepeatedUInt64
 SetStdHandle
 SetString
-SetThreadpoolTimer
-SetThreadpoolWait
 SetUInt32
 SetUInt64
 SetUnhandledExceptionFilter
@@ -2493,7 +2447,6 @@ SignedDestinationAddress_t
 SignedPayload_t
 Sleep
 SleepConditionVariableCS
-SleepConditionVariableSRW
 SmoothLoop
 Socket '%s' bound to '%s' [%s]:\n
 Socket '%s' listening for %s on port %d:\n
@@ -2529,52 +2482,28 @@ StartLoop
 StatsService_001
 Steam Net connection %s %s, reason %d: %s\n
 Steam supporting smaller max routable packet than engine expecting (%d vs %d)\n
-SteamAPI_GetHSteamPipe
 SteamAPI_GetHSteamUser
-SteamAPI_RegisterCallResult
 SteamAPI_RegisterCallback
-SteamAPI_UnregisterCallResult
 SteamAPI_UnregisterCallback
 SteamAudio001
-SteamClient019
-SteamController007
-SteamDatagram Network Configuration
-SteamDatagramClient_Init failed.  %s\n
-SteamDatagramClient_Init_InternalV9
-SteamDatagramClient_Internal_SteamAPIKludge
-SteamDatagramClient_Kill
-SteamDatagramClient_SetLauncher
-SteamDatagramServer_Init failed.  %s\n
-SteamDatagramServer_Init_InternalV2
-SteamDatagramServer_Kill
-SteamFriends017
-SteamGameServer012
-SteamGameServerNetworkingSockets_Lib
-SteamGameServerStats001
-SteamGameServer_GetHSteamPipe
+SteamClient023
+SteamGameServer015
 SteamGameServer_GetHSteamUser
-SteamInput001
 SteamInternal_ContextInit
 SteamInternal_CreateInterface
 SteamInternal_FindOrCreateGameServerInterface
 SteamInternal_FindOrCreateUserInterface
-SteamMatchGameSearch001
-SteamMatchMaking009
-SteamMatchMakingServers002
 SteamNetSockets
-SteamNetworking005
-SteamNetworkingMessages_Lib
-SteamNetworkingSockets008
-SteamNetworkingSockets_Lib
-SteamNetworkingUtils003
-SteamNetworkingUtils_Lib
-SteamNetworkongSockets not yet initialized.  Queuing command '%s'\n
-SteamUser021
-SteamUtils009
+SteamNetworking006
+SteamNetworkingSockets config option not found\n
+SteamNetworkingSockets not yet initialized.  Queuing command '%s'\n
+SteamNetworkingSockets013
+SteamNetworkingUtils004
+SteamUser023
+SteamUtils011
 String field
 String literals cannot cross line boundaries.
 StringOutputStream.
-SubmitThreadpoolWork
 Subtract
 Summary of connection [%s]:\n
 Sunday
@@ -2606,6 +2535,7 @@ This ZeroCopyOutputStream doesn't support aliasing. Reaching here usually means 
 This program requires version 
 This program was compiled against version 
 This shouldn't be called if all the sizes are equal.
+ThreadAtomicNotifyAll
 ThreadSleep
 Thursday
 TlsAlloc
@@ -2621,7 +2551,6 @@ ToolService_001
 Tried to merge messages of different types 
 Tried to send ad-hoc to address %s, but address is not in list of steam net connections!\n
 True
-TryAcquireSRWLockExclusive
 Tuesday
 Two Bone
 Type
@@ -2677,14 +2606,13 @@ Unimplemented Map Reflection API.
 Unimplemented type: 
 UninterpretedOption
 Unknown enumeration value of "
-Unknown exception
 Unrecognized syntax: 
 Unserialized nonresident asset %s status [%d]
 Unsupported
 Unsupported binary encoding id.
 Unsupported text encoding id.
 Unsupported: type mismatch
-Usage: sdr <setting> [<value>]\n
+Usage: net_option <setting> [<value>]\n
 Use lz compression on game packets.
 Use network sockets layer even for listen server local player's packets (multiplayer only).
 UserInfoChangeService_001
@@ -2785,9 +2713,7 @@ W\n,NETWORK_DISCONNECT_REJECT_CONNECT_FROM_LOBBY
 W\n,NETWORK_DISCONNECT_REJECT_RESERVED_FOR_LOBBY
 WaNd?
 WaitForSingleObjectEx
-WaitForThreadpoolTimerCallbacks
 WakeAllConditionVariable
-WakeConditionVariable
 Warning
 Warning parsing text-format 
 Warning:  %s = '%s' is infinite, clamping value.\n
@@ -3043,6 +2969,7 @@ Z\n+NETWORK_DISCONNECT_CONNECT_REQUEST_TIMEDOUT
 ^<V7w
 ^RfN>
 ^\n*NETWORK_DISCONNECT_LOCALPROBLEM_MANYRELAYS
+_RDATA
 _V_strncat
 _V_strncmp
 _V_strncpy
@@ -3059,6 +2986,8 @@ __pascal
 __ptr64
 __restrict
 __stdcall
+__swift_1
+__swift_2
 __thiscall
 __unaligned
 __vectorcall
@@ -3066,6 +2995,7 @@ _class
 _oD>Kg
 _test_conversion_counter
 `RTTI
+`anonymous namespace'
 `copy constructor closure'
 `default constructor closure'
 `dynamic atexit destructor for '
@@ -3157,6 +3087,7 @@ b\n,NETWORK_DISCONNECT_SPLITPACKET_SEND_OVERFLOW
 backing paths
 bad address
 bad allocation
+bad array new length
 bad exception
 bad file descriptor
 bad message
@@ -3366,10 +3297,10 @@ event_t
 eventid
 eventindex
 events
+exL|
 exclude
 excluding
 executable format error
-exl3
 explosion_behavior
 explosion_buildup
 explosion_delay
@@ -3423,10 +3354,6 @@ g_pFlattenedSerialized->GetFieldNameProcedural() called for entity with procedur
 g_pFlattenedSerialized->GetFieldShortNameProcedural() called for entity with procedural fields, but no INetworkProceduralDataHelper *pDataHelper passed into to API!!!\n
 g_pFlattenedSerialized->ReadFieldList() called for entity with procedural fields, but no INetworkProceduralDataHelper *pDataHelper passed into to API!!!
 g_pMemAlloc
-g_pSteamGameServerNetworkingSockets
-g_pSteamNetworkingMessages
-g_pSteamNetworkingSockets
-g_pSteamNetworkingUtils
 g_pThreadPool
 game_class
 game_dir
@@ -3739,7 +3666,7 @@ n03>Pu
 nIndex != m_priorityToOrderMap.InvalidIndex()
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
 nTries < 10000000
-n\f"pA3Q8
+n\f"pA3Q
 n]?iJ
 name
 nan(ind)
@@ -3773,6 +3700,9 @@ net_maxroutable
 net_messageinfo
 net_messageinfo %s
 net_minroutable
+net_option
+net_option %s = %s\n
+net_option settings will not apply to loopback listenservers. To run a listenserver without loopback. Select your map with "map foo loopback=0"\n
 net_p2p_client_to_client_messages
 net_p2p_listen_dedicated
 net_p2pconnection_linger_time
@@ -3863,6 +3793,8 @@ operation not supported
 operation would block
 operator
 operator "" 
+operator co_await
+operator<=>
 optional
 options
 org(%g,%g,%g) ang(%g,%g,%g)
@@ -3896,7 +3828,6 @@ paused
 peer
 pending data
 pending_full_frame
-perfectworld
 permission denied
 php_class_prefix
 php_generic_services
@@ -3974,7 +3905,6 @@ rnd_up
 rootNode
 savegamefilename
 schemasystem
-sdr config option not found\n
 secondary
 section
 section_number
@@ -4036,7 +3966,6 @@ state not recoverable
 steam_api64.dll
 steam_id
 steamid
-steamnetworkingsockets.dll
 stop_immediately
 stop_instantly
 stop_on_seq_change
@@ -4124,11 +4053,11 @@ valid
 value
 value 
 value too large
-valve
 valveextensions.proto
 vanmgrph
 var_encoder_sym
 var_name
+vector too long
 vector<T> too long
 version
 vmdl
@@ -4178,7 +4107,6 @@ writing (in %s)
 wrong protocol type
 wrong submessage type
 xT?V
-xpxxxx
 xuid
 yaw_end
 yaw_start

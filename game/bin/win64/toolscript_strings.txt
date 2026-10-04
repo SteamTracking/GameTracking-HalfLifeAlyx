@@ -24,6 +24,8 @@
 .?AVIConCommandBaseAccessor@@
 .?AVIConVar@@
 .?AVIToolScriptManager@@
+.?AVbad_exception@std@@
+.?AVexception@std@@
 .?AVtype_info@@
 .CRT$XCA
 .CRT$XCC
@@ -43,9 +45,8 @@
 .bss
 .data
 .data$r
+.data$rs
 .edata
-.gfids$x
-.gfids$y
 .idata$2
 .idata$3
 .idata$4
@@ -55,6 +56,7 @@
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .rtc$IAA
 .rtc$IZZ
@@ -70,6 +72,7 @@
 .tls$ZZZ
 .xJ>Hf
 .xdata
+.xdata$x
 0iN>/
 11Y@
 37>k
@@ -94,7 +97,9 @@ APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
 AnimGraphEditorUtils001
 AnimationSystemUtils_001
 AnimationSystem_001
+AppPolicyGetProcessTerminationMethod
 April
+AreFileApisANSI
 AssetBrowserSystem_001
 AssetPreviewSystem_001
 AssetSystem001
@@ -125,14 +130,15 @@ DotaCardGameClient_001
 ET5>
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EconItemToolModel_001
+EncodePointer
 EngineServiceMgr001
 EnterCriticalSection
 EventSystem001
 ExitProcess
 February
 FindClose
-FindFirstFileExA
-FindNextFileA
+FindFirstFileExW
+FindNextFileW
 FlattenedSerializersVersion001
 FlsAlloc
 FlsFree
@@ -151,9 +157,8 @@ GetACP
 GetCPInfo
 GetCommandLineA
 GetCommandLineW
-GetConsoleCP
 GetConsoleMode
-GetCurrentPackageId
+GetConsoleOutputCP
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -161,7 +166,7 @@ GetDefaultMiniDumpTypeFlags
 GetEnvironmentStringsW
 GetFileType
 GetLastError
-GetModuleFileNameA
+GetModuleFileNameW
 GetModuleHandleExW
 GetModuleHandleW
 GetOEMCP
@@ -176,7 +181,6 @@ HammerMapLoader001
 HelpSystem_001
 HostStateMgr001
 IQuickTime001
-InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
@@ -259,6 +263,7 @@ ResourceManifestRegistry001
 ResourceSystem013
 RtlCaptureContext
 RtlLookupFunctionEntry
+RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
 S9>H
@@ -314,6 +319,7 @@ ToolService_001
 Tuesday
 UUUUUU
 UnhandledExceptionFilter
+Unknown exception
 UserInfoChangeService_001
 VApplication001
 VAvi001
@@ -363,6 +369,7 @@ WorldRendererMgr001
 WriteConsoleW
 WriteFile
 \tkE>fvw
+_RDATA
 __based(
 __cdecl
 __clrcall
@@ -372,10 +379,13 @@ __pascal
 __ptr64
 __restrict
 __stdcall
+__swift_1
+__swift_2
 __thiscall
 __unaligned
 __vectorcall
 `RTTI
+`anonymous namespace'
 `copy constructor closure'
 `default constructor closure'
 `dynamic atexit destructor for '
@@ -411,6 +421,7 @@ __vectorcall
 `vftable'
 `virtual displacement map'
 abcdefghijklmnopqrstuvwxyz
+bad exception
 c:\buildslave\hlvr_rel_win64\build\src\interfaces\interfaces.cpp
 c:\buildslave\hlvr_rel_win64\build\src\public\ordered_constructor.h
 c:\buildslave\hlvr_rel_win64\build\src\tier1\configvalue.cpp
@@ -425,6 +436,8 @@ mG4>
 n03>Pu
 operator
 operator "" 
+operator co_await
+operator<=>
 purecall
 r\tVr.>T
 restrict(

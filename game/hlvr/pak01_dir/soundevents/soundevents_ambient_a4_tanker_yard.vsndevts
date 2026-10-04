@@ -1,23 +1,24 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	AmbientA4TankerYard.SkullBreath = 
 	{
 		base = "AmbientCreepy.SkullBreath"
 		random_soundevent_01_name = "AmbientCreepy.SkullBreathChild"
-		random_soundevent_01_timer_min = 16.000000
-		random_soundevent_01_timer_max = 25.000000
+		random_soundevent_01_timer_min = 16.0
+		random_soundevent_01_timer_max = 25.0
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 1.000000
-		remap_global_opvar_01_to_vol_max = 0.000000
+		remap_global_opvar_01_to_vol_min = 1.0
+		remap_global_opvar_01_to_vol_max = 0.0
 	}
 	AmbientA4TankerYard.EvoMaraca = 
 	{
 		base = "AmbientCreepy.EvoMaraca"
 		random_soundevent_01_name = "AmbientCreepy.EvoMaracaChild"
-		random_soundevent_01_timer_min = 8.000000
-		random_soundevent_01_timer_max = 12.000000
+		random_soundevent_01_timer_min = 8.0
+		random_soundevent_01_timer_max = 12.0
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 1.000000
-		remap_global_opvar_01_to_vol_max = 0.000000
+		remap_global_opvar_01_to_vol_min = 1.0
+		remap_global_opvar_01_to_vol_max = 0.0
 	}
 	AmbientA4TankerYard.ClaustrophobicAddinLp = 
 	{
@@ -26,8 +27,8 @@
 		soundevent_02 = "AmbientA4TankerYard.ClaustrophobicAddinLp_R"
 		soundevent_03 = "AmbientA4TankerYard.ClaustrophobicAddinLp_LS"
 		soundevent_04 = "AmbientA4TankerYard.ClaustrophobicAddinLp_RS"
-		rand_delay_min = -5.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = -5.0
+		rand_delay_max = 0.0
 	}
 	AmbientA4TankerYard.ClaustrophobicAddinLp_L = 
 	{
@@ -36,39 +37,39 @@
 		vsnd_file_02 = "sounds/ambient/interior/amb_hotel_md_room_quad_lp_01_l.vsnd"
 		vsnd_vol_01 = "1.00"
 		vsnd_vol_02 = "0.27"
-		volume = 0.900000
-		global_opvar_filter_velocity = 2.000000
+		volume = 0.9
+		global_opvar_filter_velocity = 2.0
 		global_opvar_name_01 = "large_room_addin_beacon"
-		remap_vol_opvar_x1 = 0.000000
-		remap_vol_opvar_y1 = 0.100000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 0.800000
-		remap_filter_freq_opvar_x2 = 0.000000
-		remap_filter_freq_opvar_y2 = 0.800000
-		remap_filter_freq_opvar_x3 = 0.500000
-		remap_filter_freq_opvar_y3 = 0.900000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 1.000000
+		remap_vol_opvar_x1 = 0.0
+		remap_vol_opvar_y1 = 0.1
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 0.8
+		remap_filter_freq_opvar_x2 = 0.0
+		remap_filter_freq_opvar_y2 = 0.8
+		remap_filter_freq_opvar_x3 = 0.5
+		remap_filter_freq_opvar_y3 = 0.9
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 1.0
 	}
 	AmbientA4TankerYard.ClaustrophobicAddinLp_R = 
 	{
 		base = "AmbientA4TankerYard.ClaustrophobicAddinLp_L"
 		vsnd_file_01 = "sounds/ambient/interior/amb_hotel_attic_lp_01_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_hotel_md_room_quad_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA4TankerYard.ClaustrophobicAddinLp_LS = 
 	{
 		base = "AmbientA4TankerYard.ClaustrophobicAddinLp_L"
 		vsnd_file_01 = "sounds/ambient/interior/amb_hotel_attic_lp_01_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_hotel_md_room_quad_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA4TankerYard.ClaustrophobicAddinLp_RS = 
 	{
 		base = "AmbientA4TankerYard.ClaustrophobicAddinLp_L"
 		vsnd_file_01 = "sounds/ambient/interior/amb_hotel_attic_lp_01_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_hotel_md_room_quad_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 }

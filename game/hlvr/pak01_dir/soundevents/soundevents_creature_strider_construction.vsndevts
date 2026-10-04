@@ -1,17 +1,18 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	ConstructionStrider.Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
+		volume = 1.2
 		use_named_send = "loud"
-		volume_falloff_min = 600.000000
-		volume_falloff_max = 4000.000000
-		occlusion_radius = 200.000000
-		occlusion_max = 0.500000
-		occlusion_scale = 0.200000
-		ambient_ducking_pct = 0.300000
-		reverb_curve_max_distance = 4000.000000
-		use_hrtf = 1.000000
+		volume_falloff_min = 600.0
+		volume_falloff_max = 4000.0
+		occlusion_radius = 200.0
+		occlusion_max = 0.5
+		occlusion_scale = 0.2
+		ambient_ducking_pct = 0.3
+		reverb_curve_max_distance = 4000.0
+		use_hrtf = 1.0
 		mixgroup = "Strider"
 	}
 	ConstructionStrider.Intro_Footstep_Foreshadow_A = 
@@ -19,24 +20,24 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.FsDetail_VerySubtle"
 		soundevent_02 = "ConstructionStrider.FsLfe_Subtle"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Intro_Footstep_Foreshadow_B = 
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.FsDetail_Subtle"
 		soundevent_02 = "ConstructionStrider.FsLfe_Subtle"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Intro_Footstep_A = 
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Intro_Footstep_B = 
 	{
@@ -44,14 +45,14 @@
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
 		soundevent_03 = "ConstructionStrider.Intro_Footstep_B_Detail"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	ConstructionStrider.Intro_Footstep_B_Detail = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_intro/step_foreshadow.vsnd",
@@ -62,16 +63,16 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Intro_Footstep_D = 
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Intro_Footstep_E = 
 	{
@@ -80,10 +81,10 @@
 		soundevent_02 = "ConstructionStrider.FsLfe"
 		soundevent_03 = "ConstructionStrider.Intro_Footstep_E_Detail"
 		soundevent_04 = "ConstructionStrider.Intro_Footstep_E_Extras"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	ConstructionStrider.Intro_Footstep_E_Detail = 
 	{
@@ -98,14 +99,14 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.Intro_Footstep_E_Reverb"
 		soundevent_02 = "ConstructionStrider.Intro_Footstep_E_Rumble"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Intro_Footstep_E_Reverb = 
 	{
 		base = "ConstructionStrider.Base"
-		spread_min = 150.000000
-		spread_max = 1000.000000
+		spread_min = 150.0
+		spread_max = 1000.0
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_intro/step_balcony_reverb.vsnd",
@@ -114,9 +115,9 @@
 	ConstructionStrider.Intro_Footstep_E_Rumble = 
 	{
 		base = "ConstructionStrider.Base"
-		use_hrtf = 0.000000
-		spread_min = 150.000000
-		spread_max = 1000.000000
+		use_hrtf = 0.0
+		spread_min = 150.0
+		spread_max = 1000.0
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/steps/deep_step_long.vsnd",
@@ -127,8 +128,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.FsDetail_Subtle"
 		soundevent_02 = "ConstructionStrider.FsLfe_Subtle"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Intro_Footstep_G = 
 	{
@@ -136,14 +137,14 @@
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
 		soundevent_03 = "ConstructionStrider.Intro_Footstep_G_Detail"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	ConstructionStrider.Intro_Footstep_G_Detail = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.900000
+		volume = 0.9
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_intro/step_detail_01.vsnd",
@@ -155,14 +156,14 @@
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
 		soundevent_03 = "ConstructionStrider.Intro_Footstep_H_Detail"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	ConstructionStrider.Intro_Footstep_H_Detail = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.900000
+		volume = 0.9
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_intro/step_detail_02.vsnd",
@@ -180,14 +181,14 @@
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
 		soundevent_03 = "ConstructionStrider.Intro_Footstep_J_Detail"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	ConstructionStrider.Intro_Footstep_J_Detail = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 1.200000
+		volume = 1.2
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_intro/step_detail_03.vsnd",
@@ -198,16 +199,16 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Intro_Footstep_L = 
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Intro_Footstep_M = 
 	{
@@ -215,14 +216,14 @@
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
 		soundevent_03 = "ConstructionStrider.Intro_Footstep_M_Detail"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	ConstructionStrider.Intro_Footstep_M_Detail = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 1.200000
+		volume = 1.2
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_intro/step_detail_04.vsnd",
@@ -233,8 +234,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Intro_Footstep_O = 
 	{
@@ -242,14 +243,14 @@
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
 		soundevent_03 = "ConstructionStrider.Intro_Footstep_O_Detail"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	ConstructionStrider.Intro_Footstep_O_Detail = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 1.100000
+		volume = 1.1
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_intro/step_detail_05.vsnd",
@@ -260,16 +261,16 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.FsDetail_Subtle"
 		soundevent_02 = "ConstructionStrider.FsLfe"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Intro_Balcony_Step_Whoosh_In = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 1.200000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 2500.000000
-		occlusion_scale = 0.300000
+		volume = 1.2
+		volume_falloff_min = 400.0
+		volume_falloff_max = 2500.0
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_intro/step_balcony_whoosh_in.vsnd",
@@ -278,9 +279,9 @@
 	ConstructionStrider.Intro_Balcony_Step_Whoosh_Out = 
 	{
 		base = "ConstructionStrider.Base"
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 2500.000000
-		occlusion_scale = 0.300000
+		volume_falloff_min = 400.0
+		volume_falloff_max = 2500.0
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_intro/step_balcony_whoosh_out.vsnd",
@@ -289,7 +290,7 @@
 	ConstructionStrider.Intro_Cable_Drop = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 1.200000
+		volume = 1.2
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_intro/cable_drop.vsnd",
@@ -300,8 +301,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.Intro_Cable_Impact_Core"
 		soundevent_02 = "ConstructionStrider.Intro_Cable_Impact_Layer"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Intro_Cable_Impact_Core = 
 	{
@@ -322,8 +323,8 @@
 	ConstructionStrider.Intro_Movement_A = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.800000
-		occlusion_scale = 0.300000
+		volume = 0.8
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/movement/move_06.vsnd",
@@ -332,8 +333,8 @@
 	ConstructionStrider.Intro_Movement_B = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 1.200000
-		occlusion_scale = 0.300000
+		volume = 1.2
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/movement/move_03.vsnd",
@@ -342,8 +343,8 @@
 	ConstructionStrider.Intro_Movement_C = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.700000
-		occlusion_scale = 0.300000
+		volume = 0.7
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/movement/move_07.vsnd",
@@ -352,8 +353,8 @@
 	ConstructionStrider.Intro_Movement_D = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.900000
-		occlusion_scale = 0.300000
+		volume = 0.9
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/movement/move_02.vsnd",
@@ -362,8 +363,8 @@
 	ConstructionStrider.Intro_Movement_E = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.700000
-		occlusion_scale = 0.300000
+		volume = 0.7
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/movement/move_04.vsnd",
@@ -372,8 +373,8 @@
 	ConstructionStrider.Intro_Movement_F = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.900000
-		occlusion_scale = 0.300000
+		volume = 0.9
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/movement/move_05.vsnd",
@@ -384,8 +385,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.Intro_Vox_A_Dry"
 		soundevent_02 = "ConstructionStrider.Intro_Vox_A_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Intro_Vox_A_Dry = 
 	{
@@ -398,7 +399,7 @@
 	ConstructionStrider.Intro_Vox_A_Wet = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_intro/vox_a_wet.vsnd",
@@ -409,8 +410,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.Intro_Vox_B_Dry"
 		soundevent_02 = "ConstructionStrider.Intro_Vox_B_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Intro_Vox_B_Dry = 
 	{
@@ -423,7 +424,7 @@
 	ConstructionStrider.Intro_Vox_B_Wet = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_intro/vox_b_wet.vsnd",
@@ -434,8 +435,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.Intro_Vox_C_Dry"
 		soundevent_02 = "ConstructionStrider.Intro_Vox_C_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Intro_Vox_C_Dry = 
 	{
@@ -448,7 +449,7 @@
 	ConstructionStrider.Intro_Vox_C_Wet = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_intro/vox_c_wet.vsnd",
@@ -459,8 +460,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.Intro_Vox_D_Dry"
 		soundevent_02 = "ConstructionStrider.Intro_Vox_D_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Intro_Vox_D_Dry = 
 	{
@@ -473,7 +474,7 @@
 	ConstructionStrider.Intro_Vox_D_Wet = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_intro/vox_d_wet.vsnd",
@@ -484,8 +485,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.Intro_Vox_E_Dry"
 		soundevent_02 = "ConstructionStrider.Intro_Vox_E_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Intro_Vox_E_Dry = 
 	{
@@ -498,7 +499,7 @@
 	ConstructionStrider.Intro_Vox_E_Wet = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_intro/vox_e_wet.vsnd",
@@ -509,8 +510,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.Intro_Vox_F_Dry"
 		soundevent_02 = "ConstructionStrider.Intro_Vox_F_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Intro_Vox_F_Dry = 
 	{
@@ -523,7 +524,7 @@
 	ConstructionStrider.Intro_Vox_F_Wet = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_intro/vox_f_wet.vsnd",
@@ -534,8 +535,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.Intro_Vox_G_Dry"
 		soundevent_02 = "ConstructionStrider.Intro_Vox_G_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Intro_Vox_G_Dry = 
 	{
@@ -556,7 +557,7 @@
 	ConstructionStrider.Intro_Detail_Descend = 
 	{
 		base = "ConstructionStrider.Base"
-		occlusion_scale = 0.300000
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_intro/detail_descend.vsnd",
@@ -565,8 +566,8 @@
 	ConstructionStrider.Intro_Detail_Reveal = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 1.100000
-		occlusion_scale = 0.300000
+		volume = 1.1
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_intro/detail_reveal.vsnd",
@@ -575,7 +576,7 @@
 	ConstructionStrider.Intro_Detail_Stretch_01 = 
 	{
 		base = "ConstructionStrider.Base"
-		occlusion_scale = 0.500000
+		occlusion_scale = 0.5
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_intro/detail_stretch_01.vsnd",
@@ -584,7 +585,7 @@
 	ConstructionStrider.Intro_Detail_Stretch_02 = 
 	{
 		base = "ConstructionStrider.Base"
-		occlusion_scale = 0.500000
+		occlusion_scale = 0.5
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_intro/detail_stretch_02.vsnd",
@@ -593,7 +594,7 @@
 	ConstructionStrider.Intro_Detail_Stride = 
 	{
 		base = "ConstructionStrider.Base"
-		occlusion_scale = 0.500000
+		occlusion_scale = 0.5
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_intro/detail_stride.vsnd",
@@ -602,9 +603,9 @@
 	ConstructionStrider.Intro_Walkaway = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 1.000000
-		occlusion_max = 0.500000
-		occlusion_scale = 0.300000
+		volume = 1.0
+		occlusion_max = 0.5
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_intro/walk_off.vsnd",
@@ -615,24 +616,24 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.FsDetail_VerySubtle"
 		soundevent_02 = "ConstructionStrider.FsLfe_Subtle"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Passby_Footstep_Foreshadow_B = 
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.FsDetail_Subtle"
 		soundevent_02 = "ConstructionStrider.FsLfe_Subtle"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Passby_Footstep_A = 
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.FsDetail_Subtle"
 		soundevent_02 = "ConstructionStrider.FsLfe"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Passby_Footstep_B = 
 	{
@@ -640,14 +641,14 @@
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
 		soundevent_03 = "ConstructionStrider.Passby_Footstep_B_Detail"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	ConstructionStrider.Passby_Footstep_B_Detail = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/step_foreshadow.vsnd",
@@ -658,8 +659,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Passby_Footstep_D = 
 	{
@@ -667,14 +668,14 @@
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
 		soundevent_03 = "ConstructionStrider.Passby_Footstep_D_Detail"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	ConstructionStrider.Passby_Footstep_D_Detail = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/step_roof_01.vsnd",
@@ -686,14 +687,14 @@
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
 		soundevent_03 = "ConstructionStrider.Passby_Footstep_E_Detail"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	ConstructionStrider.Passby_Footstep_E_Detail = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/step_roof_02.vsnd",
@@ -705,14 +706,14 @@
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
 		soundevent_03 = "ConstructionStrider.Passby_Footstep_F_Detail"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	ConstructionStrider.Passby_Footstep_F_Detail = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/step_roof_03.vsnd",
@@ -724,14 +725,14 @@
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
 		soundevent_03 = "ConstructionStrider.Passby_Footstep_G_Detail"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	ConstructionStrider.Passby_Footstep_G_Detail = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/step_building.vsnd",
@@ -740,7 +741,7 @@
 	ConstructionStrider.Passby_Footstep_G_Rumble = 
 	{
 		base = "ConstructionStrider.Base"
-		use_hrtf = 0.000000
+		use_hrtf = 0.0
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/steps/deep_step_short.vsnd",
@@ -752,14 +753,14 @@
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
 		soundevent_03 = "ConstructionStrider.Passby_Footstep_H_Detail"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	ConstructionStrider.Passby_Footstep_H_Detail = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/step_down_01.vsnd",
@@ -771,14 +772,14 @@
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
 		soundevent_03 = "ConstructionStrider.Passby_Footstep_I_Detail"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	ConstructionStrider.Passby_Footstep_I_Detail = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/step_down_02.vsnd",
@@ -790,14 +791,14 @@
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
 		soundevent_03 = "ConstructionStrider.Passby_Footstep_J_Detail"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	ConstructionStrider.Passby_Footstep_J_Detail = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/step_detail_01.vsnd",
@@ -810,15 +811,15 @@
 		soundevent_02 = "ConstructionStrider.FsLfe"
 		soundevent_03 = "ConstructionStrider.Passby_Footstep_K_Detail"
 		soundevent_04 = "ConstructionStrider.Passby_Footstep_K_Rumble"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	ConstructionStrider.Passby_Footstep_K_Detail = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.900000
+		volume = 0.9
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/step_railing.vsnd",
@@ -827,9 +828,9 @@
 	ConstructionStrider.Passby_Footstep_K_Rumble = 
 	{
 		base = "ConstructionStrider.Base"
-		spread_min = 150.000000
-		spread_max = 1000.000000
-		use_hrtf = 0.000000
+		spread_min = 150.0
+		spread_max = 1000.0
+		use_hrtf = 0.0
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/steps/deep_step_long.vsnd",
@@ -840,8 +841,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.FsDetail_Subtle"
 		soundevent_02 = "ConstructionStrider.FsLfe_Subtle"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Passby_Footstep_M = 
 	{
@@ -849,14 +850,14 @@
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
 		soundevent_03 = "ConstructionStrider.Passby_Footstep_M_Detail"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	ConstructionStrider.Passby_Footstep_M_Detail = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/step_detail_02.vsnd",
@@ -868,14 +869,14 @@
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
 		soundevent_03 = "ConstructionStrider.Passby_Footstep_N_Detail"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	ConstructionStrider.Passby_Footstep_N_Detail = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.650000
+		volume = 0.65
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/step_detail_03.vsnd",
@@ -887,14 +888,14 @@
 		soundevent_01 = "ConstructionStrider.FsDetail_Subtle"
 		soundevent_02 = "ConstructionStrider.FsLfe"
 		soundevent_03 = "ConstructionStrider.Passby_Footstep_O_Detail"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	ConstructionStrider.Passby_Footstep_O_Detail = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.550000
+		volume = 0.55
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/step_detail_04.vsnd",
@@ -906,14 +907,14 @@
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
 		soundevent_03 = "ConstructionStrider.Passby_Footstep_P_Detail"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	ConstructionStrider.Passby_Footstep_P_Detail = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/step_up_left.vsnd",
@@ -925,14 +926,14 @@
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
 		soundevent_03 = "ConstructionStrider.Passby_Footstep_Q_Detail"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	ConstructionStrider.Passby_Footstep_Q_Detail = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/step_up_right.vsnd",
@@ -944,14 +945,14 @@
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
 		soundevent_03 = "ConstructionStrider.Passby_Footstep_R_Detail"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	ConstructionStrider.Passby_Footstep_R_Detail = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.850000
+		volume = 0.85
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/step_detail_05.vsnd",
@@ -962,40 +963,40 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.FsDetail_Subtle"
 		soundevent_02 = "ConstructionStrider.FsLfe_Subtle"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Passby_Footstep_T = 
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Passby_Footstep_U = 
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.FsDetail_Subtle"
 		soundevent_02 = "ConstructionStrider.FsLfe_Subtle"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Passby_Footstep_V = 
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.FsDetail_VerySubtle"
 		soundevent_02 = "ConstructionStrider.FsLfe_Subtle"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Passby_Railing_Step_Whoosh_In = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 1.000000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 2500.000000
-		occlusion_scale = 0.300000
+		volume = 1.0
+		volume_falloff_min = 400.0
+		volume_falloff_max = 2500.0
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/step_railing_whoosh_in.vsnd",
@@ -1004,10 +1005,10 @@
 	ConstructionStrider.Passby_Railing_Step_Whoosh_Out = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.900000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 2500.000000
-		occlusion_scale = 0.300000
+		volume = 0.9
+		volume_falloff_min = 400.0
+		volume_falloff_max = 2500.0
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/step_railing_whoosh_out.vsnd",
@@ -1016,10 +1017,10 @@
 	ConstructionStrider.Passby_Step_Up_Whoosh = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.700000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 2500.000000
-		occlusion_scale = 0.300000
+		volume = 0.7
+		volume_falloff_min = 400.0
+		volume_falloff_max = 2500.0
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/step_up_right_whoosh.vsnd",
@@ -1028,8 +1029,8 @@
 	ConstructionStrider.Passby_Movement_A = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.700000
-		occlusion_scale = 0.300000
+		volume = 0.7
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/movement/move_10.vsnd",
@@ -1038,8 +1039,8 @@
 	ConstructionStrider.Passby_Movement_B = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.500000
-		occlusion_scale = 0.300000
+		volume = 0.5
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/movement/move_04.vsnd",
@@ -1048,8 +1049,8 @@
 	ConstructionStrider.Passby_Movement_C = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.700000
-		occlusion_scale = 0.300000
+		volume = 0.7
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/movement/move_08.vsnd",
@@ -1058,8 +1059,8 @@
 	ConstructionStrider.Passby_Movement_D = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.700000
-		occlusion_scale = 0.300000
+		volume = 0.7
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/movement/move_01.vsnd",
@@ -1068,8 +1069,8 @@
 	ConstructionStrider.Passby_Movement_E = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 1.000000
-		occlusion_scale = 0.300000
+		volume = 1.0
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/movement/move_02.vsnd",
@@ -1078,8 +1079,8 @@
 	ConstructionStrider.Passby_Movement_F = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.850000
-		occlusion_scale = 0.300000
+		volume = 0.85
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/movement/move_09.vsnd",
@@ -1088,8 +1089,8 @@
 	ConstructionStrider.Passby_Movement_G = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.600000
-		occlusion_scale = 0.300000
+		volume = 0.6
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/movement/move_05.vsnd",
@@ -1098,8 +1099,8 @@
 	ConstructionStrider.Passby_Movement_H = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.900000
-		occlusion_scale = 0.300000
+		volume = 0.9
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/movement/move_07.vsnd",
@@ -1110,8 +1111,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.Passby_Vox_A_Dry"
 		soundevent_02 = "ConstructionStrider.Passby_Vox_A_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Passby_Vox_A_Dry = 
 	{
@@ -1124,7 +1125,7 @@
 	ConstructionStrider.Passby_Vox_A_Wet = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/vox_a_wet.vsnd",
@@ -1135,8 +1136,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.Passby_Vox_B_Dry"
 		soundevent_02 = "ConstructionStrider.Passby_Vox_B_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Passby_Vox_B_Dry = 
 	{
@@ -1149,7 +1150,7 @@
 	ConstructionStrider.Passby_Vox_B_Wet = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/vox_b_wet.vsnd",
@@ -1160,8 +1161,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.Passby_Vox_C_Dry"
 		soundevent_02 = "ConstructionStrider.Passby_Vox_C_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Passby_Vox_C_Dry = 
 	{
@@ -1174,7 +1175,7 @@
 	ConstructionStrider.Passby_Vox_C_Wet = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/vox_c_wet.vsnd",
@@ -1185,8 +1186,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.Passby_Vox_D_Dry"
 		soundevent_02 = "ConstructionStrider.Passby_Vox_D_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Passby_Vox_D_Dry = 
 	{
@@ -1199,7 +1200,7 @@
 	ConstructionStrider.Passby_Vox_D_Wet = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/vox_d_wet.vsnd",
@@ -1210,13 +1211,13 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.Passby_Vox_E_Dry"
 		soundevent_02 = "ConstructionStrider.Passby_Vox_E_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Passby_Vox_E_Dry = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/vox_e_dry.vsnd",
@@ -1225,7 +1226,7 @@
 	ConstructionStrider.Passby_Vox_E_Wet = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/vox_e_wet.vsnd",
@@ -1236,13 +1237,13 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.Passby_Vox_F_Dry"
 		soundevent_02 = "ConstructionStrider.Passby_Vox_F_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Passby_Vox_F_Dry = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/vox_f_dry.vsnd",
@@ -1251,7 +1252,7 @@
 	ConstructionStrider.Passby_Vox_F_Wet = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/vox_f_wet.vsnd",
@@ -1262,13 +1263,13 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.Passby_Vox_G_Dry"
 		soundevent_02 = "ConstructionStrider.Passby_Vox_G_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.Passby_Vox_G_Dry = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/vox_g_dry.vsnd",
@@ -1285,7 +1286,7 @@
 	ConstructionStrider.Passby_Detail_Leave_01 = 
 	{
 		base = "ConstructionStrider.Base"
-		occlusion_scale = 0.300000
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/detail_leave_01.vsnd",
@@ -1294,7 +1295,7 @@
 	ConstructionStrider.Passby_Detail_Leave_02 = 
 	{
 		base = "ConstructionStrider.Base"
-		occlusion_scale = 0.300000
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/detail_leave_02.vsnd",
@@ -1303,7 +1304,7 @@
 	ConstructionStrider.Passby_Detail_Leave_03 = 
 	{
 		base = "ConstructionStrider.Base"
-		occlusion_scale = 0.300000
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/detail_leave_03.vsnd",
@@ -1312,7 +1313,7 @@
 	ConstructionStrider.Passby_Detail_Reveal = 
 	{
 		base = "ConstructionStrider.Base"
-		occlusion_scale = 0.200000
+		occlusion_scale = 0.2
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/detail_reveal.vsnd",
@@ -1321,7 +1322,7 @@
 	ConstructionStrider.Passby_Detail_Rise = 
 	{
 		base = "ConstructionStrider.Base"
-		occlusion_scale = 0.300000
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/detail_rise.vsnd",
@@ -1330,7 +1331,7 @@
 	ConstructionStrider.Passby_Detail_Sit = 
 	{
 		base = "ConstructionStrider.Base"
-		occlusion_scale = 0.300000
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/detail_sit.vsnd",
@@ -1339,7 +1340,7 @@
 	ConstructionStrider.Passby_Detail_Stretch = 
 	{
 		base = "ConstructionStrider.Base"
-		occlusion_scale = 0.300000
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/detail_stretch.vsnd",
@@ -1349,8 +1350,8 @@
 	{
 		base = "ConstructionStrider.Base"
 		use_named_send = "main"
-		occlusion_max = 0.500000
-		occlusion_scale = 0.300000
+		occlusion_max = 0.5
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_passby/walk_off.vsnd",
@@ -1361,14 +1362,14 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ConstructionStrider.FsDetail"
 		soundevent_02 = "ConstructionStrider.FsLfe"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ConstructionStrider.FsDetail = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 1.100000
-		occlusion_scale = 0.300000
+		volume = 1.1
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/steps/construction_step_01.vsnd",
@@ -1381,8 +1382,8 @@
 	ConstructionStrider.FsDetail_Subtle = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.800000
-		occlusion_scale = 0.300000
+		volume = 0.8
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/steps/construction_step_01.vsnd",
@@ -1395,8 +1396,8 @@
 	ConstructionStrider.FsDetail_VerySubtle = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.600000
-		occlusion_scale = 0.600000
+		volume = 0.6
+		occlusion_scale = 0.6
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/steps/construction_step_01.vsnd",
@@ -1409,8 +1410,8 @@
 	ConstructionStrider.FsLfe = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 1.100000
-		occlusion_scale = 0.100000
+		volume = 1.1
+		occlusion_scale = 0.1
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/steps/step_lfe_01.vsnd",
@@ -1422,8 +1423,8 @@
 	ConstructionStrider.FsLfe_Subtle = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.800000
-		occlusion_scale = 0.100000
+		volume = 0.8
+		occlusion_scale = 0.1
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/steps/step_lfe_01.vsnd",
@@ -1435,8 +1436,8 @@
 	ConstructionStrider.Movement = 
 	{
 		base = "ConstructionStrider.Base"
-		volume = 0.700000
-		occlusion_scale = 0.300000
+		volume = 0.7
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/movement/move_01.vsnd",
@@ -1454,14 +1455,14 @@
 	ConstructionStrider.Vista_Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 2500.000000
-		volume_falloff_max = 6000.000000
-		occlusion_radius = 200.000000
-		occlusion_max = 0.500000
-		occlusion_scale = 0.500000
-		reverb_curve_max_distance = 8000.000000
-		use_hrtf = 1.000000
+		volume = 1.2
+		volume_falloff_min = 2500.0
+		volume_falloff_max = 6000.0
+		occlusion_radius = 200.0
+		occlusion_max = 0.5
+		occlusion_scale = 0.5
+		reverb_curve_max_distance = 8000.0
+		use_hrtf = 1.0
 		mixgroup = "Strider"
 	}
 	ConstructionStrider.Vista_Vox_Exit = 
@@ -1521,7 +1522,7 @@
 	ConstructionStrider.Vista_Weld = 
 	{
 		base = "ConstructionStrider.Vista_Base"
-		volume = 0.950000
+		volume = 0.95
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/seq_vista/weld_01.vsnd",
@@ -1531,14 +1532,14 @@
 	ConstructionStrider.Vista_Step = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		volume_falloff_min = 2500.000000
-		volume_falloff_max = 6000.000000
-		occlusion_radius = 200.000000
-		occlusion_max = 0.500000
-		occlusion_scale = 0.500000
-		reverb_curve_max_distance = 8000.000000
-		use_hrtf = 1.000000
+		volume = 0.9
+		volume_falloff_min = 2500.0
+		volume_falloff_max = 6000.0
+		occlusion_radius = 200.0
+		occlusion_max = 0.5
+		occlusion_scale = 0.5
+		reverb_curve_max_distance = 8000.0
+		use_hrtf = 1.0
 		mixgroup = "Strider"
 		vsnd_files = 
 		[
@@ -1552,14 +1553,14 @@
 	ConstructionStrider.Vista_Step_Subtle = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		volume_falloff_min = 2500.000000
-		volume_falloff_max = 6000.000000
-		occlusion_radius = 200.000000
-		occlusion_max = 0.500000
-		occlusion_scale = 0.500000
-		reverb_curve_max_distance = 8000.000000
-		use_hrtf = 1.000000
+		volume = 0.75
+		volume_falloff_min = 2500.0
+		volume_falloff_max = 6000.0
+		occlusion_radius = 200.0
+		occlusion_max = 0.5
+		occlusion_scale = 0.5
+		reverb_curve_max_distance = 8000.0
+		use_hrtf = 1.0
 		mixgroup = "Strider"
 		vsnd_files = 
 		[

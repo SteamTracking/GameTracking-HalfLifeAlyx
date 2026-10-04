@@ -1,20 +1,21 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Music.ext_med_cables_active_l = 
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "World"
-		volume = 1.000000
-		volume_falloff_min = 7000.000000
-		volume_falloff_max = 10000.000000
-		use_hrtf = 1.000000
-		enable_debug_radius = 0.000000
+		volume = 1.0
+		volume_falloff_min = 7000.0
+		volume_falloff_max = 10000.0
+		use_hrtf = 1.0
+		enable_debug_radius = 0.0
 		use_named_send = "main"
-		reverb_use_curve = 0.000000
-		reverb_xfade_value = 0.000000
-		distance_max_velocity = 100.000000
-		occlusion_scale = 0.400000
-		volume_fade_in = 5.500000
-		volume_fade_out = 2.400000
+		reverb_use_curve = 0.0
+		reverb_xfade_value = 0.0
+		distance_max_velocity = 100.0
+		occlusion_scale = 0.4
+		volume_fade_in = 5.5
+		volume_fade_out = 2.4
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/ext_cables_active_l.vsnd",
@@ -23,24 +24,24 @@
 	Music.ext_med_cables_active_l_2 = 
 	{
 		base = "Music.ext_med_cables_active_l"
-		delay = -76.800000
+		delay = -76.8
 	}
 	Music.ext_med_cables_active_r = 
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "World"
-		volume = 0.750000
-		volume_falloff_min = 7500.000000
-		volume_falloff_max = 10000.000000
-		use_hrtf = 1.000000
+		volume = 0.75
+		volume_falloff_min = 7500.0
+		volume_falloff_max = 10000.0
+		use_hrtf = 1.0
 		use_named_send = "main"
-		reverb_use_curve = 0.000000
-		reverb_xfade_value = 0.000000
-		enable_debug_radius = 0.000000
-		distance_max_velocity = 100.000000
-		volume_fade_out = 2.400000
-		volume_fade_in = 5.500000
-		occlusion_scale = 0.400000
+		reverb_use_curve = 0.0
+		reverb_xfade_value = 0.0
+		enable_debug_radius = 0.0
+		distance_max_velocity = 100.0
+		volume_fade_out = 2.4
+		volume_fade_in = 5.5
+		occlusion_scale = 0.4
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/ext_cables_active_r.vsnd",
@@ -49,7 +50,7 @@
 	Music.ext_med_cables_active_r_2 = 
 	{
 		base = "Music.ext_med_cables_active_r"
-		delay = -76.800000
+		delay = -76.8
 	}
 	Music.ext_med_cables_active_ls = 
 	{
@@ -62,7 +63,7 @@
 	Music.ext_med_cables_active_ls_2 = 
 	{
 		base = "Music.ext_med_cables_active_ls"
-		delay = -76.800000
+		delay = -76.8
 	}
 	Music.ext_med_cables_active_rs = 
 	{
@@ -75,7 +76,7 @@
 	Music.ext_med_cables_active_rs_2 = 
 	{
 		base = "Music.ext_med_cables_active_rs"
-		delay = -76.800000
+		delay = -76.8
 	}
 	Music.ext_med_cables_active = 
 	{
@@ -84,10 +85,10 @@
 		soundevent_02 = "Music.ext_med_cables_active_r"
 		soundevent_03 = "Music.ext_med_cables_active_ls"
 		soundevent_04 = "Music.ext_med_cables_active_rs"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	Music.ext_med_cables_active_2 = 
 	{
@@ -96,27 +97,27 @@
 		soundevent_02 = "Music.ext_med_cables_active_r_2"
 		soundevent_03 = "Music.ext_med_cables_active_ls_2"
 		soundevent_04 = "Music.ext_med_cables_active_rs_2"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	Music.ext_med_cables_static_l = 
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "World"
-		volume = 1.000000
-		volume_falloff_min = 7000.000000
-		volume_falloff_max = 10000.000000
-		use_hrtf = 1.000000
-		enable_debug_radius = 0.000000
+		volume = 1.0
+		volume_falloff_min = 7000.0
+		volume_falloff_max = 10000.0
+		use_hrtf = 1.0
+		enable_debug_radius = 0.0
 		use_named_send = "main"
-		reverb_use_curve = 0.000000
-		reverb_xfade_value = 0.000000
-		distance_max_velocity = 100.000000
-		occlusion_scale = 0.400000
-		volume_fade_in = 1.000000
-		volume_fade_out = 2.400000
+		reverb_use_curve = 0.0
+		reverb_xfade_value = 0.0
+		distance_max_velocity = 100.0
+		occlusion_scale = 0.4
+		volume_fade_in = 1.0
+		volume_fade_out = 2.4
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/ext_cables_static_l.vsnd",
@@ -126,18 +127,18 @@
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "World"
-		volume = 0.750000
-		volume_falloff_min = 7500.000000
-		volume_falloff_max = 10000.000000
-		use_hrtf = 1.000000
+		volume = 0.75
+		volume_falloff_min = 7500.0
+		volume_falloff_max = 10000.0
+		use_hrtf = 1.0
 		use_named_send = "main"
-		reverb_use_curve = 0.000000
-		reverb_xfade_value = 0.000000
-		enable_debug_radius = 0.000000
-		distance_max_velocity = 100.000000
-		volume_fade_out = 2.400000
-		volume_fade_in = 1.000000
-		occlusion_scale = 0.400000
+		reverb_use_curve = 0.0
+		reverb_xfade_value = 0.0
+		enable_debug_radius = 0.0
+		distance_max_velocity = 100.0
+		volume_fade_out = 2.4
+		volume_fade_in = 1.0
+		occlusion_scale = 0.4
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/ext_cables_static_r.vsnd",
@@ -166,26 +167,26 @@
 		soundevent_02 = "Music.ext_med_cables_static_r"
 		soundevent_03 = "Music.ext_med_cables_static_ls"
 		soundevent_04 = "Music.ext_med_cables_static_rs"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	Music.ext_med_cables_pulse_l = 
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "World"
-		volume = 1.000000
-		volume_falloff_min = 7000.000000
-		volume_falloff_max = 10000.000000
-		use_hrtf = 1.000000
-		enable_debug_radius = 0.000000
+		volume = 1.0
+		volume_falloff_min = 7000.0
+		volume_falloff_max = 10000.0
+		use_hrtf = 1.0
+		enable_debug_radius = 0.0
 		use_named_send = "main"
-		reverb_use_curve = 0.000000
-		reverb_xfade_value = 0.000000
-		distance_max_velocity = 100.000000
-		occlusion_scale = 0.400000
-		volume_fade_in = 0.700000
+		reverb_use_curve = 0.0
+		reverb_xfade_value = 0.0
+		distance_max_velocity = 100.0
+		occlusion_scale = 0.4
+		volume_fade_in = 0.7
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/ext_cables_pulse_l.vsnd",
@@ -195,18 +196,18 @@
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "World"
-		volume = 0.750000
-		volume_falloff_min = 7500.000000
-		volume_falloff_max = 10000.000000
-		use_hrtf = 1.000000
+		volume = 0.75
+		volume_falloff_min = 7500.0
+		volume_falloff_max = 10000.0
+		use_hrtf = 1.0
 		use_named_send = "main"
-		reverb_use_curve = 0.000000
-		reverb_xfade_value = 0.000000
-		enable_debug_radius = 0.000000
-		distance_max_velocity = 100.000000
-		volume_fade_out = 0.000000
-		volume_fade_in = 0.000000
-		occlusion_scale = 0.400000
+		reverb_use_curve = 0.0
+		reverb_xfade_value = 0.0
+		enable_debug_radius = 0.0
+		distance_max_velocity = 100.0
+		volume_fade_out = 0.0
+		volume_fade_in = 0.0
+		occlusion_scale = 0.4
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/ext_cables_pulse_r.vsnd",
@@ -235,25 +236,25 @@
 		soundevent_02 = "Music.ext_med_cables_pulse_r"
 		soundevent_03 = "Music.ext_med_cables_pulse_ls"
 		soundevent_04 = "Music.ext_med_cables_pulse_rs"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	Music.ext_med_cables_blast_l = 
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "World"
-		volume = 1.000000
-		volume_falloff_min = 8000.000000
-		volume_falloff_max = 14000.000000
-		use_hrtf = 1.000000
-		enable_debug_radius = 0.000000
+		volume = 1.0
+		volume_falloff_min = 8000.0
+		volume_falloff_max = 14000.0
+		use_hrtf = 1.0
+		enable_debug_radius = 0.0
 		use_named_send = "main"
-		reverb_use_curve = 0.000000
-		reverb_xfade_value = 0.000000
-		distance_max_velocity = 100.000000
-		occlusion_scale = 0.200000
+		reverb_use_curve = 0.0
+		reverb_xfade_value = 0.0
+		distance_max_velocity = 100.0
+		occlusion_scale = 0.2
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/cables_blast_l.vsnd",
@@ -270,9 +271,9 @@
 	Music.ext_med_cables_blast_ls = 
 	{
 		base = "Music.ext_med_cables_blast_l"
-		volume = 1.500000
-		volume_falloff_min = 8000.000000
-		volume_falloff_max = 15000.000000
+		volume = 1.5
+		volume_falloff_min = 8000.0
+		volume_falloff_max = 15000.0
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/cables_blast_ls.vsnd",
@@ -293,47 +294,37 @@
 		soundevent_02 = "Music.ext_med_cables_blast_r"
 		soundevent_03 = "Music.ext_med_cables_blast_ls"
 		soundevent_04 = "Music.ext_med_cables_blast_rs"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	Music.ext_med_cables_travel_1 = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 1.200000
-		volume_falloff_min = 4200.000000
-		volume_falloff_max = 12000.000000
-		enable_debug_radius = 0.000000
-		use_doppler = 1.000000
-		doppler_factor = 2.000000
-		doppler_factor_receding = 2.000000
-		volume_fade_in = 4.000000
-		volume_fade_out = 4.000000
+		use_hrtf = 1.0
+		volume = 1.2
+		volume_falloff_min = 4200.0
+		volume_falloff_max = 12000.0
+		enable_debug_radius = 0.0
+		use_doppler = 1.0
+		doppler_factor = 2.0
+		doppler_factor_receding = 2.0
+		volume_fade_in = 4.0
+		volume_fade_out = 4.0
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/cable_1_hacked.vsnd",
 		]
 		reverb_falloff_curve = 
 		[
-			
 			[
-				0.005714,
-				0.300000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.005714, 0.3, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.227125,
-				0.227125,
-				2.000000,
-				3.000000,
+				1.0, 1.0, 0.227125, 0.227125,
+				2.0, 3.0,
 			],
 		]
 	}
@@ -341,17 +332,17 @@
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "LoudMusic"
-		volume = 1.000000
-		volume_falloff_min = 7000.000000
-		volume_falloff_max = 10000.000000
-		use_hrtf = 1.000000
-		enable_debug_radius = 0.000000
+		volume = 1.0
+		volume_falloff_min = 7000.0
+		volume_falloff_max = 10000.0
+		use_hrtf = 1.0
+		enable_debug_radius = 0.0
 		use_named_send = "main"
-		reverb_use_curve = 0.000000
-		reverb_xfade_value = 0.000000
-		distance_max_velocity = 100.000000
-		occlusion_scale = 0.400000
-		volume_fade_in = 0.700000
+		reverb_use_curve = 0.0
+		reverb_xfade_value = 0.0
+		distance_max_velocity = 100.0
+		occlusion_scale = 0.4
+		volume_fade_in = 0.7
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/cables_pulse_layer_l.vsnd",
@@ -361,18 +352,18 @@
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "LoudMusic"
-		volume = 0.750000
-		volume_falloff_min = 7500.000000
-		volume_falloff_max = 10000.000000
-		use_hrtf = 1.000000
+		volume = 0.75
+		volume_falloff_min = 7500.0
+		volume_falloff_max = 10000.0
+		use_hrtf = 1.0
 		use_named_send = "main"
-		reverb_use_curve = 0.000000
-		reverb_xfade_value = 0.000000
-		enable_debug_radius = 0.000000
-		distance_max_velocity = 100.000000
-		volume_fade_out = 0.000000
-		volume_fade_in = 0.000000
-		occlusion_scale = 0.400000
+		reverb_use_curve = 0.0
+		reverb_xfade_value = 0.0
+		enable_debug_radius = 0.0
+		distance_max_velocity = 100.0
+		volume_fade_out = 0.0
+		volume_fade_in = 0.0
+		occlusion_scale = 0.4
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/cables_pulse_layer_r.vsnd",
@@ -381,7 +372,7 @@
 	Music.nearby_cables_pulse_layer_ls = 
 	{
 		base = "Music.nearby_cables_pulse_layer_r"
-		volume = 1.500000
+		volume = 1.5
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/cables_pulse_layer_ls.vsnd",
@@ -400,137 +391,67 @@
 		type = "hlvr_set_pulse_particle_opvars"
 		pulse_particle_2_curve = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.222987,
-				0.222987,
-				1.000000,
-				1.000000,
+				0.0, 0.0, 0.222987, 0.222987,
+				1.0, 1.0,
 			],
-			
 			[
-				4.484571,
-				1.000000,
-				0.021933,
-				0.021933,
-				1.000000,
-				1.000000,
+				4.484571, 1.0, 0.021933, 0.021933,
+				1.0, 1.0,
 			],
-			
 			[
-				7.445713,
-				0.163308,
-				-0.181310,
-				-0.181310,
-				1.000000,
-				1.000000,
+				7.445713, 0.163308, -0.18131, -0.18131,
+				1.0, 1.0,
 			],
-			
 			[
-				10.000000,
-				0.000000,
-				-0.063935,
-				-0.063935,
-				3.000000,
-				1.000000,
+				10.0, 0.0, -0.063935, -0.063935,
+				3.0, 1.0,
 			],
 		]
 		pulse_particle_1_curve = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 0.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				11.538857,
-				0.000000,
-				0.083487,
-				0.083487,
-				1.000000,
-				1.000000,
+				11.538857, 0.0, 0.083487, 0.083487,
+				1.0, 1.0,
 			],
-			
 			[
-				11.977946,
-				1.000000,
-				0.535037,
-				0.535037,
-				1.000000,
-				1.000000,
+				11.977946, 1.0, 0.535037, 0.535037,
+				1.0, 1.0,
 			],
-			
 			[
-				13.407888,
-				1.000000,
-				-0.199122,
-				-0.199122,
-				1.000000,
-				1.000000,
+				13.407888, 1.0, -0.199122, -0.199122,
+				1.0, 1.0,
 			],
-			
 			[
-				17.000000,
-				0.000000,
-				-0.278388,
-				-0.278388,
-				3.000000,
-				1.000000,
+				17.0, 0.0, -0.278388, -0.278388,
+				3.0, 1.0,
 			],
 		]
 		pulse_particle_3_curve = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 0.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				6.899434,
-				0.000000,
-				0.000000,
-				0.848857,
-				0.000000,
-				0.000000,
+				6.899434, 0.0, 0.0, 0.848857,
+				0.0, 0.0,
 			],
-			
 			[
-				8.077489,
-				1.000000,
-				0.270764,
-				0.270764,
-				1.000000,
-				1.000000,
+				8.077489, 1.0, 0.270764, 0.270764,
+				1.0, 1.0,
 			],
-			
 			[
-				10.592689,
-				1.000000,
-				-0.254939,
-				-0.254939,
-				1.000000,
-				1.000000,
+				10.592689, 1.0, -0.254939, -0.254939,
+				1.0, 1.0,
 			],
-			
 			[
-				12.000000,
-				0.000000,
-				-0.710575,
-				0.000000,
-				0.000000,
-				0.000000,
+				12.0, 0.0, -0.710575, 0.0,
+				0.0, 0.0,
 			],
 		]
 	}
@@ -538,21 +459,16 @@
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "LoudMusic"
-		volume = 1.600000
-		volume_falloff_curve_amount = 0.900000
-		volume_falloff_min = 60.000000
-		volume_falloff_max = 450.000000
-		occlusion_scale = 0.250000
-		position = 
-		[
-			2114.000000,
-			-1200.000000,
-			788.000000,
-		]
+		volume = 1.6
+		volume_falloff_curve_amount = 0.9
+		volume_falloff_min = 60.0
+		volume_falloff_max = 450.0
+		occlusion_scale = 0.25
+		position = [ 2114.0, -1200.0, 788.0 ]
 		use_world_position = true
-		use_hrtf = 1.000000
-		enable_debug_radius = 0.000000
-		distance_max_velocity = 100.000000
+		use_hrtf = 1.0
+		enable_debug_radius = 0.0
+		distance_max_velocity = 100.0
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort_01.vsnd",
@@ -561,12 +477,7 @@
 	Music.Pulse_vort_01 = 
 	{
 		base = "Music.Pulse_vort_base"
-		position = 
-		[
-			2114.000000,
-			-1200.000000,
-			788.000000,
-		]
+		position = [ 2114.0, -1200.0, 788.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort_01.vsnd",
@@ -575,12 +486,7 @@
 	Music.Pulse_vort_02 = 
 	{
 		base = "Music.Pulse_vort_base"
-		position = 
-		[
-			2114.000000,
-			-1150.000000,
-			788.000000,
-		]
+		position = [ 2114.0, -1150.0, 788.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort_02.vsnd",
@@ -589,12 +495,7 @@
 	Music.Pulse_vort_03 = 
 	{
 		base = "Music.Pulse_vort_base"
-		position = 
-		[
-			2114.000000,
-			-1104.000000,
-			788.000000,
-		]
+		position = [ 2114.0, -1104.0, 788.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort_03.vsnd",
@@ -603,12 +504,7 @@
 	Music.Pulse_vort_04 = 
 	{
 		base = "Music.Pulse_vort_base"
-		position = 
-		[
-			2114.000000,
-			-1064.000000,
-			788.000000,
-		]
+		position = [ 2114.0, -1064.0, 788.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort_04.vsnd",
@@ -617,12 +513,7 @@
 	Music.Pulse_vort_05 = 
 	{
 		base = "Music.Pulse_vort_base"
-		position = 
-		[
-			2164.000000,
-			-1174.000000,
-			788.000000,
-		]
+		position = [ 2164.0, -1174.0, 788.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort_05.vsnd",
@@ -631,12 +522,7 @@
 	Music.Pulse_vort_06 = 
 	{
 		base = "Music.Pulse_vort_base"
-		position = 
-		[
-			2164.000000,
-			-1128.000000,
-			788.000000,
-		]
+		position = [ 2164.0, -1128.0, 788.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort_06.vsnd",
@@ -645,12 +531,7 @@
 	Music.Pulse_vort_07 = 
 	{
 		base = "Music.Pulse_vort_base"
-		position = 
-		[
-			2164.000000,
-			-1088.000000,
-			788.000000,
-		]
+		position = [ 2164.0, -1088.0, 788.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort_07.vsnd",
@@ -659,12 +540,7 @@
 	Music.Pulse_vort_08 = 
 	{
 		base = "Music.Pulse_vort_base"
-		position = 
-		[
-			2164.000000,
-			-1036.000000,
-			788.000000,
-		]
+		position = [ 2164.0, -1036.0, 788.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort_08.vsnd",
@@ -673,12 +549,7 @@
 	Music.Pulse_vort_09 = 
 	{
 		base = "Music.Pulse_vort_base"
-		position = 
-		[
-			2114.000000,
-			-1104.000000,
-			788.000000,
-		]
+		position = [ 2114.0, -1104.0, 788.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort_09.vsnd",
@@ -687,12 +558,7 @@
 	Music.Pulse_vort_10 = 
 	{
 		base = "Music.Pulse_vort_base"
-		position = 
-		[
-			2164.000000,
-			-1088.000000,
-			788.000000,
-		]
+		position = [ 2164.0, -1088.0, 788.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort_10.vsnd",
@@ -701,12 +567,7 @@
 	Music.Pulse_vort_11 = 
 	{
 		base = "Music.Pulse_vort_base"
-		position = 
-		[
-			2128.000000,
-			-1162.000000,
-			605.000000,
-		]
+		position = [ 2128.0, -1162.0, 605.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort_01.vsnd",
@@ -718,12 +579,7 @@
 	Music.Pulse_vort_12 = 
 	{
 		base = "Music.Pulse_vort_base"
-		position = 
-		[
-			2136.000000,
-			-1210.000000,
-			626.000000,
-		]
+		position = [ 2136.0, -1210.0, 626.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort_07.vsnd",
@@ -736,33 +592,28 @@
 	{
 		type = "hlvr_start_arrangement"
 		arrangement = "a3_pulse_vort_10_lp01_arr"
-		arrangement_volume = 1.000000
+		arrangement_volume = 1.0
 		quantize_type = "reset"
-		bpm = 117.000000
+		bpm = 117.0
 	}
 	Music.Pulse_vort_still = 
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "LoudMusic"
-		volume = 0.350000
-		volume_falloff_curve_amount = 0.900000
-		volume_falloff_min = 160.000000
-		volume_falloff_max = 500.000000
+		volume = 0.35
+		volume_falloff_curve_amount = 0.9
+		volume_falloff_min = 160.0
+		volume_falloff_max = 500.0
 		volume_fade_out = 3
-		spread_min = 50.000000
-		spread_max = 60.000000
+		spread_min = 50.0
+		spread_max = 60.0
 		use_world_position = true
-		position = 
-		[
-			2120.000000,
-			-964.000000,
-			788.000000,
-		]
-		use_hrtf = 1.000000
-		enable_debug_radius = 0.000000
-		distance_max_velocity = 100.000000
-		reverb_use_curve = 0.000000
-		reverb_xfade_value = 0.000000
+		position = [ 2120.0, -964.0, 788.0 ]
+		use_hrtf = 1.0
+		enable_debug_radius = 0.0
+		distance_max_velocity = 100.0
+		reverb_use_curve = 0.0
+		reverb_xfade_value = 0.0
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort_still_lp01.vsnd",
@@ -772,26 +623,21 @@
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "Music"
-		volume = 0.130000
-		volume_falloff_curve_amount = 0.900000
-		volume_falloff_min = 160.000000
-		volume_falloff_max = 500.000000
+		volume = 0.13
+		volume_falloff_curve_amount = 0.9
+		volume_falloff_min = 160.0
+		volume_falloff_max = 500.0
 		volume_fade_in = 3
 		volume_fade_out = 3
-		spread_min = 50.000000
-		spread_max = 60.000000
+		spread_min = 50.0
+		spread_max = 60.0
 		use_world_position = true
-		position = 
-		[
-			2120.000000,
-			-964.000000,
-			788.000000,
-		]
-		use_hrtf = 1.000000
-		enable_debug_radius = 0.000000
-		distance_max_velocity = 100.000000
-		reverb_use_curve = 0.000000
-		reverb_xfade_value = 0.000000
+		position = [ 2120.0, -964.0, 788.0 ]
+		use_hrtf = 1.0
+		enable_debug_radius = 0.0
+		distance_max_velocity = 100.0
+		reverb_use_curve = 0.0
+		reverb_xfade_value = 0.0
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort_still_lp01.vsnd",
@@ -801,14 +647,14 @@
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "LoudMusic"
-		volume = 1.400000
-		volume_falloff_min = 10000.000000
-		volume_falloff_max = 10000.000000
-		use_hrtf = 1.000000
-		enable_debug_radius = 0.000000
-		distance_max_velocity = 100.000000
-		volume_fade_out = 2.400000
-		volume_fade_in = 5.500000
+		volume = 1.4
+		volume_falloff_min = 10000.0
+		volume_falloff_max = 10000.0
+		use_hrtf = 1.0
+		enable_debug_radius = 0.0
+		distance_max_velocity = 100.0
+		volume_fade_out = 2.4
+		volume_fade_in = 5.5
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/cable_1_idle.vsnd",
@@ -817,9 +663,9 @@
 	Music.cable_1_idle = 
 	{
 		base = "Music.cable_Base"
-		volume = 2.000000
-		volume_falloff_max = 420.000000
-		volume_falloff_min = 220.000000
+		volume = 2.0
+		volume_falloff_max = 420.0
+		volume_falloff_min = 220.0
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/cable_1_idle.vsnd",
@@ -828,7 +674,7 @@
 	Music.cable_1_idle_2 = 
 	{
 		base = "Music.cable_1_idle"
-		delay = -76.800000
+		delay = -76.8
 	}
 	Music.cable_1_static = 
 	{
@@ -857,7 +703,7 @@
 	Music.cable_destroyed_1 = 
 	{
 		base = "Music.cable_1_idle"
-		stop_at_time = 3.000000
+		stop_at_time = 3.0
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/cable_1_destroyed.vsnd",
@@ -866,9 +712,9 @@
 	Music.cable_2_idle = 
 	{
 		base = "Music.cable_Base"
-		volume = 1.600000
-		volume_falloff_max = 420.000000
-		volume_falloff_min = 220.000000
+		volume = 1.6
+		volume_falloff_max = 420.0
+		volume_falloff_min = 220.0
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/cable_2_idle.vsnd",
@@ -877,7 +723,7 @@
 	Music.cable_2_idle_2 = 
 	{
 		base = "Music.cable_2_idle"
-		delay = -76.800000
+		delay = -76.8
 	}
 	Music.cable_2_static = 
 	{
@@ -906,7 +752,7 @@
 	Music.cable_destroyed_2 = 
 	{
 		base = "Music.cable_2_idle"
-		stop_at_time = 3.000000
+		stop_at_time = 3.0
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/cable_2_destroyed.vsnd",
@@ -915,9 +761,9 @@
 	Music.cable_3_idle = 
 	{
 		base = "Music.cable_Base"
-		volume = 1.400000
-		volume_falloff_max = 530.000000
-		volume_falloff_min = 330.000000
+		volume = 1.4
+		volume_falloff_max = 530.0
+		volume_falloff_min = 330.0
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/cable_3_idle.vsnd",
@@ -926,7 +772,7 @@
 	Music.cable_3_idle_2 = 
 	{
 		base = "Music.cable_3_idle"
-		delay = -76.800000
+		delay = -76.8
 	}
 	Music.cable_3_static = 
 	{
@@ -955,7 +801,7 @@
 	Music.cable_destroyed_3 = 
 	{
 		base = "Music.cable_3_idle"
-		stop_at_time = 3.000000
+		stop_at_time = 3.0
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/cable_3_destroyed.vsnd",
@@ -964,9 +810,9 @@
 	Music.cable_4_idle = 
 	{
 		base = "Music.cable_Base"
-		volume = 2.200000
-		volume_falloff_max = 640.000000
-		volume_falloff_min = 400.000000
+		volume = 2.2
+		volume_falloff_max = 640.0
+		volume_falloff_min = 400.0
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/cable_4_idle.vsnd",
@@ -975,7 +821,7 @@
 	Music.cable_4_idle_2 = 
 	{
 		base = "Music.cable_4_idle"
-		delay = -76.800000
+		delay = -76.8
 	}
 	Music.cable_4_static = 
 	{
@@ -1004,7 +850,7 @@
 	Music.cable_destroyed_4 = 
 	{
 		base = "Music.cable_4_idle"
-		stop_at_time = 3.000000
+		stop_at_time = 3.0
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/cable_4_destroyed.vsnd",
@@ -1013,9 +859,9 @@
 	Music.cable_5_idle = 
 	{
 		base = "Music.cable_Base"
-		volume = 2.800000
-		volume_falloff_max = 770.000000
-		volume_falloff_min = 470.000000
+		volume = 2.8
+		volume_falloff_max = 770.0
+		volume_falloff_min = 470.0
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/cable_5_idle.vsnd",
@@ -1024,7 +870,7 @@
 	Music.cable_5_idle_2 = 
 	{
 		base = "Music.cable_5_idle"
-		delay = -76.800000
+		delay = -76.8
 	}
 	Music.cable_5_static = 
 	{
@@ -1053,7 +899,7 @@
 	Music.cable_destroyed_5 = 
 	{
 		base = "Music.cable_5_idle"
-		stop_at_time = 3.000000
+		stop_at_time = 3.0
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/cable_5_destroyed.vsnd",
@@ -1064,21 +910,16 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "Music.a3_pulse_vort_10_lp01_arr"
 		soundevent_02 = "Music.Pulse_vort_still"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 0.000000
-		use_04 = 0.000000
-		position = 
-		[
-			2120.000000,
-			-964.000000,
-			788.000000,
-		]
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 0.0
+		use_04 = 0.0
+		position = [ 2120.0, -964.0, 788.0 ]
 	}
 	Music.all_cables_hacked = 
 	{
 		base = "Music.cable_Base"
-		volume = 1.600000
+		volume = 1.6
 		vsnd_files = 
 		[
 			"sounds/common/null.vsnd",
@@ -1099,10 +940,10 @@
 		type = "hlvr_start_multi_simple"
 		soundevent_01 = "Music.stop_vorts"
 		soundevent_02 = "Music.Pulse_vort_quiet_still"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 0.000000
-		use_04 = 0.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 0.0
+		use_04 = 0.0
 	}
 	Music.substation_powerdown = 
 	{
@@ -1113,20 +954,15 @@
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "LoudEvents"
-		volume = 1.000000
-		volume_falloff_curve_amount = 0.900000
-		volume_falloff_min = 1000.000000
-		volume_falloff_max = 1000.000000
-		position = 
-		[
-			2216.000000,
-			-568.000000,
-			864.000000,
-		]
+		volume = 1.0
+		volume_falloff_curve_amount = 0.9
+		volume_falloff_min = 1000.0
+		volume_falloff_max = 1000.0
+		position = [ 2216.0, -568.0, 864.0 ]
 		use_world_position = true
-		use_hrtf = 1.000000
-		enable_debug_radius = 0.000000
-		distance_max_velocity = 100.000000
+		use_hrtf = 1.0
+		enable_debug_radius = 0.0
+		distance_max_velocity = 100.0
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/pulse_vort_oscillation.vsnd",
@@ -1141,16 +977,16 @@
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "PulseInterior"
-		volume = 0.700000
-		volume_falloff_curve_amount = 0.900000
-		volume_falloff_min = 100000.000000
-		volume_falloff_max = 100000.000000
-		use_hrtf = 1.000000
+		volume = 0.7
+		volume_falloff_curve_amount = 0.9
+		volume_falloff_min = 100000.0
+		volume_falloff_max = 100000.0
+		use_hrtf = 1.0
 		reverb_use_curve = 0
-		reverb_xfade_value = 0.500000
-		occlusion_scale = 0.000000
-		enable_debug_radius = 0.000000
-		distance_max_velocity = 100.000000
+		reverb_xfade_value = 0.5
+		occlusion_scale = 0.0
+		enable_debug_radius = 0.0
+		distance_max_velocity = 100.0
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/cables_pulse_int_deep.vsnd",
@@ -1160,16 +996,16 @@
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "PulseInterior"
-		volume = 0.700000
-		volume_falloff_curve_amount = 0.900000
-		volume_falloff_min = 100000.000000
-		volume_falloff_max = 100000.000000
-		use_hrtf = 1.000000
+		volume = 0.7
+		volume_falloff_curve_amount = 0.9
+		volume_falloff_min = 100000.0
+		volume_falloff_max = 100000.0
+		use_hrtf = 1.0
 		reverb_use_curve = 0
-		reverb_xfade_value = 0.500000
-		occlusion_scale = 0.000000
-		enable_debug_radius = 0.000000
-		distance_max_velocity = 100.000000
+		reverb_xfade_value = 0.5
+		occlusion_scale = 0.0
+		enable_debug_radius = 0.0
+		distance_max_velocity = 100.0
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/cables_blast_int_deep.vsnd",
@@ -1179,16 +1015,16 @@
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "PulseInterior"
-		volume = 0.700000
-		volume_falloff_curve_amount = 0.900000
-		volume_falloff_min = 100000.000000
-		volume_falloff_max = 100000.000000
-		use_hrtf = 1.000000
+		volume = 0.7
+		volume_falloff_curve_amount = 0.9
+		volume_falloff_min = 100000.0
+		volume_falloff_max = 100000.0
+		use_hrtf = 1.0
 		reverb_use_curve = 0
-		reverb_xfade_value = 0.500000
-		occlusion_scale = 0.000000
-		enable_debug_radius = 0.000000
-		distance_max_velocity = 100.000000
+		reverb_xfade_value = 0.5
+		occlusion_scale = 0.0
+		enable_debug_radius = 0.0
+		distance_max_velocity = 100.0
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/cables_pulse_occ_ext.vsnd",
@@ -1198,16 +1034,16 @@
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "PulseInterior"
-		volume = 0.700000
-		volume_falloff_curve_amount = 0.900000
-		volume_falloff_min = 100000.000000
-		volume_falloff_max = 100000.000000
-		use_hrtf = 1.000000
+		volume = 0.7
+		volume_falloff_curve_amount = 0.9
+		volume_falloff_min = 100000.0
+		volume_falloff_max = 100000.0
+		use_hrtf = 1.0
 		reverb_use_curve = 0
-		reverb_xfade_value = 0.500000
-		occlusion_scale = 0.000000
-		enable_debug_radius = 0.000000
-		distance_max_velocity = 100.000000
+		reverb_xfade_value = 0.5
+		occlusion_scale = 0.0
+		enable_debug_radius = 0.0
+		distance_max_velocity = 100.0
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/cables_blast_occ_ext.vsnd",

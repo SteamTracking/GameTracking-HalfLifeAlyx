@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	AmbA2Hideout.MainHallwayLp = 
 	{
@@ -6,8 +7,8 @@
 		soundevent_02 = "AmbA2Hideout.MainHallwayLp_R"
 		soundevent_03 = "AmbA2Hideout.MainHallwayLp_LS"
 		soundevent_04 = "AmbA2Hideout.MainHallwayLp_RS"
-		rand_delay_min = -5.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = -5.0
+		rand_delay_max = 0.0
 	}
 	AmbA2Hideout.MainHallwayLp_L = 
 	{
@@ -18,19 +19,19 @@
 		vsnd_vol_01 = "0.85"
 		vsnd_vol_02 = "0.30"
 		vsnd_vol_03 = "0.65"
-		volume = 0.650000
+		volume = 0.65
 		global_opvar_name_02 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity_02 = 2.500000
-		remap_vol_opvar_02_x1 = 0.000000
-		remap_vol_opvar_02_y1 = 1.000000
-		remap_vol_opvar_02_x2 = 0.000000
-		remap_vol_opvar_02_y2 = 1.000000
-		remap_vol_opvar_02_x3 = 0.500000
-		remap_vol_opvar_02_y3 = 0.600000
-		remap_vol_opvar_02_x4 = 1.000000
-		remap_vol_opvar_02_y4 = 0.300000
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
+		global_opvar_filter_velocity_02 = 2.5
+		remap_vol_opvar_02_x1 = 0.0
+		remap_vol_opvar_02_y1 = 1.0
+		remap_vol_opvar_02_x2 = 0.0
+		remap_vol_opvar_02_y2 = 1.0
+		remap_vol_opvar_02_x3 = 0.5
+		remap_vol_opvar_02_y3 = 0.6
+		remap_vol_opvar_02_x4 = 1.0
+		remap_vol_opvar_02_y4 = 0.3
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
 	}
 	AmbA2Hideout.MainHallwayLp_R = 
 	{
@@ -38,7 +39,7 @@
 		vsnd_file_01 = "sounds/ambient/train_warehouse/amb_a2_headcrabs_tunnel_lp_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/abstract/amb_abstract_creep_quad_lp_01_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/abstract/amb_underground_pit_basement_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbA2Hideout.MainHallwayLp_LS = 
 	{
@@ -46,7 +47,7 @@
 		vsnd_file_01 = "sounds/ambient/train_warehouse/amb_a2_headcrabs_tunnel_lp_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/abstract/amb_abstract_creep_quad_lp_01_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/abstract/amb_underground_pit_basement_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbA2Hideout.MainHallwayLp_RS = 
 	{
@@ -54,7 +55,7 @@
 		vsnd_file_01 = "sounds/ambient/train_warehouse/amb_a2_headcrabs_tunnel_lp_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/abstract/amb_abstract_creep_quad_lp_01_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/abstract/amb_underground_pit_basement_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbA2Hideout.BasementLp = 
 	{
@@ -67,10 +68,10 @@
 		soundevent_02 = "AmbA2Hideout.BuchlMystery_R"
 		soundevent_03 = "AmbA2Hideout.BuchlMystery_LS"
 		soundevent_04 = "AmbA2Hideout.BuchlMystery_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbA2Hideout.BuchlMystery_L = 
 	{
@@ -78,29 +79,29 @@
 		vsnd_file_01 = "sounds/ambient/abstract/amb_abstract_buchl_quad_01_l.vsnd"
 		vsnd_vol_01 = "1.0"
 		mixgroup = "Ambient_Vort"
-		volume = 0.800000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 0.650000
-		remap_filter_freq_opvar_x2 = 0.000000
-		remap_filter_freq_opvar_y2 = 0.650000
+		volume = 0.8
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 0.65
+		remap_filter_freq_opvar_x2 = 0.0
+		remap_filter_freq_opvar_y2 = 0.65
 	}
 	AmbA2Hideout.BuchlMystery_R = 
 	{
 		base = "AmbA2Hideout.BuchlMystery_L"
 		vsnd_file_01 = "sounds/ambient/abstract/amb_abstract_buchl_quad_01_r.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbA2Hideout.BuchlMystery_LS = 
 	{
 		base = "AmbA2Hideout.BuchlMystery_L"
 		vsnd_file_01 = "sounds/ambient/abstract/amb_abstract_buchl_quad_01_ls.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbA2Hideout.BuchlMystery_RS = 
 	{
 		base = "AmbA2Hideout.BuchlMystery_L"
 		vsnd_file_01 = "sounds/ambient/abstract/amb_abstract_buchl_quad_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbA2Hideout.VortSanctumAddin = 
 	{
@@ -109,8 +110,8 @@
 		soundevent_02 = "AmbA2Hideout.VortSanctumAddin_R"
 		soundevent_03 = "AmbA2Hideout.VortSanctumAddin_LS"
 		soundevent_04 = "AmbA2Hideout.VortSanctumAddin_RS"
-		rand_delay_min = -5.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = -5.0
+		rand_delay_max = 0.0
 	}
 	AmbA2Hideout.VortSanctumAddin_L = 
 	{
@@ -120,40 +121,40 @@
 		vsnd_vol_01 = "0.20"
 		vsnd_vol_02 = "0.48"
 		global_opvar_name_01 = "large_room_addin_beacon"
-		global_opvar_filter_velocity_02 = 2.500000
-		volume = 0.900000
+		global_opvar_filter_velocity_02 = 2.5
+		volume = 0.9
 		global_opvar_name_02 = "hotel_small_room_proximity_beacon"
-		remap_vol_opvar_02_x1 = 0.000000
-		remap_vol_opvar_02_y1 = 1.000000
-		remap_vol_opvar_02_x2 = 0.000000
-		remap_vol_opvar_02_y2 = 1.000000
-		remap_vol_opvar_02_x3 = 0.500000
-		remap_vol_opvar_02_y3 = 0.750000
-		remap_vol_opvar_02_x4 = 1.000000
-		remap_vol_opvar_02_y4 = 0.600000
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
+		remap_vol_opvar_02_x1 = 0.0
+		remap_vol_opvar_02_y1 = 1.0
+		remap_vol_opvar_02_x2 = 0.0
+		remap_vol_opvar_02_y2 = 1.0
+		remap_vol_opvar_02_x3 = 0.5
+		remap_vol_opvar_02_y3 = 0.75
+		remap_vol_opvar_02_x4 = 1.0
+		remap_vol_opvar_02_y4 = 0.6
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
 	}
 	AmbA2Hideout.VortSanctumAddin_R = 
 	{
 		base = "AmbA2Hideout.VortSanctumAddin_L"
 		vsnd_file_01 = "sounds/ambient/abstract/amb_abstract_vort_room_quad_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/metal/amb_resometal_quad_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbA2Hideout.VortSanctumAddin_LS = 
 	{
 		base = "AmbA2Hideout.VortSanctumAddin_L"
 		vsnd_file_01 = "sounds/ambient/abstract/amb_abstract_vort_room_quad_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/metal/amb_resometal_quad_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbA2Hideout.VortSanctumAddin_RS = 
 	{
 		base = "AmbA2Hideout.VortSanctumAddin_L"
 		vsnd_file_01 = "sounds/ambient/abstract/amb_abstract_vort_room_quad_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/metal/amb_resometal_quad_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientDebrisPuzzle.WaterAndGeneratorLp = 
 	{
@@ -162,20 +163,20 @@
 		soundevent_02 = "AmbientDebrisPuzzle.WaterAndGeneratorLp_R"
 		soundevent_03 = "AmbientDebrisPuzzle.WaterAndGeneratorLp_LS"
 		soundevent_04 = "AmbientDebrisPuzzle.WaterAndGeneratorLp_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientDebrisPuzzle.WaterAndGeneratorLp_L = 
 	{
 		base = "AmbientBase.IntSmallRoomLp_L"
 		vsnd_file_01 = "sounds/ambient/water/amb_debris_puzzle_quad_lp_01_l.vsnd"
 		vsnd_vol_01 = "1.0"
-		volume = 0.900000
+		volume = 0.9
 		mixgroup = "Ambient_Vort"
 		global_opvar_name_01 = "large_room_addin_beacon"
-		global_opvar_filter_velocity_02 = 2.000000
+		global_opvar_filter_velocity_02 = 2.0
 	}
 	AmbientDebrisPuzzle.WaterAndGeneratorLp_R = 
 	{
@@ -199,10 +200,10 @@
 		soundevent_02 = "AmbientDebrisPuzzle.BuchlMystery_R"
 		soundevent_03 = "AmbientDebrisPuzzle.BuchlMystery_LS"
 		soundevent_04 = "AmbientDebrisPuzzle.BuchlMystery_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientDebrisPuzzle.BuchlMystery_L = 
 	{
@@ -212,15 +213,15 @@
 			"sounds/ambient/abstract/amb_abstract_buchl_quad_01_l.vsnd",
 		]
 		mixgroup = "Ambient_Vort"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 3.000000
-		volume_fade_out = 3.000000
+		rotation_angle = 45.0
+		volume_fade_in = 3.0
+		volume_fade_out = 3.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.700000
+		volume = 0.7
 	}
 	AmbientDebrisPuzzle.BuchlMystery_R = 
 	{
@@ -230,15 +231,15 @@
 			"sounds/ambient/abstract/amb_abstract_buchl_quad_01_r.vsnd",
 		]
 		mixgroup = "Ambient_Vort"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 315.000000
-		volume_fade_in = 3.000000
-		volume_fade_out = 3.000000
+		rotation_angle = 315.0
+		volume_fade_in = 3.0
+		volume_fade_out = 3.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.700000
+		volume = 0.7
 	}
 	AmbientDebrisPuzzle.BuchlMystery_LS = 
 	{
@@ -248,15 +249,15 @@
 			"sounds/ambient/abstract/amb_abstract_buchl_quad_01_ls.vsnd",
 		]
 		mixgroup = "Ambient_Vort"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 135.000000
-		volume_fade_in = 3.000000
-		volume_fade_out = 3.000000
+		rotation_angle = 135.0
+		volume_fade_in = 3.0
+		volume_fade_out = 3.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.700000
+		volume = 0.7
 	}
 	AmbientDebrisPuzzle.BuchlMystery_RS = 
 	{
@@ -266,15 +267,15 @@
 			"sounds/ambient/abstract/amb_abstract_buchl_quad_01_rs.vsnd",
 		]
 		mixgroup = "Ambient_Vort"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 225.000000
-		volume_fade_in = 3.000000
-		volume_fade_out = 3.000000
+		rotation_angle = 225.0
+		volume_fade_in = 3.0
+		volume_fade_out = 3.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.700000
+		volume = 0.7
 	}
 	AmbientDebrisPuzzle.VortSanctumLp = 
 	{
@@ -283,10 +284,10 @@
 		soundevent_02 = "AmbientDebrisPuzzle.VortSanctumLp_R"
 		soundevent_03 = "AmbientDebrisPuzzle.VortSanctumLp_LS"
 		soundevent_04 = "AmbientDebrisPuzzle.VortSanctumLp_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientDebrisPuzzle.VortSanctumLp_L = 
 	{
@@ -296,15 +297,15 @@
 			"sounds/ambient/abstract/amb_abstract_vort_room_quad_01_l.vsnd",
 		]
 		mixgroup = "Ambient_Vort"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 3.000000
-		volume_fade_out = 3.000000
+		rotation_angle = 45.0
+		volume_fade_in = 3.0
+		volume_fade_out = 3.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.100000
+		volume = 0.1
 	}
 	AmbientDebrisPuzzle.VortSanctumLp_R = 
 	{
@@ -313,7 +314,7 @@
 		[
 			"sounds/ambient/abstract/amb_abstract_vort_room_quad_01_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientDebrisPuzzle.VortSanctumLp_LS = 
 	{
@@ -322,7 +323,7 @@
 		[
 			"sounds/ambient/abstract/amb_abstract_vort_room_quad_01_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientDebrisPuzzle.VortSanctumLp_RS = 
 	{
@@ -331,51 +332,41 @@
 		[
 			"sounds/ambient/abstract/amb_abstract_vort_room_quad_01_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientDebrisPuzzle.ChimesLow = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientDebrisPuzzle.ChimesLowChild"
-		random_soundevent_01_timer_min = 8.000000
-		random_soundevent_01_timer_max = 12.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 8.0
+		random_soundevent_01_timer_max = 12.0
+		use_initial_random_offset = 1.0
 	}
 	AmbientDebrisPuzzle.ChimesLowChild = 
 	{
 		type = "hlvr_ambient_rand_child_in_box"
-		volume = 0.650000
-		volume_rand_min = -0.100000
-		volume_rand_max = 0.100000
+		volume = 0.65
+		volume_rand_min = -0.1
+		volume_rand_max = 0.1
 		volume_falloff_min = 200
 		volume_falloff_max = 1000
-		pitch_rand_min = -0.030000
-		pitch_rand_max = 0.030000
-		animation_time = 3.500000
+		pitch_rand_min = -0.03
+		pitch_rand_max = 0.03
+		animation_time = 3.5
 		animation_type = "lerp"
-		position_source = 2.000000
+		position_source = 2.0
 		constrain_direction = "left_up"
 		make_ortho_vertical = true
-		ortho_distance_min = 100.000000
-		ortho_distance_max = 500.000000
-		animated_source = 0.000000
-		animated_target = 1.000000
-		rand_radius_min = 200.000000
-		rand_radius_max = 300.000000
-		use_doppler = 1.000000
-		box_position_01 = 
-		[
-			984.562561,
-			2349.406250,
-			45,
-		]
-		box_position_02 = 
-		[
-			821.218811,
-			1989.281250,
-			105.343735,
-		]
-		use_hrtf = 1.000000
+		ortho_distance_min = 100.0
+		ortho_distance_max = 500.0
+		animated_source = 0.0
+		animated_target = 1.0
+		rand_radius_min = 200.0
+		rand_radius_max = 300.0
+		use_doppler = 1.0
+		box_position_01 = [ 984.562561, 2349.40625, 45 ]
+		box_position_02 = [ 821.218811, 1989.28125, 105.343735 ]
+		use_hrtf = 1.0
 		mixgroup = "Ambient_Vort"
 		vsnd_files = 
 		[
@@ -394,45 +385,35 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientDebrisPuzzle.ChimesHighChild"
-		random_soundevent_01_timer_min = 9.000000
-		random_soundevent_01_timer_max = 12.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 9.0
+		random_soundevent_01_timer_max = 12.0
+		use_initial_random_offset = 1.0
 	}
 	AmbientDebrisPuzzle.ChimesHighChild = 
 	{
 		type = "hlvr_ambient_rand_child_in_box"
-		volume = 0.550000
-		volume_rand_min = -0.100000
-		volume_rand_max = 0.100000
+		volume = 0.55
+		volume_rand_min = -0.1
+		volume_rand_max = 0.1
 		volume_falloff_min = 200
 		volume_falloff_max = 1000
-		pitch_rand_min = -0.030000
-		pitch_rand_max = 0.030000
-		animation_time = 3.500000
+		pitch_rand_min = -0.03
+		pitch_rand_max = 0.03
+		animation_time = 3.5
 		animation_type = "lerp"
-		position_source = 2.000000
+		position_source = 2.0
 		constrain_direction = "left_up"
 		make_ortho_vertical = true
-		ortho_distance_min = 100.000000
-		ortho_distance_max = 500.000000
-		animated_source = 0.000000
-		animated_target = 1.000000
-		rand_radius_min = 200.000000
-		rand_radius_max = 300.000000
-		use_doppler = 1.000000
-		box_position_01 = 
-		[
-			984.562561,
-			2349.406250,
-			45,
-		]
-		box_position_02 = 
-		[
-			821.218811,
-			1989.281250,
-			105.343735,
-		]
-		use_hrtf = 1.000000
+		ortho_distance_min = 100.0
+		ortho_distance_max = 500.0
+		animated_source = 0.0
+		animated_target = 1.0
+		rand_radius_min = 200.0
+		rand_radius_max = 300.0
+		use_doppler = 1.0
+		box_position_01 = [ 984.562561, 2349.40625, 45 ]
+		box_position_02 = [ 821.218811, 1989.28125, 105.343735 ]
+		use_hrtf = 1.0
 		mixgroup = "Ambient_Vort"
 		vsnd_files = 
 		[
@@ -455,45 +436,35 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientDebrisPuzzle.WorldChimesHighChild"
-		random_soundevent_01_timer_min = 9.000000
-		random_soundevent_01_timer_max = 12.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 9.0
+		random_soundevent_01_timer_max = 12.0
+		use_initial_random_offset = 1.0
 	}
 	AmbientDebrisPuzzle.WorldChimesHighChild = 
 	{
 		type = "hlvr_ambient_rand_child_in_box"
-		volume = 0.650000
-		volume_rand_min = -0.100000
-		volume_rand_max = 0.100000
+		volume = 0.65
+		volume_rand_min = -0.1
+		volume_rand_max = 0.1
 		volume_falloff_min = 200
 		volume_falloff_max = 1000
-		pitch_rand_min = -0.030000
-		pitch_rand_max = 0.030000
-		animation_time = 3.500000
+		pitch_rand_min = -0.03
+		pitch_rand_max = 0.03
+		animation_time = 3.5
 		animation_type = "lerp"
-		position_source = 2.000000
+		position_source = 2.0
 		constrain_direction = "left_up"
 		make_ortho_vertical = true
-		ortho_distance_min = 100.000000
-		ortho_distance_max = 500.000000
-		animated_source = 0.000000
-		animated_target = 1.000000
-		rand_radius_min = 200.000000
-		rand_radius_max = 300.000000
-		use_doppler = 1.000000
-		box_position_01 = 
-		[
-			984.562561,
-			2349.406250,
-			45,
-		]
-		box_position_02 = 
-		[
-			821.218811,
-			1989.281250,
-			105.343735,
-		]
-		use_hrtf = 1.000000
+		ortho_distance_min = 100.0
+		ortho_distance_max = 500.0
+		animated_source = 0.0
+		animated_target = 1.0
+		rand_radius_min = 200.0
+		rand_radius_max = 300.0
+		use_doppler = 1.0
+		box_position_01 = [ 984.562561, 2349.40625, 45 ]
+		box_position_02 = [ 821.218811, 1989.28125, 105.343735 ]
+		use_hrtf = 1.0
 		mixgroup = "Ambient_Vort"
 		vsnd_files = 
 		[
@@ -513,45 +484,35 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientDebrisPuzzle.WorldChimesLowChild"
-		random_soundevent_01_timer_min = 9.000000
-		random_soundevent_01_timer_max = 12.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 9.0
+		random_soundevent_01_timer_max = 12.0
+		use_initial_random_offset = 1.0
 	}
 	AmbientDebrisPuzzle.WorldChimesLowChild = 
 	{
 		type = "hlvr_ambient_rand_child_in_box"
-		volume = 0.650000
-		volume_rand_min = -0.100000
-		volume_rand_max = 0.100000
+		volume = 0.65
+		volume_rand_min = -0.1
+		volume_rand_max = 0.1
 		volume_falloff_min = 200
 		volume_falloff_max = 1000
-		pitch_rand_min = -0.030000
-		pitch_rand_max = 0.030000
-		animation_time = 3.500000
+		pitch_rand_min = -0.03
+		pitch_rand_max = 0.03
+		animation_time = 3.5
 		animation_type = "lerp"
-		position_source = 2.000000
+		position_source = 2.0
 		constrain_direction = "left_up"
 		make_ortho_vertical = true
-		ortho_distance_min = 100.000000
-		ortho_distance_max = 500.000000
-		animated_source = 0.000000
-		animated_target = 1.000000
-		rand_radius_min = 200.000000
-		rand_radius_max = 300.000000
-		use_doppler = 1.000000
-		box_position_01 = 
-		[
-			984.562561,
-			2349.406250,
-			45,
-		]
-		box_position_02 = 
-		[
-			821.218811,
-			1989.281250,
-			105.343735,
-		]
-		use_hrtf = 1.000000
+		ortho_distance_min = 100.0
+		ortho_distance_max = 500.0
+		animated_source = 0.0
+		animated_target = 1.0
+		rand_radius_min = 200.0
+		rand_radius_max = 300.0
+		use_doppler = 1.0
+		box_position_01 = [ 984.562561, 2349.40625, 45 ]
+		box_position_02 = [ 821.218811, 1989.28125, 105.343735 ]
+		use_hrtf = 1.0
 		mixgroup = "Ambient_Vort"
 		vsnd_files = 
 		[
@@ -564,26 +525,26 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientDebrisPuzzle.WhooshDeepChild"
-		random_soundevent_01_timer_min = 18.000000
-		random_soundevent_01_timer_max = 25.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 18.0
+		random_soundevent_01_timer_max = 25.0
+		use_initial_random_offset = 1.0
 	}
 	AmbientDebrisPuzzle.WhooshDeepChild = 
 	{
 		type = "hlvr_ambient_rand_child"
-		volume = 0.800000
+		volume = 0.8
 		volume_falloff_min = 200
 		volume_falloff_max = 1000
-		volume_rand_min = -0.100000
-		volume_rand_max = 0.100000
-		pitch_rand_min = -0.030000
-		pitch_rand_max = 0.030000
+		volume_rand_min = -0.1
+		volume_rand_max = 0.1
+		pitch_rand_min = -0.03
+		pitch_rand_max = 0.03
 		animation_type = "slerp"
-		position_source = 2.000000
-		rand_radius_min = 200.000000
-		rand_radius_max = 300.000000
-		use_doppler = 1.000000
-		use_hrtf = 1.000000
+		position_source = 2.0
+		rand_radius_min = 200.0
+		rand_radius_max = 300.0
+		use_doppler = 1.0
+		use_hrtf = 1.0
 		mixgroup = "Ambient_Vort"
 		vsnd_files = 
 		[
@@ -594,33 +555,33 @@
 			"sounds/ambient/abstract/ambient_abstract_deep_whoosh_05.vsnd",
 			"sounds/ambient/abstract/ambient_abstract_deep_whoosh_06.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		soundname_string = "AmbientDebrisPuzzle.WhooshDeepChild"
 	}
 	AmbientDebrisPuzzle.MetalEvo = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientDebrisPuzzle.MetalEvoChild"
-		random_soundevent_01_timer_min = 9.000000
-		random_soundevent_01_timer_max = 15.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 9.0
+		random_soundevent_01_timer_max = 15.0
+		use_initial_random_offset = 1.0
 	}
 	AmbientDebrisPuzzle.MetalEvoChild = 
 	{
 		type = "hlvr_ambient_rand_child"
-		volume = 0.430000
+		volume = 0.43
 		volume_falloff_min = 300
 		volume_falloff_max = 1500
-		volume_rand_min = -0.100000
-		volume_rand_max = 0.100000
-		pitch_rand_min = -0.150000
-		pitch_rand_max = 0.050000
+		volume_rand_min = -0.1
+		volume_rand_max = 0.1
+		pitch_rand_min = -0.15
+		pitch_rand_max = 0.05
 		animation_type = "slerp"
-		position_source = 2.000000
-		rand_radius_min = 400.000000
-		rand_radius_max = 600.000000
-		use_doppler = 1.000000
-		use_hrtf = 1.000000
+		position_source = 2.0
+		rand_radius_min = 400.0
+		rand_radius_max = 600.0
+		use_doppler = 1.0
+		use_hrtf = 1.0
 		mixgroup = "Ambient_Vort"
 		vsnd_files = 
 		[
@@ -642,7 +603,7 @@
 	AmbientDebrisPuzzle.HintReveal = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
+		volume = 0.9
 		vsnd_files = 
 		[
 			"sounds/ambient/abstract/amb_abstract_debris_hint_reveal_01.vsnd",
@@ -658,19 +619,9 @@
 	AmbientDebrisPuzzle.ChimesLowMainRoomChild = 
 	{
 		base = "AmbientDebrisPuzzle.ChimesLowChild"
-		box_position_01 = 
-		[
-			325.252686,
-			1541.230835,
-			28.075172,
-		]
-		box_position_02 = 
-		[
-			31.783890,
-			1978.199585,
-			-59.518555,
-		]
-		enable_debug_radius = 0.000000
+		box_position_01 = [ 325.252686, 1541.230835, 28.075172 ]
+		box_position_02 = [ 31.78389, 1978.199585, -59.518555 ]
+		enable_debug_radius = 0.0
 	}
 	AmbientDebrisPuzzle.ChimesHighMainRoom = 
 	{
@@ -680,236 +631,106 @@
 	AmbientDebrisPuzzle.ChimesHighMainRoomChild = 
 	{
 		base = "AmbientDebrisPuzzle.ChimesHighChild"
-		box_position_01 = 
-		[
-			325.252686,
-			1541.230835,
-			28.075172,
-		]
-		box_position_02 = 
-		[
-			31.783890,
-			1978.199585,
-			-59.518555,
-		]
-		enable_debug_radius = 0.000000
+		box_position_01 = [ 325.252686, 1541.230835, 28.075172 ]
+		box_position_02 = [ 31.78389, 1978.199585, -59.518555 ]
+		enable_debug_radius = 0.0
 	}
 	AmbientDebrisPuzzle.WorldChimesHighMainRoomChild = 
 	{
 		base = "AmbientDebrisPuzzle.WorldChimesHighChild"
-		box_position_01 = 
-		[
-			325.252686,
-			1541.230835,
-			28.075172,
-		]
-		box_position_02 = 
-		[
-			31.783890,
-			1978.199585,
-			-59.518555,
-		]
-		enable_debug_radius = 0.000000
+		box_position_01 = [ 325.252686, 1541.230835, 28.075172 ]
+		box_position_02 = [ 31.78389, 1978.199585, -59.518555 ]
+		enable_debug_radius = 0.0
 	}
 	AmbientDebrisPuzzle.WorldChimesLowMainRoomChild = 
 	{
 		base = "AmbientDebrisPuzzle.WorldChimesLowChild"
-		box_position_01 = 
-		[
-			325.252686,
-			1541.230835,
-			28.075172,
-		]
-		box_position_02 = 
-		[
-			31.783890,
-			1978.199585,
-			-59.518555,
-		]
-		enable_debug_radius = 0.000000
+		box_position_01 = [ 325.252686, 1541.230835, 28.075172 ]
+		box_position_02 = [ 31.78389, 1978.199585, -59.518555 ]
+		enable_debug_radius = 0.0
 	}
 	AmbientDebrisPuzzle.WorldChimesLowSanctumChild = 
 	{
 		base = "AmbientDebrisPuzzle.WorldChimesLowChild"
-		box_position_01 = 
-		[
-			-750.836853,
-			-1164.432495,
-			-312.193604,
-		]
-		box_position_02 = 
-		[
-			-621.282349,
-			-1324.263062,
-			-224.792603,
-		]
-		volume = 0.350000
-		enable_debug_radius = 0.000000
+		box_position_01 = [ -750.836853, -1164.432495, -312.193604 ]
+		box_position_02 = [ -621.282349, -1324.263062, -224.792603 ]
+		volume = 0.35
+		enable_debug_radius = 0.0
 	}
 	AmbientDebrisPuzzle.WorldChimesHighSanctumChild = 
 	{
 		base = "AmbientDebrisPuzzle.WorldChimesHighChild"
-		box_position_01 = 
-		[
-			-750.836853,
-			-1164.432495,
-			-312.193604,
-		]
-		box_position_02 = 
-		[
-			-621.282349,
-			-1324.263062,
-			-224.792603,
-		]
-		volume = 0.350000
-		enable_debug_radius = 0.000000
+		box_position_01 = [ -750.836853, -1164.432495, -312.193604 ]
+		box_position_02 = [ -621.282349, -1324.263062, -224.792603 ]
+		volume = 0.35
+		enable_debug_radius = 0.0
 	}
 	AmbientDebrisPuzzle.ChimesLowSanctumChild = 
 	{
 		base = "AmbientDebrisPuzzle.ChimesLowChild"
-		box_position_01 = 
-		[
-			-750.836853,
-			-1164.432495,
-			-312.193604,
-		]
-		box_position_02 = 
-		[
-			-621.282349,
-			-1324.263062,
-			-224.792603,
-		]
-		volume = 0.450000
-		enable_debug_radius = 0.000000
+		box_position_01 = [ -750.836853, -1164.432495, -312.193604 ]
+		box_position_02 = [ -621.282349, -1324.263062, -224.792603 ]
+		volume = 0.45
+		enable_debug_radius = 0.0
 	}
 	AmbientDebrisPuzzle.ChimesHighSanctumChild = 
 	{
 		base = "AmbientDebrisPuzzle.ChimesHighChild"
-		box_position_01 = 
-		[
-			-750.836853,
-			-1164.432495,
-			-312.193604,
-		]
-		box_position_02 = 
-		[
-			-621.282349,
-			-1324.263062,
-			-224.792603,
-		]
-		volume = 0.450000
-		enable_debug_radius = 0.000000
+		box_position_01 = [ -750.836853, -1164.432495, -312.193604 ]
+		box_position_02 = [ -621.282349, -1324.263062, -224.792603 ]
+		volume = 0.45
+		enable_debug_radius = 0.0
 	}
 	AmbientDebrisPuzzle.WorldChimesLowSanctumInnerChild = 
 	{
 		base = "AmbientDebrisPuzzle.WorldChimesLowChild"
-		box_position_01 = 
-		[
-			-815.733704,
-			-1402.372559,
-			-346.455750,
-		]
-		box_position_02 = 
-		[
-			-614.888000,
-			-1687.394653,
-			-237.612610,
-		]
-		volume = 0.350000
-		enable_debug_radius = 0.000000
+		box_position_01 = [ -815.733704, -1402.372559, -346.45575 ]
+		box_position_02 = [ -614.888, -1687.394653, -237.61261 ]
+		volume = 0.35
+		enable_debug_radius = 0.0
 	}
 	AmbientDebrisPuzzle.WorldChimesHighSanctumInnerChild = 
 	{
 		base = "AmbientDebrisPuzzle.WorldChimesHighChild"
-		box_position_01 = 
-		[
-			-815.733704,
-			-1402.372559,
-			-346.455750,
-		]
-		box_position_02 = 
-		[
-			-614.888000,
-			-1687.394653,
-			-237.612610,
-		]
-		volume = 0.350000
-		enable_debug_radius = 0.000000
+		box_position_01 = [ -815.733704, -1402.372559, -346.45575 ]
+		box_position_02 = [ -614.888, -1687.394653, -237.61261 ]
+		volume = 0.35
+		enable_debug_radius = 0.0
 	}
 	AmbientDebrisPuzzle.ChimesLowSanctumInnerChild = 
 	{
 		base = "AmbientDebrisPuzzle.ChimesLowChild"
-		box_position_01 = 
-		[
-			-815.733704,
-			-1402.372559,
-			-346.455750,
-		]
-		box_position_02 = 
-		[
-			-614.888000,
-			-1687.394653,
-			-237.612610,
-		]
-		volume = 0.450000
-		enable_debug_radius = 0.000000
+		box_position_01 = [ -815.733704, -1402.372559, -346.45575 ]
+		box_position_02 = [ -614.888, -1687.394653, -237.61261 ]
+		volume = 0.45
+		enable_debug_radius = 0.0
 	}
 	AmbientDebrisPuzzle.ChimesHighSanctumInnerChild = 
 	{
 		base = "AmbientDebrisPuzzle.ChimesHighChild"
-		box_position_01 = 
-		[
-			-815.733704,
-			-1402.372559,
-			-346.455750,
-		]
-		box_position_02 = 
-		[
-			-614.888000,
-			-1687.394653,
-			-237.612610,
-		]
-		volume = 0.450000
-		enable_debug_radius = 0.000000
+		box_position_01 = [ -815.733704, -1402.372559, -346.45575 ]
+		box_position_02 = [ -614.888, -1687.394653, -237.61261 ]
+		volume = 0.45
+		enable_debug_radius = 0.0
 	}
 	AmbientDebrisPuzzle.ChimesLowWaterChild = 
 	{
 		base = "AmbientDebrisPuzzle.ChimesLowChild"
-		box_position_01 = 
-		[
-			165.826828,
-			700.525330,
-			-54.488953,
-		]
-		box_position_02 = 
-		[
-			425.228210,
-			525.236755,
-			-119.207397,
-		]
-		enable_debug_radius = 0.000000
+		box_position_01 = [ 165.826828, 700.52533, -54.488953 ]
+		box_position_02 = [ 425.22821, 525.236755, -119.207397 ]
+		enable_debug_radius = 0.0
 	}
 	AmbientDebrisPuzzle.ChimesHighWaterChild = 
 	{
 		base = "AmbientDebrisPuzzle.ChimesHighChild"
-		box_position_01 = 
-		[
-			165.826828,
-			700.525330,
-			-54.488953,
-		]
-		box_position_02 = 
-		[
-			425.228210,
-			525.236755,
-			-119.207397,
-		]
-		enable_debug_radius = 0.000000
+		box_position_01 = [ 165.826828, 700.52533, -54.488953 ]
+		box_position_02 = [ 425.22821, 525.236755, -119.207397 ]
+		enable_debug_radius = 0.0
 	}
 	VortSanctum.MapTransition = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
+		volume = 0.6
 		vsnd_files = 
 		[
 			"sounds/world/tech/vort_map_appear_whoosh_01.vsnd",
@@ -924,8 +745,8 @@
 	VortSanctum.BirdHole = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.650000
-		use_hrtf = 1.000000
+		volume = 0.65
+		use_hrtf = 1.0
 		mixgroup = "Ambient_Vort"
 		use_named_send = "ambient"
 		vsnd_files = 
@@ -939,151 +760,71 @@
 	AmbientDebrisPuzzle.ChimesHighQuarantineInitChild = 
 	{
 		base = "AmbientDebrisPuzzle.ChimesHighChild"
-		box_position_01 = 
-		[
-			-627.331421,
-			1622.583008,
-			99.970001,
-		]
-		box_position_02 = 
-		[
-			-829.933472,
-			1463.522583,
-			48.751251,
-		]
-		volume = 0.300000
-		enable_debug_radius = 0.000000
+		box_position_01 = [ -627.331421, 1622.583008, 99.970001 ]
+		box_position_02 = [ -829.933472, 1463.522583, 48.751251 ]
+		volume = 0.3
+		enable_debug_radius = 0.0
 	}
 	AmbientDebrisPuzzle.ChimesLowQuarantineInitChild = 
 	{
 		base = "AmbientDebrisPuzzle.ChimesLowChild"
-		box_position_01 = 
-		[
-			-627.331421,
-			1622.583008,
-			99.970001,
-		]
-		box_position_02 = 
-		[
-			-829.933472,
-			1463.522583,
-			48.751251,
-		]
-		enable_debug_radius = 0.000000
+		box_position_01 = [ -627.331421, 1622.583008, 99.970001 ]
+		box_position_02 = [ -829.933472, 1463.522583, 48.751251 ]
+		enable_debug_radius = 0.0
 	}
 	AmbA2Hideout.ChimesLowWaterChild = 
 	{
 		base = "AmbientDebrisPuzzle.ChimesLowChild"
-		box_position_01 = 
-		[
-			165.826828,
-			700.525330,
-			-54.488953,
-		]
-		box_position_02 = 
-		[
-			425.228210,
-			525.236755,
-			-100.207397,
-		]
-		enable_debug_radius = 0.000000
+		box_position_01 = [ 165.826828, 700.52533, -54.488953 ]
+		box_position_02 = [ 425.22821, 525.236755, -100.207397 ]
+		enable_debug_radius = 0.0
 	}
 	AmbA2Hideout.ChimesHighWaterChild = 
 	{
 		base = "AmbientDebrisPuzzle.ChimesHighChild"
-		box_position_01 = 
-		[
-			165.826828,
-			700.525330,
-			-54.488953,
-		]
-		box_position_02 = 
-		[
-			425.228210,
-			525.236755,
-			-100.207397,
-		]
-		enable_debug_radius = 0.000000
+		box_position_01 = [ 165.826828, 700.52533, -54.488953 ]
+		box_position_02 = [ 425.22821, 525.236755, -100.207397 ]
+		enable_debug_radius = 0.0
 	}
 	AmbA2Hideout.WorldChimesLowPuzzleChild = 
 	{
 		base = "AmbientDebrisPuzzle.WorldChimesLowChild"
-		box_position_01 = 
-		[
-			-131.597534,
-			1739.423096,
-			-139.654114,
-		]
-		box_position_02 = 
-		[
-			435.897400,
-			1796.456665,
-			10.513615,
-		]
+		box_position_01 = [ -131.597534, 1739.423096, -139.654114 ]
+		box_position_02 = [ 435.8974, 1796.456665, 10.513615 ]
 		volume_falloff_min = 500
 		volume_falloff_max = 1500
-		volume = 0.450000
-		enable_debug_radius = 0.000000
+		volume = 0.45
+		enable_debug_radius = 0.0
 	}
 	AmbA2Hideout.WorldChimesHighPuzzleChild = 
 	{
 		base = "AmbientDebrisPuzzle.WorldChimesHighChild"
-		box_position_01 = 
-		[
-			-131.597534,
-			1739.423096,
-			-139.654114,
-		]
-		box_position_02 = 
-		[
-			435.897400,
-			1796.456665,
-			10.513615,
-		]
+		box_position_01 = [ -131.597534, 1739.423096, -139.654114 ]
+		box_position_02 = [ 435.8974, 1796.456665, 10.513615 ]
 		volume_falloff_min = 500
 		volume_falloff_max = 1500
-		volume = 0.450000
-		enable_debug_radius = 0.000000
+		volume = 0.45
+		enable_debug_radius = 0.0
 	}
 	AmbA2Hideout.ChimesLowPuzzleChild = 
 	{
 		base = "AmbientDebrisPuzzle.ChimesLowChild"
-		box_position_01 = 
-		[
-			-131.597534,
-			1739.423096,
-			-139.654114,
-		]
-		box_position_02 = 
-		[
-			435.897400,
-			1796.456665,
-			10.513615,
-		]
+		box_position_01 = [ -131.597534, 1739.423096, -139.654114 ]
+		box_position_02 = [ 435.8974, 1796.456665, 10.513615 ]
 		volume_falloff_min = 500
 		volume_falloff_max = 1500
-		volume = 0.450000
-		enable_debug_radius = 0.000000
+		volume = 0.45
+		enable_debug_radius = 0.0
 	}
 	AmbA2Hideout.ChimesHighPuzzleChild = 
 	{
 		base = "AmbientDebrisPuzzle.ChimesHighChild"
-		box_position_01 = 
-		[
-			-131.597534,
-			1739.423096,
-			-139.654114,
-		]
-		box_position_02 = 
-		[
-			435.897400,
-			1796.456665,
-			10.513615,
-		]
+		box_position_01 = [ -131.597534, 1739.423096, -139.654114 ]
+		box_position_02 = [ 435.8974, 1796.456665, 10.513615 ]
 		volume_falloff_min = 500
 		volume_falloff_max = 1500
-		volume = 0.450000
-		enable_debug_radius = 0.000000
+		volume = 0.45
+		enable_debug_radius = 0.0
 	}
 	AmbA2Hideout.ExteriorLp = 
 	{
@@ -1092,8 +833,8 @@
 		soundevent_02 = "AmbA2Hideout.ExteriorLp_R"
 		soundevent_03 = "AmbA2Hideout.ExteriorLp_LS"
 		soundevent_04 = "AmbA2Hideout.ExteriorLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbA2Hideout.ExteriorLp_L = 
 	{
@@ -1104,7 +845,7 @@
 		vsnd_vol_01 = "0.48"
 		vsnd_vol_02 = "1.0"
 		vsnd_vol_03 = "0.3"
-		volume = 0.900000
+		volume = 0.9
 	}
 	AmbA2Hideout.ExteriorLp_R = 
 	{
@@ -1112,7 +853,7 @@
 		vsnd_file_01 = "sounds/ambient/city/amb_spillway_quad_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/amb_urban_nature_lp_01_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_city_birds_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbA2Hideout.ExteriorLp_LS = 
 	{
@@ -1120,7 +861,7 @@
 		vsnd_file_01 = "sounds/ambient/city/amb_spillway_quad_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/amb_urban_nature_lp_01_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_city_birds_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbA2Hideout.ExteriorLp_RS = 
 	{
@@ -1128,7 +869,7 @@
 		vsnd_file_01 = "sounds/ambient/city/amb_spillway_quad_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/amb_urban_nature_lp_01_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_city_birds_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbA2Hideout.SmallRoomLp = 
 	{
@@ -1137,8 +878,8 @@
 		soundevent_02 = "AmbA2Hideout.SmallRoomLp_R"
 		soundevent_03 = "AmbA2Hideout.SmallRoomLp_LS"
 		soundevent_04 = "AmbA2Hideout.SmallRoomLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbA2Hideout.SmallRoomLp_L = 
 	{
@@ -1147,47 +888,47 @@
 		vsnd_file_02 = "sounds/ambient/interior/amb_distillery_int_sm_lp_01_l.vsnd"
 		vsnd_vol_01 = "0.73"
 		vsnd_vol_02 = "0.50"
-		volume = 0.900000
+		volume = 0.9
 		global_opvar_name_02 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity_02 = 2.500000
-		remap_vol_opvar_02_x1 = 0.000000
-		remap_vol_opvar_02_y1 = 1.000000
-		remap_vol_opvar_02_x2 = 0.200000
-		remap_vol_opvar_02_y2 = 0.900000
-		remap_vol_opvar_02_x3 = 0.500000
-		remap_vol_opvar_02_y3 = 0.650000
-		remap_vol_opvar_02_x4 = 1.000000
-		remap_vol_opvar_02_y4 = 0.000000
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
+		global_opvar_filter_velocity_02 = 2.5
+		remap_vol_opvar_02_x1 = 0.0
+		remap_vol_opvar_02_y1 = 1.0
+		remap_vol_opvar_02_x2 = 0.2
+		remap_vol_opvar_02_y2 = 0.9
+		remap_vol_opvar_02_x3 = 0.5
+		remap_vol_opvar_02_y3 = 0.65
+		remap_vol_opvar_02_x4 = 1.0
+		remap_vol_opvar_02_y4 = 0.0
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
 	}
 	AmbA2Hideout.SmallRoomLp_R = 
 	{
 		base = "AmbA2Hideout.SmallRoomLp_L"
 		vsnd_file_01 = "sounds/ambient/interior/amb_hideout_small_room_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_distillery_int_sm_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbA2Hideout.SmallRoomLp_LS = 
 	{
 		base = "AmbA2Hideout.SmallRoomLp_L"
 		vsnd_file_01 = "sounds/ambient/interior/amb_hideout_small_room_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_distillery_int_sm_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbA2Hideout.SmallRoomLp_RS = 
 	{
 		base = "AmbA2Hideout.SmallRoomLp_L"
 		vsnd_file_01 = "sounds/ambient/interior/amb_hideout_small_room_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_distillery_int_sm_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbA2Hideout.WaterPipesInterior = 
 	{
 		base = "AmbientCity.WaterPipesInterior"
 		random_soundevent_01_name = "AmbA2Hideout.WaterPipesInteriorChild"
-		random_soundevent_01_timer_min = 15.500000
-		random_soundevent_01_timer_max = 25.500000
+		random_soundevent_01_timer_min = 15.5
+		random_soundevent_01_timer_max = 25.5
 		cull_at_distance = 550
 	}
 	AmbA2Hideout.WaterPipesInteriorChild = 
@@ -1195,10 +936,10 @@
 		base = "AmbientCity.WaterPipesInteriorChild"
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
-		volume = 0.200000
-		volume_falloff_min = 120.000000
-		volume_falloff_max = 550.000000
-		enable_debug_radius = 0.000000
+		volume = 0.2
+		volume_falloff_min = 120.0
+		volume_falloff_max = 550.0
+		enable_debug_radius = 0.0
 		debug_radius_max = 150
 	}
 }

@@ -26,6 +26,23 @@
     opacity: 1;
 }
 
+///////////////////////////////////////////////////////////////////
+// deckard etc
+.IsDeckard .HideOnNativeDevice
+{
+	visibility: collapse;
+}
+
+.ShowOnNativeDevice
+{
+	Visibility: collapse;
+}
+
+.IsDeckard .ShowOnNativeDevice
+{
+	visibility: visible;
+}
+
 /* ========== Duplicated Panorama Background Treament ========== */
 .game_menu_root.Visible.Background
 {
@@ -233,7 +250,8 @@
     height: 568px;
 }
 #root_options_list,
-#interface_options_list 
+#interface_options_list,
+#preferences_list 
 {
     width: 100%;
     flow-children: down;
@@ -1488,6 +1506,7 @@ HLVRAddonTogglePanel Label
     background-color: #000000;
 }
 
+.commentary_mode,
 .OriginalSaveSlot,
 .AddonSaveSlot,
 .OriginalMap,
@@ -1496,6 +1515,7 @@ HLVRAddonTogglePanel Label
     visibility: collapse;
 }
 
+.ShowOriginalMaps .commentary_mode,
 .ShowOriginalSaveSlots .OriginalSaveSlot,
 .ShowAddonSaveSlots .AddonSaveSlot,
 .ShowOriginalMaps .OriginalMap,

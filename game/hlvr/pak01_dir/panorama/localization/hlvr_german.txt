@@ -57,6 +57,12 @@
 "HLVR_MainMenu_LocalAddon"				"Lokales Addon"
 "HLVR_MainMenu_MissingAddon"			"Folgende Addon(s) fehlen. Bitte abonnieren Sie sie erneut, um diese Datei zu laden."
 
+"HLVR_MainMenu_OriginalGame"			"Originalspiele"
+"HLVR_MainMenu_AddonGame"				"Addon-Spiele"
+
+"HLVR_MainMenu_OriginalMaps"			"Originalspiel"
+"HLVR_MainMenu_AddonMaps"				"Addon-Karten"
+
 "HLVR_MainMenu_AddonUpVote"				"Positive Bewertungen"
 "HLVR_MainMenu_AddonDownVote"			"Negative Bewertungen"
 
@@ -134,6 +140,9 @@
 "HLVR_Options_On"					"An"
 "HLVR_Options_Off"				"Aus"
 
+"HLVR_Options_Commentary"					"Enwicklerkommentare"
+"HLVR_Options_Commentary_desc"				"Aktivieren Sie die Entwicklerkommentare während des Spielens.\n\nHINWEIS: Die Kommentare enthalten Hinweise zum Spielgeschehen und zur Geschichte.\n\nWir empfehlen, zunächst das Spiel abzuschließen."
+
 "HLVR_Options_Movement_Base"					"Bewegung"
 "HLVR_Options_Movement_Blink"					"Teleportation"
 "HLVR_Options_Movement_Shift"					"Standortwechsel"
@@ -177,6 +186,9 @@
 
 "HLVR_Options_ContinuousTurn_Speed_Base"		"Fortlaufende Drehgeschwindigkeit"
 "HLVR_Options_ContinuousTurn_Speed_desc"		"Die Winkelgeschwindigkeit der fortlaufenden Drehung."
+
+"HLVR_Options_DLC_Skins"						"Skins vorbestellen"
+"HLVR_Options_DLC_Skins_desc"					"Durch Vorbestellung der Valve Index-Hardware gewährte Verwendung von Waffen-Skins aktivieren."
 
 "HLVR_Options_Subtitles"						"Untertitel"
 "HLVR_Options_Subtitles_Base"					"Untertitel"
@@ -530,7 +542,6 @@
 "HLVR_CraftingStation_ResinAmount"					"{i:CurrencyAmount}"
 "HLVR_CraftingStation_SelectObject"					"Objekt auswählen"
 "HLVR_CraftingStation_SelectedWeapon"				"{s:WeaponName}"
-"HLVR_CraftingStation_SelectUpgrade"				"Verbesserung für {s:WeaponName} auswählen"
 "HLVR_CraftingStation_Upgrades"						"Verbesserungen"
 "HLVR_CraftingStation_Cost"							"Kosten"
 "HLVR_CraftingStation_Summary"						"Übersicht"
@@ -548,8 +559,6 @@
 "HLVR_CraftingStation_TakeObject"					"Nimm den Gegenstand."
 "HLVR_CraftingStation_PrintObject"					"Objekt drucken"
 "HLVR_CraftingStation_UpgradeOwned"					"Im Besitz"
-"HLVR_CraftingStation_SelectedPrint"				"Ausgewählt: {s:SelectedPrintObject}"
-"HLVR_CraftingStation_SelectedUpgrade"				"Ausgewählte Verbesserung: {s:SelectedUpgrade}"
 "HLVR_CraftingStation_Cancel"						"Abbrechen"
 "HLVR_CraftingStation_Back"							"Zurück"
 "HLVR_CraftingStation_SmallPrint"					"Ordnungsschutz Anhang 19-81572"
@@ -648,6 +657,202 @@
 
 "HLVR_Credits_ContractorsHeader"					"Weitere Entwickler"
 "HLVR_Credits_CastHeader"							"Die Besetzung"
+
+
+
+// Commentary Titles
+
+// a1_intro_world
+"HLVR_Commentary_Intro1"							"Willkommen"
+"HLVR_Commentary_Intro2"							"Einführung"
+"HLVR_Commentary_Citadel_Vista"						"Die Zitadelle"
+"HLVR_Commentary_Greenhouse"						"Das Treibhaus"
+"HLVR_Commentary_Strider"							"Der Strider"
+"HLVR_Commentary_Refuge"							"Der Zufluchtsort"
+"HLVR_Commentary_Olga"								"Olga"
+"HLVR_Commentary_Music"								"Die Musik"
+"HLVR_Commentary_Alley"								"Die Gasse"
+
+// a1_intro_world_2
+"HLVR_Commentary_Van_Crash"							"Der Vanunfall"
+"HLVR_Commentary_Pacing1"							"Tempo 1"
+"HLVR_Commentary_Pacing2"							"Tempo 2"
+"HLVR_Commentary_Pacing3"							"Tempo 3"
+"HLVR_Commentary_Russell_Typing"					"Russell tippt"
+"HLVR_Commentary_Russell_Choreo"					"Die Charakter-Choreografie"
+"HLVR_Commentary_GG_Training_1"						"Gravitations-handschuh-Training 1"
+"HLVR_Commentary_GG_Training_2"						"Gravitations-handschuh-Training 2"
+
+// a2_quarantine_entrance
+"HLVR_Commentary_Resin"								"Das Polymer"
+"HLVR_Commentary_Toner_Intro"						"Die Toner-Puzzles"
+"HLVR_Commentary_Lighting"							"Die Beleuchtung"
+"HLVR_Commentary_Barnacles"							"Die Kletten"
+"HLVR_Commentary_Pistol_Training1"					"Das Nachladen der Pistole"
+"HLVR_Commentary_Locker_Hacking"					"Das Hacken"
+
+// a2_pistol
+"HLVR_Commentary_Health_Injectors"					"Die Erste-Hilfe-Injektoren"
+"HLVR_Commentary_Pistol_Training2"					"Das Pistolentraining"
+"HLVR_Commentary_Train_Cars"						"Das Kriechen"
+"HLVR_Commentary_Breakable_Glass"					"Zerstörbares Glas"
+"HLVR_Commentary_Weapon_Upgrades"					"Die Waffen Upgrades"
+"HLVR_Commentary_Comfort_Pacing"					"Der Spielerkomfort & das Tempo"
+"HLVR_Commentary_Headcrab_Foreshadowing"			"Die Vorausdeutung der Kopfkrabbe"
+
+// a2_hideout
+"HLVR_Commentary_Mural"								"Das Half-Life-Wandgemälde"
+"HLVR_Commentary_Mural_Music"						"Musikalische Motive"
+"HLVR_Commentary_Alyx_Reacts"						"Die Reaktionen von Alyx"
+"HLVR_Commentary_Hideout_Interactivity"				"Die Interaktivität des Zufluchtsorts"
+"HLVR_Commentary_Hideout_Scene"						"Die Zufluchtsortszene"
+
+// a2_headcrabs_tunnel
+"HLVR_Commentary_ArmoredHeadcrabs1"					"Gepanzerte Kopfkrabben 1"
+"HLVR_Commentary_ArmoredHeadcrabs2"					"Gepanzerte Kopfkrabben 2"
+"HLVR_Commentary_ArmoredHeadcrabs3"					"Gepanzerte Kopfkrabben 3"
+"HLVR_Commentary_ShotgunGate1"						"Das Schrotflinten-hindernis 1"
+"HLVR_Commentary_ShotgunGate2"						"Das Schrotflinten-hindernis 2"
+"HLVR_Commentary_ShotgunDesign1"					"Das Schrotflinten-Design 1"
+"HLVR_Commentary_ShotgunDesign2"					"Das Schrotflinten-Design 2"
+"HLVR_Commentary_DarknessGate"						"Das Dunkelheits-Hindernis"
+"HLVR_Commentary_TonerAirlock"						"Die Toner-Luftschleuse"
+"HLVR_Commentary_Flashlight1"						"Die Taschenlampe"
+"HLVR_Commentary_Flashlight2"						"Die Gliederung der Taschenlampe"
+"HLVR_Commentary_Sandwiches"						"Die Sandwiches"
+
+// a2_drainage
+"HLVR_Commentary_Budgeting"							"Das Budget"
+"HLVR_Commentary_Barnacle_Sounds"					"Die Geräusche der Kletten"
+"HLVR_Commentary_Manhack_Introduction"				"Die Geräusche des Schnitters"
+"HLVR_Commentary_Exterior_Pacing"					"Das Tempo im Freien"
+"HLVR_Commentary_Xen_Barrels"						"Der Xen-Befall"
+"HLVR_Commentary_Volumetric_Lighting"				"Die volumetrische Beleuchtung"
+
+// a2_train_yard
+"HLVR_Commentary_Combine_Sighting"					"Der Combine-Kontakt"
+"HLVR_Commentary_Single_Combine"					"Der erste Combine"
+"HLVR_Commentary_First_Combine_Skirmish"			"Der Kampf gegen die Combine"
+"HLVR_Commentary_Train_Crash"						"Der Zugunfall"
+"HLVR_Commentary_Eli_Rescue"						"Elis Rettung"
+
+// a3_station_street
+"HLVR_Commentary_Melee"								"Keine Brechstange?"
+"HLVR_Commentary_Vault_View"						"Die Aussicht vom Hochsicherheits-komplex"
+"HLVR_Commentary_Throwing"							"Das Werfen"
+"HLVR_Commentary_Optional_Toner"					"Das Toner-Puzzle"
+"HLVR_Commentary_Substation_Music"					"Die Geräusche der Unterstation"
+
+// a3_hotel_lobby_basement
+"HLVR_Commentary_Physics_Sounds"					"Physische Geräusche"
+"HLVR_Commentary_Liquid_Bottles"					"Die Flüssigkeit in der Flasche"
+"HLVR_Commentary_Xen_Art"							"Die Kunst der Xen"
+"HLVR_Commentary_Xen_Animation"						"Die Animation der Xen-Flora"
+"HLVR_Commentary_Reviver_Intro"						"Die Einführung des Wiederbelebers"
+"HLVR_Commentary_Reviver_Animation"					"Die Animation des Wiederbelebers"
+"HLVR_Commentary_HLPR"								"Der Spieletrailer"
+
+// a3_hotel_underground_pit
+"HLVR_Commentary_Teleport_Immersion"				"Teleport & Immersion"
+"HLVR_Commentary_Reviver_Foreshadowing"				"Die Vorausdeutung des Wiederbelebers"
+"HLVR_Commentary_Reviver_Training"					"Das Training des Wiederbelebers"
+"HLVR_Commentary_Reviver_Ground_Attack"				"Der Bodenangriff des Wiederbelebers"
+"HLVR_Commentary_Elevator_Comfort"					"Komfort im Fahrstuhl"
+"HLVR_Commentary_Substation_Design"					"Das Design der Unterstation"
+
+// a3_hotel_interior_rooftop
+"HLVR_Commentary_Xen_Response"						"Die Reaktion der Xen-Flora"
+"HLVR_Commentary_Particle_Effects"					"Partikel in VR"
+"HLVR_Commentary_Darkness"							"Die Dunkelheit"
+"HLVR_Commentary_Ammo_Balancing_1"					"Das Balancing der Munition 1"
+"HLVR_Commentary_Ammo_Balancing_2"					"Das Balancing der Munition 2"
+"HLVR_Commentary_Ammo_Balancing_3"					"Das Balancing der Munition 3"
+"HLVR_Commentary_Double_Reviver"					"Zwei Wiederbeleber kämpfen"
+
+// a3_hotel_street
+"HLVR_Commentary_Vort_Energy"						"Die Vortigaunt-Energie"
+"HLVR_Commentary_Substation_Vort"					"Die Vortigaunt-Animation"
+"HLVR_Commentary_Prefabs"							"Fertigteile"
+"HLVR_Commentary_Procedural_Displacement"			"Prozedurale Versetzung"
+"HLVR_Commentary_Character_Movement"				"Die Charakterbewegung"
+"HLVR_Commentary_Trip_Mines"						"Die Tretminen"
+"HLVR_Commentary_Combat_Pacing"						"Das Tempo des Kampfes"
+"HLVR_Commentary_Xen_World_Building"				"Der Aufbau der Xen-Welt"
+"HLVR_Commentary_Mannequin_Headcrab"				"Die Kopfkrabbe und die Puppe"
+
+// a3_c17_processing_plant
+"HLVR_Commentary_Pistol_Hopper"						"Pistolen-Hopper"
+"HLVR_Commentary_Soundscapes"						"Soundscapes"
+"HLVR_Commentary_Suppressor_Intro"					"Die Einführung des Unterdrückers"
+"HLVR_Commentary_Environment_Art"					"Die Umgebungskunst"
+"HLVR_Commentary_AI_In_VR"							"Die KI in VR"
+"HLVR_Commentary_Ladders"							"Leitern"
+
+// a3_distillery
+"HLVR_Commentary_Jeff"								"Jeff"
+"HLVR_Commentary_Xen_Ears"							"Die Xen-Ohren"
+"HLVR_Commentary_Xen_Clams"							"Die Xen-Muscheln"
+"HLVR_Commentary_Larry"								"Larry"
+"HLVR_Commentary_Coughing"							"Das Husten"
+"HLVR_Commentary_Single_Controller"					"Der Einzelcontroller-modus"
+"HLVR_Commentary_Jeff_Attack"						"Jeffs Angriff"
+"HLVR_Commentary_Training_Alcove"					"Die Trainingshöhle"
+"HLVR_Commentary_Jeff_Design"						"Jeffs Design"
+"HLVR_Commentary_Freezer_Toner_Puzzle"				"Das Toner-Puzzle mit der Gefrierkammer"
+"HLVR_Commentary_Elevator"							"Elevator"
+"HLVR_Commentary_Cheeky_Headcrab"					"Die Flucht der frechen Kopfkrabbe"
+"HLVR_Commentary_Combine_Forcefields"				"Die Kraftfelder der Combine"
+"HLVR_Commentary_Sounds"							"Geräusche"
+"HLVR_Commentary_Jeff_Death"						"Jeffs Tod"
+
+// a4_c17_zoo
+"HLVR_Commentary_Antlion_Combat"					"Der Kampf gegen die Ameisenlöwen"
+"HLVR_Commentary_Foliage"							"Das Blattwerk"
+"HLVR_Commentary_Antlion_Sounds"					"Die Geräusche der Ameisenlöwen"
+"HLVR_Commentary_Anim_Interactables"				"Animierte Interaktionsobjekte"
+"HLVR_Commentary_Toner_Puzzle1"						"Das Toner-Puzzle"
+"HLVR_Commentary_Toner_Puzzle2"						"Eine kritische Kreuzung"
+
+// a4_c17_tanker_yard
+"HLVR_Commentary_Tractor_Beam"						"Traktorstrahl"
+"HLVR_Commentary_Collaborator"						"Der Mitarbeiter"
+"HLVR_Commentary_Scavenger_Hideout"					"Das Versteck der Plünderer"
+"HLVR_Commentary_Spectator_HUD"						"Das Zuschauer-HUD"
+"HLVR_Commentary_Tanker_Yard_Combat"				"Der Kampf bei den Tankwagons"
+
+// a4_c17_water_tower
+"HLVR_Commentary_Chasm_Puzzle"						"Das Puzzle mit dem Abgrund"
+"HLVR_Commentary_Combine_Combat"					"Der Kampf mit den Combine"
+"HLVR_Commentary_Vertical_Tower"					"Die Senkrechte"
+"HLVR_Commentary_Vault_Panel"						"Die Konsole des Hochsicherheits-komplexes"
+
+// a4_c17_parking_garage
+"HLVR_Commentary_Strider_Intro"						"Die Einführung des Striders"
+"HLVR_Commentary_Lone_Combine"						"Ein einsamer Combine"
+"HLVR_Commentary_Disabled_Strider"					"Der angeschlagene Strider"
+"HLVR_Commentary_Lion_And_Mouse"					"Der Löwe und die Maus"
+"HLVR_Commentary_AI_Animation"						"KI und Animation"
+"HLVR_Commentary_Elevator"							"Die Fahrt im Fahrstuhl"
+"HLVR_Commentary_Destructible_Cover"				"Zerstörbare Deckung"
+"HLVR_Commentary_Minigun"							"Die Strider-Minigun"
+"HLVR_Commentary_Doorframe_Bash"					"„Die Tür bricht ein“"
+"HLVR_Commentary_Strider_Sounds"					"Die Geräusche des Striders"
+"HLVR_Commentary_Gauss_Cannon"						"Die Gauß-Kanone"
+"HLVR_Commentary_Destroy_Strider"					"Die Zerstörung des Striders"
+"HLVR_Commentary_Mounted_Gun"						"Die montierte Waffe"
+
+// a5_vault
+"HLVR_Commentary_Broken_Vault_Music"				"Die „kaputte“ Hochsicherheits-komplexmusik"
+"HLVR_Commentary_Sideways_Music"					"Musik im verdrehten Raum"
+"HLVR_Commentary_Surreal_Vault"						"Der surreale Hochsicherheits-komplex"
+"HLVR_Commentary_Vort_Lightning"					"Die Vortigaunt-Blitze"
+
+
+// a5_ending
+"HLVR_Commentary_Coetaneous"						"Die Verstrickung der gleichen Zeit"
+"HLVR_Commentary_GMan_Room"							"Der G-Man-Raum"
+
+
 
 // Game Tips
 "HLVR_LOADING_SCREEN_TIP_COUNT"				"22"

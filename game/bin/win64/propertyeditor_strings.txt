@@ -52,11 +52,10 @@
 !#?qt_metacast@QIntValidator@@UEAAPEAXPEBD@Z
 !*?setHsl@QColor@@QEAAXHHHH@Z
 !,?setRange@QAbstractSlider@@QEAAXHH@Z
-!1AQaq
 !?pixmap@QCursor@@QEBA?AVQPixmap@@XZ
+!?qGray@@YAHI@Z
 !\r?canFetchMore@QSortFilterProxyModel@@UEBA_NAEBVQModelIndex@@@Z
 "*?setHslF@QColor@@QEAAXNNNN@Z
-"2BRbr
 "?qt_metacall@QPushButton@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 "?qt_metacall@QRadioButton@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 "?qt_metacall@QScrollArea@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
@@ -89,7 +88,6 @@
 #*?setHsv@QColor@@QEAAXHHHH@Z
 #+?setModel@QListWidget@@EEAAXPEAVQAbstractItemModel@@@Z
 #,?setRange@QDoubleValidator@@UEAAXNNH@Z
-#3CScs
 #?qt_metacast@QGridLayout@@UEAAPEAXPEBD@Z
 #?qt_metacast@QHBoxLayout@@UEAAPEAXPEBD@Z
 #?qt_metacast@QWidget@@UEAAPEAXPEBD@Z
@@ -98,7 +96,6 @@
 $*?setHsvF@QColor@@QEAAXNNNN@Z
 $,?setRange@QIntValidator@@UEAAXHH@Z
 $3?texture@QBrush@@QEBA?AVQPixmap@@XZ
-$4DTdt
 $?rect@QPixmap@@QEBA?AVQRect@@XZ
 $?rect@QWidget@@QEBA?AVQRect@@XZ
 $?red@QColor@@QEBAHXZ
@@ -123,7 +120,6 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 %1 children: \n
 %1 items
 %1 properties: \n
-%5EUeu
 %?removeRows@QSortFilterProxyModel@@UEAA_NHHAEBVQModelIndex@@@Z
 %?removeRows@QStandardItemModel@@UEAA_NHHAEBVQModelIndex@@@Z
 %?resizeEvent@QTextEdit@@MEAAXPEAVQResizeEvent@@@Z
@@ -142,7 +138,6 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 %s: string format requested %d chars\n
 &"?qt_metacall@QAction@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 &+?setModel@QTableWidget@@EEAAXPEAVQAbstractItemModel@@@Z
-&6FVfv
 &?PPPPPPP?
 &?rowsAboutToBeRemoved@QListView@@MEAAXAEBVQModelIndex@@HH@Z
 &?rowsInserted@QAbstractItemView@@MEAAXAEBVQModelIndex@@HH@Z
@@ -253,7 +248,6 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 '"?qt_metacall@QActionGroup@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 '#?qt_metacast@QLabel@@UEAAPEAXPEBD@Z
 '-?setStatusTip@QWidget@@QEAAXAEBVQString@@@Z
-'7GWgw
 '?setAcceptDrops@QWidget@@QEAAX_N@Z
 '?setAcceptRichText@QTextEdit@@QEAAX_N@Z
 '?setBackgroundMode@QPainter@@QEAAXW4BGMode@Qt@@@Z
@@ -279,7 +273,6 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 ( %1, %2, %3, %4% )
 (0?staticMetaObject@QColorDialog@@2UQMetaObject@@B
 (8?visualRect@QListView@@UEBA?AVQRect@@AEBVQModelIndex@@@Z
-(8HXhx
 (?setColor@QPalette@@QEAAXW4ColorRole@1@AEBVQColor@@@Z
 (?setColor@QPen@@QEAAXAEBVQColor@@@Z
 (?setColorAt@QGradient@@QEAAXNAEBVQColor@@@Z
@@ -308,7 +301,6 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 (Property Name Filter)
 (\w+)(?:\((.*)\))?
 )(?setCompleter@QComboBox@@QEAAXPEAVQCompleter@@@Z
-)9IYiy
 )?setEditTriggers@QAbstractItemView@@QEAAXV?$QFlags@W4EditTrigger@QAbstractItemView@@@@@Z
 )?setEditable@QComboBox@@QEAAX_N@Z
 )?setEnabled@QAction@@QEAAX_N@Z
@@ -335,7 +327,6 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 **?setIcon@QAbstractButton@@QEAAXAEBVQIcon@@@Z
 *0?staticMetaObject@QComboBox@@2UQMetaObject@@B
 *8?visualRect@QTableView@@UEBA?AVQRect@@AEBVQModelIndex@@@Z
-*:JZjz
 *?setHorizontalHeaderLabels@QStandardItemModel@@QEAAXAEBVQStringList@@@Z
 *?setHorizontalHeaderLabels@QTableWidget@@QEAAXAEBVQStringList@@@Z
 *?setHorizontalScrollBarPolicy@QAbstractScrollArea@@QEAAXW4ScrollBarPolicy@Qt@@@Z
@@ -468,8 +459,6 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 .?AV?$CTier1AppSystem@VIPropertyEditorSystem@@$0A@@@
 .?AV?$CTier2AppSystem@VIPropertyEditorSystem@@$0A@@@
 .?AV?$CTier3AppSystem@VIPropertyEditorSystem@@$0A@@@
-.?AV?$_Ref_count_obj@V__ExceptionPtr@@@std@@
-.?AV?$_Ref_count_obj_alloc@V__ExceptionPtr@@U?$_StaticAllocator@H@@@std@@
 .?AVCBindTargetDescriptorBase@@
 .?AVCBindableCommand@@
 .?AVCBindableTargetDescriptorInstance@?1??StaticBindableTargetDescriptor@CGlobalHotkeyCommands@@SAPEAVCBindTargetDescriptorBase@@XZ@
@@ -672,8 +661,6 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 .?AVQValidator@@
 .?AVQWidget@@
 .?AVQWidgetAction@@
-.?AV_Ref_count_base@std@@
-.?AVbad_alloc@std@@
 .?AVbad_exception@std@@
 .?AVexception@std@@
 .?AVtype_info@@
@@ -699,7 +686,6 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 .CRT$XLA
 .CRT$XLZ
 .CRT$XPA
-.CRT$XPB
 .CRT$XPX
 .CRT$XPXA
 .CRT$XPZ
@@ -709,9 +695,8 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 .bss
 .data
 .data$r
+.data$rs
 .edata
-.gfids$x
-.gfids$y
 .idata$2
 .idata$3
 .idata$4
@@ -721,6 +706,7 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .rtc$IAA
 .rtc$IZZ
@@ -758,10 +744,7 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 0(?setCompositionMode@QPainter@@QEAAXW4CompositionMode@1@@Z
 0-1.0 (&float)
 0-255 (&integer)
-0000
 00000000-0000-0000-0000-000000000000
-00003333
-0123456789ABCDEF
 0123456789abcdefghijklmnopqrstuvwxyz
 0?staticMetaObject@QAbstractScrollArea@@2UQMetaObject@@B
 0?staticMetaObject@QAction@@2UQMetaObject@@B
@@ -781,7 +764,6 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 1.?setVisible@QColorDialog@@UEAAX_N@Z
 1/?sizeHint@QAbstractScrollArea@@UEBA?AVQSize@@XZ
 11Y@
-123456789
 1?statusTip@QAction@@QEBA?AVQString@@XZ
 1?stepBy@QAbstractSpinBox@@UEAAXH@Z
 1?stepEnabled@QAbstractSpinBox@@MEBA?AV?$QFlags@W4StepEnabledFlag@QAbstractSpinBox@@@@XZ
@@ -1052,7 +1034,6 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 1close()
 1dropDraggedColorSet()
 1dropDraggedColorSetSpecial()
-1eaB@
 1editRequest(char, QColor)
 1giveColorBack()
 1hide()
@@ -1163,6 +1144,7 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 2ValueSetChanged(QVector<double>)
 2ValueSetXChanged(QVector<double>)
 2ValueSetYChanged(QVector<double>)
+2\vpd`
 2aboutToShow()
 2accepted()
 2boo(bool)
@@ -1205,7 +1187,6 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 3-?setStretchLastSection@QHeaderView@@QEAAX_N@Z
 3/?sizeHint@QBoxLayout@@UEBA?AVQSize@@XZ
 30?staticMetaObject@QDialog@@2UQMetaObject@@B
-3333
 37>k
 38?warning@QMessageBox@@SA?AW4StandardButton@1@PEAVQWidget@@AEBVQString@@1V?$QFlags@W4StandardButton@QMessageBox@@@@W421@@Z
 3>N;kU
@@ -1264,6 +1245,7 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 8?write@QStandardItem@@UEBAXAEAVQDataStream@@@Z
 8?write@QTableWidgetItem@@UEBAXAEAVQDataStream@@@Z
 8ke?;
+8xP]
 93?timerEvent@QAbstractSpinBox@@MEAAXPEAVQTimerEvent@@@Z
 99jd9
 9>70
@@ -1276,7 +1258,6 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 ;+?setMouseTracking@QWidget@@QEAAX_N@Z
 ;-?setStyle@QBrush@@QEAAXW4BrushStyle@Qt@@@Z
 ;/?sizeHint@QDialog@@UEBA?AVQSize@@XZ
-;1cb
 ;\r?qsrand@@YAXI@Z
 <!-- kv3 encoding:%s:version{%s} format:%s:version{%s} -->\n
 <!-- schema 
@@ -1291,7 +1272,6 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 <Mixed Names>
 <Mixed Types>
 <Multiple Different Values>
-<NONE>
 <deferred>
 <no failure reason set>
 <null>
@@ -1299,13 +1279,14 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 =(?setContextMenuPolicy@QWidget@@QEAAXW4ContextMenuPolicy@Qt@@@Z
 =*?setIconSize@QToolBar@@QEAAXAEBVQSize@@@Z
 =,?setRedF@QColor@@QEAAXN@Z
-=1cb
 =87M
 =cQ6
 =e2m
 =imb;D
+><NONE>
 >\t?grow@QVectorData@@SAHHHH_N@Z
 >cQ6
+>invalid argument
 >jtm}S
 ?!5WOo
 ?-?setStyle@QPen@@QEAAXW4PenStyle@Qt@@@Z
@@ -1316,6 +1297,7 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 ?7zQ6$
 ?7{KV\nU
 ?8bunz8
+??0CThreadMutex@@QEAA@XZ
 ??0QAbstractScrollArea@@QEAA@PEAVQWidget@@@Z
 ??0QAction@@QEAA@AEBVQString@@PEAVQObject@@@Z
 ??0QAction@@QEAA@PEAVQObject@@@Z
@@ -1397,6 +1379,7 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 ??0QPixmap@@QEAA@AEBVQString@@PEBDV?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
 ??0QPixmap@@QEAA@HH@Z
 ??0QPixmap@@QEAA@XZ
+??0QPolygon@@QEAA@XZ
 ??0QPushButton@@QEAA@AEBVQIcon@@AEBVQString@@PEAVQWidget@@@Z
 ??0QPushButton@@QEAA@AEBVQString@@PEAVQWidget@@@Z
 ??0QPushButton@@QEAA@PEAVQWidget@@@Z
@@ -1423,6 +1406,7 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 ??0QStandardItemModel@@QEAA@PEAVQObject@@@Z
 ??0QString@@QEAA@AEBV0@@Z
 ??0QString@@QEAA@PEBD@Z
+??0QString@@QEAA@XZ
 ??0QTableView@@QEAA@PEAVQWidget@@@Z
 ??0QTableWidget@@QEAA@PEAVQWidget@@@Z
 ??0QTableWidgetItem@@QEAA@H@Z
@@ -1548,14 +1532,15 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 ??YQString@@QEAAAEAV0@PEBD@Z
 ?@En[vP
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
+?CTR
 ?Concat@CBufferString@@QEAAPEBDPEBD0ZZ
 ?Double-save to Member '%s'
 ?EnterScope@CVProfile@@QEAAXPEBDH0_NH@Z
 ?ExitScope@CVProfile@@QEAAXXZ
 ?FixSlashes@CBufferString@@QEAAPEBDD@Z
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Jan
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
+?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LockForRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?Purge@CBufferString@@QEAAXH@Z
@@ -1568,6 +1553,8 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 ?StartsWith@CBufferString@@QEAA_NPEBD@Z
 ?Truncated data
 ?UUUUUU
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
+?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?UnlockWrite@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?V_SplitString@@YAXPEBD0AEAV?$CUtlVector@PEADV?$CUtlMemory@PEADH@@@@@Z
@@ -1585,7 +1572,6 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 ?arg@QString@@QEBA?AV1@NHDHAEBVQChar@@@Z
 ?arg@QString@@QEBA?AV1@_JHHAEBVQChar@@@Z
 ?arg@QString@@QEBA?AV1@_KHHAEBVQChar@@@Z
-?at@QListData@@QEBAPEAPEAXH@Z
 ?at@QString@@QEBA?BVQChar@@H@Z
 ?blockSignals@QObject@@QEAA_N_N@Z
 ?buddy@QAbstractItemModel@@UEBA?AVQModelIndex@@AEBV2@@Z
@@ -1692,15 +1678,14 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 ?dragMoveEvent@QTextEdit@@MEAAXPEAVQDragMoveEvent@@@Z
 ?dragMoveEvent@QWidget@@MEAAXPEAVQDragMoveEvent@@@Z
 ?drawEllipse@QPainter@@QEAAXAEBVQPoint@@HH@Z
+?drawEllipse@QPainter@@QEAAXAEBVQPointF@@NN@Z
 ?drawEllipse@QPainter@@QEAAXAEBVQRect@@@Z
-?drawEllipse@QPainter@@QEAAXAEBVQRectF@@@Z
 ?drawImage@QPainter@@QEAAXHHAEBVQImage@@HHHHV?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
 ?drawLine@QPainter@@QEAAXHHHH@Z
 ?drawLines@QPainter@@QEAAXPEBVQLine@@H@Z
 ?drawPath@QPainter@@QEAAXAEBVQPainterPath@@@Z
 ?drawPixmap@QPainter@@QEAAXAEBVQPointF@@AEBVQPixmap@@@Z
 ?drawPixmap@QPainter@@QEAAXAEBVQRect@@AEBVQPixmap@@@Z
-?drawPixmap@QPainter@@QEAAXAEBVQRectF@@AEBVQPixmap@@0@Z
 ?drawPixmap@QPainter@@QEAAXHHHHAEBVQPixmap@@@Z
 ?drawPolygon@QPainter@@QEAAXPEBVQPoint@@HW4FillRule@Qt@@@Z
 ?drawPolygon@QPainter@@QEAAXPEBVQPointF@@HW4FillRule@Qt@@@Z
@@ -1708,6 +1693,7 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 ?drawRects@QPainter@@QEAAXPEBVQRect@@H@Z
 ?drawRects@QPainter@@QEAAXPEBVQRectF@@H@Z
 ?drawRoundedRect@QPainter@@QEAAXAEBVQRectF@@NNW4SizeMode@Qt@@@Z
+?drawRoundedRect@QPainter@@QEAAXHHHHNNW4SizeMode@Qt@@@Z
 ?drawText@QPainter@@QEAAXAEBVQPointF@@AEBVQString@@@Z
 ?drawText@QPainter@@QEAAXAEBVQRect@@HAEBVQString@@PEAV2@@Z
 ?drawText@QPainter@@QEAAXAEBVQRectF@@AEBVQString@@AEBVQTextOption@@@Z
@@ -2118,6 +2104,7 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 ?retrieveData@QMimeData@@MEBA?AVQVariant@@AEBVQString@@W4Type@2@@Z
 ?revert@QAbstractItemModel@@UEAAXXZ
 ?self@QCoreApplication@@0PEAV1@EA
+?sendEvent@QCoreApplication@@SA_NPEAVQObject@@PEAVQEvent@@@Z
 ?sender@QObject@@IEBAPEAV1@XZ
 ?setData@QMimeData@@QEAAXAEBVQString@@AEBVQByteArray@@@Z
 ?setInterval@QTimer@@QEAAXH@Z
@@ -2134,7 +2121,6 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 ?shared_null@QVectorData@@2U1@A
 ?simplified@QString@@QEBA?AV1@XZ
 ?singleShot@QTimer@@SAXHPEAVQObject@@PEBD@Z
-?size@QListData@@QEBAHXZ
 ?size@QRect@@QEBA?AVQSize@@XZ
 ?span@QAbstractItemModel@@UEBA?AVQSize@@AEBVQModelIndex@@@Z
 ?split@QString@@QEBA?AVQStringList@@AEBV1@W4SplitBehavior@1@W4CaseSensitivity@Qt@@@Z
@@ -2172,7 +2158,6 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 ?willGrow@QHashData@@QEAA_NXZ
 ?ysB
 @"?qt_metacall@QDoubleSpinBox@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-@^8U)zj
 A"?qt_metacall@QDoubleValidator@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 A'?setAlignment@QTextOption@@QEAAXV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
 A>pP&
@@ -2222,7 +2207,6 @@ AcceptAndClose()
 AcceptColorInternal(FatColor_t)
 AcceptDropMenu()
 AcceptDropSpecialMenu()
-AcquireSRWLockExclusive
 ActivateArithmaticMode()
 ActivateTypeInput()
 ActivateTypeInput(bool)
@@ -2268,8 +2252,10 @@ Animation
 AnimationList
 AnimationSystemUtils_001
 AnimationSystem_001
+AppPolicyGetProcessTerminationMethod
 ApplyRange()
 April
+AreFileApisANSI
 Area
 Arithmetic
 AssetBrowserSystem_001
@@ -2594,6 +2580,8 @@ CQWidgetWithEnterLeaveSignals
 CSchemaEditTestClass.m_StringValue
 CSchemaRegistration::RegisterAllModuleData
 CSolveIKChainAnimNode
+CTSListBase: Misaligned list\n
+CTSListBase::CTSListBase
 CURVE_TANGENT_FREE
 CURVE_TANGENT_LINEAR
 CURVE_TANGENT_MIRROR
@@ -2721,9 +2709,6 @@ ClearSelection
 ClearWell()
 Close
 CloseHandle
-CloseThreadpoolTimer
-CloseThreadpoolWait
-CloseThreadpoolWork
 ClothShapeCapsule
 ClothShapeList
 ClothShapeSphere
@@ -2754,7 +2739,6 @@ Command.%s.%s
 CommandLine
 CommandProcedure
 CommandProcedureList
-CompareStringEx
 ComponentSetAlphaChanged(QVector<double>)
 ComponentSetBlueChanged(QVector<double>)
 ComponentSetGreenChanged(QVector<double>)
@@ -2772,8 +2756,6 @@ ConfigAttachedModel
 ConfigurationSystem_001
 ConnectInterfaces
 Context
-ContextPriority
-ContextStackSize
 Copy
 Copy Gradient
 CopyColor()
@@ -2783,19 +2765,11 @@ CopyGradient()
 CopySelectedAttributes
 CopyToClipboard()
 CopyValueSetToClipboard()
-Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
 CorExitProcess
 Courier
-CreateEventExW
 CreateEventW
 CreateFileW
 CreateInterface
-CreateSemaphoreExW
-CreateSemaphoreW
-CreateSymbolicLinkW
-CreateThreadpoolTimer
-CreateThreadpoolWait
-CreateThreadpoolWork
 Ctrl
 CtrlAltV
 CurveEdited()
@@ -2806,8 +2780,6 @@ Cycle or diamond double-reference to '%s'
 CycleOverride
 D3?timerEvent@QTableView@@MEAAXPEAVQTimerEvent@@@Z
 D8?wheelEvent@QAbstractScrollArea@@MEAAXPEAVQWheelEvent@@@Z
-DDDD
-DDDDUUUU
 DeActivateTypeInput()
 Debug
 Debug Focus Widget
@@ -2847,7 +2819,6 @@ DragOffsetRelativeUpdate(QMouseEvent*)
 Dragging
 Dynamic Increment
 DynamicConfigList
-DynamicProgressFeedback
 E-?setStyleSheet@QWidget@@QEAAXAEBVQString@@@Z
 E>nEA
 ERROR: CQColorEditor::SetComponent: SIZE MISMATCH 
@@ -2947,8 +2918,8 @@ FileBrowse
 Filter:
 Find:
 FindClose
-FindFirstFileExA
-FindNextFileA
+FindFirstFileExW
+FindNextFileW
 Fixed
 FlattenedSerializersVersion001
 FloatingPoint
@@ -2957,7 +2928,6 @@ FlsFree
 FlsGetValue
 FlsSetValue
 FlushFileBuffers
-FlushProcessWriteBuffers
 Foc:N 
 Foc:Y 
 Focus Widget
@@ -2972,7 +2942,6 @@ FontManager_001
 Free
 FreeEnvironmentStringsW
 FreeLibrary
-FreeLibraryWhenCallbackReturns
 Friday
 G'?setAlpha@QColor@@QEAAXH@Z
 G3?timerEvent@QToolButton@@MEAAXPEAVQTimerEvent@@@Z
@@ -2993,22 +2962,17 @@ GetCPUInformation
 GetCStringCharConversion
 GetCommandLineA
 GetCommandLineW
-GetConsoleCP
 GetConsoleMode
-GetCurrentPackageId
+GetConsoleOutputCP
 GetCurrentProcess
 GetCurrentProcessId
-GetCurrentProcessorNumber
-GetCurrentThread
 GetCurrentThreadId
 GetDefaultMiniDumpTypeFlags
 GetEnvironmentStringsW
-GetFileInformationByHandleEx
 GetFileType
 GetLastError
-GetLocaleInfoEx
 GetLongPathNameA
-GetModuleFileNameA
+GetModuleFileNameW
 GetModuleHandleExW
 GetModuleHandleW
 GetOEMCP
@@ -3023,9 +2987,6 @@ GetStdHandle
 GetStringTypeW
 GetSystemMetrics
 GetSystemTimeAsFileTime
-GetSystemTimePreciseAsFileTime
-GetThreadTimes
-GetTickCount64
 GlobalHotkeys
 GlobalTopLevel
 Gradient
@@ -3092,14 +3053,11 @@ Impact Low: clamp offset to
 Incoming
 IndicateClean()
 IndicateDirty()
-InitOnceExecuteOnce
 InitRandom()
 InitialValues()
-InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
-InitializeSRWLock
 Input Binding Error
 Input Debugger [%1]
 Input Range:
@@ -3180,7 +3138,6 @@ Linear
 LinearDelta
 LoadKV3ObjectInPlace error: %s\n
 LoadLibraryExW
-LocalContextCacheSize
 LocaleNameToLCID
 Localize_001
 LoggingSystem_IsChannelEnabled
@@ -3204,15 +3161,12 @@ MarkRangeUI(bool)
 MaterialUtils_001
 Math
 MathLib_Init
-MaxConcurrency
-MaxPolicyElementKey
 Maximum
 MbP?
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 MeshSystem001
 MeshUtils001
-MinConcurrency
 MinSize
 MinSizeHint
 Minimum
@@ -3496,6 +3450,7 @@ RGB_RedGreen
 RMouse
 RMouseDoubleClick
 RSDS
+R\fpd`
 RaiseException
 RandomFloat
 RandomInt
@@ -3507,7 +3462,6 @@ Redo()
 RegisterConfigValue: Unknown error constructing config value "%s"!\n
 RegisterStringToken
 Release
-ReleaseSRWLockExclusive
 Remove
 Remove Item
 RemoveBoneAndChildren
@@ -3549,6 +3503,7 @@ Right Mouse (Average)
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlPcToFileHeader
+RtlUnwind
 RtlUnwindEx
 RtlVirtualUnwind
 S ?paintEngine@QWidget@@UEBAPEAVQPaintEngine@@XZ
@@ -3594,8 +3549,6 @@ ScaleValuesToMax(float)
 ScaleValuesToMin(float)
 SceneSystem_002
 SceneUtils_001
-SchedulerKind
-SchedulingProtocol
 SchemaSystem_001
 SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
@@ -3715,7 +3668,6 @@ SetEditorValvePopup()
 SetEditorValvePopupButtons()
 SetEnterSpinTakesFocus(bool)
 SetEvent
-SetFileInformationByHandle
 SetFileNameText(const char*)
 SetFilePointerEx
 SetFocusOnPauseProxyEnabled(bool)
@@ -3795,8 +3747,6 @@ SetTabStyleBar()
 SetTabStyleBrick()
 SetTabStyleLine()
 SetTabStyleNone()
-SetThreadpoolTimer
-SetThreadpoolWait
 SetThrottleSignalRateEnabled(bool)
 SetUnhandledExceptionFilter
 SetUserResizable(bool)
@@ -3841,7 +3791,6 @@ Sine
 Size
 SizePolicy
 SleepConditionVariableCS
-SleepConditionVariableSRW
 Slider
 Slider ctrl down: 
 Slider key down: 
@@ -3885,7 +3834,6 @@ Step(int)
 StepTimed()
 Store
 Stylesheet
-SubmitThreadpoolWork
 Subtract
 SubtractValueFromSet(double)
 Sunday
@@ -3901,7 +3849,6 @@ TUUUU
 TabStyle_t
 Tahoma
 TakeFocus()
-TargetOversubscriptionFactor
 TerminateProcess
 TestFormatA
 TestFormatB
@@ -3925,7 +3872,6 @@ ToolService_001
 Trailing Data
 TriggerCustomCommand(int)
 TriggerInternalCommand(int)
-TryAcquireSRWLockExclusive
 Tuesday
 Two Bone
 Two KV3 format GUIDs with the same human-friendly name ('%s')
@@ -3937,7 +3883,6 @@ UA>N0Wl
 UNKNOWN
 UPDATE_STRING_TOKEN_DATABASE
 USER32.dll
-UUUU
 UUUUUU
 U\t?hasFormat@QMimeData@@UEBA_NAEBVQString@@@Z
 Unable to determine buffer encoding.
@@ -4048,9 +3993,7 @@ W\f?beep@QApplication@@SAXXZ
 W\v?addSpacerItem@QBoxLayout@@QEAAXPEAVQSpacerItem@@@Z
 WaNd?
 WaitForSingleObjectEx
-WaitForThreadpoolTimerCallbacks
 WakeAllConditionVariable
-WakeConditionVariable
 Warning
 Warning:  %s = '%s' is infinite, clamping value.\n
 Wednesday
@@ -4059,7 +4002,6 @@ Well - release:
 Wells
 WideCharToMultiByte
 Widget Pool Alloc
-WinRTInitialization
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
@@ -4099,7 +4041,6 @@ Z\v?addStretch@QBoxLayout@@QEAAXH@Z
 \f?button@QDialogButtonBox@@QEBAPEAVQPushButton@@W4StandardButton@1@@Z
 \f?nextNode@QHashData@@SAPEAUNode@1@PEAU21@@Z
 \f?node_create@QMapData@@QEAAPEAUNode@1@QEAPEAU21@HH@Z
-\f?notifyInternal@QCoreApplication@@AEAA_NPEAVQObject@@PEAVQEvent@@@Z
 \f?number@QByteArray@@SA?AV1@HH@Z
 \f?number@QString@@SA?AV1@HH@Z
 \f?property@QObject@@QEBA?AVQVariant@@PEBD@Z
@@ -4125,6 +4066,7 @@ Z\v?addStretch@QBoxLayout@@QEAAXH@Z
 \n?addButton@QButtonGroup@@QEAAXPEAVQAbstractButton@@@Z
 \n?isWidgetType@QObject@@QEBA_NXZ
 \nCwf\r
+\nPLs
 \nh?oT
 \nk>oB
 \r&?rowsAboutToBeRemoved@QAbstractItemView@@MEAAXAEBVQModelIndex@@HH@Z
@@ -4152,6 +4094,7 @@ Z\v?addStretch@QBoxLayout@@QEAAXH@Z
 \t?indexIn@QRegExp@@QEBAHAEBVQString@@HW4CaretMode@1@@Z
 \t?insert@QListData@@QEAAPEAPEAXH@Z
 \t?installEventFilter@QObject@@QEAAXPEAV1@@Z
+\t?instance@QCoreApplication@@SAPEAV1@XZ
 \tcQr
 \tkE>fvw
 \v2?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
@@ -4181,6 +4124,7 @@ Z\v?addStretch@QBoxLayout@@QEAAXH@Z
 ^RfN>
 _$?question@QMessageBox@@SAHPEAVQWidget@@AEBVQString@@1W4StandardButton@1@2@Z
 _3?toHsl@QColor@@QEBA?AV1@XZ
+_RDATA
 _V_ExtractFilePath
 _V_strncmp
 _V_strncpy
@@ -4196,6 +4140,8 @@ __pascal
 __ptr64
 __restrict
 __stdcall
+__swift_1
+__swift_2
 __temp_unserialization_member__
 __thiscall
 __unaligned
@@ -4205,6 +4151,7 @@ _oD>Kg
 _test_conversion_counter
 `3?toHsv@QColor@@QEBA?AV1@XZ
 `RTTI
+`anonymous namespace'
 `copy constructor closure'
 `default constructor closure'
 `dynamic atexit destructor for '
@@ -4293,7 +4240,6 @@ backgroundEnabled
 backgroundFill
 backgroundStyle
 bad address
-bad allocation
 bad exception
 bad file descriptor
 bad message
@@ -4333,6 +4279,7 @@ c:\buildslave\hlvr_rel_win64\build\src\kv3lib\kv3format_manager.cpp
 c:\buildslave\hlvr_rel_win64\build\src\mathlib\mathlib.cpp
 c:\buildslave\hlvr_rel_win64\build\src\propertyeditor\Retail\win64\propertyeditor.pdb
 c:\buildslave\hlvr_rel_win64\build\src\public\ordered_constructor.h
+c:\buildslave\hlvr_rel_win64\build\src\public\tier0\tslist.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlblockmemory.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlrbtree.h
 c:\buildslave\hlvr_rel_win64\build\src\public\toolutils2\attributeeditorbase.h
@@ -4578,7 +4525,6 @@ initialize()
 initializeColor(QColor)
 inity
 interrupted
-invalid argument
 invalid seek
 invalid_parameter
 invert_orientation
@@ -4946,6 +4892,8 @@ operation not supported
 operation would block
 operator
 operator "" 
+operator co_await
+operator<=>
 origin_max_delta
 origin_relative
 owM&
@@ -4993,9 +4941,10 @@ q/?sizeHintForRow@QTableView@@MEBAHH@Z
 qS>g?h3
 r$?read@QTableWidgetItem@@UEAAXAEAVQDataStream@@@Z
 r9T6
-rLp>B
+r\n,}vtR
 r\tVr.>T
 r\v?addWidget@QGridLayout@@QEAAXPEAVQWidget@@HHHHV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
+r\vpd`
 radius
 radius0
 radius1
@@ -5020,7 +4969,6 @@ rootNode
 s!?prefix@QDoubleSpinBox@@QEBA?AVQString@@XZ
 s"?qt_metacall@QLineEdit@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 s,?setRowMinimumHeight@QGridLayout@@QEAAXHH@Z
-sHF'
 s\v?addWidget@QGridLayout@@QEAAXPEAVQWidget@@HHV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
 scaleDelta,end,tentative
 scaleFactor

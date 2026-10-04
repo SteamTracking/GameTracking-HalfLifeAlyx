@@ -113,7 +113,7 @@
 .CRT$XTZ
 .bss
 .data
-.data$r
+.data$rs
 .edata
 .idata$2
 .idata$3
@@ -124,6 +124,7 @@
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .text$di
 .text$mn
@@ -137,7 +138,6 @@
 1129
 1145
 1DBlend
-2\vppI
 <!-- schema 
 <INVALID>
 <deferred>
@@ -147,6 +147,8 @@
 ??0CCallStackCapture@@QEAA@P6AHPEAPEAXHH@ZII@Z
 ??0CStackTop_Base@@IEAA@XZ
 ??0CThreadEvent@@QEAA@_N@Z
+??0CThreadFastMutex@@QEAA@XZ
+??0CThreadMutex@@QEAA@XZ
 ??1CStackTop_Base@@IEAA@XZ
 ??1CThreadEvent@@QEAA@XZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
@@ -157,7 +159,8 @@
 ?FixSlashes@CBufferString@@QEAAPEBDD@Z
 ?FixupPathName@CBufferString@@QEAAPEBDD@Z
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
+?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LockForRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@VColor@@PEBDZZ
@@ -175,6 +178,8 @@
 ?StripExtension@CBufferString@@QEAAPEBDXZ
 ?ToLowerFast@CBufferString@@QEAAXH@Z
 ?Truncated data
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
+?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?UnlockWrite@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
@@ -255,6 +260,7 @@ AssetSystemTest001
 Attempted to register duplicate manifest name %s!\n
 AutoLayer
 Available resource leak tracking configuration aliases:\n
+B\np\t0
 Bad header (unrecognized encoding specifier)
 Bad header format (expected ':'
 Bad header format (expected '<!--'
@@ -723,9 +729,8 @@ RKS_DEFAULT
 RKS_DISABLE_GROUP_CLEARING
 RKS_KEEP_ALL_RECORDS
 RKS_REQUIRE_EXACT_PAIRINGS
-RSDSQ
+RSDS}
 RSProfilerTool
-R\vppI
 RadianEuler
 Re-entrant calls to CResourceSystem::PreShutdown()\n
 RegisterConfigValue: Unknown error constructing config value "%s"!\n
@@ -1290,7 +1295,7 @@ modeldoc8
 modeldoc9
 multiplayer_break
 nTries < 10000000
-n\f"pA3Q@w
+n\f"pA3Q
 name
 nav_attribute_avoid
 nav_data

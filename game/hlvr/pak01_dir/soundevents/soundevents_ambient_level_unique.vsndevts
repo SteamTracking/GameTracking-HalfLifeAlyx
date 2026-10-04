@@ -1,11 +1,12 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	AmbientIntroWorld01.LevelUnique = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientIntroWorld01.LevelUniqueBurst"
-		random_soundevent_01_timer_min = 20.000000
-		random_soundevent_01_timer_max = 45.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 20.0
+		random_soundevent_01_timer_max = 45.0
+		use_initial_random_offset = 1.0
 	}
 	AmbientIntroWorld01.LevelUniqueBurst = 
 	{
@@ -13,8 +14,8 @@
 		soundevent_name = "AmbientIntroWorld01.LevelUniqueChild"
 		burst_length_min = 4
 		burst_length_max = 5
-		delay_timer_min = 1.600000
-		delay_timer_max = 2.500000
+		delay_timer_min = 1.6
+		delay_timer_max = 2.5
 	}
 	AmbientIntroWorld01.LevelUniqueChild = 
 	{
@@ -23,48 +24,48 @@
 		[
 			"AmbientIntroWorld01.LevelUniqueChildEvent",
 		]
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 1.000000
-		constrain_direction = 2.000000
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 1.0
+		constrain_direction = 2.0
 		ortho_distance_min = 800
 		ortho_distance_max = 1150
-		ortho_flyby = 1.000000
+		ortho_flyby = 1.0
 		make_ortho_vertical = false
-		unconstrained_target = 1.000000
+		unconstrained_target = 1.0
 		animation_type = "lerp"
-		animation_time_min = 5.500000
-		animation_time_max = 7.500000
+		animation_time_min = 5.5
+		animation_time_max = 7.5
 		rand_radius_min = 500
 		rand_radius_max = 900
 		max_audible_distance = 1700
-		drunk = 0.000000
-		drunk_range = 50.000000
-		drunk_velocity = 0.010000
+		drunk = 0.0
+		drunk_range = 50.0
+		drunk_velocity = 0.01
 		volume_fade_out = 3
-		use_calculated_stop_at_time = 1.000000
-		start_from_player_height = 1.000000
+		use_calculated_stop_at_time = 1.0
+		start_from_player_height = 1.0
 	}
 	AmbientIntroWorld01.LevelUniqueChildEvent = 
 	{
 		type = "hlvr_simple_voicegraph_filter_dynamics"
-		volume = 0.700000
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.050000
-		volume_falloff_min = 700.000000
-		volume_falloff_max = 1650.000000
-		pitch_rand_min = 0.100000
-		pitch_rand_max = 0.050000
-		volume_fade_in = 0.000000
-		volume_fade_out = 1.000000
-		use_doppler = 1.000000
-		doppler_factor = 1.500000
-		reverb_xfade_value = 0.300000
-		occlusion_scale = 0.000000
-		reverb_curve_max_distance = 2000.000000
+		volume = 0.7
+		volume_rand_min = -0.02
+		volume_rand_max = 0.05
+		volume_falloff_min = 700.0
+		volume_falloff_max = 1650.0
+		pitch_rand_min = 0.1
+		pitch_rand_max = 0.05
+		volume_fade_in = 0.0
+		volume_fade_out = 1.0
+		use_doppler = 1.0
+		doppler_factor = 1.5
+		reverb_xfade_value = 0.3
+		occlusion_scale = 0.0
+		reverb_curve_max_distance = 2000.0
 		mixgroup = "AmbientDSP"
 		use_named_send = "Ambient"
-		use_hrtf = 0.800000
+		use_hrtf = 0.8
 		vsnd_files = 
 		[
 			"sounds/ambient/combine/amb_c17_strider_distant_01.vsnd",
@@ -84,27 +85,27 @@
 			"sounds/ambient/combine/amb_c17_strider_distant_15.vsnd",
 			"sounds/ambient/combine/amb_c17_strider_distant_16.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 350
 		soundname_string = "LevelUniqueChildEvent"
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "skylight_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 0.400000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.500000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.700000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 1.000000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 0.600000
-		remap_opvar_to_vol_x2 = 1.000000
-		remap_opvar_to_vol_y2 = 1.000000
-		remap_opvar_to_vol_x3 = 1.000000
-		remap_opvar_to_vol_y3 = 1.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 1.000000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 0.4
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.5
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.7
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 1.0
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 0.6
+		remap_opvar_to_vol_x2 = 1.0
+		remap_opvar_to_vol_y2 = 1.0
+		remap_opvar_to_vol_x3 = 1.0
+		remap_opvar_to_vol_y3 = 1.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 1.0
 	}
 	AmbientIntroWorld02.LevelUnique = 
 	{
@@ -114,12 +115,12 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientQuarEntrance.LevelUniqueChild"
-		random_soundevent_01_timer_min = 20.000000
-		random_soundevent_01_timer_max = 35.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 20.0
+		random_soundevent_01_timer_max = 35.0
+		use_initial_random_offset = 1.0
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	AmbientQuarEntrance.LevelUniqueChild = 
 	{
@@ -128,44 +129,44 @@
 		[
 			"AmbientQuarEntrance.LevelUniqueChildEvent",
 		]
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 1.000000
-		constrain_direction = 2.000000
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 1.0
+		constrain_direction = 2.0
 		ortho_distance_min = 200
 		ortho_distance_max = 250
 		make_ortho_vertical = true
-		unconstrained_target = 1.000000
+		unconstrained_target = 1.0
 		animation_type = "lerp"
 		animation_time_min = 5
 		animation_time_max = 7
 		rand_radius_min = 500
 		rand_radius_max = 700
 		max_audible_distance = 750
-		drunk = 1.000000
-		drunk_range = 50.000000
-		drunk_velocity = 0.100000
+		drunk = 1.0
+		drunk_range = 50.0
+		drunk_velocity = 0.1
 		volume_fade_out = 3
-		use_calculated_stop_at_time = 1.000000
-		start_from_player_height = 1.000000
+		use_calculated_stop_at_time = 1.0
+		start_from_player_height = 1.0
 	}
 	AmbientQuarEntrance.LevelUniqueChildEvent = 
 	{
 		type = "hlvr_simple_voicegraph_filter_dynamics"
-		volume = 0.000000
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.050000
-		volume_falloff_min = 350.000000
-		volume_falloff_max = 1250.000000
-		pitch_rand_min = 0.100000
-		pitch_rand_max = 0.050000
-		volume_fade_in = 0.000000
-		volume_fade_out = 1.000000
-		use_doppler = 1.000000
-		doppler_factor = 1.500000
+		volume = 0.0
+		volume_rand_min = -0.02
+		volume_rand_max = 0.05
+		volume_falloff_min = 350.0
+		volume_falloff_max = 1250.0
+		pitch_rand_min = 0.1
+		pitch_rand_max = 0.05
+		volume_fade_in = 0.0
+		volume_fade_out = 1.0
+		use_doppler = 1.0
+		doppler_factor = 1.5
 		mixgroup = "ambient"
 		use_named_send = "Ambient"
-		use_hrtf = 0.800000
+		use_hrtf = 0.8
 		vsnd_files = 
 		[
 			"sounds/ambient/unique/amb_unique_quar_entrance_01.vsnd",
@@ -176,38 +177,38 @@
 			"sounds/ambient/unique/amb_unique_quar_entrance_06.vsnd",
 			"sounds/ambient/unique/amb_unique_quar_entrance_07.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 350
 		soundname_string = "LevelUniqueChildEvent"
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "skylight_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 0.400000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.500000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.700000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 1.000000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 0.500000
-		remap_opvar_to_vol_x2 = 1.000000
-		remap_opvar_to_vol_y2 = 1.000000
-		remap_opvar_to_vol_x3 = 1.000000
-		remap_opvar_to_vol_y3 = 1.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 1.000000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 0.4
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.5
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.7
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 1.0
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 0.5
+		remap_opvar_to_vol_x2 = 1.0
+		remap_opvar_to_vol_y2 = 1.0
+		remap_opvar_to_vol_x3 = 1.0
+		remap_opvar_to_vol_y3 = 1.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 1.0
 	}
 	AmbientPistol.LevelUnique = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientPistol.LevelUniqueChild"
-		random_soundevent_01_timer_min = 20.000000
-		random_soundevent_01_timer_max = 35.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 20.0
+		random_soundevent_01_timer_max = 35.0
+		use_initial_random_offset = 1.0
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	AmbientPistol.LevelUniqueChild = 
 	{
@@ -216,44 +217,44 @@
 		[
 			"AmbientPistol.LevelUniqueChildEvent",
 		]
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 1.000000
-		constrain_direction = 2.000000
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 1.0
+		constrain_direction = 2.0
 		ortho_distance_min = 200
 		ortho_distance_max = 250
 		make_ortho_vertical = true
-		unconstrained_target = 1.000000
+		unconstrained_target = 1.0
 		animation_type = "lerp"
 		animation_time_min = 5
 		animation_time_max = 7
 		rand_radius_min = 500
 		rand_radius_max = 700
 		max_audible_distance = 750
-		drunk = 1.000000
-		drunk_range = 50.000000
-		drunk_velocity = 0.100000
+		drunk = 1.0
+		drunk_range = 50.0
+		drunk_velocity = 0.1
 		volume_fade_out = 3
-		use_calculated_stop_at_time = 1.000000
-		start_from_player_height = 1.000000
+		use_calculated_stop_at_time = 1.0
+		start_from_player_height = 1.0
 	}
 	AmbientPistol.LevelUniqueChildEvent = 
 	{
 		type = "hlvr_simple_voicegraph_filter_dynamics"
-		volume = 0.000000
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.050000
-		volume_falloff_min = 350.000000
-		volume_falloff_max = 1250.000000
-		pitch_rand_min = 0.100000
-		pitch_rand_max = 0.050000
-		volume_fade_in = 0.000000
-		volume_fade_out = 1.000000
-		use_doppler = 1.000000
-		doppler_factor = 1.500000
+		volume = 0.0
+		volume_rand_min = -0.02
+		volume_rand_max = 0.05
+		volume_falloff_min = 350.0
+		volume_falloff_max = 1250.0
+		pitch_rand_min = 0.1
+		pitch_rand_max = 0.05
+		volume_fade_in = 0.0
+		volume_fade_out = 1.0
+		use_doppler = 1.0
+		doppler_factor = 1.5
 		mixgroup = "ambient"
 		use_named_send = "Ambient"
-		use_hrtf = 0.800000
+		use_hrtf = 0.8
 		vsnd_files = 
 		[
 			"sounds/ambient/unique/amb_unique_pistol_01.vsnd",
@@ -264,38 +265,38 @@
 			"sounds/ambient/unique/amb_unique_pistol_06.vsnd",
 			"sounds/ambient/unique/amb_unique_pistol_07.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 350
 		soundname_string = "LevelUniqueChildEvent"
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "skylight_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 0.400000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.500000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.700000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 1.000000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 0.500000
-		remap_opvar_to_vol_x2 = 1.000000
-		remap_opvar_to_vol_y2 = 1.000000
-		remap_opvar_to_vol_x3 = 1.000000
-		remap_opvar_to_vol_y3 = 1.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 1.000000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 0.4
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.5
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.7
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 1.0
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 0.5
+		remap_opvar_to_vol_x2 = 1.0
+		remap_opvar_to_vol_y2 = 1.0
+		remap_opvar_to_vol_x3 = 1.0
+		remap_opvar_to_vol_y3 = 1.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 1.0
 	}
 	AmbientHideout.LevelUnique = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientHideout.LevelUniqueChild"
-		random_soundevent_01_timer_min = 20.000000
-		random_soundevent_01_timer_max = 35.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 20.0
+		random_soundevent_01_timer_max = 35.0
+		use_initial_random_offset = 1.0
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	AmbientHideout.LevelUniqueChild = 
 	{
@@ -304,44 +305,44 @@
 		[
 			"AmbientHideout.LevelUniqueChildEvent",
 		]
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 1.000000
-		constrain_direction = 2.000000
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 1.0
+		constrain_direction = 2.0
 		ortho_distance_min = 200
 		ortho_distance_max = 250
 		make_ortho_vertical = true
-		unconstrained_target = 1.000000
+		unconstrained_target = 1.0
 		animation_type = "lerp"
 		animation_time_min = 5
 		animation_time_max = 7
 		rand_radius_min = 500
 		rand_radius_max = 700
 		max_audible_distance = 750
-		drunk = 1.000000
-		drunk_range = 50.000000
-		drunk_velocity = 0.100000
+		drunk = 1.0
+		drunk_range = 50.0
+		drunk_velocity = 0.1
 		volume_fade_out = 3
-		use_calculated_stop_at_time = 1.000000
-		start_from_player_height = 1.000000
+		use_calculated_stop_at_time = 1.0
+		start_from_player_height = 1.0
 	}
 	AmbientHideout.LevelUniqueChildEvent = 
 	{
 		type = "hlvr_simple_voicegraph_filter_dynamics"
-		volume = 0.000000
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.050000
-		volume_falloff_min = 350.000000
-		volume_falloff_max = 1250.000000
-		pitch_rand_min = 0.100000
-		pitch_rand_max = 0.050000
-		volume_fade_in = 0.000000
-		volume_fade_out = 1.000000
-		use_doppler = 1.000000
-		doppler_factor = 1.500000
+		volume = 0.0
+		volume_rand_min = -0.02
+		volume_rand_max = 0.05
+		volume_falloff_min = 350.0
+		volume_falloff_max = 1250.0
+		pitch_rand_min = 0.1
+		pitch_rand_max = 0.05
+		volume_fade_in = 0.0
+		volume_fade_out = 1.0
+		use_doppler = 1.0
+		doppler_factor = 1.5
 		mixgroup = "ambient"
 		use_named_send = "Ambient"
-		use_hrtf = 0.800000
+		use_hrtf = 0.8
 		vsnd_files = 
 		[
 			"sounds/ambient/unique/amb_unique_hideout_01.vsnd",
@@ -352,35 +353,35 @@
 			"sounds/ambient/unique/amb_unique_hideout_06.vsnd",
 			"sounds/ambient/unique/amb_unique_hideout_07.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 350
 		soundname_string = "LevelUniqueChildEvent"
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "skylight_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 0.400000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.500000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.700000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 1.000000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 0.500000
-		remap_opvar_to_vol_x2 = 1.000000
-		remap_opvar_to_vol_y2 = 1.000000
-		remap_opvar_to_vol_x3 = 1.000000
-		remap_opvar_to_vol_y3 = 1.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 1.000000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 0.4
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.5
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.7
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 1.0
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 0.5
+		remap_opvar_to_vol_x2 = 1.0
+		remap_opvar_to_vol_y2 = 1.0
+		remap_opvar_to_vol_x3 = 1.0
+		remap_opvar_to_vol_y3 = 1.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 1.0
 	}
 	AmbientHeadcrabs.LevelUnique = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientHeadcrabs.LevelUniqueChild"
-		random_soundevent_01_timer_min = 25.000000
-		random_soundevent_01_timer_max = 40.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 25.0
+		random_soundevent_01_timer_max = 40.0
+		use_initial_random_offset = 1.0
 	}
 	AmbientHeadcrabs.LevelUniqueChild = 
 	{
@@ -389,45 +390,45 @@
 		[
 			"AmbientHeadcrabs.LevelUniqueChildEvent",
 		]
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 1.000000
-		constrain_direction = 2.000000
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 1.0
+		constrain_direction = 2.0
 		ortho_distance_min = 400
 		ortho_distance_max = 550
-		ortho_flyby = 1.000000
+		ortho_flyby = 1.0
 		make_ortho_vertical = false
-		unconstrained_target = 1.000000
+		unconstrained_target = 1.0
 		animation_type = "lerp"
 		animation_time_min = 12
 		animation_time_max = 15
 		rand_radius_min = 500
 		rand_radius_max = 700
 		max_audible_distance = 750
-		drunk = 1.000000
-		drunk_range = 250.000000
-		drunk_velocity = 0.100000
+		drunk = 1.0
+		drunk_range = 250.0
+		drunk_velocity = 0.1
 		volume_fade_out = 3
-		use_calculated_stop_at_time = 1.000000
-		start_from_player_height = 1.000000
+		use_calculated_stop_at_time = 1.0
+		start_from_player_height = 1.0
 	}
 	AmbientHeadcrabs.LevelUniqueChildEvent = 
 	{
 		type = "hlvr_simple_voicegraph_filter_dynamics"
-		volume = 0.400000
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.050000
-		volume_falloff_min = 350.000000
-		volume_falloff_max = 1250.000000
-		pitch_rand_min = 0.100000
-		pitch_rand_max = 0.050000
-		volume_fade_in = 1.500000
-		volume_fade_out = 3.000000
-		use_doppler = 1.000000
-		doppler_factor = 1.500000
+		volume = 0.4
+		volume_rand_min = -0.02
+		volume_rand_max = 0.05
+		volume_falloff_min = 350.0
+		volume_falloff_max = 1250.0
+		pitch_rand_min = 0.1
+		pitch_rand_max = 0.05
+		volume_fade_in = 1.5
+		volume_fade_out = 3.0
+		use_doppler = 1.0
+		doppler_factor = 1.5
 		mixgroup = "ambient"
 		use_named_send = "Ambient"
-		use_hrtf = 0.800000
+		use_hrtf = 0.8
 		vsnd_files = 
 		[
 			"sounds/ambient/unique/amb_unique_headcrabs_01.vsnd",
@@ -438,38 +439,38 @@
 			"sounds/ambient/unique/amb_unique_headcrabs_06.vsnd",
 			"sounds/ambient/unique/amb_unique_headcrabs_07.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 350
 		soundname_string = "LevelUniqueChildEvent"
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "hotel_small_room_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 1.000000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.700000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.500000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 0.400000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 1.000000
-		remap_opvar_to_vol_x2 = 1.000000
-		remap_opvar_to_vol_y2 = 0.000000
-		remap_opvar_to_vol_x3 = 1.000000
-		remap_opvar_to_vol_y3 = 0.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 0.000000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 1.0
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.7
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.5
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 0.4
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 1.0
+		remap_opvar_to_vol_x2 = 1.0
+		remap_opvar_to_vol_y2 = 0.0
+		remap_opvar_to_vol_x3 = 1.0
+		remap_opvar_to_vol_y3 = 0.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 0.0
 	}
 	AmbientDrainage.LevelUnique = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientDrainage.LevelUniqueChild"
-		random_soundevent_01_timer_min = 20.000000
-		random_soundevent_01_timer_max = 35.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 20.0
+		random_soundevent_01_timer_max = 35.0
+		use_initial_random_offset = 1.0
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	AmbientDrainage.LevelUniqueChild = 
 	{
@@ -478,44 +479,44 @@
 		[
 			"AmbientDrainage.LevelUniqueChildEvent",
 		]
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 1.000000
-		constrain_direction = 2.000000
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 1.0
+		constrain_direction = 2.0
 		ortho_distance_min = 200
 		ortho_distance_max = 250
 		make_ortho_vertical = true
-		unconstrained_target = 1.000000
+		unconstrained_target = 1.0
 		animation_type = "lerp"
 		animation_time_min = 5
 		animation_time_max = 7
 		rand_radius_min = 500
 		rand_radius_max = 700
 		max_audible_distance = 750
-		drunk = 1.000000
-		drunk_range = 50.000000
-		drunk_velocity = 0.100000
+		drunk = 1.0
+		drunk_range = 50.0
+		drunk_velocity = 0.1
 		volume_fade_out = 3
-		use_calculated_stop_at_time = 1.000000
-		start_from_player_height = 1.000000
+		use_calculated_stop_at_time = 1.0
+		start_from_player_height = 1.0
 	}
 	AmbientDrainage.LevelUniqueChildEvent = 
 	{
 		type = "hlvr_simple_voicegraph_filter_dynamics"
-		volume = 0.000000
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.050000
-		volume_falloff_min = 350.000000
-		volume_falloff_max = 1250.000000
-		pitch_rand_min = 0.100000
-		pitch_rand_max = 0.050000
-		volume_fade_in = 0.000000
-		volume_fade_out = 1.000000
-		use_doppler = 1.000000
-		doppler_factor = 1.500000
+		volume = 0.0
+		volume_rand_min = -0.02
+		volume_rand_max = 0.05
+		volume_falloff_min = 350.0
+		volume_falloff_max = 1250.0
+		pitch_rand_min = 0.1
+		pitch_rand_max = 0.05
+		volume_fade_in = 0.0
+		volume_fade_out = 1.0
+		use_doppler = 1.0
+		doppler_factor = 1.5
 		mixgroup = "ambient"
 		use_named_send = "Ambient"
-		use_hrtf = 0.800000
+		use_hrtf = 0.8
 		vsnd_files = 
 		[
 			"sounds/ambient/unique/amb_unique_drainage_01.vsnd",
@@ -526,38 +527,38 @@
 			"sounds/ambient/unique/amb_unique_drainage_06.vsnd",
 			"sounds/ambient/unique/amb_unique_drainage_07.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 350
 		soundname_string = "LevelUniqueChildEvent"
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "skylight_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 0.400000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.500000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.700000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 1.000000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 0.500000
-		remap_opvar_to_vol_x2 = 1.000000
-		remap_opvar_to_vol_y2 = 1.000000
-		remap_opvar_to_vol_x3 = 1.000000
-		remap_opvar_to_vol_y3 = 1.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 1.000000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 0.4
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.5
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.7
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 1.0
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 0.5
+		remap_opvar_to_vol_x2 = 1.0
+		remap_opvar_to_vol_y2 = 1.0
+		remap_opvar_to_vol_x3 = 1.0
+		remap_opvar_to_vol_y3 = 1.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 1.0
 	}
 	AmbientTrainYard.LevelUnique = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientTrainYard.LevelUniqueChild"
-		random_soundevent_01_timer_min = 20.000000
-		random_soundevent_01_timer_max = 35.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 20.0
+		random_soundevent_01_timer_max = 35.0
+		use_initial_random_offset = 1.0
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	AmbientTrainYard.LevelUniqueChild = 
 	{
@@ -566,44 +567,44 @@
 		[
 			"AmbientTrainYard.LevelUniqueChildEvent",
 		]
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 1.000000
-		constrain_direction = 2.000000
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 1.0
+		constrain_direction = 2.0
 		ortho_distance_min = 200
 		ortho_distance_max = 250
 		make_ortho_vertical = true
-		unconstrained_target = 1.000000
+		unconstrained_target = 1.0
 		animation_type = "lerp"
 		animation_time_min = 5
 		animation_time_max = 7
 		rand_radius_min = 500
 		rand_radius_max = 700
 		max_audible_distance = 750
-		drunk = 1.000000
-		drunk_range = 50.000000
-		drunk_velocity = 0.100000
+		drunk = 1.0
+		drunk_range = 50.0
+		drunk_velocity = 0.1
 		volume_fade_out = 3
-		use_calculated_stop_at_time = 1.000000
-		start_from_player_height = 1.000000
+		use_calculated_stop_at_time = 1.0
+		start_from_player_height = 1.0
 	}
 	AmbientTrainYard.LevelUniqueChildEvent = 
 	{
 		type = "hlvr_simple_voicegraph_filter_dynamics"
-		volume = 0.000000
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.050000
-		volume_falloff_min = 350.000000
-		volume_falloff_max = 1250.000000
-		pitch_rand_min = 0.100000
-		pitch_rand_max = 0.050000
-		volume_fade_in = 0.000000
-		volume_fade_out = 1.000000
-		use_doppler = 1.000000
-		doppler_factor = 1.500000
+		volume = 0.0
+		volume_rand_min = -0.02
+		volume_rand_max = 0.05
+		volume_falloff_min = 350.0
+		volume_falloff_max = 1250.0
+		pitch_rand_min = 0.1
+		pitch_rand_max = 0.05
+		volume_fade_in = 0.0
+		volume_fade_out = 1.0
+		use_doppler = 1.0
+		doppler_factor = 1.5
 		mixgroup = "ambient"
 		use_named_send = "Ambient"
-		use_hrtf = 0.800000
+		use_hrtf = 0.8
 		vsnd_files = 
 		[
 			"sounds/ambient/unique/amb_unique_train_yard_01.vsnd",
@@ -614,38 +615,38 @@
 			"sounds/ambient/unique/amb_unique_train_yard_06.vsnd",
 			"sounds/ambient/unique/amb_unique_train_yard_07.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 350
 		soundname_string = "LevelUniqueChildEvent"
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "skylight_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 0.400000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.500000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.700000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 1.000000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 0.500000
-		remap_opvar_to_vol_x2 = 1.000000
-		remap_opvar_to_vol_y2 = 1.000000
-		remap_opvar_to_vol_x3 = 1.000000
-		remap_opvar_to_vol_y3 = 1.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 1.000000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 0.4
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.5
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.7
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 1.0
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 0.5
+		remap_opvar_to_vol_x2 = 1.0
+		remap_opvar_to_vol_y2 = 1.0
+		remap_opvar_to_vol_x3 = 1.0
+		remap_opvar_to_vol_y3 = 1.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 1.0
 	}
 	AmbientProcPlant.LevelUnique = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientProcPlant.LevelUniqueChild"
-		random_soundevent_01_timer_min = 20.000000
-		random_soundevent_01_timer_max = 35.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 20.0
+		random_soundevent_01_timer_max = 35.0
+		use_initial_random_offset = 1.0
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	AmbientProcPlant.LevelUniqueChild = 
 	{
@@ -654,44 +655,44 @@
 		[
 			"AmbientProcPlant.LevelUniqueChildEvent",
 		]
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 1.000000
-		constrain_direction = 2.000000
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 1.0
+		constrain_direction = 2.0
 		ortho_distance_min = 200
 		ortho_distance_max = 250
 		make_ortho_vertical = true
-		unconstrained_target = 1.000000
+		unconstrained_target = 1.0
 		animation_type = "lerp"
 		animation_time_min = 5
 		animation_time_max = 7
 		rand_radius_min = 500
 		rand_radius_max = 700
 		max_audible_distance = 750
-		drunk = 1.000000
-		drunk_range = 50.000000
-		drunk_velocity = 0.100000
+		drunk = 1.0
+		drunk_range = 50.0
+		drunk_velocity = 0.1
 		volume_fade_out = 3
-		use_calculated_stop_at_time = 1.000000
-		start_from_player_height = 1.000000
+		use_calculated_stop_at_time = 1.0
+		start_from_player_height = 1.0
 	}
 	AmbientProcPlant.LevelUniqueChildEvent = 
 	{
 		type = "hlvr_simple_voicegraph_filter_dynamics"
-		volume = 0.000000
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.050000
-		volume_falloff_min = 350.000000
-		volume_falloff_max = 1250.000000
-		pitch_rand_min = 0.100000
-		pitch_rand_max = 0.050000
-		volume_fade_in = 0.000000
-		volume_fade_out = 1.000000
-		use_doppler = 1.000000
-		doppler_factor = 1.500000
+		volume = 0.0
+		volume_rand_min = -0.02
+		volume_rand_max = 0.05
+		volume_falloff_min = 350.0
+		volume_falloff_max = 1250.0
+		pitch_rand_min = 0.1
+		pitch_rand_max = 0.05
+		volume_fade_in = 0.0
+		volume_fade_out = 1.0
+		use_doppler = 1.0
+		doppler_factor = 1.5
 		mixgroup = "ambient"
 		use_named_send = "Ambient"
-		use_hrtf = 0.800000
+		use_hrtf = 0.8
 		vsnd_files = 
 		[
 			"sounds/ambient/unique/amb_unique_proc_plant_01.vsnd",
@@ -702,38 +703,38 @@
 			"sounds/ambient/unique/amb_unique_proc_plant_06.vsnd",
 			"sounds/ambient/unique/amb_unique_proc_plant_07.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 350
 		soundname_string = "LevelUniqueChildEvent"
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "skylight_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 0.400000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.500000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.700000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 1.000000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 0.500000
-		remap_opvar_to_vol_x2 = 1.000000
-		remap_opvar_to_vol_y2 = 1.000000
-		remap_opvar_to_vol_x3 = 1.000000
-		remap_opvar_to_vol_y3 = 1.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 1.000000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 0.4
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.5
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.7
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 1.0
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 0.5
+		remap_opvar_to_vol_x2 = 1.0
+		remap_opvar_to_vol_y2 = 1.0
+		remap_opvar_to_vol_x3 = 1.0
+		remap_opvar_to_vol_y3 = 1.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 1.0
 	}
 	AmbientDistillery.LevelUnique = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientDistillery.LevelUniqueChild"
-		random_soundevent_01_timer_min = 20.000000
-		random_soundevent_01_timer_max = 35.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 20.0
+		random_soundevent_01_timer_max = 35.0
+		use_initial_random_offset = 1.0
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	AmbientDistillery.LevelUniqueChild = 
 	{
@@ -742,44 +743,44 @@
 		[
 			"AmbientDistillery.LevelUniqueChildEvent",
 		]
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 1.000000
-		constrain_direction = 2.000000
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 1.0
+		constrain_direction = 2.0
 		ortho_distance_min = 200
 		ortho_distance_max = 250
 		make_ortho_vertical = true
-		unconstrained_target = 1.000000
+		unconstrained_target = 1.0
 		animation_type = "lerp"
 		animation_time_min = 5
 		animation_time_max = 7
 		rand_radius_min = 500
 		rand_radius_max = 700
 		max_audible_distance = 750
-		drunk = 1.000000
-		drunk_range = 50.000000
-		drunk_velocity = 0.100000
+		drunk = 1.0
+		drunk_range = 50.0
+		drunk_velocity = 0.1
 		volume_fade_out = 3
-		use_calculated_stop_at_time = 1.000000
-		start_from_player_height = 1.000000
+		use_calculated_stop_at_time = 1.0
+		start_from_player_height = 1.0
 	}
 	AmbientDistillery.LevelUniqueChildEvent = 
 	{
 		type = "hlvr_simple_voicegraph_filter_dynamics"
-		volume = 0.000000
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.050000
-		volume_falloff_min = 350.000000
-		volume_falloff_max = 1250.000000
-		pitch_rand_min = 0.100000
-		pitch_rand_max = 0.050000
-		volume_fade_in = 0.000000
-		volume_fade_out = 1.000000
-		use_doppler = 1.000000
-		doppler_factor = 1.500000
+		volume = 0.0
+		volume_rand_min = -0.02
+		volume_rand_max = 0.05
+		volume_falloff_min = 350.0
+		volume_falloff_max = 1250.0
+		pitch_rand_min = 0.1
+		pitch_rand_max = 0.05
+		volume_fade_in = 0.0
+		volume_fade_out = 1.0
+		use_doppler = 1.0
+		doppler_factor = 1.5
 		mixgroup = "ambient"
 		use_named_send = "Ambient"
-		use_hrtf = 0.800000
+		use_hrtf = 0.8
 		vsnd_files = 
 		[
 			"sounds/ambient/unique/amb_unique_distillery_01.vsnd",
@@ -790,44 +791,44 @@
 			"sounds/ambient/unique/amb_unique_distillery_06.vsnd",
 			"sounds/ambient/unique/amb_unique_distillery_07.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 350
 		soundname_string = "LevelUniqueChildEvent"
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "skylight_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 0.400000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.500000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.700000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 1.000000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 0.500000
-		remap_opvar_to_vol_x2 = 1.000000
-		remap_opvar_to_vol_y2 = 1.000000
-		remap_opvar_to_vol_x3 = 1.000000
-		remap_opvar_to_vol_y3 = 1.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 1.000000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 0.4
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.5
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.7
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 1.0
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 0.5
+		remap_opvar_to_vol_x2 = 1.0
+		remap_opvar_to_vol_y2 = 1.0
+		remap_opvar_to_vol_x3 = 1.0
+		remap_opvar_to_vol_y3 = 1.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 1.0
 	}
 	AmbientRooftop.LevelUnique = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientRooftop.LevelUniqueBurst"
-		random_soundevent_01_timer_min = 20.000000
-		random_soundevent_01_timer_max = 35.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 20.0
+		random_soundevent_01_timer_max = 35.0
+		use_initial_random_offset = 1.0
 	}
 	AmbientRooftop.LevelUniqueBurst = 
 	{
 		type = "hlvr_ambient_burst"
 		soundevent_name = "AmbientRooftop.LevelUniqueChild"
-		burst_length_min = 4.000000
-		burst_length_max = 6.000000
-		delay_timer_min = 1.250000
-		delay_timer_max = 2.500000
+		burst_length_min = 4.0
+		burst_length_max = 6.0
+		delay_timer_min = 1.25
+		delay_timer_max = 2.5
 	}
 	AmbientRooftop.LevelUniqueChild = 
 	{
@@ -836,46 +837,46 @@
 		[
 			"AmbientRooftop.LevelUniqueChildEvent",
 		]
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 1.000000
-		constrain_direction = 2.000000
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 1.0
+		constrain_direction = 2.0
 		ortho_distance_min = 200
 		ortho_distance_max = 450
 		make_ortho_vertical = false
-		ortho_flyby = 1.000000
-		unconstrained_target = 1.000000
+		ortho_flyby = 1.0
+		unconstrained_target = 1.0
 		animation_type = "lerp"
 		animation_time_min = 5
 		animation_time_max = 7
 		rand_radius_min = 500
 		rand_radius_max = 700
 		max_audible_distance = 750
-		drunk = 1.000000
-		drunk_range = 50.000000
-		drunk_velocity = 0.100000
+		drunk = 1.0
+		drunk_range = 50.0
+		drunk_velocity = 0.1
 		volume_fade_out = 3
-		use_calculated_stop_at_time = 1.000000
-		start_from_player_height = 1.000000
+		use_calculated_stop_at_time = 1.0
+		start_from_player_height = 1.0
 	}
 	AmbientRooftop.LevelUniqueChildEvent = 
 	{
 		type = "hlvr_simple_voicegraph_filter_dynamics"
-		volume = 0.100000
-		volume_rand_min = -0.150000
-		volume_rand_max = 0.050000
-		volume_falloff_min = 450.000000
-		volume_falloff_max = 1250.000000
-		pitch_rand_min = 0.100000
-		pitch_rand_max = 0.050000
-		volume_fade_in = 0.000000
-		volume_fade_out = 1.000000
-		use_doppler = 1.000000
-		doppler_factor = 1.500000
+		volume = 0.1
+		volume_rand_min = -0.15
+		volume_rand_max = 0.05
+		volume_falloff_min = 450.0
+		volume_falloff_max = 1250.0
+		pitch_rand_min = 0.1
+		pitch_rand_max = 0.05
+		volume_fade_in = 0.0
+		volume_fade_out = 1.0
+		use_doppler = 1.0
+		doppler_factor = 1.5
 		mixgroup = "AmbientDSP"
 		use_named_send = "Ambient"
-		occlusion_scale = 0.000000
-		use_hrtf = 0.800000
+		occlusion_scale = 0.0
+		use_hrtf = 0.8
 		vsnd_files = 
 		[
 			"sounds/ambient/nature/amb_animals_bat_squeak_01.vsnd",
@@ -887,44 +888,44 @@
 			"sounds/ambient/nature/amb_animals_bat_squeak_07.vsnd",
 			"sounds/ambient/nature/amb_animals_bat_squeak_08.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 350
 		soundname_string = "LevelUniqueChildEvent"
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "skylight_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 1.000000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.700000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.500000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 0.200000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 1.000000
-		remap_opvar_to_vol_x2 = 1.000000
-		remap_opvar_to_vol_y2 = 0.000000
-		remap_opvar_to_vol_x3 = 1.000000
-		remap_opvar_to_vol_y3 = 0.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 0.000000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 1.0
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.7
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.5
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 0.2
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 1.0
+		remap_opvar_to_vol_x2 = 1.0
+		remap_opvar_to_vol_y2 = 0.0
+		remap_opvar_to_vol_x3 = 1.0
+		remap_opvar_to_vol_y3 = 0.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 0.0
 	}
 	AmbientLobbyBasement.LevelUnique = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientLobbyBasement.LevelUniqueBurst"
-		random_soundevent_01_timer_min = 25.000000
-		random_soundevent_01_timer_max = 35.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 25.0
+		random_soundevent_01_timer_max = 35.0
+		use_initial_random_offset = 1.0
 	}
 	AmbientLobbyBasement.LevelUniqueBurst = 
 	{
 		type = "hlvr_ambient_burst"
 		soundevent_name = "AmbientLobbyBasement.LevelUniqueChild"
-		burst_length_min = 4.000000
-		burst_length_max = 6.000000
-		delay_timer_min = 1.250000
-		delay_timer_max = 2.500000
+		burst_length_min = 4.0
+		burst_length_max = 6.0
+		delay_timer_min = 1.25
+		delay_timer_max = 2.5
 	}
 	AmbientLobbyBasement.LevelUniqueChild = 
 	{
@@ -933,27 +934,27 @@
 		[
 			"AmbientLobbyBasement.LevelUniqueChildEvent",
 		]
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 0.000000
-		unconstrained_target = 1.000000
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 0.0
+		unconstrained_target = 1.0
 		animation_type = "lerp"
 		animation_time_min = 8
 		animation_time_max = 12
 		rand_radius_min = 500
 		rand_radius_max = 700
 		max_audible_distance = 750
-		drunk = 1.000000
-		drunk_range = 50.000000
-		drunk_velocity = 0.100000
+		drunk = 1.0
+		drunk_range = 50.0
+		drunk_velocity = 0.1
 		volume_fade_out = 3
-		use_calculated_stop_at_time = 1.000000
-		start_from_player_height = 1.000000
+		use_calculated_stop_at_time = 1.0
+		start_from_player_height = 1.0
 	}
 	AmbientLobbyBasement.LevelUniqueChildEvent = 
 	{
 		base = "AmbientRooftop.LevelUniqueChildEvent"
-		volume = 0.080000
+		volume = 0.08
 		vsnd_files = 
 		[
 			"sounds/ambient/nature/amb_animals_rat_squeak_01.vsnd",
@@ -965,7 +966,7 @@
 			"sounds/ambient/nature/amb_animals_rat_squeak_07.vsnd",
 			"sounds/ambient/nature/amb_animals_rat_squeak_08.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		soundname_string = "LevelUniqueChildEvent"
 	}
 	AmbientHotelStreet.LevelUnique = 
@@ -976,12 +977,12 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientUndergroundPit.LevelUniqueChild"
-		random_soundevent_01_timer_min = 20.000000
-		random_soundevent_01_timer_max = 35.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 20.0
+		random_soundevent_01_timer_max = 35.0
+		use_initial_random_offset = 1.0
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	AmbientUndergroundPit.LevelUniqueChild = 
 	{
@@ -990,44 +991,44 @@
 		[
 			"AmbientUndergroundPit.LevelUniqueChildEvent",
 		]
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 1.000000
-		constrain_direction = 2.000000
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 1.0
+		constrain_direction = 2.0
 		ortho_distance_min = 200
 		ortho_distance_max = 250
 		make_ortho_vertical = true
-		unconstrained_target = 1.000000
+		unconstrained_target = 1.0
 		animation_type = "lerp"
 		animation_time_min = 5
 		animation_time_max = 7
 		rand_radius_min = 500
 		rand_radius_max = 700
 		max_audible_distance = 750
-		drunk = 1.000000
-		drunk_range = 50.000000
-		drunk_velocity = 0.100000
+		drunk = 1.0
+		drunk_range = 50.0
+		drunk_velocity = 0.1
 		volume_fade_out = 3
-		use_calculated_stop_at_time = 1.000000
-		start_from_player_height = 1.000000
+		use_calculated_stop_at_time = 1.0
+		start_from_player_height = 1.0
 	}
 	AmbientUndergroundPit.LevelUniqueChildEvent = 
 	{
 		type = "hlvr_simple_voicegraph_filter_dynamics"
-		volume = 0.000000
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.050000
-		volume_falloff_min = 350.000000
-		volume_falloff_max = 1250.000000
-		pitch_rand_min = 0.100000
-		pitch_rand_max = 0.050000
-		volume_fade_in = 0.000000
-		volume_fade_out = 1.000000
-		use_doppler = 1.000000
-		doppler_factor = 1.500000
+		volume = 0.0
+		volume_rand_min = -0.02
+		volume_rand_max = 0.05
+		volume_falloff_min = 350.0
+		volume_falloff_max = 1250.0
+		pitch_rand_min = 0.1
+		pitch_rand_max = 0.05
+		volume_fade_in = 0.0
+		volume_fade_out = 1.0
+		use_doppler = 1.0
+		doppler_factor = 1.5
 		mixgroup = "ambient"
 		use_named_send = "Ambient"
-		use_hrtf = 0.800000
+		use_hrtf = 0.8
 		vsnd_files = 
 		[
 			"sounds/ambient/unique/amb_unique_underground_pit_01.vsnd",
@@ -1038,38 +1039,38 @@
 			"sounds/ambient/unique/amb_unique_underground_pit_06.vsnd",
 			"sounds/ambient/unique/amb_unique_underground_pit_07.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 350
 		soundname_string = "LevelUniqueChildEvent"
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "skylight_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 0.400000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.500000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.700000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 1.000000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 0.500000
-		remap_opvar_to_vol_x2 = 1.000000
-		remap_opvar_to_vol_y2 = 1.000000
-		remap_opvar_to_vol_x3 = 1.000000
-		remap_opvar_to_vol_y3 = 1.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 1.000000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 0.4
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.5
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.7
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 1.0
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 0.5
+		remap_opvar_to_vol_x2 = 1.0
+		remap_opvar_to_vol_y2 = 1.0
+		remap_opvar_to_vol_x3 = 1.0
+		remap_opvar_to_vol_y3 = 1.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 1.0
 	}
 	AmbientStationStreet.LevelUnique = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientStationStreet.LevelUniqueChild"
-		random_soundevent_01_timer_min = 20.000000
-		random_soundevent_01_timer_max = 35.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 20.0
+		random_soundevent_01_timer_max = 35.0
+		use_initial_random_offset = 1.0
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	AmbientStationStreet.LevelUniqueChild = 
 	{
@@ -1078,44 +1079,44 @@
 		[
 			"AmbientStationStreet.LevelUniqueChildEvent",
 		]
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 1.000000
-		constrain_direction = 2.000000
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 1.0
+		constrain_direction = 2.0
 		ortho_distance_min = 200
 		ortho_distance_max = 250
 		make_ortho_vertical = true
-		unconstrained_target = 1.000000
+		unconstrained_target = 1.0
 		animation_type = "lerp"
 		animation_time_min = 5
 		animation_time_max = 7
 		rand_radius_min = 500
 		rand_radius_max = 700
 		max_audible_distance = 750
-		drunk = 1.000000
-		drunk_range = 50.000000
-		drunk_velocity = 0.100000
+		drunk = 1.0
+		drunk_range = 50.0
+		drunk_velocity = 0.1
 		volume_fade_out = 3
-		use_calculated_stop_at_time = 1.000000
-		start_from_player_height = 1.000000
+		use_calculated_stop_at_time = 1.0
+		start_from_player_height = 1.0
 	}
 	AmbientStationStreet.LevelUniqueChildEvent = 
 	{
 		type = "hlvr_simple_voicegraph_filter_dynamics"
-		volume = 0.000000
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.050000
-		volume_falloff_min = 350.000000
-		volume_falloff_max = 1250.000000
-		pitch_rand_min = 0.100000
-		pitch_rand_max = 0.050000
-		volume_fade_in = 0.000000
-		volume_fade_out = 1.000000
-		use_doppler = 1.000000
-		doppler_factor = 1.500000
+		volume = 0.0
+		volume_rand_min = -0.02
+		volume_rand_max = 0.05
+		volume_falloff_min = 350.0
+		volume_falloff_max = 1250.0
+		pitch_rand_min = 0.1
+		pitch_rand_max = 0.05
+		volume_fade_in = 0.0
+		volume_fade_out = 1.0
+		use_doppler = 1.0
+		doppler_factor = 1.5
 		mixgroup = "ambient"
 		use_named_send = "Ambient"
-		use_hrtf = 0.800000
+		use_hrtf = 0.8
 		vsnd_files = 
 		[
 			"sounds/ambient/unique/amb_unique_station_street_01.vsnd",
@@ -1126,38 +1127,38 @@
 			"sounds/ambient/unique/amb_unique_station_street_06.vsnd",
 			"sounds/ambient/unique/amb_unique_station_street_07.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 350
 		soundname_string = "LevelUniqueChildEvent"
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "skylight_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 0.400000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.500000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.700000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 1.000000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 0.500000
-		remap_opvar_to_vol_x2 = 1.000000
-		remap_opvar_to_vol_y2 = 1.000000
-		remap_opvar_to_vol_x3 = 1.000000
-		remap_opvar_to_vol_y3 = 1.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 1.000000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 0.4
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.5
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.7
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 1.0
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 0.5
+		remap_opvar_to_vol_x2 = 1.0
+		remap_opvar_to_vol_y2 = 1.0
+		remap_opvar_to_vol_x3 = 1.0
+		remap_opvar_to_vol_y3 = 1.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 1.0
 	}
 	AmbientZoo.LevelUnique = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientZoo.LevelUniqueChild"
-		random_soundevent_01_timer_min = 20.000000
-		random_soundevent_01_timer_max = 35.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 20.0
+		random_soundevent_01_timer_max = 35.0
+		use_initial_random_offset = 1.0
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	AmbientZoo.LevelUniqueChild = 
 	{
@@ -1166,44 +1167,44 @@
 		[
 			"AmbientZoo.LevelUniqueChildEvent",
 		]
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 1.000000
-		constrain_direction = 2.000000
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 1.0
+		constrain_direction = 2.0
 		ortho_distance_min = 200
 		ortho_distance_max = 250
 		make_ortho_vertical = true
-		unconstrained_target = 1.000000
+		unconstrained_target = 1.0
 		animation_type = "lerp"
 		animation_time_min = 5
 		animation_time_max = 7
 		rand_radius_min = 500
 		rand_radius_max = 700
 		max_audible_distance = 750
-		drunk = 1.000000
-		drunk_range = 50.000000
-		drunk_velocity = 0.100000
+		drunk = 1.0
+		drunk_range = 50.0
+		drunk_velocity = 0.1
 		volume_fade_out = 3
-		use_calculated_stop_at_time = 1.000000
-		start_from_player_height = 1.000000
+		use_calculated_stop_at_time = 1.0
+		start_from_player_height = 1.0
 	}
 	AmbientZoo.LevelUniqueChildEvent = 
 	{
 		type = "hlvr_simple_voicegraph_filter_dynamics"
-		volume = 0.000000
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.050000
-		volume_falloff_min = 350.000000
-		volume_falloff_max = 1250.000000
-		pitch_rand_min = 0.100000
-		pitch_rand_max = 0.050000
-		volume_fade_in = 0.000000
-		volume_fade_out = 1.000000
-		use_doppler = 1.000000
-		doppler_factor = 1.500000
+		volume = 0.0
+		volume_rand_min = -0.02
+		volume_rand_max = 0.05
+		volume_falloff_min = 350.0
+		volume_falloff_max = 1250.0
+		pitch_rand_min = 0.1
+		pitch_rand_max = 0.05
+		volume_fade_in = 0.0
+		volume_fade_out = 1.0
+		use_doppler = 1.0
+		doppler_factor = 1.5
 		mixgroup = "ambient"
 		use_named_send = "Ambient"
-		use_hrtf = 0.800000
+		use_hrtf = 0.8
 		vsnd_files = 
 		[
 			"sounds/ambient/unique/amb_unique_zoo_01.vsnd",
@@ -1214,38 +1215,38 @@
 			"sounds/ambient/unique/amb_unique_zoo_06.vsnd",
 			"sounds/ambient/unique/amb_unique_zoo_07.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 350
 		soundname_string = "LevelUniqueChildEvent"
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "skylight_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 0.400000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.500000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.700000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 1.000000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 0.500000
-		remap_opvar_to_vol_x2 = 1.000000
-		remap_opvar_to_vol_y2 = 1.000000
-		remap_opvar_to_vol_x3 = 1.000000
-		remap_opvar_to_vol_y3 = 1.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 1.000000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 0.4
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.5
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.7
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 1.0
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 0.5
+		remap_opvar_to_vol_x2 = 1.0
+		remap_opvar_to_vol_y2 = 1.0
+		remap_opvar_to_vol_x3 = 1.0
+		remap_opvar_to_vol_y3 = 1.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 1.0
 	}
 	AmbientParkingGarage.LevelUnique = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientParkingGarage.LevelUniqueChild"
-		random_soundevent_01_timer_min = 20.000000
-		random_soundevent_01_timer_max = 35.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 20.0
+		random_soundevent_01_timer_max = 35.0
+		use_initial_random_offset = 1.0
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	AmbientParkingGarage.LevelUniqueChild = 
 	{
@@ -1254,44 +1255,44 @@
 		[
 			"AmbientParkingGarage.LevelUniqueChildEvent",
 		]
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 1.000000
-		constrain_direction = 2.000000
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 1.0
+		constrain_direction = 2.0
 		ortho_distance_min = 200
 		ortho_distance_max = 250
 		make_ortho_vertical = true
-		unconstrained_target = 1.000000
+		unconstrained_target = 1.0
 		animation_type = "lerp"
 		animation_time_min = 5
 		animation_time_max = 7
 		rand_radius_min = 500
 		rand_radius_max = 700
 		max_audible_distance = 750
-		drunk = 1.000000
-		drunk_range = 50.000000
-		drunk_velocity = 0.100000
+		drunk = 1.0
+		drunk_range = 50.0
+		drunk_velocity = 0.1
 		volume_fade_out = 3
-		use_calculated_stop_at_time = 1.000000
-		start_from_player_height = 1.000000
+		use_calculated_stop_at_time = 1.0
+		start_from_player_height = 1.0
 	}
 	AmbientParkingGarage.LevelUniqueChildEvent = 
 	{
 		type = "hlvr_simple_voicegraph_filter_dynamics"
-		volume = 0.000000
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.050000
-		volume_falloff_min = 350.000000
-		volume_falloff_max = 1250.000000
-		pitch_rand_min = 0.100000
-		pitch_rand_max = 0.050000
-		volume_fade_in = 0.000000
-		volume_fade_out = 1.000000
-		use_doppler = 1.000000
-		doppler_factor = 1.500000
+		volume = 0.0
+		volume_rand_min = -0.02
+		volume_rand_max = 0.05
+		volume_falloff_min = 350.0
+		volume_falloff_max = 1250.0
+		pitch_rand_min = 0.1
+		pitch_rand_max = 0.05
+		volume_fade_in = 0.0
+		volume_fade_out = 1.0
+		use_doppler = 1.0
+		doppler_factor = 1.5
 		mixgroup = "ambient"
 		use_named_send = "Ambient"
-		use_hrtf = 0.800000
+		use_hrtf = 0.8
 		vsnd_files = 
 		[
 			"sounds/ambient/unique/amb_unique_parking_garage_01.vsnd",
@@ -1302,38 +1303,38 @@
 			"sounds/ambient/unique/amb_unique_parking_garage_06.vsnd",
 			"sounds/ambient/unique/amb_unique_parking_garage_07.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 350
 		soundname_string = "LevelUniqueChildEvent"
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "skylight_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 0.400000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.500000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.700000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 1.000000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 0.500000
-		remap_opvar_to_vol_x2 = 1.000000
-		remap_opvar_to_vol_y2 = 1.000000
-		remap_opvar_to_vol_x3 = 1.000000
-		remap_opvar_to_vol_y3 = 1.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 1.000000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 0.4
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.5
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.7
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 1.0
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 0.5
+		remap_opvar_to_vol_x2 = 1.0
+		remap_opvar_to_vol_y2 = 1.0
+		remap_opvar_to_vol_x3 = 1.0
+		remap_opvar_to_vol_y3 = 1.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 1.0
 	}
 	AmbientTankerYard.LevelUnique = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientTankerYard.LevelUniqueChild"
-		random_soundevent_01_timer_min = 20.000000
-		random_soundevent_01_timer_max = 35.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 20.0
+		random_soundevent_01_timer_max = 35.0
+		use_initial_random_offset = 1.0
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	AmbientTankerYard.LevelUniqueChild = 
 	{
@@ -1342,44 +1343,44 @@
 		[
 			"AmbientTankerYard.LevelUniqueChildEvent",
 		]
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 1.000000
-		constrain_direction = 2.000000
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 1.0
+		constrain_direction = 2.0
 		ortho_distance_min = 200
 		ortho_distance_max = 250
 		make_ortho_vertical = true
-		unconstrained_target = 1.000000
+		unconstrained_target = 1.0
 		animation_type = "lerp"
 		animation_time_min = 5
 		animation_time_max = 7
 		rand_radius_min = 500
 		rand_radius_max = 700
 		max_audible_distance = 750
-		drunk = 1.000000
-		drunk_range = 50.000000
-		drunk_velocity = 0.100000
+		drunk = 1.0
+		drunk_range = 50.0
+		drunk_velocity = 0.1
 		volume_fade_out = 3
-		use_calculated_stop_at_time = 1.000000
-		start_from_player_height = 1.000000
+		use_calculated_stop_at_time = 1.0
+		start_from_player_height = 1.0
 	}
 	AmbientTankerYard.LevelUniqueChildEvent = 
 	{
 		type = "hlvr_simple_voicegraph_filter_dynamics"
-		volume = 0.000000
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.050000
-		volume_falloff_min = 350.000000
-		volume_falloff_max = 1250.000000
-		pitch_rand_min = 0.100000
-		pitch_rand_max = 0.050000
-		volume_fade_in = 0.000000
-		volume_fade_out = 1.000000
-		use_doppler = 1.000000
-		doppler_factor = 1.500000
+		volume = 0.0
+		volume_rand_min = -0.02
+		volume_rand_max = 0.05
+		volume_falloff_min = 350.0
+		volume_falloff_max = 1250.0
+		pitch_rand_min = 0.1
+		pitch_rand_max = 0.05
+		volume_fade_in = 0.0
+		volume_fade_out = 1.0
+		use_doppler = 1.0
+		doppler_factor = 1.5
 		mixgroup = "ambient"
 		use_named_send = "Ambient"
-		use_hrtf = 0.800000
+		use_hrtf = 0.8
 		vsnd_files = 
 		[
 			"sounds/ambient/unique/amb_unique_tanker_yard_01.vsnd",
@@ -1390,38 +1391,38 @@
 			"sounds/ambient/unique/amb_unique_tanker_yard_06.vsnd",
 			"sounds/ambient/unique/amb_unique_tanker_yard_07.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 350
 		soundname_string = "LevelUniqueChildEvent"
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "skylight_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 0.400000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.500000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.700000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 1.000000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 0.500000
-		remap_opvar_to_vol_x2 = 1.000000
-		remap_opvar_to_vol_y2 = 1.000000
-		remap_opvar_to_vol_x3 = 1.000000
-		remap_opvar_to_vol_y3 = 1.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 1.000000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 0.4
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.5
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.7
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 1.0
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 0.5
+		remap_opvar_to_vol_x2 = 1.0
+		remap_opvar_to_vol_y2 = 1.0
+		remap_opvar_to_vol_x3 = 1.0
+		remap_opvar_to_vol_y3 = 1.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 1.0
 	}
 	AmbientWaterTower.LevelUnique = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientWaterTower.LevelUniqueChild"
-		random_soundevent_01_timer_min = 20.000000
-		random_soundevent_01_timer_max = 35.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 20.0
+		random_soundevent_01_timer_max = 35.0
+		use_initial_random_offset = 1.0
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	AmbientWaterTower.LevelUniqueChild = 
 	{
@@ -1430,44 +1431,44 @@
 		[
 			"AmbientWaterTower.LevelUniqueChildEvent",
 		]
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 1.000000
-		constrain_direction = 2.000000
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 1.0
+		constrain_direction = 2.0
 		ortho_distance_min = 200
 		ortho_distance_max = 250
 		make_ortho_vertical = true
-		unconstrained_target = 1.000000
+		unconstrained_target = 1.0
 		animation_type = "lerp"
 		animation_time_min = 5
 		animation_time_max = 7
 		rand_radius_min = 500
 		rand_radius_max = 700
 		max_audible_distance = 750
-		drunk = 1.000000
-		drunk_range = 50.000000
-		drunk_velocity = 0.100000
+		drunk = 1.0
+		drunk_range = 50.0
+		drunk_velocity = 0.1
 		volume_fade_out = 3
-		use_calculated_stop_at_time = 1.000000
-		start_from_player_height = 1.000000
+		use_calculated_stop_at_time = 1.0
+		start_from_player_height = 1.0
 	}
 	AmbientWaterTower.LevelUniqueChildEvent = 
 	{
 		type = "hlvr_simple_voicegraph_filter_dynamics"
-		volume = 0.000000
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.050000
-		volume_falloff_min = 350.000000
-		volume_falloff_max = 1250.000000
-		pitch_rand_min = 0.100000
-		pitch_rand_max = 0.050000
-		volume_fade_in = 0.000000
-		volume_fade_out = 1.000000
-		use_doppler = 1.000000
-		doppler_factor = 1.500000
+		volume = 0.0
+		volume_rand_min = -0.02
+		volume_rand_max = 0.05
+		volume_falloff_min = 350.0
+		volume_falloff_max = 1250.0
+		pitch_rand_min = 0.1
+		pitch_rand_max = 0.05
+		volume_fade_in = 0.0
+		volume_fade_out = 1.0
+		use_doppler = 1.0
+		doppler_factor = 1.5
 		mixgroup = "ambient"
 		use_named_send = "Ambient"
-		use_hrtf = 0.800000
+		use_hrtf = 0.8
 		vsnd_files = 
 		[
 			"sounds/ambient/unique/amb_unique_water_tower_01.vsnd",
@@ -1478,38 +1479,38 @@
 			"sounds/ambient/unique/amb_unique_water_tower_06.vsnd",
 			"sounds/ambient/unique/amb_unique_water_tower_07.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 350
 		soundname_string = "LevelUniqueChildEvent"
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "skylight_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 0.400000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.500000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.700000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 1.000000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 0.500000
-		remap_opvar_to_vol_x2 = 1.000000
-		remap_opvar_to_vol_y2 = 1.000000
-		remap_opvar_to_vol_x3 = 1.000000
-		remap_opvar_to_vol_y3 = 1.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 1.000000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 0.4
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.5
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.7
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 1.0
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 0.5
+		remap_opvar_to_vol_x2 = 1.0
+		remap_opvar_to_vol_y2 = 1.0
+		remap_opvar_to_vol_x3 = 1.0
+		remap_opvar_to_vol_y3 = 1.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 1.0
 	}
 	AmbientVault.LevelUnique = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientVault.LevelUniqueChild"
-		random_soundevent_01_timer_min = 20.000000
-		random_soundevent_01_timer_max = 35.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 20.0
+		random_soundevent_01_timer_max = 35.0
+		use_initial_random_offset = 1.0
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	AmbientVault.LevelUniqueChild = 
 	{
@@ -1518,44 +1519,44 @@
 		[
 			"AmbientVault.LevelUniqueChildEvent",
 		]
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 1.000000
-		constrain_direction = 2.000000
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 1.0
+		constrain_direction = 2.0
 		ortho_distance_min = 200
 		ortho_distance_max = 250
 		make_ortho_vertical = true
-		unconstrained_target = 1.000000
+		unconstrained_target = 1.0
 		animation_type = "lerp"
 		animation_time_min = 5
 		animation_time_max = 7
 		rand_radius_min = 500
 		rand_radius_max = 700
 		max_audible_distance = 750
-		drunk = 1.000000
-		drunk_range = 50.000000
-		drunk_velocity = 0.100000
+		drunk = 1.0
+		drunk_range = 50.0
+		drunk_velocity = 0.1
 		volume_fade_out = 3
-		use_calculated_stop_at_time = 1.000000
-		start_from_player_height = 1.000000
+		use_calculated_stop_at_time = 1.0
+		start_from_player_height = 1.0
 	}
 	AmbientVault.LevelUniqueChildEvent = 
 	{
 		type = "hlvr_simple_voicegraph_filter_dynamics"
-		volume = 0.000000
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.050000
-		volume_falloff_min = 350.000000
-		volume_falloff_max = 1250.000000
-		pitch_rand_min = 0.100000
-		pitch_rand_max = 0.050000
-		volume_fade_in = 0.000000
-		volume_fade_out = 1.000000
-		use_doppler = 1.000000
-		doppler_factor = 1.500000
+		volume = 0.0
+		volume_rand_min = -0.02
+		volume_rand_max = 0.05
+		volume_falloff_min = 350.0
+		volume_falloff_max = 1250.0
+		pitch_rand_min = 0.1
+		pitch_rand_max = 0.05
+		volume_fade_in = 0.0
+		volume_fade_out = 1.0
+		use_doppler = 1.0
+		doppler_factor = 1.5
 		mixgroup = "ambient"
 		use_named_send = "Ambient"
-		use_hrtf = 0.800000
+		use_hrtf = 0.8
 		vsnd_files = 
 		[
 			"sounds/ambient/unique/amb_unique_vault_01.vsnd",
@@ -1566,38 +1567,38 @@
 			"sounds/ambient/unique/amb_unique_vault_06.vsnd",
 			"sounds/ambient/unique/amb_unique_vault_07.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 350
 		soundname_string = "LevelUniqueChildEvent"
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "skylight_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 0.400000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.500000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.700000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 1.000000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 0.500000
-		remap_opvar_to_vol_x2 = 1.000000
-		remap_opvar_to_vol_y2 = 1.000000
-		remap_opvar_to_vol_x3 = 1.000000
-		remap_opvar_to_vol_y3 = 1.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 1.000000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 0.4
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.5
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.7
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 1.0
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 0.5
+		remap_opvar_to_vol_x2 = 1.0
+		remap_opvar_to_vol_y2 = 1.0
+		remap_opvar_to_vol_x3 = 1.0
+		remap_opvar_to_vol_y3 = 1.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 1.0
 	}
 	AmbientEnding.LevelUnique = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientEnding.LevelUniqueChild"
-		random_soundevent_01_timer_min = 20.000000
-		random_soundevent_01_timer_max = 35.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 20.0
+		random_soundevent_01_timer_max = 35.0
+		use_initial_random_offset = 1.0
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	AmbientEnding.LevelUniqueChild = 
 	{
@@ -1606,44 +1607,44 @@
 		[
 			"AmbientEnding.LevelUniqueChildEvent",
 		]
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 1.000000
-		constrain_direction = 2.000000
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 1.0
+		constrain_direction = 2.0
 		ortho_distance_min = 200
 		ortho_distance_max = 250
 		make_ortho_vertical = true
-		unconstrained_target = 1.000000
+		unconstrained_target = 1.0
 		animation_type = "lerp"
 		animation_time_min = 5
 		animation_time_max = 7
 		rand_radius_min = 500
 		rand_radius_max = 700
 		max_audible_distance = 750
-		drunk = 1.000000
-		drunk_range = 50.000000
-		drunk_velocity = 0.100000
+		drunk = 1.0
+		drunk_range = 50.0
+		drunk_velocity = 0.1
 		volume_fade_out = 3
-		use_calculated_stop_at_time = 1.000000
-		start_from_player_height = 1.000000
+		use_calculated_stop_at_time = 1.0
+		start_from_player_height = 1.0
 	}
 	AmbientEnding.LevelUniqueChildEvent = 
 	{
 		type = "hlvr_simple_voicegraph_filter_dynamics"
-		volume = 0.000000
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.050000
-		volume_falloff_min = 350.000000
-		volume_falloff_max = 1250.000000
-		pitch_rand_min = 0.100000
-		pitch_rand_max = 0.050000
-		volume_fade_in = 0.000000
-		volume_fade_out = 1.000000
-		use_doppler = 1.000000
-		doppler_factor = 1.500000
+		volume = 0.0
+		volume_rand_min = -0.02
+		volume_rand_max = 0.05
+		volume_falloff_min = 350.0
+		volume_falloff_max = 1250.0
+		pitch_rand_min = 0.1
+		pitch_rand_max = 0.05
+		volume_fade_in = 0.0
+		volume_fade_out = 1.0
+		use_doppler = 1.0
+		doppler_factor = 1.5
 		mixgroup = "ambient"
 		use_named_send = "Ambient"
-		use_hrtf = 0.800000
+		use_hrtf = 0.8
 		vsnd_files = 
 		[
 			"sounds/ambient/unique/amb_unique_ending_01.vsnd",
@@ -1654,26 +1655,26 @@
 			"sounds/ambient/unique/amb_unique_ending_06.vsnd",
 			"sounds/ambient/unique/amb_unique_ending_07.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 350
 		soundname_string = "LevelUniqueChildEvent"
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "skylight_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 0.400000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.500000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.700000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 1.000000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 0.500000
-		remap_opvar_to_vol_x2 = 1.000000
-		remap_opvar_to_vol_y2 = 1.000000
-		remap_opvar_to_vol_x3 = 1.000000
-		remap_opvar_to_vol_y3 = 1.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 1.000000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 0.4
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.5
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.7
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 1.0
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 0.5
+		remap_opvar_to_vol_x2 = 1.0
+		remap_opvar_to_vol_y2 = 1.0
+		remap_opvar_to_vol_x3 = 1.0
+		remap_opvar_to_vol_y3 = 1.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 1.0
 	}
 }

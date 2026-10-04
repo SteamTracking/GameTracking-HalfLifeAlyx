@@ -57,7 +57,7 @@
 .bmp
 .bss
 .data
-.data$r
+.data$rs
 .edata
 .idata$2
 .idata$3
@@ -68,6 +68,7 @@
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .text$di
 .text$mn
@@ -80,12 +81,13 @@
 /cursor.res
 0 => Cross-shaped deadzone (default), 1 => Square deadzone.
 00000409
-2\vpP
+2\vpp
 <NULL>
 <deferred>
 <no failure reason set>
 <null>
 <unconnected>
+??0CThreadMutex@@QEAA@XZ
 ?AppendFormat@CBufferString@@QEAAHPEBDZZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
 ?ConMsg@@YAXPEBDZZ
@@ -94,7 +96,7 @@
 ?ExitScope@CVProfile@@QEAAXXZ
 ?FixSlashes@CBufferString@@QEAAPEBDD@Z
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?Purge@CBufferString@@QEAAXH@Z
 ?SetExtension@CBufferString@@QEAAPEBDPEBD@Z
@@ -102,6 +104,7 @@
 ?ShortenPath@CBufferString@@QEAAPEBD_N@Z
 ?StripExtension@CBufferString@@QEAAPEBDXZ
 ?ToLowerFast@CBufferString@@QEAAXH@Z
+?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ACTIVE
 ACUTE_ACCENT
 AC_BACK
@@ -181,6 +184,8 @@ COrderedConstructor_Create<class COrderedInitShutdownRefWrapper<&void __cdecl Ea
 CRSEL
 CSchemaRegistration::RegisterAllModuleData
 CTRL
+CTSListBase: Misaligned list\n
+CTSListBase::CTSListBase
 CURRENCYSUBUNIT
 CURRENCYUNIT
 CURRENCY_SIGN
@@ -188,6 +193,7 @@ CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
 CUtlMemoryPoolBase::CUtlMemoryPoolBase
 CUtlRBTree overflow with %u elements!\n
 CUtlRBTree<struct CUtlMap<unsigned int,enum ButtonCode_t,unsigned short,bool (__cdecl*)(unsigned int const &,unsigned int const &)>::Node_t,unsigned short,class CUtlMap<unsigned int,enum ButtonCode_t,unsigned short,bool (__cdecl*)(unsigned int const &,unsigned int const &)>::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<unsigned int,enum ButtonCode_t,unsigned short,bool (__cdecl*)(unsigned int const &,unsigned int const &)>::Node_t,unsigned short>,unsigned short> >::NewNode
+CUtlRBTree<void *,int,bool (__cdecl*)(void * const &,void * const &),class CUtlMemory<struct UtlRBTreeNode_t<void *,int>,int> >::NewNode
 CUtlString::FormatV
 C_WITH_CEDILLA
 CallWindowProcA
@@ -594,7 +600,7 @@ RIGHT_POINTING_DOUBLE_ANGLE_QUOTATION_MARK
 RSDS
 RSHIFT
 RWIN
-R\vpP
+R\vpp
 R_AXIS
 R_AXIS_NEG
 R_AXIS_POS
@@ -890,6 +896,7 @@ allowed
 c:\buildslave\hlvr_rel_win64\build\src\inputsystem\Retail\win64\inputsystem.pdb
 c:\buildslave\hlvr_rel_win64\build\src\interfaces\interfaces.cpp
 c:\buildslave\hlvr_rel_win64\build\src\public\ordered_constructor.h
+c:\buildslave\hlvr_rel_win64\build\src\public\tier0\tslist.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlrbtree.h
 c:\buildslave\hlvr_rel_win64\build\src\tier1\configvalue.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\mempool.cpp
@@ -915,6 +922,7 @@ inactive
 initializing SDL joystick %d %s\n
 inputsystem
 inputsystem.dll
+jTw@
 joy_axisbutton_threshold
 joy_deadzone_mode
 joy_wingmanwarrior_centerhack

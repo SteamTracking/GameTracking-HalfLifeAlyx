@@ -1,13 +1,14 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Bullets.DefaultNearmiss = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_rand_min = -0.200000
-		pitch_rand_min = -0.200000
-		pitch_rand_max = 0.200000
-		chance_to_play = 3.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		volume_rand_min = -0.2
+		pitch_rand_min = -0.2
+		pitch_rand_max = 0.2
+		chance_to_play = 3.0
+		use_hrtf = 1.0
 		mixgroup = "Weapons"
 		vsnd_files = 
 		[
@@ -24,12 +25,12 @@
 	{
 		type = "hlvr_start_multi_distance_delay"
 		soundevent_01 = "Combat.PlayerKilledNPC_Child"
-		use_01 = 1.000000
+		use_01 = 1.0
 	}
 	Combat.PlayerKilledNPC_Child = 
 	{
 		type = "hlvr_2d_w_occlusion"
-		volume = 0.850000
+		volume = 0.85
 		mixgroup = "LoudEvents"
 		vsnd_files = 
 		[
@@ -39,10 +40,10 @@
 	DamageNPC.Bullet = 
 	{
 		type = "hlvr_bullet_damage"
-		use_track_1 = 1.000000
-		use_track_2 = 1.000000
-		volume_mult_1 = 0.350000
-		volume_mult_2 = 0.350000
+		use_track_1 = 1.0
+		use_track_2 = 1.0
+		volume_mult_1 = 0.35
+		volume_mult_2 = 0.35
 		vsnd_files_1 = 
 		[
 			"sounds/damage/bullet_damage_npc_01.vsnd",
@@ -61,12 +62,12 @@
 	DamageNPC.Bullet_Mech = 
 	{
 		type = "hlvr_bullet_damage"
-		use_track_1 = 1.000000
-		use_track_2 = 1.000000
-		use_track_3 = 1.000000
-		volume_mult_1 = 0.600000
-		volume_mult_2 = 0.600000
-		volume_mult_3 = 0.350000
+		use_track_1 = 1.0
+		use_track_2 = 1.0
+		use_track_3 = 1.0
+		volume_mult_1 = 0.6
+		volume_mult_2 = 0.6
+		volume_mult_3 = 0.35
 		vsnd_files_1 = 
 		[
 			"sounds/damage/bullet_damage_mech_01.vsnd",
@@ -86,9 +87,9 @@
 	DamageNPC.Break = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		volume_falloff_min = 300.000000
-		occlusion_scale = 0.800000
+		volume = 0.8
+		volume_falloff_min = 300.0
+		occlusion_scale = 0.8
 		mixgroup = "BulletImpacts"
 		vsnd_files = 
 		[
@@ -104,10 +105,10 @@
 	DamageNPC.Bullet_Extra_Gore = 
 	{
 		type = "hlvr_2d_w_occlusion"
-		volume = 0.800000
-		block_duration = 1.000000
+		volume = 0.8
+		block_duration = 1.0
 		block_match_this_event = true
-		block_match_entity = 1.000000
+		block_match_entity = 1.0
 		mixgroup = "LoudEvents"
 		vsnd_files = 
 		[
@@ -119,10 +120,10 @@
 	DamageNPC.Bullet_Extra_Gore_Subtle = 
 	{
 		type = "hlvr_2d_w_occlusion"
-		volume = 0.500000
-		block_duration = 1.000000
+		volume = 0.5
+		block_duration = 1.0
 		block_match_this_event = true
-		block_match_entity = 1.000000
+		block_match_entity = 1.0
 		mixgroup = "LoudEvents"
 		vsnd_files = 
 		[
@@ -142,28 +143,28 @@
 		[
 			"match_explosions",
 		]
-		direct_mix_level = 1.000000
-		volume_falloff_mid_min = 500.000000
-		volume_falloff_mid_max = 2000.000000
-		volume_mid = 1.000000
-		volume_falloff_mech_min = 1500.000000
-		volume_falloff_mech_max = 2400.000000
-		volume_mech = 1.000000
-		volume_falloff_lfe_min = 1500.000000
-		volume_falloff_lfe_max = 4000.000000
-		volume_lfe = 1.000000
-		volume_falloff_distant_min = 1800.000000
-		volume_falloff_distant_max = 5000.000000
-		volume_distant = 1.000000
-		distant_xfade_start = 240.000000
-		distant_xfade_end = 1800.000000
-		enable_debug_radius = 0.000000
+		direct_mix_level = 1.0
+		volume_falloff_mid_min = 500.0
+		volume_falloff_mid_max = 2000.0
+		volume_mid = 1.0
+		volume_falloff_mech_min = 1500.0
+		volume_falloff_mech_max = 2400.0
+		volume_mech = 1.0
+		volume_falloff_lfe_min = 1500.0
+		volume_falloff_lfe_max = 4000.0
+		volume_lfe = 1.0
+		volume_falloff_distant_min = 1800.0
+		volume_falloff_distant_max = 5000.0
+		volume_distant = 1.0
+		distant_xfade_start = 240.0
+		distant_xfade_end = 1800.0
+		enable_debug_radius = 0.0
 		soundname_string = "BaseExplosionEffect.Sound"
-		initial_muffle_delay = 0.200000
-		max_muffle_fade_in_time = 0.300000
-		muffle_hold_time = 1.100000
-		max_muffle_fade_out_time = 5.000000
-		max_muffle_mix_val = 1.000000
+		initial_muffle_delay = 0.2
+		max_muffle_fade_in_time = 0.3
+		muffle_hold_time = 1.1
+		max_muffle_fade_out_time = 5.0
+		max_muffle_mix_val = 1.0
 		mixgroup = "Explosions"
 		vsnd_files_mid = 
 		[
@@ -206,15 +207,15 @@
 			"match_explosions",
 			"match_explosions",
 		]
-		volume = 1.000000
-		limiter_on = 1.000000
+		volume = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "Grenade.Explode"
-		limiter_max = 3.000000
+		limiter_max = 3.0
 		limiter_stop_oldest = true
-		volume_falloff_mid_min = 1500.000000
-		volume_falloff_mid_max = 2400.000000
-		distant_xfade_end = 1800.000000
-		enable_debug_radius = 0.000000
+		volume_falloff_mid_min = 1500.0
+		volume_falloff_mid_max = 2400.0
+		distant_xfade_end = 1800.0
+		enable_debug_radius = 0.0
 		soundname_string = "Grenade.Explode"
 		mixgroup = "Explosions"
 		vsnd_files_mid = 
@@ -253,7 +254,7 @@
 	Grenade.Activate = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.450000
+		volume = 0.45
 		mixgroup = "Weapons"
 		vsnd_files = 
 		[
@@ -263,7 +264,7 @@
 	EnergyPistol.ConnectClip = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -277,7 +278,7 @@
 	EnergyPistol.ConnectGrenade = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -290,7 +291,7 @@
 	EnergyPistol.ConnectBulletPod = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -302,7 +303,7 @@
 	EnergyPistol.ConnectLaserPod = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -314,7 +315,7 @@
 	EnergyPistol.LaserPodFire = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "PlayerWeaponFire"
 		vsnd_files = 
 		[
@@ -324,7 +325,7 @@
 	EnergyPistol.SmallShot = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "PlayerWeaponFire"
 		vsnd_files = 
 		[
@@ -336,7 +337,7 @@
 	EnergyPistol.ChargeLEDs = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -346,7 +347,7 @@
 	EnergyPistol.ChargedBlast = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.450000
+		volume = 0.45
 		mixgroup = "PlayerWeaponFire"
 		vsnd_files = 
 		[
@@ -360,14 +361,14 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "EnergyPistol.ChargeLEDs"
 		soundevent_02 = "Jeep.GaussCharge"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	Pistol.ClipInsert = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.5
+		use_hrtf = 1.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -377,8 +378,8 @@
 	Pistol.ClipRelease = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.450000
-		use_hrtf = 1.000000
+		volume = 0.45
+		use_hrtf = 1.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -388,8 +389,8 @@
 	Pistol.CloseSlide = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.5
+		use_hrtf = 1.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -399,8 +400,8 @@
 	Pistol.NeedSlide = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.550000
-		use_hrtf = 1.000000
+		volume = 0.55
+		use_hrtf = 1.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -410,8 +411,8 @@
 	Pistol.NoAmmo = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.250000
-		use_hrtf = 1.000000
+		volume = 0.25
+		use_hrtf = 1.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -421,7 +422,7 @@
 	Pistol.SlideLock = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.550000
+		volume = 0.55
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -431,9 +432,9 @@
 	Pistol.LastShotChambered = 
 	{
 		type = "hlvr_default_3d"
-		volume = 3.000000
-		pitch_external = 1.150000
-		use_hrtf = 1.000000
+		volume = 3.0
+		pitch_external = 1.15
+		use_hrtf = 1.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -443,10 +444,10 @@
 	AlyxPistol.FireHead = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		volume_falloff_min = 500.000000
-		volume_falloff_max = 2000.000000
-		use_hrtf = 1.000000
+		volume = 0.4
+		volume_falloff_min = 500.0
+		volume_falloff_max = 2000.0
+		use_hrtf = 1.0
 		mixgroup = "PlayerWeaponFire"
 		vsnd_files = 
 		[
@@ -459,8 +460,8 @@
 	AlyxPistol.FireBody = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 0.000000
+		volume = 0.5
+		use_hrtf = 0.0
 		mixgroup = "PlayerWeaponFire"
 		vsnd_files = 
 		[
@@ -473,8 +474,8 @@
 	AlyxPistol.FireLFE = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 0.000000
+		volume = 0.5
+		use_hrtf = 0.0
 		mixgroup = "PlayerWeaponFire"
 		vsnd_files = 
 		[
@@ -487,7 +488,7 @@
 	AlyxPistol.FireMech = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
+		volume = 0.4
 		mixgroup = "PlayerWeaponFire"
 		vsnd_files = 
 		[
@@ -504,18 +505,18 @@
 		soundevent_02 = "AlyxPistol.FireBody"
 		soundevent_03 = "AlyxPistol.FireLFE"
 		soundevent_04 = "AlyxPistol.FireMech"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AlyxPistol.Slideback = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		volume_falloff_min = 500.000000
-		volume_falloff_max = 2000.000000
-		use_hrtf = 1.000000
+		volume = 0.4
+		volume_falloff_min = 500.0
+		volume_falloff_max = 2000.0
+		use_hrtf = 1.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -525,8 +526,8 @@
 	Pistol.AddonButtonPush = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.550000
-		use_hrtf = 1.000000
+		volume = 0.55
+		use_hrtf = 1.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -536,8 +537,8 @@
 	Pistol.BurstFireSwitch = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.550000
-		use_hrtf = 1.000000
+		volume = 0.55
+		use_hrtf = 1.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -547,29 +548,29 @@
 	AlyxPistol.Fire = 
 	{
 		type = "hlvr_player_gun_layers_3d"
-		volume = 1.000000
-		ambient_ducking_pct = 0.500000
-		limiter_on = 1.000000
+		volume = 1.0
+		ambient_ducking_pct = 0.5
+		limiter_on = 1.0
 		limiter_event_name = "AlyxPistol.Fire"
-		limiter_max = 8.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 8.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.030000
-		direct_mix_level = 1.000000
-		enable_limiter = 1.000000
-		volume_falloff_head_min = 1500.000000
-		volume_falloff_head_max = 2400.000000
-		volume_head = 0.900000
-		volume_falloff_body_min = 1500.000000
-		volume_falloff_body_max = 2400.000000
-		volume_body = 0.850000
-		volume_falloff_lfe_min = 1500.000000
-		volume_falloff_lfe_max = 4000.000000
-		volume_lfe = 0.800000
-		volume_falloff_tail_min = 1800.000000
-		volume_falloff_tail_max = 5000.000000
-		volume_tail = 0.200000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.03
+		direct_mix_level = 1.0
+		enable_limiter = 1.0
+		volume_falloff_head_min = 1500.0
+		volume_falloff_head_max = 2400.0
+		volume_head = 0.9
+		volume_falloff_body_min = 1500.0
+		volume_falloff_body_max = 2400.0
+		volume_body = 0.85
+		volume_falloff_lfe_min = 1500.0
+		volume_falloff_lfe_max = 4000.0
+		volume_lfe = 0.8
+		volume_falloff_tail_min = 1800.0
+		volume_falloff_tail_max = 5000.0
+		volume_tail = 0.2
 		mixgroup = "PlayerWeaponFire"
 		memory_type = 10
 		preload_vsnds = 1
@@ -605,10 +606,10 @@
 	AlyxPistol.HopperLoad = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
-		volume_falloff_min = 150.000000
-		volume_falloff_max = 300.000000
+		volume = 0.6
+		use_hrtf = 1.0
+		volume_falloff_min = 150.0
+		volume_falloff_max = 300.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -622,10 +623,10 @@
 	AlyxPistol.HopperLoadComplete = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
-		volume_falloff_min = 150.000000
-		volume_falloff_max = 300.000000
+		volume = 0.6
+		use_hrtf = 1.0
+		volume_falloff_min = 150.0
+		volume_falloff_max = 300.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -635,29 +636,29 @@
 	AlyxPistol.FireDry = 
 	{
 		type = "hlvr_player_gun_layers_3d"
-		volume = 1.000000
-		ambient_ducking_pct = 0.500000
-		limiter_on = 1.000000
+		volume = 1.0
+		ambient_ducking_pct = 0.5
+		limiter_on = 1.0
 		limiter_event_name = "AlyxPistol.Fire"
-		limiter_max = 8.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 8.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.030000
-		direct_mix_level = 1.000000
-		enable_limiter = 1.000000
-		volume_falloff_head_min = 1500.000000
-		volume_falloff_head_max = 2400.000000
-		volume_head = 0.900000
-		volume_falloff_body_min = 1500.000000
-		volume_falloff_body_max = 2400.000000
-		volume_body = 0.850000
-		volume_falloff_lfe_min = 1500.000000
-		volume_falloff_lfe_max = 4000.000000
-		volume_lfe = 0.800000
-		volume_falloff_tail_min = 1800.000000
-		volume_falloff_tail_max = 5000.000000
-		volume_tail = 0.200000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.03
+		direct_mix_level = 1.0
+		enable_limiter = 1.0
+		volume_falloff_head_min = 1500.0
+		volume_falloff_head_max = 2400.0
+		volume_head = 0.9
+		volume_falloff_body_min = 1500.0
+		volume_falloff_body_max = 2400.0
+		volume_body = 0.85
+		volume_falloff_lfe_min = 1500.0
+		volume_falloff_lfe_max = 4000.0
+		volume_lfe = 0.8
+		volume_falloff_tail_min = 1800.0
+		volume_falloff_tail_max = 5000.0
+		volume_tail = 0.2
 		mixgroup = "PlayerWeaponFire"
 		vsnd_files_head = 
 		[
@@ -691,13 +692,13 @@
 	AlyxPistol.CarryingNoAmmo = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		pitch = 1.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
+		volume = 0.5
+		pitch = 1.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -707,11 +708,11 @@
 	Combine.FlashbangExplosion = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 500.000000
-		volume_falloff_max = 2000.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.030000
+		volume = 1.2
+		volume_falloff_min = 500.0
+		volume_falloff_max = 2000.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.03
 		use_named_send = "weapons"
 		mixgroup = "Explosions"
 		vsnd_files = 
@@ -722,9 +723,9 @@
 	Combine.ChargerShieldUp = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_max = 1500.000000
-		use_hrtf = 1.000000
+		volume = 1.2
+		volume_falloff_max = 1500.0
+		use_hrtf = 1.0
 		use_named_send = "weapons"
 		mixgroup = "NPC_Weapons"
 		vsnd_files = 
@@ -735,9 +736,9 @@
 	Combine.ChargerShieldDown = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_max = 1500.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		volume_falloff_max = 1500.0
+		use_hrtf = 1.0
 		use_named_send = "weapons"
 		mixgroup = "NPC_Weapons"
 		vsnd_files = 
@@ -748,12 +749,12 @@
 	Combine.ChargerShieldLp = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.950000
-		occlusion_scale = 0.600000
-		volume_falloff_max = 600.000000
-		volume_fade_in = 0.500000
-		volume_fade_out = 0.750000
-		use_hrtf = 1.000000
+		volume = 0.95
+		occlusion_scale = 0.6
+		volume_falloff_max = 600.0
+		volume_fade_in = 0.5
+		volume_fade_out = 0.75
+		use_hrtf = 1.0
 		use_named_send = "weapons"
 		mixgroup = "NPC_Weapons"
 		vsnd_files = 
@@ -764,11 +765,11 @@
 	Combine.FlashbangPrepare = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 500.000000
-		volume_falloff_max = 2000.000000
-		pitch_rand_min = -0.020000
-		pitch_rand_max = 0.020000
+		volume = 1.2
+		volume_falloff_min = 500.0
+		volume_falloff_max = 2000.0
+		pitch_rand_min = -0.02
+		pitch_rand_max = 0.02
 		use_named_send = "weapons"
 		mixgroup = "Explosions"
 		vsnd_files = 
@@ -790,29 +791,29 @@
 	CombineMG.Fire = 
 	{
 		type = "hlvr_gun_layers_3d"
-		volume = 1.000000
-		limiter_on = 1.000000
+		volume = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "CombineMG.Fire"
-		limiter_max = 8.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 8.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.030000
-		direct_mix_level = 1.000000
-		volume_falloff_mid_min = 200.000000
-		volume_falloff_mid_max = 1200.000000
-		volume_mid = 1.000000
-		volume_falloff_mech_min = 800.000000
-		volume_falloff_mech_max = 1500.000000
-		volume_mech = 1.000000
-		volume_falloff_lfe_min = 70.000000
-		volume_falloff_lfe_max = 800.000000
-		volume_lfe = 1.000000
-		volume_falloff_distant_min = 1800.000000
-		volume_falloff_distant_max = 4000.000000
-		volume_distant = 1.000000
-		distant_xfade_start = 20.000000
-		distant_xfade_end = 1800.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.03
+		direct_mix_level = 1.0
+		volume_falloff_mid_min = 200.0
+		volume_falloff_mid_max = 1200.0
+		volume_mid = 1.0
+		volume_falloff_mech_min = 800.0
+		volume_falloff_mech_max = 1500.0
+		volume_mech = 1.0
+		volume_falloff_lfe_min = 70.0
+		volume_falloff_lfe_max = 800.0
+		volume_lfe = 1.0
+		volume_falloff_distant_min = 1800.0
+		volume_falloff_distant_max = 4000.0
+		volume_distant = 1.0
+		distant_xfade_start = 20.0
+		distant_xfade_end = 1800.0
 		mixgroup = "NPC_WeaponFire"
 		vsnd_files_mid = 
 		[
@@ -846,29 +847,29 @@
 	CombineMG.FireLp = 
 	{
 		type = "hlvr_gun_layers_3d"
-		volume = 1.000000
-		limiter_on = 1.000000
+		volume = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "CombineMG.FireLp"
-		limiter_max = 3.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 3.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.030000
-		direct_mix_level = 1.000000
-		volume_falloff_mid_min = 200.000000
-		volume_falloff_mid_max = 1200.000000
-		volume_mid = 1.000000
-		volume_falloff_mech_min = 800.000000
-		volume_falloff_mech_max = 1500.000000
-		volume_mech = 1.000000
-		volume_falloff_lfe_min = 70.000000
-		volume_falloff_lfe_max = 800.000000
-		volume_lfe = 1.000000
-		volume_falloff_distant_min = 1800.000000
-		volume_falloff_distant_max = 4000.000000
-		volume_distant = 1.000000
-		distant_xfade_start = 240.000000
-		distant_xfade_end = 1800.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.03
+		direct_mix_level = 1.0
+		volume_falloff_mid_min = 200.0
+		volume_falloff_mid_max = 1200.0
+		volume_mid = 1.0
+		volume_falloff_mech_min = 800.0
+		volume_falloff_mech_max = 1500.0
+		volume_mech = 1.0
+		volume_falloff_lfe_min = 70.0
+		volume_falloff_lfe_max = 800.0
+		volume_lfe = 1.0
+		volume_falloff_distant_min = 1800.0
+		volume_falloff_distant_max = 4000.0
+		volume_distant = 1.0
+		distant_xfade_start = 240.0
+		distant_xfade_end = 1800.0
 		mixgroup = "NPC_WeaponFire"
 		vsnd_files_mid = 
 		[
@@ -894,17 +895,17 @@
 		soundevent_02 = "CombineMG.Mid"
 		soundevent_03 = "CombineMG.Mech"
 		soundevent_04 = "CombineMG.LFE"
-		use_01 = 0.000000
-		use_02 = 1.000000
-		use_03 = 0.000000
-		use_04 = 0.000000
+		use_01 = 0.0
+		use_02 = 1.0
+		use_03 = 0.0
+		use_04 = 0.0
 	}
 	CombineMG.IntDistantFireFarShort = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		volume_falloff_min = 1000.000000
-		volume_falloff_max = 2400.000000
+		volume = 0.8
+		volume_falloff_min = 1000.0
+		volume_falloff_max = 2400.0
 		mixgroup = "NPC_WeaponFire"
 		vsnd_files = 
 		[
@@ -959,18 +960,18 @@
 	CombineMG.Distant = 
 	{
 		type = "hlvr_distance_xfade_3d"
-		limiter_on = 1.000000
+		limiter_on = 1.0
 		limiter_event_name = "CombineMG.Distant"
-		limiter_max = 4.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 4.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		volume = 0.700000
-		volume_falloff_min = 1500.000000
-		volume_falloff_max = 3000.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.030000
-		use_hrtf = 1.000000
-		direct_mix_level = 1.000000
+		volume = 0.7
+		volume_falloff_min = 1500.0
+		volume_falloff_max = 3000.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.03
+		use_hrtf = 1.0
+		direct_mix_level = 1.0
 		mixgroup = "NPC_WeaponFire"
 		vsnd_files_near = 
 		[
@@ -987,18 +988,18 @@
 	CombineMG.Mid = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		limiter_on = 1.000000
+		volume = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "CombineMG.Mid"
-		limiter_max = 2.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 2.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		volume_falloff_min = 1500.000000
-		volume_falloff_max = 3000.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.030000
-		use_hrtf = 1.000000
-		direct_mix_level = 1.000000
+		volume_falloff_min = 1500.0
+		volume_falloff_max = 3000.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.03
+		use_hrtf = 1.0
+		direct_mix_level = 1.0
 		mixgroup = "NPC_WeaponFire"
 		vsnd_files = 
 		[
@@ -1011,12 +1012,12 @@
 	CombineMG.Mech = 
 	{
 		type = "hlvr_default_3d"
-		limiter_on = 1.000000
-		limiter_max = 2.000000
-		limiter_match_entity = 1.000000
+		limiter_on = 1.0
+		limiter_max = 2.0
+		limiter_match_entity = 1.0
 		limiter_event_name = "CombineMG.Mech"
-		use_hrtf = 1.000000
-		direct_mix_level = 1.000000
+		use_hrtf = 1.0
+		direct_mix_level = 1.0
 		mixgroup = "NPC_WeaponFire"
 		vsnd_files = 
 		[
@@ -1029,11 +1030,11 @@
 	CombineMG.LFE = 
 	{
 		type = "hlvr_default_3d"
-		limiter_on = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_max = 2.000000
+		limiter_on = 1.0
+		limiter_match_entity = 1.0
+		limiter_max = 2.0
 		limiter_event_name = "CombineMG.LFE"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "NPC_WeaponFire"
 		vsnd_files = 
 		[
@@ -1046,12 +1047,12 @@
 	CombineMG.Windup = 
 	{
 		type = "hlvr_default_3d"
-		limiter_on = 1.000000
+		limiter_on = 1.0
 		limiter_event_name = "CombineMG.WinddownWhine"
-		limiter_max = 0.000000
-		limiter_match_entity = 1.000000
-		use_hrtf = 1.000000
-		direct_mix_level = 1.000000
+		limiter_max = 0.0
+		limiter_match_entity = 1.0
+		use_hrtf = 1.0
+		direct_mix_level = 1.0
 		mixgroup = "NPC_Weapons"
 		vsnd_files = 
 		[
@@ -1061,14 +1062,14 @@
 	CombineMG.WinddownWhine = 
 	{
 		type = "hlvr_default_3d"
-		limiter_on = 1.000000
+		limiter_on = 1.0
 		limiter_event_name = "CombineMG.Windup"
-		limiter_max = 0.000000
-		limiter_match_entity = 1.000000
-		volume = 0.600000
-		volume_fade_out = 0.300000
-		use_hrtf = 1.000000
-		direct_mix_level = 1.000000
+		limiter_max = 0.0
+		limiter_match_entity = 1.0
+		volume = 0.6
+		volume_fade_out = 0.3
+		use_hrtf = 1.0
+		direct_mix_level = 1.0
 		mixgroup = "NPC_Weapons"
 		vsnd_files = 
 		[
@@ -1089,35 +1090,35 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombineMG.WinddownLatch"
 		soundevent_02 = "CombineMG.WinddownWhine"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombineSMG.Fire = 
 	{
 		type = "hlvr_gun_layers_3d"
-		volume = 1.000000
-		limiter_on = 1.000000
+		volume = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "CombineSMG.Fire"
-		limiter_max = 6.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 6.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.030000
-		direct_mix_level = 1.000000
-		volume_falloff_mid_min = 200.000000
-		volume_falloff_mid_max = 1200.000000
-		volume_mid = 1.000000
-		volume_falloff_mech_min = 800.000000
-		volume_falloff_mech_max = 1500.000000
-		volume_mech = 0.700000
-		volume_falloff_lfe_min = 70.000000
-		volume_falloff_lfe_max = 800.000000
-		volume_lfe = 1.000000
-		volume_falloff_distant_min = 1800.000000
-		volume_falloff_distant_max = 4000.000000
-		volume_distant = 1.000000
-		distant_xfade_start = 20.000000
-		distant_xfade_end = 1800.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.03
+		direct_mix_level = 1.0
+		volume_falloff_mid_min = 200.0
+		volume_falloff_mid_max = 1200.0
+		volume_mid = 1.0
+		volume_falloff_mech_min = 800.0
+		volume_falloff_mech_max = 1500.0
+		volume_mech = 0.7
+		volume_falloff_lfe_min = 70.0
+		volume_falloff_lfe_max = 800.0
+		volume_lfe = 1.0
+		volume_falloff_distant_min = 1800.0
+		volume_falloff_distant_max = 4000.0
+		volume_distant = 1.0
+		distant_xfade_start = 20.0
+		distant_xfade_end = 1800.0
 		mixgroup = "NPC_WeaponFire"
 		vsnd_files_mid = 
 		[
@@ -1151,29 +1152,29 @@
 	CombineShotgun.Fire = 
 	{
 		type = "hlvr_gun_layers_3d"
-		volume = 1.000000
-		limiter_on = 1.000000
+		volume = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "CombineShotgun.Fire"
-		limiter_max = 8.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 8.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.000000
-		direct_mix_level = 1.000000
-		volume_falloff_mid_min = 600.000000
-		volume_falloff_mid_max = 1300.000000
-		volume_mid = 0.750000
-		volume_falloff_mech_min = 600.000000
-		volume_falloff_mech_max = 1100.000000
-		volume_mech = 1.000000
-		volume_falloff_lfe_min = 300.000000
-		volume_falloff_lfe_max = 1600.000000
-		volume_lfe = 1.000000
-		volume_falloff_distant_min = 1000.000000
-		volume_falloff_distant_max = 3000.000000
-		volume_distant = 0.400000
-		distant_xfade_start = 200.000000
-		distant_xfade_end = 800.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.0
+		direct_mix_level = 1.0
+		volume_falloff_mid_min = 600.0
+		volume_falloff_mid_max = 1300.0
+		volume_mid = 0.75
+		volume_falloff_mech_min = 600.0
+		volume_falloff_mech_max = 1100.0
+		volume_mech = 1.0
+		volume_falloff_lfe_min = 300.0
+		volume_falloff_lfe_max = 1600.0
+		volume_lfe = 1.0
+		volume_falloff_distant_min = 1000.0
+		volume_falloff_distant_max = 3000.0
+		volume_distant = 0.4
+		distant_xfade_start = 200.0
+		distant_xfade_end = 800.0
 		mixgroup = "NPC_WeaponFire"
 		vsnd_files_mid = 
 		[
@@ -1205,52 +1206,42 @@
 		]
 		reverb_falloff_curve = 
 		[
-			
 			[
-				0.005714,
-				0.300000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.005714, 0.3, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.227125,
-				0.227125,
-				2.000000,
-				3.000000,
+				1.0, 1.0, 0.227125, 0.227125,
+				2.0, 3.0,
 			],
 		]
 	}
 	CombineAR.Fire = 
 	{
 		type = "hlvr_gun_layers_3d"
-		volume = 0.900000
-		limiter_on = 1.000000
+		volume = 0.9
+		limiter_on = 1.0
 		limiter_event_name = "CombineAR.Fire"
-		limiter_max = 6.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 6.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.030000
-		direct_mix_level = 1.000000
-		volume_falloff_mid_min = 200.000000
-		volume_falloff_mid_max = 1200.000000
-		volume_mid = 1.000000
-		volume_falloff_mech_min = 800.000000
-		volume_falloff_mech_max = 1500.000000
-		volume_mech = 0.700000
-		volume_falloff_lfe_min = 70.000000
-		volume_falloff_lfe_max = 800.000000
-		volume_lfe = 1.000000
-		volume_falloff_distant_min = 1800.000000
-		volume_falloff_distant_max = 4000.000000
-		volume_distant = 1.000000
-		distant_xfade_start = 20.000000
-		distant_xfade_end = 1800.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.03
+		direct_mix_level = 1.0
+		volume_falloff_mid_min = 200.0
+		volume_falloff_mid_max = 1200.0
+		volume_mid = 1.0
+		volume_falloff_mech_min = 800.0
+		volume_falloff_mech_max = 1500.0
+		volume_mech = 0.7
+		volume_falloff_lfe_min = 70.0
+		volume_falloff_lfe_max = 800.0
+		volume_lfe = 1.0
+		volume_falloff_distant_min = 1800.0
+		volume_falloff_distant_max = 4000.0
+		volume_distant = 1.0
+		distant_xfade_start = 20.0
+		distant_xfade_end = 1800.0
 		mixgroup = "NPC_WeaponFire"
 		vsnd_files_mid = 
 		[
@@ -1284,7 +1275,7 @@
 	PhysCannon.Launch = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "Weapons"
 		vsnd_files = 
 		[
@@ -1297,7 +1288,7 @@
 	Grenade.PinPull = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.450000
+		volume = 0.45
 		mixgroup = "Weapons"
 		vsnd_files = 
 		[
@@ -1307,7 +1298,7 @@
 	Grenade.HandlePop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.450000
+		volume = 0.45
 		mixgroup = "Weapons"
 		vsnd_files = 
 		[
@@ -1317,7 +1308,7 @@
 	XenGrenade.Fizzle = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.450000
+		volume = 0.45
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -1327,11 +1318,11 @@
 	XenGrenade.Squeeze = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_max = 250.000000
-		volume_falloff_min = 20.000000
-		volume_fade_out = 0.750000
-		use_hrtf = 1.000000
+		volume = 1.0
+		volume_falloff_max = 250.0
+		volume_falloff_min = 20.0
+		volume_fade_out = 0.75
+		use_hrtf = 1.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -1341,10 +1332,10 @@
 	XenGrenade.Blip = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_max = 600.000000
-		volume_falloff_min = 20.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		volume_falloff_max = 600.0
+		volume_falloff_min = 20.0
+		use_hrtf = 1.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -1354,10 +1345,10 @@
 	XenGrenade.BlipLoop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.000000
-		volume_falloff_max = 250.000000
-		volume_falloff_min = 20.000000
-		use_hrtf = 1.000000
+		volume = 0.0
+		volume_falloff_max = 250.0
+		volume_falloff_min = 20.0
+		use_hrtf = 1.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -1367,10 +1358,10 @@
 	XenGrenade.ActivatedIdleParticle = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.000000
-		volume_falloff_max = 500.000000
-		volume_falloff_min = 20.000000
-		use_hrtf = 1.000000
+		volume = 0.0
+		volume_falloff_max = 500.0
+		volume_falloff_min = 20.0
+		use_hrtf = 1.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -1380,12 +1371,12 @@
 	XenGrenade.Explode = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = -0.050000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 3000.000000
-		use_hrtf = 0.000000
+		volume = 1.2
+		pitch_rand_min = -0.05
+		pitch_rand_max = -0.05
+		volume_falloff_min = 400.0
+		volume_falloff_max = 3000.0
+		use_hrtf = 0.0
 		mixgroup = "Explosions"
 		vsnd_files = 
 		[
@@ -1395,8 +1386,8 @@
 	HealthPen.Deploy = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.700000
+		use_hrtf = 1.0
+		volume = 0.7
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -1406,8 +1397,8 @@
 	HealthPen.Retract = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.700000
+		use_hrtf = 1.0
+		volume = 0.7
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -1417,8 +1408,8 @@
 	HealthPen.Stab = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.800000
+		use_hrtf = 1.0
+		volume = 0.8
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -1428,8 +1419,8 @@
 	HealthPen.StabFail = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.600000
+		use_hrtf = 1.0
+		volume = 0.6
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -1439,8 +1430,8 @@
 	HealthPen.Success01 = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.600000
+		use_hrtf = 1.0
+		volume = 0.6
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -1450,9 +1441,9 @@
 	HealthPen.Success02 = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.900000
-		delay = 0.100000
+		use_hrtf = 1.0
+		volume = 0.9
+		delay = 0.1
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -1463,8 +1454,8 @@
 	HealthPen.Fail = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.700000
+		use_hrtf = 1.0
+		volume = 0.7
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -1483,29 +1474,29 @@
 	RapidFire.SingleShot = 
 	{
 		type = "hlvr_player_gun_layers_3d"
-		volume = 0.800000
-		limiter_on = 1.000000
+		volume = 0.8
+		limiter_on = 1.0
 		limiter_event_name = "RapidFire.SingleShot"
-		limiter_max = 8.000000
-		ambient_ducking_pct = 0.450000
-		limiter_match_entity = 1.000000
+		limiter_max = 8.0
+		ambient_ducking_pct = 0.45
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.030000
-		direct_mix_level = 1.000000
-		enable_limiter = 1.000000
-		volume_falloff_head_min = 1500.000000
-		volume_falloff_head_max = 2400.000000
-		volume_head = 0.800000
-		volume_falloff_body_min = 1500.000000
-		volume_falloff_body_max = 2400.000000
-		volume_body = 1.000000
-		volume_falloff_lfe_min = 1500.000000
-		volume_falloff_lfe_max = 4000.000000
-		volume_lfe = 0.700000
-		volume_falloff_tail_min = 1800.000000
-		volume_falloff_tail_max = 5000.000000
-		volume_tail = 0.800000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.03
+		direct_mix_level = 1.0
+		enable_limiter = 1.0
+		volume_falloff_head_min = 1500.0
+		volume_falloff_head_max = 2400.0
+		volume_head = 0.8
+		volume_falloff_body_min = 1500.0
+		volume_falloff_body_max = 2400.0
+		volume_body = 1.0
+		volume_falloff_lfe_min = 1500.0
+		volume_falloff_lfe_max = 4000.0
+		volume_lfe = 0.7
+		volume_falloff_tail_min = 1800.0
+		volume_falloff_tail_max = 5000.0
+		volume_tail = 0.8
 		mixgroup = "PlayerWeaponFire"
 		memory_type = 10
 		preload_vsnds = 1
@@ -1595,9 +1586,9 @@
 	RapidFire.ReplaceCapsules = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 500.000000
+		use_hrtf = 1.0
+		volume_falloff_min = 200.0
+		volume_falloff_max = 500.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -1607,11 +1598,11 @@
 	RapidFire.Recharge = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume_falloff_min = 20.000000
-		volume_falloff_max = 250.000000
-		volume_fade_in = 0.250000
-		volume_fade_out = 0.500000
+		use_hrtf = 1.0
+		volume_falloff_min = 20.0
+		volume_falloff_max = 250.0
+		volume_fade_in = 0.25
+		volume_fade_out = 0.5
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -1621,8 +1612,8 @@
 	RapidFire.RechargeBoostWindow = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.800000
+		use_hrtf = 1.0
+		volume = 0.8
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -1632,8 +1623,8 @@
 	RapidFire.RechargeBoostSuccess = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.700000
+		use_hrtf = 1.0
+		volume = 0.7
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -1643,8 +1634,8 @@
 	RapidFire.RechargeBoostFail = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.700000
+		use_hrtf = 1.0
+		volume = 0.7
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -1663,9 +1654,9 @@
 	RapidFire.OpenClipBay = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 500.000000
+		use_hrtf = 1.0
+		volume_falloff_min = 200.0
+		volume_falloff_max = 500.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -1675,9 +1666,9 @@
 	RapidFire.CloseClipBay = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 500.000000
+		use_hrtf = 1.0
+		volume_falloff_min = 200.0
+		volume_falloff_max = 500.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -1687,9 +1678,9 @@
 	RapidFire.RemovePowerCell = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 500.000000
+		use_hrtf = 1.0
+		volume_falloff_min = 200.0
+		volume_falloff_max = 500.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -1699,10 +1690,10 @@
 	RapidFire.LoadPowerCell = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 500.000000
-		delay = 0.600000
+		use_hrtf = 1.0
+		volume_falloff_min = 200.0
+		volume_falloff_max = 500.0
+		delay = 0.6
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -1712,22 +1703,22 @@
 	RapidFire.AdvancePowerCell = 
 	{
 		type = "hlvr_start_multi"
-		use_random_delay = 0.000000
+		use_random_delay = 0.0
 		soundevent_01 = "RapidFire.RemovePowerCell"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "RapidFire.LoadPowerCell"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	RapidFire.TagDartCharging = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 500.000000
-		spread_min = 50.000000
-		spread_max = 200.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.300000
+		use_hrtf = 1.0
+		volume_falloff_min = 200.0
+		volume_falloff_max = 500.0
+		spread_min = 50.0
+		spread_max = 200.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.3
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -1737,10 +1728,10 @@
 	RapidFire.TagDartReady = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 1.000000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 500.000000
+		use_hrtf = 1.0
+		volume = 1.0
+		volume_falloff_min = 200.0
+		volume_falloff_max = 500.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -1750,29 +1741,29 @@
 	RapidFire.TagDartFire = 
 	{
 		type = "hlvr_player_gun_layers_3d"
-		volume = 1.000000
-		limiter_on = 1.000000
+		volume = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "RapidFire.TagDartFire"
-		limiter_max = 8.000000
-		ambient_ducking_pct = 0.450000
-		limiter_match_entity = 1.000000
+		limiter_max = 8.0
+		ambient_ducking_pct = 0.45
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.030000
-		direct_mix_level = 1.000000
-		enable_limiter = 1.000000
-		volume_falloff_head_min = 1500.000000
-		volume_falloff_head_max = 2400.000000
-		volume_head = 0.800000
-		volume_falloff_body_min = 1500.000000
-		volume_falloff_body_max = 2400.000000
-		volume_body = 1.000000
-		volume_falloff_lfe_min = 1500.000000
-		volume_falloff_lfe_max = 4000.000000
-		volume_lfe = 1.000000
-		volume_falloff_tail_min = 1800.000000
-		volume_falloff_tail_max = 5000.000000
-		volume_tail = 0.500000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.03
+		direct_mix_level = 1.0
+		enable_limiter = 1.0
+		volume_falloff_head_min = 1500.0
+		volume_falloff_head_max = 2400.0
+		volume_head = 0.8
+		volume_falloff_body_min = 1500.0
+		volume_falloff_body_max = 2400.0
+		volume_body = 1.0
+		volume_falloff_lfe_min = 1500.0
+		volume_falloff_lfe_max = 4000.0
+		volume_lfe = 1.0
+		volume_falloff_tail_min = 1800.0
+		volume_falloff_tail_max = 5000.0
+		volume_tail = 0.5
 		mixgroup = "PlayerWeaponFire"
 		vsnd_files_head = 
 		[
@@ -1794,9 +1785,9 @@
 	RapidFire.TagDartAttach = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume_falloff_min = 1500.000000
-		volume_falloff_max = 2400.000000
+		use_hrtf = 1.0
+		volume_falloff_min = 1500.0
+		volume_falloff_max = 2400.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -1806,7 +1797,7 @@
 	RapidFire.UpgradeSelectionChanged = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -1816,13 +1807,13 @@
 	RapidFire.UpgradeSelectionEnabled = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 500.000000
-		spread_min = 50.000000
-		spread_max = 200.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 0.300000
+		use_hrtf = 1.0
+		volume_falloff_min = 100.0
+		volume_falloff_max = 500.0
+		spread_min = 50.0
+		spread_max = 200.0
+		volume_fade_in = 0.0
+		volume_fade_out = 0.3
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -1856,11 +1847,11 @@
 	{
 		base = "RapidFire.TagDartFire"
 		limiter_event_name = "RapidFire.EnergyBallLaunch"
-		ambient_ducking_pct = 1.000000
-		volume_head = 0.600000
-		volume_body = 0.800000
-		volume_lfe = 0.900000
-		volume_tail = 1.000000
+		ambient_ducking_pct = 1.0
+		volume_head = 0.6
+		volume_body = 0.8
+		volume_lfe = 0.9
+		volume_tail = 1.0
 		mixgroup = "PlayerWeaponFire"
 		vsnd_files_head = 
 		[
@@ -1882,29 +1873,29 @@
 	RapidFire.EnergyBallExplode = 
 	{
 		type = "hlvr_player_gun_layers_3d"
-		volume = 1.000000
-		limiter_on = 1.000000
+		volume = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "RapidFire.EnergyBallExplode"
-		limiter_max = 2.000000
-		ambient_ducking_pct = 1.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 2.0
+		ambient_ducking_pct = 1.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		pitch_rand_min = -0.020000
-		pitch_rand_max = 0.020000
-		direct_mix_level = 1.000000
-		enable_limiter = 1.000000
-		volume_falloff_head_min = 1500.000000
-		volume_falloff_head_max = 2400.000000
-		volume_head = 1.000000
-		volume_falloff_body_min = 1500.000000
-		volume_falloff_body_max = 2400.000000
-		volume_body = 0.700000
-		volume_falloff_lfe_min = 1500.000000
-		volume_falloff_lfe_max = 4000.000000
-		volume_lfe = 1.000000
-		volume_falloff_tail_min = 1800.000000
-		volume_falloff_tail_max = 5000.000000
-		volume_tail = 1.000000
+		pitch_rand_min = -0.02
+		pitch_rand_max = 0.02
+		direct_mix_level = 1.0
+		enable_limiter = 1.0
+		volume_falloff_head_min = 1500.0
+		volume_falloff_head_max = 2400.0
+		volume_head = 1.0
+		volume_falloff_body_min = 1500.0
+		volume_falloff_body_max = 2400.0
+		volume_body = 0.7
+		volume_falloff_lfe_min = 1500.0
+		volume_falloff_lfe_max = 4000.0
+		volume_lfe = 1.0
+		volume_falloff_tail_min = 1800.0
+		volume_falloff_tail_max = 5000.0
+		volume_tail = 1.0
 		mixgroup = "Explosions"
 		vsnd_files_head = 
 		[
@@ -1938,18 +1929,18 @@
 	RapidFire.EnergyBallImpact = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		limiter_on = 1.000000
+		use_hrtf = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "RapidFire.EnergyBallImpact"
-		limiter_max = 2.000000
-		volume = 0.700000
-		volume_rand_min = -0.200000
-		limiter_match_entity = 1.000000
+		limiter_max = 2.0
+		volume = 0.7
+		volume_rand_min = -0.2
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 1200.000000
-		pitch_rand_min = -0.020000
-		pitch_rand_max = 0.020000
+		volume_falloff_min = 400.0
+		volume_falloff_max = 1200.0
+		pitch_rand_min = -0.02
+		pitch_rand_max = 0.02
 		mixgroup = "Explosions"
 		vsnd_files = 
 		[
@@ -1962,29 +1953,29 @@
 	RapidFire.BulletClusterReady = 
 	{
 		type = "hlvr_player_gun_layers_3d"
-		volume = 1.000000
-		limiter_on = 1.000000
+		volume = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "RapidFire.TagDartFire"
-		limiter_max = 8.000000
-		ambient_ducking_pct = 0.450000
-		limiter_match_entity = 1.000000
+		limiter_max = 8.0
+		ambient_ducking_pct = 0.45
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.030000
-		direct_mix_level = 1.000000
-		enable_limiter = 1.000000
-		volume_falloff_head_min = 1500.000000
-		volume_falloff_head_max = 2400.000000
-		volume_head = 0.800000
-		volume_falloff_body_min = 1500.000000
-		volume_falloff_body_max = 2400.000000
-		volume_body = 1.000000
-		volume_falloff_lfe_min = 1500.000000
-		volume_falloff_lfe_max = 4000.000000
-		volume_lfe = 1.000000
-		volume_falloff_tail_min = 1800.000000
-		volume_falloff_tail_max = 5000.000000
-		volume_tail = 0.500000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.03
+		direct_mix_level = 1.0
+		enable_limiter = 1.0
+		volume_falloff_head_min = 1500.0
+		volume_falloff_head_max = 2400.0
+		volume_head = 0.8
+		volume_falloff_body_min = 1500.0
+		volume_falloff_body_max = 2400.0
+		volume_body = 1.0
+		volume_falloff_lfe_min = 1500.0
+		volume_falloff_lfe_max = 4000.0
+		volume_lfe = 1.0
+		volume_falloff_tail_min = 1800.0
+		volume_falloff_tail_max = 5000.0
+		volume_tail = 0.5
 		mixgroup = "PlayerWeapons"
 		vsnd_files_head = 
 		[
@@ -2013,19 +2004,19 @@
 			"match_explosions",
 			"match_explosions",
 		]
-		volume = 1.000000
-		limiter_on = 1.000000
+		volume = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "RapidFire.GelExplode"
-		limiter_max = 3.000000
+		limiter_max = 3.0
 		limiter_stop_oldest = true
-		volume_falloff_mid_min = 1500.000000
-		volume_falloff_mid_max = 2400.000000
-		volume_falloff_distant_min = 1000.000000
-		volume_falloff_distant_max = 2400.000000
-		volume_distant = 1.000000
-		distant_xfade_start = 50.000000
-		distant_xfade_end = 100.000000
-		enable_debug_radius = 0.000000
+		volume_falloff_mid_min = 1500.0
+		volume_falloff_mid_max = 2400.0
+		volume_falloff_distant_min = 1000.0
+		volume_falloff_distant_max = 2400.0
+		volume_distant = 1.0
+		distant_xfade_start = 50.0
+		distant_xfade_end = 100.0
+		enable_debug_radius = 0.0
 		soundname_string = "RapidFire.GelExplode"
 		mixgroup = "Explosions"
 		vsnd_files_mid = 
@@ -2071,7 +2062,7 @@
 	RapidFire.ClusterExplodeButtonReady = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -2083,7 +2074,7 @@
 	RapidFire.ClusterExplodeButtonPressed = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.450000
+		volume = 0.45
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -2095,13 +2086,13 @@
 	RapidFire.CarryingNoAmmo = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		pitch = 1.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
+		volume = 0.5
+		pitch = 1.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -2111,7 +2102,7 @@
 	Shotgun.Railshot_Fire_Old = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "PlayerWeaponFire"
 		vsnd_files = 
 		[
@@ -2121,22 +2112,22 @@
 	Shotgun.Railshot_chargeLP = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
-		fade_over_time_x1 = 0.000000
-		fade_over_time_y1 = 1.000000
-		fade_over_time_x2 = 2.500000
-		fade_over_time_y2 = 1.000000
-		fade_over_time_x3 = 7.000000
-		fade_over_time_y3 = 0.350000
-		fade_over_time_x4 = 7.000000
-		fade_over_time_y4 = 0.350000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 1000.000000
+		volume = 0.7
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
+		fade_over_time_x1 = 0.0
+		fade_over_time_y1 = 1.0
+		fade_over_time_x2 = 2.5
+		fade_over_time_y2 = 1.0
+		fade_over_time_x3 = 7.0
+		fade_over_time_y3 = 0.35
+		fade_over_time_x4 = 7.0
+		fade_over_time_y4 = 0.35
+		volume_falloff_min = 200.0
+		volume_falloff_max = 1000.0
 		use_named_send = "weapons"
-		use_facing_vol_attenuation = 1.000000
-		facing_scale_min = 0.400000
+		use_facing_vol_attenuation = 1.0
+		facing_scale_min = 0.4
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -2146,16 +2137,16 @@
 	Shotgun.Railshot_chargeWinddown = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.550000
-		use_hrtf = 1.000000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
+		volume = 0.55
+		use_hrtf = 1.0
+		limiter_on = 1.0
+		limiter_max = 0.0
 		limiter_event_name = "Shotgun.Railshot_chargeLP"
-		limiter_match_substring = 0.000000
+		limiter_match_substring = 0.0
 		limiter_stop_oldest = true
-		limiter_match_entity = 1.000000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 1000.000000
+		limiter_match_entity = 1.0
+		volume_falloff_min = 200.0
+		volume_falloff_max = 1000.0
 		use_named_send = "weapons"
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
@@ -2166,10 +2157,10 @@
 	Shotgun.Slideback = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.550000
-		use_hrtf = 1.000000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 1000.000000
+		volume = 0.55
+		use_hrtf = 1.0
+		volume_falloff_min = 200.0
+		volume_falloff_max = 1000.0
 		use_named_send = "weapons"
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
@@ -2180,10 +2171,10 @@
 	Shotgun.Slideforward = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.550000
-		use_hrtf = 1.000000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 1000.000000
+		volume = 0.55
+		use_hrtf = 1.0
+		volume_falloff_min = 200.0
+		volume_falloff_max = 1000.0
 		use_named_send = "weapons"
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
@@ -2194,10 +2185,10 @@
 	Shotgun.SlidebackEmpty = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 1000.000000
+		volume = 1.0
+		use_hrtf = 1.0
+		volume_falloff_min = 200.0
+		volume_falloff_max = 1000.0
 		use_named_send = "weapons"
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
@@ -2208,10 +2199,10 @@
 	Shotgun.TubeFull = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.550000
-		use_hrtf = 1.000000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 1000.000000
+		volume = 0.55
+		use_hrtf = 1.0
+		volume_falloff_min = 200.0
+		volume_falloff_max = 1000.0
 		use_named_send = "weapons"
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
@@ -2222,10 +2213,10 @@
 	Shotgun.OpenChamber = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.550000
-		use_hrtf = 1.000000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 1000.000000
+		volume = 0.55
+		use_hrtf = 1.0
+		volume_falloff_min = 200.0
+		volume_falloff_max = 1000.0
 		use_named_send = "weapons"
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
@@ -2236,10 +2227,10 @@
 	Shotgun.CloseTube = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.550000
-		use_hrtf = 1.000000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 1000.000000
+		volume = 0.55
+		use_hrtf = 1.0
+		volume_falloff_min = 200.0
+		volume_falloff_max = 1000.0
 		use_named_send = "weapons"
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
@@ -2250,10 +2241,10 @@
 	Shotgun.CloseChamber = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.550000
-		use_hrtf = 1.000000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 1000.000000
+		volume = 0.55
+		use_hrtf = 1.0
+		volume_falloff_min = 200.0
+		volume_falloff_max = 1000.0
 		use_named_send = "weapons"
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
@@ -2264,10 +2255,10 @@
 	Shotgun.LoadShell = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.450000
-		use_hrtf = 1.000000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 1000.000000
+		volume = 0.45
+		use_hrtf = 1.0
+		volume_falloff_min = 200.0
+		volume_falloff_max = 1000.0
 		use_named_send = "weapons"
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
@@ -2281,10 +2272,10 @@
 	Shotgun.Speedload = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.550000
-		use_hrtf = 1.000000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 1000.000000
+		volume = 0.55
+		use_hrtf = 1.0
+		volume_falloff_min = 200.0
+		volume_falloff_max = 1000.0
 		use_named_send = "weapons"
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
@@ -2295,7 +2286,7 @@
 	Shotgun.UpgradeLeverDown = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -2305,7 +2296,7 @@
 	Shotgun.UpgradeLeverUp = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -2315,9 +2306,9 @@
 	Shotgun.ChargerIntakeExplosion = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.450000
-		pitch = 0.800000
-		volume_mult = 0.500000
+		volume = 0.45
+		pitch = 0.8
+		volume_mult = 0.5
 		mixgroup = "Explosions"
 		vsnd_files = 
 		[
@@ -2327,29 +2318,29 @@
 	Shotgun.Fire = 
 	{
 		type = "hlvr_player_gun_layers_3d"
-		volume = 1.000000
-		ambient_ducking_pct = 0.500000
-		limiter_on = 1.000000
+		volume = 1.0
+		ambient_ducking_pct = 0.5
+		limiter_on = 1.0
 		limiter_event_name = "Shotgun.Fire"
-		limiter_max = 8.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 8.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.030000
-		direct_mix_level = 1.000000
-		enable_limiter = 1.000000
-		volume_falloff_head_min = 1500.000000
-		volume_falloff_head_max = 2400.000000
-		volume_head = 0.900000
-		volume_falloff_body_min = 1500.000000
-		volume_falloff_body_max = 2400.000000
-		volume_body = 0.850000
-		volume_falloff_lfe_min = 1500.000000
-		volume_falloff_lfe_max = 4000.000000
-		volume_lfe = 0.800000
-		volume_falloff_tail_min = 1800.000000
-		volume_falloff_tail_max = 5000.000000
-		volume_tail = 0.500000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.03
+		direct_mix_level = 1.0
+		enable_limiter = 1.0
+		volume_falloff_head_min = 1500.0
+		volume_falloff_head_max = 2400.0
+		volume_head = 0.9
+		volume_falloff_body_min = 1500.0
+		volume_falloff_body_max = 2400.0
+		volume_body = 0.85
+		volume_falloff_lfe_min = 1500.0
+		volume_falloff_lfe_max = 4000.0
+		volume_lfe = 0.8
+		volume_falloff_tail_min = 1800.0
+		volume_falloff_tail_max = 5000.0
+		volume_tail = 0.5
 		mixgroup = "PlayerWeaponFire"
 		memory_type = 10
 		preload_vsnds = 1
@@ -2385,29 +2376,29 @@
 	Shotgun.Railshot_Fire = 
 	{
 		type = "hlvr_player_gun_layers_3d"
-		volume = 1.000000
-		ambient_ducking_pct = 0.500000
-		limiter_on = 1.000000
+		volume = 1.0
+		ambient_ducking_pct = 0.5
+		limiter_on = 1.0
 		limiter_event_name = "Shotgun.Railshot_Fire"
-		limiter_max = 8.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 8.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.030000
-		direct_mix_level = 1.000000
-		enable_limiter = 1.000000
-		volume_falloff_head_min = 1500.000000
-		volume_falloff_head_max = 2400.000000
-		volume_head = 0.900000
-		volume_falloff_body_min = 1500.000000
-		volume_falloff_body_max = 2400.000000
-		volume_body = 0.850000
-		volume_falloff_lfe_min = 1500.000000
-		volume_falloff_lfe_max = 4000.000000
-		volume_lfe = 0.800000
-		volume_falloff_tail_min = 1800.000000
-		volume_falloff_tail_max = 5000.000000
-		volume_tail = 0.200000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.03
+		direct_mix_level = 1.0
+		enable_limiter = 1.0
+		volume_falloff_head_min = 1500.0
+		volume_falloff_head_max = 2400.0
+		volume_head = 0.9
+		volume_falloff_body_min = 1500.0
+		volume_falloff_body_max = 2400.0
+		volume_body = 0.85
+		volume_falloff_lfe_min = 1500.0
+		volume_falloff_lfe_max = 4000.0
+		volume_lfe = 0.8
+		volume_falloff_tail_min = 1800.0
+		volume_falloff_tail_max = 5000.0
+		volume_tail = 0.2
 		mixgroup = "PlayerWeaponFire"
 		vsnd_files_head = 
 		[
@@ -2441,13 +2432,13 @@
 	Shotgun.CarryingNoAmmo = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		pitch = 1.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
+		volume = 0.5
+		pitch = 1.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -2468,17 +2459,17 @@
 			"match_explosions",
 			"match_explosions",
 		]
-		volume = 1.000000
-		limiter_on = 1.000000
+		volume = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "Tripmine.Explode"
-		limiter_max = 3.000000
+		limiter_max = 3.0
 		limiter_stop_oldest = true
-		ambient_ducking_pct = 1.000000
-		volume_falloff_mid_min = 1500.000000
-		volume_falloff_mid_max = 2400.000000
-		volume_mid = 1.000000
-		distant_xfade_start = 240.000000
-		distant_xfade_end = 1800.000000
+		ambient_ducking_pct = 1.0
+		volume_falloff_mid_min = 1500.0
+		volume_falloff_mid_max = 2400.0
+		volume_mid = 1.0
+		distant_xfade_start = 240.0
+		distant_xfade_end = 1800.0
 		mixgroup = "Explosions"
 		vsnd_files_mid = 
 		[
@@ -2516,10 +2507,10 @@
 	Tripmine.Activate = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 1.000000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 1200.000000
+		use_hrtf = 1.0
+		volume = 1.0
+		volume_falloff_min = 400.0
+		volume_falloff_max = 1200.0
 		use_named_send = "weapons"
 		mixgroup = "Weapons"
 		vsnd_files = 
@@ -2534,11 +2525,11 @@
 	Tripmine.Deploy = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 1.000000
-		ambient_ducking_pct = 0.500000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 1200.000000
+		use_hrtf = 1.0
+		volume = 1.0
+		ambient_ducking_pct = 0.5
+		volume_falloff_min = 400.0
+		volume_falloff_max = 1200.0
 		use_named_send = "weapons"
 		mixgroup = "Weapons"
 		vsnd_files = 
@@ -2549,11 +2540,11 @@
 	Tripmine.Deployed = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 1.000000
-		ambient_ducking_pct = 0.600000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 1200.000000
+		use_hrtf = 1.0
+		volume = 1.0
+		ambient_ducking_pct = 0.6
+		volume_falloff_min = 400.0
+		volume_falloff_max = 1200.0
 		use_named_send = "weapons"
 		mixgroup = "Weapons"
 		vsnd_files = 
@@ -2564,7 +2555,7 @@
 	Tripmine.Deactivate = 
 	{
 		base = "Tripmine.Deploy"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "Weapons"
 		vsnd_files = 
 		[
@@ -2574,7 +2565,7 @@
 	Tripmine.Charge = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "Weapons"
 		vsnd_files = 
 		[
@@ -2584,13 +2575,13 @@
 	Tripmine.AlarmStart = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 1.000000
-		spread_min = 30.000000
-		spread_max = 54.000000
-		ambient_ducking_pct = 0.500000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 1200.000000
+		use_hrtf = 1.0
+		volume = 1.0
+		spread_min = 30.0
+		spread_max = 54.0
+		ambient_ducking_pct = 0.5
+		volume_falloff_min = 400.0
+		volume_falloff_max = 1200.0
 		use_named_send = "weapons"
 		mixgroup = "Weapons"
 		vsnd_files = 
@@ -2601,18 +2592,18 @@
 	Tripmine.AlarmLp = 
 	{
 		base = "Tripmine.AlarmStart"
-		volume = 0.500000
-		volume_fade_in = 0.500000
-		volume_fade_out = 0.500000
-		delay = 0.100000
-		fade_over_time_x1 = 0.000000
-		fade_over_time_y1 = 1.000000
-		fade_over_time_x2 = 0.000000
-		fade_over_time_y2 = 1.000000
-		fade_over_time_x3 = 3.000000
-		fade_over_time_y3 = 0.800000
-		fade_over_time_x4 = 10.000000
-		fade_over_time_y4 = 0.500000
+		volume = 0.5
+		volume_fade_in = 0.5
+		volume_fade_out = 0.5
+		delay = 0.1
+		fade_over_time_x1 = 0.0
+		fade_over_time_y1 = 1.0
+		fade_over_time_x2 = 0.0
+		fade_over_time_y2 = 1.0
+		fade_over_time_x3 = 3.0
+		fade_over_time_y3 = 0.8
+		fade_over_time_x4 = 10.0
+		fade_over_time_y4 = 0.5
 		vsnd_files = 
 		[
 			"sounds/weapons/tripmine/wpn_tripmine_alarm_lp_01.vsnd",
@@ -2623,16 +2614,16 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "Tripmine.AlarmStart"
 		soundevent_02 = "Tripmine.AlarmLp"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	RollerMine.Deploy = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.750000
-		volume_falloff_min = 120.000000
-		volume_falloff_max = 1200.000000
+		use_hrtf = 1.0
+		volume = 0.75
+		volume_falloff_min = 120.0
+		volume_falloff_max = 1200.0
 		use_named_send = "weapons"
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
@@ -2645,7 +2636,7 @@
 	Shotgun.UpgradeLaunchGrenade = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -2671,28 +2662,28 @@
 		[
 			"match_explosions",
 		]
-		direct_mix_level = 1.000000
-		volume_falloff_mid_min = 500.000000
-		volume_falloff_mid_max = 2000.000000
-		volume_mid = 1.000000
-		volume_falloff_mech_min = 1500.000000
-		volume_falloff_mech_max = 2400.000000
-		volume_mech = 1.000000
-		volume_falloff_lfe_min = 1500.000000
-		volume_falloff_lfe_max = 4000.000000
-		volume_lfe = 1.000000
-		volume_falloff_distant_min = 1800.000000
-		volume_falloff_distant_max = 5000.000000
-		volume_distant = 1.000000
-		distant_xfade_start = 240.000000
-		distant_xfade_end = 1800.000000
-		enable_debug_radius = 0.000000
+		direct_mix_level = 1.0
+		volume_falloff_mid_min = 500.0
+		volume_falloff_mid_max = 2000.0
+		volume_mid = 1.0
+		volume_falloff_mech_min = 1500.0
+		volume_falloff_mech_max = 2400.0
+		volume_mech = 1.0
+		volume_falloff_lfe_min = 1500.0
+		volume_falloff_lfe_max = 4000.0
+		volume_lfe = 1.0
+		volume_falloff_distant_min = 1800.0
+		volume_falloff_distant_max = 5000.0
+		volume_distant = 1.0
+		distant_xfade_start = 240.0
+		distant_xfade_end = 1800.0
+		enable_debug_radius = 0.0
 		soundname_string = "BaseExplosionEffect.Sound"
-		initial_muffle_delay = 0.200000
-		max_muffle_fade_in_time = 0.300000
-		muffle_hold_time = 1.100000
-		max_muffle_fade_out_time = 5.000000
-		max_muffle_mix_val = 1.000000
+		initial_muffle_delay = 0.2
+		max_muffle_fade_in_time = 0.3
+		muffle_hold_time = 1.1
+		max_muffle_fade_out_time = 5.0
+		max_muffle_mix_val = 1.0
 		mixgroup = "Explosions"
 		vsnd_files_mid = 
 		[
@@ -2732,28 +2723,28 @@
 		[
 			"match_explosions",
 		]
-		direct_mix_level = 1.000000
-		volume_falloff_mid_min = 500.000000
-		volume_falloff_mid_max = 2000.000000
-		volume_mid = 1.000000
-		volume_falloff_mech_min = 1500.000000
-		volume_falloff_mech_max = 2400.000000
-		volume_mech = 1.000000
-		volume_falloff_lfe_min = 1500.000000
-		volume_falloff_lfe_max = 4000.000000
-		volume_lfe = 1.000000
-		volume_falloff_distant_min = 1800.000000
-		volume_falloff_distant_max = 5000.000000
-		volume_distant = 1.000000
-		distant_xfade_start = 240.000000
-		distant_xfade_end = 1800.000000
-		enable_debug_radius = 0.000000
+		direct_mix_level = 1.0
+		volume_falloff_mid_min = 500.0
+		volume_falloff_mid_max = 2000.0
+		volume_mid = 1.0
+		volume_falloff_mech_min = 1500.0
+		volume_falloff_mech_max = 2400.0
+		volume_mech = 1.0
+		volume_falloff_lfe_min = 1500.0
+		volume_falloff_lfe_max = 4000.0
+		volume_lfe = 1.0
+		volume_falloff_distant_min = 1800.0
+		volume_falloff_distant_max = 5000.0
+		volume_distant = 1.0
+		distant_xfade_start = 240.0
+		distant_xfade_end = 1800.0
+		enable_debug_radius = 0.0
 		soundname_string = "BaseExplosionEffect.Sound"
-		initial_muffle_delay = 0.200000
-		max_muffle_fade_in_time = 0.300000
-		muffle_hold_time = 1.100000
-		max_muffle_fade_out_time = 5.000000
-		max_muffle_mix_val = 1.000000
+		initial_muffle_delay = 0.2
+		max_muffle_fade_in_time = 0.3
+		muffle_hold_time = 1.1
+		max_muffle_fade_out_time = 5.0
+		max_muffle_mix_val = 1.0
 		mixgroup = "Explosions"
 		vsnd_files_mid = 
 		[
@@ -2781,28 +2772,28 @@
 		[
 			"match_explosions",
 		]
-		direct_mix_level = 1.000000
-		volume_falloff_mid_min = 500.000000
-		volume_falloff_mid_max = 2000.000000
-		volume_mid = 1.000000
-		volume_falloff_mech_min = 1500.000000
-		volume_falloff_mech_max = 2400.000000
-		volume_mech = 1.000000
-		volume_falloff_lfe_min = 1500.000000
-		volume_falloff_lfe_max = 4000.000000
-		volume_lfe = 1.000000
-		volume_falloff_distant_min = 1800.000000
-		volume_falloff_distant_max = 5000.000000
-		volume_distant = 1.000000
-		distant_xfade_start = 240.000000
-		distant_xfade_end = 1800.000000
-		enable_debug_radius = 0.000000
+		direct_mix_level = 1.0
+		volume_falloff_mid_min = 500.0
+		volume_falloff_mid_max = 2000.0
+		volume_mid = 1.0
+		volume_falloff_mech_min = 1500.0
+		volume_falloff_mech_max = 2400.0
+		volume_mech = 1.0
+		volume_falloff_lfe_min = 1500.0
+		volume_falloff_lfe_max = 4000.0
+		volume_lfe = 1.0
+		volume_falloff_distant_min = 1800.0
+		volume_falloff_distant_max = 5000.0
+		volume_distant = 1.0
+		distant_xfade_start = 240.0
+		distant_xfade_end = 1800.0
+		enable_debug_radius = 0.0
 		soundname_string = "BaseExplosionEffect.Sound"
-		initial_muffle_delay = 0.200000
-		max_muffle_fade_in_time = 0.300000
-		muffle_hold_time = 1.100000
-		max_muffle_fade_out_time = 5.000000
-		max_muffle_mix_val = 1.000000
+		initial_muffle_delay = 0.2
+		max_muffle_fade_in_time = 0.3
+		muffle_hold_time = 1.1
+		max_muffle_fade_out_time = 5.0
+		max_muffle_mix_val = 1.0
 		mixgroup = "Explosions"
 		vsnd_files_mid = 
 		[
@@ -2830,28 +2821,28 @@
 		[
 			"match_explosions",
 		]
-		direct_mix_level = 1.000000
-		volume_falloff_mid_min = 500.000000
-		volume_falloff_mid_max = 2000.000000
-		volume_mid = 1.000000
-		volume_falloff_mech_min = 1500.000000
-		volume_falloff_mech_max = 2400.000000
-		volume_mech = 1.000000
-		volume_falloff_lfe_min = 1500.000000
-		volume_falloff_lfe_max = 4000.000000
-		volume_lfe = 1.000000
-		volume_falloff_distant_min = 1800.000000
-		volume_falloff_distant_max = 5000.000000
-		volume_distant = 1.000000
-		distant_xfade_start = 240.000000
-		distant_xfade_end = 1800.000000
-		enable_debug_radius = 0.000000
+		direct_mix_level = 1.0
+		volume_falloff_mid_min = 500.0
+		volume_falloff_mid_max = 2000.0
+		volume_mid = 1.0
+		volume_falloff_mech_min = 1500.0
+		volume_falloff_mech_max = 2400.0
+		volume_mech = 1.0
+		volume_falloff_lfe_min = 1500.0
+		volume_falloff_lfe_max = 4000.0
+		volume_lfe = 1.0
+		volume_falloff_distant_min = 1800.0
+		volume_falloff_distant_max = 5000.0
+		volume_distant = 1.0
+		distant_xfade_start = 240.0
+		distant_xfade_end = 1800.0
+		enable_debug_radius = 0.0
 		soundname_string = "BaseExplosionEffect.Sound"
-		initial_muffle_delay = 0.200000
-		max_muffle_fade_in_time = 0.300000
-		muffle_hold_time = 1.100000
-		max_muffle_fade_out_time = 5.000000
-		max_muffle_mix_val = 1.000000
+		initial_muffle_delay = 0.2
+		max_muffle_fade_in_time = 0.3
+		muffle_hold_time = 1.1
+		max_muffle_fade_out_time = 5.0
+		max_muffle_mix_val = 1.0
 		mixgroup = "Explosions"
 		vsnd_files_mid = 
 		[
@@ -2875,11 +2866,11 @@
 	Flashbang.Explode = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_min = 500.000000
-		volume_falloff_max = 2000.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.030000
+		volume = 1.0
+		volume_falloff_min = 500.0
+		volume_falloff_max = 2000.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.03
 		use_named_send = "weapons"
 		mixgroup = "Explosions"
 		vsnd_files = 
@@ -2902,29 +2893,29 @@
 	EMP.Explode = 
 	{
 		type = "hlvr_player_gun_layers_3d"
-		volume = 1.000000
-		limiter_on = 1.000000
+		volume = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "RapidFire.EnergyBallExplode"
-		limiter_max = 2.000000
-		ambient_ducking_pct = 1.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 2.0
+		ambient_ducking_pct = 1.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		pitch_rand_min = -0.020000
-		pitch_rand_max = 0.020000
-		direct_mix_level = 1.000000
-		enable_limiter = 1.000000
-		volume_falloff_head_min = 1500.000000
-		volume_falloff_head_max = 2400.000000
-		volume_head = 1.000000
-		volume_falloff_body_min = 1500.000000
-		volume_falloff_body_max = 2400.000000
-		volume_body = 0.700000
-		volume_falloff_lfe_min = 1500.000000
-		volume_falloff_lfe_max = 4000.000000
-		volume_lfe = 1.000000
-		volume_falloff_tail_min = 1800.000000
-		volume_falloff_tail_max = 5000.000000
-		volume_tail = 1.000000
+		pitch_rand_min = -0.02
+		pitch_rand_max = 0.02
+		direct_mix_level = 1.0
+		enable_limiter = 1.0
+		volume_falloff_head_min = 1500.0
+		volume_falloff_head_max = 2400.0
+		volume_head = 1.0
+		volume_falloff_body_min = 1500.0
+		volume_falloff_body_max = 2400.0
+		volume_body = 0.7
+		volume_falloff_lfe_min = 1500.0
+		volume_falloff_lfe_max = 4000.0
+		volume_lfe = 1.0
+		volume_falloff_tail_min = 1800.0
+		volume_falloff_tail_max = 5000.0
+		volume_tail = 1.0
 		mixgroup = "Explosions"
 		vsnd_files_head = 
 		[
@@ -2958,11 +2949,11 @@
 	Grenade.Blip = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "Weapons"
-		use_hrtf = 1.000000
-		spread_min = 240.000000
-		spread_max = 500.000000
+		use_hrtf = 1.0
+		spread_min = 240.0
+		spread_max = 500.0
 		vsnd_files = 
 		[
 			"sounds/weapons/grenade/wpn_grenade_tick_01.vsnd",
@@ -2971,7 +2962,7 @@
 	TruckGun.Player_Enter = 
 	{
 		type = "src1_2d"
-		volume = 0.700000
+		volume = 0.7
 		mixgroup = "PlayerWeaponFire"
 		vsnd_files = 
 		[
@@ -2981,7 +2972,7 @@
 	TruckGun.Player_Exit = 
 	{
 		type = "src1_2d"
-		volume = 0.700000
+		volume = 0.7
 		mixgroup = "PlayerWeaponFire"
 		vsnd_files = 
 		[
@@ -2991,12 +2982,12 @@
 	TruckGun.Windup = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		ambient_ducking_pct = 1.000000
-		volume_falloff_min = 500.000000
-		volume_falloff_max = 2000.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.030000
+		volume = 0.4
+		ambient_ducking_pct = 1.0
+		volume_falloff_min = 500.0
+		volume_falloff_max = 2000.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.03
 		use_named_send = "weapons"
 		mixgroup = "PlayerWeaponFire"
 		vsnd_files = 
@@ -3010,10 +3001,10 @@
 	TruckGun.Windup_Quick = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		ambient_ducking_pct = 1.000000
-		volume_falloff_min = 500.000000
-		volume_falloff_max = 2000.000000
+		volume = 1.0
+		ambient_ducking_pct = 1.0
+		volume_falloff_min = 500.0
+		volume_falloff_max = 2000.0
 		use_named_send = "weapons"
 		mixgroup = "PlayerWeaponFire"
 		vsnd_files = 
@@ -3024,29 +3015,29 @@
 	TruckGun.Fire = 
 	{
 		type = "hlvr_player_gun_layers_3d"
-		volume = 1.000000
-		limiter_on = 1.000000
+		volume = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "TruckGun.Fire"
-		limiter_max = 8.000000
-		ambient_ducking_pct = 1.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 8.0
+		ambient_ducking_pct = 1.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.030000
-		direct_mix_level = 1.000000
-		enable_limiter = 1.000000
-		volume_falloff_head_min = 1500.000000
-		volume_falloff_head_max = 2400.000000
-		volume_head = 1.000000
-		volume_falloff_body_min = 1500.000000
-		volume_falloff_body_max = 2400.000000
-		volume_body = 1.000000
-		volume_falloff_lfe_min = 1500.000000
-		volume_falloff_lfe_max = 4000.000000
-		volume_lfe = 0.750000
-		volume_falloff_tail_min = 1800.000000
-		volume_falloff_tail_max = 5000.000000
-		volume_tail = 0.700000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.03
+		direct_mix_level = 1.0
+		enable_limiter = 1.0
+		volume_falloff_head_min = 1500.0
+		volume_falloff_head_max = 2400.0
+		volume_head = 1.0
+		volume_falloff_body_min = 1500.0
+		volume_falloff_body_max = 2400.0
+		volume_body = 1.0
+		volume_falloff_lfe_min = 1500.0
+		volume_falloff_lfe_max = 4000.0
+		volume_lfe = 0.75
+		volume_falloff_tail_min = 1800.0
+		volume_falloff_tail_max = 5000.0
+		volume_tail = 0.7
 		mixgroup = "PlayerWeaponFire"
 		vsnd_files_head = 
 		[
@@ -3080,29 +3071,29 @@
 	TruckGun.ProjectileExplo = 
 	{
 		type = "hlvr_player_gun_layers_3d"
-		volume = 0.800000
-		limiter_on = 1.000000
+		volume = 0.8
+		limiter_on = 1.0
 		limiter_event_name = "TruckGun.ProjectileExplo"
-		limiter_max = 8.000000
-		ambient_ducking_pct = 1.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 8.0
+		ambient_ducking_pct = 1.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.030000
-		direct_mix_level = 1.000000
-		enable_limiter = 1.000000
-		volume_falloff_head_min = 500.000000
-		volume_falloff_head_max = 2400.000000
-		volume_head = 0.200000
-		volume_falloff_body_min = 500.000000
-		volume_falloff_body_max = 2400.000000
-		volume_body = 0.400000
-		volume_falloff_lfe_min = 500.000000
-		volume_falloff_lfe_max = 4000.000000
-		volume_lfe = 0.800000
-		volume_falloff_tail_min = 800.000000
-		volume_falloff_tail_max = 5000.000000
-		volume_tail = 0.500000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.03
+		direct_mix_level = 1.0
+		enable_limiter = 1.0
+		volume_falloff_head_min = 500.0
+		volume_falloff_head_max = 2400.0
+		volume_head = 0.2
+		volume_falloff_body_min = 500.0
+		volume_falloff_body_max = 2400.0
+		volume_body = 0.4
+		volume_falloff_lfe_min = 500.0
+		volume_falloff_lfe_max = 4000.0
+		volume_lfe = 0.8
+		volume_falloff_tail_min = 800.0
+		volume_falloff_tail_max = 5000.0
+		volume_tail = 0.5
 		mixgroup = "PlayerWeaponFire"
 		vsnd_files_head = 
 		[
@@ -3136,45 +3127,45 @@
 	TruckGun.ProjectileExplo_HitStrider = 
 	{
 		base = "TruckGun.ProjectileExplo"
-		volume = 1.000000
-		limiter_on = 1.000000
+		volume = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "TruckGun.ProjectileExplo"
-		limiter_max = 8.000000
-		ambient_ducking_pct = 1.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 8.0
+		ambient_ducking_pct = 1.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.030000
-		direct_mix_level = 1.000000
-		enable_limiter = 1.000000
-		volume_falloff_head_min = 1500.000000
-		volume_falloff_head_max = 2400.000000
-		volume_head = 1.000000
-		volume_falloff_body_min = 1500.000000
-		volume_falloff_body_max = 2400.000000
-		volume_body = 0.600000
-		volume_falloff_lfe_min = 1500.000000
-		volume_falloff_lfe_max = 4000.000000
-		volume_lfe = 1.100000
-		volume_falloff_tail_min = 1800.000000
-		volume_falloff_tail_max = 5000.000000
-		volume_tail = 0.600000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.03
+		direct_mix_level = 1.0
+		enable_limiter = 1.0
+		volume_falloff_head_min = 1500.0
+		volume_falloff_head_max = 2400.0
+		volume_head = 1.0
+		volume_falloff_body_min = 1500.0
+		volume_falloff_body_max = 2400.0
+		volume_body = 0.6
+		volume_falloff_lfe_min = 1500.0
+		volume_falloff_lfe_max = 4000.0
+		volume_lfe = 1.1
+		volume_falloff_tail_min = 1800.0
+		volume_falloff_tail_max = 5000.0
+		volume_tail = 0.6
 	}
 	VortMagic.Pull = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		pitch = 1.200000
-		ambient_ducking_pct = 1.000000
-		volume_falloff_min = 500.000000
-		volume_falloff_max = 2000.000000
-		volume_fade_in = 0.050000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.030000
-		spread_min = 24.000000
-		spread_max = 72.000000
+		volume = 1.0
+		pitch = 1.2
+		ambient_ducking_pct = 1.0
+		volume_falloff_min = 500.0
+		volume_falloff_max = 2000.0
+		volume_fade_in = 0.05
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.03
+		spread_min = 24.0
+		spread_max = 72.0
 		use_named_send = "weapons"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "PlayerWeaponFire"
 		vsnd_files = 
 		[
@@ -3188,29 +3179,29 @@
 	VortMagic.Throw = 
 	{
 		type = "hlvr_player_gun_layers_3d"
-		volume = 1.000000
-		limiter_on = 1.000000
+		volume = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "VortMagic.Throw"
-		limiter_max = 3.000000
-		ambient_ducking_pct = 1.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 3.0
+		ambient_ducking_pct = 1.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		pitch_rand_min = -0.020000
-		pitch_rand_max = 0.020000
-		direct_mix_level = 1.000000
-		enable_limiter = 1.000000
-		volume_falloff_head_min = 1500.000000
-		volume_falloff_head_max = 2400.000000
-		volume_head = 0.850000
-		volume_falloff_body_min = 1500.000000
-		volume_falloff_body_max = 2400.000000
-		volume_body = 1.000000
-		volume_falloff_lfe_min = 1500.000000
-		volume_falloff_lfe_max = 4000.000000
-		volume_lfe = 1.000000
-		volume_falloff_tail_min = 1800.000000
-		volume_falloff_tail_max = 5000.000000
-		volume_tail = 0.600000
+		pitch_rand_min = -0.02
+		pitch_rand_max = 0.02
+		direct_mix_level = 1.0
+		enable_limiter = 1.0
+		volume_falloff_head_min = 1500.0
+		volume_falloff_head_max = 2400.0
+		volume_head = 0.85
+		volume_falloff_body_min = 1500.0
+		volume_falloff_body_max = 2400.0
+		volume_body = 1.0
+		volume_falloff_lfe_min = 1500.0
+		volume_falloff_lfe_max = 4000.0
+		volume_lfe = 1.0
+		volume_falloff_tail_min = 1800.0
+		volume_falloff_tail_max = 5000.0
+		volume_tail = 0.6
 		mixgroup = "PlayerWeaponFire"
 		memory_type = 10
 		vsnd_files_head = 
@@ -3249,8 +3240,8 @@
 	VortMagic.ThrowNoHit = 
 	{
 		base = "VortMagic.Throw"
-		volume_lfe = 0.000000
-		volume_tail = 0.000000
+		volume_lfe = 0.0
+		volume_tail = 0.0
 	}
 	VortMagic.ThrowTwoHanded = 
 	{
@@ -3259,20 +3250,20 @@
 	VortMagic.HandEnergyLp = 
 	{
 		base = "VortMagic.Pull"
-		volume = 0.500000
-		delay = 0.400000
-		volume_fade_in = 0.500000
-		volume_fade_out = 0.750000
-		volume_falloff_min = 18.000000
-		volume_falloff_max = 96.000000
-		fade_over_time_x1 = 0.000000
-		fade_over_time_y1 = 1.000000
-		fade_over_time_x2 = 0.000000
-		fade_over_time_y2 = 1.000000
-		fade_over_time_x3 = 3.000000
-		fade_over_time_y3 = 0.800000
-		fade_over_time_x4 = 10.000000
-		fade_over_time_y4 = 0.500000
+		volume = 0.5
+		delay = 0.4
+		volume_fade_in = 0.5
+		volume_fade_out = 0.75
+		volume_falloff_min = 18.0
+		volume_falloff_max = 96.0
+		fade_over_time_x1 = 0.0
+		fade_over_time_y1 = 1.0
+		fade_over_time_x2 = 0.0
+		fade_over_time_y2 = 1.0
+		fade_over_time_x3 = 3.0
+		fade_over_time_y3 = 0.8
+		fade_over_time_x4 = 10.0
+		fade_over_time_y4 = 0.5
 		vsnd_files = 
 		[
 			"sounds/weapons/vort_magic/wpn_vort_energy_hand_lp_01.vsnd",
@@ -3282,10 +3273,10 @@
 	VortMagic.HandEnergyLpEndgame = 
 	{
 		base = "VortMagic.HandEnergyLp"
-		volume = 0.600000
-		delay = 0.000000
-		volume_fade_in = 0.500000
-		volume_fade_out = 2.000000
+		volume = 0.6
+		delay = 0.0
+		volume_fade_in = 0.5
+		volume_fade_out = 2.0
 		vsnd_files = 
 		[
 			"sounds/weapons/vort_magic/wpn_vort_energy_hand_lp_01.vsnd",
@@ -3295,19 +3286,19 @@
 	VortMagic.PullEnergyLp = 
 	{
 		base = "VortMagic.Pull"
-		volume = 0.500000
-		volume_fade_in = 0.250000
-		volume_fade_out = 0.500000
-		fade_over_time_x1 = 0.000000
-		fade_over_time_y1 = 1.000000
-		fade_over_time_x2 = 0.000000
-		fade_over_time_y2 = 1.000000
-		fade_over_time_x3 = 3.000000
-		fade_over_time_y3 = 0.800000
-		fade_over_time_x4 = 10.000000
-		fade_over_time_y4 = 0.500000
-		use_facing_vol_attenuation = 1.000000
-		facing_scale_min = 0.500000
+		volume = 0.5
+		volume_fade_in = 0.25
+		volume_fade_out = 0.5
+		fade_over_time_x1 = 0.0
+		fade_over_time_y1 = 1.0
+		fade_over_time_x2 = 0.0
+		fade_over_time_y2 = 1.0
+		fade_over_time_x3 = 3.0
+		fade_over_time_y3 = 0.8
+		fade_over_time_x4 = 10.0
+		fade_over_time_y4 = 0.5
+		use_facing_vol_attenuation = 1.0
+		facing_scale_min = 0.5
 		vsnd_files = 
 		[
 			"sounds/weapons/vort_magic/wpn_vort_energy_pull_target_lp_01.vsnd",
@@ -3317,18 +3308,18 @@
 	VortMagic.EnvironEnergyLp = 
 	{
 		base = "VortMagic.Pull"
-		volume = 0.500000
-		volume_fade_in = 0.250000
-		volume_fade_out = 0.500000
-		fade_over_time_x1 = 0.000000
-		fade_over_time_y1 = 1.000000
-		fade_over_time_x2 = 0.000000
-		fade_over_time_y2 = 1.000000
-		fade_over_time_x3 = 3.000000
-		fade_over_time_y3 = 0.800000
-		fade_over_time_x4 = 10.000000
-		fade_over_time_y4 = 0.500000
-		enable_debug_radius = 0.000000
+		volume = 0.5
+		volume_fade_in = 0.25
+		volume_fade_out = 0.5
+		fade_over_time_x1 = 0.0
+		fade_over_time_y1 = 1.0
+		fade_over_time_x2 = 0.0
+		fade_over_time_y2 = 1.0
+		fade_over_time_x3 = 3.0
+		fade_over_time_y3 = 0.8
+		fade_over_time_x4 = 10.0
+		fade_over_time_y4 = 0.5
+		enable_debug_radius = 0.0
 		soundname_string = "VortMagic"
 		vsnd_files = 
 		[
@@ -3338,10 +3329,10 @@
 	VortMagic.EnvironEnergyThin = 
 	{
 		base = "VortMagic.Pull"
-		volume = 0.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 3.000000
-		enable_debug_radius = 0.000000
+		volume = 0.0
+		volume_fade_in = 0.0
+		volume_fade_out = 3.0
+		enable_debug_radius = 0.0
 		soundname_string = "VortMagic"
 		vsnd_files = 
 		[
@@ -3359,10 +3350,10 @@
 	VortMagic.EnvironEnergy = 
 	{
 		base = "VortMagic.Pull"
-		volume = 0.500000
-		volume_fade_in = 0.000000
-		volume_fade_out = 3.000000
-		enable_debug_radius = 0.000000
+		volume = 0.5
+		volume_fade_in = 0.0
+		volume_fade_out = 3.0
+		enable_debug_radius = 0.0
 		soundname_string = "VortMagic"
 		vsnd_files = 
 		[
@@ -3387,27 +3378,27 @@
 			"match_explosions",
 			"match_explosions",
 		]
-		volume = 1.000000
-		limiter_on = 1.000000
+		volume = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "VortMagic.D20Explode"
-		limiter_max = 3.000000
+		limiter_max = 3.0
 		limiter_stop_oldest = true
-		volume_mid = 1.000000
-		volume_mech = 1.000000
-		volume_lfe = 1.000000
-		volume_distant = 0.750000
-		volume_falloff_mid_min = 1500.000000
-		volume_falloff_mid_max = 2800.000000
-		volume_falloff_mech_min = 1500.000000
-		volume_falloff_mech_max = 2800.000000
-		volume_falloff_distant_min = 1800.000000
-		volume_falloff_distant_max = 3000.000000
-		volume_falloff_lfe_min = 1800.000000
-		volume_falloff_lfe_max = 3000.000000
-		distant_xfade_start = 240.000000
-		distant_xfade_end = 1800.000000
-		enable_debug_radius = 0.000000
-		ambient_ducking_pct = 0.400000
+		volume_mid = 1.0
+		volume_mech = 1.0
+		volume_lfe = 1.0
+		volume_distant = 0.75
+		volume_falloff_mid_min = 1500.0
+		volume_falloff_mid_max = 2800.0
+		volume_falloff_mech_min = 1500.0
+		volume_falloff_mech_max = 2800.0
+		volume_falloff_distant_min = 1800.0
+		volume_falloff_distant_max = 3000.0
+		volume_falloff_lfe_min = 1800.0
+		volume_falloff_lfe_max = 3000.0
+		distant_xfade_start = 240.0
+		distant_xfade_end = 1800.0
+		enable_debug_radius = 0.0
+		ambient_ducking_pct = 0.4
 		soundname_string = "VortMagic.D20Explode"
 		mixgroup = "Explosions"
 		vsnd_files_mid = 
@@ -3445,12 +3436,12 @@
 			"match_explosions",
 			"match_explosions",
 		]
-		volume = 1.000000
-		volume_mid = 0.600000
-		volume_mech = 0.300000
-		volume_lfe = 0.500000
-		volume_distant = 1.000000
-		ambient_ducking_pct = 0.200000
+		volume = 1.0
+		volume_mid = 0.6
+		volume_mech = 0.3
+		volume_lfe = 0.5
+		volume_distant = 1.0
+		ambient_ducking_pct = 0.2
 	}
 	Vault.D20LightningStrike = 
 	{
@@ -3459,15 +3450,15 @@
 		[
 			"match_explosions",
 		]
-		volume = 4.000000
-		distant_xfade_start = 50.000000
-		distant_xfade_end = 120.000000
-		enable_debug_radius = 0.000000
-		ambient_ducking_pct = 0.800000
-		volume_mid = 1.000000
-		volume_mech = 0.500000
-		volume_lfe = 0.500000
-		volume_distant = 0.750000
+		volume = 4.0
+		distant_xfade_start = 50.0
+		distant_xfade_end = 120.0
+		enable_debug_radius = 0.0
+		ambient_ducking_pct = 0.8
+		volume_mid = 1.0
+		volume_mech = 0.5
+		volume_lfe = 0.5
+		volume_distant = 0.75
 		soundname_string = "VortMagic.D20LightningStrike"
 		mixgroup = "Explosions"
 		vsnd_files_mid = 
@@ -3498,10 +3489,10 @@
 	Shotgun.Deny = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
-		volume_falloff_min = 36.000000
-		volume_falloff_max = 240.000000
+		volume = 0.6
+		use_hrtf = 1.0
+		volume_falloff_min = 36.0
+		volume_falloff_max = 240.0
 		spread_min = 12
 		spread_max = 60
 		vsnd_files = 
@@ -3512,10 +3503,10 @@
 	Shotgun.SlideLock = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
-		volume_falloff_min = 36.000000
-		volume_falloff_max = 240.000000
+		volume = 0.7
+		use_hrtf = 1.0
+		volume_falloff_min = 36.0
+		volume_falloff_max = 240.0
 		spread_min = 12
 		spread_max = 60
 		vsnd_files = 
@@ -3526,8 +3517,8 @@
 	Shotgun.LastShotChambered = 
 	{
 		type = "hlvr_default_3d"
-		pitch_external = 1.150000
-		use_hrtf = 1.000000
+		pitch_external = 1.15
+		use_hrtf = 1.0
 		vsnd_files = 
 		[
 			"sounds/weapons/pistol/wpn_pistol_near_empty_01.vsnd",
@@ -3536,10 +3527,10 @@
 	Shotgun.AutoLoad = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
-		volume_falloff_min = 150.000000
-		volume_falloff_max = 300.000000
+		volume = 0.6
+		use_hrtf = 1.0
+		volume_falloff_min = 150.0
+		volume_falloff_max = 300.0
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[
@@ -3553,10 +3544,10 @@
 	Shotgun.AutoloaderShellAdd = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
+		volume = 0.6
+		use_hrtf = 1.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
 		mixgroup = "PlayerWeapons"
 		vsnd_files = 
 		[

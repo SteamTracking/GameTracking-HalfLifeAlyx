@@ -1,4 +1,4 @@
-                AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZUPDATE_STRING_TOKEN_DATABASE
+                AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZ
   %d: %s (%08lx :: %08lx) %s [%.1fs]\n
  *SoundEvent Data*
  : %s : vol: %4.2f, sndlvl: %4.2f \n
@@ -296,6 +296,7 @@
 .?AVCSosSetSoundEventFieldsInfo_t@@
 .?AVCSosStartSoundEventInfo_t@@
 .?AVCSosStartSoundEventQueueInfo_t@@
+.?AVCSosStopSoundEventInfo_t@@
 .?AVCSoundDebugVisualizer@@
 .?AVCSoundEventManager@@
 .?AVCSoundMixGroupSystem@@
@@ -362,7 +363,7 @@
 .CRT$XTZ
 .bss
 .data
-.data$r
+.data$rs
 .edata
 .idata$2
 .idata$3
@@ -373,6 +374,7 @@
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .text$di
 .text$mn
@@ -391,14 +393,14 @@
 0.023
 0.15
 0.55
+0\f50t\f
 0x%016llX
 1440.0
 1DBlend
 1e<w 
 2701
-3\f53t\f
+2\vpp
 4000
-:fff?fff?
 <!-- kv3 encoding:%s:version{%s} format:%s:version{%s} -->\n
 <!-- schema 
 << NULL >>\n
@@ -414,12 +416,14 @@
 <unconnected>
 <unknown>
 >EJtM
+>fff?fff?
 ?333333
 ??0CThreadEvent@@QEAA@_N@Z
+??0CThreadFastMutex@@QEAA@XZ
 ??0CThreadMutex@@QEAA@PEBD@Z
+??0CThreadMutex@@QEAA@XZ
 ??0CUniformRandomStream@@QEAA@XZ
 ??1CThreadEvent@@QEAA@XZ
-??1CThreadMutex@@QEAA@XZ
 ??1CThreadSyncObject@@QEAA@XZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
 ?ConMsg@@YAXPEBDZZ
@@ -431,10 +435,9 @@
 ?ExtractFileExtension@CBufferString@@QEAAPEBDPEBD@Z
 ?ExtractFilePath@CBufferString@@QEAAPEBDPEBD_N@Z
 ?FixSlashes@CBufferString@@QEAAPEBDD@Z
-?FixupPathName@CBufferString@@QEAAPEBDD@Z
 ?Format@CBufferString@@QEAAHPEBDZZ
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LockForRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
@@ -453,6 +456,7 @@
 ?StripExtension@CBufferString@@QEAAPEBDXZ
 ?ToLowerFast@CBufferString@@QEAAXH@Z
 ?TryLock@CThreadMutex@@QEAA_NPEBDH@Z
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?UnlockWrite@CThreadSpinRWLock@@QEAAXPEBDH@Z
@@ -461,6 +465,7 @@
 ?amN2
 ?fff?fff?fff?fff?
 ?gUB
+?gf0Bgf0Bgf0Bgf0B
 ?l@GC
 ?math_randomize_float
 ?s,DT
@@ -468,8 +473,9 @@
 ?wr^a
 @%s.output
 @?calc_spatialize_speakers
-@@soundevent_limiter
-@math_func_float
+@@util_interval_timer
+@math_filter_float
+@math_float
 @public.%s
 AE_ACTION_SET_TURN_RATE_SCALE
 AE_BLIND_ZOMBIE_SNIFF
@@ -574,7 +580,6 @@ Audio device starved %d samples \n
 AudioMixer
 AutoLayer
 Available Operators:\n
-B\vp\nP
 Bad KV3 data for resource: %s\n
 Bad command in vmix!\n
 Bad expression operator: '%c%c', expected C style boolean expression operator.
@@ -606,8 +611,8 @@ BaseStack
 Bcalc_occlusion_src1
 BenchmarkService001
 BentNormalData
-Bff0Bgf0B
 Bgame_entity_world_aabb
+Bgf0B
 BinaryProperties_GetValue
 Bits/Sample:\t%d\n
 BlendLayer
@@ -656,7 +661,6 @@ CSosGroupActionTimeLimitSchema
 CSosGroupBranchPattern
 CSosGroupMatchPattern
 CSosOPeratorGetOpVarInfo
-CSosOperatorConvar
 CSosOperatorFloatAccumulate12
 CSosOperatorGetOpVarArrayIndex
 CSosOperatorGetOpVarFloat
@@ -957,7 +961,6 @@ Dynamic
 DynamicConfigList
 Dynamics
 ERROR: Invalid Group Branch Index\n
-ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!\n
 ERROR: missing enum name!
 ERROR: missing enum tokenset!
 ERROR: sound event %s operator %s\n
@@ -1174,7 +1177,6 @@ LOG fade out
 LOG_GENERAL
 LOWVIOLENCE
 LayerTriggers
-LeaveCriticalSection
 Limiter
 Line %d at "%s": %s
 Line %d: %s
@@ -1427,7 +1429,8 @@ RESOURCE_TYPE_SOUNDEVENTSCRIPT
 RESOURCE_TYPE_SOUNDSTACKSCRIPT
 RESOURCE_TYPE_VMIX_LIST
 ROOM Detected \n
-RSDS
+RSDS"
+R\vpp
 RadianEuler
 Random
 Random Modulation
@@ -1693,6 +1696,7 @@ TriggersSoundEvents
 Truncated data
 Two Bone
 Two KV3 format GUIDs with the same human-friendly name ('%s')
+UPDATE_STRING_TOKEN_DATABASE
 Unable to allocate voice for %s\n
 Unable to connect convar input %s\n
 Unable to create audio thread.\n
@@ -1873,7 +1877,6 @@ Warning:  %s = '%s' is infinite, clamping value.\n
 Warning: %s (error %s)!\n
 Warning: Can't find sos strings file: %s!\n
 Warning: Failed to get mix layer %s!\n
-Warning: Unable to acquire convar value: %s\n
 Warning: Unable to set convar value: %s\n
 Warning: cannot sync to soundevent %s on track %s, because it has no start/end points defined\n
 Warning: sos_start_soundevent unable to read opvar %s for passing \n
@@ -2053,6 +2056,7 @@ c:\buildslave\hlvr_rel_win64\build\src\soundsystem\snd_mix.cpp
 c:\buildslave\hlvr_rel_win64\build\src\soundsystem\snd_mixgroups.cpp
 c:\buildslave\hlvr_rel_win64\build\src\soundsystem\snd_op_sys\sos_op_vmix.cpp
 c:\buildslave\hlvr_rel_win64\build\src\soundsystem\snd_op_sys\sos_system.cpp
+c:\buildslave\hlvr_rel_win64\build\src\soundsystem\snd_op_sys\sos_system.h
 c:\buildslave\hlvr_rel_win64\build\src\soundsystem\snd_wave_data.cpp
 c:\buildslave\hlvr_rel_win64\build\src\soundsystem\snd_wave_mixer_mp3.cpp
 c:\buildslave\hlvr_rel_win64\build\src\soundsystem\soundsystem.cpp
@@ -3096,7 +3100,7 @@ output_x
 output_y
 output_z
 overwrite
-pAmath_float3
+p\r0\fP
 parallel filters
 paramName
 parameter
@@ -3452,7 +3456,6 @@ suppress
 surface_prop
 sync_track
 sync_type
-tZ:o
 t\tvi
 tanh
 test

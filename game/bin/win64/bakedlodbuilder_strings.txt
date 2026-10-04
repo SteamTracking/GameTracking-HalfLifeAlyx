@@ -1,4 +1,5 @@
                           
+                AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZUPDATE_STRING_TOKEN_DATABASE
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  * Requested DmAttribute of value of type "%s" From DmAttribute "%s" which is type "%s"\n
@@ -15,25 +16,21 @@
  delete
  delete[]
  new
-!1AQaq
 "%s" "%.10f"\n
 "%s" "[ %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f ]"\n
 "%s" "[ %f %f %f %f ]"\n
 "%s" "[ %f %f %f ]"\n
 "%s" "[ %f %f ]"\n
 "%s" "{ %d %d %d }"\n
-"2BRbr
 "ActBusy.txt"\n
 "Proxies"\n
 "e?<<<<<<l?
 "id" "elementid" 
-#3CScs
 #<default
 #base
 #base is NULL 
 #include
 #include is NULL 
-$4DTdt
 $Ib?s
 $prefix_attribute$
 $prefix_element$
@@ -42,7 +39,6 @@ $prefix_element$
 %.10f
 %05d,     0x%p,     %5d,      '%s'\n
 %08x
-%5EUeu
 %d %d %d %d
 %d,%d,%d,%d
 %d_%lld_%x.dmx
@@ -68,15 +64,10 @@ $prefix_element$
 %sEdgeValue
 %sIndices
 %s\Settings
-&6FVfv
 &?PPPPPPP?
 &Sgw
-'7GWgw
-( 8PX
 (%d,%d,%d,%d
-(8HXhx
 (null)
-)9IYiy
 )yIx
 *** Converter error - element "%s" already has a non-int attribute "%s"!\n
 *** Element "%s" has attribute "%s" with an unexpected type!\n
@@ -94,7 +85,6 @@ $prefix_element$
 *** line error: 'rgb+a' packing cannot pack image '%s' belonging to sequences %d and %d!\n
 *** line error: incompatible packmode change when %d sequences already defined!\n
 *** line error: invalid sequence type '%s', packing 'flat' allows only 'sequence-rgba'!\n
-*:JZjz
 *StO9>T
 +inf
 ,HR>O
@@ -103,6 +93,7 @@ $prefix_element$
 ---------------------------\n
 -BH>t
 -avx
+-enable_2gb_morphs
 -inf
 -noassert
 -rgb
@@ -477,8 +468,6 @@ $prefix_element$
 .?AV?$CUndoLayerAdded@VVector@@@@
 .?AV?$CUndoLayerAdded@_K@@
 .?AV?$CUndoLayerAdded@_N@@
-.?AV?$_Ref_count_obj@V__ExceptionPtr@@@std@@
-.?AV?$_Ref_count_obj_alloc@V__ExceptionPtr@@U?$_StaticAllocator@H@@@std@@
 .?AVCBakedLODBuilder@@
 .?AVCBakedLODBuilderMgr@@
 .?AVCDataModel@@
@@ -648,8 +637,6 @@ $prefix_element$
 .?AVISequence@@
 .?AVIUndoElement@@
 .?AVIVSSequence@@
-.?AV_Ref_count_base@std@@
-.?AVbad_alloc@std@@
 .?AVbad_exception@std@@
 .?AVexception@std@@
 .?AVtype_info@@
@@ -664,7 +651,6 @@ $prefix_element$
 .CRT$XLA
 .CRT$XLZ
 .CRT$XPA
-.CRT$XPB
 .CRT$XPX
 .CRT$XPXA
 .CRT$XPZ
@@ -673,9 +659,8 @@ $prefix_element$
 .bss
 .data
 .data$r
+.data$rs
 .edata
-.gfids$x
-.gfids$y
 .idata$2
 .idata$3
 .idata$4
@@ -685,6 +670,7 @@ $prefix_element$
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .rtc$IAA
 .rtc$IZZ
@@ -719,9 +705,6 @@ $prefix_element$
 // \t\t\t\t\t\t"BA_INT_PLAYER"\t\tbreak out of this anim if I can see the player, or I'm threatened\n
 /2GG>!B
 0 0 0
-0000
-00003333
-0123456789ABCDEF
 0123456789abcdefghijklmnopqrstuvwxyz
 0E>X
 0X8b?~
@@ -732,41 +715,32 @@ $prefix_element$
 1#QNAN
 1#SNAN
 11Y@
-123456789
 16-byte data pool
 1DBlend
-1eaB@
 1sAL"
+2\vp(B
 3 FB
-3333
 37>k
 3>N;kU
 3>fvw
 3?tr
 4-byte data pool
 51>W
-5\fE5
 5sfm_v8
-5tPM
 64 283 0
 6NK>
 6\fXO>\ntA
-700WP
 7>I0
 7?GX
 7~xh
 8-byte data pool
 8ClipBoard
 8ke?;
-8x`M
 9>70
 9>powf
-;1cb
 <!-- DMXVersion
 <NULL>
-<exp
 <no failure reason set>
-=1cb
 =87M
 =cQ6
 =e2m
@@ -779,9 +753,11 @@ $prefix_element$
 ?7zQ6$
 ?7{KV\nU
 ?8bunz8
+??0CThreadMutex@@QEAA@XZ
 ?@En[vP
 ?AppendFormat@CBufferString@@QEAAHPEBDZZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
+?CDmeShape CUtlMemoryPool
 ?ComposeFileName@CBufferString@@QEAAPEBDPEBD0D@Z
 ?ConColorMsg@@YAXAEBVColor@@PEBDZZ
 ?ConMsg@@YAXPEBDZZ
@@ -795,7 +771,7 @@ $prefix_element$
 ?FixupPathName@CBufferString@@QEAAPEBDD@Z
 ?Format@CBufferString@@QEAAHPEBDZZ
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?MakeAbsolutePath@CBufferString@@QEAAPEBDPEBD0@Z
 ?Purge@CBufferString@@QEAAXH@Z
@@ -810,18 +786,15 @@ $prefix_element$
 ?ToLowerFast@CBufferString@@QEAAXH@Z
 ?TruncateAt@CBufferString@@QEAAPEBDH_N@Z
 ?UUUUUU
+?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?V_SplitString@@YAXPEBD0AEAV?$CUtlVector@PEADV?$CUtlMemory@PEADH@@@@@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
 ?f`Y4
-?false
 ?kxG2)
 ?lZE
 ?qBJ
 ?rAj
 ?ysB
-@                AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZUPDATE_STRING_TOKEN_DATABASE
-@^8U)zj
-A-enable_2gb_morphs
 A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.dll
@@ -862,7 +835,6 @@ ANIMATION_TYPE_FIT_LIFETIME
 ANIMATION_TYPE_FIXED_RATE
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
 AbsolutePoseControl
-AcquireSRWLockExclusive
 ActBusy Script File
 ActBusyList
 AddLayer
@@ -903,7 +875,9 @@ Animation Configuration File
 AnimationList
 AnimationSystemUtils_001
 AnimationSystem_001
+AppPolicyGetProcessTerminationMethod
 April
+AreFileApisANSI
 Arms
 AssetBrowserSystem_001
 AssetPreviewSystem_001
@@ -1061,7 +1035,6 @@ CDmeRigSplineConstraintOperator::Operate
 CDmeRigTwistConstraintOperator CUtlMemoryPool
 CDmeRigTwistConstraintOperator::Operate
 CDmeRigTwistSlave CUtlMemoryPool
-CDmeShape CUtlMemoryPool
 CDmeSheetImage
 CDmeSheetSequence
 CDmeSheetSequenceFrame
@@ -1138,6 +1111,8 @@ COrderedConstructor_Create<class COrderedInitShutdownRefWrapper<&void __cdecl Ea
 CParticleSystemDefinition
 CSchemaRegistration::RegisterAllModuleData
 CSolveIKChainAnimNode
+CTSListBase: Misaligned list\n
+CTSListBase::CTSListBase
 CTerrainSelection
 CUndoArrayAttributeSetMultipleValueElement
 CUndoArrayAttributeSetValueElement
@@ -1303,9 +1278,6 @@ CheekH
 CloseClipboard
 CloseHandle
 CloseLid
-CloseThreadpoolTimer
-CloseThreadpoolWait
-CloseThreadpoolWork
 ClothShapeCapsule
 ClothShapeList
 ClothShapeSphere
@@ -1316,32 +1288,19 @@ CommandLine
 CommandProcedure
 CommandProcedureList
 Commentary File
-CompareStringEx
 Compiled GUI file
 ConVar(%s) defined with infinite float value (%s)\n
 Conditional Error: %s\n
 ConfigAttachedModel
 ConfigurationSystem_001
 ConnectInterfaces
-ContextPriority
-ContextStackSize
-Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
 CorExitProcess
 Create In Hierarchy
-CreateEventExW
 CreateEventW
 CreateFileW
 CreateInterface
-CreateSemaphoreExW
-CreateSemaphoreW
-CreateSymbolicLinkW
-CreateThreadpoolTimer
-CreateThreadpoolWait
-CreateThreadpoolWork
 Cull Random
 CycleOverride
-DDDD
-DDDDUUUU
 DEMO
 DMX Model
 DMX Model Pipeline Animation Script File
@@ -1515,10 +1474,8 @@ DmeVertexDeltaData
 Done (%.2f seconds)                    \n
 DotaCardGameClient_001
 DynamicConfigList
-DynamicProgressFeedback
 E>nEA
 E?WIN32
-ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!\n
 ERROR: Sequence %d already specified!\n
 ERROR: Sequence %d is missing, total of %d sequences!\n
 ERROR: Sequence number %d is too big!\n
@@ -1577,8 +1534,8 @@ FfW?
 File has not been opened!\n
 Film
 FindClose
-FindFirstFileExA
-FindNextFileA
+FindFirstFileExW
+FindNextFileW
 Fingers
 Fingers_L
 Fingers_R
@@ -1590,13 +1547,11 @@ FlsFree
 FlsGetValue
 FlsSetValue
 FlushFileBuffers
-FlushProcessWriteBuffers
 FoldLipLo
 FoldLipUp
 FontManager_001
 FreeEnvironmentStringsW
 FreeLibrary
-FreeLibraryWhenCallbackReturns
 Friday
 Fsfm_v3
 G>US
@@ -1622,23 +1577,18 @@ GetCStringCharConversion
 GetClipboardData
 GetCommandLineA
 GetCommandLineW
-GetConsoleCP
 GetConsoleMode
-GetCurrentPackageId
+GetConsoleOutputCP
 GetCurrentProcess
 GetCurrentProcessId
-GetCurrentProcessorNumber
-GetCurrentThread
 GetCurrentThreadId
 GetDefaultMiniDumpTypeFlags
 GetDesktopWindow
 GetDmElementTypeSymbolMap
 GetEnvironmentStringsW
-GetFileInformationByHandleEx
 GetFileType
 GetLastError
-GetLocaleInfoEx
-GetModuleFileNameA
+GetModuleFileNameW
 GetModuleHandleExW
 GetModuleHandleW
 GetOEMCP
@@ -1650,15 +1600,11 @@ GetStartupInfoW
 GetStdHandle
 GetStringTypeW
 GetSystemTimeAsFileTime
-GetSystemTimePreciseAsFileTime
-GetThreadTimes
 GetTickCount
-GetTickCount64
 GlobalAlloc
 GlobalLock
 GlobalSize
 GlobalUnlock
-H'D8
 HH:mm:ss
 HIGHDPI
 Hammer temp export
@@ -1673,7 +1619,7 @@ IKRig
 IKRigBiped
 IKRigBug
 IKRigSimple
-IND)ind)
+IND)ind)"
 IND)ind)INF
 INITY
 IQuickTime001
@@ -1684,15 +1630,12 @@ Improper number of values for crop coordinates. Need 4 in the format of ( xstart
 Index      Address       References   String\n
 Infinite recursion in patch file?\n
 Inherit Velocity
-InitOnceExecuteOnce
 Initial Repulsion Velocity
 Initial Scalar Noise
 Initial Velocity Noise
-InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
-InitializeSRWLock
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
@@ -1758,7 +1701,6 @@ LipUpV
 LipsV
 LoadFromBuffer: expected '{', found '%s'
 LoadLibraryExW
-LocalContextCacheSize
 LocaleNameToLCID
 Localize_001
 LoggingSystem_AddTagToChannel
@@ -1783,12 +1725,9 @@ Match Particle Velocities
 MaterialUtils_001
 MathLib_Init
 Max Velocity
-MaxConcurrency
-MaxPolicyElementKey
 MbP?
 MeshSystem001
 MeshUtils001
-MinConcurrency
 ModelDocUtils001
 Monday
 Movement Basic
@@ -1909,7 +1848,8 @@ QAf?
 QueryPerformanceCounter
 QueuedLoaderVersion001
 RPCRT4.dll
-RSDSO
+RSDS
+R\fp(B
 Radius Random
 Radius Scale
 RaiseException
@@ -1929,7 +1869,6 @@ RegQueryValueExA
 RegSetValueExA
 RegisterStringToken
 Release
-ReleaseSRWLockExclusive
 Remap Distance Between Two Control Points to Scalar
 Remap Distance to Control Point to Scalar
 Remap Noise to Scalar
@@ -1969,6 +1908,7 @@ RpcStringFreeA
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlPcToFileHeader
+RtlUnwind
 RtlUnwindEx
 RtlVirtualUnwind
 S+Ot
@@ -1986,8 +1926,6 @@ Saturday
 ScalpD
 SceneSystem_002
 SceneUtils_001
-SchedulerKind
-SchedulingProtocol
 Schema description file
 SchemaSystem_001
 SchemaTestExternal_One_001
@@ -2006,16 +1944,12 @@ Serializing(%d root elements)
 ServerUploadGameStats001
 SetClipboardData
 SetEvent
-SetFileInformationByHandle
 SetFilePointerEx
 SetLastError
 SetStdHandle
-SetThreadpoolTimer
-SetThreadpoolWait
 SetUnhandledExceptionFilter
 Simple Cubic
 SleepConditionVariableCS
-SleepConditionVariableSRW
 SmoothLoop
 Software\Valve\%s
 SoundOpSystem001
@@ -2038,12 +1972,10 @@ StartLoop
 StatsService_001
 SteamAudio001
 StereoFlip
-SubmitThreadpoolWork
 Subtract
 Sunday
 Symbol table:  %d entries %llu bytes\n
 TUUUU
-TargetOversubscriptionFactor
 TerminateProcess
 TestFormatA
 TestFormatB
@@ -2073,14 +2005,12 @@ Tools
 Totals
 Trail Length Random
 Tried to rename from '%s' to '%s', but '%s' already exists\n
-TryAcquireSRWLockExclusive
 Trying to add a frame when there is no current sequence.\n
 Tuesday
 Two Bone
 U4tT
 UA>N0Wl
 USER32.dll
-UUUU
 UUUUUU
 Unable to create new frame.\n
 Unable to create new sequence.\n
@@ -2203,9 +2133,7 @@ WINDOWS
 WINXP
 WaNd?
 WaitForSingleObjectEx
-WaitForThreadpoolTimerCallbacks
 WakeAllConditionVariable
-WakeConditionVariable
 Warning
 Warning changing packing mode when %d sequences already defined. This may not be serialized correctly.\n
 Warning in .VMT file (%s): no ']' or '}' found in vector key "%s".\nDid you forget to surround the vector with "s?\n
@@ -2213,7 +2141,6 @@ Warning:  %s = '%s' is infinite, clamping value.\n
 Wednesday
 WeightList
 WideCharToMultiByte
-WinRTInitialization
 WipeRedo '%s'\n
 WipeUndo '%s'\n
 WorkshopSetup001
@@ -2245,6 +2172,7 @@ Z\>z8
 \vA03>A|
 ^<V7w
 ^RfN>
+_RDATA
 _V_StringAfterPrefix
 _V_StringAfterPrefixCaseSensitive
 _V_strncat
@@ -2262,6 +2190,8 @@ __pascal
 __ptr64
 __restrict
 __stdcall
+__swift_1
+__swift_2
 __thiscall
 __unaligned
 __unspecified_texture
@@ -2271,9 +2201,9 @@ _light
 _linked_type_
 _name
 _oD>Kg
-_physics
 _test_conversion_counter
 `RTTI
+`anonymous namespace'
 `copy constructor closure'
 `default constructor closure'
 `dynamic atexit destructor for '
@@ -2384,7 +2314,6 @@ backgroundColor
 backgroundFXClip
 backgroundMap
 bad address
-bad allocation
 bad exception
 bad file descriptor
 bad message
@@ -2462,6 +2391,7 @@ c:\buildslave\hlvr_rel_win64\build\src\interfaces\interfaces.cpp
 c:\buildslave\hlvr_rel_win64\build\src\mathlib\mathlib.cpp
 c:\buildslave\hlvr_rel_win64\build\src\public\movieobjects\dmerigconstraintoperators.h
 c:\buildslave\hlvr_rel_win64\build\src\public\ordered_constructor.h
+c:\buildslave\hlvr_rel_win64\build\src\public\tier0\tslist.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlblockmemory.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlfixedmemory.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utllinkedlist.h
@@ -2690,6 +2620,7 @@ fallbacks
 falloff
 falloff_left
 falloff_right
+false
 fbx2dmx
 fieldOfView
 file exists
@@ -3201,6 +3132,8 @@ operation not supported
 operation would block
 operator
 operator "" 
+operator co_await
+operator<=>
 operators
 orientation
 orientationChannel
@@ -3231,6 +3164,7 @@ permission denied
 pfmscale
 phonememap
 physgun_interactions
+physics
 physicsSimplificationError
 physicsSimplificationOverride
 physicsmode
@@ -3284,9 +3218,8 @@ qangle_array
 quaternion
 quaternion log
 quaternion_array
-rLp>B
-r\np!G
 r\tVr.>T
+r\vp(B
 radius
 radius0
 radius1
@@ -3351,7 +3284,6 @@ rotation_speed_random
 rotation_spin
 rotation_spin yaw
 rotations
-sHF'
 saturation
 scale
 scaleColor
@@ -3672,7 +3604,6 @@ wrong protocol type
 wsprintfA
 xT?V
 xcoord
-xpxxxx
 yaw_end
 yaw_start
 ycoord

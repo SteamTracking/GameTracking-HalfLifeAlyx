@@ -1,19 +1,20 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	ZombieBlind.Smash_Door = 
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ZombieBlind.Smash_Door_Core"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "PhysBreak.Plastic_Box"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	ZombieBlind.Smash_Door_Core = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_min = 400.000000
-		occlusion_scale = 0.400000
-		use_hrtf = 1.000000
+		volume = 1.0
+		volume_falloff_min = 400.0
+		occlusion_scale = 0.4
+		use_hrtf = 1.0
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -25,14 +26,14 @@
 	ZombieBlind.BodyLoop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 250.000000
-		occlusion_scale = 0.900000
-		occlusion_radius = 30.000000
-		spread_min = 10.000000
-		spread_max = 20.000000
+		volume = 1.2
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 250.0
+		occlusion_scale = 0.9
+		occlusion_radius = 30.0
+		spread_min = 10.0
+		spread_max = 20.0
 		attachment = "snd_loop"
 		mixgroup = "BlindZombie"
 		vsnd_files = 
@@ -43,8 +44,8 @@
 	ZombieBlind.Final_Spew = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume_falloff_min = 300.000000
+		use_hrtf = 1.0
+		volume_falloff_min = 300.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -55,28 +56,28 @@
 	{
 		type = "hlvr_rand_parent"
 		random_soundevent_01_name = "ZombieBlind.Crushed_Drip"
-		random_soundevent_01_timer_min = 0.800000
-		random_soundevent_01_timer_max = 1.100000
+		random_soundevent_01_timer_min = 0.8
+		random_soundevent_01_timer_max = 1.1
 	}
 	ZombieBlind.Crushed_Drip_Parent_B = 
 	{
 		base = "ZombieBlind.Crushed_Drip_Parent_A"
 		random_soundevent_01_name = "ZombieBlind.Crushed_Drip"
-		random_soundevent_01_timer_min = 0.800000
-		random_soundevent_01_timer_max = 1.100000
+		random_soundevent_01_timer_min = 0.8
+		random_soundevent_01_timer_max = 1.1
 	}
 	ZombieBlind.Crushed_Drip = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.350000
-		volume_rand_min = -0.100000
-		pitch_rand_min = -0.020000
-		pitch_rand_max = 0.020000
-		use_hrtf = 1.000000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 500.000000
-		distance_max = 501.000000
-		occlusion_scale = 0.900000
+		volume = 0.35
+		volume_rand_min = -0.1
+		pitch_rand_min = -0.02
+		pitch_rand_max = 0.02
+		use_hrtf = 1.0
+		volume_falloff_min = 100.0
+		volume_falloff_max = 500.0
+		distance_max = 501.0
+		occlusion_scale = 0.9
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -105,29 +106,24 @@
 	ZombieBlind.React_Rage = 
 	{
 		type = "hlvr_start_multi"
-		create_shared_vsnd_index = 1.000000
-		use_shared_vsnd_index_for_01 = 1.000000
-		use_shared_vsnd_index_for_02 = 1.000000
-		shared_vsnd_index_max = 7.000000
+		create_shared_vsnd_index = 1.0
+		use_shared_vsnd_index_for_01 = 1.0
+		use_shared_vsnd_index_for_02 = 1.0
+		shared_vsnd_index_max = 7.0
 		soundevent_01 = "ZombieBlind.React_Scream"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "ZombieBlind.React_Reverb"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	ZombieBlind.React_Scream = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		use_hrtf = 1.000000
+		volume = 1.4
+		use_hrtf = 1.0
 		vsnd_selection_type = "index"
-		volume_falloff_min = 300.000000
-		occlusion_scale = 0.300000
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			60.000000,
-		]
+		volume_falloff_min = 300.0
+		occlusion_scale = 0.3
+		position_offset = [ 0.0, 0.0, 60.0 ]
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -144,10 +140,10 @@
 	ZombieBlind.React_Reverb = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_selection_type = "index"
-		volume_falloff_min = 300.000000
-		volume_falloff_max = 4000.000000
+		volume_falloff_min = 300.0
+		volume_falloff_max = 4000.0
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -164,28 +160,23 @@
 	ZombieBlind.React_Minor = 
 	{
 		type = "hlvr_start_multi"
-		create_shared_vsnd_index = 1.000000
-		use_shared_vsnd_index_for_01 = 1.000000
-		use_shared_vsnd_index_for_02 = 1.000000
-		shared_vsnd_index_max = 2.000000
+		create_shared_vsnd_index = 1.0
+		use_shared_vsnd_index_for_01 = 1.0
+		use_shared_vsnd_index_for_02 = 1.0
+		shared_vsnd_index_max = 2.0
 		soundevent_01 = "ZombieBlind.React_Minor_Scream"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "ZombieBlind.React_Minor_Reverb"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	ZombieBlind.React_Minor_Scream = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.100000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.400000
-		volume_falloff_min = 400.000000
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			60.000000,
-		]
+		volume = 1.1
+		use_hrtf = 1.0
+		occlusion_scale = 0.4
+		volume_falloff_min = 400.0
+		position_offset = [ 0.0, 0.0, 60.0 ]
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -197,10 +188,10 @@
 	ZombieBlind.React_Minor_Reverb = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
-		use_hrtf = 1.000000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 3000.000000
+		volume = 0.2
+		use_hrtf = 1.0
+		volume_falloff_min = 400.0
+		volume_falloff_max = 3000.0
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -212,16 +203,11 @@
 	ZombieBlind.React_Minor_Grunt = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.400000
-		volume_falloff_min = 400.000000
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			60.000000,
-		]
+		volume = 0.9
+		use_hrtf = 1.0
+		occlusion_scale = 0.4
+		volume_falloff_min = 400.0
+		position_offset = [ 0.0, 0.0, 60.0 ]
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -235,19 +221,19 @@
 	ZombieBlind.Attack_Player = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.600000
-		use_hrtf = 1.000000
+		volume = 1.6
+		use_hrtf = 1.0
 		mixgroup = "LoudEvents"
 		vsnd_files = "sounds/creatures/zombie_blind/vox/attack_player.vsnd"
 	}
 	ZombieBlind.Vox_Relax_Grunt = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.700000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.8
+		use_hrtf = 1.0
+		occlusion_scale = 0.7
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -259,12 +245,12 @@
 	ZombieBlind.Vox_Aware_Growl = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.700000
-		volume_falloff_max = 1500.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.9
+		use_hrtf = 1.0
+		occlusion_scale = 0.7
+		volume_falloff_max = 1500.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "BlindZombie"
 		should_pause = true
 		vsnd_files = 
@@ -284,8 +270,8 @@
 	ZombieBlind.Vox_Aware_Scripted_Intro = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		use_hrtf = 1.000000
+		volume = 0.75
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -295,12 +281,12 @@
 	ZombieBlind.Vox_Aware_Grunt = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.700000
-		volume_falloff_max = 1500.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.9
+		use_hrtf = 1.0
+		occlusion_scale = 0.7
+		volume_falloff_max = 1500.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -321,12 +307,12 @@
 	ZombieBlind.Vox_Wander_Breath_In = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.800000
-		volume_falloff_max = 1100.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.8
+		use_hrtf = 1.0
+		occlusion_scale = 0.8
+		volume_falloff_max = 1100.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "BlindZombie"
 		should_pause = true
 		vsnd_files = 
@@ -346,12 +332,12 @@
 	ZombieBlind.Vox_Wander_Breath_Out = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.800000
-		volume_falloff_max = 1100.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.8
+		use_hrtf = 1.0
+		occlusion_scale = 0.8
+		volume_falloff_max = 1100.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "BlindZombie"
 		should_pause = true
 		vsnd_files = 
@@ -369,12 +355,12 @@
 	ZombieBlind.Vox_Wander_Grunt = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.800000
-		volume_falloff_max = 1100.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.8
+		use_hrtf = 1.0
+		occlusion_scale = 0.8
+		volume_falloff_max = 1100.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -389,12 +375,12 @@
 	ZombieBlind.Vox_Wander_Grunt_Short = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.800000
-		volume_falloff_max = 1100.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.8
+		use_hrtf = 1.0
+		occlusion_scale = 0.8
+		volume_falloff_max = 1100.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -409,10 +395,10 @@
 	ZombieBlind.Vox_Wander_Hiss = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.800000
-		volume_falloff_max = 1100.000000
+		volume = 0.6
+		use_hrtf = 1.0
+		occlusion_scale = 0.8
+		volume_falloff_max = 1100.0
 		mixgroup = "BlindZombie"
 		should_pause = true
 		vsnd_files = 
@@ -428,10 +414,10 @@
 	ZombieBlind.Vox_Yawn = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.800000
-		volume_falloff_max = 1100.000000
+		volume = 0.6
+		use_hrtf = 1.0
+		occlusion_scale = 0.8
+		volume_falloff_max = 1100.0
 		mixgroup = "BlindZombie"
 		should_pause = true
 		vsnd_files = 
@@ -444,14 +430,14 @@
 	ZombieBlind.Jaw_Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.900000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 400.000000
-		distance_max = 401.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.7
+		use_hrtf = 1.0
+		occlusion_scale = 0.9
+		volume_falloff_min = 50.0
+		volume_falloff_max = 400.0
+		distance_max = 401.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "BlindZombie"
 	}
 	ZombieBlind.Jaw_Open_Slow = 
@@ -525,14 +511,14 @@
 	ZombieBlind.Step_Close = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.800000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.800000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 300.000000
-		distance_max = 401.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 1.8
+		use_hrtf = 1.0
+		occlusion_scale = 0.8
+		volume_falloff_min = 50.0
+		volume_falloff_max = 300.0
+		distance_max = 401.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -550,31 +536,31 @@
 	ZombieBlind.Step_Close_Light = 
 	{
 		base = "ZombieBlind.Step_Close"
-		volume = 1.000000
+		volume = 1.0
 	}
 	ZombieBlind.Step_Rage = 
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ZombieBlind.Step_Rage_Child_Impact"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "ZombieBlind.Step_Rage_Child_Bass"
-		use_02 = 1.000000
+		use_02 = 1.0
 		soundevent_03 = "ZombieBlind.Foley_Step"
-		use_03 = 1.000000
+		use_03 = 1.0
 		soundevent_04 = "ZombieBlind.Step_Close"
-		use_04 = 1.000000
+		use_04 = 1.0
 	}
 	ZombieBlind.Step_Rage_Child_Impact = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.600000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 1200.000000
-		distance_max = 1201.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 1.2
+		use_hrtf = 1.0
+		occlusion_scale = 0.6
+		volume_falloff_min = 200.0
+		volume_falloff_max = 1200.0
+		distance_max = 1201.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -594,15 +580,15 @@
 	ZombieBlind.Step_Rage_Child_Bass = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.800000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
-		occlusion_max = 0.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 1500.000000
-		distance_max = 1501.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 1.8
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
+		occlusion_max = 0.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 1500.0
+		distance_max = 1501.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -619,25 +605,25 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ZombieBlind.Step_Wander_Child_Impact"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "ZombieBlind.Step_Wander_Child_Bass"
-		use_02 = 1.000000
+		use_02 = 1.0
 		soundevent_03 = "ZombieBlind.Foley_Step_Light"
-		use_03 = 1.000000
+		use_03 = 1.0
 		soundevent_04 = "ZombieBlind.Step_Close_Light"
-		use_04 = 1.000000
+		use_04 = 1.0
 	}
 	ZombieBlind.Step_Wander_Child_Impact = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.700000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 900.000000
-		distance_max = 901.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 1.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.7
+		volume_falloff_min = 100.0
+		volume_falloff_max = 900.0
+		distance_max = 901.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -655,15 +641,15 @@
 	ZombieBlind.Step_Wander_Child_Bass = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
-		occlusion_max = 0.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 1000.000000
-		distance_max = 1001.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 1.4
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
+		occlusion_max = 0.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 1000.0
+		distance_max = 1001.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -680,20 +666,20 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ZombieBlind.Step_Light_Child"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "ZombieBlind.Foley_Close_Subtle"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	ZombieBlind.Step_Light_Child = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.900000
-		volume_falloff_max = 700.000000
-		distance_max = 701.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.8
+		use_hrtf = 1.0
+		occlusion_scale = 0.9
+		volume_falloff_max = 700.0
+		distance_max = 701.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -711,23 +697,23 @@
 	ZombieBlind.Foley_Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		occlusion_scale = 0.900000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 600.000000
-		distance_max = 601.000000
+		volume = 1.0
+		use_hrtf = 1.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		occlusion_scale = 0.9
+		volume_falloff_min = 100.0
+		volume_falloff_max = 600.0
+		distance_max = 601.0
 		mixgroup = "BlindZombie"
 	}
 	ZombieBlind.Foley = 
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ZombieBlind.Foley_Base"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "ZombieBlind.Foley_Close_Subtle"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	ZombieBlind.Foley_Child = 
 	{
@@ -746,10 +732,10 @@
 	ZombieBlind.Foley_Subtle = 
 	{
 		base = "ZombieBlind.Foley_Base"
-		volume = 0.800000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 400.000000
-		distance_max = 401.000000
+		volume = 0.8
+		volume_falloff_min = 50.0
+		volume_falloff_max = 400.0
+		distance_max = 401.0
 		vsnd_files = 
 		[
 			"sounds/creatures/zombie_blind/foley/subtle_01.vsnd",
@@ -764,9 +750,9 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ZombieBlind.Foley_Twitch_Child"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "ZombieBlind.Foley_Close_Subtle"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	ZombieBlind.Foley_Twitch_Child = 
 	{
@@ -783,13 +769,13 @@
 	ZombieBlind.Foley_Close = 
 	{
 		base = "ZombieBlind.Foley_Base"
-		volume = 1.200000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 200.000000
-		distance_max = 301.000000
-		occlusion_scale = 0.950000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 1.2
+		volume_falloff_min = 50.0
+		volume_falloff_max = 200.0
+		distance_max = 301.0
+		occlusion_scale = 0.95
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = 
 		[
 			"sounds/creatures/zombie_blind/foley/close_01.vsnd",
@@ -809,13 +795,13 @@
 	ZombieBlind.Foley_Close_Subtle = 
 	{
 		base = "ZombieBlind.Foley_Base"
-		volume = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 200.000000
-		distance_max = 401.000000
-		occlusion_scale = 0.950000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 200.0
+		distance_max = 401.0
+		occlusion_scale = 0.95
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = 
 		[
 			"sounds/creatures/zombie_blind/foley/close_01.vsnd",
@@ -836,19 +822,19 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ZombieBlind.Foley_Step_Child"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "ZombieBlind.Foley_Close"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	ZombieBlind.Foley_Step_Child = 
 	{
 		base = "ZombieBlind.Foley_Base"
-		volume = 0.800000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 400.000000
-		distance_max = 401.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.8
+		volume_falloff_min = 50.0
+		volume_falloff_max = 400.0
+		distance_max = 401.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = 
 		[
 			"sounds/creatures/zombie_blind/foley/step_movement_01.vsnd",
@@ -869,19 +855,19 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ZombieBlind.Foley_Step_Light_Child"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "ZombieBlind.Foley_Close_Subtle"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	ZombieBlind.Foley_Step_Light_Child = 
 	{
 		base = "ZombieBlind.Foley_Base"
-		volume = 0.600000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 400.000000
-		distance_max = 401.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.6
+		volume_falloff_min = 50.0
+		volume_falloff_max = 400.0
+		distance_max = 401.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = 
 		[
 			"sounds/creatures/zombie_blind/foley/step_movement_01.vsnd",
@@ -902,40 +888,40 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ZombieBlind.React_Scream_Scripted"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "ZombieBlind.React_Reverb_Scripted"
-		use_02 = 1.000000
+		use_02 = 1.0
 		soundevent_03 = "ZombieBlind.Destruction_Scripted"
-		use_03 = 1.000000
+		use_03 = 1.0
 	}
 	ZombieBlind.React_Scream_Scripted = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_fade_in = 0.500000
-		use_hrtf = 1.000000
-		volume_falloff_min = 600.000000
-		occlusion_scale = 0.600000
+		volume = 1.2
+		volume_fade_in = 0.5
+		use_hrtf = 1.0
+		volume_falloff_min = 600.0
+		occlusion_scale = 0.6
 		mixgroup = "BlindZombie"
 		vsnd_files = "sounds/creatures/zombie_blind/scripted/react_scream_scripted.vsnd"
 	}
 	ZombieBlind.React_Reverb_Scripted = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		volume_falloff_min = 1000.000000
-		volume_falloff_max = 4000.000000
-		occlusion_scale = 0.000000
+		volume = 1.4
+		volume_falloff_min = 1000.0
+		volume_falloff_max = 4000.0
+		occlusion_scale = 0.0
 		mixgroup = "BlindZombie"
 		vsnd_files = "sounds/creatures/zombie_blind/scripted/react_scream_scripted_reverb.vsnd"
 	}
 	ZombieBlind.Destruction_Scripted = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		delay = 0.800000
-		volume_falloff_min = 600.000000
-		occlusion_scale = 0.600000
+		volume = 0.8
+		delay = 0.8
+		volume_falloff_min = 600.0
+		occlusion_scale = 0.6
 		mixgroup = "BlindZombie"
 		vsnd_files = "sounds/creatures/zombie_blind/scripted/destruction_scripted.vsnd"
 	}
@@ -943,84 +929,84 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ZombieBlind.React_Scream_Scripted_Intro"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "ZombieBlind.React_Reverb_Scripted_Intro"
-		use_02 = 1.000000
+		use_02 = 1.0
 		soundevent_03 = "ZombieBlind.Destruction_Scripted_Intro"
-		use_03 = 1.000000
+		use_03 = 1.0
 	}
 	ZombieBlind.React_Scream_Scripted_Intro = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.600000
-		volume_fade_in = 0.500000
-		use_hrtf = 1.000000
-		volume_falloff_min = 700.000000
-		occlusion_scale = 0.400000
+		volume = 1.6
+		volume_fade_in = 0.5
+		use_hrtf = 1.0
+		volume_falloff_min = 700.0
+		occlusion_scale = 0.4
 		mixgroup = "LoudEvents"
 		vsnd_files = "sounds/creatures/zombie_blind/scripted/react_scream_scripted.vsnd"
 	}
 	ZombieBlind.React_Reverb_Scripted_Intro = 
 	{
 		type = "hlvr_default_3d"
-		volume = 2.000000
-		volume_falloff_min = 2000.000000
-		volume_falloff_max = 4000.000000
-		occlusion_scale = 0.000000
+		volume = 2.0
+		volume_falloff_min = 2000.0
+		volume_falloff_max = 4000.0
+		occlusion_scale = 0.0
 		mixgroup = "LoudEvents"
 		vsnd_files = "sounds/creatures/zombie_blind/scripted/react_scream_scripted_reverb_intro.vsnd"
 	}
 	ZombieBlind.Destruction_Scripted_Intro = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		delay = 0.800000
-		volume_falloff_min = 700.000000
-		occlusion_scale = 0.300000
+		volume = 1.0
+		delay = 0.8
+		volume_falloff_min = 700.0
+		occlusion_scale = 0.3
 		mixgroup = "LoudEvents"
 		vsnd_files = "sounds/creatures/zombie_blind/scripted/destruction_scripted.vsnd"
 	}
 	ZombieBlind.Freezer_Stinger_Scripted = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.9
+		use_hrtf = 1.0
 		mixgroup = "LoudEvents"
 		vsnd_files = "sounds/creatures/zombie_blind/scripted/freezer_door_stinger.vsnd"
 	}
 	ZombieBlind.Freezer_Rip_Scripted = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.9
+		use_hrtf = 1.0
 		mixgroup = "LoudEvents"
 		vsnd_files = "sounds/creatures/zombie_blind/scripted/freezer_door_rip.vsnd"
 	}
 	ZombieBlind.Exit_Stinger_Scripted = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "BlindZombie"
 		vsnd_files = "sounds/creatures/zombie_blind/scripted/exit_door_stinger.vsnd"
 	}
 	ZombieBlind.Exit_Rip_Scripted = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "BlindZombie"
 		vsnd_files = "sounds/creatures/zombie_blind/scripted/exit_door_rip.vsnd"
 	}
 	ZombieBlind.Impact_Core = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
-		volume_rand_min = -0.050000
-		volume_rand_max = 0.100000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 1.2
+		use_hrtf = 1.0
+		volume_rand_min = -0.05
+		volume_rand_max = 0.1
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -1035,15 +1021,15 @@
 	ZombieBlind.Impact_Core_Louder = 
 	{
 		base = "ZombieBlind.Impact_Core"
-		volume = 1.600000
+		volume = 1.6
 	}
 	ZombieBlind.Trapped_Parent = 
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ZombieBlind.Trapped_Core"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "ZombieBlind.Trapped_Freezer_Layer"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	ZombieBlind.Trapped_Core = 
 	{
@@ -1052,11 +1038,11 @@
 	ZombieBlind.Trapped_Freezer_Layer = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume_rand_min = -0.050000
-		volume_rand_max = 0.050000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		use_hrtf = 1.0
+		volume_rand_min = -0.05
+		volume_rand_max = 0.05
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -1071,17 +1057,17 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ZombieBlind.Trapped_Bang_Open"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "ZombieBlind.Trapped_Core"
-		use_02 = 1.000000
+		use_02 = 1.0
 		soundevent_03 = "ZombieBlind.Trapped_Freezer_Layer"
-		use_03 = 1.000000
+		use_03 = 1.0
 	}
 	ZombieBlind.Trapped_Bang_Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
 		mixgroup = "BlindZombie"
 		vsnd_files = "sounds/creatures/zombie_blind/scripted/freezer_door_bang_open.vsnd"
 	}
@@ -1089,9 +1075,9 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ZombieBlind.Trapped_Core"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "ZombieBlind.Elevator_Bang_Layer"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	ZombieBlind.Elevator_Bang_Core = 
 	{
@@ -1100,11 +1086,11 @@
 	ZombieBlind.Elevator_Bang_Layer = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume_rand_min = -0.050000
-		volume_rand_max = 0.050000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		use_hrtf = 1.0
+		volume_rand_min = -0.05
+		volume_rand_max = 0.05
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -1118,11 +1104,11 @@
 	ZombieBlind.Attack_ElevatorPanel_Scripted = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume_rand_min = -0.050000
-		volume_rand_max = 0.050000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		use_hrtf = 1.0
+		volume_rand_min = -0.05
+		volume_rand_max = 0.05
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -1136,9 +1122,9 @@
 	ZombieBlind.Attack_ElevatorPanel_Rip_Scripted = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		use_hrtf = 1.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -1153,12 +1139,12 @@
 	ZombieBlind.Attack_ElevatorPanel_Gnaw_Scripted = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
-		use_hrtf = 1.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.7
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
+		use_hrtf = 1.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -1176,9 +1162,9 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ZombieBlind.Console_Bang_Core"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "ZombieBlind.Console_Bang_Layer"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	ZombieBlind.Console_Bang_Core = 
 	{
@@ -1187,14 +1173,14 @@
 	ZombieBlind.Console_Bang_Layer = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
-		volume_rand_min = -0.100000
-		volume_rand_max = 0.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.050000
+		volume = 0.7
+		use_hrtf = 1.0
+		volume_rand_min = -0.1
+		volume_rand_max = 0.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.05
 		mixgroup = "BlindZombie"
-		occlusion_scale = 0.500000
+		occlusion_scale = 0.5
 		vsnd_files = 
 		[
 			"sounds/creatures/zombie_blind/impacts/impact_layer_elevator_01.vsnd",
@@ -1212,12 +1198,12 @@
 	ZombieBlind.Trapped_React_Rage = 
 	{
 		type = "hlvr_lpf_3d"
-		volume = 1.400000
-		use_hrtf = 1.000000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 1500.000000
+		volume = 1.4
+		use_hrtf = 1.0
+		volume_falloff_min = 400.0
+		volume_falloff_max = 1500.0
 		mixgroup = "BlindZombie"
-		filter_freq = 2000.000000
+		filter_freq = 2000.0
 		vsnd_files = 
 		[
 			"sounds/creatures/zombie_blind/vox/react_scream_01.vsnd",
@@ -1233,11 +1219,11 @@
 	ZombieBlind.Trapped_Vox_Aware_Growl = 
 	{
 		type = "hlvr_lpf_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
-		volume_falloff_max = 600.000000
+		volume = 0.6
+		use_hrtf = 1.0
+		volume_falloff_max = 600.0
 		mixgroup = "BlindZombie"
-		filter_freq = 2000.000000
+		filter_freq = 2000.0
 		vsnd_files = 
 		[
 			"sounds/creatures/zombie_blind/vox/aware_growl_01.vsnd",
@@ -1255,11 +1241,11 @@
 	ZombieBlind.Trapped_Vox_Aware_Grunt = 
 	{
 		type = "hlvr_lpf_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
-		volume_falloff_max = 600.000000
+		volume = 0.5
+		use_hrtf = 1.0
+		volume_falloff_max = 600.0
 		mixgroup = "BlindZombie"
-		filter_freq = 2000.000000
+		filter_freq = 2000.0
 		vsnd_files = 
 		[
 			"sounds/creatures/zombie_blind/vox/aware_grunt_01.vsnd",
@@ -1279,11 +1265,11 @@
 	ZombieBlind.Trapped_Vox_Wander_Breath_In = 
 	{
 		type = "hlvr_lpf_3d"
-		volume = 0.300000
-		use_hrtf = 1.000000
-		volume_falloff_max = 600.000000
+		volume = 0.3
+		use_hrtf = 1.0
+		volume_falloff_max = 600.0
 		mixgroup = "BlindZombie"
-		filter_freq = 2000.000000
+		filter_freq = 2000.0
 		vsnd_files = 
 		[
 			"sounds/creatures/zombie_blind/vox/wander_breath_in_01.vsnd",
@@ -1297,11 +1283,11 @@
 	ZombieBlind.Trapped_Vox_Wander_Breath_Out = 
 	{
 		type = "hlvr_lpf_3d"
-		volume = 0.300000
-		use_hrtf = 1.000000
-		volume_falloff_max = 600.000000
+		volume = 0.3
+		use_hrtf = 1.0
+		volume_falloff_max = 600.0
 		mixgroup = "BlindZombie"
-		filter_freq = 2000.000000
+		filter_freq = 2000.0
 		vsnd_files = 
 		[
 			"sounds/creatures/zombie_blind/vox/wander_breath_out_01.vsnd",
@@ -1315,11 +1301,11 @@
 	ZombieBlind.Trapped_Vox_Wander_Breath_Both = 
 	{
 		type = "hlvr_lpf_3d"
-		volume = 0.300000
-		use_hrtf = 1.000000
-		volume_falloff_max = 600.000000
+		volume = 0.3
+		use_hrtf = 1.0
+		volume_falloff_max = 600.0
 		mixgroup = "BlindZombie"
-		filter_freq = 2000.000000
+		filter_freq = 2000.0
 		vsnd_files = 
 		[
 			"sounds/creatures/zombie_blind/vox/wander_breath_in_01.vsnd",
@@ -1339,11 +1325,11 @@
 	ZombieBlind.Trapped_Vox_Wander_Grunt = 
 	{
 		type = "hlvr_lpf_3d"
-		volume = 0.300000
-		use_hrtf = 1.000000
-		volume_falloff_max = 600.000000
+		volume = 0.3
+		use_hrtf = 1.0
+		volume_falloff_max = 600.0
 		mixgroup = "BlindZombie"
-		filter_freq = 2000.000000
+		filter_freq = 2000.0
 		vsnd_files = 
 		[
 			"sounds/creatures/zombie_blind/vox/wander_grunt_01.vsnd",
@@ -1357,11 +1343,11 @@
 	ZombieBlind.Trapped_Vox_Relax_Grunt = 
 	{
 		type = "hlvr_lpf_3d"
-		volume = 0.300000
-		use_hrtf = 1.000000
-		volume_falloff_max = 600.000000
+		volume = 0.3
+		use_hrtf = 1.0
+		volume_falloff_max = 600.0
 		mixgroup = "BlindZombie"
-		filter_freq = 2000.000000
+		filter_freq = 2000.0
 		vsnd_files = 
 		[
 			"sounds/creatures/zombie_blind/vox/relax_grunt_01.vsnd",
@@ -1372,23 +1358,23 @@
 	ZombieBlind.Trapped_Step = 
 	{
 		base = "ZombieBlind.Step_Rage_Child_Bass"
-		volume = 0.500000
+		volume = 0.5
 	}
 	ZombieBlind.Smash_HC_Scripted_A = 
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ZombieBlind.Impact_Core_Louder"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "ZombieBlind.Smash_HC_Scripted_A_Body"
-		use_02 = 1.000000
+		use_02 = 1.0
 		soundevent_03 = "ZombieBlind.Elevator_Bang_Layer"
-		use_03 = 1.000000
+		use_03 = 1.0
 	}
 	ZombieBlind.Smash_HC_Scripted_A_Body = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -1399,17 +1385,17 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ZombieBlind.Impact_Core_Louder"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "ZombieBlind.Smash_HC_Scripted_B_Body"
-		use_02 = 1.000000
+		use_02 = 1.0
 		soundevent_03 = "ZombieBlind.Elevator_Bang_Layer"
-		use_03 = 1.000000
+		use_03 = 1.0
 	}
 	ZombieBlind.Smash_HC_Scripted_B_Body = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -1420,17 +1406,17 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ZombieBlind.Impact_Core_Louder"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "ZombieBlind.Smash_HC_Scripted_C_Body"
-		use_02 = 1.000000
+		use_02 = 1.0
 		soundevent_03 = "ZombieBlind.Elevator_Bang_Layer"
-		use_03 = 1.000000
+		use_03 = 1.0
 	}
 	ZombieBlind.Smash_HC_Scripted_C_Body = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -1444,8 +1430,8 @@
 	ZombieBlind.Whip_HC_Scripted_A = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -1455,8 +1441,8 @@
 	ZombieBlind.Whip_HC_Scripted_B = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -1466,8 +1452,8 @@
 	ZombieBlind.Whip_HC_Scripted_C = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[
@@ -1477,104 +1463,104 @@
 	ZombieBlind.Attack_HC_Elevator_Scripted = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "BlindZombie"
 		vsnd_files = "sounds/creatures/zombie_blind/scripted/elevator_headcrab_kill.vsnd"
 	}
 	ZombieBlind.Attack_HC_Intro_Scripted = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "BlindZombie"
 		vsnd_files = "sounds/creatures/zombie_blind/scripted/elevator_headcrab_kill.vsnd"
 	}
 	ZombieBlind_Elevator.React_Rage = 
 	{
 		type = "hlvr_start_multi"
-		create_shared_vsnd_index = 1.000000
-		use_shared_vsnd_index_for_01 = 1.000000
-		use_shared_vsnd_index_for_02 = 1.000000
-		shared_vsnd_index_max = 7.000000
+		create_shared_vsnd_index = 1.0
+		use_shared_vsnd_index_for_01 = 1.0
+		use_shared_vsnd_index_for_02 = 1.0
+		shared_vsnd_index_max = 7.0
 		soundevent_01 = "ZombieBlind_Elevator.React_Scream"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "ZombieBlind_Elevator.React_Reverb"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	ZombieBlind_Elevator.React_Scream = 
 	{
 		base = "ZombieBlind.React_Scream"
-		volume = 1.100000
-		volume_falloff_min = 200.000000
+		volume = 1.1
+		volume_falloff_min = 200.0
 	}
 	ZombieBlind_Elevator.React_Reverb = 
 	{
 		base = "ZombieBlind.React_Reverb"
-		volume = 0.450000
+		volume = 0.45
 	}
 	ZombieBlind_Elevator.React_Minor = 
 	{
 		type = "hlvr_start_multi"
-		create_shared_vsnd_index = 1.000000
-		use_shared_vsnd_index_for_01 = 1.000000
-		use_shared_vsnd_index_for_02 = 1.000000
-		shared_vsnd_index_max = 2.000000
+		create_shared_vsnd_index = 1.0
+		use_shared_vsnd_index_for_01 = 1.0
+		use_shared_vsnd_index_for_02 = 1.0
+		shared_vsnd_index_max = 2.0
 		soundevent_01 = "ZombieBlind_Elevator.React_Minor_Scream"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "ZombieBlind_Elevator.React_Minor_Reverb"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	ZombieBlind_Elevator.React_Minor_Scream = 
 	{
 		base = "ZombieBlind.React_Minor_Scream"
-		occlusion_scale = 0.300000
+		occlusion_scale = 0.3
 	}
 	ZombieBlind_Elevator.React_Minor_Reverb = 
 	{
 		base = "ZombieBlind.React_Minor_Reverb"
-		occlusion_scale = 0.300000
+		occlusion_scale = 0.3
 	}
 	ZombieBlind_Elevator.Vox_Relax_Grunt = 
 	{
 		base = "ZombieBlind.Vox_Relax_Grunt"
-		occlusion_scale = 0.300000
+		occlusion_scale = 0.3
 	}
 	ZombieBlind_Elevator.Vox_Aware_Growl = 
 	{
 		base = "ZombieBlind.Vox_Aware_Growl"
-		occlusion_scale = 0.300000
+		occlusion_scale = 0.3
 	}
 	ZombieBlind_Elevator.Vox_Aware_Grunt = 
 	{
 		base = "ZombieBlind.Vox_Aware_Grunt"
-		occlusion_scale = 0.300000
+		occlusion_scale = 0.3
 	}
 	ZombieBlind_Elevator.Vox_Wander_Breath_In = 
 	{
 		base = "ZombieBlind.Vox_Wander_Breath_In"
-		occlusion_scale = 0.300000
+		occlusion_scale = 0.3
 	}
 	ZombieBlind_Elevator.Vox_Wander_Breath_Out = 
 	{
 		base = "ZombieBlind.Vox_Wander_Breath_Out"
-		occlusion_scale = 0.300000
+		occlusion_scale = 0.3
 	}
 	ZombieBlind_Elevator.Vox_Wander_Grunt = 
 	{
 		base = "ZombieBlind.Vox_Wander_Grunt"
-		occlusion_scale = 0.300000
+		occlusion_scale = 0.3
 	}
 	ZombieBlind_Elevator.Vox_Wander_Grunt_Short = 
 	{
 		base = "ZombieBlind.Vox_Wander_Grunt_Short"
-		occlusion_scale = 0.300000
+		occlusion_scale = 0.3
 	}
 	ZombieBlind_Elevator.Vox_Listen_A = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.850000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.300000
-		volume_falloff_max = 1500.000000
+		volume = 0.85
+		use_hrtf = 1.0
+		occlusion_scale = 0.3
+		volume_falloff_max = 1500.0
 		mixgroup = "BlindZombie"
 		vsnd_files = 
 		[

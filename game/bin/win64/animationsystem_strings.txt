@@ -1076,6 +1076,7 @@
 .bss
 .data
 .data$r
+.data$rs
 .eBik_debug_perlin_solver
 .edata
 .idata$2
@@ -1087,6 +1088,7 @@
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .text$di
 .text$mn
@@ -1110,8 +1112,8 @@
 20.0
 2\rE2h
 2dtri
-4\rE4h
 50.0
+6>0W!
 75P=
 ::embedded_animation
 <!-- kv3 encoding:%s:version{%s} format:%s:version{%s} -->\n
@@ -1132,8 +1134,10 @@
 <unconnected>
 <unknown>
 ?"%s" unable to find retargeted bone "%s", disabling.\n
+??0CThreadFastMutex@@QEAA@PEBD@Z
+??0CThreadFastMutex@@QEAA@XZ
 ??0CThreadMutex@@QEAA@PEBD@Z
-??1CThreadMutex@@QEAA@XZ
+??0CThreadMutex@@QEAA@XZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
 ?AssertOwnedByCurrentThread@CThreadMutex@@QEBA_NXZ
 ?Concat@CBufferString@@QEAAPEBDPEBD0ZZ
@@ -1145,7 +1149,7 @@
 ?FixupPathName@CBufferString@@QEAAPEBDD@Z
 ?Format@CBufferString@@QEAAHPEBDZZ
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@PEBULoggingMetaData_t@@PEBDZZ
@@ -1158,14 +1162,13 @@
 ?SetPtr@CBufferString@@QEAAXPEADHH_N1@Z
 ?StartsWith@CBufferString@@QEAA_NPEBD@Z
 ?ToLowerFast@CBufferString@@QEAAXH@Z
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?V_SplitString@@YAXPEBD0AEAV?$CUtlVector@PEADV?$CUtlMemory@PEADH@@@@@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
 ?XZa
-?ffffff
-?labelled_debug_helper_skeleton_show_bone_names
+?labelled_debug_helper_show_text
 ?vmdlkeys0
-@Physics
 A master convar that effectively disables the entire footlock node.
 ACT_INVALID
 ACT_NEUTRAL_REF_POSE
@@ -1448,6 +1451,8 @@ BREAK: distance to target.
 BREAK: hyperextension. (%.2f degrees vs max of %.2f)
 BREAK: rotated over maximum of %.2f.
 B\vP\n0
+B\vp\n0
+B\vp\nP
 Bad %s on sequence %s couldn't compute nodeId for "%s" on model: %s\n\tSyntax: %s\n
 Bad %s on sequence %s expected a string as the parameter on model: %s\n\tSyntax: %s\n
 Bad %s on sequence %s failed on model: %s\n\t%s\n\t%s\n\tSyntax: %s\n
@@ -1961,6 +1966,7 @@ CUtlRBTree<struct CUtlMap<char const *,class IParamLookupHelper const *,int,bool
 CUtlRBTree<struct CUtlMap<char const *,int,unsigned short,bool (__cdecl*)(char const * const &,char const * const &)>::Node_t,unsigned short,class CUtlMap<char const *,int,unsigned short,bool (__cdecl*)(char const * const &,char const * const &)>::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<char const *,int,unsigned short,bool (__cdecl*)(char const * const &,char const * const &)>::Node_t,unsigned short>,unsigned short> >::NewNode
 CUtlRBTree<struct CUtlMap<int,struct JointTreeNode *,unsigned short,bool (__cdecl*)(int const &,int const &)>::Node_t,unsigned short,class CUtlMap<int,struct JointTreeNode *,unsigned short,bool (__cdecl*)(int const &,int const &)>::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<int,struct JointTreeNode *,unsigned short,bool (__cdecl*)(int const &,int const &)>::Node_t,unsigned short>,unsigned short> >::NewNode
 CUtlRBTree<struct CUtlMap<struct RetargetKey_t,int,unsigned short,bool (__cdecl*)(struct RetargetKey_t const &,struct RetargetKey_t const &)>::Node_t,unsigned short,class CUtlMap<struct RetargetKey_t,int,unsigned short,bool (__cdecl*)(struct RetargetKey_t const &,struct RetargetKey_t const &)>::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<struct RetargetKey_t,int,unsigned short,bool (__cdecl*)(struct RetargetKey_t const &,struct RetargetKey_t const &)>::Node_t,unsigned short>,unsigned short> >::NewNode
+CUtlRBTree<void *,int,bool (__cdecl*)(void * const &,void * const &),class CUtlMemory<struct UtlRBTreeNode_t<void *,int>,int> >::NewNode
 CUtlString
 CUtlString::FormatV
 CUtlStringToken
@@ -2113,7 +2119,6 @@ CommandProcedureList
 Comment
 Comparison Value
 CompileScript failed, script not found: %s\n
-CompileScript failed, scripting disabled or no server running\n
 CompileScript failed: %s\n
 ConVar(%s) defined with infinite float value (%s)\n
 ConVarRef %s doesn't point to an existing ConVar\n
@@ -2260,6 +2265,7 @@ Distance off plane: %.2f
 DoIncludeScript
 DoIncludeScript failed: %s\n
 Dog Leg (3 Bone)
+Dog Leg (3-Bone)
 Don't Reset Same Selection
 DotaCardGameClient_001
 Double-register of KV3 conversion (from '%s' to '%s')
@@ -3065,6 +3071,7 @@ Override Sound
 Override Target Settings
 Override Tilt Root
 Override Tilt Spring Strength
+P4l!
 PARTICLE_DEPTH_FEATHERING_OFF
 PARTICLE_DEPTH_FEATHERING_ON_OPTIONAL
 PARTICLE_SET_REPLACE_VALUE
@@ -3114,6 +3121,7 @@ PerChoiceBlendTimes
 PerTickSettings
 PerTickSettings_t
 Perlin
+Physics
 Physics2 Interface Old v0.5
 PhysicsBodyMarkup
 PhysicsBoneMarkup
@@ -4093,6 +4101,7 @@ dmg.explosive
 dmg.fire
 duration
 dynamic_interaction
+eTx.
 ehandle
 elems
 embedded_animation
@@ -4108,6 +4117,7 @@ event
 event_class
 event_keys
 eventindex
+ex,l!
 exit
 explosion_behavior
 explosion_buildup
@@ -4124,6 +4134,7 @@ fetchcycle
 fetched: %s : %.3f\n
 fetchframe
 fetchframerange
+ffffff
 fieldtype_t
 float
 float64
@@ -4248,7 +4259,7 @@ labelled_debug_helper_arc_segments
 labelled_debug_helper_enabled
 labelled_debug_helper_scale
 labelled_debug_helper_show_position
-labelled_debug_helper_show_text
+labelled_debug_helper_skeleton_show_bone_names
 last_sniff
 layersaffectingmovementandduration
 lcQe
@@ -5282,7 +5293,6 @@ preferred_carryangles
 prop_data
 purecall
 qangle
-qos_
 quaternion
 radius
 radius0

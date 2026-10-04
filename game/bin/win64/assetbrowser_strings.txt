@@ -357,7 +357,7 @@ $\v?addItems@QComboBox@@QEAAXAEBVQStringList@@@Z
 -sse4
 -uidev
 .8?visualRegionForSelection@QListView@@MEBA?AVQRegion@@AEBVQItemSelection@@@Z
-.?AV<lambda_55456ae90e14cdfbb1103cc7ef176077>@@
+.?AV<lambda_1_>@?0???0CAssetSelectionListenerHelper@@QEAA@PEAVIAssetSelectionListener@@@Z@
 .?AV?$CBaseAppSystem@VIAssetBrowserSystem@@@@
 .?AV?$CBindTargetDescriptor@VCGlobalHotkeyCommands@@@@
 .?AV?$CBindTargetDescriptor@VCQAssetBrowserMainWnd@@@@
@@ -373,7 +373,7 @@ $\v?addItems@QComboBox@@QEAAXAEBVQStringList@@@Z
 .?AV?$CTier2AppSystem@VIAssetBrowserSystem@@$0A@@@
 .?AV?$CTier3AppSystem@VIAssetBrowserSystem@@$0A@@@
 .?AV?$_Func_base@XAEBUAssetSelectionInfo_t@@@std@@
-.?AV?$_Func_impl@V<lambda_55456ae90e14cdfbb1103cc7ef176077>@@V?$allocator@H@std@@XAEBUAssetSelectionInfo_t@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1_>@?0???0CAssetSelectionListenerHelper@@QEAA@PEAVIAssetSelectionListener@@@Z@XAEBUAssetSelectionInfo_t@@@std@@
 .?AVCAssetBrowserToolSystem@@
 .?AVCAssetHiddenAssetFlagFilter@@
 .?AVCAssetInfoFilter@@
@@ -590,6 +590,7 @@ $\v?addItems@QComboBox@@QEAAXAEBVQStringList@@@Z
 .bss
 .data
 .data$r
+.data$rs
 .edata
 .idata$2
 .idata$3
@@ -600,6 +601,7 @@ $\v?addItems@QComboBox@@QEAAXAEBVQStringList@@@Z
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .text$di
 .text$mn
@@ -1011,6 +1013,7 @@ $\v?addItems@QComboBox@@QEAAXAEBVQStringList@@@Z
 ?.?setVisible@QWidget@@UEAAX_N@Z
 ?/?sizeHint@QFrame@@UEBA?AVQSize@@XZ
 ?3?timerEvent@QMenu@@MEAAXPEAVQTimerEvent@@@Z
+??0CThreadMutex@@QEAA@XZ
 ??0QAbstractItemModel@@QEAA@PEAVQObject@@@Z
 ??0QAbstractListModel@@QEAA@PEAVQObject@@@Z
 ??0QAbstractScrollArea@@QEAA@PEAVQWidget@@@Z
@@ -1082,12 +1085,14 @@ $\v?addItems@QComboBox@@QEAAXAEBVQStringList@@@Z
 ??0QPixmap@@QEAA@HH@Z
 ??0QPixmap@@QEAA@XZ
 ??0QPlainTextEdit@@QEAA@PEAVQWidget@@@Z
+??0QPolygon@@QEAA@XZ
 ??0QPushButton@@QEAA@AEBVQIcon@@AEBVQString@@PEAVQWidget@@@Z
 ??0QPushButton@@QEAA@AEBVQString@@PEAVQWidget@@@Z
 ??0QPushButton@@QEAA@PEAVQWidget@@@Z
 ??0QRadioButton@@QEAA@AEBVQString@@PEAVQWidget@@@Z
 ??0QRect@@QEAA@AEBVQPoint@@0@Z
 ??0QRect@@QEAA@AEBVQPoint@@AEBVQSize@@@Z
+??0QRect@@QEAA@HHHH@Z
 ??0QRectF@@QEAA@AEBVQRect@@@Z
 ??0QRegExp@@QEAA@AEBVQString@@W4CaseSensitivity@Qt@@W4PatternSyntax@0@@Z
 ??0QScrollArea@@QEAA@PEAVQWidget@@@Z
@@ -1102,16 +1107,17 @@ $\v?addItems@QComboBox@@QEAAXAEBVQStringList@@@Z
 ??0QStandardItemModel@@QEAA@PEAVQObject@@@Z
 ??0QString@@QEAA@AEBV0@@Z
 ??0QString@@QEAA@PEBD@Z
+??0QString@@QEAA@XZ
 ??0QStyleOptionButton@@QEAA@XZ
 ??0QStyledItemDelegate@@QEAA@PEAVQObject@@@Z
 ??0QTabWidget@@QEAA@PEAVQWidget@@@Z
 ??0QTableView@@QEAA@PEAVQWidget@@@Z
 ??0QTableWidget@@QEAA@PEAVQWidget@@@Z
 ??0QTableWidgetItem@@QEAA@H@Z
+??0QTextCharFormat@@QEAA@AEBV0@@Z
 ??0QTextCharFormat@@QEAA@XZ
 ??0QTextCursor@@QEAA@PEAVQTextDocument@@@Z
 ??0QTextDocument@@QEAA@PEAVQObject@@@Z
-??0QTextFormat@@QEAA@AEBV0@@Z
 ??0QTextOption@@QEAA@V?$QFlags@W4AlignmentFlag@Qt@@@@@Z
 ??0QTextOption@@QEAA@XZ
 ??0QTimer@@QEAA@PEAVQObject@@@Z
@@ -1240,7 +1246,8 @@ $\v?addItems@QComboBox@@QEAAXAEBVQStringList@@@Z
 ?ExtractFilePath@CBufferString@@QEAAPEBDPEBD_N@Z
 ?FixSlashes@CBufferString@@QEAAPEBDD@Z
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
+?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LockForRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?MakeAbsolutePath@CBufferString@@QEAAPEBDPEBD0@Z
@@ -1250,12 +1257,16 @@ $\v?addItems@QComboBox@@QEAAXAEBVQStringList@@@Z
 ?RemoveAt@CBufferString@@QEAAPEBDHH@Z
 ?Replace@CBufferString@@QEAAHPEBD0_N@Z
 ?SetExtension@CBufferString@@QEAAPEBDPEBD@Z
+?SetLength@CBufferString@@QEAAPEADH_NPEAH@Z
 ?ShortenPath@CBufferString@@QEAAPEBD_N@Z
 ?SpinLockForWrite@CThreadSpinRWLock@@AEAAXPEBDHI@Z
 ?StartsWith@CBufferString@@QEAA_NPEBD@Z
 ?StripExtension@CBufferString@@QEAAPEBDXZ
 ?StripTrailingSlash@CBufferString@@QEAAPEBDXZ
+?ToLowerFast@CBufferString@@QEAAXH@Z
 ?Truncated data
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
+?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?UnlockWrite@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?V_SplitString@@YAXPEBD0AEAV?$CUtlVector@PEADV?$CUtlMemory@PEADH@@@@@Z
@@ -1400,7 +1411,7 @@ $\v?addItems@QComboBox@@QEAAXAEBVQStringList@@@Z
 ?drawEllipse@QPainter@@QEAAXHHHH@Z
 ?drawLines@QPainter@@QEAAXPEBVQLine@@H@Z
 ?drawPixmap@QPainter@@QEAAXAEBVQRect@@AEBVQPixmap@@0@Z
-?drawPixmap@QPainter@@QEAAXAEBVQRectF@@AEBVQPixmap@@0@Z
+?drawPixmap@QPainter@@QEAAXHHHHAEBVQPixmap@@@Z
 ?drawPolygon@QPainter@@QEAAXPEBVQPoint@@HW4FillRule@Qt@@@Z
 ?drawRect@QPainter@@QEAAXAEBVQRect@@@Z
 ?drawRects@QPainter@@QEAAXPEBVQRect@@H@Z
@@ -1842,7 +1853,6 @@ $\v?addItems@QComboBox@@QEAAXAEBVQStringList@@@Z
 ?shared_null@QListData@@2UData@1@A
 ?shared_null@QMapData@@2U1@A
 ?shared_null@QString@@0UData@1@A
-?shared_null@QVectorData@@2U1@A
 ?singleShot@QTimer@@SAXHPEAVQObject@@PEBD@Z
 ?size@QRect@@QEBA?AVQSize@@XZ
 ?sort@QAbstractItemModel@@UEAAXHW4SortOrder@Qt@@@Z
@@ -1996,7 +2006,6 @@ B"?qt_metacall@QDrag@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 B#?qt_metacast@QPlainTextEdit@@UEAAPEAXPEBD@Z
 B,?setRenderHint@QPainter@@QEAAXW4RenderHint@1@_N@Z
 B3?timerEvent@QPlainTextEdit@@MEAAXPEAVQTimerEvent@@@Z
-B\vp\n0
 Background
 Backspace
 Bad header (unrecognized encoding specifier)
@@ -2175,6 +2184,7 @@ CUtlRBTree<struct CUtlMap<class IAssetType *,int,unsigned short,bool (__cdecl*)(
 CUtlRBTree<struct CUtlMap<class IWorkingSet *,class CAssetTreeData *,unsigned short,bool (__cdecl*)(class IWorkingSet * const &,class IWorkingSet * const &)>::Node_t,unsigned short,class CUtlMap<class IWorkingSet *,class CAssetTreeData *,unsigned short,bool (__cdecl*)(class IWorkingSet * const &,class IWorkingSet * const &)>::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class IWorkingSet *,class CAssetTreeData *,unsigned short,bool (__cdecl*)(class IWorkingSet * const &,class IWorkingSet * const &)>::Node_t,unsigned short>,unsigned short> >::NewNode
 CUtlRBTree<struct CUtlMap<int,class CUtlSymbol,unsigned short,bool (__cdecl*)(int const &,int const &)>::Node_t,unsigned short,class CUtlMap<int,class CUtlSymbol,unsigned short,bool (__cdecl*)(int const &,int const &)>::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<int,class CUtlSymbol,unsigned short,bool (__cdecl*)(int const &,int const &)>::Node_t,unsigned short>,unsigned short> >::NewNode
 CUtlRBTree<struct CUtlMap<int,struct CQHeaderViewWithCheckboxes::CustomSection_t,unsigned short,bool (__cdecl*)(int const &,int const &)>::Node_t,unsigned short,class CUtlMap<int,struct CQHeaderViewWithCheckboxes::CustomSection_t,unsigned short,bool (__cdecl*)(int const &,int const &)>::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<int,struct CQHeaderViewWithCheckboxes::CustomSection_t,unsigned short,bool (__cdecl*)(int const &,int const &)>::Node_t,unsigned short>,unsigned short> >::NewNode
+CUtlRBTree<void *,int,bool (__cdecl*)(void * const &,void * const &),class CUtlMemory<struct UtlRBTreeNode_t<void *,int>,int> >::NewNode
 CUtlString
 CUtlString::FormatV
 CUtlStringToken
@@ -2381,6 +2391,7 @@ Down
 DownArrowPressed()
 DynamicConfigList
 E-?setStyleSheet@QWidget@@QEAAXAEBVQString@@@Z
+E343\v
 E8?wheelEvent@QAbstractSlider@@MEAAXPEAVQWheelEvent@@@Z
 ERROR: Failed to open file for key bindings:\n%1\n
 ERROR: Failed to read key bindings from:\n%1\n
@@ -2451,6 +2462,8 @@ Filter:
 FilterOptionsChanged()
 Find:
 Fixed
+FixupResourceName: Illegal full path passed in ("%s")!\n
+FixupResourceName: Illegal path, missing extension passed in ("%s")!\n
 FlattenedSerializersVersion001
 Foc:N 
 Foc:Y 
@@ -2499,6 +2512,7 @@ GlobalHotkeys
 GlobalTopLevel
 GotoAsset(QString)
 Grid
+H'd3\v
 H)?setFilterCaseSensitivity@QSortFilterProxyModel@@QEAAXW4CaseSensitivity@Qt@@@Z
 H3?timerEvent@QTreeView@@MEAAXPEAVQTimerEvent@@@Z
 HammerMapLoader001
@@ -2939,7 +2953,6 @@ QIcon
 QTextDocument*
 QToolBar { border: 0px }
 QToolButton { \tbackground-color : rgba( 200, 200, 200, 100 ); \tborder: 2px solid rgb( %1 ); \tborder-radius: %2px; \tbackground-repeat: no-repeat; \tbackground-image: url(toolimages:common/tag_remove.png); \tbackground-position: center center; } QToolButton:hover:!pressed { \tbackground-color : rgb( 0, 0, 0 ); \tborder-color : rgb( 255, 255, 255 ); } 
-Qj@H
 QtCore4.dll
 QtGui4.dll
 Quaternion
@@ -2950,7 +2963,7 @@ REM skipped compiled file: %s\n
 REVERT
 RMouse
 RMouseDoubleClick
-RSDS
+RSDSuE
 R\r?qt_metacall@QAbstractItemModel@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 RadianEuler
 Ready
@@ -3236,6 +3249,7 @@ VScriptManager010
 VStringTokenSystem001
 V_FixDoubleSlashes
 V_FixSlashes
+V_GetFileExtension
 V_GetRtSupportFunctions
 V_IsAbsolutePath
 V_PathContainsPath
@@ -3399,6 +3413,7 @@ Z\v?addStretch@QBoxLayout@@QEAAXH@Z
 \t?insertColumns@QAbstractItemModel@@UEAA_NHHAEBVQModelIndex@@@Z
 \t?insertRows@QAbstractItemModel@@UEAA_NHHAEBVQModelIndex@@@Z
 \t?installEventFilter@QObject@@QEAAXPEAV1@@Z
+\t?instance@QCoreApplication@@SAPEAV1@XZ
 \t?intersected@QRect@@QEBA?AV1@AEBV1@@Z
 \tQToolButton { \t\tbackground-color : rgb( 100, 100, 100 ); \t\tborder: 2px solid rgb( 200, 200, 200 ); \t\tborder-radius: %2px; \t\tbackground-image: url(tools:images/common/tag_add.png); \t\tbackground-repeat: no-repeat; \t\tbackground-position: center center; \t\tmargin: 3px; \t} \tQToolButton:hover:!pressed { \t\tbackground-color : rgb( 0, 0, 0 ); \t\tborder-color : rgb( 255, 255, 255 ); \t} 
 \v*?setHighlightSections@QHeaderView@@QEAAX_N@Z
@@ -3498,7 +3513,6 @@ bShow
 bUpdate
 b\v?addTab@QTabWidget@@QEAAHPEAVQWidget@@AEBVQString@@@Z
 background-color: #22b14c
-bad_alloc
 bad_function_call
 binary
 binary_auto
@@ -3609,6 +3623,7 @@ false
 file:
 filterText
 fixmevcdfilename
+fl3\v
 fltx4
 font-weight: bold;
 force

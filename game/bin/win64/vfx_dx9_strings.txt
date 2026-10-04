@@ -48,6 +48,14 @@ $Globals
 'BindlessTexture2D'
 'Buffer'
 'ByteAddressBuffer'
+'CombinedTexture1D'
+'CombinedTexture1DArray'
+'CombinedTexture2D'
+'CombinedTexture2DArray'
+'CombinedTexture3D'
+'CombinedTexture3DArray'
+'CombinedTextureCube'
+'CombinedTextureCubeArray'
 'ConsumeStructuredBuffer'
 'ExternalDescriptorSet'
 'FakeBindlessTexture2D'
@@ -226,6 +234,8 @@ $Globals
 .?AVIHlslParserCallbacks@@
 .?AVIStreamRewriter@@
 .?AVIVfx@@
+.?AVbad_exception@std@@
+.?AVexception@std@@
 .?AVtype_info@@
 .CRT$XCA
 .CRT$XCC
@@ -245,9 +255,8 @@ $Globals
 .bss
 .data
 .data$r
+.data$rs
 .edata
-.gfids$x
-.gfids$y
 .idata$2
 .idata$3
 .idata$4
@@ -257,6 +266,7 @@ $Globals
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .rtc$IAA
 .rtc$IZZ
@@ -273,12 +283,12 @@ $Globals
 .txt
 .xJ>Hf
 .xdata
+.xdata$x
 0iN>/
 0x%X
 11Y@
 1:1: Tokens : ( T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | BOOLLITERAL | ID | INTEGERLITERAL | HEXINTEGERLITERAL | FLOATLITERAL | COMMENT | WS );
-1:1: Tokens : ( T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | T__42 | T__43 | T__44 | T__45 | T__46 | T__47 | T__48 | T__49 | T__50 | T__51 | T__52 | T__53 | T__54 | T__55 | T__56 | T__57 | T__58 | T__59 | T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | T__89 | T__90 | T__91 | T__92 | T__93 | T__94 | T__95 | T__96 | T__97 | T__98 | T__99 | T__100 | T__101 | T__102 | T__103 | T__104 | T__105 | T__106 | T__107 | T__108 | T__109 | T__110 | T__111 | T__112 | T__113 | T__114 | T__115 | T__116 | CONSTANT_REGISTER | PACK_OFFSET | VECTOR_TYPE | MATRIX_TYPE | STATIC | ID | INTEGERLITERAL | FLOATLITERAL | STRINGLITERAL | WS | LINE | PRAGMA | UNKNOWN );
-2\vp4n
+1:1: Tokens : ( T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | T__42 | T__43 | T__44 | T__45 | T__46 | T__47 | T__48 | T__49 | T__50 | T__51 | T__52 | T__53 | T__54 | T__55 | T__56 | T__57 | T__58 | T__59 | T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | T__89 | T__90 | T__91 | T__92 | T__93 | T__94 | T__95 | T__96 | T__97 | T__98 | T__99 | T__100 | T__101 | T__102 | T__103 | T__104 | T__105 | T__106 | T__107 | T__108 | T__109 | T__110 | T__111 | T__112 | T__113 | T__114 | T__115 | T__116 | T__117 | T__118 | T__119 | T__120 | T__121 | T__122 | T__123 | T__124 | CONSTANT_REGISTER | PACK_OFFSET | VECTOR_TYPE | MATRIX_TYPE | STATIC | ID | INTEGERLITERAL | FLOATLITERAL | STRINGLITERAL | WS | LINE | PRAGMA | UNKNOWN );
 37>k
 3>N;kU
 3>fvw
@@ -296,9 +306,9 @@ $Globals
 >cQ6
 >jtm}S
 ?7zQ6$
+??0CThreadMutex@@QEAA@XZ
 ?AppendFormat@CBufferString@@QEAAHPEBDZZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
-?CUtlString::FormatV
 ?ComposeFileName@CBufferString@@QEAAPEBDPEBD0D@Z
 ?ExtendPath@CBufferString@@QEAAPEBDPEBDD@Z
 ?ExtractFilePath@CBufferString@@QEAAPEBDPEBD_N@Z
@@ -306,7 +316,7 @@ $Globals
 ?FixupPathName@CBufferString@@QEAAPEBDD@Z
 ?Format@CBufferString@@QEAAHPEBDZZ
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@VColor@@PEBDZZ
 ?Purge@CBufferString@@QEAAXH@Z
@@ -316,6 +326,7 @@ $Globals
 ?StripExtension@CBufferString@@QEAAPEBDXZ
 ?StripTrailingSlash@CBufferString@@QEAAPEBDXZ
 ?UUUUUU
+?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?V_SplitString2@@YAXPEBDPEAPEBDHAEAV?$CUtlVector@PEADV?$CUtlMemory@PEADH@@@@@Z
 ?V_SplitString@@YAXPEBD0AEAV?$CUtlVector@PEADV?$CUtlMemory@PEADH@@@@@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
@@ -348,15 +359,19 @@ AlphaTestRef
 AlphaToCoverageEnable
 Android SM 4.0 (VULKAN)
 Annotation %s doesn't have any values. Ignoring annotation.\n
+AppPolicyGetProcessTerminationMethod
 April
+AreFileApisANSI
 August
 BACK
 BC6H
 BC?>6t9^\tc:>
 BF>^G
+BGR101111_UFLOAT
 BGR565
 BGR888
 BGR888_BLUESCREEN
+BGR999_E5
 BGRA1010102
 BGRA4444
 BGRA5551
@@ -365,6 +380,7 @@ BGRA8888_LINEAR
 BGRX5551
 BGRX8888
 BGRX8888_LINEAR
+BICUBIC
 BILINEAR
 BLEND_FACTOR
 BOOLLITERAL
@@ -409,6 +425,8 @@ COMPARISON_MIN_POINT_MAG_LINEAR_MIP_POINT
 COMPARISON_MIN_POINT_MAG_MIP_LINEAR
 CONSTANT_REGISTER
 COrderedConstructor_Create<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>,class CResolveOrderedFunc<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>,&void __cdecl _ORDERED_INIT_SHUTDOWN_WRAPPER_RESOLVEFUNC<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>(class COrderedConstructor_DependencyManagement<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)> > &)>,0>::AddRef
+CTSListBase: Misaligned list\n
+CTSListBase::CTSListBase
 CUtlBuffer::VaPrintf
 CUtlBuffer::VaPrintf: String overflowed buffer [%llu]\n
 CUtlLeanVectorFixedGrowableBase<unsigned char,12,short>::EnsureCapacity
@@ -417,7 +435,9 @@ CUtlMemoryPoolBase::CUtlMemoryPoolBase
 CUtlRBTree overflow with %u elements!\n
 CUtlRBTree<struct CUtlMap<class CUtlString,class CVfxAnnotation,unsigned short,bool (__cdecl*)(class CUtlString const &,class CUtlString const &)>::Node_t,unsigned short,class CUtlMap<class CUtlString,class CVfxAnnotation,unsigned short,bool (__cdecl*)(class CUtlString const &,class CUtlString const &)>::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class CUtlString,class CVfxAnnotation,unsigned short,bool (__cdecl*)(class CUtlString const &,class CUtlString const &)>::Node_t,unsigned short>,unsigned short> >::NewNode
 CUtlRBTree<struct CUtlMap<class CUtlString,class CVfxParsedShaderParam *,unsigned short,bool (__cdecl*)(class CUtlString const &,class CUtlString const &)>::Node_t,unsigned short,class CUtlMap<class CUtlString,class CVfxParsedShaderParam *,unsigned short,bool (__cdecl*)(class CUtlString const &,class CUtlString const &)>::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class CUtlString,class CVfxParsedShaderParam *,unsigned short,bool (__cdecl*)(class CUtlString const &,class CUtlString const &)>::Node_t,unsigned short>,unsigned short> >::NewNode
+CUtlRBTree<void *,int,bool (__cdecl*)(void * const &,void * const &),class CUtlMemory<struct UtlRBTreeNode_t<void *,int>,int> >::NewNode
 CUtlStreamBuffer does not support TEXT_BUFFER's use CUtlBuffer\n
+CUtlString::FormatV
 CVfxD3dInclude::Open(105): Cannot read file "%s"\n
 CVfxD3dInclude::Open(120): Cannot find include file %s\n
 CVfxD3dInclude::Open(46): Cannot use absolute paths for shader includes. Found %s\n
@@ -496,6 +516,7 @@ ESC_SEQ
 ET5>
 EXPONENT
 Early exit
+EncodePointer
 EnterCriticalSection
 Error adding shader to cache\n
 Error loading D3D compiler DLL %s!\n
@@ -524,8 +545,8 @@ File has not been opened!\n
 FillMode
 Filter
 FindClose
-FindFirstFileExA
-FindNextFileA
+FindFirstFileExW
+FindNextFileW
 FlsAlloc
 FlsFree
 FlsGetValue
@@ -546,9 +567,8 @@ GetCPInfo
 GetCPUInformation
 GetCommandLineA
 GetCommandLineW
-GetConsoleCP
 GetConsoleMode
-GetCurrentPackageId
+GetConsoleOutputCP
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -556,7 +576,7 @@ GetDefaultMiniDumpTypeFlags
 GetEnvironmentStringsW
 GetFileType
 GetLastError
-GetModuleFileNameA
+GetModuleFileNameW
 GetModuleHandleExW
 GetModuleHandleW
 GetOEMCP
@@ -588,7 +608,6 @@ INV_SRC_ALPHA
 INV_SRC_COLOR
 IOS_VULKAN_4_0
 IndependentBlendEnable
-InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
@@ -642,6 +661,7 @@ LoggingSystem_RegisterLoggingChannel
 MATRIX_TYPE
 MIN_LINEAR_MAG_MIP_POINT
 MIN_LINEAR_MAG_POINT_MIP_LINEAR
+MIN_MAG_BICUBIC_MIP_LINEAR
 MIN_MAG_LINEAR_MIP_POINT
 MIN_MAG_MIP_LINEAR
 MIN_MAG_MIP_POINT
@@ -756,6 +776,7 @@ RG1616
 RG1616F
 RG1616F_EXPAND
 RG3232F
+RG88
 RGB323232F
 RGB565
 RGB888
@@ -784,6 +805,7 @@ Release
 ResetEvent
 RtlCaptureContext
 RtlLookupFunctionEntry
+RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
 S9>H
@@ -841,6 +863,7 @@ StencilPassOp
 StencilReadMask
 StencilRef
 StencilWriteMask
+Subsampled
 Sunday
 Swizzle operation only supports up to four channels.
 TRILINEAR
@@ -884,6 +907,7 @@ Unexpected node
 Unexpected token
 UnhandledExceptionFilter
 Unknown
+Unknown exception
 Unknown variable name %s.
 Unsupported annotation data type\n
 Unsupported render state type\n
@@ -951,7 +975,6 @@ X360_DST24F
 ZERO
 [Index: 
 [[disable_array_flattening]] Texture2D %s[ %d ] : layout( set = %d, binding = %d );
-\fp4n
 \n    near %s\n    
 \n*** Error masking unused parts! Unknown text found. This is usually caused by a '{' or '}' not tabbed properly or an invalid declaration at the global scope. (line %d):\n%s\n\n
 \n******* Wrong DX DLL detected! D3DXCheckVersion() failed!
@@ -962,8 +985,10 @@ _%08X
 _AssociatedSampler
 _BoundTexture%d
 _BoundTextureSrgb%d
+_RDATA
 _SrgbRead
 _UvScaleVar
+_V_StringAfterPrefixCaseSensitive
 _V_strcspn
 _V_strncat
 _V_strncmp
@@ -988,11 +1013,14 @@ __pascal
 __ptr64
 __restrict
 __stdcall
+__swift_1
+__swift_2
 __thiscall
 __unaligned
 __vectorcall
 _sampler
 `RTTI
+`anonymous namespace'
 `copy constructor closure'
 `default constructor closure'
 `dynamic atexit destructor for '
@@ -1071,6 +1099,7 @@ antlr3dfaspecialTransition
 appendstructuredbuffer
 arg1
 attribute
+bad exception
 bool
 bool2
 bool3
@@ -1079,6 +1108,7 @@ buffer
 byteaddressbuffer
 c:\buildslave\hlvr_rel_win64\build\src\mathlib\mathlib.cpp
 c:\buildslave\hlvr_rel_win64\build\src\public\ordered_constructor.h
+c:\buildslave\hlvr_rel_win64\build\src\public\tier0\tslist.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlleanvector.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlrbtree.h
 c:\buildslave\hlvr_rel_win64\build\src\tier1\mempool.cpp
@@ -1196,6 +1226,8 @@ near char(%#02X) :\n
 normalize
 operator
 operator "" 
+operator co_await
+operator<=>
 outputFormat
 point
 ps_3_0

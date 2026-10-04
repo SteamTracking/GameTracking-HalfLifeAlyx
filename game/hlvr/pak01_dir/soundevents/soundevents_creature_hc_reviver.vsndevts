@@ -1,11 +1,12 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Headcrab_Reviver.Bite_Player = 
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "PlayerDamage.Bite"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "Headcrab_Reviver.Bite"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	Headcrab_Reviver.Idle = 
 	{
@@ -20,19 +21,19 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "Headcrab_Reviver.Snap_At_Player"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "Headcrab_Reviver.Growl"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	Headcrab_Reviver.Snap_At_Player = 
 	{
 		type = "hlvr_default_3d"
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		volume_falloff_max = 1200.000000
-		distance_max = 1200.000000
-		occlusion_scale = 0.600000
-		use_hrtf = 1.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		volume_falloff_max = 1200.0
+		distance_max = 1200.0
+		occlusion_scale = 0.6
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -42,11 +43,11 @@
 	Headcrab_Reviver.Heartbeat = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
-		volume_falloff_min = 10.000000
-		volume_falloff_max = 250.000000
-		occlusion_scale = 0.700000
+		volume = 0.6
+		use_hrtf = 1.0
+		volume_falloff_min = 10.0
+		volume_falloff_max = 250.0
+		occlusion_scale = 0.7
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -58,16 +59,16 @@
 	Headcrab_Reviver.Heartbeat_Zap = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.150000
-		volume_rand_min = -0.070000
-		delay_rand_min = 0.100000
-		delay_rand_max = 1.500000
-		pitch_rand_min = 1.100000
-		pitch_rand_max = 1.700000
-		use_hrtf = 1.000000
-		volume_falloff_min = 10.000000
-		volume_falloff_max = 150.000000
-		occlusion_scale = 0.700000
+		volume = 0.15
+		volume_rand_min = -0.07
+		delay_rand_min = 0.1
+		delay_rand_max = 1.5
+		pitch_rand_min = 1.1
+		pitch_rand_max = 1.7
+		use_hrtf = 1.0
+		volume_falloff_min = 10.0
+		volume_falloff_max = 150.0
+		occlusion_scale = 0.7
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -86,11 +87,11 @@
 	Headcrab_Reviver.BodyLoop = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.400000
-		volume_falloff_min = 20.000000
-		volume_falloff_max = 250.000000
-		occlusion_scale = 0.800000
+		use_hrtf = 1.0
+		volume = 0.4
+		volume_falloff_min = 20.0
+		volume_falloff_max = 250.0
+		occlusion_scale = 0.8
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -100,12 +101,12 @@
 	Headcrab_Reviver.Bite_Slobber = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		occlusion_scale = 0.600000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		volume_falloff_max = 800.000000
-		distance_max = 801.000000
+		use_hrtf = 1.0
+		occlusion_scale = 0.6
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		volume_falloff_max = 800.0
+		distance_max = 801.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -136,13 +137,13 @@
 	Headcrab_Reviver.Bite = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		volume_falloff_max = 1000.000000
-		distance_max = 1000.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.600000
+		volume = 0.75
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		volume_falloff_max = 1000.0
+		distance_max = 1000.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.6
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -160,10 +161,10 @@
 	Headcrab_Reviver.Attach = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		volume_falloff_min = 400.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.100000
+		volume = 1.4
+		volume_falloff_min = 400.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.1
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -173,10 +174,10 @@
 	Headcrab_Reviver.Host_Abandon_Gore_Exit = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 300.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.100000
+		volume = 1.2
+		volume_falloff_min = 300.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.1
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -186,10 +187,10 @@
 	Headcrab_Reviver.Host_Abandon_Gore_Burst = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 300.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.100000
+		volume = 1.2
+		volume_falloff_min = 300.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.1
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -201,10 +202,10 @@
 	Headcrab_Reviver.Host_Abandon_Gore_Crack = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 300.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.100000
+		volume = 1.2
+		volume_falloff_min = 300.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.1
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -216,10 +217,10 @@
 	Headcrab_Reviver.Host_Abandon_Gore_Pop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 300.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.100000
+		volume = 1.2
+		volume_falloff_min = 300.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.1
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -230,10 +231,10 @@
 	Headcrab_Reviver.Host_Abandon_Gore_Snap = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.100000
-		volume_falloff_min = 300.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.100000
+		volume = 1.1
+		volume_falloff_min = 300.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.1
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -245,16 +246,16 @@
 	Headcrab_Reviver.Vox_Host_Abandon_A = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
-		occlusion_scale = 0.100000
-		limiter_on = 1.000000
+		occlusion_scale = 0.1
+		limiter_on = 1.0
 		limiter_event_name = "Zombie.Die"
-		limiter_max = 0.000000
-		block_duration = 1.000000
+		limiter_max = 0.0
+		block_duration = 1.0
 		block_match_this_event = false
 		block_event_name = "Zombie.Die"
-		block_distance = 60.000000
+		block_distance = 60.0
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_reviver/vox/host_abandon_a.vsnd",
@@ -263,16 +264,16 @@
 	Headcrab_Reviver.Vox_Host_Abandon_B = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
-		limiter_on = 1.000000
+		limiter_on = 1.0
 		limiter_event_name = "Zombie.Die"
-		limiter_max = 0.000000
-		block_duration = 1.000000
+		limiter_max = 0.0
+		block_duration = 1.0
 		block_match_this_event = false
 		block_event_name = "Zombie.Die"
-		block_distance = 60.000000
-		occlusion_scale = 0.100000
+		block_distance = 60.0
+		occlusion_scale = 0.1
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_reviver/vox/host_abandon_b.vsnd",
@@ -281,16 +282,16 @@
 	Headcrab_Reviver.Vox_Host_Abandon_C = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
-		limiter_on = 1.000000
+		limiter_on = 1.0
 		limiter_event_name = "Zombie.Die"
-		limiter_max = 0.000000
-		block_duration = 1.000000
+		limiter_max = 0.0
+		block_duration = 1.0
 		block_match_this_event = false
 		block_event_name = "Zombie.Die"
-		block_distance = 60.000000
-		occlusion_scale = 0.100000
+		block_distance = 60.0
+		occlusion_scale = 0.1
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_reviver/vox/host_abandon_c.vsnd",
@@ -299,8 +300,8 @@
 	Headcrab_Reviver.Vox_Host_Choose = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		occlusion_scale = 0.100000
+		use_hrtf = 1.0
+		occlusion_scale = 0.1
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -310,10 +311,10 @@
 	Zombie_Revived.Node_Movement_Submerge = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 400.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.100000
+		volume = 1.2
+		volume_falloff_min = 400.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.1
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -324,10 +325,10 @@
 	Zombie_Revived.Node_Movement_Emerge = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 400.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.100000
+		volume = 1.2
+		volume_falloff_min = 400.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.1
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -338,9 +339,9 @@
 	Headcrab_Reviver.Node_Movement_Gore_Layer = 
 	{
 		type = "hlvr_default_3d"
-		volume_falloff_min = 300.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.100000
+		volume_falloff_min = 300.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.1
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -358,17 +359,17 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "Headcrab_Reviver.Ranged_Warning_Core"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "Headcrab_Reviver.Ranged_Warning_Layer"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	Headcrab_Reviver.Ranged_Warning_Core = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 3000.000000
+		volume = 1.2
+		use_hrtf = 1.0
+		volume_falloff_min = 400.0
+		volume_falloff_max = 3000.0
 		mixgroup = "Reviver"
 		should_pause = true
 		vsnd_files = 
@@ -379,8 +380,8 @@
 	Headcrab_Reviver.Ranged_Warning_Layer = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
 		should_pause = true
 		vsnd_files = 
@@ -392,10 +393,10 @@
 	Headcrab_Reviver.Ranged_Shoot = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		use_hrtf = 1.000000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 3000.000000
+		volume = 1.4
+		use_hrtf = 1.0
+		volume_falloff_min = 400.0
+		volume_falloff_max = 3000.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -408,18 +409,18 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "Headcrab_Reviver.Ranged_Impact_Base"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "Headcrab_Reviver.Ranged_Impact_Layer"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	Headcrab_Reviver.Ranged_Impact_Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		volume_falloff_min = 400.000000
-		use_hrtf = 1.000000
+		volume = 1.4
+		volume_falloff_min = 400.0
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
-		static_position = 1.000000
+		static_position = 1.0
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_reviver/ranged_impact_01.vsnd",
@@ -429,10 +430,10 @@
 	Headcrab_Reviver.Ranged_Impact_Layer = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
-		static_position = 1.000000
+		static_position = 1.0
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_reviver/ranged_impact_layer_01.vsnd",
@@ -442,12 +443,12 @@
 	Headcrab_Reviver.Projectile_Loop = 
 	{
 		type = "hlvr_3d_projectile"
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
-		occlusion_scale = 0.200000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
-		use_doppler = 1.000000
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
+		occlusion_scale = 0.2
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
+		use_doppler = 1.0
 		should_pause = true
 		passby_soundevent_name = "Headcrab_Reviver.Projectile_Passby"
 		mixgroup = "Reviver"
@@ -459,10 +460,10 @@
 	Headcrab_Reviver.Projectile_Passby = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		use_hrtf = 1.000000
+		volume = 1.4
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
-		use_doppler = 1.000000
+		use_doppler = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -475,11 +476,11 @@
 	Headcrab_Reviver.Smoke_Warning = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
+		volume = 0.6
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
-		volume_falloff_max = 2000.000000
-		distance_max = 2001.000000
+		volume_falloff_max = 2000.0
+		distance_max = 2001.0
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_reviver/smoke_warning.vsnd",
@@ -489,19 +490,19 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "Headcrab_Reviver.Smoke_Release_Cloud"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "Headcrab_Reviver.Vox_Smoke_Whistle"
-		use_02 = 1.000000
+		use_02 = 1.0
 		soundevent_03 = "Headcrab_Reviver.Smoke_Release_Layer"
-		use_03 = 1.000000
+		use_03 = 1.0
 	}
 	Headcrab_Reviver.Smoke_Release_Cloud = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
-		volume_falloff_max = 2000.000000
-		distance_max = 2001.000000
+		volume_falloff_max = 2000.0
+		distance_max = 2001.0
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_reviver/smoke_release.vsnd",
@@ -510,10 +511,10 @@
 	Headcrab_Reviver.Smoke_Release_Layer = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
-		volume_falloff_max = 2000.000000
-		distance_max = 2001.000000
+		volume_falloff_max = 2000.0
+		distance_max = 2001.0
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_reviver/smoke_release_layer.vsnd",
@@ -522,11 +523,11 @@
 	Headcrab_Reviver.Body_Impact = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.700000
-		volume_falloff_max = 1000.000000
-		distance_max = 1000.000000
+		volume = 0.8
+		use_hrtf = 1.0
+		occlusion_scale = 0.7
+		volume_falloff_max = 1000.0
+		distance_max = 1000.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -541,11 +542,11 @@
 	Headcrab_Reviver.Jump_Impact = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.700000
-		volume_falloff_max = 1000.000000
-		distance_max = 1000.000000
+		volume = 0.8
+		use_hrtf = 1.0
+		occlusion_scale = 0.7
+		volume_falloff_max = 1000.0
+		distance_max = 1000.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -561,16 +562,16 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "Headcrab_Reviver.Death_Scream"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "Headcrab_Reviver.Death_Disintegrate"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	Headcrab_Reviver.Death_Scream = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume_falloff_min = 200.000000
-		use_distance_delay = 1.000000
+		use_hrtf = 1.0
+		volume_falloff_min = 200.0
+		use_distance_delay = 1.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -580,9 +581,9 @@
 	Headcrab_Reviver.Death_Disintegrate = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
-		use_distance_delay = 1.000000
+		volume = 0.6
+		use_hrtf = 1.0
+		use_distance_delay = 1.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -592,9 +593,9 @@
 	Headcrab_Reviver.Snap_Warning = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume_falloff_max = 2000.000000
-		distance_max = 2000.000000
+		use_hrtf = 1.0
+		volume_falloff_max = 2000.0
+		distance_max = 2000.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -606,11 +607,11 @@
 	Headcrab_Reviver.Bark = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.9
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
-		volume_falloff_max = 2000.000000
-		distance_max = 2000.000000
+		volume_falloff_max = 2000.0
+		distance_max = 2000.0
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_reviver/vox/snap_at_player.vsnd",
@@ -619,10 +620,10 @@
 	Headcrab_Reviver.Vox_Ranged_Warning = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 3000.000000
+		volume = 1.2
+		use_hrtf = 1.0
+		volume_falloff_min = 400.0
+		volume_falloff_max = 3000.0
 		mixgroup = "Reviver"
 		should_pause = true
 		vsnd_files = 
@@ -633,11 +634,11 @@
 	Headcrab_Reviver.Vox_Smoke_Warning = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
-		volume_falloff_max = 2000.000000
-		distance_max = 2000.000000
+		volume_falloff_max = 2000.0
+		distance_max = 2000.0
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_reviver/vox/smoke_warning.vsnd",
@@ -646,11 +647,11 @@
 	Headcrab_Reviver.Vox_Smoke_Whistle = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
-		volume_falloff_max = 2000.000000
-		distance_max = 2000.000000
+		volume_falloff_max = 2000.0
+		distance_max = 2000.0
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_reviver/vox/smoke_whistle.vsnd",
@@ -659,14 +660,14 @@
 	Headcrab_Reviver.Pain = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		delay = 0.100000
-		use_hrtf = 1.000000
-		volume_falloff_min = 200.000000
-		occlusion_scale = 0.300000
-		block_duration = 1.000000
+		volume = 1.0
+		delay = 0.1
+		use_hrtf = 1.0
+		volume_falloff_min = 200.0
+		occlusion_scale = 0.3
+		block_duration = 1.0
 		block_match_this_event = true
-		block_match_entity = 1.000000
+		block_match_entity = 1.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -681,11 +682,11 @@
 	Headcrab_Reviver.Grunt_Hard = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.500000
-		volume_falloff_max = 2000.000000
-		distance_max = 2001.000000
+		volume = 0.8
+		use_hrtf = 1.0
+		occlusion_scale = 0.5
+		volume_falloff_max = 2000.0
+		distance_max = 2001.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -699,11 +700,11 @@
 	Headcrab_Reviver.Grunt_Soft = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
-		volume_falloff_max = 1000.000000
-		distance_max = 1001.000000
-		occlusion_scale = 0.500000
+		volume = 0.7
+		use_hrtf = 1.0
+		volume_falloff_max = 1000.0
+		distance_max = 1001.0
+		occlusion_scale = 0.5
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -717,11 +718,11 @@
 	Headcrab_Reviver.Grunt_Short = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
-		volume_falloff_max = 1000.000000
-		distance_max = 1001.000000
-		occlusion_scale = 0.500000
+		volume = 0.7
+		use_hrtf = 1.0
+		volume_falloff_max = 1000.0
+		distance_max = 1001.0
+		occlusion_scale = 0.5
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -741,11 +742,11 @@
 	Headcrab_Reviver.Hiss_Short = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
-		volume_falloff_max = 1500.000000
-		distance_max = 1501.000000
-		occlusion_scale = 0.500000
+		volume = 0.6
+		use_hrtf = 1.0
+		volume_falloff_max = 1500.0
+		distance_max = 1501.0
+		occlusion_scale = 0.5
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -760,11 +761,11 @@
 	Headcrab_Reviver.Growl = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.850000
-		use_hrtf = 1.000000
-		volume_falloff_max = 1500.000000
-		distance_max = 1501.000000
-		occlusion_scale = 0.500000
+		volume = 0.85
+		use_hrtf = 1.0
+		volume_falloff_max = 1500.0
+		distance_max = 1501.0
+		occlusion_scale = 0.5
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -781,12 +782,12 @@
 	Headcrab_Reviver.Grunt_Acc_Core = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.400000
+		volume = 0.8
+		use_hrtf = 1.0
+		occlusion_scale = 0.4
 		mixgroup = "Reviver"
-		volume_falloff_max = 2000.000000
-		distance_max = 2001.000000
+		volume_falloff_max = 2000.0
+		distance_max = 2001.0
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_reviver/vox/run_start_01.vsnd",
@@ -798,10 +799,10 @@
 	Headcrab_Reviver.Vox_Shake_Off = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		occlusion_scale = 0.300000
-		volume_falloff_max = 1500.000000
-		distance_max = 1501.000000
+		use_hrtf = 1.0
+		occlusion_scale = 0.3
+		volume_falloff_max = 1500.0
+		distance_max = 1501.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -811,12 +812,12 @@
 	Headcrab_Reviver.Vox_Shake_Subtle = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.300000
+		volume = 0.75
+		use_hrtf = 1.0
+		occlusion_scale = 0.3
 		mixgroup = "Reviver"
-		volume_falloff_max = 1500.000000
-		distance_max = 1501.000000
+		volume_falloff_max = 1500.0
+		distance_max = 1501.0
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_reviver/vox/shake_subtle_01.vsnd",
@@ -826,11 +827,11 @@
 	Headcrab_Reviver.Vox_Taunt = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		occlusion_scale = 0.300000
+		use_hrtf = 1.0
+		occlusion_scale = 0.3
 		mixgroup = "Reviver"
-		volume_falloff_max = 2000.000000
-		distance_max = 2001.000000
+		volume_falloff_max = 2000.0
+		distance_max = 2001.0
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_reviver/vox/taunt_screech_01.vsnd",
@@ -841,11 +842,11 @@
 	Headcrab_Reviver.Vox_Taunt_Short = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.300000
-		volume_falloff_max = 2000.000000
-		distance_max = 2001.000000
+		volume = 0.8
+		use_hrtf = 1.0
+		occlusion_scale = 0.3
+		volume_falloff_max = 2000.0
+		distance_max = 2001.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -857,11 +858,11 @@
 	Headcrab_Reviver.Vox_Taunt_Mini = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		volume_falloff_max = 1000.000000
-		distance_max = 1001.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.300000
+		volume = 0.7
+		volume_falloff_max = 1000.0
+		distance_max = 1001.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.3
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -874,12 +875,12 @@
 	Headcrab_Reviver.Waiting = 
 	{
 		type = "hlvr_distance_xfade_3d_index_match"
-		volume = 1.000000
-		use_hrtf = 1.000000
-		xfade_start = 50.000000
-		xfade_end = 1500.000000
-		volume_falloff_max = 4000.000000
-		occlusion_scale = 0.200000
+		volume = 1.0
+		use_hrtf = 1.0
+		xfade_start = 50.0
+		xfade_end = 1500.0
+		volume_falloff_max = 4000.0
+		occlusion_scale = 0.2
 		mixgroup = "Reviver"
 		vsnd_files_near = 
 		[
@@ -919,11 +920,11 @@
 	Headcrab_Reviver.Little_Stamp = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		volume_falloff_max = 1000.000000
-		distance_max = 1001.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.800000
+		volume = 0.9
+		volume_falloff_max = 1000.0
+		distance_max = 1001.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.8
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -935,12 +936,12 @@
 	Headcrab_Reviver.Tail_Shake = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 800.000000
-		distance_max = 800.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.900000
+		volume = 0.5
+		volume_falloff_min = 100.0
+		volume_falloff_max = 800.0
+		distance_max = 800.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.9
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -953,9 +954,9 @@
 	Headcrab_Reviver.Vent_Screech = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_min = 400.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		volume_falloff_min = 400.0
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -970,19 +971,19 @@
 	{
 		type = "hlvr_rand_parent"
 		random_soundevent_01_name = "Reviver.Vent_Child"
-		random_soundevent_01_timer_min = 0.100000
-		random_soundevent_01_timer_max = 0.140000
+		random_soundevent_01_timer_min = 0.1
+		random_soundevent_01_timer_max = 0.14
 	}
 	Reviver.Vent_Child = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		volume_rand_min = -0.100000
-		use_hrtf = 1.000000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 1200.000000
-		spread_min = 10.000000
-		spread_max = 20.000000
+		volume = 1.4
+		volume_rand_min = -0.1
+		use_hrtf = 1.0
+		volume_falloff_min = 100.0
+		volume_falloff_max = 1200.0
+		spread_min = 10.0
+		spread_max = 20.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1016,14 +1017,14 @@
 	Headcrab_Reviver.Breath_Fast_In = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.650000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.900000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
-		distance_max = 501.000000
+		volume = 0.65
+		use_hrtf = 1.0
+		occlusion_scale = 0.9
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
+		distance_max = 501.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1040,14 +1041,14 @@
 	Headcrab_Reviver.Breath_Fast_Out = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.650000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.900000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
-		distance_max = 501.000000
+		volume = 0.65
+		use_hrtf = 1.0
+		occlusion_scale = 0.9
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
+		distance_max = 501.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1064,14 +1065,14 @@
 	Headcrab_Reviver.Breath_Fast_Both = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.650000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.900000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
-		distance_max = 501.000000
+		volume = 0.65
+		use_hrtf = 1.0
+		occlusion_scale = 0.9
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
+		distance_max = 501.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1096,14 +1097,14 @@
 	Headcrab_Reviver.Breath_Injured_Out = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.650000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.900000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
-		distance_max = 501.000000
+		volume = 0.65
+		use_hrtf = 1.0
+		occlusion_scale = 0.9
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
+		distance_max = 501.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1126,13 +1127,13 @@
 	Headcrab_Reviver.Grunt_Run = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		occlusion_scale = 0.400000
-		use_hrtf = 1.000000
-		volume_fade_out = 0.300000
-		block_duration = 2.000000
+		volume = 0.7
+		occlusion_scale = 0.4
+		use_hrtf = 1.0
+		volume_fade_out = 0.3
+		block_duration = 2.0
 		block_match_this_event = true
-		block_match_entity = 1.000000
+		block_match_entity = 1.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1153,19 +1154,19 @@
 	Headcrab_Reviver.Breath_Run_Switch = 
 	{
 		type = "hlvr_start_multi_switch"
-		soundevent_split = 0.700000
+		soundevent_split = 0.7
 		soundevent_01 = "Headcrab_Reviver.Breath_Fast_Out"
 		soundevent_02 = "Headcrab_Reviver.Grunt_Run"
 	}
 	AmbientReviver.ElectricalBuzz = 
 	{
 		type = "hlvr_default_3d"
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
-		cull_at_distance = 1000.000000
-		volume = 0.300000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.900000
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
+		cull_at_distance = 1000.0
+		volume = 0.3
+		use_hrtf = 1.0
+		occlusion_scale = 0.9
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1177,11 +1178,11 @@
 	AmbientReviver.Zap = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.700000
-		volume_falloff_max = 1500.000000
-		distance_max = 1501.000000
+		volume = 0.7
+		use_hrtf = 1.0
+		occlusion_scale = 0.7
+		volume_falloff_max = 1500.0
+		distance_max = 1501.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1194,22 +1195,22 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "Headcrab_Reviver.Electric_Bolt_Blast"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "Headcrab_Reviver.Electric_Bolt_Thunder"
-		use_02 = 1.000000
+		use_02 = 1.0
 		soundevent_03 = "Headcrab_Reviver.Electric_Bolt_Zap"
-		use_03 = 1.000000
+		use_03 = 1.0
 	}
 	Headcrab_Reviver.Electric_Bolt_Blast = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		volume_fade_out = 6.000000
-		use_hrtf = 1.000000
-		pitch_rand_min = 0.000000
-		pitch_rand_max = 0.100000
-		occlusion_scale = 0.500000
-		distance_max = 3000.000000
+		volume = 0.7
+		volume_fade_out = 6.0
+		use_hrtf = 1.0
+		pitch_rand_min = 0.0
+		pitch_rand_max = 0.1
+		occlusion_scale = 0.5
+		distance_max = 3000.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1232,14 +1233,14 @@
 		[
 			"static_branch_event_limit_1",
 		]
-		volume = 0.100000
-		volume_fade_out = 3.000000
-		volume_falloff_min = 100.000000
-		delay_rand_min = 0.000000
-		delay_rand_max = 0.150000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.300000
-		distance_max = 3000.000000
+		volume = 0.1
+		volume_fade_out = 3.0
+		volume_falloff_min = 100.0
+		delay_rand_min = 0.0
+		delay_rand_max = 0.15
+		use_hrtf = 1.0
+		occlusion_scale = 0.3
+		distance_max = 3000.0
 		should_pause = true
 		mixgroup = "Reviver"
 		vsnd_files = 
@@ -1255,13 +1256,13 @@
 	Headcrab_Reviver.Electric_Bolt_Zap = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		volume_fade_out = 4.000000
-		pitch_rand_min = -0.150000
-		pitch_rand_max = 0.150000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.500000
-		distance_max = 3000.000000
+		volume = 0.6
+		volume_fade_out = 4.0
+		pitch_rand_min = -0.15
+		pitch_rand_max = 0.15
+		use_hrtf = 1.0
+		occlusion_scale = 0.5
+		distance_max = 3000.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1280,7 +1281,7 @@
 	Headcrab_Reviver.Battery_Insert = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1290,7 +1291,7 @@
 	Headcrab_Reviver.Battery_Remove = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1300,8 +1301,8 @@
 	Headcrab_Reviver.Scripted_Elevator_Crawl = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
 		should_pause = true
 		vsnd_files = 
@@ -1312,7 +1313,7 @@
 	Headcrab_Reviver.Scripted_Intro_Vox_Shake = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1322,7 +1323,7 @@
 	Headcrab_Reviver.Scripted_Intro_Vox_Turn = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1332,8 +1333,8 @@
 	Headcrab_Reviver.Scripted_PreRevive_Taunt = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1343,7 +1344,7 @@
 	Headcrab_Reviver.Scripted_Revive_Gore_Dive = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1353,7 +1354,7 @@
 	Headcrab_Reviver.Scripted_Revive_Gore_Impact = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1363,7 +1364,7 @@
 	Headcrab_Reviver.Scripted_Revive_Gore_Layer = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1373,7 +1374,7 @@
 	Headcrab_Reviver.Scripted_Revive_Push = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1383,7 +1384,7 @@
 	Headcrab_Reviver.Scripted_Revive_Vox_Cute = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1393,8 +1394,8 @@
 	Headcrab_Reviver.Scripted_Revive_Vox_Dive = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.500000
-		use_hrtf = 1.000000
+		volume = 1.5
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1404,7 +1405,7 @@
 	Headcrab_Reviver.Scripted_Escape_Vox_A = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1414,7 +1415,7 @@
 	Headcrab_Reviver.Scripted_Escape_Vox_B = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1424,7 +1425,7 @@
 	Headcrab_Reviver.Scripted_Escape_Vox_C = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1434,7 +1435,7 @@
 	Headcrab_Reviver.Scripted_Escape_Vox_D = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1444,7 +1445,7 @@
 	Headcrab_Reviver.Scripted_Pit_Passby_A = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1454,7 +1455,7 @@
 	Headcrab_Reviver.Scripted_Pit_Passby_B = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1464,11 +1465,11 @@
 	Headcrab_Reviver.Scripted_Duel_Growl = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		volume_falloff_max = 1000.000000
-		distance_max = 1001.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.800000
+		volume = 0.6
+		volume_falloff_max = 1000.0
+		distance_max = 1001.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.8
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1487,11 +1488,11 @@
 	Headcrab_Reviver.Scripted_Duel_Taunt = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		volume_falloff_max = 1000.000000
-		distance_max = 1001.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.800000
+		volume = 0.6
+		volume_falloff_max = 1000.0
+		distance_max = 1001.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.8
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1504,11 +1505,11 @@
 	Headcrab_Reviver.Scripted_Duel_Grunt_Backoff = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		volume_falloff_max = 1000.000000
-		distance_max = 1001.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.800000
+		volume = 0.4
+		volume_falloff_max = 1000.0
+		distance_max = 1001.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.8
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1529,11 +1530,11 @@
 	Headcrab_Reviver.Scripted_Duel_Pain = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		volume_falloff_max = 1000.000000
-		distance_max = 1001.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.800000
+		volume = 0.6
+		volume_falloff_max = 1000.0
+		distance_max = 1001.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.8
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[
@@ -1551,11 +1552,11 @@
 	Headcrab_Reviver.Scripted_Duel_Short_Hiss = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
-		volume_falloff_max = 1000.000000
-		distance_max = 1001.000000
-		occlusion_scale = 0.700000
+		volume = 0.5
+		use_hrtf = 1.0
+		volume_falloff_max = 1000.0
+		distance_max = 1001.0
+		occlusion_scale = 0.7
 		mixgroup = "Reviver"
 		vsnd_files = 
 		[

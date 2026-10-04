@@ -239,7 +239,6 @@ $Ib?s
 '\n"SPAWN_GROUP_CREATE_NEW_SCENE_WORLD
 '\n#SPAWN_GROUP_LOAD_ENTITIES_FROM_SAVE
 'out_location' must not be NULL
-( 8PX
 (#GameUI_Disconnect_LoopLevelLoadActivate
 (#GameUI_Disconnect_RemoteProblem_BadCert
 (#GameUI_Disconnect_RemoteProblem_Timeout
@@ -294,6 +293,7 @@ $Ib?s
 -#GameUI_Disconnect_LocalProblem_NetworkConfig
 -BH>t
 -avx
+-enable_2gb_morphs
 -inf
 -sse2
 -sse3
@@ -306,7 +306,7 @@ $Ib?s
 .?AUContainer@?$InternalMetadataWithArenaBase@VUnknownFieldSet@protobuf@google@@VInternalMetadataWithArena@internal@23@@internal@protobuf@google@@
 .?AV?$CBaseAppSystem@VIMapBuilderMgr@@@@
 .?AV?$CBaseAppSystem@VIResourceTypeCompiler@@@@
-.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_4ca8ec93892c43afe601791bcfa645d4>@@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
+.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_1>@?3??FastMergeClustersUntil@CVisibilitySampler@@QEAAXHIM@Z@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CParallelProcessor@HV?$CMemberFuncJobItemProcessor@HV?$CCallQueueT@V?$CTSQueue@PEAVCFunctor@@$0A@@@@@V1@@@$00@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CParallelProcessor@Uregion_status_t@@V?$CMemberFuncJobItemProcessor@Uregion_status_t@@VCVoxelSampler@@V2@@@$00@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CMemberFunctor8@PEAVRayTracingEnvironment@@P81@EAAXHPEBHHPEBUTriangleBounds_t@@VVector@@2HPEAVCUtlMultiJobProcessor@@@ZHPEAHHPEAU2@V3@V3@HPEAV4@V?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
@@ -421,7 +421,7 @@ $Ib?s
 .?AVCSchemaInstallCallback@@
 .?AVCSchemaRegistration@@
 .?AVCSchemaRegistration_visbuilder@@
-.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_4ca8ec93892c43afe601791bcfa645d4>@@@@@@QEAAXXZ@
+.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_1>@?3??FastMergeClustersUntil@CVisibilitySampler@@QEAAXHIM@Z@@@@@QEAAXXZ@
 .?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CParallelProcessor@HV?$CMemberFuncJobItemProcessor@HV?$CCallQueueT@V?$CTSQueue@PEAVCFunctor@@$0A@@@@@V1@@@$00@@@@QEAAXXZ@
 .?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CParallelProcessor@Uregion_status_t@@V?$CMemberFuncJobItemProcessor@Uregion_status_t@@VCVoxelSampler@@V2@@@$00@@@@QEAAXXZ@
 .?AVCThreadedJob@@
@@ -506,6 +506,7 @@ $Ib?s
 .?AVZeroCopyOutputStream@io@protobuf@google@@
 .?AV__non_rtti_object@std@@
 .?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
 .?AVbad_cast@std@@
 .?AVbad_exception@std@@
 .?AVbad_typeid@std@@
@@ -540,11 +541,10 @@ $Ib?s
 .bss
 .data
 .data$r
+.data$rs
 .dummy
 .edata
 .foo = value".
-.gfids$x
-.gfids$y
 .google.protobuf.EnumOptions
 .google.protobuf.FieldOptions
 .google.protobuf.FieldOptions"
@@ -564,6 +564,7 @@ $Ib?s
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .rtc$IAA
 .rtc$IZZ
@@ -604,7 +605,6 @@ $Ib?s
 2*.google.protobuf.FieldDescriptorProto.Type
 2+.google.protobuf.FieldDescriptorProto.Label
 2/.google.protobuf.MethodOptions.IdempotencyLevel:
-2\r52t
 3 FB
 37>k
 3>N;kU
@@ -616,7 +616,6 @@ $Ib?s
 6NK>
 6\fXO>\ntA
 6\n\fmessage_type
-700WP
 7>I0
 7?GX
 7\n\tenum_type
@@ -652,10 +651,11 @@ $Ib?s
 ?7zQ6$
 ?7{KV\nU
 ?8bunz8
+??0CThreadFastMutex@@QEAA@XZ
 ??0CThreadMultiWaitEvent@@QEAA@_N@Z
 ??0CThreadMutex@@QEAA@PEBD@Z
+??0CThreadMutex@@QEAA@XZ
 ??1CThreadMultiWaitEvent@@QEAA@XZ
-??1CThreadMutex@@QEAA@XZ
 ?@En[vP
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
 ?Concat@CBufferString@@QEAAPEBDPEBD0ZZ
@@ -666,7 +666,7 @@ $Ib?s
 ?FixupPathName@CBufferString@@QEAAPEBDD@Z
 ?Format@CBufferString@@QEAAHPEBDZZ
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@PEBULoggingMetaData_t@@VColor@@PEBDZZ
@@ -681,6 +681,7 @@ $Ib?s
 ?SetPtr@CBufferString@@QEAAXPEADHH_N1@Z
 ?StartsWith@CBufferString@@QEAA_NPEBD@Z
 ?UUUUUU
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
 ?f`Y4
@@ -736,7 +737,6 @@ A\n!NETWORK_DISCONNECT_REJECT_NOLOBBY
 A\n\nannotation
 AbsolutePoseControl
 Access violation - no RTTI data!
-AcquireSRWLockExclusive
 AddAllocatedMessage
 AddBool
 AddDouble
@@ -779,7 +779,9 @@ Animation
 AnimationList
 AnimationSystemUtils_001
 AnimationSystem_001
+AppPolicyGetProcessTerminationMethod
 April
+AreFileApisANSI
 AssertMsg_ConditionFailed
 AssetBrowserSystem_001
 AssetPreviewSystem_001
@@ -963,6 +965,8 @@ CUtlBuffer::VaPrintf
 CUtlBuffer::VaPrintf: String overflowed buffer [%llu]\n
 CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
 CUtlMemoryPoolBase::CUtlMemoryPoolBase
+CUtlRBTree overflow with %u elements!\n
+CUtlRBTree<void *,int,bool (__cdecl*)(void * const &,void * const &),class CUtlMemory<struct UtlRBTreeNode_t<void *,int>,int> >::NewNode
 CUtlString
 CUtlString::FormatV
 CUtlStringToken
@@ -1070,9 +1074,6 @@ Cannot save KV3 text to a non-text buffer!
 Cannot save as KV3_FORMAT_LOAD_WITH_NO_UPCONVERSION.
 ClearField
 CloseHandle
-CloseThreadpoolTimer
-CloseThreadpoolWait
-CloseThreadpoolWork
 ClothShapeCapsule
 ClothShapeList
 ClothShapeSphere
@@ -1089,22 +1090,14 @@ ConfigAttachedModel
 ConfigurationSystem_001
 ConnectInterfaces
 Convert RTE with %d triangles in %.2fs\n
-Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
 CorExitProcess
 Could not create an instance of 
 Could not find type "
 Couldn't parse default value "
-CreateEventExW
 CreateEventW
 CreateFileW
 CreateInterface
 CreateNewThreadPool
-CreateSemaphoreExW
-CreateSemaphoreW
-CreateSymbolicLinkW
-CreateThreadpoolTimer
-CreateThreadpoolWait
-CreateThreadpoolWork
 Cycle or diamond double-reference to '%s'
 CycleOverride
 DEFAULT_WRITE_PATH
@@ -1250,8 +1243,8 @@ FileOptions
 Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports "
 Files with optimize_for = LITE_RUNTIME cannot define services unless you set both options cc_generic_services and java_generic_sevices to false.
 FindClose
-FindFirstFileExA
-FindNextFileA
+FindFirstFileExW
+FindNextFileW
 First argument to Swap() (of type "
 First argument to SwapFields() (of type "
 FlatVisClusterVector
@@ -1261,12 +1254,10 @@ FlsFree
 FlsGetValue
 FlsSetValue
 FlushFileBuffers
-FlushProcessWriteBuffers
 FontManager_001
 Found invalid proto option data for: 
 FreeEnvironmentStringsW
 FreeLibrary
-FreeLibraryWhenCallbackReturns
 Friday
 G>US
 GCTL
@@ -1282,26 +1273,23 @@ GetCPUInformation
 GetCStringCharConversion
 GetCommandLineA
 GetCommandLineW
-GetConsoleCP
 GetConsoleMode
-GetCurrentPackageId
+GetConsoleOutputCP
 GetCurrentProcess
 GetCurrentProcessId
-GetCurrentProcessorNumber
 GetCurrentThreadId
 GetDefaultMiniDumpTypeFlags
 GetDouble
 GetEnumValue
 GetEnvironmentStringsW
-GetFileInformationByHandleEx
+GetFileSizeEx
 GetFileType
 GetFloat
 GetInt32
 GetInt64
 GetLastError
-GetLocaleInfoEx
 GetMessage
-GetModuleFileNameA
+GetModuleFileNameW
 GetModuleHandleExW
 GetModuleHandleW
 GetOEMCP
@@ -1327,8 +1315,6 @@ GetString
 GetStringReference
 GetStringTypeW
 GetSystemTimeAsFileTime
-GetSystemTimePreciseAsFileTime
-GetTickCount64
 GetUInt32
 GetUInt64
 Google.Protobuf.Reflection
@@ -1347,7 +1333,7 @@ IKRig
 IKRigBiped
 IKRigBug
 IKRigSimple
-IND)ind)
+IND)ind)"
 INFO
 INITY
 INVALID_CPPTYPE
@@ -1369,14 +1355,11 @@ InfoForResourceTypeCRenderMesh
 InfoForResourceTypeCTextureBase
 InfoForResourceTypeIMaterial2
 InfoOverlayData_t
-InitOnceExecuteOnce
 InitialRegionStatus
-InitializeConditionVariable
 InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
-InitializeSRWLock
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
@@ -1706,6 +1689,8 @@ QueryPerformanceCounter
 Queue drained to %d!!! %d completed %d processed %ums (%d were queued)\n
 QueuedLoaderVersion001
 RSDS
+R\vp8
+R\vpp
 RadianEuler
 RaiseException
 RandomFloat
@@ -1722,7 +1707,6 @@ RegisterStringToken
 Release
 ReleaseLast
 ReleaseMessage
-ReleaseSRWLockExclusive
 RemoveBoneAndChildren
 RemoveLast
 Removed %s bytes from tree structure\n
@@ -1790,9 +1774,8 @@ SetDouble
 SetEnum
 SetEnumValue
 SetEnumValue accepts only valid integer values: value 
-SetEnvironmentVariableA
+SetEnvironmentVariableW
 SetEvent
-SetFileInformationByHandle
 SetFilePointerEx
 SetFloat
 SetInt32
@@ -1810,15 +1793,12 @@ SetRepeatedUInt32
 SetRepeatedUInt64
 SetStdHandle
 SetString
-SetThreadpoolTimer
-SetThreadpoolWait
 SetUInt32
 SetUInt64
 SetUnhandledExceptionFilter
 Should not reach here.
 Sleep
 SleepConditionVariableCS
-SleepConditionVariableSRW
 SmoothLoop
 SoundOpSystem001
 SoundOpSystemEdit001
@@ -1846,7 +1826,6 @@ SteamAudio001
 String field
 String literals cannot cross line boundaries.
 StringOutputStream.
-SubmitThreadpoolWork
 Subtract
 Successfully read %s\n
 Successfully unserialized ray tracing environment.\n
@@ -1878,6 +1857,7 @@ This ZeroCopyOutputStream doesn't support aliasing. Reaching here usually means 
 This program requires version 
 This program was compiled against version 
 This shouldn't be called if all the sizes are equal.
+ThreadAtomicNotifyAll
 ThreadMultiWaitObjectSetDestroy
 Thursday
 TlsAlloc
@@ -1894,7 +1874,6 @@ Trailing Data
 Tried to merge messages of different types 
 True
 Truncated data
-TryAcquireSRWLockExclusive
 Tuesday
 Two Bone
 Two KV3 format GUIDs with the same human-friendly name ('%s')
@@ -2053,9 +2032,7 @@ W\n,NETWORK_DISCONNECT_REJECT_CONNECT_FROM_LOBBY
 W\n,NETWORK_DISCONNECT_REJECT_RESERVED_FOR_LOBBY
 WaNd?
 WaitForSingleObjectEx
-WaitForThreadpoolTimerCallbacks
 WakeAllConditionVariable
-WakeConditionVariable
 Warning
 Warning parsing text-format 
 Warning:  %s = '%s' is infinite, clamping value.\n
@@ -2100,7 +2077,8 @@ Z\n+NETWORK_DISCONNECT_CONNECT_REQUEST_TIMEDOUT
 \\n)NETWORK_DISCONNECT_PURESERVER_CLIENTEXTRA
 \\n*NETWORK_DISCONNECT_LOOP_LEVELLOAD_ACTIVATE
 \\n.NETWORK_DISCONNECT_REQUEST_HOSTSTATE_HLTVRELAY
-\fF-enable_2gb_morphs
+\fFm_bUseShadowFastPath
+\fp\vPp
 \n    Actual    : 
 \n    Field type: 
 \n  Field       : 
@@ -2198,6 +2176,7 @@ Z\n+NETWORK_DISCONNECT_CONNECT_REQUEST_TIMEDOUT
 ^<V7w
 ^RfN>
 ^\n*NETWORK_DISCONNECT_LOCALPROBLEM_MANYRELAYS
+_RDATA
 _V_strncmp
 _V_strncpy
 _\n,NETWORK_DISCONNECT_STEAM_DENY_BAD_ANTI_CHEAT
@@ -2212,6 +2191,8 @@ __pascal
 __ptr64
 __restrict
 __stdcall
+__swift_1
+__swift_2
 __temp_unserialization_member__
 __thiscall
 __unaligned
@@ -2220,6 +2201,7 @@ _class
 _oD>Kg
 _test_conversion_counter
 `RTTI
+`anonymous namespace'
 `copy constructor closure'
 `default constructor closure'
 `dynamic atexit destructor for '
@@ -2290,6 +2272,7 @@ b\fp\v0
 b\n,NETWORK_DISCONNECT_SPLITPACKET_SEND_OVERFLOW
 bad address
 bad allocation
+bad array new length
 bad exception
 bad file descriptor
 bad message
@@ -2331,6 +2314,7 @@ c:\buildslave\hlvr_rel_win64\build\src\mathlib\mathlib.cpp
 c:\buildslave\hlvr_rel_win64\build\src\public\ordered_constructor.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier0\tslist.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlblockmemory.h
+c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlrbtree.h
 c:\buildslave\hlvr_rel_win64\build\src\public\vstdlib\jobthread.h
 c:\buildslave\hlvr_rel_win64\build\src\raytrace\raytrace.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\configvalue.cpp
@@ -2419,7 +2403,6 @@ event_t
 eventid
 eventindex
 events
-exd+
 executable format error
 explosion_behavior
 explosion_buildup
@@ -2642,7 +2625,6 @@ m_bScalePerParticle
 m_bTrailBias
 m_bUseCompressedNormalTangent
 m_bUseHighestEndCP
-m_bUseShadowFastPath
 m_bUsesIndexedBakedLighting
 m_bWrapInAtlas
 m_blockOffset
@@ -2893,7 +2875,7 @@ msg_type
 multiplayer_break
 n03>Pu
 nTries < 10000000
-n\f"pA3Q
+n\f"pA3Q@
 n]?iJ
 name
 nan(ind)
@@ -2954,6 +2936,8 @@ operation not supported
 operation would block
 operator
 operator "" 
+operator co_await
+operator<=>
 optional
 options
 origin
@@ -3111,6 +3095,7 @@ value
 value too large
 valveextensions.proto
 vanmgrph
+vector too long
 vector<T> too long
 version
 visbuilder
@@ -3164,7 +3149,6 @@ world_visibility.vvis
 wrong protocol type
 wrong submessage type
 xT?V
-xpxxxx
 xuid
 yaw_end
 yaw_start

@@ -1,13 +1,14 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Music.TrainYardCombineIntro1 = 
 	{
 		type = "hlvr_music_2d"
-		use_combat_music_convar = 1.000000
+		use_combat_music_convar = 1.0
 		track = "main"
 		priority = 0
-		volume = 0.450000
-		volume_fade_out = 3.000000
-		restart_time = 27.017000
+		volume = 0.45
+		volume_fade_out = 3.0
+		restart_time = 27.017
 		vsnd_files = 
 		[
 			"sounds/music/places/trains/combine_battle_intro_05.vsnd",
@@ -17,51 +18,31 @@
 	{
 		type = "hlvr_music_2d"
 		track = "main"
-		use_combat_music_convar = 1.000000
+		use_combat_music_convar = 1.0
 		priority = 1
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				20.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				20.0, 1.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				40.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				40.0, 0.7, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				90.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				90.0, 0.5, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
-		volume = 0.500000
+		volume = 0.5
 		volume_fade_in = 0
 		volume_fade_out = 5
-		restart_time = 92.673000
+		restart_time = 92.673
 		vsnd_files = 
 		[
 			"sounds/music/places/trains/combine_battle_05.vsnd",
@@ -70,12 +51,12 @@
 	Music.TrainYardCombineInterm = 
 	{
 		type = "hlvr_music_2d"
-		use_combat_music_convar = 1.000000
+		use_combat_music_convar = 1.0
 		track = "main"
 		priority = 2
-		volume = 0.450000
-		volume_fade_out = 3.000000
-		restart_time = 27.017000
+		volume = 0.45
+		volume_fade_out = 3.0
+		restart_time = 27.017
 		vsnd_files = 
 		[
 			"sounds/music/places/trains/combine_battle_intro_05.vsnd",
@@ -84,12 +65,12 @@
 	Music.TrainYardCombineIntro = 
 	{
 		type = "hlvr_music_2d"
-		use_combat_music_convar = 1.000000
+		use_combat_music_convar = 1.0
 		track = "main"
 		priority = 3
-		volume = 0.450000
-		volume_fade_out = 3.000000
-		restart_time = 27.017000
+		volume = 0.45
+		volume_fade_out = 3.0
+		restart_time = 27.017
 		vsnd_files = 
 		[
 			"sounds/music/places/trains/combine_battle_intro_05.vsnd",
@@ -98,52 +79,32 @@
 	Music.TrainYardCombine = 
 	{
 		type = "hlvr_music_2d"
-		use_combat_music_convar = 1.000000
+		use_combat_music_convar = 1.0
 		track = "main"
 		priority = 4
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				20.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				20.0, 1.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				40.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				40.0, 0.7, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				90.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				90.0, 0.5, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
-		volume = 0.500000
-		volume_fade_in = 2.500000
+		volume = 0.5
+		volume_fade_in = 2.5
 		volume_fade_out = 4
-		restart_time = 92.673000
+		restart_time = 92.673
 		vsnd_files = 
 		[
 			"sounds/music/places/trains/combine_battle_05.vsnd",
@@ -154,7 +115,7 @@
 		type = "hlvr_music_2d"
 		track = "main"
 		priority = 5
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = 
 		[
 			"sounds/common/null.vsnd",
@@ -163,47 +124,25 @@
 	Music.a2_trainyard_combine_console_enter = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.500000
+		volume = 0.5
 		volume_fade_out = 10
 		track = "main"
 		priority = 0
-		wait_for_track = 0.000000
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			33.103000,
-		]
-		sync_bpm = 
-		[
-			116.000000,
-		]
-		sync_bpm_beats = 
-		[
-			1.000000,
-		]
-		restart_time = 33.103000
+		wait_for_track = 0.0
+		start_point = [ 0.0 ]
+		end_point = [ 33.103 ]
+		sync_bpm = [ 116.0 ]
+		sync_bpm_beats = [ 1.0 ]
+		restart_time = 33.103
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				10.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				10.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				30.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				30.0, 0.7, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		vsnd_files = 
@@ -214,47 +153,25 @@
 	Music.a2_trainyard_combine_cell_enter = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.500000
+		volume = 0.5
 		volume_fade_out = 10
 		track = "main"
 		priority = 1
-		wait_for_track = 0.000000
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			85.560000,
-		]
-		sync_bpm = 
-		[
-			116.000000,
-		]
-		sync_bpm_beats = 
-		[
-			1.000000,
-		]
-		restart_time = 85.560000
+		wait_for_track = 0.0
+		start_point = [ 0.0 ]
+		end_point = [ 85.56 ]
+		sync_bpm = [ 116.0 ]
+		sync_bpm_beats = [ 1.0 ]
+		restart_time = 85.56
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				10.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				10.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				40.000000,
-				0.600000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				40.0, 0.6, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		vsnd_files = 
@@ -265,47 +182,25 @@
 	Music.a2_trainyard_combine_cell_exit = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
-		volume_fade_out = 0.100000
+		volume = 0.7
+		volume_fade_out = 0.1
 		track = "main"
 		priority = 2
-		wait_for_track = 0.000000
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			33.103000,
-		]
-		sync_bpm = 
-		[
-			116.000000,
-		]
-		sync_bpm_beats = 
-		[
-			1.000000,
-		]
-		restart_time = 33.103000
+		wait_for_track = 0.0
+		start_point = [ 0.0 ]
+		end_point = [ 33.103 ]
+		sync_bpm = [ 116.0 ]
+		sync_bpm_beats = [ 1.0 ]
+		restart_time = 33.103
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				10.000000,
-				0.800000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				10.0, 0.8, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				30.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				30.0, 1.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		vsnd_files = 
@@ -316,47 +211,25 @@
 	Music.a2_trainyard_train_action_1 = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
-		volume_fade_out = 0.100000
+		volume = 0.7
+		volume_fade_out = 0.1
 		track = "main"
 		priority = 3
-		wait_for_track = 0.000000
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			33.103000,
-		]
-		sync_bpm = 
-		[
-			116.000000,
-		]
-		sync_bpm_beats = 
-		[
-			1.000000,
-		]
-		restart_time = 33.103000
+		wait_for_track = 0.0
+		start_point = [ 0.0 ]
+		end_point = [ 33.103 ]
+		sync_bpm = [ 116.0 ]
+		sync_bpm_beats = [ 1.0 ]
+		restart_time = 33.103
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				10.000000,
-				0.800000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				10.0, 0.8, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				30.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				30.0, 1.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		vsnd_files = 
@@ -367,29 +240,17 @@
 	Music.a2_trainyard_train_action_1b = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.800000
-		volume_fade_out = 0.100000
+		volume = 0.8
+		volume_fade_out = 0.1
 		track = "main"
 		priority = 4
 		sync_track = "main"
-		wait_for_track = 0.000000
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			32.820000,
-		]
-		sync_bpm = 
-		[
-			117.000000,
-		]
-		sync_bpm_beats = 
-		[
-			1.000000,
-		]
-		restart_time = 32.820000
+		wait_for_track = 0.0
+		start_point = [ 0.0 ]
+		end_point = [ 32.82 ]
+		sync_bpm = [ 117.0 ]
+		sync_bpm_beats = [ 1.0 ]
+		restart_time = 32.82
 		vsnd_files = 
 		[
 			"sounds/music/places/trains/a2_train_action1b.vsnd",
@@ -398,29 +259,17 @@
 	Music.a2_trainyard_train_action_2 = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.900000
-		volume_fade_out = 0.100000
+		volume = 0.9
+		volume_fade_out = 0.1
 		track = "main"
 		priority = 5
 		sync_track = "main"
-		wait_for_track = 0.000000
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			32.542000,
-		]
-		sync_bpm = 
-		[
-			118.000000,
-		]
-		sync_bpm_beats = 
-		[
-			1.000000,
-		]
-		restart_time = 32.542000
+		wait_for_track = 0.0
+		start_point = [ 0.0 ]
+		end_point = [ 32.542 ]
+		sync_bpm = [ 118.0 ]
+		sync_bpm_beats = [ 1.0 ]
+		restart_time = 32.542
 		vsnd_files = 
 		[
 			"sounds/music/places/trains/a2_train_action2.vsnd",
@@ -430,47 +279,25 @@
 	{
 		type = "hlvr_music_2d"
 		volume = 1
-		volume_fade_out = 0.100000
+		volume_fade_out = 0.1
 		track = "main"
 		priority = 6
 		sync_track = "main"
-		wait_for_track = 0.000000
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			32.268000,
-		]
-		sync_bpm = 
-		[
-			119.000000,
-		]
-		sync_bpm_beats = 
-		[
-			1.000000,
-		]
-		restart_time = 32.268000
+		wait_for_track = 0.0
+		start_point = [ 0.0 ]
+		end_point = [ 32.268 ]
+		sync_bpm = [ 119.0 ]
+		sync_bpm_beats = [ 1.0 ]
+		restart_time = 32.268
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 0.5, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				30.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				30.0, 1.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		vsnd_files = 
@@ -484,23 +311,11 @@
 		volume = 1
 		track = "main"
 		priority = 7
-		wait_for_track = 0.000000
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			10.256000,
-		]
-		sync_bpm = 
-		[
-			120.000000,
-		]
-		sync_bpm_beats = 
-		[
-			1.000000,
-		]
+		wait_for_track = 0.0
+		start_point = [ 0.0 ]
+		end_point = [ 10.256 ]
+		sync_bpm = [ 120.0 ]
+		sync_bpm_beats = [ 1.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/trains/a2_train_crash.vsnd",
@@ -529,52 +344,25 @@
 		volume_fade_out = 7
 		track = "main"
 		priority = 8
-		wait_for_track = 0.000000
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			59.076000,
-		]
-		sync_bpm = 
-		[
-			65,
-		]
-		sync_bpm_beats = 
-		[
-			1.000000,
-		]
-		restart_time = 59.076000
+		wait_for_track = 0.0
+		start_point = [ 0.0 ]
+		end_point = [ 59.076 ]
+		sync_bpm = [ 65 ]
+		sync_bpm_beats = [ 1.0 ]
+		restart_time = 59.076
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				0.600000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 0.6, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				20.000000,
-				0.800000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				20.0, 0.8, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				90.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				90.0, 0.5, 0.0, 0.0,
+				1.0, 1.0,
 			],
 		]
 		vsnd_files = 
@@ -595,56 +383,29 @@
 	Music.a2_trainyard_train_advisors = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.350000
+		volume = 0.35
 		volume_fade_out = 3
 		track = "main"
 		priority = 10
-		wait_for_track = 0.000000
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			59.076000,
-		]
-		sync_bpm = 
-		[
-			65,
-		]
-		sync_bpm_beats = 
-		[
-			1.000000,
-		]
-		restart_time = 59.076000
+		wait_for_track = 0.0
+		start_point = [ 0.0 ]
+		end_point = [ 59.076 ]
+		sync_bpm = [ 65 ]
+		sync_bpm_beats = [ 1.0 ]
+		restart_time = 59.076
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				0.900000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 0.9, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				30.000000,
-				0.900000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				30.0, 0.9, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				60.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				60.0, 0.7, 0.0, 0.0,
+				1.0, 1.0,
 			],
 		]
 		vsnd_files = 
@@ -659,52 +420,25 @@
 		volume_fade_out = 3
 		track = "main"
 		priority = 11
-		wait_for_track = 0.000000
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			59.076000,
-		]
-		sync_bpm = 
-		[
-			65,
-		]
-		sync_bpm_beats = 
-		[
-			1.000000,
-		]
-		restart_time = 59.076000
+		wait_for_track = 0.0
+		start_point = [ 0.0 ]
+		end_point = [ 59.076 ]
+		sync_bpm = [ 65 ]
+		sync_bpm_beats = [ 1.0 ]
+		restart_time = 59.076
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				0.600000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 0.6, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				30.000000,
-				0.800000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				30.0, 0.8, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				60.000000,
-				0.600000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				60.0, 0.6, 0.0, 0.0,
+				1.0, 1.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 0
@@ -721,52 +455,25 @@
 		volume_fade_out = 4
 		track = "main"
 		priority = 12
-		wait_for_track = 0.000000
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			29.538000,
-		]
-		sync_bpm = 
-		[
-			65,
-		]
-		sync_bpm_beats = 
-		[
-			1.000000,
-		]
-		restart_time = 29.538000
+		wait_for_track = 0.0
+		start_point = [ 0.0 ]
+		end_point = [ 29.538 ]
+		sync_bpm = [ 65 ]
+		sync_bpm_beats = [ 1.0 ]
+		restart_time = 29.538
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				0.650000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 0.65, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				30.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				30.0, 0.5, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				60.000000,
-				0.400000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				60.0, 0.4, 0.0, 0.0,
+				1.0, 1.0,
 			],
 		]
 		vsnd_files = 
@@ -782,52 +489,25 @@
 		volume_fade_out = 4
 		track = "main"
 		priority = 13
-		wait_for_track = 0.000000
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			29.538000,
-		]
-		sync_bpm = 
-		[
-			65,
-		]
-		sync_bpm_beats = 
-		[
-			1.000000,
-		]
-		restart_time = 29.538000
+		wait_for_track = 0.0
+		start_point = [ 0.0 ]
+		end_point = [ 29.538 ]
+		sync_bpm = [ 65 ]
+		sync_bpm_beats = [ 1.0 ]
+		restart_time = 29.538
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				0.600000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 0.6, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				30.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				30.0, 0.5, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				60.000000,
-				0.400000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				60.0, 0.4, 0.0, 0.0,
+				1.0, 1.0,
 			],
 		]
 		vsnd_files = 
@@ -843,52 +523,25 @@
 		volume_fade_out = 3
 		track = "main"
 		priority = 14
-		wait_for_track = 0.000000
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			28.656000,
-		]
-		sync_bpm = 
-		[
-			67,
-		]
-		sync_bpm_beats = 
-		[
-			1.000000,
-		]
-		restart_time = 28.656000
+		wait_for_track = 0.0
+		start_point = [ 0.0 ]
+		end_point = [ 28.656 ]
+		sync_bpm = [ 67 ]
+		sync_bpm_beats = [ 1.0 ]
+		restart_time = 28.656
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				0.600000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 0.6, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				30.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				30.0, 0.5, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				60.000000,
-				0.400000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				60.0, 0.4, 0.0, 0.0,
+				1.0, 1.0,
 			],
 		]
 		vsnd_files = 
@@ -910,7 +563,7 @@
 	Music.a2_trainyard_train_eli_sequence_child = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.750000
+		volume = 0.75
 		track = "main"
 		priority = 16
 		vsnd_files = 
@@ -925,29 +578,29 @@
 		soundevent_02 = "Music.a2_trainyard_vort_chant_r"
 		soundevent_03 = "Music.a2_trainyard_vort_chant_ls"
 		soundevent_04 = "Music.a2_trainyard_vort_chant_rs"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	Music.a2_trainyard_vort_chant_l = 
 	{
 		type = "hlvr_music_fixed_rotation"
-		volume_base = 1.000000
+		volume_base = 1.0
 		mixgroup = "LoudMusic"
 		rotation_angle = 0
-		volume_fade_out = 1.000000
-		volume = 1.100000
-		enable_debug_radius = 0.000000
+		volume_fade_out = 1.0
+		volume = 1.1
+		enable_debug_radius = 0.0
 		soundname_string = "L"
-		restart_time = 44.769000
+		restart_time = 44.769
 		stop_at_time = 16
-		fade_over_time_x1 = 0.000000
-		fade_over_time_y1 = 0.000000
-		fade_over_time_x2 = 1.000000
-		fade_over_time_y2 = 1.000000
-		fade_over_time_x3 = 10.000000
-		fade_over_time_y3 = 1.000000
-		fade_over_time_x4 = 16.000000
-		fade_over_time_y4 = 0.000000
+		fade_over_time_x1 = 0.0
+		fade_over_time_y1 = 0.0
+		fade_over_time_x2 = 1.0
+		fade_over_time_y2 = 1.0
+		fade_over_time_x3 = 10.0
+		fade_over_time_y3 = 1.0
+		fade_over_time_x4 = 16.0
+		fade_over_time_y4 = 0.0
 		vsnd_files = 
 		[
 			"sounds/music/places/hideout/a2_hideout_vort_prep_l.vsnd",
@@ -988,7 +641,7 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "Music.a2_trainyard_train_eli_sequence_child"
 		soundevent_02 = "Music.a2_trainyard_vort_chant"
-		use_01 = 1.000000
+		use_01 = 1.0
 		use_02 = 1
 	}
 }

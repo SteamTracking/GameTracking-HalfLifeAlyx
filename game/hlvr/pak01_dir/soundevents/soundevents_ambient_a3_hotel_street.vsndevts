@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	AmbientHotelStreet.StairwellAddin = 
 	{
@@ -6,8 +7,8 @@
 		soundevent_02 = "AmbientHotelStreet.StairwellAddin_R"
 		soundevent_03 = "AmbientHotelStreet.StairwellAddin_LS"
 		soundevent_04 = "AmbientHotelStreet.StairwellAddin_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientHotelStreet.StairwellAddin_L = 
 	{
@@ -16,30 +17,30 @@
 		vsnd_file_02 = "sounds/ambient/subway_station/amb_station_tall_room_base_lp_01_l.vsnd"
 		vsnd_vol_01 = "0.55"
 		vsnd_vol_02 = "0.45"
-		volume = 0.850000
+		volume = 0.85
 		global_opvar_name_01 = "large_room_addin_beacon"
-		global_opvar_filter_velocity_02 = 2.000000
+		global_opvar_filter_velocity_02 = 2.0
 	}
 	AmbientHotelStreet.StairwellAddin_R = 
 	{
 		base = "AmbientHotelStreet.StairwellAddin_L"
 		vsnd_file_01 = "sounds/ambient/interior/amb_stairwell_addin_lp_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/subway_station/amb_station_tall_room_base_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientHotelStreet.StairwellAddin_LS = 
 	{
 		base = "AmbientHotelStreet.StairwellAddin_L"
 		vsnd_file_01 = "sounds/ambient/interior/amb_stairwell_addin_lp_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/subway_station/amb_station_tall_room_base_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientHotelStreet.StairwellAddin_RS = 
 	{
 		base = "AmbientHotelStreet.StairwellAddin_L"
 		vsnd_file_01 = "sounds/ambient/interior/amb_stairwell_addin_lp_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/subway_station/amb_station_tall_room_base_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientHotelStreet.InteriorLgLp = 
 	{
@@ -48,8 +49,8 @@
 		soundevent_02 = "AmbientHotelStreet.InteriorLgLp_R"
 		soundevent_03 = "AmbientHotelStreet.InteriorLgLp_LS"
 		soundevent_04 = "AmbientHotelStreet.InteriorLgLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientHotelStreet.InteriorLgLp_L = 
 	{
@@ -60,19 +61,19 @@
 		vsnd_vol_01 = "0.31"
 		vsnd_vol_02 = "0.60"
 		vsnd_vol_03 = "0.69"
-		volume = 0.750000
+		volume = 0.75
 		global_opvar_name_02 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity_02 = 2.500000
-		remap_vol_opvar_02_x1 = 0.000000
-		remap_vol_opvar_02_y1 = 1.000000
-		remap_vol_opvar_02_x2 = 0.200000
-		remap_vol_opvar_02_y2 = 0.900000
-		remap_vol_opvar_02_x3 = 0.500000
-		remap_vol_opvar_02_y3 = 0.500000
-		remap_vol_opvar_02_x4 = 1.000000
-		remap_vol_opvar_02_y4 = 0.000000
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
+		global_opvar_filter_velocity_02 = 2.5
+		remap_vol_opvar_02_x1 = 0.0
+		remap_vol_opvar_02_y1 = 1.0
+		remap_vol_opvar_02_x2 = 0.2
+		remap_vol_opvar_02_y2 = 0.9
+		remap_vol_opvar_02_x3 = 0.5
+		remap_vol_opvar_02_y3 = 0.5
+		remap_vol_opvar_02_x4 = 1.0
+		remap_vol_opvar_02_y4 = 0.0
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
 	}
 	AmbientHotelStreet.InteriorLgLp_R = 
 	{
@@ -80,7 +81,7 @@
 		vsnd_file_01 = "sounds/ambient/interior/amb_hotel_basement_quad_lp_02_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_nice_basement_lp_01_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/abstract/amb_ringing_pulse_quad_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientHotelStreet.InteriorLgLp_LS = 
 	{
@@ -88,7 +89,7 @@
 		vsnd_file_01 = "sounds/ambient/interior/amb_hotel_basement_quad_lp_02_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_nice_basement_lp_01_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/abstract/amb_ringing_pulse_quad_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientHotelStreet.InteriorLgLp_RS = 
 	{
@@ -96,7 +97,7 @@
 		vsnd_file_01 = "sounds/ambient/interior/amb_hotel_basement_quad_lp_02_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_nice_basement_lp_01_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/abstract/amb_ringing_pulse_quad_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientHotelStreet.InteriorSmLp = 
 	{
@@ -105,8 +106,8 @@
 		soundevent_02 = "AmbientHotelStreet.InteriorSmLp_R"
 		soundevent_03 = "AmbientHotelStreet.InteriorSmLp_LS"
 		soundevent_04 = "AmbientHotelStreet.InteriorSmLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientHotelStreet.InteriorSmLp_L = 
 	{
@@ -115,40 +116,40 @@
 		vsnd_file_02 = "sounds/ambient/subway_station/amb_station_small_room_base_lp_01_l.vsnd"
 		vsnd_vol_01 = "0.81"
 		vsnd_vol_02 = "0.10"
-		volume = 0.900000
+		volume = 0.9
 		global_opvar_name_02 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity_02 = 2.500000
-		remap_vol_opvar_02_x1 = 0.000000
-		remap_vol_opvar_02_y1 = 1.000000
-		remap_vol_opvar_02_x2 = 0.200000
-		remap_vol_opvar_02_y2 = 0.900000
-		remap_vol_opvar_02_x3 = 0.500000
-		remap_vol_opvar_02_y3 = 0.500000
-		remap_vol_opvar_02_x4 = 1.000000
-		remap_vol_opvar_02_y4 = 0.000000
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
+		global_opvar_filter_velocity_02 = 2.5
+		remap_vol_opvar_02_x1 = 0.0
+		remap_vol_opvar_02_y1 = 1.0
+		remap_vol_opvar_02_x2 = 0.2
+		remap_vol_opvar_02_y2 = 0.9
+		remap_vol_opvar_02_x3 = 0.5
+		remap_vol_opvar_02_y3 = 0.5
+		remap_vol_opvar_02_x4 = 1.0
+		remap_vol_opvar_02_y4 = 0.0
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
 	}
 	AmbientHotelStreet.InteriorSmLp_R = 
 	{
 		base = "AmbientHotelStreet.InteriorSmLp_L"
 		vsnd_file_01 = "sounds/ambient/abstract/amb_underground_pit_basement_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/subway_station/amb_station_small_room_base_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientHotelStreet.InteriorSmLp_LS = 
 	{
 		base = "AmbientHotelStreet.InteriorSmLp_L"
 		vsnd_file_01 = "sounds/ambient/abstract/amb_underground_pit_basement_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/subway_station/amb_station_small_room_base_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientHotelStreet.InteriorSmLp_RS = 
 	{
 		base = "AmbientHotelStreet.InteriorSmLp_L"
 		vsnd_file_01 = "sounds/ambient/abstract/amb_underground_pit_basement_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/subway_station/amb_station_small_room_base_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientHotelStreet.ExteriorLp = 
 	{
@@ -157,8 +158,8 @@
 		soundevent_02 = "AmbientHotelStreet.ExteriorLp_R"
 		soundevent_03 = "AmbientHotelStreet.ExteriorLp_LS"
 		soundevent_04 = "AmbientHotelStreet.ExteriorLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientHotelStreet.ExteriorLp_L = 
 	{
@@ -171,7 +172,7 @@
 		vsnd_vol_02 = "0.21"
 		vsnd_vol_03 = "0.32"
 		vsnd_vol_04 = "0.6"
-		volume = 0.900000
+		volume = 0.9
 	}
 	AmbientHotelStreet.ExteriorLp_R = 
 	{
@@ -180,7 +181,7 @@
 		vsnd_file_02 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_outdoor_lp_01_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_tenement_open_air_quad_lp_01_r.vsnd"
 		vsnd_file_04 = "sounds/ambient/city/amb_proc_plant_ext_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientHotelStreet.ExteriorLp_LS = 
 	{
@@ -189,7 +190,7 @@
 		vsnd_file_02 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_outdoor_lp_01_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_tenement_open_air_quad_lp_01_ls.vsnd"
 		vsnd_file_04 = "sounds/ambient/city/amb_proc_plant_ext_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientHotelStreet.ExteriorLp_RS = 
 	{
@@ -198,53 +199,53 @@
 		vsnd_file_02 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_outdoor_lp_01_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_tenement_open_air_quad_lp_01_rs.vsnd"
 		vsnd_file_04 = "sounds/ambient/city/amb_proc_plant_ext_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientHotelStreet.RandomConcreteFall = 
 	{
 		base = "AmbientTenement.RandomConcreteFall"
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	AmbientHotelStreet.BatSqueak = 
 	{
 		base = "AmbientTenement.BatSqueak"
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 1.000000
-		remap_global_opvar_01_to_vol_max = 0.000000
+		remap_global_opvar_01_to_vol_min = 1.0
+		remap_global_opvar_01_to_vol_max = 0.0
 	}
 	AmbientHotelStreet.OilDrum = 
 	{
 		base = "AmbTrainStation.OilDrum"
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	AmbientHotelStreet.RandomPebbleFall = 
 	{
 		base = "AmbTrainStation.RandomPebbleFall"
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	AmbientHotelStreet.SkullBreath = 
 	{
 		base = "AmbientCreepy.SkullBreath"
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	AmbientHotelStreet.BangAndCreak = 
 	{
 		base = "MetalPipe.BangAndCreak"
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	AmbientHotelStreet.TreeRustleLoopBox = 
 	{
 		base = "AmbientNature.TreeRustleLoopBox"
-		volume = 0.200000
+		volume = 0.2
 	}
 }

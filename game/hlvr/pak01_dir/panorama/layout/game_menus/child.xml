@@ -125,7 +125,8 @@
                   </Button>
                 
                   <Button class="button_base" onactivate="GameMenuNavigation_CmdButton( 'show_graphics_container' )" onmouseover="GameMenu_MouseOver( 'show_graphics_container' )">
-                    <Label class="button_label" text="#HLVR_Options_Graphics"/>
+                    <Label class="HideOnNativeDevice button_label" text="#HLVR_Options_Graphics"/>
+					<Label class="ShowOnNativeDevice button_label" text="#HLVR_Options_Graphics_Category"/>
                     <Image class="button_bullet" src="s2r://panorama/images/game_menu_ui/btn_bullet_child_page_png.vtex" />
                   </Button>
                 

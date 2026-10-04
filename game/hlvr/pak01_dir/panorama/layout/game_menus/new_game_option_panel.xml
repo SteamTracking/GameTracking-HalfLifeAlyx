@@ -16,6 +16,8 @@
         <GameMenuOptionCyclePanel id="new02" convar="hlvr_movetype_default" baseLabel="#HLVR_Options_Movement_Base" label0="#HLVR_Options_Movement_Blink" label1="#HLVR_Options_Movement_Shift" label2="#HLVR_Options_Movement_Continuous" label3="#HLVR_Options_Movement_Continuous_Hand" desc0="#HLVR_Options_Movement_Blink_desc" desc1="#HLVR_Options_Movement_Shift_desc" desc2="#HLVR_Options_Movement_Continuous_desc" desc3="#HLVR_Options_Movement_Continuous_Hand_desc"/>
         <GameMenuOptionCyclePanel id="new03" convar="hlvr_left_hand_primary" onmouseover="GameMenu_OptionMouseOver( '#HLVR_Options_LeftHanded_desc' )" label0="#HLVR_Options_RightHanded" label1="#HLVR_Options_LeftHanded" />
 
+        <GameMenuOptionTogglePanel class="commentary_mode" id="new04" convar="commentary" onmouseover="GameMenu_OptionMouseOver( '#HLVR_Options_Commentary_desc' )" label0="#HLVR_Options_Commentary" on="#HLVR_Options_On" off="#HLVR_Options_Off" />
+        
         <Panel class="row_divider_line_small" />
 
         <Panel class="row">

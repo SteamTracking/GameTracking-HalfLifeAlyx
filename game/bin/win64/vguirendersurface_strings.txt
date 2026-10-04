@@ -185,6 +185,7 @@
 .?AVURLLabel@vgui@@
 .?AV__non_rtti_object@std@@
 .?AVbad_cast@std@@
+.?AVbad_exception@std@@
 .?AVbad_typeid@std@@
 .?AVexception@std@@
 .?AVtype_info@@
@@ -206,9 +207,8 @@
 .bss
 .data
 .data$r
+.data$rs
 .edata
-.gfids$x
-.gfids$y
 .idata$2
 .idata$3
 .idata$4
@@ -219,6 +219,7 @@
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .rtc$IAA
 .rtc$IZZ
@@ -238,6 +239,7 @@
 .xdata$x
 0 - no auto-resize
 0 - top-left
+0\f%0t
 0iN>/
 0x%016llX
 1 - resize right
@@ -252,6 +254,7 @@
 3>N;kU
 3>fvw
 4 - no pin
+5\r%5h
 ;1cb
 <NULL>
 <deferred>
@@ -266,8 +269,9 @@
 >jtm}S
 ?1cb
 ?7zQ6$
+??0CThreadFastMutex@@QEAA@XZ
 ??0CThreadMutex@@QEAA@PEBD@Z
-??1CThreadMutex@@QEAA@XZ
+??0CThreadMutex@@QEAA@XZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
 ?CircularProgressBar
 ?DevMsg@@YAXPEBDZZ
@@ -275,19 +279,21 @@
 ?FixupPathName@CBufferString@@QEAAPEBDD@Z
 ?Format@CBufferString@@QEAAHPEBDZZ
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
+?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LockForRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@VColor@@PEBDZZ
 ?Purge@CBufferString@@QEAAXH@Z
 ?RemoveAt@CBufferString@@QEAAPEBDHH@Z
-?SSE and SSE2 are required.
 ?SetExtension@CBufferString@@QEAAPEBDPEBD@Z
 ?SetLength@CBufferString@@QEAAPEADH_NPEAH@Z
 ?SetPtr@CBufferString@@QEAAXPEADHH_N1@Z
 ?SpinLockForWrite@CThreadSpinRWLock@@AEAAXPEBDHI@Z
 ?ToLowerFast@CBufferString@@QEAAXH@Z
 ?UUUUUU
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
+?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?UnlockWrite@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
@@ -303,14 +309,17 @@ Access violation - no RTTI data!
 ActivateItem
 Already have converter for type %s, ignoring...\n
 AnimGraphEditorUtils001
+AnimatingImagePanel
 AnimationController
 AnimationSystemUtils_001
 AnimationSystem_001
+AppPolicyGetProcessTerminationMethod
 Apply
 ApplyButton
 ApplyChanges
 ApplyDataToControls
 April
+AreFileApisANSI
 ArmItem
 AssertMsg_ConditionFailed
 AssetBrowserSystem_001
@@ -368,6 +377,8 @@ COLORCORRECTION_VERSION_1
 COrderedConstructor_Create<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>,class CResolveOrderedFunc<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>,&void __cdecl _ORDERED_INIT_SHUTDOWN_WRAPPER_RESOLVEFUNC<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>(class COrderedConstructor_DependencyManagement<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)> > &)>,0>::AddRef
 CSchemaRegistration::RegisterAllModuleData
 CSmallTextEntry
+CTSListBase: Misaligned list\n
+CTSListBase::CTSListBase
 CTextureDictionary::BindTextureToFile
 CTextureDictionary::GetTextureSize()
 CTextureDictionary::GetTextureSize() blocking load\n
@@ -555,6 +566,7 @@ EditMenu
 EditablePanel
 Empty
 EnableSaveButton
+EncodePointer
 Engine2
 EngineServiceMgr001
 EnterCriticalSection
@@ -574,8 +586,8 @@ Fieldname is not unique: %s\nRename it and try again.
 FileSelectionCombo
 FindClose
 FindDefaultButton
-FindFirstFileExA
-FindNextFileA
+FindFirstFileExW
+FindNextFileW
 FinishDrawing
 FixupResourceName: Illegal full path passed in ("%s")!\n
 FixupResourceName: Illegal path, missing extension passed in ("%s")!\n
@@ -630,9 +642,8 @@ GetCPUInformation
 GetCommand
 GetCommandLineA
 GetCommandLineW
-GetConsoleCP
 GetConsoleMode
-GetCurrentPackageId
+GetConsoleOutputCP
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -643,7 +654,7 @@ GetEnvironmentStringsW
 GetFileType
 GetIconInfo
 GetLastError
-GetModuleFileNameA
+GetModuleFileNameW
 GetModuleHandleExW
 GetModuleHandleW
 GetOEMCP
@@ -671,7 +682,6 @@ HideNewControlMenu
 HorizScrollBar
 HostStateMgr001
 Hotkey
-I?AnimatingImagePanel
 IMECandidatesMenu
 IND)ind)
 IND)ind)fmodf
@@ -681,7 +691,6 @@ IgnoreScheme
 Image
 ImagePanel
 In the Build Mode Dialog Window:\nDelete button - deletes the currently selected panel if it is deletable.\nApply button - applies changes to the Context Panel.\nSave button - saves all settings to file. \nRevert to saved- reloads the last saved file.\nAuto Update - any changes apply instantly.\nTyping Enter in any text field applies changes.\nNew Control menu - creates a new panel in the upper left corner.\n\nIn the Context Panel:\nAfter selecting and moving a panel Ctrl-z will undo the move.\nShift clicking panels allows multiple panels to be selected into a group.\nCtrl-c copies the settings of the last selected panel.\nCtrl-v creates a new panel with the copied settings at the location of the mouse pointer.\nArrow keys slowly move panels, holding shift + arrow will slowly resize it.\nHolding right mouse button down opens a dropdown panel creation menu.\n  Panel will be created where the menu was opened.\nDelete key deletes the currently selected panel if it is deletable.\n  Does nothing to multiple selections.
-InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
@@ -716,6 +725,7 @@ KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s\n
 KeyValues::SaveToFile: couldn't open file "%s" in path "%s".\n
 KeyValuesSystem
 KillFocus
+L=RadioButton
 L>ev
 LCMapStringEx
 LCMapStringW
@@ -900,7 +910,6 @@ Queued fxn call: %s '%s'\n
 Queued fxn call: %s\n
 QueuedLoaderVersion001
 RSDS
-RadioButton
 RadioButtonChecked
 RaiseException
 RecursiveLoadFromBuffer:  got EOF instead of keyname
@@ -950,6 +959,7 @@ S9>H
 SHELL32.dll
 SHGetFileInfoA
 SNAN)
+SSE and SSE2 are required.
 Saturday
 Save
 SaveButton
@@ -1231,6 +1241,7 @@ X360
 \tcQr
 \tkE>fvw
 ^<V7w
+_RDATA
 _V_ComposeFileName
 _V_ExtractFileExtension
 _V_SetExtension
@@ -1249,6 +1260,8 @@ __pascal
 __ptr64
 __restrict
 __stdcall
+__swift_1
+__swift_2
 __thiscall
 __unaligned
 __vectorcall
@@ -1256,6 +1269,7 @@ _hidef
 _lodef
 _minmode
 `RTTI
+`anonymous namespace'
 `copy constructor closure'
 `default constructor closure'
 `dynamic atexit destructor for '
@@ -1308,6 +1322,7 @@ autoresize
 backColorBuffer
 backDepthBuffer
 background color
+bad exception
 bg_image
 bgcolor
 bgcolor_override
@@ -1322,6 +1337,7 @@ c:\buildslave\hlvr_rel_win64\build\src\interfaces\interfaces.cpp
 c:\buildslave\hlvr_rel_win64\build\src\mathlib\mathlib.cpp
 c:\buildslave\hlvr_rel_win64\build\src\public\ordered_constructor.h
 c:\buildslave\hlvr_rel_win64\build\src\public\scenesystem\vertexformat.h
+c:\buildslave\hlvr_rel_win64\build\src\public\tier0\tslist.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utllinkedlist.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlrbtree.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlsortvector.h
@@ -1481,6 +1497,8 @@ oldtall
 oldwide
 operator
 operator "" 
+operator co_await
+operator<=>
 original
 outoffocus_bgcolor_override
 overrideChildPanelWidth

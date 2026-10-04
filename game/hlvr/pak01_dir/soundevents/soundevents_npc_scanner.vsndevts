@@ -1,14 +1,15 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	CityScanner.Fly_Loop_Choreo = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.500000
-		volume_fade_in = 0.500000
-		volume_fade_out = 0.500000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 400.000000
-		volume_falloff_curve_amount = 0.850000
+		use_hrtf = 1.0
+		volume = 0.5
+		volume_fade_in = 0.5
+		volume_fade_out = 0.5
+		volume_falloff_min = 50.0
+		volume_falloff_max = 400.0
+		volume_falloff_curve_amount = 0.85
 		mixgroup = "Scanners"
 		vsnd_files = 
 		[
@@ -18,10 +19,10 @@
 	NPC_CScanner.Base = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 700.000000
-		volume_falloff_curve_amount = 0.850000
+		use_hrtf = 1.0
+		volume_falloff_min = 100.0
+		volume_falloff_max = 700.0
+		volume_falloff_curve_amount = 0.85
 		mixgroup = "Scanners"
 	}
 	NPC_CScanner.Gib = 
@@ -69,8 +70,8 @@
 		[
 			"static_branch_event_entity_limit_1",
 		]
-		volume = 0.600000
-		volume_fade_out = 1.000000
+		volume = 0.6
+		volume_fade_out = 1.0
 		mixgroup = "Scanners"
 		vsnd_files = 
 		[
@@ -82,7 +83,7 @@
 	NPC_CScanner.Idle = 
 	{
 		base = "NPC_CScanner.Base"
-		volume = 0.600000
+		volume = 0.6
 		mixgroup = "Scanners"
 		vsnd_files = 
 		[
@@ -107,7 +108,7 @@
 	NPC_CScanner.TakePhoto = 
 	{
 		base = "NPC_CScanner.Base"
-		volume = 0.600000
+		volume = 0.6
 		mixgroup = "Scanners"
 		vsnd_files = 
 		[
@@ -117,8 +118,8 @@
 	NPC_CScanner.AttackFlash = 
 	{
 		base = "NPC_CScanner.Base"
-		volume = 0.600000
-		pitch = 0.700000
+		volume = 0.6
+		pitch = 0.7
 		mixgroup = "Scanners"
 		vsnd_files = 
 		[
@@ -147,7 +148,7 @@
 	NPC_CScanner.OpenEye = 
 	{
 		base = "NPC_CScanner.Base"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "Scanners"
 		vsnd_files = 
 		[
@@ -157,7 +158,7 @@
 	NPC_CScanner.Illuminate = 
 	{
 		base = "NPC_CScanner.Base"
-		pitch = 0.800000
+		pitch = 0.8
 		mixgroup = "Scanners"
 		vsnd_files = 
 		[
@@ -167,7 +168,7 @@
 	NPC_CScanner.FlyLoop = 
 	{
 		base = "NPC_CScanner.Base"
-		volume = 0.500000
+		volume = 0.5
 		mixgroup = "Scanners"
 		vsnd_files = 
 		[
@@ -254,8 +255,8 @@
 		[
 			"static_branch_event_entity_limit_1",
 		]
-		volume = 0.500000
-		volume_fade_out = 1.000000
+		volume = 0.5
+		volume_fade_out = 1.0
 		mixgroup = "Scanners"
 		vsnd_files = 
 		[
@@ -268,7 +269,7 @@
 	NPC_SScanner.Idle = 
 	{
 		base = "NPC_CScanner.Base"
-		volume = 0.600000
+		volume = 0.6
 		mixgroup = "Scanners"
 		vsnd_files = 
 		[
@@ -279,7 +280,7 @@
 	NPC_SScanner.Pain = 
 	{
 		base = "NPC_CScanner.Base"
-		volume = 0.500000
+		volume = 0.5
 		mixgroup = "Scanners"
 		vsnd_files = 
 		[
@@ -290,7 +291,7 @@
 	NPC_SScanner.TakePhoto = 
 	{
 		base = "NPC_CScanner.Base"
-		volume = 0.500000
+		volume = 0.5
 		mixgroup = "Scanners"
 		vsnd_files = 
 		[
@@ -300,7 +301,7 @@
 	NPC_SScanner.AttackFlash = 
 	{
 		base = "NPC_CScanner.Base"
-		volume = 0.500000
+		volume = 0.5
 		mixgroup = "Scanners"
 		vsnd_files = 
 		[
@@ -329,7 +330,7 @@
 	NPC_SScanner.OpenEye = 
 	{
 		base = "NPC_CScanner.Base"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "Scanners"
 		vsnd_files = 
 		[
@@ -339,7 +340,7 @@
 	NPC_SScanner.Illuminate = 
 	{
 		base = "NPC_CScanner.Base"
-		pitch = 0.800000
+		pitch = 0.8
 		mixgroup = "Scanners"
 		vsnd_files = 
 		[
@@ -349,8 +350,8 @@
 	NPC_SScanner.FlyLoop = 
 	{
 		base = "NPC_CScanner.Base"
-		volume = 0.400000
-		input_val = 0.500000
+		volume = 0.4
+		input_val = 0.5
 		mixgroup = "Scanners"
 		vsnd_files = 
 		[

@@ -33,7 +33,6 @@
  - added %s\n
  -testmode
  ?IsFBX@FbxImporter@fbxsdk@@QEAA_NXZ
- AGenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!\n
  Base Class Array'
  Base Class Descriptor at (
  C>TQ
@@ -47,7 +46,6 @@
  delete
  delete[]
  new
-!1AQaq
 !?MultNormalize@FbxMatrix@fbxsdk@@QEBA?AVFbxVector4@2@AEBV32@@Z
 !?Normalize@FbxVector4@fbxsdk@@QEAAXXZ
 !?ObjectType@FbxCriteria@fbxsdk@@SA?AV12@AEBVFbxClassId@2@@Z
@@ -66,18 +64,15 @@
 "%s%s" -nop4 -nopause -dontusegamedir "%s"
 "%s%s" -nopause -nop4 "%s"
 "%s%s" -nopause -nop4 -game "%s" "%s"
-"2BRbr
 "?ParseForGlobalSettings@FbxImporter@fbxsdk@@QEAAX_N@Z
 "ActBusy.txt"\n
 "Proxies"\n
 "e?<<<<<<l?
 "id" "elementid" 
-#3CScs
 #base
 #base is NULL 
 #include
 #include is NULL 
-$4DTdt
 $?Set@FbxMatrix@fbxsdk@@QEAAXHHN@Z
 $DiffuseColor
 $Ib?s
@@ -102,7 +97,6 @@ $vertexparticles\n{\n   fxmodel "%s"\n   localspacebone "%s"\n}\n
 %04d/%02d/%02d
 %05d,     0x%p,     %5d,      '%s'\n
 %08x
-%5EUeu
 %?SetAt@FbxLayerElementArray@fbxsdk@@QEAAXHPEBXW4EFbxType@2@@Z
 %d %d %d %d
 %d,%d,%d,%d
@@ -131,17 +125,12 @@ $vertexparticles\n{\n   fxmodel "%s"\n   localspacebone "%s"\n}\n
 %s\bin\%s\bin
 %s_%03d.vpk
 %s_flex_channel
-&6FVfv
 &?PPPPPPP?
 &Sgw
-'7GWgw
-( 8PX
 (%d,%d,%d,%d
-(8HXhx
 (?Transpose@FbxMatrix@fbxsdk@@QEBA?AV12@XZ
 (null)
 ) only 3 (RGB) and 4 (RGBA) channel images allowed
-)9IYiy
 )?sAmbient@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
 )?sBump@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
 )?sDiffuse@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
@@ -167,7 +156,6 @@ $vertexparticles\n{\n   fxmodel "%s"\n   localspacebone "%s"\n}\n
 *** line error: 'rgb+a' packing cannot pack image '%s' belonging to sequences %d and %d!\n
 *** line error: incompatible packmode change when %d sequences already defined!\n
 *** line error: invalid sequence type '%s', packing 'flat' allows only 'sequence-rgba'!\n
-*:JZjz
 *?sSpecular@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
 *?sTransparentColor@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
 *?sVectorDisplacementColor@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
@@ -574,14 +562,12 @@ $vertexparticles\n{\n   fxmodel "%s"\n   localspacebone "%s"\n}\n
 .?AV?$RemapIndexFunctor@$04$0A@VFbxLayerElementUserData@fbxsdk@@@@
 .?AV?$RemapIndexFunctor@$0A@$0A@VFbxLayerElementUserData@fbxsdk@@@@
 .?AV?$_Func_base@HPEBVFbxLayerElementUserData@fbxsdk@@HH@std@@
-.?AV?$_Func_impl@V?$RemapIndexFunctor@$00$01VFbxLayerElementUserData@fbxsdk@@@@V?$allocator@H@std@@HPEBVFbxLayerElementUserData@fbxsdk@@HH@std@@
-.?AV?$_Func_impl@V?$RemapIndexFunctor@$00$0A@VFbxLayerElementUserData@fbxsdk@@@@V?$allocator@H@std@@HPEBVFbxLayerElementUserData@fbxsdk@@HH@std@@
-.?AV?$_Func_impl@V?$RemapIndexFunctor@$01$01VFbxLayerElementUserData@fbxsdk@@@@V?$allocator@H@std@@HPEBVFbxLayerElementUserData@fbxsdk@@HH@std@@
-.?AV?$_Func_impl@V?$RemapIndexFunctor@$01$0A@VFbxLayerElementUserData@fbxsdk@@@@V?$allocator@H@std@@HPEBVFbxLayerElementUserData@fbxsdk@@HH@std@@
-.?AV?$_Func_impl@V?$RemapIndexFunctor@$04$0A@VFbxLayerElementUserData@fbxsdk@@@@V?$allocator@H@std@@HPEBVFbxLayerElementUserData@fbxsdk@@HH@std@@
-.?AV?$_Func_impl@V?$RemapIndexFunctor@$0A@$0A@VFbxLayerElementUserData@fbxsdk@@@@V?$allocator@H@std@@HPEBVFbxLayerElementUserData@fbxsdk@@HH@std@@
-.?AV?$_Ref_count_obj@V__ExceptionPtr@@@std@@
-.?AV?$_Ref_count_obj_alloc@V__ExceptionPtr@@U?$_StaticAllocator@H@@@std@@
+.?AV?$_Func_impl_no_alloc@V?$RemapIndexFunctor@$00$01VFbxLayerElementUserData@fbxsdk@@@@HPEBVFbxLayerElementUserData@fbxsdk@@HH@std@@
+.?AV?$_Func_impl_no_alloc@V?$RemapIndexFunctor@$00$0A@VFbxLayerElementUserData@fbxsdk@@@@HPEBVFbxLayerElementUserData@fbxsdk@@HH@std@@
+.?AV?$_Func_impl_no_alloc@V?$RemapIndexFunctor@$01$01VFbxLayerElementUserData@fbxsdk@@@@HPEBVFbxLayerElementUserData@fbxsdk@@HH@std@@
+.?AV?$_Func_impl_no_alloc@V?$RemapIndexFunctor@$01$0A@VFbxLayerElementUserData@fbxsdk@@@@HPEBVFbxLayerElementUserData@fbxsdk@@HH@std@@
+.?AV?$_Func_impl_no_alloc@V?$RemapIndexFunctor@$04$0A@VFbxLayerElementUserData@fbxsdk@@@@HPEBVFbxLayerElementUserData@fbxsdk@@HH@std@@
+.?AV?$_Func_impl_no_alloc@V?$RemapIndexFunctor@$0A@$0A@VFbxLayerElementUserData@fbxsdk@@@@HPEBVFbxLayerElementUserData@fbxsdk@@HH@std@@
 .?AVCAsset@@
 .?AVCBufferStream@@
 .?AVCDataModel@@
@@ -783,9 +769,7 @@ $vertexparticles\n{\n   fxmodel "%s"\n   localspacebone "%s"\n}\n
 .?AVIWorkshopSetup@@
 .?AVIWriteStream@@
 .?AVIZip@@
-.?AV_Ref_count_base@std@@
 .?AV__non_rtti_object@std@@
-.?AVbad_alloc@std@@
 .?AVbad_cast@std@@
 .?AVbad_exception@std@@
 .?AVbad_function_call@std@@
@@ -803,7 +787,6 @@ $vertexparticles\n{\n   fxmodel "%s"\n   localspacebone "%s"\n}\n
 .CRT$XLA
 .CRT$XLZ
 .CRT$XPA
-.CRT$XPB
 .CRT$XPX
 .CRT$XPXA
 .CRT$XPZ
@@ -815,12 +798,11 @@ $vertexparticles\n{\n   fxmodel "%s"\n   localspacebone "%s"\n}\n
 .com
 .data
 .data$r
+.data$rs
 .dll
 .dmx
 .edata
 .exe
-.gfids$x
-.gfids$y
 .idata$2
 .idata$3
 .idata$4
@@ -833,6 +815,7 @@ $vertexparticles\n{\n   fxmodel "%s"\n   localspacebone "%s"\n}\n
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .reg
 .rtc$IAA
@@ -884,13 +867,10 @@ $vertexparticles\n{\n   fxmodel "%s"\n   localspacebone "%s"\n}\n
 /game/
 /game/bin
 0 0 0
-0000
-00003333
-0123456789ABCDEF
 0123456789abcdefghijklmnopqrstuvwxyz
 0E>X
 0X8b?~
-0\f504P
+0\f504T
 0iN>/
 0x%016llX
 0x%08x
@@ -900,34 +880,28 @@ $vertexparticles\n{\n   fxmodel "%s"\n   localspacebone "%s"\n}\n
 1#QNAN
 1#SNAN
 11Y@
-123456789
 16-byte data pool
-1eaB@
 1sAL"
 2%?SetBoolProp@FbxIOSettings@fbxsdk@@QEAAXPEBD_N@Z
 3 FB
-3333
 37>k
 3>N;kU
 3>fvw
 3?tr
 4-byte data pool
 51>W
-5\fE5
 5sfm_v8
 64 283 0
 6NK>
 6\fXO>\ntA
-700WP
 7>I0
 7?GX
 7~xh
 8-byte data pool
-8CDmeSource CUtlMemoryPool
 8\n??GFbxVector4@fbxsdk@@QEBA?AV01@AEBV01@@Z
 8ke?;
 9>70
-;1cb
+9>powf
 <!-- DMXVersion
 <ITEMTEST_COMMENT_IF_ANIM%d>
 <ITEMTEST_COMMENT_IF_ANIM_%s>
@@ -942,18 +916,15 @@ $vertexparticles\n{\n   fxmodel "%s"\n   localspacebone "%s"\n}\n
 <ITEMTEST_REPLACE_MDLABSPATH>
 <ITEMTEST_REPLACE_PARTICLE_OPTIONALBLOCK>
 <ITEMTEST_REPLACE_TEXTUREGROUP_OPTIONALBLOCK>
-<Launching: %s\n
 <NULL>
 <deferred>
 <no failure reason set>
 <null>
 <unconnected>
-=1cb
 =87M
 =cQ6
 =e2m
 =imb;D
->Unable to read file %s\n
 >cQ6
 >jtm}S
 ?!5WOo
@@ -962,6 +933,8 @@ $vertexparticles\n{\n   fxmodel "%s"\n   localspacebone "%s"\n}\n
 ?7{KV\nU
 ?8bunz8
 ??$EvaluateValue@M@FbxProperty@fbxsdk@@QEAAMAEBVFbxTime@1@_N@Z
+??0CThreadFastMutex@@QEAA@XZ
+??0CThreadMutex@@QEAA@XZ
 ??0CThreadRWLock_FastRead@@QEAA@_N@Z
 ??0FbxAMatrix@fbxsdk@@QEAA@AEBV01@@Z
 ??0FbxAxisSystem@fbxsdk@@QEAA@W4EUpVector@01@W4EFrontVector@01@W4ECoordSystem@01@@Z
@@ -1010,6 +983,7 @@ $vertexparticles\n{\n   fxmodel "%s"\n   localspacebone "%s"\n}\n
 ?Bind@FbxPathUtils@fbxsdk@@SA?AVFbxString@2@PEBD0_N@Z
 ?Buffer@FbxString@fbxsdk@@QEAAPEADXZ
 ?Buffer@FbxString@fbxsdk@@QEBAPEBDXZ
+?CDmeTransformControl CUtlMemoryPool
 ?ClassId@FbxAnimLayer@fbxsdk@@2VFbxClassId@2@A
 ?ClassId@FbxAnimStack@fbxsdk@@2VFbxClassId@2@A
 ?ClassId@FbxBlendShape@fbxsdk@@2VFbxClassId@2@A
@@ -1050,7 +1024,7 @@ $vertexparticles\n{\n   fxmodel "%s"\n   localspacebone "%s"\n}\n
 ?Find@FbxProperty@fbxsdk@@QEBA?AV12@PEBD_N@Z
 ?Find@FbxPropertyHandle@fbxsdk@@QEBA?AV12@PEBD_N@Z
 ?FindAndReplace@FbxString@fbxsdk@@QEAA_NPEBD0_K@Z
-?FindHierarchical@FbxProperty@fbxsdk@@QEBA?AV12@PEBDAEBVFbxDataType@2@_N@Z
+?FindPropertyHierarchical@FbxObject@fbxsdk@@QEBA?AVFbxProperty@2@PEBDAEBVFbxDataType@2@_N@Z
 ?FixSlashes@CBufferString@@QEAAPEBDD@Z
 ?FixupPathName@CBufferString@@QEAAPEBDD@Z
 ?Format@CBufferString@@QEAAHPEBDZZ
@@ -1094,7 +1068,7 @@ $vertexparticles\n{\n   fxmodel "%s"\n   localspacebone "%s"\n}\n
 ?GetFileFormatVersion@FbxManager@fbxsdk@@SAXAEAH00@Z
 ?GetFileName@FbxFileTexture@fbxsdk@@QEBAPEBDXZ
 ?GetFileVersion@FbxImporter@fbxsdk@@QEAAXAEAH00@Z
-?GetFirstDescendent@FbxPropertyHandle@fbxsdk@@QEBA?AV12@XZ
+?GetFirstDescendent@FbxProperty@fbxsdk@@QEBA?AV12@XZ
 ?GetFlag@FbxProperty@fbxsdk@@QEBA_NW4EFlags@FbxPropertyFlags@2@@Z
 ?GetFolderName@FbxPathUtils@fbxsdk@@SA?AVFbxString@2@PEBD@Z
 ?GetFrameCount@FbxTime@fbxsdk@@QEBA_JW4EMode@12@@Z
@@ -1117,7 +1091,7 @@ $vertexparticles\n{\n   fxmodel "%s"\n   localspacebone "%s"\n}\n
 ?GetName@FbxProperty@fbxsdk@@QEBA?AVFbxString@2@XZ
 ?GetNameAsCStr@FbxProperty@fbxsdk@@QEBAPEBDXZ
 ?GetNameOnly@FbxObject@fbxsdk@@QEBA?AVFbxString@2@XZ
-?GetNextDescendent@FbxPropertyHandle@fbxsdk@@QEBA?AV12@AEBV12@@Z
+?GetNextDescendent@FbxProperty@fbxsdk@@QEBA?AV12@AEBV12@@Z
 ?GetNode@FbxNodeAttribute@fbxsdk@@QEBAPEAVFbxNode@2@H@Z
 ?GetNodeAttribute@FbxNode@fbxsdk@@QEAAPEAVFbxNodeAttribute@2@XZ
 ?GetOneFrameValue@FbxTime@fbxsdk@@SA_JW4EMode@12@@Z
@@ -1154,7 +1128,7 @@ $vertexparticles\n{\n   fxmodel "%s"\n   localspacebone "%s"\n}\n
 ?Inverse@FbxMatrix@fbxsdk@@QEBA?AV12@XZ
 ?Is@FbxClassId@fbxsdk@@QEBA_NAEBV12@@Z
 ?IsEmpty@FbxString@fbxsdk@@QEBA_NXZ
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LockForRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?MakeAbsolutePath@CBufferString@@QEAAPEBDPEBD0@Z
@@ -1176,6 +1150,7 @@ $vertexparticles\n{\n   fxmodel "%s"\n   localspacebone "%s"\n}\n
 ?ToLowerFast@CBufferString@@QEAAXH@Z
 ?TruncateAt@CBufferString@@QEAAPEBDH_N@Z
 ?UUUUUU
+?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?UnlockWrite@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?V_SplitString@@YAXPEBD0AEAV?$CUtlVector@PEADV?$CUtlMemory@PEADH@@@@@Z
@@ -1188,7 +1163,6 @@ $vertexparticles\n{\n   fxmodel "%s"\n   localspacebone "%s"\n}\n
 ?rAj
 ?ysB
 @CUtlRBTree<struct CDmElementSerializationDictionary::ElementInfo_t,int,bool (__cdecl*)(struct CDmElementSerializationDictionary::ElementInfo_t const &,struct CDmElementSerializationDictionary::ElementInfo_t const &),class CUtlBlockMemory<struct UtlRBTreeNode_t<struct CDmElementSerializationDictionary::ElementInfo_t,int>,int> >::NewNode
-@^8U)zj
 A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.dll
@@ -1197,7 +1171,6 @@ APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
 Aborting - cannot delete file: %s\n
 Aborting - cannot write to VPK: %s\n
 Access violation - no RTTI data!
-AcquireSRWLockExclusive
 ActBusy Script File
 ActBusyList
 AddNewLayer
@@ -1215,6 +1188,7 @@ Animation Configuration File
 Animation Stack Information\n
 AnimationSystemUtils_001
 AnimationSystem_001
+AppPolicyGetProcessTerminationMethod
 April
 AreFileApisANSI
 Arms
@@ -1253,8 +1227,8 @@ BinaryProperties_GetValue
 Body
 BrowInV
 C5R?\t
-CAsset::GetInputs(5139): Error! CTarget%s - Not Valid: %s\n
-CAsset::GetRelativeDir(5192): Error! CTarget%s - Not Valid: %s\n
+CAsset::GetInputs(5137): Error! CTarget%s - Not Valid: %s\n
+CAsset::GetRelativeDir(5190): Error! CTarget%s - Not Valid: %s\n
 CBaseFile::MustRead
 CDataModel:  %i elements left in memory!!!\n
 CDataModel: Invalid DMX encoding hint '%s' for file %s\n
@@ -1304,6 +1278,7 @@ CDmeCombinationDominationRule CUtlMemoryPool
 CDmeCombinationInputControl CUtlMemoryPool
 CDmeCombinationOperator CUtlMemoryPool
 CDmeComponent CUtlMemoryPool
+CDmeConnectionOperator CUtlMemoryPool
 CDmeConstraintSlave CUtlMemoryPool
 CDmeConstraintTarget CUtlMemoryPool
 CDmeControlGroup CUtlMemoryPool
@@ -1379,6 +1354,7 @@ CDmeSingleIndexedComponent CUtlMemoryPool
 CDmeSound CUtlMemoryPool
 CDmeSound::Resolve
 CDmeSoundClip CUtlMemoryPool
+CDmeSource CUtlMemoryPool
 CDmeSourceDCCFile CUtlMemoryPool
 CDmeSourceMayaAnimationFile CUtlMemoryPool
 CDmeSourceMayaFile CUtlMemoryPool
@@ -1396,7 +1372,6 @@ CDmeTimeSelection CUtlMemoryPool
 CDmeTrack CUtlMemoryPool
 CDmeTrackGroup CUtlMemoryPool
 CDmeTransform CUtlMemoryPool
-CDmeTransformControl CUtlMemoryPool
 CDmeTransformList CUtlMemoryPool
 CDmeTypedLogLayer::Compress
 CDmeTypedLogLayer::Decompress
@@ -1488,17 +1463,17 @@ CTarget%s::Compile( %s ) - fopen failed "%s"\n
 CTarget%s::CreateDirectory( %s ) - Failed\n
 CTarget%s::ReplaceMaterials - Duplicate VMT (%s) Cannot Find Source Material Type (%d)\n
 CTarget%s::ReplaceMaterials - Duplicate VMT (%s) with bad material type (%d)\n
-CTargetBase::GetDirName(1246): Error! CTarget%s - NULL Asset\n
-CTargetBase::GetDirName(1253): Error! CTarget%s - Not Valid: %s\n
-CTargetBase::GetInputPaths(1155): Error! CTarget%s - Not Valid: %s\n
-CTargetBase::GetOutputPaths(1078): Error! CTarget%s - Not Valid: %s\n
-CTargetBase::GetOutputPaths(993): Error! CTarget%s - Not Valid: %s\n
-CTargetDMX::ReplaceMaterials(3325): Error! CTarget%s - Not Valid: %s\n
-CTargetDMX::SetInputFile(3166): Error! CTarget%s - Not Valid: %s\n
-CTargetDMXAnim::SetInputFile(3889): Error! CTarget%s - Not Valid: %s\n
-CTargetMDL::GetInputs(4850): Error! CTarget%s - Not Valid: %s\n
-CTargetQC::GetInputs(4382): Error! CTarget%s - Not Valid: %s\n
-CTargetVMT::GetInputs(2393): Error! CTarget%s - Not Valid: %s\n
+CTargetBase::GetDirName(1244): Error! CTarget%s - NULL Asset\n
+CTargetBase::GetDirName(1251): Error! CTarget%s - Not Valid: %s\n
+CTargetBase::GetInputPaths(1153): Error! CTarget%s - Not Valid: %s\n
+CTargetBase::GetOutputPaths(1076): Error! CTarget%s - Not Valid: %s\n
+CTargetBase::GetOutputPaths(991): Error! CTarget%s - Not Valid: %s\n
+CTargetDMX::ReplaceMaterials(3323): Error! CTarget%s - Not Valid: %s\n
+CTargetDMX::SetInputFile(3164): Error! CTarget%s - Not Valid: %s\n
+CTargetDMXAnim::SetInputFile(3887): Error! CTarget%s - Not Valid: %s\n
+CTargetMDL::GetInputs(4848): Error! CTarget%s - Not Valid: %s\n
+CTargetQC::GetInputs(4380): Error! CTarget%s - Not Valid: %s\n
+CTargetVMT::GetInputs(2391): Error! CTarget%s - Not Valid: %s\n
 CTerrainSelection
 CUndoArrayAttributeSetMultipleValueElement
 CUndoArrayAttributeSetValueElement
@@ -1591,16 +1566,12 @@ CheekH
 CloseClipboard
 CloseHandle
 CloseLid
-CloseThreadpoolTimer
-CloseThreadpoolWait
-CloseThreadpoolWork
 Color Fade
 Color Light From Control Point
 Color Random
 ColorSpecPhong
 CommandLine
 Commentary File
-CompareStringEx
 Compiled GUI file
 Compiling %s: %s\n
 ConVar(%s) defined with infinite float value (%s)\n
@@ -1608,30 +1579,18 @@ ConVarRef %s doesn't point to an existing ConVar\n
 Conditional Error: %s\n
 ConfigurationSystem_001
 ConnectInterfaces
-ContextPriority
-ContextStackSize
-Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
 CorExitProcess
 Could not find a VMT template for class '%s'\n
 Couldn't convert color field: %s\n
 Create In Hierarchy
 CreateDirectoryW
-CreateEventExW
 CreateEventW
 CreateFileA
 CreateFileW
 CreateInterface
 CreatePipe
 CreateProcessA
-CreateSemaphoreExW
-CreateSemaphoreW
-CreateSymbolicLinkW
-CreateThreadpoolTimer
-CreateThreadpoolWait
-CreateThreadpoolWork
 Cull Random
-DDDD
-DDDDUUUU
 DEMO
 DMX Model
 DMX Model Pipeline Animation Script File
@@ -1821,7 +1780,6 @@ DmeVertexDataBase
 DmeVertexDeltaData
 DmeXSIMakefile
 DotaCardGameClient_001
-DynamicProgressFeedback
 E>nEA
 E?WIN32
 ERROR: Couldn't determine input type of: %s\n
@@ -1899,7 +1857,6 @@ FBX file version %d.%d.%d - SDK\n
 FBXSurfaceMaterial( %s ).FBX_vmatPath found but empty
 FBXSurfaceMaterial( %s ).FBX_vmatPath found but not a string attribute
 FBX_vmatPath
-FCDmeConnectionOperator CUtlMemoryPool
 FEMh\f
 Facial Animation File
 Factory for element type '%s' already exists (Check your IMPLEMENT_ELEMENT_FACTORY macros for duplicate lookupNames)\n
@@ -1916,8 +1873,8 @@ File has not been opened!\n
 Filename '%s' is invalid to be contained in a VPK
 Film
 FindClose
-FindFirstFileExA
-FindNextFileA
+FindFirstFileExW
+FindNextFileW
 Fingers
 Fingers_L
 Fingers_R
@@ -1930,13 +1887,11 @@ FlsFree
 FlsGetValue
 FlsSetValue
 FlushFileBuffers
-FlushProcessWriteBuffers
 FoldLipLo
 FoldLipUp
 FontManager_001
 FreeEnvironmentStringsW
 FreeLibrary
-FreeLibraryWhenCallbackReturns
 Friday
 Fsfm_v3
 G%lld
@@ -1949,6 +1904,7 @@ Ga=UU
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameUIService_001
+GenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!\n
 Generic DMX
 Generic MovieObjects
 Generic SFM
@@ -1963,14 +1919,11 @@ GetClipboardData
 GetCommandLineA
 GetCommandLineW
 GetComputerNameA
-GetConsoleCP
 GetConsoleMode
+GetConsoleOutputCP
 GetCurrentDirectoryW
-GetCurrentPackageId
 GetCurrentProcess
 GetCurrentProcessId
-GetCurrentProcessorNumber
-GetCurrentThread
 GetCurrentThreadId
 GetDefaultMiniDumpTypeFlags
 GetDesktopWindow
@@ -1986,14 +1939,13 @@ GetFbxMaterialPath Failed! FbxMesh: %s, Unsupported material mapping mode, using
 GetFbxMaterialPath Failed: No Fbx material
 GetFileAttributesA
 GetFileAttributesExW
-GetFileInformationByHandleEx
+GetFileSizeEx
 GetFileType
-GetFullPathNameA
+GetFullPathNameW
 GetLastError
 GetLocalTime
-GetLocaleInfoEx
 GetLongPathNameA
-GetModuleFileNameA
+GetModuleFileNameW
 GetModuleHandleExW
 GetModuleHandleW
 GetOEMCP
@@ -2007,10 +1959,7 @@ GetStdHandle
 GetStringTypeW
 GetSystemInfo
 GetSystemTimeAsFileTime
-GetSystemTimePreciseAsFileTime
-GetThreadTimes
 GetTickCount
-GetTickCount64
 GetUserNameA
 GlobalAlloc
 GlobalLock
@@ -2043,15 +1992,12 @@ Improper number of values for crop coordinates. Need 4 in the format of ( xstart
 Index      Address       References   String\n
 Infinite recursion in patch file?\n
 Inherit Velocity
-InitOnceExecuteOnce
 Initial Repulsion Velocity
 Initial Scalar Noise
 Initial Velocity Noise
-InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
-InitializeSRWLock
 Input file: "
 InputService_001
 InputStackSystemVersion001
@@ -2116,6 +2062,7 @@ LOWVIOLENCE
 LWG>
 LWW>
 Last two rows as percentage of total size %f %%:\n
+Launching: %s\n
 Layer %d:  adding key at time %d [%d -> %d], value 
 Leaking %i elements\n
 LeaveCriticalSection
@@ -2133,7 +2080,6 @@ LipUpV
 LipsV
 LoadFromBuffer: expected '{', found '%s'
 LoadLibraryExW
-LocalContextCacheSize
 LocaleNameToLCID
 Localize_001
 LoggingSystem_AddTagToChannel
@@ -2156,13 +2102,10 @@ Match Particle Velocities
 MaterialUtils_001
 MathLib_Init
 Max Velocity
-MaxConcurrency
-MaxPolicyElementKey
 MbP?
 Mesh
 MeshSystem001
 MeshUtils001
-MinConcurrency
 Missing texture of type '%s'\n
 ModelDocUtils001
 Monday
@@ -2261,7 +2204,7 @@ QAf?
 QueryPerformanceCounter
 QueuedLoaderVersion001
 RPCRT4.dll
-RSDS\t(
+RSDS
 Radius Random
 Radius Scale
 RaiseException
@@ -2284,7 +2227,6 @@ RegQueryValueExA
 RegisterConfigValue: Unknown error constructing config value "%s"!\n
 RegisterStringToken
 Release
-ReleaseSRWLockExclusive
 Remap Distance Between Two Control Points to Scalar
 Remap Distance to Control Point to Scalar
 Remap Noise to Scalar
@@ -2322,6 +2264,7 @@ RpcStringFreeA
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlPcToFileHeader
+RtlUnwind
 RtlUnwindEx
 RtlVirtualUnwind
 S9>H
@@ -2335,26 +2278,22 @@ SSAOBias
 SSAORadius
 SSAOStrength
 SSE and SSE2 are required.
-STEAMAPPLIST_INTERFACE_VERSION001
-STEAMAPPS_INTERFACE_VERSION008
+STEAMAPPS_INTERFACE_VERSION009
 STEAMHTMLSURFACE_INTERFACE_VERSION_005
 STEAMHTTP_INTERFACE_VERSION003
 STEAMINVENTORY_INTERFACE_V003
-STEAMMUSICREMOTE_INTERFACE_VERSION001
 STEAMMUSIC_INTERFACE_VERSION001
 STEAMPARENTALSETTINGS_INTERFACE_VERSION001
-STEAMREMOTESTORAGE_INTERFACE_VERSION014
+STEAMREMOTEPLAY_INTERFACE_VERSION004
+STEAMREMOTESTORAGE_INTERFACE_VERSION016
 STEAMSCREENSHOTS_INTERFACE_VERSION003
-STEAMTV_INTERFACE_V001
-STEAMUGC_INTERFACE_VERSION013
-STEAMUSERSTATS_INTERFACE_VERSION011
-STEAMVIDEO_INTERFACE_V002
+STEAMUGC_INTERFACE_VERSION021
+STEAMUSERSTATS_INTERFACE_VERSION013
+STEAMVIDEO_INTERFACE_V007
 Saturday
 ScalpD
 SceneSystem_002
 SceneUtils_001
-SchedulerKind
-SchedulingProtocol
 Schema description file
 SchemaSystem_001
 SchemaTestExternal_One_001
@@ -2372,20 +2311,16 @@ ServerUploadGameStats001
 SetClipboardData
 SetEndOfFile
 SetEvent
-SetFileInformationByHandle
 SetFilePointer
 SetFilePointerEx
 SetHandleInformation
 SetLastError
 SetStdHandle
-SetThreadpoolTimer
-SetThreadpoolWait
 SetUnhandledExceptionFilter
 Simple Cubic
 Size mismatch determining size of signed data block (%d vs %d)
 Skeleton
 SleepConditionVariableCS
-SleepConditionVariableSRW
 Software\Valve\Source SDK
 SoundOpSystem001
 SoundOpSystemEdit001
@@ -2405,30 +2340,29 @@ Source2Server001
 Source2ServerSerializers002
 StatsService_001
 SteamAPI_GetHSteamUser
-SteamAPI_Init
 SteamAPI_IsSteamRunning
 SteamAPI_SetTryCatchCallbacks
 SteamAPI_Shutdown
 SteamAudio001
-SteamClient019
-SteamController007
-SteamFriends017
-SteamInput001
+SteamController008
+SteamFriends018
+SteamInput007
 SteamInternal_ContextInit
-SteamInternal_CreateInterface
 SteamInternal_FindOrCreateUserInterface
-SteamMatchGameSearch001
+SteamInternal_SteamAPI_Init
 SteamMatchMaking009
-SteamMatchMakingServers002
-SteamNetworking005
-SteamUser021
-SteamUtils009
+SteamMatchMakingServers003
+SteamNetworking006
+SteamNetworkingMessages002
+SteamNetworkingSockets013
+SteamNetworkingUtils004
+SteamParties002
+SteamUser023
+SteamUtils011
 StereoFlip
-SubmitThreadpoolWork
 Sunday
 Symbol table:  %d entries %llu bytes\n
 TUUUU
-TargetOversubscriptionFactor
 TerminateProcess
 TestScriptMgr001
 TextLayout_001
@@ -2456,7 +2390,6 @@ Trail Length Random
 Transform
 Transparency
 Tried to rename from '%s' to '%s', but '%s' already exists\n
-TryAcquireSRWLockExclusive
 Trying to add a frame when there is no current sequence.\n
 Tuesday
 U4tT
@@ -2464,11 +2397,11 @@ UA>N0Wl
 USER32.dll
 UTF-16LEUNICODE
 UTF-8
-UUUU
 UUUUUU
 Unable to create new frame.\n
 Unable to create new sequence.\n
 Unable to create unknown element %s!\n
+Unable to read file %s\n
 Unable to read mtl file: %s\n
 Unable to set packing mode.
 Unable to set type unless you're creating untyped elements!\n
@@ -2607,9 +2540,7 @@ WINXP
 WaNd?
 WaitForSingleObject
 WaitForSingleObjectEx
-WaitForThreadpoolTimerCallbacks
 WakeAllConditionVariable
-WakeConditionVariable
 Warning
 Warning changing packing mode when %d sequences already defined. This may not be serialized correctly.\n
 Warning in .VMT file (%s): no ']' or '}' found in vector key "%s".\nDid you forget to surround the vector with "s?\n
@@ -2640,7 +2571,6 @@ Warning:  %s = '%s' is infinite, clamping value.\n
 Wavefront OBJ
 Wednesday
 WideCharToMultiByte
-WinRTInitialization
 WipeRedo '%s'\n
 WipeUndo '%s'\n
 WorkshopImport001
@@ -2659,7 +2589,6 @@ X360
 XZP%c %d
 Y8a:
 Y>kX>M
-Y@Original|ApplicationNativeFile
 ZIP_EndOfCentralDirRecord
 ZIP_FileHeader
 ZIP_LocalFileHeader
@@ -2673,6 +2602,7 @@ Zero skin weights on one or more vertices
 [%f %f %f %f]
 [*ncd>0
 [aOni*{
+\fp\vP0Z
 \n&?SetFrame@FbxTime@fbxsdk@@QEAAX_JW4EMode@12@@Z
 \n??BFbxString@fbxsdk@@QEBAPEBDXZ
 \n??YFbxString@fbxsdk@@QEAAAEBV01@PEBD@Z
@@ -2699,6 +2629,7 @@ Zero skin weights on one or more vertices
 _#?RemoveDeformer@FbxGeometry@fbxsdk@@QEAAPEAVFbxDeformer@2@HPEAVFbxStatus@2@@Z
 _%s.tmp
 _INVALID
+_RDATA
 _V_ComposeFileName
 _V_ExtractFileExtension
 _V_ExtractFilePath
@@ -2726,6 +2657,8 @@ __restrict
 __rootElement
 __rootNode
 __stdcall
+__swift_1
+__swift_2
 __thiscall
 __tmp_meshData_%s
 __unaligned
@@ -2752,6 +2685,7 @@ _trans
 _vrad3
 _zero
 `RTTI
+`anonymous namespace'
 `copy constructor closure'
 `default constructor closure'
 `dynamic atexit destructor for '
@@ -2845,13 +2779,11 @@ axies
 axis
 axisSystem
 b ?IsValidBindPose@FbxPose@fbxsdk@@QEAA_NPEAVFbxNode@2@NPEAVFbxStatus@2@@Z
-b\vp\n0
 background
 backgroundColor
 backgroundFXClip
 backgroundMap
 bad address
-bad allocation
 bad exception
 bad file descriptor
 bad function call
@@ -3431,6 +3363,7 @@ numberOfTheDiskWithStartOfCentralDirectory
 numberOfThisDisk
 numchannels
 o?GS
+o@Original|ApplicationNativeFile
 oI>O7
 oOffset
 obj2dmx
@@ -3444,6 +3377,8 @@ operation not supported
 operation would block
 operator
 operator "" 
+operator co_await
+operator<=>
 operators
 orientation
 orientationChannel
@@ -3489,7 +3424,6 @@ positionsIndices
 posterSettings
 postion_lock_to_controlpoint
 postprocessing
-powf
 preset
 presetGroups
 presetRemap
@@ -3511,8 +3445,6 @@ qc_template
 quaternion
 quaternion log
 quaternion_array
-rLp>B
-r\np!G
 r\tVr.>T
 radius_random
 radius_scale
@@ -3569,7 +3501,6 @@ rotation_spin
 rotation_spin yaw
 rotations
 s%?SetCount@FbxLayerElementArray@fbxsdk@@QEAAXH@Z
-sHF'
 saturation
 scale
 scaleColor
@@ -3863,7 +3794,6 @@ wrinkleScales
 wrong protocol type
 xT?V
 xcoord
-xpxxxx
 ycoord
 zero
 zfar

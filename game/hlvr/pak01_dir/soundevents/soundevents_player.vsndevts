@@ -1,10 +1,11 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	HL2Player.Use = 
 	{
 		type = "src1_2d"
-		volume = 0.100000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
+		volume = 0.1
+		limiter_on = 1.0
+		limiter_max = 0.0
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -14,9 +15,9 @@
 	HL2Player.UseDeny = 
 	{
 		type = "src1_2d"
-		volume = 0.100000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
+		volume = 0.1
+		limiter_on = 1.0
+		limiter_max = 0.0
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -26,14 +27,14 @@
 	Player.FallDamage = 
 	{
 		type = "src1_2d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "Player"
 		vsnd_files = "sounds/player/damage/fall_01.vsnd"
 	}
 	PlayerDamage.Bullet = 
 	{
 		type = "src1_2d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -45,7 +46,7 @@
 	PlayerDamage.Claw = 
 	{
 		type = "src1_2d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -57,7 +58,7 @@
 	PlayerDamage.Bite = 
 	{
 		type = "src1_2d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -69,7 +70,7 @@
 	PlayerDamage.BZ_Tentacle = 
 	{
 		type = "src1_2d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -81,7 +82,7 @@
 	PlayerDamage.Antlion_Poison = 
 	{
 		type = "src1_2d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -93,14 +94,14 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "PlayerDamage.Headcrab_Reviver_Ranged_Electrics"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "Prop.Alyx_Radio_Headset_Reviver_Interference"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	PlayerDamage.Headcrab_Reviver_Ranged_Electrics = 
 	{
 		type = "src1_2d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -112,12 +113,12 @@
 	PlayerDamage.Electric_Zombie_Zap = 
 	{
 		type = "src1_2d"
-		volume = 1.000000
-		volume_rand_min = -0.100000
-		volume_rand_max = 0.100000
-		pitch_rand_min = -0.250000
-		pitch_rand_max = 0.100000
-		limiter_on = 0.000000
+		volume = 1.0
+		volume_rand_min = -0.1
+		volume_rand_max = 0.1
+		pitch_rand_min = -0.25
+		pitch_rand_max = 0.1
+		limiter_on = 0.0
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -134,7 +135,7 @@
 	PlayerDamage.Electric_Zombie_Storm = 
 	{
 		type = "src1_2d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -146,7 +147,7 @@
 	PlayerDeath.BlindZombie_Attack = 
 	{
 		type = "src1_2d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -156,7 +157,7 @@
 	PlayerDeath.Asphyxiate = 
 	{
 		type = "src1_2d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -166,7 +167,7 @@
 	PlayerTeleport.Fail = 
 	{
 		type = "src1_2d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -177,15 +178,15 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "Player.Dash_Wind"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "PlayerFoley.Body_movement_layer"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	Player.Dash_Wind = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		volume_fade_out = 0.500000
+		volume = 0.3
+		volume_fade_out = 0.5
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -198,14 +199,14 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "Player.Dash_Wind_Stop"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "PlayerFoley.Body_movement_layer"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	Player.Dash_Wind_Stop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
+		volume = 0.3
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -215,7 +216,7 @@
 	PlayerFoley.Teleport_movement = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
+		volume = 0.6
 		force_from_player = true
 		mixgroup = "Player"
 		vsnd_files = 
@@ -229,7 +230,7 @@
 	PlayerFoley.Teleport_movement_short = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
+		volume = 0.6
 		force_from_player = true
 		mixgroup = "Player"
 		vsnd_files = 
@@ -243,7 +244,7 @@
 	PlayerFoley.Body_movement = 
 	{
 		type = "hlvr_movement_player_body"
-		volume = 0.850000
+		volume = 0.85
 		child_name = "PlayerFoley.Body_movement_layer"
 		mixgroup = "Player"
 		vsnd_files = 
@@ -254,13 +255,13 @@
 	PlayerFoley.Body_movement_layer = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.100000
-		volume_fade_out = 0.100000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 500.000000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
-		limiter_match_event = 1.000000
+		volume = 0.1
+		volume_fade_out = 0.1
+		volume_falloff_min = 100.0
+		volume_falloff_max = 500.0
+		limiter_on = 1.0
+		limiter_max = 0.0
+		limiter_match_event = 1.0
 		limiter_stop_oldest = true
 		mixgroup = "Player"
 		vsnd_files = 
@@ -276,7 +277,7 @@
 	PlayerFoley.Arm_movement_l = 
 	{
 		type = "hlvr_movement_player_arm"
-		volume = 0.800000
+		volume = 0.8
 		child_name = "PlayerFoley.Arm_movement_layer"
 		mixgroup = "Player"
 		vsnd_files = 
@@ -287,8 +288,8 @@
 	PlayerFoley.Arm_movement_r = 
 	{
 		type = "hlvr_movement_player_arm"
-		arm_side = 1.000000
-		volume = 0.800000
+		arm_side = 1.0
+		volume = 0.8
 		child_name = "PlayerFoley.Arm_movement_layer"
 		mixgroup = "Player"
 		vsnd_files = 
@@ -299,13 +300,13 @@
 	PlayerFoley.Arm_movement_layer = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.070000
-		volume_fade_out = 0.050000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 500.000000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
-		limiter_match_event = 1.000000
+		volume = 0.07
+		volume_fade_out = 0.05
+		volume_falloff_min = 100.0
+		volume_falloff_max = 500.0
+		limiter_on = 1.0
+		limiter_max = 0.0
+		limiter_match_event = 1.0
 		limiter_stop_oldest = true
 		mixgroup = "Player"
 		vsnd_files = 
@@ -322,7 +323,7 @@
 	PlayerFoley.Mantle = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.250000
+		volume = 0.25
 		force_from_player = true
 		mixgroup = "Player"
 		vsnd_files = 
@@ -336,12 +337,12 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "PlayerFoley.Mantle"
-		use_01 = 1.000000
+		use_01 = 1.0
 	}
 	Step_Player.Ladder_Single = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
+		volume = 0.4
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -358,7 +359,7 @@
 	Step_Player.Wooden_Ladder_Single = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
+		volume = 0.4
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -376,8 +377,8 @@
 	PlayerDamage.HeartbeatBa = 
 	{
 		type = "hlvr_default_3d"
-		pitch = 1.010000
-		volume = 0.950000
+		pitch = 1.01
+		volume = 0.95
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -389,8 +390,8 @@
 	PlayerDamage.HeartbeatBump = 
 	{
 		type = "hlvr_default_3d"
-		pitch = 0.950000
-		volume = 0.950000
+		pitch = 0.95
+		volume = 0.95
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -402,12 +403,12 @@
 	PlayerDamage.EarRingingLp = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_fade_in = 0.500000
+		volume = 1.0
+		volume_fade_in = 0.5
 		force_from_player = true
-		limiter_on = 1.000000
+		limiter_on = 1.0
 		limiter_event_name = "PlayerDamage.EarRingingLp"
-		limiter_max = 2.000000
+		limiter_max = 2.0
 		limiter_stop_oldest = false
 		use_named_send = "clean"
 		mixgroup = "Player"
@@ -420,18 +421,18 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "HandFX.Electrocuted_Child_a"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "HandFX.Electrocuted_Child_b"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	HandFX.Electrocuted_Child_a = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		volume_falloff_min = 10.000000
-		volume_falloff_max = 300.000000
-		volume_fade_out = 3.000000
-		use_hrtf = 1.000000
+		volume = 0.8
+		volume_falloff_min = 10.0
+		volume_falloff_max = 300.0
+		volume_fade_out = 3.0
+		use_hrtf = 1.0
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -443,16 +444,16 @@
 	{
 		type = "hlvr_rand_parent"
 		random_soundevent_01_name = "HandFX.Electrocuted_Child_c"
-		random_soundevent_01_timer_min = 0.200000
-		random_soundevent_01_timer_max = 0.600000
+		random_soundevent_01_timer_min = 0.2
+		random_soundevent_01_timer_max = 0.6
 	}
 	HandFX.Electrocuted_Child_c = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 10.000000
-		volume_falloff_max = 200.000000
-		use_hrtf = 1.000000
+		volume = 1.2
+		volume_falloff_min = 10.0
+		volume_falloff_max = 200.0
+		use_hrtf = 1.0
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -470,7 +471,7 @@
 	HandFX.Electrocuted_End = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -480,7 +481,7 @@
 	Player.Gasmask_On = 
 	{
 		type = "src1_2d"
-		volume = 0.900000
+		volume = 0.9
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -490,7 +491,7 @@
 	Player.Gasmask_Remove = 
 	{
 		type = "src1_2d"
-		volume = 0.900000
+		volume = 0.9
 		mixgroup = "Player"
 		vsnd_files = 
 		[

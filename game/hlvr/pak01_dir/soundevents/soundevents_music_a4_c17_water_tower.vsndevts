@@ -1,65 +1,34 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Music.a4_tower_puzzle = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.500000
+		volume = 0.5
 		volume_fade_out = 10
 		track = "main"
-		wait_for_track = 0.000000
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			85.560000,
-		]
-		sync_bpm = 
-		[
-			116.000000,
-		]
-		sync_bpm_beats = 
-		[
-			1.000000,
-		]
-		restart_time = 94.300000
+		wait_for_track = 0.0
+		start_point = [ 0.0 ]
+		end_point = [ 85.56 ]
+		sync_bpm = [ 116.0 ]
+		sync_bpm_beats = [ 1.0 ]
+		restart_time = 94.3
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				10.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				10.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				30.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				30.0, 0.7, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				60.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				60.0, 0.5, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				90.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				90.0, 0.7, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 30
@@ -72,28 +41,16 @@
 	music.a4_tower.vault_docking = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.500000
+		volume = 0.5
 		volume_fade_in = 10
-		volume_fade_out = 0.150000
+		volume_fade_out = 0.15
 		track = "main"
 		priority = 0
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			19.200000,
-		]
-		sync_bpm = 
-		[
-			100,
-		]
-		sync_bpm_beats = 
-		[
-			4.000000,
-		]
-		restart_time = 19.200000
+		start_point = [ 0.0 ]
+		end_point = [ 19.2 ]
+		sync_bpm = [ 100 ]
+		sync_bpm_beats = [ 4.0 ]
+		restart_time = 19.2
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/a4_tower_docking.vsnd",
@@ -102,28 +59,16 @@
 	music.a4_tower.vault_second_lever = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.600000
-		volume_fade_out = 0.150000
-		volume_fade_in = 0.150000
+		volume = 0.6
+		volume_fade_out = 0.15
+		volume_fade_in = 0.15
 		track = "main"
 		priority = 1
 		sync_track = "main"
-		start_point = 
-		[
-			1.800000,
-		]
-		end_point = 
-		[
-			21,
-		]
-		sync_bpm = 
-		[
-			100,
-		]
-		sync_bpm_beats = 
-		[
-			4.000000,
-		]
+		start_point = [ 1.8 ]
+		end_point = [ 21 ]
+		sync_bpm = [ 100 ]
+		sync_bpm_beats = [ 4.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/a4_tower_second_lever.vsnd",
@@ -132,28 +77,16 @@
 	music.a4_tower.vault_third_lever = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
-		volume_fade_out = 0.150000
-		volume_fade_in = 0.150000
+		volume = 0.7
+		volume_fade_out = 0.15
+		volume_fade_in = 0.15
 		track = "main"
 		priority = 2
 		sync_track = "main"
-		start_point = 
-		[
-			1.800000,
-		]
-		end_point = 
-		[
-			21,
-		]
-		sync_bpm = 
-		[
-			100,
-		]
-		sync_bpm_beats = 
-		[
-			4.000000,
-		]
+		start_point = [ 1.8 ]
+		end_point = [ 21 ]
+		sync_bpm = [ 100 ]
+		sync_bpm_beats = [ 4.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/a4_tower_third_lever.vsnd",
@@ -162,8 +95,8 @@
 	music.a4_tower.vault_falls = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.850000
-		volume_fade_in = 0.000000
+		volume = 0.85
+		volume_fade_in = 0.0
 		track = "main"
 		priority = 3
 		vsnd_files = 
@@ -176,8 +109,8 @@
 		type = "hlvr_music_3d"
 		volume = 1
 		mixgroup = "LoudMusic"
-		volume_falloff_min = 1000.000000
-		volume_falloff_max = 5000.000000
+		volume_falloff_min = 1000.0
+		volume_falloff_max = 5000.0
 		volume_fade_out = 0
 		volume_fade_in = 0
 		distance_max_velocity = 10
@@ -197,7 +130,7 @@
 	Music.a4_tower.fall_warp_2d = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/fall_warp_c2_01.vsnd",
@@ -211,61 +144,36 @@
 	music.a4_tower.xen = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
+		volume = 0.7
 		track = "main"
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				10.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				10.0, 0.7, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				20.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				20.0, 1.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				30.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				30.0, 0.7, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				45,
-				0.400000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				45, 0.4, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				60,
-				0.700000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				60, 0.7, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 30
 		volume_fade_over_time_loop_end = 50
 		volume_fade_in = 4
-		volume_fade_out = 7.000000
-		restart_time = 73.846000
+		volume_fade_out = 7.0
+		restart_time = 73.846
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_xen_intro.vsnd",
@@ -274,15 +182,15 @@
 	music.a4_tower.puffer = 
 	{
 		type = "hlvr_music_3d"
-		volume = 1.100000
+		volume = 1.1
 		volume_falloff_min = 100
 		volume_falloff_max = 200
-		occlusion_scale = 0.500000
+		occlusion_scale = 0.5
 		spread_min = 12
 		spread_max = 12
 		enable_debug_radius = 0
-		volume_fade_out = 7.000000
-		restart_time = 19.384000
+		volume_fade_out = 7.0
+		restart_time = 19.384
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_puffer1.vsnd",

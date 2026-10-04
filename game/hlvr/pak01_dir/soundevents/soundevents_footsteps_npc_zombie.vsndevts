@@ -1,24 +1,25 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Step_Zombie.Base = 
 	{
 		type = "hlvr_footstep_npc"
-		walkspeed_max = 0.850000
-		walkspeed_vol_max = 1.000000
-		limiter_on = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 1.000000
+		walkspeed_max = 0.85
+		walkspeed_vol_max = 1.0
+		limiter_on = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 1.0
 		limiter_stop_oldest = false
-		volume_falloff_max = 600.000000
-		distance_max = 601.000000
-		occlusion_scale = 0.900000
+		volume_falloff_max = 600.0
+		distance_max = 601.0
+		occlusion_scale = 0.9
 		mixgroup = "NPC_Footsteps"
-		use_step_layer = 1.000000
-		use_foley_layer = 1.000000
-		volume_mult_step_layer = 0.600000
-		volume_mult_foley_layer = 0.300000
-		use_foley_falloff = 1.000000
-		foley_falloff_max = 400.000000
+		use_step_layer = 1.0
+		use_foley_layer = 1.0
+		volume_mult_step_layer = 0.6
+		volume_mult_foley_layer = 0.3
+		use_foley_falloff = 1.0
+		foley_falloff_max = 400.0
 		vsnd_files_step = 
 		[
 			"sounds/physics/footsteps/shared/concrete/shared_concrete_step_01.vsnd",
@@ -166,18 +167,18 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "Zombie.Step_Manual_Default"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "Zombie.Step_Manual_Layer"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	Zombie.Step_Manual_Default = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		volume_falloff_max = 600.000000
-		distance_max = 601.000000
-		occlusion_scale = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.8
+		volume_falloff_max = 600.0
+		distance_max = 601.0
+		occlusion_scale = 0.9
+		use_hrtf = 1.0
 		mixgroup = "NPC_Footsteps"
 		vsnd_files = 
 		[
@@ -195,11 +196,11 @@
 	Zombie.Step_Manual_Foley = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		volume_falloff_max = 600.000000
-		distance_max = 601.000000
-		occlusion_scale = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.4
+		volume_falloff_max = 600.0
+		distance_max = 601.0
+		occlusion_scale = 0.9
+		use_hrtf = 1.0
 		mixgroup = "NPC_Footsteps"
 		vsnd_files = 
 		[
@@ -222,11 +223,11 @@
 	Zombie.Step_Manual_Layer = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		volume_falloff_max = 600.000000
-		distance_max = 601.000000
-		occlusion_scale = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.4
+		volume_falloff_max = 600.0
+		distance_max = 601.0
+		occlusion_scale = 0.9
+		use_hrtf = 1.0
 		mixgroup = "NPC_Footsteps"
 		vsnd_files = 
 		[

@@ -71,6 +71,13 @@
 	wash-color: #f4d714; 
 }
 
+.IsDeckard #AnimatedTexture,
+.IsDeckard #AnimatedTextureAlt
+{
+	width: 600px;
+	height: 2600px;
+}
+
 .Visible #AnimatedTextureAlt{
 	opacity: .15; 
 	transform: translateY(1000px);
@@ -79,6 +86,12 @@
 	
 }
 
+
+.IsDeckard.Visible #AnimatedTexture,
+.IsDeckard.Visible #AnimatedTextureAlt
+{
+	transform: translateY(433px);
+}
 .AmmoClipOut #AnimatedTextureAlt{
 	wash-color: #ff8257;
 }

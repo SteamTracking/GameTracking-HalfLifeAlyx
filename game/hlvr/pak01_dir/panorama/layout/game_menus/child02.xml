@@ -64,17 +64,21 @@
             </Panel>
             <Panel class="empty_row" />
 
-            <Panel class="row">
-              <Panel class="col_body">
-                <GameMenuOptionCyclePanel id="pref01" convar="skill" baseLabel="#HLVR_Options_Diffculty_base" value0="0" value1="1" value2="2" value3="3" label0="#HLVR_Options_Diffculty_story" label1="#HLVR_Options_Diffculty_easy" label2="#HLVR_Options_Diffculty_normal" label3="#HLVR_Options_Diffculty_hard" desc0="#HLVR_Options_Diffculty_story_desc" desc1="#HLVR_Options_Diffculty_easy_desc" desc2="#HLVR_Options_Diffculty_normal_desc" desc3="#HLVR_Options_Diffculty_hard_desc"/>
-                <GameMenuOptionCyclePanel id="pref02" convar="hlvr_movetype_default" refresh_all="true" baseLabel="#HLVR_Options_Movement_Base" label0="#HLVR_Options_Movement_Blink" label1="#HLVR_Options_Movement_Shift" label2="#HLVR_Options_Movement_Continuous" label3="#HLVR_Options_Movement_Continuous_Hand" desc0="#HLVR_Options_Movement_Blink_desc" desc1="#HLVR_Options_Movement_Shift_desc" desc2="#HLVR_Options_Movement_Continuous_desc" desc3="#HLVR_Options_Movement_Continuous_Hand_desc"/>                
-                <GameMenuOptionTogglePanel id="pref03" convar="hlvr_move_ladder_continuous" onmouseover="GameMenu_OptionMouseOver( '#HLVR_Options_Ladder_Climb_desc' )" label0 ="#HLVR_Options_Ladder_Climb" on="#HLVR_Options_On" off="#HLVR_Options_Off" />
-                <GameMenuOptionTogglePanel id="pref04" convar="barnacle_vr_lift_type" onmouseover="GameMenu_OptionMouseOver( '#HLVR_Options_Barnacle_Lift_desc' )" label0 ="#HLVR_Options_Barnacle_Lift" on="#HLVR_Options_On" off="#HLVR_Options_Off" value0="0" value1="2" />
+            <Panel id="preferences_list">
+              
+              <Panel class="row scroll_window">
+                <Panel class="col_body">
+                  <GameMenuOptionCyclePanel id="pref01" convar="skill" baseLabel="#HLVR_Options_Diffculty_base" value0="0" value1="1" value2="2" value3="3" label0="#HLVR_Options_Diffculty_story" label1="#HLVR_Options_Diffculty_easy" label2="#HLVR_Options_Diffculty_normal" label3="#HLVR_Options_Diffculty_hard" desc0="#HLVR_Options_Diffculty_story_desc" desc1="#HLVR_Options_Diffculty_easy_desc" desc2="#HLVR_Options_Diffculty_normal_desc" desc3="#HLVR_Options_Diffculty_hard_desc"/>
+                  <GameMenuOptionCyclePanel id="pref02" convar="hlvr_movetype_default" refresh_all="true" baseLabel="#HLVR_Options_Movement_Base" label0="#HLVR_Options_Movement_Blink" label1="#HLVR_Options_Movement_Shift" label2="#HLVR_Options_Movement_Continuous" label3="#HLVR_Options_Movement_Continuous_Hand" desc0="#HLVR_Options_Movement_Blink_desc" desc1="#HLVR_Options_Movement_Shift_desc" desc2="#HLVR_Options_Movement_Continuous_desc" desc3="#HLVR_Options_Movement_Continuous_Hand_desc"/>
 
-                <GameMenuOptionCyclePanel id="pref05" convar="hlvr_adjust_turn_option" refresh_all="true" label0="#HLVR_Options_Turn_Off" label1="#HLVR_Options_Turn_Snap" label2="#HLVR_Options_Turn_Continuous" desc0="#HLVR_Options_Turn_Off_Desc" desc1="#HLVR_Options_Turn_Snap_desc" desc2="#HLVR_Options_Turn_Continuous_desc"/>
-                <GameMenuOptionCyclePanel id="pref06" stateful_visible="true" convar="vr_teleport_quick_turn_angle" descBase="#HLVR_Options_QuickTurn_Angle_desc" baseLabel="#HLVR_Options_QuickTurn_Angle_Base" label0="15" value0="15" label1="30" value1="30" label2="45" value2="45" label3="60" value3="60" label4="75" value4="75" label5="90" value5="90"/>
-                <HLVR_SettingsSlider id="pref07" stateful_visible="true" convar="vr_quick_turn_continuous_speed" percentage="true" text="#HLVR_Options_ContinuousTurn_Speed_Base" onmouseover="GameMenu_OptionMouseOver( '#HLVR_Options_ContinuousTurn_Speed_desc' )" min="30" max="350"/>
-                <GameMenuOptionTogglePanel id="pref08" stateful_visible="true" convar="vr_weapon_force_dlc_off" onmouseover="GameMenu_OptionMouseOver( '#HLVR_Options_DLC_Skins_desc' )" label0="#HLVR_Options_DLC_Skins" on="#HLVR_Options_On" off="#HLVR_Options_Off" value0="1" value1="0" />
+                  <GameMenuOptionTogglePanel id="pref04" convar="hlvr_move_ladder_continuous" onmouseover="GameMenu_OptionMouseOver( '#HLVR_Options_Ladder_Climb_desc' )" label0 ="#HLVR_Options_Ladder_Climb" on="#HLVR_Options_On" off="#HLVR_Options_Off" />
+                  <GameMenuOptionTogglePanel id="pref05" convar="barnacle_vr_lift_type" onmouseover="GameMenu_OptionMouseOver( '#HLVR_Options_Barnacle_Lift_desc' )" label0 ="#HLVR_Options_Barnacle_Lift" on="#HLVR_Options_On" off="#HLVR_Options_Off" value0="0" value1="2" />
+
+                  <GameMenuOptionCyclePanel id="pref06" convar="hlvr_adjust_turn_option" refresh_all="true" label0="#HLVR_Options_Turn_Off" label1="#HLVR_Options_Turn_Snap" label2="#HLVR_Options_Turn_Continuous" desc0="#HLVR_Options_Turn_Off_Desc" desc1="#HLVR_Options_Turn_Snap_desc" desc2="#HLVR_Options_Turn_Continuous_desc"/>
+                  <GameMenuOptionCyclePanel id="pref07" stateful_visible="true" convar="vr_teleport_quick_turn_angle" descBase="#HLVR_Options_QuickTurn_Angle_desc" baseLabel="#HLVR_Options_QuickTurn_Angle_Base" label0="15" value0="15" label1="30" value1="30" label2="45" value2="45" label3="60" value3="60" label4="75" value4="75" label5="90" value5="90"/>
+                  <HLVR_SettingsSlider id="pref08" stateful_visible="true" convar="vr_quick_turn_continuous_speed" percentage="true" text="#HLVR_Options_ContinuousTurn_Speed_Base" onmouseover="GameMenu_OptionMouseOver( '#HLVR_Options_ContinuousTurn_Speed_desc' )" min="30" max="350"/>
+                  <GameMenuOptionTogglePanel id="pref09" stateful_visible="true" convar="vr_weapon_force_dlc_off" onmouseover="GameMenu_OptionMouseOver( '#HLVR_Options_DLC_Skins_desc' )" label0="#HLVR_Options_DLC_Skins" on="#HLVR_Options_On" off="#HLVR_Options_Off" value0="1" value1="0" />
+                </Panel>
               </Panel>
             </Panel>
 
@@ -108,7 +112,7 @@
             </Panel>
             <Panel class="empty_row" />
               
-            <Panel class="row scroll_window">
+            <Panel class="row">
               <Panel class="col_body">
                 
                 <GameMenuOptionTogglePanel id="acc01" convar="hlvr_single_controller_mode" class="single_controller" single_controller="true" onmouseover="GameMenu_OptionMouseOver( '#HLVR_Options_hlvr_single_controller_mode_desc' )" label0="#HLVR_Options_hlvr_single_controller_mode" on="#HLVR_Options_On" off="#HLVR_Options_Off" />
@@ -116,7 +120,7 @@
                 <GameMenuOptionCyclePanel id="acc02" convar="hlvr_adjust_height_mode" stateful_visible="true" baseLabel="#HLVR_Options_hlvr_adjust_height_mode_base" label0="#HLVR_Options_hlvr_adjust_height_mode_0" label1="#HLVR_Options_hlvr_adjust_height_mode_1" label2="#HLVR_Options_hlvr_adjust_height_mode_2"  label3="#HLVR_Options_hlvr_adjust_height_mode_4" desc0="HLVR_Options_hlvr_adjust_height_mode_0_desc" desc1="HLVR_Options_hlvr_adjust_height_mode_1_desc" desc2="HLVR_Options_hlvr_adjust_height_mode_2_desc" desc3="HLVR_Options_hlvr_adjust_height_mode_4_desc"/>
                 <GameMenuOptionTogglePanel id="acc03" convar="hlvr_crouch_toggle_enable" stateful_visible="true" onmouseover="GameMenu_OptionMouseOver( '#HLVR_Options_ToggleCrouch_desc' )" label0="#HLVR_Options_ToggleCrouch" on="#HLVR_Options_On" off="#HLVR_Options_Off" />
                 <GameMenuOptionTogglePanel id="acc04" convar="hlvr_stand_toggle_enable" stateful_visible="true" onmouseover="GameMenu_OptionMouseOver( '#HLVR_Options_ToggleStand_desc' )" label0="#HLVR_Options_ToggleStand" on="#HLVR_Options_On" off="#HLVR_Options_Off" />
-                
+                <GameMenuOptionTogglePanel id="adv06" convar="r_light_flickering_enabled" refresh_all="true" label0="#HLVR_Options_r_light_flickering_enabled" onmouseover="GameMenu_OptionMouseOver( '' )" on="#HLVR_Options_On" off="#HLVR_Options_Off" />
                 <GameMenuOptionTogglePanel id="acc05" convar="r_light_sensitivity_mode" onmouseover="GameMenu_OptionMouseOver( '#HLVR_Options_r_light_sensitivity_mode_desc' )" label0="#HLVR_Options_r_light_sensitivity_mode" on="#HLVR_Options_On" off="#HLVR_Options_Off" />
 
               </Panel>
@@ -209,13 +213,15 @@
             
           <Panel class="col_body child_panel_root" id="child_graphics_container">
             <Panel class="header">
-              <Label class="header" text="#HLVR_Options_Graphics" />
+              <Label class="HideOnNativeDevice header" text="#HLVR_Options_Graphics" />
+			  <Label class="ShowOnNativeDevice header" text="#HLVR_Options_Graphics_Category" />
             </Panel>
             <Panel class="empty_row" />
 
             <Panel class="row">
               <Panel class="col_body_graphics">
-                <GameMenuOptionCyclePanel id="gra01" convar="hlvr_option_graphics_level" descBase="#HLVR_Options_Graphics_desc" root_graphics="true" label0="#HLVR_Options_Fidelity_Low" value0="0" label1="#HLVR_Options_Fidelity_Medium_Long" value1="1" label2="#HLVR_Options_Fidelity_High" value2="2" label3="#HLVR_Options_Fidelity_Ultra" value3="3"/>
+                <GameMenuOptionCyclePanel class="HideOnNativeDevice" id="gra01" convar="hlvr_option_graphics_level" descBase="#HLVR_Options_Graphics_desc" root_graphics="true" label0="#HLVR_Options_Fidelity_Low" value0="0" label1="#HLVR_Options_Fidelity_Medium_Long" value1="1" label2="#HLVR_Options_Fidelity_High" value2="2" label3="#HLVR_Options_Fidelity_Ultra" value3="3"/>
+                <GameMenuOptionCyclePanel class="ShowOnNativeDevice" id="gra01_device" convar="vr_perf_mode_override2" descBase="#HLVR_Options_Graphics_desc" label0="#HLVR_Options_Fidelity_Low" value0="0" label1="#HLVR_Options_Fidelity_Medium_Long" value1="1" label2="#HLVR_Options_Fidelity_High" value2="2" />
                 <Panel class="row_divider">
 
                     <Panel class="row_divider_line" />
@@ -235,12 +241,10 @@
                       <Panel class="horizontal_line" />
                     </Panel>
 
-                    <GameMenuOptionCycleCondenseTexturePanel id="c_textures" baseLabel="#HLVR_Options_Graphics_Textures_Base" convar="hlvr_option_graphics_textures" cv0="r_texturefilteringquality" cv1="r_texture_stream_max_resolution" cv2="r_texture_stream_resolution_bias_min" onmouseover="GameMenu_OptionMouseOver( '#HLVR_Options_Graphics_Textures_Desc' )" onmouseout="GameMenu_OptionMouseOver( '#HLVR_Options_Graphics_desc' )" label0="#HLVR_Options_Graphics_Textures_Low" label1="#HLVR_Options_Graphics_Textures_Medium" label2="#HLVR_Options_Graphics_Textures_High" label3="#HLVR_Options_Graphics_Textures_Ultra" />
-                    <GameMenuOptionCycleCondensePanel id="c_shadows" baseLabel="#HLVR_Options_Graphics_Shadows_Base" convar="hlvr_option_graphics_shadows" cv0="r_high_quality_shadows" cv1="vr_single_light_fast_path_sun_cascade_0_texels_per_world" cv2="vr_single_light_fast_path_sun_cascade_1_texels_per_world" cv3="vr_shadow_level_placeholder" label0="#HLVR_Options_Graphics_Shadows_Low" label1="#HLVR_Options_Graphics_Shadows_Med" label2="#HLVR_Options_Graphics_Shadows_High" label3="#HLVR_Options_Graphics_Shadows_Ultra"/>
+                    <GameMenuOptionCycleCondenseTexturePanel class="HideOnNativeDevice" id="c_textures" baseLabel="#HLVR_Options_Graphics_Textures_Base" convar="hlvr_option_graphics_textures" cv0="r_texturefilteringquality" cv1="r_texture_stream_max_resolution" cv2="r_texture_stream_resolution_bias_min" onmouseover="GameMenu_OptionMouseOver( '#HLVR_Options_Graphics_Textures_Desc' )" onmouseout="GameMenu_OptionMouseOver( '#HLVR_Options_Graphics_desc' )" label0="#HLVR_Options_Graphics_Textures_Low" label1="#HLVR_Options_Graphics_Textures_Medium" label2="#HLVR_Options_Graphics_Textures_High" label3="#HLVR_Options_Graphics_Textures_Ultra" />
+                    <GameMenuOptionCycleCondensePanel class="HideOnNativeDevice" id="c_shadows" baseLabel="#HLVR_Options_Graphics_Shadows_Base" convar="hlvr_option_graphics_shadows" cv0="r_high_quality_shadows" cv1="vr_single_light_fast_path_sun_cascade_0_texels_per_world" cv2="vr_single_light_fast_path_sun_cascade_1_texels_per_world" cv3="vr_shadow_level_placeholder" label0="#HLVR_Options_Graphics_Shadows_Low" label1="#HLVR_Options_Graphics_Shadows_Med" label2="#HLVR_Options_Graphics_Shadows_High" label3="#HLVR_Options_Graphics_Shadows_Ultra"/>
                     <GameMenuOptionCycleCondensePanel id="c_characters" baseLabel="#HLVR_Options_Graphics_Characters_Base" convar="hlvr_option_graphics_characters" cv0="vr_enable_cached_lights" cv1="vr_aoproxy_enable" cv2="vr_character_level_placeholder" label0="#HLVR_Options_Graphics_Characters_Low" label1="#HLVR_Options_Graphics_Characters_Med" label2="#HLVR_Options_Graphics_Characters_High" label3="#HLVR_Options_Graphics_Characters_Ultra"/>
-                    <GameMenuOptionCycleCondensePanel id="c_fog" baseLabel="#HLVR_Options_Graphics_Fog_Base" convar="hlvr_option_graphics_fog" cv0="volume_fog_width" cv1="volume_fog_height" cv2="volume_fog_depth" label0="#HLVR_Options_Graphics_Fog_Low" label1="#HLVR_Options_Graphics_Fog_Med" label2="#HLVR_Options_Graphics_Fog_High" label3="#HLVR_Options_Graphics_Fog_Ultra"/>
-
-                    <GameMenuOptionTogglePanel id="adv06" convar="r_light_flickering_enabled" refresh_all="true" label0="#HLVR_Options_r_light_flickering_enabled" on="#HLVR_Options_On" off="#HLVR_Options_Off" />
+                    <GameMenuOptionCycleCondensePanel class="HideOnNativeDevice" id="c_fog" baseLabel="#HLVR_Options_Graphics_Fog_Base" convar="hlvr_option_graphics_fog" cv0="volume_fog_width" cv1="volume_fog_height" cv2="volume_fog_depth" label0="#HLVR_Options_Graphics_Fog_Low" label1="#HLVR_Options_Graphics_Fog_Med" label2="#HLVR_Options_Graphics_Fog_High" label3="#HLVR_Options_Graphics_Fog_Ultra"/>
                       
                     <Panel class="options_divider">
                       <Label text="#HLVR_Options_Graphics_Particles" />

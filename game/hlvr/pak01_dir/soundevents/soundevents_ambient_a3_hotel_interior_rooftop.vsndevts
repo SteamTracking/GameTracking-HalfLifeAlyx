@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	AmbientHotelRooftop.OpenAirSkylightLp = 
 	{
@@ -6,8 +7,8 @@
 		soundevent_02 = "AmbientHotelRooftop.OpenAirSkylightLp_R"
 		soundevent_03 = "AmbientHotelRooftop.OpenAirSkylightLp_LS"
 		soundevent_04 = "AmbientHotelRooftop.OpenAirSkylightLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientHotelRooftop.OpenAirSkylightLp_L = 
 	{
@@ -21,28 +22,28 @@
 		vsnd_vol_03 = "0.65"
 		vsnd_vol_04 = "0.36"
 		mixgroup = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		vertical_rotation_angle = 35.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		vertical_rotation_angle = 35.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 		global_opvar_name_01 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity = 2.500000
-		remap_vol_opvar_x1 = 0.000000
-		remap_vol_opvar_y1 = 0.000000
-		remap_vol_opvar_x2 = 0.200000
-		remap_vol_opvar_y2 = 0.650000
-		remap_vol_opvar_x3 = 0.500000
-		remap_vol_opvar_y3 = 0.700000
-		remap_vol_opvar_x4 = 1.000000
-		remap_vol_opvar_y4 = 1.000000
-		opvar_to_volume_multiplier_min = 0.000000
-		opvar_to_volume_multiplier = 1.000000
+		global_opvar_filter_velocity = 2.5
+		remap_vol_opvar_x1 = 0.0
+		remap_vol_opvar_y1 = 0.0
+		remap_vol_opvar_x2 = 0.2
+		remap_vol_opvar_y2 = 0.65
+		remap_vol_opvar_x3 = 0.5
+		remap_vol_opvar_y3 = 0.7
+		remap_vol_opvar_x4 = 1.0
+		remap_vol_opvar_y4 = 1.0
+		opvar_to_volume_multiplier_min = 0.0
+		opvar_to_volume_multiplier = 1.0
 	}
 	AmbientHotelRooftop.OpenAirSkylightLp_R = 
 	{
@@ -51,7 +52,7 @@
 		vsnd_file_02 = "sounds/ambient/air/amb_a2_pistol_skylight_add_lp_01_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_proc_plant_ext_lp_01_r.vsnd"
 		vsnd_file_04 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_outdoor_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientHotelRooftop.OpenAirSkylightLp_LS = 
 	{
@@ -60,7 +61,7 @@
 		vsnd_file_02 = "sounds/ambient/air/amb_a2_pistol_skylight_add_lp_01_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_proc_plant_ext_lp_01_ls.vsnd"
 		vsnd_file_04 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_outdoor_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientHotelRooftop.OpenAirSkylightLp_RS = 
 	{
@@ -69,7 +70,7 @@
 		vsnd_file_02 = "sounds/ambient/air/amb_a2_pistol_skylight_add_lp_01_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_proc_plant_ext_lp_01_rs.vsnd"
 		vsnd_file_04 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_outdoor_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientHotelRooftop.HotelIntLp = 
 	{
@@ -78,8 +79,8 @@
 		soundevent_02 = "AmbientHotelRooftop.HotelIntLp_R"
 		soundevent_03 = "AmbientHotelRooftop.HotelIntLp_LS"
 		soundevent_04 = "AmbientHotelRooftop.HotelIntLp_RS"
-		rand_delay_min = -4.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = -4.0
+		rand_delay_max = 0.0
 	}
 	AmbientHotelRooftop.HotelIntLp_L = 
 	{
@@ -92,8 +93,8 @@
 		vsnd_vol_02 = "0.3"
 		vsnd_vol_03 = "0.53"
 		vsnd_vol_04 = "0.51"
-		volume = 0.760000
-		enable_debug_radius = 0.000000
+		volume = 0.76
+		enable_debug_radius = 0.0
 		soundname_string = "AmbientHotelRooftop.HotelIntLp_L"
 	}
 	AmbientHotelRooftop.HotelIntLp_R = 
@@ -103,7 +104,7 @@
 		vsnd_file_02 = "sounds/ambient/interior/amb_proc_plant_hum_lp_01_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/abstract/amb_tunnel_friction_quad_lp_01_r.vsnd"
 		vsnd_file_04 = "sounds/ambient/interior/amb_tenement_interior_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 		soundname_string = "AmbientHotelRooftop.HotelIntLp_R"
 	}
 	AmbientHotelRooftop.HotelIntLp_LS = 
@@ -113,7 +114,7 @@
 		vsnd_file_02 = "sounds/ambient/interior/amb_proc_plant_hum_lp_01_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/abstract/amb_tunnel_friction_quad_lp_01_ls.vsnd"
 		vsnd_file_04 = "sounds/ambient/interior/amb_tenement_interior_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 		soundname_string = "AmbientHotelRooftop.HotelIntLp_LS"
 	}
 	AmbientHotelRooftop.HotelIntLp_RS = 
@@ -123,7 +124,7 @@
 		vsnd_file_02 = "sounds/ambient/interior/amb_proc_plant_hum_lp_01_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/abstract/amb_tunnel_friction_quad_lp_01_rs.vsnd"
 		vsnd_file_04 = "sounds/ambient/interior/amb_tenement_interior_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 		soundname_string = "AmbientHotelRooftop.HotelIntLp_LS"
 	}
 	AmbientHotelRooftop.TextureQuad = 
@@ -133,8 +134,8 @@
 		soundevent_02 = "AmbientHotelRooftop.TextureQuad_R"
 		soundevent_03 = "AmbientHotelRooftop.TextureQuad_LS"
 		soundevent_04 = "AmbientHotelRooftop.TextureQuad_RS"
-		rand_delay_min = -5.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = -5.0
+		rand_delay_max = 0.0
 	}
 	AmbientHotelRooftop.TextureQuad_L = 
 	{
@@ -155,31 +156,31 @@
 		vsnd_vol_06 = "0.00"
 		vsnd_vol_07 = "0.00"
 		vsnd_vol_08 = "0.00"
-		remap_vol_opvar_x1 = 0.000000
-		remap_vol_opvar_y1 = 1.000000
-		remap_vol_opvar_x2 = 0.200000
-		remap_vol_opvar_y2 = 0.900000
-		remap_vol_opvar_x3 = 0.500000
-		remap_vol_opvar_y3 = 0.500000
-		remap_vol_opvar_x4 = 1.000000
-		remap_vol_opvar_y4 = 0.150000
+		remap_vol_opvar_x1 = 0.0
+		remap_vol_opvar_y1 = 1.0
+		remap_vol_opvar_x2 = 0.2
+		remap_vol_opvar_y2 = 0.9
+		remap_vol_opvar_x3 = 0.5
+		remap_vol_opvar_y3 = 0.5
+		remap_vol_opvar_x4 = 1.0
+		remap_vol_opvar_y4 = 0.15
 	}
 	AmbientHotelRooftop.TextureQuad_R = 
 	{
 		base = "AmbientHotelRooftop.TextureQuad_L"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 		vsnd_file_01 = "sounds/ambient/abstract/amb_tenement_lp_01_r.vsnd"
 	}
 	AmbientHotelRooftop.TextureQuad_LS = 
 	{
 		base = "AmbientHotelRooftop.TextureQuad_L"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 		vsnd_file_01 = "sounds/ambient/abstract/amb_tenement_lp_01_ls.vsnd"
 	}
 	AmbientHotelRooftop.TextureQuad_RS = 
 	{
 		base = "AmbientHotelRooftop.TextureQuad_L"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 		vsnd_file_01 = "sounds/ambient/abstract/amb_tenement_lp_01_rs.vsnd"
 	}
 	AmbientHotelRooftop.HeadcrabWall = 
@@ -189,37 +190,17 @@
 		random_soundevent_01_timer_min = 10
 		random_soundevent_01_timer_max = 15
 		global_opvar_name_01 = "hotel_headcrab_wall_proximity_beacon"
-		input_min_delay_adjust_mult_01 = 0.600000
-		input_max_delay_adjust_mult_01 = 0.600000
-		remap_global_opvar_01_to_vol_min = 0.500000
-		remap_global_opvar_01_to_vol_max = 1.200000
-		use_initial_random_offset = 1.000000
+		input_min_delay_adjust_mult_01 = 0.6
+		input_max_delay_adjust_mult_01 = 0.6
+		remap_global_opvar_01_to_vol_min = 0.5
+		remap_global_opvar_01_to_vol_max = 1.2
+		use_initial_random_offset = 1.0
 		position_array = 
 		[
-			
-			[
-				1329.638062,
-				-1663.041504,
-				725.386658,
-			],
-			
-			[
-				2257.109131,
-				-1680.752808,
-				725.386658,
-			],
-			
-			[
-				1307.645996,
-				-1491.981201,
-				725.386658,
-			],
-			
-			[
-				2142.224854,
-				-1501.302612,
-				725.386658,
-			],
+			[ 1329.638062, -1663.041504, 725.386658 ],
+			[ 2257.109131, -1680.752808, 725.386658 ],
+			[ 1307.645996, -1491.981201, 725.386658 ],
+			[ 2142.224854, -1501.302612, 725.386658 ],
 		]
 	}
 	AmbientHotelRooftop.HeadcrabWallMultilevel01 = 
@@ -227,30 +208,10 @@
 		base = "AmbientHotelRooftop.HeadcrabWall"
 		position_array = 
 		[
-			
-			[
-				2594.655029,
-				-1872.557251,
-				555.134644,
-			],
-			
-			[
-				2579.966064,
-				-2480.170898,
-				547.964233,
-			],
-			
-			[
-				2230.444092,
-				-2524.507568,
-				496.524658,
-			],
-			
-			[
-				2244.253662,
-				-1864.038818,
-				655.905029,
-			],
+			[ 2594.655029, -1872.557251, 555.134644 ],
+			[ 2579.966064, -2480.170898, 547.964233 ],
+			[ 2230.444092, -2524.507568, 496.524658 ],
+			[ 2244.253662, -1864.038818, 655.905029 ],
 		]
 	}
 	AmbientHotelRooftop.HeadcrabWallMultilevel02 = 
@@ -258,30 +219,10 @@
 		base = "AmbientHotelRooftop.HeadcrabWall"
 		position_array = 
 		[
-			
-			[
-				2601.016113,
-				-2039.566772,
-				523.931213,
-			],
-			
-			[
-				2226.974609,
-				-2300.637207,
-				702.763000,
-			],
-			
-			[
-				2528.697266,
-				-2441.237549,
-				677.056152,
-			],
-			
-			[
-				2043.799438,
-				-1933.499512,
-				443.649414,
-			],
+			[ 2601.016113, -2039.566772, 523.931213 ],
+			[ 2226.974609, -2300.637207, 702.763 ],
+			[ 2528.697266, -2441.237549, 677.056152 ],
+			[ 2043.799438, -1933.499512, 443.649414 ],
 		]
 	}
 	AmbientHotelRooftop.HeadcrabWallMultilevel03 = 
@@ -291,30 +232,10 @@
 		random_soundevent_01_timer_max = 10
 		position_array = 
 		[
-			
-			[
-				2481.020996,
-				-2381.345215,
-				450.479614,
-			],
-			
-			[
-				2501.065918,
-				-1898.093872,
-				450.479614,
-			],
-			
-			[
-				2249.567871,
-				-1894.987671,
-				450.479614,
-			],
-			
-			[
-				2261.441895,
-				-2403.816895,
-				450.479614,
-			],
+			[ 2481.020996, -2381.345215, 450.479614 ],
+			[ 2501.065918, -1898.093872, 450.479614 ],
+			[ 2249.567871, -1894.987671, 450.479614 ],
+			[ 2261.441895, -2403.816895, 450.479614 ],
 		]
 	}
 	AmbientHotelRooftop.HeadcrabWallMultilevel04 = 
@@ -322,50 +243,30 @@
 		base = "AmbientHotelRooftop.HeadcrabWallMultilevel03"
 		position_array = 
 		[
-			
-			[
-				2481.020996,
-				-2381.345215,
-				450.479614,
-			],
-			
-			[
-				2249.567871,
-				-1894.987671,
-				450.479614,
-			],
-			
-			[
-				2501.065918,
-				-1898.093872,
-				450.479614,
-			],
-			
-			[
-				2261.441895,
-				-2403.816895,
-				450.479614,
-			],
+			[ 2481.020996, -2381.345215, 450.479614 ],
+			[ 2249.567871, -1894.987671, 450.479614 ],
+			[ 2501.065918, -1898.093872, 450.479614 ],
+			[ 2261.441895, -2403.816895, 450.479614 ],
 		]
 	}
 	AmbientHotelRooftop.HeadcrabScurryBurst = 
 	{
 		type = "hlvr_ambient_burst_animation_time_adjust"
 		soundevent_name = "AmbientHotelRooftop.HeadcrabBlackRunSoundevents"
-		burst_length_min = 3.000000
-		burst_length_max = 4.000000
-		delay_timer_min = 1.000000
-		delay_timer_max = 1.500000
+		burst_length_min = 3.0
+		burst_length_max = 4.0
+		delay_timer_min = 1.0
+		delay_timer_max = 1.5
 		delay_offset_min = -1
-		delay_offset_max = 0.000000
+		delay_offset_max = 0.0
 		block_event_name = "AmbientHotelRooftop.HeadcrabScurryBurst"
-		block_duration = 0.500000
-		block_is_untimed = 0.000000
-		animation_time_min = 4.500000
-		animation_time_max = 10.500000
-		volume_fade_out = 2.000000
-		remap_delay_tweak_min = 1.000000
-		remap_delay_tweak_max = 2.200000
+		block_duration = 0.5
+		block_is_untimed = 0.0
+		animation_time_min = 4.5
+		animation_time_max = 10.5
+		volume_fade_out = 2.0
+		remap_delay_tweak_min = 1.0
+		remap_delay_tweak_max = 2.2
 		spawn_orphans = false
 	}
 	AmbientHotelRooftop.HeadcrabBlackRunSoundevents = 
@@ -386,22 +287,22 @@
 		[
 			"AmbientHotelRooftop.HeadcrabBlackScurrySequence",
 		]
-		use_public_position = 0.000000
-		position_source = 2.000000
-		animated_source = 0.000000
-		animated_target = 2.000000
-		unconstrained_target = 1.000000
+		use_public_position = 0.0
+		position_source = 2.0
+		animated_source = 0.0
+		animated_target = 2.0
+		unconstrained_target = 1.0
 		animation_type = "lerp"
 		animation_time_min = 4
 		animation_time_max = 8
-		volume_fade_out = 1.000000
-		use_calculated_stop_at_time = 1.000000
+		volume_fade_out = 1.0
+		use_calculated_stop_at_time = 1.0
 		position_start_index = 0
 		position_target_index = 1
-		pos_01_random_pct_min = 0.000000
-		pos_01_random_pct_max = 0.330000
-		pos_02_random_pct_min = 0.660000
-		pos_02_random_pct_max = 1.000000
+		pos_01_random_pct_min = 0.0
+		pos_01_random_pct_max = 0.33
+		pos_02_random_pct_min = 0.66
+		pos_02_random_pct_max = 1.0
 	}
 	AmbientHotelRooftop.HeadcrabBlackRun02 = 
 	{
@@ -424,10 +325,10 @@
 	AmbientHotelRooftop.HeadcrabBlackScurrySequence = 
 	{
 		type = "hlvr_soundevent_sequence"
-		wait_rand_min = -1.000000
-		wait_rand_max = -0.500000
+		wait_rand_min = -1.0
+		wait_rand_max = -0.5
 		sequence_type = "index"
-		use_public_position = 1.000000
+		use_public_position = 1.0
 		soundevents = 
 		[
 			"AmbientHotelRooftop.HeadcrabBlackSequenceMultiLarge",
@@ -441,34 +342,34 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "AmbientHotelRooftop.HeadcrabBlackAggroLong"
 		soundevent_02 = "AmbientHotelRooftop.HeadcrabBlackFsLong"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	AmbientHotelRooftop.HeadcrabBlackSequenceMultiShort = 
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "AmbientHotelRooftop.HeadcrabBlackAggroShort"
 		soundevent_02 = "AmbientHotelRooftop.HeadcrabBlackFsShort"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	AmbientHotelRooftop.HeadcrabBlackAggroLong = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
+		volume = 0.4
 		use_named_send = "ambient"
-		use_hrtf = 1.000000
-		volume_fade_out = 1.000000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 750.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		delay_rand_min = 0.000000
-		delay_rand_max = 1.500000
-		volume_rand_min = -0.300000
-		volume_rand_max = 0.000000
-		use_doppler = 1.000000
-		doppler_factor = 1.500000
+		use_hrtf = 1.0
+		volume_fade_out = 1.0
+		volume_falloff_min = 200.0
+		volume_falloff_max = 750.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		delay_rand_min = 0.0
+		delay_rand_max = 1.5
+		volume_rand_min = -0.3
+		volume_rand_max = 0.0
+		use_doppler = 1.0
+		doppler_factor = 1.5
 		vsnd_files = 
 		[
 			"sounds/ambient/creatures/amb_headcrab_black_vox_long_aggro_01.vsnd",
@@ -477,7 +378,7 @@
 			"sounds/ambient/creatures/amb_headcrab_black_vox_long_aggro_04.vsnd",
 			"sounds/ambient/creatures/amb_headcrab_black_vox_long_aggro_05.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 20
 	}
 	AmbientHotelRooftop.HeadcrabBlackAggroShort = 
@@ -495,20 +396,20 @@
 	AmbientHotelRooftop.HeadcrabBlackFsLong = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.550000
+		volume = 0.55
 		use_named_send = "ambient"
-		use_hrtf = 1.000000
-		volume_fade_out = 1.000000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 950.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		delay_rand_min = 0.000000
-		delay_rand_max = 1.000000
-		volume_rand_min = -0.300000
-		volume_rand_max = 0.000000
-		use_doppler = 1.000000
-		doppler_factor = 1.250000
+		use_hrtf = 1.0
+		volume_fade_out = 1.0
+		volume_falloff_min = 200.0
+		volume_falloff_max = 950.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		delay_rand_min = 0.0
+		delay_rand_max = 1.0
+		volume_rand_min = -0.3
+		volume_rand_max = 0.0
+		use_doppler = 1.0
+		doppler_factor = 1.25
 		vsnd_files = 
 		[
 			"sounds/ambient/creatures/amb_headcrab_black_fs_crash_13.vsnd",
@@ -524,7 +425,7 @@
 			"sounds/ambient/creatures/amb_headcrab_black_fs_crash_23.vsnd",
 			"sounds/ambient/creatures/amb_headcrab_black_fs_crash_24.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 	}
 	AmbientHotelRooftop.HeadcrabBlackFsShort = 
 	{
@@ -556,8 +457,8 @@
 		soundevent_02 = "AmbientHotelRooftop.Attic_R"
 		soundevent_03 = "AmbientHotelRooftop.Attic_LS"
 		soundevent_04 = "AmbientHotelRooftop.Attic_RS"
-		rand_delay_min = -5.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = -5.0
+		rand_delay_max = 0.0
 	}
 	AmbientHotelRooftop.Attic_L = 
 	{
@@ -566,38 +467,38 @@
 		vsnd_file_02 = "sounds/ambient/interior/amb_hotel_md_room_quad_lp_01_l.vsnd"
 		vsnd_vol_01 = "1.00"
 		vsnd_vol_02 = "0.27"
-		volume = 0.900000
-		global_opvar_filter_velocity = 2.000000
-		remap_vol_opvar_x1 = 0.000000
-		remap_vol_opvar_y1 = 0.100000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 0.800000
-		remap_filter_freq_opvar_x2 = 0.000000
-		remap_filter_freq_opvar_y2 = 0.800000
-		remap_filter_freq_opvar_x3 = 0.500000
-		remap_filter_freq_opvar_y3 = 0.900000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 1.000000
+		volume = 0.9
+		global_opvar_filter_velocity = 2.0
+		remap_vol_opvar_x1 = 0.0
+		remap_vol_opvar_y1 = 0.1
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 0.8
+		remap_filter_freq_opvar_x2 = 0.0
+		remap_filter_freq_opvar_y2 = 0.8
+		remap_filter_freq_opvar_x3 = 0.5
+		remap_filter_freq_opvar_y3 = 0.9
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 1.0
 	}
 	AmbientHotelRooftop.Attic_R = 
 	{
 		base = "AmbientHotelRooftop.Attic_L"
 		vsnd_file_01 = "sounds/ambient/interior/amb_hotel_attic_lp_01_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_hotel_md_room_quad_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientHotelRooftop.Attic_LS = 
 	{
 		base = "AmbientHotelRooftop.Attic_L"
 		vsnd_file_01 = "sounds/ambient/interior/amb_hotel_attic_lp_01_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_hotel_md_room_quad_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientHotelRooftop.Attic_RS = 
 	{
 		base = "AmbientHotelRooftop.Attic_L"
 		vsnd_file_01 = "sounds/ambient/interior/amb_hotel_attic_lp_01_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_hotel_md_room_quad_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 }

@@ -1,13 +1,14 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Music.IntroDreamTitleCrawl = 
 	{
 		type = "hlvr_start_multi_simple"
 		soundevent_01 = "music.a1_intro_world_titlecrawl"
 		soundevent_02 = "music.a1_intro_world_reveal"
-		use_01 = 1.000000
+		use_01 = 1.0
 		use_02 = 1
-		use_03 = 0.000000
-		use_04 = 0.000000
+		use_03 = 0.0
+		use_04 = 0.0
 	}
 	music.a1_intro_world_titlecrawl = 
 	{
@@ -17,19 +18,19 @@
 		soundevent_02 = "music.a1_intro_world_titlecrawl_r"
 		soundevent_03 = "music.a1_intro_world_titlecrawl_ls"
 		soundevent_04 = "music.a1_intro_world_titlecrawl_rs"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	music.a1_intro_world_titlecrawl_l = 
 	{
 		type = "hlvr_music_fixed_rotation"
-		volume_base = 1.000000
+		volume_base = 1.0
 		mixgroup = "LoudMusic"
 		rotation_angle = 135
-		volume_fade_in = 0.300000
-		volume_fade_out = 5.000000
-		volume = 0.550000
-		enable_debug_radius = 0.000000
+		volume_fade_in = 0.3
+		volume_fade_out = 5.0
+		volume = 0.55
+		enable_debug_radius = 0.0
 		soundname_string = "L"
 		vsnd_files = 
 		[
@@ -70,40 +71,25 @@
 	{
 		type = "hlvr_music_2d"
 		track = "reveal"
-		volume = 0.800000
+		volume = 0.8
 		priority = 0
 		mixgroup = "Music"
-		volume_fade_out = 10.000000
-		volume_fade_in = 0.000000
+		volume_fade_out = 10.0
+		volume_fade_in = 0.0
 		stop_at_time = 140
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				95,
-				1.000000,
-				0.000000,
-				0,
-				0.000000,
-				0.000000,
+				95, 1.0, 0.0, 0,
+				0.0, 0.0,
 			],
-			
 			[
-				120,
-				0.250000,
-				0,
-				0,
-				0.000000,
-				0.000000,
+				120, 0.25, 0, 0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_files = 
@@ -117,10 +103,10 @@
 		track = "reveal"
 		priority = 1
 		mixgroup = "Music"
-		volume = 0.350000
-		volume_fade_out = 5.000000
-		restart_time = 37.333000
-		restart_start = 13.330000
+		volume = 0.35
+		volume_fade_out = 5.0
+		restart_time = 37.333
+		restart_start = 13.33
 		vsnd_files = 
 		[
 			"sounds/common/null.vsnd",
@@ -129,25 +115,25 @@
 	Music.a1_intro_world_cable_pulse1_start = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
+		volume = 0.7
 		mixgroup = "Music"
 		use_named_send = "clean"
 		volume_falloff_min = 3500
-		volume_falloff_max = 17000.000000
+		volume_falloff_max = 17000.0
 		volume_falloff_curve_amount = 1
-		volume_falloff_floor = 0.000000
+		volume_falloff_floor = 0.0
 		vsnd_selection_type = "random"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		use_world_position = 1
 		use_doppler = 1
-		doppler_factor = 0.700000
+		doppler_factor = 0.7
 		reverb_use_curve = 0
-		reverb_xfade_value = 0.200000
-		volume_fade_in = 0.000000
-		volume_fade_out = 6.000000
+		reverb_xfade_value = 0.2
+		volume_fade_in = 0.0
+		volume_fade_out = 6.0
 		enable_debug_radius = 0
-		occlusion_scale = 0.400000
-		volume_filter_amount = 10000.000000
+		occlusion_scale = 0.4
+		volume_filter_amount = 10000.0
 		vsnd_files = 
 		[
 			"sounds/music/places/c17/citadel_cable_pulse2_start.vsnd",
@@ -158,7 +144,7 @@
 		type = "hlvr_ambient_position_on_line"
 		mixgroup = "Music"
 		use_named_send = "clean"
-		volume = 0.450000
+		volume = 0.45
 		enable_debug_radius = 0
 		debug_radius_max = 225
 		distance_max_velocity = 10
@@ -167,20 +153,10 @@
 		volume_falloff_min = 3000
 		volume_falloff_max = 6000
 		use_world_position = 1
-		occlusion_scale = 0.300000
+		occlusion_scale = 0.3
 		occlusion_radius = 900
-		position = 
-		[
-			-1115,
-			-2732,
-			456,
-		]
-		position_02 = 
-		[
-			-1170.600000,
-			4793,
-			458,
-		]
+		position = [ -1115, -2732, 456 ]
+		position_02 = [ -1170.6, 4793, 458 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/c17/citadel_cable_pulse1_mid.vsnd",
@@ -190,7 +166,7 @@
 	Music.a1_intro_world_cable_pulse2_start = 
 	{
 		base = "Music.a1_intro_world_cable_pulse1_start"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = 
 		[
 			"sounds/music/places/c17/citadel_cable_pulse2_start.vsnd",
@@ -199,19 +175,9 @@
 	Music.a1_intro_world_cable_pulse2_mid = 
 	{
 		base = "Music.a1_intro_world_cable_pulse1_mid"
-		volume = 0.400000
-		position = 
-		[
-			2617.600000,
-			-2632,
-			570,
-		]
-		position_02 = 
-		[
-			1988,
-			4952,
-			610,
-		]
+		volume = 0.4
+		position = [ 2617.6, -2632, 570 ]
+		position_02 = [ 1988, 4952, 610 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/c17/citadel_cable_pulse2_mid.vsnd",
@@ -232,50 +198,25 @@
 		type = "hlvr_music_animate_soundevent"
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				10.000000,
-				0.650000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				10.0, 0.65, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				20.000000,
-				0.950000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				20.0, 0.95, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				30.000000,
-				0.750000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				30.0, 0.75, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				40.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				40.0, 1.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 0
@@ -290,69 +231,34 @@
 		]
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				10.000000,
-				0.650000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				10.0, 0.65, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				20.000000,
-				0.950000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				20.0, 0.95, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				30.000000,
-				0.750000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				30.0, 0.75, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				40.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				40.0, 1.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 0
 		volume_fade_over_time_loop_end = 40
-		position_start = 
-		[
-			-1115,
-			-2732,
-			456,
-		]
-		position_end = 
-		[
-			-1170.600000,
-			4793,
-			458,
-		]
-		slice_start = 0.450000
-		slice_end = 0.500000
-		time_scale = 0.250000
+		position_start = [ -1115, -2732, 456 ]
+		position_end = [ -1170.6, 4793, 458 ]
+		slice_start = 0.45
+		slice_end = 0.5
+		time_scale = 0.25
 		stop_at_pct = 7
 	}
 	Music.a1_intro_world_cable_pulse1_anim_mid = 
@@ -364,81 +270,46 @@
 		]
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				10.000000,
-				0.650000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				10.0, 0.65, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				20.000000,
-				0.950000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				20.0, 0.95, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				30.000000,
-				0.750000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				30.0, 0.75, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				40.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				40.0, 1.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 0
 		volume_fade_over_time_loop_end = 40
-		position_start = 
-		[
-			-1115,
-			-2732,
-			456,
-		]
-		position_end = 
-		[
-			-1170.600000,
-			4793,
-			458,
-		]
-		slice_start = 0.400000
-		slice_end = 0.450000
-		time_scale = 0.250000
+		position_start = [ -1115, -2732, 456 ]
+		position_end = [ -1170.6, 4793, 458 ]
+		slice_start = 0.4
+		slice_end = 0.45
+		time_scale = 0.25
 		stop_at_pct = 7
-		send_position = 0.000000
+		send_position = 0.0
 	}
 	Music.a1_intro_world_cable_pulse1_all = 
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "Music.a1_intro_world_cable_pulse1_anim_start"
 		soundevent_02 = "Music.a1_intro_world_cable_pulse1_anim_mid"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 0.000000
-		use_04 = 0.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 0.0
+		use_04 = 0.0
 	}
 	Music.a1_intro_world_cable_pulse2_anim_start = 
 	{
@@ -449,70 +320,35 @@
 		]
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				10.000000,
-				0.650000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				10.0, 0.65, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				20.000000,
-				0.950000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				20.0, 0.95, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				30.000000,
-				0.750000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				30.0, 0.75, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				40.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				40.0, 1.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 0
 		volume_fade_over_time_loop_end = 40
 		offset_fade_over_time = 15
-		position_start = 
-		[
-			2617.600000,
-			-2632,
-			570,
-		]
-		position_end = 
-		[
-			1988,
-			4952,
-			610,
-		]
-		slice_start = 0.800000
-		slice_end = 0.850000
-		time_scale = 0.250000
+		position_start = [ 2617.6, -2632, 570 ]
+		position_end = [ 1988, 4952, 610 ]
+		slice_start = 0.8
+		slice_end = 0.85
+		time_scale = 0.25
 		stop_at_pct = 7
 	}
 	Music.a1_intro_world_cable_pulse2_anim_mid = 
@@ -524,82 +360,47 @@
 		]
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				10.000000,
-				0.650000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				10.0, 0.65, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				20.000000,
-				0.950000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				20.0, 0.95, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				30.000000,
-				0.750000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				30.0, 0.75, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				40.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				40.0, 1.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 0
 		volume_fade_over_time_loop_end = 40
 		offset_fade_over_time = 15
-		position_start = 
-		[
-			2617.600000,
-			-2632,
-			570,
-		]
-		position_end = 
-		[
-			1988,
-			4952,
-			610,
-		]
-		slice_start = 0.750000
-		slice_end = 0.800000
-		time_scale = 0.250000
+		position_start = [ 2617.6, -2632, 570 ]
+		position_end = [ 1988, 4952, 610 ]
+		slice_start = 0.75
+		slice_end = 0.8
+		time_scale = 0.25
 		stop_at_pct = 7
-		send_position = 0.000000
+		send_position = 0.0
 	}
 	Music.a1_intro_world_cable_pulse2_all = 
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "Music.a1_intro_world_cable_pulse2_anim_start"
 		soundevent_02 = "Music.a1_intro_world_cable_pulse2_anim_mid"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 0.000000
-		use_04 = 0.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 0.0
+		use_04 = 0.0
 	}
 	Music.a1_intro_world_citadel_ops = 
 	{
@@ -608,27 +409,22 @@
 		mixgroup = "LoudMusic"
 		use_named_send = "clean"
 		volume_falloff_min = 3500
-		volume_falloff_max = 17000.000000
+		volume_falloff_max = 17000.0
 		volume_falloff_curve_amount = 1
-		volume_falloff_floor = 0.000000
+		volume_falloff_floor = 0.0
 		vsnd_selection_type = "random"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		use_world_position = 1
-		position = 
-		[
-			-260,
-			4952,
-			732,
-		]
+		position = [ -260, 4952, 732 ]
 		use_doppler = 1
-		doppler_factor = 0.700000
+		doppler_factor = 0.7
 		reverb_use_curve = 0
-		reverb_xfade_value = 0.200000
-		volume_fade_in = 0.000000
-		volume_fade_out = 6.000000
+		reverb_xfade_value = 0.2
+		volume_fade_in = 0.0
+		volume_fade_out = 6.0
 		enable_debug_radius = 0
-		occlusion_scale = 0.400000
-		volume_filter_amount = 10000.000000
+		occlusion_scale = 0.4
+		volume_filter_amount = 10000.0
 		vsnd_files = 
 		[
 			"sounds/music/places/c17/citadel_ops.vsnd",
@@ -643,70 +439,35 @@
 		]
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				10.000000,
-				0.850000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				10.0, 0.85, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				20.000000,
-				0.950000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				20.0, 0.95, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				30.000000,
-				0.750000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				30.0, 0.75, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				40.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				40.0, 1.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 0
 		volume_fade_over_time_loop_end = 40
-		position_start = 
-		[
-			-1115,
-			-2732,
-			456,
-		]
-		position_end = 
-		[
-			-1170.600000,
-			4793,
-			458,
-		]
-		slice_start = 0.250000
-		slice_end = 0.300000
-		time_scale = 0.062500
-		send_position = 0.000000
+		position_start = [ -1115, -2732, 456 ]
+		position_end = [ -1170.6, 4793, 458 ]
+		slice_start = 0.25
+		slice_end = 0.3
+		time_scale = 0.0625
+		send_position = 0.0
 	}
 	music.a1_intro_world_heist = 
 	{
@@ -714,7 +475,7 @@
 		track = "reveal"
 		priority = 2
 		mixgroup = "Music"
-		volume_fade_out = 0.000000
+		volume_fade_out = 0.0
 		vsnd_files = 
 		[
 			"sounds/common/null.vsnd",
@@ -736,72 +497,35 @@
 		type = "hlvr_music_2d"
 		track = "main"
 		priority = 0
-		volume = 0.600000
-		wait_for_track = 0.000000
-		restart_start = 16.800000
-		restart_time = 55.200000
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			38.400002,
-		]
-		sync_bpm = 
-		[
-			100.000000,
-		]
-		sync_bpm_beats = 
-		[
-			1.000000,
-		]
+		volume = 0.6
+		wait_for_track = 0.0
+		restart_start = 16.8
+		restart_time = 55.2
+		start_point = [ 0.0 ]
+		end_point = [ 38.400002 ]
+		sync_bpm = [ 100.0 ]
+		sync_bpm_beats = [ 1.0 ]
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				15,
-				1.000000,
-				0.000000,
-				0,
-				0.000000,
-				0.000000,
+				15, 1.0, 0.0, 0,
+				0.0, 0.0,
 			],
-			
 			[
-				30,
-				0.600000,
-				0,
-				0,
-				0.000000,
-				0.000000,
+				30, 0.6, 0, 0,
+				0.0, 0.0,
 			],
-			
 			[
-				50.000000,
-				0.365000,
-				0,
-				0,
-				0.000000,
-				0,
+				50.0, 0.365, 0, 0,
+				0.0, 0,
 			],
-			
 			[
-				70.000000,
-				0.600000,
-				0,
-				0,
-				0.000000,
-				0,
+				70.0, 0.6, 0, 0,
+				0.0, 0,
 			],
 		]
 		volume_fade_over_time_loop_start = 30
@@ -816,79 +540,42 @@
 		type = "hlvr_music_2d"
 		track = "main"
 		priority = 1
-		volume = 0.700000
-		volume_lfo_freq = 0.006000
-		volume_lfo_scale = 0.500000
-		restart_start = 9.411000
-		restart_time = 47.058000
-		wait_for_track = 0.000000
+		volume = 0.7
+		volume_lfo_freq = 0.006
+		volume_lfo_scale = 0.5
+		restart_start = 9.411
+		restart_time = 47.058
+		wait_for_track = 0.0
 		sync_track = "main"
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			37.646999,
-		]
-		sync_bpm = 
-		[
-			102.000000,
-		]
-		sync_bpm_beats = 
-		[
-			1.000000,
-		]
+		start_point = [ 0.0 ]
+		end_point = [ 37.646999 ]
+		sync_bpm = [ 102.0 ]
+		sync_bpm_beats = [ 1.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/intro/a1_intro_trek2.vsnd",
 		]
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				15,
-				1.000000,
-				0.000000,
-				0,
-				0.000000,
-				0.000000,
+				15, 1.0, 0.0, 0,
+				0.0, 0.0,
 			],
-			
 			[
-				20,
-				0.315000,
-				0,
-				0,
-				0.000000,
-				0.000000,
+				20, 0.315, 0, 0,
+				0.0, 0.0,
 			],
-			
 			[
-				50.000000,
-				0.450000,
-				0,
-				0,
-				0.000000,
-				0,
+				50.0, 0.45, 0, 0,
+				0.0, 0,
 			],
-			
 			[
-				70.000000,
-				0.315000,
-				0,
-				0,
-				0.000000,
-				0,
+				70.0, 0.315, 0, 0,
+				0.0, 0,
 			],
 		]
 		volume_fade_over_time_loop_start = 25
@@ -899,80 +586,43 @@
 		type = "hlvr_music_2d"
 		track = "main"
 		priority = 2
-		volume = 0.750000
+		volume = 0.75
 		volume_fade_out = 6
-		volume_lfo_freq = 0.006000
-		volume_lfo_scale = 0.500000
-		wait_for_track = 0.000000
+		volume_lfo_freq = 0.006
+		volume_lfo_scale = 0.5
+		wait_for_track = 0.0
 		sync_track = "main"
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			37.646999,
-		]
-		sync_bpm = 
-		[
-			102.000000,
-		]
-		sync_bpm_beats = 
-		[
-			1.000000,
-		]
-		restart_start = 18.823000
-		restart_time = 37.647000
+		start_point = [ 0.0 ]
+		end_point = [ 37.646999 ]
+		sync_bpm = [ 102.0 ]
+		sync_bpm_beats = [ 1.0 ]
+		restart_start = 18.823
+		restart_time = 37.647
 		vsnd_files = 
 		[
 			"sounds/music/places/intro/a1_intro_trek3.vsnd",
 		]
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				15,
-				1.000000,
-				0.000000,
-				0,
-				0.000000,
-				0.000000,
+				15, 1.0, 0.0, 0,
+				0.0, 0.0,
 			],
-			
 			[
-				25,
-				0.305000,
-				0,
-				0,
-				0.000000,
-				0.000000,
+				25, 0.305, 0, 0,
+				0.0, 0.0,
 			],
-			
 			[
-				50.000000,
-				0.425000,
-				0,
-				0,
-				0.000000,
-				0,
+				50.0, 0.425, 0, 0,
+				0.0, 0,
 			],
-			
 			[
-				70.000000,
-				0.305000,
-				0,
-				0,
-				0.000000,
-				0,
+				70.0, 0.305, 0, 0,
+				0.0, 0,
 			],
 		]
 		volume_fade_over_time_loop_start = 25
@@ -986,32 +636,17 @@
 		volume = 1
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 0.7, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				30,
-				0.650000,
-				0.000000,
-				0,
-				0.000000,
-				0.000000,
+				30, 0.65, 0.0, 0,
+				0.0, 0.0,
 			],
-			
 			[
-				40,
-				1,
-				0,
-				0,
-				0.000000,
-				0.000000,
+				40, 1, 0, 0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_files = 
@@ -1024,40 +659,25 @@
 		type = "hlvr_music_2d"
 		track = "main"
 		priority = 0
-		volume = 0.300000
+		volume = 0.3
 		volume_fade_out = 7
-		restart_time = 60.631000
-		volume_lfo_freq = 0.006000
-		volume_lfo_scale = 0.200000
-		wait_for_track = 0.000000
+		restart_time = 60.631
+		volume_lfo_freq = 0.006
+		volume_lfo_scale = 0.2
+		wait_for_track = 0.0
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				15,
-				0.600000,
-				0.000000,
-				0,
-				0.000000,
-				0.000000,
+				15, 0.6, 0.0, 0,
+				0.0, 0.0,
 			],
-			
 			[
-				30,
-				1,
-				0,
-				0,
-				0.000000,
-				0.000000,
+				30, 1, 0, 0,
+				0.0, 0.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 0
@@ -1074,27 +694,22 @@
 		mixgroup = "LoudMusic"
 		use_named_send = "clean"
 		volume_falloff_min = 3500
-		volume_falloff_max = 17000.000000
+		volume_falloff_max = 17000.0
 		volume_falloff_curve_amount = 1
-		volume_falloff_floor = 0.000000
+		volume_falloff_floor = 0.0
 		vsnd_selection_type = "random"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		use_world_position = 1
-		position = 
-		[
-			-2816,
-			2300,
-			589,
-		]
+		position = [ -2816, 2300, 589 ]
 		use_doppler = 1
-		doppler_factor = 0.700000
+		doppler_factor = 0.7
 		reverb_use_curve = 0
-		reverb_xfade_value = 0.200000
-		volume_fade_in = 0.000000
-		volume_fade_out = 6.000000
+		reverb_xfade_value = 0.2
+		volume_fade_in = 0.0
+		volume_fade_out = 6.0
 		enable_debug_radius = 0
-		occlusion_scale = 0.400000
-		volume_filter_amount = 10000.000000
+		occlusion_scale = 0.4
+		volume_filter_amount = 10000.0
 		vsnd_files = 
 		[
 			"sounds/music/places/c17/citadel_ops.vsnd",
@@ -1109,77 +724,42 @@
 		]
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				10.000000,
-				0.850000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				10.0, 0.85, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				20.000000,
-				0.950000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				20.0, 0.95, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				30.000000,
-				0.750000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				30.0, 0.75, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				40.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				40.0, 1.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 0
 		volume_fade_over_time_loop_end = 40
-		position_start = 
-		[
-			-1115,
-			-2732,
-			456,
-		]
-		position_end = 
-		[
-			-1170.600000,
-			4793,
-			458,
-		]
-		slice_start = 0.250000
-		slice_end = 0.300000
-		time_scale = 0.031250
-		send_position = 0.000000
+		position_start = [ -1115, -2732, 456 ]
+		position_end = [ -1170.6, 4793, 458 ]
+		slice_start = 0.25
+		slice_end = 0.3
+		time_scale = 0.03125
+		send_position = 0.0
 	}
 	Music.a1_intro_world_2_strider = 
 	{
 		type = "hlvr_music_2d"
 		track = "main"
 		priority = 1
-		volume = 2.100000
+		volume = 2.1
 		vsnd_files = 
 		[
 			"sounds/music/places/intro/a1_intro_strider2.vsnd",
@@ -1189,14 +769,14 @@
 	{
 		type = "hlvr_music_3d"
 		volume = 1
-		volume_falloff_min = 10.000000
-		volume_falloff_max = 600.000000
-		volume_falloff_floor = 0.300000
+		volume_falloff_min = 10.0
+		volume_falloff_max = 600.0
+		volume_falloff_floor = 0.3
 		spread_min = 1
 		spread_max = 1
-		volume_fade_in = 3.000000
-		volume_fade_out = 8.000000
-		restart_time = 143.157000
+		volume_fade_in = 3.0
+		volume_fade_out = 8.0
+		restart_time = 143.157
 		vsnd_files = 
 		[
 			"sounds/music/places/c17/a1_intro_apt_radio.vsnd",

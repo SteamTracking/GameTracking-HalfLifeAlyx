@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	A1Intro.ClosetLp = 
 	{
@@ -6,65 +7,65 @@
 		soundevent_02 = "A1Intro.ClosetLp_R"
 		soundevent_03 = "A1Intro.ClosetLp_LS"
 		soundevent_04 = "A1Intro.ClosetLp_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	A1Intro.ClosetLp_L = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 315.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 315.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.450000
+		volume = 0.45
 		vsnd_files = "sounds/ambient/interior/amb_brick_closet_lp_l.vsnd"
 	}
 	A1Intro.ClosetLp_R = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.450000
+		volume = 0.45
 		vsnd_files = "sounds/ambient/interior/amb_brick_closet_lp_r.vsnd"
 	}
 	A1Intro.ClosetLp_LS = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 225.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 225.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.450000
+		volume = 0.45
 		vsnd_files = "sounds/ambient/interior/amb_brick_closet_lp_ls.vsnd"
 	}
 	A1Intro.ClosetLp_RS = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 135.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 135.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.450000
+		volume = 0.45
 		vsnd_files = "sounds/ambient/interior/amb_brick_closet_lp_rs.vsnd"
 	}
 	A1Intro.GarageLp = 
@@ -74,65 +75,65 @@
 		soundevent_02 = "A1Intro.GarageLp_R"
 		soundevent_03 = "A1Intro.GarageLp_LS"
 		soundevent_04 = "A1Intro.GarageLp_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	A1Intro.GarageLp_L = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 315.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 315.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = "sounds/ambient/interior/amb_brick_garage_lp_l.vsnd"
 	}
 	A1Intro.GarageLp_R = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = "sounds/ambient/interior/amb_brick_garage_lp_r.vsnd"
 	}
 	A1Intro.GarageLp_LS = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 225.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 225.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = "sounds/ambient/interior/amb_brick_garage_lp_ls.vsnd"
 	}
 	A1Intro.GarageLp_RS = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 135.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 135.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = "sounds/ambient/interior/amb_brick_garage_lp_rs.vsnd"
 	}
 	A1Intro.CityLp = 
@@ -142,65 +143,65 @@
 		soundevent_02 = "A1Intro.CityLp_R"
 		soundevent_03 = "A1Intro.CityLp_LS"
 		soundevent_04 = "A1Intro.CityLp_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	A1Intro.CityLp_L = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 315.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 315.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/ambient/city/a1_city_ext_lp_l.vsnd"
 	}
 	A1Intro.CityLp_R = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/ambient/city/a1_city_ext_lp_r.vsnd"
 	}
 	A1Intro.CityLp_LS = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 225.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 225.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/ambient/city/a1_city_ext_lp_ls.vsnd"
 	}
 	A1Intro.CityLp_RS = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 135.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 135.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/ambient/city/a1_city_ext_lp_rs.vsnd"
 	}
 	A1Intro.PileDist = 
@@ -208,7 +209,7 @@
 		type = "hlvr_default_3d"
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
-		volume_falloff_floor = 0.020000
+		volume_falloff_floor = 0.02
 		vsnd_files = 
 		[
 			"sounds/ambient/construction/pile_samples/pile_dist_01.vsnd",
@@ -225,38 +226,33 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "A1Intro.PileDist"
-		rand_radius_min = 180.000000
-		rand_radius_max = 800.000000
+		rand_radius_min = 180.0
+		rand_radius_max = 800.0
 		global_opvar_name_02 = "na"
 		global_opvar_name_01 = "na"
-		position_random = 1.000000
-		random_soundevent_01_timer_min = 6.000000
-		random_soundevent_01_timer_max = 12.000000
+		position_random = 1.0
+		random_soundevent_01_timer_min = 6.0
+		random_soundevent_01_timer_max = 12.0
 	}
 	A1Intro.PileDistCitadel = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "A1Intro.PileDist"
-		rand_radius_min = 180.000000
-		rand_radius_max = 800.000000
+		rand_radius_min = 180.0
+		rand_radius_max = 800.0
 		global_opvar_name_02 = "na"
 		global_opvar_name_01 = "na"
-		position_random = 0.000000
-		position = 
-		[
-			-2194.000000,
-			10588.000000,
-			2868.000000,
-		]
-		random_soundevent_01_timer_min = 2.000000
-		random_soundevent_01_timer_max = 8.000000
+		position_random = 0.0
+		position = [ -2194.0, 10588.0, 2868.0 ]
+		random_soundevent_01_timer_min = 2.0
+		random_soundevent_01_timer_max = 8.0
 	}
 	A1Intro.JackDist = 
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
-		volume_falloff_floor = 0.020000
+		volume_falloff_floor = 0.02
 		vsnd_files = 
 		[
 			"sounds/ambient/construction/jack_lengths/jack_lg_dist_01.vsnd",
@@ -277,92 +273,82 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "A1Intro.JackDist"
-		rand_radius_min = 240.000000
-		rand_radius_max = 500.000000
+		rand_radius_min = 240.0
+		rand_radius_max = 500.0
 		global_opvar_name_02 = "na"
 		global_opvar_name_01 = "na"
-		position_random = 1.000000
-		random_soundevent_01_timer_min = 12.000000
-		random_soundevent_01_timer_max = 18.000000
+		position_random = 1.0
+		random_soundevent_01_timer_min = 12.0
+		random_soundevent_01_timer_max = 18.0
 	}
 	A1Intro.JackDistCitadel = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "A1Intro.JackDist"
-		rand_radius_min = 240.000000
-		rand_radius_max = 500.000000
+		rand_radius_min = 240.0
+		rand_radius_max = 500.0
 		global_opvar_name_02 = "na"
 		global_opvar_name_01 = "na"
-		position_random = 0.000000
-		position = 
-		[
-			-2194.000000,
-			10588.000000,
-			2868.000000,
-		]
-		random_soundevent_01_timer_min = 9.000000
-		random_soundevent_01_timer_max = 15.000000
+		position_random = 0.0
+		position = [ -2194.0, 10588.0, 2868.0 ]
+		random_soundevent_01_timer_min = 9.0
+		random_soundevent_01_timer_max = 15.0
 	}
 	Strider.VoxGeneralBaseAmb = 
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
-		volume = 0.850000
+		volume = 0.85
 		volume_falloff_min = 1000
 		volume_falloff_max = 3500
 		spread_min = 50
 		spread_max = 500
 		occlusion_radius = 250
-		occlusion_min = 1.000000
-		occlusion_max = 1.000000
+		occlusion_min = 1.0
+		occlusion_max = 1.0
 	}
 	A1Intro.StriderDistRand = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "Strider.VoxGeneralBaseAmb"
-		rand_radius_min = 380.000000
-		rand_radius_max = 1500.000000
+		rand_radius_min = 380.0
+		rand_radius_max = 1500.0
 		global_opvar_name_02 = "na"
 		global_opvar_name_01 = "na"
-		position_random = 1.000000
-		random_soundevent_01_timer_min = 6.000000
-		random_soundevent_01_timer_max = 10.000000
+		position_random = 1.0
+		random_soundevent_01_timer_min = 6.0
+		random_soundevent_01_timer_max = 10.0
 	}
 	DistantAirShips.PassbyLpChild = 
 	{
 		type = "hlvr_ambient_rand_child"
-		volume = 1.000000
-		spread_min = 1.000000
-		spread_max = 2.000000
+		volume = 1.0
+		spread_min = 1.0
+		spread_max = 2.0
 		mixgroup = "ambient"
-		volume_rand_min = -0.100000
-		volume_rand_max = 0.100000
-		volume_falloff_min = 600.000000
-		volume_falloff_max = 3000.000000
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 1.000000
-		unconstrained_target = 1.000000
+		volume_rand_min = -0.1
+		volume_rand_max = 0.1
+		volume_falloff_min = 600.0
+		volume_falloff_max = 3000.0
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 1.0
+		unconstrained_target = 1.0
 		animation_type = "lerp"
-		use_doppler = 1.000000
-		doppler_factor = 3.000000
-		doppler_factor_receding = 2.000000
-		volume_fade_in = 8.000000
-		volume_fade_out = 15.000000
-		stop_at_time = 16.000000
-		animation_time = 29.000000
-		ortho_distance_min = 6000.000000
-		ortho_distance_max = 8000.000000
-		rand_radius_min = 600.000000
-		rand_radius_max = 2400.000000
-		ortho_flyby = 1.000000
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			400.000000,
-		]
+		use_doppler = 1.0
+		doppler_factor = 3.0
+		doppler_factor_receding = 2.0
+		volume_fade_in = 8.0
+		volume_fade_out = 15.0
+		stop_at_time = 16.0
+		animation_time = 29.0
+		ortho_distance_min = 6000.0
+		ortho_distance_max = 8000.0
+		rand_radius_min = 600.0
+		rand_radius_max = 2400.0
+		ortho_flyby = 1.0
+		position_offset = [ 0.0, 0.0, 400.0 ]
 		vsnd_files = 
 		[
 			"sounds/npc/attack_helicopter/aheli_rotor_loop1_mono.vsnd",
@@ -373,48 +359,43 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "DistantAirShips.PassbyLpChild"
-		rand_radius_min = 240.000000
-		rand_radius_max = 800.000000
+		rand_radius_min = 240.0
+		rand_radius_max = 800.0
 		global_opvar_name_02 = "na"
 		global_opvar_name_01 = "na"
-		position_random = 1.000000
-		random_soundevent_01_timer_min = 50.000000
-		random_soundevent_01_timer_max = 60.000000
+		position_random = 1.0
+		random_soundevent_01_timer_min = 50.0
+		random_soundevent_01_timer_max = 60.0
 	}
 	NearbyAirShips.PassbyLpChild = 
 	{
 		type = "hlvr_ambient_rand_child"
-		volume = 0.110000
-		spread_min = 1.000000
-		spread_max = 2.000000
+		volume = 0.11
+		spread_min = 1.0
+		spread_max = 2.0
 		mixgroup = "ambient"
-		volume_rand_min = -0.100000
-		volume_rand_max = 0.100000
-		volume_falloff_min = 600.000000
-		volume_falloff_max = 3000.000000
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 1.000000
-		unconstrained_target = 1.000000
+		volume_rand_min = -0.1
+		volume_rand_max = 0.1
+		volume_falloff_min = 600.0
+		volume_falloff_max = 3000.0
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 1.0
+		unconstrained_target = 1.0
 		animation_type = "lerp"
-		use_doppler = 1.000000
-		doppler_factor = 3.000000
-		doppler_factor_receding = 2.000000
-		volume_fade_in = 8.000000
-		volume_fade_out = 8.000000
-		stop_at_time = 8.000000
-		animation_time = 16.000000
-		ortho_distance_min = 400.000000
-		ortho_distance_max = 600.000000
-		rand_radius_min = 480.000000
-		rand_radius_max = 1000.000000
-		ortho_flyby = 1.000000
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			60.000000,
-		]
+		use_doppler = 1.0
+		doppler_factor = 3.0
+		doppler_factor_receding = 2.0
+		volume_fade_in = 8.0
+		volume_fade_out = 8.0
+		stop_at_time = 8.0
+		animation_time = 16.0
+		ortho_distance_min = 400.0
+		ortho_distance_max = 600.0
+		rand_radius_min = 480.0
+		rand_radius_max = 1000.0
+		ortho_flyby = 1.0
+		position_offset = [ 0.0, 0.0, 60.0 ]
 		vsnd_files = 
 		[
 			"sounds/npc/manhack/mh_engine_loop1.vsnd",
@@ -426,89 +407,84 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "NearbyAirships.PassbyLpChild"
-		rand_radius_min = 240.000000
-		rand_radius_max = 800.000000
+		rand_radius_min = 240.0
+		rand_radius_max = 800.0
 		global_opvar_name_02 = "na"
 		global_opvar_name_01 = "na"
-		position_random = 1.000000
-		random_soundevent_01_timer_min = 20.000000
-		random_soundevent_01_timer_max = 40.000000
+		position_random = 1.0
+		random_soundevent_01_timer_min = 20.0
+		random_soundevent_01_timer_max = 40.0
 	}
 	DistantStriderSteps.PassbyLpChild = 
 	{
 		type = "hlvr_ambient_rand_child_random_anim_time"
-		volume = 0.230000
-		use_hrtf = 1.000000
-		spread_min = 1.000000
-		spread_max = 2.000000
+		volume = 0.23
+		use_hrtf = 1.0
+		spread_min = 1.0
+		spread_max = 2.0
 		mixgroup = "AmbientDSP"
-		volume_rand_min = 0.000000
-		volume_rand_max = 0.000000
-		volume_falloff_min = 600.000000
-		volume_falloff_max = 3000.000000
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 1.000000
-		unconstrained_target = 1.000000
+		volume_rand_min = 0.0
+		volume_rand_max = 0.0
+		volume_falloff_min = 600.0
+		volume_falloff_max = 3000.0
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 1.0
+		unconstrained_target = 1.0
 		animation_type = "lerp"
-		use_doppler = 1.000000
-		doppler_factor = 1.000000
-		doppler_factor_receding = 1.000000
-		volume_fade_in = 12.000000
-		volume_fade_out = 12.000000
-		stop_at_time = 12.000000
+		use_doppler = 1.0
+		doppler_factor = 1.0
+		doppler_factor_receding = 1.0
+		volume_fade_in = 12.0
+		volume_fade_out = 12.0
+		stop_at_time = 12.0
 		animation_time_min = 24
 		animation_time_max = 24
-		ortho_distance_min = 1000.000000
-		ortho_distance_max = 1200.000000
-		rand_radius_min = 600.000000
-		rand_radius_max = 1400.000000
-		ortho_flyby = 1.000000
-		start_from_player_height = 1.000000
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			0.000000,
-		]
+		ortho_distance_min = 1000.0
+		ortho_distance_max = 1200.0
+		rand_radius_min = 600.0
+		rand_radius_max = 1400.0
+		ortho_flyby = 1.0
+		start_from_player_height = 1.0
+		position_offset = [ 0.0, 0.0, 0.0 ]
 		vsnd_files = "sounds/ambient/construction/distant_strider_step_lp_01.vsnd"
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "skylight_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 0.400000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.500000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.700000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 1.000000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 0.400000
-		remap_opvar_to_vol_x2 = 0.000000
-		remap_opvar_to_vol_y2 = 0.400000
-		remap_opvar_to_vol_x3 = 0.000000
-		remap_opvar_to_vol_y3 = 0.400000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 1.000000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 0.4
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.5
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.7
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 1.0
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 0.4
+		remap_opvar_to_vol_x2 = 0.0
+		remap_opvar_to_vol_y2 = 0.4
+		remap_opvar_to_vol_x3 = 0.0
+		remap_opvar_to_vol_y3 = 0.4
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 1.0
 	}
 	A1Intro.DistantStriderStepsPassbyRand = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "DistantStriderSteps.PassbyLpChild"
-		rand_radius_min = 240.000000
-		rand_radius_max = 800.000000
+		rand_radius_min = 240.0
+		rand_radius_max = 800.0
 		global_opvar_name_02 = "na"
 		global_opvar_name_01 = "na"
-		position_random = 1.000000
-		random_soundevent_01_timer_min = 15.000000
-		random_soundevent_01_timer_max = 50.000000
+		position_random = 1.0
+		random_soundevent_01_timer_min = 15.0
+		random_soundevent_01_timer_max = 50.0
 	}
 	A1Intro.RooftopWindSnips = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.150000
-		volume_rand_min = -0.100000
-		volume_rand_max = 0.100000
+		volume = 0.15
+		volume_rand_min = -0.1
+		volume_rand_max = 0.1
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
 		vsnd_files = 
@@ -524,19 +500,19 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "A1Intro.RooftopWindSnips"
-		rand_radius_min = 80.000000
-		rand_radius_max = 200.000000
+		rand_radius_min = 80.0
+		rand_radius_max = 200.0
 		global_opvar_name_02 = "na"
 		global_opvar_name_01 = "na"
-		position_random = 1.000000
-		random_soundevent_01_timer_min = 1.000000
-		random_soundevent_01_timer_max = 10.000000
+		position_random = 1.0
+		random_soundevent_01_timer_min = 1.0
+		random_soundevent_01_timer_max = 10.0
 	}
 	A1Intro.Citadel.CloUpDwnChild = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_floor = 0.200000
+		volume = 1.0
+		volume_falloff_floor = 0.2
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
 		vsnd_files = 
@@ -552,25 +528,20 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "A1Intro.Citadel.CloUpDwnChild"
-		rand_radius_min = 80.000000
-		rand_radius_max = 800.000000
+		rand_radius_min = 80.0
+		rand_radius_max = 800.0
 		global_opvar_name_02 = "na"
 		global_opvar_name_01 = "na"
-		position_random = 0.000000
-		position = 
-		[
-			-2194.000000,
-			10588.000000,
-			2868.000000,
-		]
-		random_soundevent_01_timer_min = 20.000000
-		random_soundevent_01_timer_max = 25.000000
+		position_random = 0.0
+		position = [ -2194.0, 10588.0, 2868.0 ]
+		random_soundevent_01_timer_min = 20.0
+		random_soundevent_01_timer_max = 25.0
 	}
 	A1Intro.Citadel.BassPulseChild = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_floor = 0.600000
+		volume = 1.0
+		volume_falloff_floor = 0.6
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
 		vsnd_files = 
@@ -592,25 +563,20 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "A1Intro.Citadel.BassPulseChild"
-		rand_radius_min = 80.000000
-		rand_radius_max = 800.000000
+		rand_radius_min = 80.0
+		rand_radius_max = 800.0
 		global_opvar_name_02 = "na"
 		global_opvar_name_01 = "na"
-		position_random = 0.000000
-		position = 
-		[
-			-2194.000000,
-			10588.000000,
-			2868.000000,
-		]
-		random_soundevent_01_timer_min = 11.076900
-		random_soundevent_01_timer_max = 11.076900
+		position_random = 0.0
+		position = [ -2194.0, 10588.0, 2868.0 ]
+		random_soundevent_01_timer_min = 11.0769
+		random_soundevent_01_timer_max = 11.0769
 	}
 	A1Intro.Citadel.SwellChild = 
 	{
 		type = "hlvr_default_3d"
-		volume = 3.000000
-		volume_falloff_floor = 1.000000
+		volume = 3.0
+		volume_falloff_floor = 1.0
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
 		vsnd_files = 
@@ -625,24 +591,19 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "A1Intro.Citadel.SwellChild"
-		rand_radius_min = 80.000000
-		rand_radius_max = 800.000000
+		rand_radius_min = 80.0
+		rand_radius_max = 800.0
 		global_opvar_name_02 = "na"
 		global_opvar_name_01 = "na"
-		position_random = 0.000000
-		position = 
-		[
-			-2194.000000,
-			10588.000000,
-			2868.000000,
-		]
-		random_soundevent_01_timer_min = 3.692300
-		random_soundevent_01_timer_max = 3.692300
+		position_random = 0.0
+		position = [ -2194.0, 10588.0, 2868.0 ]
+		random_soundevent_01_timer_min = 3.6923
+		random_soundevent_01_timer_max = 3.6923
 	}
 	A1Intro.CitadelReveal = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = "sounds/common/null.vsnd"
 	}
 	A1Intro.CombineOn = 
@@ -760,15 +721,15 @@
 	TEST_COMBINE = 
 	{
 		type = "diagnostic.timed_soundevent"
-		interval = 4.000000
+		interval = 4.0
 		soundevent = "A1Intro.MetroCopGibberishBurstRand"
 	}
 	A1Intro.MetroCopGibberish = 
 	{
 		type = "hlvr_default_3d"
-		volume_falloff_min = 36.000000
-		volume_falloff_max = 1100.000000
-		volume = 0.300000
+		volume_falloff_min = 36.0
+		volume_falloff_max = 1100.0
+		volume = 0.3
 		vsnd_selection_type = "random_exclusive"
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
@@ -834,23 +795,23 @@
 	A1Intro.MetroCopGibberishBurst = 
 	{
 		type = "hlvr_ambient_count_burst"
-		wait_rand_min = 0.250000
-		wait_rand_max = 0.750000
-		burst_count_min = 1.000000
-		burst_count_max = 5.000000
+		wait_rand_min = 0.25
+		wait_rand_max = 0.75
+		burst_count_min = 1.0
+		burst_count_max = 5.0
 		soundevents = "A1Intro.MetroCopGibberish"
 	}
 	A1Intro.MetroCopGibberishBurstRand = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "A1Intro.MetroCopGibberishBurst"
-		rand_radius_min = 800.000000
-		rand_radius_max = 1000.000000
+		rand_radius_min = 800.0
+		rand_radius_max = 1000.0
 		global_opvar_name_02 = "na"
 		global_opvar_name_01 = "na"
-		position_random = 1.000000
-		random_soundevent_01_timer_min = 12.000000
-		random_soundevent_01_timer_max = 45.000000
+		position_random = 1.0
+		random_soundevent_01_timer_min = 12.0
+		random_soundevent_01_timer_max = 45.0
 	}
 	A1Intro.TestOne = 
 	{
@@ -943,7 +904,7 @@
 		type = "hlvr_simple_voicegraph_filter_dynamics"
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
-		volume_falloff_floor = 0.100000
+		volume_falloff_floor = 0.1
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		vsnd_files = 
 		[
@@ -974,45 +935,40 @@
 			"sounds/npc/overwatch/cityvoice/fcitadel_transportsequence.vsnd",
 		]
 		global_opvar_name = "skylight_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 0.400000
-		remap_opvar_to_freq_x2 = 0.200000
-		remap_opvar_to_freq_y2 = 0.500000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.700000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 1.000000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 0.750000
-		remap_opvar_to_vol_x2 = 1.000000
-		remap_opvar_to_vol_y2 = 1.000000
-		remap_opvar_to_vol_x3 = 1.000000
-		remap_opvar_to_vol_y3 = 1.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 1.000000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 0.4
+		remap_opvar_to_freq_x2 = 0.2
+		remap_opvar_to_freq_y2 = 0.5
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.7
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 1.0
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 0.75
+		remap_opvar_to_vol_x2 = 1.0
+		remap_opvar_to_vol_y2 = 1.0
+		remap_opvar_to_vol_x3 = 1.0
+		remap_opvar_to_vol_y3 = 1.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 1.0
 	}
 	A1Intro.Overwatch.CityVoiceRand = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "A1Intro.Overwatch.CityVoice"
-		rand_radius_min = 400.000000
-		rand_radius_max = 600.000000
+		rand_radius_min = 400.0
+		rand_radius_max = 600.0
 		global_opvar_name_02 = "na"
 		global_opvar_name_01 = "na"
-		position_random = 0.000000
-		position = 
-		[
-			-2194.000000,
-			10588.000000,
-			2868.000000,
-		]
-		random_soundevent_01_timer_min = 10.000000
-		random_soundevent_01_timer_max = 45.000000
+		position_random = 0.0
+		position = [ -2194.0, 10588.0, 2868.0 ]
+		random_soundevent_01_timer_min = 10.0
+		random_soundevent_01_timer_max = 45.0
 	}
 	A1Intro.Overwatch.AntiCivilEvidence = 
 	{
 		type = "hlvr_default_3d"
-		volume_falloff_floor = 0.050000
+		volume_falloff_floor = 0.05
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
 		vsnd_files = "sounds/npc/overwatch/cityvoice/f_anticivilevidence_3_spkr.vsnd"
@@ -1024,8 +980,8 @@
 		soundevent_02 = "AmbientA1Intro.CityNiceElevationLp01_R"
 		soundevent_03 = "AmbientA1Intro.CityNiceElevationLp01_LS"
 		soundevent_04 = "AmbientA1Intro.CityNiceElevationLp01_RS"
-		rand_delay_min = -8.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = -8.0
+		rand_delay_max = 0.0
 	}
 	AmbientA1Intro.CityNiceElevationLp01_L = 
 	{
@@ -1038,20 +994,20 @@
 		vsnd_vol_02 = "0.73"
 		vsnd_vol_03 = "0.66"
 		vsnd_vol_04 = "0.15"
-		volume = 1.000000
-		vertical_rotation_angle = -15.000000
-		rotation_angle = 135.000000
-		enable_debug_radius = 0.000000
+		volume = 1.0
+		vertical_rotation_angle = -15.0
+		rotation_angle = 135.0
+		enable_debug_radius = 0.0
 		soundname_string = "AmbientA1Intro.CityNiceElevationLp01_L"
-		filter_mix = 0.900000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 0.600000
-		remap_filter_freq_opvar_x2 = 0.000000
-		remap_filter_freq_opvar_y2 = 0.600000
-		remap_filter_freq_opvar_x3 = 0.500000
-		remap_filter_freq_opvar_y3 = 0.700000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 1.000000
+		filter_mix = 0.9
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 0.6
+		remap_filter_freq_opvar_x2 = 0.0
+		remap_filter_freq_opvar_y2 = 0.6
+		remap_filter_freq_opvar_x3 = 0.5
+		remap_filter_freq_opvar_y3 = 0.7
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 1.0
 	}
 	AmbientA1Intro.CityNiceElevationLp01_R = 
 	{
@@ -1060,7 +1016,7 @@
 		vsnd_file_02 = "sounds/ambient/city/amb_city_crowd_lp_01_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_city_traffic_lp_01_r.vsnd"
 		vsnd_file_04 = "sounds/ambient/city/amb_tenement_open_air_quad_lp_01_r.vsnd"
-		rotation_angle = 45.000000
+		rotation_angle = 45.0
 		soundname_string = "AmbientA1Intro.CityNiceElevationLp01_R"
 	}
 	AmbientA1Intro.CityNiceElevationLp01_LS = 
@@ -1070,8 +1026,8 @@
 		vsnd_file_02 = "sounds/ambient/city/amb_city_crowd_lp_01_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_city_traffic_lp_01_ls.vsnd"
 		vsnd_file_04 = "sounds/ambient/city/amb_tenement_open_air_quad_lp_01_ls.vsnd"
-		rotation_angle = 225.000000
-		vertical_rotation_angle = 15.000000
+		rotation_angle = 225.0
+		vertical_rotation_angle = 15.0
 		soundname_string = "AmbientA1Intro.CityNiceElevationLp01_LS"
 	}
 	AmbientA1Intro.CityNiceElevationLp01_RS = 
@@ -1081,8 +1037,8 @@
 		vsnd_file_02 = "sounds/ambient/city/amb_city_crowd_lp_01_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_city_traffic_lp_01_rs.vsnd"
 		vsnd_file_04 = "sounds/ambient/city/amb_tenement_open_air_quad_lp_01_rs.vsnd"
-		rotation_angle = 315.000000
-		vertical_rotation_angle = 15.000000
+		rotation_angle = 315.0
+		vertical_rotation_angle = 15.0
 		soundname_string = "AmbientA1Intro.CityNiceElevationLp01_LS"
 	}
 	AmbientA1Intro.CityNiceElevationLp02 = 
@@ -1092,8 +1048,8 @@
 		soundevent_02 = "AmbientA1Intro.CityNiceElevationLp02_R"
 		soundevent_03 = "AmbientA1Intro.CityNiceElevationLp02_LS"
 		soundevent_04 = "AmbientA1Intro.CityNiceElevationLp02_RS"
-		rand_delay_min = -8.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = -8.0
+		rand_delay_max = 0.0
 	}
 	AmbientA1Intro.CityNiceElevationLp02_L = 
 	{
@@ -1106,20 +1062,20 @@
 		vsnd_vol_02 = "0.6"
 		vsnd_vol_03 = "0.4"
 		vsnd_vol_04 = "0.2"
-		volume = 1.000000
-		vertical_rotation_angle = 15.000000
-		rotation_angle = 135.000000
-		enable_debug_radius = 0.000000
+		volume = 1.0
+		vertical_rotation_angle = 15.0
+		rotation_angle = 135.0
+		enable_debug_radius = 0.0
 		soundname_string = "AmbientA1Intro.CityNiceElevationLp02_L"
-		filter_mix = 0.900000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 0.600000
-		remap_filter_freq_opvar_x2 = 0.000000
-		remap_filter_freq_opvar_y2 = 0.600000
-		remap_filter_freq_opvar_x3 = 0.500000
-		remap_filter_freq_opvar_y3 = 0.700000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 1.000000
+		filter_mix = 0.9
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 0.6
+		remap_filter_freq_opvar_x2 = 0.0
+		remap_filter_freq_opvar_y2 = 0.6
+		remap_filter_freq_opvar_x3 = 0.5
+		remap_filter_freq_opvar_y3 = 0.7
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 1.0
 	}
 	AmbientA1Intro.CityNiceElevationLp02_R = 
 	{
@@ -1128,7 +1084,7 @@
 		vsnd_file_02 = "sounds/ambient/city/amb_city_crowd_lp_01_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_c17_city_street_lp_01_r.vsnd"
 		vsnd_file_04 = "sounds/ambient/city/amb_tenement_open_air_quad_lp_01_r.vsnd"
-		rotation_angle = 45.000000
+		rotation_angle = 45.0
 		soundname_string = "AmbientA1Intro.CityNiceElevationLp02_R"
 	}
 	AmbientA1Intro.CityNiceElevationLp02_LS = 
@@ -1138,7 +1094,7 @@
 		vsnd_file_02 = "sounds/ambient/city/amb_city_crowd_lp_01_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_c17_city_street_lp_01_ls.vsnd"
 		vsnd_file_04 = "sounds/ambient/city/amb_tenement_open_air_quad_lp_01_ls.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 		soundname_string = "AmbientA1Intro.CityNiceElevationLp02_LS"
 	}
 	AmbientA1Intro.CityNiceElevationLp02_RS = 
@@ -1148,7 +1104,7 @@
 		vsnd_file_02 = "sounds/ambient/city/amb_city_crowd_lp_01_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_c17_city_street_lp_01_rs.vsnd"
 		vsnd_file_04 = "sounds/ambient/city/amb_tenement_open_air_quad_lp_01_rs.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 		soundname_string = "AmbientA1Intro.CityNiceElevationLp02_RS"
 	}
 	AmbientA1Intro.AlyxSanctuaryLp = 
@@ -1158,8 +1114,8 @@
 		soundevent_02 = "AmbientA1Intro.AlyxSanctuaryLp_R"
 		soundevent_03 = "AmbientA1Intro.AlyxSanctuaryLp_LS"
 		soundevent_04 = "AmbientA1Intro.AlyxSanctuaryLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA1Intro.AlyxSanctuaryLp_L = 
 	{
@@ -1168,40 +1124,40 @@
 		vsnd_file_02 = "sounds/ambient/city/amb_c17_interior_large_lp_01_l.vsnd"
 		vsnd_vol_01 = "0.40"
 		vsnd_vol_02 = "0.63"
-		volume = 0.900000
+		volume = 0.9
 		global_opvar_name_02 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity_02 = 2.500000
-		remap_vol_opvar_02_x1 = 0.000000
-		remap_vol_opvar_02_y1 = 1.000000
-		remap_vol_opvar_02_x2 = 0.200000
-		remap_vol_opvar_02_y2 = 0.900000
-		remap_vol_opvar_02_x3 = 0.500000
-		remap_vol_opvar_02_y3 = 0.650000
-		remap_vol_opvar_02_x4 = 1.000000
-		remap_vol_opvar_02_y4 = 0.000000
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
+		global_opvar_filter_velocity_02 = 2.5
+		remap_vol_opvar_02_x1 = 0.0
+		remap_vol_opvar_02_y1 = 1.0
+		remap_vol_opvar_02_x2 = 0.2
+		remap_vol_opvar_02_y2 = 0.9
+		remap_vol_opvar_02_x3 = 0.5
+		remap_vol_opvar_02_y3 = 0.65
+		remap_vol_opvar_02_x4 = 1.0
+		remap_vol_opvar_02_y4 = 0.0
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
 	}
 	AmbientA1Intro.AlyxSanctuaryLp_R = 
 	{
 		base = "AmbientA1Intro.AlyxSanctuaryLp_L"
 		vsnd_file_01 = "sounds/ambient/interior/amb_alyx_sanctuary_room_tone_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/amb_c17_interior_large_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA1Intro.AlyxSanctuaryLp_LS = 
 	{
 		base = "AmbientA1Intro.AlyxSanctuaryLp_L"
 		vsnd_file_01 = "sounds/ambient/interior/amb_alyx_sanctuary_room_tone_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/amb_c17_interior_large_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA1Intro.AlyxSanctuaryLp_RS = 
 	{
 		base = "AmbientA1Intro.AlyxSanctuaryLp_L"
 		vsnd_file_01 = "sounds/ambient/interior/amb_alyx_sanctuary_room_tone_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/amb_c17_interior_large_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA1Intro.ApartmentHallLp = 
 	{
@@ -1210,8 +1166,8 @@
 		soundevent_02 = "AmbientA1Intro.ApartmentHallLp_R"
 		soundevent_03 = "AmbientA1Intro.ApartmentHallLp_LS"
 		soundevent_04 = "AmbientA1Intro.ApartmentHallLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA1Intro.ApartmentHallLp_L = 
 	{
@@ -1222,27 +1178,27 @@
 		vsnd_vol_01 = "1.0"
 		vsnd_vol_02 = "0.5"
 		vsnd_vol_03 = "0.3"
-		volume = 1.000000
+		volume = 1.0
 		global_opvar_name_02 = "large_room_addin_beacon"
-		global_opvar_filter_velocity_02 = 2.500000
-		remap_vol_opvar_02_x1 = 0.000000
-		remap_vol_opvar_02_y1 = 1.000000
-		remap_vol_opvar_02_x2 = 0.200000
-		remap_vol_opvar_02_y2 = 0.900000
-		remap_vol_opvar_02_x3 = 0.500000
-		remap_vol_opvar_02_y3 = 0.650000
-		remap_vol_opvar_02_x4 = 1.000000
-		remap_vol_opvar_02_y4 = 0.300000
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
-		remap_filter_freq_opvar_02_x1 = 0.000000
-		remap_filter_freq_opvar_02_y1 = 1.000000
-		remap_filter_freq_opvar_02_x2 = 0.000000
-		remap_filter_freq_opvar_02_y2 = 1.000000
-		remap_filter_freq_opvar_02_x3 = 0.500000
-		remap_filter_freq_opvar_02_y3 = 0.700000
-		remap_filter_freq_opvar_02_x4 = 1.000000
-		remap_filter_freq_opvar_02_y4 = 0.600000
+		global_opvar_filter_velocity_02 = 2.5
+		remap_vol_opvar_02_x1 = 0.0
+		remap_vol_opvar_02_y1 = 1.0
+		remap_vol_opvar_02_x2 = 0.2
+		remap_vol_opvar_02_y2 = 0.9
+		remap_vol_opvar_02_x3 = 0.5
+		remap_vol_opvar_02_y3 = 0.65
+		remap_vol_opvar_02_x4 = 1.0
+		remap_vol_opvar_02_y4 = 0.3
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
+		remap_filter_freq_opvar_02_x1 = 0.0
+		remap_filter_freq_opvar_02_y1 = 1.0
+		remap_filter_freq_opvar_02_x2 = 0.0
+		remap_filter_freq_opvar_02_y2 = 1.0
+		remap_filter_freq_opvar_02_x3 = 0.5
+		remap_filter_freq_opvar_02_y3 = 0.7
+		remap_filter_freq_opvar_02_x4 = 1.0
+		remap_filter_freq_opvar_02_y4 = 0.6
 	}
 	AmbientA1Intro.ApartmentHallLp_R = 
 	{
@@ -1250,7 +1206,7 @@
 		vsnd_file_01 = "sounds/ambient/city/amb_c17_interior_small_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_alyx_sanctuary_room_tone_lp_01_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_proc_plant_hum_lp_02_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA1Intro.ApartmentHallLp_LS = 
 	{
@@ -1258,7 +1214,7 @@
 		vsnd_file_01 = "sounds/ambient/city/amb_c17_interior_small_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_alyx_sanctuary_room_tone_lp_01_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_proc_plant_hum_lp_02_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA1Intro.ApartmentHallLp_RS = 
 	{
@@ -1266,7 +1222,7 @@
 		vsnd_file_01 = "sounds/ambient/city/amb_c17_interior_small_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_alyx_sanctuary_room_tone_lp_01_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_proc_plant_hum_lp_02_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA1Intro.ElevatorIntLp = 
 	{
@@ -1275,8 +1231,8 @@
 		soundevent_02 = "AmbientA1Intro.ElevatorIntLp_R"
 		soundevent_03 = "AmbientA1Intro.ElevatorIntLp_LS"
 		soundevent_04 = "AmbientA1Intro.ElevatorIntLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA1Intro.ElevatorIntLp_L = 
 	{
@@ -1286,39 +1242,39 @@
 		vsnd_vol_01 = "1.00"
 		vsnd_vol_02 = "0.24"
 		global_opvar_name_01 = "large_room_addin_beacon"
-		global_opvar_filter_velocity_02 = 2.000000
-		volume = 0.900000
+		global_opvar_filter_velocity_02 = 2.0
+		volume = 0.9
 	}
 	AmbientA1Intro.ElevatorIntLp_R = 
 	{
 		base = "AmbientA1Intro.ElevatorIntLp_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_c17_interior_elevator_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_nice_basement_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA1Intro.ElevatorIntLp_LS = 
 	{
 		base = "AmbientA1Intro.ElevatorIntLp_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_c17_interior_elevator_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_nice_basement_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA1Intro.ElevatorIntLp_RS = 
 	{
 		base = "AmbientA1Intro.ElevatorIntLp_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_c17_interior_elevator_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_nice_basement_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA1Intro.SubtleWoodCreaking = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientBase.SubtleWoodCreakingChild"
-		random_soundevent_01_timer_min = 6.000000
-		random_soundevent_01_timer_max = 12.000000
+		random_soundevent_01_timer_min = 6.0
+		random_soundevent_01_timer_max = 12.0
 		global_volume_opvar_01 = "hotel_small_room_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	AmbientA1Intro.ApartmentBasementLp = 
 	{
@@ -1327,8 +1283,8 @@
 		soundevent_02 = "AmbientA1Intro.ApartmentBasementLp_R"
 		soundevent_03 = "AmbientA1Intro.ApartmentBasementLp_LS"
 		soundevent_04 = "AmbientA1Intro.ApartmentBasementLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA1Intro.ApartmentBasementLp_L = 
 	{
@@ -1337,40 +1293,40 @@
 		vsnd_file_02 = "sounds/ambient/interior/amb_alyx_sanctuary_room_tone_lp_01_l.vsnd"
 		vsnd_vol_01 = "0.91"
 		vsnd_vol_02 = "0.57"
-		volume = 0.750000
+		volume = 0.75
 		global_opvar_name_02 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity_02 = 2.500000
-		remap_vol_opvar_02_x1 = 0.000000
-		remap_vol_opvar_02_y1 = 1.000000
-		remap_vol_opvar_02_x2 = 0.200000
-		remap_vol_opvar_02_y2 = 0.900000
-		remap_vol_opvar_02_x3 = 0.500000
-		remap_vol_opvar_02_y3 = 0.650000
-		remap_vol_opvar_02_x4 = 1.000000
-		remap_vol_opvar_02_y4 = 0.000000
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
+		global_opvar_filter_velocity_02 = 2.5
+		remap_vol_opvar_02_x1 = 0.0
+		remap_vol_opvar_02_y1 = 1.0
+		remap_vol_opvar_02_x2 = 0.2
+		remap_vol_opvar_02_y2 = 0.9
+		remap_vol_opvar_02_x3 = 0.5
+		remap_vol_opvar_02_y3 = 0.65
+		remap_vol_opvar_02_x4 = 1.0
+		remap_vol_opvar_02_y4 = 0.0
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
 	}
 	AmbientA1Intro.ApartmentBasementLp_R = 
 	{
 		base = "AmbientA1Intro.ApartmentBasementLp_L"
 		vsnd_file_01 = "sounds/ambient/interior/amb_nice_basement_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_alyx_sanctuary_room_tone_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA1Intro.ApartmentBasementLp_LS = 
 	{
 		base = "AmbientA1Intro.ApartmentBasementLp_L"
 		vsnd_file_01 = "sounds/ambient/interior/amb_nice_basement_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_alyx_sanctuary_room_tone_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA1Intro.ApartmentBasementLp_RS = 
 	{
 		base = "AmbientA1Intro.ApartmentBasementLp_L"
 		vsnd_file_01 = "sounds/ambient/interior/amb_nice_basement_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_alyx_sanctuary_room_tone_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA1Intro.ApartmentBasementElevatorLp = 
 	{
@@ -1379,8 +1335,8 @@
 		soundevent_02 = "AmbientA1Intro.ApartmentBasementElevatorLp_R"
 		soundevent_03 = "AmbientA1Intro.ApartmentBasementElevatorLp_LS"
 		soundevent_04 = "AmbientA1Intro.ApartmentBasementElevatorLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA1Intro.ApartmentBasementElevatorLp_L = 
 	{
@@ -1389,48 +1345,48 @@
 		vsnd_file_02 = "sounds/ambient/interior/amb_alyx_sanctuary_room_tone_lp_01_l.vsnd"
 		vsnd_vol_01 = "0.75"
 		vsnd_vol_02 = "0.3"
-		volume = 0.900000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 1.000000
-		remap_filter_freq_opvar_x2 = 0.000000
-		remap_filter_freq_opvar_y2 = 1.000000
-		remap_filter_freq_opvar_x3 = 0.500000
-		remap_filter_freq_opvar_y3 = 0.800000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 0.600000
+		volume = 0.9
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 1.0
+		remap_filter_freq_opvar_x2 = 0.0
+		remap_filter_freq_opvar_y2 = 1.0
+		remap_filter_freq_opvar_x3 = 0.5
+		remap_filter_freq_opvar_y3 = 0.8
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 0.6
 		global_opvar_name_02 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity_02 = 2.500000
-		remap_vol_opvar_02_x1 = 0.000000
-		remap_vol_opvar_02_y1 = 1.000000
-		remap_vol_opvar_02_x2 = 0.200000
-		remap_vol_opvar_02_y2 = 0.900000
-		remap_vol_opvar_02_x3 = 0.500000
-		remap_vol_opvar_02_y3 = 0.650000
-		remap_vol_opvar_02_x4 = 1.000000
-		remap_vol_opvar_02_y4 = 0.300000
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
+		global_opvar_filter_velocity_02 = 2.5
+		remap_vol_opvar_02_x1 = 0.0
+		remap_vol_opvar_02_y1 = 1.0
+		remap_vol_opvar_02_x2 = 0.2
+		remap_vol_opvar_02_y2 = 0.9
+		remap_vol_opvar_02_x3 = 0.5
+		remap_vol_opvar_02_y3 = 0.65
+		remap_vol_opvar_02_x4 = 1.0
+		remap_vol_opvar_02_y4 = 0.3
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
 	}
 	AmbientA1Intro.ApartmentBasementElevatorLp_R = 
 	{
 		base = "AmbientA1Intro.ApartmentBasementElevatorLp_L"
 		vsnd_file_01 = "sounds/ambient/interior/amb_proc_plant_hum_lp_02_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_alyx_sanctuary_room_tone_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA1Intro.ApartmentBasementElevatorLp_LS = 
 	{
 		base = "AmbientA1Intro.ApartmentBasementElevatorLp_L"
 		vsnd_file_01 = "sounds/ambient/interior/amb_proc_plant_hum_lp_02_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_alyx_sanctuary_room_tone_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA1Intro.ApartmentBasementElevatorLp_RS = 
 	{
 		base = "AmbientA1Intro.ApartmentBasementElevatorLp_L"
 		vsnd_file_01 = "sounds/ambient/interior/amb_proc_plant_hum_lp_02_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_alyx_sanctuary_room_tone_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA1Intro.ComputerRoomAddinLp = 
 	{
@@ -1439,8 +1395,8 @@
 		soundevent_02 = "AmbientA1Intro.ComputerRoomAddinLp_R"
 		soundevent_03 = "AmbientA1Intro.ComputerRoomAddinLp_LS"
 		soundevent_04 = "AmbientA1Intro.ComputerRoomAddinLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA1Intro.ComputerRoomAddinLp_L = 
 	{
@@ -1450,54 +1406,54 @@
 		vsnd_vol_01 = "0.72"
 		vsnd_vol_02 = "0.85"
 		global_opvar_name_01 = "large_room_addin_beacon"
-		volume = 0.650000
-		remap_vol_opvar_x1 = 0.000000
-		remap_vol_opvar_y1 = 0.000000
-		remap_vol_opvar_x2 = 0.200000
-		remap_vol_opvar_y2 = 0.350000
-		remap_vol_opvar_x3 = 0.500000
-		remap_vol_opvar_y3 = 0.650000
-		remap_vol_opvar_x4 = 1.000000
-		remap_vol_opvar_y4 = 1.000000
-		opvar_to_volume_multiplier_min = 0.000000
-		opvar_to_volume_multiplier = 1.000000
-		filter_mix = 1.000000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 0.000000
-		remap_filter_freq_opvar_x2 = 0.000000
-		remap_filter_freq_opvar_y2 = 0.000000
-		remap_filter_freq_opvar_x3 = 0.500000
-		remap_filter_freq_opvar_y3 = 0.750000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 1.000000
+		volume = 0.65
+		remap_vol_opvar_x1 = 0.0
+		remap_vol_opvar_y1 = 0.0
+		remap_vol_opvar_x2 = 0.2
+		remap_vol_opvar_y2 = 0.35
+		remap_vol_opvar_x3 = 0.5
+		remap_vol_opvar_y3 = 0.65
+		remap_vol_opvar_x4 = 1.0
+		remap_vol_opvar_y4 = 1.0
+		opvar_to_volume_multiplier_min = 0.0
+		opvar_to_volume_multiplier = 1.0
+		filter_mix = 1.0
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 0.0
+		remap_filter_freq_opvar_x2 = 0.0
+		remap_filter_freq_opvar_y2 = 0.0
+		remap_filter_freq_opvar_x3 = 0.5
+		remap_filter_freq_opvar_y3 = 0.75
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 1.0
 	}
 	AmbientA1Intro.ComputerRoomAddinLp_R = 
 	{
 		base = "AmbientA1Intro.ComputerRoomAddinLp_L"
 		vsnd_file_01 = "sounds/ambient/interior/amb_int_computer_room_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_int_computer_room_lp_02_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA1Intro.ComputerRoomAddinLp_LS = 
 	{
 		base = "AmbientA1Intro.ComputerRoomAddinLp_L"
 		vsnd_file_01 = "sounds/ambient/interior/amb_int_computer_room_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_int_computer_room_lp_02_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA1Intro.ComputerRoomAddinLp_RS = 
 	{
 		base = "AmbientA1Intro.ComputerRoomAddinLp_L"
 		vsnd_file_01 = "sounds/ambient/interior/amb_int_computer_room_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_int_computer_room_lp_02_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA1Intro.ComfortingBeepBoops = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientA1Intro.ComfortingBeepBoopsChild"
-		random_soundevent_01_timer_min = 4.000000
-		random_soundevent_01_timer_max = 12.000000
+		random_soundevent_01_timer_min = 4.0
+		random_soundevent_01_timer_max = 12.0
 	}
 	AmbientA1Intro.ComfortingBeepBoopsChild = 
 	{
@@ -1506,13 +1462,13 @@
 		use_named_send = "ambient"
 		volume_falloff_min = 48
 		volume_falloff_max = 240
-		volume = 0.070000
+		volume = 0.07
 		spread_min = 8
 		spread_max = 24
-		use_hrtf = 1.000000
-		occlusion_scale = 0.500000
-		occlusion_min = 0.500000
-		occlusion_max = 1.000000
+		use_hrtf = 1.0
+		occlusion_scale = 0.5
+		occlusion_min = 0.5
+		occlusion_max = 1.0
 		vsnd_files = 
 		[
 			"sounds/ambient/abstract/beepboop/amb_russel_lab_beepboop_01.vsnd",
@@ -1527,26 +1483,26 @@
 			"sounds/ambient/abstract/beepboop/amb_russel_lab_beepboop_10.vsnd",
 			"sounds/ambient/abstract/beepboop/amb_russel_lab_beepboop_11.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 300
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "large_room_addin_beacon"
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 0.000000
-		remap_opvar_to_vol_x2 = 0.200000
-		remap_opvar_to_vol_y2 = 0.350000
-		remap_opvar_to_vol_x3 = 0.500000
-		remap_opvar_to_vol_y3 = 0.650000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 1.000000
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 0.400000
-		remap_opvar_to_freq_x2 = 0.000000
-		remap_opvar_to_freq_y2 = 0.400000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.750000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 1.000000
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 0.0
+		remap_opvar_to_vol_x2 = 0.2
+		remap_opvar_to_vol_y2 = 0.35
+		remap_opvar_to_vol_x3 = 0.5
+		remap_opvar_to_vol_y3 = 0.65
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 1.0
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 0.4
+		remap_opvar_to_freq_x2 = 0.0
+		remap_opvar_to_freq_y2 = 0.4
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.75
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 1.0
 	}
 	AmbientA1Intro.TreeRustleBox = 
 	{
@@ -1561,21 +1517,21 @@
 	AmbientA1Intro.TreeRustleChild = 
 	{
 		base = "AmbientNature.TreeRustleChild"
-		volume = 0.150000
+		volume = 0.15
 	}
 	AmbientA1Intro.AlyxFanLp = 
 	{
 		base = "AmbientElectric.FanLp"
-		volume = 0.050000
+		volume = 0.05
 	}
 	AmbientA1Intro.CitizenTrainPassbyLp = 
 	{
 		base = "CitizenTrain.PassbyLp"
 		global_volume_opvar_01 = "skylight_proximity_beacon"
 		random_soundevent_01_name = "AmbientA1Intro.CitizenTrainPassbyBurst"
-		remap_global_opvar_01_to_vol_min = 0.400000
-		remap_global_opvar_01_to_vol_max = 1.000000
-		use_initial_random_offset = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.4
+		remap_global_opvar_01_to_vol_max = 1.0
+		use_initial_random_offset = 1.0
 	}
 	AmbientA1Intro.CitizenTrainPassbyBurst = 
 	{
@@ -1594,11 +1550,11 @@
 		soundevent_name = "AmbientA1Intro.CitizenTrainPassbyLpSm"
 		burst_length_min = 5
 		burst_length_max = 12
-		delay_timer_min = 0.500000
-		delay_timer_max = 0.700000
+		delay_timer_min = 0.5
+		delay_timer_max = 0.7
 		block_event_name = "AmbientA1Intro.CitizenTrainPassbyBurst"
-		block_match_substring = 1.000000
-		block_is_untimed = 1.000000
+		block_match_substring = 1.0
+		block_is_untimed = 1.0
 	}
 	AmbientA1Intro.CitizenTrainPassbyBurstMd = 
 	{
@@ -1606,8 +1562,8 @@
 		soundevent_name = "AmbientA1Intro.CitizenTrainPassbyLpMd"
 		burst_length_min = 10
 		burst_length_max = 22
-		delay_timer_min = 1.000000
-		delay_timer_max = 1.300000
+		delay_timer_min = 1.0
+		delay_timer_max = 1.3
 	}
 	AmbientA1Intro.CitizenTrainPassbyBurstLg = 
 	{
@@ -1615,8 +1571,8 @@
 		soundevent_name = "AmbientA1Intro.CitizenTrainPassbyLpLg"
 		burst_length_min = 18
 		burst_length_max = 30
-		delay_timer_min = 1.500000
-		delay_timer_max = 1.800000
+		delay_timer_min = 1.5
+		delay_timer_max = 1.8
 	}
 	AmbientA1Intro.CitizenTrainPassbyLpSm = 
 	{
@@ -1625,27 +1581,17 @@
 		[
 			"AmbientA1Intro.CitizenTrainPassbyLpChildSm",
 		]
-		position_source = 2.000000
-		animated_source = 0.000000
-		animated_target = 2.000000
-		unconstrained_target = 1.000000
+		position_source = 2.0
+		animated_source = 0.0
+		animated_target = 2.0
+		unconstrained_target = 1.0
 		animation_type = "lerp"
-		animation_time_min = 5.000000
-		animation_time_max = 6.500000
-		volume_fade_out = 1.500000
-		use_calculated_stop_at_time = 1.000000
-		anim_position_start = 
-		[
-			5449.322754,
-			-1200,
-			400.572693,
-		]
-		position_target = 
-		[
-			-4178.984863,
-			-1200,
-			400.572693,
-		]
+		animation_time_min = 5.0
+		animation_time_max = 6.5
+		volume_fade_out = 1.5
+		use_calculated_stop_at_time = 1.0
+		anim_position_start = [ 5449.322754, -1200, 400.572693 ]
+		position_target = [ -4178.984863, -1200, 400.572693 ]
 	}
 	AmbientA1Intro.CitizenTrainPassbyLpMd = 
 	{
@@ -1654,8 +1600,8 @@
 		[
 			"AmbientA1Intro.CitizenTrainPassbyLpChildMd",
 		]
-		animation_time_min = 7.500000
-		animation_time_max = 8.500000
+		animation_time_min = 7.5
+		animation_time_max = 8.5
 	}
 	AmbientA1Intro.CitizenTrainPassbyLpLg = 
 	{
@@ -1665,7 +1611,7 @@
 			"AmbientA1Intro.CitizenTrainPassbyLpChildLg",
 		]
 		animation_time_min = 13
-		animation_time_max = 15.500000
+		animation_time_max = 15.5
 	}
 	AmbientA1Intro.CitizenTrainPassbyLpChildSm = 
 	{
@@ -1674,34 +1620,34 @@
 		[
 			"sounds/ambient/machines/train_freight_loop2.vsnd",
 		]
-		volume = 0.100000
+		volume = 0.1
 		mixgroup = "AmbientDSP"
 		use_named_send = "ambient"
-		volume_rand_min = -0.100000
-		volume_rand_max = 0.100000
-		use_doppler = 1.000000
-		doppler_factor = 2.000000
-		doppler_factor_receding = 2.000000
+		volume_rand_min = -0.1
+		volume_rand_max = 0.1
+		use_doppler = 1.0
+		doppler_factor = 2.0
+		doppler_factor_receding = 2.0
 		volume_falloff_min = 1500
 		volume_falloff_max = 5000
-		volume_fade_in = 1.000000
-		volume_fade_out = 1.500000
+		volume_fade_in = 1.0
+		volume_fade_out = 1.5
 		stop_at_time = 5
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
-		limiter_on = 1.000000
+		limiter_on = 1.0
 		limiter_event_name = "AmbientA1Intro.CitizenTrainPassbyLpChildSm"
 		limiter_max = 6
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		soundname_string = "AmbientA1Intro.CitizenTrainPassbyLpChildSm"
 		global_opvar_name = "skylight_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 0.600000
-		remap_opvar_to_freq_x2 = 0.200000
-		remap_opvar_to_freq_y2 = 0.800000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.900000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 1.000000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 0.6
+		remap_opvar_to_freq_x2 = 0.2
+		remap_opvar_to_freq_y2 = 0.8
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.9
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 1.0
 	}
 	AmbientA1Intro.CitizenTrainPassbyLpChildMd = 
 	{
@@ -1720,14 +1666,14 @@
 	AmbientA1Intro.HumBuzzOnBox = 
 	{
 		base = "AmbientElectric.HumBuzzOnBox"
-		volume = 0.300000
+		volume = 0.3
 	}
 	AmbientA1Intro.TransformerBoxHumLp = 
 	{
 		base = "AmbientElectric.TransformerBoxHumLp"
-		volume = 0.375000
-		volume_falloff_min = 15.000000
-		volume_falloff_max = 150.000000
+		volume = 0.375
+		volume_falloff_min = 15.0
+		volume_falloff_max = 150.0
 		cull_at_distance = 200
 	}
 	AmbientA1Intro.StreetLevelAddinLp = 
@@ -1737,8 +1683,8 @@
 		soundevent_02 = "AmbientA1Intro.StreetLevelAddinLp_R"
 		soundevent_03 = "AmbientA1Intro.StreetLevelAddinLp_LS"
 		soundevent_04 = "AmbientA1Intro.StreetLevelAddinLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA1Intro.StreetLevelAddinLp_L = 
 	{
@@ -1754,36 +1700,36 @@
 		vsnd_vol_01 = "0.75"
 		vsnd_vol_02 = "0.55"
 		mixgroup = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 5.000000
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 5.0
 		spread_min = 250
 		spread_max = 250
-		volume = 0.900000
+		volume = 0.9
 		global_opvar_name_01 = "large_room_addin_beacon"
-		remap_vol_opvar_x1 = 0.000000
-		remap_vol_opvar_y1 = 0.000000
-		remap_vol_opvar_x2 = 0.200000
-		remap_vol_opvar_y2 = 0.350000
-		remap_vol_opvar_x3 = 0.500000
-		remap_vol_opvar_y3 = 0.500000
-		remap_vol_opvar_x4 = 1.000000
-		remap_vol_opvar_y4 = 1.000000
-		opvar_to_volume_multiplier_min = 0.000000
-		opvar_to_volume_multiplier = 1.000000
-		filter_mix = 1.000000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 0.750000
-		remap_filter_freq_opvar_x2 = 0.000000
-		remap_filter_freq_opvar_y2 = 0.750000
-		remap_filter_freq_opvar_x3 = 0.000000
-		remap_filter_freq_opvar_y3 = 0.750000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 1.000000
-		enable_debug_radius = 0.000000
+		remap_vol_opvar_x1 = 0.0
+		remap_vol_opvar_y1 = 0.0
+		remap_vol_opvar_x2 = 0.2
+		remap_vol_opvar_y2 = 0.35
+		remap_vol_opvar_x3 = 0.5
+		remap_vol_opvar_y3 = 0.5
+		remap_vol_opvar_x4 = 1.0
+		remap_vol_opvar_y4 = 1.0
+		opvar_to_volume_multiplier_min = 0.0
+		opvar_to_volume_multiplier = 1.0
+		filter_mix = 1.0
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 0.75
+		remap_filter_freq_opvar_x2 = 0.0
+		remap_filter_freq_opvar_y2 = 0.75
+		remap_filter_freq_opvar_x3 = 0.0
+		remap_filter_freq_opvar_y3 = 0.75
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 1.0
+		enable_debug_radius = 0.0
 		soundname_string = "AmbientA1Intro.StreetLevelAddinLp"
 	}
 	AmbientA1Intro.StreetLevelAddinLp_R = 
@@ -1791,20 +1737,20 @@
 		base = "AmbientA1Intro.StreetLevelAddinLp_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_c17_city_street_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/a1_city_ext_lp_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA1Intro.StreetLevelAddinLp_LS = 
 	{
 		base = "AmbientA1Intro.StreetLevelAddinLp_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_c17_city_street_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/a1_city_ext_lp_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA1Intro.StreetLevelAddinLp_RS = 
 	{
 		base = "AmbientA1Intro.StreetLevelAddinLp_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_c17_city_street_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/a1_city_ext_lp_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 }

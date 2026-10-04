@@ -25,7 +25,7 @@
           
             <Panel class="button_container_left">
               <Button id="cta_delete_slot" onactivate="GameMenu_Cmd( 'delete_slot' )" onmouseover="GameMenu_OptionMouseOver( '#HLVR_MainMenu_DeleteSlot_desc' )" onmouseout="GameMenu_OptionMouseOver( '' )"/>
-              <Button id="cta_adv_graphics" onactivate="GameMenu_Cmd( 'advance_graphics' )" onmouseover="GameMenu_OptionMouseOver( '#HLVR_Options_Graphics_Adv_desc' )" onmouseout="GameMenu_OptionMouseOver( '' )" />
+              <Button class="HideOnNativeDevice" id="cta_adv_graphics" onactivate="GameMenu_Cmd( 'advance_graphics' )" onmouseover="GameMenu_OptionMouseOver( '#HLVR_Options_Graphics_Adv_desc' )" onmouseout="GameMenu_OptionMouseOver( '' )" />
               <Button id="cta_manage_addons" class="button_cta" onactivate="GameMenu_Cmd( 'manage_addons' )" onmouseover="GameMenu_OptionMouseOver( '' )" onmouseout="GameMenu_OptionMouseOver( '' )">
                 <Label class="cta" text="#HLVR_MainMenu_ManageAddons" />
               </Button>

@@ -1,14 +1,15 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	core.soundscape_2d = 
 	{
 		type = "hlvr_src1_soundscape_2d"
-		limiter_on = 0.000000
+		limiter_on = 0.0
 		vsnd_files = "sounds/diagnostics/bell.vsnd"
 	}
 	core.soundscape_3d = 
 	{
 		type = "hlvr_src1_soundscape_3d"
-		limiter_on = 0.000000
+		limiter_on = 0.0
 		vsnd_files = "sounds/diagnostics/bell.vsnd"
 	}
 	hlvr.set_mix_send_levels = 
@@ -30,8 +31,8 @@
 	core.set_playerdsp_muffled = 
 	{
 		type = "core_set_playerdsp"
-		mix = 0.000000
-		enable = 0.000000
+		mix = 0.0
+		enable = 0.0
 	}
 	hlvr.hlvr_vo_radio_ext = 
 	{

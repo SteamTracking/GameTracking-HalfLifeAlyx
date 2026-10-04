@@ -1,14 +1,15 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Music.a2_pistol_train_xombies = 
 	{
 		type = "hlvr_music_2d"
 		track = "main"
 		mixgroup = "LoudMusic"
-		presence_adjust = 0.100000
-		volume = 0.500000
+		presence_adjust = 0.1
+		volume = 0.5
 		volume_fade_in = 3
 		volume_fade_out = 13
-		restart_time = 58.800000
+		restart_time = 58.8
 		vsnd_files = 
 		[
 			"sounds/music/places/trains/a2_pistol_drone.vsnd",
@@ -22,29 +23,19 @@
 		presence_adjust_velocity = 65
 		presence_map_curve = 
 		[
-			
 			[
-				100.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				100.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				250.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				250.0, 0.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
-		volume = 0.370000
+		volume = 0.37
 		volume_fade_in = 2
 		volume_fade_out = 6
-		restart_time = 38.400000
+		restart_time = 38.4
 		vsnd_files = 
 		[
 			"sounds/music/places/trains/a2_pistol_drums2.vsnd",
@@ -54,11 +45,11 @@
 	{
 		type = "hlvr_music_2d"
 		mixgroup = "Music"
-		presence_adjust = 0.100000
-		volume = 0.550000
+		presence_adjust = 0.1
+		volume = 0.55
 		volume_fade_in = 5
 		volume_fade_out = 13
-		restart_time = 58.800000
+		restart_time = 58.8
 		vsnd_files = 
 		[
 			"sounds/music/places/trains/a2_pistol_drone.vsnd",
@@ -71,29 +62,19 @@
 		presence_adjust_velocity = 65
 		presence_map_curve = 
 		[
-			
 			[
-				100.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				100.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				250.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				250.0, 0.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
-		volume = 0.370000
+		volume = 0.37
 		volume_fade_in = 2
 		volume_fade_out = 6
-		restart_time = 38.400000
+		restart_time = 38.4
 		vsnd_files = 
 		[
 			"sounds/music/places/trains/a2_pistol_drums3.vsnd",
@@ -104,10 +85,10 @@
 		type = "hlvr_music_2d"
 		track = "main"
 		priority = 0
-		volume = 0.450000
+		volume = 0.45
 		volume_fade_in = 5
 		volume_fade_out = 2
-		restart_time = 68.571000
+		restart_time = 68.571
 		vsnd_files = 
 		[
 			"sounds/music/places/trains/a2_pistol_headcrabs.vsnd",
@@ -118,10 +99,10 @@
 		type = "hlvr_music_2d"
 		track = "main"
 		priority = 1
-		volume = 0.500000
+		volume = 0.5
 		volume_fade_in = 2
 		volume_fade_out = 2
-		restart_time = 68.571000
+		restart_time = 68.571
 		vsnd_files = 
 		[
 			"sounds/music/places/trains/a2_pistol_headcrabs_xen.vsnd",
@@ -134,10 +115,10 @@
 		priority = 2
 		voice_layer = "async_load"
 		should_pause = 0
-		volume = 0.400000
+		volume = 0.4
 		volume_fade_in = 2
 		volume_fade_out = 12
-		restart_time = 68.571000
+		restart_time = 68.571
 		vsnd_files = 
 		[
 			"sounds/music/places/trains/a2_pistol_headcrabs_xen.vsnd",

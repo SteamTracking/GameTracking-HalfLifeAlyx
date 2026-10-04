@@ -1,18 +1,19 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	XenInfest.Bulb_Spew = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 250.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		distance_max = 201.000000
-		use_hrtf = 1.000000
-		occlusion_radius = 10.000000
-		occlusion_scale = 0.900000
-		delay_rand_min = 0.010000
-		delay_rand_max = 0.100000
+		volume = 0.3
+		volume_falloff_min = 50.0
+		volume_falloff_max = 250.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		distance_max = 201.0
+		use_hrtf = 1.0
+		occlusion_radius = 10.0
+		occlusion_scale = 0.9
+		delay_rand_min = 0.01
+		delay_rand_max = 0.1
 		mixgroup = "Xen"
 		vsnd_files = 
 		[
@@ -43,11 +44,11 @@
 	XenInfest.Poison_Cloud = 
 	{
 		type = "hlvr_2d_w_occlusion"
-		volume = 0.400000
+		volume = 0.4
 		mixgroup = "Xen"
-		block_duration = 2.000000
+		block_duration = 2.0
 		block_match_this_event = true
-		occlusion_scale = 0.000000
+		occlusion_scale = 0.0
 		vsnd_files = 
 		[
 			"sounds/world/infestation/bulb/poison_cloud.vsnd",
@@ -56,7 +57,7 @@
 	XenInfest.Poison_Cloud_Scripted = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
+		volume = 0.2
 		mixgroup = "Xen"
 		vsnd_files = 
 		[
@@ -66,10 +67,10 @@
 	XenInfest.Click = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_falloff_max = 115.000000
-		volume_falloff_min = 20.000000
-		use_hrtf = 1.000000
+		volume = 0.5
+		volume_falloff_max = 115.0
+		volume_falloff_min = 20.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
 		vsnd_files = 
 		[
@@ -94,10 +95,10 @@
 	XenInfest.PlantBubble = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_falloff_max = 250.000000
-		volume_falloff_min = 20.000000
-		use_hrtf = 1.000000
+		volume = 0.5
+		volume_falloff_max = 250.0
+		volume_falloff_min = 20.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
 		vsnd_files = 
 		[
@@ -114,10 +115,10 @@
 	XenInfest.PlantPop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_falloff_max = 250.000000
-		volume_falloff_min = 20.000000
-		use_hrtf = 1.000000
+		volume = 0.5
+		volume_falloff_max = 250.0
+		volume_falloff_min = 20.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
 		vsnd_files = 
 		[
@@ -136,10 +137,10 @@
 	XenInfest.ShellSquishLg = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_falloff_max = 250.000000
-		volume_falloff_min = 20.000000
-		use_hrtf = 1.000000
+		volume = 0.5
+		volume_falloff_max = 250.0
+		volume_falloff_min = 20.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
 		vsnd_files = 
 		[
@@ -159,10 +160,10 @@
 	XenInfest.ShellSquishSm = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_falloff_max = 250.000000
-		volume_falloff_min = 20.000000
-		use_hrtf = 1.000000
+		volume = 0.5
+		volume_falloff_max = 250.0
+		volume_falloff_min = 20.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
 		vsnd_files = 
 		[
@@ -193,18 +194,13 @@
 	XenInfest.ThrumLp = 
 	{
 		type = "hlvr_ambient_position_on_sphere"
-		volume = 0.700000
-		volume_falloff_max = 1150.000000
-		volume_falloff_min = 400.000000
-		use_hrtf = 1.000000
-		sphere_position = 
-		[
-			0.000000,
-			0.000000,
-			0.000000,
-		]
-		sphere_radius = 65.000000
-		no_position_update = 0.000000
+		volume = 0.7
+		volume_falloff_max = 1150.0
+		volume_falloff_min = 400.0
+		use_hrtf = 1.0
+		sphere_position = [ 0.0, 0.0, 0.0 ]
+		sphere_radius = 65.0
+		no_position_update = 0.0
 		mixgroup = "Xen"
 		vsnd_files = 
 		[
@@ -215,48 +211,48 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "XenInfest.XenLaughBurst"
-		random_soundevent_01_timer_min = 15.500000
-		random_soundevent_01_timer_max = 22.500000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 15.5
+		random_soundevent_01_timer_max = 22.5
+		use_initial_random_offset = 1.0
 	}
 	XenInfest.XenLaughBurst = 
 	{
 		type = "hlvr_ambient_burst"
 		soundevent_name = "XenInfest.XenLaughChild"
-		burst_length_min = 7.000000
-		burst_length_max = 12.000000
-		delay_timer_min = 1.500000
-		delay_timer_max = 3.500000
+		burst_length_min = 7.0
+		burst_length_max = 12.0
+		delay_timer_min = 1.5
+		delay_timer_max = 3.5
 	}
 	XenInfest.XenLaughChild = 
 	{
 		type = "hlvr_ambient_rand_child_random_anim_time"
-		volume = 0.850000
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.050000
-		volume_falloff_min = 750.000000
-		volume_falloff_max = 2500.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		animation_time_min = 5.000000
-		animation_time_max = 10.000000
-		use_calculated_stop_at_time = 1.000000
-		volume_fade_out = 3.000000
-		position_source = 2.000000
-		animated_target = 1.000000
+		volume = 0.85
+		volume_rand_min = -0.02
+		volume_rand_max = 0.05
+		volume_falloff_min = 750.0
+		volume_falloff_max = 2500.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		animation_time_min = 5.0
+		animation_time_max = 10.0
+		use_calculated_stop_at_time = 1.0
+		volume_fade_out = 3.0
+		position_source = 2.0
+		animated_target = 1.0
 		constrain_direction = "none"
 		make_ortho_vertical = false
-		ortho_distance_min = 550.000000
-		ortho_distance_max = 1100.000000
-		ortho_flyby = 1.000000
-		unconstrained_target = 1.000000
+		ortho_distance_min = 550.0
+		ortho_distance_max = 1100.0
+		ortho_flyby = 1.0
+		unconstrained_target = 1.0
 		animation_type = "slerp"
-		rand_radius_min = 150.000000
-		rand_radius_max = 350.000000
-		use_doppler = 1.000000
-		doppler_factor = 0.800000
+		rand_radius_min = 150.0
+		rand_radius_max = 350.0
+		use_doppler = 1.0
+		doppler_factor = 0.8
 		mixgroup = "ambient"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		vsnd_files = 
 		[
 			"sounds/ambient/xen/amb_xen_rand_laughs_01.vsnd",
@@ -279,25 +275,25 @@
 		soundevent_02 = "XenInfest.AptFoliageLp_R"
 		soundevent_03 = "XenInfest.AptFoliageLp_LS"
 		soundevent_04 = "XenInfest.AptFoliageLp_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	XenInfest.AptFoliageLp_L = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
 		mixgroup = "ambient"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 3.500000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 3.5
 		spread_min = 0
 		spread_max = 300
-		volume = 0.150000
-		use_hrtf = 1.000000
+		volume = 0.15
+		use_hrtf = 1.0
 		vsnd_files = 
 		[
 			"sounds/ambient/xen/amb_xen_foliage_apt_lp_01_l.vsnd",
@@ -306,7 +302,7 @@
 	XenInfest.AptFoliageLp_R = 
 	{
 		base = "XenInfest.AptFoliageLp_L"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 		vsnd_files = 
 		[
 			"sounds/ambient/xen/amb_xen_foliage_apt_lp_01_r.vsnd",
@@ -315,7 +311,7 @@
 	XenInfest.AptFoliageLp_LS = 
 	{
 		base = "XenInfest.AptFoliageLp_L"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 		vsnd_files = 
 		[
 			"sounds/ambient/xen/amb_xen_foliage_apt_lp_01_ls.vsnd",
@@ -324,7 +320,7 @@
 	XenInfest.AptFoliageLp_RS = 
 	{
 		base = "XenInfest.AptFoliageLp_L"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 		vsnd_files = 
 		[
 			"sounds/ambient/xen/amb_xen_foliage_apt_lp_01_rs.vsnd",
@@ -337,8 +333,8 @@
 		soundevent_02 = "XenInfest.AmbApartmentLp_R"
 		soundevent_03 = "XenInfest.AmbApartmentLp_LS"
 		soundevent_04 = "XenInfest.AmbApartmentLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	XenInfest.AmbApartmentLp_L = 
 	{
@@ -351,24 +347,24 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		vsnd_vol_01 = 0.500000
-		vsnd_vol_02 = 0.400000
-		vsnd_vol_03 = 0.000000
-		vsnd_vol_04 = 0.000000
-		vsnd_vol_05 = 0.000000
-		vsnd_vol_06 = 0.000000
-		vsnd_vol_07 = 0.000000
-		vsnd_vol_08 = 0.000000
+		vsnd_vol_01 = 0.5
+		vsnd_vol_02 = 0.4
+		vsnd_vol_03 = 0.0
+		vsnd_vol_04 = 0.0
+		vsnd_vol_05 = 0.0
+		vsnd_vol_06 = 0.0
+		vsnd_vol_07 = 0.0
+		vsnd_vol_08 = 0.0
 		mixgroup = "ambient"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.900000
+		volume = 0.9
 	}
 	XenInfest.AmbApartmentLp_R = 
 	{
@@ -381,7 +377,7 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	XenInfest.AmbApartmentLp_LS = 
 	{
@@ -394,7 +390,7 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	XenInfest.AmbApartmentLp_RS = 
 	{
@@ -407,52 +403,52 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	XenInfest.EradicatedXenDripping = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "XenInfest.EradicatedXenDrippingBurst"
-		random_soundevent_01_timer_min = 5.000000
-		random_soundevent_01_timer_max = 11.000000
-		use_initial_random_offset = 1.000000
-		position_random = 0.000000
+		random_soundevent_01_timer_min = 5.0
+		random_soundevent_01_timer_max = 11.0
+		use_initial_random_offset = 1.0
+		position_random = 0.0
 	}
 	XenInfest.EradicatedXenDrippingBurst = 
 	{
 		type = "hlvr_ambient_burst"
 		soundevent_name = "XenInfest.EradicatedXenDrippingChild"
-		burst_length_min = 3.000000
-		burst_length_max = 4.000000
-		delay_timer_min = 0.500000
-		delay_timer_max = 1.000000
+		burst_length_min = 3.0
+		burst_length_max = 4.0
+		delay_timer_min = 0.5
+		delay_timer_max = 1.0
 	}
 	XenInfest.EradicatedXenDrippingChild = 
 	{
 		type = "hlvr_ambient_rand_child"
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
-		volume = 0.220000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 400.000000
-		volume_rand_min = -0.100000
-		volume_rand_max = 0.100000
-		pitch_rand_min = -0.150000
-		pitch_rand_max = 0.050000
-		position_source = 2.000000
+		volume = 0.22
+		volume_falloff_min = 100.0
+		volume_falloff_max = 400.0
+		volume_rand_min = -0.1
+		volume_rand_max = 0.1
+		pitch_rand_min = -0.15
+		pitch_rand_max = 0.05
+		position_source = 2.0
 		constrain_direction = "right_down"
 		make_ortho_vertical = true
-		ortho_distance_min = 60.000000
-		ortho_distance_max = 80.000000
-		animated_target = 1.000000
-		animation_time = 1.500000
+		ortho_distance_min = 60.0
+		ortho_distance_max = 80.0
+		animated_target = 1.0
+		animation_time = 1.5
 		animation_type = "lerp"
-		rand_radius_min = 65.000000
-		rand_radius_max = 250.000000
-		unconstrained_target = 1.000000
-		use_doppler = 1.000000
-		doppler_factor = 0.850000
-		debug_radius_max = 100.000000
+		rand_radius_min = 65.0
+		rand_radius_max = 250.0
+		unconstrained_target = 1.0
+		use_doppler = 1.0
+		doppler_factor = 0.85
+		debug_radius_max = 100.0
 		soundname_string = "XenInfest.EradicatedXenDrippingChild"
 		vsnd_files = 
 		[
@@ -467,48 +463,48 @@
 	XenInfest.BioluminescencePropagateDangliesFloories = 
 	{
 		type = "hlvr_default_3d_xen_propagation"
-		volume = 0.500000
-		volume_falloff_max = 300.000000
-		volume_falloff_min = 45.000000
-		cull_at_distance = 320.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.100000
-		volume_rand_min = -0.050000
-		volume_rand_max = 0.050000
-		limiter_on = 0.000000
-		limiter_max = 128.000000
+		volume = 0.5
+		volume_falloff_max = 300.0
+		volume_falloff_min = 45.0
+		cull_at_distance = 320.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.1
+		volume_rand_min = -0.05
+		volume_rand_max = 0.05
+		limiter_on = 0.0
+		limiter_max = 128.0
 		limiter_event_name = "XenInfest.BioluminescencePropagate"
-		limiter_match_substring = 0.000000
+		limiter_match_substring = 0.0
 		limiter_stop_oldest = false
-		limiter_match_entity = 0.000000
-		limiter_match_event_duration = 0.250000
-		remap_scale_to_pitch_x1 = 0.500000
-		remap_scale_to_pitch_y1 = 1.200000
-		remap_scale_to_pitch_x2 = 0.800000
-		remap_scale_to_pitch_y2 = 1.100000
-		remap_scale_to_pitch_x3 = 1.000000
-		remap_scale_to_pitch_y3 = 1.000000
-		remap_scale_to_pitch_x4 = 1.100000
-		remap_scale_to_pitch_y4 = 0.800000
-		remap_scale_to_vol_x1 = 0.500000
-		remap_scale_to_vol_y1 = 0.850000
-		remap_scale_to_vol_x2 = 0.800000
-		remap_scale_to_vol_y2 = 0.900000
-		remap_scale_to_vol_x3 = 1.000000
-		remap_scale_to_vol_y3 = 1.000000
-		remap_scale_to_vol_x4 = 1.250000
-		remap_scale_to_vol_y4 = 1.100000
-		round_to_bucket = 0.150000
-		remap_index_pct_to_freq_x1 = 0.000000
-		remap_index_pct_to_freq_y1 = 0.500000
-		remap_index_pct_to_freq_x2 = 0.500000
-		remap_index_pct_to_freq_y2 = 0.600000
-		remap_index_pct_to_freq_x3 = 0.750000
-		remap_index_pct_to_freq_y3 = 0.800000
-		remap_index_pct_to_freq_x4 = 1.000000
-		remap_index_pct_to_freq_y4 = 1.000000
-		index_pitch_min = 0.750000
-		index_pitch_max = 1.500000
+		limiter_match_entity = 0.0
+		limiter_match_event_duration = 0.25
+		remap_scale_to_pitch_x1 = 0.5
+		remap_scale_to_pitch_y1 = 1.2
+		remap_scale_to_pitch_x2 = 0.8
+		remap_scale_to_pitch_y2 = 1.1
+		remap_scale_to_pitch_x3 = 1.0
+		remap_scale_to_pitch_y3 = 1.0
+		remap_scale_to_pitch_x4 = 1.1
+		remap_scale_to_pitch_y4 = 0.8
+		remap_scale_to_vol_x1 = 0.5
+		remap_scale_to_vol_y1 = 0.85
+		remap_scale_to_vol_x2 = 0.8
+		remap_scale_to_vol_y2 = 0.9
+		remap_scale_to_vol_x3 = 1.0
+		remap_scale_to_vol_y3 = 1.0
+		remap_scale_to_vol_x4 = 1.25
+		remap_scale_to_vol_y4 = 1.1
+		round_to_bucket = 0.15
+		remap_index_pct_to_freq_x1 = 0.0
+		remap_index_pct_to_freq_y1 = 0.5
+		remap_index_pct_to_freq_x2 = 0.5
+		remap_index_pct_to_freq_y2 = 0.6
+		remap_index_pct_to_freq_x3 = 0.75
+		remap_index_pct_to_freq_y3 = 0.8
+		remap_index_pct_to_freq_x4 = 1.0
+		remap_index_pct_to_freq_y4 = 1.0
+		index_pitch_min = 0.75
+		index_pitch_max = 1.5
 		mixgroup = "Xen"
 		vsnd_files = 
 		[
@@ -521,48 +517,48 @@
 	XenInfest.BioluminescencePropagateSphinctus = 
 	{
 		type = "hlvr_default_3d_xen_propagation"
-		volume = 0.500000
-		volume_falloff_max = 300.000000
-		volume_falloff_min = 35.000000
-		cull_at_distance = 320.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.100000
-		volume_rand_min = -0.050000
-		volume_rand_max = 0.050000
-		limiter_on = 0.000000
-		limiter_max = 128.000000
+		volume = 0.5
+		volume_falloff_max = 300.0
+		volume_falloff_min = 35.0
+		cull_at_distance = 320.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.1
+		volume_rand_min = -0.05
+		volume_rand_max = 0.05
+		limiter_on = 0.0
+		limiter_max = 128.0
 		limiter_event_name = "XenInfest.BioluminescencePropagate"
-		limiter_match_substring = 0.000000
+		limiter_match_substring = 0.0
 		limiter_stop_oldest = false
-		limiter_match_entity = 0.000000
-		limiter_match_event_duration = 0.250000
-		remap_scale_to_pitch_x1 = 0.800000
-		remap_scale_to_pitch_y1 = 1.100000
-		remap_scale_to_pitch_x2 = 0.800000
-		remap_scale_to_pitch_y2 = 1.100000
-		remap_scale_to_pitch_x3 = 1.000000
-		remap_scale_to_pitch_y3 = 1.000000
-		remap_scale_to_pitch_x4 = 1.100000
-		remap_scale_to_pitch_y4 = 0.800000
-		remap_scale_to_vol_x1 = 0.500000
-		remap_scale_to_vol_y1 = 0.850000
-		remap_scale_to_vol_x2 = 0.800000
-		remap_scale_to_vol_y2 = 0.900000
-		remap_scale_to_vol_x3 = 1.000000
-		remap_scale_to_vol_y3 = 1.000000
-		remap_scale_to_vol_x4 = 1.250000
-		remap_scale_to_vol_y4 = 1.100000
-		round_to_bucket = 0.150000
-		remap_index_pct_to_freq_x1 = 0.900000
-		remap_index_pct_to_freq_y1 = 0.900000
-		remap_index_pct_to_freq_x2 = 0.950000
-		remap_index_pct_to_freq_y2 = 0.950000
-		remap_index_pct_to_freq_x3 = 1.000000
-		remap_index_pct_to_freq_y3 = 1.000000
-		remap_index_pct_to_freq_x4 = 1.000000
-		remap_index_pct_to_freq_y4 = 1.000000
-		index_pitch_min = 0.950000
-		index_pitch_max = 1.050000
+		limiter_match_entity = 0.0
+		limiter_match_event_duration = 0.25
+		remap_scale_to_pitch_x1 = 0.8
+		remap_scale_to_pitch_y1 = 1.1
+		remap_scale_to_pitch_x2 = 0.8
+		remap_scale_to_pitch_y2 = 1.1
+		remap_scale_to_pitch_x3 = 1.0
+		remap_scale_to_pitch_y3 = 1.0
+		remap_scale_to_pitch_x4 = 1.1
+		remap_scale_to_pitch_y4 = 0.8
+		remap_scale_to_vol_x1 = 0.5
+		remap_scale_to_vol_y1 = 0.85
+		remap_scale_to_vol_x2 = 0.8
+		remap_scale_to_vol_y2 = 0.9
+		remap_scale_to_vol_x3 = 1.0
+		remap_scale_to_vol_y3 = 1.0
+		remap_scale_to_vol_x4 = 1.25
+		remap_scale_to_vol_y4 = 1.1
+		round_to_bucket = 0.15
+		remap_index_pct_to_freq_x1 = 0.9
+		remap_index_pct_to_freq_y1 = 0.9
+		remap_index_pct_to_freq_x2 = 0.95
+		remap_index_pct_to_freq_y2 = 0.95
+		remap_index_pct_to_freq_x3 = 1.0
+		remap_index_pct_to_freq_y3 = 1.0
+		remap_index_pct_to_freq_x4 = 1.0
+		remap_index_pct_to_freq_y4 = 1.0
+		index_pitch_min = 0.95
+		index_pitch_max = 1.05
 		mixgroup = "Xen"
 		vsnd_files = 
 		[
@@ -577,48 +573,48 @@
 	XenInfest.BioluminescencePropagateUrchin = 
 	{
 		type = "hlvr_default_3d_xen_propagation"
-		volume = 0.400000
-		volume_falloff_max = 300.000000
-		volume_falloff_min = 50.000000
-		cull_at_distance = 320.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.100000
-		volume_rand_min = -0.050000
-		volume_rand_max = 0.050000
-		limiter_on = 0.000000
-		limiter_max = 128.000000
+		volume = 0.4
+		volume_falloff_max = 300.0
+		volume_falloff_min = 50.0
+		cull_at_distance = 320.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.1
+		volume_rand_min = -0.05
+		volume_rand_max = 0.05
+		limiter_on = 0.0
+		limiter_max = 128.0
 		limiter_event_name = "XenInfest.BioluminescencePropagate"
-		limiter_match_substring = 0.000000
+		limiter_match_substring = 0.0
 		limiter_stop_oldest = false
-		limiter_match_entity = 0.000000
-		limiter_match_event_duration = 0.250000
-		remap_scale_to_pitch_x1 = 0.500000
-		remap_scale_to_pitch_y1 = 1.200000
-		remap_scale_to_pitch_x2 = 0.800000
-		remap_scale_to_pitch_y2 = 1.100000
-		remap_scale_to_pitch_x3 = 1.000000
-		remap_scale_to_pitch_y3 = 1.000000
-		remap_scale_to_pitch_x4 = 1.000000
-		remap_scale_to_pitch_y4 = 0.800000
-		remap_scale_to_vol_x1 = 0.500000
-		remap_scale_to_vol_y1 = 0.850000
-		remap_scale_to_vol_x2 = 0.800000
-		remap_scale_to_vol_y2 = 0.900000
-		remap_scale_to_vol_x3 = 1.000000
-		remap_scale_to_vol_y3 = 1.000000
-		remap_scale_to_vol_x4 = 1.250000
-		remap_scale_to_vol_y4 = 1.100000
-		round_to_bucket = 0.150000
-		remap_index_pct_to_freq_x1 = 0.900000
-		remap_index_pct_to_freq_y1 = 0.900000
-		remap_index_pct_to_freq_x2 = 0.900000
-		remap_index_pct_to_freq_y2 = 0.950000
-		remap_index_pct_to_freq_x3 = 0.950000
-		remap_index_pct_to_freq_y3 = 0.950000
-		remap_index_pct_to_freq_x4 = 1.000000
-		remap_index_pct_to_freq_y4 = 1.000000
-		index_pitch_min = 0.950000
-		index_pitch_max = 1.050000
+		limiter_match_entity = 0.0
+		limiter_match_event_duration = 0.25
+		remap_scale_to_pitch_x1 = 0.5
+		remap_scale_to_pitch_y1 = 1.2
+		remap_scale_to_pitch_x2 = 0.8
+		remap_scale_to_pitch_y2 = 1.1
+		remap_scale_to_pitch_x3 = 1.0
+		remap_scale_to_pitch_y3 = 1.0
+		remap_scale_to_pitch_x4 = 1.0
+		remap_scale_to_pitch_y4 = 0.8
+		remap_scale_to_vol_x1 = 0.5
+		remap_scale_to_vol_y1 = 0.85
+		remap_scale_to_vol_x2 = 0.8
+		remap_scale_to_vol_y2 = 0.9
+		remap_scale_to_vol_x3 = 1.0
+		remap_scale_to_vol_y3 = 1.0
+		remap_scale_to_vol_x4 = 1.25
+		remap_scale_to_vol_y4 = 1.1
+		round_to_bucket = 0.15
+		remap_index_pct_to_freq_x1 = 0.9
+		remap_index_pct_to_freq_y1 = 0.9
+		remap_index_pct_to_freq_x2 = 0.9
+		remap_index_pct_to_freq_y2 = 0.95
+		remap_index_pct_to_freq_x3 = 0.95
+		remap_index_pct_to_freq_y3 = 0.95
+		remap_index_pct_to_freq_x4 = 1.0
+		remap_index_pct_to_freq_y4 = 1.0
+		index_pitch_min = 0.95
+		index_pitch_max = 1.05
 		mixgroup = "Xen"
 		vsnd_files = 
 		[
@@ -631,48 +627,48 @@
 	XenInfest.BioluminescencePropagatePlantStalk = 
 	{
 		type = "hlvr_default_3d_xen_propagation"
-		volume = 0.500000
-		volume_falloff_max = 300.000000
-		volume_falloff_min = 35.000000
-		cull_at_distance = 320.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		volume_rand_min = -0.050000
-		volume_rand_max = 0.050000
-		limiter_on = 0.000000
-		limiter_max = 128.000000
+		volume = 0.5
+		volume_falloff_max = 300.0
+		volume_falloff_min = 35.0
+		cull_at_distance = 320.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		volume_rand_min = -0.05
+		volume_rand_max = 0.05
+		limiter_on = 0.0
+		limiter_max = 128.0
 		limiter_event_name = "XenInfest.BioluminescencePropagate"
-		limiter_match_substring = 0.000000
+		limiter_match_substring = 0.0
 		limiter_stop_oldest = false
-		limiter_match_entity = 0.000000
-		limiter_match_event_duration = 0.250000
-		remap_scale_to_pitch_x1 = 0.500000
-		remap_scale_to_pitch_y1 = 1.200000
-		remap_scale_to_pitch_x2 = 0.800000
-		remap_scale_to_pitch_y2 = 1.100000
-		remap_scale_to_pitch_x3 = 1.000000
-		remap_scale_to_pitch_y3 = 1.000000
-		remap_scale_to_pitch_x4 = 1.100000
-		remap_scale_to_pitch_y4 = 0.800000
-		remap_scale_to_vol_x1 = 0.500000
-		remap_scale_to_vol_y1 = 0.850000
-		remap_scale_to_vol_x2 = 0.800000
-		remap_scale_to_vol_y2 = 0.900000
-		remap_scale_to_vol_x3 = 1.000000
-		remap_scale_to_vol_y3 = 1.000000
-		remap_scale_to_vol_x4 = 1.250000
-		remap_scale_to_vol_y4 = 1.100000
-		round_to_bucket = 0.150000
-		remap_index_pct_to_freq_x1 = 0.900000
-		remap_index_pct_to_freq_y1 = 0.900000
-		remap_index_pct_to_freq_x2 = 0.900000
-		remap_index_pct_to_freq_y2 = 0.950000
-		remap_index_pct_to_freq_x3 = 0.950000
-		remap_index_pct_to_freq_y3 = 0.950000
-		remap_index_pct_to_freq_x4 = 1.000000
-		remap_index_pct_to_freq_y4 = 1.000000
-		index_pitch_min = 0.850000
-		index_pitch_max = 1.050000
+		limiter_match_entity = 0.0
+		limiter_match_event_duration = 0.25
+		remap_scale_to_pitch_x1 = 0.5
+		remap_scale_to_pitch_y1 = 1.2
+		remap_scale_to_pitch_x2 = 0.8
+		remap_scale_to_pitch_y2 = 1.1
+		remap_scale_to_pitch_x3 = 1.0
+		remap_scale_to_pitch_y3 = 1.0
+		remap_scale_to_pitch_x4 = 1.1
+		remap_scale_to_pitch_y4 = 0.8
+		remap_scale_to_vol_x1 = 0.5
+		remap_scale_to_vol_y1 = 0.85
+		remap_scale_to_vol_x2 = 0.8
+		remap_scale_to_vol_y2 = 0.9
+		remap_scale_to_vol_x3 = 1.0
+		remap_scale_to_vol_y3 = 1.0
+		remap_scale_to_vol_x4 = 1.25
+		remap_scale_to_vol_y4 = 1.1
+		round_to_bucket = 0.15
+		remap_index_pct_to_freq_x1 = 0.9
+		remap_index_pct_to_freq_y1 = 0.9
+		remap_index_pct_to_freq_x2 = 0.9
+		remap_index_pct_to_freq_y2 = 0.95
+		remap_index_pct_to_freq_x3 = 0.95
+		remap_index_pct_to_freq_y3 = 0.95
+		remap_index_pct_to_freq_x4 = 1.0
+		remap_index_pct_to_freq_y4 = 1.0
+		index_pitch_min = 0.85
+		index_pitch_max = 1.05
 		mixgroup = "Xen"
 		vsnd_files = 
 		[
@@ -684,48 +680,48 @@
 	XenInfest.BioluminescencePropagatePlantBulb = 
 	{
 		type = "hlvr_default_3d_xen_propagation"
-		volume = 0.450000
-		volume_falloff_max = 300.000000
-		volume_falloff_min = 25.000000
-		cull_at_distance = 320.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		volume_rand_min = -0.050000
-		volume_rand_max = 0.050000
-		limiter_on = 0.000000
-		limiter_max = 128.000000
+		volume = 0.45
+		volume_falloff_max = 300.0
+		volume_falloff_min = 25.0
+		cull_at_distance = 320.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		volume_rand_min = -0.05
+		volume_rand_max = 0.05
+		limiter_on = 0.0
+		limiter_max = 128.0
 		limiter_event_name = "XenInfest.BioluminescencePropagate"
-		limiter_match_substring = 0.000000
+		limiter_match_substring = 0.0
 		limiter_stop_oldest = false
-		limiter_match_entity = 0.000000
-		limiter_match_event_duration = 0.250000
-		remap_scale_to_pitch_x1 = 0.500000
-		remap_scale_to_pitch_y1 = 1.200000
-		remap_scale_to_pitch_x2 = 0.800000
-		remap_scale_to_pitch_y2 = 1.100000
-		remap_scale_to_pitch_x3 = 1.000000
-		remap_scale_to_pitch_y3 = 1.000000
-		remap_scale_to_pitch_x4 = 1.100000
-		remap_scale_to_pitch_y4 = 0.800000
-		remap_scale_to_vol_x1 = 0.500000
-		remap_scale_to_vol_y1 = 0.850000
-		remap_scale_to_vol_x2 = 0.800000
-		remap_scale_to_vol_y2 = 0.900000
-		remap_scale_to_vol_x3 = 1.000000
-		remap_scale_to_vol_y3 = 1.000000
-		remap_scale_to_vol_x4 = 1.250000
-		remap_scale_to_vol_y4 = 1.100000
-		round_to_bucket = 0.150000
-		remap_index_pct_to_freq_x1 = 0.900000
-		remap_index_pct_to_freq_y1 = 0.900000
-		remap_index_pct_to_freq_x2 = 0.900000
-		remap_index_pct_to_freq_y2 = 0.950000
-		remap_index_pct_to_freq_x3 = 0.950000
-		remap_index_pct_to_freq_y3 = 0.950000
-		remap_index_pct_to_freq_x4 = 1.000000
-		remap_index_pct_to_freq_y4 = 1.000000
-		index_pitch_min = 0.950000
-		index_pitch_max = 1.050000
+		limiter_match_entity = 0.0
+		limiter_match_event_duration = 0.25
+		remap_scale_to_pitch_x1 = 0.5
+		remap_scale_to_pitch_y1 = 1.2
+		remap_scale_to_pitch_x2 = 0.8
+		remap_scale_to_pitch_y2 = 1.1
+		remap_scale_to_pitch_x3 = 1.0
+		remap_scale_to_pitch_y3 = 1.0
+		remap_scale_to_pitch_x4 = 1.1
+		remap_scale_to_pitch_y4 = 0.8
+		remap_scale_to_vol_x1 = 0.5
+		remap_scale_to_vol_y1 = 0.85
+		remap_scale_to_vol_x2 = 0.8
+		remap_scale_to_vol_y2 = 0.9
+		remap_scale_to_vol_x3 = 1.0
+		remap_scale_to_vol_y3 = 1.0
+		remap_scale_to_vol_x4 = 1.25
+		remap_scale_to_vol_y4 = 1.1
+		round_to_bucket = 0.15
+		remap_index_pct_to_freq_x1 = 0.9
+		remap_index_pct_to_freq_y1 = 0.9
+		remap_index_pct_to_freq_x2 = 0.9
+		remap_index_pct_to_freq_y2 = 0.95
+		remap_index_pct_to_freq_x3 = 0.95
+		remap_index_pct_to_freq_y3 = 0.95
+		remap_index_pct_to_freq_x4 = 1.0
+		remap_index_pct_to_freq_y4 = 1.0
+		index_pitch_min = 0.95
+		index_pitch_max = 1.05
 		mixgroup = "Xen"
 		vsnd_files = 
 		[
@@ -738,17 +734,17 @@
 	XenInfest.BloaterSwell = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_fade_out = 2.000000
-		volume_falloff_max = 800.000000
-		volume_falloff_min = 150.000000
-		occlusion_scale = 0.200000
-		use_hrtf = 1.000000
-		limiter_on = 1.000000
+		volume = 1.0
+		volume_fade_out = 2.0
+		volume_falloff_max = 800.0
+		volume_falloff_min = 150.0
+		occlusion_scale = 0.2
+		use_hrtf = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "XenInfest.BloaterSwell"
 		use_world_position = true
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -758,16 +754,16 @@
 	XenInfest.BloaterUnswell = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_max = 800.000000
-		volume_falloff_min = 150.000000
-		occlusion_scale = 0.200000
-		use_hrtf = 1.000000
-		limiter_on = 1.000000
+		volume = 1.0
+		volume_falloff_max = 800.0
+		volume_falloff_min = 150.0
+		occlusion_scale = 0.2
+		use_hrtf = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "XenInfest.BloaterUnswell"
 		use_world_position = true
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -777,17 +773,17 @@
 	XenInfest.BloaterExplode = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.750000
-		volume_falloff_max = 1200.000000
-		volume_falloff_min = 400.000000
-		occlusion_scale = 0.200000
-		use_hrtf = 1.000000
-		hrtf_mix = 0.750000
-		limiter_on = 1.000000
+		volume = 1.75
+		volume_falloff_max = 1200.0
+		volume_falloff_min = 400.0
+		occlusion_scale = 0.2
+		use_hrtf = 1.0
+		hrtf_mix = 0.75
+		limiter_on = 1.0
 		limiter_event_name = "XenInfest.BloaterExplode"
 		use_world_position = true
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -797,14 +793,14 @@
 	XenInfest.BloaterStretchedLoop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		volume_falloff_max = 800.000000
-		volume_falloff_min = 20.000000
-		use_hrtf = 1.000000
-		limiter_on = 1.000000
+		volume = 0.4
+		volume_falloff_max = 800.0
+		volume_falloff_min = 20.0
+		use_hrtf = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "XenInfest.BloaterStretchedLoop"
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -814,13 +810,13 @@
 	XenInfest.BloaterMiniPain_Screech = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.500000
-		volume_falloff_max = 900.000000
-		volume_falloff_min = 500.000000
-		use_hrtf = 1.000000
+		volume = 1.5
+		volume_falloff_max = 900.0
+		volume_falloff_min = 500.0
+		use_hrtf = 1.0
 		use_world_position = true
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -834,12 +830,12 @@
 	XenInfest.BloaterPain_Screech = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_max = 900.000000
-		volume_falloff_min = 500.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		volume_falloff_max = 900.0
+		volume_falloff_min = 500.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -854,18 +850,18 @@
 	{
 		type = "hlvr_start_multi_distance_delay"
 		soundevent_01 = "XenInfest.Bloater_Node_Hit_Rise"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "DamageNPC.Bullet_Extra_Gore"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	XenInfest.Bloater_Node_Hit_Rise = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		volume_falloff_min = 300.000000
-		use_hrtf = 1.000000
+		volume = 0.9
+		volume_falloff_min = 300.0
+		use_hrtf = 1.0
 		mixgroup = "NPC_High"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -880,20 +876,20 @@
 		soundevent_01 = "XenInfest.BloaterMiniPain_Screech"
 		soundevent_02 = "XenInfest.Bloater_Node_Hit"
 		soundevent_03 = "DamageNPC.Bullet"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	XenInfest.BloaterMiniSwell = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
-		volume_falloff_max = 300.000000
-		volume_falloff_min = 60.000000
+		volume = 0.5
+		use_hrtf = 1.0
+		volume_falloff_max = 300.0
+		volume_falloff_min = 60.0
 		use_world_position = true
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -903,13 +899,13 @@
 	XenInfest.BloaterMiniUnswell = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
-		volume_falloff_max = 300.000000
-		volume_falloff_min = 60.000000
+		volume = 0.6
+		use_hrtf = 1.0
+		volume_falloff_max = 300.0
+		volume_falloff_min = 60.0
 		use_world_position = true
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -919,15 +915,15 @@
 	XenInfest.Bloater_Node_Explode = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 200.000000
-		use_hrtf = 1.000000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
+		volume = 1.2
+		volume_falloff_min = 200.0
+		use_hrtf = 1.0
+		limiter_on = 1.0
+		limiter_max = 0.0
 		limiter_event_name = "XenInfest.BloaterMiniSwell"
 		use_world_position = true
 		mixgroup = "NPC_Med"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -939,14 +935,14 @@
 	DamageNPC.Break_Bloater_Node = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_min = 200.000000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
+		volume = 1.0
+		volume_falloff_min = 200.0
+		limiter_on = 1.0
+		limiter_max = 0.0
 		limiter_event_name = "XenInfest.BloaterMiniUnswell"
 		use_world_position = true
 		mixgroup = "BulletImpacts"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -959,23 +955,23 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "XenInfest.Bloater_Node_Explode"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "DamageNPC.Break_Bloater_Node"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	XenInfest.MembraneLp = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.850000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		volume_falloff_max = 250.000000
-		volume_falloff_min = 50.000000
-		cull_at_distance = 270.000000
-		use_hrtf = 1.000000
-		hrtf_mix = 0.500000
+		volume = 0.85
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		volume_falloff_max = 250.0
+		volume_falloff_min = 50.0
+		cull_at_distance = 270.0
+		use_hrtf = 1.0
+		hrtf_mix = 0.5
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -985,12 +981,12 @@
 	XenGrenade.SpawnGrenade = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_max = 500.000000
-		volume_falloff_min = 100.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		volume_falloff_max = 500.0
+		volume_falloff_min = 100.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1000,13 +996,13 @@
 	XenGrenade.ProtectIntro = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.850000
-		volume_falloff_max = 500.000000
-		volume_falloff_min = 100.000000
-		distance_max = 520.000000
-		use_hrtf = 1.000000
+		volume = 0.85
+		volume_falloff_max = 500.0
+		volume_falloff_min = 100.0
+		distance_max = 520.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1016,13 +1012,13 @@
 	XenGrenade.ProtectIdleBase = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_max = 500.000000
-		volume_falloff_min = 100.000000
-		distance_max = 520.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		volume_falloff_max = 500.0
+		volume_falloff_min = 100.0
+		distance_max = 520.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1032,14 +1028,14 @@
 	XenGrenade.ProtectIdle = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.650000
-		volume_falloff_max = 600.000000
-		volume_falloff_min = 100.000000
-		distance_max = 320.000000
-		occlusion_scale = 0.100000
-		use_hrtf = 1.000000
+		volume = 0.65
+		volume_falloff_max = 600.0
+		volume_falloff_min = 100.0
+		distance_max = 320.0
+		occlusion_scale = 0.1
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1054,13 +1050,13 @@
 	XenGrenade.ProtectOutro = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_max = 500.000000
-		volume_falloff_min = 100.000000
-		distance_max = 520.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		volume_falloff_max = 500.0
+		volume_falloff_min = 100.0
+		distance_max = 520.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1070,12 +1066,12 @@
 	XenGrenade.Picked = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_max = 500.000000
-		volume_falloff_min = 100.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		volume_falloff_max = 500.0
+		volume_falloff_min = 100.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1085,12 +1081,12 @@
 	XenGrenade.PickedVocalReaction = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		volume_falloff_max = 500.000000
-		volume_falloff_min = 100.000000
-		use_hrtf = 1.000000
+		volume = 0.75
+		volume_falloff_max = 500.0
+		volume_falloff_min = 100.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1102,12 +1098,12 @@
 	XenGrenade.PickedMissedVocalReaction = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		volume_falloff_max = 500.000000
-		volume_falloff_min = 100.000000
-		use_hrtf = 1.000000
+		volume = 0.6
+		volume_falloff_max = 500.0
+		volume_falloff_min = 100.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1123,13 +1119,13 @@
 	XenGrenade.FlinchVocalReaction = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_max = 500.000000
-		volume_falloff_min = 200.000000
-		use_hrtf = 1.000000
-		chance_to_play = 1.500000
+		volume = 1.0
+		volume_falloff_max = 500.0
+		volume_falloff_min = 200.0
+		use_hrtf = 1.0
+		chance_to_play = 1.5
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1142,12 +1138,12 @@
 	XenGrenade.TickledVocalReaction = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.250000
-		volume_falloff_max = 500.000000
-		volume_falloff_min = 100.000000
-		use_hrtf = 1.000000
+		volume = 0.25
+		volume_falloff_max = 500.0
+		volume_falloff_min = 100.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1160,15 +1156,15 @@
 	XenGrenade.TickledSweetener = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.350000
-		volume_falloff_max = 500.000000
-		volume_falloff_min = 100.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		chance_to_play = 1.500000
-		use_hrtf = 1.000000
+		volume = 0.35
+		volume_falloff_max = 500.0
+		volume_falloff_min = 100.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		chance_to_play = 1.5
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1182,12 +1178,12 @@
 	XenGrenade.PickedReaction = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		volume_falloff_max = 500.000000
-		volume_falloff_min = 100.000000
-		use_hrtf = 1.000000
+		volume = 0.75
+		volume_falloff_max = 500.0
+		volume_falloff_min = 100.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1197,15 +1193,15 @@
 	XenGrenade.ProtectIdleClawTap = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.850000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = -0.100000
-		volume_falloff_max = 300.000000
-		volume_falloff_min = 100.000000
-		distance_max = 320.000000
-		use_hrtf = 1.000000
+		volume = 0.85
+		pitch_rand_min = -0.05
+		pitch_rand_max = -0.1
+		volume_falloff_max = 300.0
+		volume_falloff_min = 100.0
+		distance_max = 320.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1219,13 +1215,13 @@
 	XenReviverPlant.TwitchAction = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		volume_falloff_max = 500.000000
-		volume_falloff_min = 20.000000
-		distance_max = 520.000000
-		use_hrtf = 1.000000
+		volume = 0.75
+		volume_falloff_max = 500.0
+		volume_falloff_min = 20.0
+		distance_max = 520.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1235,13 +1231,13 @@
 	XenReviverPlant.TwitchActionNonAware = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		volume_falloff_max = 500.000000
-		volume_falloff_min = 20.000000
-		distance_max = 520.000000
-		use_hrtf = 1.000000
+		volume = 0.75
+		volume_falloff_max = 500.0
+		volume_falloff_min = 20.0
+		distance_max = 520.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1251,13 +1247,13 @@
 	XenReviverPlant.TwitchActionAware = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_falloff_max = 500.000000
-		volume_falloff_min = 20.000000
-		distance_max = 520.000000
-		use_hrtf = 1.000000
+		volume = 0.5
+		volume_falloff_max = 500.0
+		volume_falloff_min = 20.0
+		distance_max = 520.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1271,12 +1267,12 @@
 		[
 			"static_branch_event_entity_block_1",
 		]
-		volume = 0.000000
-		volume_falloff_max = 200.000000
-		volume_falloff_min = 20.000000
-		cull_at_distance = 220.000000
+		volume = 0.0
+		volume_falloff_max = 200.0
+		volume_falloff_min = 20.0
+		cull_at_distance = 220.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1290,12 +1286,12 @@
 		[
 			"static_branch_event_entity_block_1",
 		]
-		volume = 0.000000
-		volume_falloff_max = 200.000000
-		volume_falloff_min = 20.000000
-		cull_at_distance = 220.000000
+		volume = 0.0
+		volume_falloff_max = 200.0
+		volume_falloff_min = 20.0
+		cull_at_distance = 220.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1309,12 +1305,12 @@
 		[
 			"static_branch_event_entity_block_1",
 		]
-		volume = 0.000000
-		volume_falloff_max = 200.000000
-		volume_falloff_min = 20.000000
-		cull_at_distance = 220.000000
+		volume = 0.0
+		volume_falloff_max = 200.0
+		volume_falloff_min = 20.0
+		cull_at_distance = 220.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1328,15 +1324,15 @@
 		[
 			"static_branch_event_entity_block_1",
 		]
-		volume = 0.750000
-		volume_falloff_max = 300.000000
-		volume_falloff_min = 20.000000
-		cull_at_distance = 320.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		use_hrtf = 1.000000
+		volume = 0.75
+		volume_falloff_max = 300.0
+		volume_falloff_min = 20.0
+		cull_at_distance = 320.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1350,15 +1346,15 @@
 		[
 			"static_branch_event_entity_block_1",
 		]
-		volume = 0.750000
-		volume_falloff_max = 300.000000
-		volume_falloff_min = 20.000000
-		cull_at_distance = 320.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		use_hrtf = 1.000000
+		volume = 0.75
+		volume_falloff_max = 300.0
+		volume_falloff_min = 20.0
+		cull_at_distance = 320.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1372,15 +1368,15 @@
 		[
 			"static_branch_event_entity_block_1",
 		]
-		volume = 1.000000
-		volume_falloff_max = 300.000000
-		volume_falloff_min = 20.000000
-		cull_at_distance = 320.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		volume_falloff_max = 300.0
+		volume_falloff_min = 20.0
+		cull_at_distance = 320.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1390,13 +1386,13 @@
 	XenReviverPlant.ActionStart = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_falloff_max = 500.000000
-		volume_falloff_min = 100.000000
-		distance_max = 520.000000
-		use_hrtf = 1.000000
+		volume = 0.5
+		volume_falloff_max = 500.0
+		volume_falloff_min = 100.0
+		distance_max = 520.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1406,13 +1402,13 @@
 	XenReviverPlant.ActionExit = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.350000
-		volume_falloff_max = 500.000000
-		volume_falloff_min = 100.000000
-		distance_max = 520.000000
-		use_hrtf = 1.000000
+		volume = 0.35
+		volume_falloff_max = 500.0
+		volume_falloff_min = 100.0
+		distance_max = 520.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1426,15 +1422,15 @@
 		[
 			"static_branch_event_entity_block_1",
 		]
-		volume = 0.800000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		volume_falloff_max = 300.000000
-		volume_falloff_min = 100.000000
-		cull_at_distance = 320.000000
-		use_hrtf = 1.000000
+		volume = 0.8
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		volume_falloff_max = 300.0
+		volume_falloff_min = 100.0
+		cull_at_distance = 320.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1448,15 +1444,15 @@
 		[
 			"static_branch_event_entity_block_1",
 		]
-		volume = 0.800000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		volume_falloff_max = 300.000000
-		volume_falloff_min = 100.000000
-		cull_at_distance = 320.000000
-		use_hrtf = 1.000000
+		volume = 0.8
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		volume_falloff_max = 300.0
+		volume_falloff_min = 100.0
+		cull_at_distance = 320.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1470,15 +1466,15 @@
 		[
 			"static_branch_event_entity_block_1",
 		]
-		volume = 0.800000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		volume_falloff_max = 300.000000
-		volume_falloff_min = 100.000000
-		cull_at_distance = 320.000000
-		use_hrtf = 1.000000
+		volume = 0.8
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		volume_falloff_max = 300.0
+		volume_falloff_min = 100.0
+		cull_at_distance = 320.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1492,15 +1488,15 @@
 		[
 			"static_branch_event_entity_block_1",
 		]
-		volume = 0.500000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		volume_falloff_max = 300.000000
-		volume_falloff_min = 20.000000
-		cull_at_distance = 320.000000
-		use_hrtf = 1.000000
+		volume = 0.5
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		volume_falloff_max = 300.0
+		volume_falloff_min = 20.0
+		cull_at_distance = 320.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1514,15 +1510,15 @@
 		[
 			"static_branch_event_entity_block_1",
 		]
-		volume = 0.500000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		volume_falloff_max = 300.000000
-		volume_falloff_min = 20.000000
-		cull_at_distance = 320.000000
-		use_hrtf = 1.000000
+		volume = 0.5
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		volume_falloff_max = 300.0
+		volume_falloff_min = 20.0
+		cull_at_distance = 320.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1536,15 +1532,15 @@
 		[
 			"static_branch_event_entity_block_1",
 		]
-		volume = 0.500000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		volume_falloff_max = 300.000000
-		volume_falloff_min = 20.000000
-		cull_at_distance = 320.000000
-		use_hrtf = 1.000000
+		volume = 0.5
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		volume_falloff_max = 300.0
+		volume_falloff_min = 20.0
+		cull_at_distance = 320.0
+		use_hrtf = 1.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1554,17 +1550,17 @@
 	XenHeadcrabCluster.AwareLp01 = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		hrtf_mix = 0.500000
-		volume = 0.500000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		volume_falloff_max = 950.000000
-		volume_falloff_min = 350.000000
-		cull_at_distance = 951.000000
-		occlusion_scale = 0.100000
+		use_hrtf = 1.0
+		hrtf_mix = 0.5
+		volume = 0.5
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		volume_falloff_max = 950.0
+		volume_falloff_min = 350.0
+		cull_at_distance = 951.0
+		occlusion_scale = 0.1
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1574,17 +1570,17 @@
 	XenHeadcrabCluster.AwareLp02 = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		hrtf_mix = 0.500000
-		volume = 0.500000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		volume_falloff_max = 950.000000
-		volume_falloff_min = 350.000000
-		cull_at_distance = 951.000000
-		occlusion_scale = 0.100000
+		use_hrtf = 1.0
+		hrtf_mix = 0.5
+		volume = 0.5
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		volume_falloff_max = 950.0
+		volume_falloff_min = 350.0
+		cull_at_distance = 951.0
+		occlusion_scale = 0.1
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1594,17 +1590,17 @@
 	XenHeadcrabCluster.NonAwareLp01 = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		hrtf_mix = 0.500000
-		volume = 0.500000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		volume_falloff_max = 950.000000
-		volume_falloff_min = 350.000000
-		cull_at_distance = 951.000000
-		occlusion_scale = 0.100000
+		use_hrtf = 1.0
+		hrtf_mix = 0.5
+		volume = 0.5
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		volume_falloff_max = 950.0
+		volume_falloff_min = 350.0
+		cull_at_distance = 951.0
+		occlusion_scale = 0.1
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1614,17 +1610,17 @@
 	XenAntlionHabitat.Lp = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		hrtf_mix = 0.500000
-		volume = 1.000000
-		volume_falloff_max = 250.000000
-		volume_falloff_min = 50.000000
-		cull_at_distance = 260.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		occlusion_scale = 0.500000
+		use_hrtf = 1.0
+		hrtf_mix = 0.5
+		volume = 1.0
+		volume_falloff_max = 250.0
+		volume_falloff_min = 50.0
+		cull_at_distance = 260.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		occlusion_scale = 0.5
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1634,15 +1630,15 @@
 	XenInfest.Clam_Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.800000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 1000.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.5
+		use_hrtf = 1.0
+		occlusion_scale = 0.8
+		volume_falloff_min = 50.0
+		volume_falloff_max = 1000.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 	}
 	XenInfest.Clam_Curious = 
@@ -1652,10 +1648,10 @@
 		[
 			"xen_clam_event_blocker",
 		]
-		volume = 0.600000
-		delay_rand_min = 0.010000
-		delay_rand_max = 0.200000
-		occlusion_scale = 0.700000
+		volume = 0.6
+		delay_rand_min = 0.01
+		delay_rand_max = 0.2
+		occlusion_scale = 0.7
 		vsnd_files = 
 		[
 			"sounds/world/infestation/clams/curious_01.vsnd",
@@ -1669,8 +1665,8 @@
 	XenInfest.Clam_Bark = 
 	{
 		base = "XenInfest.Clam_Base"
-		volume = 0.800000
-		occlusion_scale = 0.300000
+		volume = 0.8
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/world/infestation/clams/bark_01.vsnd",
@@ -1691,10 +1687,10 @@
 	XenInfest.Clam_Close = 
 	{
 		base = "XenInfest.Clam_Base"
-		volume = 1.100000
-		volume_rand_min = -0.100000
-		volume_rand_max = 0.200000
-		occlusion_scale = 0.100000
+		volume = 1.1
+		volume_rand_min = -0.1
+		volume_rand_max = 0.2
+		occlusion_scale = 0.1
 		vsnd_files = 
 		[
 			"sounds/world/infestation/clams/close_01.vsnd",
@@ -1737,7 +1733,7 @@
 		[
 			"xen_clam_event_blocker",
 		]
-		volume = 0.300000
+		volume = 0.3
 		vsnd_files = 
 		[
 			"sounds/world/infestation/clams/relax_01.vsnd",
@@ -1750,12 +1746,12 @@
 	XenLampPlant.HeadPop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.550000
-		use_facing_vol_attenuation = 0.500000
-		volume_falloff_max = 200.000000
-		volume_falloff_min = 60.000000
-		use_hrtf = 1.000000
-		enable_spatial_blend = 1.000000
+		volume = 0.55
+		use_facing_vol_attenuation = 0.5
+		volume_falloff_max = 200.0
+		volume_falloff_min = 60.0
+		use_hrtf = 1.0
+		enable_spatial_blend = 1.0
 		should_pause = true
 		mixgroup = "Xen"
 		vsnd_files = 
@@ -1769,12 +1765,12 @@
 	XenLampPlant.PostMovement = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_facing_vol_attenuation = 0.500000
-		volume_falloff_max = 200.000000
-		volume_falloff_min = 60.000000
-		use_hrtf = 1.000000
-		enable_spatial_blend = 1.000000
+		volume = 0.5
+		use_facing_vol_attenuation = 0.5
+		volume_falloff_max = 200.0
+		volume_falloff_min = 60.0
+		use_hrtf = 1.0
+		enable_spatial_blend = 1.0
 		should_pause = true
 		mixgroup = "Xen"
 		vsnd_files = 
@@ -1785,12 +1781,12 @@
 	XenLampPlant.Retract = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.650000
-		use_facing_vol_attenuation = 0.500000
-		volume_falloff_max = 200.000000
-		volume_falloff_min = 60.000000
-		use_hrtf = 1.000000
-		enable_spatial_blend = 1.000000
+		volume = 0.65
+		use_facing_vol_attenuation = 0.5
+		volume_falloff_max = 200.0
+		volume_falloff_min = 60.0
+		use_hrtf = 1.0
+		enable_spatial_blend = 1.0
 		should_pause = true
 		mixgroup = "Xen"
 		vsnd_files = 
@@ -1804,12 +1800,12 @@
 	XenLampPlant.Extend = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.650000
-		use_facing_vol_attenuation = 0.500000
-		volume_falloff_max = 200.000000
-		volume_falloff_min = 60.000000
-		use_hrtf = 1.000000
-		enable_spatial_blend = 1.000000
+		volume = 0.65
+		use_facing_vol_attenuation = 0.5
+		volume_falloff_max = 200.0
+		volume_falloff_min = 60.0
+		use_hrtf = 1.0
+		enable_spatial_blend = 1.0
 		should_pause = true
 		mixgroup = "Xen"
 		vsnd_files = 
@@ -1826,14 +1822,14 @@
 		[
 			"static_branch_event_entity_block_1",
 		]
-		volume = 0.300000
-		occlusion_scale = 0.500000
-		use_facing_vol_attenuation = 0.500000
-		volume_falloff_max = 300.000000
-		volume_falloff_min = 100.000000
-		distance_max = 320.000000
-		use_hrtf = 1.000000
-		enable_spatial_blend = 1.000000
+		volume = 0.3
+		occlusion_scale = 0.5
+		use_facing_vol_attenuation = 0.5
+		volume_falloff_max = 300.0
+		volume_falloff_min = 100.0
+		distance_max = 320.0
+		use_hrtf = 1.0
+		enable_spatial_blend = 1.0
 		should_pause = true
 		mixgroup = "Xen"
 		vsnd_files = 
@@ -1851,16 +1847,16 @@
 		[
 			"static_branch_event_entity_block_1",
 		]
-		volume = 0.450000
-		occlusion_scale = 0.500000
-		use_facing_vol_attenuation = 0.500000
-		volume_falloff_max = 500.000000
-		volume_falloff_min = 200.000000
-		distance_max = 520.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		use_hrtf = 1.000000
-		enable_spatial_blend = 1.000000
+		volume = 0.45
+		occlusion_scale = 0.5
+		use_facing_vol_attenuation = 0.5
+		volume_falloff_max = 500.0
+		volume_falloff_min = 200.0
+		distance_max = 520.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		use_hrtf = 1.0
+		enable_spatial_blend = 1.0
 		should_pause = true
 		mixgroup = "Xen"
 		vsnd_files = 
@@ -1871,15 +1867,15 @@
 	XenVilliMedium.Twitch = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.250000
-		occlusion_scale = 0.500000
-		volume_falloff_max = 300.000000
-		volume_falloff_min = 100.000000
-		distance_max = 320.000000
-		pitch_rand_min = -0.200000
-		pitch_rand_max = 0.200000
-		use_hrtf = 1.000000
-		enable_spatial_blend = 1.000000
+		volume = 0.25
+		occlusion_scale = 0.5
+		volume_falloff_max = 300.0
+		volume_falloff_min = 100.0
+		distance_max = 320.0
+		pitch_rand_min = -0.2
+		pitch_rand_max = 0.2
+		use_hrtf = 1.0
+		enable_spatial_blend = 1.0
 		should_pause = true
 		mixgroup = "Xen"
 		vsnd_files = 
@@ -1893,15 +1889,15 @@
 	XenVilliMedium.Reaction = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.250000
-		occlusion_scale = 0.500000
-		volume_falloff_max = 150.000000
-		volume_falloff_min = 50.000000
-		distance_max = 151.000000
-		pitch_rand_min = -0.200000
-		pitch_rand_max = 0.200000
-		use_hrtf = 1.000000
-		enable_spatial_blend = 1.000000
+		volume = 0.25
+		occlusion_scale = 0.5
+		volume_falloff_max = 150.0
+		volume_falloff_min = 50.0
+		distance_max = 151.0
+		pitch_rand_min = -0.2
+		pitch_rand_max = 0.2
+		use_hrtf = 1.0
+		enable_spatial_blend = 1.0
 		should_pause = true
 		mixgroup = "Xen"
 		vsnd_files = 
@@ -1915,29 +1911,29 @@
 	XenCoralear.Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.150000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 200.000000
-		distance_max = 201.000000
-		volume_rand_min = -0.010000
-		volume_rand_max = 0.010000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		occlusion_scale = 0.900000
-		occlusion_radius = 10.000000
-		use_hrtf = 1.000000
-		enable_spatial_blend = 1.000000
+		volume = 0.15
+		volume_falloff_min = 50.0
+		volume_falloff_max = 200.0
+		distance_max = 201.0
+		volume_rand_min = -0.01
+		volume_rand_max = 0.01
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		occlusion_scale = 0.9
+		occlusion_radius = 10.0
+		use_hrtf = 1.0
+		enable_spatial_blend = 1.0
 		should_pause = true
 		mixgroup = "Xen"
-		limiter_on = 1.000000
-		limiter_max = 10.000000
+		limiter_on = 1.0
+		limiter_max = 10.0
 	}
 	XenCoralear.ActionNoise = 
 	{
 		base = "XenCoralear.Base"
-		volume = 0.600000
-		limiter_max = 4.000000
-		enable_spatial_blend = 1.000000
+		volume = 0.6
+		limiter_max = 4.0
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1947,10 +1943,10 @@
 	XenCoralear.CloseToOpen = 
 	{
 		base = "XenCoralear.Base"
-		volume = 0.600000
-		delay_rand_min = 0.001000
-		delay_rand_max = 0.100000
-		enable_spatial_blend = 1.000000
+		volume = 0.6
+		delay_rand_min = 0.001
+		delay_rand_max = 0.1
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1964,10 +1960,10 @@
 	XenCoralear.OpenToClose = 
 	{
 		base = "XenCoralear.Base"
-		volume = 0.600000
-		delay_rand_min = 0.001000
-		delay_rand_max = 0.100000
-		enable_spatial_blend = 1.000000
+		volume = 0.6
+		delay_rand_min = 0.001
+		delay_rand_max = 0.1
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1980,10 +1976,10 @@
 	XenCoralear.IdleOpen = 
 	{
 		base = "XenCoralear.Base"
-		volume_falloff_min = 20.000000
-		volume_falloff_max = 100.000000
-		distance_max = 101.000000
-		enable_spatial_blend = 1.000000
+		volume_falloff_min = 20.0
+		volume_falloff_max = 100.0
+		distance_max = 101.0
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2000,17 +1996,17 @@
 	XenLifeLarge.Lp = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		hrtf_mix = 0.500000
-		volume = 0.600000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		volume_falloff_max = 350.000000
-		volume_falloff_min = 75.000000
-		cull_at_distance = 351.000000
-		occlusion_scale = 0.500000
+		use_hrtf = 1.0
+		hrtf_mix = 0.5
+		volume = 0.6
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		volume_falloff_max = 350.0
+		volume_falloff_min = 75.0
+		cull_at_distance = 351.0
+		occlusion_scale = 0.5
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2020,17 +2016,17 @@
 	XenLifeLargeWrithe.Lp = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		hrtf_mix = 0.500000
-		volume = 0.700000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		volume_falloff_max = 350.000000
-		volume_falloff_min = 75.000000
-		cull_at_distance = 351.000000
-		occlusion_scale = 0.500000
+		use_hrtf = 1.0
+		hrtf_mix = 0.5
+		volume = 0.7
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		volume_falloff_max = 350.0
+		volume_falloff_min = 75.0
+		cull_at_distance = 351.0
+		occlusion_scale = 0.5
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2040,17 +2036,17 @@
 	XenLifeSmall.Lp = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		hrtf_mix = 0.500000
-		volume = 0.800000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		volume_falloff_max = 350.000000
-		volume_falloff_min = 75.000000
-		cull_at_distance = 351.000000
-		occlusion_scale = 0.500000
+		use_hrtf = 1.0
+		hrtf_mix = 0.5
+		volume = 0.8
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		volume_falloff_max = 350.0
+		volume_falloff_min = 75.0
+		cull_at_distance = 351.0
+		occlusion_scale = 0.5
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2060,16 +2056,16 @@
 	XenLifeSmallBodyWrap.Lp = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		hrtf_mix = 0.500000
-		volume = 0.700000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		volume_falloff_max = 350.000000
-		volume_falloff_min = 75.000000
-		cull_at_distance = 351.000000
-		occlusion_scale = 0.500000
-		enable_spatial_blend = 1.000000
+		use_hrtf = 1.0
+		hrtf_mix = 0.5
+		volume = 0.7
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		volume_falloff_max = 350.0
+		volume_falloff_min = 75.0
+		cull_at_distance = 351.0
+		occlusion_scale = 0.5
+		enable_spatial_blend = 1.0
 		should_pause = true
 		mixgroup = "Xen"
 		vsnd_files = 
@@ -2080,17 +2076,17 @@
 	XenLifeGurgle.Lp = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		hrtf_mix = 0.500000
-		volume = 0.400000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		volume_falloff_max = 350.000000
-		volume_falloff_min = 75.000000
-		cull_at_distance = 351.000000
-		occlusion_scale = 0.500000
+		use_hrtf = 1.0
+		hrtf_mix = 0.5
+		volume = 0.4
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		volume_falloff_max = 350.0
+		volume_falloff_min = 75.0
+		cull_at_distance = 351.0
+		occlusion_scale = 0.5
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2100,17 +2096,17 @@
 	XenLifeDefault.Lp = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		volume_falloff_max = 350.000000
-		volume_falloff_min = 75.000000
-		cull_at_distance = 351.000000
-		use_hrtf = 1.000000
-		hrtf_mix = 0.500000
-		occlusion_scale = 0.500000
+		volume = 0.5
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		volume_falloff_max = 350.0
+		volume_falloff_min = 75.0
+		cull_at_distance = 351.0
+		use_hrtf = 1.0
+		hrtf_mix = 0.5
+		occlusion_scale = 0.5
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2120,17 +2116,17 @@
 	XenDiscGreen.Lp = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		hrtf_mix = 0.500000
-		volume = 0.400000
-		volume_falloff_max = 250.000000
-		volume_falloff_min = 50.000000
-		cull_at_distance = 270.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		occlusion_scale = 0.800000
+		use_hrtf = 1.0
+		hrtf_mix = 0.5
+		volume = 0.4
+		volume_falloff_max = 250.0
+		volume_falloff_min = 50.0
+		cull_at_distance = 270.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		occlusion_scale = 0.8
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2140,17 +2136,17 @@
 	XenDiscGrey.Lp = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		hrtf_mix = 0.500000
-		volume = 0.600000
-		volume_falloff_max = 250.000000
-		volume_falloff_min = 50.000000
-		cull_at_distance = 270.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		occlusion_scale = 0.800000
+		use_hrtf = 1.0
+		hrtf_mix = 0.5
+		volume = 0.6
+		volume_falloff_max = 250.0
+		volume_falloff_min = 50.0
+		cull_at_distance = 270.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		occlusion_scale = 0.8
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2160,16 +2156,16 @@
 	XenPetalPlant.Lp = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.750000
-		volume_falloff_max = 300.000000
-		volume_falloff_min = 20.000000
-		cull_at_distance = 310.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		occlusion_scale = 0.800000
+		use_hrtf = 1.0
+		volume = 0.75
+		volume_falloff_max = 300.0
+		volume_falloff_min = 20.0
+		cull_at_distance = 310.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		occlusion_scale = 0.8
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2179,17 +2175,17 @@
 	XenReviverFoliage.Lp = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		hrtf_mix = 0.500000
-		volume = 0.650000
-		volume_falloff_max = 400.000000
-		volume_falloff_min = 100.000000
-		cull_at_distance = 401.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		occlusion_scale = 0.500000
+		use_hrtf = 1.0
+		hrtf_mix = 0.5
+		volume = 0.65
+		volume_falloff_max = 400.0
+		volume_falloff_min = 100.0
+		cull_at_distance = 401.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		occlusion_scale = 0.5
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2199,11 +2195,11 @@
 	Xen_Glue.Stretch = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_fade_in = 0.200000
-		volume_fade_out = 2.000000
+		volume = 1.2
+		volume_fade_in = 0.2
+		volume_fade_out = 2.0
 		mixgroup = "Xen"
-		block_duration = 0.500000
+		block_duration = 0.5
 		block_match_this_event = true
 		should_pause = true
 		vsnd_files = 
@@ -2215,11 +2211,11 @@
 	Xen_Glue.Snap = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 1.2
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "Xen"
-		block_duration = 0.300000
+		block_duration = 0.3
 		block_match_this_event = true
 		should_pause = true
 		vsnd_files = 
@@ -2234,19 +2230,19 @@
 		[
 			"static_branch_event_entity_block_1",
 		]
-		volume = 0.900000
-		volume_falloff_max = 80.000000
-		volume_falloff_min = 30.000000
-		cull_at_distance = 90.000000
-		spread_min = 5.000000
-		spread_max = 20.000000
-		volume_fade_in = 1.000000
-		volume_fade_out = 1.000000
-		occlusion_scale = 1.000000
-		use_hrtf = 1.000000
-		volume_falloff_curve_amount = 0.900000
+		volume = 0.9
+		volume_falloff_max = 80.0
+		volume_falloff_min = 30.0
+		cull_at_distance = 90.0
+		spread_min = 5.0
+		spread_max = 20.0
+		volume_fade_in = 1.0
+		volume_fade_out = 1.0
+		occlusion_scale = 1.0
+		use_hrtf = 1.0
+		volume_falloff_curve_amount = 0.9
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2260,19 +2256,19 @@
 		[
 			"static_branch_event_entity_block_1",
 		]
-		volume = 0.900000
-		volume_falloff_max = 80.000000
-		volume_falloff_min = 30.000000
-		cull_at_distance = 90.000000
-		spread_min = 5.000000
-		spread_max = 20.000000
-		volume_fade_in = 1.000000
-		volume_fade_out = 1.000000
-		occlusion_scale = 1.000000
-		use_hrtf = 1.000000
-		volume_falloff_curve_amount = 0.900000
+		volume = 0.9
+		volume_falloff_max = 80.0
+		volume_falloff_min = 30.0
+		cull_at_distance = 90.0
+		spread_min = 5.0
+		spread_max = 20.0
+		volume_fade_in = 1.0
+		volume_fade_out = 1.0
+		occlusion_scale = 1.0
+		use_hrtf = 1.0
+		volume_falloff_curve_amount = 0.9
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2286,19 +2282,19 @@
 		[
 			"static_branch_event_entity_block_1",
 		]
-		volume = 0.900000
-		volume_falloff_max = 80.000000
-		volume_falloff_min = 30.000000
-		cull_at_distance = 90.000000
-		spread_min = 5.000000
-		spread_max = 20.000000
-		volume_fade_in = 1.000000
-		volume_fade_out = 1.000000
-		occlusion_scale = 1.000000
-		use_hrtf = 1.000000
-		volume_falloff_curve_amount = 0.900000
+		volume = 0.9
+		volume_falloff_max = 80.0
+		volume_falloff_min = 30.0
+		cull_at_distance = 90.0
+		spread_min = 5.0
+		spread_max = 20.0
+		volume_fade_in = 1.0
+		volume_fade_out = 1.0
+		occlusion_scale = 1.0
+		use_hrtf = 1.0
+		volume_falloff_curve_amount = 0.9
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2312,19 +2308,19 @@
 		[
 			"static_branch_event_entity_block_1",
 		]
-		volume = 0.900000
-		volume_falloff_max = 80.000000
-		volume_falloff_min = 30.000000
-		cull_at_distance = 90.000000
-		spread_min = 5.000000
-		spread_max = 20.000000
-		volume_fade_in = 1.000000
-		volume_fade_out = 1.000000
-		occlusion_scale = 1.000000
-		use_hrtf = 1.000000
-		volume_falloff_curve_amount = 0.900000
+		volume = 0.9
+		volume_falloff_max = 80.0
+		volume_falloff_min = 30.0
+		cull_at_distance = 90.0
+		spread_min = 5.0
+		spread_max = 20.0
+		volume_fade_in = 1.0
+		volume_fade_out = 1.0
+		occlusion_scale = 1.0
+		use_hrtf = 1.0
+		volume_falloff_curve_amount = 0.9
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2334,19 +2330,19 @@
 	Xen_Memory_Worm_01.Twitch = 
 	{
 		type = "hlvr_default_3d"
-		limiter_on = 1.000000
+		limiter_on = 1.0
 		limiter_event_name = "Xen_Memory_Worm_01.Twitch"
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		volume = 0.750000
-		volume_falloff_max = 80.000000
-		volume_falloff_min = 20.000000
-		distance_max = 90.000000
-		spread_min = 5.000000
-		spread_max = 20.000000
+		volume = 0.75
+		volume_falloff_max = 80.0
+		volume_falloff_min = 20.0
+		distance_max = 90.0
+		spread_min = 5.0
+		spread_max = 20.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2359,19 +2355,19 @@
 	Xen_Memory_Worm_02.Twitch = 
 	{
 		type = "hlvr_default_3d"
-		limiter_on = 1.000000
+		limiter_on = 1.0
 		limiter_event_name = "Xen_Memory_Worm_02.Twitch"
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		volume = 0.750000
-		volume_falloff_max = 80.000000
-		volume_falloff_min = 20.000000
-		distance_max = 90.000000
-		spread_min = 5.000000
-		spread_max = 20.000000
+		volume = 0.75
+		volume_falloff_max = 80.0
+		volume_falloff_min = 20.0
+		distance_max = 90.0
+		spread_min = 5.0
+		spread_max = 20.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2384,19 +2380,19 @@
 	Xen_Memory_Worm_03.Twitch = 
 	{
 		type = "hlvr_default_3d"
-		limiter_on = 1.000000
+		limiter_on = 1.0
 		limiter_event_name = "Xen_Memory_Worm_03.Twitch"
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		volume = 0.750000
-		volume_falloff_max = 80.000000
-		volume_falloff_min = 20.000000
-		distance_max = 90.000000
-		spread_min = 5.000000
-		spread_max = 20.000000
+		volume = 0.75
+		volume_falloff_max = 80.0
+		volume_falloff_min = 20.0
+		distance_max = 90.0
+		spread_min = 5.0
+		spread_max = 20.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2409,19 +2405,19 @@
 	Xen_Memory_Worm_04.Twitch = 
 	{
 		type = "hlvr_default_3d"
-		limiter_on = 1.000000
+		limiter_on = 1.0
 		limiter_event_name = "Xen_Memory_Worm_04.Twitch"
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		volume = 0.750000
-		volume_falloff_max = 80.000000
-		volume_falloff_min = 20.000000
-		distance_max = 90.000000
-		spread_min = 5.000000
-		spread_max = 20.000000
+		volume = 0.75
+		volume_falloff_max = 80.0
+		volume_falloff_min = 20.0
+		distance_max = 90.0
+		spread_min = 5.0
+		spread_max = 20.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2434,21 +2430,21 @@
 	Xen_Memory_Worm_01.Rub = 
 	{
 		type = "hlvr_default_3d"
-		limiter_on = 1.000000
+		limiter_on = 1.0
 		limiter_event_name = "Xen_Memory_Worm_01.Rub"
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		volume = 0.950000
-		volume_falloff_max = 80.000000
-		volume_falloff_min = 20.000000
-		distance_max = 90.000000
-		pitch_rand_min = -0.500000
-		pitch_rand_max = 0.500000
-		spread_min = 5.000000
-		spread_max = 20.000000
+		volume = 0.95
+		volume_falloff_max = 80.0
+		volume_falloff_min = 20.0
+		distance_max = 90.0
+		pitch_rand_min = -0.5
+		pitch_rand_max = 0.5
+		spread_min = 5.0
+		spread_max = 20.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2462,21 +2458,21 @@
 	Xen_Memory_Worm_02.Rub = 
 	{
 		type = "hlvr_default_3d"
-		limiter_on = 1.000000
+		limiter_on = 1.0
 		limiter_event_name = "Xen_Memory_Worm_02.Rub"
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		volume = 0.950000
-		volume_falloff_max = 80.000000
-		volume_falloff_min = 20.000000
-		distance_max = 90.000000
-		pitch_rand_min = -0.500000
-		pitch_rand_max = 0.500000
-		spread_min = 5.000000
-		spread_max = 20.000000
+		volume = 0.95
+		volume_falloff_max = 80.0
+		volume_falloff_min = 20.0
+		distance_max = 90.0
+		pitch_rand_min = -0.5
+		pitch_rand_max = 0.5
+		spread_min = 5.0
+		spread_max = 20.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2490,17 +2486,17 @@
 	XenHeadcrabsTunnelXenMass.Lp = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		hrtf_mix = 0.500000
-		volume = 0.450000
-		volume_fade_in = 3.000000
-		volume_fade_out = 3.000000
-		volume_falloff_max = 350.000000
-		volume_falloff_min = 150.000000
-		cull_at_distance = 350.000000
-		volume_falloff_curve_amount = 0.250000
+		use_hrtf = 1.0
+		hrtf_mix = 0.5
+		volume = 0.45
+		volume_fade_in = 3.0
+		volume_fade_out = 3.0
+		volume_falloff_max = 350.0
+		volume_falloff_min = 150.0
+		cull_at_distance = 350.0
+		volume_falloff_curve_amount = 0.25
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2510,16 +2506,16 @@
 	XenQuarantineEntranceXenMass.Lp = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		hrtf_mix = 0.500000
-		volume = 0.750000
-		volume_fade_in = 3.000000
-		volume_fade_out = 3.000000
-		volume_falloff_max = 550.000000
-		volume_falloff_min = 150.000000
-		cull_at_distance = 551.000000
+		use_hrtf = 1.0
+		hrtf_mix = 0.5
+		volume = 0.75
+		volume_fade_in = 3.0
+		volume_fade_out = 3.0
+		volume_falloff_max = 550.0
+		volume_falloff_min = 150.0
+		cull_at_distance = 551.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2529,16 +2525,16 @@
 	XenQuarantineEntranceXenMassLarger.Lp = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.350000
-		volume_fade_in = 3.000000
-		volume_fade_out = 3.000000
-		volume_falloff_max = 550.000000
-		volume_falloff_min = 250.000000
-		cull_at_distance = 551.000000
+		use_hrtf = 1.0
+		volume = 0.35
+		volume_fade_in = 3.0
+		volume_fade_out = 3.0
+		volume_falloff_max = 550.0
+		volume_falloff_min = 250.0
+		cull_at_distance = 551.0
 		mixgroup = "Xen"
-		volume_falloff_curve_amount = 0.200000
-		enable_spatial_blend = 1.000000
+		volume_falloff_curve_amount = 0.2
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2548,16 +2544,16 @@
 	XenTunnelDoorsXenMassLarger.Lp = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.800000
-		volume_fade_in = 3.000000
-		volume_fade_out = 3.000000
-		volume_falloff_max = 550.000000
-		volume_falloff_min = 50.000000
-		cull_at_distance = 551.000000
+		use_hrtf = 1.0
+		volume = 0.8
+		volume_fade_in = 3.0
+		volume_fade_out = 3.0
+		volume_falloff_max = 550.0
+		volume_falloff_min = 50.0
+		cull_at_distance = 551.0
 		mixgroup = "Xen"
-		volume_falloff_curve_amount = 0.200000
-		enable_spatial_blend = 1.000000
+		volume_falloff_curve_amount = 0.2
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2568,29 +2564,29 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "XenInfest.QuarantineEntranceVilliTwitchesChild"
-		random_soundevent_01_timer_min = 5.000000
-		random_soundevent_01_timer_max = 10.000000
+		random_soundevent_01_timer_min = 5.0
+		random_soundevent_01_timer_max = 10.0
 	}
 	XenInfest.QuarantineEntranceVilliTwitchesChild = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		hrtf_mix = 0.500000
-		volume = 0.750000
-		volume_falloff_max = 555.000000
-		volume_falloff_min = 350.000000
-		distance_max = 556.000000
-		pitch_rand_min = -0.200000
-		pitch_rand_max = 0.200000
-		limiter_on = 1.000000
+		use_hrtf = 1.0
+		hrtf_mix = 0.5
+		volume = 0.75
+		volume_falloff_max = 555.0
+		volume_falloff_min = 350.0
+		distance_max = 556.0
+		pitch_rand_min = -0.2
+		pitch_rand_max = 0.2
+		limiter_on = 1.0
 		limiter_event_name = "XenInfest.QuarantineEntranceVilliTwitches"
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		occlusion_max = 1.000000
+		occlusion_max = 1.0
 		mixgroup = "Xen"
-		volume_falloff_curve_amount = 0.900000
-		enable_spatial_blend = 1.000000
+		volume_falloff_curve_amount = 0.9
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2604,25 +2600,25 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "XenInfest.QuarantineEntranceDangliesFlooriesChild"
-		random_soundevent_01_timer_min = 5.000000
-		random_soundevent_01_timer_max = 10.000000
+		random_soundevent_01_timer_min = 5.0
+		random_soundevent_01_timer_max = 10.0
 	}
 	XenInfest.QuarantineEntranceDangliesFlooriesChild = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_max = 750.000000
-		volume_falloff_min = 350.000000
-		distance_max = 751.000000
-		limiter_on = 1.000000
+		volume = 1.0
+		volume_falloff_max = 750.0
+		volume_falloff_min = 350.0
+		distance_max = 751.0
+		limiter_on = 1.0
 		limiter_event_name = "XenInfest.QuarantineEntranceDangliesFloories"
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		occlusion_max = 1.000000
+		occlusion_max = 1.0
 		mixgroup = "Xen"
-		volume_falloff_curve_amount = 0.800000
-		enable_spatial_blend = 1.000000
+		volume_falloff_curve_amount = 0.8
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2636,27 +2632,27 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "XenInfest.QuarantineEntranceDangliesFlooriesChild"
-		random_soundevent_01_timer_min = 5.000000
-		random_soundevent_01_timer_max = 10.000000
+		random_soundevent_01_timer_min = 5.0
+		random_soundevent_01_timer_max = 10.0
 	}
 	XenInfest.TunnelDangliesFlooriesChild = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_max = 550.000000
-		volume_falloff_min = 150.000000
-		distance_max = 551.000000
-		limiter_on = 1.000000
+		volume = 1.0
+		volume_falloff_max = 550.0
+		volume_falloff_min = 150.0
+		distance_max = 551.0
+		limiter_on = 1.0
 		limiter_event_name = "XenInfest.QuarantineEntranceDangliesFloories"
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		spread_min = 2.000000
-		spread_max = 10.000000
-		occlusion_max = 1.000000
+		spread_min = 2.0
+		spread_max = 10.0
+		occlusion_max = 1.0
 		mixgroup = "Xen"
-		volume_falloff_curve_amount = 0.100000
-		enable_spatial_blend = 1.000000
+		volume_falloff_curve_amount = 0.1
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2670,25 +2666,25 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "XenInfest.QuarantineEntranceSphinctusChild"
-		random_soundevent_01_timer_min = 7.000000
-		random_soundevent_01_timer_max = 14.000000
+		random_soundevent_01_timer_min = 7.0
+		random_soundevent_01_timer_max = 14.0
 	}
 	XenInfest.QuarantineEntranceSphinctusChild = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.850000
-		volume_falloff_max = 750.000000
-		volume_falloff_min = 350.000000
-		distance_max = 751.000000
-		limiter_on = 1.000000
+		volume = 0.85
+		volume_falloff_max = 750.0
+		volume_falloff_min = 350.0
+		distance_max = 751.0
+		limiter_on = 1.0
 		limiter_event_name = "XenInfest.QuarantineEntranceSphinctus"
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		occlusion_max = 1.000000
+		occlusion_max = 1.0
 		mixgroup = "Xen"
-		volume_falloff_curve_amount = 0.900000
-		enable_spatial_blend = 1.000000
+		volume_falloff_curve_amount = 0.9
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2704,25 +2700,25 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "XenInfest.QuarantineEntranceUrchinChild"
-		random_soundevent_01_timer_min = 7.000000
-		random_soundevent_01_timer_max = 14.000000
+		random_soundevent_01_timer_min = 7.0
+		random_soundevent_01_timer_max = 14.0
 	}
 	XenInfest.QuarantineEntranceUrchinChild = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_max = 750.000000
-		volume_falloff_min = 350.000000
-		distance_max = 751.000000
-		limiter_on = 1.000000
+		volume = 1.0
+		volume_falloff_max = 750.0
+		volume_falloff_min = 350.0
+		distance_max = 751.0
+		limiter_on = 1.0
 		limiter_event_name = "XenInfest.QuarantineEntranceUrchin"
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		occlusion_max = 1.000000
+		occlusion_max = 1.0
 		mixgroup = "Xen"
-		volume_falloff_curve_amount = 0.950000
-		enable_spatial_blend = 1.000000
+		volume_falloff_curve_amount = 0.95
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2735,16 +2731,16 @@
 	XenHotelFloorsXenMass.Lp = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		hrtf_mix = 0.500000
-		volume = 0.750000
-		volume_fade_in = 3.000000
-		volume_fade_out = 3.000000
-		volume_falloff_max = 750.000000
-		volume_falloff_min = 350.000000
-		cull_at_distance = 751.000000
+		use_hrtf = 1.0
+		hrtf_mix = 0.5
+		volume = 0.75
+		volume_fade_in = 3.0
+		volume_fade_out = 3.0
+		volume_falloff_max = 750.0
+		volume_falloff_min = 350.0
+		cull_at_distance = 751.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2755,29 +2751,29 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "XenInfest.HotelFloorsVilliTwitchesChild"
-		random_soundevent_01_timer_min = 5.000000
-		random_soundevent_01_timer_max = 10.000000
+		random_soundevent_01_timer_min = 5.0
+		random_soundevent_01_timer_max = 10.0
 	}
 	XenInfest.HotelFloorsVilliTwitchesChild = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		hrtf_mix = 0.500000
-		volume = 0.450000
-		volume_falloff_max = 750.000000
-		volume_falloff_min = 350.000000
-		distance_max = 751.000000
-		pitch_rand_min = -0.200000
-		pitch_rand_max = 0.200000
-		limiter_on = 1.000000
+		use_hrtf = 1.0
+		hrtf_mix = 0.5
+		volume = 0.45
+		volume_falloff_max = 750.0
+		volume_falloff_min = 350.0
+		distance_max = 751.0
+		pitch_rand_min = -0.2
+		pitch_rand_max = 0.2
+		limiter_on = 1.0
 		limiter_event_name = "XenInfest.HotelFloorsVilliTwitches"
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		occlusion_max = 1.000000
+		occlusion_max = 1.0
 		mixgroup = "Xen"
-		volume_falloff_curve_amount = 0.900000
-		enable_spatial_blend = 1.000000
+		volume_falloff_curve_amount = 0.9
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2791,25 +2787,25 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "XenInfest.HotelFloorsDangliesFlooriesChild"
-		random_soundevent_01_timer_min = 5.000000
-		random_soundevent_01_timer_max = 10.000000
+		random_soundevent_01_timer_min = 5.0
+		random_soundevent_01_timer_max = 10.0
 	}
 	XenInfest.HotelFloorsDangliesFlooriesChild = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_max = 750.000000
-		volume_falloff_min = 350.000000
-		distance_max = 751.000000
-		limiter_on = 1.000000
+		volume = 1.0
+		volume_falloff_max = 750.0
+		volume_falloff_min = 350.0
+		distance_max = 751.0
+		limiter_on = 1.0
 		limiter_event_name = "XenInfest.HotelFloorseDangliesFloories"
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		occlusion_max = 1.000000
+		occlusion_max = 1.0
 		mixgroup = "Xen"
-		volume_falloff_curve_amount = 0.800000
-		enable_spatial_blend = 1.000000
+		volume_falloff_curve_amount = 0.8
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2823,25 +2819,25 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "XenInfest.HotelFloorsSphinctusChild"
-		random_soundevent_01_timer_min = 7.000000
-		random_soundevent_01_timer_max = 14.000000
+		random_soundevent_01_timer_min = 7.0
+		random_soundevent_01_timer_max = 14.0
 	}
 	XenInfest.HotelFloorsSphinctusChild = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.550000
-		volume_falloff_max = 750.000000
-		volume_falloff_min = 350.000000
-		distance_max = 751.000000
-		limiter_on = 1.000000
+		volume = 0.55
+		volume_falloff_max = 750.0
+		volume_falloff_min = 350.0
+		distance_max = 751.0
+		limiter_on = 1.0
 		limiter_event_name = "XenInfest.HotelFloorsSphinctus"
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		occlusion_max = 1.000000
+		occlusion_max = 1.0
 		mixgroup = "Xen"
-		volume_falloff_curve_amount = 0.900000
-		enable_spatial_blend = 1.000000
+		volume_falloff_curve_amount = 0.9
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2857,25 +2853,25 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "XenInfest.HotelFloorsUrchinChild"
-		random_soundevent_01_timer_min = 7.000000
-		random_soundevent_01_timer_max = 14.000000
+		random_soundevent_01_timer_min = 7.0
+		random_soundevent_01_timer_max = 14.0
 	}
 	XenInfest.HotelFloorsUrchinChild = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		volume_falloff_max = 750.000000
-		volume_falloff_min = 350.000000
-		distance_max = 751.000000
-		limiter_on = 1.000000
+		volume = 0.75
+		volume_falloff_max = 750.0
+		volume_falloff_min = 350.0
+		distance_max = 751.0
+		limiter_on = 1.0
 		limiter_event_name = "XenInfest.HotelFloorsUrchin"
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		occlusion_max = 1.000000
+		occlusion_max = 1.0
 		mixgroup = "Xen"
-		volume_falloff_curve_amount = 0.950000
-		enable_spatial_blend = 1.000000
+		volume_falloff_curve_amount = 0.95
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2888,15 +2884,15 @@
 	XenFloaties.Lp = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.850000
-		volume_fade_in = 3.000000
-		volume_fade_out = 3.000000
-		volume_falloff_max = 250.000000
-		volume_falloff_min = 100.000000
-		cull_at_distance = 251.000000
+		use_hrtf = 1.0
+		volume = 0.85
+		volume_fade_in = 3.0
+		volume_fade_out = 3.0
+		volume_falloff_max = 250.0
+		volume_falloff_min = 100.0
+		cull_at_distance = 251.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2906,16 +2902,16 @@
 	XenXenMass.Lp = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		hrtf_mix = 0.500000
-		volume = 1.000000
-		volume_fade_in = 3.000000
-		volume_fade_out = 3.000000
-		volume_falloff_max = 400.000000
-		volume_falloff_min = 100.000000
-		cull_at_distance = 401.000000
+		use_hrtf = 1.0
+		hrtf_mix = 0.5
+		volume = 1.0
+		volume_fade_in = 3.0
+		volume_fade_out = 3.0
+		volume_falloff_max = 400.0
+		volume_falloff_min = 100.0
+		cull_at_distance = 401.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2929,12 +2925,12 @@
 		[
 			"static_branch_event_entity_block_1",
 		]
-		volume = 0.500000
-		volume_falloff_max = 150.000000
-		volume_falloff_min = 75.000000
-		distance_max = 151.000000
+		volume = 0.5
+		volume_falloff_max = 150.0
+		volume_falloff_min = 75.0
+		distance_max = 151.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2948,12 +2944,12 @@
 		[
 			"static_branch_event_entity_block_1",
 		]
-		volume = 0.900000
-		volume_falloff_max = 150.000000
-		volume_falloff_min = 75.000000
-		distance_max = 151.000000
+		volume = 0.9
+		volume_falloff_max = 150.0
+		volume_falloff_min = 75.0
+		distance_max = 151.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2963,12 +2959,12 @@
 	XenInfest.HealthStationGrubPain = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		volume_falloff_max = 150.000000
-		volume_falloff_min = 75.000000
-		distance_max = 151.000000
+		volume = 0.75
+		volume_falloff_max = 150.0
+		volume_falloff_min = 75.0
+		distance_max = 151.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2980,12 +2976,12 @@
 	XenInfest.HealthStationGrubPain01 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		volume_falloff_max = 150.000000
-		volume_falloff_min = 75.000000
-		distance_max = 151.000000
+		volume = 0.75
+		volume_falloff_max = 150.0
+		volume_falloff_min = 75.0
+		distance_max = 151.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -2995,12 +2991,12 @@
 	XenInfest.HealthStationGrubPain02 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		volume_falloff_max = 150.000000
-		volume_falloff_min = 75.000000
-		distance_max = 151.000000
+		volume = 0.75
+		volume_falloff_max = 150.0
+		volume_falloff_min = 75.0
+		distance_max = 151.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -3010,12 +3006,12 @@
 	XenInfest.HealthStationGrubPain03 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		volume_falloff_max = 150.000000
-		volume_falloff_min = 75.000000
-		distance_max = 151.000000
+		volume = 0.75
+		volume_falloff_max = 150.0
+		volume_falloff_min = 75.0
+		distance_max = 151.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -3025,12 +3021,12 @@
 	XenInfest.HealthStationGrubPain04 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		volume_falloff_max = 150.000000
-		volume_falloff_min = 75.000000
-		distance_max = 151.000000
+		volume = 0.75
+		volume_falloff_max = 150.0
+		volume_falloff_min = 75.0
+		distance_max = 151.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -3040,12 +3036,12 @@
 	XenInfest.HealthStationGrubPain05 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		volume_falloff_max = 150.000000
-		volume_falloff_min = 75.000000
-		distance_max = 151.000000
+		volume = 0.75
+		volume_falloff_max = 150.0
+		volume_falloff_min = 75.0
+		distance_max = 151.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -3055,12 +3051,12 @@
 	XenInfest.HealthStationGrubPain06 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		volume_falloff_max = 150.000000
-		volume_falloff_min = 75.000000
-		distance_max = 151.000000
+		volume = 0.75
+		volume_falloff_max = 150.0
+		volume_falloff_min = 75.0
+		distance_max = 151.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -3074,17 +3070,17 @@
 		[
 			"static_branch_event_entity_block_1",
 		]
-		volume = 0.700000
-		chance_to_play = 3.000000
-		spread_min = 5.000000
-		spread_max = 10.000000
-		use_hrtf = 1.000000
-		hrtf_mix = 0.200000
-		volume_falloff_max = 60.000000
-		volume_falloff_min = 30.000000
-		distance_max = 61.000000
+		volume = 0.7
+		chance_to_play = 3.0
+		spread_min = 5.0
+		spread_max = 10.0
+		use_hrtf = 1.0
+		hrtf_mix = 0.2
+		volume_falloff_max = 60.0
+		volume_falloff_min = 30.0
+		distance_max = 61.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -3104,18 +3100,18 @@
 		[
 			"static_branch_event_entity_block_1",
 		]
-		volume = 0.850000
-		spread_min = 5.000000
-		spread_max = 10.000000
-		use_hrtf = 1.000000
-		hrtf_mix = 0.200000
-		volume_falloff_max = 60.000000
-		volume_falloff_min = 30.000000
-		distance_max = 61.000000
-		occlusion_scale = 0.800000
-		occlusion_radius = 20.000000
+		volume = 0.85
+		spread_min = 5.0
+		spread_max = 10.0
+		use_hrtf = 1.0
+		hrtf_mix = 0.2
+		volume_falloff_max = 60.0
+		volume_falloff_min = 30.0
+		distance_max = 61.0
+		occlusion_scale = 0.8
+		occlusion_radius = 20.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -3132,16 +3128,16 @@
 		[
 			"static_branch_event_entity_block_1",
 		]
-		volume = 0.400000
-		spread_min = 5.000000
-		spread_max = 10.000000
-		use_hrtf = 1.000000
-		hrtf_mix = 0.200000
-		volume_falloff_max = 50.000000
-		volume_falloff_min = 20.000000
-		cull_at_distance = 51.000000
+		volume = 0.4
+		spread_min = 5.0
+		spread_max = 10.0
+		use_hrtf = 1.0
+		hrtf_mix = 0.2
+		volume_falloff_max = 50.0
+		volume_falloff_min = 20.0
+		cull_at_distance = 51.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -3155,14 +3151,14 @@
 		[
 			"static_branch_event_entity_block_1",
 		]
-		volume = 0.750000
-		spread_min = 5.000000
-		spread_max = 20.000000
-		volume_falloff_max = 50.000000
-		volume_falloff_min = 20.000000
-		cull_at_distance = 51.000000
+		volume = 0.75
+		spread_min = 5.0
+		spread_max = 20.0
+		volume_falloff_max = 50.0
+		volume_falloff_min = 20.0
+		cull_at_distance = 51.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -3172,14 +3168,14 @@
 	XenInfest.HealthStationGrubFlush01 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		spread_min = 5.000000
-		spread_max = 20.000000
-		volume_falloff_max = 100.000000
-		volume_falloff_min = 50.000000
-		distance_max = 101.000000
+		volume = 1.2
+		spread_min = 5.0
+		spread_max = 20.0
+		volume_falloff_max = 100.0
+		volume_falloff_min = 50.0
+		distance_max = 101.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -3189,14 +3185,14 @@
 	XenInfest.HealthStationGrubFlushTransition01 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		spread_min = 5.000000
-		spread_max = 20.000000
-		volume_falloff_max = 100.000000
-		volume_falloff_min = 50.000000
-		distance_max = 101.000000
+		volume = 1.2
+		spread_min = 5.0
+		spread_max = 20.0
+		volume_falloff_max = 100.0
+		volume_falloff_min = 50.0
+		distance_max = 101.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -3206,14 +3202,14 @@
 	XenInfest.HealthStationGrubEvacuation01 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		spread_min = 5.000000
-		spread_max = 20.000000
-		volume_falloff_max = 100.000000
-		volume_falloff_min = 50.000000
-		distance_max = 101.000000
+		volume = 1.2
+		spread_min = 5.0
+		spread_max = 20.0
+		volume_falloff_max = 100.0
+		volume_falloff_min = 50.0
+		distance_max = 101.0
 		mixgroup = "Xen"
-		enable_spatial_blend = 1.000000
+		enable_spatial_blend = 1.0
 		should_pause = true
 		vsnd_files = 
 		[

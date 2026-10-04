@@ -1,20 +1,21 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	A2Pistol.RandomMetalStress = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "A2Pistol.RandomMetalStressChild"
-		random_soundevent_01_timer_min = 12.000000
-		random_soundevent_01_timer_max = 18.000000
+		random_soundevent_01_timer_min = 12.0
+		random_soundevent_01_timer_max = 18.0
 	}
 	A2Pistol.RandomMetalStressChild = 
 	{
 		type = "hlvr_simple_voicegraph_filter_dynamics"
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
-		volume = 0.700000
+		volume = 0.7
 		volume_falloff_min = 400
 		volume_falloff_max = 3000
-		occlusion_scale = 0.000000
+		occlusion_scale = 0.0
 		vsnd_files = 
 		[
 			"sounds/ambient/metal/a2_pistol_amb_metal_stress_01.vsnd",
@@ -27,44 +28,44 @@
 		]
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "hotel_small_room_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 1.000000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.700000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.500000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 0.350000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 1.000000
-		remap_opvar_to_vol_x2 = 0.000000
-		remap_opvar_to_vol_y2 = 1.000000
-		remap_opvar_to_vol_x3 = 0.000000
-		remap_opvar_to_vol_y3 = 1.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 0.750000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 1.0
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.7
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.5
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 0.35
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 1.0
+		remap_opvar_to_vol_x2 = 0.0
+		remap_opvar_to_vol_y2 = 1.0
+		remap_opvar_to_vol_x3 = 0.0
+		remap_opvar_to_vol_y3 = 1.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 0.75
 	}
 	A2Pistol.SteamRush = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "A2Pistol.SteamRushChild"
-		random_soundevent_01_timer_min = 5.000000
-		random_soundevent_01_timer_max = 7.000000
+		random_soundevent_01_timer_min = 5.0
+		random_soundevent_01_timer_max = 7.0
 	}
 	A2Pistol.SteamRushChild = 
 	{
 		type = "hlvr_ambient_rand_child"
 		mixgroup = "Ambient"
-		volume = 0.300000
-		volume_rand_min = -0.100000
-		volume_rand_max = 0.050000
-		pitch_rand_min = -0.150000
-		pitch_rand_max = 0.050000
-		position_source = 0.000000
+		volume = 0.3
+		volume_rand_min = -0.1
+		volume_rand_max = 0.05
+		pitch_rand_min = -0.15
+		pitch_rand_max = 0.05
+		position_source = 0.0
 		volume_falloff_min = 50
 		volume_falloff_max = 350
 		distance_max = 500
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		vsnd_files = 
 		[
 			"sounds/ambient/air/amb_steam_rush_01.vsnd",
@@ -85,13 +86,13 @@
 	A2Pistol.SteamRushLineChild = 
 	{
 		type = "hlvr_ambient_position_on_line"
-		volume = 0.300000
+		volume = 0.3
 		volume_falloff_min = 50
 		volume_falloff_max = 350
-		volume_filter_amount = 0.400000
+		volume_filter_amount = 0.4
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		vsnd_files = 
 		[
 			"sounds/ambient/air/amb_steam_rush_01.vsnd",
@@ -109,8 +110,8 @@
 		soundevent_02 = "A2Pistol.BasementLp_R"
 		soundevent_03 = "A2Pistol.BasementLp_LS"
 		soundevent_04 = "A2Pistol.BasementLp_RS"
-		rand_delay_min = -5.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = -5.0
+		rand_delay_max = 0.0
 	}
 	A2Pistol.BasementLp_L = 
 	{
@@ -131,14 +132,14 @@
 		vsnd_vol_06 = "0.00"
 		vsnd_vol_07 = "0.00"
 		vsnd_vol_08 = "0.00"
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 0.650000
-		remap_filter_freq_opvar_x2 = 0.000000
-		remap_filter_freq_opvar_y2 = 0.650000
-		remap_filter_freq_opvar_x3 = 0.500000
-		remap_filter_freq_opvar_y3 = 0.750000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 1.000000
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 0.65
+		remap_filter_freq_opvar_x2 = 0.0
+		remap_filter_freq_opvar_y2 = 0.65
+		remap_filter_freq_opvar_x3 = 0.5
+		remap_filter_freq_opvar_y3 = 0.75
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 1.0
 	}
 	A2Pistol.BasementLp_R = 
 	{
@@ -151,7 +152,7 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	A2Pistol.BasementLp_LS = 
 	{
@@ -164,7 +165,7 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	A2Pistol.BasementLp_RS = 
 	{
@@ -177,65 +178,65 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	A2Pistol.LowPulse = 
 	{
 		base = "AmbientTenement.LowPulse"
 		global_volume_opvar_01 = "hotel_small_room_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	A2Pistol.EvoMaraca = 
 	{
 		base = "AmbientCreepy.EvoMaraca"
 		global_volume_opvar_01 = "hotel_small_room_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 1.000000
-		remap_global_opvar_01_to_vol_max = 0.000000
+		remap_global_opvar_01_to_vol_min = 1.0
+		remap_global_opvar_01_to_vol_max = 0.0
 	}
 	A2Pistol.SkullBreath = 
 	{
 		base = "AmbientCreepy.SkullBreath"
 		global_volume_opvar_01 = "hotel_small_room_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 1.000000
-		remap_global_opvar_01_to_vol_max = 0.000000
+		remap_global_opvar_01_to_vol_min = 1.0
+		remap_global_opvar_01_to_vol_max = 0.0
 	}
 	A2Pistol.Cymbals = 
 	{
 		base = "AmbientCreepy.Cymbals"
 		global_volume_opvar_01 = "hotel_small_room_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 1.000000
-		remap_global_opvar_01_to_vol_max = 0.000000
+		remap_global_opvar_01_to_vol_min = 1.0
+		remap_global_opvar_01_to_vol_max = 0.0
 	}
 	A2Pistol.BangAndCreak = 
 	{
 		base = "MetalPipe.BangAndCreak"
 		random_soundevent_01_name = "A2Pistol.BangAndCreakChild"
 		global_volume_opvar_01 = "hotel_small_room_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 1.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 1.0
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	A2Pistol.BangAndCreakChild = 
 	{
 		base = "MetalPipe.BangAndCreakChild"
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "hotel_small_room_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 1.000000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.700000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.500000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 0.350000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 1.000000
-		remap_opvar_to_vol_x2 = 0.000000
-		remap_opvar_to_vol_y2 = 1.000000
-		remap_opvar_to_vol_x3 = 0.000000
-		remap_opvar_to_vol_y3 = 1.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 0.750000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 1.0
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.7
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.5
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 0.35
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 1.0
+		remap_opvar_to_vol_x2 = 0.0
+		remap_opvar_to_vol_y2 = 1.0
+		remap_opvar_to_vol_x3 = 0.0
+		remap_opvar_to_vol_y3 = 1.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 0.75
 	}
 	A2Pistol.InteriorLp = 
 	{
@@ -244,68 +245,68 @@
 		soundevent_02 = "A2Pistol.InteriorLp_R"
 		soundevent_03 = "A2Pistol.InteriorLp_LS"
 		soundevent_04 = "A2Pistol.InteriorLp_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	A2Pistol.InteriorLp_L = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 300.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 3.000000
+		radius = 250.0
+		volume_falloff_min = 300.0
+		volume_falloff_max = 300.0
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 3.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "Ambient"
 		vsnd_files = "sounds/ambient/train_warehouse/trainyard/amb_a2_pistol_interior_lp_01_l.vsnd"
 	}
 	A2Pistol.InteriorLp_R = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 300.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 315.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 3.000000
+		radius = 250.0
+		volume_falloff_min = 300.0
+		volume_falloff_max = 300.0
+		rotation_angle = 315.0
+		volume_fade_in = 2.0
+		volume_fade_out = 3.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "Ambient"
 		vsnd_files = "sounds/ambient/train_warehouse/trainyard/amb_a2_pistol_interior_lp_01_r.vsnd"
 	}
 	A2Pistol.InteriorLp_LS = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 300.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 135.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 3.000000
+		radius = 250.0
+		volume_falloff_min = 300.0
+		volume_falloff_max = 300.0
+		rotation_angle = 135.0
+		volume_fade_in = 2.0
+		volume_fade_out = 3.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "Ambient"
 		vsnd_files = "sounds/ambient/train_warehouse/trainyard/amb_a2_pistol_interior_lp_01_ls.vsnd"
 	}
 	A2Pistol.InteriorLp_RS = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 300.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 225.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 3.000000
+		radius = 250.0
+		volume_falloff_min = 300.0
+		volume_falloff_max = 300.0
+		rotation_angle = 225.0
+		volume_fade_in = 2.0
+		volume_fade_out = 3.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "Ambient"
 		vsnd_files = "sounds/ambient/train_warehouse/trainyard/amb_a2_pistol_interior_lp_01_rs.vsnd"
 	}
@@ -316,13 +317,13 @@
 		soundevent_02 = "A2Pistol.InteriorLpMulti_R"
 		soundevent_03 = "A2Pistol.InteriorLpMulti_LS"
 		soundevent_04 = "A2Pistol.InteriorLpMulti_RS"
-		rand_delay_min = -5.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = -5.0
+		rand_delay_max = 0.0
 	}
 	A2Pistol.InteriorLpMulti_L = 
 	{
 		base = "AmbientBase.IntMainLp_L"
-		volume = 0.900000
+		volume = 0.9
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_a2_pistol_interior_lp_01_l.vsnd"
 		vsnd_file_02 = ""
 		vsnd_file_03 = ""
@@ -351,7 +352,7 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	A2Pistol.InteriorLpMulti_LS = 
 	{
@@ -364,7 +365,7 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	A2Pistol.InteriorLpMulti_RS = 
 	{
@@ -377,7 +378,7 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	A2Pistol.TraincarLp = 
 	{
@@ -386,10 +387,10 @@
 		soundevent_02 = "A2Pistol.TraincarLp_R"
 		soundevent_03 = "A2Pistol.TraincarLp_LS"
 		soundevent_04 = "A2Pistol.TraincarLp_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	A2Pistol.TraincarLp_L = 
 	{
@@ -399,15 +400,15 @@
 			"sounds/ambient/train_warehouse/trainyard/amb_a2_pistol_traincar_lp_01_l.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 250.000000
-		volume_falloff_min = 300.000000
+		radius = 250.0
+		volume_falloff_min = 300.0
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.600000
+		volume = 0.6
 	}
 	A2Pistol.TraincarLp_R = 
 	{
@@ -417,15 +418,15 @@
 			"sounds/ambient/train_warehouse/trainyard/amb_a2_pistol_traincar_lp_01_r.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 250.000000
-		volume_falloff_min = 300.000000
+		radius = 250.0
+		volume_falloff_min = 300.0
 		volume_falloff_max = 300
-		rotation_angle = 315.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 315.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.600000
+		volume = 0.6
 	}
 	A2Pistol.TraincarLp_LS = 
 	{
@@ -435,15 +436,15 @@
 			"sounds/ambient/train_warehouse/trainyard/amb_a2_pistol_traincar_lp_01_ls.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 250.000000
-		volume_falloff_min = 300.000000
+		radius = 250.0
+		volume_falloff_min = 300.0
 		volume_falloff_max = 300
-		rotation_angle = 135.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 135.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.600000
+		volume = 0.6
 	}
 	A2Pistol.TraincarLp_RS = 
 	{
@@ -453,15 +454,15 @@
 			"sounds/ambient/train_warehouse/trainyard/amb_a2_pistol_traincar_lp_01_rs.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 250.000000
-		volume_falloff_min = 300.000000
+		radius = 250.0
+		volume_falloff_min = 300.0
 		volume_falloff_max = 300
-		rotation_angle = 225.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 225.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.600000
+		volume = 0.6
 	}
 	A2Pistol.TrainCarIntLp = 
 	{
@@ -470,11 +471,11 @@
 		soundevent_02 = "A2Pistol.TrainCarIntLp_R"
 		soundevent_03 = "A2Pistol.TrainCarIntLp_LS"
 		soundevent_04 = "A2Pistol.TrainCarIntLp_RS"
-		rand_delay_min = 0.000000
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		rand_delay_min = 0.0
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	A2Pistol.TrainCarIntLp_L = 
 	{
@@ -500,19 +501,19 @@
 	{
 		base = "A2Pistol.TrainCarIntLp_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/amb_traincar_int_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	A2Pistol.TrainCarIntLp_LS = 
 	{
 		base = "A2Pistol.TrainCarIntLp_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/amb_traincar_int_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	A2Pistol.TrainCarIntLp_RS = 
 	{
 		base = "A2Pistol.TrainCarIntLp_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/amb_traincar_int_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	A2Pistol.TraincarTransitionLp = 
 	{
@@ -521,10 +522,10 @@
 		soundevent_02 = "A2Pistol.TraincarTransitionLp_R"
 		soundevent_03 = "A2Pistol.TraincarTransitionLp_LS"
 		soundevent_04 = "A2Pistol.TraincarTransitionLp_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	A2Pistol.TraincarTransitionLp_L = 
 	{
@@ -534,15 +535,15 @@
 			"sounds/ambient/train_warehouse/trainyard/amb_a2_pistol_traincar_transition_lp_01_l.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 250.000000
-		volume_falloff_min = 300.000000
+		radius = 250.0
+		volume_falloff_min = 300.0
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.600000
+		volume = 0.6
 	}
 	A2Pistol.TraincarTransitionLp_R = 
 	{
@@ -552,15 +553,15 @@
 			"sounds/ambient/train_warehouse/trainyard/amb_a2_pistol_traincar_transition_lp_01_r.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 250.000000
-		volume_falloff_min = 300.000000
+		radius = 250.0
+		volume_falloff_min = 300.0
 		volume_falloff_max = 300
-		rotation_angle = 315.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 315.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.600000
+		volume = 0.6
 	}
 	A2Pistol.TraincarTransitionLp_LS = 
 	{
@@ -570,15 +571,15 @@
 			"sounds/ambient/train_warehouse/trainyard/amb_a2_pistol_traincar_transition_lp_01_ls.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 250.000000
-		volume_falloff_min = 300.000000
+		radius = 250.0
+		volume_falloff_min = 300.0
 		volume_falloff_max = 300
-		rotation_angle = 135.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 135.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.600000
+		volume = 0.6
 	}
 	A2Pistol.TraincarTransitionLp_RS = 
 	{
@@ -588,15 +589,15 @@
 			"sounds/ambient/train_warehouse/trainyard/amb_a2_pistol_traincar_transition_lp_01_rs.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 250.000000
-		volume_falloff_min = 300.000000
+		radius = 250.0
+		volume_falloff_min = 300.0
 		volume_falloff_max = 300
-		rotation_angle = 225.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 225.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.600000
+		volume = 0.6
 	}
 	A2Pistol.TraincarTransitionLp02 = 
 	{
@@ -605,10 +606,10 @@
 		soundevent_02 = "A2Pistol.TraincarTransitionLp02_R"
 		soundevent_03 = "A2Pistol.TraincarTransitionLp02_LS"
 		soundevent_04 = "A2Pistol.TraincarTransitionLp02_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	A2Pistol.TraincarTransitionLp02_L = 
 	{
@@ -618,15 +619,15 @@
 			"sounds/ambient/train_warehouse/trainyard/amb_a2_pistol_traincar_transition_lp_01_l.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 250.000000
-		volume_falloff_min = 300.000000
+		radius = 250.0
+		volume_falloff_min = 300.0
 		volume_falloff_max = 300
-		rotation_angle = 135.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 135.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.600000
+		volume = 0.6
 	}
 	A2Pistol.TraincarTransitionLp02_R = 
 	{
@@ -636,15 +637,15 @@
 			"sounds/ambient/train_warehouse/trainyard/amb_a2_pistol_traincar_transition_lp_01_r.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 250.000000
-		volume_falloff_min = 300.000000
+		radius = 250.0
+		volume_falloff_min = 300.0
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.600000
+		volume = 0.6
 	}
 	A2Pistol.TraincarTransitionLp02_LS = 
 	{
@@ -654,15 +655,15 @@
 			"sounds/ambient/train_warehouse/trainyard/amb_a2_pistol_traincar_transition_lp_01_ls.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 250.000000
-		volume_falloff_min = 300.000000
+		radius = 250.0
+		volume_falloff_min = 300.0
 		volume_falloff_max = 300
-		rotation_angle = 225.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 225.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.600000
+		volume = 0.6
 	}
 	A2Pistol.TraincarTransitionLp02_RS = 
 	{
@@ -672,15 +673,15 @@
 			"sounds/ambient/train_warehouse/trainyard/amb_a2_pistol_traincar_transition_lp_01_rs.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 250.000000
-		volume_falloff_min = 300.000000
+		radius = 250.0
+		volume_falloff_min = 300.0
 		volume_falloff_max = 300
-		rotation_angle = 315.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 315.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.600000
+		volume = 0.6
 	}
 	A2Pistol.SkylightAddLp = 
 	{
@@ -689,10 +690,10 @@
 		soundevent_02 = "A2Pistol.SkylightAddLp_R"
 		soundevent_03 = "A2Pistol.SkylightAddLp_LS"
 		soundevent_04 = "A2Pistol.SkylightAddLp_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	A2Pistol.SkylightAddLp_L = 
 	{
@@ -702,16 +703,16 @@
 			"sounds/ambient/air/amb_a2_pistol_skylight_add_lp_01_l.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 400.000000
+		radius = 400.0
 		volume_falloff_min = 400
 		volume_falloff_max = 450
-		rotation_angle = 45.000000
-		vertical_rotation_angle = 30.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		vertical_rotation_angle = 30.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.400000
+		volume = 0.4
 	}
 	A2Pistol.SkylightAddLp_R = 
 	{
@@ -721,16 +722,16 @@
 			"sounds/ambient/air/amb_a2_pistol_skylight_add_lp_01_r.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 400.000000
+		radius = 400.0
 		volume_falloff_min = 400
 		volume_falloff_max = 450
-		rotation_angle = 315.000000
-		vertical_rotation_angle = 30.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 315.0
+		vertical_rotation_angle = 30.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.400000
+		volume = 0.4
 	}
 	A2Pistol.SkylightAddLp_LS = 
 	{
@@ -740,16 +741,16 @@
 			"sounds/ambient/air/amb_a2_pistol_skylight_add_lp_01_ls.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 400.000000
+		radius = 400.0
 		volume_falloff_min = 400
 		volume_falloff_max = 450
-		rotation_angle = 135.000000
-		vertical_rotation_angle = 30.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 135.0
+		vertical_rotation_angle = 30.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.400000
+		volume = 0.4
 	}
 	A2Pistol.SkylightAddLp_RS = 
 	{
@@ -759,16 +760,16 @@
 			"sounds/ambient/air/amb_a2_pistol_skylight_add_lp_01_rs.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 400.000000
+		radius = 400.0
 		volume_falloff_min = 400
 		volume_falloff_max = 450
-		rotation_angle = 225.000000
-		vertical_rotation_angle = 30.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 225.0
+		vertical_rotation_angle = 30.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.400000
+		volume = 0.4
 	}
 	AmbientA2Pistol.OpenAirSkylightLp = 
 	{
@@ -777,8 +778,8 @@
 		soundevent_02 = "AmbientA2Pistol.OpenAirSkylightLp_R"
 		soundevent_03 = "AmbientA2Pistol.OpenAirSkylightLp_LS"
 		soundevent_04 = "AmbientA2Pistol.OpenAirSkylightLp_RS"
-		rand_delay_min = -5.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = -5.0
+		rand_delay_max = 0.0
 	}
 	AmbientA2Pistol.OpenAirSkylightLp_L = 
 	{
@@ -788,38 +789,38 @@
 		vsnd_vol_01 = "0.7"
 		vsnd_vol_02 = "0.00"
 		mixgroup = "Ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		vertical_rotation_angle = 35.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		vertical_rotation_angle = 35.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 250
 		spread_max = 250
-		volume = 0.500000
+		volume = 0.5
 		global_opvar_name_01 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity = 2.500000
-		remap_vol_opvar_x1 = 0.000000
-		remap_vol_opvar_y1 = 0.000000
-		remap_vol_opvar_x2 = 0.200000
-		remap_vol_opvar_y2 = 0.650000
-		remap_vol_opvar_x3 = 0.500000
-		remap_vol_opvar_y3 = 0.700000
-		remap_vol_opvar_x4 = 1.000000
-		remap_vol_opvar_y4 = 1.000000
-		opvar_to_volume_multiplier_min = 0.000000
-		opvar_to_volume_multiplier = 1.000000
-		filter_mix = 0.900000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 0.600000
-		remap_filter_freq_opvar_x2 = 0.000000
-		remap_filter_freq_opvar_y2 = 0.600000
-		remap_filter_freq_opvar_x3 = 0.500000
-		remap_filter_freq_opvar_y3 = 0.700000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 1.000000
-		enable_debug_radius = 0.000000
+		global_opvar_filter_velocity = 2.5
+		remap_vol_opvar_x1 = 0.0
+		remap_vol_opvar_y1 = 0.0
+		remap_vol_opvar_x2 = 0.2
+		remap_vol_opvar_y2 = 0.65
+		remap_vol_opvar_x3 = 0.5
+		remap_vol_opvar_y3 = 0.7
+		remap_vol_opvar_x4 = 1.0
+		remap_vol_opvar_y4 = 1.0
+		opvar_to_volume_multiplier_min = 0.0
+		opvar_to_volume_multiplier = 1.0
+		filter_mix = 0.9
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 0.6
+		remap_filter_freq_opvar_x2 = 0.0
+		remap_filter_freq_opvar_y2 = 0.6
+		remap_filter_freq_opvar_x3 = 0.5
+		remap_filter_freq_opvar_y3 = 0.7
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 1.0
+		enable_debug_radius = 0.0
 		soundname_string = "AmbientA2Pistol.OpenAirSkylightLp_L"
 	}
 	AmbientA2Pistol.OpenAirSkylightLp_R = 
@@ -833,7 +834,7 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA2Pistol.OpenAirSkylightLp_LS = 
 	{
@@ -846,7 +847,7 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA2Pistol.OpenAirSkylightLp_RS = 
 	{
@@ -859,7 +860,7 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	A2Pistol.SkylightAddIntroLp = 
 	{
@@ -868,10 +869,10 @@
 		soundevent_02 = "A2Pistol.SkylightAddIntroLp_R"
 		soundevent_03 = "A2Pistol.SkylightAddIntroLp_LS"
 		soundevent_04 = "A2Pistol.SkylightAddIntroLp_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	A2Pistol.SkylightAddIntroLp_L = 
 	{
@@ -881,16 +882,16 @@
 			"sounds/ambient/air/amb_a2_pistol_skylight_add_lp_01_l.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 400.000000
+		radius = 400.0
 		volume_falloff_min = 400
 		volume_falloff_max = 450
-		rotation_angle = 45.000000
-		vertical_rotation_angle = 30.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		vertical_rotation_angle = 30.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.300000
+		volume = 0.3
 	}
 	A2Pistol.SkylightAddIntroLp_R = 
 	{
@@ -900,16 +901,16 @@
 			"sounds/ambient/air/amb_a2_pistol_skylight_add_lp_01_r.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 400.000000
+		radius = 400.0
 		volume_falloff_min = 400
 		volume_falloff_max = 450
-		rotation_angle = 315.000000
-		vertical_rotation_angle = 30.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 315.0
+		vertical_rotation_angle = 30.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.150000
+		volume = 0.15
 	}
 	A2Pistol.SkylightAddIntroLp_LS = 
 	{
@@ -919,16 +920,16 @@
 			"sounds/ambient/air/amb_a2_pistol_skylight_add_lp_01_ls.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 400.000000
+		radius = 400.0
 		volume_falloff_min = 400
 		volume_falloff_max = 450
-		rotation_angle = 135.000000
-		vertical_rotation_angle = 30.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 135.0
+		vertical_rotation_angle = 30.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.300000
+		volume = 0.3
 	}
 	A2Pistol.SkylightAddIntroLp_RS = 
 	{
@@ -938,16 +939,16 @@
 			"sounds/ambient/air/amb_a2_pistol_skylight_add_lp_01_rs.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 400.000000
+		radius = 400.0
 		volume_falloff_min = 400
 		volume_falloff_max = 450
-		rotation_angle = 225.000000
-		vertical_rotation_angle = 30.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 225.0
+		vertical_rotation_angle = 30.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.150000
+		volume = 0.15
 	}
 	A2Pistol.SkylightAddOutroLp = 
 	{
@@ -956,10 +957,10 @@
 		soundevent_02 = "A2Pistol.SkylightAddOutroLp_R"
 		soundevent_03 = "A2Pistol.SkylightAddOutroLp_LS"
 		soundevent_04 = "A2Pistol.SkylightAddOutroLp_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	A2Pistol.SkylightAddOutroLp_L = 
 	{
@@ -969,16 +970,16 @@
 			"sounds/ambient/air/amb_a2_pistol_skylight_add_lp_01_l.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 400.000000
+		radius = 400.0
 		volume_falloff_min = 400
 		volume_falloff_max = 450
-		rotation_angle = 45.000000
-		vertical_rotation_angle = 30.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		vertical_rotation_angle = 30.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.150000
+		volume = 0.15
 	}
 	A2Pistol.SkylightAddOutroLp_R = 
 	{
@@ -988,16 +989,16 @@
 			"sounds/ambient/air/amb_a2_pistol_skylight_add_lp_01_r.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 400.000000
+		radius = 400.0
 		volume_falloff_min = 400
 		volume_falloff_max = 450
-		rotation_angle = 315.000000
-		vertical_rotation_angle = 30.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 315.0
+		vertical_rotation_angle = 30.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.300000
+		volume = 0.3
 	}
 	A2Pistol.SkylightAddOutroLp_LS = 
 	{
@@ -1007,16 +1008,16 @@
 			"sounds/ambient/air/amb_a2_pistol_skylight_add_lp_01_ls.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 400.000000
+		radius = 400.0
 		volume_falloff_min = 400
 		volume_falloff_max = 450
-		rotation_angle = 135.000000
-		vertical_rotation_angle = 30.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 135.0
+		vertical_rotation_angle = 30.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.150000
+		volume = 0.15
 	}
 	A2Pistol.SkylightAddOutroLp_RS = 
 	{
@@ -1026,16 +1027,16 @@
 			"sounds/ambient/air/amb_a2_pistol_skylight_add_lp_01_rs.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 400.000000
+		radius = 400.0
 		volume_falloff_min = 400
 		volume_falloff_max = 450
-		rotation_angle = 225.000000
-		vertical_rotation_angle = 30.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 225.0
+		vertical_rotation_angle = 30.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.300000
+		volume = 0.3
 	}
 	A2Pistol.SkylightAddTransitionLp = 
 	{
@@ -1044,10 +1045,10 @@
 		soundevent_02 = "A2Pistol.SkylightAddTransitionLp_R"
 		soundevent_03 = "A2Pistol.SkylightAddTransitionLp_LS"
 		soundevent_04 = "A2Pistol.SkylightAddTransitionLp_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	A2Pistol.SkylightAddTransitionLp_L = 
 	{
@@ -1057,16 +1058,16 @@
 			"sounds/ambient/air/amb_a2_pistol_skylight_add_lp_01_l.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 400.000000
+		radius = 400.0
 		volume_falloff_min = 400
 		volume_falloff_max = 450
-		rotation_angle = 45.000000
-		vertical_rotation_angle = 30.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		vertical_rotation_angle = 30.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.150000
+		volume = 0.15
 	}
 	A2Pistol.SkylightAddTransitionLp_R = 
 	{
@@ -1076,16 +1077,16 @@
 			"sounds/ambient/air/amb_a2_pistol_skylight_add_lp_01_r.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 400.000000
+		radius = 400.0
 		volume_falloff_min = 400
 		volume_falloff_max = 450
-		rotation_angle = 315.000000
-		vertical_rotation_angle = 30.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 315.0
+		vertical_rotation_angle = 30.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.150000
+		volume = 0.15
 	}
 	A2Pistol.SkylightAddTransitionLp_LS = 
 	{
@@ -1095,16 +1096,16 @@
 			"sounds/ambient/air/amb_a2_pistol_skylight_add_lp_01_ls.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 400.000000
+		radius = 400.0
 		volume_falloff_min = 400
 		volume_falloff_max = 450
-		rotation_angle = 135.000000
-		vertical_rotation_angle = 30.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 135.0
+		vertical_rotation_angle = 30.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.300000
+		volume = 0.3
 	}
 	A2Pistol.SkylightAddTransitionLp_RS = 
 	{
@@ -1114,63 +1115,43 @@
 			"sounds/ambient/air/amb_a2_pistol_skylight_add_lp_01_rs.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 400.000000
+		radius = 400.0
 		volume_falloff_min = 400
 		volume_falloff_max = 450
-		rotation_angle = 225.000000
-		vertical_rotation_angle = 30.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 225.0
+		vertical_rotation_angle = 30.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.300000
+		volume = 0.3
 	}
 	A2Pistol.RandomConcreteFall = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "A2Pistol.RandomConcreteFallChild"
-		random_soundevent_01_timer_min = 7.000000
-		random_soundevent_01_timer_max = 12.000000
-		position = 
-		[
-			-3800.000000,
-			1550.687500,
-			27.767151,
-		]
-		position_target = 
-		[
-			-3800.000000,
-			-2000.718750,
-			25.923401,
-		]
+		random_soundevent_01_timer_min = 7.0
+		random_soundevent_01_timer_max = 12.0
+		position = [ -3800.0, 1550.6875, 27.767151 ]
+		position_target = [ -3800.0, -2000.71875, 25.923401 ]
 	}
 	A2Pistol.RandomConcreteFallChild = 
 	{
 		type = "hlvr_ambient_rand_child"
 		mixgroup = "Ambient"
-		volume = 0.750000
-		volume_rand_min = -0.100000
-		volume_rand_max = 0.100000
-		pitch_rand_min = -0.150000
-		pitch_rand_max = 0.050000
-		animation_time = 2.500000
+		volume = 0.75
+		volume_rand_min = -0.1
+		volume_rand_max = 0.1
+		pitch_rand_min = -0.15
+		pitch_rand_max = 0.05
+		animation_time = 2.5
 		animation_type = "lerp"
-		position_source = 2.000000
-		animated_source = 0.000000
-		animated_target = 2.000000
+		position_source = 2.0
+		animated_source = 0.0
+		animated_target = 2.0
 		distance_max = 1000
-		position = 
-		[
-			-3800.000000,
-			1550.687500,
-			27.767151,
-		]
-		position_target = 
-		[
-			-3800.000000,
-			-2000.718750,
-			25.923401,
-		]
+		position = [ -3800.0, 1550.6875, 27.767151 ]
+		position_target = [ -3800.0, -2000.71875, 25.923401 ]
 		vsnd_files = 
 		[
 			"sounds/ambient/rocks/amb_tenement_concrete_debris_01.vsnd",
@@ -1188,59 +1169,49 @@
 		]
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "hotel_small_room_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 1.000000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.700000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.500000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 0.350000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 1.000000
-		remap_opvar_to_vol_x2 = 0.000000
-		remap_opvar_to_vol_y2 = 1.000000
-		remap_opvar_to_vol_x3 = 0.000000
-		remap_opvar_to_vol_y3 = 1.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 0.750000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 1.0
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.7
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.5
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 0.35
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 1.0
+		remap_opvar_to_vol_x2 = 0.0
+		remap_opvar_to_vol_y2 = 1.0
+		remap_opvar_to_vol_x3 = 0.0
+		remap_opvar_to_vol_y3 = 1.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 0.75
 	}
 	A2Pistol.LPFPings = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "A2Pistol.LPFPingsChild"
-		random_soundevent_01_timer_min = 20.000000
-		random_soundevent_01_timer_max = 23.000000
-		position = 
-		[
-			798.987000,
-			884.719543,
-			468.664917,
-		]
-		position_target = 
-		[
-			-1838.841064,
-			900.864502,
-			545.394348,
-		]
+		random_soundevent_01_timer_min = 20.0
+		random_soundevent_01_timer_max = 23.0
+		position = [ 798.987, 884.719543, 468.664917 ]
+		position_target = [ -1838.841064, 900.864502, 545.394348 ]
 	}
 	A2Pistol.LPFPingsChild = 
 	{
 		type = "hlvr_ambient_rand_child"
 		mixgroup = "Ambient"
-		volume = 0.550000
-		volume_rand_min = -0.100000
-		volume_rand_max = 0.150000
-		pitch_rand_min = -0.150000
-		pitch_rand_max = 0.050000
+		volume = 0.55
+		volume_rand_min = -0.1
+		volume_rand_max = 0.15
+		pitch_rand_min = -0.15
+		pitch_rand_max = 0.05
 		animation_type = "lerp_bounce"
-		position_source = 2.000000
-		animated_source = 0.000000
-		animated_target = 2.000000
+		position_source = 2.0
+		animated_source = 0.0
+		animated_target = 2.0
 		volume_falloff_min = 800
 		volume_falloff_max = 3500
-		use_doppler = 1.000000
-		doppler_factor = 1.800000
+		use_doppler = 1.0
+		doppler_factor = 1.8
 		vsnd_files = 
 		[
 			"sounds/ambient/abstract/amb_lowpass_ping_01.vsnd",
@@ -1259,7 +1230,7 @@
 	{
 		base = "AmbientWater.WaterdripSingle"
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 1.000000
-		remap_global_opvar_01_to_vol_max = 0.000000
+		remap_global_opvar_01_to_vol_min = 1.0
+		remap_global_opvar_01_to_vol_max = 0.0
 	}
 }

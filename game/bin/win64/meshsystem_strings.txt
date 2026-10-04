@@ -1,4 +1,4 @@
-                AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZ
+                AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZUPDATE_STRING_TOKEN_DATABASE
 %02X
 %i %i %i %i
 %lld
@@ -11,6 +11,7 @@
 (None)
 +inf
 -avx
+-enable_2gb_morphs
 -inf
 -sse2
 -sse3
@@ -18,7 +19,7 @@
 .?AUAsyncProcessDataResult@CRenderMeshManager@@
 .?AUAsyncProcessResult@CBaseIntrospectedToKV3TypeManager@@
 .?AUCMorphSetData@@
-.?AV<lambda_a5b7478f043ce4d3b345c24503a9d138>@@
+.?AV<lambda_1>@?4??Release@CDecalDrawDataRefCounted@@QEAAHXZ@
 .?AV?$CBaseAppSystem@VIMeshSystem@@@@
 .?AV?$CBaseAppSystem@VIMeshUtils@@@@
 .?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CParallelProcessor@HV?$CMemberFuncJobItemProcessor@HV?$CCallQueueT@V?$CTSQueue@PEAVCFunctor@@$0A@@@@@V1@@@$00@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
@@ -101,7 +102,7 @@
 .?AV?$CTypesafeIntrospectedToKV3TypeManager@$0GMGEGNHG@UPermModelData_t@@@@
 .?AV?$ISceneObjectDescBase@VCSceneSkeletonObject@@@@
 .?AV?$_Func_base@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_a5b7478f043ce4d3b345c24503a9d138>@@V?$allocator@H@std@@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??Release@CDecalDrawDataRefCounted@@QEAAHXZ@X$$V@std@@
 .?AVAsyncProcessDataResults@CModelTypeManager@@
 .?AVCAimConstraint@@
 .?AVCAllocatorUtils@?1??AllocateAndLoad@?$CTypesafeIntrospectedToKV3TypeManager@$0GGHCGPGNHG@UCMorphSetData@@@@UEAAPEAXAEAVCKV3TransferLoadContext@@PEBUResourceBindingBase_t@@PEAVIRD_RegisterResourceDataUtils@@@Z@
@@ -196,6 +197,7 @@
 .bss
 .data
 .data$r
+.data$rs
 .edata
 .idata$2
 .idata$3
@@ -206,6 +208,7 @@
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .text$di
 .text$mn
@@ -219,17 +222,18 @@
 00000000-0000-0000-0000-000000000000
 1 1 1
 1DBlend
-2\r52t
+2\vpp
 2_BONE_IK
 3\fU348
-5tpN\n
+3\r%3t
+5tHN\v
 <!-- schema 
 <no failure reason set>
 <unknown>
+??0CThreadFastMutex@@QEAA@XZ
 ??0CThreadMultiWaitEvent@@QEAA@_N@Z
-??0CThreadMutex@@QEAA@PEBD@Z
+??0CThreadMutex@@QEAA@XZ
 ??1CThreadMultiWaitEvent@@QEAA@XZ
-??1CThreadMutex@@QEAA@XZ
 ?AppendFormat@CBufferString@@QEAAHPEBDZZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
 ?Concat@CBufferString@@QEAAPEBDPEBD0ZZ
@@ -238,7 +242,7 @@
 ?FixupPathName@CBufferString@@QEAAPEBDD@Z
 ?Format@CBufferString@@QEAAHPEBDZZ
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LockForRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
@@ -254,12 +258,12 @@
 ?ToLowerFast@CBufferString@@QEAAXH@Z
 ?TruncateAt@CBufferString@@QEAAPEBDPEBD_N@Z
 ?Truncated data
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?UnlockWrite@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
-?posxyz
-A-enable_2gb_morphs
+?blendweights
 AE_ACTION_SET_TURN_RATE_SCALE
 AE_BLIND_ZOMBIE_SNIFF
 AE_CL_ADD_PARTICLE_EFFECT_CP
@@ -304,6 +308,7 @@ AllocateAndLoad failed for '%s' (%s)\n
 AllocateAndLoad failed for '%s'\n
 AllocateResource: Error creating data for %s!\n
 AllocateResource: Error loading async data for %s
+Am_bUseShadowFastPath
 Anim
 AnimAddLayer
 AnimAlign
@@ -514,7 +519,6 @@ CUtlSymbol
 CUtlSymbolLarge
 CUtlVector
 CUtlVectorFixedGrowable
-CUtlVectorSIMDPaddedVector
 CVPhysXSurfacePropertiesList
 CVrSkeletalInputSettings
 CWristBone
@@ -835,7 +839,6 @@ LOG_GENERAL
 LOOKUP_TYPE_COUNT
 LOOKUP_TYPE_TEXCOORD
 LOOKUP_TYPE_VERTEX_ID
-LeaveCriticalSection
 Left Hand
 LightDesc_t
 LightSourceShape_t
@@ -1058,7 +1061,8 @@ RESOURCE_TYPE_MODEL
 RESOURCE_TYPE_MORPHSET_INTERNAL
 RESOURCE_TYPE_RENDERMESH_INTERNAL
 ROTATION
-RSDSZ
+RSDS
+R\vpp
 RadianEuler
 RandomFloat
 RandomInt
@@ -1136,6 +1140,7 @@ TestFormatE
 TestScriptMgr001
 TextLayout_001
 TextMessageMgr_001
+ThreadAtomicNotifyAll
 ThreadMultiWaitObjectSetDestroy
 Thumb
 ToolFramework2_002
@@ -1149,7 +1154,6 @@ Trying to override the same draw call with two different materials!\nOnly the la
 Two Bone
 Two KV3 format GUIDs with the same human-friendly name ('%s')
 TypeManager
-UPDATE_STRING_TOKEN_DATABASE
 Unable to determine buffer encoding.
 Unexpected end of file
 Unknown
@@ -1324,7 +1328,6 @@ binary_lz4
 blendamount
 blendindices
 blendweight
-blendweights
 blockLOS
 body_type
 bodygroup_choice
@@ -1624,7 +1627,6 @@ m_bTrailBias
 m_bTranslationOnly
 m_bUseCompressedNormalTangent
 m_bUseHighestEndCP
-m_bUseShadowFastPath
 m_bUserSpecifiedColor
 m_bUserSpecifiedMaterialGroup
 m_bUsesIndexedBakedLighting
@@ -2078,7 +2080,7 @@ morph_texture
 motiondisabled
 multiplayer_break
 nTries < 10000000
-n\f"pA3Q
+n\f"pA3Qp
 name
 nav_attribute_avoid
 nav_data
@@ -2108,6 +2110,7 @@ point1
 pose_control
 pose_control_type
 position
+posxyz
 precomputedmaxrange
 preferred_carryangles
 priority

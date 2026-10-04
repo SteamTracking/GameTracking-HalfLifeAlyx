@@ -1,22 +1,23 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Step_Human.Base = 
 	{
 		type = "hlvr_footstep_npc"
-		volume_mult_step = 0.900000
-		walkspeed_max = 0.900000
-		limiter_on = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 1.000000
+		volume_mult_step = 0.9
+		walkspeed_max = 0.9
+		limiter_on = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 1.0
 		limiter_stop_oldest = false
-		volume_falloff_max = 800.000000
-		distance_max = 801.000000
-		occlusion_scale = 0.800000
+		volume_falloff_max = 800.0
+		distance_max = 801.0
+		occlusion_scale = 0.8
 		mixgroup = "NPC_Footsteps"
-		use_foley_layer = 1.000000
-		volume_mult_foley_layer = 0.400000
-		use_foley_falloff = 1.000000
-		foley_falloff_max = 200.000000
+		use_foley_layer = 1.0
+		volume_mult_foley_layer = 0.4
+		use_foley_falloff = 1.0
+		foley_falloff_max = 200.0
 		vsnd_files_step = 
 		[
 			"sounds/physics/footsteps/shared/concrete/shared_concrete_step_01.vsnd",
@@ -148,11 +149,11 @@
 	Step_Human.Manual_Default = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		volume_falloff_max = 800.000000
-		distance_max = 801.000000
-		occlusion_scale = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.7
+		volume_falloff_max = 800.0
+		distance_max = 801.0
+		occlusion_scale = 0.9
+		use_hrtf = 1.0
 		mixgroup = "NPC_Footsteps"
 		vsnd_files = 
 		[
@@ -170,7 +171,7 @@
 	Step_Eli_Prosthetic.Default = 
 	{
 		base = "Step_Human.Base"
-		volume_mult_step = 0.800000
+		volume_mult_step = 0.8
 		vsnd_files_step = 
 		[
 			"sounds/physics/footsteps/eli_prosthetic/default_01.vsnd",
@@ -187,13 +188,13 @@
 	Step_Scripted.Larry_Catwalk = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		volume_falloff_max = 1000.000000
-		distance_max = 1001.000000
-		occlusion_scale = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		volume_falloff_max = 1000.0
+		distance_max = 1001.0
+		occlusion_scale = 0.7
+		use_hrtf = 1.0
 		mixgroup = "NPC_Footsteps"
 		vsnd_files = 
 		[
@@ -212,14 +213,14 @@
 	Step_Scripted.Larry_Catwalk_Subtle = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.450000
-		pitch = 0.900000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		volume_falloff_max = 800.000000
-		distance_max = 801.000000
-		occlusion_scale = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.45
+		pitch = 0.9
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		volume_falloff_max = 800.0
+		distance_max = 801.0
+		occlusion_scale = 0.7
+		use_hrtf = 1.0
 		mixgroup = "NPC_Footsteps"
 		vsnd_files = 
 		[
@@ -238,13 +239,13 @@
 	Step_Scripted.Larry_Metal_Solid = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		volume_falloff_max = 1000.000000
-		distance_max = 1001.000000
-		occlusion_scale = 0.600000
-		use_hrtf = 1.000000
+		volume = 0.7
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		volume_falloff_max = 1000.0
+		distance_max = 1001.0
+		occlusion_scale = 0.6
+		use_hrtf = 1.0
 		mixgroup = "NPC_Footsteps"
 		vsnd_files = 
 		[
@@ -261,12 +262,12 @@
 	Step_Scripted.Larry_Metal_Solid_Subtle = 
 	{
 		base = "Step_Scripted.Larry_Metal_Solid"
-		volume = 0.500000
-		pitch = 0.900000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		occlusion_scale = 0.700000
-		volume_falloff_max = 800.000000
-		distance_max = 801.000000
+		volume = 0.5
+		pitch = 0.9
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		occlusion_scale = 0.7
+		volume_falloff_max = 800.0
+		distance_max = 801.0
 	}
 }

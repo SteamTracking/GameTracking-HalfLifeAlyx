@@ -1,9 +1,10 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	test.beep_loop = 
 	{
 		type = "hlvr_default_3d"
-		occlusion_radius = 60.000000
-		occlusion_scale = 0.600000
+		occlusion_radius = 60.0
+		occlusion_scale = 0.6
 		vsnd_files = 
 		[
 			"sounds/test/1khz_beep_minus6_loop.vsnd",
@@ -12,8 +13,8 @@
 	test.hlvr_chance_to_play_parent_mult = 
 	{
 		type = "hlvr_chance_to_play_parent_mult"
-		chance_to_play_01 = 1.000000
-		chance_to_play_02 = 100.000000
+		chance_to_play_01 = 1.0
+		chance_to_play_02 = 100.0
 		child_soundevent_01 = "PhysNull.Impact"
 		child_soundevent_02 = "PhysNull.Bullet"
 	}
@@ -21,29 +22,19 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "test.multiline_null"
-		random_soundevent_01_timer_min = 0.500000
-		random_soundevent_01_timer_max = 1.000000
+		random_soundevent_01_timer_min = 0.5
+		random_soundevent_01_timer_max = 1.0
 	}
 	test.multiline_null = 
 	{
 		type = "hlvr_ambient_multiline"
-		enable_debug_radius = 1.000000
-		volume_falloff_min = 20.000000
-		volume_falloff_max = 40.000000
-		line_count = 1.000000
-		line_a_pos_01 = 
-		[
-			1239.630005,
-			-1354.750000,
-			-0.750000,
-		]
-		line_a_pos_02 = 
-		[
-			1239.630005,
-			-1157.750000,
-			-0.750000,
-		]
-		volume = 0.000000
+		enable_debug_radius = 1.0
+		volume_falloff_min = 20.0
+		volume_falloff_max = 40.0
+		line_count = 1.0
+		line_a_pos_01 = [ 1239.630005, -1354.75, -0.75 ]
+		line_a_pos_02 = [ 1239.630005, -1157.75, -0.75 ]
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_reviver/vox_grunt_soft_01.vsnd",
@@ -52,15 +43,10 @@
 	test.position_on_sphere = 
 	{
 		type = "hlvr_ambient_position_on_sphere"
-		sphere_position = 
-		[
-			984.562561,
-			2349.406250,
-			45.000000,
-		]
-		sphere_radius = 100.000000
-		no_position_update = 1.000000
-		debug_enable = 1.000000
+		sphere_position = [ 984.562561, 2349.40625, 45.0 ]
+		sphere_radius = 100.0
+		no_position_update = 1.0
+		debug_enable = 1.0
 		vsnd_files = 
 		[
 			"sounds/ambient/abstract/ambient_abstract_chimes_low_01.vsnd",
@@ -69,20 +55,10 @@
 	test.position_on_volume = 
 	{
 		type = "hlvr_ambient_position_on_volume"
-		volume_pos_min = 
-		[
-			984.562561,
-			2349.406250,
-			45.000000,
-		]
-		volume_pos_max = 
-		[
-			1084.562500,
-			2449.406250,
-			100.000000,
-		]
-		no_position_update = 1.000000
-		debug_enable = 1.000000
+		volume_pos_min = [ 984.562561, 2349.40625, 45.0 ]
+		volume_pos_max = [ 1084.5625, 2449.40625, 100.0 ]
+		no_position_update = 1.0
+		debug_enable = 1.0
 		vsnd_files = 
 		[
 			"sounds/ambient/abstract/ambient_abstract_chimes_low_01.vsnd",
@@ -91,7 +67,7 @@
 	test_radio_stack = 
 	{
 		type = "hlvr_vo_radio"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/test/test_dialog_breen.vsnd",
@@ -100,7 +76,7 @@
 	test_EQ.Breen = 
 	{
 		type = "hlvr_update_vo_default"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = 
 		[
 			"sounds/test/test_dialog_breen.vsnd",
@@ -149,7 +125,7 @@
 	sa_test.beeps = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = 
 		[
 			"sounds/test/1khz_beep_minus6_loop.vsnd",
@@ -158,8 +134,8 @@
 	sa_test.sayhello = 
 	{
 		type = "hlvr_test_steamaudioREVERB"
-		reverb_mix = 0.500000
-		volume = 1.000000
+		reverb_mix = 0.5
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/test/sa_test_hello.vsnd",
@@ -168,8 +144,8 @@
 	sa_test_anechoic.gunshot = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		direct_mix_level = 1.000000
+		use_hrtf = 1.0
+		direct_mix_level = 1.0
 		vsnd_files = 
 		[
 			"sounds/test/sa_test_gunshot_anechoic.vsnd",
@@ -178,8 +154,8 @@
 	sa_test_anechoic.handclap = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		direct_mix_level = 1.000000
+		use_hrtf = 1.0
+		direct_mix_level = 1.0
 		vsnd_files = 
 		[
 			"sounds/test/sa_test_handclap_anechoic.vsnd",
@@ -188,9 +164,9 @@
 	sa_test_anechoic.dialog = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 1.000000
-		direct_mix_level = 1.000000
+		use_hrtf = 1.0
+		volume = 1.0
+		direct_mix_level = 1.0
 		vsnd_files = 
 		[
 			"sounds/test/sa_test_dialog.vsnd",
@@ -199,9 +175,9 @@
 	sa_test_anechoic.sine = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 1.000000
-		direct_mix_level = 1.000000
+		use_hrtf = 1.0
+		volume = 1.0
+		direct_mix_level = 1.0
 		vsnd_files = 
 		[
 			"sounds/test/sa_test_sine_440hz.vsnd",
@@ -210,9 +186,9 @@
 	sa_test.dialog = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
-		direct_mix_level = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
+		direct_mix_level = 1.0
 		vsnd_files = 
 		[
 			"sounds/test/sa_test_dialog.vsnd",
@@ -221,11 +197,11 @@
 	sa_test.gunshots = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
-		volume_falloff_curve_amount = 0.000000
-		volume_falloff_floor = 1.000000
-		direct_mix_level = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
+		volume_falloff_curve_amount = 0.0
+		volume_falloff_floor = 1.0
+		direct_mix_level = 1.0
 		vsnd_files = 
 		[
 			"sounds/test/sa_test_shotgun.vsnd",
@@ -234,7 +210,7 @@
 	sa_test.engine = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/test/sa_test_engine.vsnd",
@@ -243,16 +219,16 @@
 	Diagnostic.WhooshSound01 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.850000
+		volume = 0.85
 		soundname_string = "Diagnostic.WhooshSound"
-		pitch = 1.100000
+		pitch = 1.1
 		use_world_position = true
-		volume_fade_in = 0.200000
-		volume_fade_out = 1.000000
-		stop_at_time = 1.500000
-		volume_falloff_min = 1500.000000
-		volume_falloff_max = 3500.000000
-		volume_rand_min = 0.100000
+		volume_fade_in = 0.2
+		volume_fade_out = 1.0
+		stop_at_time = 1.5
+		volume_falloff_min = 1500.0
+		volume_falloff_max = 3500.0
+		volume_rand_min = 0.1
 		vsnd_files = 
 		[
 			"sounds/ambient/whoosh_machine/amb_citadel_whoosh_lp_01.vsnd",
@@ -261,12 +237,12 @@
 	Diagnostic.WhooshSound02 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		pitch = 0.800000
-		volume_fade_in = 0.200000
-		volume_fade_out = 1.000000
-		stop_at_time = 3.000000
-		volume_falloff_min = 950.000000
+		volume = 1.0
+		pitch = 0.8
+		volume_fade_in = 0.2
+		volume_fade_out = 1.0
+		stop_at_time = 3.0
+		volume_falloff_min = 950.0
 		vsnd_files = 
 		[
 			"sounds/ambient/whoosh_machine/amb_citadel_whoosh_lp_02.vsnd",
@@ -275,12 +251,12 @@
 	Diagnostic.WhooshSound03 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 1.000000
-		stop_at_time = 2.000000
-		volume_falloff_min = 950.000000
+		volume = 1.0
+		pitch = 1.0
+		volume_fade_in = 0.2
+		volume_fade_out = 1.0
+		stop_at_time = 2.0
+		volume_falloff_min = 950.0
 		vsnd_files = 
 		[
 			"sounds/ambient/whoosh_machine/amb_citadel_whoosh_lp_03.vsnd",
@@ -289,12 +265,12 @@
 	Diagnostic.WhooshImpact = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		enable_debug_radius = 0.000000
+		volume = 0.6
+		enable_debug_radius = 0.0
 		soundname_string = "Diagnostic.WhooshImpact"
 		use_world_position = true
-		volume_falloff_min = 550.000000
-		volume_falloff_max = 1550.000000
+		volume_falloff_min = 550.0
+		volume_falloff_max = 1550.0
 		vsnd_files = 
 		[
 			"sounds/ambient/whoosh_machine/amb_citadel_whoosh_impact_02.vsnd",
@@ -308,123 +284,123 @@
 		soundevent_01 = "Diagnostic.WhooshTest01"
 		soundevent_02 = "Diagnostic.WhooshTest02"
 		soundevent_03 = "Diagnostic.WhooshTest03"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	Diagnostic.WhooshTest01 = 
 	{
 		type = "hlvr_whoosh_doppler"
 		whoosh_sound = "Diagnostic.WhooshSound01"
-		use_world_position = 1.000000
-		animation_time = 2.500000
-		use_doppler = 1.000000
-		doppler_factor = 1.000000
-		doppler_factor_receding = 1.000000
-		passthrough_distance_min = 75.000000
-		passthrough_distance_max = 250.000000
-		animation_symmetry = 0.530000
-		lfo_multiplier = 45.000000
-		lfo_depth = 0.300000
-		remap_pct_to_vol_x1 = 0.485000
-		remap_pct_to_vol_y1 = 0.150000
-		remap_pct_to_vol_x2 = 0.490000
-		remap_pct_to_vol_y2 = 1.450000
-		remap_pct_to_vol_x3 = 0.510000
-		remap_pct_to_vol_y3 = 1.450000
-		remap_pct_to_vol_x4 = 0.650000
-		remap_pct_to_vol_y4 = 0.750000
-		remap_pct_to_lfo_speed_x1 = 0.000000
-		remap_pct_to_lfo_speed_y1 = 0.950000
-		remap_pct_to_lfo_speed_x2 = 0.230000
-		remap_pct_to_lfo_speed_y2 = 1.000000
-		remap_pct_to_lfo_speed_x3 = 0.250000
-		remap_pct_to_lfo_speed_y3 = 1.000000
-		remap_pct_to_lfo_speed_x4 = 1.000000
-		remap_pct_to_lfo_speed_y4 = 0.700000
-		random_seek_min = -8.000000
-		random_seek_max = 0.000000
-		lfo_rate_noise_depth = 0.800000
-		lfo_rate_noise_min = -0.750000
-		lfo_rate_noise_max = 1.000000
+		use_world_position = 1.0
+		animation_time = 2.5
+		use_doppler = 1.0
+		doppler_factor = 1.0
+		doppler_factor_receding = 1.0
+		passthrough_distance_min = 75.0
+		passthrough_distance_max = 250.0
+		animation_symmetry = 0.53
+		lfo_multiplier = 45.0
+		lfo_depth = 0.3
+		remap_pct_to_vol_x1 = 0.485
+		remap_pct_to_vol_y1 = 0.15
+		remap_pct_to_vol_x2 = 0.49
+		remap_pct_to_vol_y2 = 1.45
+		remap_pct_to_vol_x3 = 0.51
+		remap_pct_to_vol_y3 = 1.45
+		remap_pct_to_vol_x4 = 0.65
+		remap_pct_to_vol_y4 = 0.75
+		remap_pct_to_lfo_speed_x1 = 0.0
+		remap_pct_to_lfo_speed_y1 = 0.95
+		remap_pct_to_lfo_speed_x2 = 0.23
+		remap_pct_to_lfo_speed_y2 = 1.0
+		remap_pct_to_lfo_speed_x3 = 0.25
+		remap_pct_to_lfo_speed_y3 = 1.0
+		remap_pct_to_lfo_speed_x4 = 1.0
+		remap_pct_to_lfo_speed_y4 = 0.7
+		random_seek_min = -8.0
+		random_seek_max = 0.0
+		lfo_rate_noise_depth = 0.8
+		lfo_rate_noise_min = -0.75
+		lfo_rate_noise_max = 1.0
 	}
 	Diagnostic.WhooshTest02 = 
 	{
 		type = "hlvr_whoosh_doppler"
 		whoosh_sound = "Diagnostic.WhooshSound02"
 		impact_sound = "Diagnostic.WhooshImpact"
-		impact_offset_pct = 0.480000
-		animation_time = 4.000000
-		passthrough_distance_min = 0.000000
-		passthrough_distance_max = 0.000000
-		animation_symmetry = 0.500000
-		lfo_multiplier = 35.000000
-		lfo_depth = 0.850000
-		remap_pct_to_vol_x1 = 0.450000
-		remap_pct_to_vol_y1 = 0.500000
-		remap_pct_to_vol_x2 = 0.485000
-		remap_pct_to_vol_y2 = 1.000000
-		remap_pct_to_vol_x3 = 0.510000
-		remap_pct_to_vol_y3 = 1.700000
-		remap_pct_to_vol_x4 = 0.550000
-		remap_pct_to_vol_y4 = 0.500000
-		remap_pct_to_lfo_speed_x1 = 0.000000
-		remap_pct_to_lfo_speed_y1 = 0.950000
-		remap_pct_to_lfo_speed_x2 = 0.230000
-		remap_pct_to_lfo_speed_y2 = 1.000000
-		remap_pct_to_lfo_speed_x3 = 0.250000
-		remap_pct_to_lfo_speed_y3 = 1.000000
-		remap_pct_to_lfo_speed_x4 = 1.000000
-		remap_pct_to_lfo_speed_y4 = 0.700000
-		lfo_rate_noise_depth = 0.750000
-		lfo_rate_noise_max = 2.000000
+		impact_offset_pct = 0.48
+		animation_time = 4.0
+		passthrough_distance_min = 0.0
+		passthrough_distance_max = 0.0
+		animation_symmetry = 0.5
+		lfo_multiplier = 35.0
+		lfo_depth = 0.85
+		remap_pct_to_vol_x1 = 0.45
+		remap_pct_to_vol_y1 = 0.5
+		remap_pct_to_vol_x2 = 0.485
+		remap_pct_to_vol_y2 = 1.0
+		remap_pct_to_vol_x3 = 0.51
+		remap_pct_to_vol_y3 = 1.7
+		remap_pct_to_vol_x4 = 0.55
+		remap_pct_to_vol_y4 = 0.5
+		remap_pct_to_lfo_speed_x1 = 0.0
+		remap_pct_to_lfo_speed_y1 = 0.95
+		remap_pct_to_lfo_speed_x2 = 0.23
+		remap_pct_to_lfo_speed_y2 = 1.0
+		remap_pct_to_lfo_speed_x3 = 0.25
+		remap_pct_to_lfo_speed_y3 = 1.0
+		remap_pct_to_lfo_speed_x4 = 1.0
+		remap_pct_to_lfo_speed_y4 = 0.7
+		lfo_rate_noise_depth = 0.75
+		lfo_rate_noise_max = 2.0
 	}
 	Diagnostic.WhooshTest03 = 
 	{
 		type = "hlvr_whoosh_doppler"
 		whoosh_sound = "Diagnostic.WhooshSound03"
 		impact_sound = ""
-		animation_time = 3.000000
-		passthrough_distance_min = 150.000000
-		passthrough_distance_max = 300.000000
-		animation_symmetry = 0.470000
-		lfo_multiplier = 40.000000
-		lfo_depth = 0.850000
-		remap_pct_to_vol_x1 = 0.450000
-		remap_pct_to_vol_y1 = 0.300000
-		remap_pct_to_vol_x2 = 0.495000
-		remap_pct_to_vol_y2 = 1.500000
-		remap_pct_to_vol_x3 = 0.510000
-		remap_pct_to_vol_y3 = 1.000000
-		remap_pct_to_vol_x4 = 0.550000
-		remap_pct_to_vol_y4 = 1.200000
-		remap_pct_to_lfo_speed_x1 = 0.000000
-		remap_pct_to_lfo_speed_y1 = 0.950000
-		remap_pct_to_lfo_speed_x2 = 0.230000
-		remap_pct_to_lfo_speed_y2 = 1.000000
-		remap_pct_to_lfo_speed_x3 = 0.250000
-		remap_pct_to_lfo_speed_y3 = 1.000000
-		remap_pct_to_lfo_speed_x4 = 1.000000
-		remap_pct_to_lfo_speed_y4 = 0.450000
-		lfo_rate_noise_depth = 0.300000
+		animation_time = 3.0
+		passthrough_distance_min = 150.0
+		passthrough_distance_max = 300.0
+		animation_symmetry = 0.47
+		lfo_multiplier = 40.0
+		lfo_depth = 0.85
+		remap_pct_to_vol_x1 = 0.45
+		remap_pct_to_vol_y1 = 0.3
+		remap_pct_to_vol_x2 = 0.495
+		remap_pct_to_vol_y2 = 1.5
+		remap_pct_to_vol_x3 = 0.51
+		remap_pct_to_vol_y3 = 1.0
+		remap_pct_to_vol_x4 = 0.55
+		remap_pct_to_vol_y4 = 1.2
+		remap_pct_to_lfo_speed_x1 = 0.0
+		remap_pct_to_lfo_speed_y1 = 0.95
+		remap_pct_to_lfo_speed_x2 = 0.23
+		remap_pct_to_lfo_speed_y2 = 1.0
+		remap_pct_to_lfo_speed_x3 = 0.25
+		remap_pct_to_lfo_speed_y3 = 1.0
+		remap_pct_to_lfo_speed_x4 = 1.0
+		remap_pct_to_lfo_speed_y4 = 0.45
+		lfo_rate_noise_depth = 0.3
 	}
 	Diagnostic.WhooshMult = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "Diagnostic.WhooshTest"
-		random_soundevent_01_timer_min = 4.500000
-		random_soundevent_01_timer_max = 7.500000
-		position_random = 1.000000
-		rand_radius_min = 800.000000
-		rand_radius_max = 6500.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 4.5
+		random_soundevent_01_timer_max = 7.5
+		position_random = 1.0
+		rand_radius_min = 800.0
+		rand_radius_max = 6500.0
+		use_initial_random_offset = 1.0
 	}
 	Diagnostic.TestPosArray = 
 	{
 		type = "hlvr_ambient_position_array"
-		num_positions = 8.000000
-		rand_radius_min = 10.000000
-		rand_radius_max = 125.000000
+		num_positions = 8.0
+		rand_radius_min = 10.0
+		rand_radius_max = 125.0
 	}
 	Diagnostic.TestVaultPulseParticleOpvar = 
 	{
@@ -441,7 +417,7 @@
 	Diagnostic.TestSteamAudioREVERB = 
 	{
 		type = "hlvr_test_steamaudioREVERB"
-		reverb_mix = 1.000000
+		reverb_mix = 1.0
 		vsnd_files = 
 		[
 			"sounds/diagnostics/pinknoise.vsnd",
@@ -450,9 +426,9 @@
 	Diagnostic.TestSteamAudioHRTFbeep = 
 	{
 		type = "hlvr_test_steamaudioHRTF"
-		use_hrtf = 0.000000
-		hrtf_mix = 1.000000
-		volume = 0.500000
+		use_hrtf = 0.0
+		hrtf_mix = 1.0
+		volume = 0.5
 		vsnd_files = 
 		[
 			"sounds/diagnostics/beep.vsnd",
@@ -461,8 +437,8 @@
 	Diagnostic.TestSteamAudioREVERBbeep = 
 	{
 		type = "hlvr_test_steamaudioREVERB"
-		reverb_mix = 1.000000
-		volume = 0.500000
+		reverb_mix = 1.0
+		volume = 0.5
 		vsnd_files = 
 		[
 			"sounds/diagnostics/beep.vsnd",
@@ -471,14 +447,14 @@
 	Diagnostic.TestOcclusion = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		hrtf_mix = 1.000000
-		volume = 1.000000
-		direct_mix_level = 1.000000
-		occlusion_radius = 60.000000
-		occlusion_scale = 1.000000
-		occlusion_min = 0.000000
-		occlusion_max = 1.000000
+		use_hrtf = 1.0
+		hrtf_mix = 1.0
+		volume = 1.0
+		direct_mix_level = 1.0
+		occlusion_radius = 60.0
+		occlusion_scale = 1.0
+		occlusion_min = 0.0
+		occlusion_max = 1.0
 		vsnd_files = 
 		[
 			"sounds/test/sa_test_dialog.vsnd",
@@ -488,13 +464,13 @@
 	{
 		type = "hlvr_default_3d"
 		voicegraph = "hlvr.pathing"
-		use_hrtf = 1.000000
-		hrtf_mix = 1.000000
-		volume = 1.000000
-		direct_mix_level = 1.000000
+		use_hrtf = 1.0
+		hrtf_mix = 1.0
+		volume = 1.0
+		direct_mix_level = 1.0
 		sa_enabled = 1
 		sa_pathing_enabled = 1
-		sa_pathing_mix_level = 1.000000
+		sa_pathing_mix_level = 1.0
 		vsnd_files = 
 		[
 			"sounds/test/sa_test_dialog.vsnd",
@@ -503,15 +479,15 @@
 	Diagnostic.TestSteamAudioOcclusionDialogue = 
 	{
 		type = "hlvr_test_steamaudioOCCLUSION"
-		use_hrtf = 1.000000
-		hrtf_mix = 1.000000
-		volume = 1.000000
-		direct_mix_level = 1.000000
-		reverb_mix = 0.000000
-		sa_enable_occlusion = 1.000000
-		sa_occlusion_mode = 1.000000
-		sa_occlusion_method = 1.000000
-		sa_occlusion_source_radius = 60.000000
+		use_hrtf = 1.0
+		hrtf_mix = 1.0
+		volume = 1.0
+		direct_mix_level = 1.0
+		reverb_mix = 0.0
+		sa_enable_occlusion = 1.0
+		sa_occlusion_mode = 1.0
+		sa_occlusion_method = 1.0
+		sa_occlusion_source_radius = 60.0
 		vsnd_files = 
 		[
 			"sounds/test/sa_test_dialog.vsnd",
@@ -520,15 +496,15 @@
 	Diagnostic.TestSteamAudioOcclusionBeeps = 
 	{
 		type = "hlvr_test_steamaudioOCCLUSION"
-		use_hrtf = 1.000000
-		hrtf_mix = 1.000000
-		volume = 1.000000
-		direct_mix_level = 1.000000
-		reverb_mix = 0.000000
-		sa_enable_occlusion = 1.000000
-		sa_occlusion_mode = 3.000000
-		sa_occlusion_method = 0.000000
-		sa_occlusion_source_radius = 60.000000
+		use_hrtf = 1.0
+		hrtf_mix = 1.0
+		volume = 1.0
+		direct_mix_level = 1.0
+		reverb_mix = 0.0
+		sa_enable_occlusion = 1.0
+		sa_occlusion_mode = 3.0
+		sa_occlusion_method = 0.0
+		sa_occlusion_source_radius = 60.0
 		vsnd_files = 
 		[
 			"sounds/test/1khz_beep_minus6_loop.vsnd",
@@ -537,15 +513,15 @@
 	Diagnostic.TestSteamAudioOcclusionEngine = 
 	{
 		type = "hlvr_test_steamaudioOCCLUSION"
-		use_hrtf = 1.000000
-		hrtf_mix = 1.000000
-		volume = 1.000000
-		direct_mix_level = 1.000000
-		reverb_mix = 0.000000
-		sa_enable_occlusion = 1.000000
-		sa_occlusion_mode = 3.000000
-		sa_occlusion_method = 0.000000
-		sa_occlusion_source_radius = 60.000000
+		use_hrtf = 1.0
+		hrtf_mix = 1.0
+		volume = 1.0
+		direct_mix_level = 1.0
+		reverb_mix = 0.0
+		sa_enable_occlusion = 1.0
+		sa_occlusion_mode = 3.0
+		sa_occlusion_method = 0.0
+		sa_occlusion_source_radius = 60.0
 		vsnd_files = 
 		[
 			"sounds/test/sa_test_engine.vsnd",
@@ -554,15 +530,15 @@
 	Diagnostic.TestSteamAudioOcclusionGunshots = 
 	{
 		type = "hlvr_test_steamaudioOCCLUSION"
-		use_hrtf = 1.000000
-		hrtf_mix = 1.000000
-		volume = 1.000000
-		direct_mix_level = 1.000000
-		reverb_mix = 0.000000
-		sa_enable_occlusion = 1.000000
-		sa_occlusion_mode = 3.000000
-		sa_occlusion_method = 0.000000
-		sa_occlusion_source_radius = 60.000000
+		use_hrtf = 1.0
+		hrtf_mix = 1.0
+		volume = 1.0
+		direct_mix_level = 1.0
+		reverb_mix = 0.0
+		sa_enable_occlusion = 1.0
+		sa_occlusion_mode = 3.0
+		sa_occlusion_method = 0.0
+		sa_occlusion_source_radius = 60.0
 		vsnd_files = 
 		[
 			"sounds/test/sa_test_shotgun.vsnd",
@@ -571,24 +547,14 @@
 	Music.TestNoiseLp = 
 	{
 		type = "hlvr_ambient_orbit_child"
-		orbit_center = 
-		[
-			0.000000,
-			308.000000,
-			63.000000,
-		]
-		position_start = 
-		[
-			200.000000,
-			308.000000,
-			63.000000,
-		]
-		orbit_freq = 0.500000
-		enable_debug_radius = 0.000000
-		volume = 1.000000
+		orbit_center = [ 0.0, 308.0, 63.0 ]
+		position_start = [ 200.0, 308.0, 63.0 ]
+		orbit_freq = 0.5
+		enable_debug_radius = 0.0
+		volume = 1.0
 		use_world_position = true
-		use_hrtf = 0.000000
-		doppler_factor = 5.000000
+		use_hrtf = 0.0
+		doppler_factor = 5.0
 		vsnd_files = 
 		[
 			"sounds/diagnostics/pinknoise.vsnd",
@@ -599,23 +565,23 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "Midi.BeepTest_vsnd"
 		soundevent_02 = "Midi.BeepTest_vmidi"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	Midi.BeepTest_vmidi = 
 	{
 		type = "core_start_arrangement"
 		arrangement = "arrangement_diagnostic_test_01"
-		bpm = 60.000000
+		bpm = 60.0
 	}
 	Midi.BeepTest_vsnd = 
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "Music"
-		volume_falloff_min = 10000.000000
-		volume_falloff_max = 11000.000000
+		volume_falloff_min = 10000.0
+		volume_falloff_max = 11000.0
 		vsnd_files = 
 		[
 			"sounds/test/1khz_beep_minus6_loop.vsnd",

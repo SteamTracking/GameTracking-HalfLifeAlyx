@@ -1,10 +1,11 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Gravity_Glove_Machine.Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.500000
+		volume = 0.8
+		use_hrtf = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -15,9 +16,9 @@
 	Gravity_Glove_Machine.Present = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.500000
+		volume = 0.8
+		use_hrtf = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -28,7 +29,7 @@
 	Gravity_Glove_Dispenser.Hand_In = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.850000
+		volume = 0.85
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -39,7 +40,7 @@
 	Gravity_Glove_Dispenser.Hand_Out = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
+		volume = 0.75
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -50,7 +51,7 @@
 	Gravity_Glove_Dispenser.Acquire_Gloves = 
 	{
 		type = "src1_2d"
-		volume = 0.900000
+		volume = 0.9
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -60,10 +61,10 @@
 	MiniThumper.Hit_Success = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		delay = 0.100000
-		volume_falloff_min = 2000.000000
-		volume_falloff_max = 6000.000000
+		volume = 1.0
+		delay = 0.1
+		volume_falloff_min = 2000.0
+		volume_falloff_max = 6000.0
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -73,8 +74,8 @@
 	MiniThumper.Loop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		volume_fade_in = 0.100000
+		volume = 0.8
+		volume_fade_in = 0.1
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -84,7 +85,7 @@
 	MiniThumper.Shutdown = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
+		volume = 0.9
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -94,7 +95,7 @@
 	MiniThumper.Charge_Release = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -104,9 +105,9 @@
 	MiniThumper.Charge_Detonate = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_min = 550.000000
-		volume_falloff_max = 6000.000000
+		volume = 1.0
+		volume_falloff_min = 550.0
+		volume_falloff_max = 6000.0
 		mixgroup = "Explosions"
 		vsnd_files = 
 		[
@@ -116,9 +117,9 @@
 	MiniThumper.Charge_Detonate_Rumble = 
 	{
 		type = "hlvr_2d_w_falloff"
-		volume = 0.700000
-		volume_falloff_min = 550.000000
-		volume_falloff_max = 6000.000000
+		volume = 0.7
+		volume_falloff_min = 550.0
+		volume_falloff_max = 6000.0
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -128,7 +129,7 @@
 	Turret.LowAmmo = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -138,7 +139,7 @@
 	Turret.NoAmmo = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -150,16 +151,16 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombinePowerSiphon.PowerOutMain"
 		soundevent_02 = "CombinePowerSiphon.BrownoutLp"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombinePowerSiphon.PowerReturn = 
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombinePowerSiphon.PowerReturnMain"
 		soundevent_02 = "CombinePowerSiphon.StopBrownoutLp"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombinePowerSiphon.StopBrownoutLp = 
 	{
@@ -173,23 +174,23 @@
 		soundevent_02 = "CombinePowerSiphon.BrownoutLp_R"
 		soundevent_03 = "CombinePowerSiphon.BrownoutLp_LS"
 		soundevent_04 = "CombinePowerSiphon.BrownoutLp_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	CombinePowerSiphon.BrownoutLp_L = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 45.000000
-		volume_fade_in = 1.000000
-		volume_fade_out = 2.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 45.0
+		volume_fade_in = 1.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -199,15 +200,15 @@
 	CombinePowerSiphon.BrownoutLp_R = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 315.000000
-		volume_fade_in = 1.000000
-		volume_fade_out = 2.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 315.0
+		volume_fade_in = 1.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -217,15 +218,15 @@
 	CombinePowerSiphon.BrownoutLp_LS = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 135.000000
-		volume_fade_in = 1.000000
-		volume_fade_out = 2.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 135.0
+		volume_fade_in = 1.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -235,15 +236,15 @@
 	CombinePowerSiphon.BrownoutLp_RS = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 225.000000
-		volume_fade_in = 1.000000
-		volume_fade_out = 2.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 225.0
+		volume_fade_in = 1.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -257,21 +258,21 @@
 		soundevent_02 = "CombinePowerSiphon.PowerOut_R"
 		soundevent_03 = "CombinePowerSiphon.PowerOut_LS"
 		soundevent_04 = "CombinePowerSiphon.PowerOut_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	CombinePowerSiphon.PowerOut_L = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 45.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 45.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -281,13 +282,13 @@
 	CombinePowerSiphon.PowerOut_R = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 315.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 315.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -297,13 +298,13 @@
 	CombinePowerSiphon.PowerOut_LS = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 135.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 135.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -313,13 +314,13 @@
 	CombinePowerSiphon.PowerOut_RS = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 225.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 225.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -333,21 +334,21 @@
 		soundevent_02 = "CombinePowerSiphon.PowerReturn_R"
 		soundevent_03 = "CombinePowerSiphon.PowerReturn_LS"
 		soundevent_04 = "CombinePowerSiphon.PowerReturn_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	CombinePowerSiphon.PowerReturn_L = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 45.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 45.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.700000
+		volume = 0.7
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -357,13 +358,13 @@
 	CombinePowerSiphon.PowerReturn_R = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 315.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 315.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.700000
+		volume = 0.7
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -373,13 +374,13 @@
 	CombinePowerSiphon.PowerReturn_LS = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 135.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 135.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.700000
+		volume = 0.7
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -389,13 +390,13 @@
 	CombinePowerSiphon.PowerReturn_RS = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 225.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 225.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.700000
+		volume = 0.7
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -409,22 +410,22 @@
 		soundevent_02 = "CombinePowerSiphon.Drain_R"
 		soundevent_03 = "CombinePowerSiphon.Drain_LS"
 		soundevent_04 = "CombinePowerSiphon.Drain_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	CombinePowerSiphon.Drain_L = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		volume_fade_out = 2.000000
-		rotation_angle = 45.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		volume_fade_out = 2.0
+		rotation_angle = 45.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -434,14 +435,14 @@
 	CombinePowerSiphon.Drain_R = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		volume_fade_out = 2.000000
-		rotation_angle = 315.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		volume_fade_out = 2.0
+		rotation_angle = 315.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -451,14 +452,14 @@
 	CombinePowerSiphon.Drain_LS = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		volume_fade_out = 2.000000
-		rotation_angle = 135.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		volume_fade_out = 2.0
+		rotation_angle = 135.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -468,14 +469,14 @@
 	CombinePowerSiphon.Drain_RS = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		volume_fade_out = 2.000000
-		rotation_angle = 225.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		volume_fade_out = 2.0
+		rotation_angle = 225.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -485,7 +486,7 @@
 	CombineBuildingEater.Crunch = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -495,10 +496,10 @@
 	CombineTrain.A2_Arrive = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.600000
-		use_hrtf = 1.000000
-		volume_falloff_min = 1000.000000
-		volume_falloff_max = 4000.000000
+		volume = 1.6
+		use_hrtf = 1.0
+		volume_falloff_min = 1000.0
+		volume_falloff_max = 4000.0
 		mixgroup = "World"
 		should_pause = true
 		vsnd_files = 
@@ -510,20 +511,20 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombineTrain.A2_Leave_Core"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "CombineTrain.A2_Leave_Layer"
-		use_02 = 1.000000
+		use_02 = 1.0
 		soundevent_03 = "CombineTrain.A2_Leave_Layer_End"
-		use_03 = 1.000000
+		use_03 = 1.0
 	}
 	CombineTrain.A2_Leave_Core = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.600000
-		occlusion_scale = 0.400000
-		occlusion_radius = 100.000000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 2000.000000
+		volume = 1.6
+		occlusion_scale = 0.4
+		occlusion_radius = 100.0
+		volume_falloff_min = 400.0
+		volume_falloff_max = 2000.0
 		mixgroup = "CombineMachines"
 		should_pause = true
 		vsnd_files = 
@@ -534,11 +535,11 @@
 	CombineTrain.A2_Leave_Layer = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		occlusion_scale = 0.400000
-		occlusion_radius = 100.000000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 2000.000000
+		volume = 1.4
+		occlusion_scale = 0.4
+		occlusion_radius = 100.0
+		volume_falloff_min = 400.0
+		volume_falloff_max = 2000.0
 		mixgroup = "CombineMachines"
 		should_pause = true
 		vsnd_files = 
@@ -549,12 +550,12 @@
 	CombineTrain.A2_Leave_Layer_End = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		delay = 13.500000
-		occlusion_scale = 0.400000
-		occlusion_radius = 100.000000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 2000.000000
+		volume = 1.4
+		delay = 13.5
+		occlusion_scale = 0.4
+		occlusion_radius = 100.0
+		volume_falloff_min = 400.0
+		volume_falloff_max = 2000.0
 		mixgroup = "CombineMachines"
 		should_pause = true
 		vsnd_files = 
@@ -565,13 +566,13 @@
 	CombineTrain.A2_Idle_Loop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
-		volume_fade_in = 0.500000
-		volume_fade_out = 0.500000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 2000.000000
-		occlusion_scale = 0.500000
+		volume = 1.2
+		use_hrtf = 1.0
+		volume_fade_in = 0.5
+		volume_fade_out = 0.5
+		volume_falloff_min = 400.0
+		volume_falloff_max = 2000.0
+		occlusion_scale = 0.5
 		mixgroup = "CombineMachines"
 		should_pause = true
 		vsnd_files = 
@@ -582,13 +583,13 @@
 	CombineTrain.A2_Leave_Car_Passby_Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		use_hrtf = 1.000000
-		volume_falloff_min = 300.000000
-		volume_falloff_max = 1000.000000
-		use_doppler = 1.000000
-		occlusion_scale = 0.400000
-		occlusion_radius = 100.000000
+		volume = 1.4
+		use_hrtf = 1.0
+		volume_falloff_min = 300.0
+		volume_falloff_max = 1000.0
+		use_doppler = 1.0
+		occlusion_scale = 0.4
+		occlusion_radius = 100.0
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -654,7 +655,7 @@
 	CombineTrain.A2_Leave_Car_Passby_08 = 
 	{
 		base = "CombineTrain.A2_Leave_Car_Passby_Base"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/combine_train/a2_train_leave_car_passby_08.vsnd",
@@ -663,7 +664,7 @@
 	CombineTrain.A2_Leave_Car_Passby_09 = 
 	{
 		base = "CombineTrain.A2_Leave_Car_Passby_Base"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/combine_train/a2_train_leave_car_passby_09.vsnd",
@@ -672,14 +673,14 @@
 	CombineTrain.A2_Move_Clunk = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		use_hrtf = 1.000000
-		volume_falloff_min = 300.000000
-		volume_falloff_max = 1000.000000
-		occlusion_scale = 0.400000
-		occlusion_radius = 100.000000
+		volume = 1.4
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		use_hrtf = 1.0
+		volume_falloff_min = 300.0
+		volume_falloff_max = 1000.0
+		occlusion_scale = 0.4
+		occlusion_radius = 100.0
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -692,26 +693,26 @@
 	CombineDropship.Scripted_Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 5.000000
-		occlusion_scale = 0.200000
-		volume_falloff_min = 6000.000000
-		volume_falloff_max = 12000.000000
-		reverb_curve_max_distance = 10000.000000
-		volume_falloff_curve_amount = 0.600000
-		spread_min = 500.000000
-		spread_max = 700.000000
-		volume_filter_amount = 0.400000
-		use_hrtf = 1.000000
-		should_pause = 1.000000
+		volume = 1.0
+		volume_fade_in = 0.1
+		volume_fade_out = 5.0
+		occlusion_scale = 0.2
+		volume_falloff_min = 6000.0
+		volume_falloff_max = 12000.0
+		reverb_curve_max_distance = 10000.0
+		volume_falloff_curve_amount = 0.6
+		spread_min = 500.0
+		spread_max = 700.0
+		volume_filter_amount = 0.4
+		use_hrtf = 1.0
+		should_pause = 1.0
 		mixgroup = "Dropship"
 	}
 	CombineDropship.Scripted_A1_Basement_Street = 
 	{
 		base = "CombineDropship.Scripted_Base"
-		volume_falloff_min = 4000.000000
-		occlusion_scale = 0.200000
+		volume_falloff_min = 4000.0
+		occlusion_scale = 0.2
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/combine_gunship/dropship_a1_basement_street.vsnd",
@@ -721,18 +722,18 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombineDropship.Scripted_A1_Passby_Core"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "CombineDropship.Scripted_A1_Passby_Detail"
-		use_02 = 1.000000
+		use_02 = 1.0
 		soundevent_03 = "CombineDropship.Scripted_A1_Passby_Layer"
-		use_03 = 1.000000
+		use_03 = 1.0
 	}
 	CombineDropship.Scripted_A1_Passby_Core = 
 	{
 		base = "CombineDropship.Scripted_Base"
-		volume = 1.200000
-		volume_fade_in = 2.000000
-		delay = 1.000000
+		volume = 1.2
+		volume_fade_in = 2.0
+		delay = 1.0
 		use_named_send = "loud"
 		vsnd_files = 
 		[
@@ -742,8 +743,8 @@
 	CombineDropship.Scripted_A1_Passby_Detail = 
 	{
 		base = "CombineDropship.Scripted_Base"
-		volume = 1.200000
-		delay = 9.200000
+		volume = 1.2
+		delay = 9.2
 		use_named_send = "loud"
 		vsnd_files = 
 		[
@@ -753,9 +754,9 @@
 	CombineDropship.Scripted_A1_Passby_Layer = 
 	{
 		base = "CombineDropship.Scripted_Base"
-		volume = 1.000000
-		volume_fade_in = 2.000000
-		delay = 1.000000
+		volume = 1.0
+		volume_fade_in = 2.0
+		delay = 1.0
 		use_named_send = "loud"
 		vsnd_files = 
 		[
@@ -765,17 +766,17 @@
 	CombineDropship.Scripted_A1_Reverb_Base = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		delay = 9.500000
-		radius = 150.000000
-		volume_falloff_min = 300.000000
-		volume_falloff_max = 300.000000
-		volume_fade_out = 3.000000
-		rotation_angle = 45.000000
-		vertical_rotation_angle = 0.000000
+		delay = 9.5
+		radius = 150.0
+		volume_falloff_min = 300.0
+		volume_falloff_max = 300.0
+		volume_fade_out = 3.0
+		rotation_angle = 45.0
+		vertical_rotation_angle = 0.0
 		spread_min = 0
 		spread_max = 400
-		volume = 1.000000
-		should_pause = 1.000000
+		volume = 1.0
+		should_pause = 1.0
 		mixgroup = "Dropship"
 	}
 	CombineDropship.Scripted_A1_Passby_Reverb = 
@@ -785,10 +786,10 @@
 		soundevent_02 = "CombineDropship.Scripted_A1_Reverb_Front_R"
 		soundevent_03 = "CombineDropship.Scripted_A1_Reverb_Rear_L"
 		soundevent_04 = "CombineDropship.Scripted_A1_Reverb_Rear_R"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	CombineDropship.Scripted_A1_Reverb_Front_L = 
 	{
@@ -798,19 +799,19 @@
 	CombineDropship.Scripted_A1_Reverb_Front_R = 
 	{
 		base = "CombineDropship.Scripted_A1_Reverb_Base"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 		vsnd_files = "sounds/mechanical_units/combine_gunship/dropship_a1_passby_reverb_fr.vsnd"
 	}
 	CombineDropship.Scripted_A1_Reverb_Rear_L = 
 	{
 		base = "CombineDropship.Scripted_A1_Reverb_Base"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 		vsnd_files = "sounds/mechanical_units/combine_gunship/dropship_a1_passby_reverb_rl.vsnd"
 	}
 	CombineDropship.Scripted_A1_Reverb_Rear_R = 
 	{
 		base = "CombineDropship.Scripted_A1_Reverb_Base"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 		vsnd_files = "sounds/mechanical_units/combine_gunship/dropship_a1_passby_reverb_rr.vsnd"
 	}
 	CombineDropship.Scripted_A1_Vista_A = 
@@ -825,7 +826,7 @@
 	CombineDropship.Scripted_A1_Vista_B = 
 	{
 		base = "CombineDropship.Scripted_Base"
-		volume = 0.950000
+		volume = 0.95
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/combine_gunship/dropship_a1_vista_b.vsnd",
@@ -834,7 +835,7 @@
 	CombineDropship.Scripted_A4_Tankeryard_High = 
 	{
 		base = "CombineDropship.Scripted_Base"
-		volume_falloff_min = 4000.000000
+		volume_falloff_min = 4000.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/combine_gunship/dropship_a4_tankeryard_high.vsnd",
@@ -843,7 +844,7 @@
 	CombineDropship.Scripted_A4_Tankeryard_Low = 
 	{
 		base = "CombineDropship.Scripted_Base"
-		volume_falloff_min = 4000.000000
+		volume_falloff_min = 4000.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/combine_gunship/dropship_a4_tankeryard_low.vsnd",
@@ -853,31 +854,31 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombineDropship.PadsLp01"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "CombineDropship.PadsLp02"
-		use_02 = 1.000000
+		use_02 = 1.0
 		soundevent_03 = "CombineDropship.LFELp"
-		use_03 = 1.000000
+		use_03 = 1.0
 		soundevent_04 = "CombineDropship.Rotor_Legacy"
-		use_04 = 1.000000
+		use_04 = 1.0
 	}
 	CombineDropship.PadsLp01 = 
 	{
 		type = "hlvr_3d_projectile"
-		volume = 1.000000
-		volume_fade_in = 3.000000
-		volume_fade_out = 5.000000
-		occlusion_scale = 0.500000
-		volume_falloff_min = 600.000000
-		volume_falloff_max = 4000.000000
-		volume_falloff_curve_amount = 0.600000
-		spread_min = 500.000000
-		spread_max = 700.000000
-		use_doppler = 1.000000
-		doppler_factor = 2.000000
-		doppler_factor_receding = 2.000000
-		volume_filter_amount = 0.400000
-		passby_soundevent_distance_threshold = 1500.000000
+		volume = 1.0
+		volume_fade_in = 3.0
+		volume_fade_out = 5.0
+		occlusion_scale = 0.5
+		volume_falloff_min = 600.0
+		volume_falloff_max = 4000.0
+		volume_falloff_curve_amount = 0.6
+		spread_min = 500.0
+		spread_max = 700.0
+		use_doppler = 1.0
+		doppler_factor = 2.0
+		doppler_factor_receding = 2.0
+		volume_filter_amount = 0.4
+		passby_soundevent_distance_threshold = 1500.0
 		passby_soundevent_name = "CombineDropship.PadJetsOneShotNoStop"
 		mixgroup = "Dropship"
 		vsnd_files = 
@@ -888,20 +889,20 @@
 	CombineDropship.PadsLp02 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_fade_in = 3.000000
-		volume_fade_out = 5.000000
-		occlusion_scale = 0.700000
-		volume_falloff_min = 600.000000
-		volume_falloff_max = 4000.000000
-		volume_falloff_curve_amount = 0.600000
-		spread_min = 500.000000
-		spread_max = 700.000000
-		use_doppler = 1.000000
-		doppler_factor = 2.000000
-		doppler_factor_receding = 2.000000
-		volume_filter_amount = 0.400000
-		use_hrtf = 1.000000
+		volume = 1.0
+		volume_fade_in = 3.0
+		volume_fade_out = 5.0
+		occlusion_scale = 0.7
+		volume_falloff_min = 600.0
+		volume_falloff_max = 4000.0
+		volume_falloff_curve_amount = 0.6
+		spread_min = 500.0
+		spread_max = 700.0
+		use_doppler = 1.0
+		doppler_factor = 2.0
+		doppler_factor_receding = 2.0
+		volume_filter_amount = 0.4
+		use_hrtf = 1.0
 		mixgroup = "Dropship"
 		vsnd_files = 
 		[
@@ -911,19 +912,19 @@
 	CombineDropship.LFELp = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		volume_fade_in = 3.000000
-		volume_fade_out = 5.000000
-		occlusion_scale = 0.200000
-		volume_falloff_min = 1000.000000
-		volume_falloff_max = 7500.000000
-		volume_falloff_curve_amount = 0.600000
-		spread_min = 500.000000
-		spread_max = 700.000000
-		use_doppler = 1.000000
-		doppler_factor = 2.000000
-		doppler_factor_receding = 2.000000
-		volume_filter_amount = 0.400000
+		volume = 0.7
+		volume_fade_in = 3.0
+		volume_fade_out = 5.0
+		occlusion_scale = 0.2
+		volume_falloff_min = 1000.0
+		volume_falloff_max = 7500.0
+		volume_falloff_curve_amount = 0.6
+		spread_min = 500.0
+		spread_max = 700.0
+		use_doppler = 1.0
+		doppler_factor = 2.0
+		doppler_factor_receding = 2.0
+		volume_filter_amount = 0.4
 		mixgroup = "Dropship"
 		vsnd_files = 
 		[
@@ -933,21 +934,21 @@
 	CombineDropship.PadJetsOneShot = 
 	{
 		type = "hlvr_default_3d_rand_sat"
-		volume = 1.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		occlusion_scale = 0.500000
-		volume_falloff_min = 600.000000
-		volume_falloff_max = 4000.000000
-		volume_falloff_curve_amount = 0.600000
-		spread_min = 500.000000
-		spread_max = 700.000000
-		use_doppler = 1.000000
-		doppler_factor = 2.000000
-		doppler_factor_receding = 2.000000
-		use_hrtf = 1.000000
-		sat_rand_min = 1.500000
-		sat_rand_max = 4.000000
+		volume = 1.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		occlusion_scale = 0.5
+		volume_falloff_min = 600.0
+		volume_falloff_max = 4000.0
+		volume_falloff_curve_amount = 0.6
+		spread_min = 500.0
+		spread_max = 700.0
+		use_doppler = 1.0
+		doppler_factor = 2.0
+		doppler_factor_receding = 2.0
+		use_hrtf = 1.0
+		sat_rand_min = 1.5
+		sat_rand_max = 4.0
 		mixgroup = "Dropship"
 		vsnd_files = 
 		[
@@ -962,26 +963,26 @@
 	CombineDropship.PadJetsOneShotNoStop = 
 	{
 		base = "CombineDropship.PadJetsOneShot"
-		volume_fade_in = 1.000000
-		sat_rand_min = 999.000000
-		sat_rand_max = 999.000000
+		volume_fade_in = 1.0
+		sat_rand_min = 999.0
+		sat_rand_max = 999.0
 		mixgroup = "Dropship"
 	}
 	CombineDropship.Rotor_Legacy = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		volume_fade_in = 3.000000
-		volume_fade_out = 5.000000
-		occlusion_scale = 0.500000
-		volume_falloff_min = 600.000000
-		volume_falloff_max = 4200.000000
-		volume_falloff_curve_amount = 0.600000
-		spread_min = 500.000000
-		spread_max = 700.000000
-		use_doppler = 1.000000
-		doppler_factor = 3.000000
-		doppler_factor_receding = 3.000000
+		volume = 1.4
+		volume_fade_in = 3.0
+		volume_fade_out = 5.0
+		occlusion_scale = 0.5
+		volume_falloff_min = 600.0
+		volume_falloff_max = 4200.0
+		volume_falloff_curve_amount = 0.6
+		spread_min = 500.0
+		spread_max = 700.0
+		use_doppler = 1.0
+		doppler_factor = 3.0
+		doppler_factor_receding = 3.0
 		mixgroup = "Dropship"
 		vsnd_files = 
 		[
@@ -992,67 +993,67 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombineDropship.PadsLp01SmallRadius"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "CombineDropship.PadsLp02SmallRadius"
-		use_02 = 1.000000
+		use_02 = 1.0
 		soundevent_03 = "CombineDropship.LFELpSmallRadius"
-		use_03 = 1.000000
+		use_03 = 1.0
 		soundevent_04 = "CombineDropship.Rotor_Legacy_SmallRadius"
-		use_04 = 1.000000
+		use_04 = 1.0
 	}
 	CombineDropship.PadsLp01SmallRadius = 
 	{
 		base = "CombineDropship.PadsLp01"
-		volume_falloff_min = 300.000000
-		volume_falloff_max = 2500.000000
-		passby_soundevent_distance_threshold = 900.000000
+		volume_falloff_min = 300.0
+		volume_falloff_max = 2500.0
+		passby_soundevent_distance_threshold = 900.0
 		passby_soundevent_name = "CombineDropship.PadJetsOneShotNoStopSmallRadius"
 		mixgroup = "Dropship"
 	}
 	CombineDropship.PadsLp02SmallRadius = 
 	{
 		base = "CombineDropship.PadsLp02"
-		volume_falloff_min = 300.000000
-		volume_falloff_max = 2500.000000
+		volume_falloff_min = 300.0
+		volume_falloff_max = 2500.0
 		mixgroup = "Dropship"
 	}
 	CombineDropship.LFELpSmallRadius = 
 	{
 		base = "CombineDropship.LFELp"
-		volume_falloff_min = 1500.000000
-		volume_falloff_max = 2500.000000
+		volume_falloff_min = 1500.0
+		volume_falloff_max = 2500.0
 		mixgroup = "Dropship"
 	}
 	CombineDropship.PadJetsOneShotSmallRadius = 
 	{
 		base = "CombineDropship.PadJetsOneShot"
-		volume_falloff_min = 300.000000
-		volume_falloff_max = 2500.000000
+		volume_falloff_min = 300.0
+		volume_falloff_max = 2500.0
 		mixgroup = "Dropship"
 	}
 	CombineDropship.PadJetsOneShotNoStopSmallRadius = 
 	{
 		base = "CombineDropship.PadJetsOneShotSmallRadius"
-		volume_fade_in = 1.000000
-		sat_rand_min = 999.000000
-		sat_rand_max = 999.000000
+		volume_fade_in = 1.0
+		sat_rand_min = 999.0
+		sat_rand_max = 999.0
 		mixgroup = "Dropship"
 	}
 	CombineDropship.Rotor_Legacy_SmallRadius = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_fade_in = 3.000000
-		volume_fade_out = 5.000000
-		occlusion_scale = 0.000000
-		volume_falloff_min = 300.000000
-		volume_falloff_max = 2500.000000
-		volume_falloff_curve_amount = 0.600000
-		spread_min = 500.000000
-		spread_max = 700.000000
-		use_doppler = 1.000000
-		doppler_factor = 3.000000
-		doppler_factor_receding = 3.000000
+		volume = 1.0
+		volume_fade_in = 3.0
+		volume_fade_out = 5.0
+		occlusion_scale = 0.0
+		volume_falloff_min = 300.0
+		volume_falloff_max = 2500.0
+		volume_falloff_curve_amount = 0.6
+		spread_min = 500.0
+		spread_max = 700.0
+		use_doppler = 1.0
+		doppler_factor = 3.0
+		doppler_factor_receding = 3.0
 		mixgroup = "Dropship"
 		vsnd_files = 
 		[
@@ -1063,30 +1064,30 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "Combine_Helicopter.Loop_Rotor"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "Combine_Helicopter.Loop_Whine"
-		use_02 = 1.000000
+		use_02 = 1.0
 		soundevent_03 = "Combine_Helicopter.Loop_LFE"
-		use_03 = 1.000000
+		use_03 = 1.0
 	}
 	Combine_Helicopter.Loop_Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
-		occlusion_scale = 0.500000
-		volume_falloff_min = 600.000000
-		volume_falloff_max = 3000.000000
-		volume_falloff_curve_amount = 0.600000
-		spread_min = 500.000000
-		spread_max = 700.000000
-		use_hrtf = 1.000000
-		use_doppler = 1.000000
-		doppler_factor = 3.000000
-		doppler_factor_receding = 3.000000
-		enable_debug_radius = 0.000000
-		debug_radius_max = 3000.000000
+		volume = 1.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
+		occlusion_scale = 0.5
+		volume_falloff_min = 600.0
+		volume_falloff_max = 3000.0
+		volume_falloff_curve_amount = 0.6
+		spread_min = 500.0
+		spread_max = 700.0
+		use_hrtf = 1.0
+		use_doppler = 1.0
+		doppler_factor = 3.0
+		doppler_factor_receding = 3.0
+		enable_debug_radius = 0.0
+		debug_radius_max = 3000.0
 		mixgroup = "helicopter"
 	}
 	Combine_Helicopter.Loop_Rotor = 
@@ -1100,10 +1101,10 @@
 	Combine_Helicopter.Loop_Whine = 
 	{
 		base = "Combine_Helicopter.Loop_Base"
-		volume = 0.600000
-		occlusion_scale = 0.900000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 1500.000000
+		volume = 0.6
+		occlusion_scale = 0.9
+		volume_falloff_min = 200.0
+		volume_falloff_max = 1500.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/combine_helicopter/whine_loop.vsnd",
@@ -1112,8 +1113,8 @@
 	Combine_Helicopter.Loop_LFE = 
 	{
 		base = "Combine_Helicopter.Loop_Base"
-		occlusion_scale = 0.100000
-		volume_falloff_max = 4000.000000
+		occlusion_scale = 0.1
+		volume_falloff_max = 4000.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/combine_helicopter/lfe_loop.vsnd",
@@ -1122,15 +1123,15 @@
 	NPC_AttackHelicopter.Rotors = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.000000
+		volume = 0.0
 	}
 	Scanner.MotorXsm = 
 	{
 		type = "hlvr_default_3d"
-		pitch = 1.400000
-		volume = 1.000000
-		volume_falloff_min = 20.000000
-		volume_falloff_max = 300.000000
+		pitch = 1.4
+		volume = 1.0
+		volume_falloff_min = 20.0
+		volume_falloff_max = 300.0
 		mixgroup = "Scanners"
 		vsnd_files = 
 		[
@@ -1152,10 +1153,10 @@
 	Scanner.MotorLowSoft = 
 	{
 		type = "hlvr_default_3d"
-		pitch = 0.600000
-		volume = 1.000000
-		volume_falloff_min = 20.000000
-		volume_falloff_max = 300.000000
+		pitch = 0.6
+		volume = 1.0
+		volume_falloff_min = 20.0
+		volume_falloff_max = 300.0
 		mixgroup = "Scanners"
 		vsnd_files = 
 		[
@@ -1177,9 +1178,9 @@
 	Scanner.MotorSm = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_min = 20.000000
-		volume_falloff_max = 300.000000
+		volume = 1.0
+		volume_falloff_min = 20.0
+		volume_falloff_max = 300.0
 		mixgroup = "Scanners"
 		vsnd_files = 
 		[
@@ -1201,9 +1202,9 @@
 	Scanner.MotorMd = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_min = 20.000000
-		volume_falloff_max = 300.000000
+		volume = 1.0
+		volume_falloff_min = 20.0
+		volume_falloff_max = 300.0
 		mixgroup = "Scanners"
 		vsnd_files = 
 		[
@@ -1222,9 +1223,9 @@
 	Scanner.MotorLg = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_min = 20.000000
-		volume_falloff_max = 300.000000
+		volume = 1.0
+		volume_falloff_min = 20.0
+		volume_falloff_max = 300.0
 		mixgroup = "Scanners"
 		vsnd_files = 
 		[
@@ -1244,9 +1245,9 @@
 	Scanner.PowerCoreLp = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_min = 20.000000
-		volume_falloff_max = 280.000000
+		volume = 1.0
+		volume_falloff_min = 20.0
+		volume_falloff_max = 280.0
 		mixgroup = "Scanners"
 		vsnd_files = 
 		[
@@ -1256,22 +1257,22 @@
 	PortalInhibitor.WhooshEnergyLp01 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
+		volume = 0.4
 		soundname_string = "Diagnostic.WhooshEnergyLp01"
-		pitch = 1.000000
+		pitch = 1.0
 		mixgroup = "CombineMachines"
 		use_world_position = true
-		volume_fade_in = 0.200000
-		volume_fade_out = 0.800000
-		stop_at_time = 0.800000
-		volume_falloff_min = 950.000000
-		volume_falloff_max = 2800.000000
-		volume_rand_min = -0.100000
-		volume_rand_max = 0.100000
-		pitch_rand_min = -0.150000
-		pitch_rand_max = 0.100000
-		use_hrtf = 1.000000
-		enable_debug_radius = 0.000000
+		volume_fade_in = 0.2
+		volume_fade_out = 0.8
+		stop_at_time = 0.8
+		volume_falloff_min = 950.0
+		volume_falloff_max = 2800.0
+		volume_rand_min = -0.1
+		volume_rand_max = 0.1
+		pitch_rand_min = -0.15
+		pitch_rand_max = 0.1
+		use_hrtf = 1.0
+		enable_debug_radius = 0.0
 		vsnd_files = 
 		[
 			"sounds/ambient/whoosh_machine/amb_citadel_whoosh_lp_01.vsnd",
@@ -1280,14 +1281,14 @@
 	PortalInhibitor.WhooshEnergyLp02 = 
 	{
 		base = "PortalInhibitor.WhooshEnergyLp01"
-		volume = 0.375000
+		volume = 0.375
 		mixgroup = "CombineMachines"
-		pitch = 0.950000
-		volume_falloff_max = 1800.000000
-		pitch_rand_min = -0.150000
-		pitch_rand_max = 0.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 1.000000
+		pitch = 0.95
+		volume_falloff_max = 1800.0
+		pitch_rand_min = -0.15
+		pitch_rand_max = 0.0
+		volume_fade_in = 0.2
+		volume_fade_out = 1.0
 		vsnd_files = 
 		[
 			"sounds/ambient/whoosh_machine/amb_citadel_whoosh_lp_02.vsnd",
@@ -1296,17 +1297,17 @@
 	PortalInhibitor.WhooshEnergyLp03 = 
 	{
 		base = "PortalInhibitor.WhooshEnergyLp01"
-		volume = 0.450000
+		volume = 0.45
 		mixgroup = "CombineMachines"
-		pitch = 1.000000
-		volume_falloff_max = 1900.000000
-		stop_at_time = 1.500000
-		volume_rand_min = -0.200000
-		volume_rand_max = 0.200000
-		pitch_rand_min = -0.150000
-		pitch_rand_max = 0.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 1.000000
+		pitch = 1.0
+		volume_falloff_max = 1900.0
+		stop_at_time = 1.5
+		volume_rand_min = -0.2
+		volume_rand_max = 0.2
+		pitch_rand_min = -0.15
+		pitch_rand_max = 0.0
+		volume_fade_in = 0.2
+		volume_fade_out = 1.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/portal_inhibitor/world_portal_inhibitor_whoosh_lp_01.vsnd",
@@ -1315,15 +1316,15 @@
 	PortalInhibitor.WhooshImpactLow = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.150000
+		volume = 0.15
 		mixgroup = "CombineMachines"
-		pitch_rand_min = -0.150000
-		pitch_rand_max = 0.000000
-		enable_debug_radius = 0.000000
+		pitch_rand_min = -0.15
+		pitch_rand_max = 0.0
+		enable_debug_radius = 0.0
 		soundname_string = "Diagnostic.WhooshImpact"
 		use_world_position = true
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 850.000000
+		volume_falloff_min = 250.0
+		volume_falloff_max = 850.0
 		vsnd_files = 
 		[
 			"sounds/ambient/whoosh_machine/amb_citadel_whoosh_impact_02.vsnd",
@@ -1336,108 +1337,108 @@
 		type = "hlvr_whoosh_single_direction"
 		whoosh_sound = "PortalInhibitor.WhooshEnergyLp01"
 		impact_sound = "PortalInhibitor.WhooshImpactLFENoAtten"
-		impact_offset_pct = 0.580000
-		use_public_position = 0.000000
-		use_world_position = 1.000000
-		distance_to_vol_min = 250.000000
-		distance_to_vol_max = 800.000000
-		distance_to_vol_map_min = 1.000000
-		distance_to_vol_map_max = 0.000000
-		distance_min = 500.000000
-		distance_max = 3000.000000
-		animation_time = 1.400000
-		use_doppler = 1.000000
-		doppler_factor = 1.000000
-		doppler_factor_receding = 1.000000
-		passthrough_distance_min = 15.000000
-		passthrough_distance_max = 80.000000
-		animation_symmetry = 0.520000
-		lfo_multiplier = 45.000000
-		lfo_depth = 0.700000
-		remap_pct_to_vol_x1 = 0.485000
-		remap_pct_to_vol_y1 = 0.350000
-		remap_pct_to_vol_x2 = 0.490000
-		remap_pct_to_vol_y2 = 1.450000
-		remap_pct_to_vol_x3 = 0.510000
-		remap_pct_to_vol_y3 = 1.450000
-		remap_pct_to_vol_x4 = 0.650000
-		remap_pct_to_vol_y4 = 0.750000
-		remap_pct_to_lfo_speed_x1 = 0.000000
-		remap_pct_to_lfo_speed_y1 = 0.950000
-		remap_pct_to_lfo_speed_x2 = 0.230000
-		remap_pct_to_lfo_speed_y2 = 1.000000
-		remap_pct_to_lfo_speed_x3 = 0.250000
-		remap_pct_to_lfo_speed_y3 = 1.000000
-		remap_pct_to_lfo_speed_x4 = 1.000000
-		remap_pct_to_lfo_speed_y4 = 0.700000
-		random_seek_min = -8.000000
-		random_seek_max = 0.000000
-		lfo_rate_noise_depth = 0.800000
-		lfo_rate_noise_min = -0.750000
-		lfo_rate_noise_max = 1.000000
+		impact_offset_pct = 0.58
+		use_public_position = 0.0
+		use_world_position = 1.0
+		distance_to_vol_min = 250.0
+		distance_to_vol_max = 800.0
+		distance_to_vol_map_min = 1.0
+		distance_to_vol_map_max = 0.0
+		distance_min = 500.0
+		distance_max = 3000.0
+		animation_time = 1.4
+		use_doppler = 1.0
+		doppler_factor = 1.0
+		doppler_factor_receding = 1.0
+		passthrough_distance_min = 15.0
+		passthrough_distance_max = 80.0
+		animation_symmetry = 0.52
+		lfo_multiplier = 45.0
+		lfo_depth = 0.7
+		remap_pct_to_vol_x1 = 0.485
+		remap_pct_to_vol_y1 = 0.35
+		remap_pct_to_vol_x2 = 0.49
+		remap_pct_to_vol_y2 = 1.45
+		remap_pct_to_vol_x3 = 0.51
+		remap_pct_to_vol_y3 = 1.45
+		remap_pct_to_vol_x4 = 0.65
+		remap_pct_to_vol_y4 = 0.75
+		remap_pct_to_lfo_speed_x1 = 0.0
+		remap_pct_to_lfo_speed_y1 = 0.95
+		remap_pct_to_lfo_speed_x2 = 0.23
+		remap_pct_to_lfo_speed_y2 = 1.0
+		remap_pct_to_lfo_speed_x3 = 0.25
+		remap_pct_to_lfo_speed_y3 = 1.0
+		remap_pct_to_lfo_speed_x4 = 1.0
+		remap_pct_to_lfo_speed_y4 = 0.7
+		random_seek_min = -8.0
+		random_seek_max = 0.0
+		lfo_rate_noise_depth = 0.8
+		lfo_rate_noise_min = -0.75
+		lfo_rate_noise_max = 1.0
 	}
 	PortalInhibitor.Whoosh02 = 
 	{
 		base = "PortalInhibitor.Whoosh01"
 		whoosh_sound = "PortalInhibitor.WhooshEnergyLp02"
 		impact_sound = "PortalInhibitor.WhooshImpact"
-		impact_offset_pct = 0.300000
-		passthrough_distance_min = 0.000000
-		passthrough_distance_max = 0.000000
-		animation_symmetry = 0.430000
-		lfo_multiplier = 55.000000
-		lfo_depth = 0.900000
-		remap_pct_to_vol_x1 = 0.450000
-		remap_pct_to_vol_y1 = 0.500000
-		remap_pct_to_vol_x2 = 0.485000
-		remap_pct_to_vol_y2 = 1.000000
-		remap_pct_to_vol_x3 = 0.510000
-		remap_pct_to_vol_y3 = 1.700000
-		remap_pct_to_vol_x4 = 0.550000
-		remap_pct_to_vol_y4 = 0.500000
-		remap_pct_to_lfo_speed_x1 = 0.000000
-		remap_pct_to_lfo_speed_y1 = 0.950000
-		remap_pct_to_lfo_speed_x2 = 0.230000
-		remap_pct_to_lfo_speed_y2 = 1.000000
-		remap_pct_to_lfo_speed_x3 = 0.250000
-		remap_pct_to_lfo_speed_y3 = 1.000000
-		remap_pct_to_lfo_speed_x4 = 1.000000
-		remap_pct_to_lfo_speed_y4 = 0.700000
-		lfo_rate_noise_depth = 0.750000
-		lfo_rate_noise_max = 2.000000
+		impact_offset_pct = 0.3
+		passthrough_distance_min = 0.0
+		passthrough_distance_max = 0.0
+		animation_symmetry = 0.43
+		lfo_multiplier = 55.0
+		lfo_depth = 0.9
+		remap_pct_to_vol_x1 = 0.45
+		remap_pct_to_vol_y1 = 0.5
+		remap_pct_to_vol_x2 = 0.485
+		remap_pct_to_vol_y2 = 1.0
+		remap_pct_to_vol_x3 = 0.51
+		remap_pct_to_vol_y3 = 1.7
+		remap_pct_to_vol_x4 = 0.55
+		remap_pct_to_vol_y4 = 0.5
+		remap_pct_to_lfo_speed_x1 = 0.0
+		remap_pct_to_lfo_speed_y1 = 0.95
+		remap_pct_to_lfo_speed_x2 = 0.23
+		remap_pct_to_lfo_speed_y2 = 1.0
+		remap_pct_to_lfo_speed_x3 = 0.25
+		remap_pct_to_lfo_speed_y3 = 1.0
+		remap_pct_to_lfo_speed_x4 = 1.0
+		remap_pct_to_lfo_speed_y4 = 0.7
+		lfo_rate_noise_depth = 0.75
+		lfo_rate_noise_max = 2.0
 	}
 	PortalInhibitor.Whoosh03 = 
 	{
 		base = "PortalInhibitor.Whoosh01"
 		whoosh_sound = "PortalInhibitor.WhooshEnergyLp03"
 		impact_sound = ""
-		animation_time = 1.700000
-		passthrough_distance_min = 25.000000
-		passthrough_distance_max = 45.000000
-		doppler_factor_receding = 1.200000
-		distance_min = 2500.000000
-		distance_max = 3000.000000
-		animation_symmetry = 0.400000
-		lfo_multiplier = 50.000000
-		lfo_depth = 1.200000
-		remap_pct_to_vol_x1 = 0.450000
-		remap_pct_to_vol_y1 = 0.300000
-		remap_pct_to_vol_x2 = 0.300000
-		remap_pct_to_vol_y2 = 1.500000
-		remap_pct_to_vol_x3 = 0.510000
-		remap_pct_to_vol_y3 = 1.000000
-		remap_pct_to_vol_x4 = 0.550000
-		remap_pct_to_vol_y4 = 0.800000
-		remap_pct_to_lfo_speed_x1 = 0.000000
-		remap_pct_to_lfo_speed_y1 = 0.950000
-		remap_pct_to_lfo_speed_x2 = 0.230000
-		remap_pct_to_lfo_speed_y2 = 1.000000
-		remap_pct_to_lfo_speed_x3 = 0.500000
-		remap_pct_to_lfo_speed_y3 = 1.000000
-		remap_pct_to_lfo_speed_x4 = 0.700000
-		remap_pct_to_lfo_speed_y4 = 0.300000
-		lfo_rate_noise_depth = 1.000000
-		lfo_rate_noise_max = 2.000000
+		animation_time = 1.7
+		passthrough_distance_min = 25.0
+		passthrough_distance_max = 45.0
+		doppler_factor_receding = 1.2
+		distance_min = 2500.0
+		distance_max = 3000.0
+		animation_symmetry = 0.4
+		lfo_multiplier = 50.0
+		lfo_depth = 1.2
+		remap_pct_to_vol_x1 = 0.45
+		remap_pct_to_vol_y1 = 0.3
+		remap_pct_to_vol_x2 = 0.3
+		remap_pct_to_vol_y2 = 1.5
+		remap_pct_to_vol_x3 = 0.51
+		remap_pct_to_vol_y3 = 1.0
+		remap_pct_to_vol_x4 = 0.55
+		remap_pct_to_vol_y4 = 0.8
+		remap_pct_to_lfo_speed_x1 = 0.0
+		remap_pct_to_lfo_speed_y1 = 0.95
+		remap_pct_to_lfo_speed_x2 = 0.23
+		remap_pct_to_lfo_speed_y2 = 1.0
+		remap_pct_to_lfo_speed_x3 = 0.5
+		remap_pct_to_lfo_speed_y3 = 1.0
+		remap_pct_to_lfo_speed_x4 = 0.7
+		remap_pct_to_lfo_speed_y4 = 0.3
+		lfo_rate_noise_depth = 1.0
+		lfo_rate_noise_max = 2.0
 	}
 	PortalInhibitor.WhooshMulti = 
 	{
@@ -1445,9 +1446,9 @@
 		soundevent_01 = "PortalInhibitor.Whoosh01"
 		soundevent_02 = "PortalInhibitor.Whoosh02"
 		soundevent_03 = "PortalInhibitor.Whoosh03"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	PortalInhibitor.WhooshImpact = 
 	{
@@ -1466,27 +1467,27 @@
 		soundevent_02 = "PortalInhibitor.WhooshImpact01_R"
 		soundevent_03 = "PortalInhibitor.WhooshImpact01_LS"
 		soundevent_04 = "PortalInhibitor.WhooshImpact01_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	PortalInhibitor.WhooshImpact01_L = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
 		mixgroup = "CombineMachines"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 45.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 1.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 45.0
+		volume_fade_in = 0.0
+		volume_fade_out = 1.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.200000
-		stop_at_time = 1.000000
+		volume = 0.2
+		stop_at_time = 1.0
 		use_world_position = true
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		soundname_string = "PortalInhibitor.WhooshImpact01"
 		vsnd_files = 
 		[
@@ -1496,7 +1497,7 @@
 	PortalInhibitor.WhooshImpact01_R = 
 	{
 		base = "PortalInhibitor.WhooshImpact01_L"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/portal_inhibitor/world_portal_inhibitor_impact_01_r.vsnd",
@@ -1505,7 +1506,7 @@
 	PortalInhibitor.WhooshImpact01_LS = 
 	{
 		base = "PortalInhibitor.WhooshImpact01_L"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/portal_inhibitor/world_portal_inhibitor_impact_01_ls.vsnd",
@@ -1514,7 +1515,7 @@
 	PortalInhibitor.WhooshImpact01_RS = 
 	{
 		base = "PortalInhibitor.WhooshImpact01_L"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/portal_inhibitor/world_portal_inhibitor_impact_01_rs.vsnd",
@@ -1527,10 +1528,10 @@
 		soundevent_02 = "PortalInhibitor.WhooshImpact02_R"
 		soundevent_03 = "PortalInhibitor.WhooshImpact02_LS"
 		soundevent_04 = "PortalInhibitor.WhooshImpact02_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	PortalInhibitor.WhooshImpact02_L = 
 	{
@@ -1544,7 +1545,7 @@
 	PortalInhibitor.WhooshImpact02_R = 
 	{
 		base = "PortalInhibitor.WhooshImpact02_L"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/portal_inhibitor/world_portal_inhibitor_impact_02_r.vsnd",
@@ -1553,7 +1554,7 @@
 	PortalInhibitor.WhooshImpact02_LS = 
 	{
 		base = "PortalInhibitor.WhooshImpact02_L"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/portal_inhibitor/world_portal_inhibitor_impact_02_ls.vsnd",
@@ -1562,7 +1563,7 @@
 	PortalInhibitor.WhooshImpact02_RS = 
 	{
 		base = "PortalInhibitor.WhooshImpact02_L"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/portal_inhibitor/world_portal_inhibitor_impact_02_rs.vsnd",
@@ -1575,10 +1576,10 @@
 		soundevent_02 = "PortalInhibitor.WhooshImpact03_R"
 		soundevent_03 = "PortalInhibitor.WhooshImpact03_LS"
 		soundevent_04 = "PortalInhibitor.WhooshImpact03_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	PortalInhibitor.WhooshImpact03_L = 
 	{
@@ -1592,7 +1593,7 @@
 	PortalInhibitor.WhooshImpact03_R = 
 	{
 		base = "PortalInhibitor.WhooshImpact03_L"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/portal_inhibitor/world_portal_inhibitor_impact_03_r.vsnd",
@@ -1601,7 +1602,7 @@
 	PortalInhibitor.WhooshImpact03_LS = 
 	{
 		base = "PortalInhibitor.WhooshImpact03_L"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/portal_inhibitor/world_portal_inhibitor_impact_03_ls.vsnd",
@@ -1610,7 +1611,7 @@
 	PortalInhibitor.WhooshImpact03_RS = 
 	{
 		base = "PortalInhibitor.WhooshImpact03_L"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/portal_inhibitor/world_portal_inhibitor_impact_03_rs.vsnd",
@@ -1623,10 +1624,10 @@
 		soundevent_02 = "PortalInhibitor.WhooshImpactLFE_R"
 		soundevent_03 = "PortalInhibitor.WhooshImpactLFE_LS"
 		soundevent_04 = "PortalInhibitor.WhooshImpactLFE_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	PortalInhibitor.WhooshImpactLFE = 
 	{
@@ -1635,30 +1636,30 @@
 		soundevent_02 = "PortalInhibitor.WhooshImpactLFE_R"
 		soundevent_03 = "PortalInhibitor.WhooshImpactLFE_LS"
 		soundevent_04 = "PortalInhibitor.WhooshImpactLFE_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
-		distance_to_vol_min = 500.000000
-		distance_to_vol_max = 1400.000000
-		distance_to_vol_map_min = 1.000000
-		distance_to_vol_map_max = 0.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
+		distance_to_vol_min = 500.0
+		distance_to_vol_max = 1400.0
+		distance_to_vol_map_min = 1.0
+		distance_to_vol_map_max = 0.0
 	}
 	PortalInhibitor.WhooshImpactLFE_L = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
 		mixgroup = "CombineMachines"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 45.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 1.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 45.0
+		volume_fade_in = 0.0
+		volume_fade_out = 1.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.160000
+		volume = 0.16
 		use_world_position = true
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		soundname_string = "PortalInhibitor.WhooshImpact01"
 		vsnd_files = 
 		[
@@ -1668,7 +1669,7 @@
 	PortalInhibitor.WhooshImpactLFE_R = 
 	{
 		base = "PortalInhibitor.WhooshImpactLFE_L"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/portal_inhibitor/world_portal_inhibitor_impact_lfe_01_r.vsnd",
@@ -1677,7 +1678,7 @@
 	PortalInhibitor.WhooshImpactLFE_LS = 
 	{
 		base = "PortalInhibitor.WhooshImpactLFE_L"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/portal_inhibitor/world_portal_inhibitor_impact_lfe_01_ls.vsnd",
@@ -1686,7 +1687,7 @@
 	PortalInhibitor.WhooshImpactLFE_RS = 
 	{
 		base = "PortalInhibitor.WhooshImpactLFE_L"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/portal_inhibitor/world_portal_inhibitor_impact_lfe_01_rs.vsnd",
@@ -1695,14 +1696,14 @@
 	HealthStation.NeedleImpact = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.450000
+		volume = 0.45
 		mixgroup = "CombineMachines"
-		pitch_rand_min = 0.100000
-		pitch_rand_max = 0.350000
-		enable_debug_radius = 0.000000
+		pitch_rand_min = 0.1
+		pitch_rand_max = 0.35
+		enable_debug_radius = 0.0
 		soundname_string = "HealthStation.NeedleImpact"
-		volume_falloff_min = 80.000000
-		volume_falloff_max = 400.000000
+		volume_falloff_min = 80.0
+		volume_falloff_max = 400.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/health_station/combine_tech_needle_impacts_01.vsnd",
@@ -1722,14 +1723,14 @@
 	HealthStation.TechTones = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
+		volume = 0.3
 		mixgroup = "CombineMachines"
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		enable_debug_radius = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		enable_debug_radius = 0.0
 		soundname_string = "HealthStation.TechTones"
-		volume_falloff_min = 80.000000
-		volume_falloff_max = 400.000000
+		volume_falloff_min = 80.0
+		volume_falloff_max = 400.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/health_station/combine_tech_tones_01.vsnd",
@@ -1743,14 +1744,14 @@
 	HealthStation.TechTonesSimple = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
+		volume = 0.3
 		mixgroup = "CombineMachines"
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		enable_debug_radius = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		enable_debug_radius = 0.0
 		soundname_string = "HealthStation.TechTonesSimple"
-		volume_falloff_min = 80.000000
-		volume_falloff_max = 400.000000
+		volume_falloff_min = 80.0
+		volume_falloff_max = 400.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/health_station/combine_tech_tones_simple_01.vsnd",
@@ -1763,8 +1764,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "HealthStation.MovementSlide"
 		soundevent_02 = "HealthStation.MovementPitches"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	HealthStation.MovementSlide = 
 	{
@@ -1772,22 +1773,22 @@
 		soundevent_01 = "HealthStation.MovementSlideDeep"
 		soundevent_02 = "HealthStation.MovementSlideSqueak"
 		soundevent_03 = "HealthStation.MovementSlideClicks"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	HealthStation.MovementPitches = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
+		volume = 0.3
 		mixgroup = "CombineMachines"
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		enable_debug_radius = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		enable_debug_radius = 0.0
 		soundname_string = "HealthStation.MovementPitches"
-		volume_falloff_min = 80.000000
-		volume_falloff_max = 400.000000
-		delay = 0.300000
+		volume_falloff_min = 80.0
+		volume_falloff_max = 400.0
+		delay = 0.3
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/health_station/combine_tech_pitches_movement_01.vsnd",
@@ -1798,14 +1799,14 @@
 	HealthStation.MovementClicks = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
+		volume = 0.3
 		mixgroup = "CombineMachines"
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		enable_debug_radius = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		enable_debug_radius = 0.0
 		soundname_string = "HealthStation.MovementClicks"
-		volume_falloff_min = 80.000000
-		volume_falloff_max = 400.000000
+		volume_falloff_min = 80.0
+		volume_falloff_max = 400.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/health_station/combine_tech_movement_click_01.vsnd",
@@ -1818,14 +1819,14 @@
 	HealthStation.MovementSlideDeep = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
+		volume = 0.3
 		mixgroup = "CombineMachines"
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		enable_debug_radius = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		enable_debug_radius = 0.0
 		soundname_string = "HealthStation.MovementClicks"
-		volume_falloff_min = 80.000000
-		volume_falloff_max = 400.000000
+		volume_falloff_min = 80.0
+		volume_falloff_max = 400.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/health_station/combine_tech_slide_deep_01.vsnd",
@@ -1836,14 +1837,14 @@
 	HealthStation.MovementSlideSqueak = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.250000
+		volume = 0.25
 		mixgroup = "CombineMachines"
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		enable_debug_radius = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		enable_debug_radius = 0.0
 		soundname_string = "HealthStation.MovementClicks"
-		volume_falloff_min = 80.000000
-		volume_falloff_max = 400.000000
+		volume_falloff_min = 80.0
+		volume_falloff_max = 400.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/health_station/combine_tech_slide_squeak_01.vsnd",
@@ -1854,14 +1855,14 @@
 	HealthStation.MovementSlideClicks = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
+		volume = 0.3
 		mixgroup = "CombineMachines"
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		enable_debug_radius = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		enable_debug_radius = 0.0
 		soundname_string = "HealthStation.MovementClicks"
-		volume_falloff_min = 80.000000
-		volume_falloff_max = 400.000000
+		volume_falloff_min = 80.0
+		volume_falloff_max = 400.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/health_station/combine_tech_slide_clicks_01.vsnd",
@@ -1872,14 +1873,14 @@
 	HealthStation.MovementBigSlideSmall = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
+		volume = 0.7
 		mixgroup = "CombineMachines"
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		enable_debug_radius = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		enable_debug_radius = 0.0
 		soundname_string = "HealthStation.MovementBigSlideSmall"
-		volume_falloff_min = 80.000000
-		volume_falloff_max = 400.000000
+		volume_falloff_min = 80.0
+		volume_falloff_max = 400.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/health_station/combine_tech_long_slide_sm_01.vsnd",
@@ -1890,14 +1891,14 @@
 	HealthStation.MovementBigSlideLarge = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
+		volume = 0.75
 		mixgroup = "CombineMachines"
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		enable_debug_radius = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		enable_debug_radius = 0.0
 		soundname_string = "HealthStation.MovementBigSlideLarge"
-		volume_falloff_min = 80.000000
-		volume_falloff_max = 400.000000
+		volume_falloff_min = 80.0
+		volume_falloff_max = 400.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/health_station/combine_tech_long_slide_lg_01.vsnd",
@@ -1917,13 +1918,13 @@
 	HealthStation.Loop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "CombineMachines"
-		volume_falloff_min = 80.000000
-		volume_falloff_max = 400.000000
-		spread_min = 6.000000
-		spread_max = 36.000000
-		use_hrtf = 1.000000
+		volume_falloff_min = 80.0
+		volume_falloff_max = 400.0
+		spread_min = 6.0
+		spread_max = 36.0
+		use_hrtf = 1.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/health_station/health_station_healing_lp_01.vsnd",
@@ -1941,13 +1942,13 @@
 	HealthStation.PowerConnected = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		occlusion_scale = 0.400000
-		volume_falloff_min = 240.000000
-		volume_falloff_max = 1000.000000
-		delay = 1.000000
-		spread_min = 12.000000
-		spread_max = 96.000000
+		volume = 0.7
+		occlusion_scale = 0.4
+		volume_falloff_min = 240.0
+		volume_falloff_max = 1000.0
+		delay = 1.0
+		spread_min = 12.0
+		spread_max = 96.0
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -1957,8 +1958,8 @@
 	HealthStation.PowerUp = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		occlusion_scale = 0.700000
+		volume = 0.8
+		occlusion_scale = 0.7
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -1968,8 +1969,8 @@
 	HealthStation.PowerDown = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		occlusion_scale = 0.700000
+		volume = 0.7
+		occlusion_scale = 0.7
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -1979,7 +1980,7 @@
 	HealthStation.VialAttach = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -1989,16 +1990,16 @@
 	Console.NeedleFingers = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.450000
+		volume = 0.45
 		mixgroup = "CombineMachines"
-		pitch_rand_min = 0.100000
-		pitch_rand_max = 0.350000
-		enable_debug_radius = 0.000000
+		pitch_rand_min = 0.1
+		pitch_rand_max = 0.35
+		enable_debug_radius = 0.0
 		soundname_string = "NeedleFingers"
 		spread_min = 8
 		spread_max = 36
-		volume_falloff_min = 60.000000
-		volume_falloff_max = 240.000000
+		volume_falloff_min = 60.0
+		volume_falloff_max = 240.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/health_station/combine_tech_needle_impacts_sm_01.vsnd",
@@ -2012,11 +2013,11 @@
 	Console.FingersLowSoft = 
 	{
 		base = "Console.NeedleFingers"
-		pitch = 1.600000
-		volume = 0.100000
-		stop_at_time = 0.300000
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.250000
+		pitch = 1.6
+		volume = 0.1
+		stop_at_time = 0.3
+		volume_fade_in = 0.1
+		volume_fade_out = 0.25
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -2038,9 +2039,9 @@
 	BatteryStation.Electric_Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
-		volume_fade_out = 0.500000
+		volume = 0.7
+		use_hrtf = 1.0
+		volume_fade_out = 0.5
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -2053,11 +2054,11 @@
 	CombineConsole.Battery_Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		spread_min = 6.000000
-		spread_max = 36.000000
-		use_hrtf = 1.000000
-		volume_fade_out = 0.500000
+		volume = 0.7
+		spread_min = 6.0
+		spread_max = 36.0
+		use_hrtf = 1.0
+		volume_fade_out = 0.5
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -2070,11 +2071,11 @@
 	CombineConsole.Tank_Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		spread_min = 6.000000
-		spread_max = 36.000000
-		use_hrtf = 1.000000
-		volume_fade_out = 0.500000
+		volume = 0.7
+		spread_min = 6.0
+		spread_max = 36.0
+		use_hrtf = 1.0
+		volume_fade_out = 0.5
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -2087,13 +2088,13 @@
 	CombineConsole.SuccessBeep = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.310000
-		spread_min = 6.000000
-		spread_max = 36.000000
-		volume_falloff_min = 55.000000
-		volume_falloff_max = 255.000000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.31
+		spread_min = 6.0
+		spread_max = 36.0
+		volume_falloff_min = 55.0
+		volume_falloff_max = 255.0
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -2103,16 +2104,16 @@
 	CombineConsole.CartridgePullLp = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		spread_min = 6.000000
-		spread_max = 36.000000
+		volume = 0.75
+		spread_min = 6.0
+		spread_max = 36.0
 		mixgroup = "CombineMachines"
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		enable_debug_radius = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		enable_debug_radius = 0.0
 		soundname_string = "CombineConsole.CartridgePullLp"
-		volume_falloff_min = 80.000000
-		volume_falloff_max = 400.000000
+		volume_falloff_min = 80.0
+		volume_falloff_max = 400.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_console_cartridge_pull_lp_01.vsnd",
@@ -2121,16 +2122,16 @@
 	CombineConsole.MotorSm = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		spread_min = 6.000000
-		spread_max = 36.000000
+		volume = 0.75
+		spread_min = 6.0
+		spread_max = 36.0
 		mixgroup = "CombineMachines"
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		enable_debug_radius = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		enable_debug_radius = 0.0
 		soundname_string = "CombineConsole.MotorSm"
-		volume_falloff_min = 80.000000
-		volume_falloff_max = 400.000000
+		volume_falloff_min = 80.0
+		volume_falloff_max = 400.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_console_motor_sm_01.vsnd",
@@ -2143,16 +2144,16 @@
 	CombineConsole.AirRush = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		spread_min = 6.000000
-		spread_max = 36.000000
+		volume = 0.75
+		spread_min = 6.0
+		spread_max = 36.0
 		mixgroup = "CombineMachines"
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		enable_debug_radius = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		enable_debug_radius = 0.0
 		soundname_string = "CombineConsole.AirRush"
-		volume_falloff_min = 80.000000
-		volume_falloff_max = 400.000000
+		volume_falloff_min = 80.0
+		volume_falloff_max = 400.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_console_air_rush_01.vsnd",
@@ -2164,16 +2165,16 @@
 	CombineConsole.CartridgeImpactLg = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		spread_min = 6.000000
-		spread_max = 36.000000
+		volume = 0.75
+		spread_min = 6.0
+		spread_max = 36.0
 		mixgroup = "CombineMachines"
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		enable_debug_radius = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		enable_debug_radius = 0.0
 		soundname_string = "CombineConsole.CartridgeImpactLg"
-		volume_falloff_min = 80.000000
-		volume_falloff_max = 400.000000
+		volume_falloff_min = 80.0
+		volume_falloff_max = 400.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_console_cartridge_impact_lg_01.vsnd",
@@ -2185,16 +2186,16 @@
 	CombineConsole.CartridgeImpactMd = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		spread_min = 6.000000
-		spread_max = 36.000000
+		volume = 0.75
+		spread_min = 6.0
+		spread_max = 36.0
 		mixgroup = "CombineMachines"
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		enable_debug_radius = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		enable_debug_radius = 0.0
 		soundname_string = "CombineConsole.CartridgeImpactMd"
-		volume_falloff_min = 80.000000
-		volume_falloff_max = 400.000000
+		volume_falloff_min = 80.0
+		volume_falloff_max = 400.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_console_cartridge_impact_md_01.vsnd",
@@ -2207,16 +2208,16 @@
 	CombineConsole.CartridgeImpactSm = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		spread_min = 6.000000
-		spread_max = 36.000000
+		volume = 0.75
+		spread_min = 6.0
+		spread_max = 36.0
 		mixgroup = "CombineMachines"
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		enable_debug_radius = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		enable_debug_radius = 0.0
 		soundname_string = "CombineConsole.CartridgeImpactSm"
-		volume_falloff_min = 80.000000
-		volume_falloff_max = 400.000000
+		volume_falloff_min = 80.0
+		volume_falloff_max = 400.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_console_cartridge_impact_sm_01.vsnd",
@@ -2229,16 +2230,16 @@
 	CombineConsole.CartridgeLatch = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		spread_min = 6.000000
-		spread_max = 36.000000
+		volume = 0.75
+		spread_min = 6.0
+		spread_max = 36.0
 		mixgroup = "CombineMachines"
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		enable_debug_radius = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		enable_debug_radius = 0.0
 		soundname_string = "CombineConsole.CartridgeLatch"
-		volume_falloff_min = 80.000000
-		volume_falloff_max = 400.000000
+		volume_falloff_min = 80.0
+		volume_falloff_max = 400.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_console_cartridge_latch_01.vsnd",
@@ -2249,17 +2250,17 @@
 	CombineConsole.LaserLp = 
 	{
 		type = "hlvr_ambient_position_on_line"
-		volume = 0.200000
+		volume = 0.2
 		mixgroup = "CombineMachines"
-		use_hrtf = 1.000000
-		volume_filter_amount = 0.400000
-		enable_debug_radius = 0.000000
+		use_hrtf = 1.0
+		volume_filter_amount = 0.4
+		enable_debug_radius = 0.0
 		soundname_string = "CombineConsole.LaserLp"
-		volume_falloff_min = 60.000000
-		volume_falloff_max = 240.000000
-		spread_min = 6.000000
-		spread_max = 36.000000
-		use_world_position = 1.000000
+		volume_falloff_min = 60.0
+		volume_falloff_max = 240.0
+		spread_min = 6.0
+		spread_max = 36.0
+		use_world_position = 1.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_tech_console_laser_lp_01_sm.vsnd",
@@ -2268,20 +2269,20 @@
 	CombineConsole.OpenMain = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.650000
+		volume = 0.65
 		mixgroup = "CombineMachines"
-		pitch_rand_min = 0.000000
-		pitch_rand_max = 0.000000
-		enable_debug_radius = 0.000000
+		pitch_rand_min = 0.0
+		pitch_rand_max = 0.0
+		enable_debug_radius = 0.0
 		soundname_string = "CombineConsole.OpenMain"
-		volume_falloff_min = 60.000000
-		volume_falloff_max = 550.000000
-		spread_min = 6.000000
-		spread_max = 36.000000
-		occlusion_scale = 0.700000
+		volume_falloff_min = 60.0
+		volume_falloff_max = 550.0
+		spread_min = 6.0
+		spread_max = 36.0
+		occlusion_scale = 0.7
 		occlusion_radius = 60
-		use_hrtf = 1.000000
-		hrtf_mix = 0.800000
+		use_hrtf = 1.0
+		hrtf_mix = 0.8
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_console_open_main_01.vsnd",
@@ -2290,8 +2291,8 @@
 	CombineMachine.ItemAttach = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.750000
-		volume_fade_out = 1.000000
+		volume = 0.75
+		volume_fade_out = 1.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/upgrade_station/combine_3d_printer_gun_attach_print_01.vsnd",
@@ -2300,8 +2301,8 @@
 	CombineMachine.ItemLerp = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.750000
-		volume_fade_out = 1.000000
+		volume = 0.75
+		volume_fade_out = 1.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/combine_machines_item_attach_lerp_01.vsnd",
@@ -2310,7 +2311,7 @@
 	CombineConsole.CloseMain = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.750000
+		volume = 0.75
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_console_close_main_01.vsnd",
@@ -2319,7 +2320,7 @@
 	CombineConsole.PanelFlapOpen = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_console_panel_flap_open_01.vsnd",
@@ -2328,7 +2329,7 @@
 	CombineConsole.PanelFlapClose = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_console_panel_flap_close_01.vsnd",
@@ -2337,7 +2338,7 @@
 	CombineConsole.OpenScanner = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.750000
+		volume = 0.75
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_console_open_scanner_01.vsnd",
@@ -2346,7 +2347,7 @@
 	CombineConsole.RackMoveStart = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_console_rack_start_move_01.vsnd",
@@ -2356,7 +2357,7 @@
 	CombineConsole.RackReceiveTank = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_console_receive_tank_01.vsnd",
@@ -2365,20 +2366,20 @@
 	CombineConsole.RackMove = 
 	{
 		type = "hlvr_update_animinteractable"
-		volume = 0.850000
-		spread_min = 6.000000
-		spread_max = 36.000000
-		pitch = 1.000000
-		remap_code_vol_x1 = 0.000000
-		remap_code_vol_y1 = 0.000000
+		volume = 0.85
+		spread_min = 6.0
+		spread_max = 36.0
+		pitch = 1.0
+		remap_code_vol_x1 = 0.0
+		remap_code_vol_y1 = 0.0
 		remap_code_vol_x2 = 0.001875
-		remap_code_vol_y2 = 0.500000
-		remap_code_vol_x3 = 0.010000
-		remap_code_vol_y3 = 1.000000
-		remap_code_vol_x4 = 1.000000
-		remap_code_vol_y4 = 1.000000
-		remap_code_vol_limiter = 1.500000
-		volume_fade_out = 0.050000
+		remap_code_vol_y2 = 0.5
+		remap_code_vol_x3 = 0.01
+		remap_code_vol_y3 = 1.0
+		remap_code_vol_x4 = 1.0
+		remap_code_vol_y4 = 1.0
+		remap_code_vol_limiter = 1.5
+		volume_fade_out = 0.05
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2389,7 +2390,7 @@
 	CombineConsole.RackMoveToStart = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_console_rack_return_closed_01.vsnd",
@@ -2398,7 +2399,7 @@
 	CombineConsole.RackMoveToEnd = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_console_rack_return_open_01.vsnd",
@@ -2407,7 +2408,7 @@
 	CombineConsole.RackCloseComplete = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_console_rack_close_complete_01.vsnd",
@@ -2416,7 +2417,7 @@
 	CombineConsole.RackOpenComplete = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_console_rack_open_complete_01.vsnd",
@@ -2425,13 +2426,13 @@
 	CombineConsole.TankRotate = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.500000
-		limiter_on = 1.000000
-		limiter_max = 6.000000
-		volume_fade_out = 0.500000
+		volume = 0.5
+		limiter_on = 1.0
+		limiter_max = 6.0
+		volume_fade_out = 0.5
 		limiter_event_name = "CombineConsole.TankRotate"
-		limiter_match_substring = 0.000000
-		pitch_filter_rate = 0.250000
+		limiter_match_substring = 0.0
+		pitch_filter_rate = 0.25
 		limiter_stop_oldest = true
 		vsnd_files = 
 		[
@@ -2445,7 +2446,7 @@
 	CombineConsole.BatteryRackInternalOpen = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.600000
+		volume = 0.6
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_battery_rack_internal_open_01.vsnd",
@@ -2454,7 +2455,7 @@
 	CombineConsole.BatteryRackInternalClose = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.600000
+		volume = 0.6
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_battery_rack_internal_close_01.vsnd",
@@ -2487,7 +2488,7 @@
 	CombineConsole.BatteryRackOpenAuto = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_console_battery_rack_open_auto_01.vsnd",
@@ -2496,7 +2497,7 @@
 	CombineConsole.BatteryRackCloseFinished = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_console_battery_rack_close_01.vsnd",
@@ -2505,7 +2506,7 @@
 	CombineConsole.BatteryRackBatteryPlaced = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_console_battery_rack_battery_placed_01.vsnd",
@@ -2514,13 +2515,13 @@
 	CombineConsole.TankActivate = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		spread_min = 6.000000
-		spread_max = 36.000000
-		volume_falloff_min = 55.000000
-		volume_falloff_max = 255.000000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.8
+		spread_min = 6.0
+		spread_max = 36.0
+		volume_falloff_min = 55.0
+		volume_falloff_max = 255.0
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -2530,13 +2531,13 @@
 	CombineConsole.TankDeactivate = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		spread_min = 6.000000
-		spread_max = 36.000000
-		volume_falloff_min = 55.000000
-		volume_falloff_max = 255.000000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.8
+		spread_min = 6.0
+		spread_max = 36.0
+		volume_falloff_min = 55.0
+		volume_falloff_max = 255.0
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -2546,7 +2547,7 @@
 	CombineLocker.MoveStart = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_console_rack_open_complete_01.vsnd",
@@ -2555,7 +2556,7 @@
 	CombineLocker.Move = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_console_rack_open_complete_01.vsnd",
@@ -2564,7 +2565,7 @@
 	CombineLocker.OpenComplete = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_console_rack_open_complete_01.vsnd",
@@ -2573,7 +2574,7 @@
 	CombineLocker.CloseComplete = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.000000
+		volume = 0.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/console/combine_console_rack_open_complete_01.vsnd",
@@ -2590,7 +2591,7 @@
 	CombineUpgradeStation.ChamberOpen = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.750000
+		volume = 0.75
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/upgrade_station/combine_3d_printer_chamber_open_01.vsnd",
@@ -2599,7 +2600,7 @@
 	CombineUpgradeStation.InterfaceOpen = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.750000
+		volume = 0.75
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/upgrade_station/combine_3d_printer_interface_open_01.vsnd",
@@ -2608,7 +2609,7 @@
 	CombineUpgradeStation.ResinTrayAdvance = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.750000
+		volume = 0.75
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/upgrade_station/combine_3d_printer_resin_tray_advance_01.vsnd",
@@ -2617,7 +2618,7 @@
 	CombineUpgradeStation.ResinTrayOpen = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.750000
+		volume = 0.75
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/upgrade_station/combine_3d_printer_resin_tray_open_01.vsnd",
@@ -2626,7 +2627,7 @@
 	CombineUpgradeStation.ResinTrayRetract = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.750000
+		volume = 0.75
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/upgrade_station/combine_3d_printer_resin_tray_retract_01.vsnd",
@@ -2635,7 +2636,7 @@
 	CombineUpgradeStation.UpgraderOpen = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.750000
+		volume = 0.75
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/upgrade_station/combine_3d_printer_upgrader_open_01.vsnd",
@@ -2644,7 +2645,7 @@
 	CombineUpgradeStation.Upgrading = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.750000
+		volume = 0.75
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/upgrade_station/combine_3d_printer_upgrading_01.vsnd",
@@ -2653,7 +2654,7 @@
 	CombineUpgradeStation.UpgradeComplete = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.750000
+		volume = 0.75
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/upgrade_station/combine_3d_printer_work_complete_01.vsnd",
@@ -2662,7 +2663,7 @@
 	CombineUpgradeStation.EyestalkExtend = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.750000
+		volume = 0.75
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/upgrade_station/combine_3d_printer_eyestalk_extend_01.vsnd",
@@ -2671,12 +2672,12 @@
 	CombineUpgradeStation.EyestalkRetract = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.600000
-		volume_falloff_min = 40.000000
-		volume_falloff_max = 300.000000
-		spread_min = 6.000000
-		spread_max = 36.000000
-		occlusion_scale = 0.400000
+		volume = 0.6
+		volume_falloff_min = 40.0
+		volume_falloff_max = 300.0
+		spread_min = 6.0
+		spread_max = 36.0
+		occlusion_scale = 0.4
 		occlusion_radius = 36
 		vsnd_files = 
 		[
@@ -2690,7 +2691,7 @@
 	CombineUpgradeStation.WeaponAttach = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.750000
+		volume = 0.75
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/upgrade_station/combine_3d_printer_gun_attach_print_01.vsnd",
@@ -2707,13 +2708,13 @@
 	CombineUpgradeStation.Beep = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.380000
-		spread_min = 6.000000
-		spread_max = 36.000000
-		volume_falloff_min = 55.000000
-		volume_falloff_max = 255.000000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.38
+		spread_min = 6.0
+		spread_max = 36.0
+		volume_falloff_min = 55.0
+		volume_falloff_max = 255.0
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -2731,7 +2732,7 @@
 	CombineBatteryHolder.Open = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.750000
+		volume = 0.75
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/battery_holder/combine_battery_holder_open_01.vsnd",
@@ -2740,7 +2741,7 @@
 	CombineBatteryHolder.Close = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.750000
+		volume = 0.75
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/battery_holder/combine_battery_holder_close_01.vsnd",
@@ -2749,7 +2750,7 @@
 	CombineBatteryHolder.CloseFail = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.750000
+		volume = 0.75
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/battery_holder/combine_battery_holder_close_fail_01.vsnd",
@@ -2758,7 +2759,7 @@
 	CombineBatteryHolder.GrabBattery = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.750000
+		volume = 0.75
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/battery_holder/combine_battery_holder_grab_battery_01.vsnd",
@@ -2767,7 +2768,7 @@
 	CombineBatteryHolder.GrabReviver = 
 	{
 		base = "CombineConsole.OpenMain"
-		volume = 0.750000
+		volume = 0.75
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/battery_holder/combine_battery_holder_grab_reviver_01.vsnd",
@@ -2776,15 +2777,15 @@
 	CombineVortPod.Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		spread_min = 6.000000
-		spread_max = 36.000000
+		volume = 0.9
+		spread_min = 6.0
+		spread_max = 36.0
 		mixgroup = "CombineMachines"
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		soundname_string = "CombineVortPod"
-		volume_falloff_min = 120.000000
-		volume_falloff_max = 600.000000
-		occlusion_scale = 0.000000
+		volume_falloff_min = 120.0
+		volume_falloff_max = 600.0
+		occlusion_scale = 0.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/combine_vort_pod/vort_pod_open_01.vsnd",
@@ -2817,18 +2818,18 @@
 	CombineShootyBeans.CoverOpen = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		spread_min = 6.000000
-		spread_max = 36.000000
+		volume = 0.9
+		spread_min = 6.0
+		spread_max = 36.0
 		mixgroup = "CombineMachines"
-		pitch_rand_min = 0.000000
-		pitch_rand_max = 0.000000
-		enable_debug_radius = 0.000000
+		pitch_rand_min = 0.0
+		pitch_rand_max = 0.0
+		enable_debug_radius = 0.0
 		soundname_string = "CombineShootyBeans.CoverOpen"
-		volume_falloff_min = 240.000000
-		volume_falloff_max = 1200.000000
-		use_hrtf = 1.000000
-		hrtf_mix = 0.800000
+		volume_falloff_min = 240.0
+		volume_falloff_max = 1200.0
+		use_hrtf = 1.0
+		hrtf_mix = 0.8
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/substation/combine_shooty_beans_cover_open_01.vsnd",
@@ -2845,16 +2846,16 @@
 	CombineShootyBeans.DestructionStart = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
+		volume = 1.2
 		mixgroup = "Explosions"
-		pitch_rand_min = 0.000000
-		pitch_rand_max = 0.000000
-		enable_debug_radius = 0.000000
+		pitch_rand_min = 0.0
+		pitch_rand_max = 0.0
+		enable_debug_radius = 0.0
 		soundname_string = "CombineShootyBeans.CoverOpen"
-		volume_falloff_min = 240.000000
-		volume_falloff_max = 1800.000000
-		use_hrtf = 1.000000
-		hrtf_mix = 0.800000
+		volume_falloff_min = 240.0
+		volume_falloff_max = 1800.0
+		use_hrtf = 1.0
+		hrtf_mix = 0.8
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/substation/combine_beans_destruction_start_01.vsnd",
@@ -2868,29 +2869,29 @@
 		[
 			"match_explosions",
 		]
-		direct_mix_level = 1.000000
-		volume_falloff_mid_min = 500.000000
-		volume_falloff_mid_max = 2000.000000
-		volume_mid = 1.000000
-		volume_falloff_mech_min = 1500.000000
-		volume_falloff_mech_max = 2400.000000
-		volume_mech = 0.800000
-		volume_falloff_lfe_min = 1500.000000
-		volume_falloff_lfe_max = 4000.000000
-		volume_lfe = 1.000000
-		volume_falloff_distant_min = 1800.000000
-		volume_falloff_distant_max = 5000.000000
-		volume_distant = 1.000000
-		distant_xfade_start = 100.000000
-		distant_xfade_end = 1200.000000
-		enable_debug_radius = 0.000000
+		direct_mix_level = 1.0
+		volume_falloff_mid_min = 500.0
+		volume_falloff_mid_max = 2000.0
+		volume_mid = 1.0
+		volume_falloff_mech_min = 1500.0
+		volume_falloff_mech_max = 2400.0
+		volume_mech = 0.8
+		volume_falloff_lfe_min = 1500.0
+		volume_falloff_lfe_max = 4000.0
+		volume_lfe = 1.0
+		volume_falloff_distant_min = 1800.0
+		volume_falloff_distant_max = 5000.0
+		volume_distant = 1.0
+		distant_xfade_start = 100.0
+		distant_xfade_end = 1200.0
+		enable_debug_radius = 0.0
 		soundname_string = "CombineShootyBeans.DestructionExplo"
-		initial_muffle_delay = 0.200000
-		max_muffle_fade_in_time = 0.300000
-		muffle_hold_time = 1.100000
-		max_muffle_fade_out_time = 5.000000
-		max_muffle_mix_val = 1.000000
-		delay = 2.800000
+		initial_muffle_delay = 0.2
+		max_muffle_fade_in_time = 0.3
+		muffle_hold_time = 1.1
+		max_muffle_fade_out_time = 5.0
+		max_muffle_mix_val = 1.0
+		delay = 2.8
 		mixgroup = "Explosions"
 		vsnd_files_mid = 
 		[
@@ -2918,10 +2919,10 @@
 	CombineShootyBeans.DestructionScripted = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_min = 200.000000
-		delay = 0.100000
-		use_hrtf = 1.000000
+		volume = 1.0
+		volume_falloff_min = 200.0
+		delay = 0.1
+		use_hrtf = 1.0
 		mixgroup = "Explosions"
 		vsnd_files = 
 		[
@@ -2938,21 +2939,21 @@
 		soundevent_01 = "CombineShootyBeans.DestructionStart"
 		soundevent_02 = "CombineShootyBeans.DestructionExplo"
 		soundevent_03 = "CombineShootyBeans.DestructionScripted"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	CombineReinforcementBeacon.LaserLp = 
 	{
 		type = "hlvr_ambient_position_on_line"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "CombineMachines"
-		use_hrtf = 1.000000
-		volume_filter_amount = 0.400000
-		enable_debug_radius = 0.000000
+		use_hrtf = 1.0
+		volume_filter_amount = 0.4
+		enable_debug_radius = 0.0
 		soundname_string = "CombineReinforcementBeacon.LaserLp"
-		volume_falloff_min = 150.000000
-		volume_falloff_max = 1000.000000
+		volume_falloff_min = 150.0
+		volume_falloff_max = 1000.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/reinforcement_beacon/combine_tech_beacon_laser_lp_01.vsnd",
@@ -2961,12 +2962,12 @@
 	VaultLight.SwitchOnOminous = 
 	{
 		type = "hlvr_default_3d"
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 1000.000000
-		volume = 1.000000
+		volume_falloff_min = 200.0
+		volume_falloff_max = 1000.0
+		volume = 1.0
 		mixgroup = "CombineMachines"
-		ambient_ducking_pct = 0.600000
-		use_hrtf = 1.000000
+		ambient_ducking_pct = 0.6
+		use_hrtf = 1.0
 		vsnd_files = 
 		[
 			"sounds/ambient/lights/amb_light_switch_ominous_01.vsnd",
@@ -2982,20 +2983,20 @@
 		soundevent_02 = "Combine_Vault_Bridge.Extend_Wet"
 		soundevent_03 = "Combine_Vault_Bridge.Air"
 		soundevent_04 = "Combine_Vault_Bridge.Start_Layer"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	Combine_Vault_Bridge.Extend_Dry = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		volume_falloff_min = 600.000000
-		volume_falloff_max = 5000.000000
-		occlusion_scale = 0.000000
-		use_hrtf = 1.000000
-		ambient_ducking_pct = 0.300000
+		volume = 1.4
+		volume_falloff_min = 600.0
+		volume_falloff_max = 5000.0
+		occlusion_scale = 0.0
+		use_hrtf = 1.0
+		ambient_ducking_pct = 0.3
 		mixgroup = "CombineMachines"
 		should_pause = true
 		vsnd_files = 
@@ -3006,12 +3007,12 @@
 	Combine_Vault_Bridge.Extend_Wet = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		volume_falloff_min = 600.000000
-		volume_falloff_max = 5000.000000
-		occlusion_scale = 0.000000
-		spread_min = 10.000000
-		spread_max = 1000.000000
+		volume = 0.9
+		volume_falloff_min = 600.0
+		volume_falloff_max = 5000.0
+		occlusion_scale = 0.0
+		spread_min = 10.0
+		spread_max = 1000.0
 		mixgroup = "CombineMachines"
 		should_pause = true
 		vsnd_files = 
@@ -3022,12 +3023,12 @@
 	Combine_Vault_Bridge.Air = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_min = 600.000000
-		volume_falloff_max = 5000.000000
-		occlusion_scale = 0.000000
-		spread_min = 10.000000
-		spread_max = 1000.000000
+		volume = 1.0
+		volume_falloff_min = 600.0
+		volume_falloff_max = 5000.0
+		occlusion_scale = 0.0
+		spread_min = 10.0
+		spread_max = 1000.0
 		mixgroup = "CombineMachines"
 		should_pause = true
 		vsnd_files = 
@@ -3038,11 +3039,11 @@
 	Combine_Vault_Bridge.Start_Layer = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		volume_falloff_min = 600.000000
-		volume_falloff_max = 5000.000000
-		occlusion_scale = 0.000000
-		ambient_ducking_pct = 0.600000
+		volume = 1.4
+		volume_falloff_min = 600.0
+		volume_falloff_max = 5000.0
+		occlusion_scale = 0.0
+		ambient_ducking_pct = 0.6
 		mixgroup = "CombineMachines"
 		should_pause = true
 		use_named_send = "loud"
@@ -3054,14 +3055,14 @@
 	CombineTankerDoor.LockClose = 
 	{
 		type = "hlvr_default_3d"
-		volume_falloff_min = 60.000000
-		volume_falloff_max = 250.000000
-		volume_fade_out = 0.500000
-		volume = 1.000000
-		pitch = 1.020000
+		volume_falloff_min = 60.0
+		volume_falloff_max = 250.0
+		volume_fade_out = 0.5
+		volume = 1.0
+		pitch = 1.02
 		mixgroup = "CombineMachines"
-		ambient_ducking_pct = 0.500000
-		use_hrtf = 1.000000
+		ambient_ducking_pct = 0.5
+		use_hrtf = 1.0
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/tanker_yard_door/combine_tanker_door_lock_close_01.vsnd",
@@ -3078,7 +3079,7 @@
 	CombineTankerDoor.LockLatchImpact = 
 	{
 		base = "CombineTankerDoor.LockClose"
-		volume = 1.200000
+		volume = 1.2
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/tanker_yard_door/combine_tanker_door_latch_lock_impact_01.vsnd",
@@ -3087,8 +3088,8 @@
 	CombineTankerDoor.LockLatchTone = 
 	{
 		base = "CombineTankerDoor.LockClose"
-		volume = 0.600000
-		delay = 0.250000
+		volume = 0.6
+		delay = 0.25
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/tanker_yard_door/combine_tanker_door_latch_lock_tone_02.vsnd",
@@ -3105,9 +3106,9 @@
 	CombineTankerDoor.MoveLp = 
 	{
 		base = "CombineTankerDoor.LockClose"
-		volume_fade_in = 0.750000
-		volume_fade_out = 0.500000
-		volume = 0.800000
+		volume_fade_in = 0.75
+		volume_fade_out = 0.5
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/tanker_yard_door/combine_tanker_door_move_lp_01.vsnd",
@@ -3132,7 +3133,7 @@
 	CombineTankerDoor.Clack = 
 	{
 		base = "CombineTankerDoor.LockClose"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = 
 		[
 			"sounds/mechanical_units/tanker_yard_door/combine_tanker_door_clack_01.vsnd",

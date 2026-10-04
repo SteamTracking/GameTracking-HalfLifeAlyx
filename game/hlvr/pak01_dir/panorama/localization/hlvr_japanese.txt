@@ -51,14 +51,20 @@
 "HLVR_MainMenu_AddonsToolsMode"			"ツールモードではアドオンを使用したマップをロードできません"
 "HLVR_MainMenu_StartAddonGame"			"以下のアドオンを使用してゲームを開始:"
 "HLVR_MainMenu_AddonDisabled"			"関連付けされたアドオンが無効になっています"
-"HLVR_MainMenu_AddonNotAvailable"		"Associated Addon is no longer available for this map.\nResubscribe and enable this addon to continue"
-"HLVR_MainMenu_NoAddonsEnabled"			"No addons enabled for addon game"
-"HLVR_MainMenu_AddonToggleInfo"			"Press Toggle on Left to Enable and Disable"
-"HLVR_MainMenu_LocalAddon"				"Local Addon"
-"HLVR_MainMenu_MissingAddon"			"The following addon(s) are missing.  Please resubscribe to load this file"
+"HLVR_MainMenu_AddonNotAvailable"		"このマップでは、関連付けられたアドオンは利用できなくなりました。\n続行するには、再びサブスクライブして、このアドオンを有効にしてください"
+"HLVR_MainMenu_NoAddonsEnabled"			"アドオンゲーム用に有効になっているアドオンはありません"
+"HLVR_MainMenu_AddonToggleInfo"			"左の切り替えボタンを押して有効化／無効化します"
+"HLVR_MainMenu_LocalAddon"				"ローカルアドオン"
+"HLVR_MainMenu_MissingAddon"			"次のアドオンがありません。 このファイルを読み込むには、もう一度サブスクライブしてください"
 
-"HLVR_MainMenu_AddonUpVote"				"Up Votes"
-"HLVR_MainMenu_AddonDownVote"			"Down Votes"
+"HLVR_MainMenu_OriginalGame"			"オリジナルゲーム"
+"HLVR_MainMenu_AddonGame"				"アドオンゲーム"
+
+"HLVR_MainMenu_OriginalMaps"			"オリジナルゲーム"
+"HLVR_MainMenu_AddonMaps"				"アドオンマップ"
+
+"HLVR_MainMenu_AddonUpVote"				"賛成"
+"HLVR_MainMenu_AddonDownVote"			"反対"
 
 "HLVR_browse_workshop_label"			"ワークショップを閲覧"
 "HLVR_browse_workshop_confirm"			"Steam オーバーレイを介してワークショップを閲覧しますか？"
@@ -80,8 +86,8 @@
 "HLVR_MainMenu_Attention_Low_GPU_Memory"						"GPUのメモリが不足しています。必要のないプログラムを閉じてメモリを増やしてください。"
 "HLVR_MainMenu_Attention_Low_System_Memory"						"システムメモリが不足しています。必要のないプログラムを閉じてメモリを増やしてください。"
 "HLVR_MainMenu_Old_Driver_Version"								"お使いのGPUドライバーのバージョンは、Vulkanを使用して『Half-Life: Alyx』を実行する際に推奨されたバージョンを下回っています。最新のGPUドライバーをインストールしてください。"
-"HLVR_MainMenu_Attention_LoadErrorMap"							"The game could not be loaded because the requested map could not be found:"
-"HLVR_MainMenu_Attention_LoadErrorAddons"						"This may be due to one of the enabled addons:"
+"HLVR_MainMenu_Attention_LoadErrorMap"							"リクエストされたマップが見つからないため、ゲームをロードできませんでした："
+"HLVR_MainMenu_Attention_LoadErrorAddons"						"これは、有効化されたアドオンが原因である可能性があります："
 
 "HLVR_MainMenu_ModalQuit"						"『Half-Life Alyx』を終了しますか？"
 "HLVR_MainMenu_ModalMainMenu"					"メインメニューに移動しますか？"
@@ -134,6 +140,9 @@
 "HLVR_Options_On"					"オン"
 "HLVR_Options_Off"				"オフ"
 
+"HLVR_Options_Commentary"					"開発者による解説"
+"HLVR_Options_Commentary_desc"				"プレイ中の開発者による解説を有効にします。\n\n警告：解説には重度のネタバレが含まれています。\n\n先にゲームを完了させることをお勧めします。"
+
 "HLVR_Options_Movement_Base"					"移動方式"
 "HLVR_Options_Movement_Blink"					"ブリンク移動"
 "HLVR_Options_Movement_Shift"					"シフト移動"
@@ -177,6 +186,9 @@
 
 "HLVR_Options_ContinuousTurn_Speed_Base"		"スムーズターンの速度"
 "HLVR_Options_ContinuousTurn_Speed_desc"		"スムーズターン選択時に方向転換する際の速度です"
+
+"HLVR_Options_DLC_Skins"						"スキンを予約注文"
+"HLVR_Options_DLC_Skins_desc"					"Valve Indexの予約注文で付与された武器スキンを使用可能にします。"
 
 "HLVR_Options_Subtitles"						"字幕"
 "HLVR_Options_Subtitles_Base"					"字幕"
@@ -530,7 +542,6 @@
 "HLVR_CraftingStation_ResinAmount"					"{i:CurrencyAmount}"
 "HLVR_CraftingStation_SelectObject"					"オブジェクトを選択してください"
 "HLVR_CraftingStation_SelectedWeapon"				"{s:WeaponName}"
-"HLVR_CraftingStation_SelectUpgrade"				"{s:WeaponName} のアップグレードを選択してください"
 "HLVR_CraftingStation_Upgrades"						"アップグレード"
 "HLVR_CraftingStation_Cost"							"コスト"
 "HLVR_CraftingStation_Summary"						"概要"
@@ -548,8 +559,6 @@
 "HLVR_CraftingStation_TakeObject"					"取り出し可能です"
 "HLVR_CraftingStation_PrintObject"					"オブジェクトをプリント"
 "HLVR_CraftingStation_UpgradeOwned"					"所有"
-"HLVR_CraftingStation_SelectedPrint"				"選択中: {s:SelectedPrintObject}"
-"HLVR_CraftingStation_SelectedUpgrade"				"選択したアップグレード: {s:SelectedUpgrade}"
 "HLVR_CraftingStation_Cancel"						"キャンセル"
 "HLVR_CraftingStation_Back"							"戻る"
 "HLVR_CraftingStation_SmallPrint"					"民間保安軍書類 19-81572"
@@ -648,6 +657,202 @@
 
 "HLVR_Credits_ContractorsHeader"					"Additional Development"
 "HLVR_Credits_CastHeader"							"The Cast"
+
+
+
+// Commentary Titles
+
+// a1_intro_world
+"HLVR_Commentary_Intro1"							"ようこそ"
+"HLVR_Commentary_Intro2"							"導入"
+"HLVR_Commentary_Citadel_Vista"						"要塞の遠景"
+"HLVR_Commentary_Greenhouse"						"温室"
+"HLVR_Commentary_Strider"							"ストライダー"
+"HLVR_Commentary_Refuge"							"隠れ家"
+"HLVR_Commentary_Olga"								"オルガ"
+"HLVR_Commentary_Music"								"音楽"
+"HLVR_Commentary_Alley"								"路地"
+
+// a1_intro_world_2
+"HLVR_Commentary_Van_Crash"							"バンの事故"
+"HLVR_Commentary_Pacing1"							"ペース 1"
+"HLVR_Commentary_Pacing2"							"ペース 2"
+"HLVR_Commentary_Pacing3"							"ペース 3"
+"HLVR_Commentary_Russell_Typing"					"ラッセルのタイピング"
+"HLVR_Commentary_Russell_Choreo"					"キャラクターの仕草"
+"HLVR_Commentary_GG_Training_1"						"グラビティグローブの訓練 1"
+"HLVR_Commentary_GG_Training_2"						"グラビティグローブの訓練 2"
+
+// a2_quarantine_entrance
+"HLVR_Commentary_Resin"								"合成樹脂"
+"HLVR_Commentary_Toner_Intro"						"トナーパズル"
+"HLVR_Commentary_Lighting"							"ライティング"
+"HLVR_Commentary_Barnacles"							"バーナクル"
+"HLVR_Commentary_Pistol_Training1"					"ピストルのリロード"
+"HLVR_Commentary_Locker_Hacking"					"ハッキング"
+
+// a2_pistol
+"HLVR_Commentary_Health_Injectors"					"回復用の注射器"
+"HLVR_Commentary_Pistol_Training2"					"ピストルの訓練"
+"HLVR_Commentary_Train_Cars"						"しゃがみ"
+"HLVR_Commentary_Breakable_Glass"					"割れるガラス"
+"HLVR_Commentary_Weapon_Upgrades"					"武器の強化"
+"HLVR_Commentary_Comfort_Pacing"					"快適なプレイとペース"
+"HLVR_Commentary_Headcrab_Foreshadowing"			"ヘッドクラブの前振り"
+
+// a2_hideout
+"HLVR_Commentary_Mural"								"壁画"
+"HLVR_Commentary_Mural_Music"						"音楽的モチーフ"
+"HLVR_Commentary_Alyx_Reacts"						"アリックスの反応"
+"HLVR_Commentary_Hideout_Interactivity"				"隠れ家のインタラクティブ性"
+"HLVR_Commentary_Hideout_Scene"						"隠れ家のシーン"
+
+// a2_headcrabs_tunnel
+"HLVR_Commentary_ArmoredHeadcrabs1"					"装甲ヘッドクラブ 1"
+"HLVR_Commentary_ArmoredHeadcrabs2"					"装甲ヘッドクラブ 2"
+"HLVR_Commentary_ArmoredHeadcrabs3"					"装甲ヘッドクラブ 3"
+"HLVR_Commentary_ShotgunGate1"						"ショットガンのゲート 1"
+"HLVR_Commentary_ShotgunGate2"						"ショットガンのゲート 2"
+"HLVR_Commentary_ShotgunDesign1"					"ショットガンのデザイン 1"
+"HLVR_Commentary_ShotgunDesign2"					"ショットガンのデザイン 2"
+"HLVR_Commentary_DarknessGate"						"暗闇のゲート"
+"HLVR_Commentary_TonerAirlock"						"トナーのエアロック"
+"HLVR_Commentary_Flashlight1"						"フラッシュライト"
+"HLVR_Commentary_Flashlight2"						"フラッシュライトの制御"
+"HLVR_Commentary_Sandwiches"						"サンドイッチ"
+
+// a2_drainage
+"HLVR_Commentary_Budgeting"							"開発予算"
+"HLVR_Commentary_Barnacle_Sounds"					"バーナクルの音"
+"HLVR_Commentary_Manhack_Introduction"				"マンハックの音"
+"HLVR_Commentary_Exterior_Pacing"					"屋外のペース"
+"HLVR_Commentary_Xen_Barrels"						"ゼンの植物"
+"HLVR_Commentary_Volumetric_Lighting"				"立体的なライティング"
+
+// a2_train_yard
+"HLVR_Commentary_Combine_Sighting"					"コンバインの目撃"
+"HLVR_Commentary_Single_Combine"					"最初のコンバイン"
+"HLVR_Commentary_First_Combine_Skirmish"			"コンバインとの戦い"
+"HLVR_Commentary_Train_Crash"						"列車事故"
+"HLVR_Commentary_Eli_Rescue"						"イーライの救助"
+
+// a3_station_street
+"HLVR_Commentary_Melee"								"バールの取り扱い"
+"HLVR_Commentary_Vault_View"						"ヴォルトの光景"
+"HLVR_Commentary_Throwing"							"投げる"
+"HLVR_Commentary_Optional_Toner"					"トナーパズル"
+"HLVR_Commentary_Substation_Music"					"変電所の音"
+
+// a3_hotel_lobby_basement
+"HLVR_Commentary_Physics_Sounds"					"物体の音"
+"HLVR_Commentary_Liquid_Bottles"					"瓶に入った液体"
+"HLVR_Commentary_Xen_Art"							"ゼンのアート"
+"HLVR_Commentary_Xen_Animation"						"ゼン植物のアニメーション"
+"HLVR_Commentary_Reviver_Intro"						"リバイバーの導入"
+"HLVR_Commentary_Reviver_Animation"					"リバイバーのアニメーション"
+"HLVR_Commentary_HLPR"								"ゲームのトレーラー"
+
+// a3_hotel_underground_pit
+"HLVR_Commentary_Teleport_Immersion"				"テレポートと没入感"
+"HLVR_Commentary_Reviver_Foreshadowing"				"リバイバーの前振り"
+"HLVR_Commentary_Reviver_Training"					"リバイバーの訓練"
+"HLVR_Commentary_Reviver_Ground_Attack"				"リバイバーの雷攻撃"
+"HLVR_Commentary_Elevator_Comfort"					"エレベーターの乗り心地"
+"HLVR_Commentary_Substation_Design"					"変電所のデザイン"
+
+// a3_hotel_interior_rooftop
+"HLVR_Commentary_Xen_Response"						"ゼン植物の反応"
+"HLVR_Commentary_Particle_Effects"					"VRのパーティクル"
+"HLVR_Commentary_Darkness"							"暗闇"
+"HLVR_Commentary_Ammo_Balancing_1"					"弾薬のバランス 1"
+"HLVR_Commentary_Ammo_Balancing_2"					"弾薬のバランス 2"
+"HLVR_Commentary_Ammo_Balancing_3"					"弾薬のバランス 3"
+"HLVR_Commentary_Double_Reviver"					"2体のリバイバーとの戦い"
+
+// a3_hotel_street
+"HLVR_Commentary_Vort_Energy"						"ボーティガントのエネルギー"
+"HLVR_Commentary_Substation_Vort"					"ボーティガントのアニメーション"
+"HLVR_Commentary_Prefabs"							"プレハブ"
+"HLVR_Commentary_Procedural_Displacement"			"揺れるタープ"
+"HLVR_Commentary_Character_Movement"				"キャラクターの動き"
+"HLVR_Commentary_Trip_Mines"						"トリップマイン"
+"HLVR_Commentary_Combat_Pacing"						"戦闘のペース"
+"HLVR_Commentary_Xen_World_Building"				"ゼンに侵食された建物"
+"HLVR_Commentary_Mannequin_Headcrab"				"マネキンヘッドクラブ"
+
+// a3_c17_processing_plant
+"HLVR_Commentary_Pistol_Hopper"						"ピストルのホッパー"
+"HLVR_Commentary_Soundscapes"						"音風景"
+"HLVR_Commentary_Suppressor_Intro"					"サプレッサーの導入"
+"HLVR_Commentary_Environment_Art"					"環境アート"
+"HLVR_Commentary_AI_In_VR"							"VRのAI"
+"HLVR_Commentary_Ladders"							"ハシゴ"
+
+// a3_distillery
+"HLVR_Commentary_Jeff"								"ジェフ"
+"HLVR_Commentary_Xen_Ears"							"ゼンの耳"
+"HLVR_Commentary_Xen_Clams"							"ゼンの貝"
+"HLVR_Commentary_Larry"								"ラリー"
+"HLVR_Commentary_Coughing"							"咳"
+"HLVR_Commentary_Single_Controller"					"シングルコントローラモード"
+"HLVR_Commentary_Jeff_Attack"						"ジェフの攻撃"
+"HLVR_Commentary_Training_Alcove"					"訓練エリア"
+"HLVR_Commentary_Jeff_Design"						"ジェフのデザイン"
+"HLVR_Commentary_Freezer_Toner_Puzzle"				"冷凍庫のトナーパズル"
+"HLVR_Commentary_Elevator"							"Elevator"
+"HLVR_Commentary_Cheeky_Headcrab"					"ヘッドクラブの逃走"
+"HLVR_Commentary_Combine_Forcefields"				"コンバインのバリア"
+"HLVR_Commentary_Sounds"							"サウンド"
+"HLVR_Commentary_Jeff_Death"						"ジェフの死"
+
+// a4_c17_zoo
+"HLVR_Commentary_Antlion_Combat"					"アントライオン戦"
+"HLVR_Commentary_Foliage"							"草葉の表現"
+"HLVR_Commentary_Antlion_Sounds"					"アントライオンの音"
+"HLVR_Commentary_Anim_Interactables"				"アナログな装置たち"
+"HLVR_Commentary_Toner_Puzzle1"						"トナーパズル"
+"HLVR_Commentary_Toner_Puzzle2"						"要の分岐点"
+
+// a4_c17_tanker_yard
+"HLVR_Commentary_Tractor_Beam"						"トラクタービーム"
+"HLVR_Commentary_Collaborator"						"謎の女"
+"HLVR_Commentary_Scavenger_Hideout"					"スカベンジャーの隠れ家"
+"HLVR_Commentary_Spectator_HUD"						"配信用のHUD"
+"HLVR_Commentary_Tanker_Yard_Combat"				"タンカーヤードの戦闘"
+
+// a4_c17_water_tower
+"HLVR_Commentary_Chasm_Puzzle"						"穴の上のパズル"
+"HLVR_Commentary_Combine_Combat"					"コンバインとの戦闘"
+"HLVR_Commentary_Vertical_Tower"					"垂直のタワー"
+"HLVR_Commentary_Vault_Panel"						"ヴォルトのパネル"
+
+// a4_c17_parking_garage
+"HLVR_Commentary_Strider_Intro"						"ストライダーの導入"
+"HLVR_Commentary_Lone_Combine"						"はぐれコンバイン兵"
+"HLVR_Commentary_Disabled_Strider"					"停止中のストライダー"
+"HLVR_Commentary_Lion_And_Mouse"					"ねずみの恩返し"
+"HLVR_Commentary_AI_Animation"						"AIとアニメーション"
+"HLVR_Commentary_Elevator"							"エレベーターの中"
+"HLVR_Commentary_Destructible_Cover"				"壊れる壁"
+"HLVR_Commentary_Minigun"							"ストライダーのミニガン"
+"HLVR_Commentary_Doorframe_Bash"					"ドア枠の破壊"
+"HLVR_Commentary_Strider_Sounds"					"ストライダーの音"
+"HLVR_Commentary_Gauss_Cannon"						"ガウス砲"
+"HLVR_Commentary_Destroy_Strider"					"ストライダーとの決着"
+"HLVR_Commentary_Mounted_Gun"						"マウントガン"
+
+// a5_vault
+"HLVR_Commentary_Broken_Vault_Music"				"ヴォルトの歪んだ音楽"
+"HLVR_Commentary_Sideways_Music"					"横倒しの部屋の音"
+"HLVR_Commentary_Surreal_Vault"						"ヴォルトの非現実性"
+"HLVR_Commentary_Vort_Lightning"					"ボーティガントの雷球"
+
+
+// a5_ending
+"HLVR_Commentary_Coetaneous"						"もつれる時空"
+"HLVR_Commentary_GMan_Room"							"G-Manの部屋"
+
+
 
 // Game Tips
 "HLVR_LOADING_SCREEN_TIP_COUNT"				"22"

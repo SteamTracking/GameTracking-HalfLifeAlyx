@@ -1,105 +1,106 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Crane_engine_idle = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 90.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 90.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/crane/crane_idle_loop3.vsnd"
 	}
 	Crane_engine_start = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 90.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 90.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/crane/crane_startengine1.vsnd"
 	}
 	Crane_engine_stop = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 90.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 90.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/common/null.vsnd"
 	}
 	Crane_firstgear = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.150000
-		pitch_rand_max = 0.150000
-		pitch = 1.050000
-		soundlevel = 90.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.15
+		pitch_rand_max = 0.15
+		pitch = 1.05
+		soundlevel = 90.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/crane/crane_turn_loop2.vsnd"
 	}
 	Crane_throttleoff_slowspeed = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 90.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 90.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/crane/crane_slow_to_idle_loop4.vsnd"
 	}
 	Crane_extend_start = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 90.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 90.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/crane/crane_extend_loop1.vsnd"
 	}
 	Crane_extend_stop = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 90.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 90.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/crane/crane_extend_stop.vsnd"
 	}
 	Crane_magnet_release = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 90.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 90.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/crane/crane_magnet_release.vsnd"
 	}
 	Crane_magnet_reelin = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 90.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 90.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/crane/crane_magnet_grab.vsnd"
 	}
 	Crane_magnet_toggle = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 75.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 75.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/crane/crane_magnet_switchon.vsnd"
 	}
 	Crane_magnet_creak = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.000000
-		soundlevel = 90.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.0
+		soundlevel = 90.0
+		limiter_on = 0.0
 		vsnd_files = 
 		[
 			"sounds/vehicles/crane/crane_creak1.vsnd",
@@ -111,236 +112,236 @@
 	ATV_engine_idle = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/v8/v8_idle_loop1.vsnd"
 	}
 	ATV_engine_null = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/common/null.vsnd"
 	}
 	ATV_engine_start = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/v8/v8_start_loop1.vsnd"
 	}
 	ATV_engine_stop = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/v8/v8_stop1.vsnd"
 	}
 	ATV_rev = 
 	{
 		type = "src1_3d"
 		volume = 0.899902
-		pitch_rand_min = -0.035000
-		pitch_rand_max = 0.035000
-		pitch = 1.015000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		pitch_rand_min = -0.035
+		pitch_rand_max = 0.035
+		pitch = 1.015
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/v8/v8_rev_short_loop1.vsnd"
 	}
 	ATV_reverse = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/v8/v8_firstgear_rev_loop1.vsnd"
 	}
 	ATV_firstgear = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/v8/first.vsnd"
 	}
 	ATV_secondgear = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.075000
-		pitch_rand_max = 0.075000
-		pitch = 0.975000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.075
+		pitch_rand_max = 0.075
+		pitch = 0.975
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/v8/second.vsnd"
 	}
 	ATV_thirdgear = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.075000
-		pitch_rand_max = 0.075000
-		pitch = 0.975000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.075
+		pitch_rand_max = 0.075
+		pitch = 0.975
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/v8/third.vsnd"
 	}
 	ATV_fourthgear = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.050000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.05
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/v8/fourth_cruise_loop2.vsnd"
 	}
 	ATV_firstgear_noshift = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.050000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.05
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/v8/first.vsnd"
 	}
 	ATV_secondgear_noshift = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.050000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.05
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/v8/first.vsnd"
 	}
 	ATV_thirdgear_noshift = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.050000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.05
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/v8/first.vsnd"
 	}
 	ATV_fourthgear_noshift = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.050000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.05
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/v8/fourth_cruise_loop2.vsnd"
 	}
 	ATV_downshift_to_2nd = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.075000
-		pitch_rand_max = 0.075000
-		pitch = 0.975000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.075
+		pitch_rand_max = 0.075
+		pitch = 0.975
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/v8/first_rev.vsnd"
 	}
 	ATV_downshift_to_1st = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.075000
-		pitch_rand_max = 0.075000
-		pitch = 0.975000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.075
+		pitch_rand_max = 0.075
+		pitch = 0.975
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/v8/first_rev.vsnd"
 	}
 	ATV_throttleoff_slowspeed = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.075000
-		pitch_rand_max = 0.075000
-		pitch = 0.975000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.075
+		pitch_rand_max = 0.075
+		pitch = 0.975
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/v8/v8_throttle_off_slow_loop2.vsnd"
 	}
 	ATV_throttleoff_fastspeed = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.075000
-		pitch_rand_max = 0.075000
-		pitch = 0.975000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.075
+		pitch_rand_max = 0.075
+		pitch = 0.975
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/v8/v8_throttle_off_fast_loop1.vsnd"
 	}
 	ATV_skid_lowfriction = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		event_type = 4.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.0
+		soundlevel = 80.0
+		event_type = 4.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = "sounds/vehicles/v8/skid_lowfriction.vsnd"
 	}
 	ATV_skid_normalfriction = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		event_type = 4.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.0
+		soundlevel = 80.0
+		event_type = 4.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = "sounds/vehicles/v8/skid_normalfriction.vsnd"
 	}
 	ATV_skid_highfriction = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		event_type = 4.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.0
+		soundlevel = 80.0
+		event_type = 4.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = "sounds/vehicles/v8/skid_highfriction.vsnd"
 	}
 	ATV_impact_heavy = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.075000
-		pitch_rand_max = 0.075000
-		pitch = 1.025000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.075
+		pitch_rand_max = 0.075
+		pitch = 1.025
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = 
 		[
 			"sounds/vehicles/v8/vehicle_impact_heavy1.vsnd",
@@ -352,12 +353,12 @@
 	ATV_impact_medium = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.075000
-		pitch_rand_max = 0.075000
-		pitch = 1.025000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.075
+		pitch_rand_max = 0.075
+		pitch = 1.025
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = 
 		[
 			"sounds/vehicles/v8/vehicle_impact_medium1.vsnd",
@@ -369,12 +370,12 @@
 	ATV_rollover = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.075000
-		pitch_rand_max = 0.075000
-		pitch = 1.025000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.075
+		pitch_rand_max = 0.075
+		pitch = 1.025
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = 
 		[
 			"sounds/vehicles/v8/vehicle_rollover1.vsnd",
@@ -384,238 +385,238 @@
 	ATV_turbo_on = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.0
+		soundlevel = 80.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = "sounds/vehicles/v8/v8_turbo_on_loop1.vsnd"
 	}
 	ATV_turbo_off = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.0
+		soundlevel = 80.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = "sounds/vehicles/v8/v8_turbo_off.vsnd"
 	}
 	ATV_start_in_water = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		event_type = 2.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 80.0
+		event_type = 2.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = "sounds/vehicles/jetski/jetski_no_gas_start.vsnd"
 	}
 	ATV_stall_in_water = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		event_type = 2.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 80.0
+		event_type = 2.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = "sounds/vehicles/jetski/jetski_off.vsnd"
 	}
 	Jeep.GaussCharge = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 75.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 75.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/weapons/gauss/chargeloop.vsnd"
 	}
 	PropJeep.FireCannon = 
 	{
 		type = "src1_3d"
-		volume_rand_min = -0.125000
-		volume_rand_max = 0.125000
-		volume = 0.875000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 0.000000
+		volume_rand_min = -0.125
+		volume_rand_max = 0.125
+		volume = 0.875
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 0.0
 		vsnd_files = "sounds/weapons/gauss/fire1.vsnd"
 	}
 	PropJeep.FireChargedCannon = 
 	{
 		type = "src1_3d"
-		volume_rand_min = -0.125000
-		volume_rand_max = 0.125000
-		volume = 0.875000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 0.000000
+		volume_rand_min = -0.125
+		volume_rand_max = 0.125
+		volume = 0.875
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 0.0
 		vsnd_files = "sounds/weapons/gauss/fire1.vsnd"
 	}
 	PropJeep.AmmoOpen = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.0
+		soundlevel = 80.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = "sounds/vehicles/atv_ammo_open.vsnd"
 	}
 	PropJeep.AmmoClose = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.0
+		soundlevel = 80.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = "sounds/vehicles/atv_ammo_close.vsnd"
 	}
 	PropAPC.FireCannon = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 130.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 130.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = "sounds/weapons/stinger_fire1.vsnd"
 	}
 	PropAPC.FireRocket = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 130.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 130.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = "sounds/weapons/stinger_fire1.vsnd"
 	}
 	Airboat_engine_start = 
 	{
 		type = "src1_3d"
 		volume = 0.799805
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 1.000000
-		soundlevel = 75.000000
-		limiter_on = 0.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 1.0
+		soundlevel = 75.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/airboat/fan_motor_start1.vsnd"
 	}
 	Airboat_engine_stop = 
 	{
 		type = "src1_3d"
 		volume = 0.799805
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 1.000000
-		soundlevel = 75.000000
-		limiter_on = 0.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 1.0
+		soundlevel = 75.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/airboat/fan_motor_shut_off1.vsnd"
 	}
 	Airboat_engine_idle = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.300000
-		pitch_rand_max = 0.300000
-		pitch = 1.300000
-		soundlevel = 75.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.3
+		pitch_rand_max = 0.3
+		pitch = 1.3
+		soundlevel = 75.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/airboat/fan_motor_idle_loop1.vsnd"
 	}
 	Airboat_engine_fullthrottle = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.250000
-		pitch_rand_max = 0.250000
-		pitch = 1.050000
-		soundlevel = 75.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.25
+		pitch_rand_max = 0.25
+		pitch = 1.05
+		soundlevel = 75.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/airboat/fan_motor_fullthrottle_loop1.vsnd"
 	}
 	Airboat_fan_idle = 
 	{
 		type = "src1_3d"
 		volume = 0.899902
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.100000
-		soundlevel = 75.000000
-		limiter_on = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.1
+		soundlevel = 75.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/airboat/fan_blade_idle_loop1.vsnd"
 	}
 	Airboat_fan_fullthrottle = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.100000
-		soundlevel = 75.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.1
+		soundlevel = 75.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/airboat/fan_blade_fullthrottle_loop1.vsnd"
 	}
 	Airboat_skid_rough = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.200000
-		pitch_rand_max = 0.200000
-		pitch = 1.000000
-		soundlevel = 90.000000
-		event_type = 4.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.2
+		pitch_rand_max = 0.2
+		pitch = 1.0
+		soundlevel = 90.0
+		event_type = 4.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/vehicles/airboat/pontoon_scrape_rough1.vsnd",
@@ -626,17 +627,17 @@
 	Airboat_skid_smooth = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.200000
-		pitch_rand_max = 0.200000
-		pitch = 1.000000
-		soundlevel = 90.000000
-		event_type = 4.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.2
+		pitch_rand_max = 0.2
+		pitch = 1.0
+		soundlevel = 90.0
+		event_type = 4.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/vehicles/airboat/pontoon_scrape_smooth1.vsnd",
@@ -647,17 +648,17 @@
 	Airboat_impact_hard = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 1.000000
-		soundlevel = 90.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 1.0
+		soundlevel = 90.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/vehicles/airboat/pontoon_impact_hard1.vsnd",
@@ -667,28 +668,28 @@
 	Airboat_impact_soft = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 1.000000
-		soundlevel = 90.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 1.0
+		soundlevel = 90.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = "sounds/vehicles/airboat/pontoon_impact_soft1.vsnd"
 	}
 	Airboat_impact_splash = 
 	{
 		type = "src1_3d"
 		volume = 0.599609
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 1.000000
-		soundlevel = 90.000000
-		limiter_on = 0.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 1.0
+		soundlevel = 90.0
+		limiter_on = 0.0
 		vsnd_files = 
 		[
 			"sounds/vehicles/airboat/pontoon_splash1.vsnd",
@@ -698,62 +699,62 @@
 	Airboat_water_stopped = 
 	{
 		type = "src1_3d"
-		volume = 0.500000
-		pitch = 1.000000
-		soundlevel = 90.000000
-		limiter_on = 0.000000
+		volume = 0.5
+		pitch = 1.0
+		soundlevel = 90.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/airboat/pontoon_stopped_water_loop1.vsnd"
 	}
 	Airboat_water_fast = 
 	{
 		type = "src1_3d"
 		volume = 0.599609
-		pitch = 1.000000
-		soundlevel = 90.000000
-		limiter_on = 0.000000
+		pitch = 1.0
+		soundlevel = 90.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/airboat/pontoon_fast_water_loop2.vsnd"
 	}
 	Airboat_gun_charge = 
 	{
 		type = "src1_3d"
 		volume = 0.599609
-		pitch = 1.000000
-		soundlevel = 90.000000
-		limiter_on = 0.000000
+		pitch = 1.0
+		soundlevel = 90.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/weapons/airboat/chargeloop.vsnd"
 	}
 	Airboat_gun_shoot = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.015000
-		pitch_rand_max = 0.015000
-		pitch = 0.995000
-		soundlevel = 140.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.015
+		pitch_rand_max = 0.015
+		pitch = 0.995
+		soundlevel = 140.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = "sounds/weapons/airboat/shoot.vsnd"
 	}
 	Airboat.FireGunLoop = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 140.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 140.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/weapons/airboat/airboat_gun_loop2.vsnd"
 	}
 	Airboat.FireGunRevDown = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 140.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 140.0
+		limiter_on = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/airboat/airboat_gun_lastshot1.vsnd",
@@ -763,10 +764,10 @@
 	Airboat.FireGunHeavy = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 140.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 140.0
+		limiter_on = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/airboat/airboat_gun_energy1.vsnd",
@@ -776,110 +777,110 @@
 	Airboat_NoSound = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 75.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 75.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/common/null.vsnd"
 	}
 	Airboat_headlight_on = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = "sounds/items/flashlight1.vsnd"
 	}
 	Airboat_headlight_off = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = "sounds/items/flashlight1.vsnd"
 	}
 	PrisonerPod.NoSound = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 75.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 75.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/common/null.vsnd"
 	}
 	apc_engine_idle = 
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		limiter_on = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/apc/apc_idle1.vsnd"
 	}
 	apc_engine_start = 
 	{
 		type = "src1_3d"
 		volume = 0.849609
-		pitch = 1.000000
-		soundlevel = 95.000000
-		limiter_on = 0.000000
+		pitch = 1.0
+		soundlevel = 95.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/apc/apc_start_loop3.vsnd"
 	}
 	apc_engine_stop = 
 	{
 		type = "src1_3d"
 		volume = 0.849609
-		pitch = 1.000000
-		soundlevel = 95.000000
-		limiter_on = 0.000000
+		pitch = 1.0
+		soundlevel = 95.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/apc/apc_shutdown.vsnd"
 	}
 	apc_firstgear = 
 	{
 		type = "src1_3d"
 		volume = 0.849609
-		pitch = 1.000000
-		soundlevel = 95.000000
-		limiter_on = 0.000000
+		pitch = 1.0
+		soundlevel = 95.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/apc/apc_firstgear_loop1.vsnd"
 	}
 	apc_firstgear_resume = 
 	{
 		type = "src1_3d"
 		volume = 0.849609
-		pitch = 1.000000
-		soundlevel = 95.000000
-		limiter_on = 0.000000
+		pitch = 1.0
+		soundlevel = 95.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/apc/apc_cruise_loop3.vsnd"
 	}
 	apc_throttleoff_slowspeed = 
 	{
 		type = "src1_3d"
 		volume = 0.849609
-		pitch = 1.000000
-		soundlevel = 95.000000
-		limiter_on = 0.000000
+		pitch = 1.0
+		soundlevel = 95.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/apc/apc_idle1.vsnd"
 	}
 	apc_throttleoff_fastspeed = 
 	{
 		type = "src1_3d"
 		volume = 0.679688
-		pitch = 1.000000
-		soundlevel = 95.000000
-		limiter_on = 0.000000
+		pitch = 1.0
+		soundlevel = 95.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/apc/apc_slowdown_fast_loop5.vsnd"
 	}
 }

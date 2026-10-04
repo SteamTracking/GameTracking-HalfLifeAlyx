@@ -19,7 +19,6 @@
 %s%cbug.txt
 %s: string format requested %d chars\n
 &Sgw
-( 8PX
 (null)
 *StO9>T
 .00cfg
@@ -28,6 +27,8 @@
 .?AVIBaseInterface@@
 .?AVIBugReporter@@
 .?AVIKeyValuesErrorSpew@@
+.?AVbad_exception@std@@
+.?AVexception@std@@
 .?AVtype_info@@
 .CRT$XCA
 .CRT$XCC
@@ -47,9 +48,8 @@
 .bss
 .data
 .data$r
+.data$rs
 .edata
-.gfids$x
-.gfids$y
 .idata$2
 .idata$3
 .idata$4
@@ -59,6 +59,7 @@
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .rtc$IAA
 .rtc$IZZ
@@ -74,6 +75,7 @@
 .tls$ZZZ
 .xJ>Hf
 .xdata
+.xdata$x
 0iN>/
 1#IND
 1#QNAN
@@ -82,7 +84,6 @@
 37>k
 3>N;kU
 3>fvw
-700WP
 ;1#INF
 <<Invalid>>
 <NULL>
@@ -92,19 +93,22 @@
 >cQ6
 >jtm}S
 ?7zQ6$
+??0CThreadMutex@@QEAA@XZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
 ?DevMsg@@YAXPEBDZZ
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?Purge@CBufferString@@QEAAXH@Z
 ?SetLength@CBufferString@@QEAAPEADH_NPEAH@Z
 ?UUUUUU
+?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?f`Y4
 ?qBJ
 ?ysB
 A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
+AppPolicyGetProcessTerminationMethod
 April
 AreFileApisANSI
 Area
@@ -119,10 +123,13 @@ BugReporter005
 Build
 CMemAllocSystemInitialize
 COrderedConstructor_Create<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>,class CResolveOrderedFunc<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>,&void __cdecl _ORDERED_INIT_SHUTDOWN_WRAPPER_RESOLVEFUNC<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>(class COrderedConstructor_DependencyManagement<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)> > &)>,0>::AddRef
+CTSListBase: Misaligned list\n
+CTSListBase::CTSListBase
 CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
 CUtlMemoryPoolBase::CUtlMemoryPoolBase
 CUtlRBTree overflow with %u elements!\n
 CUtlRBTree<struct CUtlMap<class CUtlSymbol,class CUtlVector<class CUtlSymbol,class CUtlMemory<class CUtlSymbol,int> > *,unsigned short,bool (__cdecl*)(class CUtlSymbol const &,class CUtlSymbol const &)>::Node_t,unsigned short,class CUtlMap<class CUtlSymbol,class CUtlVector<class CUtlSymbol,class CUtlMemory<class CUtlSymbol,int> > *,unsigned short,bool (__cdecl*)(class CUtlSymbol const &,class CUtlSymbol const &)>::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class CUtlSymbol,class CUtlVector<class CUtlSymbol,class CUtlMemory<class CUtlSymbol,int> > *,unsigned short,bool (__cdecl*)(class CUtlSymbol const &,class CUtlSymbol const &)>::Node_t,unsigned short>,unsigned short> >::NewNode
+CUtlRBTree<void *,int,bool (__cdecl*)(void * const &,void * const &),class CUtlMemory<struct UtlRBTreeNode_t<void *,int>,int> >::NewNode
 CUtlString::FormatV
 Category
 CloseHandle
@@ -141,13 +148,14 @@ DeleteCriticalSection
 Description
 DriverInfo
 ET5>
+EncodePointer
 EnterCriticalSection
 ExitProcess
 FEMh\f
 February
 FindClose
-FindFirstFileExA
-FindNextFileA
+FindFirstFileExW
+FindNextFileW
 FlsAlloc
 FlsFree
 FlsGetValue
@@ -162,18 +170,18 @@ GetACP
 GetCPInfo
 GetCommandLineA
 GetCommandLineW
-GetConsoleCP
 GetConsoleMode
-GetCurrentPackageId
+GetConsoleOutputCP
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
 GetDefaultMiniDumpTypeFlags
 GetEnvironmentStringsW
 GetFileAttributesExW
+GetFileSizeEx
 GetFileType
 GetLastError
-GetModuleFileNameA
+GetModuleFileNameW
 GetModuleHandleExW
 GetModuleHandleW
 GetOEMCP
@@ -185,7 +193,6 @@ GetStringTypeW
 GetSystemTimeAsFileTime
 HH:mm:ss
 HIGHDPI
-InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
@@ -245,7 +252,7 @@ Plat_ShouldCollectMiniDumpsForFatalErrors
 Position
 Priority
 QueryPerformanceCounter
-RSDS5
+RSDSx
 RaiseException
 RandomInt
 ReadConsoleW
@@ -259,6 +266,7 @@ RecursiveLoadFromBuffer:  recursion overflow
 Release
 RtlCaptureContext
 RtlLookupFunctionEntry
+RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
 S9>H
@@ -267,7 +275,7 @@ Savegame
 Screenshot
 September
 SetEndOfFile
-SetEnvironmentVariableA
+SetEnvironmentVariableW
 SetFilePointerEx
 SetLastError
 SetStdHandle
@@ -291,6 +299,7 @@ UTF-16LEUNICODE
 UTF-8
 UUUUUU
 UnhandledExceptionFilter
+Unknown exception
 VBaseFileSystem011
 V_AddBackSlashesToSpecialChars
 V_GetErrno
@@ -317,9 +326,11 @@ X/4B
 X360
 [aOni*{
 \\bugbait.valvesoftware.com\bugsub\config.txt
+\fp\vP0I
 \tcQr
 \tkE>fvw
 ^<V7w
+_RDATA
 _V_strncat
 _V_strncmp
 _V_strncpy
@@ -333,10 +344,13 @@ __pascal
 __ptr64
 __restrict
 __stdcall
+__swift_1
+__swift_2
 __thiscall
 __unaligned
 __vectorcall
 `RTTI
+`anonymous namespace'
 `copy constructor closure'
 `default constructor closure'
 `dynamic atexit destructor for '
@@ -373,11 +387,13 @@ __vectorcall
 `virtual displacement map'
 abcdefghijklmnopqrstuvwxyz
 alt_config
+bad exception
 bug_directory
 bugreporter repository
 bugreporter_filequeue
 bugreporter_filequeue.dll
 c:\buildslave\hlvr_rel_win64\build\src\public\ordered_constructor.h
+c:\buildslave\hlvr_rel_win64\build\src\public\tier0\tslist.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlrbtree.h
 c:\buildslave\hlvr_rel_win64\build\src\tier1\mempool.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\utlstring.cpp
@@ -404,6 +420,8 @@ network
 obwQ4
 operator
 operator "" 
+operator co_await
+operator<=>
 owM&
 purecall
 r\tVr.>T
@@ -416,4 +434,3 @@ uzKs@>
 v2!L.2
 vmc.com
 vstdlib.dll
-xpxxxx

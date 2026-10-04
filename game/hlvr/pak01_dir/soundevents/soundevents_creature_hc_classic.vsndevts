@@ -1,12 +1,13 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	NPC_Headcrab.Attack_Latch = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		use_hrtf = 1.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "Headcrabs"
-		occlusion_scale = 0.000000
+		occlusion_scale = 0.0
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_classic/attack_latch.vsnd",
@@ -15,10 +16,10 @@
 	NPC_Headcrab.Detach = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume_falloff_max = 800.000000
+		use_hrtf = 1.0
+		volume_falloff_max = 800.0
 		mixgroup = "Headcrabs"
-		occlusion_scale = 0.000000
+		occlusion_scale = 0.0
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_classic/detach_01.vsnd",
@@ -30,13 +31,13 @@
 	NPC_HeadCrab.Bite = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Headcrabs"
-		occlusion_scale = 0.600000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		volume_falloff_max = 800.000000
-		distance_max = 801.000000
+		occlusion_scale = 0.6
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		volume_falloff_max = 800.0
+		distance_max = 801.0
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_classic/onface/chomp_01.vsnd",
@@ -54,13 +55,13 @@
 	NPC_Headcrab.On_Face_Slobber = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Headcrabs"
-		occlusion_scale = 0.600000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		volume_falloff_max = 800.000000
-		distance_max = 801.000000
+		occlusion_scale = 0.6
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		volume_falloff_max = 800.0
+		distance_max = 801.0
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_classic/onface/slobber_01.vsnd",
@@ -90,14 +91,14 @@
 	NPC_HeadCrab.On_Face_Click = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.5
+		use_hrtf = 1.0
 		mixgroup = "Headcrabs"
-		occlusion_scale = 0.600000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		volume_falloff_max = 800.000000
-		distance_max = 801.000000
+		occlusion_scale = 0.6
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		volume_falloff_max = 800.0
+		distance_max = 801.0
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_classic/onface/click_01.vsnd",
@@ -115,11 +116,11 @@
 	NPC_Headcrab.Bodyfall = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.700000
-		volume_falloff_max = 800.000000
-		distance_max = 801.000000
+		volume = 0.8
+		use_hrtf = 1.0
+		occlusion_scale = 0.7
+		volume_falloff_max = 800.0
+		distance_max = 801.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -134,12 +135,12 @@
 	NPC_Headcrab.Body_Soft = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		pitch = 0.950000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.700000
-		volume_falloff_max = 600.000000
-		distance_max = 601.000000
+		volume = 0.4
+		pitch = 0.95
+		use_hrtf = 1.0
+		occlusion_scale = 0.7
+		volume_falloff_max = 600.0
+		distance_max = 601.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -154,11 +155,11 @@
 	NPC_Headcrab.Jump_Impact = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.700000
-		volume_falloff_max = 800.000000
-		distance_max = 801.000000
+		volume = 0.8
+		use_hrtf = 1.0
+		occlusion_scale = 0.7
+		volume_falloff_max = 800.0
+		distance_max = 801.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -177,11 +178,11 @@
 	NPC_Headcrab.Scurry = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.900000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
+		volume = 0.5
+		use_hrtf = 1.0
+		occlusion_scale = 0.9
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -193,11 +194,11 @@
 	NPC_Headcrab.Slide = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.900000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
+		volume = 0.4
+		use_hrtf = 1.0
+		occlusion_scale = 0.9
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -209,16 +210,16 @@
 	NPC_Headcrab.Step = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.450000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 400.000000
-		distance_max = 401.000000
-		occlusion_scale = 0.900000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 1.000000
+		volume = 0.45
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 400.0
+		distance_max = 401.0
+		occlusion_scale = 0.9
+		limiter_on = 1.0
+		limiter_max = 0.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 1.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -235,16 +236,16 @@
 	NPC_Headcrab.Step_Claw = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 400.000000
-		distance_max = 401.000000
-		occlusion_scale = 0.900000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 1.000000
+		volume = 0.3
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 400.0
+		distance_max = 401.0
+		occlusion_scale = 0.9
+		limiter_on = 1.0
+		limiter_max = 0.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 1.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -261,21 +262,21 @@
 	NPC_Headcrab.Step_Claw_Loud = 
 	{
 		base = "NPC_Headcrab.Step_Claw"
-		volume = 0.600000
-		volume_falloff_max = 500.000000
-		distance_max = 501.000000
+		volume = 0.6
+		volume_falloff_max = 500.0
+		distance_max = 501.0
 	}
 	NPC_Headcrab.Attack_Warning = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 3000.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.9
+		use_hrtf = 1.0
+		volume_falloff_min = 200.0
+		volume_falloff_max = 3000.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "Headcrabs"
-		occlusion_scale = 0.700000
+		occlusion_scale = 0.7
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_classic/vox/attack_warning_01.vsnd",
@@ -287,16 +288,16 @@
 	NPC_Headcrab.Attack_Warning_Growl = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 1500.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		volume_fade_in = 0.500000
-		volume_fade_out = 0.100000
+		volume = 0.7
+		use_hrtf = 1.0
+		volume_falloff_min = 200.0
+		volume_falloff_max = 1500.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		volume_fade_in = 0.5
+		volume_fade_out = 0.1
 		mixgroup = "Headcrabs"
-		occlusion_scale = 0.800000
+		occlusion_scale = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_classic/vox/attack_warning_growl_01.vsnd",
@@ -310,24 +311,24 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "NPC_Headcrab.Attack_Grunt"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "NPC_Headcrab.Attack_Hiss"
-		use_02 = 1.000000
+		use_02 = 1.0
 		soundevent_03 = "NPC_Headcrab.Attack_Jump"
-		use_03 = 1.000000
+		use_03 = 1.0
 		soundevent_04 = "NPC_Headcrab.Attack_Slobber"
-		use_04 = 1.000000
+		use_04 = 1.0
 	}
 	NPC_Headcrab.Attack_Grunt = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		use_hrtf = 1.000000
-		volume_falloff_min = 300.000000
+		volume = 1.2
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		use_hrtf = 1.0
+		volume_falloff_min = 300.0
 		mixgroup = "Headcrabs"
-		occlusion_scale = 0.800000
+		occlusion_scale = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_classic/vox/attack_grunt_01.vsnd",
@@ -341,16 +342,16 @@
 	NPC_Headcrab.Attack_Hiss = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_rand_min = -0.300000
-		volume_rand_max = 0.300000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
-		use_hrtf = 1.000000
+		volume = 0.5
+		volume_rand_min = -0.3
+		volume_rand_max = 0.3
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
+		use_hrtf = 1.0
 		mixgroup = "Headcrabs"
-		occlusion_scale = 0.900000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		occlusion_scale = 0.9
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_classic/vox/attack_hiss_01.vsnd",
@@ -362,14 +363,14 @@
 	NPC_Headcrab.Attack_Jump = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		delay = 0.200000
-		use_hrtf = 1.000000
-		volume_falloff_max = 1000.000000
+		volume = 0.8
+		delay = 0.2
+		use_hrtf = 1.0
+		volume_falloff_max = 1000.0
 		mixgroup = "Headcrabs"
-		occlusion_scale = 0.800000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		occlusion_scale = 0.8
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_classic/movement/jump_attack_whoosh_01.vsnd",
@@ -383,14 +384,14 @@
 	NPC_Headcrab.Attack_Slobber = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 200.000000
-		use_hrtf = 1.000000
+		volume = 0.6
+		volume_falloff_min = 50.0
+		volume_falloff_max = 200.0
+		use_hrtf = 1.0
 		mixgroup = "Headcrabs"
-		occlusion_scale = 0.900000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		occlusion_scale = 0.9
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_classic/vox/attack_slobber_01.vsnd",
@@ -402,17 +403,17 @@
 	NPC_Headcrab.Yawn = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.700000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 1.000000
-		volume_falloff_max = 1500.000000
+		volume = 0.6
+		use_hrtf = 1.0
+		occlusion_scale = 0.7
+		limiter_on = 1.0
+		limiter_max = 0.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 1.0
+		volume_falloff_max = 1500.0
 		mixgroup = "Headcrabs"
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_classic/vox/yawn_01.vsnd",
@@ -426,17 +427,17 @@
 	NPC_Headcrab.Grunt = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.650000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.900000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 800.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.65
+		use_hrtf = 1.0
+		occlusion_scale = 0.9
+		limiter_on = 1.0
+		limiter_max = 0.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 800.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -457,17 +458,17 @@
 	NPC_Headcrab.Grunt_Short = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.900000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 800.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.5
+		use_hrtf = 1.0
+		occlusion_scale = 0.9
+		limiter_on = 1.0
+		limiter_max = 0.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 800.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -487,16 +488,16 @@
 	NPC_Headcrab.Die = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.300000
-		use_distance_delay = 1.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.6
+		use_hrtf = 1.0
+		occlusion_scale = 0.3
+		use_distance_delay = 1.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "Headcrabs"
-		limiter_on = 1.000000
-		limiter_max = 0.000000
-		limiter_match_entity = 1.000000
+		limiter_on = 1.0
+		limiter_max = 0.0
+		limiter_match_entity = 1.0
 		limiter_event_name = "NPC_Headcrab.Attack_Warning_Growl"
 		vsnd_files = 
 		[
@@ -509,15 +510,15 @@
 	NPC_HeadCrab.Pain = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		delay = 0.200000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		occlusion_scale = 0.300000
-		use_hrtf = 1.000000
-		block_duration = 1.500000
+		volume = 0.3
+		delay = 0.2
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		occlusion_scale = 0.3
+		use_hrtf = 1.0
+		block_duration = 1.5
 		block_match_this_event = true
-		block_match_entity = 1.000000
+		block_match_entity = 1.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -536,32 +537,32 @@
 	NPC_HeadCrab.Idle_Anim_CTP = 
 	{
 		type = "hlvr_chance_to_play_parent"
-		chance_to_play = 4.000000
+		chance_to_play = 4.0
 		child_soundevent = "NPC_HeadCrab.Idle_Anim"
 	}
 	NPC_HeadCrab.Idle_Anim_CTP_Walk = 
 	{
 		type = "hlvr_chance_to_play_parent"
-		chance_to_play = 6.000000
+		chance_to_play = 6.0
 		child_soundevent = "NPC_HeadCrab.Idle_Anim"
 	}
 	NPC_HeadCrab.Idle_Anim_CTP_Run = 
 	{
 		type = "hlvr_chance_to_play_parent"
-		chance_to_play = 8.000000
+		chance_to_play = 8.0
 		child_soundevent = "NPC_HeadCrab.Idle_Anim"
 	}
 	NPC_HeadCrab.Idle_Anim = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.700000
-		volume_falloff_max = 800.000000
-		distance_max = 801.000000
+		volume = 0.9
+		use_hrtf = 1.0
+		occlusion_scale = 0.7
+		volume_falloff_max = 800.0
+		distance_max = 801.0
 		mixgroup = "Headcrabs"
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_classic/vox/idle_chirp_01.vsnd",
@@ -584,14 +585,14 @@
 	NPC_HeadCrab.Breath_In = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		use_hrtf = 1.000000
-		occlusion_scale = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 400.000000
-		distance_max = 401.000000
+		volume = 0.4
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		use_hrtf = 1.0
+		occlusion_scale = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 400.0
+		distance_max = 401.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -618,14 +619,14 @@
 	NPC_HeadCrab.Breath_Out = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		use_hrtf = 1.000000
-		occlusion_scale = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 400.000000
-		distance_max = 401.000000
+		volume = 0.4
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		use_hrtf = 1.0
+		occlusion_scale = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 400.0
+		distance_max = 401.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -654,14 +655,14 @@
 		type = "hlvr_start_multi_switch"
 		soundevent_01 = "NPC_HeadCrab.Idle_Anim"
 		soundevent_02 = "NPC_HeadCrab.Breath_Out"
-		soundevent_split = 0.100000
+		soundevent_split = 0.1
 	}
 	NPC_HeadCrab.Run_Switch = 
 	{
 		type = "hlvr_start_multi_switch"
 		soundevent_01 = "NPC_HeadCrab.Idle_Anim"
 		soundevent_02 = "NPC_HeadCrab.Breath_Switch"
-		soundevent_split = 0.100000
+		soundevent_split = 0.1
 	}
 	NPC_HeadCrab.Breath_Switch = 
 	{
@@ -672,10 +673,10 @@
 	NPC_Headcrab.BurrowIn = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		occlusion_scale = 0.700000
+		use_hrtf = 1.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		occlusion_scale = 0.7
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -685,10 +686,10 @@
 	NPC_Headcrab.BurrowOut = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		occlusion_scale = 0.700000
+		use_hrtf = 1.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		occlusion_scale = 0.7
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -699,7 +700,7 @@
 	NPC_Headcrab.Pipe_Emerge = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -707,30 +708,20 @@
 		]
 		reverb_falloff_curve = 
 		[
-			
 			[
-				0.005714,
-				0.300000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.005714, 0.3, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.227125,
-				0.227125,
-				2.000000,
-				3.000000,
+				1.0, 1.0, 0.227125, 0.227125,
+				2.0, 3.0,
 			],
 		]
 	}
 	NPC_Headcrab.Spawn_Oildrum_Fall = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -740,7 +731,7 @@
 	NPC_Headcrab.Spawn_Oildrum_Roll_a = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -750,7 +741,7 @@
 	NPC_Headcrab.Spawn_Oildrum_Roll_b = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -760,7 +751,7 @@
 	NPC_HeadCrab.GlandTearOut = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -770,32 +761,22 @@
 		]
 		reverb_falloff_curve = 
 		[
-			
 			[
-				0.005714,
-				0.300000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.005714, 0.3, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.227125,
-				0.227125,
-				2.000000,
-				3.000000,
+				1.0, 1.0, 0.227125, 0.227125,
+				2.0, 3.0,
 			],
 		]
 	}
 	NPC_HeadCrab.GlandSqueeze = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		use_hrtf = 1.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -808,9 +789,9 @@
 	NPC_HeadCrab.GlandSqueezeDry = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		use_hrtf = 1.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -822,9 +803,9 @@
 	NPC_HeadCrab.GlandDrip = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		use_hrtf = 1.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -836,13 +817,13 @@
 	NPC_Headcrab.Alerted = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.700000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		volume_falloff_max = 1000.000000
-		distance_max = 1000.000000
+		volume = 0.4
+		use_hrtf = 1.0
+		occlusion_scale = 0.7
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		volume_falloff_max = 1000.0
+		distance_max = 1000.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -853,12 +834,12 @@
 	Hideout_NPC_Headcrab.Step = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 200.000000
-		distance_max = 201.000000
-		occlusion_scale = 1.000000
+		volume = 0.2
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 200.0
+		distance_max = 201.0
+		occlusion_scale = 1.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -875,12 +856,12 @@
 	Hideout_NPC_Headcrab.Step_Claw = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 200.000000
-		distance_max = 201.000000
-		occlusion_scale = 1.000000
+		volume = 0.2
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 200.0
+		distance_max = 201.0
+		occlusion_scale = 1.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -897,14 +878,14 @@
 	Hideout_NPC_Headcrab.Angry = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		use_hrtf = 1.000000
-		occlusion_scale = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 250.000000
-		distance_max = 251.000000
+		volume = 0.3
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		use_hrtf = 1.0
+		occlusion_scale = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 250.0
+		distance_max = 251.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -920,14 +901,14 @@
 	Hideout_NPC_Headcrab.Yawn = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		use_hrtf = 1.000000
-		occlusion_scale = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 250.000000
-		distance_max = 251.000000
+		volume = 0.4
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		use_hrtf = 1.0
+		occlusion_scale = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 250.0
+		distance_max = 251.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -942,12 +923,12 @@
 	Hideout_NPC_HeadCrab.Idle = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.150000
-		use_hrtf = 1.000000
-		occlusion_scale = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 250.000000
-		distance_max = 251.000000
+		volume = 0.15
+		use_hrtf = 1.0
+		occlusion_scale = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 250.0
+		distance_max = 251.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -971,14 +952,14 @@
 	Hideout_NPC_Headcrab.Grunt = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.150000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		use_hrtf = 1.000000
-		occlusion_scale = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 250.000000
-		distance_max = 251.000000
+		volume = 0.15
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		use_hrtf = 1.0
+		occlusion_scale = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 250.0
+		distance_max = 251.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -995,14 +976,14 @@
 	Hideout_NPC_Headcrab.Grunt_Short = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.150000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		use_hrtf = 1.000000
-		occlusion_scale = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 250.000000
-		distance_max = 251.000000
+		volume = 0.15
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		use_hrtf = 1.0
+		occlusion_scale = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 250.0
+		distance_max = 251.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -1017,13 +998,13 @@
 	Hideout_NPC_Headcrab.Bold_React_Snap = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		use_hrtf = 1.000000
-		occlusion_scale = 1.000000
-		volume_falloff_max = 300.000000
-		distance_max = 301.000000
+		volume = 0.3
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		use_hrtf = 1.0
+		occlusion_scale = 1.0
+		volume_falloff_max = 300.0
+		distance_max = 301.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -1044,13 +1025,13 @@
 	Hideout_NPC_Headcrab.Scared_React_Scream = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		use_hrtf = 1.000000
-		occlusion_scale = 1.000000
-		volume_falloff_max = 300.000000
-		distance_max = 301.000000
+		volume = 0.4
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		use_hrtf = 1.0
+		occlusion_scale = 1.0
+		volume_falloff_max = 300.0
+		distance_max = 301.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -1061,14 +1042,14 @@
 	Hideout_NPC_Headcrab.Scared_Backoff = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 250.000000
-		distance_max = 301.000000
-		occlusion_scale = 1.000000
+		volume = 0.2
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 250.0
+		distance_max = 301.0
+		occlusion_scale = 1.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -1078,14 +1059,14 @@
 	Hideout_NPC_Headcrab.Scared_Cower = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		use_hrtf = 1.000000
-		occlusion_scale = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 250.000000
-		distance_max = 301.000000
+		volume = 0.3
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		use_hrtf = 1.0
+		occlusion_scale = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 250.0
+		distance_max = 301.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -1095,14 +1076,14 @@
 	Hideout_NPC_Headcrab.Scared_Cower_Swipe_Grunt = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		use_hrtf = 1.000000
-		occlusion_scale = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 250.000000
-		distance_max = 301.000000
+		volume = 0.2
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		use_hrtf = 1.0
+		occlusion_scale = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 250.0
+		distance_max = 301.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -1112,14 +1093,14 @@
 	Hideout_NPC_Headcrab.Scared_Whimper = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.080000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		use_hrtf = 1.000000
-		occlusion_scale = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 250.000000
-		distance_max = 301.000000
+		volume = 0.08
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		use_hrtf = 1.0
+		occlusion_scale = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 250.0
+		distance_max = 301.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -1131,14 +1112,14 @@
 	Hideout_NPC_Headcrab.Scared_Move_Coverup = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		use_hrtf = 1.000000
-		occlusion_scale = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 250.000000
-		distance_max = 301.000000
+		volume = 0.2
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		use_hrtf = 1.0
+		occlusion_scale = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 250.0
+		distance_max = 301.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -1148,14 +1129,14 @@
 	Hideout_NPC_Headcrab.Scared_Move_Swipe = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		use_hrtf = 1.000000
-		occlusion_scale = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 250.000000
-		distance_max = 301.000000
+		volume = 0.4
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		use_hrtf = 1.0
+		occlusion_scale = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 250.0
+		distance_max = 301.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -1165,12 +1146,12 @@
 	Hideout_NPC_Headcrab.Scurry = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.100000
-		use_hrtf = 1.000000
-		occlusion_scale = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 250.000000
-		distance_max = 301.000000
+		volume = 0.1
+		use_hrtf = 1.0
+		occlusion_scale = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 250.0
+		distance_max = 301.0
 		mixgroup = "Headcrabs"
 		vsnd_files = 
 		[
@@ -1183,237 +1164,122 @@
 	{
 		type = "hlvr_update_vo_default"
 		vsnd_duration = 56.175217
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_classic/scripted/danger_01.vsnd",
 		]
 		volume_falloff_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				-0.000884,
-				-0.000884,
-				1.000000,
-				1.000000,
+				0.0, 1.0, -0.000884, -0.000884,
+				1.0, 1.0,
 			],
-			
 			[
-				66.282417,
-				0.941392,
-				-0.000884,
-				-0.000884,
-				0.000000,
-				3.000000,
+				66.282417, 0.941392, -0.000884, -0.000884,
+				0.0, 3.0,
 			],
-			
 			[
-				331.412109,
-				0.494505,
-				-0.001008,
-				-0.001008,
-				1.000000,
-				1.000000,
+				331.412109, 0.494505, -0.001008, -0.001008,
+				1.0, 1.0,
 			],
-			
 			[
-				1000.000000,
-				0.000000,
-				-0.000200,
-				-0.000200,
-				2.000000,
-				3.000000,
+				1000.0, 0.0, -0.0002, -0.0002,
+				2.0, 3.0,
 			],
 		]
 		reverb_falloff_curve = 
 		[
-			
 			[
-				0.000000,
-				0.296703,
-				0.000662,
-				0.000662,
-				1.000000,
-				1.000000,
+				0.0, 0.296703, 0.000662, 0.000662,
+				1.0, 1.0,
 			],
-			
 			[
-				337.367401,
-				0.520147,
-				0.000659,
-				0.000659,
-				2.000000,
-				3.000000,
+				337.367401, 0.520147, 0.000659, 0.000659,
+				2.0, 3.0,
 			],
-			
 			[
-				807.355103,
-				1.000000,
-				0.002125,
-				0.002125,
-				2.000000,
-				3.000000,
+				807.355103, 1.0, 0.002125, 0.002125,
+				2.0, 3.0,
 			],
 		]
 		eq1_falloff_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				-0.000116,
-				0.000000,
-				0.000000,
+				0.0, 1.0, 0.0, -0.000116,
+				0.0, 0.0,
 			],
-			
 			[
-				78.905525,
-				0.990824,
-				-0.000116,
-				-0.002804,
-				0.000000,
-				0.000000,
+				78.905525, 0.990824, -0.000116, -0.002804,
+				0.0, 0.0,
 			],
-			
 			[
-				290.276886,
-				0.398041,
-				-0.002804,
-				-0.000561,
-				0.000000,
-				0.000000,
+				290.276886, 0.398041, -0.002804, -0.000561,
+				0.0, 0.0,
 			],
-			
 			[
-				1000.000000,
-				0.000000,
-				-0.000561,
-				0.000000,
-				0.000000,
-				0.000000,
+				1000.0, 0.0, -0.000561, 0.0,
+				0.0, 0.0,
 			],
 		]
 		eq2_falloff_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				-0.000116,
-				-0.000116,
-				1.000000,
-				1.000000,
+				0.0, 1.0, -0.000116, -0.000116,
+				1.0, 1.0,
 			],
-			
 			[
-				78.905525,
-				0.990824,
-				-0.000116,
-				-0.002804,
-				0.000000,
-				0.000000,
+				78.905525, 0.990824, -0.000116, -0.002804,
+				0.0, 0.0,
 			],
-			
 			[
-				290.276886,
-				0.398041,
-				-0.002804,
-				-0.000561,
-				0.000000,
-				0.000000,
+				290.276886, 0.398041, -0.002804, -0.000561,
+				0.0, 0.0,
 			],
-			
 			[
-				1000.000000,
-				0.000000,
-				-0.000561,
-				0.000000,
-				0.000000,
-				0.000000,
+				1000.0, 0.0, -0.000561, 0.0,
+				0.0, 0.0,
 			],
 		]
 		eq3_falloff_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				-0.012673,
-				0.000000,
-				0.000000,
+				0.0, 1.0, 0.0, -0.012673,
+				0.0, 0.0,
 			],
-			
 			[
-				78.905525,
-				0.000000,
-				-0.012673,
-				0.000000,
-				0.000000,
-				0.000000,
+				78.905525, 0.0, -0.012673, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				290.276886,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				290.276886, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				1000.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				1000.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		radio_falloff_curve = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				810.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				810.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		hrtf_falloff_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				81.153725,
-				1.000000,
-				0.000522,
-				0.000522,
-				2.000000,
-				3.000000,
+				81.153725, 1.0, 0.000522, 0.000522,
+				2.0, 3.0,
 			],
 		]
 	}

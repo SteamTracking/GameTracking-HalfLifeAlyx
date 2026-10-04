@@ -7,27 +7,19 @@
 
 	<ClientUIDialogPanel class="RootPanel">
 		<HLVRCommentaryHUD class="CommentaryHUD" id="CommentaryHUD">
-      <Panel class ="PlayBox" id="Play">
-        <Panel class ="PlayBoxInternal">
-          <Panel class ="PlayBoxIcon" />
-        </Panel>
-      </Panel>
       <Panel class ="CurrentNodeBox">
         <Panel class ="CurrentNodeInternal">
           <Panel class ="CurrentNodeTitleLine">
-            <Label class="CurrentNodeTitleText" id="NodeCount" text="{s:NodeCount}" />
-            <Label class="CurrentNodeTitleText" id="Separator" text="-" />
-            <Label class="CurrentNodeTitleText" id="NodeAuthor" text="{s:NodeAuthor}" />
-            <Panel class ="CurrentNodeIcon" />
+            <Label class="CurrentNodeCountText" id="NodeCount" text="{i:NodeCount}/{i:NodeCountMax} - " />
+            <Label class="CurrentNodeTitleText" id="NodeTitle" text="{s:NodeTitle}" />
+            <Panel class ="CurrentNodeIcon"><Image class="CurrentNodeIcon" src="s2r://panorama/images/commentary_icon_png.vtex" /></Panel>
+          </Panel>
+          <Panel class ="CurrentNodeTitleLine">
+            <Label class="CurrentNodeAuthorText" id="NodeAuthor" text="{s:NodeAuthor}" />
           </Panel>
           <Panel class ="CurrentNodeProgressBox">
             <ProgressBar id="CurrentNodeProgressBar" min="0" max="1" />
           </Panel>
-        </Panel>
-      </Panel>
-      <Panel class ="PlayBox" id="Stop">
-        <Panel class ="PlayBoxInternal">
-          <Panel class ="PlayBoxIcon" />
         </Panel>
       </Panel>
 		</HLVRCommentaryHUD>

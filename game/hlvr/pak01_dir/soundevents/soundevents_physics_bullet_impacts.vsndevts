@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	PhysBullet.Default = 
 	{
@@ -7,8 +8,8 @@
 	PhysBullet.Default_Core = 
 	{
 		type = "hlvr_bullet_impact"
-		volume_mult_02 = 0.700000
-		volume_mult_debris = 0.100000
+		volume_mult_02 = 0.7
+		volume_mult_debris = 0.1
 		vsnd_files_01 = 
 		[
 			"sounds/physics/bullet_impacts/default_concrete_rock_01.vsnd",
@@ -62,7 +63,7 @@
 	PhysBullet.Concrete_Core = 
 	{
 		base = "PhysBullet.Default_Core"
-		volume_mult_debris = 0.250000
+		volume_mult_debris = 0.25
 		vsnd_files_debris = 
 		[
 			"sounds/physics/bullet_impact_debris/debris_concrete_01.vsnd",
@@ -91,7 +92,7 @@
 	PhysBullet.Dirt_Core = 
 	{
 		base = "PhysBullet.Default_Core"
-		volume_mult_debris = 0.250000
+		volume_mult_debris = 0.25
 		vsnd_files_01 = 
 		[
 			"sounds/physics/bullet_impacts/dirt_01.vsnd",
@@ -124,7 +125,7 @@
 	PhysBullet.Mud_Dry_Core = 
 	{
 		base = "PhysBullet.Default_Core"
-		volume_mult_debris = 0.250000
+		volume_mult_debris = 0.25
 		vsnd_files_01 = 
 		[
 			"sounds/physics/bullet_impacts/mud_01.vsnd",
@@ -178,8 +179,8 @@
 	PhysBullet.Sand_Core = 
 	{
 		type = "hlvr_bullet_impact"
-		volume_mult_02 = 0.300000
-		volume_mult_debris = 0.200000
+		volume_mult_02 = 0.3
+		volume_mult_debris = 0.2
 		vsnd_files_01 = 
 		[
 			"sounds/physics/bullet_impacts/sand_01.vsnd",
@@ -233,7 +234,7 @@
 	PhysBullet.Plastic_Core = 
 	{
 		base = "PhysBullet.Default_Core"
-		volume_mult_debris = 0.250000
+		volume_mult_debris = 0.25
 		vsnd_files_01 = 
 		[
 			"sounds/physics/bullet_impacts/plastic_01.vsnd",
@@ -274,7 +275,7 @@
 	PhysBullet.Cardboard_Core = 
 	{
 		type = "hlvr_bullet_impact"
-		volume_mult_02 = 0.700000
+		volume_mult_02 = 0.7
 		vsnd_files_01 = 
 		[
 			"sounds/physics/bullet_impacts/cardboard_01.vsnd",
@@ -327,9 +328,9 @@
 	PhysBullet.Water_Core = 
 	{
 		type = "hlvr_bullet_impact"
-		volume_mult_01 = 0.900000
-		volume_mult_02 = 0.250000
-		volume_mult_debris = 0.350000
+		volume_mult_01 = 0.9
+		volume_mult_02 = 0.25
+		volume_mult_debris = 0.35
 		vsnd_files_01 = 
 		[
 			"sounds/physics/bullet_impacts/water_01.vsnd",
@@ -383,9 +384,9 @@
 	PhysBullet.Glass_Core = 
 	{
 		type = "hlvr_bullet_impact"
-		volume_mult_01 = 1.200000
-		volume_mult_02 = 0.700000
-		volume_mult_debris = 0.450000
+		volume_mult_01 = 1.2
+		volume_mult_02 = 0.7
+		volume_mult_debris = 0.45
 		vsnd_files_01 = 
 		[
 			"sounds/physics/bullet_impacts/glass_01.vsnd",
@@ -442,7 +443,7 @@
 	PhysBullet.Pottery_Core = 
 	{
 		type = "hlvr_bullet_impact"
-		volume_mult_02 = 0.700000
+		volume_mult_02 = 0.7
 		vsnd_files_01 = 
 		[
 			"sounds/physics/bullet_impacts/pottery_01.vsnd",
@@ -495,7 +496,7 @@
 	PhysBullet.Metal_Solid_Core = 
 	{
 		type = "hlvr_bullet_impact"
-		volume_mult_02 = 0.700000
+		volume_mult_02 = 0.7
 		vsnd_files_01 = 
 		[
 			"sounds/physics/bullet_impacts/metal_01.vsnd",
@@ -588,7 +589,7 @@
 	PhysBullet.Wood_Core = 
 	{
 		base = "PhysBullet.Default_Core"
-		volume_mult_debris = 0.250000
+		volume_mult_debris = 0.25
 		vsnd_files_01 = 
 		[
 			"sounds/physics/bullet_impacts/wood_01.vsnd",
@@ -640,8 +641,8 @@
 	PhysBullet.Prop_Flesh_Core = 
 	{
 		type = "hlvr_bullet_impact"
-		volume_mult_01 = 0.800000
-		volume_mult_02 = 0.800000
+		volume_mult_01 = 0.8
+		volume_mult_02 = 0.8
 		vsnd_files_01 = 
 		[
 			"sounds/physics/bullet_impacts/flavor_flesh_01.vsnd",
@@ -679,17 +680,17 @@
 		type = "hlvr_start_multi_bullet"
 		soundevent_core = "PhysBullet.NPC_Flesh_Core"
 		soundevent_damage = "DamageNPC.Bullet"
-		use_soundevent_damage = 1.000000
+		use_soundevent_damage = 1.0
 	}
 	PhysBullet.NPC_Flesh_Core = 
 	{
 		base = "PhysBullet.Prop_Flesh_Core"
-		volume_mult_01 = 0.700000
-		volume_mult_02 = 0.900000
-		volume_mult_03 = 0.900000
-		volume_mult_damage_01 = 0.700000
-		volume_mult_damage_02 = 1.000000
-		volume_mult_damage_03 = 1.000000
+		volume_mult_01 = 0.7
+		volume_mult_02 = 0.9
+		volume_mult_03 = 0.9
+		volume_mult_damage_01 = 0.7
+		volume_mult_damage_02 = 1.0
+		volume_mult_damage_03 = 1.0
 		vsnd_files_03 = 
 		[
 			"sounds/physics/bullet_impacts/flesh_npc_01.vsnd",
@@ -734,22 +735,22 @@
 	PhysBullet.NPC_Antlion_No_Damage = 
 	{
 		base = "PhysBullet.Prop_Flesh_Core"
-		volume_mult_01 = 0.800000
-		volume_mult_02 = 0.800000
-		volume_mult_damage_01 = 0.400000
-		volume_mult_damage_02 = 0.400000
+		volume_mult_01 = 0.8
+		volume_mult_02 = 0.8
+		volume_mult_damage_01 = 0.4
+		volume_mult_damage_02 = 0.4
 	}
 	PhysBullet.NPC_Manhack = 
 	{
 		type = "hlvr_start_multi_bullet"
 		soundevent_core = "PhysBullet.NPC_Manhack_Core"
 		soundevent_damage = "DamageNPC.Bullet_Mech"
-		use_soundevent_damage = 1.000000
+		use_soundevent_damage = 1.0
 	}
 	PhysBullet.NPC_Manhack_Core = 
 	{
 		type = "hlvr_bullet_impact"
-		volume_mult_damage_01 = 1.400000
+		volume_mult_damage_01 = 1.4
 		vsnd_files_01 = 
 		[
 			"sounds/physics/bullet_impacts/manhack_01.vsnd",
@@ -770,9 +771,9 @@
 	PhysBullet.NPC_Armor_Core = 
 	{
 		type = "hlvr_bullet_impact"
-		volume_mult_01 = 1.200000
-		volume_mult_02 = 0.700000
-		chance_to_play_ricochet = 0.700000
+		volume_mult_01 = 1.2
+		volume_mult_02 = 0.7
+		chance_to_play_ricochet = 0.7
 		vsnd_files_01 = 
 		[
 			"sounds/physics/bullet_impacts/npc_armor_01.vsnd",
@@ -822,11 +823,11 @@
 	PhysBullet.NPC_Charger_Shield_Core = 
 	{
 		type = "hlvr_bullet_impact"
-		volume = 1.100000
-		pitch = 0.900000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.050000
-		chance_to_play_ricochet = 0.700000
+		volume = 1.1
+		pitch = 0.9
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.05
+		chance_to_play_ricochet = 0.7
 		vsnd_files_01 = 
 		[
 			"sounds/physics/bullet_impacts/npc_charger_shield_01.vsnd",
@@ -842,8 +843,8 @@
 	PhysBullet.Revived_Zombie_Flesh = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.100000
-		use_distance_delay = 1.000000
+		volume = 0.1
+		use_distance_delay = 1.0
 		mixgroup = "BulletImpacts"
 		vsnd_files = 
 		[
@@ -860,8 +861,8 @@
 	PhysBullet.BlindZombie = 
 	{
 		type = "src1_2d"
-		volume = 1.000000
-		delay = 0.100000
+		volume = 1.0
+		delay = 0.1
 		mixgroup = "BulletImpacts"
 		vsnd_files = 
 		[
@@ -873,11 +874,11 @@
 	PhysBullet.Ricochet = 
 	{
 		type = "hlvr_bullet_ricochet"
-		volume = 0.400000
-		volume_rand_min = -0.150000
-		volume_rand_max = 0.250000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
+		volume = 0.4
+		volume_rand_min = -0.15
+		volume_rand_max = 0.25
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
 		vsnd_files = 
 		[
 			"sounds/physics/bullet_impacts/ricochet_01.vsnd",

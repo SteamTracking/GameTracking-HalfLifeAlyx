@@ -489,7 +489,7 @@ message CUserMsg_ParticleManager {
 	optional .CUserMsg_ParticleManager.SetSceneObjectGenericFlag set_scene_object_generic_flag = 24;
 	optional .CUserMsg_ParticleManager.SetSceneObjectTintAndDesat set_scene_object_tint_and_desat = 25;
 
-	extensions 100 to 201;
+	extensions 100 to 200;
 }
 
 message CUserMsg_HudError {

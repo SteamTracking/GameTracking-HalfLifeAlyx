@@ -14,8 +14,6 @@
        Mip filter "%s": 
      - Found DXT5 texture with solid 255 alpha! Saving as a DXT1!\n
      image %d uv0=%f %f uv1=%f %f\n
-    %u iterated blocks\n
-    %u unfinished blocks\n
     Component %d: %dhx%dv q=%d
     Component %d: dc=%d ac=%d
     with %d x %d thumbnail image
@@ -95,6 +93,7 @@
  : unexpected input...\n  expected one of : 
  <- %4.1fMB %s\n
  <- [FAIL] %s - Code %d \n
+ BCMapPathNode CUtlMemoryPool
  Base Class Array'
  Base Class Descriptor at (
  C>TQ
@@ -117,7 +116,6 @@
  [curvetype %s]\n
  \t\n\r@()[]{}=&,:*|;'!
  bad channel name '%c'\n
- but running with 
  center %f %f scale %f %f rotate %f translate %f %f
  centered on the monitor\n
  clean
@@ -128,10 +126,8 @@
  new
  receiver regenerated
  uncorrected errors
-!1AQaq
 != (or missing)
 !AxU
-!GnA
 "%s" "%.10f"\n
 "%s" "[ %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f ]"\n
 "%s" "[ %f %f %f %f ]"\n
@@ -141,7 +137,6 @@
 "%s" = "%s"\n
 "%s": Bad mode
 "%s": Information lost writing value (%g) as (unsigned) RATIONAL
-"2BRbr
 "ActBusy.txt"\n
 "GAMEROOT" search path not set!\n
 "Predictor" value %d not supported
@@ -162,7 +157,6 @@
 "screenWindowWidth" attribute not found in the header.
 # of channels is zero.\n
 #%s_Title
-#3CScs
 #9fm
 #AppFramework_InvalidLocalFiles
 #AppFramework_OutOfMemory
@@ -177,7 +171,6 @@
 #include
 #include is NULL 
 #line
-$4DTdt
 $Ib?s
 $prefix_attribute$
 $prefix_element$
@@ -196,10 +189,8 @@ $prefix_element$
 %05d,     0x%p,     %5d,      '%s'\n
 %06d
 %08x
-%1t7
 %2d:%02d
 %30s\t\t%5d\t\t%5d\n
-%5EUeu
 %d %d %d %d
 %d (s/n %d)
 %d components
@@ -346,21 +337,18 @@ $prefix_element$
 %ssdktools\bin\kubejobsc.exe
 %ssdktools\bin\kubejobsw.exe
 %suncompressed data
-&6FVfv
 &?PPPPPPP?
 &Sgw
+&\nFx+\n;h,\n)
 '%s' is not a valid variable type
-'7GWgw
 'OverrideClass' was specified but class '%s' has not been previously defined.\n
+'\nQx,\nFh-\n)
 'exists'
 'return'
-( 8PX
 ($key_name)
 ($key_value)
 (%d)pin: %s
 (%d,%d,%d,%d
-('8PW
-(8HXhx
 (None)
 (On the line reading %s):\n
 (Steam Audio) Appended %d probes from the map. Total probes = %d.\n
@@ -368,8 +356,6 @@ $prefix_element$
 (channel = 
 (end of input).\n\t This indicates a poorly specified lexer RULE\n\t or unterminated input element such as: "STRING["]\n
 (null)
-)2STud>
-)9IYiy
 )yIx
 * - Match Any
 *** ASSERT DURING RESOURCE COMPILE ***\n%s\n
@@ -411,10 +397,8 @@ $prefix_element$
 */visuals/*/
 */visuals/alternate_icons/*/icon_path
 *5KS
-*:JZjz
 *LANGUAGE*
 *StO9>T
-*VVw
 *extraFilterString=tileset
 +inf
 , at offset %d
@@ -558,68 +542,33 @@ $prefix_element$
 .00cfg
 .>\rfJBGo
 .?AU?$This_T_Decorator@VCTrajectoryPathNode@@@@
-.?AU?$_InitialTaskHandle@XV<lambda_5a9ef80d79df7873994019ff15dceae5>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@
-.?AU?$_InitialTaskHandle@XV<lambda_60c5de84e69e46aa92419d47e2f3ad51>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@
-.?AU?$_InitialTaskHandle@XV<lambda_85226a1ade6d27c19b16702c44b1a394>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@
-.?AU?$_InitialTaskHandle@XV<lambda_e7905d7dbd7cab7f9b19199433c4f5d3>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@
-.?AU?$_PPLTaskHandle@EU?$_InitialTaskHandle@XV<lambda_5a9ef80d79df7873994019ff15dceae5>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@U_TaskProcHandle@details@3@@details@Concurrency@@
-.?AU?$_PPLTaskHandle@EU?$_InitialTaskHandle@XV<lambda_60c5de84e69e46aa92419d47e2f3ad51>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@U_TaskProcHandle@details@3@@details@Concurrency@@
-.?AU?$_PPLTaskHandle@EU?$_InitialTaskHandle@XV<lambda_85226a1ade6d27c19b16702c44b1a394>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@U_TaskProcHandle@details@3@@details@Concurrency@@
-.?AU?$_PPLTaskHandle@EU?$_InitialTaskHandle@XV<lambda_e7905d7dbd7cab7f9b19199433c4f5d3>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@U_TaskProcHandle@details@3@@details@Concurrency@@
-.?AU?$_Task_impl@E@details@Concurrency@@
 .?AUICompressCoder@@
 .?AUICompressSetCoderProperties@@
 .?AUICompressSetOutStream@@
 .?AUICompressWriteCoderProperties@@
-.?AUIExecutionContext@Concurrency@@
-.?AUIExecutionResource@Concurrency@@
 .?AUIInWindowStream@@
 .?AUIMatchFinder@@
 .?AUIMatchFinderSetNumPasses@@
-.?AUIResourceManager@Concurrency@@
-.?AUIScheduler@Concurrency@@
-.?AUISchedulerProxy@Concurrency@@
 .?AUISequentialInStream@@
 .?AUISequentialOutStream@@
-.?AUIThreadProxy@Concurrency@@
-.?AUIThreadProxyFactory@details@Concurrency@@
-.?AUITopologyExecutionResource@Concurrency@@
-.?AUITopologyNode@Concurrency@@
 .?AUIUnknown@@
-.?AUIVirtualProcessorRoot@Concurrency@@
-.?AUTopologyObject@GlobalCore@details@Concurrency@@
-.?AUTopologyObject@GlobalNode@details@Concurrency@@
-.?AU_Anon@?$_Associated_state@H@std@@
-.?AU_Anon@?$_Associated_state@I@std@@
-.?AU_Chore@details@Concurrency@@
 .?AU_Crt_new_delete@std@@
-.?AU_TaskProcHandle@details@Concurrency@@
-.?AU_Task_impl_base@details@Concurrency@@
 .?AUctype_base@std@@
-.?AUscheduler_interface@Concurrency@@
-.?AV<lambda_0760b0e512ddddebef09f948d4dd4071>@@
-.?AV<lambda_370fa937642818b179c4e2d6c5ebd48d>@@
-.?AV<lambda_54fedc5b46335bf25c7b076395d32c74>@@
-.?AV<lambda_5551af60b14f00cdfaa7537c8253bf4a>@@
-.?AV<lambda_5a9ef80d79df7873994019ff15dceae5>@@
-.?AV<lambda_5d1e501df15b28cc6f8f9514b0556e50>@@
-.?AV<lambda_60c5de84e69e46aa92419d47e2f3ad51>@@
-.?AV<lambda_63a4bffa0019ddfb7183ea09b8bcde8b>@@
-.?AV<lambda_713ee8bbd6b08550d59c52695cab5ce3>@@
-.?AV<lambda_763529b0c7473cbc215a52d189ac9b18>@@
-.?AV<lambda_7a64351339404d7c272e9cbb666424bc>@@
-.?AV<lambda_84f963861dffe6b6b7a4cba1c7a1dfac>@@
-.?AV<lambda_85226a1ade6d27c19b16702c44b1a394>@@
-.?AV<lambda_ad753c1e821d108e1a311dfa79cd9d31>@@
-.?AV<lambda_b941524bda65c007b960207a584dce78>@@
-.?AV<lambda_dc37bdb35edf75872f22ec4c6cad54c3>@@
-.?AV<lambda_df9f2652f459d0e67aa7e6dc86a6fa52>@@
-.?AV<lambda_e0b623a606acfd10554dbddbb0c1a7da>@@
-.?AV<lambda_e7905d7dbd7cab7f9b19199433c4f5d3>@@
-.?AV<lambda_f25c37099038263181b5186a3fa41b37>@@
-.?AV<lambda_fac74c1338e5afbc2423a21681fc11b7>@@
-.?AV<lambda_fd71c935fd7795d0ff8d159bddfc1ad2>@@
-.?AV<lambda_fe27f7a47376988b07f380e0ed8248be>@@
+.?AV<lambda_1>@?1???$ConvertFromBC6h@UBGRA8888_t@@$00@ImageLoader@@YA_NPEBEPEAUBGRA8888_t@@HH@Z@
+.?AV<lambda_1>@?1???$ConvertFromBC6h@URGBA32323232F_t@@$0A@@ImageLoader@@YA_NPEBEPEAURGBA32323232F_t@@HH@Z@
+.?AV<lambda_1>@?1???$ConvertFromBC6h@URGBA8888_t@@$00@ImageLoader@@YA_NPEBEPEAURGBA8888_t@@HH@Z@
+.?AV<lambda_1>@?1???$ConvertFromBC7@UBGRA8888_t@@@ImageLoader@@YA_NPEBEPEAUBGRA8888_t@@HH@Z@
+.?AV<lambda_1>@?1???$ConvertFromBC7@URGBA8888_t@@@ImageLoader@@YA_NPEBEPEAURGBA8888_t@@HH@Z@
+.?AV<lambda_1>@?1??CleanupIntermediateCruft@CMapBuilderContext@@AEAAXXZ@
+.?AV<lambda_1>@?1??ClearIntermediateDirectory@CMapBuilderContext@@UEAAXPEBD@Z@
+.?AV<lambda_1>@?1??CompileAllShadersForStaticCombo@@YA_N_KAEAVCVfxStaticComboData@@AEAVCVfx@@W4VfxProgram_t@@PEAVIVfx@@@Z@
+.?AV<lambda_1>@?1??Restart@CNewParticleEffect@@QEAAXXZ@
+.?AV<lambda_1>@?1??SetupMaterialSystem@CMaterialSystem2AppSystemDict@@AEAA_NXZ@
+.?AV<lambda_1>@?1??StopEmission@CNewParticleEffect@@QEAAX_N000@Z@
+.?AV<lambda_1>@?5??ApplyMarkupFromNavGenInput@CNavMesh@@AEAAXXZ@
+.?AV<lambda_1>@?8??WriteToBufferBC6H@FloatBitMap_t@@QEBA_NPEAX_KW4ImageFormat@@_N3@Z@
+.?AV<lambda_1>@?8??WriteToBufferBC7@FloatBitMap_t@@QEBA_NPEAX_KW4ImageFormat@@_N3@Z@
+.?AV<lambda_1>@?BI@??SyncClothState@CPhysicsModel@@AEAAXI@Z@
 .?AV?$CBaseAppSystem@VIAppSystem@@@@
 .?AV?$CBaseAppSystem@VIApplication@@@@
 .?AV?$CBaseAppSystem@VIDataModel@@@@
@@ -959,8 +908,7 @@ $prefix_element$
 .?AV?$CEntityComponentHelperReferenced@VCScriptComponent@@@@
 .?AV?$CEntityComponentHelperT@VCScriptComponent@@V?$CEntityComponentHelperReferenced@VCScriptComponent@@@@@@
 .?AV?$CMemberFunctor0@PEAVCP4FileInfoCache@@P81@EAAXXZV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
-.?AV?$CMemberFunctor0@PEAVCParticleJobUpdater@?A0xa300dbff@@P812@EAAXXZV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
-.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_2d9e57603846de8b5694c16539ed7475>@@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
+.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_1>@?8??SimulateParticles@CParticleMgr@@AEAAXAEAV?$CUtlVectorFixedGrowableCompat@UParticleSimListItem_t@CParticleMgr@@$0CAA@@@@Z@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CParallelLoopProcessor@UFloatBitmapResampleInfo_t@@V?$CLoopFuncJobItemProcessor@UFloatBitmapResampleInfo_t@@@@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CParallelLoopProcessor@VFloatBitMap_t@@V?$CLoopMemberFuncJobItemProcessor@VFloatBitMap_t@@V1@V1@@@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CParallelProcessor@HV?$CLambdaJobItemProcessor@H@@$00@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
@@ -1197,60 +1145,27 @@ $prefix_element$
 .?AV?$IOpCodeHandler@H@@
 .?AV?$IOpEvaluator@H@@
 .?AV?$ISceneObjectDescBase@VCVertexListSceneObject@@@@
-.?AV?$ThreadProxyFactory@VFreeThreadProxy@details@Concurrency@@@details@Concurrency@@
-.?AV?$_Associated_state@H@std@@
-.?AV?$_Associated_state@I@std@@
-.?AV?$_CancellationTokenCallback@V<lambda_be3e5d9dce35d2c8dbfa8485373731d5>@@@details@Concurrency@@
-.?AV?$_Deferred_async_state@I@std@@
-.?AV?$_Deferred_async_state@X@std@@
-.?AV?$_Fake_no_copy_callable_adapter@P8Image@Etc@@EAAIIII@ZQEAV12@AEAIAEAHAEAI@std@@
-.?AV?$_Fake_no_copy_callable_adapter@P8Image@Etc@@EAAXII@ZQEAV12@AEAHAEAI@std@@
-.?AV?$_Func_base@E$$V@std@@
-.?AV?$_Func_base@I$$V@std@@
 .?AV?$_Func_base@X$$V@std@@
 .?AV?$_Func_base@XAEAH@std@@
 .?AV?$_Func_base@_NPEAVCNavArea@@@std@@
 .?AV?$_Func_base@_NPEBD@std@@
 .?AV?$_Func_base@_NVCUtlStringToken@@@std@@
-.?AV?$_Func_impl@V<lambda_0760b0e512ddddebef09f948d4dd4071>@@V?$allocator@H@std@@XAEAH@std@@
-.?AV?$_Func_impl@V<lambda_370fa937642818b179c4e2d6c5ebd48d>@@V?$allocator@H@std@@_NPEAVCNavArea@@@std@@
-.?AV?$_Func_impl@V<lambda_54fedc5b46335bf25c7b076395d32c74>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_5551af60b14f00cdfaa7537c8253bf4a>@@V?$allocator@H@std@@XAEAH@std@@
-.?AV?$_Func_impl@V<lambda_5a9ef80d79df7873994019ff15dceae5>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_5d1e501df15b28cc6f8f9514b0556e50>@@V?$allocator@H@std@@XAEAH@std@@
-.?AV?$_Func_impl@V<lambda_60c5de84e69e46aa92419d47e2f3ad51>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_63a4bffa0019ddfb7183ea09b8bcde8b>@@V?$allocator@H@std@@XAEAH@std@@
-.?AV?$_Func_impl@V<lambda_713ee8bbd6b08550d59c52695cab5ce3>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_763529b0c7473cbc215a52d189ac9b18>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_7a64351339404d7c272e9cbb666424bc>@@V?$allocator@H@std@@XAEAH@std@@
-.?AV?$_Func_impl@V<lambda_84f963861dffe6b6b7a4cba1c7a1dfac>@@V?$allocator@H@std@@_NVCUtlStringToken@@@std@@
-.?AV?$_Func_impl@V<lambda_85226a1ade6d27c19b16702c44b1a394>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_ad753c1e821d108e1a311dfa79cd9d31>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_b941524bda65c007b960207a584dce78>@@V?$allocator@H@std@@XAEAH@std@@
-.?AV?$_Func_impl@V<lambda_dc37bdb35edf75872f22ec4c6cad54c3>@@V?$allocator@H@std@@XAEAH@std@@
-.?AV?$_Func_impl@V<lambda_df9f2652f459d0e67aa7e6dc86a6fa52>@@V?$allocator@H@std@@_NPEBD@std@@
-.?AV?$_Func_impl@V<lambda_e0b623a606acfd10554dbddbb0c1a7da>@@V?$allocator@H@std@@E$$V@std@@
-.?AV?$_Func_impl@V<lambda_e7905d7dbd7cab7f9b19199433c4f5d3>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_f25c37099038263181b5186a3fa41b37>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_fac74c1338e5afbc2423a21681fc11b7>@@V?$allocator@H@std@@XAEAH@std@@
-.?AV?$_Func_impl@V<lambda_fd71c935fd7795d0ff8d159bddfc1ad2>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_fe27f7a47376988b07f380e0ed8248be>@@V?$allocator@H@std@@_NPEBD@std@@
-.?AV?$_Func_impl@V?$_Fake_no_copy_callable_adapter@P8Image@Etc@@EAAIIII@ZQEAV12@AEAIAEAHAEAI@std@@V?$allocator@H@2@I$$V@std@@
-.?AV?$_Func_impl@V?$_Fake_no_copy_callable_adapter@P8Image@Etc@@EAAXII@ZQEAV12@AEAHAEAI@std@@V?$allocator@H@2@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$ConvertFromBC6h@UBGRA8888_t@@$00@ImageLoader@@YA_NPEBEPEAUBGRA8888_t@@HH@Z@XAEAH@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$ConvertFromBC6h@URGBA32323232F_t@@$0A@@ImageLoader@@YA_NPEBEPEAURGBA32323232F_t@@HH@Z@XAEAH@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$ConvertFromBC6h@URGBA8888_t@@$00@ImageLoader@@YA_NPEBEPEAURGBA8888_t@@HH@Z@XAEAH@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$ConvertFromBC7@UBGRA8888_t@@@ImageLoader@@YA_NPEBEPEAUBGRA8888_t@@HH@Z@XAEAH@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$ConvertFromBC7@URGBA8888_t@@@ImageLoader@@YA_NPEBEPEAURGBA8888_t@@HH@Z@XAEAH@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??CleanupIntermediateCruft@CMapBuilderContext@@AEAAXXZ@_NPEBD@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??ClearIntermediateDirectory@CMapBuilderContext@@UEAAXPEBD@Z@_NPEBD@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??CompileAllShadersForStaticCombo@@YA_N_KAEAVCVfxStaticComboData@@AEAVCVfx@@W4VfxProgram_t@@PEAVIVfx@@@Z@XAEAH@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??Restart@CNewParticleEffect@@QEAAXXZ@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??SetupMaterialSystem@CMaterialSystem2AppSystemDict@@AEAA_NXZ@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??StopEmission@CNewParticleEffect@@QEAAX_N000@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?5??ApplyMarkupFromNavGenInput@CNavMesh@@AEAAXXZ@_NPEAVCNavArea@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?8??WriteToBufferBC6H@FloatBitMap_t@@QEBA_NPEAX_KW4ImageFormat@@_N3@Z@XAEAH@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?8??WriteToBufferBC7@FloatBitMap_t@@QEBA_NPEAX_KW4ImageFormat@@_N3@Z@XAEAH@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?BI@??SyncClothState@CPhysicsModel@@AEAAXI@Z@_NVCUtlStringToken@@@std@@
 .?AV?$_Iosb@H@std@@
-.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_2236d85dc79bd2a8d83c600051b10740>@@PEAVCThreadedLogger@@@std@@U?$default_delete@V?$tuple@V<lambda_2236d85dc79bd2a8d83c600051b10740>@@PEAVCThreadedLogger@@@std@@@2@@std@@@std@@
-.?AV?$_MallocaArrayHolder@PEAVContext@Concurrency@@@details@Concurrency@@
-.?AV?$_MallocaArrayHolder@PEAVevent@Concurrency@@@details@Concurrency@@
-.?AV?$_Packaged_state@$$A6AIXZ@std@@
-.?AV?$_Packaged_state@$$A6AXXZ@std@@
-.?AV?$_Ref_count_obj@U?$_Task_impl@E@details@Concurrency@@@std@@
-.?AV?$_Ref_count_obj@U_ExceptionHolder@details@Concurrency@@@std@@
-.?AV?$_Ref_count_obj@V__ExceptionPtr@@@std@@
-.?AV?$_Ref_count_obj_alloc@V__ExceptionPtr@@U?$_StaticAllocator@H@@@std@@
-.?AV?$_Task_async_state@I$00@std@@
-.?AV?$_Task_async_state@I$0A@@std@@
-.?AV?$_Task_async_state@X$00@std@@
-.?AV?$_Task_async_state@X$0A@@std@@
 .?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
@@ -1261,17 +1176,6 @@ $prefix_element$
 .?AV?$ctype@D@std@@
 .?AV?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
 .?AV?$numpunct@D@std@@
-.?AVBlock4x4Encoding@Etc@@
-.?AVBlock4x4Encoding_ETC1@Etc@@
-.?AVBlock4x4Encoding_R11@Etc@@
-.?AVBlock4x4Encoding_RG11@Etc@@
-.?AVBlock4x4Encoding_RGB8@Etc@@
-.?AVBlock4x4Encoding_RGB8A1@Etc@@
-.?AVBlock4x4Encoding_RGB8A1_Opaque@Etc@@
-.?AVBlock4x4Encoding_RGB8A1_Transparent@Etc@@
-.?AVBlock4x4Encoding_RGBA8@Etc@@
-.?AVBlock4x4Encoding_RGBA8_Opaque@Etc@@
-.?AVBlock4x4Encoding_RGBA8_Transparent@Etc@@
 .?AVCAlignedBoxHelper@@
 .?AVCAnglesHelper@@
 .?AVCAppLaunchableDLL@@
@@ -1702,7 +1606,7 @@ $prefix_element$
 .?AVCSimpleWindowsLoggingListener@@
 .?AVCSkyboxHelper@@
 .?AVCSphereHelper@@
-.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_2d9e57603846de8b5694c16539ed7475>@@@@@@QEAAXXZ@
+.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_1>@?8??SimulateParticles@CParticleMgr@@AEAAXAEAV?$CUtlVectorFixedGrowableCompat@UParticleSimListItem_t@CParticleMgr@@$0CAA@@@@Z@@@@@QEAAXXZ@
 .?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CParallelLoopProcessor@UFloatBitmapResampleInfo_t@@V?$CLoopFuncJobItemProcessor@UFloatBitmapResampleInfo_t@@@@@@@@QEAAXXZ@
 .?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CParallelLoopProcessor@VFloatBitMap_t@@V?$CLoopMemberFuncJobItemProcessor@VFloatBitMap_t@@V1@V1@@@@@@@QEAAXXZ@
 .?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CParallelProcessor@HV?$CLambdaJobItemProcessor@H@@$00@@@@QEAAXXZ@
@@ -1755,22 +1659,10 @@ $prefix_element$
 .?AVCVisibilityMgr@@
 .?AVCVolumetricFogControllerHelper@@
 .?AVCWarningLoggingListener@@
-.?AVCacheLocalScheduleGroup@details@Concurrency@@
-.?AVCacheLocalScheduleGroupSegment@details@Concurrency@@
-.?AVCancellationTokenRegistration_TaskProc@details@Concurrency@@
 .?AVConCommand@@
 .?AVConCommandBase@@
 .?AVConVar@@
-.?AVContext@Concurrency@@
-.?AVContextBase@details@Concurrency@@
-.?AVExecutionResource@details@Concurrency@@
-.?AVExternalContextBase@details@Concurrency@@
-.?AVFairScheduleGroup@details@Concurrency@@
-.?AVFairScheduleGroupSegment@details@Concurrency@@
 .?AVFindByTypeVisitor@@
-.?AVFreeThreadProxy@details@Concurrency@@
-.?AVFreeThreadProxyFactory@details@Concurrency@@
-.?AVFreeVirtualProcessorRoot@details@Concurrency@@
 .?AVIAppSystem@@
 .?AVIApplication@@
 .?AVIAssertionFailureListener@@
@@ -1853,83 +1745,31 @@ $prefix_element$
 .?AVIUndoable@@
 .?AVIVSSequence@@
 .?AVIVertexListObject@@
-.?AVInternalContextBase@details@Concurrency@@
-.?AVMultiWaitBlock@details@Concurrency@@
-.?AVRealizedChore@details@Concurrency@@
-.?AVResourceManager@details@Concurrency@@
-.?AVScheduleGroup@Concurrency@@
-.?AVScheduleGroupBase@details@Concurrency@@
-.?AVScheduleGroupSegmentBase@details@Concurrency@@
-.?AVScheduler@Concurrency@@
-.?AVSchedulerBase@details@Concurrency@@
-.?AVSchedulerProxy@details@Concurrency@@
-.?AVSingleWaitBlock@details@Concurrency@@
-.?AVThreadInternalContext@details@Concurrency@@
-.?AVThreadProxy@details@Concurrency@@
-.?AVThreadScheduler@details@Concurrency@@
-.?AVThreadVirtualProcessor@details@Concurrency@@
-.?AVTimedSingleWaitBlock@details@Concurrency@@
-.?AVVirtualProcessor@details@Concurrency@@
-.?AVVirtualProcessorRoot@details@Concurrency@@
-.?AVWaitAllBlock@details@Concurrency@@
-.?AVWaitAnyBlock@details@Concurrency@@
-.?AVWaitBlock@details@Concurrency@@
-.?AV_CancellationTokenRegistration@details@Concurrency@@
-.?AV_DefaultPPLTaskScheduler@details@Concurrency@@
 .?AV_Facet_base@std@@
-.?AV_Future_error_category@std@@
 .?AV_Generic_error_category@std@@
-.?AV_Interruption_exception@details@Concurrency@@
-.?AV_Iostream_error_category@std@@
+.?AV_Iostream_error_category2@std@@
 .?AV_Locimp@locale@std@@
-.?AV_Pad@std@@
-.?AV_RefCounter@details@Concurrency@@
-.?AV_Ref_count_base@std@@
 .?AV_System_error@std@@
 .?AV__non_rtti_object@std@@
 .?AVbad_alloc@std@@
+.?AVbad_alloc@stdext@@
+.?AVbad_array_new_length@stdext@@
 .?AVbad_cast@std@@
 .?AVbad_exception@std@@
 .?AVbad_function_call@std@@
 .?AVbad_typeid@std@@
-.?AVcontext_self_unblock@Concurrency@@
-.?AVcontext_unblock_unbalanced@Concurrency@@
 .?AVerror_category@std@@
 .?AVexception@std@@
 .?AVexception@stdext@@
 .?AVfacet@locale@std@@
 .?AVfailure@ios_base@std@@
-.?AVfuture_error@std@@
-.?AVimproper_lock@Concurrency@@
-.?AVimproper_scheduler_attach@Concurrency@@
-.?AVimproper_scheduler_reference@Concurrency@@
-.?AVinvalid_argument@std@@
-.?AVinvalid_operation@Concurrency@@
-.?AVinvalid_oversubscribe_operation@Concurrency@@
-.?AVinvalid_scheduler_policy_key@Concurrency@@
-.?AVinvalid_scheduler_policy_thread_specification@Concurrency@@
-.?AVinvalid_scheduler_policy_value@Concurrency@@
 .?AVios_base@std@@
 .?AVlength_error@std@@
 .?AVlogic_error@std@@
-.?AVmissing_wait@Concurrency@@
-.?AVnested_scheduler_missing_detach@Concurrency@@
 .?AVout_of_range@std@@
 .?AVruntime_error@std@@
-.?AVscheduler_resource_allocation_error@Concurrency@@
-.?AVscheduler_worker_creation_error@Concurrency@@
-.?AVstl_condition_variable_concrt@details@Concurrency@@
-.?AVstl_condition_variable_interface@details@Concurrency@@
-.?AVstl_condition_variable_vista@details@Concurrency@@
-.?AVstl_condition_variable_win7@details@Concurrency@@
-.?AVstl_critical_section_concrt@details@Concurrency@@
-.?AVstl_critical_section_interface@details@Concurrency@@
-.?AVstl_critical_section_vista@details@Concurrency@@
-.?AVstl_critical_section_win7@details@Concurrency@@
 .?AVsystem_error@std@@
-.?AVtask_canceled@Concurrency@@
 .?AVtype_info@@
-.?AVunsupported_os@Concurrency@@
 .CRT$XCA
 .CRT$XCC
 .CRT$XCL
@@ -1941,7 +1781,6 @@ $prefix_element$
 .CRT$XLA
 .CRT$XLZ
 .CRT$XPA
-.CRT$XPB
 .CRT$XPX
 .CRT$XPXA
 .CRT$XPZ
@@ -1950,13 +1789,12 @@ $prefix_element$
 .bss
 .data
 .data$r
+.data$rs
 .dll
 .dmx
 .edata
 .exr
 .fgd
-.gfids$x
-.gfids$y
 .gnv
 .idata$2
 .idata$3
@@ -1975,6 +1813,7 @@ $prefix_element$
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .rtc$IAA
 .rtc$IZZ
@@ -2034,16 +1873,14 @@ $prefix_element$
 0 0 -386.089
 0 0 0
 0.25
-0000
 00000000-0000-0000-0000-000000000000
-00003333
+00:01:51
 0123456789)"
-0123456789ABCDEF
-0123456789ABCDEFundefined
 0123456789abcdefghijklmnopqrstuvwxyz
 0E>X
 0X8b?~
-0\f504P
+0\f504T
+0\r50t
 0iN>/
 0x%016llX
 0x%llx
@@ -2060,50 +1897,42 @@ $prefix_element$
 1#QNAN
 1#SNAN
 1.2.5
-1.2.7
-1.5.13
-1.5.2
 11Y@
-123456789
 1280x720
-15:11:16
 16-byte data pool
 1:1: Tokens : ( T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | BOOLLITERAL | ID | INTEGERLITERAL | HEXINTEGERLITERAL | FLOATLITERAL | COMMENT | WS );
 1A26b
 1DBlend
-1eaB@
 1sAL"
 1wsHp
 255 255 255 255
 2D Views
 2DARRAY
-2\r52t
 2\rE2h
+2\rU2h
+2\vP!5
 3 FB
 3+5<t
-3333
 37>k
 3>N;kU
 3>fvw
 3?tr
 3D Skybox
 3D Views
-3\r%3t
+3\f53d
 3dcameras
 4-byte data pool
-4dsg
+4CUnspecified
+4\r%4t
 51>W
 52F*
-5\fE5
 5sfm_v8
-5tptf
+5t`Op
 64 283 0
+6>Pzh
 6FaceSkyBox
 6NK>
 6\fXO>\ntA
-6\n?c:\buildslave\hlvr_rel_win64\build\src\public\tier2\fileutils.h
-700PP
-700WP
 7>I0
 7?GX
 7h>?8
@@ -2112,21 +1941,18 @@ $prefix_element$
 8&Kx
 8-byte data pool
 8Csinf
+8\r58h\f
 8b  16-May-2010
 8ke?;
 9>70
-9>8Oe
 9a&g
 : lexer error %d :\n\t%s at offset %d, 
-:s6X
 ;1cb
-;CMapGrassTile CUtlMemoryPool
 <!-- DMXVersion
 <!-- kv3 encoding:%s:version{%s} format:%s:version{%s} -->\n
+<"HWp
 </font>
-<8bunz8
 <<error in CDmAttribute::GetValueAsString()>>
-<@En[vP
 <DOWN>
 <DescribeIsUnimplemented>
 <EOF>
@@ -2157,35 +1983,29 @@ $prefix_element$
 >jtm}S
 >logf
 ?!5WOo
-?*hiR
 ?1cb
 ?3Fx
-?3ScR.>
-?3xj
-?40V
 ?49HoKC
-?5a1
 ?7zQ6$
 ?7{KV\nU
 ?8UUUUU
 ?8bunz8
-?93l
 ??0CThreadEvent@@QEAA@_N@Z
+??0CThreadFastMutex@@QEAA@PEBD@Z
+??0CThreadFastMutex@@QEAA@XZ
 ??0CThreadMultiWaitEvent@@QEAA@_N@Z
 ??0CThreadMutex@@QEAA@PEBD@Z
+??0CThreadMutex@@QEAA@XZ
 ??0CThreadRWLock_FastRead@@QEAA@_N@Z
 ??0CUniformRandomStream@@QEAA@XZ
 ??1CThreadMultiWaitEvent@@QEAA@XZ
-??1CThreadMutex@@QEAA@XZ
 ??1CThreadSemaphore@@QEAA@XZ
 ??1CThreadSyncObject@@QEAA@XZ
 ?@En[vP
-?AFxD
 ?AVOID
 ?AppendConcat@CBufferString@@QEAAPEBDHPEBQEBDPEBH_N@Z
 ?AppendFormat@CBufferString@@QEAAHPEBDZZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
-?CVertexListSceneObject
 ?ComposeFileName@CBufferString@@QEAAPEBDPEBD0D@Z
 ?ConColorMsg@@YAXAEBVColor@@PEBDZZ
 ?ConMsg@@YAXPEBDZZ
@@ -2207,14 +2027,13 @@ $prefix_element$
 ?FixSlashes@CBufferString@@QEAAPEBDD@Z
 ?FixupPathName@CBufferString@@QEAAPEBDD@Z
 ?Format@CBufferString@@QEAAHPEBDZZ
-?G2Q
 ?GetTotalSecondsSampled@CVProfile@@QEBANXZ
 ?HandleFirstWriteLockTransition@CThreadRWLock_FastRead@@IEAAXXZ
 ?HideBudgetGroup@CVProfile@@QEAAXPEBD_N@Z
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
 ?JV8f
 ?Ji@9
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LockForRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?LockForWrite@CThreadRWLock@@QEAAXPEBDH@Z
@@ -2222,11 +2041,11 @@ $prefix_element$
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@PEBULoggingMetaData_t@@PEBDZZ
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@VColor@@PEBDZZ
-?MKR
 ?MakeAbsolutePath@CBufferString@@QEAAPEBDPEBD0@Z
 ?MakeRelativePath@CBufferString@@QEAAPEBDPEBD0@Z
 ?MarkFrame@CVProfile@@QEAAXXZ
 ?OutputReport@CVProfile@@QEAAXAEBUVProfReportSettings_t@@PEBDH@Z
+?POp
 ?Print model load-time conversion info
 ?Purge@CBufferString@@QEAAXH@Z
 ?R0I?
@@ -2258,9 +2077,9 @@ $prefix_element$
 ?TruncateAt@CBufferString@@QEAAPEBDH_N@Z
 ?TruncateAt@CBufferString@@QEAAPEBDPEBD_N@Z
 ?TryLock@CThreadMutex@@QEAA_NPEBDH@Z
-?Tu7R
 ?UNKNOWN
 ?UUUUUU
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?UnlockReadAccounting@CThreadRWLock_FastRead@@IEAAXPEBDHI@Z
@@ -2272,26 +2091,18 @@ $prefix_element$
 ?V_stristr_fast@@YAPEBDPEBD0@Z
 ?Wait@CThreadSyncObject@@QEAA_NI@Z
 ?WaitForRead@CThreadRWLock@@AEAAXXZ
-?Xtf
 ?\rz0w
 ?\vxMW
 ?f`Y4
-?gibQ^AX>
 ?id7
-?kAf
 ?kxG2)
 ?lZE
-?q42s(
 ?qBJ
 ?rAj
-?rmMx
-?sqrtf
-?u1P
 ?ysB
 @CDependencyGraph::Reset
 @Integer overflow in %s
 @^8U)zj
-@c:\buildslave\hlvr_rel_win64\build\src\mapdoclib\polygonmeshoccluderdata.cpp
 @line
 @population
 @spawn
@@ -2366,7 +2177,6 @@ ATI_TC_CalculateBufferSize_Wrapper
 ATI_TC_ConvertTexture_Wrapper
 ATTR_NAME__ADD_CUSTOM_TAG
 AUUUUUU
-AYl=
 Ability%d
 AbsTagType(unknown)
 AbsolutePoseControl
@@ -2394,7 +2204,6 @@ AddonsChangeDefaultWritePath
 Adobe APP14 marker: version %d, flags 0x%04x 0x%04x, transform %d
 AdobeDeflate
 Ahd=<c]^7if1Rjg
-AiFC.
 Align
 Align To Axis
 All inputs have identical CRCs, skipping... \n
@@ -2453,6 +2262,8 @@ AnisoNormalRoughness
 AnisoRoughness_RG
 Anti-aliasing: 
 AntiAliasStrength
+AppPolicyGetProcessTerminationMethod
+AppPolicyGetThreadInitializationType
 AppSystemDict: Attempted to add two different systems with the same interface name %s!\n(Addresses differ: existing '%s' @ '%p' != requested '%s' @ '%p')\n
 AppSystemDict: Attempted to add two different systems with the same interface name %s!\n(Module names differ: existing '%s' != requested '%s')\n
 AppSystemDict: Attempted to add two different systems with the same interface name %s!\n(Modules differ: existing '%p' != requested '%p')\n
@@ -2461,7 +2272,6 @@ AppSystemDict: Error in Init() of interface '%s'!\n
 AppSystemDict: Interface '%s' (tier %d) depends on interface '%s' (tier %d) but is in a lower tier!\n
 AppendComponents
 Application "
-Application built with libpng-
 Application transferred too few scanlines
 Application transferred too many scanlines
 Application unable to load gameinfo.gi file from directory "%s"!\n
@@ -2538,9 +2348,11 @@ BC1%M
 BC6H
 BC?>6t9^\tc:>
 BF>^G
+BGR101111_UFLOAT
 BGR565
 BGR888
 BGR888_BLUESCREEN
+BGR999_E5
 BGRA1010102
 BGRA4444
 BGRA5551
@@ -2555,6 +2367,7 @@ BLOOM_BLEND_BLUR
 BLOOM_BLEND_SCREEN
 BOOLLITERAL
 B\vP\n0
+B\vp\nP
 BackPlane
 Background
 Backing store not supported
@@ -2685,8 +2498,6 @@ BreakpadAppId_Tools
 Brightness/Contrast %d
 BrowInV
 Bskybox
-Bsphere
-Buffer error in compressed datastream
 Buffer passed to JPEG library is too small
 Build physics world
 BuildBakedLighting
@@ -2811,6 +2622,7 @@ CDmeConnectionData CUtlMemoryPool
 CDmeConnectionOperator CUtlMemoryPool
 CDmeConstraintSlave CUtlMemoryPool
 CDmeConstraintTarget CUtlMemoryPool
+CDmeControlGroup CUtlMemoryPool
 CDmeDCCMakefile CUtlMemoryPool
 CDmeDag CUtlMemoryPool
 CDmeDag::GetParentWorldMatrix called on a dag that has different rotation and translation override parents - result will be incorrect!\n
@@ -3055,6 +2867,7 @@ CMapGameDataNode CUtlMemoryPool
 CMapGlobalTileGridMaps
 CMapGlobalTileGridMaps CUtlMemoryPool
 CMapGrassTile
+CMapGrassTile CUtlMemoryPool
 CMapGrassTile::Render(705): 
 CMapGrassTileCollection
 CMapGrassTileCollection CUtlMemoryPool
@@ -3088,7 +2901,6 @@ CMapNode::RestoreTransformationBaseline - invalid baseline!
 CMapPath
 CMapPath CUtlMemoryPool
 CMapPathNode
-CMapPathNode CUtlMemoryPool
 CMapPhysicsPin
 CMapPhysicsPin CUtlMemoryPool
 CMapPoint CUtlMemoryPool
@@ -3120,6 +2932,7 @@ CMapTileMesh CUtlMemoryPool
 CMapTileObject
 CMapTileObject CUtlMemoryPool
 CMapTileProxy
+CMapTileProxy CUtlMemoryPool
 CMapTileSet
 CMapTileSet CUtlMemoryPool
 CMapVariableChoice
@@ -3188,7 +3001,6 @@ CPolygonMeshRenderData::BuildVertexAndIndexBuffers(1133):
 CPolygonMeshRenderData::BuildVertexAndIndexBuffersForFaces(346): 
 CPolygonMeshRenderData_Model
 CPostProcessData
-CRC error
 CRenderBufferBinding
 CResourceAssetTypeInfo
 CResourceCompilerContext::GenerateResourceFileBuffer
@@ -3292,45 +3104,45 @@ CTextureFrame::ApplyImageProcessor(67): Unknown image processing algorithm "%s"!
 CTextureFrame::ApplyImageProcessor_LegacySource1InvertNormals(112): Normal map face %d, mip %d has %d input channels (requires at least 3 in RGB)!\n
 CTextureFrame::ApplyImageProcessor_NormalizeNormals(229): Normal map face %d, mip %d has %d input channels (requires at least 3 in RGB)!\n
 CTextureFrame::GenerateMips(177): Unknown mip algorithm "%s"!\n
-CTextureFrame::GenerateMips_AlphaWeighted(1993): Expecting 2 input textures, found %d!\n
-CTextureFrame::GenerateMips_AlphaWeighted(2009): Cannot filter 3D texture %dx%dx%d!\n
-CTextureFrame::GenerateMips_AlphaWeighted(2015): Cannot filter non-power-of-two texture %dx%dx%d!\n
-CTextureFrame::GenerateMips_AnisoNormal_Internal(1463): Expecting 2 input textures, found %d!\n
-CTextureFrame::GenerateMips_AnisoNormal_Internal(1487): Cannot filter 3D texture %dx%dx%d!\n
-CTextureFrame::GenerateMips_AnisoNormal_Internal(1493): Cannot filter non-power-of-two texture %dx%dx%d!\n
-CTextureFrame::GenerateMips_AnisoNormal_Internal(1612): Error calculating src pixel dimensions!\n
+CTextureFrame::GenerateMips_AlphaWeighted(1999): Expecting 2 input textures, found %d!\n
+CTextureFrame::GenerateMips_AlphaWeighted(2015): Cannot filter 3D texture %dx%dx%d!\n
+CTextureFrame::GenerateMips_AlphaWeighted(2021): Cannot filter non-power-of-two texture %dx%dx%d!\n
+CTextureFrame::GenerateMips_AnisoNormal_Internal(1466): Expecting 2 input textures, found %d!\n
+CTextureFrame::GenerateMips_AnisoNormal_Internal(1490): Cannot filter 3D texture %dx%dx%d!\n
+CTextureFrame::GenerateMips_AnisoNormal_Internal(1496): Cannot filter non-power-of-two texture %dx%dx%d!\n
+CTextureFrame::GenerateMips_AnisoNormal_Internal(1615): Error calculating src pixel dimensions!\n
 CTextureFrame::GenerateMips_AutoLevels(630): Expecting 1 input texture, found %d!\n
 CTextureFrame::GenerateMips_Box(268): Expecting 1 input texture, found %d!\n
 CTextureFrame::GenerateMips_Box(287): This game does not have non-power-of-two texture support enabled! (dimensions: %dx%dx%d)\n
 CTextureFrame::GenerateMips_BoxInverse(335): Expecting 1 input texture, found %d!\n
 CTextureFrame::GenerateMips_BoxInverse(354): Cannot box filter non-power-of-two texture %dx%dx%d!\n
-CTextureFrame::GenerateMips_GGXCubeMapBlur(2319): Expecting 1 input texture, found %d!\n
-CTextureFrame::GenerateMips_GGXCubeMapBlur(2327): GGX Cubemap Blur mip filter: Expecting 6 input faces (cubemap), found %d!\n
-CTextureFrame::GenerateMips_GGXCubeMapBlur(2333): GGX Cubemap Blur mip filter: Input texture data must be square!\n
-CTextureFrame::GenerateMips_GGXCubeMapBlur(2338): GGX Cubemap Blur mip filter: Volume textures not supported!\n
-CTextureFrame::GenerateMips_GGXCubeMapBlur(2343): Cannot GGX-mip-filter non-power-of-two texture!\n
-CTextureFrame::GenerateMips_Gaussian(2851): Expecting 1 input texture, found %d!\n
-CTextureFrame::GenerateMips_Gaussian(2881): Cannot box filter non-power-of-two texture %dx%dx%d!\n
-CTextureFrame::GenerateMips_Gradient2D(1814): Expecting 1 input texture, found %d!\n
-CTextureFrame::GenerateMips_Gradient2D(1833): Cannot gradient filter non-power-of-two texture %dx%dx%d!\n
+CTextureFrame::GenerateMips_GGXCubeMapBlur(2325): Expecting 1 input texture, found %d!\n
+CTextureFrame::GenerateMips_GGXCubeMapBlur(2333): GGX Cubemap Blur mip filter: Expecting 6 input faces (cubemap), found %d!\n
+CTextureFrame::GenerateMips_GGXCubeMapBlur(2339): GGX Cubemap Blur mip filter: Input texture data must be square!\n
+CTextureFrame::GenerateMips_GGXCubeMapBlur(2344): GGX Cubemap Blur mip filter: Volume textures not supported!\n
+CTextureFrame::GenerateMips_GGXCubeMapBlur(2349): Cannot GGX-mip-filter non-power-of-two texture!\n
+CTextureFrame::GenerateMips_Gaussian(2857): Expecting 1 input texture, found %d!\n
+CTextureFrame::GenerateMips_Gaussian(2887): Cannot box filter non-power-of-two texture %dx%dx%d!\n
+CTextureFrame::GenerateMips_Gradient2D(1820): Expecting 1 input texture, found %d!\n
+CTextureFrame::GenerateMips_Gradient2D(1839): Cannot gradient filter non-power-of-two texture %dx%dx%d!\n
 CTextureFrame::GenerateMips_HeightCombine(522): Expecting 2 input textures, found %d!\n
 CTextureFrame::GenerateMips_HeightCombine(549): This game does not have non-power-of-two texture support enabled! (dimensions: %dx%dx%d)\n
 CTextureFrame::GenerateMips_HemiOctAnisoRoughness(1145): Error calculating src pixel dimensions!\n
 CTextureFrame::GenerateMips_HemiOctAnisoRoughness(939): Expecting 1 or 2 input texture, found %d!\n
 CTextureFrame::GenerateMips_HemiOctAnisoRoughness(972): Cannot filter 3D texture %dx%dx%d!\n
 CTextureFrame::GenerateMips_HemiOctAnisoRoughness(978): Cannot filter non-power-of-two texture %dx%dx%d!\n
-CTextureFrame::GenerateMips_HemiOctNormal(1347): Expecting 1 input texture, found %d!\n
-CTextureFrame::GenerateMips_HemiOctNormal(1368): Cannot box filter non-power-of-two texture %dx%dx%d!\n
-CTextureFrame::GenerateMips_MipSize(1925): Expecting 1 input texture, found %d!\n
-CTextureFrame::GenerateMips_MipSize(1944): Cannot filter non-power-of-two texture %dx%dx%d!\n
+CTextureFrame::GenerateMips_HemiOctNormal(1350): Expecting 1 input texture, found %d!\n
+CTextureFrame::GenerateMips_HemiOctNormal(1371): Cannot box filter non-power-of-two texture %dx%dx%d!\n
+CTextureFrame::GenerateMips_MipSize(1931): Expecting 1 input texture, found %d!\n
+CTextureFrame::GenerateMips_MipSize(1950): Cannot filter non-power-of-two texture %dx%dx%d!\n
 CTextureFrame::GenerateMips_Multiply(410): Expecting 2 input textures, found %d!\n
 CTextureFrame::GenerateMips_Multiply(431): Cannot filter 3D texture %dx%dx%d!\n
 CTextureFrame::GenerateMips_Multiply(439): Cannot filter non-power-of-two texture when creating mips %dx%dx%d!\n
-CTextureFrame::GenerateMips_Nice(2663): Expecting 1 input texture, found %d!\n
-CTextureFrame::GenerateMips_PreserveCoverage(2220): Expecting 1 input texture, found %d!\n
-CTextureFrame::GenerateMips_PreserveCoverage(2236): Cannot box filter non-power-of-two texture %dx%dx%d!\n
-CTextureFrame::GenerateMips_RGBM(2533): Expecting 1 input texture, found %d!\n
-CTextureFrame::GenerateMips_RGBM(2552): Cannot RGBM filter non-power-of-two texture %dx%dx%d!\n
+CTextureFrame::GenerateMips_Nice(2669): Expecting 1 input texture, found %d!\n
+CTextureFrame::GenerateMips_PreserveCoverage(2226): Expecting 1 input texture, found %d!\n
+CTextureFrame::GenerateMips_PreserveCoverage(2242): Cannot box filter non-power-of-two texture %dx%dx%d!\n
+CTextureFrame::GenerateMips_RGBM(2539): Expecting 1 input texture, found %d!\n
+CTextureFrame::GenerateMips_RGBM(2558): Cannot RGBM filter non-power-of-two texture %dx%dx%d!\n
 CTextureObject::IsImageType(2916): Error! Unknown ImageType_t %d specified!\n
 CTextureObject::ReadFromFile(2104): Error! ( pVtexInputTexture == NULL )!\n
 CTextureObject::ReadFromFile(2110): Error! pVtexInputTexture has an empty string!\n
@@ -3405,6 +3217,7 @@ CUtlBuffer::VaPrintf: String overflowed buffer [%llu]\n
 CUtlFixedMemory overflow!\n
 CUtlFixedMemory<struct UtlLinkedListElem_t<struct CUtlHashFast<enum DmElementHandle_t,class CUtlHashFastNoHash>::HashFastData_t_<enum DmElementHandle_t>,__int64> >::Grow
 CUtlLeanVectorBase<struct CEntityKeyValues::KeyValueInfo_t,short>::EnsureCapacity
+CUtlLeanVectorFixedGrowableBase<struct VfxVariableIndexData_t,2,int>::EnsureCapacity
 CUtlLeanVectorFixedGrowableBase<unsigned char,12,short>::EnsureCapacity
 CUtlLeanVectorFixedGrowableBase<unsigned int,9,short>::EnsureCapacity
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CEntityKeyValues::KeyValueInfo_t,short>,struct CEntityKeyValues::KeyValueInfo_t,short>::AddToTailGetPtr
@@ -3504,12 +3317,12 @@ CUtlStringToken
 CUtlSymbol
 CUtlSymbolLarge
 CUtlVector
-CVWatchClient::GetFileCRC() optional fallback read
 CVWatchClient::GetFileCRC() read
 CVWatchClient::GetFileCRC() write
 CVWatchClient::IsWatchingDir()
 CVariantBase
 CVariantDefaultAllocator
+CVertexListSceneObject
 CVertexSelectionSetDataElement
 CVertexSelectionSetDataElement CUtlMemoryPool
 CVfx::CreateFromVcs(6840): Error opening file %s\n
@@ -3614,7 +3427,6 @@ C_OP_TwistAroundAxis
 C_OP_WorldTraceConstraint
 CalibrationIlluminant1
 CalibrationIlluminant2
-Call to NULL read function
 Camera
 CameraCalibration1
 CameraCalibration2
@@ -3634,7 +3446,6 @@ Can't open %s\n
 Can't parse mp3 encoding %u\n
 Can't re-register additional input dependency on %s - file does not exist!
 Can't re-register input dependency on %s - file does not exist!
-Can't set both read_data_fn and write_data_fn in the same structure
 Can't write binary data to a text buffer.
 Cannot CDmAttribute::GetValueAsString(%p, %u)\n
 Cannot allocate abstract class
@@ -3666,7 +3477,6 @@ CellWidth
 Center Position: %f, %f, %f\n
 Centeroncamera
 ChangeAccessorFieldPathIndex_t
-ChangeTimerQueueTimer
 Checking existing compile file '%s'\n
 CheekH
 Child resource is MISSING: %s\n
@@ -3819,8 +3629,6 @@ Constrain Rotation
 Constrain Velocity
 ConstructFromArrays
 ConstructFromDmeMesh
-ContextPriority
-ContextStackSize
 Control Clip
 Conversion from DmeMesh to PolygonMesh removed %i of %i faces.\n
 ConvertMeshForBuilder
@@ -3831,7 +3639,6 @@ CopyAttrFrom
 CopyFrom
 Copyright
 Copyright (C) 2010, Thomas G. Lane, Guido Vollbeding
-Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
 CorExitProcess
 Cordon
 Cordon Name
@@ -3858,7 +3665,6 @@ CreateFileA
 CreateFileW
 CreateInterface
 CreatePackedInputLayout
-CreateRemoteThreadEx
 CreateSemaphoreExW
 CreateSemaphoreW
 CreateSymbolicLinkW
@@ -3866,10 +3672,6 @@ CreateThread
 CreateThreadpoolTimer
 CreateThreadpoolWait
 CreateThreadpoolWork
-CreateTimerQueue
-CreateTimerQueueTimer
-CreateUmsCompletionList
-CreateUmsThreadContext
 CreateVertexListObject
 Creating Device on Adapter 
 Creating Window: 
@@ -3896,8 +3698,6 @@ DACGameDefsDataCompiler
 DANGER! Running partial map compile (-world,-vis,etc) in a full force-build. You should use -fshallow.\n
 DCT coefficient out of range
 DCT scaled block size %dx%d not supported
-DDDD
-DDDDUUUU
 DEFAULT_WRITE_PATH
 DEMO
 DEV_BUILD
@@ -3932,7 +3732,6 @@ DXT5_NM
 D_FADE_COLOR
 Da\">c]$8c^
 Dampen Movement Relative to Control Point
-Data error in compressed datastream
 DataDesc_ConvertTextDataToNewKeyValues
 DataModel needs the file system to function
 DataType
@@ -3944,8 +3743,6 @@ DebugTextureInfo001
 DebugVisGeometry
 December
 DecodePointer
-Decompression Error
-Decompression error
 Decompression failure
 Dedicated Server
 Default
@@ -3974,13 +3771,8 @@ DegreeEuler
 DeleteCriticalSection
 DeleteEdges
 DeleteFaces
-DeleteProcThreadAttributeList
-DeleteTimerQueueTimer
-DeleteUmsCompletionList
-DeleteUmsThreadContext
 DeleteVertices
 Dependencies
-DequeueUmsCompletionListItems
 Derived must implement
 Description
 DestroyThreadPool
@@ -4208,21 +4000,6 @@ DrawProceduralGeometry
 DrawSelectionOverlay
 Dump all new particles, optional name substring.
 DumpModeDecode: Not enough data for scanline %d
-Duplicate PLTE chunk
-Duplicate bKGD chunk
-Duplicate cHRM chunk
-Duplicate gAMA chunk
-Duplicate hIST chunk
-Duplicate iCCP chunk
-Duplicate oFFs chunk
-Duplicate pCAL chunk
-Duplicate pHYs chunk
-Duplicate sBIT chunk
-Duplicate sCAL chunk
-Duplicate sRGB chunk
-Duplicate tIME chunk
-Duplicate tRNS chunk
-DuplicateHandle
 DwmEnableComposition
 DynData Compiler Version
 Dynamic Attribute Flags: 0x%08x\n
@@ -4234,10 +4011,9 @@ DynamicComboFromFeature
 DynamicComboRule
 DynamicConfigList
 DynamicImages
-DynamicProgressFeedback
+E8tN
 E>nEA
-EFxq
-EJxT
+EFxo
 ELEM_NAME__ENT_ATTR_TYPES
 EMPHASIS
 EMPHASIS\r\n
@@ -4254,6 +4030,7 @@ ENTITY_IO_TARGET_SPECIAL_CALLER
 ENTITY_LUMP_NONE
 ENTITY_NOT_DORMANT
 ENTITY_SUSPENDED
+EOxV
 ERROR calling AddSystem( "vr" )! SteamVR not loaded!\n
 ERROR loading vr.dll!\n
 ERROR!
@@ -4282,8 +4059,8 @@ ERROR: Unconnected ladder bottom at ( %g, %g, %g )\n
 ERROR: Unconnected ladder top at ( %g, %g, %g )\n
 ERROR: You are trying to mount addon '%s' but SetAllowAddonChanges is false which probably means you shouldn't be calling this directly.\n
 ERROR: You are trying to unmount addon '%s', but SetAllowAddonChanges is false which probably means you should be using calling this directly.\n
-ERhp
 ESC_SEQ
+ESho
 ET5>
 EXECUTABLE_PATH
 EXIFIFDOffset
@@ -4312,7 +4089,6 @@ EdgeSelectionPreviewEdgeLength
 EditGameClassProps
 Editor Only
 EditorDynamicConfig
-Ehammer_parallel_procedural_update
 EiUL
 Element uses unknown element type %s\n
 EmbeddedProperty.angles
@@ -4344,7 +4120,6 @@ EntComponentInfo_t
 EntInput_t
 EntOutput_t
 EnterCriticalSection
-EnterUmsSchedulingMode
 Entities
 Entity
 Entity Load Unserialize
@@ -4473,9 +4248,7 @@ EventTileGridLayerListChanged_t
 EventTileGridResized_t
 EventTileGridTileSetMapChanged_t
 EventTileSetModified_t
-Exceeded size limit while expanding chunk
 Exclude from VIS
-ExecuteUmsThread
 Existing file invalid - Additional dependency mismatch\n
 Existing file invalid - Argument dependency mismatch\n
 Existing file invalid - Child resource(s) not present\n
@@ -4572,8 +4345,6 @@ Expression
 Expression Parser - 
 ExternalDescSet
 ExternalHelper must specify the name of the tool object to create as a parameter.\n
-Extra compressed data
-Extra compression data
 ExtraSamples
 ExtraVertexStreamOverride_t
 ExtractSheetDataFromBuffer(2017): Encountered an error calling CAmalgamatedTexture->LoadFromFile on buffer-arg "%s"!\n
@@ -4582,7 +4353,6 @@ Extraneous token
 F>qUxv
 FATAL ERROR: unable to register all schema data: %s\n
 FBXSystem001
-FCDmeControlGroup CUtlMemoryPool
 FCVAR_NEVER_AS_STRING
 FEATURES
 FEMh\f
@@ -4666,7 +4436,6 @@ Face was successfully added
 Facial Animation File
 Facial Expression
 Factory for element type '%s' already exists (Check your IMPLEMENT_ELEMENT_FACTORY macros for duplicate lookupNames)\n
-Fail to schedule the chore!
 Failed To Load '%s'! VConsole Communication Disabled!\n
 Failed to allocate an instance of a class
 Failed to allocate an instance of class '%s'
@@ -4730,7 +4499,6 @@ Feature combo %s referenced in expression doesn't exist.
 FeatureRule
 February
 FfW?
-Ffunc_nav_markup
 FieldOfViewCotangent
 File "%s" doesn't exist!\n
 File has not been opened!\n
@@ -4747,13 +4515,12 @@ Filter
 FilterTextures
 Final Time
 FindClose
-FindFirstFileExA
-FindNextFileA
+FindFirstFileExW
+FindNextFileW
 FindRegisteredGlobalObjectInternal
 Fingers
 Fingers_L
 Fingers_R
-Finished %d Blocks out of %d\n
 Fire Completion
 Fire Trigger
 Fixup Entity Names By Default
@@ -4771,23 +4538,23 @@ FloatBitMap::DownsampleNiceFiltered
 FloatBitMap::QuarterSize
 FloatBitMap_t: Error loading %s\n
 FloatBitMap_t::ConvertGammaToLinear
-FloatBitMap_t::ConvertGammaToLinear(338): Conversion not supported yet!\n
-FloatBitMap_t::ConvertLinearToGamma(438): Conversion not supported yet!\n
+FloatBitMap_t::ConvertGammaToLinear(341): Conversion not supported yet!\n
+FloatBitMap_t::ConvertLinearToGamma(441): Conversion not supported yet!\n
 FloatBitMap_t::CopyFloatBitmap: Received NULL pointer!\n
 FloatBitMap_t::LoadFromBuffer: Received improper buffer size, skipping!\n
 FloatBitMap_t::LoadFromBuffer: Unsupported color format, skipping!\n
-FloatBitMap_t::LoadFromFile(2486): Error calling TGALoader::GetInfo( %s )\n
-FloatBitMap_t::LoadFromFile(2497): Error loading %s\n
-FloatBitMap_t::LoadFromFile(2520): Error! Unknown file type for %s\n
-FloatBitMap_t::LoadFromFile(2539): Error! Slice %d format %dx%dx%d Attr(%d) != previous slices of %dx%d Attr(%d) for %s\n
+FloatBitMap_t::LoadFromFile(2489): Error calling TGALoader::GetInfo( %s )\n
+FloatBitMap_t::LoadFromFile(2500): Error loading %s\n
+FloatBitMap_t::LoadFromFile(2523): Error! Unknown file type for %s\n
+FloatBitMap_t::LoadFromFile(2542): Error! Slice %d format %dx%dx%d Attr(%d) != previous slices of %dx%d Attr(%d) for %s\n
 FloatBitMap_t::LoadFromFloatBitmap: Received improper bitmap size, skipping!\n
-FloatBitMap_t::WriteToBuffer(901): Unsupported color format "%s", skipping!\n
+FloatBitMap_t::WriteToBuffer(904): Unsupported color format "%s", skipping!\n
 FloatBitMap_t::WriteToBuffer: Received improper buffer size %s (expecting %s), skipping!\n
-FloatBitMap_t::WriteToBufferDXT(1004): Unsupported output color format "%s"!\n
-FloatBitMap_t::WriteToBufferDXT(1013): Error! Allocated %llu bytes when ATI's lib requires %d bytes!\n
-FloatBitMap_t::WriteToBufferDXT(1021): Error %d returned from ATI_TC_ConvertTexture()!\n
-FloatBitMap_t::WriteToBufferDXT(939): Error! Temp texture is %d bytes when ATI's lib requires %d bytes!\n
-FloatBitmapGammaTypeFromString(141): Unknown gamma type "%s"!\n
+FloatBitMap_t::WriteToBufferDXT(1007): Unsupported output color format "%s"!\n
+FloatBitMap_t::WriteToBufferDXT(1016): Error! Allocated %llu bytes when ATI's lib requires %d bytes!\n
+FloatBitMap_t::WriteToBufferDXT(1024): Error %d returned from ATI_TC_ConvertTexture()!\n
+FloatBitMap_t::WriteToBufferDXT(942): Error! Temp texture is %d bytes when ATI's lib requires %d bytes!\n
+FloatBitmapGammaTypeFromString(144): Unknown gamma type "%s"!\n
 Floating point "Predictor" not supported with %d data format
 FlsAlloc
 FlsFree
@@ -4825,8 +4592,7 @@ Friday
 Fsfm_v3
 Function %s() expects %d arguments. Found %d.
 G channel not found!\n
-G&iC
-G8D>
+G0zh
 G>US
 GAME
 GAMEBIN
@@ -4868,7 +4634,6 @@ GenericType
 Generic_%s
 Gesture
 GetACP
-GetActiveWindow
 GetAddonsContentDirectory: Failed to find CONTENTADDONS search path.\n
 GetAddonsDirectory: Failed to find ADDONS search path.\n
 GetAvailableAddonMaps failed to find any maps in the '%s' addon - trying fallback maps:
@@ -4881,14 +4646,13 @@ GetCommandLineA
 GetCommandLineW
 GetConsoleCP
 GetConsoleMode
+GetConsoleOutputCP
 GetCurrentPackageId
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentProcessorNumber
-GetCurrentProcessorNumberEx
-GetCurrentThread
 GetCurrentThreadId
-GetCurrentUmsThread
+GetDateFormatEx
 GetDefaultMiniDumpTypeFlags
 GetDesktopWindow
 GetDiskFreeSpaceExA
@@ -4898,29 +4662,22 @@ GetEnvironmentStringsW
 GetExitCodeThread
 GetFileAttributesExW
 GetFileInformationByHandleEx
+GetFileSizeEx
 GetFileType
-GetLastActivePopup
 GetLastError
 GetLocaleInfoEx
 GetLocaleInfoW
-GetLogicalProcessorInformation
-GetLogicalProcessorInformationEx
 GetLongPathNameA
 GetMaterialGroupChoicesForModelKey
-GetModuleFileNameA
 GetModuleFileNameW
 GetModuleHandleA
 GetModuleHandleExW
 GetModuleHandleW
 GetNativeClassForScriptClass
-GetNextUmsListItem
-GetNumaHighestNodeNumber
 GetOEMCP
 GetOverlappedResult
 GetProcAddress
-GetProcessAffinityMask
 GetProcessHeap
-GetProcessWindowStation
 GetProfile_alpha_basic
 GetProfile_alpha_fast
 GetProfile_alpha_slow
@@ -4947,22 +4704,14 @@ GetStringTypeW
 GetSystemInfo
 GetSystemTimeAsFileTime
 GetSystemTimePreciseAsFileTime
+GetTempPath2W
 GetTempPathW
-GetThreadGroupAffinity
-GetThreadPriority
-GetThreadTimes
 GetTickCount
 GetTickCount64
-GetTraceEnableFlags
-GetTraceEnableLevel
-GetTraceLoggerHandle
-GetUmsCompletionListEvent
+GetTimeFormatEx
 GetUserDefaultLCID
 GetUserDefaultLocaleName
-GetUserObjectInformationW
-GetVersionExW
 GetWin32ConsoleCursorColumnIndex
-Gin>
 Global
 GlobalAlloc
 GlobalLock
@@ -4997,7 +4746,7 @@ Group3Options
 Group4Options
 GroupCarve
 H$6t
-H'0|f
+H' Wp
 H*0"ZOW
 HDRColorScale
 HEADER
@@ -5067,31 +4816,14 @@ IParticleEffect
 IQuickTime001
 ISO JBIG
 IS_SM_
-IT=_9
-Ignoring PLTE chunk in grayscale PNG
-Ignoring attempt to set cHRM RGB triangle with zero area
-Ignoring attempt to set negative chromaticity value
-Ignoring cHRM chunk with negative chromaticities
-Ignoring gAMA chunk with out of range gamma
-Ignoring iCCP chunk with declared size = @1 and actual length = @2
-Ignoring incorrect cHRM value when sRGB is also present
-Ignoring incorrect cHRM white(@1,@2) r(@3,@4)g(@5,@6)b(@7,@8) when sRGB is also present
-Ignoring incorrect gAMA value @1 when sRGB is also present
-Ignoring invalid time value
-Ignoring nonzero compression type in iCCP chunk
 IiGM>nw
 IkLockLocal
 Il?333333c?
-Illegal to wait on a task in a Windows Runtime STA
 Image
 Image Too Large
 Image data size is zero or too large: width = 
-Image height exceeds user limit in IHDR
-Image height is zero in IHDR
 Image packing validation failed!
 Image too wide for this implementation
-Image width exceeds user limit in IHDR
-Image width is zero in IHDR
 ImageArg
 ImageCompiler
 ImageDepth
@@ -5108,20 +4840,7 @@ Improper number of values for crop coordinates. Need 4 in the format of ( xstart
 In-Memory-Buffer
 Inappropriate photometric interpretation %d for SGILog compression; %s
 Incoming Tangent Type
-Incomplete compressed datastream
 Inconsistent progression sequence for component %d coefficient %d
-Incorrect IEND chunk length
-Incorrect bKGD chunk index value
-Incorrect bKGD chunk length
-Incorrect cHRM chunk length
-Incorrect gAMA chunk length
-Incorrect hIST chunk length
-Incorrect oFFs chunk length
-Incorrect pHYs chunk length
-Incorrect sBIT chunk length
-Incorrect sRGB chunk length
-Incorrect tIME chunk length
-Incorrect tRNS chunk length
 Incorrect vpk path delimiter for shader %s\n
 Independent Windows
 Index      Address       References   String\n
@@ -5153,7 +4872,6 @@ InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeFaceTextureParameters
-InitializeProcThreadAttributeList
 InitializeSListHead
 InitializeSRWLock
 InkNames
@@ -5179,23 +4897,10 @@ Insufficient data size in offset table.
 Insufficient data size.\n
 Insufficient header/data size.\n
 Insufficient memory (case %d)
-Insufficient memory for hIST chunk data
-Insufficient memory for pCAL parameter
-Insufficient memory for pCAL params
-Insufficient memory for pCAL purpose
-Insufficient memory for pCAL units
-Insufficient memory to process iCCP chunk
-Insufficient memory to process iCCP profile
-Insufficient memory to process text chunk
-Insufficient memory to store iTXt chunk
-Insufficient memory to store zTXt chunk
 IntArg
 Intentionally vague touch behavior for %p\n
 InteractiveRelightingMemoryBudget
-Interlace handling should be turned on when using png_read_image
 InterlockedFlushSList
-InterlockedPopEntrySList
-InterlockedPushEntrySList
 Internal Error! Attribute "%s" has an invalid variable binding. This indicates an invalid shader.\n
 Internal error, unknown tag 0x%x
 InteroperabilityIFDOffset
@@ -5204,32 +4909,19 @@ InvViewportSize
 Invalid
 Invalid CloseCaption data - segment length %d is out of bounds\n
 Invalid DirectX version %i specified\n
-Invalid IHDR chunk
-Invalid IHDR data
 Invalid JPEG file structure: SOS before SOF
 Invalid JPEG file structure: missing SOS marker
 Invalid JPEG file structure: two SOF markers
 Invalid JPEG file structure: two SOI markers
-Invalid PLTE after IDAT
 Invalid Path
 Invalid SOS parameters for sequential JPEG
 Invalid YCbCr subsampling
 Invalid argument for DecodeEXRImage().
 Invalid argument for LoadEXRImageFromMemory
 Invalid argument. `memory` or `exr_header` argument is null in ParseEXRHeaderFromMemory()
-Invalid attempt to read row data
-Invalid bKGD after IDAT
-Invalid bit depth in IHDR
-Invalid cHRM after IDAT
-Invalid cHRM blue point
-Invalid cHRM green point
-Invalid cHRM red point
-Invalid cHRM white point
 Invalid character '%c' in swizzle operation. Only xyzw or rgba are allowed.
 Invalid code point \u%04x
 Invalid color quantization mode change
-Invalid color type in IHDR
-Invalid color type/bit depth combination in IHDR
 Invalid component ID %d in SOS
 Invalid compressed buffer size
 Invalid crop request
@@ -5239,49 +4931,20 @@ Invalid data height value
 Invalid data width or data height: 
 Invalid data width value
 Invalid data.
-Invalid filter method in IHDR
 Invalid format for element ID encountered for attribute "%s"
-Invalid format for pCAL parameter
 Invalid full path '%s' registered during compile - the relative path '%s' resolves to a different file: '%s'
-Invalid gAMA after IDAT
-Invalid hIST after IDAT
 Invalid header
 Invalid helper arguments for area_footprint (got %d, expected %d)\n
-Invalid iCCP after IDAT
-Invalid image height in IHDR
-Invalid image width in IHDR
 Invalid member name '%s'
 Invalid memory pool code %d
 Invalid navigation file '%s'.\n
-Invalid oFFs after IDAT
 Invalid offset value in DecodeEXRImage.
-Invalid pCAL after IDAT
-Invalid pCAL data
-Invalid pCAL equation type
-Invalid pCAL parameters for equation type
-Invalid pHYs after IDAT
 Invalid packing mode!
-Invalid palette chunk
-Invalid palette length
-Invalid palette size, hIST allocation skipped
 Invalid progressive parameters Ss=%d Se=%d Ah=%d Al=%d
 Invalid progressive parameters at scan script entry %d
-Invalid sBIT after IDAT
-Invalid sCAL after IDAT
-Invalid sCAL chunk ignored: bad height format
-Invalid sCAL chunk ignored: bad width format
-Invalid sCAL chunk ignored: non-positive height
-Invalid sCAL chunk ignored: non-positive width
-Invalid sCAL height
-Invalid sCAL ignored: invalid unit
-Invalid sCAL unit
-Invalid sCAL width
-Invalid sPLT after IDAT
-Invalid sRGB after IDAT
 Invalid scan script at entry %d
 Invalid search path specified for 'game_language'. Search path '%s' does not contain '%s'\n
 Invalid sequence type.\n
-Invalid tRNS after IDAT
 Invalid tile size x : 
 Invalid tile size y : 
 InvalidStream
@@ -5309,18 +4972,15 @@ JPEG
 JPEG datastream contains no image
 JPEG parameter struct mismatch: library thinks size is %u, caller expects %u
 JPEGMEM
-J\;5yTb
 January
 JawD
 JawH
 JawV
 July
-Jun 14 2020
 June
 KERNEL32.dll
 KL2H
 KNQ\rMO
-KPo\
 KV Conditional Evaluation Error
 KV3 Compiler Version
 KV3 syntax error: %s
@@ -5342,7 +5002,6 @@ Kochanek-Bartels Early
 Kochanek-Bartels Late
 L>ev
 L?UUUUUUU?
-L@CMapTileProxy CUtlMemoryPool
 LAYEREDGAMEROOT
 LAYER_MASK_COLOR_RANGE
 LAYER_MASK_LUMINOSITY
@@ -5459,18 +5118,15 @@ LoadISPCTexComp
 LoadKV3Object error: %s\n
 LoadLibraryA
 LoadLibraryExW
-LoadLibraryW
 LoadVfxAndFeatureCombo(1420): Error opening shader "%s" from mod "%s"\n
 LoadVfxAndFeatureCombo(1467): ERROR! Can't load vfx_dx dll, dynamic shader compile failed loading!\n
 LoadVfxAndFeatureCombo(1492): Error calling GetAllShaderVariables() on %s!\n
 LoadVfxAndFeatureCombo(1504): Error adding variables in %s!\n
 Loading map: %s
 Loading prefab: %s
-LocalContextCacheSize
 LocaleNameToLCID
 Localize_001
 LocalizedCameraModel
-Lock already taken
 LockGlobalObjectRegistry
 Locking Textures
 LogL16Decode: Not enough data at row %d (short %d pixels)
@@ -5512,7 +5168,6 @@ MINIDUMP_WRAP_MAIN: Entering [%s(%u):%s:]\n
 MINIDUMP_WRAP_MAIN: In __except block\n
 MINIDUMP_WRAP_MAIN: Wrapped execution\n
 MM/dd/yy
-MNG features are not allowed in a PNG datastream
 MNetworkChangeAccessorFieldPathIndex
 MNetworkChangeCallback
 MNetworkDisable
@@ -5538,8 +5193,6 @@ Make
 Make sheet file
 MakerNoteSafety
 Malformed fieldName in mesh: %s\n
-Malformed iCCP chunk
-Malformed iTXt chunk
 Manifest Compiler Version
 ManifestTestResource_t
 Map Compiler Version
@@ -5587,22 +5240,17 @@ Matteing
 Max Cameras
 Max Thrust
 Max Velocity
-MaxConcurrency
 MaxExposure
-MaxPolicyElementKey
 MaxSampleValue
 Maximum Size Scale
 Maximum supported image dimension is %u pixels
-May 27 2020
 MbP?
-MbP?8Q
-Mbp?333333
+MbP?8
 MemAlloc_AllocFunc
 MemAlloc_CallocFunc
 MemAlloc_FreeFunc
 MemAlloc_ReallocFunc
 MemAlloc_StrDupWrapperFunc
-Memory allocation failed while processing sCAL
 MergeAdditionalOptionalSet
 MergeMesh
 MergeVertices
@@ -5628,10 +5276,7 @@ MeshSoftEdges
 MeshSystem001
 MeshUtils001
 MeshV001RESOURCE_TYPE_COMPILER_002
-MessageBoxA
-MessageBoxW
 Min Thrust
-MinConcurrency
 MinExposure
 MinSampleValue
 MiniDumpExceptionHandler
@@ -5649,28 +5294,6 @@ Mismatched Token Exception
 Mismatched VWatch protocol version number. Client expected version %lu, VWatch service running version %lu. Running without VWatch performance benefits.\n\tYou can update your VWatch service by updating VMPI from \\fileserver\vmpi\n
 Mismatched set
 Missing Huffman code table entry
-Missing IHDR before IDAT
-Missing IHDR before PLTE
-Missing IHDR before bKGD
-Missing IHDR before cHRM
-Missing IHDR before gAMA
-Missing IHDR before hIST
-Missing IHDR before iCCP
-Missing IHDR before iTXt
-Missing IHDR before oFFs
-Missing IHDR before pCAL
-Missing IHDR before pHYs
-Missing IHDR before sBIT
-Missing IHDR before sCAL
-Missing IHDR before sPLT
-Missing IHDR before sRGB
-Missing IHDR before tEXt
-Missing IHDR before tRNS
-Missing IHDR before zTXt
-Missing PLTE before IDAT
-Missing PLTE before bKGD
-Missing PLTE before hIST
-Missing PLTE before tRNS
 Missing file '%s'
 Missing file: %s\n
 Missing token
@@ -5721,7 +5344,6 @@ NPC Clip
 NPCs
 NQ?s
 NULL
-NULL row buffer
 NV_DST16
 NV_DST24
 NV_INTZ
@@ -5798,24 +5420,13 @@ No conversion from %s to string at the moment!\n
 No display adapters found. Falling back to software rasterizer\n
 No free conversion of %s variant to Vector right now\n
 No game entities will be available for creation.\n
-No image in file
 No inputs specified, recompiling... \n
 No know mod!
-No memory for pCAL params
-No memory for pCAL purpose
-No memory for sPLT palettes
-No memory to process iTXt chunk
-No memory to process text chunk
 No space for "TransferFunction" tag
 No space for LZW code table
 No space for LZW hash table
 No space for LZW state block
 No space for ZIP state block
-No space in chunk cache for iTXt
-No space in chunk cache for sPLT
-No space in chunk cache for tEXt
-No space in chunk cache for unknown chunk
-No space in chunk cache for zTXt
 No space to write RATIONAL array
 No space to write array
 No space to write per-sample shorts
@@ -5841,15 +5452,9 @@ NoseV
 NostrilFlare
 Not %s
 Not a JPEG file: starts with 0x%02x 0x%02x
-Not a PNG file
 Not a TIFF file, bad magic number %d (0x%x)
 Not a TIFF file, bad version number %d (0x%x)
 Not enough
-Not enough image data
-Not enough memory to decompress chunk
-Not enough memory to process iTXt chunk
-Not enough memory to process text chunk
-Not enough memory to process zTXt chunk
 Not implemented yet
 Not safe to 'new' this class due to alignment requirements
 November
@@ -5909,30 +5514,17 @@ OriginalRawFileName
 Oscillate Scalar
 Oscillate Vector
 Other
-Out of Memory
 Out of memory allocating %d byte temp buffer.
-Out of memory processing zTXt chunk
-Out of memory while processing sCAL chunk
-Out of memory while processing sPLT chunk
-Out of memory while processing unknown chunk
-Out of place IHDR
-Out of place cHRM chunk
-Out of place gAMA chunk
-Out of place iCCP chunk
-Out of place sBIT chunk
-Out of place sRGB chunk
-Out of place tIME chunk
-Out of range gamma value ignored
 Outgoing Tangent Type
 Output file write error --- out of disk space?
 Output unserialization of entities on map load. 0 - off, 1 - client/server, 2 - server, 3 - client
-OutputDebugStringW
 Overlay
 OverlayBoxSize
 OverlaySurface
 OverlaySurfaceIndices
 OverlaySurfaceVertices
-PARALLEL_PROCESS `anonymous-namespace'::CParticleJobUpdater::UpdateNewEffectsJobFn(), c:\buildslave\hlvr_rel_win64\build\src\particleslib\particlemgr.cpp:975
+P8Wp
+PARALLEL_PROCESS CParticleMgr::SimulateParticles(), c:\buildslave\hlvr_rel_win64\build\src\particleslib\particlemgr.cpp:1013
 PARTICLE_DEPTH_FEATHERING_OFF
 PARTICLE_DEPTH_FEATHERING_ON_OPTIONAL
 PARTICLE_SET_REPLACE_VALUE
@@ -5971,14 +5563,10 @@ PF_TYPE_LITERAL
 PF_TYPE_PARTICLE_AGE_NORMALIZED
 PF_TYPE_RANDOM_UNIFORM
 PHRASE
-PH|f
 PLAINTEXT
 PLAINTEXT\r\n
 PLATFORM
-PNG file corrupted by ASCII conversion
-PNG fixed point integer out of range
-PNG load error %s\n
-PNG unsigned integer out of range
+PNG\r\n
 POSIX
 PS_RENDER_STATE
 PSnapV001RESOURCE_TYPE_COMPILER_002
@@ -6182,7 +5770,6 @@ PostProcessingTonemapParameters_t
 PostProcessingVignetteParameters_t
 PosterSettings
 Postprocessing Compiler Version
-Potential overflow in png_zalloc()
 Pre-Age Noise
 Precipitation
 Precompute Light Probes
@@ -6213,13 +5800,11 @@ Probe Boxes
 Probes
 Procedural
 ProcessNotifyList: encountered a deleted object. Tell a programmer.
-ProcessPSystems
 ProcessTexture(767): Error unserializing dmevtex "%s"!\n
 ProcessTexture(773): Error! %s - "%s"!\n
 ProcessTexture(807): Error: %s\n%s\n
 ProcessTexture(823): Error calling CreateChildContext( %s ) for %s!\n
 ProcessTexture(832): Error calling CompileImmediately( %s ) for %s!\n
-Profile size field missing from iCCP chunk
 Program MD5 is out of date with features! %s\n
 Program MD5 is out of date with features! If you recompiled shaders in the background, reload shaders now! %s\n
 Programmer Error! Static combo not loaded!\n
@@ -6247,11 +5832,7 @@ Quantizing to %d = %d*%d*%d colors
 Quantizing to %d colors
 QuarterSizeAttrWithBoxFilter
 Quaternion
-QueryDepthSList
 QueryPerformanceCounter
-QueryPerformanceFrequency
-QueryUmsThreadInformation
-QueueUserWorkItem
 QueuedLoaderVersion001
 R channel not found!\n
 R11_EAC
@@ -6275,6 +5856,7 @@ RG1616
 RG1616F
 RG1616F_EXPAND
 RG3232F
+RG88
 RGB323232F
 RGB565
 RGB888
@@ -6295,10 +5877,8 @@ RGBM
 RGBX555
 RGBX8888
 RPCRT4.dll
-RSDS
+RSDSrs&
 RST%d
-R\vP!Y
-R\vn>
 RadianEuler
 Radius
 Radius Random
@@ -6313,13 +5893,10 @@ Randomly Flip Yaw
 RawDataUniqueID
 RayTracingEnvironment::RefineNode
 RayTracingEnvironment::RefineNodeJob
-Rd.F
-Read Error
 Read failed on temporary file
 Read from EMS failed
 Read from XMS failed
-Read palette index exceeding num_palette
-ReadConsoleInputA
+ReadConsoleInputW
 ReadConsoleW
 ReadFile
 Reading Input Texture: 
@@ -6341,13 +5918,10 @@ RegisterAssertionFailureListener
 RegisterConfigValue: Unknown error constructing config value "%s"!\n
 RegisterGlobalObject
 RegisterStringToken
-RegisterTraceGuidsW
-RegisterWaitForSingleObject
 Registering anonymous field with tag %d (0x%x) failed
 Release
 ReleaseMutex
 ReleaseSRWLockExclusive
-ReleaseSemaphore
 Remap Distance Between Two Control Points to Scalar
 Remap Distance to Control Point to Scalar
 Remap Noise to Scalar
@@ -6447,13 +6021,13 @@ Rotation Spin Roll
 Rotation Spin Yaw
 Rotation Yaw Flip Random
 Rotation Yaw Random
-Row has too many bytes to allocate in memory
 Row pixels integer overflow (rowpixels %u)
 RowsPerStrip
 RpcStringFreeA
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlPcToFileHeader
+RtlUnwind
 RtlUnwindEx
 RtlVirtualUnwind
 S+Ot
@@ -6482,8 +6056,18 @@ SSAOBias
 SSAORadius
 SSAOStrength
 SSE and SSE2 are required.
-STEAMUGC_INTERFACE_VERSION013
-S\rYkv
+STEAMAPPS_INTERFACE_VERSION009
+STEAMHTMLSURFACE_INTERFACE_VERSION_005
+STEAMHTTP_INTERFACE_VERSION003
+STEAMINVENTORY_INTERFACE_V003
+STEAMMUSIC_INTERFACE_VERSION001
+STEAMPARENTALSETTINGS_INTERFACE_VERSION001
+STEAMREMOTEPLAY_INTERFACE_VERSION004
+STEAMREMOTESTORAGE_INTERFACE_VERSION016
+STEAMSCREENSHOTS_INTERFACE_VERSION003
+STEAMUGC_INTERFACE_VERSION021
+STEAMUSERSTATS_INTERFACE_VERSION013
+STEAMVIDEO_INTERFACE_V007
 S_BINDLESS_RUNTIME
 S_MOBILE
 S_MOLTEN_VK
@@ -6514,8 +6098,6 @@ SceneObject_t
 SceneSystem
 SceneSystem_002
 SceneUtils_001
-SchedulerKind
-SchedulingProtocol
 Schema description file
 SchemaSystem_001
 SchemaTestExternal_One_001
@@ -6538,6 +6120,8 @@ SelectionOverlayAlpha
 SelectionRemove
 SelectionSet
 SelectionWireframe
+Sep 16 2026
+Sep 17 2026
 September
 Sequence
 Sequence %d clamp = %d nframes=%d\n
@@ -6563,7 +6147,7 @@ SetClipboardData
 SetConsoleMode
 SetDefaultMiniDumpHandler
 SetEndOfFile
-SetEnvironmentVariableA
+SetEnvironmentVariableW
 SetEvent
 SetFaceFlags
 SetFaceVertexStreamData
@@ -6582,12 +6166,8 @@ SetStdHandle
 SetTexCoordScaleFromDisplayRect(1296): Unable to load texture %s\n
 SetTexCoordScaleFromDisplayRect(1331): Texture '%s' requires different texcoord scale than other textures in this material. (%f vs %f)\n
 SetTexCoordScaleFromDisplayRect(1344): Texture '%s' requires different texcoord scale than other textures in this material. (%f vs %f)\n
-SetThreadAffinityMask
-SetThreadGroupAffinity
-SetThreadPriority
 SetThreadpoolTimer
 SetThreadpoolWait
-SetUmsThreadInformation
 SetUnhandledExceptionFilter
 SetVertexStreamDataFromPerFacePerVertexData
 SetWholeMeshOverrideMaterial
@@ -6617,7 +6197,6 @@ ShowMeshTiles
 ShowSelectionBounds
 ShowSelectionDimensions
 ShowSelectionOutline
-SignalObjectAndWait
 Simple Cubic
 Simulated %i objects, %i sleeping.\n
 Single Convex Hull
@@ -6634,7 +6213,6 @@ Skybox Map 1
 Skybox Map 2
 Skybox Map 3
 SkyboxSlot
-Sleep
 SleepConditionVariableCS
 SleepConditionVariableSRW
 SleepEx
@@ -6704,7 +6282,6 @@ StatsService_001
 Steam Audio
 Steam Audio Probe
 SteamAPI_GetHSteamUser
-SteamAPI_Init
 SteamAPI_IsSteamRunning
 SteamAPI_SetBreakpadAppID
 SteamAPI_Shutdown
@@ -6713,8 +6290,21 @@ SteamAPI_WriteMiniDump
 SteamAppId
 SteamAudio001
 SteamAudioEnabled
+SteamController008
+SteamFriends018
+SteamInput007
 SteamInternal_ContextInit
 SteamInternal_FindOrCreateUserInterface
+SteamInternal_SteamAPI_Init
+SteamMatchMaking009
+SteamMatchMakingServers003
+SteamNetworking006
+SteamNetworkingMessages002
+SteamNetworkingSockets013
+SteamNetworkingUtils004
+SteamParties002
+SteamUser023
+SteamUtils011
 SteamVR FAILED to initialize!\n
 SteamVR initialization begin...\n
 Steps Per Second
@@ -6737,11 +6327,10 @@ Surface Properties Compiler Version
 SurfaceProperties missing name\n
 SurfacePropertiesList
 Suspension not allowed here
-Svj>
-SwitchToThread
 Swizzle operation only supports up to four channels.
 Symbol table:  %d entries %llu bytes\n
 SystemAttributes
+T0d/
 TEMP
 TIFFAppendToStrip
 TIFFClientOpen
@@ -6766,14 +6355,12 @@ TIFFVStripSize
 TIFFVTileSize
 TIMES
 TUUUU
-T\t5K
 Tag 
 Tag %d
 Tag Value
 Target Name
 Target objects
 TargetGroup
-TargetOversubscriptionFactor
 TargetPrinter
 Teleport Clip
 TerminateProcess
@@ -6843,8 +6430,8 @@ The filename may only contain lower case alphanumeric characters, dashes, and un
 The gameinfo.gi file is missing or incomplete.
 The nav mesh needs a full nav_analyze\n
 The system ran out of memory while loading the game.
-This function cannot be called on a default constructed task
 This is a BigTIFF file.  This format not supported\nby this version of libtiff.
+ThreadAtomicNotifyAll
 ThreadGetCurrentProcessId
 ThreadMultiWaitObjectSetDestroy
 ThreadSleep
@@ -6915,7 +6502,6 @@ TongueD
 TongueH
 TongueV
 TongueWidth
-Too many IDATs found
 Too many color components: %d, max %d
 Too many simultaneously active particle systems!\n
 Too much
@@ -6940,7 +6526,6 @@ Top Left Corner
 Top Right Corner
 Total time: %s\n
 Totals
-TraceEvent
 Trail Length Random
 Trailing Data
 Trajectory Path
@@ -6960,25 +6545,17 @@ Tried to rename from '%s' to '%s', but '%s' already exists\n
 Trigger
 Triggers
 Truncated data
-Truncated iTXt chunk
-Truncated zTXt chunk
-Truncating incorrect info tRNS chunk length
-Truncating incorrect tRNS chunk length
 Truncation Error %.4f\nIdeal Range %d
 TryAcquireSRWLockExclusive
-TryEnterCriticalSection
 Trying to add a frame when there is no current sequence.\n
 Trying to assign 2 different collision groups to the same shape! (%s and %s)\n
 Trying to find a flex controller (%s) that doesn't actually exist in the model.\n
 Tuesday
 Two Bone
 Two KV3 format GUIDs with the same human-friendly name ('%s')
-T~OXu
+U1h\n
 U4tT
-U?1g
-U?wN
 UA>N0Wl
-UEj)
 UI Background
 UNICODE_ESC
 USER32.dll
@@ -6989,8 +6566,6 @@ UUUUUU
 UV88
 UVLX8888
 UVWQ8888
-UcKc
-UmsThreadYield
 UnRegisterGlobalObject
 Unable find required entry points in %s\n
 Unable to Start Game
@@ -7031,7 +6606,6 @@ Unexpected node
 Unexpected token
 Unhandled proxy keyvalues type (proxy %s var %s)\n
 UnhandledExceptionFilter
-Uninitialized row
 UniqueCameraModel
 UnitFile
 Units
@@ -7043,38 +6617,26 @@ Unknown Adobe color transform code %d
 Unknown Path Class
 Unknown class '%s' specified by @exclude
 Unknown compression format %s, can't apply compression to %s\n
-Unknown compression method in IHDR
-Unknown compression type @1
-Unknown compression type in zTXt chunk
 Unknown compression type.
 Unknown data format %d for LogLuv compression
 Unknown encoding %d for LogLuv compression
 Unknown exception
-Unknown filter method in IHDR
-Unknown iTXt compression type or method
-Unknown interlace method in IHDR
 Unknown interpolation type %d\n
 Unknown navigation file version.\n
 Unknown output texture type "%s" in %s!\n
-Unknown sRGB intent
 Unknown sub-version number\n
 Unknown variable name %s.
 Unknown version %d for vpk %s
-Unknown zlib error
 UnlockGlobalObjectRegistry
 UnmapViewOfFile
 UnmountAddon: Failed to find %s search path.\n
 Unrecognized argument type (%i) for argument "%s", ignoring.\n
 Unrecognized component IDs %d %d %d, assuming YCbCr
-Unrecognized equation type for pCAL chunk
 Unrecognized flag name '%s'
 Unrecognized meta key: %s
 Unrecognized section name %s
 Unrecognized type '%d'
 UnregisterAssertionFailureListener
-UnregisterTraceGuids
-UnregisterWait
-UnregisterWaitEx
 Unresolved object reference '%s'
 Unserialization failure: %s, %s\n
 Unserialize: Cannot determine encoding from file, and no encoding provided!\n
@@ -7087,11 +6649,8 @@ Unserialize: Unable to open dmxconvert temp file "%s"\n
 Unserialize: Unable to start dmxconvert process\n
 Unserialize: Unexpected encoding name '%s' reading file '%s' - expected encoding '%s'\n
 Unserialize: Unexpected format '%s' reading file '%s' - expected format '%s'\n
-Unspecified
-Unsupported ETC image format %d.\n
 Unsupported JPEG data precision %d
 Unsupported JPEG process: SOF type 0x%02x
-Unsupported PSD color mode!\n
 Unsupported attribute type found!\n
 Unsupported binary encoding id.
 Unsupported color conversion request
@@ -7106,13 +6665,10 @@ Unsupported wave files format type %d, %d bits! %s\n
 Unweighted
 Unzip %s (%d files):\n
 UnzipVpk
-Uo\vv
 UokOP
 UpdateAllTileFaces
 UpdateDirtyProceduralObjects
 UpdateGlobalLightHelper
-UpdateNewEffects
-UpdateProcThreadAttribute
 Updating references to file: %s\n
 Usage: resourcecompiler <in resource file list>\n
 Use Best Size Match
@@ -7226,7 +6782,6 @@ V_StringToFloatArray
 V_StringToVector
 V_StripLeadingWhitespace
 V_UTF16ToUTF8
-V_UTF32ToUTF16
 V_UTF8ToUTF16
 V_UnqualifiedFileName
 V_acos
@@ -7335,7 +6890,6 @@ Vignette %d
 Virtual array controller messed up
 VirtualAlloc
 VirtualFree
-VirtualProtect
 Virual volume texture file
 Vis Blocker
 VisBuilder_001
@@ -7360,9 +6914,7 @@ WINXP
 WORD
 WORDS
 WORDS\r\n
-WR_l%2>
 WS2_32.dll
-WY'N
 WaNd?
 WaitForMultipleObjects
 WaitForSingleObject
@@ -7397,12 +6949,9 @@ WhiteLevel
 WhiteOnBlack
 WhitePoint
 WideCharToMultiByte
-Width is too large for libpng to process pixels
-WinRTInitialization
 WipeRedo '%s'\n
 WipeUndo '%s'\n
 WireframeColor
-WmS|
 WorkshopSetup001
 World
 World Compiler Version
@@ -7442,12 +6991,10 @@ X360_DST16
 X360_DST24
 X360_DST24F
 XClipPathUnits
-XL3Z
 XMLPacket
 XPosition
 XResolution
 XYZ, Luv
-Xl=hs>
 XsBI
 Y8a:
 Y>kX>M
@@ -7467,13 +7014,10 @@ ZIPSetupDecode
 ZIPSetupEncode
 ZIPVSetField
 Z\>z8
-Z_JmLd
-Zero length tRNS chunk
 Zjz\v
 ZoomSensitivityMouseMove
 ZoomSensitivityMouseWheel
 Zpm"U
-ZxnI
 [%d] Aborting undo '%s'\n
 [%d] Popping undo '%s'\n
 [%d] Pushing undo '%s'\n
@@ -7554,20 +7098,21 @@ ZxnI
 \n*** VfxGetCompileTargetsFromVfxFile(1299): Error opening file "%s"!\n\n
 \n*** VfxGetUsedShaderProgramsFromVfxFile(1376): Error opening file "%s"!\n\n
 \nCwf\r
+\nIHDRPLTEIDATIENDtRNScHRMgAMAiCCPsBITsRGBtEXtzTXtiTXtbKGDhISTpHYssPLTtIMEoFFseXIf
 \nPS_RENDER_STATE
 \nVCS file format is "%c%c%c%c" instead of "%c%c%c%c" for %s\n
 \nVCS file version is %d instead of %d for %s\n
 \nWrite %s Failed!\n
 \n\n... Building '%s'\n
+\nati_compress_wrapper.dll
 \nh?oT
 \nk>oB
-\nwX4C
-\rUtf
+\rEOp
 \r\f\v\v\n\n\t\t\t\t\t
 \rmj>zjZ
+\rpzh
 \t The lexer was matching from line %d, offset %d, which\n\t 
 \t9sv
-\tJqAl
 \tN1a
 \tNAN encountered in element '%s' guid %s attribute '%s'!\n
 \tWORD %s %.3f %.3f\r\n
@@ -7575,6 +7120,7 @@ ZxnI
 \t\t[ FAIL ] - Manifest contains an illegal resource name "%s"!\n
 \t\t\n\n\v\v\f\f\f\f\r\r\r\r
 \t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUnsupported PSD color mode!\n
 \t\t\t\t\t\t\t\v\v\v\v\v
 \tbody_groups = %s\n
 \tcQr
@@ -7584,7 +7130,6 @@ ZxnI
 \tvoice_duck %d\r\n
 \u must be followed by exactly 4 hex digits
 \vA03>A|
-\vpPX[
 ]u9g
 ^<V7w
 ^L7B
@@ -7613,7 +7158,7 @@ _V_strncmp
 _V_strncpy
 _V_strnicmp_fast
 _V_strnistr_fast
-_W4~w
+_XWp
 __Attribute__
 __Expression__
 __FROM_ATTRIBUTE_OR_FEATURE__
@@ -7640,6 +7185,8 @@ __pascal
 __ptr64
 __restrict
 __stdcall
+__swift_1
+__swift_2
 __temp_unserialization_member__
 __thiscall
 __unaligned
@@ -7675,7 +7222,6 @@ _interface_relay_connection
 _light
 _linked_type_
 _logb
-_m_bool
 _name
 _nextafter
 _oD>Kg
@@ -7688,9 +7234,8 @@ _test_conversion_counter
 _to_curve_
 _tooltip
 _visxxx_%dx%dx%d.tga
-`*Hhq
-`7bu
 `RTTI
+`anonymous namespace'
 `copy constructor closure'
 `default constructor closure'
 `dynamic atexit destructor for '
@@ -7700,7 +7245,6 @@ _visxxx_%dx%dx%d.tga
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static guard'
 `local static thread guard'
 `local vftable constructor closure'
@@ -7727,8 +7271,7 @@ _visxxx_%dx%dx%d.tga
 `vftable'
 `virtual displacement map'
 a6>r
-aFN,
-aP7^
+a`zh
 aaaaaaaazzzzzzzz
 abcdefghijklmnopqrrqponmlkjihgfedcba
 abcdefghijklmnopqrstuvwxyz
@@ -7868,7 +7411,6 @@ assettypes.txt
 associated_key
 atan
 atan2
-ati_compress_wrapper.dll
 attach
 attach_point
 attachment
@@ -7888,19 +7430,19 @@ autovisgroup
 axies
 axis
 axisSystem
-bFbx
 bShowSelectionModeChangeNotificationIcons
 bShowToolChangeNotificationIcons
 bUpdate
 bViewFocusStealing
+b\v5bd
 background
 backgroundColor
 backgroundFXClip
 backgroundMap
 background_image
-bad adaptive filter value
 bad address
 bad allocation
+bad array new length
 bad exception
 bad extended bitmap synax (no close brace) - %s \n
 bad file descriptor
@@ -8032,7 +7574,6 @@ breakable_skin
 brightness
 brightness_offset
 broken pipe
-broken promise
 bspline
 bt3V
 buffer
@@ -8093,6 +7634,7 @@ c:\buildslave\hlvr_rel_win64\build\src\mapdoclib\mapworld.cpp
 c:\buildslave\hlvr_rel_win64\build\src\mapdoclib\mapworldlayer.cpp
 c:\buildslave\hlvr_rel_win64\build\src\mapdoclib\modelsnapshot.cpp
 c:\buildslave\hlvr_rel_win64\build\src\mapdoclib\polygonmeshinstancerenderdata.cpp
+c:\buildslave\hlvr_rel_win64\build\src\mapdoclib\polygonmeshoccluderdata.cpp
 c:\buildslave\hlvr_rel_win64\build\src\mapdoclib\polygonmeshrenderdata.cpp
 c:\buildslave\hlvr_rel_win64\build\src\mapdoclib\steamaudioprobenode.cpp
 c:\buildslave\hlvr_rel_win64\build\src\mapdoclib\tagvisualization.cpp
@@ -8104,6 +7646,7 @@ c:\buildslave\hlvr_rel_win64\build\src\mapdoclib\visibilitymgr.cpp
 c:\buildslave\hlvr_rel_win64\build\src\mathlib\mathlib.cpp
 c:\buildslave\hlvr_rel_win64\build\src\meshutils\formats.cpp
 c:\buildslave\hlvr_rel_win64\build\src\particleslib\particle_property.cpp
+c:\buildslave\hlvr_rel_win64\build\src\particleslib\particlemgr.cpp
 c:\buildslave\hlvr_rel_win64\build\src\public\appframework\materialsystem2app.cpp
 c:\buildslave\hlvr_rel_win64\build\src\public\appframework\tier1app.h
 c:\buildslave\hlvr_rel_win64\build\src\public\appframework\tier2app.h
@@ -8121,6 +7664,7 @@ c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlrbtree.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlsymbol.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlsymbollarge.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utltshash.h
+c:\buildslave\hlvr_rel_win64\build\src\public\tier2\fileutils.h
 c:\buildslave\hlvr_rel_win64\build\src\public\vstdlib\jobthread.h
 c:\buildslave\hlvr_rel_win64\build\src\public\vwatchlib\vwatchclient.h
 c:\buildslave\hlvr_rel_win64\build\src\raytrace\raytrace.cpp
@@ -8335,7 +7879,6 @@ cornerPropertyValues3
 corrected
 cosf
 cosh
-count
 cpoint
 cpoint%d%n
 create from parent particles
@@ -8344,7 +7887,6 @@ cross device link
 crossfade_ms
 cs_5_0
 cstring
-cu\fq7
 cubeMapName
 cubeblur
 cubemap
@@ -8521,7 +8063,6 @@ editormodel
 editorversion
 effect_configuration
 effect_name
-effortblocks = %d\n
 ehandle
 element
 elementList
@@ -8567,16 +8108,14 @@ env_sky
 env_volumetric_fog_volume
 error
 error %s:  %s\n
-error in user chunk
 eventID
-eventObject
 event_class
 event_keys
 event_ramp
 eventindex
 events
 ewh/?y
-ex@|f
+ex0Wp
 exclude
 executable format error
 exit_anim
@@ -8611,11 +8150,9 @@ externalHelper
 externaldescriptorset
 extra_vertex_data
 extracted_motion
-extreme cHRM chunk cannot be converted to tristimulus values
 eyeOffset
 eyelid
 eyes
-f@)rM
 fD>b
 fP~V
 fWi?
@@ -8754,11 +8291,10 @@ fu`z
 fully_occluded_fraction
 func_distance_occluder
 func_ladder
+func_nav_markup
 func_occluder
 function not supported
 functionName
-future
-future already retrieved
 g_Mathlib_GammaToLinearByteTable
 g_Tier1_CRC32Table
 g_Tier1_CRC64Table
@@ -8782,7 +8318,6 @@ gameinfo.gi
 gameinfo_branchspecific.gi
 gameitemclass
 gameunitclass
-gamma table being rebuilt
 gammatolinear
 generate_mips_for_matching_names
 generic
@@ -8825,9 +8360,7 @@ gs_4_0
 gs_4_1
 gs_5_0
 h0'D
-h2yv
 h>1my
-hI{L[
 hPU3
 halfgridsnap
 hammer
@@ -8855,6 +8388,7 @@ hammer_gridnav_show_obstructions
 hammer_gridnav_show_ward_blocking
 hammer_nav_attrib_color
 hammer_overlay_draw_projection_triangles
+hammer_parallel_procedural_update
 hammer_raytrace_debug_draw
 hammer_render_model_bounding_spheres
 hammer_show_light_truncation_error
@@ -8903,7 +8437,6 @@ iOS SM 4.0 (VULKAN)
 i]Wb
 icon_replacement_hero
 iconsprite
-id@j>
 identifier removed
 idle
 ignorePhonemes
@@ -8960,13 +8493,6 @@ intensity
 interactAs
 interactExclude
 interactWith
-internal error handling cHRM coefficients
-internal error handling cHRM->XYZ
-internal error in png_XYZ_from_xy
-internal row logic error
-internal row size calculation error
-internal row width error
-internal sequential row size calculation error
 interpolationType
 interpolator_left
 interpolator_right
@@ -8975,11 +8501,8 @@ interrupted
 interrupts
 invalid
 invalid argument
-invalid background gamma type
 invalid bit length repeat
 invalid block type
-invalid chunk type
-invalid chunklength
 invalid code -- missing end-of-block
 invalid code lengths set
 invalid distance code
@@ -8990,8 +8513,7 @@ invalid literal/lengths set
 invalid seek
 invalid stored block lengths
 invalid string position
-invalid user transform pixel depth
-invalid vector<T> subscript
+invalid vector subscript
 invalid window size
 invalid_bone
 invalid_hitbox
@@ -9024,7 +8546,6 @@ itemFile
 itemKeys
 items
 j'Vlk
-j,4c
 jitteriterations
 jitterscale
 jitterscale_vector
@@ -9041,9 +8562,6 @@ js_object
 js_raw_args
 js_value
 k=yI
-kBk>
-kU!W>
-kWt>
 kernel32.dll
 key_name_strip_prefix
 key_path
@@ -9074,6 +8592,7 @@ kochanek_early
 kochanek_late
 kv 0x%p Release refcount == %d\n
 l6qnk
+l=!hWp
 lDa>
 lWi]
 ladder
@@ -9111,9 +8630,6 @@ level
 lexer->mTokens(): Error: No lexer rules were added to the lexer yet!\n
 libfbxsdk.dll
 libmpg123-0.dll
-libpng does not support gamma+background+rgb_to_gray
-libpng error: %s
-libpng warning: %s
 lifespan_decay
 lifetime_random
 light
@@ -9181,14 +8697,12 @@ loop_start_sample
 loop_start_time
 loopcount
 looping
-los_
 lost_hidden_nodes
 lower_hemisphere_is_black
 lowprecisionuv
 lowprecisionuv1
 luminance
 m%d%d
-m1WY$
 m?H7
 mG4>
 mXr4
@@ -9389,6 +8903,7 @@ m_bloomParams
 m_boneHashes
 m_boneOverrides
 m_boneTransforms
+m_bool
 m_boundsGroups
 m_builderParams
 m_child
@@ -9830,7 +9345,6 @@ m_worldNodes
 machine
 maintain position along path
 makefile
-malformed sPLT chunk
 mamamamamama
 managed
 manipulatorSettings
@@ -10118,7 +9632,6 @@ no message available
 no objects to settle\n
 no protocol option
 no space on device
-no state
 no stream resources
 no such device
 no such device or address
@@ -10181,6 +9694,7 @@ numchannels
 numsegments
 o9sp
 o?GS
+oBtranslucent
 oI>O7
 oOffset
 objectConfiguration
@@ -10199,7 +9713,6 @@ occluder
 occlusion_exponent
 offset
 offsetTime
-ofn}>
 opacityValues
 open
 openGround
@@ -10211,6 +9724,8 @@ operation not supported
 operation would block
 operator
 operator "" 
+operator co_await
+operator<=>
 operator_stacks
 operators
 optionallycompressedtangentframe
@@ -10250,12 +9765,8 @@ p4lib
 p4port
 p?event
 p@tile
-pContext
-pEvents
-pExecutionResource
-pScheduler
-pThreadProxy
-p\r0\fP!c
+p\r0\fP
+p\rP!E
 packmode
 panorama/images/vpdi_sentinel.png
 panorama/panorama_config.txt
@@ -10273,7 +9784,6 @@ particles
 particles/
 particles/error/error.vpcf
 particlesystem
-pass %u\n
 passbullets
 patch
 patch 
@@ -10332,10 +9842,6 @@ playback_time
 playerclip
 playoverscript
 plugTypes
-png_do_encode_alpha: unexpected call
-png_do_quantize returned rowbytes=0
-png_do_rgb_to_gray found nongray pixel
-png_inflate logic error
 point
 point0
 point1
@@ -10369,7 +9875,6 @@ postion_lock_to_controlpoint
 postprocessing
 posxyz
 powf
-ppVirtualProcessorRoots
 precomputedboundsmaxs
 precomputedboundsmins
 precomputedirection
@@ -10385,14 +9890,12 @@ presetRemap
 presets
 priority
 probability
-proc
 procedural
 processors
 projectOnBackFaces
 projectionFar
 projectionMode
 projectionTargets
-promise already satisfied
 propTypes
 prop_data
 prop_door_rotating_physics
@@ -10429,14 +9932,11 @@ qS>g?h3
 qangle
 qangle log
 qangle_array
-qo-W>
 quadraticAttenuation
 quality
 quaternion
 quaternion log
 quaternion_array
-rLp>B
-r\np!G
 r\tVr.>T
 r_freezeparticles
 r_particle_timescale
@@ -10593,14 +10093,10 @@ rwtexture2d
 rwtexture2darray
 rwtexture3d
 sAmTb
-sCAL chunk too short
 sHF'
-sPLT chunk has bad length
-sPLT chunk requires too much memory
-sPLT chunk too long
 sRGB
 s_EntComponentInfo
-s`"DH gd
+s`"DH
 sampler1D
 sampler1DARRAY
 sampler2D
@@ -10678,7 +10174,6 @@ sequenceduration
 sequencenumber
 sequences
 sequential position along path
-sequential row overflow
 sessionSettings
 set_balance
 set_balance_staging
@@ -10920,13 +10415,9 @@ suppressed
 surfacePropertyName
 surface_prop
 surface_properties
-switchState
 syncEngineFramerate
 synched
 synctofollowinggesture
-t14x
-tRNS chunk has out-of-range samples for bit_depth
-tRNS chunk not allowed with alpha channel
 tag_list
 tag_list_dynamic
 tags
@@ -10980,7 +10471,6 @@ texcoord$0Indices
 texcoord$1
 texcoord_2d
 text
-text compression mode is out of range
 text file busy
 text_block
 texture
@@ -11074,7 +10564,6 @@ trail_length_random
 transform
 transformLocked
 transforms
-translucent
 transparency
 treeColor
 treeTypes
@@ -11097,7 +10586,6 @@ unified
 uniform_burst
 unknown
 unknown compression method
-unknown critical chunk
 unknown error
 unknown exception
 unknown header flags set
@@ -11125,9 +10613,7 @@ usesLaggedValues
 utlstringtoken
 uzKs@>
 v2!L.2
-vECd
 vQO+t
-va1+
 validGrassTile
 value
 value too large
@@ -11160,6 +10646,7 @@ vecSave
 vecline
 vector
 vector noise
+vector too long
 vector2
 vector2 log
 vector2_array
@@ -11171,7 +10658,6 @@ vector4
 vector4 log
 vector4_array
 vector4d
-vector<T> too long
 velTolerance
 velocity
 velocity_random
@@ -11267,6 +10753,7 @@ vpost
 vptest
 vr_carry_type
 vr_msaa
+vr_window_hide
 vrad_brush_cast_shadows
 vrgrp
 vrnmd
@@ -11293,7 +10780,6 @@ vwrld
 w+OQvr
 w3Xc
 w8#_p
-wIq?
 wXR\r
 warning:  unable to read .vcd file '%s'\n
 warning:  unable to restore .vcd file '%s' from disk\n
@@ -11339,26 +10825,17 @@ wrong protocol type
 xMSAA\n
 xT?V
 xcoord
-xpxxxx
-xwpwpp
 y9*O
-y>1g
 yaw_end
 yaw_start
 ycoord
 z:KCAuthPhysBody
 z>Failed to save unsupported class
-zJO>
 zero
 zero_value
 zfar
 zip_line_node
-zlib memory error
-zlib stream error
-zlib version error
 znear
-zos_
-zyC7
 {Hammer node %d} 
 {YIN?
 {images}/($key_value)
@@ -11372,6 +10849,5 @@ zyC7
 {kHw
 {}[]()=&, \t\n'"*;
 {}[]=, \t\n'":|;
-}mxQ>
 ~CMapDoc destructor: Leaking physics world because there are still ModelInstances that use it.\n
 ~CModelInstance destructor: leaking softbody because physics world disappeared\n

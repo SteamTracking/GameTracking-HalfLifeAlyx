@@ -1,0 +1,685 @@
+"lang" 
+{ 
+"Language" "dutch" 
+"Tokens" 
+{ 
+
+// main menu
+"HLVR_MainMenu_NewGame"						"Start New Game"
+"HLVR_MainMenu_Continue"					"Doorgaan"
+"HLVR_MainMenu_LoadGame"					"Opgeslagen spel laden"
+"HLVR_MainMenu_Quit"							"Spel afsluiten"
+"HLVR_MainMenu_Options"						"Instellingen"
+"HLVR_MainMenu_PhotoMode"					"Fotomodus"
+"HLVR_MainMenu_SelectChapter"			"Hoofdstuk kiezen"
+"HLVR_MainMenu_Back"							"Terug"
+
+"HLVR_MainMenu_MainMenu"					"Hoofdmenu"
+"HLVR_MainMenu_Resume"						"Hervatten"
+"HLVR_MainMenu_Save"  						"Opslaan"
+"HLVR_MainMenu_Load"  						"Laden"
+"HLVR_MainMenu_SavedGames"				"Spellen"
+"HLVR_MainMenu_StartNewGame"	  	"Nieuw spel starten"
+"HLVR_MainMenu_StartGame"	  			"Spel starten"
+"HLVR_MainMenu_StartGameNoAddon"	  	"Spel zonder uitbreidingen starten"
+"HLVR_MainMenu_StartGameAddon"	  	"Spel met uitbreidingen starten"
+"HLVR_MainMenu_CreateNewGame"	  	"Nieuw spel maken"
+
+"HLVR_MainMenu_Start"							"Starten"
+
+"HLVR_MainMenu_LoadSlot"					"Opslagplaats %s laden"
+"HLVR_MainMenu_GameSlotHeader"		"Opslagplaats %s"
+"HLVR_MainMenu_GameSlotConfirm"		"\nOpslagplaats %s"
+
+"HLVR_MainMenu_SaveSlot"    	  	"Opslagplaats"
+"HLVR_MainMenu_GameSlot"    	  	"Opslagplaats"
+"HLVR_MainMenu_Overwrite"    	  	"Overschrijven"
+"HLVR_MainMenu_Overwrite_desc"		"Alle opslagplaatsen zijn bezet. Kies een opslagplaats om te overschrijven.\n\nWAARSCHUWING: Deze handeling verwijdert bestaande opslaggegevens."
+"HLVR_MainMenu_StartOver"					"Overschrijven?"
+"HLVR_MainMenu_NewGame"						"Nieuw spel?"
+"HLVR_MainMenu_Slot"    	  			"Opslagplaats"
+"HLVR_MainMenu_SlotOverwrite"			"KIES EEN PLAATS OM TE OVERSCHRIJVEN"
+
+"HLVR_QuickSave"									"Snel opslaan"
+"HLVR_AutoSave"									  "Automatisch opslaan"
+
+"HLVR_Skip_Credits"								"Aftiteling overslaan"
+"HLVR_Skip_Credits_Confirm"				"Aftiteling overslaan?"
+
+"HLVR_Addons"							"Uitbreidingen"
+"HLVR_MainMenu_ManageAddons"			"Uitbreidingen beheren"
+"HLVR_MainMenu_AddonsToolsMode"			"Map met uitbreidingen kan in de toolmodus niet geladen worden."
+"HLVR_MainMenu_StartAddonGame"			"Spel met de volgende uitbreidingen starten:"
+"HLVR_MainMenu_AddonDisabled"			"Bijbehorende uitbreiding uitgeschakeld"
+"HLVR_MainMenu_AddonNotAvailable"		"De bijbehorende uitbreiding is niet meer beschikbaar voor deze map.\nAbonneer je opnieuw en schakel deze uitbreiding weer in om door te gaan."
+"HLVR_MainMenu_NoAddonsEnabled"			"Geen uitbreidingen ingeschakeld voor spel met uitbreidingen"
+"HLVR_MainMenu_AddonToggleInfo"			"Druk op de knop links om in- of uit te schakelen"
+"HLVR_MainMenu_LocalAddon"				"Lokale uitbreiding"
+"HLVR_MainMenu_MissingAddon"			"De volgende uitbreidingen ontbreken. Abonneer je opnieuw om dit bestand te laden."
+
+"HLVR_MainMenu_OriginalGame"			"Originele spellen"
+"HLVR_MainMenu_AddonGame"				"Spellen met uitbreiding"
+
+"HLVR_MainMenu_OriginalMaps"			"Origineel spel"
+"HLVR_MainMenu_AddonMaps"				"Mappen met uitbreiding"
+
+"HLVR_MainMenu_AddonUpVote"				"Positieve beoordelingen"
+"HLVR_MainMenu_AddonDownVote"			"Negatieve beoordelingen"
+
+"HLVR_browse_workshop_label"			"Workshop doorbladeren"
+"HLVR_browse_workshop_confirm"			"Workshop via Steam-overlay doorbladeren?"
+"HLVR_browse_workshop_desc"				"Workshop voor Half-Life: Alyx via de Steam-overlay doorbladeren"
+
+"HLVR_local_addons"				"Lokale uitbreidingen"
+"HLVR_downloaded_addons"		"Gedownloade uitbreidingen"
+"HLVR_enabled_addons"			"Ingeschakelde uitbreidingen:"
+"HLVR_addon_game"				"Spel met ingeschakelde uitbreidingen"
+
+"HLVR_MainMenu_Attention"												"Let op"
+"HLVR_MainMenu_Attention_MinSpec_CPU"								"Je processor voldoet niet aan de minimumvereisten voor Half-Life: Alyx."
+"HLVR_MainMenu_Attention_MinSpec_RAM"								"Je systeemgeheugen voldoet niet aan de minimumvereisten voor Half-Life: Alyx."
+"HLVR_MainMenu_Attention_MinSpec_GPU"								"Je videokaart voldoet niet aan de minimumvereisten voor Half-Life: Alyx."
+"HLVR_MainMenu_Attention_Above_Recommended"					"Je instellingen zijn hoger dan de aanbevolen waarden."
+"HLVR_MainMenu_Attention_Warning"										"Dit kan de gameplay beïnvloeden."
+"HLVR_MainMenu_Attention_Graphics_Reset"						"Je prestatie-instellingen zijn teruggezet naar de aanbevolen waarden."
+"HLVR_MainMenu_Attention_LowDiskSpaceForSwapfile"				"Half-Life: Alyx is mogelijk instabiel vanwege de lage schijfruimte van het station waar je besturingssysteem op staat, wat de grootte van je wisselbestand kan beperken."
+"HLVR_MainMenu_Attention_Low_GPU_Memory"						"Er is weinig videogeheugen beschikbaar. Sluit alle onnodige, geopende programma's om meer videogeheugen vrij te maken."
+"HLVR_MainMenu_Attention_Low_System_Memory"						"Er is weinig systeemgeheugen beschikbaar. Sluit alle onnodige, geopende programma's om meer systeemgeheugen vrij te maken."
+"HLVR_MainMenu_Old_Driver_Version"								"De stuurprogrammaversie van je GPU is lager dan de versie die voor Half-Life: Alyx op Vulkan wordt aanbevolen. Installeer het nieuwste stuurprogramma voor je GPU."
+"HLVR_MainMenu_Attention_LoadErrorMap"							"Het spel kan niet worden geladen, omdat deze map niet kan worden gevonden:"
+"HLVR_MainMenu_Attention_LoadErrorAddons"						"Dit kan te maken hebben met een van de ingeschakelde uitbreidingen:"
+
+"HLVR_MainMenu_ModalQuit"						"Half-Life: Alyx afsluiten?"
+"HLVR_MainMenu_ModalMainMenu"					"Naar hoofdmenu gaan?"
+"HLVR_MainMenu_ModalLoadGame"					"Opgeslagen spel laden?"
+"HLVR_MainMenu_ModalNewGame"					"Nieuw spel starten?"
+"HLVR_MainMenu_ModalNewGameOverwrite"			"Bestaande opslaggegevens verwijderen en nieuw spel starten?"
+
+"HLVR_MainMenu_ModalAccept"						"Accepteren"
+"HLVR_MainMenu_ModalCancel"						"Annuleren"
+
+"HLVR_Pause_Menu_Only"								"Deze opties zijn alleen beschikbaar in het pauzemenu tijdens een actief spel"
+
+"HLVR_MainMenu_Init_desc"		    			"Selecteer je dominante hand.\n\nJe kunt dit op elk gewenst moment wijzigen in de instellingen."
+
+"HLVR_MainMenu_NewGame_desc" 					"Begin een nieuw spel van Half-Life: Alyx."
+"HLVR_MainMenu_SaveGame_desc" 					"Sla je huidige voortgang snel op."
+
+"HLVR_MainMenu_Resin"							"Polymeer"
+"HLVR_MainMenu_HP"								"LP"
+"HLVR_MainMenu_Pistol"							"Pistool"
+"HLVR_MainMenu_Shotgun"							"Jachtgeweer"
+"HLVR_MainMenu_RapidFire"						"Machinepistool"
+
+"HLVR_MainMenu_Days"							"D"		// Short hand for Days
+"HLVR_MainMenu_Hrs"								"U"		// Short Hand for Hours
+
+"HLVR_MainMenu_DeleteSlot_desc"				"Verwijdert alle opgeslagen spellen van deze opslagplaats."
+"HLVR_MainMenu_DeleteSlot_Confirm"		"Alle opgeslagen spellen van deze opslagplaats verwijderen?"
+
+"HLVR_NoSaving"			"Opslaan is momenteel niet beschikbaar"
+
+"HLVR_Sibling_L"											"L"
+"HLVR_Sibling_R"											"R"
+
+"HLVR_Options_Game_Preferences"				"Opslagplaats"
+"HLVR_Options_System_Options"					"Systeem"
+
+"HLVR_Options_Diffculty_base"					"Moeilijkheid"
+
+"HLVR_Options_Diffculty_story"					"Verhaal"
+"HLVR_Options_Diffculty_easy"					"Makkelijk"
+"HLVR_Options_Diffculty_normal"					"Normaal"
+"HLVR_Options_Diffculty_hard"					"Moeilijk"
+
+"HLVR_Options_Diffculty_story_desc"					"Makkelijke gevechten."
+"HLVR_Options_Diffculty_easy_desc"					"Gemiddeld moeilijke gevechten."
+"HLVR_Options_Diffculty_normal_desc"				"Uitdagende gevechten."
+"HLVR_Options_Diffculty_hard_desc"					"Extreem uitdagende gevechten."
+
+"HLVR_Options_On"					"Aan"
+"HLVR_Options_Off"				"Uit"
+
+"HLVR_Options_Commentary"					"Commentaar van de ontwikkelaars"
+"HLVR_Options_Commentary_desc"				"Zet de luisterposten met ontwikkelaarscommentaar aan tijdens het spelen.\n\nWAARSCHUWING: Commentaar bevat BELANGRIJKE SPOILERS.\n\nWe raden aan om het spel eerst uit te spelen.\n\n(Er is geen Nederlandstalige versie beschikbaar)"
+
+"HLVR_Options_Movement_Base"					"Bewegingswijze"
+"HLVR_Options_Movement_Blink"					"Teleportatie"
+"HLVR_Options_Movement_Shift"					"Shift"
+"HLVR_Options_Movement_Continuous"				"Continu"
+"HLVR_Options_Movement_Continuous_Hand"		"Continu: handen"
+
+"HLVR_Options_Movement_Blink_desc"					"Je scherm knippert kort uit en weer aan als je naar een bestemming teleporteert. Dit is de meest comfortabele vorm van beweging."
+"HLVR_Options_Movement_Shift_desc"					"Teleporteer naar een bestemming met een snelle, lineaire beweging."
+"HLVR_Options_Movement_Continuous_desc"				"Beweeg door het spel op een continue manier, gebaseerd op de oriëntatie van je hoofd. "
+"HLVR_Options_Movement_Continuous_Hand_desc"		"Beweeg door het spel op een continue manier, gebaseerd op de oriëntatie van je handen."
+
+"HLVR_Options_Preferences"						"Voorkeuren"
+"HLVR_Options_Accessibility"					"Toegankelijkheid"				
+"HLVR_Options_Interface"						"Interface"
+"HLVR_Options_Audio"							"Volume"
+"HLVR_Options_Graphics"							"Prestaties"
+"HLVR_Options_Language"							"Taal"
+
+"HLVR_Options_WeaponSwitch"					"Wapen: selecteer oriëntatie"
+"HLVR_Options_WeaponSwitch_desc"		"Oriëntatie van het menu om wapens te selecteren."
+"HLVR_Options_WeaponSwitch_HMD"			"Hoofd"
+"HLVR_Options_WeaponSwitch_Hand"		"Hand"
+"HLVR_Options_WeaponSwitch_Hybrid"	"Hybride"
+
+"HLVR_Options_Ladder_Climb"					"Ladders met de handen beklimmen"
+"HLVR_Options_Ladder_Climb_desc"		"Maakt het mogelijk om ladders met je handen te beklimmen."
+
+"HLVR_Options_Barnacle_Lift"				"Tongtakel tilt je op"
+"HLVR_Options_Barnacle_Lift_desc"		"Maakt het mogelijk dat tongtakels spelers op kunnen tillen."
+
+"HLVR_Options_Turn_Off"							"Draaien met controller: uit"
+"HLVR_Options_Turn_Snap"						"Snel draaien"
+"HLVR_Options_Turn_Continuous"					"Continu draaien"
+
+"HLVR_Options_Turn_Off_desc"					"Instellen op snel draaien of continu draaien om met je controller van richting te veranderen."
+"HLVR_Options_Turn_Snap_desc"					"Met snel draaien, verander je van richting met snelle intervallen van een gegeven hoek."
+"HLVR_Options_Turn_Continuous_desc"				"Met continu draaien verander je van richting in een vloeiende beweging met een gegeven snelheid."
+
+"HLVR_Options_QuickTurn_Angle_Base"				"Hoek voor snel draaien"
+"HLVR_Options_QuickTurn_Angle_desc"				"De rotatiegraad voor elke snelle draai."
+
+"HLVR_Options_ContinuousTurn_Speed_Base"		"Snelheid continu draaien"
+"HLVR_Options_ContinuousTurn_Speed_desc"		"De hoeksnelheid voor continu draaien."
+
+"HLVR_Options_DLC_Skins"						"Skins Index-bestelling"
+"HLVR_Options_DLC_Skins_desc"					"Maak het gebruik van de wapenskins mogelijk die zijn toegekend door voorafbestelling Valve Index."
+
+"HLVR_Options_Subtitles"						"Ondertiteling"
+"HLVR_Options_Subtitles_Base"					"Ondertiteling"
+"HLVR_Options_Subtitles_None"					"Ondertiteling uit"
+"HLVR_Options_Subtitles_On"						"Ondertiteling aan"
+"HLVR_Options_Subtitles_CC_On"					"Ondertiteling en gesloten bijschriften"
+"HLVR_Options_Subtitles_desc"					"Stel hier de weergave van ondertiteling en gesloten bijschriften in."
+
+"HLVR_Options_Subtitles_Speed"					"Snelheid"
+"HLVR_Options_Subtitles_Slow_Speed"				"Langzaam"
+"HLVR_Options_Subtitles_Medium_Speed"			"Gemiddeld"
+"HLVR_Options_Subtitles_Fast_Speed"				"Snel"
+"HLVR_Options_ClosedCaptions_Speed_desc"		"De snelheid waarmee ondertiteling wordt weergegeven."
+
+"HLVR_Options_Subtitles_Size"					"Tekengrootte"
+"HLVR_Options_Subtitles_Small_Size"				"Klein"
+"HLVR_Options_Subtitles_Medium_Size"			"Gemiddeld"
+"HLVR_Options_Subtitles_Large_Size"				"Groot"
+"HLVR_Options_ClosedCaptions_Size_desc"			"De tekengrootte van de ondertiteling."
+
+"HLVR_Options_Subtitles_Width"					"Breedte"
+"HLVR_Options_Subtitles_Narrow"					"Smal"
+"HLVR_Options_Subtitles_Medium"					"Gemiddeld"
+"HLVR_Options_Subtitles_Wide"					"Breed"
+"HLVR_Options_ClosedCaptions_Width_desc"		"De breedte van de ondertiteling."
+
+"HLVR_Options_Subtitles_Spectator_Only"			"Alleen toeschouwersvenster"
+"HLVR_Options_Subtitles_Spectator_Only_desc"	"Ondertiteling en gesloten bijschriften alleen in het toeschouwersvenster tonen."
+
+"HLVR_Options_LeftHanded"						"Wapenhand : links"
+"HLVR_Options_RightHanded"						"Wapenhand : rechts"
+
+"HLVR_Options_LeftHanded_desc"					"Kies je linker- of rechterhand als wapenhand.\n\nJe kunt instellen welke hand je bewegingen stuurt, door in het menu controllerconfiguraties van SteamVR de geschikte configuratie te kiezen."
+
+"HLVR_display_bindings"							"Controllerconfiguratie"
+"HLVR_display_bindings_desc"					"Ga naar de controllerinstellingen in SteamVR om de controllerconfiguratie voor Half-Life: Alyx te bekijken of bewerken"
+"HLVR_display_bindings_confirm"					"Naar controllerconfiguratie in SteamVR gaan?"
+
+
+"HLVR_Options_ToggleCrouch"					"Hurkbeweging"
+"HLVR_Options_ToggleCrouch_desc"		"Neerhurken maakt je kleiner. Dat is handig voor snelle dekking, of om je aan te passen aan een lagere positie. Koppel deze actie aan je gekozen invoer via het instellingenmenu in SteamVR.\n\nAls deze optie is ingeschakeld, kun je de hurkbeweging gebruiken in het spel."
+"HLVR_Options_ToggleStand"					"Staan"
+"HLVR_Options_ToggleStand_desc"			"Staan maakt je groter, zodat je dingen makkelijker kunt grijpen wanneer je vanuit een verlaagde positie speelt. Koppel deze actie aan je gekozen invoer via het instellingenmenu in SteamVR.\n\nAanbevolen wanneer je zittend speelt.\n\nAls deze optie is ingeschakeld, kun je Staan gebruiken in het spel."
+
+"HLVR_Options_hlvr_adjust_height_mode_base"		"Hoogte-instelling"
+"HLVR_Options_hlvr_adjust_height_mode_0"		"Uit"
+"HLVR_Options_hlvr_adjust_height_mode_1"		"Neerhurken"
+"HLVR_Options_hlvr_adjust_height_mode_2"		"Staan"
+"HLVR_Options_hlvr_adjust_height_mode_3"		"Neerhurken en staan"
+"HLVR_Options_hlvr_adjust_height_mode_4"		"Hybride"
+
+"HLVR_Options_hlvr_adjust_height_mode_0_desc"		"Dit stelt de acties van je controller in waarmee je lengtes kunt aanpassen.\n\nAls dit uitstaat, zijn dit soort acties uitgeschakeld."
+"HLVR_Options_hlvr_adjust_height_mode_1_desc"		"Enkel neerhurken. Staan is uitgeschakeld.\n\nAls de hurkbeweging is ingeschakeld, kun je snel neerhurken of overschakelen naar een lagere positie via Hurken: ja / nee."
+"HLVR_Options_hlvr_adjust_height_mode_2_desc"		"Enkel staan. Neerhurken is uitgeschakeld.\n\nAls staan is ingeschakeld, kun je overschakelen naar een verhoogde positie via Staan: ja / nee.\nAanbevolen als je zittend speelt."
+"HLVR_Options_hlvr_adjust_height_mode_3_desc"		"Als Neerhurken of Staan zijn ingeschakeld kun je die gebruiken om je positie te verhogen of verlagen voor twee verschillende invoeren."
+"HLVR_Options_hlvr_adjust_height_mode_4_desc"		"Met 'hybride' controleert een enkele input zowel Neerhurken als Staan.\n\nKlikken, verlaagt je positie. Gebruikt dit om neer te hurken.\n\nDrukken en ingedrukt houden, verhoogt je positie. Gebruik dit om te staan."
+
+"HLVR_Options_hlvr_single_controller_mode"				"Enkele controller"
+"HLVR_Options_hlvr_single_controller_mode_desc"		"Alle handelingen zijn aan een enkele controller toegewezen."
+"HLVR_single_controller_prompt_activate"			"Om de modus 'Enkele controller' in te schakelen, moet je de controllerconfiguraties aanpassen in SteamVR\nNaar de pagina voor SteamVR-controllerconfiguraties gaan?"
+"HLVR_single_controller_prompt_deactivate"		"Om de modus 'Enkele controller' uit te schakelen, moet je de controllerconfiguraties aanpassen in SteamVR\nNaar de pagina voor SteamVR-controllerconfiguraties gaan?"
+
+"HLVR_Options_r_light_sensitivity_mode"				"Lichtgevoeligheid"
+"HLVR_Options_r_light_sensitivity_mode_desc"	"Met de modus 'Lichtgevoeligheid' kun je de sterkte en het flikkeren van lichten verminderen."
+
+"HLVR_Options_Pause_Menu_Distance"	"Afstand van pauzemenu"
+"HLVR_Options_Pause_Menu_Distance_Desc"	"De afstand tussen het pauzemenu en de speler."
+"HLVR_Options_Pause_Menu_Height"		"Hoogte van pauzemenu"
+"HLVR_Options_Pause_Menu_Height_desc"		"De hoogte waarop het pauzemenu ten opzichte van de speler verschijnt."
+
+"HLVR_Options_Header_Weapons"					"Wapen"
+"HLVR_Options_Header_GameMenu"					"Spelmenu"
+"HLVR_Options_Header_Spectator"					"Toeschouwer"
+
+"HLVR_Options_SpectatorHud_desc"				"Grootte instellen van de HUD in het toeschouwersvenster"
+"HLVR_Options_SpectatorHud_base"				"Toeschouwers-HUD"
+"HLVR_Options_SpectatorHud_off"					"Uit"
+"HLVR_Options_SpectatorHud_small"				"Klein"
+"HLVR_Options_SpectatorHud_med"					"Gemiddeld"
+"HLVR_Options_SpectatorHud_large"				"Groot"
+
+"HLVR_Options_SpectatorCamera_desc"				"Instellen van de mate waarin de camera in het toeschouwersvenster wordt gestabiliseerd.\n\nVereist hoge mate van inzoomen."
+"HLVR_Options_SpectatorCamera_base"				"Stabilisering toeschouwerscamera"
+"HLVR_Options_SpectatorCamera_off"				"Uit"
+"HLVR_Options_SpectatorCamera_low"				"Laag"
+"HLVR_Options_SpectatorCamera_med"				"Gemiddeld"
+"HLVR_Options_SpectatorCamera_high"				"Hoog"
+
+"HLVR_Options_SpectatorZoom_desc"				"Zoomniveau van het toeschouwersvenster."
+"HLVR_Options_SpectatorZoom_Base"				"Zoomniveau toeschouwersvenster"
+"HLVR_Options_SpectatorZoom_low"				"Laag"
+"HLVR_Options_SpectatorZoom_high"				"Hoog"
+
+"HLVR_Options_Spectator_Eye_desc"				"Wisselt tussen het rechter- en linkeroog van de speler voor het toeschouwersvenster."
+"HLVR_Options_Spectator_Eye_Base"				"Toeschouwersoog"
+"HLVR_Options_Eye_Left"							"Links"
+"HLVR_Options_Eye_Right"						"Rechts"
+
+"HLVR_Options_SpectatorSteamVR_desc"			"HUD weergeven in het SteamVR-venster.\n\nVermindert de prestaties."
+"HLVR_Options_SpectatorSteamVR_Base"			"Toeschouwers-HUD in SteamVR"
+"HLVR_Options_SpectatorSteamVR_On"				"Aan"
+"HLVR_Options_SpectatorSteamVR_Off"				"Uit"
+
+"HLVR_Options_SpectatorEye_desc"				"Kies welk oog het perspectief levert voor de toeschouwersweergave op gespiegelde niet-VR-schermen zoals je beeldscherm of je televisie.\n\nDit komt standaard overeen met je wapenhand, maar dit kun je overschrijven."
+"HLVR_Options_SpectatorEye_base"				"Toeschouwersweergave: links / rechts"
+"HLVR_Options_SpectatorEye_left"				"Links"
+"HLVR_Options_SpectatorEye_right"				"Rechts"
+
+"HLVR_Options_Graphics_Rendering"				"Rendering"
+"HLVR_Options_Graphics_Particles"				"Deeltjes"
+"HLVR_Options_Graphics_Misc"					"Overig"
+"HLVR_Options_Graphics_Audio"					"Audio"
+
+"HLVR_Options_Fidelity_Low"								"Lage kwaliteit"
+"HLVR_Options_Fidelity_Medium"						"Gemiddelde kwaliteit"
+"HLVR_Options_Fidelity_Medium_Long"				"Gemiddelde kwaliteit"
+"HLVR_Options_Fidelity_High"							"Hoge kwaliteit"
+"HLVR_Options_Fidelity_Ultra"							"Ultrahoge kwaliteit"
+"HLVR_Options_Fidelity_Custom"						"Aangepaste kwaliteit"
+
+"HLVR_Options_Graphics_Adv_desc" "Geavanceerde prestatie-instellingen weergeven/verbergen"
+
+"HLVR_Options_Graphics_Reset"					"Resetten"
+"HLVR_Options_Graphics_Reset_desc"				"Prestatie-instellingen terugzetten naar de aanbevolen waarden"
+"HLVR_Options_Graphics_Reset_modal"				"Prestatie-instellingen terugzetten naar de aanbevolen waarden?"
+"HLVR_Options_Graphics_Base"					"Kwaliteit"
+"HLVR_Options_Graphics_desc"					 "De prestatie-instellingen van het spel worden automatisch ingesteld. Een aanpassing aan deze instellingen kan de framesnelheid beïnvloeden."
+
+"HLVR_Options_Graphics_Textures_Base"			"Texturen"
+"HLVR_Options_Graphics_Textures_Desc"			"Kwaliteit van texturen instellen\n\nTextuurkwaliteit wordt onafhankelijk van de prestatie-instellingen voor kwaliteit geconfigureerd"
+"HLVR_Options_Graphics_Textures_Low"			"Laag"
+"HLVR_Options_Graphics_Textures_Medium"	"Gemiddeld"
+"HLVR_Options_Graphics_Textures_High"		"Hoog"
+"HLVR_Options_Graphics_Textures_Ultra"		"Ultra"
+
+"HLVR_Options_Graphics_Shadows_Base"			"Schaduwen"
+"HLVR_Options_Graphics_Shadows_Low"			"Laag"
+"HLVR_Options_Graphics_Shadows_Med"			"Gemiddeld"
+"HLVR_Options_Graphics_Shadows_High"			"Hoog"
+"HLVR_Options_Graphics_Shadows_Ultra"			"Ultra"
+
+"HLVR_Options_Graphics_Characters_Base"			"Personages"
+"HLVR_Options_Graphics_Characters_Low"			"Laag"
+"HLVR_Options_Graphics_Characters_Med"			"Gemiddeld"
+"HLVR_Options_Graphics_Characters_High"			"Hoog"
+"HLVR_Options_Graphics_Characters_Ultra"			"Ultra"
+
+"HLVR_Options_Graphics_Fog_Base"			"Mist"
+"HLVR_Options_Graphics_Fog_Low"			"Laag"
+"HLVR_Options_Graphics_Fog_Med"			"Gemiddeld"
+"HLVR_Options_Graphics_Fog_High"			"Hoog"
+"HLVR_Options_Graphics_Fog_Ultra"			"Ultra"
+
+"HLVR_Options_Graphics_Particles_Base"			"Deeltjes"
+"HLVR_Options_Graphics_Particles_Low"			"Laag"
+"HLVR_Options_Graphics_Particles_Med"			"Gemiddeld"
+"HLVR_Options_Graphics_Particles_High"			"Hoog"
+"HLVR_Options_Graphics_Particles_Ultra"			"Ultra"
+
+"HLVR_Options_Graphics_Audio_Base"			"Audio"
+"HLVR_Options_Graphics_Audio_Low"			"Laag"
+"HLVR_Options_Graphics_Audio_Med"			"Gemiddeld"
+"HLVR_Options_Graphics_Audio_High"			"Hoog"
+"HLVR_Options_Graphics_Audio_Ultra"			"Ultra"
+
+"HLVR_Options_High_Quality_Holograms"			"Hologrammen van hoge kwaliteit"
+"HLVR_Options_High_Quality_Holograms_on"			"Aan"
+"HLVR_Options_High_Quality_Holograms_off"			"Uit"
+"HLVR_Options_r_light_flickering_enabled"			"Flikkerende lichten"
+
+"HLVR_Options_Rendering_API"					"Rendering-API"
+"HLVR_Options_Rendering_API_D3D11"				"Direct3D 11"
+"HLVR_Options_Rendering_API_Vulkan"				"Vulkan"
+"HLVR_Options_Rendering_API_Current"			"Huidige API:"
+"HLVR_Options_Rendering_API_Desc_Locked"		"Redering-API is opgegeven in de startopties. Verwijder de startoptie om een render-API te kunnen kiezen."
+"HLVR_Options_Rendering_API_Desc_Restart"		"\n\nVereist herstart van het spel om toe te passen.\n\n"
+"HLVR_Options_Rendering_API_Desc"				"Als het spel niet goed start na het veranderen van deze instelling kun je -safe_mode toevoegen aan je startopties om te beginnen met een standaard rendering-API."
+
+"HLVR_Options_cloth_rigid_update_Base"			"Zacht textiel"
+
+"HLVR_Options_g_ragdoll_maxcount_Base"			"Aantal ragdolls"
+"HLVR_Options_g_ragdoll_maxcount_Base_Low"	"Laag"
+"HLVR_Options_g_ragdoll_maxcount_Base_Med"	"Gem"
+"HLVR_Options_g_ragdoll_maxcount_Base_High"	"Hoog"
+"HLVR_Options_g_ragdoll_maxcount_Base_Ultra"	"Ultra"
+
+"HLVR_Options_Audio_Master"						"Hoofdvolume"
+"HLVR_Options_Audio_Master_desc"				"De instelling voor het hoofdvolume van audio."
+"HLVR_Options_Audio_GameSounds"					"Geluidseffecten"
+"HLVR_Options_Audio_GameSounds_desc" 			"Volume van geluidseffecten in het spel instellen."
+"HLVR_Options_Audio_Music"						"Gevechtsmuziek"
+"HLVR_Options_Audio_Music_desc"					"Volume van muziek tijdens gevechten instellen."
+"HLVR_Options_Audio_Voice"						"Stemmen personages"
+"HLVR_Options_Audio_Voice_desc"					"Volume van stemmen van personages instellen."
+
+"HLVR_Loading"									"LADEN"
+"HLVR_Loading_Trigger_Start"					"Druk op %s om te starten"
+
+"HLVR_PhotoMode_TakePhoto"						"Foto nemen"
+"HLVR_PhotoMode_Hide"							"Gebruikersinterface verbergen"
+"HLVR_PhotoMode_Return"							"Terug"
+
+// spectator hud
+"HLVR_HUD_Ammo"									"Munitie"
+"HLVR_HUD_Health"								"Gezondheid"
+"HLVR_HUD_Resin"								"Polymeer"
+
+// game instructor lessons
+"HLVR_Lesson_Single_Controller_On"	"Enkele controller: aan"
+"HLVR_Lesson_Single_Controller_Off"	"Enkele controller: uit"
+"HLVR_Lesson_Movement_PrimaryHand"	"Beweging hetzelfde als wapenhand\nDit kun je aanpassen in de SteamVR-controllerconfiguraties."
+"HLVR_Lesson_Movement_OffHand"		"Beweging andere hand dan wapenhand\nDit kun je aanpassen in de SteamVR-controllerconfiguraties."
+"HLVR_Lesson_Teleport"							"Druk in om te bewegen"
+"HLVR_Lesson_Quick_Turn"						"Druk in om snel naar links of rechts te draaien"
+"HLVR_Lesson_GrabTrigger"						"Houd ingedrukt om objecten te pakken"
+"HLVR_Lesson_GrabHands"							"Grijp objecten met je handen"
+"HLVR_Lesson_GrabHandsSingleController"			"Grijp objecten met je hand"
+"HLVR_Lesson_Interact"							"Probeer de hendel\nmet je handen over te halen"
+"HLVR_Lesson_InteractSingleController"			"Probeer hendels\nmet je hand over te halen"
+"HLVR_Lesson_Door"								"Draai de deurklink om\nde deur te openen"
+"HLVR_Lesson_SwitchWeapons"						"Ingedrukt houden om van wapen te wisselen"
+"HLVR_Lesson_SwitchWeaponsSingleController"			"Tik om snel weer naar je wapen te wisselen"
+"HLVR_Lesson_OpenWeaponSelectForMultitool"		"Houd ingedrukt om naar multitool te wisselen"
+"HLVR_Lesson_SelectMultitool"					"Kies de multitool"
+"HLVR_Lesson_UseMultitool"						"Gebruik de multitool"
+"HLVR_Lesson_ScavengeItems"						"Zoek de omgeving af\nnaar bruikbare voorwerpen"
+"HLVR_Lesson_LootBodies"						"Plunder voorwerpen van lijken"
+"HLVR_Lesson_OpenGameMenu"						"Houd ingedrukt om het spelmenu te openen of sluiten"
+"HLVR_Lesson_Continuous_Mantle"					"Houd ingedrukt terwijl je beweegt\nom ergens overheen te klimmen"
+"HLVR_Lesson_Continuous_Jump"					"Druk in om de sprongindicator te zien\nen laat los om te springen"
+"HLVR_Lesson_Crouch_Toggle"						"Druk in om te wisselen tussen je huidige hoogte en hurkhoogte"
+"HLVR_Lesson_Stand_Toggle"						"Druk in om tussen je huidige hoogte en staande hoogte te wisselen"
+"HLVR_Lesson_Climb_Ladder"						"Grijp de ladder vast om naar boven te klimmen"
+
+"HLVR_Lesson_WeaponInPrimaryHand"				"Grijp het wapen met je dominante hand"
+
+"HLVR_Lesson_EjectClip"							"Druk in om het magazijn uit te werpen"
+"HLVR_Lesson_InsertClip"						"Plaats het magazijn in het pistool"
+"HLVR_Lesson_EmptyClipInserted"					"Vuur tot het huidige magazijn leeg is\nen druk dan in om het magazijn uit te werpen"
+"HLVR_Lesson_ChamberRound"						"Druk de knop in of verschuif de slede\nom een patroon in de kamer te laden"
+"HLVR_Lesson_ChamberRoundSingleController"		"Druk de knop in om een patroon in de kamer te laden"
+"HLVR_Lesson_PutClipInBackpack"					"Stop het magazijn in je rugzak"
+"HLVR_Lesson_ToggleLaserSightWeapon"			"Raak aan met je wijsvinger om het laservizier te (de)activeren"
+"HLVR_Lesson_ToggleBurstFire"					"Tik twee keer op de knop om te schakelen naar vuursalvo"
+
+"HLVR_Lesson_ShotgunGetShells"					"Grijp een doos met patronen en stop het in je rugzak"
+"HLVR_Lesson_OpenShotgunToLoadShells"			"Open het jachtgeweer om patronen te laden"
+"HLVR_Lesson_LoadShotgunUntilFull"				"Stop tot 6 patronen in het jachtgeweer"
+"HLVR_Lesson_FlickToCloseShotgun"				"Maak een snelle polsbeweging met de controller\nof grijp de loop om het geweer te sluiten"
+"HLVR_Lesson_FlickToCloseShotgunSingleController"	"Maak een snelle polsbeweging met de controller om het geweer te sluiten"
+"HLVR_Lesson_ChamberShotgunShell"				"Trek de slede naar achteren om een patroon in de kamer te laden"
+"HLVR_Lesson_ChamberShotgunShellSingleController"	"Druk in om een patroon in de kamer te laden"
+"HLVR_Lesson_ShotgunUpgradeAutoloaderLoad"		"Stop patronen in de zelflader"
+"HLVR_Lesson_ShotgunUpgradeAutoloaderActivate"	"Druk de knop in om de zelflader te activeren"
+"HLVR_Lesson_ShotgunUpgradeQuickFire"			"Druk twee keer om twee snelle schoten af te vuren"
+"HLVR_Lesson_ShotgunUpgradeGrenade"				"Maak een granaat aan de geweerloop vast"
+"HLVR_Lesson_ShotgunUpgradeGrenadePump"			"Druk de hendel naar voren om de granaatwerper scherp te stellen\nof schiet om normaal aan te vallen"
+"HLVR_Lesson_ShotgunUpgradeGrenadePumpSingleController"			"Druk in om de granaatwerper scherp te stellen\nof schiet om normaal aan te vallen"
+"HLVR_Lesson_ShotgunUpgradeGrenadeFire"			"Druk in om de granaat af te vuren\nof pak de granaat om de werper te herstellen"
+"HLVR_Lesson_ShotgunUpgradeGrenadeFireSingleController"			"Druk in om de granaatwerper te herstellen\nof schiet om de granaat af te vuren"
+
+"HLVR_Lesson_Rapidfire_InsertCapsule_Gun"		"Plaats de energiecel in het wapen"
+"HLVR_Lesson_Rapidfire_InsertCapsule_Clip"		"Plaats de energiecel in het wapen"
+"HLVR_Lesson_Rapidfire_OpenCasing"				"Open het magazijn"
+"HLVR_Lesson_Rapidfire_InsertCapsule_Mag"		"Plaats tot 3 energiecellen in het magazijn"
+"HLVR_Lesson_Rapidfire_CloseCasing"				"Sluit het magazijn"
+
+"HLVR_Lesson_StoreClipInBackpack"				"Gooi munitie over je schouder\nom het in je rugzak op te bergen"
+"HLVR_Lesson_GrabClipFromBackpack"				"Pak munitie uit je rugzak"
+"HLVR_Lesson_ReloadSingleController"			"Druk in terwijl je het wapen over je schouder houdt om te herladen"
+"HLVR_Lesson_ReloadSingleControllerShotgun"		"Druk in terwijl je het wapen over je schouder houdt om te herladen. Druk meerdere keren in voor meer patronen."
+"HLVR_Lesson_ReloadSingleControllerRapidFire"	"Druk in terwijl je het wapen over je schouder houdt om te herladen. Druk meerdere keren in voor meer cellen."
+"HLVR_Lesson_GrabResinFromBackpack"				"Pak polymeer uit je rugzak"
+"HLVR_Lesson_StoreResinInBackpack"				"Gooi polymeer over je schouder\nom het in je rugzak op te bergen"
+"HLVR_Lesson_ArmGrenade"						"Druk in om de granaat op scherp te stellen"
+"HLVR_Lesson_ArmXenGrenade"						"Knijp in om de Xen-granaat op scherp te stellen"
+"HLVR_Lesson_ArmXenGrenadeVive"					"Druk in om de Xen-granaat op scherp te stellen"
+"HLVR_Lesson_PrepareHealthInjector"				"Bereid de injectiepen voor"
+"HLVR_Lesson_HealthInjectToHand"				"Injecteer het in het lijf, een hand of een been"
+"HLVR_Lesson_HealthInjectToHandSingleController"	"Injecteer het in het lijf of een been"
+"HLVR_Lesson_WristHUD"							"Het polsscherm geeft je gezondheid weer"
+"HLVR_Lesson_GameSaved"							"SPEL OPGESLAGEN"
+"HLVR_Lesson_BackpackConstraints"				"In je rugzak kun je alleen munitie en polymeer opbergen"
+"HLVR_Lesson_PistolClipBackpackConstraints"		"In je rugzak kun je alleen volle magazijnen opbergen"
+"HLVR_Lesson_OpenWeaponSelectForHand"			"Tik om snel\nvan en naar je hand te wisselen"
+"HLVR_Lesson_OpenWeaponSelectForHandSingleController"	"Tik om snel naar je hand te wisselen om de munitie op te pakken"
+"HLVR_Lesson_SelectHand"						"Kies een hand"
+"HLVR_Lesson_2HLevitate"						"Vergrendel beide zwaartekrachthandschoenen op het doelwit"
+"HLVR_Lesson_GravityGloveLockOn"				"Druk in om het doel te vergrendelen"
+"HLVR_Lesson_GravityGlovePull"					"Trek je hand met een snelle polsbeweging achteruit\nom een object naar je toe te halen"
+"HLVR_Lesson_GravityGloveCatch"					"Vang het object in de lucht"
+"HLVR_Lesson_2HPickup"							"Pak zware objecten met beide handen op"
+"HLVR_Lesson_UseMultitoolOnDoor"				"Gebruik de multitool op terminals"
+"HLVR_Lesson_UseMultitoolOnToner"				"Gebruik de multitool op de energiebron"
+"HLVR_Lesson_UseMultitoolOnJunction"			"Klik op de multitool om een segment te draaien"
+"HLVR_Lesson_UseMultitoolOnTripmine"			"Gebruik de multitool op de lasermijn"
+"HLVR_Lesson_StoreObjectInWristBag"				"Berg voorwerpen in polszakken op"
+"HLVR_Lesson_StoreObjectInWristBagSingleController"		"Berg voorwerpen in zakken op"
+"HLVR_Lesson_RetrieveObjectInWristBag"			"Pak een voorwerp uit je polszak"
+"HLVR_Lesson_Headset"							"Zet de headset op\ndoor hem bij je oor los te laten"
+"HLVR_Lesson_Pickup_Clip"						"Trek munitie naar je toe of raap het op"
+"HLVR_Lesson_AttachFlashlight"					"Bevestig de zaklamp aan de zwaartekrachthandschoen"
+"HLVR_Lesson_WeaponReturned"					"Het in de Combine-fabricator achtergelaten wapen is teruggegeven"
+"HLVR_Lesson_ThrowEnergyBolt"					"Gooi een energieflits"
+"HLVR_Lesson_Health_Station"					"Gebruik de hendel om een medisch station te openen"
+
+// upgrades
+"HLVR_Upgrade_PistolLaserSight"						"Laservizier"
+"HLVR_Upgrade_Desc_PistolLaserSight"					"Voegt een laservizier toe om beter te richten"
+"HLVR_Upgrade_PistolReflexSight"					"Reflexvizier"
+"HLVR_Upgrade_Desc_PistolReflexSight"					"Voegt een vizier toe dat tactische doelwitten uitlicht"
+"HLVR_Upgrade_PistolBurstFire"						"Vuursalvo"
+"HLVR_Upgrade_Desc_PistolBurstFire"						"Voegt een schakelaar toe om tussen een salvo van drie schoten en een enkel schot te wisselen"
+"HLVR_Upgrade_PistolBulletHopper"					"Kogelreserve"
+"HLVR_Upgrade_Desc_PistolBulletHopper"					"Voegt een houder toe voor 10 extra kogels"
+
+"HLVR_Upgrade_ShotgunSpeedLoader"					"Zelflader"
+"HLVR_Upgrade_Desc_ShotgunSpeedLoader"					"Voegt een mechanische lader voor patronen toe om sneller te laden"
+"HLVR_Upgrade_ShotgunGrenadeAttach"					"Granaatwerper"
+"HLVR_Upgrade_Desc_ShotgunGrenadeAttach"				"Voegt de mogelijkheid toe om granaten te bevestigen en te lanceren"
+"HLVR_Upgrade_ShotgunLaserSight"					"Laservizier"
+"HLVR_Upgrade_Desc_ShotgunLaserSight"					"Voegt een laser toe om beter te richten"
+"HLVR_Upgrade_ShotgunQuickFire"						"Dubbel schot"
+"HLVR_Upgrade_Desc_ShotgunQuickFire"					"Voegt de optie toe om meteen na het eerste schot een tweede af te vuren"
+
+"HLVR_Upgrade_RapidfireExplodingBullets"			"Clusterkogels"
+"HLVR_Upgrade_Desc_RapidfireExplodingBullets"			"Voegt de mogelijkheid toe om een klein cluster van kogels na het afvuren tot ontploffing te brengen"
+"HLVR_Upgrade_RapidfireReflexSight"					"Reflexvizier"
+"HLVR_Upgrade_Desc_RapidfireReflexSight"				"Voegt een vizier toe dat tactische doelwitten uitlicht"
+"HLVR_Upgrade_RapidfireLaserSight"					"Laservizier"
+"HLVR_Upgrade_Desc_RapidfireLaserSight"					"Voegt een laservizier toe om beter te richten"
+"HLVR_Upgrade_RapidfireExtendedMagazine"			"Uitgebreid magazijn"
+"HLVR_Upgrade_Desc_RapidfireExtendedMagazine"			"Voegt de mogelijkheid toe om meerdere energiecellen in het wapen te laden"
+
+"HLVR_Weapon_Name_Pistol"							"Pistool"
+"HLVR_Weapon_Name_Shotgun"							"Jachtgeweer"
+"HLVR_Weapon_Name_RapidFire"						"Machinepistool"
+
+"HLVR_Weapon_Name_Pistol_UID"						"XXXXXXXXXXXX..XXX.X.X"
+"HLVR_Weapon_Name_Shotgun_UID"						"004086056845..080.2.7"
+"HLVR_Weapon_Name_RapidFire_UID"					"000123100400..342.5.1"
+
+// crafting station
+"HLVR_CraftingStation_Name"							"Wervingsstation 0.3.3.333"
+"HLVR_CraftingStation_Startup"						"Opstarten"
+"HLVR_CraftingStation_Scanning"						"Scanning Environment..."
+"HLVR_CraftingStation_LoadingBlueprints"			"Blauwdrukken worden geladen..."
+"HLVR_CraftingStation_InsertWeapon"					"Wapen in laadstation plaatsen"
+"HLVR_CraftingStation_YourResin"					"Polymeer: {i:CurrencyAmount}"
+"HLVR_CraftingStation_YourResinLabel"				"Polymeer:"
+"HLVR_CraftingStation_ResinAmount"					"{i:CurrencyAmount}"
+"HLVR_CraftingStation_SelectObject"					"Object selecteren"
+"HLVR_CraftingStation_SelectedWeapon"				"{s:WeaponName}"
+"HLVR_CraftingStation_Upgrades"						"Verbeteringen"
+"HLVR_CraftingStation_Cost"							"Kosten"
+"HLVR_CraftingStation_Summary"						"Overzicht"
+"HLVR_CraftingStation_NoUpgrades"					"Geen bekende verbeteringen"
+"HLVR_CraftingStation_NotEnoughResin"				"Niet genoeg polymeer voor verbetering"
+"HLVR_CraftingStation_InsufficientResin"			"Onvoldoende"
+"HLVR_CraftingStation_InsertResin"					"Polymeer invoeren"
+"HLVR_CraftingStation_Acquiring"					"Wordt toegevoegd"
+"HLVR_CraftingStation_Acquired"						"Toegevoegd"
+"HLVR_CraftingStation_Scanning"						"Wordt gescand"
+"HLVR_CraftingStation_Rendering"					"Renderen"
+"HLVR_CraftingStation_Printing"						"Printen"
+"HLVR_CraftingStation_Complete"						"Fabricage voltooid"
+"HLVR_CraftingStation_Cancelled"					"Fabricage geannuleerd"
+"HLVR_CraftingStation_TakeObject"					"Object uitnemen"
+"HLVR_CraftingStation_PrintObject"					"Object printen"
+"HLVR_CraftingStation_UpgradeOwned"					"In bezit"
+"HLVR_CraftingStation_Cancel"						"Annuleren"
+"HLVR_CraftingStation_Back"							"Terug"
+"HLVR_CraftingStation_SmallPrint"					"Burgerwacht annex 19-81572"
+
+// combine console
+"HLVR_CombineConsole_Name"							"Combine-console V17.14"
+"HLVR_CombineConsole_Activate"						"Activeren"
+
+"HLVR_Calibration_Start"							"Druk op een knop om te starten"
+
+"HLVR_Intro_Text_01"								"Vijf jaar voor de val van de"
+"HLVR_Intro_Text_02"                                                            " Citadel" 
+"HLVR_Intro_Text_03"								"en de dood van"
+"HLVR_Intro_Text_04"                                                            " Eli Vance." 
+
+"HLVR_Eli_Call_Incoming"							"Inkomende oproep"
+"HLVR_Eli_Call_Incoming_Name"						"Eli Vance"
+"HLVR_Eli_Call_Ended_01"							"Oproep"
+"HLVR_Eli_Call_Ended_02"							"Beëindigd"
+"HLVR_Eli_Call_Location"							"Bevoorradingsterrein Pylon 7B"
+
+
+// Referenced in hl2_gamerules.cpp
+// static HLVRChapter_t rgChapters[] = {
+// Chapter Numbers
+"HLVR_Chapter_Number_00"							"HOOFDSTUK 1"
+"HLVR_Chapter_Number_01"							"HOOFDSTUK 2"
+"HLVR_Chapter_Number_02"							"HOOFDSTUK 3"
+"HLVR_Chapter_Number_03"							"HOOFDSTUK 4"
+"HLVR_Chapter_Number_04"							"HOOFDSTUK 5"
+"HLVR_Chapter_Number_05"							"HOOFDSTUK 6"
+"HLVR_Chapter_Number_06"							"HOOFDSTUK 7"
+"HLVR_Chapter_Number_07"							"HOOFDSTUK 8"
+"HLVR_Chapter_Number_08"							"HOOFDSTUK 9"
+"HLVR_Chapter_Number_09"							"HOOFDSTUK 10"
+"HLVR_Chapter_Number_10"							"HOOFDSTUK 11"
+
+"HLVR_Chapter_Title_00"								"Verstrengeling"
+"HLVR_Chapter_Title_01"								"De quarantainezone"
+"HLVR_Chapter_Title_02"								"Is of zal zijn"
+"HLVR_Chapter_Title_03"								"Superwapen"
+"HLVR_Chapter_Title_04"								"De Noorderster"
+"HLVR_Chapter_Title_05"								"Wapenwedloop"
+"HLVR_Chapter_Title_06"								"Jeff"
+"HLVR_Chapter_Title_07"								"Gevangenschap"
+"HLVR_Chapter_Title_08"								"Onthullingen"
+"HLVR_Chapter_Title_09"								"Afbraak en inbraak"
+"HLVR_Chapter_Title_10"								"Extractiepunt"
+
+"HLVR_Transmission_Incoming"						"INKOMENDE\nOVERDRACHT"
+"HLVR_Transmission_Ended"							"OVERDRACHT\nBEËINDIGD"
+
+"HLVR_Propaganda_Standby"							"EVEN GEDULD"
+"HLVR_Propaganda_Countdown5"						"5"
+"HLVR_Propaganda_Countdown4"						"4"
+"HLVR_Propaganda_Countdown3"						"3"
+"HLVR_Propaganda_Countdown2"						"2"
+"HLVR_Propaganda_Announcement"						"SPECIALE AANKONDIGING"
+
+"HLVR_Distillery_Elevator_Error"					"GEWICHTSLIMIET OVERSCHREDEN"
+"HLVR_Distillery_Elevator_Override"					"OVERSCHRIJVEN VEREIST"
+
+"HLVR_Trainyard_Train_Approaching"					"TREIN IN AANTOCHT"
+
+"HLVR_Intro_World_01a"								"ONDERWERP: "
+"HLVR_Intro_World_01b"								" Alyx Vance, 19 jaar, vrouw"
+"HLVR_Intro_World_02a"								"AFFILIATIE: "
+"HLVR_Intro_World_02b"								" Menselijk verzet"
+"HLVR_Intro_World_03a"								"HUIDIGE OPDRACHT: "
+"HLVR_Intro_World_03b"								" Verkenning"
+
+"HLVR_Mission_Terminated_01a"						"OPDRACHT: "
+"HLVR_Mission_Terminated_01b"						"GELIQUIDEERD"
+"HLVR_Mission_Terminated_02a"						"ONDERWERP: "
+"HLVR_Mission_Terminated_02b"						"ALYX VANCE"
+"HLVR_Mission_Terminated_03a"						"REDEN: "
+"HLVR_Mission_Terminated_03b"						"VERZUIMD ONMISBARE HULPBRONNEN TE BEHOUDEN"
+
+"HLVR_Subject"										"ONDERWERP: "
+"HLVR_Subject_2"									"Alyx Vance"
+"HLVR_Status"										"STATUS: "
+"HLVR_Status_2"										"Gerekruteerd"
+"HLVR_Assignment"									"WACHT OP OPDRACHT"
+
+"HLVR_Combine_Chatter"								"[Combine-stemmen]"
+
+// In-world signage
+"HLVR_Signage_Infestation_Control1"					"WAARSCHUWING:"
+"HLVR_Signage_Infestation_Control2"					"Ontsmettingsdienst"
+
+"HLVR_Signage_Emergency"							"NOODGEVAL"
+"HLVR_Signage_Main_Power"							"HOOFDSTROOMVOORZIENING"
+"HLVR_Signage_Shutoff"								"UITZETTEN"
+
+// Credits
+
+"HLVR_Credits_ContractorsHeader"					"Aanvullende ontwikkeling"
+"HLVR_Credits_CastHeader"							"De cast"
+"HLVR_Commentary_Elevator"							"Elevator"
+// Game Tips
+"HLVR_LOADING_SCREEN_TIP_COUNT"				"22"
+"HLVR_LOADING_SCREEN_TIP_MAP_0_COUNT"		"6"		// a1_intro_world
+"HLVR_LOADING_SCREEN_TIP_MAP_1_COUNT"		"9"		// a1_intro_world_2
+"HLVR_LOADING_SCREEN_TIP_MAP_2_COUNT"		"6"		// a2_quarantine_entrance
+"HLVR_LOADING_SCREEN_TIP_MAP_3_COUNT"		"7"		// a2_pistol
+"HLVR_LOADING_SCREEN_TIP_MAP_4_COUNT"		"12"	// a2_hideout
+"HLVR_LOADING_SCREEN_TIP_MAP_5_COUNT"		"12"	// a2_headcrabs_tunnel
+"HLVR_LOADING_SCREEN_TIP_MAP_6_COUNT"		"14"	// a2_drainage
+"HLVR_LOADING_SCREEN_TIP_MAP_7_COUNT"		"13"	// a2_train_yard
+"HLVR_LOADING_SCREEN_TIP_MAP_8_COUNT"		"11"	// a3_station_street
+"HLVR_LOADING_SCREEN_TIP_MAP_9_COUNT"		"15"	// a3_hotel_lobby_basement
+"HLVR_LOADING_SCREEN_TIP_MAP_10_COUNT"		"15"	// a3_hotel_underground_pit
+"HLVR_LOADING_SCREEN_TIP_MAP_11_COUNT"		"15"	// a3_hotel_interior_rooftop
+"HLVR_LOADING_SCREEN_TIP_MAP_12_COUNT"		"20"	// a3_hotel_street
+"HLVR_LOADING_SCREEN_TIP_MAP_13_COUNT"		"20"	// a3_c17_processing_plant
+"HLVR_LOADING_SCREEN_TIP_MAP_14_COUNT"		"20"	// a3_distillery
+"HLVR_LOADING_SCREEN_TIP_MAP_15_COUNT"		"20"	// a4_c17_zoo
+"HLVR_LOADING_SCREEN_TIP_MAP_16_COUNT"		"20"	// a4_c17_tanker_yard
+"HLVR_LOADING_SCREEN_TIP_MAP_17_COUNT"		"0"		// a4_c17_water_tower
+"HLVR_LOADING_SCREEN_TIP_MAP_18_COUNT"		"0"		// a4_c17_parking_garage
+"HLVR_LOADING_SCREEN_TIP_MAP_19_COUNT"		"0"		// a5_vault
+"HLVR_LOADING_SCREEN_TIP_MAP_20_COUNT"		"0"		// a5_ending
+} 
+}

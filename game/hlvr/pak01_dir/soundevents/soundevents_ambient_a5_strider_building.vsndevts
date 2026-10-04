@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	AmbientA5Strider.ItsADamnCaveLP = 
 	{
@@ -6,8 +7,8 @@
 		soundevent_02 = "AmbientA5Strider.ItsADamnCaveLP_R"
 		soundevent_03 = "AmbientA5Strider.ItsADamnCaveLP_LS"
 		soundevent_04 = "AmbientA5Strider.ItsADamnCaveLP_RS"
-		rand_delay_min = -5.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = -5.0
+		rand_delay_max = 0.0
 	}
 	AmbientA5Strider.ItsADamnCaveLP_L = 
 	{
@@ -20,7 +21,7 @@
 		vsnd_vol_02 = "0.04"
 		vsnd_vol_03 = "0.13"
 		vsnd_vol_04 = "0.56"
-		volume = 0.900000
+		volume = 0.9
 	}
 	AmbientA5Strider.ItsADamnCaveLP_R = 
 	{
@@ -29,7 +30,7 @@
 		vsnd_file_02 = "sounds/ambient/abstract/amb_cave_snow_texture_quad_lp_01_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_hotel_md_room_quad_lp_02_r.vsnd"
 		vsnd_file_04 = "sounds/ambient/interior/amb_hotel_room_lfe_quad_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA5Strider.ItsADamnCaveLP_LS = 
 	{
@@ -38,7 +39,7 @@
 		vsnd_file_02 = "sounds/ambient/abstract/amb_cave_snow_texture_quad_lp_01_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_hotel_md_room_quad_lp_02_ls.vsnd"
 		vsnd_file_04 = "sounds/ambient/interior/amb_hotel_room_lfe_quad_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA5Strider.ItsADamnCaveLP_RS = 
 	{
@@ -47,7 +48,7 @@
 		vsnd_file_02 = "sounds/ambient/abstract/amb_cave_snow_texture_quad_lp_01_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_hotel_md_room_quad_lp_02_rs.vsnd"
 		vsnd_file_04 = "sounds/ambient/interior/amb_hotel_room_lfe_quad_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA5Strider.UndergroundDecayLp = 
 	{
@@ -56,8 +57,8 @@
 		soundevent_02 = "AmbientA5Strider.UndergroundDecayLp_R"
 		soundevent_03 = "AmbientA5Strider.UndergroundDecayLp_LS"
 		soundevent_04 = "AmbientA5Strider.UndergroundDecayLp_RS"
-		rand_delay_min = -5.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = -5.0
+		rand_delay_max = 0.0
 	}
 	AmbientA5Strider.UndergroundDecayLp_L = 
 	{
@@ -69,25 +70,25 @@
 		vsnd_vol_02 = "0.3"
 		vsnd_vol_03 = "0.8"
 		global_opvar_name_02 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity_02 = 2.500000
-		remap_vol_opvar_02_x1 = 0.000000
-		remap_vol_opvar_02_y1 = 1.000000
-		remap_vol_opvar_02_x2 = 0.200000
-		remap_vol_opvar_02_y2 = 0.900000
-		remap_vol_opvar_02_x3 = 0.500000
-		remap_vol_opvar_02_y3 = 0.650000
-		remap_vol_opvar_02_x4 = 1.000000
-		remap_vol_opvar_02_y4 = 0.000000
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 1.000000
-		remap_filter_freq_opvar_x2 = 0.000000
-		remap_filter_freq_opvar_y2 = 1.000000
-		remap_filter_freq_opvar_x3 = 0.000000
-		remap_filter_freq_opvar_y3 = 1.000000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 0.750000
+		global_opvar_filter_velocity_02 = 2.5
+		remap_vol_opvar_02_x1 = 0.0
+		remap_vol_opvar_02_y1 = 1.0
+		remap_vol_opvar_02_x2 = 0.2
+		remap_vol_opvar_02_y2 = 0.9
+		remap_vol_opvar_02_x3 = 0.5
+		remap_vol_opvar_02_y3 = 0.65
+		remap_vol_opvar_02_x4 = 1.0
+		remap_vol_opvar_02_y4 = 0.0
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 1.0
+		remap_filter_freq_opvar_x2 = 0.0
+		remap_filter_freq_opvar_y2 = 1.0
+		remap_filter_freq_opvar_x3 = 0.0
+		remap_filter_freq_opvar_y3 = 1.0
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 0.75
 	}
 	AmbientA5Strider.UndergroundDecayLp_R = 
 	{
@@ -95,7 +96,7 @@
 		vsnd_file_01 = "sounds/ambient/city/amb_strider_building_decay_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_hotel_md_room_quad_lp_02_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_proc_plant_hum_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA5Strider.UndergroundDecayLp_LS = 
 	{
@@ -103,7 +104,7 @@
 		vsnd_file_01 = "sounds/ambient/city/amb_strider_building_decay_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_hotel_md_room_quad_lp_02_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_proc_plant_hum_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA5Strider.UndergroundDecayLp_RS = 
 	{
@@ -111,43 +112,43 @@
 		vsnd_file_01 = "sounds/ambient/city/amb_strider_building_decay_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_hotel_md_room_quad_lp_02_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_proc_plant_hum_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA5Strider.BuildingMetal = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientA5Strider.BuildingMetalChild"
-		random_soundevent_01_timer_min = 15.000000
-		random_soundevent_01_timer_max = 21.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 15.0
+		random_soundevent_01_timer_max = 21.0
+		use_initial_random_offset = 1.0
 	}
 	AmbientA5Strider.BuildingMetalChild = 
 	{
 		type = "hlvr_ambient_rand_child"
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
-		use_hrtf = 1.000000
-		volume = 0.350000
-		volume_rand_min = -0.100000
-		volume_rand_max = 0.100000
-		pitch_rand_min = -0.180000
-		pitch_rand_max = 0.020000
-		spread_min = 125.000000
-		spread_max = 250.000000
-		position_source = 2.000000
+		use_hrtf = 1.0
+		volume = 0.35
+		volume_rand_min = -0.1
+		volume_rand_max = 0.1
+		pitch_rand_min = -0.18
+		pitch_rand_max = 0.02
+		spread_min = 125.0
+		spread_max = 250.0
+		position_source = 2.0
 		constrain_direction = "none"
 		make_ortho_vertical = false
-		ortho_distance_min = 1200.000000
-		ortho_distance_max = 1400.000000
-		volume_falloff_min = 200.000000
+		ortho_distance_min = 1200.0
+		ortho_distance_max = 1400.0
+		volume_falloff_min = 200.0
 		volume_falloff_max = 1000
-		animated_target = 1.000000
+		animated_target = 1.0
 		animation_type = "slerp"
-		rand_radius_min = 125.000000
-		rand_radius_max = 250.000000
-		drunk = 1.000000
-		drunk_range = 150.000000
-		drunk_velocity = 0.050000
+		rand_radius_min = 125.0
+		rand_radius_max = 250.0
+		drunk = 1.0
+		drunk_range = 150.0
+		drunk_velocity = 0.05
 		vsnd_files = 
 		[
 			"sounds/ambient/metal/amb_strider_building_metal_01.vsnd",
@@ -159,7 +160,7 @@
 			"sounds/ambient/metal/amb_strider_building_metal_07.vsnd",
 			"sounds/ambient/metal/amb_strider_building_metal_08.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 150
 		soundname_string = "AmbientA5Strider.BuildingMetalChild"
 	}
@@ -174,27 +175,27 @@
 	{
 		base = "AmbientWater.WaterdripSingle"
 		global_volume_opvar_01 = "hotel_small_room_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
-		use_initial_random_offset = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
+		use_initial_random_offset = 1.0
 	}
 	AmbientA5Strider.RandomRubbleFall = 
 	{
 		base = "AmbientCave.RandomRubbleFall"
 		global_volume_opvar_01 = "hotel_small_room_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.400000
-		remap_global_opvar_01_to_vol_max = 1.000000
-		use_initial_random_offset = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.4
+		remap_global_opvar_01_to_vol_max = 1.0
+		use_initial_random_offset = 1.0
 	}
 	AmbientA5Strider.RandomPebbleFall = 
 	{
 		base = "AmbientCave.RandomPebbleFall"
 		global_volume_opvar_01 = "hotel_small_room_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.300000
-		remap_global_opvar_01_to_vol_max = 1.000000
-		use_initial_random_offset = 1.000000
-		random_soundevent_01_timer_min = 3.000000
-		random_soundevent_01_timer_max = 7.000000
+		remap_global_opvar_01_to_vol_min = 0.3
+		remap_global_opvar_01_to_vol_max = 1.0
+		use_initial_random_offset = 1.0
+		random_soundevent_01_timer_min = 3.0
+		random_soundevent_01_timer_max = 7.0
 	}
 	AmbientA5Strider.CrushedCarIdleLp = 
 	{
@@ -215,8 +216,8 @@
 		soundevent_02 = "AmbientA5Strider.ApocalypseLp_R"
 		soundevent_03 = "AmbientA5Strider.ApocalypseLp_LS"
 		soundevent_04 = "AmbientA5Strider.ApocalypseLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA5Strider.ApocalypseLp_L = 
 	{
@@ -227,27 +228,27 @@
 		vsnd_vol_01 = "1.00"
 		vsnd_vol_02 = "0.57"
 		vsnd_vol_03 = "0.7"
-		volume = 0.900000
+		volume = 0.9
 		global_opvar_name_02 = "hotel_small_room_proximity_beacon"
-		global_opvar_filter_velocity_02 = 2.500000
-		remap_vol_opvar_02_x1 = 0.000000
-		remap_vol_opvar_02_y1 = 1.000000
-		remap_vol_opvar_02_x2 = 0.000000
-		remap_vol_opvar_02_y2 = 1.000000
-		remap_vol_opvar_02_x3 = 0.000000
-		remap_vol_opvar_02_y3 = 1.000000
-		remap_vol_opvar_02_x4 = 1.000000
-		remap_vol_opvar_02_y4 = 0.300000
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
-		remap_filter_freq_opvar_02_x1 = 0.000000
-		remap_filter_freq_opvar_02_y1 = 1.000000
-		remap_filter_freq_opvar_02_x2 = 0.000000
-		remap_filter_freq_opvar_02_y2 = 1.000000
-		remap_filter_freq_opvar_02_x3 = 0.000000
-		remap_filter_freq_opvar_02_y3 = 1.000000
-		remap_filter_freq_opvar_02_x4 = 1.000000
-		remap_filter_freq_opvar_02_y4 = 0.600000
+		global_opvar_filter_velocity_02 = 2.5
+		remap_vol_opvar_02_x1 = 0.0
+		remap_vol_opvar_02_y1 = 1.0
+		remap_vol_opvar_02_x2 = 0.0
+		remap_vol_opvar_02_y2 = 1.0
+		remap_vol_opvar_02_x3 = 0.0
+		remap_vol_opvar_02_y3 = 1.0
+		remap_vol_opvar_02_x4 = 1.0
+		remap_vol_opvar_02_y4 = 0.3
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
+		remap_filter_freq_opvar_02_x1 = 0.0
+		remap_filter_freq_opvar_02_y1 = 1.0
+		remap_filter_freq_opvar_02_x2 = 0.0
+		remap_filter_freq_opvar_02_y2 = 1.0
+		remap_filter_freq_opvar_02_x3 = 0.0
+		remap_filter_freq_opvar_02_y3 = 1.0
+		remap_filter_freq_opvar_02_x4 = 1.0
+		remap_filter_freq_opvar_02_y4 = 0.6
 	}
 	AmbientA5Strider.ApocalypseLp_R = 
 	{
@@ -255,7 +256,7 @@
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/subway_station/amb_station_tall_room_base_lp_01_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/wind/wind_system/amb_windy_light_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA5Strider.ApocalypseLp_LS = 
 	{
@@ -263,7 +264,7 @@
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/subway_station/amb_station_tall_room_base_lp_01_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/wind/wind_system/amb_windy_light_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA5Strider.ApocalypseLp_RS = 
 	{
@@ -271,7 +272,7 @@
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/subway_station/amb_station_tall_room_base_lp_01_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/wind/wind_system/amb_windy_light_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA5Strider.DebrisFall_01 = 
 	{
@@ -280,10 +281,10 @@
 		soundevent_02 = "AmbientA5Strider.DebrisFall_01_R"
 		soundevent_03 = "AmbientA5Strider.DebrisFall_01_LS"
 		soundevent_04 = "AmbientA5Strider.DebrisFall_01_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientA5Strider.DebrisFall_01_L = 
 	{
@@ -291,55 +292,55 @@
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_debris_fall_01_l.vsnd"
 		vsnd_vol_01 = "1.0"
 		mixgroup = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.300000
-		delay = 2.330000
+		volume = 0.3
+		delay = 2.33
 		vertical_rotation_angle = 25
 		global_opvar_name_01 = "hotel_small_room_proximity_beacon"
-		global_opvar_filter_velocity = 2.500000
-		opvar_to_volume_multiplier_min = 0.000000
-		opvar_to_volume_multiplier = 1.000000
-		remap_vol_opvar_x1 = 0.000000
-		remap_vol_opvar_y1 = 1.000000
-		remap_vol_opvar_x2 = 0.000000
-		remap_vol_opvar_y2 = 1.000000
-		remap_vol_opvar_x3 = 0.000000
-		remap_vol_opvar_y3 = 1.000000
-		remap_vol_opvar_x4 = 1.000000
-		remap_vol_opvar_y4 = 0.600000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 1.000000
-		remap_filter_freq_opvar_x2 = 0.000000
-		remap_filter_freq_opvar_y2 = 1.000000
-		remap_filter_freq_opvar_x3 = 0.000000
-		remap_filter_freq_opvar_y3 = 1.000000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 0.300000
+		global_opvar_filter_velocity = 2.5
+		opvar_to_volume_multiplier_min = 0.0
+		opvar_to_volume_multiplier = 1.0
+		remap_vol_opvar_x1 = 0.0
+		remap_vol_opvar_y1 = 1.0
+		remap_vol_opvar_x2 = 0.0
+		remap_vol_opvar_y2 = 1.0
+		remap_vol_opvar_x3 = 0.0
+		remap_vol_opvar_y3 = 1.0
+		remap_vol_opvar_x4 = 1.0
+		remap_vol_opvar_y4 = 0.6
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 1.0
+		remap_filter_freq_opvar_x2 = 0.0
+		remap_filter_freq_opvar_y2 = 1.0
+		remap_filter_freq_opvar_x3 = 0.0
+		remap_filter_freq_opvar_y3 = 1.0
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 0.3
 	}
 	AmbientA5Strider.DebrisFall_01_R = 
 	{
 		base = "AmbientA5Strider.DebrisFall_01_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_debris_fall_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA5Strider.DebrisFall_01_LS = 
 	{
 		base = "AmbientA5Strider.DebrisFall_01_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_debris_fall_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA5Strider.DebrisFall_01_RS = 
 	{
 		base = "AmbientA5Strider.DebrisFall_01_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_debris_fall_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA5Strider.DebrisFall_02 = 
 	{
@@ -348,10 +349,10 @@
 		soundevent_02 = "AmbientA5Strider.DebrisFall_02_R"
 		soundevent_03 = "AmbientA5Strider.DebrisFall_02_LS"
 		soundevent_04 = "AmbientA5Strider.DebrisFall_02_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientA5Strider.DebrisFall_02_L = 
 	{
@@ -362,19 +363,19 @@
 	{
 		base = "AmbientA5Strider.DebrisFall_02_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_debris_fall_02_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA5Strider.DebrisFall_02_LS = 
 	{
 		base = "AmbientA5Strider.DebrisFall_02_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_debris_fall_02_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA5Strider.DebrisFall_02_RS = 
 	{
 		base = "AmbientA5Strider.DebrisFall_02_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_debris_fall_02_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA5Strider.DebrisFall_03 = 
 	{
@@ -383,10 +384,10 @@
 		soundevent_02 = "AmbientA5Strider.DebrisFall_03_R"
 		soundevent_03 = "AmbientA5Strider.DebrisFall_03_LS"
 		soundevent_04 = "AmbientA5Strider.DebrisFall_03_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientA5Strider.DebrisFall_03_L = 
 	{
@@ -397,19 +398,19 @@
 	{
 		base = "AmbientA5Strider.DebrisFall_03_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_debris_fall_03_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA5Strider.DebrisFall_03_LS = 
 	{
 		base = "AmbientA5Strider.DebrisFall_03_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_debris_fall_03_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA5Strider.DebrisFall_03_RS = 
 	{
 		base = "AmbientA5Strider.DebrisFall_03_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_debris_fall_03_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA5Strider.DebrisFall_04 = 
 	{
@@ -418,10 +419,10 @@
 		soundevent_02 = "AmbientA5Strider.DebrisFall_04_R"
 		soundevent_03 = "AmbientA5Strider.DebrisFall_04_LS"
 		soundevent_04 = "AmbientA5Strider.DebrisFall_04_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientA5Strider.DebrisFall_04_L = 
 	{
@@ -432,24 +433,24 @@
 	{
 		base = "AmbientA5Strider.DebrisFall_04_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_debris_fall_04_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA5Strider.DebrisFall_04_LS = 
 	{
 		base = "AmbientA5Strider.DebrisFall_04_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_debris_fall_04_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA5Strider.DebrisFall_04_RS = 
 	{
 		base = "AmbientA5Strider.DebrisFall_04_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_debris_fall_04_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA5Strider.DebrisFall = 
 	{
 		type = "hlvr_start_soundevent"
-		restart_on_finish = 0.000000
+		restart_on_finish = 0.0
 		soundevents = 
 		[
 			"AmbientA5Strider.DebrisFall_01",
@@ -465,10 +466,10 @@
 		soundevent_02 = "AmbientA5Strider.DebrisWronk_01_R"
 		soundevent_03 = "AmbientA5Strider.DebrisWronk_01_LS"
 		soundevent_04 = "AmbientA5Strider.DebrisWronk_01_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientA5Strider.DebrisWronk_01_L = 
 	{
@@ -476,54 +477,54 @@
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_wronk_01_l.vsnd"
 		vsnd_vol_01 = "1.0"
 		mixgroup = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.450000
+		volume = 0.45
 		vertical_rotation_angle = 25
 		global_opvar_name_01 = "hotel_small_room_proximity_beacon"
-		global_opvar_filter_velocity = 2.500000
-		opvar_to_volume_multiplier_min = 0.000000
-		opvar_to_volume_multiplier = 1.000000
-		remap_vol_opvar_x1 = 0.000000
-		remap_vol_opvar_y1 = 1.000000
-		remap_vol_opvar_x2 = 0.000000
-		remap_vol_opvar_y2 = 1.000000
-		remap_vol_opvar_x3 = 0.000000
-		remap_vol_opvar_y3 = 1.000000
-		remap_vol_opvar_x4 = 1.000000
-		remap_vol_opvar_y4 = 0.600000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 1.000000
-		remap_filter_freq_opvar_x2 = 0.000000
-		remap_filter_freq_opvar_y2 = 1.000000
-		remap_filter_freq_opvar_x3 = 0.000000
-		remap_filter_freq_opvar_y3 = 1.000000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 0.300000
+		global_opvar_filter_velocity = 2.5
+		opvar_to_volume_multiplier_min = 0.0
+		opvar_to_volume_multiplier = 1.0
+		remap_vol_opvar_x1 = 0.0
+		remap_vol_opvar_y1 = 1.0
+		remap_vol_opvar_x2 = 0.0
+		remap_vol_opvar_y2 = 1.0
+		remap_vol_opvar_x3 = 0.0
+		remap_vol_opvar_y3 = 1.0
+		remap_vol_opvar_x4 = 1.0
+		remap_vol_opvar_y4 = 0.6
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 1.0
+		remap_filter_freq_opvar_x2 = 0.0
+		remap_filter_freq_opvar_y2 = 1.0
+		remap_filter_freq_opvar_x3 = 0.0
+		remap_filter_freq_opvar_y3 = 1.0
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 0.3
 	}
 	AmbientA5Strider.DebrisWronk_01_R = 
 	{
 		base = "AmbientA5Strider.DebrisWronk_01_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_wronk_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA5Strider.DebrisWronk_01_LS = 
 	{
 		base = "AmbientA5Strider.DebrisWronk_01_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_wronk_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA5Strider.DebrisWronk_01_RS = 
 	{
 		base = "AmbientA5Strider.DebrisWronk_01_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_wronk_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA5Strider.DebrisWronk_02 = 
 	{
@@ -532,10 +533,10 @@
 		soundevent_02 = "AmbientA5Strider.DebrisWronk_02_R"
 		soundevent_03 = "AmbientA5Strider.DebrisWronk_02_LS"
 		soundevent_04 = "AmbientA5Strider.DebrisWronk_02_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientA5Strider.DebrisWronk_02_L = 
 	{
@@ -546,19 +547,19 @@
 	{
 		base = "AmbientA5Strider.DebrisWronk_02_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_wronk_02_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA5Strider.DebrisWronk_02_LS = 
 	{
 		base = "AmbientA5Strider.DebrisWronk_02_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_wronk_02_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA5Strider.DebrisWronk_02_RS = 
 	{
 		base = "AmbientA5Strider.DebrisWronk_02_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_wronk_02_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA5Strider.DebrisWronk_03 = 
 	{
@@ -567,10 +568,10 @@
 		soundevent_02 = "AmbientA5Strider.DebrisWronk_03_R"
 		soundevent_03 = "AmbientA5Strider.DebrisWronk_03_LS"
 		soundevent_04 = "AmbientA5Strider.DebrisWronk_03_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientA5Strider.DebrisWronk_03_L = 
 	{
@@ -581,19 +582,19 @@
 	{
 		base = "AmbientA5Strider.DebrisWronk_03_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_wronk_03_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA5Strider.DebrisWronk_03_LS = 
 	{
 		base = "AmbientA5Strider.DebrisWronk_03_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_wronk_03_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA5Strider.DebrisWronk_03_RS = 
 	{
 		base = "AmbientA5Strider.DebrisWronk_03_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_wronk_03_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA5Strider.DebrisWronk_04 = 
 	{
@@ -602,10 +603,10 @@
 		soundevent_02 = "AmbientA5Strider.DebrisWronk_04_R"
 		soundevent_03 = "AmbientA5Strider.DebrisWronk_04_LS"
 		soundevent_04 = "AmbientA5Strider.DebrisWronk_04_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientA5Strider.DebrisWronk_04_L = 
 	{
@@ -616,24 +617,24 @@
 	{
 		base = "AmbientA5Strider.DebrisWronk_04_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_wronk_04_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA5Strider.DebrisWronk_04_LS = 
 	{
 		base = "AmbientA5Strider.DebrisWronk_04_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_wronk_04_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA5Strider.DebrisWronk_04_RS = 
 	{
 		base = "AmbientA5Strider.DebrisWronk_04_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_apocalypse_wronk_04_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA5Strider.DebrisWronk = 
 	{
 		type = "hlvr_start_soundevent"
-		restart_on_finish = 0.000000
+		restart_on_finish = 0.0
 		soundevents = 
 		[
 			"AmbientA5Strider.DebrisWronk_01",
@@ -647,51 +648,51 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "AmbientA5Strider.DebrisWronk"
 		soundevent_02 = "AmbientA5Strider.DebrisFall"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	AmbientA5Strider.RandomDebrisFall = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientA5Strider.DebrisMulti"
-		random_soundevent_01_timer_min = 10.000000
-		random_soundevent_01_timer_max = 22.000000
+		random_soundevent_01_timer_min = 10.0
+		random_soundevent_01_timer_max = 22.0
 	}
 	AmbientA5Strider.EndgameThrill01 = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientA5Strider.EndgameThrillChild01"
-		random_soundevent_01_timer_min = 25.000000
-		random_soundevent_01_timer_max = 45.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 25.0
+		random_soundevent_01_timer_max = 45.0
+		use_initial_random_offset = 1.0
 	}
 	AmbientA5Strider.EndgameThrillChild01 = 
 	{
 		type = "hlvr_ambient_rand_child"
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
-		use_hrtf = 1.000000
-		volume = 1.000000
-		pitch_rand_min = -0.180000
-		pitch_rand_max = 0.020000
-		spread_min = 125.000000
-		spread_max = 250.000000
-		position_source = 2.000000
+		use_hrtf = 1.0
+		volume = 1.0
+		pitch_rand_min = -0.18
+		pitch_rand_max = 0.02
+		spread_min = 125.0
+		spread_max = 250.0
+		position_source = 2.0
 		constrain_direction = "none"
 		make_ortho_vertical = false
-		ortho_distance_min = 1200.000000
-		ortho_distance_max = 1400.000000
-		volume_falloff_min = 400.000000
+		ortho_distance_min = 1200.0
+		ortho_distance_max = 1400.0
+		volume_falloff_min = 400.0
 		volume_falloff_max = 1500
-		animated_target = 1.000000
+		animated_target = 1.0
 		animation_type = "lerp"
-		rand_radius_min = 225.000000
-		rand_radius_max = 650.000000
-		drunk = 1.000000
-		drunk_range = 150.000000
-		drunk_velocity = 0.050000
-		use_doppler = 1.000000
-		doppler_factor = 2.000000
+		rand_radius_min = 225.0
+		rand_radius_max = 650.0
+		drunk = 1.0
+		drunk_range = 150.0
+		drunk_velocity = 0.05
+		use_doppler = 1.0
+		doppler_factor = 2.0
 		vsnd_files = 
 		[
 			"sounds/ambient/abstract/endgame/amb_end_thrill_exp_01.vsnd",
@@ -701,7 +702,7 @@
 			"sounds/ambient/abstract/endgame/amb_end_thrill_exp_05.vsnd",
 			"sounds/ambient/abstract/endgame/amb_end_thrill_exp_06.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 1400
 		soundname_string = "AmbientA5Strider.EndgameThrillChild01"
 	}
@@ -709,12 +710,12 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientA5Strider.FireballDestructionChild"
-		random_soundevent_01_timer_min = 25.000000
-		random_soundevent_01_timer_max = 35.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 25.0
+		random_soundevent_01_timer_max = 35.0
+		use_initial_random_offset = 1.0
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	AmbientA5Strider.FireballDestructionChild = 
 	{
@@ -723,53 +724,48 @@
 		[
 			"AmbientA5Strider.FireballDestructionMulti",
 		]
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 1.000000
-		constrain_direction = 2.000000
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 1.0
+		constrain_direction = 2.0
 		ortho_distance_min = 1500
 		ortho_distance_max = 2000
 		make_ortho_vertical = false
-		ortho_flyby = 1.000000
-		unconstrained_target = 1.000000
+		ortho_flyby = 1.0
+		unconstrained_target = 1.0
 		animation_type = "lerp"
 		animation_time_min = 2
 		animation_time_max = 3
 		rand_radius_min = 500
 		rand_radius_max = 1200
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			100,
-		]
+		position_offset = [ 0.0, 0.0, 100 ]
 	}
 	AmbientA5Strider.FireballDestructionMulti = 
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "AmbientA5Strider.FireballDestructionHead"
 		soundevent_02 = "AmbientA5Strider.FireballDestructionTail"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	AmbientA5Strider.FireballDestructionHead = 
 	{
 		type = "hlvr_simple_voicegraph_filter_dynamics"
-		volume = 0.350000
-		volume_falloff_min = 850.000000
-		volume_falloff_max = 2500.000000
+		volume = 0.35
+		volume_falloff_min = 850.0
+		volume_falloff_max = 2500.0
 		spread_min = 500
 		spread_max = 1000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 0.750000
-		use_doppler = 1.000000
-		doppler_factor = 2.000000
-		doppler_factor_receding = 2.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.0
+		volume_fade_in = 0.0
+		volume_fade_out = 0.75
+		use_doppler = 1.0
+		doppler_factor = 2.0
+		doppler_factor_receding = 2.0
 		mixgroup = "ambient"
 		use_named_send = "Ambient"
-		use_hrtf = 0.600000
+		use_hrtf = 0.6
 		vsnd_files = 
 		[
 			"sounds/ambient/city/amb_parking_garage_fireball_flyby_01.vsnd",
@@ -777,32 +773,32 @@
 			"sounds/ambient/city/amb_parking_garage_fireball_flyby_03.vsnd",
 			"sounds/ambient/city/amb_parking_garage_fireball_flyby_04.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 350
 		soundname_string = "AmbientA5Strider.FireballDestructionHead"
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "hotel_small_room_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 1.000000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.700000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.500000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 0.400000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 1.000000
-		remap_opvar_to_vol_x2 = 1.000000
-		remap_opvar_to_vol_y2 = 0.000000
-		remap_opvar_to_vol_x3 = 1.000000
-		remap_opvar_to_vol_y3 = 0.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 0.750000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 1.0
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.7
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.5
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 0.4
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 1.0
+		remap_opvar_to_vol_x2 = 1.0
+		remap_opvar_to_vol_y2 = 0.0
+		remap_opvar_to_vol_x3 = 1.0
+		remap_opvar_to_vol_y3 = 0.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 0.75
 	}
 	AmbientA5Strider.FireballDestructionTail = 
 	{
 		base = "AmbientA5Strider.FireballDestructionHead"
-		volume = 0.400000
+		volume = 0.4
 		vsnd_files = 
 		[
 			"sounds/ambient/city/amb_parking_garage_fireball_impact_01.vsnd",
@@ -810,57 +806,57 @@
 			"sounds/ambient/city/amb_parking_garage_fireball_impact_03.vsnd",
 			"sounds/ambient/city/amb_parking_garage_fireball_impact_04.vsnd",
 		]
-		delay = 2.100000
-		enable_debug_radius = 0.000000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 1.000000
-		remap_opvar_to_vol_x2 = 1.000000
-		remap_opvar_to_vol_y2 = 0.000000
-		remap_opvar_to_vol_x3 = 1.000000
-		remap_opvar_to_vol_y3 = 0.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 0.900000
+		delay = 2.1
+		enable_debug_radius = 0.0
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 1.0
+		remap_opvar_to_vol_x2 = 1.0
+		remap_opvar_to_vol_y2 = 0.0
+		remap_opvar_to_vol_x3 = 1.0
+		remap_opvar_to_vol_y3 = 0.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 0.9
 	}
 	AmbientA5Strider.ParkingGarageCarAlarms = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientA5Strider.ParkingGarageCarAlarmsChildBurst"
-		random_soundevent_01_timer_min = 15.000000
-		random_soundevent_01_timer_max = 35.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 15.0
+		random_soundevent_01_timer_max = 35.0
+		use_initial_random_offset = 1.0
 		global_volume_opvar_01 = "large_room_addin_array"
-		remap_global_opvar_01_to_vol_min = 0.500000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.5
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	AmbientA5Strider.ParkingGarageCarAlarmsChildBurst = 
 	{
 		type = "hlvr_ambient_burst"
 		burst_length_min = 4
 		burst_length_max = 8
-		delay_timer_min = 1.500000
-		delay_timer_max = 2.500000
+		delay_timer_min = 1.5
+		delay_timer_max = 2.5
 		soundevent_name = "AmbientA5Strider.ParkingGarageCarAlarmsChild"
-		set_position_target = 0.000000
+		set_position_target = 0.0
 	}
 	AmbientA5Strider.ParkingGarageCarAlarmsChild = 
 	{
 		type = "hlvr_ambient_rand_child"
-		volume = 0.200000
-		volume_rand_min = -0.200000
-		volume_rand_max = 0.000000
+		volume = 0.2
+		volume_rand_min = -0.2
+		volume_rand_max = 0.0
 		volume_falloff_min = 2005
 		volume_falloff_max = 2400
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		animation_time = 0.000000
-		position_source = 1.000000
-		animated_target = 1.000000
-		rand_radius_min = 200.000000
-		rand_radius_max = 600.000000
-		enable_debug_radius = 0.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		animation_time = 0.0
+		position_source = 1.0
+		animated_target = 1.0
+		rand_radius_min = 200.0
+		rand_radius_max = 600.0
+		enable_debug_radius = 0.0
 		soundname_string = "ParkingGarageCarAlarmsChild"
 		mixgroup = "Ambient"
-		use_hrtf = 0.700000
+		use_hrtf = 0.7
 		use_named_send = "ambient"
 		vsnd_files = 
 		[
@@ -879,8 +875,8 @@
 		soundevent_02 = "AmbientA5Strider.ParkingGarageDistantAlarm01_R"
 		soundevent_03 = "AmbientA5Strider.ParkingGarageDistantAlarm01_LS"
 		soundevent_04 = "AmbientA5Strider.ParkingGarageDistantAlarm01_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA5Strider.ParkingGarageDistantAlarm01_L = 
 	{
@@ -888,56 +884,56 @@
 		vsnd_file_01 = "sounds/ambient/alarms/amb_c17_distant_alarm_01_l.vsnd"
 		vsnd_vol_01 = "0.45"
 		mixgroup = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 500
 		volume_falloff_max = 500
-		rotation_angle = 45.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 0.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.600000
+		volume = 0.6
 		global_opvar_name_01 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity = 2.500000
-		remap_vol_opvar_x1 = 0.000000
-		remap_vol_opvar_y1 = 0.400000
-		remap_vol_opvar_x2 = 0.000000
-		remap_vol_opvar_y2 = 0.400000
-		remap_vol_opvar_x3 = 0.000000
-		remap_vol_opvar_y3 = 0.400000
-		remap_vol_opvar_x4 = 1.000000
-		remap_vol_opvar_y4 = 1.000000
-		opvar_to_volume_multiplier_min = 0.000000
-		opvar_to_volume_multiplier = 1.000000
-		filter_mix = 0.900000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 0.600000
-		remap_filter_freq_opvar_x2 = 0.000000
-		remap_filter_freq_opvar_y2 = 0.600000
-		remap_filter_freq_opvar_x3 = 0.000000
-		remap_filter_freq_opvar_y3 = 0.600000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 1.000000
+		global_opvar_filter_velocity = 2.5
+		remap_vol_opvar_x1 = 0.0
+		remap_vol_opvar_y1 = 0.4
+		remap_vol_opvar_x2 = 0.0
+		remap_vol_opvar_y2 = 0.4
+		remap_vol_opvar_x3 = 0.0
+		remap_vol_opvar_y3 = 0.4
+		remap_vol_opvar_x4 = 1.0
+		remap_vol_opvar_y4 = 1.0
+		opvar_to_volume_multiplier_min = 0.0
+		opvar_to_volume_multiplier = 1.0
+		filter_mix = 0.9
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 0.6
+		remap_filter_freq_opvar_x2 = 0.0
+		remap_filter_freq_opvar_y2 = 0.6
+		remap_filter_freq_opvar_x3 = 0.0
+		remap_filter_freq_opvar_y3 = 0.6
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 1.0
 		global_opvar_name_02 = "large_room_addin_array"
-		global_opvar_filter_velocity_02 = 2.500000
-		remap_vol_opvar_02_x1 = 0.000000
-		remap_vol_opvar_02_y1 = 1.000000
-		remap_vol_opvar_02_x2 = 0.000000
-		remap_vol_opvar_02_y2 = 1.000000
-		remap_vol_opvar_02_x3 = 0.000000
-		remap_vol_opvar_02_y3 = 1.000000
-		remap_vol_opvar_02_x4 = 1.000000
-		remap_vol_opvar_02_y4 = 0.500000
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
-		remap_filter_freq_opvar_02_x1 = 0.000000
-		remap_filter_freq_opvar_02_y1 = 1.000000
-		remap_filter_freq_opvar_02_x2 = 0.000000
-		remap_filter_freq_opvar_02_y2 = 1.000000
-		remap_filter_freq_opvar_02_x3 = 0.000000
-		remap_filter_freq_opvar_02_y3 = 1.000000
-		remap_filter_freq_opvar_02_x4 = 1.000000
-		remap_filter_freq_opvar_02_y4 = 0.600000
+		global_opvar_filter_velocity_02 = 2.5
+		remap_vol_opvar_02_x1 = 0.0
+		remap_vol_opvar_02_y1 = 1.0
+		remap_vol_opvar_02_x2 = 0.0
+		remap_vol_opvar_02_y2 = 1.0
+		remap_vol_opvar_02_x3 = 0.0
+		remap_vol_opvar_02_y3 = 1.0
+		remap_vol_opvar_02_x4 = 1.0
+		remap_vol_opvar_02_y4 = 0.5
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
+		remap_filter_freq_opvar_02_x1 = 0.0
+		remap_filter_freq_opvar_02_y1 = 1.0
+		remap_filter_freq_opvar_02_x2 = 0.0
+		remap_filter_freq_opvar_02_y2 = 1.0
+		remap_filter_freq_opvar_02_x3 = 0.0
+		remap_filter_freq_opvar_02_y3 = 1.0
+		remap_filter_freq_opvar_02_x4 = 1.0
+		remap_filter_freq_opvar_02_y4 = 0.6
 	}
 	AmbientA5Strider.ParkingGarageDistantAlarm01_R = 
 	{
@@ -950,7 +946,7 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA5Strider.ParkingGarageDistantAlarm01_LS = 
 	{
@@ -963,7 +959,7 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA5Strider.ParkingGarageDistantAlarm01_RS = 
 	{
@@ -976,7 +972,7 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA5Strider.ParkingGarageDistantAlarm02 = 
 	{
@@ -985,8 +981,8 @@
 		soundevent_02 = "AmbientA5Strider.ParkingGarageDistantAlarm02_R"
 		soundevent_03 = "AmbientA5Strider.ParkingGarageDistantAlarm02_LS"
 		soundevent_04 = "AmbientA5Strider.ParkingGarageDistantAlarm02_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA5Strider.ParkingGarageDistantAlarm02_L = 
 	{
@@ -997,19 +993,19 @@
 	{
 		base = "AmbientA5Strider.ParkingGarageDistantAlarm02_L"
 		vsnd_file_01 = "sounds/ambient/alarms/amb_c17_distant_alarm_02_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA5Strider.ParkingGarageDistantAlarm02_LS = 
 	{
 		base = "AmbientA5Strider.ParkingGarageDistantAlarm02_L"
 		vsnd_file_01 = "sounds/ambient/alarms/amb_c17_distant_alarm_02_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA5Strider.ParkingGarageDistantAlarm02_RS = 
 	{
 		base = "AmbientA5Strider.ParkingGarageDistantAlarm02_L"
 		vsnd_file_01 = "sounds/ambient/alarms/amb_c17_distant_alarm_02_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA5Strider.ParkingGarageDistantAlarmEvents = 
 	{
@@ -1024,9 +1020,9 @@
 	AmbientA5Strider.ParkingGarageDistantAlarmSeq = 
 	{
 		type = "hlvr_soundevent_sequence"
-		wait_rand_min = 0.000000
-		wait_rand_max = 0.000000
-		use_volume_atten = 1.000000
+		wait_rand_min = 0.0
+		wait_rand_max = 0.0
+		use_volume_atten = 1.0
 		sequence_type = "index"
 		soundevents = 
 		[
@@ -1039,8 +1035,8 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientA5Strider.ParkingGarageDistantAlarmSeq"
-		random_soundevent_01_timer_min = 70.000000
-		random_soundevent_01_timer_max = 80.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 70.0
+		random_soundevent_01_timer_max = 80.0
+		use_initial_random_offset = 1.0
 	}
 }

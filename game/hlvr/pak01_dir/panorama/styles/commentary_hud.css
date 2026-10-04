@@ -2,11 +2,16 @@
 
 .RootPanel {
     width: 1045px;
-	height: 180px;
+    height: 180px;
+    font-size: 32px;
+    font-family: Raju;
+    font-weight: semi-bold;
+    color: #FFBE55;
 }
 
 .CommentaryHUD {
-    background-color: #333333;
+    background-color: gradient( radial, 50% 50%, 0% 0%, 100% 100%, from( #553c18 ), color-stop( 0.97, #000000 ), to( #000000 ) );
+    box-shadow: inset #995e0011 2px 2px 4px 4px;
     flow-children: right;
     padding: 18px;
 }
@@ -30,7 +35,7 @@
 .CurrentNodeBox {
     width: 720px;
     height: 144px;
-    background-color: #474136;
+    background-color: #553c1833;
     margin-left: 4px;
     margin-right: 4px;
 }
@@ -44,33 +49,52 @@
 }
 
 .CurrentNodeInternal {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     width: 100%;
     height: 100%;
-    margin: 19px;
     horizontal-align: center;
     vertical-align: middle;
     flow-children: down;
 }
 
-.CurrentNodeTitleLine
-{
-    margin-top: 16px;
+.CurrentNodeTitleLine {
     width: 100%;
     height: fit-children;
     flow-children: right;
 }
 
 .CurrentNodeTitleText {
+    width: fit-children;
     text-align: left;
     color: #FFBE55;
-    vertical-align: middle;
-    font-size: 32px;
-	font-family: Raju;
+    margin-left: 4px;
+}
+
+.CurrentNodeCountText {
+    text-align: left;
+    color: #FFBE5555;
+    visibility: visible;
+}
+
+.CurrentNodeAuthorText {
+    text-align: left;
+    color: #FFBE5555;
+    font-size: 36px;
+    font-weight: medium;
+    font-style: italic;
+    margin-top: -12px;
+}
+
+#NodeSeparator {
+    margin-left: 1px;
 }
 
 #Separator {
-    margin-left: 4px;
-    margin-right: 4px;
+    margin-left: 6px;
+    margin-right: 6px;
 }
 
 .CurrentNodeIcon {
@@ -78,14 +102,12 @@
     height: 46px;
     horizontal-align: right;
     vertical-align: middle;
-    background-color: #6C5A3C;
 }
 
 .CurrentNodeProgressBox {
     width: 100%;
     height: 60px;
-    margin-top: 4px;
-    border: 1px solid #6C5A3C;
+    border: 1px solid #FFBE5522;
 }
 
 #CurrentNodeProgressBar
@@ -102,4 +124,8 @@
 #CurrentNodeProgressBar .ProgressBarLeft
 {
     background-color: #FFBE55;
+}
+
+.TransitionedToThisLevel .CurrentNodeCountText {
+    visibility: collapse;
 }

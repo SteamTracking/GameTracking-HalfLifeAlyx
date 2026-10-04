@@ -1,5 +1,5 @@
                           
-                AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZ
+                r
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  ( def. "%s" )
@@ -31,7 +31,6 @@
 %s %s -nominidumps
 %s not implemented right now\n
 %s%s_%d_%02d%02d_%02d%02d%02d_%d.mdmp
-%s: Unable to progress %d jobs to finished state (%llums elapsed)\n
 %s: string format requested %d chars\n
 (main)
 (no name set)
@@ -135,6 +134,8 @@
 .?AVIThreadPool@@
 .?AVIUniformRandomStream@@
 .?AVIUtlStringTokenSystem@@
+.?AVbad_exception@std@@
+.?AVexception@std@@
 .?AVtype_info@@
 .CRT$XCA
 .CRT$XCC
@@ -154,9 +155,8 @@
 .bss
 .data
 .data$r
+.data$rs
 .edata
-.gfids$x
-.gfids$y
 .idata$2
 .idata$3
 .idata$4
@@ -166,12 +166,12 @@
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .rtc$IAA
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.stls
 .text$di
 .text$mn
 .text$mn$00
@@ -182,14 +182,16 @@
 .tls$ZZZ
 .xJ>Hf
 .xdata
+.xdata$x
 0123456789abcdef
 0iN>/
 0x%016llX
 11Y@
+2\vpl?
 37>k
 3>N;kU
 3>fvw
-8\fU84d
+5\fU54d
 </script>
 <333?
 <NULL>
@@ -207,10 +209,12 @@
 ??0CGaussianRandomStream@@QEAA@PEAVIUniformRandomStream@@@Z
 ??0CThreadEvent@@QEAA@PEBD_N1@Z
 ??0CThreadEvent@@QEAA@_N@Z
+??0CThreadFastMutex@@QEAA@XZ
 ??0CThreadFullMutex@@QEAA@_NPEBD00@Z
 ??0CThreadMultiWaitEvent@@QEAA@_N@Z
 ??0CThreadMultiWaitSemaphore@@QEAA@XZ
 ??0CThreadMutex@@QEAA@PEBD@Z
+??0CThreadMutex@@QEAA@XZ
 ??0CThreadRWLock_FastRead@@QEAA@_N@Z
 ??0CUniformRandomStream@@QEAA@$$QEAV0@@Z
 ??0CUniformRandomStream@@QEAA@AEBV0@@Z
@@ -220,7 +224,6 @@
 ??1CThreadFullMutex@@QEAA@XZ
 ??1CThreadMultiWaitEvent@@QEAA@XZ
 ??1CThreadMultiWaitSemaphore@@QEAA@XZ
-??1CThreadMutex@@QEAA@XZ
 ??1CThreadSemaphore@@QEAA@XZ
 ??1CWorkerThread@@UEAA@XZ
 ??4CUniformRandomStream@@QEAAAEAV0@$$QEAV0@@Z
@@ -252,7 +255,7 @@
 ?IsSuspended@CThread@@QEAA_NXZ
 ?IsThreadRunning@CThread@@MEAA_NXZ
 ?Join@CThread@@QEAA_NI@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LockForRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
@@ -279,8 +282,10 @@
 ?Start@CThread@@UEAA_NIW4ThreadPriorityEnum_t@@@Z
 ?Suspend@CThread@@QEAAIXZ
 ?ThreadMultiWaitObjectSetCreate@@YAPEAUThreadMultiWaitObjectSet_t@@PEBQEAXPEBUThreadMultiWaitExtra_t@@H@Z
+?TryLock@CThreadFastMutex@@QEAA_NPEBDH@Z
 ?TryLock@CThreadMutex@@QEAA_NPEBDH@Z
 ?UUUUUU
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadFullMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
@@ -302,6 +307,7 @@
 ?qBJ
 ?ysB
 A>pP&
+AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZ
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ACCESSIBLE_FROM_THREADS
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
@@ -311,7 +317,9 @@ ATTEMPTED TO DECOMMIT OWNED MEMORY STACK SPACE\n
 AnimGraphEditorUtils001
 AnimationSystemUtils_001
 AnimationSystem_001
+AppPolicyGetProcessTerminationMethod
 April
+AreFileApisANSI
 AssertMsg_ConditionFailed
 AssetBrowserSystem_001
 AssetPreviewSystem_001
@@ -395,7 +403,6 @@ CTestScriptMgr::StartLoop( %s ): loop already exists.
 CThreadPool::ChangePriority
 CThreadPool::Start
 CThreadPool::Start called and it was already initialized.
-CThreadPool::YieldWait
 CThreadPool::m_PerFrameJobListMutex
 CThreadPool::m_SuspendMutex
 CThreadedJob
@@ -493,6 +500,7 @@ EXECUTE_PER_TICK
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EconItemToolModel_001
 Enabling flag '%s' on channel '%s'.\n
+EncodePointer
 EngineServiceMgr001
 EnterCriticalSection
 Error in configuration schema file "%s":\n\tInvalid variable type "%s"!\n
@@ -525,8 +533,8 @@ Find concommands by flags.
 Find concommands with the specified string in their name/help text.
 Find help about a convar/concommand.
 FindClose
-FindFirstFileExA
-FindNextFileA
+FindFirstFileExW
+FindNextFileW
 FindOrCreateQuantizedFloatEncoder
 FindRegisteredGlobalObjectInternal
 First character of flag specifier must be + or -.\n
@@ -557,9 +565,8 @@ GetCPUInformation
 GetCStringCharConversion
 GetCommandLineA
 GetCommandLineW
-GetConsoleCP
 GetConsoleMode
-GetCurrentPackageId
+GetConsoleOutputCP
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -572,7 +579,7 @@ GetFileType
 GetJSONCharConversion
 GetJobManualEventFromPool
 GetLastError
-GetModuleFileNameA
+GetModuleFileNameW
 GetModuleHandleA
 GetModuleHandleExW
 GetModuleHandleW
@@ -600,7 +607,6 @@ IOJob
 IQuickTime001
 ITALIAN
 Indicate to a test script that a checkpoint has been reached
-InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
@@ -738,8 +744,9 @@ RELEASE
 RELOAD_MATERIALS
 RELOAD_TEXTURES
 REPLICATED
-RSDSA
+RSDS
 RUSSIAN
+R\fpl?
 RaiseException
 RandomFloat
 RandomFloatExp
@@ -780,6 +787,7 @@ ResumeThread
 ReturnJobManualEventToPool
 RtlCaptureContext
 RtlLookupFunctionEntry
+RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
 RunTSListTests
@@ -887,6 +895,8 @@ Test_WaitForCheckPoint
 Test_WaitForCheckPoint <checkpoint name> [once]: requires checkpoint name.
 TextLayout_001
 TextMessageMgr_001
+ThreadAtomicNotifyAll
+ThreadAtomicWait
 ThreadGetCurrentHandle
 ThreadGetProcessExitCode
 ThreadInMainThread
@@ -935,6 +945,7 @@ Unable to create multiwait object set\n
 Unable to create thread in %s\n
 UnhandledExceptionFilter
 Unknown
+Unknown exception
 UnlockGlobalObjectRegistry
 Unrecognized flag: %s.\n
 Unrecognized severity: %s.\n
@@ -1050,6 +1061,7 @@ X360WIDE
 [ConsoleOnly]
 [DoNotEcho]
 \tkE>fvw
+_RDATA
 _V_MakeAbsolutePath
 _V_strncat
 _V_strncmp
@@ -1065,10 +1077,13 @@ __pascal
 __ptr64
 __restrict
 __stdcall
+__swift_1
+__swift_2
 __thiscall
 __unaligned
 __vectorcall
 `RTTI
+`anonymous namespace'
 `copy constructor closure'
 `default constructor closure'
 `dynamic atexit destructor for '
@@ -1109,7 +1124,7 @@ appears in lower database
 application
 archive
 bRtlGenRandomOK
-b\vP\n0
+bad exception
 bin\stringtokendatabase.txt
 bool
 bounds
@@ -1221,6 +1236,8 @@ once
 open
 operator
 operator "" 
+operator co_await
+operator<=>
 out of order
 p4 add -t binary "%s"
 p4 edit -t binary "%s"
@@ -1231,6 +1248,7 @@ purecall
 p}?fff?
 qangle
 r\tVr.>T
+r\vpl?
 release
 reload_materials
 reload_textures

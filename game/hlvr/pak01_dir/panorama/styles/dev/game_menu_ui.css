@@ -725,6 +725,13 @@ Button:hover
 	opacity: 0; 
 }
 
+.IsDeckard #AnimatedTexture,
+.IsDeckard #AnimatedTextureAlt
+{
+	width: 600px;
+	height: 2600px;
+}
+
 .Visible #AnimatedTextureAlt {
 	opacity: .2; 
 	transform: translateY(800px);
@@ -732,6 +739,16 @@ Button:hover
 	transition-duration: 0s; 
 }
 
+
+.IsDeckard.Visible #AnimatedTexture
+{
+	transform: translateY(867px);
+}
+
+.IsDeckard.Visible #AnimatedTextureAlt
+{
+	transform: translateY(347px);
+}
 .Foreground #AnimatedTextureAlt {
 	visibility: collapse; 
 }

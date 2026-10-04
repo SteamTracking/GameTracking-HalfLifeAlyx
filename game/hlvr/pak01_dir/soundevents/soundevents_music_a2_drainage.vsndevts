@@ -1,10 +1,11 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Music.a2_drainage_combine_barnacles = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
+		volume = 0.7
 		volume_fade_out = 6
-		restart_time = 102.400000
+		restart_time = 102.4
 		vsnd_files = 
 		[
 			"sounds/music/places/drainage/a2_drainage_barnacles.vsnd",
@@ -13,7 +14,7 @@
 	Music.a2_drainage_manhack_intro = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.750000
+		volume = 0.75
 		volume_fade_out = 0
 		track = "manhack"
 		priority = 0
@@ -25,14 +26,14 @@
 	Music.a2_drainage_manhack_01 = 
 	{
 		type = "hlvr_music_2d"
-		use_combat_music_convar = 1.000000
-		volume = 0.500000
+		use_combat_music_convar = 1.0
+		volume = 0.5
 		volume_fade_out = 0
 		track = "manhack"
 		priority = 1
 		sync_track = "manhack"
-		start_point = 3.111000
-		end_point = 17.333000
+		start_point = 3.111
+		end_point = 17.333
 		sync_bpm = 135
 		sync_bpm_beats = 4
 		vsnd_files = 
@@ -43,9 +44,9 @@
 	Music.a2_drainage_gascans = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
+		volume = 0.7
 		volume_fade_out = 6
-		restart_time = 102.400000
+		restart_time = 102.4
 		vsnd_files = 
 		[
 			"sounds/music/places/drainage/a2_drainage_gascans_01.vsnd",

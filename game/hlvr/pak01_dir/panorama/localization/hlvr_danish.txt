@@ -1,0 +1,685 @@
+"lang" 
+{ 
+"Language" "danish" 
+"Tokens" 
+{ 
+
+// main menu
+"HLVR_MainMenu_NewGame"						"Start New Game"
+"HLVR_MainMenu_Continue"					"Fortsæt"
+"HLVR_MainMenu_LoadGame"					"Indlæs gemt spil"
+"HLVR_MainMenu_Quit"							"Afslut spil"
+"HLVR_MainMenu_Options"						"Indstillinger"
+"HLVR_MainMenu_PhotoMode"					"Fototilstand"
+"HLVR_MainMenu_SelectChapter"			"Vælg kapitel"
+"HLVR_MainMenu_Back"							"Tilbage"
+
+"HLVR_MainMenu_MainMenu"					"Hovedmenu"
+"HLVR_MainMenu_Resume"						"Genoptag"
+"HLVR_MainMenu_Save"  						"Gem"
+"HLVR_MainMenu_Load"  						"Indlæs"
+"HLVR_MainMenu_SavedGames"				"Spil"
+"HLVR_MainMenu_StartNewGame"	  	"Start nyt spil"
+"HLVR_MainMenu_StartGame"	  			"Start spil"
+"HLVR_MainMenu_StartGameNoAddon"	  	"Start spil uden tilføjelser"
+"HLVR_MainMenu_StartGameAddon"	  	"Start spil med tilføjelser"
+"HLVR_MainMenu_CreateNewGame"	  	"Opret nyt spil"
+
+"HLVR_MainMenu_Start"							"Start"
+
+"HLVR_MainMenu_LoadSlot"					"Indlæs spilplads %s"
+"HLVR_MainMenu_GameSlotHeader"		"Spilplads %s"
+"HLVR_MainMenu_GameSlotConfirm"		"\nSpilplads %s"
+
+"HLVR_MainMenu_SaveSlot"    	  	"Plads"
+"HLVR_MainMenu_GameSlot"    	  	"Spilplads"
+"HLVR_MainMenu_Overwrite"    	  	"Overskriv"
+"HLVR_MainMenu_Overwrite_desc"		"Alle spilpladser er optaget. Vælg en plads, der skal overskrives. \n\nADVARSEL: Denne handling sletter eksisterende lagringsdata."
+"HLVR_MainMenu_StartOver"					"Overskriv?"
+"HLVR_MainMenu_NewGame"						"Nyt spil?"
+"HLVR_MainMenu_Slot"    	  			"Plads"
+"HLVR_MainMenu_SlotOverwrite"			"VÆLG EN PLADS, DER SKAL OVERSKRIVES"
+
+"HLVR_QuickSave"									"Lyn-gem"
+"HLVR_AutoSave"									  "Auto-gem"
+
+"HLVR_Skip_Credits"								"Spring rulletekster over"
+"HLVR_Skip_Credits_Confirm"				"Spring rulletekster over?"
+
+"HLVR_Addons"							"Tilføjelser"
+"HLVR_MainMenu_ManageAddons"			"Administrer tilføjelser"
+"HLVR_MainMenu_AddonsToolsMode"			"Kan ikke indlæse en bane med tilføjelser i værktøjstilstand."
+"HLVR_MainMenu_StartAddonGame"			"Start spil med de følgende tilføjelser:"
+"HLVR_MainMenu_AddonDisabled"			"Tilhørende tilføjelse slået fra"
+"HLVR_MainMenu_AddonNotAvailable"		"Den tilhørende tilføjelse er ikke længere tilgængelig til denne bane.\nAbonnér igen, og slå tilføjelsen til for at fortsætte. "
+"HLVR_MainMenu_NoAddonsEnabled"			"Ingen tilføjelser slået til for spil med tilføjelser"
+"HLVR_MainMenu_AddonToggleInfo"			"Tryk på til/fra-knappen til venstre for at slå til/fra"
+"HLVR_MainMenu_LocalAddon"				"Lokal tilføjelse"
+"HLVR_MainMenu_MissingAddon"			"Følgende tilføjelse(r) mangler. Abonnér igen for at indlæse denne fil."
+
+"HLVR_MainMenu_OriginalGame"			"Originalspil"
+"HLVR_MainMenu_AddonGame"				"Tilføjelsesspil"
+
+"HLVR_MainMenu_OriginalMaps"			"Originalspil"
+"HLVR_MainMenu_AddonMaps"				"Tilføjelsesbaner"
+
+"HLVR_MainMenu_AddonUpVote"				"Op-stemmer"
+"HLVR_MainMenu_AddonDownVote"			"Ned-stemmer"
+
+"HLVR_browse_workshop_label"			"Gennemse værkstedet"
+"HLVR_browse_workshop_confirm"			"Gennemse værkstedet via Steam-overlayet?"
+"HLVR_browse_workshop_desc"				"Gennemse Half-Life: Alyx-værkstedet via Steam-overlayet"
+
+"HLVR_local_addons"				"Lokale tilføjelser"
+"HLVR_downloaded_addons"		"Downloadede tilføjelser"
+"HLVR_enabled_addons"			"Tilføjelser, som er slået til:"
+"HLVR_addon_game"				"Spil med tilføjelse slået til"
+
+"HLVR_MainMenu_Attention"												"Bemærk"
+"HLVR_MainMenu_Attention_MinSpec_CPU"								"Din CPU opfylder ikke minimumskravene til Half-Life: Alyx."
+"HLVR_MainMenu_Attention_MinSpec_RAM"								"Systemhukommelsen opfylder ikke minimumskravene til Half-Life: Alyx."
+"HLVR_MainMenu_Attention_MinSpec_GPU"								"Din grafikenhed opfylder ikke minimumskravene til Half-Life: Alyx."
+"HLVR_MainMenu_Attention_Above_Recommended"					"Dine indstillinger er over de anbefalede niveauer."
+"HLVR_MainMenu_Attention_Warning"										"Det kan påvirke gameplayet."
+"HLVR_MainMenu_Attention_Graphics_Reset"						"Ydelsesindstillingerne er nulstillet til et anbefalet niveau."
+"HLVR_MainMenu_Attention_LowDiskSpaceForSwapfile"				"Half-Life: Alyx kan være ustabilt, fordi der mangler diskplads på operativsystemdrevet, hvilket kan begrænse sidefilens størrelse."
+"HLVR_MainMenu_Attention_Low_GPU_Memory"						"Mængden af tilgængelig GPU-hukommelse er lav. Luk unødvendige programmer, som kører, for at øge den tilgængelige GPU-hukommelse."
+"HLVR_MainMenu_Attention_Low_System_Memory"						"Mængden af tilgængelig systemhukommelse er lav. Luk unødvendige programmer, som kører, for at øge den tilgængelige systemhukommelse."
+"HLVR_MainMenu_Old_Driver_Version"								"Din GPU-driverversion er under den anbefalede version til Half-Life: Alyx på Vulkan. Installér den seneste driver til din GPU."
+"HLVR_MainMenu_Attention_LoadErrorMap"							"Spillet kunne ikke indlæses, fordi den ønskede bane ikke blev fundet:"
+"HLVR_MainMenu_Attention_LoadErrorAddons"						"Dette kan skyldes en af de aktiverede tilføjelser:"
+
+"HLVR_MainMenu_ModalQuit"						"Afslut Half-Life: Alyx?"
+"HLVR_MainMenu_ModalMainMenu"					"Gå til hovedmenuen?"
+"HLVR_MainMenu_ModalLoadGame"					"Indlæs gemt fil?"
+"HLVR_MainMenu_ModalNewGame"					"Opret nyt spil?"
+"HLVR_MainMenu_ModalNewGameOverwrite"			"Slet eksisterende lagringsdata, og opret et nyt spil?"
+
+"HLVR_MainMenu_ModalAccept"						"Accepter"
+"HLVR_MainMenu_ModalCancel"						"Annuller"
+
+"HLVR_Pause_Menu_Only"								"Disse indstillinger er kun tilgængelige i pausemenuen under et aktivt spil."
+
+"HLVR_MainMenu_Init_desc"		    			"Vælg din dominerende hånd.\n\nDette kan ændres i indstillingsmenuen når som helst."
+
+"HLVR_MainMenu_NewGame_desc" 					"Start et nyt Half-Life: Alyx-spil."
+"HLVR_MainMenu_SaveGame_desc" 					"Lyngem fremskridt indtil nu."
+
+"HLVR_MainMenu_Resin"							"Resin"
+"HLVR_MainMenu_HP"								"HP"
+"HLVR_MainMenu_Pistol"							"Pistol"
+"HLVR_MainMenu_Shotgun"							"Haglgevær"
+"HLVR_MainMenu_RapidFire"						"Maskinpistol"
+
+"HLVR_MainMenu_Days"							"d."		// Short hand for Days
+"HLVR_MainMenu_Hrs"								"t."		// Short Hand for Hours
+
+"HLVR_MainMenu_DeleteSlot_desc"				"Fjern alle gemte spil fra denne spilplads"
+"HLVR_MainMenu_DeleteSlot_Confirm"		"Fjern alle gemte spil fra denne spilplads permanent?"
+
+"HLVR_NoSaving"			"Ikke muligt at gemme lige nu"
+
+"HLVR_Sibling_L"											"V"
+"HLVR_Sibling_R"											"H"
+
+"HLVR_Options_Game_Preferences"				"Spilplads"
+"HLVR_Options_System_Options"					"System"
+
+"HLVR_Options_Diffculty_base"					"Sværhedsgrad"
+
+"HLVR_Options_Diffculty_story"					"Historie"
+"HLVR_Options_Diffculty_easy"					"Let"
+"HLVR_Options_Diffculty_normal"					"Normal"
+"HLVR_Options_Diffculty_hard"					"Svær"
+
+"HLVR_Options_Diffculty_story_desc"					"Meget simple kampe."
+"HLVR_Options_Diffculty_easy_desc"					"Lidt udfordrende kampe."
+"HLVR_Options_Diffculty_normal_desc"				"Udfordrende kampe."
+"HLVR_Options_Diffculty_hard_desc"					"Meget udfordrende kampe."
+
+"HLVR_Options_On"					"Til"
+"HLVR_Options_Off"				"Fra"
+
+"HLVR_Options_Commentary"					"Kommentarspor med udvikleren"
+"HLVR_Options_Commentary_desc"				"Aktiver kommentarspor fra udvikleren, mens du spiller.\n\nADVARSEL: Kommentarer indeholder KÆMPE SPOILERE.\n\nVi anbefaler, at du gennemfører spillet først.\n\nDansk oversættelse er ikke tilgængelig."
+
+"HLVR_Options_Movement_Base"					"Bevægelse"
+"HLVR_Options_Movement_Blink"					"Blink"
+"HLVR_Options_Movement_Shift"					"Glidende"
+"HLVR_Options_Movement_Continuous"				"Kontinuerlig"
+"HLVR_Options_Movement_Continuous_Hand"		"Kontinuerlig hånd"
+
+"HLVR_Options_Movement_Blink_desc"					"Teleporter til destinationer med en kort skærmudtoning. Den mest behagelige bevægelsestype."
+"HLVR_Options_Movement_Shift_desc"					"Teleporter til destinationer med en hurtigere lineær bevægelse."
+"HLVR_Options_Movement_Continuous_desc"				"Bevæg dig kontinuerligt baseret på dit hoveds orientering."
+"HLVR_Options_Movement_Continuous_Hand_desc"		"Bevæg dig kontinuerligt baseret på din hånds orientering."
+
+"HLVR_Options_Preferences"						"Præferencer"
+"HLVR_Options_Accessibility"					"Tilgængelighed"				
+"HLVR_Options_Interface"						"Grænseflade"
+"HLVR_Options_Audio"							"Lydstyrke"
+"HLVR_Options_Graphics"							"Ydelse"
+"HLVR_Options_Language"							"Sprog"
+
+"HLVR_Options_WeaponSwitch"					"Orientering af våbenvalg"
+"HLVR_Options_WeaponSwitch_desc"		"Orienteringstype for våbenvalgsmenuen."
+"HLVR_Options_WeaponSwitch_HMD"			"Hoved"
+"HLVR_Options_WeaponSwitch_Hand"		"Hånd"
+"HLVR_Options_WeaponSwitch_Hybrid"	"Hybrid"
+
+"HLVR_Options_Ladder_Climb"					"Stigeklatring med hænder"
+"HLVR_Options_Ladder_Climb_desc"		"Aktiverer stigeklatring med hænder."
+
+"HLVR_Options_Barnacle_Lift"				"Barnacleløft"
+"HLVR_Options_Barnacle_Lift_desc"		"Gør det muligt for barnacler at løfte spilleren fra jorden."
+
+"HLVR_Options_Turn_Off"							"Controllerdrejning fra"
+"HLVR_Options_Turn_Snap"						"Hurtig drejning"
+"HLVR_Options_Turn_Continuous"					"Kontinuerlig drejning"
+
+"HLVR_Options_Turn_Off_desc"					"Vælg hurtig eller kontinuerlig drejning, når du skifter retning med controlleren."
+"HLVR_Options_Turn_Snap_desc"					"Hurtig drejning ændrer din retning ved at rotere med en bestemt vinkel."
+"HLVR_Options_Turn_Continuous_desc"				"Kontinuerlig drejning ændrer din retning i en jævn bevægelse med en angivet hastighed."
+
+"HLVR_Options_QuickTurn_Angle_Base"				"Hurtig drejningsvinkel"
+"HLVR_Options_QuickTurn_Angle_desc"				"Rotationsvinklen for den hurtige drejning."
+
+"HLVR_Options_ContinuousTurn_Speed_Base"		"Kontinuerlig drejnings hastighed"
+"HLVR_Options_ContinuousTurn_Speed_desc"		"Vinkelhastigheden for den kontinuerlige drejning."
+
+"HLVR_Options_DLC_Skins"						"Forudbestilingsskins"
+"HLVR_Options_DLC_Skins_desc"					"Aktivér brug af våbenskins efter forudbestilling af Valve Index."
+
+"HLVR_Options_Subtitles"						"Undertekster"
+"HLVR_Options_Subtitles_Base"					"Undertekster"
+"HLVR_Options_Subtitles_None"					"Undertekster fra"
+"HLVR_Options_Subtitles_On"						"Undertekster til"
+"HLVR_Options_Subtitles_CC_On"					"Undertekster og tekster for hørehæmmede"
+"HLVR_Options_Subtitles_desc"					"Vælg for at få vist undertekster eller tekster for hørehæmmede."
+
+"HLVR_Options_Subtitles_Speed"					"Hastighed"
+"HLVR_Options_Subtitles_Slow_Speed"				"Langsom"
+"HLVR_Options_Subtitles_Medium_Speed"			"Medium"
+"HLVR_Options_Subtitles_Fast_Speed"				"Hurtig"
+"HLVR_Options_ClosedCaptions_Speed_desc"		"Underteksters hastighed."
+
+"HLVR_Options_Subtitles_Size"					"Skriftstørrelse"
+"HLVR_Options_Subtitles_Small_Size"				"Lille"
+"HLVR_Options_Subtitles_Medium_Size"			"Medium"
+"HLVR_Options_Subtitles_Large_Size"				"Stor"
+"HLVR_Options_ClosedCaptions_Size_desc"			"Størrelsen på underteksterne."
+
+"HLVR_Options_Subtitles_Width"					"Bredde"
+"HLVR_Options_Subtitles_Narrow"					"Smal"
+"HLVR_Options_Subtitles_Medium"					"Medium"
+"HLVR_Options_Subtitles_Wide"					"Bred"
+"HLVR_Options_ClosedCaptions_Width_desc"		"Bredden af underteksterne på skærmen."
+
+"HLVR_Options_Subtitles_Spectator_Only"			"Kun tilskuervindue"
+"HLVR_Options_Subtitles_Spectator_Only_desc"	"Vis kun undertekster eller tekster for hørehæmmede i tilskuervinduet."
+
+"HLVR_Options_LeftHanded"						"Våbenhånd : Venstre"
+"HLVR_Options_RightHanded"						"Våbenhånd : Højre"
+
+"HLVR_Options_LeftHanded_desc"					"Skifter våbenhånd mellem venstre og højre.\n\nDu kan vælge, hvilken hånd der styrer bevægelsen ved at vælge den relevante binding i controllerbindingsmenuen i SteamVR."
+
+"HLVR_display_bindings"							"Controllerbindinger"
+"HLVR_display_bindings_desc"					"Gå til controllerindstillingerne i SteamVR for at se eller redigere controllerbindingerne til Half-Life: Alyx."
+"HLVR_display_bindings_confirm"					"Gå til SteamVR-controllerbindinger?"
+
+
+"HLVR_Options_ToggleCrouch"					"Duk"
+"HLVR_Options_ToggleCrouch_desc"		"Duk sænker din højde, så du hurtigt kan dukke dig eller gøre dig lavere, når du har brug for det. Bind handlingen til det ønskede input i SteamVR-indstillingerne.\n\nNår denne position er slået til, kan du dukke dig, når du spiller."
+"HLVR_Options_ToggleStand"					"Oprejst stilling"
+"HLVR_Options_ToggleStand_desc"			"Oprejst stilling hæver din højde, så du nemmere kan nå, når du spiller fra en lavere position. Bind handlingen til det ønskede input i SteamVR-indstillingerne.\n\nAnbefales, når du spiller siddende.\n\nNår den er slået til, kan oprejst stilling aktiveres, mens du spiller."
+
+"HLVR_Options_hlvr_adjust_height_mode_base"		"Højdejustering"
+"HLVR_Options_hlvr_adjust_height_mode_0"		"Fra"
+"HLVR_Options_hlvr_adjust_height_mode_1"		"Duk"
+"HLVR_Options_hlvr_adjust_height_mode_2"		"Oprejst"
+"HLVR_Options_hlvr_adjust_height_mode_3"		"Duk og stå op"
+"HLVR_Options_hlvr_adjust_height_mode_4"		"Hybrid"
+
+"HLVR_Options_hlvr_adjust_height_mode_0_desc"		"Denne indstilling angiver controllerhandlinger til ændring af højde.\n\nNår den er slået fra, er disse controllerhandlinger slået fra."
+"HLVR_Options_hlvr_adjust_height_mode_1_desc"		"Kun duk. Oprejst stilling er slået fra.\n\nNår duk er slået til, kan du skifte mellem at dukke dig hurtigt og gøre dig lavere."
+"HLVR_Options_hlvr_adjust_height_mode_2_desc"		"Kun oprejst stilling. Duk er slået fra.\n\nNår oprejst stilling er slået til, kan du skifte for at gøre dig højere, så du bedre kan nå. \nAnbefales, når du spiller siddende."
+"HLVR_Options_hlvr_adjust_height_mode_3_desc"		"Når duk og oprejst stilling er slået til, kan du bruge dem til at gøre dig højere eller lavere med to forskellige input."
+"HLVR_Options_hlvr_adjust_height_mode_4_desc"		"Med hybrid bruges der et enkelt input til både duk og oprejst stilling.\n\nKlik for at gøre dig lavere og dukke dig.\n\nTryk og hold for at gøre dig højere og stå oprejst."
+
+"HLVR_Options_hlvr_single_controller_mode"				"Enkelt controller"
+"HLVR_Options_hlvr_single_controller_mode_desc"		"Alle handlinger er tilknyttet en enkelt controller."
+"HLVR_single_controller_prompt_activate"			"Hvis du vil slå brug af en enkelt controller til, skal du ændre controllerbindingerne i SteamVR.\nGå til siden med SteamVR-bindinger?"
+"HLVR_single_controller_prompt_deactivate"		"Hvis du vil slå brug af en enkelt controller fra, skal du ændre controllerbindingerne i SteamVR.\nGå til siden med SteamVR-bindinger?"
+
+"HLVR_Options_r_light_sensitivity_mode"				"Lysfølsomhed"
+"HLVR_Options_r_light_sensitivity_mode_desc"	"Lysfølsomhed reducerer lysstyrke, og hvor meget lyset flimrer."
+
+"HLVR_Options_Pause_Menu_Distance"	"Pausemenu – afstand"
+"HLVR_Options_Pause_Menu_Distance_Desc"	"Afstand mellem aktiveret pausemenu og spiller."
+"HLVR_Options_Pause_Menu_Height"		"Pausemenu – højde"
+"HLVR_Options_Pause_Menu_Height_desc"		"Højden, hvor pausemenuen vises i forhold til spilleren."
+
+"HLVR_Options_Header_Weapons"					"Våben"
+"HLVR_Options_Header_GameMenu"					"Spilmenu"
+"HLVR_Options_Header_Spectator"					"Tilskuer"
+
+"HLVR_Options_SpectatorHud_desc"				"Vælg HUD-størrelse i tilskuervinduet"
+"HLVR_Options_SpectatorHud_base"				"Tilskuer-HUD"
+"HLVR_Options_SpectatorHud_off"					"Fra"
+"HLVR_Options_SpectatorHud_small"				"Lille"
+"HLVR_Options_SpectatorHud_med"					"Medium"
+"HLVR_Options_SpectatorHud_large"				"Stor"
+
+"HLVR_Options_SpectatorCamera_desc"				"Vælg mængden af kameraudjævning i tilskuervinduet.\n\nKræver høj zoom."
+"HLVR_Options_SpectatorCamera_base"				"Kameraudjævning for tilskuer"
+"HLVR_Options_SpectatorCamera_off"				"Fra"
+"HLVR_Options_SpectatorCamera_low"				"Lav"
+"HLVR_Options_SpectatorCamera_med"				"Medium"
+"HLVR_Options_SpectatorCamera_high"				"Høj"
+
+"HLVR_Options_SpectatorZoom_desc"				"Zoomniveau for tilskuer."
+"HLVR_Options_SpectatorZoom_Base"				"Tilskuerzoom"
+"HLVR_Options_SpectatorZoom_low"				"Lav"
+"HLVR_Options_SpectatorZoom_high"				"Høj"
+
+"HLVR_Options_Spectator_Eye_desc"				"Skift mellem spillerens højre og venstre øje i tilskuervinduet"
+"HLVR_Options_Spectator_Eye_Base"				"Tilskuerøje"
+"HLVR_Options_Eye_Left"							"Venstre"
+"HLVR_Options_Eye_Right"						"Højre"
+
+"HLVR_Options_SpectatorSteamVR_desc"			"Vis HUD i SteamVR-vinduet.\n\nDette kan påvirke ydeevnen."
+"HLVR_Options_SpectatorSteamVR_Base"			"Tilskuer-HUD i SteamVR"
+"HLVR_Options_SpectatorSteamVR_On"				"Til"
+"HLVR_Options_SpectatorSteamVR_Off"				"Fra"
+
+"HLVR_Options_SpectatorEye_desc"				"Vælg, hvilket øje der skal vises ved spejling til ikke-VR-skærme, f.eks. din computerskærm eller dit TV.\n\nDette er automatisk samme side som din aktuelle våbenhånd, men det kan ændres."
+"HLVR_Options_SpectatorEye_base"				"Tilskuerøje"
+"HLVR_Options_SpectatorEye_left"				"Venstre"
+"HLVR_Options_SpectatorEye_right"				"Højre"
+
+"HLVR_Options_Graphics_Rendering"				"Gengivelse"
+"HLVR_Options_Graphics_Particles"				"Partikler"
+"HLVR_Options_Graphics_Misc"					"Diverse"
+"HLVR_Options_Graphics_Audio"					"Lyd"
+
+"HLVR_Options_Fidelity_Low"								"Lav kvalitet"
+"HLVR_Options_Fidelity_Medium"						"Medium kvalitet"
+"HLVR_Options_Fidelity_Medium_Long"				"Medium kvalitet"
+"HLVR_Options_Fidelity_High"							"Høj kvalitet"
+"HLVR_Options_Fidelity_Ultra"							"Ultra kvalitet"
+"HLVR_Options_Fidelity_Custom"						"Brugerdefineret kvalitet"
+
+"HLVR_Options_Graphics_Adv_desc" "Vis/skjul avancerede ydelsesindstillinger"
+
+"HLVR_Options_Graphics_Reset"					"Nulstil"
+"HLVR_Options_Graphics_Reset_desc"				"Gendan ydelsesindstillinger til et anbefalet niveau"
+"HLVR_Options_Graphics_Reset_modal"				"Gendan ydelsesindstillinger til anbefalet niveau?"
+"HLVR_Options_Graphics_Base"					"Kvalitet"
+"HLVR_Options_Graphics_desc"					 "Spillets ydelsesindstillinger indstilles automatisk. Ændring af disse indstillinger kan påvirke billedhastigheden."
+
+"HLVR_Options_Graphics_Textures_Base"			"Teksturer"
+"HLVR_Options_Graphics_Textures_Desc"			"Indstil teksturkvalitet\n\nTeksturkvaliteten konfigureres uafhængigt af ydelsesindstillingen"
+"HLVR_Options_Graphics_Textures_Low"			"Lav"
+"HLVR_Options_Graphics_Textures_Medium"	"Medium"
+"HLVR_Options_Graphics_Textures_High"		"Høj"
+"HLVR_Options_Graphics_Textures_Ultra"		"Ultra"
+
+"HLVR_Options_Graphics_Shadows_Base"			"Skygge"
+"HLVR_Options_Graphics_Shadows_Low"			"Lav"
+"HLVR_Options_Graphics_Shadows_Med"			"Medium"
+"HLVR_Options_Graphics_Shadows_High"			"Høj"
+"HLVR_Options_Graphics_Shadows_Ultra"			"Ultra"
+
+"HLVR_Options_Graphics_Characters_Base"			"Karakterer"
+"HLVR_Options_Graphics_Characters_Low"			"Lav"
+"HLVR_Options_Graphics_Characters_Med"			"Medium"
+"HLVR_Options_Graphics_Characters_High"			"Høj"
+"HLVR_Options_Graphics_Characters_Ultra"			"Ultra"
+
+"HLVR_Options_Graphics_Fog_Base"			"Tåge"
+"HLVR_Options_Graphics_Fog_Low"			"Lav"
+"HLVR_Options_Graphics_Fog_Med"			"Medium"
+"HLVR_Options_Graphics_Fog_High"			"Høj"
+"HLVR_Options_Graphics_Fog_Ultra"			"Ultra"
+
+"HLVR_Options_Graphics_Particles_Base"			"Partikler"
+"HLVR_Options_Graphics_Particles_Low"			"Lav"
+"HLVR_Options_Graphics_Particles_Med"			"Medium"
+"HLVR_Options_Graphics_Particles_High"			"Høj"
+"HLVR_Options_Graphics_Particles_Ultra"			"Ultra"
+
+"HLVR_Options_Graphics_Audio_Base"			"Lyd"
+"HLVR_Options_Graphics_Audio_Low"			"Lav"
+"HLVR_Options_Graphics_Audio_Med"			"Medium"
+"HLVR_Options_Graphics_Audio_High"			"Høj"
+"HLVR_Options_Graphics_Audio_Ultra"			"Ultra"
+
+"HLVR_Options_High_Quality_Holograms"			"Højkvalitetshologrammer"
+"HLVR_Options_High_Quality_Holograms_on"			"Til"
+"HLVR_Options_High_Quality_Holograms_off"			"Fra"
+"HLVR_Options_r_light_flickering_enabled"			"Flimrende lys"
+
+"HLVR_Options_Rendering_API"					"Gengivelses-API"
+"HLVR_Options_Rendering_API_D3D11"				"Direct3D 11"
+"HLVR_Options_Rendering_API_Vulkan"				"Vulkan"
+"HLVR_Options_Rendering_API_Current"			"Aktuel API:"
+"HLVR_Options_Rendering_API_Desc_Locked"		"Gengivelses-API blev angivet i startparametrene. Fjern startparameteren for at vælge en gengivelses-API."
+"HLVR_Options_Rendering_API_Desc_Restart"		"\n\nKræver, at spillet genstartes, før det træder i kraft.\n\n"
+"HLVR_Options_Rendering_API_Desc"				"Hvis spillet ikke starter korrekt, når du har ændret denne indstilling, kan du tilføje -safe_mode til startparametrene for at starte med en standardgengivelses-API."
+
+"HLVR_Options_cloth_rigid_update_Base"			"Blødt stof"
+
+"HLVR_Options_g_ragdoll_maxcount_Base"			"Antal ragdolls"
+"HLVR_Options_g_ragdoll_maxcount_Base_Low"	"Lav"
+"HLVR_Options_g_ragdoll_maxcount_Base_Med"	"Medium"
+"HLVR_Options_g_ragdoll_maxcount_Base_High"	"Høj"
+"HLVR_Options_g_ragdoll_maxcount_Base_Ultra"	"Ultra"
+
+"HLVR_Options_Audio_Master"						"Primær lydstyrke"
+"HLVR_Options_Audio_Master_desc"				"Primær lydstyrke for al lyd."
+"HLVR_Options_Audio_GameSounds"					"Spil"
+"HLVR_Options_Audio_GameSounds_desc" 			"Lydstyrke for lydeffekter i spillet."
+"HLVR_Options_Audio_Music"						"Kampmusik"
+"HLVR_Options_Audio_Music_desc"					"Lydstyrke for musik under kampe."
+"HLVR_Options_Audio_Voice"						"Karakterstemme"
+"HLVR_Options_Audio_Voice_desc"					"Lydstyrke for karakterer."
+
+"HLVR_Loading"									"INDLÆSER"
+"HLVR_Loading_Trigger_Start"					"Tryk på %s for at starte"
+
+"HLVR_PhotoMode_TakePhoto"						"Tag billede"
+"HLVR_PhotoMode_Hide"							"Skjul brugergrænseflade"
+"HLVR_PhotoMode_Return"							"Tilbage"
+
+// spectator hud
+"HLVR_HUD_Ammo"									"Ammunition"
+"HLVR_HUD_Health"								"Helbred"
+"HLVR_HUD_Resin"								"Resin"
+
+// game instructor lessons
+"HLVR_Lesson_Single_Controller_On"	"Enkelt controller slået til"
+"HLVR_Lesson_Single_Controller_Off"	"Enkelt controller slået fra"
+"HLVR_Lesson_Movement_PrimaryHand"	"Bevægelse på våbenhånd.\nDette kan ændres i SteamVR-controllerbindingerne."
+"HLVR_Lesson_Movement_OffHand"		"Bevægelse på sekundær hånd.\nDette kan ændres i SteamVR-controllerbindingerne."
+"HLVR_Lesson_Teleport"							"Tryk for at bevæge dig"
+"HLVR_Lesson_Quick_Turn"						"Tryk for at dreje hurtigt til venstre eller højre"
+"HLVR_Lesson_GrabTrigger"						"Tryk og hold for at gribe fat om objekter"
+"HLVR_Lesson_GrabHands"							"Grib fat om objekter med hænderne"
+"HLVR_Lesson_GrabHandsSingleController"			"Grib fat om objekter med hånden"
+"HLVR_Lesson_Interact"							"Bevæg håndtag\nmed hænderne"
+"HLVR_Lesson_InteractSingleController"			"Bevæg håndtag\nmed hånden"
+"HLVR_Lesson_Door"								"Drej håndtag for\nat åbne døren"
+"HLVR_Lesson_SwitchWeapons"						"Hold for at skifte våben"
+"HLVR_Lesson_SwitchWeaponsSingleController"			"Tryk for at skifte tilbage til våbnet"
+"HLVR_Lesson_OpenWeaponSelectForMultitool"		"Hold for at skifte til multiværktøj"
+"HLVR_Lesson_SelectMultitool"					"Vælg multiværktøj"
+"HLVR_Lesson_UseMultitool"						"Brug multiværktøj"
+"HLVR_Lesson_ScavengeItems"						"Søg efter nyttige\ngenstande i miljøet"
+"HLVR_Lesson_LootBodies"						"Tag genstande fra lig"
+"HLVR_Lesson_OpenGameMenu"						"Tryk og hold for at åbne/lukke spilmenuen"
+"HLVR_Lesson_Continuous_Mantle"					"Tryk og hold, mens du bevæger dig,\nfor at kravle"
+"HLVR_Lesson_Continuous_Jump"					"Tryk for at åbne hopindikatoren,\nog giv slip for at hoppe"
+"HLVR_Lesson_Crouch_Toggle"						"Tryk for at skifte mellem din nuværende højde og duk"
+"HLVR_Lesson_Stand_Toggle"						"Tryk for at skifte mellem din nuværende højde og stå op"
+"HLVR_Lesson_Climb_Ladder"						"Grib fat om stigen for at kravle op"
+
+"HLVR_Lesson_WeaponInPrimaryHand"				"Grib fat om våbnet med din primære hånd"
+
+"HLVR_Lesson_EjectClip"							"Tryk for at skubbe magasinet ud"
+"HLVR_Lesson_InsertClip"						"Indsæt magasin i pistolen"
+"HLVR_Lesson_EmptyClipInserted"					"Tomt magasin indsat\nTryk for at skubbe magasinet ud"
+"HLVR_Lesson_ChamberRound"						"Tryk på knappen\neller træk slæden tilbage for at lade kammeret"
+"HLVR_Lesson_ChamberRoundSingleController"		"Tryk på knappen for at lade kammeret med patroner"
+"HLVR_Lesson_PutClipInBackpack"					"Anbring magasin i din rygsæk"
+"HLVR_Lesson_ToggleLaserSightWeapon"			"Rør med pegefingeren for at slå lasersigte til/fra"
+"HLVR_Lesson_ToggleBurstFire"					"Dobbeltklik på knappen for at skifte til burst fire"
+
+"HLVR_Lesson_ShotgunGetShells"					"Tag patronæske, og læg den i rygsækken"
+"HLVR_Lesson_OpenShotgunToLoadShells"			"Åbn haglgevær for at lade det med patroner"
+"HLVR_Lesson_LoadShotgunUntilFull"				"Lad haglgevær med op til 6 patroner"
+"HLVR_Lesson_FlickToCloseShotgun"				"Svip controller,\neller tag fat i løbet for at lukke haglgeværet"
+"HLVR_Lesson_FlickToCloseShotgunSingleController"	"Svip controller for at lukke haglgevær"
+"HLVR_Lesson_ChamberShotgunShell"				"Træk slæden tilbage for at lægge en patron i kammeret"
+"HLVR_Lesson_ChamberShotgunShellSingleController"	"Tryk for at lægge en patron i kammeret"
+"HLVR_Lesson_ShotgunUpgradeAutoloaderLoad"		"Læg patroner i autoladeren"
+"HLVR_Lesson_ShotgunUpgradeAutoloaderActivate"	"Tryk på knappen for at aktivere autoladeren"
+"HLVR_Lesson_ShotgunUpgradeQuickFire"			"Tryk to gange for at affyre to hurtige skud"
+"HLVR_Lesson_ShotgunUpgradeGrenade"				"Fastgør en granat på mundingen af haglgeværet"
+"HLVR_Lesson_ShotgunUpgradeGrenadePump"			"Skub grebet frem for at gøre granatkasteren klar,\neller skyd for at angribe normalt"
+"HLVR_Lesson_ShotgunUpgradeGrenadePumpSingleController"			"Tryk for at gøre granatkasteren klar,\neller skyd for at angribe normalt"
+"HLVR_Lesson_ShotgunUpgradeGrenadeFire"			"Tryk for at kaste granat,\neller tag fat i granaten for at nulstille kasteren"
+"HLVR_Lesson_ShotgunUpgradeGrenadeFireSingleController"			"Tryk for at nulstille granatkasteren,\neller skyd for at kaste granat"
+
+"HLVR_Lesson_Rapidfire_InsertCapsule_Gun"		"Indsæt batteri i pistol"
+"HLVR_Lesson_Rapidfire_InsertCapsule_Clip"		"Indsæt batteri i pistol"
+"HLVR_Lesson_Rapidfire_OpenCasing"				"Åbn magasin"
+"HLVR_Lesson_Rapidfire_InsertCapsule_Mag"		"Indsæt op til 3 batterier i magasinet"
+"HLVR_Lesson_Rapidfire_CloseCasing"				"Luk magasin"
+
+"HLVR_Lesson_StoreClipInBackpack"				"Opbevar ammunition i rygsækken\nved at give slip over skulderen"
+"HLVR_Lesson_GrabClipFromBackpack"				"Tag ammunition fra rygsækken"
+"HLVR_Lesson_ReloadSingleController"			"Genlad våbnet ved at trykke, mens du holder våbnet over skulderen"
+"HLVR_Lesson_ReloadSingleControllerShotgun"		"Genlad våbnet ved at trykke, mens du holder våbnet over skulderen. Tryk flere gange for flere patroner."
+"HLVR_Lesson_ReloadSingleControllerRapidFire"	"Genlad våbnet ved at trykke, mens du holder våbnet over skulderen. Tryk flere gange for flere patroner."
+"HLVR_Lesson_GrabResinFromBackpack"				"Tag resin fra rygsækken"
+"HLVR_Lesson_StoreResinInBackpack"				"Opbevar resin i rygsækken\nved at give slip over skulderen"
+"HLVR_Lesson_ArmGrenade"						"Tryk for at armere granat"
+"HLVR_Lesson_ArmXenGrenade"						"Klem for at armere Xen-granat"
+"HLVR_Lesson_ArmXenGrenadeVive"					"Tryk for at armere Xen-granat"
+"HLVR_Lesson_PrepareHealthInjector"				"Klargør helbredssprøjte"
+"HLVR_Lesson_HealthInjectToHand"				"Indsprøjt i krop, hånd eller ben"
+"HLVR_Lesson_HealthInjectToHandSingleController"	"Indsprøjt i krop eller ben"
+"HLVR_Lesson_WristHUD"							"Håndledsdisplay viser helbred"
+"HLVR_Lesson_GameSaved"							"SPIL GEMT"
+"HLVR_Lesson_BackpackConstraints"				"Rygsæk kan kun have ammunition og resin"
+"HLVR_Lesson_PistolClipBackpackConstraints"		"Rygsæk kan kun have fulde magasiner"
+"HLVR_Lesson_OpenWeaponSelectForHand"			"Tryk for hurtigt at skifte\ntil og fra din hånd"
+"HLVR_Lesson_OpenWeaponSelectForHandSingleController"	"Tryk for hurtigt at skifte til din hånd, så du kan samle ammunitionen op"
+"HLVR_Lesson_SelectHand"						"Vælg hånd"
+"HLVR_Lesson_2HLevitate"						"Lås målet med begge tyngdekraftshandsker"
+"HLVR_Lesson_GravityGloveLockOn"				"Tryk for at låse målet"
+"HLVR_Lesson_GravityGlovePull"					"Svip hånden tilbage for at trække objekt"
+"HLVR_Lesson_GravityGloveCatch"					"Fang objekt i luften"
+"HLVR_Lesson_2HPickup"							"Løft tunge objekter med begge hænder"
+"HLVR_Lesson_UseMultitoolOnDoor"				"Brug multiværktøj på terminaler"
+"HLVR_Lesson_UseMultitoolOnToner"				"Brug multiværktøj på strømkilde"
+"HLVR_Lesson_UseMultitoolOnJunction"			"Klik på multiværktøj for at dreje knudepunkt"
+"HLVR_Lesson_UseMultitoolOnTripmine"			"Brug multiværktøj på snublemine"
+"HLVR_Lesson_StoreObjectInWristBag"				"Opbevar genstande i håndledslommer"
+"HLVR_Lesson_StoreObjectInWristBagSingleController"		"Opbevar genstande i håndledslommer"
+"HLVR_Lesson_RetrieveObjectInWristBag"			"Tag genstand fra håndledslomme"
+"HLVR_Lesson_Headset"							"Tag headset på\nved at slippe det på øret"
+"HLVR_Lesson_Pickup_Clip"						"Træk ammunition til dig, eller saml det op"
+"HLVR_Lesson_AttachFlashlight"					"Montér lommelygte på tyngdekraftshandske"
+"HLVR_Lesson_WeaponReturned"					"Våben efterladt i Combine-fabrikatoren er blevet returneret"
+"HLVR_Lesson_ThrowEnergyBolt"					"Kast energikugle"
+"HLVR_Lesson_Health_Station"					"Brug håndtag til at åbne helbredsstation"
+
+// upgrades
+"HLVR_Upgrade_PistolLaserSight"						"Lasersigte"
+"HLVR_Upgrade_Desc_PistolLaserSight"					"Tilføjer et lasersigte for bedre sigte"
+"HLVR_Upgrade_PistolReflexSight"					"Punktsigte"
+"HLVR_Upgrade_Desc_PistolReflexSight"					"Tilføjer et display, som fremhæver taktiske mål"
+"HLVR_Upgrade_PistolBurstFire"						"Burst fire"
+"HLVR_Upgrade_Desc_PistolBurstFire"						"Tilføjer funktion til at skifte mellem 3-skuds burst og enkeltskuds"
+"HLVR_Upgrade_PistolBulletHopper"					"Skudmagasin"
+"HLVR_Upgrade_Desc_PistolBulletHopper"					"Tilføjer magasinkapacitet på 10 ekstra kugler"
+
+"HLVR_Upgrade_ShotgunSpeedLoader"					"Autolader"
+"HLVR_Upgrade_Desc_ShotgunSpeedLoader"					"Tilføjer en mekanisk patronlader til at lade haglgeværet hurtigt"
+"HLVR_Upgrade_ShotgunGrenadeAttach"					"Granatkaster"
+"HLVR_Upgrade_Desc_ShotgunGrenadeAttach"				"Tilføjer en funktion til at fastgøre og kaste granater"
+"HLVR_Upgrade_ShotgunLaserSight"					"Lasersigte"
+"HLVR_Upgrade_Desc_ShotgunLaserSight"					"Tilføjer laserprojektion for at gøre det nemmere at sigte på mål"
+"HLVR_Upgrade_ShotgunQuickFire"						"Dobbeltskud"
+"HLVR_Upgrade_Desc_ShotgunQuickFire"					"Tilføjer en funktion til at affyre et andet skud umiddelbart efter det første"
+
+"HLVR_Upgrade_RapidfireExplodingBullets"			"Klyngekugler"
+"HLVR_Upgrade_Desc_RapidfireExplodingBullets"			"Tilføjer en funktion til at detonere en lille gruppe af kugler efter affyring"
+"HLVR_Upgrade_RapidfireReflexSight"					"Punktsigte"
+"HLVR_Upgrade_Desc_RapidfireReflexSight"				"Tilføjer et display, som fremhæver taktiske mål"
+"HLVR_Upgrade_RapidfireLaserSight"					"Lasersigte"
+"HLVR_Upgrade_Desc_RapidfireLaserSight"					"Tilføjer et lasersigte for at gøre det nemmere at sigte på mål"
+"HLVR_Upgrade_RapidfireExtendedMagazine"			"Udvidet magasin"
+"HLVR_Upgrade_Desc_RapidfireExtendedMagazine"			"Gør det muligt at lade våbnet med flere batterier"
+
+"HLVR_Weapon_Name_Pistol"							"Pistol"
+"HLVR_Weapon_Name_Shotgun"							"Haglgevær"
+"HLVR_Weapon_Name_RapidFire"						"Maskinpistol"
+
+"HLVR_Weapon_Name_Pistol_UID"						"XXXXXXXXXXXX..XXX.X.X"
+"HLVR_Weapon_Name_Shotgun_UID"						"004086056845..080.2.7"
+"HLVR_Weapon_Name_RapidFire_UID"					"000123100400..342.5.1"
+
+// crafting station
+"HLVR_CraftingStation_Name"							"Anskaffelsesstation 0.3.3.333"
+"HLVR_CraftingStation_Startup"						"Opstart"
+"HLVR_CraftingStation_Scanning"						"Scanning Environment..."
+"HLVR_CraftingStation_LoadingBlueprints"			"Indlæser plantegninger..."
+"HLVR_CraftingStation_InsertWeapon"					"Indsæt våben i holderen"
+"HLVR_CraftingStation_YourResin"					"Resin: {i:CurrencyAmount}"
+"HLVR_CraftingStation_YourResinLabel"				"Resin:"
+"HLVR_CraftingStation_ResinAmount"					"{i:CurrencyAmount}"
+"HLVR_CraftingStation_SelectObject"					"Vælg objekt"
+"HLVR_CraftingStation_SelectedWeapon"				"{s:WeaponName}"
+"HLVR_CraftingStation_Upgrades"						"Opgraderinger"
+"HLVR_CraftingStation_Cost"							"Pris"
+"HLVR_CraftingStation_Summary"						"Oversigt"
+"HLVR_CraftingStation_NoUpgrades"					"Ingen kendte opgraderinger"
+"HLVR_CraftingStation_NotEnoughResin"				"Ikke nok resin til at opgradere"
+"HLVR_CraftingStation_InsufficientResin"			"Utilstrækkelig"
+"HLVR_CraftingStation_InsertResin"					"Indsæt resin nu"
+"HLVR_CraftingStation_Acquiring"					"Anskaffer"
+"HLVR_CraftingStation_Acquired"						"Anskaffet"
+"HLVR_CraftingStation_Scanning"						"Scanner"
+"HLVR_CraftingStation_Rendering"					"Fremstiller"
+"HLVR_CraftingStation_Printing"						"Printer"
+"HLVR_CraftingStation_Complete"						"Fabrikation gennemført"
+"HLVR_CraftingStation_Cancelled"					"Fabrikation annulleret"
+"HLVR_CraftingStation_TakeObject"					"Tag genstand"
+"HLVR_CraftingStation_PrintObject"					"Print objekt"
+"HLVR_CraftingStation_UpgradeOwned"					"Ejet"
+"HLVR_CraftingStation_Cancel"						"Annuller"
+"HLVR_CraftingStation_Back"							"Tilbage"
+"HLVR_CraftingStation_SmallPrint"					"Civilbeskyttelsens anneks 19-81572"
+
+// combine console
+"HLVR_CombineConsole_Name"							"Combine-konsol V17.14"
+"HLVR_CombineConsole_Activate"						"Aktiver"
+
+"HLVR_Calibration_Start"							"Tryk på knappen for at starte"
+
+"HLVR_Intro_Text_01"								"Det er fem år før ødelæggelsen af"
+"HLVR_Intro_Text_02"                                                            " citadellet" 
+"HLVR_Intro_Text_03"								"og Eli Vances"
+"HLVR_Intro_Text_04"                                                            " død." 
+
+"HLVR_Eli_Call_Incoming"							"Indgående opkald"
+"HLVR_Eli_Call_Incoming_Name"						"Eli Vance"
+"HLVR_Eli_Call_Ended_01"							"Opkald"
+"HLVR_Eli_Call_Ended_02"							"Slut"
+"HLVR_Eli_Call_Location"							"Forsyningsst. Pylon 7B"
+
+
+// Referenced in hl2_gamerules.cpp
+// static HLVRChapter_t rgChapters[] = {
+// Chapter Numbers
+"HLVR_Chapter_Number_00"							"KAPITEL 1"
+"HLVR_Chapter_Number_01"							"KAPITEL 2"
+"HLVR_Chapter_Number_02"							"KAPITEL 3"
+"HLVR_Chapter_Number_03"							"KAPITEL 4"
+"HLVR_Chapter_Number_04"							"KAPITEL 5"
+"HLVR_Chapter_Number_05"							"KAPITEL 6"
+"HLVR_Chapter_Number_06"							"KAPITEL 7"
+"HLVR_Chapter_Number_07"							"KAPITEL 8"
+"HLVR_Chapter_Number_08"							"KAPITEL 9"
+"HLVR_Chapter_Number_09"							"KAPITEL 10"
+"HLVR_Chapter_Number_10"							"KAPITEL 11"
+
+"HLVR_Chapter_Title_00"								"Sammenfiltring"
+"HLVR_Chapter_Title_01"								"Karantænezonen"
+"HLVR_Chapter_Title_02"								"Er eller vil være"
+"HLVR_Chapter_Title_03"								"Supervåben"
+"HLVR_Chapter_Title_04"								"Nordstjernen"
+"HLVR_Chapter_Title_05"								"Våbenkapløb"
+"HLVR_Chapter_Title_06"								"Jeff"
+"HLVR_Chapter_Title_07"								"Fangenskab"
+"HLVR_Chapter_Title_08"								"Afsløring"
+"HLVR_Chapter_Title_09"								"Briste eller bære"
+"HLVR_Chapter_Title_10"								"Udtrækningspunkt"
+
+"HLVR_Transmission_Incoming"						"INDGÅENDE\nOPKALD"
+"HLVR_Transmission_Ended"							"OPKALD\nSLUT"
+
+"HLVR_Propaganda_Standby"							"VENT VENLIGST"
+"HLVR_Propaganda_Countdown5"						"5"
+"HLVR_Propaganda_Countdown4"						"4"
+"HLVR_Propaganda_Countdown3"						"3"
+"HLVR_Propaganda_Countdown2"						"2"
+"HLVR_Propaganda_Announcement"						"SÆRLIG MEDDELELSE"
+
+"HLVR_Distillery_Elevator_Error"					"VÆGTGRÆNSE OVERSKREDET"
+"HLVR_Distillery_Elevator_Override"					"MANUEL STYRING NØDVENDIG"
+
+"HLVR_Trainyard_Train_Approaching"					"TOG ANKOMMER"
+
+"HLVR_Intro_World_01a"								"EMNE: "
+"HLVR_Intro_World_01b"								" Alyx Vance, 19 år, kvinde"
+"HLVR_Intro_World_02a"								"TILKNYTNING: "
+"HLVR_Intro_World_02b"								" Menneskelig modstandsbevægelse"
+"HLVR_Intro_World_03a"								"AKTUEL MISSION: "
+"HLVR_Intro_World_03b"								" Rekognoscering"
+
+"HLVR_Mission_Terminated_01a"						"MISSION: "
+"HLVR_Mission_Terminated_01b"						"AFBRUDT"
+"HLVR_Mission_Terminated_02a"						"EMNE: "
+"HLVR_Mission_Terminated_02b"						"ALYX VANCE"
+"HLVR_Mission_Terminated_03a"						"GRUND: "
+"HLVR_Mission_Terminated_03b"						"KUNNE IKKE OPRETHOLDE MISSIONSKRITISKE RESSOURCER"
+
+"HLVR_Subject"										"EMNE: "
+"HLVR_Subject_2"									"Alyx Vance"
+"HLVR_Status"										"STATUS: "
+"HLVR_Status_2"										"Hyret"
+"HLVR_Assignment"									"AFVENTER MISSION"
+
+"HLVR_Combine_Chatter"								"[Combine-soldater snakker]"
+
+// In-world signage
+"HLVR_Signage_Infestation_Control1"					"ADVARSEL:"
+"HLVR_Signage_Infestation_Control2"					"Parasitkontrol"
+
+"HLVR_Signage_Emergency"							"NØDSITUATION"
+"HLVR_Signage_Main_Power"							"HOVEDSTRØM"
+"HLVR_Signage_Shutoff"								"AFBRYDER"
+
+// Credits
+
+"HLVR_Credits_ContractorsHeader"					"Yderligere udvikling"
+"HLVR_Credits_CastHeader"							"Medvirkende"
+"HLVR_Commentary_Elevator"							"Elevator"
+// Game Tips
+"HLVR_LOADING_SCREEN_TIP_COUNT"				"22"
+"HLVR_LOADING_SCREEN_TIP_MAP_0_COUNT"		"6"		// a1_intro_world
+"HLVR_LOADING_SCREEN_TIP_MAP_1_COUNT"		"9"		// a1_intro_world_2
+"HLVR_LOADING_SCREEN_TIP_MAP_2_COUNT"		"6"		// a2_quarantine_entrance
+"HLVR_LOADING_SCREEN_TIP_MAP_3_COUNT"		"7"		// a2_pistol
+"HLVR_LOADING_SCREEN_TIP_MAP_4_COUNT"		"12"	// a2_hideout
+"HLVR_LOADING_SCREEN_TIP_MAP_5_COUNT"		"12"	// a2_headcrabs_tunnel
+"HLVR_LOADING_SCREEN_TIP_MAP_6_COUNT"		"14"	// a2_drainage
+"HLVR_LOADING_SCREEN_TIP_MAP_7_COUNT"		"13"	// a2_train_yard
+"HLVR_LOADING_SCREEN_TIP_MAP_8_COUNT"		"11"	// a3_station_street
+"HLVR_LOADING_SCREEN_TIP_MAP_9_COUNT"		"15"	// a3_hotel_lobby_basement
+"HLVR_LOADING_SCREEN_TIP_MAP_10_COUNT"		"15"	// a3_hotel_underground_pit
+"HLVR_LOADING_SCREEN_TIP_MAP_11_COUNT"		"15"	// a3_hotel_interior_rooftop
+"HLVR_LOADING_SCREEN_TIP_MAP_12_COUNT"		"20"	// a3_hotel_street
+"HLVR_LOADING_SCREEN_TIP_MAP_13_COUNT"		"20"	// a3_c17_processing_plant
+"HLVR_LOADING_SCREEN_TIP_MAP_14_COUNT"		"20"	// a3_distillery
+"HLVR_LOADING_SCREEN_TIP_MAP_15_COUNT"		"20"	// a4_c17_zoo
+"HLVR_LOADING_SCREEN_TIP_MAP_16_COUNT"		"20"	// a4_c17_tanker_yard
+"HLVR_LOADING_SCREEN_TIP_MAP_17_COUNT"		"0"		// a4_c17_water_tower
+"HLVR_LOADING_SCREEN_TIP_MAP_18_COUNT"		"0"		// a4_c17_parking_garage
+"HLVR_LOADING_SCREEN_TIP_MAP_19_COUNT"		"0"		// a5_vault
+"HLVR_LOADING_SCREEN_TIP_MAP_20_COUNT"		"0"		// a5_ending
+} 
+}

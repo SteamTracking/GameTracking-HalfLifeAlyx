@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Ambient.WindSystem = 
 	{
@@ -5,11 +6,11 @@
 		soundevent_01 = "Ambient.WindSystemHeavyLp"
 		soundevent_02 = "Ambient.WindSystemMediumLp"
 		soundevent_03 = "Ambient.WindSystemLightLp"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		opvar_z_offset_min = 0.050000
-		opvar_z_offset_max = 0.450000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		opvar_z_offset_min = 0.05
+		opvar_z_offset_max = 0.45
 	}
 	Ambient.WindSystemHeavyLp = 
 	{
@@ -18,10 +19,10 @@
 		soundevent_02 = "Ambient.WindSystemHeavyLp_R"
 		soundevent_03 = "Ambient.WindSystemHeavyLp_LS"
 		soundevent_04 = "Ambient.WindSystemHeavyLp_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	Ambient.WindSystemHeavyLp_L = 
 	{
@@ -32,30 +33,30 @@
 		]
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.650000
-		opvar_to_volume_multiplier_min = 0.000000
-		opvar_to_volume_multiplier = 1.000000
+		volume = 0.65
+		opvar_to_volume_multiplier_min = 0.0
+		opvar_to_volume_multiplier = 1.0
 		remap_vol_opvar_x1 = 0
 		remap_vol_opvar_y1 = 0
-		remap_vol_opvar_x2 = 0.500000
+		remap_vol_opvar_x2 = 0.5
 		remap_vol_opvar_y2 = 0
-		remap_vol_opvar_x3 = 0.900000
-		remap_vol_opvar_y3 = 1.000000
-		remap_vol_opvar_x4 = 0.900000
-		remap_vol_opvar_y4 = 1.000000
-		global_opvar_filter_velocity = 0.600000
+		remap_vol_opvar_x3 = 0.9
+		remap_vol_opvar_y3 = 1.0
+		remap_vol_opvar_x4 = 0.9
+		remap_vol_opvar_y4 = 1.0
+		global_opvar_filter_velocity = 0.6
 		global_opvar_name_01 = "wind_val"
 		global_opvar_name_02 = "skylight_proximity_beacon"
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
 	}
 	Ambient.WindSystemHeavyLp_R = 
 	{
@@ -64,7 +65,7 @@
 		[
 			"sounds/ambient/wind/wind_system/amb_windy_heavy_lp_01_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	Ambient.WindSystemHeavyLp_LS = 
 	{
@@ -73,7 +74,7 @@
 		[
 			"sounds/ambient/wind/wind_system/amb_windy_heavy_lp_01_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	Ambient.WindSystemHeavyLp_RS = 
 	{
@@ -82,7 +83,7 @@
 		[
 			"sounds/ambient/wind/wind_system/amb_windy_heavy_lp_01_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	Ambient.WindSystemMediumLp = 
 	{
@@ -91,10 +92,10 @@
 		soundevent_02 = "Ambient.WindSystemMediumLp_R"
 		soundevent_03 = "Ambient.WindSystemMediumLp_LS"
 		soundevent_04 = "Ambient.WindSystemMediumLp_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	Ambient.WindSystemMediumLp_L = 
 	{
@@ -105,30 +106,30 @@
 		]
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.650000
-		opvar_to_volume_multiplier_min = 0.000000
-		opvar_to_volume_multiplier = 1.000000
+		volume = 0.65
+		opvar_to_volume_multiplier_min = 0.0
+		opvar_to_volume_multiplier = 1.0
 		remap_vol_opvar_x1 = 0
 		remap_vol_opvar_y1 = 0
-		remap_vol_opvar_x2 = 0.250000
-		remap_vol_opvar_y2 = 0.100000
-		remap_vol_opvar_x3 = 0.750000
-		remap_vol_opvar_y3 = 0.800000
-		remap_vol_opvar_x4 = 0.900000
-		remap_vol_opvar_y4 = 1.000000
-		global_opvar_filter_velocity = 0.600000
+		remap_vol_opvar_x2 = 0.25
+		remap_vol_opvar_y2 = 0.1
+		remap_vol_opvar_x3 = 0.75
+		remap_vol_opvar_y3 = 0.8
+		remap_vol_opvar_x4 = 0.9
+		remap_vol_opvar_y4 = 1.0
+		global_opvar_filter_velocity = 0.6
 		global_opvar_name_01 = "wind_val"
 		global_opvar_name_02 = "skylight_proximity_beacon"
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
 	}
 	Ambient.WindSystemMediumLp_R = 
 	{
@@ -137,7 +138,7 @@
 		[
 			"sounds/ambient/wind/wind_system/amb_windy_medium_lp_01_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	Ambient.WindSystemMediumLp_LS = 
 	{
@@ -146,7 +147,7 @@
 		[
 			"sounds/ambient/wind/wind_system/amb_windy_medium_lp_01_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	Ambient.WindSystemMediumLp_RS = 
 	{
@@ -155,7 +156,7 @@
 		[
 			"sounds/ambient/wind/wind_system/amb_windy_medium_lp_01_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	Ambient.WindSystemLightLp = 
 	{
@@ -164,10 +165,10 @@
 		soundevent_02 = "Ambient.WindSystemLightLp_R"
 		soundevent_03 = "Ambient.WindSystemLightLp_LS"
 		soundevent_04 = "Ambient.WindSystemLightLp_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	Ambient.WindSystemLightLp_L = 
 	{
@@ -178,30 +179,30 @@
 		]
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.650000
-		opvar_to_volume_multiplier_min = 0.000000
-		opvar_to_volume_multiplier = 1.000000
+		volume = 0.65
+		opvar_to_volume_multiplier_min = 0.0
+		opvar_to_volume_multiplier = 1.0
 		remap_vol_opvar_x1 = 0
 		remap_vol_opvar_y1 = 0
-		remap_vol_opvar_x2 = 0.250000
-		remap_vol_opvar_y2 = 0.500000
-		remap_vol_opvar_x3 = 0.750000
-		remap_vol_opvar_y3 = 1.000000
-		remap_vol_opvar_x4 = 0.900000
-		remap_vol_opvar_y4 = 0.800000
-		global_opvar_filter_velocity = 0.600000
+		remap_vol_opvar_x2 = 0.25
+		remap_vol_opvar_y2 = 0.5
+		remap_vol_opvar_x3 = 0.75
+		remap_vol_opvar_y3 = 1.0
+		remap_vol_opvar_x4 = 0.9
+		remap_vol_opvar_y4 = 0.8
+		global_opvar_filter_velocity = 0.6
 		global_opvar_name_01 = "wind_val"
 		global_opvar_name_02 = "skylight_proximity_beacon"
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
 	}
 	Ambient.WindSystemLightLp_R = 
 	{
@@ -210,7 +211,7 @@
 		[
 			"sounds/ambient/wind/wind_system/amb_windy_light_lp_01_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	Ambient.WindSystemLightLp_LS = 
 	{
@@ -219,7 +220,7 @@
 		[
 			"sounds/ambient/wind/wind_system/amb_windy_light_lp_01_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	Ambient.WindSystemLightLp_RS = 
 	{
@@ -228,19 +229,19 @@
 		[
 			"sounds/ambient/wind/wind_system/amb_windy_light_lp_01_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientCavern.WindSystem = 
 	{
 		type = "hlvr_ambient_head_move"
 		soundevent_01 = "AmbientCavern.WindSystemHeavyLp"
 		soundevent_02 = "Ambient.WindSystemLightLp"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		opvar_z_offset_min = 0.250000
-		opvar_z_offset_max = 0.050000
-		zmax = 353.000000
-		zmin = -800.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		opvar_z_offset_min = 0.25
+		opvar_z_offset_max = 0.05
+		zmax = 353.0
+		zmin = -800.0
 	}
 	AmbientCavern.WindSystemHeavyLp = 
 	{
@@ -249,10 +250,10 @@
 		soundevent_02 = "AmbientCavern.WindSystemHeavyLp_R"
 		soundevent_03 = "AmbientCavern.WindSystemHeavyLp_LS"
 		soundevent_04 = "AmbientCavern.WindSystemHeavyLp_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientCavern.WindSystemHeavyLp_L = 
 	{
@@ -263,26 +264,26 @@
 		]
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
-		opvar_to_volume_multiplier_min = 0.000000
-		opvar_to_volume_multiplier = 1.000000
+		volume = 1.0
+		opvar_to_volume_multiplier_min = 0.0
+		opvar_to_volume_multiplier = 1.0
 		remap_vol_opvar_x1 = 0
 		remap_vol_opvar_y1 = 0
-		remap_vol_opvar_x2 = 0.250000
-		remap_vol_opvar_y2 = 0.100000
-		remap_vol_opvar_x3 = 0.750000
-		remap_vol_opvar_y3 = 0.800000
-		remap_vol_opvar_x4 = 0.900000
-		remap_vol_opvar_y4 = 1.000000
-		global_opvar_filter_velocity = 0.600000
+		remap_vol_opvar_x2 = 0.25
+		remap_vol_opvar_y2 = 0.1
+		remap_vol_opvar_x3 = 0.75
+		remap_vol_opvar_y3 = 0.8
+		remap_vol_opvar_x4 = 0.9
+		remap_vol_opvar_y4 = 1.0
+		global_opvar_filter_velocity = 0.6
 		global_opvar_name_01 = "wind_val"
 	}
 	AmbientCavern.WindSystemHeavyLp_R = 
@@ -294,26 +295,26 @@
 		]
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 315.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 315.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
-		opvar_to_volume_multiplier_min = 0.000000
-		opvar_to_volume_multiplier = 1.000000
+		volume = 1.0
+		opvar_to_volume_multiplier_min = 0.0
+		opvar_to_volume_multiplier = 1.0
 		remap_vol_opvar_x1 = 0
 		remap_vol_opvar_y1 = 0
-		remap_vol_opvar_x2 = 0.250000
-		remap_vol_opvar_y2 = 0.100000
-		remap_vol_opvar_x3 = 0.750000
-		remap_vol_opvar_y3 = 0.800000
-		remap_vol_opvar_x4 = 0.900000
-		remap_vol_opvar_y4 = 1.000000
-		global_opvar_filter_velocity = 0.600000
+		remap_vol_opvar_x2 = 0.25
+		remap_vol_opvar_y2 = 0.1
+		remap_vol_opvar_x3 = 0.75
+		remap_vol_opvar_y3 = 0.8
+		remap_vol_opvar_x4 = 0.9
+		remap_vol_opvar_y4 = 1.0
+		global_opvar_filter_velocity = 0.6
 		global_opvar_name_01 = "wind_val"
 	}
 	AmbientCavern.WindSystemHeavyLp_LS = 
@@ -325,26 +326,26 @@
 		]
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 135.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 135.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
-		opvar_to_volume_multiplier_min = 0.000000
-		opvar_to_volume_multiplier = 1.000000
+		volume = 1.0
+		opvar_to_volume_multiplier_min = 0.0
+		opvar_to_volume_multiplier = 1.0
 		remap_vol_opvar_x1 = 0
 		remap_vol_opvar_y1 = 0
-		remap_vol_opvar_x2 = 0.250000
-		remap_vol_opvar_y2 = 0.100000
-		remap_vol_opvar_x3 = 0.750000
-		remap_vol_opvar_y3 = 0.800000
-		remap_vol_opvar_x4 = 0.900000
-		remap_vol_opvar_y4 = 1.000000
-		global_opvar_filter_velocity = 0.600000
+		remap_vol_opvar_x2 = 0.25
+		remap_vol_opvar_y2 = 0.1
+		remap_vol_opvar_x3 = 0.75
+		remap_vol_opvar_y3 = 0.8
+		remap_vol_opvar_x4 = 0.9
+		remap_vol_opvar_y4 = 1.0
+		global_opvar_filter_velocity = 0.6
 		global_opvar_name_01 = "wind_val"
 	}
 	AmbientCavern.WindSystemHeavyLp_RS = 
@@ -356,26 +357,26 @@
 		]
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 225.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 225.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
-		opvar_to_volume_multiplier_min = 0.000000
-		opvar_to_volume_multiplier = 1.000000
+		volume = 1.0
+		opvar_to_volume_multiplier_min = 0.0
+		opvar_to_volume_multiplier = 1.0
 		remap_vol_opvar_x1 = 0
 		remap_vol_opvar_y1 = 0
-		remap_vol_opvar_x2 = 0.250000
-		remap_vol_opvar_y2 = 0.100000
-		remap_vol_opvar_x3 = 0.750000
-		remap_vol_opvar_y3 = 0.800000
-		remap_vol_opvar_x4 = 0.900000
-		remap_vol_opvar_y4 = 1.000000
-		global_opvar_filter_velocity = 0.600000
+		remap_vol_opvar_x2 = 0.25
+		remap_vol_opvar_y2 = 0.1
+		remap_vol_opvar_x3 = 0.75
+		remap_vol_opvar_y3 = 0.8
+		remap_vol_opvar_x4 = 0.9
+		remap_vol_opvar_y4 = 1.0
+		global_opvar_filter_velocity = 0.6
 		global_opvar_name_01 = "wind_val"
 	}
 	AmbientCavern.WindSystemLightLp = 
@@ -385,10 +386,10 @@
 		soundevent_02 = "AmbientCavern.WindSystemLightLp_R"
 		soundevent_03 = "AmbientCavern.WindSystemLightLp_LS"
 		soundevent_04 = "AmbientCavern.WindSystemLightLp_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientCavern.WindSystemLightLp_L = 
 	{
@@ -399,26 +400,26 @@
 		]
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
-		opvar_to_volume_multiplier_min = 0.000000
-		opvar_to_volume_multiplier = 1.000000
+		volume = 1.0
+		opvar_to_volume_multiplier_min = 0.0
+		opvar_to_volume_multiplier = 1.0
 		remap_vol_opvar_x1 = 0
 		remap_vol_opvar_y1 = 0
-		remap_vol_opvar_x2 = 0.250000
-		remap_vol_opvar_y2 = 0.500000
-		remap_vol_opvar_x3 = 0.750000
-		remap_vol_opvar_y3 = 1.000000
-		remap_vol_opvar_x4 = 0.900000
-		remap_vol_opvar_y4 = 0.800000
-		global_opvar_filter_velocity = 0.600000
+		remap_vol_opvar_x2 = 0.25
+		remap_vol_opvar_y2 = 0.5
+		remap_vol_opvar_x3 = 0.75
+		remap_vol_opvar_y3 = 1.0
+		remap_vol_opvar_x4 = 0.9
+		remap_vol_opvar_y4 = 0.8
+		global_opvar_filter_velocity = 0.6
 		global_opvar_name_01 = "wind_val"
 	}
 	AmbientCavern.WindSystemLightLp_R = 
@@ -430,26 +431,26 @@
 		]
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 315.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 315.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
-		opvar_to_volume_multiplier_min = 0.000000
-		opvar_to_volume_multiplier = 1.000000
+		volume = 1.0
+		opvar_to_volume_multiplier_min = 0.0
+		opvar_to_volume_multiplier = 1.0
 		remap_vol_opvar_x1 = 0
 		remap_vol_opvar_y1 = 0
-		remap_vol_opvar_x2 = 0.250000
-		remap_vol_opvar_y2 = 0.500000
-		remap_vol_opvar_x3 = 0.750000
-		remap_vol_opvar_y3 = 1.000000
-		remap_vol_opvar_x4 = 0.900000
-		remap_vol_opvar_y4 = 0.800000
-		global_opvar_filter_velocity = 0.600000
+		remap_vol_opvar_x2 = 0.25
+		remap_vol_opvar_y2 = 0.5
+		remap_vol_opvar_x3 = 0.75
+		remap_vol_opvar_y3 = 1.0
+		remap_vol_opvar_x4 = 0.9
+		remap_vol_opvar_y4 = 0.8
+		global_opvar_filter_velocity = 0.6
 		global_opvar_name_01 = "wind_val"
 	}
 	AmbientCavern.WindSystemLightLp_LS = 
@@ -461,26 +462,26 @@
 		]
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 135.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 135.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
-		opvar_to_volume_multiplier_min = 0.000000
-		opvar_to_volume_multiplier = 1.000000
+		volume = 1.0
+		opvar_to_volume_multiplier_min = 0.0
+		opvar_to_volume_multiplier = 1.0
 		remap_vol_opvar_x1 = 0
 		remap_vol_opvar_y1 = 0
-		remap_vol_opvar_x2 = 0.250000
-		remap_vol_opvar_y2 = 0.500000
-		remap_vol_opvar_x3 = 0.750000
-		remap_vol_opvar_y3 = 1.000000
-		remap_vol_opvar_x4 = 0.900000
-		remap_vol_opvar_y4 = 0.800000
-		global_opvar_filter_velocity = 0.600000
+		remap_vol_opvar_x2 = 0.25
+		remap_vol_opvar_y2 = 0.5
+		remap_vol_opvar_x3 = 0.75
+		remap_vol_opvar_y3 = 1.0
+		remap_vol_opvar_x4 = 0.9
+		remap_vol_opvar_y4 = 0.8
+		global_opvar_filter_velocity = 0.6
 		global_opvar_name_01 = "wind_val"
 	}
 	AmbientCavern.WindSystemLightLp_RS = 
@@ -492,26 +493,26 @@
 		]
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 225.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 225.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
-		opvar_to_volume_multiplier_min = 0.000000
-		opvar_to_volume_multiplier = 1.000000
+		volume = 1.0
+		opvar_to_volume_multiplier_min = 0.0
+		opvar_to_volume_multiplier = 1.0
 		remap_vol_opvar_x1 = 0
 		remap_vol_opvar_y1 = 0
-		remap_vol_opvar_x2 = 0.250000
-		remap_vol_opvar_y2 = 0.500000
-		remap_vol_opvar_x3 = 0.750000
-		remap_vol_opvar_y3 = 1.000000
-		remap_vol_opvar_x4 = 0.900000
-		remap_vol_opvar_y4 = 0.800000
-		global_opvar_filter_velocity = 0.600000
+		remap_vol_opvar_x2 = 0.25
+		remap_vol_opvar_y2 = 0.5
+		remap_vol_opvar_x3 = 0.75
+		remap_vol_opvar_y3 = 1.0
+		remap_vol_opvar_x4 = 0.9
+		remap_vol_opvar_y4 = 0.8
+		global_opvar_filter_velocity = 0.6
 		global_opvar_name_01 = "wind_val"
 	}
 }

@@ -717,11 +717,13 @@
 	// Client events for commentary start/stop
 	"commentary_started"
 	{
+		"title"				"string"
 		"speaker"			"string"
 		"nodeid"			"short"
 		"nodeidmax"			"short"
 		"start_time"		"float"
 		"end_time"			"float"
+		"transitioned"		"short"
 	}
 
 	"commentary_stopped"

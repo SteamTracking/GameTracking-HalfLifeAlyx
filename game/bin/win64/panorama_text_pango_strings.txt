@@ -307,7 +307,6 @@ $hRh
 'pSN.F
 'prB2
 'sp3s
-( 8PX
 (!(1(=(?(I(Q([(](a(g(u(
 ((long)msg_hdr->msg_len) > 0
 (0'yX
@@ -558,6 +557,7 @@ $hRh
 .?AVZeroCopyOutputStream@io@protobuf@google@@
 .?AV__non_rtti_object@std@@
 .?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
 .?AVbad_cast@std@@
 .?AVbad_exception@std@@
 .?AVbad_typeid@std@@
@@ -846,12 +846,11 @@ $hRh
 .bss
 .data
 .data$r
+.data$rs
 .dummy
 .dx_LV9
 .edata
 .foo = value".
-.gfids$x
-.gfids$y
 .google.protobuf.EnumOptions
 .google.protobuf.FieldOptions
 .google.protobuf.FieldOptions"
@@ -874,6 +873,7 @@ $hRh
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .rtc$IAA
 .rtc$IZZ
@@ -1075,7 +1075,6 @@ $hRh
 7%Ot\f
 7*QR
 7,gm;
-700WP
 71iB
 7>I0
 7?7E7I7O7]7a7u7
@@ -1124,7 +1123,6 @@ $hRh
 95\r9{
 9966
 9:dzGN
-9<HP@
 9>70
 9>powf
 9@Xp&
@@ -1228,8 +1226,7 @@ $hRh
 ?7zQ6$
 ?7{KV\nU
 ?8bunz8
-??0CThreadMutex@@QEAA@PEBD@Z
-??1CThreadMutex@@QEAA@XZ
+??0CThreadMutex@@QEAA@XZ
 ?@En[vP
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
 ?ConvertIn@CBufferString@@QEAAPEBDPEB_WH_N@Z
@@ -1240,7 +1237,6 @@ $hRh
 ?HAI\t81\t9dcG'
 ?HP4
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?MakeAbsolutePath@CBufferString@@QEAAPEBDPEBD0@Z
@@ -1483,7 +1479,6 @@ AbW_
 AcG\nt
 Acceptable OCSP Responses
 Access violation - no RTTI data!
-AcquireSRWLockExclusive
 AddAllocatedMessage
 AddBool
 AddDouble
@@ -1505,6 +1500,7 @@ AnimationSystem_001
 Any Extended Key Usage
 Any Purpose
 Any language
+AppPolicyGetProcessTerminationMethod
 April
 AreFileApisANSI
 AssetBrowserSystem_001
@@ -1967,7 +1963,6 @@ CUITextLayoutPango::DrawRun - Glyph render
 CUITextLayoutPango::GetCharacterCoordinates
 CUITextLayoutPango::GetCharacterRangeCoordinates
 CUITextLayoutPango::HitTestPoint
-CUtlLinkedList overflow! (exhausted index range)\n
 CUtlLinkedList overflow! (exhausted memory allocator)\n
 CUtlLinkedList<struct panorama::CTextLayoutDrawCache::TextOpacityMaskLRU_t,int,0,int,class CUtlMemory<struct UtlLinkedListElem_t<struct panorama::CTextLayoutDrawCache::TextOpacityMaskLRU_t,int>,int> >::AllocInternal
 CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
@@ -1999,9 +1994,6 @@ Char=
 ClQ(|
 ClearField
 CloseHandle
-CloseThreadpoolTimer
-CloseThreadpoolWait
-CloseThreadpoolWork
 CloseToolhelp32Snapshot
 Code Signing
 Code=
@@ -2020,21 +2012,13 @@ Content-Type: %ssignature;
 Content-Type: application/ocsp-request\r\nContent-Length: %d\r\n\r\n
 Content-Type: multipart/signed;
 Content-Type: text/plain\r\n\r\n
-Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
 CorExitProcess
 Could not create an instance of 
 Could not find type "
 Couldn't parse default value "
-CreateEventExW
 CreateEventW
 CreateFileW
 CreateInterface
-CreateSemaphoreExW
-CreateSemaphoreW
-CreateSymbolicLinkW
-CreateThreadpoolTimer
-CreateThreadpoolWait
-CreateThreadpoolWork
 CreateToolhelp32Snapshot
 Critical
 CrlID
@@ -2741,9 +2725,7 @@ FileTimeToSystemTime
 Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports "
 Files with optimize_for = LITE_RUNTIME cannot define services unless you set both options cc_generic_services and java_generic_sevices to false.
 FindClose
-FindFirstFileExA
 FindFirstFileExW
-FindNextFileA
 FindNextFileW
 First argument to Swap() (of type "
 First argument to SwapFields() (of type "
@@ -2754,14 +2736,13 @@ FlsGetValue
 FlsSetValue
 FlushConsoleInputBuffer
 FlushFileBuffers
-FlushProcessWriteBuffers
 Fm{#t
+FontConfig failed to load '%s'
 FontManager_001
 Fop]
 Found invalid proto option data for: 
 FreeEnvironmentStringsW
 FreeLibrary
-FreeLibraryWhenCallbackReturns
 Friday
 F|w)a]c
 G0Tv~:
@@ -2844,11 +2825,10 @@ GetCommandLineA
 GetCommandLineW
 GetConsoleCP
 GetConsoleMode
+GetConsoleOutputCP
 GetCurrentDirectoryW
-GetCurrentPackageId
 GetCurrentProcess
 GetCurrentProcessId
-GetCurrentProcessorNumber
 GetCurrentThreadId
 GetCursorInfo
 GetDefaultMiniDumpTypeFlags
@@ -2857,7 +2837,8 @@ GetDriveTypeW
 GetEnumValue
 GetEnvironmentStringsW
 GetFileAttributesExW
-GetFileInformationByHandleEx
+GetFileInformationByHandle
+GetFileSizeEx
 GetFileType
 GetFloat
 GetForegroundWindow
@@ -2865,9 +2846,8 @@ GetFullPathNameW
 GetInt32
 GetInt64
 GetLastError
-GetLocaleInfoEx
 GetMessage
-GetModuleFileNameA
+GetModuleFileNameW
 GetModuleHandleExW
 GetModuleHandleW
 GetOEMCP
@@ -2896,9 +2876,7 @@ GetStringReference
 GetStringTypeW
 GetSystemTime
 GetSystemTimeAsFileTime
-GetSystemTimePreciseAsFileTime
 GetTickCount
-GetTickCount64
 GetTimeZoneInformation
 GetUInt32
 GetUInt64
@@ -2984,7 +2962,7 @@ IDEA-OFB
 IDEMPOTENCY_UNKNOWN
 IMPLICIT
 IND)ind)
-IND)ind).
+IND)ind)"
 INFO
 INITY
 INTEGER
@@ -3026,13 +3004,10 @@ Independent
 Index out-of-bounds (field is empty).
 Inherit all
 Inhibit Policy Mapping
-InitOnceExecuteOnce
-InitializeConditionVariable
 InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
-InitializeSRWLock
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
@@ -3910,12 +3885,15 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDS
 R\r1>Vp
+R\rp\f`\v08s
+R\vp8s
+R\vpLS
 R]Di
 RaiseException
 Rbg.E
 Reached an unintended state: CPPTYPE_MESSAGE
 Reached impossible case in HasBit().
-ReadConsoleInputA
+ReadConsoleInputW
 ReadConsoleW
 ReadFile
 Reasons
@@ -3926,7 +3904,6 @@ Registered ID
 Release
 ReleaseLast
 ReleaseMessage
-ReleaseSRWLockExclusive
 Remove From CRL
 RemoveLast
 RenderDevice003
@@ -4176,9 +4153,8 @@ SetEndOfFile
 SetEnum
 SetEnumValue
 SetEnumValue accepts only valid integer values: value 
-SetEnvironmentVariableA
+SetEnvironmentVariableW
 SetEvent
-SetFileInformationByHandle
 SetFilePointerEx
 SetFloat
 SetInt32
@@ -4196,15 +4172,12 @@ SetRepeatedUInt32
 SetRepeatedUInt64
 SetStdHandle
 SetString
-SetThreadpoolTimer
-SetThreadpoolWait
 SetUInt32
 SetUInt64
 SetUnhandledExceptionFilter
 Should not reach here.
 Sleep
 SleepConditionVariableCS
-SleepConditionVariableSRW
 Sn^G
 SoundOpSystem001
 SoundOpSystemEdit001
@@ -4231,7 +4204,6 @@ String literals cannot cross line boundaries.
 StringOutputStream.
 Strong Extranet ID
 Subject Information Access
-SubmitThreadpoolWork
 Suite B: cannot sign P-384 with P-256
 Suite B: certificate version invalid
 Suite B: curve not allowed for this LOS
@@ -4349,7 +4321,6 @@ Trailer Field: 0x
 Tried to merge messages of different types 
 True
 Trust Root
-TryAcquireSRWLockExclusive
 Tu\t(OR
 Tuesday
 Type
@@ -4477,7 +4448,6 @@ VDPr
 VDebugService_001
 VEngineCvar007
 VF+c
-VFONT1
 VFileSystem017
 VGG@
 VGUI_Input005
@@ -4593,9 +4563,7 @@ WZTR
 W\noB
 WaNd?
 WaitForSingleObjectEx
-WaitForThreadpoolTimerCallbacks
 WakeAllConditionVariable
-WakeConditionVariable
 Warning
 Warning parsing text-format 
 Warning:  %s = '%s' is infinite, clamping value.\n
@@ -4853,6 +4821,8 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
+\fp8s
+\fp\vPLS
 \ful2
 \fy&3Gl
 \l:ArR
@@ -4877,6 +4847,7 @@ Z~wl
 \n%12s%s
 \n5a=Z
 \n:82H
+\nP8s
 \n\fFieldOptions
 \n\fLITE_RUNTIME
 \n\fSTRING_PIECE
@@ -4949,6 +4920,7 @@ Z~wl
 \ri1I
 \rjwB\t
 \roKK
+\rp8s
 \rrCj
 \sG7tPD
 \t#\t%\t+\t/\t5\tC\tI\tM\tO\tU\tY\t_\tk\tq\tw\t
@@ -4959,6 +4931,7 @@ Z~wl
 \tHAI8xpH\f
 \tJm_9
 \tLa0+
+\tPLS
 \tcQr
 \tkE>fvw
 \toRE
@@ -4974,6 +4947,7 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
+\vp8s
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -4991,6 +4965,7 @@ Z~wl
 _Ek6b]
 _Lx6
 _OPENSSL_isservice
+_RDATA
 _V_ComposeFileName
 _V_MakeAbsolutePath
 _V_strncmp
@@ -5005,6 +4980,8 @@ __pascal
 __ptr64
 __restrict
 __stdcall
+__swift_1
+__swift_2
 __thiscall
 __unaligned
 __vectorcall
@@ -5021,6 +4998,7 @@ _}eOk
 `ITS
 `RTTI
 `VX:H
+`anonymous namespace'
 `copy constructor closure'
 `default constructor closure'
 `dynamic atexit destructor for '
@@ -5231,6 +5209,7 @@ b]jY
 bad address
 bad alert record
 bad allocation
+bad array new length
 bad asn1 object header
 bad authentication type
 bad base64 decode
@@ -7341,6 +7320,8 @@ operation would block
 operaton not initialized
 operator
 operator "" 
+operator co_await
+operator<=>
 optional
 optionalSignature
 options
@@ -7399,6 +7380,7 @@ pSPo
 pSourceFunc
 pSpecified
 pU>\AL
+p\r`\f0\vP8s
 p^i9
 package
 package_version
@@ -7717,6 +7699,7 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
+r\rp\f`\vP8s
 r\tVr.>T
 r\vDi
 rand
@@ -8660,6 +8643,7 @@ value.x509crl
 value=
 valveextensions.proto
 variable has no value
+vector too long
 vector<T> too long
 verification failure
 version
@@ -8760,7 +8744,6 @@ x\v6V
 xg-9Ja
 xp$=S
 xpH8
-xpxxxx
 xqI9
 xrJ:DCG
 xsK;

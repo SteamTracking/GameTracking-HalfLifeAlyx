@@ -377,6 +377,7 @@
 		"VulkanSteamDownloadedShaderCache" "0"
 		"VulkanAdditionalShaderCache" "vulkan_shader_cache.foz"
 		"VulkanStagingPMBSizeLimitMB" "128"
+		"DeckardTexturePoolSizeMB" "2816"
 	}
 	
 	Particles

@@ -1,9 +1,10 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Revived.Bullet_Fail = 
 	{
 		type = "src1_2d"
-		volume = 1.500000
-		delay = 0.100000
+		volume = 1.5
+		delay = 0.1
 		mixgroup = "BulletImpacts"
 		vsnd_files = 
 		[
@@ -15,7 +16,7 @@
 	Revived.Bullet_Success = 
 	{
 		type = "src1_2d"
-		volume = 1.200000
+		volume = 1.2
 		mixgroup = "BulletImpacts"
 		vsnd_files = 
 		[
@@ -28,11 +29,11 @@
 	Zombie.Revived = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.600000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 3000.000000
-		occlusion_scale = 0.200000
-		use_hrtf = 1.000000
+		volume = 1.6
+		volume_falloff_min = 400.0
+		volume_falloff_max = 3000.0
+		occlusion_scale = 0.2
+		use_hrtf = 1.0
 		mixgroup = "Zombies"
 		use_named_send = "loud"
 		vsnd_files = 
@@ -44,9 +45,9 @@
 	Zombie.Revived_Extra_Electrics_Emerge = 
 	{
 		type = "hlvr_default_3d"
-		volume_falloff_min = 300.000000
-		occlusion_scale = 0.300000
-		use_hrtf = 1.000000
+		volume_falloff_min = 300.0
+		occlusion_scale = 0.3
+		use_hrtf = 1.0
 		mixgroup = "Zombies"
 		should_pause = true
 		vsnd_files = 
@@ -60,9 +61,9 @@
 	Zombie.Revived_Extra_Electrics_Submerge = 
 	{
 		type = "hlvr_default_3d"
-		volume_falloff_min = 300.000000
-		occlusion_scale = 0.300000
-		use_hrtf = 1.000000
+		volume_falloff_min = 300.0
+		occlusion_scale = 0.3
+		use_hrtf = 1.0
 		mixgroup = "Zombies"
 		should_pause = true
 		vsnd_files = 
@@ -76,10 +77,10 @@
 	Zombie.Revived_Getup_Roll = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.100000
-		volume_falloff_min = 400.000000
-		occlusion_scale = 0.300000
-		use_hrtf = 1.000000
+		volume = 1.1
+		volume_falloff_min = 400.0
+		occlusion_scale = 0.3
+		use_hrtf = 1.0
 		mixgroup = "Zombies"
 		should_pause = true
 		vsnd_files = 
@@ -91,10 +92,10 @@
 	Zombie.Revived_Getup_Long = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.100000
-		volume_falloff_min = 300.000000
-		occlusion_scale = 0.300000
-		use_hrtf = 1.000000
+		volume = 1.1
+		volume_falloff_min = 300.0
+		occlusion_scale = 0.3
+		use_hrtf = 1.0
 		mixgroup = "Zombies"
 		should_pause = true
 		vsnd_files = 
@@ -105,10 +106,10 @@
 	Zombie.Revived_Getup_Med = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.100000
-		volume_falloff_min = 300.000000
-		occlusion_scale = 0.300000
-		use_hrtf = 1.000000
+		volume = 1.1
+		volume_falloff_min = 300.0
+		occlusion_scale = 0.3
+		use_hrtf = 1.0
 		mixgroup = "Zombies"
 		should_pause = true
 		vsnd_files = 
@@ -119,10 +120,10 @@
 	Zombie.Revived_Getup_Short = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.100000
-		volume_falloff_min = 300.000000
-		occlusion_scale = 0.300000
-		use_hrtf = 1.000000
+		volume = 1.1
+		volume_falloff_min = 300.0
+		occlusion_scale = 0.3
+		use_hrtf = 1.0
 		mixgroup = "Zombies"
 		should_pause = true
 		vsnd_files = 
@@ -133,11 +134,11 @@
 	Zombie_Revived.Warning_Yell = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.100000
-		volume_falloff_min = 400.000000
-		volume_fade_out = 0.200000
-		occlusion_scale = 0.200000
-		use_hrtf = 1.000000
+		volume = 1.1
+		volume_falloff_min = 400.0
+		volume_fade_out = 0.2
+		occlusion_scale = 0.2
+		use_hrtf = 1.0
 		mixgroup = "NPC_High"
 		should_pause = true
 		vsnd_files = 
@@ -152,10 +153,10 @@
 	Zombie_Revived.Vox_Abandoned_Gurgle = 
 	{
 		type = "hlvr_default_3d"
-		occlusion_scale = 0.300000
-		use_hrtf = 1.000000
+		occlusion_scale = 0.3
+		use_hrtf = 1.0
 		mixgroup = "NPC_Med"
-		set_mixlayer = 1.000000
+		set_mixlayer = 1.0
 		mixlayer_to_set = "NPC_Ducking_B"
 		should_pause = true
 		vsnd_files = 
@@ -168,8 +169,8 @@
 	Zombie_Revived.Vox_Abandoned_Grunt = 
 	{
 		type = "hlvr_default_3d"
-		occlusion_scale = 0.300000
-		use_hrtf = 1.000000
+		occlusion_scale = 0.3
+		use_hrtf = 1.0
 		should_pause = true
 		mixgroup = "Zombies"
 		vsnd_files = 
@@ -182,10 +183,10 @@
 	Zombie_Revived.Vox_Grunt_Misc = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		occlusion_scale = 0.600000
-		volume_falloff_max = 1200.000000
-		use_hrtf = 1.000000
+		volume = 0.8
+		occlusion_scale = 0.6
+		volume_falloff_max = 1200.0
+		use_hrtf = 1.0
 		mixgroup = "NPC_Med"
 		vsnd_files = 
 		[
@@ -206,12 +207,12 @@
 	Zombie_Revived.ElectricalBuzzLoop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 1500.000000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.300000
+		volume = 0.7
+		volume_falloff_min = 100.0
+		volume_falloff_max = 1500.0
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
+		occlusion_scale = 0.3
 		mixgroup = "NPC_Low"
 		should_pause = true
 		vsnd_files = 
@@ -222,15 +223,15 @@
 	Zombie_Revived.Electric_Bolt_Quiet = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
-		volume_rand_min = -0.200000
-		volume_rand_max = 0.100000
-		pitch_rand_min = -0.300000
-		pitch_rand_max = 0.200000
-		occlusion_scale = 0.500000
-		volume_falloff_max = 500.000000
-		distance_max = 501.000000
+		volume = 0.6
+		use_hrtf = 1.0
+		volume_rand_min = -0.2
+		volume_rand_max = 0.1
+		pitch_rand_min = -0.3
+		pitch_rand_max = 0.2
+		occlusion_scale = 0.5
+		volume_falloff_max = 500.0
+		distance_max = 501.0
 		mixgroup = "NPC_Med"
 		vsnd_files = 
 		[
@@ -249,14 +250,14 @@
 	Zombie_Revived.Electric_Bolt_Loud = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.100000
-		use_hrtf = 1.000000
-		pitch = 0.850000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		occlusion_scale = 0.500000
-		volume_falloff_max = 500.000000
-		distance_max = 501.000000
+		volume = 1.1
+		use_hrtf = 1.0
+		pitch = 0.85
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		occlusion_scale = 0.5
+		volume_falloff_max = 500.0
+		distance_max = 501.0
 		mixgroup = "NPC_Med"
 		vsnd_files = 
 		[
@@ -276,22 +277,22 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "Zombie_Revived.Electric_Bolt_Blast"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "Zombie_Revived.Electric_Bolt_Thunder"
-		use_02 = 1.000000
+		use_02 = 1.0
 		soundevent_03 = "Zombie_Revived.Electric_Bolt_Zap"
-		use_03 = 1.000000
+		use_03 = 1.0
 	}
 	Zombie_Revived.Electric_Bolt_Blast = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		volume_fade_out = 6.000000
-		use_hrtf = 1.000000
-		pitch_rand_min = 0.000000
-		pitch_rand_max = 0.100000
-		occlusion_scale = 0.500000
-		distance_max = 2500.000000
+		volume = 0.9
+		volume_fade_out = 6.0
+		use_hrtf = 1.0
+		pitch_rand_min = 0.0
+		pitch_rand_max = 0.1
+		occlusion_scale = 0.5
+		distance_max = 2500.0
 		mixgroup = "NPC_Med"
 		vsnd_files = 
 		[
@@ -314,13 +315,13 @@
 		[
 			"static_branch_event_limit_1",
 		]
-		volume = 0.300000
-		volume_fade_out = 3.000000
-		delay_rand_min = 0.000000
-		delay_rand_max = 0.150000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.300000
-		distance_max = 2500.000000
+		volume = 0.3
+		volume_fade_out = 3.0
+		delay_rand_min = 0.0
+		delay_rand_max = 0.15
+		use_hrtf = 1.0
+		occlusion_scale = 0.3
+		distance_max = 2500.0
 		mixgroup = "NPC_Med"
 		should_pause = true
 		vsnd_files = 
@@ -336,13 +337,13 @@
 	Zombie_Revived.Electric_Bolt_Zap = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		volume_fade_out = 4.000000
-		pitch_rand_min = -0.150000
-		pitch_rand_max = 0.150000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.500000
-		distance_max = 2500.000000
+		volume = 0.8
+		volume_fade_out = 4.0
+		pitch_rand_min = -0.15
+		pitch_rand_max = 0.15
+		use_hrtf = 1.0
+		occlusion_scale = 0.5
+		distance_max = 2500.0
 		mixgroup = "NPC_Med"
 		vsnd_files = 
 		[
@@ -361,12 +362,12 @@
 	Zombie_Revived.Shockwave_Vox_Attack = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		pitch_rand_min = -0.200000
-		pitch_rand_max = 0.200000
-		volume_falloff_min = 300.000000
-		occlusion_scale = 0.600000
-		use_hrtf = 1.000000
+		volume = 0.8
+		pitch_rand_min = -0.2
+		pitch_rand_max = 0.2
+		volume_falloff_min = 300.0
+		occlusion_scale = 0.6
+		use_hrtf = 1.0
 		mixgroup = "Zombies"
 		should_pause = true
 		vsnd_files = 
@@ -381,10 +382,10 @@
 	Zombie_Revived.Shockwave_Vox_Tell = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		volume_falloff_min = 300.000000
-		occlusion_scale = 0.400000
-		use_hrtf = 1.000000
+		volume = 1.4
+		volume_falloff_min = 300.0
+		occlusion_scale = 0.4
+		use_hrtf = 1.0
 		mixgroup = "Zombies"
 		should_pause = true
 		vsnd_files = 
@@ -398,20 +399,20 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "Zombie_Revived.ElectricalStorm_Tell_Core"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "Zombie_Revived.ElectricalStorm_Tell_Bass"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	Zombie_Revived.ElectricalStorm_Tell_Core = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 3000.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.200000
+		volume = 1.2
+		volume_falloff_min = 400.0
+		volume_falloff_max = 3000.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.2
 		mixgroup = "NPC_High"
-		set_mixlayer = 1.000000
+		set_mixlayer = 1.0
 		mixlayer_to_set = "NPC_Ducking_A"
 		should_pause = true
 		vsnd_files = 
@@ -424,14 +425,14 @@
 	Zombie_Revived.ElectricalStorm_Tell_Bass = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 3000.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.100000
+		volume = 0.8
+		volume_falloff_min = 400.0
+		volume_falloff_max = 3000.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.1
 		use_named_send = "loud"
 		mixgroup = "NPC_High"
-		set_mixlayer = 1.000000
+		set_mixlayer = 1.0
 		mixlayer_to_set = "NPC_Ducking_A"
 		should_pause = true
 		vsnd_files = 
@@ -445,20 +446,20 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "Zombie_Revived.ElectricalStorm_Rise_Core"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "Zombie_Revived.ElectricalStorm_Rise_Bass"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	Zombie_Revived.ElectricalStorm_Rise_Core = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 3000.000000
-		use_hrtf = 1.000000
+		volume = 1.2
+		volume_falloff_min = 400.0
+		volume_falloff_max = 3000.0
+		use_hrtf = 1.0
 		mixgroup = "NPC_High"
-		occlusion_scale = 0.200000
-		set_mixlayer = 1.000000
+		occlusion_scale = 0.2
+		set_mixlayer = 1.0
 		mixlayer_to_set = "NPC_Ducking_A"
 		should_pause = true
 		vsnd_files = 
@@ -471,14 +472,14 @@
 	Zombie_Revived.ElectricalStorm_Rise_Bass = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 3000.000000
-		use_hrtf = 1.000000
+		volume = 0.9
+		volume_falloff_min = 400.0
+		volume_falloff_max = 3000.0
+		use_hrtf = 1.0
 		mixgroup = "NPC_High"
-		occlusion_scale = 0.100000
+		occlusion_scale = 0.1
 		use_named_send = "loud"
-		set_mixlayer = 1.000000
+		set_mixlayer = 1.0
 		mixlayer_to_set = "NPC_Ducking_A"
 		should_pause = true
 		vsnd_files = 
@@ -491,11 +492,11 @@
 	Zombie_Revived.ElectricalStorm_Whoosh = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.650000
+		use_hrtf = 1.0
+		volume = 0.65
 		mixgroup = "NPC_High"
-		occlusion_scale = 0.600000
-		set_mixlayer = 1.000000
+		occlusion_scale = 0.6
+		set_mixlayer = 1.0
 		mixlayer_to_set = "NPC_Ducking_A"
 		vsnd_files = 
 		[
@@ -506,20 +507,20 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "Zombie_Revived.ElectricalStorm_Shoot_Core"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "Zombie_Revived.ElectricalStorm_Shoot_Layer"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	Zombie_Revived.ElectricalStorm_Shoot_Core = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 3000.000000
-		use_hrtf = 1.000000
+		volume = 1.2
+		volume_falloff_min = 400.0
+		volume_falloff_max = 3000.0
+		use_hrtf = 1.0
 		mixgroup = "NPC_High"
-		occlusion_scale = 0.100000
-		set_mixlayer = 1.000000
+		occlusion_scale = 0.1
+		set_mixlayer = 1.0
 		mixlayer_to_set = "NPC_Ducking_A"
 		vsnd_files = 
 		[
@@ -530,14 +531,14 @@
 	Zombie_Revived.ElectricalStorm_Shoot_Layer = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 3000.000000
-		use_hrtf = 1.000000
+		volume = 0.9
+		volume_falloff_min = 200.0
+		volume_falloff_max = 3000.0
+		use_hrtf = 1.0
 		mixgroup = "NPC_High"
 		use_named_send = "loud"
-		occlusion_scale = 0.100000
-		set_mixlayer = 1.000000
+		occlusion_scale = 0.1
+		set_mixlayer = 1.0
 		mixlayer_to_set = "NPC_Ducking_A"
 		vsnd_files = 
 		[
@@ -549,16 +550,16 @@
 	Zombie_Revived.ElectricalStormLoop = 
 	{
 		type = "hlvr_3d_projectile"
-		volume = 1.400000
-		volume_fade_out = 1.000000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 800.000000
-		occlusion_scale = 0.200000
-		use_hrtf = 1.000000
+		volume = 1.4
+		volume_fade_out = 1.0
+		volume_falloff_min = 200.0
+		volume_falloff_max = 800.0
+		occlusion_scale = 0.2
+		use_hrtf = 1.0
 		passby_soundevent_name = "Zombie_Revived.Projectile_Passby"
 		mixgroup = "Zombies"
-		block_volume_atten = 1.000000
-		block_pitch_from_code = 1.000000
+		block_volume_atten = 1.0
+		block_pitch_from_code = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -568,9 +569,9 @@
 	Zombie_Revived.Projectile_Passby = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "Zombies"
-		use_doppler = 1.000000
+		use_doppler = 1.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -584,21 +585,21 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "Zombie_Revived.ElectricalStorm_End_Core"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "Zombie_Revived.ElectricalStorm_End_Layer"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	Zombie_Revived.ElectricalStorm_End_Core = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 1.400000
-		volume_falloff_min = 300.000000
-		volume_fade_out = 5.000000
-		occlusion_scale = 0.200000
+		use_hrtf = 1.0
+		volume = 1.4
+		volume_falloff_min = 300.0
+		volume_fade_out = 5.0
+		occlusion_scale = 0.2
 		mixgroup = "Zombies"
 		should_pause = true
-		static_position = 1.000000
+		static_position = 1.0
 		vsnd_files = 
 		[
 			"sounds/creatures/zombie_revived/shockwave_projectile_end_01.vsnd",
@@ -609,13 +610,13 @@
 	Zombie_Revived.ElectricalStorm_End_Layer = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.800000
-		volume_fade_out = 5.000000
-		occlusion_scale = 0.100000
+		use_hrtf = 1.0
+		volume = 0.8
+		volume_fade_out = 5.0
+		occlusion_scale = 0.1
 		mixgroup = "Zombies"
 		should_pause = true
-		static_position = 1.000000
+		static_position = 1.0
 		vsnd_files = 
 		[
 			"sounds/creatures/zombie_revived/shockwave_projectile_end_layer_01.vsnd",
@@ -625,13 +626,13 @@
 	Zombie_Revived.ZapAttack = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		use_hrtf = 1.000000
+		volume = 0.6
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		use_hrtf = 1.0
 		mixgroup = "Zombies"
-		volume_falloff_max = 800.000000
-		distance_max = 801.000000
+		volume_falloff_max = 800.0
+		distance_max = 801.0
 		vsnd_files = 
 		[
 			"sounds/player/damage/electric_zap_01.vsnd",
@@ -644,30 +645,30 @@
 	{
 		type = "hlvr_rand_parent"
 		random_soundevent_01_name = "Zombie_Revived.Vox_Grunt_Misc"
-		random_soundevent_01_timer_min = 1.000000
-		random_soundevent_01_timer_max = 2.200000
+		random_soundevent_01_timer_min = 1.0
+		random_soundevent_01_timer_max = 2.2
 	}
 	Zombie_Revived.Vox_Grunt_Misc_Danger = 
 	{
 		base = "Zombie_Revived.Vox_Grunt_Misc"
-		volume = 0.400000
-		pitch = 0.900000
-		occlusion_scale = 0.300000
+		volume = 0.4
+		pitch = 0.9
+		occlusion_scale = 0.3
 	}
 	Zombie_Revived.Scripted_Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.100000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 2000.000000
+		volume = 1.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.1
+		volume_falloff_min = 400.0
+		volume_falloff_max = 2000.0
 		mixgroup = "Zombies"
 	}
 	Zombie_Revived.Scripted_Intro_Electrics = 
 	{
 		base = "Zombie_Revived.Scripted_Base"
-		volume = 1.200000
+		volume = 1.2
 		vsnd_files = 
 		[
 			"sounds/creatures/zombie_revived/scripted_intro/electrics.vsnd",
@@ -684,7 +685,7 @@
 	Zombie_Revived.Scripted_Intro_Fall_Impact = 
 	{
 		base = "Zombie_Revived.Scripted_Base"
-		volume = 1.200000
+		volume = 1.2
 		vsnd_files = 
 		[
 			"sounds/creatures/zombie_revived/scripted_intro/fall_impact.vsnd",
@@ -693,7 +694,7 @@
 	Zombie_Revived.Scripted_Intro_Pushback = 
 	{
 		base = "Zombie_Revived.Scripted_Base"
-		volume = 1.200000
+		volume = 1.2
 		vsnd_files = 
 		[
 			"sounds/creatures/zombie_revived/scripted_intro/pushback.vsnd",
@@ -702,7 +703,7 @@
 	Zombie_Revived.Scripted_Intro_Riser = 
 	{
 		base = "Zombie_Revived.Scripted_Base"
-		volume = 0.600000
+		volume = 0.6
 		vsnd_files = 
 		[
 			"sounds/creatures/zombie_revived/scripted_intro/riser.vsnd",
@@ -719,7 +720,7 @@
 	Zombie_Revived.Scripted_Gore_Pop = 
 	{
 		base = "Zombie_Revived.Scripted_Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/zombie_revived/scripted_intro/gore_pop.vsnd",
@@ -760,10 +761,10 @@
 	Zombie_Revived.Scripted_Intro_Foley_Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.100000
-		volume_falloff_max = 2000.000000
+		volume = 0.9
+		use_hrtf = 1.0
+		occlusion_scale = 0.1
+		volume_falloff_max = 2000.0
 		mixgroup = "Zombies"
 	}
 	Zombie_Revived.Scripted_Intro_Foley_01 = 
@@ -785,7 +786,7 @@
 	Zombie_Revived.Scripted_Intro_Foley_03 = 
 	{
 		base = "Zombie_Revived.Scripted_Intro_Foley_Base"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = 
 		[
 			"sounds/creatures/zombie_revived/scripted_intro/foley_03.vsnd",

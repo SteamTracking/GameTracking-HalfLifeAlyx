@@ -1,0 +1,685 @@
+"lang" 
+{ 
+"Language" "turkish" 
+"Tokens" 
+{ 
+
+// main menu
+"HLVR_MainMenu_NewGame"						"Start New Game"
+"HLVR_MainMenu_Continue"					"Devam Et"
+"HLVR_MainMenu_LoadGame"					"Kayıtlı Oyunu Yükle"
+"HLVR_MainMenu_Quit"							"Oyundan Çık"
+"HLVR_MainMenu_Options"						"Seçenekler"
+"HLVR_MainMenu_PhotoMode"					"Fotoğraf Modu"
+"HLVR_MainMenu_SelectChapter"			"Bölüm Seç"
+"HLVR_MainMenu_Back"							"Geri"
+
+"HLVR_MainMenu_MainMenu"					"Ana Menü"
+"HLVR_MainMenu_Resume"						"Devam Et"
+"HLVR_MainMenu_Save"  						"Kaydet"
+"HLVR_MainMenu_Load"  						"Yükle"
+"HLVR_MainMenu_SavedGames"				"Oyunlar"
+"HLVR_MainMenu_StartNewGame"	  	"Yeni Oyun Başlat"
+"HLVR_MainMenu_StartGame"	  			"Oyunu Başlat"
+"HLVR_MainMenu_StartGameNoAddon"	  	"Oyunu Eklentisiz Başlat"
+"HLVR_MainMenu_StartGameAddon"	  	"Oyunu Eklentilerle Başlat"
+"HLVR_MainMenu_CreateNewGame"	  	"Yeni Oyun Oluştur"
+
+"HLVR_MainMenu_Start"							"Başlat"
+
+"HLVR_MainMenu_LoadSlot"					"Kaydı Yükle - %s"
+"HLVR_MainMenu_GameSlotHeader"		"Kayıt Yeri - %s"
+"HLVR_MainMenu_GameSlotConfirm"		"\nKayıt Yeri - %s"
+
+"HLVR_MainMenu_SaveSlot"    	  	"Kayıt Yeri"
+"HLVR_MainMenu_GameSlot"    	  	"Kayıt Yeri"
+"HLVR_MainMenu_Overwrite"    	  	"Üzerine Kaydet"
+"HLVR_MainMenu_Overwrite_desc"		"Bütün kayıt yerleri dolu. Üzerine yazmak istediğiniz birini seçin. \n\nUYARI: Bu işlem kayıt yerindeki mevcut oyun kaydını siler."
+"HLVR_MainMenu_StartOver"					"Üzerine kaydedilsin mi?"
+"HLVR_MainMenu_NewGame"						"Yeni Oyun?"
+"HLVR_MainMenu_Slot"    	  			"Kayıt Yeri"
+"HLVR_MainMenu_SlotOverwrite"			"ÜZERİNE KAYDEDİLECEK BİR KAYIT YERİ SEÇİN"
+
+"HLVR_QuickSave"									"Hızlı Kaydet"
+"HLVR_AutoSave"									  "Otomatik Kaydet"
+
+"HLVR_Skip_Credits"								"Jeneriği Geç"
+"HLVR_Skip_Credits_Confirm"				"Jenerik geçilsin mi?"
+
+"HLVR_Addons"							"Eklentiler"
+"HLVR_MainMenu_ManageAddons"			"Eklentileri Yönet"
+"HLVR_MainMenu_AddonsToolsMode"			"Araçlar modundayken eklentilere sahip bir harita yüklenemez."
+"HLVR_MainMenu_StartAddonGame"			"Oyunu Şu Eklentilerle Başlat:"
+"HLVR_MainMenu_AddonDisabled"			"İlişkilendirilmiş Eklenti Devre Dışı"
+"HLVR_MainMenu_AddonNotAvailable"		"İlişkili eklenti bu harita için artık kullanılamıyor.\nDevam etmek için bu eklentiye tekrar abone olun ve etkinleştirin."
+"HLVR_MainMenu_NoAddonsEnabled"			"Eklentilerin olduğu oyun için etkinleştirilmiş bir eklenti yok"
+"HLVR_MainMenu_AddonToggleInfo"			"Açmak veya kapatmak için soldaki aç/kapat sembolüne tıklayın"
+"HLVR_MainMenu_LocalAddon"				"Yerel Eklenti"
+"HLVR_MainMenu_MissingAddon"			"Aşağıdaki eklenti(ler) eksik. Bu dosyanın yüklenmesi için lütfen tekrar abone olun."
+
+"HLVR_MainMenu_OriginalGame"			"Orijinal Oyunlar"
+"HLVR_MainMenu_AddonGame"				"Eklenti Oyunları"
+
+"HLVR_MainMenu_OriginalMaps"			"Orijinal Oyun"
+"HLVR_MainMenu_AddonMaps"				"Eklenti Haritaları"
+
+"HLVR_MainMenu_AddonUpVote"				"Olumlu Oylar"
+"HLVR_MainMenu_AddonDownVote"			"Olumsuz Oylar"
+
+"HLVR_browse_workshop_label"			"Atölye'ye Göz At"
+"HLVR_browse_workshop_confirm"			"Atölye'ye Steam arayüzünden göz atılsın mı?"
+"HLVR_browse_workshop_desc"				"Half-Life: Alyx Atölyesi'ne Steam arayüzünden göz atın"
+
+"HLVR_local_addons"				"Yerel Eklentiler"
+"HLVR_downloaded_addons"		"İndirilmiş Eklentiler"
+"HLVR_enabled_addons"			"Etkin Eklentiler:"
+"HLVR_addon_game"				"Eklentilerin Etkin Olduğu Oyun"
+
+"HLVR_MainMenu_Attention"												"Dikkat"
+"HLVR_MainMenu_Attention_MinSpec_CPU"								"İşlemciniz Half-Life: Alyx'in asgari gereksinimlerini karşılamıyor."
+"HLVR_MainMenu_Attention_MinSpec_RAM"								"Sistem belleğiniz Half-Life: Alyx'in asgari gereksinimlerini karşılamıyor."
+"HLVR_MainMenu_Attention_MinSpec_GPU"								"Ekran kartınız Half-Life: Alyx'in asgari gereksinimlerini karşılamıyor."
+"HLVR_MainMenu_Attention_Above_Recommended"					"Ayarlarınız tavsiye edilen ayar seviyesinin üstünde."
+"HLVR_MainMenu_Attention_Warning"										"Oyun tecrübeniz kötü yönde etkilenebilir."
+"HLVR_MainMenu_Attention_Graphics_Reset"						"Performans ayarlarınız tavsiye edilen ayar seviyesine çekildi."
+"HLVR_MainMenu_Attention_LowDiskSpaceForSwapfile"				"Half-Life: Alyx, işletim sistemi diskinizdeki yer azlığının neden olabileceği disk belleği boyutu kısıtlamasından ötürü kararsız bir şekilde çalışabilir."
+"HLVR_MainMenu_Attention_Low_GPU_Memory"						"Kullanılabilir ekran kartı belleğinin az olduğu tespit edildi. Kullanılabilir ekran kartı belleği miktarını artırmak için lütfen gereksiz açık programları kapatın."
+"HLVR_MainMenu_Attention_Low_System_Memory"						"Kullanılabilir sistem belleğinin az olduğu tespit edildi. Kullanılabilir sistem belleği miktarını artırmak için lütfen gereksiz açık programları kapatın."
+"HLVR_MainMenu_Old_Driver_Version"								"Ekran kartı sürücünüzün sürümü, Half-Life: Alyx'in Vulkan için gerektirdiği sürümden düşük. Lütfen en güncel ekran kartı sürücüsünü yükleyin."
+"HLVR_MainMenu_Attention_LoadErrorMap"							"İstenilen harita bulunamadığı için oyun yüklenemedi:"
+"HLVR_MainMenu_Attention_LoadErrorAddons"						"Buna, çalışan şu eklentilerden biri neden olmuş olabilir:"
+
+"HLVR_MainMenu_ModalQuit"						"Half-Life: Alyx'den çıkılsın mı?"
+"HLVR_MainMenu_ModalMainMenu"					"Ana menüye gidilsin mi?"
+"HLVR_MainMenu_ModalLoadGame"					"Kayıt dosyası yüklensin mi?"
+"HLVR_MainMenu_ModalNewGame"					"Yeni oyun oluşturulsun mu?"
+"HLVR_MainMenu_ModalNewGameOverwrite"			"Mevcut oyun kaydı verisi silinip yeni bir oyun oluşturulsun mu?"
+
+"HLVR_MainMenu_ModalAccept"						"Kabul Et"
+"HLVR_MainMenu_ModalCancel"						"İptal Et"
+
+"HLVR_Pause_Menu_Only"								"Bu seçeneklere yalnızca oyun esnasında açacağınız duraklatma menüsünden erişilebilir."
+
+"HLVR_MainMenu_Init_desc"		    			"Yazı yazarken kullandığınız elinizi seçin.\n\nBu tercihinizi istediğiniz zaman seçeneklerden değiştirebilirsiniz."
+
+"HLVR_MainMenu_NewGame_desc" 					"Yeni bir Half-Life: Alyx oyununa başlayın."
+"HLVR_MainMenu_SaveGame_desc" 					"Mevcut ilerlemenizi hızlı bir şekilde kaydedin."
+
+"HLVR_MainMenu_Resin"							"Reçine"
+"HLVR_MainMenu_HP"								"SP"
+"HLVR_MainMenu_Pistol"							"Tabanca"
+"HLVR_MainMenu_Shotgun"							"Pompalı Tüfek"
+"HLVR_MainMenu_RapidFire"						"Hafif Makineli Tüfek"
+
+"HLVR_MainMenu_Days"							"G"		// Short hand for Days
+"HLVR_MainMenu_Hrs"								"SA"		// Short Hand for Hours
+
+"HLVR_MainMenu_DeleteSlot_desc"				"Bu kayıt yerindeki tüm oyun kayıtlarını silin"
+"HLVR_MainMenu_DeleteSlot_Confirm"		"Bu kayıt yerindeki tüm oyun kayıtları kalıcı olarak silinsin mi?"
+
+"HLVR_NoSaving"			"Oyun şu anda kaydedilemiyor"
+
+"HLVR_Sibling_L"											"Sol"
+"HLVR_Sibling_R"											"Sağ"
+
+"HLVR_Options_Game_Preferences"				"Kayıt Yeri"
+"HLVR_Options_System_Options"					"Sistem"
+
+"HLVR_Options_Diffculty_base"					"Zorluk"
+
+"HLVR_Options_Diffculty_story"					"Hikâye"
+"HLVR_Options_Diffculty_easy"					"Kolay"
+"HLVR_Options_Diffculty_normal"					"Normal"
+"HLVR_Options_Diffculty_hard"					"Zor"
+
+"HLVR_Options_Diffculty_story_desc"					"Oldukça basit bir çatışma tecrübesi."
+"HLVR_Options_Diffculty_easy_desc"					"Kısmen zorlayıcı bir çatışma tecrübesi."
+"HLVR_Options_Diffculty_normal_desc"				"Zorlayıcı bir çatışma tecrübesi."
+"HLVR_Options_Diffculty_hard_desc"					"Oldukça zorlayıcı bir çatışma tecrübesi."
+
+"HLVR_Options_On"					"Açık"
+"HLVR_Options_Off"				"Kapalı"
+
+"HLVR_Options_Commentary"					"Geliştirici Yorumları"
+"HLVR_Options_Commentary_desc"				"Oyun sırasında gösterilecek geliştirici yorumlarını etkinleştir.\n\nDİKKAT: Yorumlar önemli ölçüde SÜRPRİZ BOZAN İÇERİR.\n\nOyunu bitirdikten sonra etkinleştirmenizi öneriyoruz.\n\nGeliştirici yorumlarının Türkçe çevirisi bulunmamaktadır."
+
+"HLVR_Options_Movement_Base"					"Hareket"
+"HLVR_Options_Movement_Blink"					"Işınlanma"
+"HLVR_Options_Movement_Shift"					"Kayma"
+"HLVR_Options_Movement_Continuous"				"Kesintisiz"
+"HLVR_Options_Movement_Continuous_Hand"		"Kesintisiz (El ile)"
+
+"HLVR_Options_Movement_Blink_desc"					"Gitmek istediğiniz yerlere ışınlanırsınız, ekran kısa bir süreliğine kararır. En rahat hareket etme türü budur."
+"HLVR_Options_Movement_Shift_desc"					"Gitmek istediğiniz yerlere hızlı bir şekilde tek bir hat üzerinde kayarsınız."
+"HLVR_Options_Movement_Continuous_desc"				"Elinizin konumuna göre kesintisiz bir şekilde ilerlersiniz."
+"HLVR_Options_Movement_Continuous_Hand_desc"		"Başınızın konumuna göre kesintisiz bir şekilde ilerlersiniz."
+
+"HLVR_Options_Preferences"						"Tercihler"
+"HLVR_Options_Accessibility"					"Erişilebilirlik"				
+"HLVR_Options_Interface"						"Arayüz"
+"HLVR_Options_Audio"							"Ses Düzeyi"
+"HLVR_Options_Graphics"							"Performans"
+"HLVR_Options_Language"							"Dil"
+
+"HLVR_Options_WeaponSwitch"					"Silah Seçme Türü"
+"HLVR_Options_WeaponSwitch_desc"		"Silah seçme menüsünün kullanım türü."
+"HLVR_Options_WeaponSwitch_HMD"			"Baş"
+"HLVR_Options_WeaponSwitch_Hand"		"El"
+"HLVR_Options_WeaponSwitch_Hybrid"	"Karışık"
+
+"HLVR_Options_Ladder_Climb"					"Merdivenlere Elle Tırmanma"
+"HLVR_Options_Ladder_Climb_desc"		"Merdivenlere elle tırmanabilmeyi etkinleştirir."
+
+"HLVR_Options_Barnacle_Lift"				"Sülük Kaldırması"
+"HLVR_Options_Barnacle_Lift_desc"		"Sülüklerin oyuncuları yerden kaldırmasına izin verir."
+
+"HLVR_Options_Turn_Off"							"Kontrolcü Dönüşü Kapalı"
+"HLVR_Options_Turn_Snap"						"Hızlı Dönüş"
+"HLVR_Options_Turn_Continuous"					"Kesintisiz Dönüş"
+
+"HLVR_Options_Turn_Off_desc"					"Baktığınız yöne doğru kontrolcüyle dönmek istiyorsanız \"hızlı dönüş\" veya \"kesintisiz dönüş\" seçeneğini kullanın"
+"HLVR_Options_Turn_Snap_desc"					"Hızlı dönüşte, baktığınız yöne doğru belirlemiş olduğunuz açıyla döndürülürsünüz."
+"HLVR_Options_Turn_Continuous_desc"				"Kesintisiz dönüşte, baktığınız yöne doğru belirlemiş olduğunuz hızla döndürülürsünüz."
+
+"HLVR_Options_QuickTurn_Angle_Base"				"Hızlı Dönüş Açısı"
+"HLVR_Options_QuickTurn_Angle_desc"				"Hızlı dönüşün dönüş açısını kontrol eder."
+
+"HLVR_Options_ContinuousTurn_Speed_Base"		"Kesintisiz Dönüş Hızı"
+"HLVR_Options_ContinuousTurn_Speed_desc"		"Kesintisiz dönüşün açısal ivmesini kontrol eder."
+
+"HLVR_Options_DLC_Skins"						"Ön Sipariş Kaplamaları"
+"HLVR_Options_DLC_Skins_desc"					"Valve Index ön siparişiyle gelen silah kaplamalarını etkinleştir."
+
+"HLVR_Options_Subtitles"						"Altyazılar"
+"HLVR_Options_Subtitles_Base"					"Altyazılar"
+"HLVR_Options_Subtitles_None"					"Altyazılar Kapalı"
+"HLVR_Options_Subtitles_On"						"Altyazılar Açık"
+"HLVR_Options_Subtitles_CC_On"					"Altyazılar ve CC"
+"HLVR_Options_Subtitles_desc"					"Altyazılar ve CC görünecek şekilde ayarlandı."
+
+"HLVR_Options_Subtitles_Speed"					"Hız"
+"HLVR_Options_Subtitles_Slow_Speed"				"Yavaş"
+"HLVR_Options_Subtitles_Medium_Speed"			"Orta"
+"HLVR_Options_Subtitles_Fast_Speed"				"Hızlı"
+"HLVR_Options_ClosedCaptions_Speed_desc"		"Altyazıların gösterileceği hızı kontrol eder."
+
+"HLVR_Options_Subtitles_Size"					"Yazı Boyutu"
+"HLVR_Options_Subtitles_Small_Size"				"Küçük"
+"HLVR_Options_Subtitles_Medium_Size"			"Orta"
+"HLVR_Options_Subtitles_Large_Size"				"Büyük"
+"HLVR_Options_ClosedCaptions_Size_desc"			"Altyazıların boyutunu kontrol eder."
+
+"HLVR_Options_Subtitles_Width"					"Genişlik"
+"HLVR_Options_Subtitles_Narrow"					"Dar"
+"HLVR_Options_Subtitles_Medium"					"Orta"
+"HLVR_Options_Subtitles_Wide"					"Geniş"
+"HLVR_Options_ClosedCaptions_Width_desc"		"Ekrandaki altyazıların genişliğini kontrol eder."
+
+"HLVR_Options_Subtitles_Spectator_Only"			"Sadece izleyici penceresi için"
+"HLVR_Options_Subtitles_Spectator_Only_desc"	"Altyazı ve CC sadece seyirci penceresinde gösterilir."
+
+"HLVR_Options_LeftHanded"						"Silah Eli: Sol"
+"HLVR_Options_RightHanded"						"Silah Eli: Sağ"
+
+"HLVR_Options_LeftHanded_desc"					"Silah elini değiştirir.\n\nSteamVR kontrolcü atamaları menüsünden uygun atamayı seçerek hangi elinizin hareketinizi kontol edeceğini seçebilirsiniz."
+
+"HLVR_display_bindings"							"Kontrolcü Atamaları"
+"HLVR_display_bindings_desc"					"Half-Life: Alyx'in kontrolcü atamalarını görmek veya değiştirmek istiyorsanız SteamVR kontrolcü ayarlarına gidin."
+"HLVR_display_bindings_confirm"					"SteamVR kontrolcü atamalarına gidilsin mi?"
+
+
+"HLVR_Options_ToggleCrouch"					"Eğilme"
+"HLVR_Options_ToggleCrouch_desc"		"Gerektiğinde hızla eğilmenizi veya boyunuzu küçültmenizi sağlar. Bu eylemi SteamVR ayarlarından seçeceğiniz bir girdiye atayın.\n\nBu ayar açıkken oyun esnasında eğilme eylemini kullanabilirsiniz."
+"HLVR_Options_ToggleStand"					"Dik Durma"
+"HLVR_Options_ToggleStand_desc"			"Boyunuzdan kısa bir konumda oynarken, bir yere ulaşmak için dik durmayı kullanın. Bu eylemi SteamVR ayarlarından seçeceğiniz bir girdiye atayın.\n\nOturarak oynuyorsanız bunu kullanmanız tavsiye edilir.\n\nBu ayar açıkken oyun esnasında dik durma eylemini kullanabilirsiniz."
+
+"HLVR_Options_hlvr_adjust_height_mode_base"		"Boy Değiştirme"
+"HLVR_Options_hlvr_adjust_height_mode_0"		"Kapalı"
+"HLVR_Options_hlvr_adjust_height_mode_1"		"Eğilme"
+"HLVR_Options_hlvr_adjust_height_mode_2"		"Dik Durma"
+"HLVR_Options_hlvr_adjust_height_mode_3"		"Eğilme ve Dik Durma"
+"HLVR_Options_hlvr_adjust_height_mode_4"		"Karışık"
+
+"HLVR_Options_hlvr_adjust_height_mode_0_desc"		"Bu, kontrolcünün kontrol ettiği boy değiştirme davranışını belirler.\n\nBu seçenek kapalı olduğu takdirde kontrolcü tarafından kontrol edilen boy değiştirme eylemleri devre dışıdır."
+"HLVR_Options_hlvr_adjust_height_mode_1_desc"		"Sadece eğilme. Dik durma devre dışı.\n\nEğilme eylemi etkinken hızlıca eğilebilir veya boyunuzdan kısa bir konuma uyum sağlayabilirsiniz."
+"HLVR_Options_hlvr_adjust_height_mode_2_desc"		"Sadece dik durma. Eğilme devre dışı.\n\nDik durma eylemi etkinken boyunuzdan uzun bir yere ulaşabilirsiniz.\nOturarak oynadığınız durumlar için önerilir."
+"HLVR_Options_hlvr_adjust_height_mode_3_desc"		"Eğilme ve dik durma eylemleri etkinken boyunuzu kısaltabilir veya uzatabilirsiniz. İki farklı girdi kullanılır."
+"HLVR_Options_hlvr_adjust_height_mode_4_desc"		"Karışık seçeneği hem eğilme hem de dik durma eylemi için tek bir girdi kullanır.\n\nEğilmek için tıklayın.\n\nDik durmak için tıklayın ve basılı tutun."
+
+"HLVR_Options_hlvr_single_controller_mode"				"Tek Kontrolcü"
+"HLVR_Options_hlvr_single_controller_mode_desc"		"Bütün eylemler tek bir kontrolcüye atanır."
+"HLVR_single_controller_prompt_activate"			"\"Tek Kontrolcü\" modunu etkinleştirmek için SteamVR'daki kontrolcü atamalarını değiştirmelisiniz.\nSteamVR kontrolcü atamaları sayfasına gidilsin mi?"
+"HLVR_single_controller_prompt_deactivate"		"\"Tek Kontrolcü\" modunu devre dışı bırakmak için SteamVR'daki kontrolcü atamalarını değiştirmelisiniz.\nSteamVR kontrolcü atamaları sayfasına gidilsin mi?"
+
+"HLVR_Options_r_light_sensitivity_mode"				"Işık Hassasiyeti"
+"HLVR_Options_r_light_sensitivity_mode_desc"	"Işık hassasiyeti modu ışıkların yoğunluğunu ve titreşimlerini azaltır."
+
+"HLVR_Options_Pause_Menu_Distance"	"Duraklama Menüsü Mesafesi"
+"HLVR_Options_Pause_Menu_Distance_Desc"	"Duraklama menüsünün oyuncuya görüneceği mesafeyi belirler."
+"HLVR_Options_Pause_Menu_Height"		"Duraklama Menüsü Yüksekliği"
+"HLVR_Options_Pause_Menu_Height_desc"		"Duraklama menüsünün oyuncuya görüneceği yüksekliğini belirler."
+
+"HLVR_Options_Header_Weapons"					"Silah"
+"HLVR_Options_Header_GameMenu"					"Oyun Menüsü"
+"HLVR_Options_Header_Spectator"					"İzleyici"
+
+"HLVR_Options_SpectatorHud_desc"				"İzleyici penceresindeki göstergenin boyutunu belirler"
+"HLVR_Options_SpectatorHud_base"				"İzleyici Göstergesi"
+"HLVR_Options_SpectatorHud_off"					"Kapalı"
+"HLVR_Options_SpectatorHud_small"				"Küçük"
+"HLVR_Options_SpectatorHud_med"					"Orta"
+"HLVR_Options_SpectatorHud_large"				"Büyük"
+
+"HLVR_Options_SpectatorCamera_desc"				"İzleyici penceresindeki kamera yumuşatma miktarını belirler.\n\nYüksek yaklaştırma seviyesi gerektirir."
+"HLVR_Options_SpectatorCamera_base"				"İzleyici Kamerası Yumuşatması"
+"HLVR_Options_SpectatorCamera_off"				"Kapalı"
+"HLVR_Options_SpectatorCamera_low"				"Düşük"
+"HLVR_Options_SpectatorCamera_med"				"Orta"
+"HLVR_Options_SpectatorCamera_high"				"Yüksek"
+
+"HLVR_Options_SpectatorZoom_desc"				"İzleyici yakınlaştırması seviyesi."
+"HLVR_Options_SpectatorZoom_Base"				"İzleyici Yakınlaştırması"
+"HLVR_Options_SpectatorZoom_low"				"Düşük"
+"HLVR_Options_SpectatorZoom_high"				"Yüksek"
+
+"HLVR_Options_Spectator_Eye_desc"				"İzleyici penceresinde oyuncunun hangi gözünün kullanılacağını belirler"
+"HLVR_Options_Spectator_Eye_Base"				"İzleyici Gözü"
+"HLVR_Options_Eye_Left"							"Sol"
+"HLVR_Options_Eye_Right"						"Sağ"
+
+"HLVR_Options_SpectatorSteamVR_desc"			"İzleyici göstergesini SteamVR penceresinde göster.\n\nBunun karşılığında performans biraz etkilenir."
+"HLVR_Options_SpectatorSteamVR_Base"			"SteamVR'da İzleyici Göstergesi"
+"HLVR_Options_SpectatorSteamVR_On"				"Açık"
+"HLVR_Options_SpectatorSteamVR_Off"				"Kapalı"
+
+"HLVR_Options_SpectatorEye_desc"				"Monitör veya televizyon gibi VR dışı bir ekrana yansıtılan görüntü perspektifinin hangi gözden olacağını seçin.\n\nBu, varsayılan olarak silah tuttuğunuz el tarafıyla aynı gözdür fakat bu ayarı değiştirebilirsiniz."
+"HLVR_Options_SpectatorEye_base"				"İzleyici Görünümü Gözü"
+"HLVR_Options_SpectatorEye_left"				"Sol"
+"HLVR_Options_SpectatorEye_right"				"Sağ"
+
+"HLVR_Options_Graphics_Rendering"				"İşleme"
+"HLVR_Options_Graphics_Particles"				"Parçacıklar"
+"HLVR_Options_Graphics_Misc"					"Diğer"
+"HLVR_Options_Graphics_Audio"					"Ses"
+
+"HLVR_Options_Fidelity_Low"								"Düşük Kalite"
+"HLVR_Options_Fidelity_Medium"						"Orta Kalite"
+"HLVR_Options_Fidelity_Medium_Long"				"Orta Kalite"
+"HLVR_Options_Fidelity_High"							"Yüksek Kalite"
+"HLVR_Options_Fidelity_Ultra"							"Ultra Kalite"
+"HLVR_Options_Fidelity_Custom"						"Özel Kalite"
+
+"HLVR_Options_Graphics_Adv_desc" "Gelişmiş Performans Ayarlarını Gizle/Göster"
+
+"HLVR_Options_Graphics_Reset"					"Sıfırla"
+"HLVR_Options_Graphics_Reset_desc"				"Performans ayarlarını tavsiye edilen ayar seviyesine sıfırlayın"
+"HLVR_Options_Graphics_Reset_modal"				"Performans ayarları tavsiye edilen ayar seviyesine sıfırlansın mı?"
+"HLVR_Options_Graphics_Base"					"Kalite"
+"HLVR_Options_Graphics_desc"					 "Oyunun performans ayarları otomatik olarak belirlendi. Bu ayarları değiştirirseniz FPS'iniz olumsuz etkilenebilir."
+
+"HLVR_Options_Graphics_Textures_Base"			"Dokular"
+"HLVR_Options_Graphics_Textures_Desc"			"Doku kalitesini belirler\n\nDoku kalitesi, performans kalitesi ayarlarından bağımsızdır"
+"HLVR_Options_Graphics_Textures_Low"			"Düşük"
+"HLVR_Options_Graphics_Textures_Medium"	"Orta"
+"HLVR_Options_Graphics_Textures_High"		"Yüksek"
+"HLVR_Options_Graphics_Textures_Ultra"		"Ultra"
+
+"HLVR_Options_Graphics_Shadows_Base"			"Gölgeler"
+"HLVR_Options_Graphics_Shadows_Low"			"Düşük"
+"HLVR_Options_Graphics_Shadows_Med"			"Orta"
+"HLVR_Options_Graphics_Shadows_High"			"Yüksek"
+"HLVR_Options_Graphics_Shadows_Ultra"			"Ultra"
+
+"HLVR_Options_Graphics_Characters_Base"			"Karakterler"
+"HLVR_Options_Graphics_Characters_Low"			"Düşük"
+"HLVR_Options_Graphics_Characters_Med"			"Orta"
+"HLVR_Options_Graphics_Characters_High"			"Yüksek"
+"HLVR_Options_Graphics_Characters_Ultra"			"Ultra"
+
+"HLVR_Options_Graphics_Fog_Base"			"Sis"
+"HLVR_Options_Graphics_Fog_Low"			"Düşük"
+"HLVR_Options_Graphics_Fog_Med"			"Orta"
+"HLVR_Options_Graphics_Fog_High"			"Yüksek"
+"HLVR_Options_Graphics_Fog_Ultra"			"Ultra"
+
+"HLVR_Options_Graphics_Particles_Base"			"Parçacıklar"
+"HLVR_Options_Graphics_Particles_Low"			"Düşük"
+"HLVR_Options_Graphics_Particles_Med"			"Orta"
+"HLVR_Options_Graphics_Particles_High"			"Yüksek"
+"HLVR_Options_Graphics_Particles_Ultra"			"Ultra"
+
+"HLVR_Options_Graphics_Audio_Base"			"Ses"
+"HLVR_Options_Graphics_Audio_Low"			"Düşük"
+"HLVR_Options_Graphics_Audio_Med"			"Orta"
+"HLVR_Options_Graphics_Audio_High"			"Yüksek"
+"HLVR_Options_Graphics_Audio_Ultra"			"Ultra"
+
+"HLVR_Options_High_Quality_Holograms"			"Yüksek Kaliteli Hologramlar"
+"HLVR_Options_High_Quality_Holograms_on"			"Açık"
+"HLVR_Options_High_Quality_Holograms_off"			"Kapalı"
+"HLVR_Options_r_light_flickering_enabled"			"Işık Titreşimi"
+
+"HLVR_Options_Rendering_API"					"İşleme API'ı"
+"HLVR_Options_Rendering_API_D3D11"				"Direct3D 11"
+"HLVR_Options_Rendering_API_Vulkan"				"Vulkan"
+"HLVR_Options_Rendering_API_Current"			"Mevuct API:"
+"HLVR_Options_Rendering_API_Desc_Locked"		"Başlatma seçeneklerinde işleme API'ı belirtilmiş. Bir işleme API'ı seçmek için başlatma seçeneğini kaldırın."
+"HLVR_Options_Rendering_API_Desc_Restart"		"\n\nBu değişikliğin etkinleşmesi için oyunun yeniden başlatılması gerekir.\n\n"
+"HLVR_Options_Rendering_API_Desc"				"Bu ayarı değiştirdikten sonra oyun düzgün bir şekilde başlamazsa, başlatma seçeneklerine -safe_mode satırını ekleyerek varsayılan işleme API'ı ile başlatabilirsiniz."
+
+"HLVR_Options_cloth_rigid_update_Base"			"Yumuşak Kumaş"
+
+"HLVR_Options_g_ragdoll_maxcount_Base"			"Ragdoll Sayısı"
+"HLVR_Options_g_ragdoll_maxcount_Base_Low"	"Düşük"
+"HLVR_Options_g_ragdoll_maxcount_Base_Med"	"Orta"
+"HLVR_Options_g_ragdoll_maxcount_Base_High"	"Yüksek"
+"HLVR_Options_g_ragdoll_maxcount_Base_Ultra"	"Ultra"
+
+"HLVR_Options_Audio_Master"						"Ana Ses"
+"HLVR_Options_Audio_Master_desc"				"Bütün seslerin düzeyini kontrol eder."
+"HLVR_Options_Audio_GameSounds"					"Oyun"
+"HLVR_Options_Audio_GameSounds_desc" 			"Oyundaki ses efektlerinin düzeyini kontrol eder."
+"HLVR_Options_Audio_Music"						"Savaş Müziği"
+"HLVR_Options_Audio_Music_desc"					"Savaş esnasında çalan müziğin düzeyini kontrol eder."
+"HLVR_Options_Audio_Voice"						"Karakter Sesi"
+"HLVR_Options_Audio_Voice_desc"					"Karakterlerin ses düzeyini kontrol eder."
+
+"HLVR_Loading"									"YÜKLENİYOR"
+"HLVR_Loading_Trigger_Start"					"Başlamak için %s butonuna basın"
+
+"HLVR_PhotoMode_TakePhoto"						"Fotoğraf Çek"
+"HLVR_PhotoMode_Hide"							"Arayüzü Gizle"
+"HLVR_PhotoMode_Return"							"Geri Dön"
+
+// spectator hud
+"HLVR_HUD_Ammo"									"Cephane"
+"HLVR_HUD_Health"								"Sağlık"
+"HLVR_HUD_Resin"								"Reçine"
+
+// game instructor lessons
+"HLVR_Lesson_Single_Controller_On"	"Tek Kontrolcü Modu Etkin"
+"HLVR_Lesson_Single_Controller_Off"	"Tek Kontrolcü Modu Devre Dışı"
+"HLVR_Lesson_Movement_PrimaryHand"	"Silah tutan elin hareket kontrolleri.\nBunları SteamVR kontrolcü atamaları sayfasından değiştirebilirsiniz"
+"HLVR_Lesson_Movement_OffHand"		"İkincil elin hareket kontrolleri.\nBunları SteamVR kontrolcü atamaları sayfasından değiştirebilirsiniz"
+"HLVR_Lesson_Teleport"							"İlerlemek için çubuğu ittirin"
+"HLVR_Lesson_Quick_Turn"						"Aniden sağa veya sola dönmek için basın"
+"HLVR_Lesson_GrabTrigger"						"Nesneleri tutmak için basın ve basılı tutun"
+"HLVR_Lesson_GrabHands"							"Ellerinizi kullanarak nesneleri tutun"
+"HLVR_Lesson_GrabHandsSingleController"			"Elinizi kullanarak nesneleri tutun"
+"HLVR_Lesson_Interact"							"Kulplarla etkileşime geçmek için\nellerinizi kullanın"
+"HLVR_Lesson_InteractSingleController"			"Kulplarla etkileşime geçmek için\nelinizi kullanın"
+"HLVR_Lesson_Door"								"Kapıyı açmak için\nkapı kolunu çevirin"
+"HLVR_Lesson_SwitchWeapons"						"Silah değiştirmek için basılı tutun"
+"HLVR_Lesson_SwitchWeaponsSingleController"			"Silahınıza geri dönmek için dokunun"
+"HLVR_Lesson_OpenWeaponSelectForMultitool"		"Çok işlevli araca geçmek için basılı tutun"
+"HLVR_Lesson_SelectMultitool"					"Çok işlevli aracı seçin"
+"HLVR_Lesson_UseMultitool"						"Çok işlevli aracı kullanın"
+"HLVR_Lesson_ScavengeItems"						"İşe yarar eşyalar için\netrafınızı araştırın"
+"HLVR_Lesson_LootBodies"						"Cesetlerden eşya toplayın"
+"HLVR_Lesson_OpenGameMenu"						"Oyun menüsünü açmak için basın ve basılı tutun"
+"HLVR_Lesson_Continuous_Mantle"					"Tırmanmak için ileri giderken\nçubuğu ileri ittirmeye devam edin"
+"HLVR_Lesson_Continuous_Jump"					"Zıplama göstergesini çıkartmak için çubuğu kendinize doğru çekin\nve ardından bırakıp zıplayın"
+"HLVR_Lesson_Crouch_Toggle"						"Mevcut boyunuz ve eğilme boyunuz arasında geçiş yapmak için basın"
+"HLVR_Lesson_Stand_Toggle"						"Mevcut boyunuz ve dik durma boyunuz arasında geçiş yapmak için basın"
+"HLVR_Lesson_Climb_Ladder"						"Tırmanmak için merdiven basamağını tutun"
+
+"HLVR_Lesson_WeaponInPrimaryHand"				"Baskın elinizi kullanarak silahı alın"
+
+"HLVR_Lesson_EjectClip"							"Şarjörü çıkartmak için basın"
+"HLVR_Lesson_InsertClip"						"Şarjörü tabancaya takın"
+"HLVR_Lesson_EmptyClipInserted"					"Silahtaki şarjörü boşaltın\nŞarjörü çıkartmak için basın"
+"HLVR_Lesson_ChamberRound"						"Namluya mermi sürmek için\nsürgüyü çekin veya butona basın"
+"HLVR_Lesson_ChamberRoundSingleController"		"Namluya mermi sürmek için butona basın"
+"HLVR_Lesson_PutClipInBackpack"					"Şarjörü sırt çantanıza koyun"
+"HLVR_Lesson_ToggleLaserSightWeapon"			"Lazer nişangâhı açmak/kapatmak için işaret parmağınızla dokunun"
+"HLVR_Lesson_ToggleBurstFire"					"Üçlü atışı açmak/kapatmak için butona iki defa basın"
+
+"HLVR_Lesson_ShotgunGetShells"					"Fişek kutusunu alın ve sırt çantanıza koyun"
+"HLVR_Lesson_OpenShotgunToLoadShells"			"Fişekleri doldurmak için pompalı tüfeğinizi açın"
+"HLVR_Lesson_LoadShotgunUntilFull"				"Pompalı tüfeğe fişekleri doldurun (en fazla 6)"
+"HLVR_Lesson_FlickToCloseShotgun"				"Kapatmak için kontrolcüyü hızla yukarı\nhareket ettirin veya namluyu çekin"
+"HLVR_Lesson_FlickToCloseShotgunSingleController"	"Pompalı tüfeği kapatmak için\nkontrolcüyü hızlıca hareket ettirin"
+"HLVR_Lesson_ChamberShotgunShell"				"Fişeği namluya sürmek için sürgüyü çekin"
+"HLVR_Lesson_ChamberShotgunShellSingleController"	"Fişeği namluya sürmek için basın"
+"HLVR_Lesson_ShotgunUpgradeAutoloaderLoad"		"Fişekleri otomatik şarjöre doldurun"
+"HLVR_Lesson_ShotgunUpgradeAutoloaderActivate"	"Otomatik şarjörü etkinleştirmek için butona basın"
+"HLVR_Lesson_ShotgunUpgradeQuickFire"			"Art arda iki defa ateş etmek için iki defa basın"
+"HLVR_Lesson_ShotgunUpgradeGrenade"				"Pompalı tüfek namlusunun ağzına bomba atar ekleyin"
+"HLVR_Lesson_ShotgunUpgradeGrenadePump"			"Bomba atarı hazır hâle getirmek için kolu ileri ittirin\nveya silahı normal bir şekilde kullanmaya devam edin"
+"HLVR_Lesson_ShotgunUpgradeGrenadePumpSingleController"			"Bomba atarı hazır hâle getirmek için basın\nveya silahı normal bir şekilde kullanmaya devam edin"
+"HLVR_Lesson_ShotgunUpgradeGrenadeFire"			"Bomba atmak için basın veya bombayı namlu ağzından\nçekerek normal ateş etmeye devam edin"
+"HLVR_Lesson_ShotgunUpgradeGrenadeFireSingleController"			"Bomba atarı sıfırlamak için basın veya\ntetiği çekerek bomba atın"
+
+"HLVR_Lesson_Rapidfire_InsertCapsule_Gun"		"Silaha güç hücresini yerleştirin"
+"HLVR_Lesson_Rapidfire_InsertCapsule_Clip"		"Silaha güç hücresini yerleştirin"
+"HLVR_Lesson_Rapidfire_OpenCasing"				"Şarjörü açın"
+"HLVR_Lesson_Rapidfire_InsertCapsule_Mag"		"Şarjöre güç hücresi yerleştirin (en fazla 3)"
+"HLVR_Lesson_Rapidfire_CloseCasing"				"Şarjörü kapatın"
+
+"HLVR_Lesson_StoreClipInBackpack"				"Cephaneyi sırt çantanıza koymak için\nomzunuza götürün ve tutmayı bırakın"
+"HLVR_Lesson_GrabClipFromBackpack"				"Sırt çantanızdan cephaneyi alın"
+"HLVR_Lesson_ReloadSingleController"			"Şarjörü yeniden doldurmak için silahı omzunuzun üzerine götürün ve basın"
+"HLVR_Lesson_ReloadSingleControllerShotgun"		"Şarjörü yeniden doldurmak için silahı omzunuzun üzerine götürün ve basın.\nDaha fazla fişek için birden fazla basın."
+"HLVR_Lesson_ReloadSingleControllerRapidFire"	"Şarjörü yeniden doldurmak için silahı omzunuzun üzerine götürün ve basın.\nDaha fazla hücre için birden fazla basın."
+"HLVR_Lesson_GrabResinFromBackpack"				"Sırt çantanızdan reçine alın"
+"HLVR_Lesson_StoreResinInBackpack"				"Reçineyi sırt çantanıza koymak için\nomzunuza götürün ve tutmayı bırakın"
+"HLVR_Lesson_ArmGrenade"						"Bombayı kurmak için basın"
+"HLVR_Lesson_ArmXenGrenade"						"Xen bombasını kurmak için sıkın"
+"HLVR_Lesson_ArmXenGrenadeVive"					"Xen bombasını kurmak için basın"
+"HLVR_Lesson_PrepareHealthInjector"				"Sağlık iğnesini hazırlayın"
+"HLVR_Lesson_HealthInjectToHand"				"Gövdenize, elinize veya bacağınıza enjekte edin"
+"HLVR_Lesson_HealthInjectToHandSingleController"	"Gövdenize veya bacağınıza vurun"
+"HLVR_Lesson_WristHUD"							"Bilek göstergesinde sağlığınız gösterilir"
+"HLVR_Lesson_GameSaved"							"OYUN KAYDEDİLDİ"
+"HLVR_Lesson_BackpackConstraints"				"Sırt çantasında sadece cephane ve reçine saklanabilir"
+"HLVR_Lesson_PistolClipBackpackConstraints"		"Sırt çantasında sadece tam dolu şarjörler saklanabilir"
+"HLVR_Lesson_OpenWeaponSelectForHand"			"Çıplak eliniz ve silahınız arasında\nhızlıca geçiş yapmak için dokunun"
+"HLVR_Lesson_OpenWeaponSelectForHandSingleController"	"Cephane almak için çıplak elinize geçmek istediğinizde dokunun"
+"HLVR_Lesson_SelectHand"						"El seçin"
+"HLVR_Lesson_2HLevitate"						"Yer çekimi eldivenlerini kullanarak hedefe kilitlenin"
+"HLVR_Lesson_GravityGloveLockOn"				"Hedefe kilitlenmek için basın"
+"HLVR_Lesson_GravityGlovePull"					"Nesneyi kendinize doğru çekmek için elinizi geri atın"
+"HLVR_Lesson_GravityGloveCatch"					"Nesneyi havada yakalayın"
+"HLVR_Lesson_2HPickup"							"Ağır nesneleri iki elinizle tutun"
+"HLVR_Lesson_UseMultitoolOnDoor"				"Terminallerde çok işlevli aracı kullanın"
+"HLVR_Lesson_UseMultitoolOnToner"				"Güç kaynaklarında çok işlevli aracı kullanın"
+"HLVR_Lesson_UseMultitoolOnJunction"			"Devre bağlantı kısmını döndürmek için çok işlevli araca tıklayın"
+"HLVR_Lesson_UseMultitoolOnTripmine"			"Mayınlarda çok işlevli aracı kullanın"
+"HLVR_Lesson_StoreObjectInWristBag"				"Eşyaları bilek ceplerinize koyun"
+"HLVR_Lesson_StoreObjectInWristBagSingleController"		"Eşyaları ceplerinize koyun"
+"HLVR_Lesson_RetrieveObjectInWristBag"			"Bilek ceplerinizden bir eşya alın"
+"HLVR_Lesson_Headset"							"Başlığı takmak için başlığı\n kulağınızın üstünde tutarken bırakın"
+"HLVR_Lesson_Pickup_Clip"						"Cephaneleri çekin veya elinizle alın"
+"HLVR_Lesson_AttachFlashlight"					"Yer çekimi eldivenine fener takın"
+"HLVR_Lesson_WeaponReturned"					"İttifak üretim istasyonunda bırakılan silah geri döndü"
+"HLVR_Lesson_ThrowEnergyBolt"					"Enerji topu atın"
+"HLVR_Lesson_Health_Station"					"Sağlık istasyonunu açmak için kolu kullanın"
+
+// upgrades
+"HLVR_Upgrade_PistolLaserSight"						"Lazer Nişangâh"
+"HLVR_Upgrade_Desc_PistolLaserSight"					"Daha iyi hedef almak için lazer nişangâh ekler"
+"HLVR_Upgrade_PistolReflexSight"					"Yansımalı Nişangâh"
+"HLVR_Upgrade_Desc_PistolReflexSight"					"Hedeflerin zayıf noktalarını gösteren bir nişangâh ekler"
+"HLVR_Upgrade_PistolBurstFire"						"Üçlü Atış"
+"HLVR_Upgrade_Desc_PistolBurstFire"						"Art arda üçlü atış ve tekli atış arasında geçiş yapma olanağı ekler"
+"HLVR_Upgrade_PistolBulletHopper"					"Mermi Haznesi"
+"HLVR_Upgrade_Desc_PistolBulletHopper"					"İlave 10 mermi tutan bir hazne ekler"
+
+"HLVR_Upgrade_ShotgunSpeedLoader"					"Otomatik Yükleyici"
+"HLVR_Upgrade_Desc_ShotgunSpeedLoader"					"Hızlıca fişek doldurma olanağı sunan mekanik bir fişek besleme haznesi ekler"
+"HLVR_Upgrade_ShotgunGrenadeAttach"					"Bomba Atar"
+"HLVR_Upgrade_Desc_ShotgunGrenadeAttach"				"Bomba takıp atma özelliği ekler"
+"HLVR_Upgrade_ShotgunLaserSight"					"Lazer Nişangâh"
+"HLVR_Upgrade_Desc_ShotgunLaserSight"					"Daha iyi hedef alabilmeniz için lazer ışını ekler"
+"HLVR_Upgrade_ShotgunQuickFire"						"Çifte Atış"
+"HLVR_Upgrade_Desc_ShotgunQuickFire"					"İlk atıştan hemen sonra bir tane daha atış yapabilme seçeneği ekler"
+
+"HLVR_Upgrade_RapidfireExplodingBullets"			"Mermi Kümesi"
+"HLVR_Upgrade_Desc_RapidfireExplodingBullets"			"Atış yaptıktan sonra ufak bir grup mermiyi patlatma olanağı ekler"
+"HLVR_Upgrade_RapidfireReflexSight"					"Yansımalı Nişangâh"
+"HLVR_Upgrade_Desc_RapidfireReflexSight"				"Hedeflerin zayıf noktalarını gösteren bir nişangâh ekler"
+"HLVR_Upgrade_RapidfireLaserSight"					"Lazer Nişangâh"
+"HLVR_Upgrade_Desc_RapidfireLaserSight"					"Daha iyi hedef almak için lazer nişangâh ekler"
+"HLVR_Upgrade_RapidfireExtendedMagazine"			"Kapasitesi Artırılmış Şarjör"
+"HLVR_Upgrade_Desc_RapidfireExtendedMagazine"			"Silaha birden fazla güç hücresinin yerleştirilebilmesine olanak tanır"
+
+"HLVR_Weapon_Name_Pistol"							"Tabanca"
+"HLVR_Weapon_Name_Shotgun"							"Pompalı Tüfek"
+"HLVR_Weapon_Name_RapidFire"						"Hafif Makineli Tüfek"
+
+"HLVR_Weapon_Name_Pistol_UID"						"XXXXXXXXXXXX..XXX.X.X"
+"HLVR_Weapon_Name_Shotgun_UID"						"004086056845..080.2.7"
+"HLVR_Weapon_Name_RapidFire_UID"					"000123100400..342.5.1"
+
+// crafting station
+"HLVR_CraftingStation_Name"							"Elde Etme İstasyonu 0.3.3.333"
+"HLVR_CraftingStation_Startup"						"Başlat"
+"HLVR_CraftingStation_Scanning"						"Scanning Environment..."
+"HLVR_CraftingStation_LoadingBlueprints"			"Planlar yükleniyor..."
+"HLVR_CraftingStation_InsertWeapon"					"Silahı beşiğe yerleştirin"
+"HLVR_CraftingStation_YourResin"					"Reçine Miktarınız: {i:CurrencyAmount}"
+"HLVR_CraftingStation_YourResinLabel"				"Reçine Miktarınız:"
+"HLVR_CraftingStation_ResinAmount"					"{i:CurrencyAmount}"
+"HLVR_CraftingStation_SelectObject"					"Nesne seçin"
+"HLVR_CraftingStation_SelectedWeapon"				"{s:WeaponName}"
+"HLVR_CraftingStation_Upgrades"						"Yükseltmeler"
+"HLVR_CraftingStation_Cost"							"Bedel"
+"HLVR_CraftingStation_Summary"						"Özet"
+"HLVR_CraftingStation_NoUpgrades"					"Yükseltme yok"
+"HLVR_CraftingStation_NotEnoughResin"				"Yükseltme için yeterli reçine yok"
+"HLVR_CraftingStation_InsufficientResin"			"Yetersiz"
+"HLVR_CraftingStation_InsertResin"					"Reçine yerleştirin"
+"HLVR_CraftingStation_Acquiring"					"Alınıyor"
+"HLVR_CraftingStation_Acquired"						"Alındı"
+"HLVR_CraftingStation_Scanning"						"Taranıyor"
+"HLVR_CraftingStation_Rendering"					"Dönüştürülüyor"
+"HLVR_CraftingStation_Printing"						"Oluşturuluyor"
+"HLVR_CraftingStation_Complete"						"Oluşturma tamamlandı"
+"HLVR_CraftingStation_Cancelled"					"Oluşturma iptal edildi"
+"HLVR_CraftingStation_TakeObject"					"Eşyayı alın"
+"HLVR_CraftingStation_PrintObject"					"Nesne oluşturun"
+"HLVR_CraftingStation_UpgradeOwned"					"Sahipsiniz"
+"HLVR_CraftingStation_Cancel"						"İptal et"
+"HLVR_CraftingStation_Back"							"Geri"
+"HLVR_CraftingStation_SmallPrint"					"19-81572 Numaralı Milis Eki"
+
+// combine console
+"HLVR_CombineConsole_Name"							"İttifak Konsolu V17.14"
+"HLVR_CombineConsole_Activate"						"Etkinleştir"
+
+"HLVR_Calibration_Start"							"Başlamak için butona basın"
+
+"HLVR_Intro_Text_01"								"Hisar'ın yıkılışına ve"
+"HLVR_Intro_Text_02"                                                            " Eli Vance'in" 
+"HLVR_Intro_Text_03"								"ölmesine"
+"HLVR_Intro_Text_04"                                                            " daha beş yıl var." 
+
+"HLVR_Eli_Call_Incoming"							"Gelen Arama"
+"HLVR_Eli_Call_Incoming_Name"						"Eli Vance"
+"HLVR_Eli_Call_Ended_01"							"Arama"
+"HLVR_Eli_Call_Ended_02"							"Bitti"
+"HLVR_Eli_Call_Location"							"Pylon 7B İkmal Alanı"
+
+
+// Referenced in hl2_gamerules.cpp
+// static HLVRChapter_t rgChapters[] = {
+// Chapter Numbers
+"HLVR_Chapter_Number_00"							"BÖLÜM 1"
+"HLVR_Chapter_Number_01"							"BÖLÜM 2"
+"HLVR_Chapter_Number_02"							"BÖLÜM 3"
+"HLVR_Chapter_Number_03"							"BÖLÜM 4"
+"HLVR_Chapter_Number_04"							"BÖLÜM 5"
+"HLVR_Chapter_Number_05"							"BÖLÜM 6"
+"HLVR_Chapter_Number_06"							"BÖLÜM 7"
+"HLVR_Chapter_Number_07"							"BÖLÜM 8"
+"HLVR_Chapter_Number_08"							"BÖLÜM 9"
+"HLVR_Chapter_Number_09"							"BÖLÜM 10"
+"HLVR_Chapter_Number_10"							"BÖLÜM 11"
+
+"HLVR_Chapter_Title_00"								"Dolanıklık"
+"HLVR_Chapter_Title_01"								"KARANTİNA BÖLGESİ"
+"HLVR_Chapter_Title_02"								"ÖLDÜ MÜ, ÖLECEK Mİ?"
+"HLVR_Chapter_Title_03"								"SÜPER SİLAH"
+"HLVR_Chapter_Title_04"								"Kuzey Yıldızı"
+"HLVR_Chapter_Title_05"								"SİLAHLANMA YARIŞI"
+"HLVR_Chapter_Title_06"								"Jeff"
+"HLVR_Chapter_Title_07"								"Esaret"
+"HLVR_Chapter_Title_08"								"Aydınlanma"
+"HLVR_Chapter_Title_09"								"YIKIM VE GİRİŞ"
+"HLVR_Chapter_Title_10"								"Çıkarma Noktası"
+
+"HLVR_Transmission_Incoming"						"GELEN\nYAYIN"
+"HLVR_Transmission_Ended"							"YAYIN\nSONA ERDİ"
+
+"HLVR_Propaganda_Standby"							"LÜTFEN BEKLEYİN"
+"HLVR_Propaganda_Countdown5"						"5"
+"HLVR_Propaganda_Countdown4"						"4"
+"HLVR_Propaganda_Countdown3"						"3"
+"HLVR_Propaganda_Countdown2"						"2"
+"HLVR_Propaganda_Announcement"						"ÖZEL DUYURU"
+
+"HLVR_Distillery_Elevator_Error"					"AĞIRLIK LİMİTİ AŞILDI"
+"HLVR_Distillery_Elevator_Override"					"MANUEL KONTROL GEREKLİ"
+
+"HLVR_Trainyard_Train_Approaching"					"TREN YAKLAŞIYOR"
+
+"HLVR_Intro_World_01a"								"ÖZNE: "
+"HLVR_Intro_World_01b"								" Alyx Vance, 19 Yaşında, Kadın"
+"HLVR_Intro_World_02a"								"MENSUBİYET: "
+"HLVR_Intro_World_02b"								" İnsan Direnişi"
+"HLVR_Intro_World_03a"								"MEVCUT GÖREV: "
+"HLVR_Intro_World_03b"								" Keşif"
+
+"HLVR_Mission_Terminated_01a"						"GÖREV: "
+"HLVR_Mission_Terminated_01b"						"FESHEDİLDİ"
+"HLVR_Mission_Terminated_02a"						"ÖZNE: "
+"HLVR_Mission_Terminated_02b"						"ALYX VANCE"
+"HLVR_Mission_Terminated_03a"						"NEDEN: "
+"HLVR_Mission_Terminated_03b"						"GÖREVİN KRİTİK KAYNAKLARINI KORUMADA BAŞARISIZ OLDU"
+
+"HLVR_Subject"										"ÖZNE: "
+"HLVR_Subject_2"									"Alyx Vance"
+"HLVR_Status"										"DURUM: "
+"HLVR_Status_2"										"İşe Alındı"
+"HLVR_Assignment"									"GÖREV BEKLENİYOR"
+
+"HLVR_Combine_Chatter"								"[İttifak Konuşmaları]"
+
+// In-world signage
+"HLVR_Signage_Infestation_Control1"					"UYARI:"
+"HLVR_Signage_Infestation_Control2"					"İstila Kontrolü"
+
+"HLVR_Signage_Emergency"							"ACİL DURUM"
+"HLVR_Signage_Main_Power"							"ANA GÜÇ"
+"HLVR_Signage_Shutoff"								"GÜÇ KESİCİ"
+
+// Credits
+
+"HLVR_Credits_ContractorsHeader"					"İlave Geliştirme"
+"HLVR_Credits_CastHeader"							"Kadro"
+"HLVR_Commentary_Elevator"							"Elevator"
+// Game Tips
+"HLVR_LOADING_SCREEN_TIP_COUNT"				"22"
+"HLVR_LOADING_SCREEN_TIP_MAP_0_COUNT"		"6"		// a1_intro_world
+"HLVR_LOADING_SCREEN_TIP_MAP_1_COUNT"		"9"		// a1_intro_world_2
+"HLVR_LOADING_SCREEN_TIP_MAP_2_COUNT"		"6"		// a2_quarantine_entrance
+"HLVR_LOADING_SCREEN_TIP_MAP_3_COUNT"		"7"		// a2_pistol
+"HLVR_LOADING_SCREEN_TIP_MAP_4_COUNT"		"12"	// a2_hideout
+"HLVR_LOADING_SCREEN_TIP_MAP_5_COUNT"		"12"	// a2_headcrabs_tunnel
+"HLVR_LOADING_SCREEN_TIP_MAP_6_COUNT"		"14"	// a2_drainage
+"HLVR_LOADING_SCREEN_TIP_MAP_7_COUNT"		"13"	// a2_train_yard
+"HLVR_LOADING_SCREEN_TIP_MAP_8_COUNT"		"11"	// a3_station_street
+"HLVR_LOADING_SCREEN_TIP_MAP_9_COUNT"		"15"	// a3_hotel_lobby_basement
+"HLVR_LOADING_SCREEN_TIP_MAP_10_COUNT"		"15"	// a3_hotel_underground_pit
+"HLVR_LOADING_SCREEN_TIP_MAP_11_COUNT"		"15"	// a3_hotel_interior_rooftop
+"HLVR_LOADING_SCREEN_TIP_MAP_12_COUNT"		"20"	// a3_hotel_street
+"HLVR_LOADING_SCREEN_TIP_MAP_13_COUNT"		"20"	// a3_c17_processing_plant
+"HLVR_LOADING_SCREEN_TIP_MAP_14_COUNT"		"20"	// a3_distillery
+"HLVR_LOADING_SCREEN_TIP_MAP_15_COUNT"		"20"	// a4_c17_zoo
+"HLVR_LOADING_SCREEN_TIP_MAP_16_COUNT"		"20"	// a4_c17_tanker_yard
+"HLVR_LOADING_SCREEN_TIP_MAP_17_COUNT"		"0"		// a4_c17_water_tower
+"HLVR_LOADING_SCREEN_TIP_MAP_18_COUNT"		"0"		// a4_c17_parking_garage
+"HLVR_LOADING_SCREEN_TIP_MAP_19_COUNT"		"0"		// a5_vault
+"HLVR_LOADING_SCREEN_TIP_MAP_20_COUNT"		"0"		// a5_ending
+} 
+}

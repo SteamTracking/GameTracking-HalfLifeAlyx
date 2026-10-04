@@ -287,7 +287,6 @@
 !#GameUI_ServerRejectFailedChannel
 !$fQ3
 !.google.protobuf.EnumValueOptions
-!1AQaq
 !Access to convar functions
 !Access to global system functions
 !Access to steam functions
@@ -397,7 +396,6 @@
 ". Value: "
 "/*" inside block comment.  Block comments cannot be nested.
 "0x" must be followed by hex digits.
-"2BRbr
 "9\n\vCMsgTESmoke
 "<\n CNETMsg_SpawnGroup_LoadCompleted
 ">\n\nCMsgTEFizz
@@ -431,7 +429,6 @@
 ##GameUI_Disconnect_BadRelayPassword
 ##GameUI_Disconnect_ReliableOverflow
 ##GameUI_Disconnect_SnapshotOverflow
-#3CScs
 #9fm
 #Accept_All_Messages
 #Cannot_Be_Spectator
@@ -514,7 +511,6 @@ $0enum $1 {\n
 $0message $1
 $0oneof $1 {
 $0option $1;\n
-$4DTdt
 $DT<I
 $Ib?s
 $SO0
@@ -564,7 +560,6 @@ $gender
 %31s
 %32.32s: %4.4s, counter % 4d, level %s\n
 %5.3f:%s: adding layer %d (order %d): %s : cycle %5.3f (weight %5.3f)\n
-%5EUeu
 %8.3f[%d] %s:  %s
 %8.8s: %-5d entries, '%s', ...
 %I64u
@@ -677,6 +672,7 @@ $gender
 %s (%s: %d/%s) [%d - %.2f]\n
 %s (%x) spoke %s (%f)
 %s - %s %s\n
+%s : "%s"[%s]
 %s : %8.2f:  actor %d: %s : %s emitting sound %s : gender '%s'\n
 %s : %8.2f:  clearing events\n
 %s : %8.2f:  finish %s [%s]\n
@@ -693,6 +689,9 @@ $gender
 %s : %8.2f: waiting for actor %s to complete MOVETO but actor not in SCHED_SCENE_GENERIC\n
 %s : %8.2f: waiting scene to become interruptible\n
 %s : %s : %s -- %s "%s"
+%s : <NULL>
+%s : <conversion failure>
+%s : <void>
 %s : Automatically canceling playback\n
 %s : Automatically resuming playback\n
 %s : PauseThink canceling playback\n
@@ -714,7 +713,6 @@ $gender
 %s InputActivate: entity %s not found or is not a player!\n
 %s InputActivate: invalid or missing !activator!\n
 %s Ladder Count: %d\n
-%s Model '%s' doesn't have attachment '%s' to attach particle system '%s' to.\n
 %s Speed: %.1f
 %s Touching %s %s %s; 
 %s WARNING: Player is NOTARGET. This will affect all LOS conditiosn involving the player!\n
@@ -1000,7 +998,6 @@ $gender
 &#GameUI_Disconnect_RemoteProblem_Other
 &#GameUI_ServerRejectInvalidReservation
 &0000
-&6FVfv
 &?PPPPPPP?
 &OYMW
 &Sgw
@@ -1012,7 +1009,6 @@ $gender
 '#GameUI_Disconnect_BadSpectatorPassword
 '#GameUI_Disconnect_DifferentClassTables
 '#GameUI_ServerRejectInvalidSteamCertLen
-'7GWgw
 '8P;Wo
 'OYM
 '\n"SPAWN_GROUP_CREATE_NEW_SCENE_WORLD
@@ -1025,7 +1021,6 @@ $gender
 'ai_forcerebuildgraph' is forcing an AI graph rebuild for %s.\n
 'out_location' must not be NULL
 'then ANY' or 'then ALL' response followups will be dispatched only to characters within this distance.
-( 8PX
 ( Entity Player, string EventName, table EventData )
 ( int ListnerID ) - Unregister a specific listener
 ( int TeamNumber, string EventName, table EventData )
@@ -1056,7 +1051,6 @@ $gender
 (%g %g %g %g)
 (%s) Schedule (%s) Failed at %d!\n
 (0x%08X)'??'
-(8HXhx
 (ACTIVE)
 (Has breakpieces or commands)
 (NAV IGNORED)
@@ -1197,7 +1191,6 @@ $gender
 )#GameUI_Disconnect_SteamDeny_BadAntiCheat
 ), this value label conflicts with 
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-)9IYiy
 )@FD1y
 )\n!host_framestarttime_std_deviation
 )pWTi0
@@ -1241,7 +1234,6 @@ $gender
 **Zombie: No Physics Object for held object ent!
 **Zombie: No Physics Object for physics Ent!
 **\nVERY BAD THING\nCommand point vanished! Creating a new one\n**\n
-*:JZjz
 *DEAD*
 *DEAD*(TEAM)
 *DISABLED*
@@ -1403,48 +1395,48 @@ $gender
 .?AUvehicle_gear_t@@
 .?AUvehiclesounds_t@@
 .?AUwashentity_t@@
-.?AV<lambda_0123fc39ffdaed78704f198e896d87f1>@@
-.?AV<lambda_07c2c26611f384da14b2bf2e6bb2fa47>@@
-.?AV<lambda_15313a045fbb2d3f5921e5c8293bc3dc>@@
-.?AV<lambda_24cdd0d779f89fed274f7f06d932a8ef>@@
-.?AV<lambda_26af59fd74dfd9adfd3432510c5e082e>@@
-.?AV<lambda_2877ef6c6350b565cc00feae3acf7103>@@
-.?AV<lambda_2c9de0b179404311ed3c72b2c9beacb1>@@
-.?AV<lambda_370fa937642818b179c4e2d6c5ebd48d>@@
-.?AV<lambda_396651dd20cc454877c3f4d74b500cce>@@
-.?AV<lambda_39a259f24c95a5339b0770d517b06d9d>@@
-.?AV<lambda_39fc45b18b1d730d90175107ea5f4dbd>@@
-.?AV<lambda_451ca9c50cc48eabfcf28ccbee0b9994>@@
-.?AV<lambda_451eee30d0be69bbc9045e0759c3c9c1>@@
-.?AV<lambda_45f5c7671f38759a41df2730f746b56e>@@
-.?AV<lambda_461854a62e0077e53ada4ebd18d73b54>@@
-.?AV<lambda_62b932b24e42b12afdde18c5c71f1816>@@
-.?AV<lambda_6555b610d404c13c4235ee085e79feed>@@
-.?AV<lambda_6846e002619e9c1f3578e1f383cbfc16>@@
-.?AV<lambda_7a90cc26155c0b41595235aebf47fa6f>@@
-.?AV<lambda_83c0097a702fc730a1df96cfdbf1a96e>@@
-.?AV<lambda_86d97c638122308c0adec82cd0ad6bf2>@@
-.?AV<lambda_8b78e78d6f5fc3a045eee35f5311b69b>@@
-.?AV<lambda_8c7c656a735915d2997f87f3aa4ed3c4>@@
-.?AV<lambda_983f99cf96d5c14a193ab89a73d15181>@@
-.?AV<lambda_986638a8ff1a5ef4ef1478eec01a86bf>@@
-.?AV<lambda_9b785fc8d34898a70e28e6de33b5b835>@@
-.?AV<lambda_9be7161476411c30dfed81456e2456cc>@@
-.?AV<lambda_9f6afc1e4c2f495518e427dfee33e2e9>@@
-.?AV<lambda_a1574a3bb76a0dca125d05e6b979f634>@@
-.?AV<lambda_a2e7d6bea82a4df8a0bf6ec4bcac55e7>@@
-.?AV<lambda_a916c90d35cd02b0c21044e58e03a02f>@@
-.?AV<lambda_ad322cdf8fca9b7a7101b4e8f957428e>@@
-.?AV<lambda_ae20a8c4d43d497760f5af4ef9f88cbc>@@
-.?AV<lambda_b328e0c3e90407f4b3c4dca1ccd415f4>@@
-.?AV<lambda_c285593bc8f5b11fe1453f81cbdbc8c8>@@
-.?AV<lambda_c760e3c11ff4578e21ca6d46d9c4ace9>@@
-.?AV<lambda_c7f3c74582e5ac69d941f225930657c6>@@
-.?AV<lambda_e2aca7bdd4bd5e87331ce6442aa2d515>@@
-.?AV<lambda_e5a758f87bf642667f49932f1f52a09a>@@
-.?AV<lambda_ec09c90db89a09a8745ec505c8002e38>@@
-.?AV<lambda_f055590a80ba13d071e29f134c5f7913>@@
-.?AV<lambda_fd1f7acc43a15a469795b2c4156b6ca0>@@
+.?AV<lambda_1>@?1???0CAI_LocalNavIsland@@QEAA@AEAVCAI_BaseNPC@@@Z@
+.?AV<lambda_1>@?1???0CNavSearchHexLatticeCollector@@QEAA@UNavHull_t@@AEBVVector@@PEAVCNavArea@@AEAV?$function@$$A6A?AW4NavSearchPosResult_t@@AEBVVector@@@Z@std@@MM@Z@
+.?AV<lambda_1>@?1??ApplyMarkup@CNavEntityInterface@@UEAAXAEAVCNavMesh@@@Z@
+.?AV<lambda_1>@?1??CreateDuplicatePathForCalc@CAI_LocalNavCalc@@IEAAPEAUAI_Waypoint_t@@PEBU3@M0@Z@
+.?AV<lambda_1>@?1??DebugDraw@CNavObstacleAreaMgr@@QEAAXM@Z@
+.?AV<lambda_1>@?1??DoSearch@CTacticalSearch@@QEAA?AVVector@@XZ@
+.?AV<lambda_1>@?1??DoSearchScaled@CNavSearchHexLattice@@IEAA_NXZ@
+.?AV<lambda_1>@?1??DrawConnectedAreas@CNavDrawArea@@SAXAEBVCNavArea@@PEBVVector@@MMPEBVIPathCost@@@Z@
+.?AV<lambda_1>@?1??DrawJumpLinks@CNavDrawMesh@@SAXAEAVCNavMesh@@UNavHull_t@@AEBVVector@@MM@Z@
+.?AV<lambda_1>@?1??FindBackAwayFromNavmesh@CAI_TacticalServices@@AEAA_NAEBVVector@@MMPEAV3@@Z@
+.?AV<lambda_1>@?1??FindConnectedBoundaryEdgesWithinCircle@CNavBoundaryZone@@IEAAHAEBVCPathCostBase@@AEAVCNavArea@@AEBVVector2D@@MAEAV?$CUtlVector@UNavBoundarySeg_t@@V?$CUtlMemory@UNavBoundarySeg_t@@H@@@@@Z@
+.?AV<lambda_1>@?1??FindConnectedBoundaryEdgesWithinDistOfPath@CNavBoundaryZone@@IEAAHAEBVCPathCostBase@@AEAVCNavArea@@AEBVVector@@HPEBVVector2D@@MAEAV?$CUtlVector@UNavBoundarySeg_t@@V?$CUtlMemory@UNavBoundarySeg_t@@H@@@@@Z@
+.?AV<lambda_1>@?1??FindConnectedNavAreaContainingPoint@NavSearch@@YAPEAVCNavArea@@AEBVVector2D@@AEAV3@0AEBVCPathCostBase@@@Z@
+.?AV<lambda_1>@?1??FindConnectedNavAreasWithinDistOfSeg@NavSearch@@YAHAEAVCNavArea@@AEBVVector2D@@1MAEBVCPathCostBase@@PEAV?$CUtlVectorFixedGrowable@PEAVCNavArea@@$0CA@@@@Z@
+.?AV<lambda_1>@?1??FindObstacleFreeGoalOffsetPos@CAI_Navigator@@IEAA_NAEBVVector@@MPEAV3@@Z@
+.?AV<lambda_1>@?1??FindRandomConnectedPoint@CNavQuery@@SA?AVVector@@AEBV3@PEAVCNavArea@@UNavHull_t@@MM@Z@
+.?AV<lambda_1>@?1??SaveGame_Finalize@CEntity2SaveRestore@@UEAA_NPEAUSaveRestoreDataHandle_t__@@@Z@
+.?AV<lambda_1>@?1??SaveReadHeaderAndSpawnGroupList@CEntity2SaveRestore@@AEAAHPEAXPEAUSaveHeaderCache_t@@@Z@
+.?AV<lambda_1>@?1??SplitAreaByPlane@CNavArea@@QEAAHAEAVCNavMesh@@AEBVVector@@M_NPEAPEAV2@2@Z@
+.?AV<lambda_1>@?1??SplitArea_Old@CNavGen@@SA_NAEAVCNavMesh@@AEAVCNavArea@@AEBVVector@@MPEAPEAV4@3@Z@
+.?AV<lambda_1>@?1??TestRay@CNavSegGrid@@QEBAMAEBVVector2D@@0MPEAH_N@Z@
+.?AV<lambda_1>@?1??TestRayToNavMesh@NavSearch@@YA_NAEBVVector@@PEBVCNavArea@@0UNavHull_t@@PEAVCNavTraceResult@@PEAVCNavTestRayParams@@PEAV?$function@$$A6A_NAEBVCNavArea@@AEBUNavAdj_t@@AEBVVector@@PEBV3@@Z@std@@_N@Z@
+.?AV<lambda_1>@?1??UpdateObstacle@CNavObstacleTileMgr@@QEAAXAEAVINavObstacle@@@Z@
+.?AV<lambda_1>@?4??AddNavAreasForRefVolume@CMarkupSearchHelper@@IEAAXPEBVCMarkupVolumeWithRef@@@Z@
+.?AV<lambda_1>@?4??AddNavAreasForTaggedVolume@CMarkupSearchHelper@@IEAAXPEBVCMarkupVolumeTagged@@@Z@
+.?AV<lambda_1>@?5??ApplyMarkupFromNavGenInput@CNavMesh@@AEAAXXZ@
+.?AV<lambda_1>@?5??FindNearestNavWithPhysicsClearance@CNavQuery@@SA_NAEBVVector@@PEAVCNavArea@@UNavHull_t@@PEAV3@PEBVCBaseEntity@@HM@Z@
+.?AV<lambda_1>@?7??combine_test_suppression_positions@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@
+.?AV<lambda_1>@?9??FindNextOccludedNode@CPathOptimizerNavmesh@@MEAAHAEAVCPath@@AEBVCPathCostBase@@HPEAV?$CUtlVectorFixedGrowable@UNavTransition_t@@$0BA@@@@Z@
+.?AV<lambda_1>@?BE@??AttemptBlockedRecovery@CAI_Navigator@@MEAA_NW4AIMoveResult_t@@@Z@
+.?AV<lambda_1>@?HG@??UpdateSelection@CNavEditor@@QEAA_NXZ@
+.?AV<lambda_2>@?1??DebugDraw@CNavObstacleAreaMgr@@QEAAXM@Z@
+.?AV<lambda_2>@?1??DoSearch@CTacticalSearch@@QEAA?AVVector@@XZ@
+.?AV<lambda_2>@?1??FindConnectedBoundaryEdgesWithinCircle@CNavBoundaryZone@@IEAAHAEBVCPathCostBase@@AEAVCNavArea@@AEBVVector2D@@MAEAV?$CUtlVector@UNavBoundarySeg_t@@V?$CUtlMemory@UNavBoundarySeg_t@@H@@@@@Z@
+.?AV<lambda_2>@?1??FindConnectedBoundaryEdgesWithinDistOfPath@CNavBoundaryZone@@IEAAHAEBVCPathCostBase@@AEAVCNavArea@@AEBVVector@@HPEBVVector2D@@MAEAV?$CUtlVector@UNavBoundarySeg_t@@V?$CUtlMemory@UNavBoundarySeg_t@@H@@@@@Z@
+.?AV<lambda_2>@?1??FindConnectedNavAreasWithinDistOfSeg@NavSearch@@YAHAEAVCNavArea@@AEBVVector2D@@1MAEBVCPathCostBase@@PEAV?$CUtlVectorFixedGrowable@PEAVCNavArea@@$0CA@@@@Z@
+.?AV<lambda_2>@?1??UpdateObstacle@CNavObstacleTileMgr@@QEAAXAEAVINavObstacle@@@Z@
+.?AV<lambda_2>@?BA@??ApplyMarkup@CNavEntityInterface@@UEAAXAEAVCNavMesh@@@Z@
+.?AV<lambda_2>@?FD@??UpdateMixedShadowsComputations@CDynamicShadowMgr@@QEAAXPEAVCBasePlayer@@@Z@
+.?AV<lambda_3>@?1??UpdateObstacle@CNavObstacleTileMgr@@QEAAXAEAVINavObstacle@@@Z@
+.?AV<lambda_3>@?MA@??UpdateSelection@CNavEditor@@QEAA_NXZ@
+.?AV<lambda_4>@?PH@??UpdateSelection@CNavEditor@@QEAA_NXZ@
 .?AV?$CAI_Behavior@VCAI_BaseNPC@@@@
 .?AV?$CAI_BehaviorHost@VCAI_BaseNPC@@@@
 .?AV?$CAI_BehaviorHost@VCAI_BlendedNPC@@@@
@@ -2013,10 +2005,10 @@ $gender
 .?AV?$CMemberFunctor0@PEAVCEntity2SaveRestore@@P81@EAAXXZV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CMemberFunctor0@PEAVCShatterJob@@P81@EAAXXZV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CMemberFunctor0@PEAVIFileSystem@@P81@EAAXXZV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
-.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_2437d5e9dd56fcf09a3fe051ded4a200>@@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
-.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_69c5012d25093ab17941f96d54ba56e9>@@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
-.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_ef4fae70c56df7f2819807266b962e6d>@@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
-.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_f2928656221d3743eb303480371037fd>@@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
+.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_1>@?1??BuildKeyValuesCache@CEntityKeyValuesSaveRestoreOpsBase@@QEAAXPEAVCGameSaveRestoreInfo@@@Z@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
+.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_1>@?5??FrameUpdatePostEntityThink@CAnimGraphGameSystem@@UEAAXAEBUEventServerPostEntityThink_t@@@Z@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
+.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_1>@?CE@??Physics_RunThinkFunctions@@YAX_N@Z@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
+.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_2>@?BB@??FrameUpdatePostEntityThink@CAnimGraphGameSystem@@UEAAXAEBUEventServerPostEntityThink_t@@@Z@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CParallelProcessor@UPVSWork_t@@V?$CMemberFuncJobItemProcessor@UPVSWork_t@@VCSource2GameEntities@@V2@@@$00@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CParallelProcessor@UQueryCacheUpdateRecord_t@@V?$CFuncJobItemProcessor@UQueryCacheUpdateRecord_t@@@@$00@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CMemberFunctor1@PEAVCAI_NavigatorSimplify@@P81@EAA_NAEBVVector@@@ZV2@V?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
@@ -2228,6 +2220,7 @@ $gender
 .?AV?$CSchemaUtlVectorManipulator@V?$CUtlVectorFixedGrowable@I$00@@I@@
 .?AV?$CScriptAccessorT@VCDefScriptAccessorBase@@$00@@
 .?AV?$CScriptScopeT@VCDefScriptAccessorBase@@$00@@
+.?AV?$CStackAnnotation@PEAVCEntityInstance@@PEAV1@PEAUEntityIOOutputDesc_t@@PEAV?$CVariantBase@VCVariantDefaultAllocator@@@@MXXXX@@
 .?AV?$CStartupHookGameSystem@VGameEvent_RegisterInternal@@$0EEAA@@@
 .?AV?$CSurfacePropReloadableDataTable@VCGameSurfaceProperties@@@@
 .?AV?$CTier0AppSystem@VIGameConfiguration@@@@
@@ -2427,16 +2420,16 @@ $gender
 .?AV?$RepeatedPtrFieldWrapper@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@internal@protobuf@google@@
 .?AV?$RepeatedPtrFieldWrapper@VMessage@protobuf@google@@@internal@protobuf@google@@
 .?AV?$TypeDefinedMapFieldBase@VMapKey@protobuf@google@@VMapValueRef@23@@internal@protobuf@google@@
-.?AV?$_Binder@U_Unforced@std@@P8CAI_TacticalSearchRejectMru@@EAAXAEBVVector@@@ZQEAV3@AEBU?$_Ph@$00@2@@std@@
-.?AV?$_Binder@U_Unforced@std@@P8CAI_TacticalSearchRejectMru@@EBA_NAEBVVector@@M@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
-.?AV?$_Binder@U_Unforced@std@@P8CCoverGoal@@EBA_NAEBVVector@@M@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
-.?AV?$_Binder@U_Unforced@std@@P8CCoverLowGoal@@EBA_NAEBVVector@@M@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
-.?AV?$_Binder@U_Unforced@std@@P8CCoverWallGoal@@EBA_NAEBVVector@@M@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
-.?AV?$_Binder@U_Unforced@std@@P8CLosGoal@@EBA_NAEBVVector@@_N1M@ZQEAV3@AEBU?$_Ph@$00@2@_N_NAEBU?$_Ph@$01@2@@std@@
-.?AV?$_Binder@U_Unforced@std@@P8CMarkupSearchHelper@@EAAXPEBVCMarkupVolumeTagged@@@ZQEAV3@AEBU?$_Ph@$00@2@@std@@
-.?AV?$_Binder@U_Unforced@std@@P8CMarkupSearchHelper@@EAAXPEBVCMarkupVolumeWithRef@@@ZQEAV3@AEBU?$_Ph@$00@2@@std@@
-.?AV?$_Binder@U_Unforced@std@@P8CNavBfsLatticeMarkup@@EAA?AW4NavSearchAreaResult_t@@AEBVCNavArea@@PEA_N@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
-.?AV?$_Binder@U_Unforced@std@@P8CNavBfsLatticeMarkup@@EAA?AW4NavSearchPosResult_t@@AEBVVector@@AEBVCNavArea@@@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CAI_TacticalSearchRejectMru@@EAAXAEBVVector@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CAI_TacticalSearchRejectMru@@EBA_NAEBVVector@@M@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CCoverGoal@@EBA_NAEBVVector@@M@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CCoverLowGoal@@EBA_NAEBVVector@@M@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CCoverWallGoal@@EBA_NAEBVVector@@M@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CLosGoal@@EBA_NAEBVVector@@_N1M@ZPEAV3@AEBU?$_Ph@$00@2@_N_NAEBU?$_Ph@$01@2@@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CMarkupSearchHelper@@EAAXPEBVCMarkupVolumeTagged@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CMarkupSearchHelper@@EAAXPEBVCMarkupVolumeWithRef@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CNavBfsLatticeMarkup@@EAA?AW4NavSearchAreaResult_t@@AEBVCNavArea@@PEA_N@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CNavBfsLatticeMarkup@@EAA?AW4NavSearchPosResult_t@@AEBVVector@@AEBVCNavArea@@@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
 .?AV?$_Binder@U_Unforced@std@@P8CNpcSolverForSmooth@@EAA?AVVector@@AEBV4@0@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
 .?AV?$_Func_base@PEAVCNavPoly@@$$V@std@@
 .?AV?$_Func_base@VVector@@AEBV1@AEBV1@@std@@
@@ -2462,69 +2455,67 @@ $gender
 .?AV?$_Func_base@_NAEBVVector@@M@std@@
 .?AV?$_Func_base@_NGG@std@@
 .?AV?$_Func_base@_NPEAVCNavArea@@@std@@
-.?AV?$_Func_impl@V<lambda_0123fc39ffdaed78704f198e896d87f1>@@V?$allocator@H@std@@W4NavSearchPosResult_t@@AEBVVector@@AEBVCNavArea@@@std@@
-.?AV?$_Func_impl@V<lambda_07c2c26611f384da14b2bf2e6bb2fa47>@@V?$allocator@H@std@@_NAEBVCIslandEntity@CAI_LocalNavIsland@@AEBV45@@std@@
-.?AV?$_Func_impl@V<lambda_15313a045fbb2d3f5921e5c8293bc3dc>@@V?$allocator@H@std@@XAEAVCNavArea@@@std@@
-.?AV?$_Func_impl@V<lambda_24cdd0d779f89fed274f7f06d932a8ef>@@V?$allocator@H@std@@W4NavSearchAreaResult_t@@AEAVCNavArea@@PEAUNavSearchAreaInfo_t@@@std@@
-.?AV?$_Func_impl@V<lambda_26af59fd74dfd9adfd3432510c5e082e>@@V?$allocator@H@std@@XHAEBUNavBoundarySeg_t@@@std@@
-.?AV?$_Func_impl@V<lambda_2877ef6c6350b565cc00feae3acf7103>@@V?$allocator@H@std@@XPEAVCLightComponent@@@std@@
-.?AV?$_Func_impl@V<lambda_2c9de0b179404311ed3c72b2c9beacb1>@@V?$allocator@H@std@@X_KMM@std@@
-.?AV?$_Func_impl@V<lambda_370fa937642818b179c4e2d6c5ebd48d>@@V?$allocator@H@std@@_NPEAVCNavArea@@@std@@
-.?AV?$_Func_impl@V<lambda_396651dd20cc454877c3f4d74b500cce>@@V?$allocator@H@std@@_NAEBVCNavArea@@AEBUNavAdj_t@@AEBVVector@@PEBV6@@std@@
-.?AV?$_Func_impl@V<lambda_39a259f24c95a5339b0770d517b06d9d>@@V?$allocator@H@std@@X_K@std@@
-.?AV?$_Func_impl@V<lambda_39fc45b18b1d730d90175107ea5f4dbd>@@V?$allocator@H@std@@_NAEAVCNavArea@@AEAUNavIncludeAreaInfo_t@@@std@@
-.?AV?$_Func_impl@V<lambda_451ca9c50cc48eabfcf28ccbee0b9994>@@V?$allocator@H@std@@_NPEAVCNavArea@@@std@@
-.?AV?$_Func_impl@V<lambda_451eee30d0be69bbc9045e0759c3c9c1>@@V?$allocator@H@std@@_NAEAVCNavArea@@@std@@
-.?AV?$_Func_impl@V<lambda_45f5c7671f38759a41df2730f746b56e>@@V?$allocator@H@std@@W4NavSearchPosResult_t@@AEBVVector@@@std@@
-.?AV?$_Func_impl@V<lambda_461854a62e0077e53ada4ebd18d73b54>@@V?$allocator@H@std@@W4NavSearchAreaResult_t@@AEAVCNavArea@@PEAUNavSearchAreaInfo_t@@@std@@
-.?AV?$_Func_impl@V<lambda_62b932b24e42b12afdde18c5c71f1816>@@V?$allocator@H@std@@XAEB_K@std@@
-.?AV?$_Func_impl@V<lambda_6555b610d404c13c4235ee085e79feed>@@V?$allocator@H@std@@W4NavSearchAreaResult_t@@AEAVCNavArea@@PEAUNavSearchAreaInfo_t@@@std@@
-.?AV?$_Func_impl@V<lambda_6846e002619e9c1f3578e1f383cbfc16>@@V?$allocator@H@std@@W4NavSearchAreaResult_t@@AEBVCNavArea@@PEA_N@std@@
-.?AV?$_Func_impl@V<lambda_7a90cc26155c0b41595235aebf47fa6f>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_83c0097a702fc730a1df96cfdbf1a96e>@@V?$allocator@H@std@@W4NavSearchPosResult_t@@AEBVVector@@@std@@
-.?AV?$_Func_impl@V<lambda_86d97c638122308c0adec82cd0ad6bf2>@@V?$allocator@H@std@@W4NavSearchPosResult_t@@AEBVVector@@AEBVCNavArea@@@std@@
-.?AV?$_Func_impl@V<lambda_8b78e78d6f5fc3a045eee35f5311b69b>@@V?$allocator@H@std@@XAEB_K@std@@
-.?AV?$_Func_impl@V<lambda_8c7c656a735915d2997f87f3aa4ed3c4>@@V?$allocator@H@std@@PEAVCNavPoly@@$$V@std@@
-.?AV?$_Func_impl@V<lambda_983f99cf96d5c14a193ab89a73d15181>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_986638a8ff1a5ef4ef1478eec01a86bf>@@V?$allocator@H@std@@PEAVCNavPoly@@$$V@std@@
-.?AV?$_Func_impl@V<lambda_9b785fc8d34898a70e28e6de33b5b835>@@V?$allocator@H@std@@W4NavSearchAreaResult_t@@AEAVCNavArea@@PEAUNavSearchAreaInfo_t@@@std@@
-.?AV?$_Func_impl@V<lambda_9be7161476411c30dfed81456e2456cc>@@V?$allocator@H@std@@_NPEAVCNavArea@@@std@@
-.?AV?$_Func_impl@V<lambda_9f6afc1e4c2f495518e427dfee33e2e9>@@V?$allocator@H@std@@_NAEAVCNavArea@@@std@@
-.?AV?$_Func_impl@V<lambda_a1574a3bb76a0dca125d05e6b979f634>@@V?$allocator@H@std@@_NAEAVCNavArea@@AEAUNavIncludeAreaInfo_t@@@std@@
-.?AV?$_Func_impl@V<lambda_a2e7d6bea82a4df8a0bf6ec4bcac55e7>@@V?$allocator@H@std@@_NAEBVVector@@@std@@
-.?AV?$_Func_impl@V<lambda_a916c90d35cd02b0c21044e58e03a02f>@@V?$allocator@H@std@@W4NavSearchAreaResult_t@@AEAVCNavArea@@PEAUNavSearchAreaInfo_t@@@std@@
-.?AV?$_Func_impl@V<lambda_ad322cdf8fca9b7a7101b4e8f957428e>@@V?$allocator@H@std@@W4NavSearchPosResult_t@@AEBVVector@@AEBVCNavArea@@@std@@
-.?AV?$_Func_impl@V<lambda_ae20a8c4d43d497760f5af4ef9f88cbc>@@V?$allocator@H@std@@_NGG@std@@
-.?AV?$_Func_impl@V<lambda_b328e0c3e90407f4b3c4dca1ccd415f4>@@V?$allocator@H@std@@W4NavSearchPosResult_t@@AEBVVector@@AEBVCNavArea@@@std@@
-.?AV?$_Func_impl@V<lambda_c285593bc8f5b11fe1453f81cbdbc8c8>@@V?$allocator@H@std@@VVector@@AEBV4@AEBV4@@std@@
-.?AV?$_Func_impl@V<lambda_c760e3c11ff4578e21ca6d46d9c4ace9>@@V?$allocator@H@std@@_NAEBVCNavArea@@AEBUNavAdj_t@@AEBVVector@@PEBV6@@std@@
-.?AV?$_Func_impl@V<lambda_c7f3c74582e5ac69d941f225930657c6>@@V?$allocator@H@std@@_NAEAVCNavArea@@@std@@
-.?AV?$_Func_impl@V<lambda_e2aca7bdd4bd5e87331ce6442aa2d515>@@V?$allocator@H@std@@_NAEAVCNavArea@@AEAUNavIncludeAreaInfo_t@@@std@@
-.?AV?$_Func_impl@V<lambda_e5a758f87bf642667f49932f1f52a09a>@@V?$allocator@H@std@@W4NavSearchPosResult_t@@AEBVVector@@AEBVCNavArea@@@std@@
-.?AV?$_Func_impl@V<lambda_ec09c90db89a09a8745ec505c8002e38>@@V?$allocator@H@std@@W4NavSearchPosResult_t@@AEBVVector@@@std@@
-.?AV?$_Func_impl@V<lambda_f055590a80ba13d071e29f134c5f7913>@@V?$allocator@H@std@@W4NavSearchPosResult_t@@AEBVVector@@@std@@
-.?AV?$_Func_impl@V<lambda_fd1f7acc43a15a469795b2c4156b6ca0>@@V?$allocator@H@std@@XAEB_K@std@@
-.?AV?$_Func_impl@V?$_Binder@U_Unforced@std@@P8CAI_TacticalSearchRejectMru@@EAAXAEBVVector@@@ZQEAV3@AEBU?$_Ph@$00@2@@std@@V?$allocator@H@2@XAEBVVector@@@std@@
-.?AV?$_Func_impl@V?$_Binder@U_Unforced@std@@P8CAI_TacticalSearchRejectMru@@EBA_NAEBVVector@@M@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@V?$allocator@H@2@_NAEBVVector@@M@std@@
-.?AV?$_Func_impl@V?$_Binder@U_Unforced@std@@P8CCoverGoal@@EBA_NAEBVVector@@M@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@V?$allocator@H@2@_NAEBVVector@@M@std@@
-.?AV?$_Func_impl@V?$_Binder@U_Unforced@std@@P8CCoverLowGoal@@EBA_NAEBVVector@@M@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@V?$allocator@H@2@_NAEBVVector@@M@std@@
-.?AV?$_Func_impl@V?$_Binder@U_Unforced@std@@P8CCoverWallGoal@@EBA_NAEBVVector@@M@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@V?$allocator@H@2@_NAEBVVector@@M@std@@
-.?AV?$_Func_impl@V?$_Binder@U_Unforced@std@@P8CLosGoal@@EBA_NAEBVVector@@_N1M@ZQEAV3@AEBU?$_Ph@$00@2@_N_NAEBU?$_Ph@$01@2@@std@@V?$allocator@H@2@_NAEBVVector@@M@std@@
-.?AV?$_Func_impl@V?$_Binder@U_Unforced@std@@P8CMarkupSearchHelper@@EAAXPEBVCMarkupVolumeTagged@@@ZQEAV3@AEBU?$_Ph@$00@2@@std@@V?$allocator@H@2@XAEBQEBVCMarkupVolumeTagged@@@std@@
-.?AV?$_Func_impl@V?$_Binder@U_Unforced@std@@P8CMarkupSearchHelper@@EAAXPEBVCMarkupVolumeWithRef@@@ZQEAV3@AEBU?$_Ph@$00@2@@std@@V?$allocator@H@2@XAEBQEBVCMarkupVolumeWithRef@@@std@@
-.?AV?$_Func_impl@V?$_Binder@U_Unforced@std@@P8CNavBfsLatticeMarkup@@EAA?AW4NavSearchAreaResult_t@@AEBVCNavArea@@PEA_N@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@V?$allocator@H@2@W4NavSearchAreaResult_t@@AEBVCNavArea@@PEA_N@std@@
-.?AV?$_Func_impl@V?$_Binder@U_Unforced@std@@P8CNavBfsLatticeMarkup@@EAA?AW4NavSearchPosResult_t@@AEBVVector@@AEBVCNavArea@@@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@V?$allocator@H@2@W4NavSearchPosResult_t@@AEBVVector@@AEBVCNavArea@@@std@@
-.?AV?$_Func_impl@V?$_Binder@U_Unforced@std@@P8CNpcSolverForSmooth@@EAA?AVVector@@AEBV4@0@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@V?$allocator@H@2@VVector@@AEBV4@AEBV4@@std@@
-.?AV?$_Func_impl@V?$reference_wrapper@UBFSAreaCollector_t@?BD@??DebugDraw@CPathCostRecorder@@QEBAXXZ@@std@@V?$allocator@H@2@W4NavSearchAreaResult_t@@AEAVCNavArea@@PEAUNavSearchAreaInfo_t@@@std@@
-.?AV?$_Func_impl@V?$reference_wrapper@V?$function@$$A6A?AW4NavSearchAreaResult_t@@AEAVCNavArea@@PEAUNavSearchAreaInfo_t@@@Z@std@@@std@@V?$allocator@H@2@W4NavSearchAreaResult_t@@AEAVCNavArea@@PEAUNavSearchAreaInfo_t@@@std@@
-.?AV?$_Func_impl@V?$reference_wrapper@V?$function@$$A6A?AW4NavSearchPosResult_t@@AEBVVector@@AEBVCNavArea@@@Z@std@@@std@@V?$allocator@H@2@W4NavSearchPosResult_t@@AEBVVector@@AEBVCNavArea@@@std@@
-.?AV?$_Func_impl@V?$reference_wrapper@VBreadthFirstSearchVolumeCollector@@@std@@V?$allocator@H@2@W4NavSearchAreaResult_t@@AEAVCNavArea@@PEAUNavSearchAreaInfo_t@@@std@@
-.?AV?$_Func_impl@V?$reference_wrapper@VCNavBreadthFirstSearchLattice@@@std@@V?$allocator@H@2@W4NavSearchAreaResult_t@@AEAVCNavArea@@PEAUNavSearchAreaInfo_t@@@std@@
-.?AV?$_Func_impl@V?$reference_wrapper@VCNavSearchHexLattice@@@std@@V?$allocator@H@2@W4NavSearchAreaResult_t@@AEAVCNavArea@@PEAUNavSearchAreaInfo_t@@@std@@
-.?AV?$_Func_impl@V?$reference_wrapper@VDrawSelectionSet@@@std@@V?$allocator@H@2@W4NavSearchAreaResult_t@@AEAVCNavArea@@PEAUNavSearchAreaInfo_t@@@std@@
-.?AV?$_Func_impl@V?$reference_wrapper@VSelectCollector@@@std@@V?$allocator@H@2@W4NavSearchAreaResult_t@@AEAVCNavArea@@PEAUNavSearchAreaInfo_t@@@std@@
-.?AV?$_Ref_count_obj@V__ExceptionPtr@@@std@@
-.?AV?$_Ref_count_obj_alloc@V__ExceptionPtr@@U?$_StaticAllocator@H@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???0CAI_LocalNavIsland@@QEAA@AEAVCAI_BaseNPC@@@Z@_NAEBVCIslandEntity@2@AEBV42@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???0CNavSearchHexLatticeCollector@@QEAA@UNavHull_t@@AEBVVector@@PEAVCNavArea@@AEAV?$function@$$A6A?AW4NavSearchPosResult_t@@AEBVVector@@@Z@std@@MM@Z@W4NavSearchPosResult_t@@AEBV4@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??ApplyMarkup@CNavEntityInterface@@UEAAXAEAVCNavMesh@@@Z@_NPEAVCNavArea@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??CreateDuplicatePathForCalc@CAI_LocalNavCalc@@IEAAPEAUAI_Waypoint_t@@PEBU4@M0@Z@_NAEBVVector@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??DebugDraw@CNavObstacleAreaMgr@@QEAAXM@Z@X_K@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??DoSearch@CTacticalSearch@@QEAA?AVVector@@XZ@W4NavSearchPosResult_t@@AEBV4@AEBVCNavArea@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??DoSearchScaled@CNavSearchHexLattice@@IEAA_NXZ@_NGG@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??DrawConnectedAreas@CNavDrawArea@@SAXAEBVCNavArea@@PEBVVector@@MMPEBVIPathCost@@@Z@W4NavSearchAreaResult_t@@AEAV4@PEAUNavSearchAreaInfo_t@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??DrawJumpLinks@CNavDrawMesh@@SAXAEAVCNavMesh@@UNavHull_t@@AEBVVector@@MM@Z@_NPEAVCNavArea@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??FindBackAwayFromNavmesh@CAI_TacticalServices@@AEAA_NAEBVVector@@MMPEAV4@@Z@W4NavSearchPosResult_t@@AEBV4@AEBVCNavArea@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??FindConnectedBoundaryEdgesWithinCircle@CNavBoundaryZone@@IEAAHAEBVCPathCostBase@@AEAVCNavArea@@AEBVVector2D@@MAEAV?$CUtlVector@UNavBoundarySeg_t@@V?$CUtlMemory@UNavBoundarySeg_t@@H@@@@@Z@W4NavSearchAreaResult_t@@AEAV5@PEAUNavSearchAreaInfo_t@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??FindConnectedBoundaryEdgesWithinDistOfPath@CNavBoundaryZone@@IEAAHAEBVCPathCostBase@@AEAVCNavArea@@AEBVVector@@HPEBVVector2D@@MAEAV?$CUtlVector@UNavBoundarySeg_t@@V?$CUtlMemory@UNavBoundarySeg_t@@H@@@@@Z@W4NavSearchAreaResult_t@@AEAV5@PEAUNavSearchAreaInfo_t@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??FindConnectedNavAreaContainingPoint@NavSearch@@YAPEAVCNavArea@@AEBVVector2D@@AEAV4@0AEBVCPathCostBase@@@Z@W4NavSearchAreaResult_t@@AEAV4@PEAUNavSearchAreaInfo_t@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??FindConnectedNavAreasWithinDistOfSeg@NavSearch@@YAHAEAVCNavArea@@AEBVVector2D@@1MAEBVCPathCostBase@@PEAV?$CUtlVectorFixedGrowable@PEAVCNavArea@@$0CA@@@@Z@W4NavSearchAreaResult_t@@AEAV4@PEAUNavSearchAreaInfo_t@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??FindObstacleFreeGoalOffsetPos@CAI_Navigator@@IEAA_NAEBVVector@@MPEAV4@@Z@W4NavSearchPosResult_t@@AEBV4@AEBVCNavArea@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??FindRandomConnectedPoint@CNavQuery@@SA?AVVector@@AEBV4@PEAVCNavArea@@UNavHull_t@@MM@Z@W4NavSearchPosResult_t@@AEBV4@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??SaveGame_Finalize@CEntity2SaveRestore@@UEAA_NPEAUSaveRestoreDataHandle_t__@@@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??SaveReadHeaderAndSpawnGroupList@CEntity2SaveRestore@@AEAAHPEAXPEAUSaveHeaderCache_t@@@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??SplitAreaByPlane@CNavArea@@QEAAHAEAVCNavMesh@@AEBVVector@@M_NPEAPEAV3@2@Z@PEAVCNavPoly@@$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??SplitArea_Old@CNavGen@@SA_NAEAVCNavMesh@@AEAVCNavArea@@AEBVVector@@MPEAPEAV5@3@Z@PEAVCNavPoly@@$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??TestRay@CNavSegGrid@@QEBAMAEBVVector2D@@0MPEAH_N@Z@XHAEBUNavBoundarySeg_t@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??TestRayToNavMesh@NavSearch@@YA_NAEBVVector@@PEBVCNavArea@@0UNavHull_t@@PEAVCNavTraceResult@@PEAVCNavTestRayParams@@PEAV?$function@$$A6A_NAEBVCNavArea@@AEBUNavAdj_t@@AEBVVector@@PEBV3@@Z@std@@_N@Z@_NAEBV5@AEBUNavAdj_t@@AEBV4@PEBV4@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??UpdateObstacle@CNavObstacleTileMgr@@QEAAXAEAVINavObstacle@@@Z@XAEB_K@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??AddNavAreasForRefVolume@CMarkupSearchHelper@@IEAAXPEBVCMarkupVolumeWithRef@@@Z@_NAEAVCNavArea@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??AddNavAreasForTaggedVolume@CMarkupSearchHelper@@IEAAXPEBVCMarkupVolumeTagged@@@Z@_NAEAVCNavArea@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?5??ApplyMarkupFromNavGenInput@CNavMesh@@AEAAXXZ@_NPEAVCNavArea@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?5??FindNearestNavWithPhysicsClearance@CNavQuery@@SA_NAEBVVector@@PEAVCNavArea@@UNavHull_t@@PEAV4@PEBVCBaseEntity@@HM@Z@W4NavSearchPosResult_t@@AEBV4@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?7??combine_test_suppression_positions@@YAXAEBVCCommandContext@@AEBVCCommand@@@Z@W4NavSearchPosResult_t@@AEBVVector@@AEBVCNavArea@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?9??FindNextOccludedNode@CPathOptimizerNavmesh@@MEAAHAEAVCPath@@AEBVCPathCostBase@@HPEAV?$CUtlVectorFixedGrowable@UNavTransition_t@@$0BA@@@@Z@_NAEBVCNavArea@@AEBUNavAdj_t@@AEBVVector@@PEBV9@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?BE@??AttemptBlockedRecovery@CAI_Navigator@@MEAA_NW4AIMoveResult_t@@@Z@XAEAVCNavArea@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?HG@??UpdateSelection@CNavEditor@@QEAA_NXZ@W4NavSearchPosResult_t@@AEBVVector@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??DebugDraw@CNavObstacleAreaMgr@@QEAAXM@Z@X_KMM@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??DoSearch@CTacticalSearch@@QEAA?AVVector@@XZ@W4NavSearchAreaResult_t@@AEBVCNavArea@@PEA_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??FindConnectedBoundaryEdgesWithinCircle@CNavBoundaryZone@@IEAAHAEBVCPathCostBase@@AEAVCNavArea@@AEBVVector2D@@MAEAV?$CUtlVector@UNavBoundarySeg_t@@V?$CUtlMemory@UNavBoundarySeg_t@@H@@@@@Z@_NAEAV5@AEAUNavIncludeAreaInfo_t@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??FindConnectedBoundaryEdgesWithinDistOfPath@CNavBoundaryZone@@IEAAHAEBVCPathCostBase@@AEAVCNavArea@@AEBVVector@@HPEBVVector2D@@MAEAV?$CUtlVector@UNavBoundarySeg_t@@V?$CUtlMemory@UNavBoundarySeg_t@@H@@@@@Z@_NAEAV5@AEAUNavIncludeAreaInfo_t@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??FindConnectedNavAreasWithinDistOfSeg@NavSearch@@YAHAEAVCNavArea@@AEBVVector2D@@1MAEBVCPathCostBase@@PEAV?$CUtlVectorFixedGrowable@PEAVCNavArea@@$0CA@@@@Z@_NAEAV4@AEAUNavIncludeAreaInfo_t@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??UpdateObstacle@CNavObstacleTileMgr@@QEAAXAEAVINavObstacle@@@Z@XAEB_K@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?BA@??ApplyMarkup@CNavEntityInterface@@UEAAXAEAVCNavMesh@@@Z@_NAEAVCNavArea@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?FD@??UpdateMixedShadowsComputations@CDynamicShadowMgr@@QEAAXPEAVCBasePlayer@@@Z@XPEAVCLightComponent@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_3>@?1??UpdateObstacle@CNavObstacleTileMgr@@QEAAXAEAVINavObstacle@@@Z@XAEB_K@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_3>@?MA@??UpdateSelection@CNavEditor@@QEAA_NXZ@W4NavSearchPosResult_t@@AEBVVector@@AEBVCNavArea@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_4>@?PH@??UpdateSelection@CNavEditor@@QEAA_NXZ@VVector@@AEBV4@AEBV4@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CAI_TacticalSearchRejectMru@@EAAXAEBVVector@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVVector@@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CAI_TacticalSearchRejectMru@@EBA_NAEBVVector@@M@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@_NAEBVVector@@M@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CCoverGoal@@EBA_NAEBVVector@@M@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@_NAEBVVector@@M@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CCoverLowGoal@@EBA_NAEBVVector@@M@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@_NAEBVVector@@M@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CCoverWallGoal@@EBA_NAEBVVector@@M@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@_NAEBVVector@@M@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CLosGoal@@EBA_NAEBVVector@@_N1M@ZPEAV3@AEBU?$_Ph@$00@2@_N_NAEBU?$_Ph@$01@2@@std@@_NAEBVVector@@M@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CMarkupSearchHelper@@EAAXPEBVCMarkupVolumeTagged@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBQEBVCMarkupVolumeTagged@@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CMarkupSearchHelper@@EAAXPEBVCMarkupVolumeWithRef@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBQEBVCMarkupVolumeWithRef@@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CNavBfsLatticeMarkup@@EAA?AW4NavSearchAreaResult_t@@AEBVCNavArea@@PEA_N@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@W4NavSearchAreaResult_t@@AEBVCNavArea@@PEA_N@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CNavBfsLatticeMarkup@@EAA?AW4NavSearchPosResult_t@@AEBVVector@@AEBVCNavArea@@@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@W4NavSearchPosResult_t@@AEBVVector@@AEBVCNavArea@@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CNpcSolverForSmooth@@EAA?AVVector@@AEBV4@0@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@VVector@@AEBV3@AEBV3@@std@@
+.?AV?$_Func_impl_no_alloc@V?$reference_wrapper@UBFSAreaCollector_t@?BD@??DebugDraw@CPathCostRecorder@@QEBAXXZ@@std@@W4NavSearchAreaResult_t@@AEAVCNavArea@@PEAUNavSearchAreaInfo_t@@@std@@
+.?AV?$_Func_impl_no_alloc@V?$reference_wrapper@V?$function@$$A6A?AW4NavSearchAreaResult_t@@AEAVCNavArea@@PEAUNavSearchAreaInfo_t@@@Z@std@@@std@@W4NavSearchAreaResult_t@@AEAVCNavArea@@PEAUNavSearchAreaInfo_t@@@std@@
+.?AV?$_Func_impl_no_alloc@V?$reference_wrapper@V?$function@$$A6A?AW4NavSearchPosResult_t@@AEBVVector@@AEBVCNavArea@@@Z@std@@@std@@W4NavSearchPosResult_t@@AEBVVector@@AEBVCNavArea@@@std@@
+.?AV?$_Func_impl_no_alloc@V?$reference_wrapper@VBreadthFirstSearchVolumeCollector@@@std@@W4NavSearchAreaResult_t@@AEAVCNavArea@@PEAUNavSearchAreaInfo_t@@@std@@
+.?AV?$_Func_impl_no_alloc@V?$reference_wrapper@VCNavBreadthFirstSearchLattice@@@std@@W4NavSearchAreaResult_t@@AEAVCNavArea@@PEAUNavSearchAreaInfo_t@@@std@@
+.?AV?$_Func_impl_no_alloc@V?$reference_wrapper@VCNavSearchHexLattice@@@std@@W4NavSearchAreaResult_t@@AEAVCNavArea@@PEAUNavSearchAreaInfo_t@@@std@@
+.?AV?$_Func_impl_no_alloc@V?$reference_wrapper@VDrawSelectionSet@@@std@@W4NavSearchAreaResult_t@@AEAVCNavArea@@PEAUNavSearchAreaInfo_t@@@std@@
+.?AV?$_Func_impl_no_alloc@V?$reference_wrapper@VSelectCollector@@@std@@W4NavSearchAreaResult_t@@AEAVCNavArea@@PEAUNavSearchAreaInfo_t@@@std@@
 .?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
 .?AV?$reference_wrapper@UBFSAreaCollector_t@?BD@??DebugDraw@CPathCostRecorder@@QEBAXXZ@@std@@
 .?AV?$reference_wrapper@V?$function@$$A6A?AW4NavSearchAreaResult_t@@AEAVCNavArea@@PEAUNavSearchAreaInfo_t@@@Z@std@@@std@@
@@ -4203,10 +4194,10 @@ $gender
 .?AVCSpriteAlias_env_glow@@
 .?AVCSpriteOriented@@
 .?AVCSquadInsignia@@
-.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_2437d5e9dd56fcf09a3fe051ded4a200>@@@@@@QEAAXXZ@
-.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_69c5012d25093ab17941f96d54ba56e9>@@@@@@QEAAXXZ@
-.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_ef4fae70c56df7f2819807266b962e6d>@@@@@@QEAAXXZ@
-.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_f2928656221d3743eb303480371037fd>@@@@@@QEAAXXZ@
+.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_1>@?1??BuildKeyValuesCache@CEntityKeyValuesSaveRestoreOpsBase@@QEAAXPEAVCGameSaveRestoreInfo@@@Z@@@@@QEAAXXZ@
+.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_1>@?5??FrameUpdatePostEntityThink@CAnimGraphGameSystem@@UEAAXAEBUEventServerPostEntityThink_t@@@Z@@@@@QEAAXXZ@
+.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_1>@?CE@??Physics_RunThinkFunctions@@YAX_N@Z@@@@@QEAAXXZ@
+.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_2>@?BB@??FrameUpdatePostEntityThink@CAnimGraphGameSystem@@UEAAXAEBUEventServerPostEntityThink_t@@@Z@@@@@QEAAXXZ@
 .?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CParallelProcessor@UPVSWork_t@@V?$CMemberFuncJobItemProcessor@UPVSWork_t@@VCSource2GameEntities@@V2@@@$00@@@@QEAAXXZ@
 .?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CParallelProcessor@UQueryCacheUpdateRecord_t@@V?$CFuncJobItemProcessor@UQueryCacheUpdateRecord_t@@@@$00@@@@QEAAXXZ@
 .?AVCStatTracker@@
@@ -4708,6 +4699,7 @@ $gender
 .?AVIRecipientFilter@@
 .?AVIRefCounted@@
 .?AVIRegistry@@
+.?AVIRenderHandler@@
 .?AVIResponseDB@rr2@@
 .?AVIResponseFilter@@
 .?AVIResponseSystem@@
@@ -4736,6 +4728,7 @@ $gender
 .?AVISource2ServerSerializers@@
 .?AVISpawnGroupEntityFilter@@
 .?AVISpawnListenerAI@@
+.?AVIStack_Annotation@@
 .?AVIStatTracker@@
 .?AVIStepSimulationManager@@
 .?AVIStreamEntitiesFromFileCompletion@@
@@ -4845,9 +4838,9 @@ $gender
 .?AVUnknownFieldSetFieldSkipper@internal@protobuf@google@@
 .?AVZeroCopyInputStream@io@protobuf@google@@
 .?AVZeroCopyOutputStream@io@protobuf@google@@
-.?AV_Ref_count_base@std@@
 .?AV__non_rtti_object@std@@
 .?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
 .?AVbad_cast@std@@
 .?AVbad_exception@std@@
 .?AVbad_function_call@std@@
@@ -4882,7 +4875,6 @@ $gender
 .CRT$XLA
 .CRT$XLZ
 .CRT$XPA
-.CRT$XPB
 .CRT$XPX
 .CRT$XPXA
 .CRT$XPZ
@@ -4917,12 +4909,11 @@ $gender
 .bss
 .data
 .data$r
+.data$rs
 .dummy
 .edata
 .foo = value".
 .g[rA
-.gfids$x
-.gfids$y
 .google.protobuf.EnumOptions
 .google.protobuf.FieldOptions
 .google.protobuf.FieldOptions"
@@ -4944,6 +4935,7 @@ $gender
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .rtc$IAA
 .rtc$IZZ
@@ -5096,11 +5088,8 @@ $gender
 0.997
 0.9f
 0.Ui
-0000
 00000000-0000-0000-0000-000000000000
-00003333
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-0123456789ABCDEF
 0123456789abcdef
 0123456789abcdefghijklmnopqrstuvwxyz
 02\x
@@ -5109,15 +5098,14 @@ $gender
 0: Off, 1: Toggle Crouch, 2: Toggle Stand, 3: Short Press Toggles Crouch and Long Press Toggles Stand
 0: Oriented to the VR Hand, 1: Oriented to the HMD, 2: Combo of HMD, Hand and world orientation
 0:<\n\fdelta_ignore
-0Aff6A
+0@333@
 0E>X
 0PPAP
 0X8b?~
-0\f%04
+0\f50t\f
 0\fXr
 0\n,RAPIDFIRE_BULLET_MANAGER_EVENT_CREATE_BULLET
 0\n\vserializers
-0\tE0d
 0iN>/
 0x%016llX
 0x%p
@@ -5170,7 +5158,6 @@ $gender
 120.0
 120.0f
 1200
-123456789
 125.0f
 1250
 128.0
@@ -5192,7 +5179,7 @@ $gender
 16000
 16384
 1647
-1731
+1732
 1750
 18.0
 18.0f
@@ -5202,7 +5189,6 @@ $gender
 1893
 192.0
 1982
-1@333@
 1@Ih
 1DBlend
 1GERA
@@ -5213,7 +5199,6 @@ $gender
 1\n-RAPIDFIRE_BULLET_MANAGER_EVENT_CREATE_CLUSTER
 1a4+
 1dm:
-1eaB@
 1uWf
 1w?WA
 2 .CBidirMsg_RelayInfo.Operation_t
@@ -5273,7 +5258,7 @@ $gender
 2\n.eRollType
 2\r%2h
 2\r.PrefetchType"5\n
-2\r52t
+2\vp!R
 2tGZE
 2uWv
 3 3 8
@@ -5291,10 +5276,9 @@ $gender
 300000
 32 -10 54
 32.0f
-3333
 333333
 3333333333333333
-333333C@
+333333C@\
 33333{r@
 333?
 333?333?
@@ -5314,7 +5298,6 @@ $gender
 3>fvw
 3?tr
 3D Distance: %.4f units  (%.2f feet) --- 2D Distance: %.4f units  (%.2f feet)\n
-3\f53t\f
 3\n/RAPIDFIRE_BULLET_MANAGER_EVENT_ACTIVATE_CLUSTER
 3\n/RAPIDFIRE_BULLET_MANAGER_EVENT_TRANSFER_CLUSTER
 3\n\toperation
@@ -5329,16 +5312,16 @@ $gender
 400.0f
 4000
 42 -10 40
-433333S@UUU@
-4337
+433333S@UUU@VUU@
 4338
+4339
 440.0
-4465
+4466
 44T{
 45.0f
 450.0
 456789:;<=
-4754
+4755
 48.0
 4@G8-x
 4Ca\v6C
@@ -5362,14 +5345,15 @@ $gender
 51>W
 52.0f
 55000.0
+560.0
 5600
-5884
+5886
 59B'
 5YHe/
+5\f%54
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_TEXTURE_ATTRIBUTE
 5\n1RAPIDFIRE_BULLET_MANAGER_EVENT_DEACTIVATE_CLUSTER
 5\n\vnested_type
-5modellib
 6 : Extended Magazine\n
 6.0f
 60.0
@@ -5391,7 +5375,6 @@ $gender
 7.0f
 70.0
 70.0f
-700WP
 72.0
 75.0
 75P=
@@ -5403,6 +5386,7 @@ $gender
 7Ze&<o
 7\n3GAME_PARTICLE_MANAGER_EVENT_SET_CONTROL_POINT_MODEL
 7\n\tenum_type
+7\rE7
 7`ZKV?e
 7~xh
 8 5 2
@@ -5435,14 +5419,12 @@ $gender
 98N*>
 999999.0
 9>70
-9>powf
 9@0G
 9D7V=
 9Px? FcH
 9Zg,>4
 9\n\noneof_decl
 9\n\vplayer_info
-9channels
 9gCN>
 9rIz
 9x&4
@@ -5488,7 +5470,6 @@ $gender
 <function>
 <input>
 <logical entity>
-<no behavior>
 <no class info>
 <no failure reason set>
 <no schedule>
@@ -5573,14 +5554,18 @@ $gender
 ?9A@c
 ?;9Cq
 ?<83U
+??0CThreadFastMutex@@QEAA@PEBD@Z
+??0CThreadFastMutex@@QEAA@XZ
 ??0CThreadMultiWaitEvent@@QEAA@_N@Z
 ??0CThreadMutex@@QEAA@PEBD@Z
+??0CThreadMutex@@QEAA@XZ
 ??0CThreadRWLock_FastRead@@QEAA@_N@Z
 ??0CUniformRandomStream@@QEAA@XZ
+??0IStack_Annotation@@QEAA@AEBVCCallStackMarkerBase@@@Z
 ??1CThreadEvent@@QEAA@XZ
 ??1CThreadMultiWaitEvent@@QEAA@XZ
-??1CThreadMutex@@QEAA@XZ
 ??1CThreadSemaphore@@QEAA@XZ
+??1IStack_Annotation@@UEAA@XZ
 ?@En[vP
 ?AppendFormat@CBufferString@@QEAAHPEBDZZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
@@ -5610,11 +5595,12 @@ $gender
 ?Format@CBufferString@@QEAAHPEBDZZ
 ?HandleFirstWriteLockTransition@CThreadRWLock_FastRead@@IEAAXXZ
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
+?IsEnabled@CVProfile@@QEBA_NXZ
 ?Ji@9
 ?K5X
 ?Kre
 ?KxB
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@PEBULoggingMetaData_t@@PEBDZZ
@@ -5655,6 +5641,7 @@ $gender
 ?ToLowerFast@CBufferString@@QEAAXH@Z
 ?TryLock@CThreadMutex@@QEAA_NPEBDH@Z
 ?UUUUUU
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockReadAccounting@CThreadRWLock_FastRead@@IEAAXPEBDHI@Z
 ?UnlockRead_LockForWrite@CThreadRWLock_FastRead@@QEAA?AW4RWLockTranstionResult_t@@PEBDH@Z
@@ -5685,6 +5672,7 @@ $gender
 ?bQ\t6KU
 ?cLU5
 ?c\tkc
+?channels
 ?cwO
 ?eH_R
 ?es-8R
@@ -5762,6 +5750,7 @@ $gender
 @^8U)zj
 @asiW|
 @bDG
+@c:\buildslave\hlvr_rel_win64\build\src\physicslib\physaggregatedata.cpp
 @jDz
 @player_start_teleport_destination
 @p}Xo
@@ -5769,7 +5758,6 @@ $gender
 @relay_credits_skip
 @spawn
 @wKr
-A Log_Meta_* macro at %s (%d) went out of scope before it's parent Log_End().\n
 A directional light entity
 A file with this name is already in the pool.
 A protocol message was rejected because it was too big (more than 
@@ -7951,7 +7939,6 @@ Achievements disabled, ignoring achievement unlock for %s\n
 Achievements disabled: Steam not running.\n
 Achievements disabled: cheats turned on in this app session.\n
 Ack! No Phys Object!
-AcquireSRWLockExclusive
 Act Accuracy: %.1f
 Act Busy
 Act Busy: Exit Point
@@ -7976,6 +7963,7 @@ ActivateSpeedModifier
 ActivateThink
 ActivateTouch
 ActivatedThink
+Activator
 ActivatorEffectThink
 Active
 Active and Inactive bullet count mismatch!!
@@ -8229,6 +8217,7 @@ Antlion: Thumper Flee Point
 AntlionBurrowState_e
 AntlionGib
 AntlionMoveState_e
+AppPolicyGetProcessTerminationMethod
 AppearanceFinished
 AppendToLogFile
 AppendToLogFile is deprecated. Print to the console for logging instead.
@@ -8251,6 +8240,7 @@ ApproachBrightnessThink
 April
 Ar!ES
 AreChaperoneBoundsVisible
+AreFileApisANSI
 Area #%d(%d), %d verts, %d connections, %s\n
 Area %d didn't get any nodes!\n
 Area %d has area %d on both 2-way and incoming list, should only be on one\n
@@ -8418,8 +8408,10 @@ BZ in LockIn...%s...starting hit mark!\n
 BZ reset LockIn...b_lock_in_freezer set to FALSE!\n
 BZSoundSystem: %s made sound(%2.4f) at (%f %f %f) - (%f %f %f)\n
 B\9{gt
+B\np\t0
 B\t3m
 B\vP\n0
+B\vp\n0
 B\vp\nP
 BackUp() can only be called after a successful Next().
 BackgroundBModel
@@ -8677,6 +8669,7 @@ ButtonTouch
 ButtonUse
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of 
 C-side of entity framework
+C0qy
 C5R?\t
 C9,h5
 C?T6
@@ -8708,7 +8701,6 @@ CAI_BaseNPC::UpdateSleepState called with nullptr pLocalPlayer\n
 CAI_BaseNPC_RunAnimation
 CAI_BasePhysicsFlyingBot
 CAI_BattleLine
-CAI_Behavior
 CAI_Behavior2Base
 CAI_BehaviorBase
 CAI_BlendedMotor
@@ -9542,6 +9534,7 @@ CGameSceneNode::AddHierarchyUpdate: Encountered unknown bone in parent entity %s
 CGameSceneNode::BuildBoneMergeWork: Invalid use of bonemerge-based hierarchy in non-skeleton instance based entity %s / entity %s!\n
 CGameSceneNode::BuildBoneMergeWork: Tried to bone merge an entity that has no model or no parent model : [%d] "%s" / parent [%d] "%s"!\n
 CGameSceneNode::StartHierarchicalAttachment: Cannot specify a skeleton instance that has no owner!\n
+CGameSceneNode::StartHierarchicalAttachment: Cannot start hierarchical attachment on a skeleton instance that has no owner!\n
 CGameSceneNode::StartHierarchicalAttachment: Encountered unknown attachment in parent entity "%s" (model "%s")!\n
 CGameSceneNode::StartHierarchicalAttachment: Invalid use of attachment-based hierarchy in non-skeleton instance based entity %s!\n
 CGameSceneNode::StartHierarchicalAttachment: Invalid use of bone-based hierarchy in non-skeleton instance based entity %s!\n
@@ -10050,7 +10043,6 @@ CLightSpot
 CLightSpotAlias_light_glspot
 CLightSpotEntity
 CLoadingSpawnGroup::CreateEntityToSpawn
-CLoggingInternalMsg_ScopeVerification::~CLoggingInternalMsg_ScopeVerification
 CLogicAchievement
 CLogicActiveAutosave
 CLogicAuto
@@ -10275,6 +10267,7 @@ CNavMesh::TestRayToMesh error.  Ray did not exit nav area.\n
 CNavMesh::Update
 CNavObstacleSplit2Mgr::DebugDraw - num removed = %d\n
 CNavObstructionManager::InitConnectionBlockers: %d connection blockers found\n
+CNavVolume
 CNavVolumeAll
 CNavVolumeBreadthFirstSearch
 CNavVolumeCalculatedVector
@@ -11085,7 +11078,6 @@ CTurretTipController
 CType
 CULL
 CURVE_TANGENT_FREE
-CURVE_TANGENT_LINEAR
 CURVE_TANGENT_MIRROR
 CURVE_TANGENT_SINE
 CURVE_TANGENT_SPLINE
@@ -11524,6 +11516,7 @@ Callback for event "%s" is NULL!!!\n
 Called wrong EndTask()\n
 Called wrong RunTask()\n
 Called wrong StartTask()\n
+Caller
 Camera
 CameraSpace
 Can't 
@@ -11606,6 +11599,7 @@ Cavern guard is not allowed to use physics attacks.
 CavernBounceThink
 Center Position: %f, %f, %f\n
 Centers the nav mesh in the world
+Cfmodf
 Chain '%s' SetEnabled(%s)\n
 ChangeAccessorFieldPathIndex_t
 ChangeControlPointAttachment
@@ -11725,9 +11719,6 @@ Close
 CloseAreaPortalsThink
 CloseCompleteSound
 CloseHandle
-CloseThreadpoolTimer
-CloseThreadpoolWait
-CloseThreadpoolWork
 CloseTouch
 Closer To Enemy
 Closing Done
@@ -11908,8 +11899,6 @@ Container to hold context published to precache functions in script
 Container to hold keyvalues published to spawn functions in script
 Container to hold outputs published by script to game
 Context: %s:%s
-ContextPriority
-ContextStackSize
 Continue an iteration over the list of entities, providing reference to a previously found entity
 Controls which connections are shown when ai_show_hull or ai_show_connect commands are used\n\tArguments:\tNPC name or classname, <none>=NPC under crosshair
 Convars
@@ -11918,7 +11907,6 @@ ConvertTarget
 ConvertToDebrisWhenPossible
 Convex hull building with 2D data, will fail!\n
 Copied %s to %s\n
-Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
 CorExitProcess
 Coroutine_Continue
 CorpseFallThink
@@ -11982,7 +11970,6 @@ CreateDamageInfo
 CreateEffect
 CreateEntity
 CreateEvent: event '%s' not registered.\n
-CreateEventExW
 CreateEventW
 CreateFileW
 CreateGameRulesObject
@@ -11994,13 +11981,7 @@ CreateNoiseThink
 CreateParticle
 CreateParticleForPlayer
 CreateSceneEntity
-CreateSemaphoreExW
-CreateSemaphoreW
 CreateSimpleThread
-CreateSymbolicLinkW
-CreateThreadpoolTimer
-CreateThreadpoolWait
-CreateThreadpoolWork
 CreateTrigger
 CreateTrigger( vecMin, vecMax ) : Creates and returns an AABB trigger
 CreateTriggerRadiusApproximate
@@ -12086,8 +12067,6 @@ DAMAGEORDEATH_INTERRUPTABILITY
 DAMAGE_EVENTS_ONLY
 DAMAGE_NO
 DAMAGE_YES
-DDDD
-DDDDUUUU
 DEAD
 DEATH_INTERRUPTABILITY
 DEBRIS
@@ -12245,6 +12224,7 @@ Defines the second corner of a new Area or Ladder and creates it.
 Degenerate Navigation Area at ( %0.2f, %0.2f, %0.2f )\n
 Degenerate area %d
 DegreeEuler
+Delay
 Delay: %d
 DelayActivateThink
 DelayThink
@@ -12655,11 +12635,9 @@ DynamicConfigList
 DynamicLightThink
 DynamicLinkState_t
 DynamicNeighbor:TimeMS\t%f\n
-DynamicProgressFeedback
 DynamicShadowManager
 E!4H
 E1/v
-E1x\t
 E3_Phystown.Slicer
 E7NL
 E>nEA
@@ -12709,7 +12687,7 @@ EFIRE
 EGS_LOADED_PUMP_REQUIRED
 EGS_LOADED_READY_TO_FIRE
 EGS_NOT_LOADED
-EGx/
+EGx.
 EHANDLE
 EHANDLE2
 EHLVRClientMessages
@@ -13552,13 +13530,13 @@ FindCover() - %s has no nearest node! (Check near %f %f %f)\n
 FindEntity
 FindExplicitCoverNode: %s has no nearest node! Origin(%f %f %f)\n
 FindExplicitCoverNode: Found more than %d cover nodes in radius %f, stopping short.\n
-FindFirstFileExA
+FindFirstFileExW
 FindFlexController
 FindHandModelOverride
 FindInSphere
 FindNPCToManTank
 FindNamedEntity
-FindNextFileA
+FindNextFileW
 FindNodesCloseToPlayer
 FindOrCreateQuantizedFloatEncoder
 FindThink
@@ -13697,7 +13675,6 @@ FlsSetValue
 Flush all .vcds from the cache and reload from disk.
 Flush and reload all vehicle scripts
 FlushFileBuffers
-FlushProcessWriteBuffers
 Flushes entity bone cache on lag compensation
 Flushes the server & client side soundscapes
 FlyAway
@@ -13811,7 +13788,6 @@ Free a damageinfo object that was created with CreateDamageInfo().
 Free pass: %.1f
 FreeEnvironmentStringsW
 FreeLibrary
-FreeLibraryWhenCallbackReturns
 Frees the specified particle index
 Frequency
 Friction during noclip move.
@@ -13836,6 +13812,7 @@ FuncTrackTrain '%s' has no target.\n
 FuncTrain '%s' has no target.\n
 Func_Tank.BeginUse
 Function              %10s %10s %10s %10s\n
+Fx?5
 G8-x
 G>US
 GAME
@@ -14064,19 +14041,16 @@ GetCommandClient
 GetCommandClient() : returns the player who issued this console command.
 GetCommandLineA
 GetCommandLineW
-GetConsoleCP
 GetConsoleMode
+GetConsoleOutputCP
 GetContext
 GetContext( name ): looks up a context and returns it if available. May return string, float, or null (if the context isn't found).
 GetContextForScript
 GetCounter
 GetCurSchedule() == NULL
-GetCurrentPackageId
 GetCurrentProcess
 GetCurrentProcessId
-GetCurrentProcessorNumber
 GetCurrentScene
-GetCurrentThread
 GetCurrentThreadId
 GetCycle
 GetDamage
@@ -14100,7 +14074,7 @@ GetEquippedWeapons() : Returns an array of all the equipped weapons
 GetEyePosition() Can't get pstudiohdr ptr!\n
 GetFMod
 GetFaction
-GetFileInformationByHandleEx
+GetFileSizeEx
 GetFileType
 GetFlexWeight
 GetFloat
@@ -14129,7 +14103,6 @@ GetLocalOrigin
 GetLocalPlayer
 GetLocalScale
 GetLocalVelocity
-GetLocaleInfoEx
 GetMapName
 GetMass
 GetMatchScore
@@ -14143,7 +14116,7 @@ GetMaxOutputDelay
 GetMessage
 GetModelName
 GetModelScale
-GetModuleFileNameA
+GetModuleFileNameW
 GetModuleHandleExW
 GetModuleHandleW
 GetMoveParent
@@ -14220,11 +14193,8 @@ GetStringReference
 GetStringTypeW
 GetSystemInfo
 GetSystemTimeAsFileTime
-GetSystemTimePreciseAsFileTime
 GetTeam
 GetTeamNumber
-GetThreadTimes
-GetTickCount64
 GetUInt32
 GetUInt64
 GetUpVector
@@ -14723,6 +14693,7 @@ I("hq
 I@T\tJ
 IAnimVRProxy
 IBotController
+ICURVE_TANGENT_LINEAR
 IDEMPOTENCY_UNKNOWN
 IDLE
 IDX!
@@ -14920,7 +14891,6 @@ InitLogFile
 InitLogFile is deprecated. Print to the console for logging instead.
 InitLogFile is deprecated. Print to the console for logging instead.\n
 InitNodePosition:TimeMS\t%f\n
-InitOnceExecuteOnce
 InitZone:TimeMS\t%f\n
 InitialAnim
 InitialCompletionAmount
@@ -14931,12 +14901,10 @@ InitialThink
 InitialValue
 Initialize with number of outputs
 InitializeAINetworks
-InitializeConditionVariable
 InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
-InitializeSRWLock
 Initializing NPC
 Initializing assault behavior
 Initializing node neighbors...\n
@@ -16500,7 +16468,6 @@ LoadingShell
 Loads the Navigation Mesh for the current map.
 Local nav island: island entity %d/'%s'/'%s'/'%s'\n
 Local nav island: seed entity %d/'%s'/'%s'/'%s'\n
-LocalContextCacheSize
 LocalPlayerExclusive
 LocalTime
 LocalWeaponExclusive
@@ -16814,7 +16781,6 @@ Max view roll angle
 MaxAngAccel
 MaxAngVelocity
 MaxAnimTime
-MaxConcurrency
 MaxDelay
 MaxDist
 MaxExposure
@@ -16822,7 +16788,6 @@ MaxLiveChildren
 MaxNPCCount
 MaxNetworkableEntities
 MaxNonNetworkableEntities
-MaxPolicyElementKey
 MaxRagdollCount
 MaxRange
 MaxSearchDist
@@ -16880,7 +16845,6 @@ MethodOptions
 MhP<
 Min distance to TP before any footstep sounds
 MinAnimTime
-MinConcurrency
 MinDist
 MinExposure
 MinHitPointsToCommit
@@ -17026,7 +16990,6 @@ Muzzle
 MuzzleFlash
 My manhack died!\n
 N3`d?
-N8@1
 N>O=I9
 N>VF
 NAN(IND)
@@ -18327,6 +18290,7 @@ OutValue
 Outer maxs
 Outer mins
 OuterMaxDist
+Output
 Output help for script functions
 Output help for script functions suitable for auto-completion
 Output unserialization of entities on map load. 0 - off, 1 - client/server, 2 - server, 3 - client
@@ -18345,7 +18309,8 @@ OverrideFriction
 OverrideHealth
 Oy?H
 P: %d (b %f)!
-P@33S@
+P?]tQ?VUU?=\nW?
+PA33SA
 PARALLEL_PROCESS CAnimGraphGameSystem::FrameUpdatePostEntityThink(), c:\buildslave\hlvr_rel_win64\build\src\game\server\animgraph_gamesystem.cpp:108
 PARALLEL_PROCESS CAnimGraphGameSystem::FrameUpdatePostEntityThink(), c:\buildslave\hlvr_rel_win64\build\src\game\server\animgraph_gamesystem.cpp:144
 PARALLEL_PROCESS CEntityKeyValuesSaveRestoreOpsBase::BuildKeyValuesCache(), c:\buildslave\hlvr_rel_win64\build\src\game\shared\game_saverestore_entities.cpp:105
@@ -18445,6 +18410,7 @@ Panic
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
+Param
 Params: (entity, query) : tests 'query' against entity's response system and returns the best response found (or null if none found).
 Parent: %s\n
 Parse error on %s: %s\n
@@ -18963,6 +18929,8 @@ R9HP
 R: NORMAL
 R: REVERSE
 R: SAME DIR
+R@33S@
+R@fffff
 RADIATION
 RAGDOLL_BLEND_IN
 RAGDOLL_BLEND_OUT
@@ -19003,10 +18971,10 @@ RPG_Round
 RP_PAUSE
 RP_TOGGLEPAUSE
 RR: could not apply operator %s to prior value %s\n
-RSDSvBuMSw
+RSDS
 R\n@Z*oG8
-R\vp@y
-R\vpH
+R\vp8
+R\vpD;
 RackClosing
 RackData_t
 RackOpening
@@ -19145,7 +19113,6 @@ ReleaseMessage
 ReleaseOnPlayerDamage
 ReleaseParticleIndex
 ReleasePlayer
-ReleaseSRWLockExclusive
 ReleaseSporesThink
 ReleaseThreadHandle
 Reload
@@ -19409,6 +19376,7 @@ Route Destination No Longer Valid
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlPcToFileHeader
+RtlUnwind
 RtlUnwindEx
 RtlVirtualUnwind
 Rule @%p : %s , %dc, %dr\n
@@ -20219,20 +20187,18 @@ STANDING TO FIRE
 STARTED ITERATIVE CROUCH
 STARTSCRIPTING
 STEALTH Dist: %.2f,  TTS: %.2f,  Delta: %.2f -> Perc: %.2f (was %.2f)  - at %.2f (%.2f elapsed)\n
-STEAMAPPLIST_INTERFACE_VERSION001
-STEAMAPPS_INTERFACE_VERSION008
+STEAMAPPS_INTERFACE_VERSION009
 STEAMHTMLSURFACE_INTERFACE_VERSION_005
 STEAMHTTP_INTERFACE_VERSION003
 STEAMINVENTORY_INTERFACE_V003
-STEAMMUSICREMOTE_INTERFACE_VERSION001
 STEAMMUSIC_INTERFACE_VERSION001
 STEAMPARENTALSETTINGS_INTERFACE_VERSION001
-STEAMREMOTESTORAGE_INTERFACE_VERSION014
+STEAMREMOTEPLAY_INTERFACE_VERSION004
+STEAMREMOTESTORAGE_INTERFACE_VERSION016
 STEAMSCREENSHOTS_INTERFACE_VERSION003
-STEAMTV_INTERFACE_V001
-STEAMUGC_INTERFACE_VERSION013
-STEAMUSERSTATS_INTERFACE_VERSION011
-STEAMVIDEO_INTERFACE_V002
+STEAMUGC_INTERFACE_VERSION021
+STEAMUSERSTATS_INTERFACE_VERSION013
+STEAMVIDEO_INTERFACE_V007
 STORM_STATE_ENDED
 STORM_STATE_MOVING
 STORM_STATE_WAITING
@@ -20346,8 +20312,6 @@ Schedule not found
 Schedule: %s (time: %.2f)\n
 ScheduledFollowPath to goal entity %s failed\nCan't execute script %s\n
 ScheduledMoveToGoalEntity to goal entity %s failed\nCan't execute script %s\n
-SchedulerKind
-SchedulingProtocol
 SchemaSystem_001
 SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
@@ -20933,7 +20897,7 @@ SetEntityName
 SetEnum
 SetEnumValue
 SetEnumValue accepts only valid integer values: value 
-SetEnvironmentVariableA
+SetEnvironmentVariableW
 SetEvent
 SetExcluded
 SetExpressionOverride
@@ -20956,7 +20920,6 @@ SetFarFocusDepth
 SetFarRange
 SetFarZ
 SetFightTarget
-SetFileInformationByHandle
 SetFilePointerEx
 SetFireRate
 SetFlashlightBrightness
@@ -21293,8 +21256,6 @@ SetTeleportFlipped
 SetText
 SetTextureAttribute
 SetTextureIndex
-SetThreadpoolTimer
-SetThreadpoolWait
 SetThrowArcModifier
 SetThrowTarget
 SetTimer
@@ -21495,7 +21456,6 @@ Slack
 Slam
 Sleep
 SleepConditionVariableCS
-SleepConditionVariableSRW
 SlideReleaseButtonThink
 SlideTouch
 SlopeTrace
@@ -21837,29 +21797,31 @@ StayAtCover
 Stealth
 Steam
 SteamAPI_GetHSteamUser
-SteamAPI_Init
 SteamAPI_RegisterCallback
 SteamAPI_UnregisterCallback
 SteamAudio001
-SteamClient019
-SteamController007
-SteamFriends017
-SteamGameServer012
-SteamGameServerStats001
+SteamClient023
+SteamController008
+SteamFriends018
+SteamGameServer015
 SteamGameServer_GetHSteamUser
 SteamInfo
-SteamInput001
+SteamInput007
 SteamInternal_ContextInit
 SteamInternal_CreateInterface
 SteamInternal_FindOrCreateGameServerInterface
 SteamInternal_FindOrCreateUserInterface
-SteamMatchGameSearch001
+SteamInternal_SteamAPI_Init
 SteamMatchMaking009
-SteamMatchMakingServers002
-SteamNetworking005
+SteamMatchMakingServers003
+SteamNetworking006
+SteamNetworkingMessages002
+SteamNetworkingSockets013
+SteamNetworkingUtils004
+SteamParties002
 SteamToursHost001
-SteamUser021
-SteamUtils009
+SteamUser023
+SteamUtils011
 Steer
 Step: %6.3f [ms]
 StepSimulationFuncRotatingAnglesSerializer
@@ -21968,7 +21930,6 @@ Subdiv
 Subdivides all selected areas.
 Subject
 Subject:%s,Distance:%f
-SubmitThreadpoolWork
 SubtleEffects
 Subtract
 SubtractFromTimer
@@ -22004,6 +21965,7 @@ Symbol name "
 Synchronously spawn an entity group from a list of spawn tables.
 Synchronously spawns a single entity from a table
 System %s failed to init\n
+T0d/
 T95*
 TANKBULLET
 TANK_BULLET_LARGE
@@ -22895,7 +22857,6 @@ TargetEnemy
 TargetEntity
 TargetEntityName
 TargetNode
-TargetOversubscriptionFactor
 TargetReference
 TargetScale
 Task
@@ -23031,6 +22992,7 @@ This can be used to limit the value of cl_interp_ratio for connected clients (on
 This program requires version 
 This program was compiled against version 
 This shouldn't be called if all the sizes are equal.
+ThreadAtomicNotifyAll
 ThreadInMainThread
 ThreadMultiWaitObjectSetDestroy
 ThreadSleep
@@ -23255,7 +23217,6 @@ TruckGun.ProjectileExplo_HitStrider
 True
 Truncated data
 Try to clear all the debug overlay info
-TryAcquireSRWLockExclusive
 TryToExitScenesThink
 Trying %s (%s): 
 Trying to change pitch on invalid sound event %s\n
@@ -23599,6 +23560,7 @@ Userid changed, clearing stats file\n
 Using Ref Pos: no
 Using Ref Pos: yes
 Using model "%s"\n
+V@fffff
 VALVt
 VApplication001
 VAvi001
@@ -23916,7 +23878,6 @@ Wait
 WaitDistance
 WaitForOpenSequenceThink
 WaitForSingleObjectEx
-WaitForThreadpoolTimerCallbacks
 WaitForUpgradeThink
 WaitForWeaponExitThink
 WaitOverConceptModifier
@@ -23929,7 +23890,6 @@ WaitingForPlayers time length in seconds
 Wake
 Wake all physics objects in the Main physics up
 WakeAllConditionVariable
-WakeConditionVariable
 Walk
 WalkRunState_t
 WalkSpeed
@@ -24037,7 +23997,6 @@ Will loop action sequence
 Will synch post idles
 Will transmit all entities to client, regardless of PVS conditions (will still skip based on transmit flags, however).
 Will turn an NPC into a ragdoll OR a ragdoll back to an NPC
-WinRTInitialization
 WindThink
 Window
 Window End
@@ -24212,6 +24171,7 @@ Z}uU
 \\n)NETWORK_DISCONNECT_PURESERVER_CLIENTEXTRA
 \\n*NETWORK_DISCONNECT_LOOP_LEVELLOAD_ACTIVATE
 \\n.NETWORK_DISCONNECT_REQUEST_HOSTSTATE_HLTVRELAY
+\fp\vP8
 \n    Actual    : 
 \n    Field type: 
 \n  Field       : 
@@ -25159,6 +25119,7 @@ _DisableUpdateTarget
 _EnableUpdateTarget
 _OnLogicBranchChanged
 _OnLogicBranchRemoved
+_RDATA
 _V_AppendSlash
 _V_ComposeFileName
 _V_DefaultExtension
@@ -25193,6 +25154,8 @@ __procedural_adopted_targetname_
 __ptr64
 __restrict
 __stdcall
+__swift_1
+__swift_2
 __temp_unserialization_member__
 __thiscall
 __unaligned
@@ -25230,6 +25193,7 @@ _unlockorient
 `AgffA
 `RTTI
 `TRg
+`anonymous namespace'
 `awpf*
 `copy constructor closure'
 `default constructor closure'
@@ -26128,6 +26092,7 @@ backpack_enabled
 backward
 bad address
 bad allocation
+bad array new length
 bad exception
 bad file descriptor
 bad function call
@@ -26437,7 +26402,6 @@ c:\buildslave\hlvr_rel_win64\build\src\game\shared\animationlayer.cpp
 c:\buildslave\hlvr_rel_win64\build\src\game\shared\baseentity_shared.cpp
 c:\buildslave\hlvr_rel_win64\build\src\game\shared\baseflex_shared.cpp
 c:\buildslave\hlvr_rel_win64\build\src\game\shared\collisionproperty.cpp
-c:\buildslave\hlvr_rel_win64\build\src\game\shared\entitydebuggamesystem.cpp
 c:\buildslave\hlvr_rel_win64\build\src\game\shared\env_time_of_day2.cpp
 c:\buildslave\hlvr_rel_win64\build\src\game\shared\func_shatterglass.cpp
 c:\buildslave\hlvr_rel_win64\build\src\game\shared\game_saverestore.cpp
@@ -26472,7 +26436,6 @@ c:\buildslave\hlvr_rel_win64\build\src\interfaces\interfaces.cpp
 c:\buildslave\hlvr_rel_win64\build\src\kv3lib\kv3format_manager.cpp
 c:\buildslave\hlvr_rel_win64\build\src\mathlib\mathlib.cpp
 c:\buildslave\hlvr_rel_win64\build\src\modellib\model.cpp
-c:\buildslave\hlvr_rel_win64\build\src\physicslib\physaggregatedata.cpp
 c:\buildslave\hlvr_rel_win64\build\src\public\closedcaption\closedcaptions.cpp
 c:\buildslave\hlvr_rel_win64\build\src\public\entity2\concreteentitylist.h
 c:\buildslave\hlvr_rel_win64\build\src\public\entity2\entitycomponent.h
@@ -26482,7 +26445,6 @@ c:\buildslave\hlvr_rel_win64\build\src\public\ordered_constructor.h
 c:\buildslave\hlvr_rel_win64\build\src\public\scenesystem\iscenesystem.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier0\tslist.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\eventdispatcher.h
-c:\buildslave\hlvr_rel_win64\build\src\public\tier1\loggingmetahelpers.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\memstack.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlblockmemory.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlfixedmemory.h
@@ -28032,7 +27994,7 @@ fltx4
 flushing & reloading scenes.cache\n
 flwaitSentence
 flwaitSound
-fmodf
+fmod
 fogColor
 fogEnable
 fogEnd
@@ -28335,7 +28297,6 @@ game_event_name
 game_gib_manager
 game_interactions
 game_keys
-game_newmap
 game_player_equip
 game_player_team
 game_playerdie
@@ -33796,6 +33757,7 @@ m_flLastPowerPropagateTime
 m_flLastPrimaryAttackTime
 m_flLastPropagateTime
 m_flLastPull
+m_flLastPullGestureTime
 m_flLastRealThinkTime
 m_flLastRightFootElevation
 m_flLastSawAnEnemyAt
@@ -38284,6 +38246,7 @@ manifestincomplete
 manifestloadpriority
 map %s
 map/mapname
+map/set too long
 map/set<T> too long
 map<$0, $1>
 map_background
@@ -38586,6 +38549,7 @@ modeldoc8
 modeldoc9
 modeldoc_preview_ent
 modelgroup
+modellib
 modelname:%s
 models
 models/%s
@@ -39943,6 +39907,8 @@ operation not supported
 operation would block
 operator
 operator "" 
+operator co_await
+operator<=>
 operatorName
 operatorname
 optional
@@ -40007,10 +39973,9 @@ o}Xot#
 p)cS
 p4 revert -a "%s"
 p;4,F
-p=CNavVolume
 p?33s?
 p?}WF
-p@560.0
+p@r_skymodel_nightambient
 pAttachmentName
 pAttachmentname
 pBoneTransformsString
@@ -40034,6 +39999,7 @@ pVehicle
 pWaypoints == nullptr || pWaypoints->GetPos().IsValid()\n
 pWorldObject
 p\r0\fP
+p\rP!E
 pa end %f
 pa start %f
 package
@@ -40835,6 +40801,7 @@ posx
 posy
 posz
 pound
+powf
 precacheTest3.vrnmd
 precache_shared.cpp PrecacheMaterial:: path '%s' missing extension!\n
 preciptype
@@ -41024,7 +40991,6 @@ q~y7
 r0@GP!
 rJ@LB
 rKK\t@i;
-rLp>B
 r\tVr.>T
 r_AirboatViewDampenDamp
 r_AirboatViewDampenFreq
@@ -41046,7 +41012,6 @@ r_mixed_shadows_relative_distance_threshold
 r_mixed_shadows_update_radius
 r_retinaburn_capture_next_frame
 r_skymodel_moonboost
-r_skymodel_nightambient
 r_skymodel_wavelength_b
 r_skymodel_wavelength_g
 r_skymodel_wavelength_r
@@ -42280,7 +42245,6 @@ springaxis
 sprint_proclivity
 sprite
 spriteflash
-sprites/
 sprites/%s
 sprites/fire_floor.vmat
 sprites/glow_test02.vmat
@@ -43110,6 +43074,7 @@ vecRelativeVelocity
 vecSave
 vecVelocity
 vector
+vector too long
 vector%d
 vector2d
 vector4d
@@ -43932,6 +43897,7 @@ vr_teleport_show_navignore_solvers
 vr_teleport_slope_sample_debug
 vr_teleport_slope_sample_distance
 vr_teleport_spamhint
+vr_teleport_suppress_delta_pose
 vr_teleport_unstuck_debug
 vr_teleport_viewsmooth
 vr_teleport_viewsmooth_force_duration
@@ -44129,6 +44095,7 @@ wsprintfA
 wvCd
 wz)e
 x*;XZ
+x@)222
 xL9-C
 xT?V
 x\TK
@@ -44187,7 +44154,6 @@ xen_hearing_flower_min_range
 xfriction
 xmax
 xmin
-xpxxxx
 xq,9
 xuid
 y@4N

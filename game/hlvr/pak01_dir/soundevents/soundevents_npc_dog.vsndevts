@@ -1,43 +1,44 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	NPC_Dog_Scripted_Ending.Base_Loud = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		volume_falloff_min = 600.000000
-		volume_falloff_max = 3500.000000
-		use_hrtf = 1.000000
+		volume = 1.4
+		volume_falloff_min = 600.0
+		volume_falloff_max = 3500.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence_Loud"
 	}
 	NPC_Dog_Scripted_Ending.Base_Med = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 3500.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		volume_falloff_min = 400.0
+		volume_falloff_max = 3500.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence_Loud"
 	}
 	NPC_Dog_Scripted_Ending.Base_Quiet = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.9
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 	}
 	NPC_Dog_Scripted_Ending.Base_Eye = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		volume_falloff_max = 600.000000
-		use_hrtf = 1.000000
+		volume = 0.7
+		volume_falloff_max = 600.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 	}
 	NPC_Dog_Scripted_Ending.Grav_Hand = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		volume_falloff_max = 500.000000
-		use_hrtf = 1.000000
+		volume = 0.9
+		volume_falloff_max = 500.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		should_pause = true
 		vsnd_files = "sounds/npc/dog/scripted/grav_hand.vsnd"
@@ -45,10 +46,10 @@
 	NPC_Dog_Scripted_Ending.Step_Layer = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 1500.000000
-		use_hrtf = 1.000000
+		volume = 1.2
+		volume_falloff_min = 200.0
+		volume_falloff_max = 1500.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence_Loud"
 		vsnd_files = 
 		[
@@ -66,13 +67,13 @@
 	NPC_Dog_Scripted_Ending.Body_Loop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		volume_fade_in = 3.000000
-		volume_fade_out = 3.000000
-		use_hrtf = 1.000000
+		volume = 0.6
+		volume_fade_in = 3.0
+		volume_fade_out = 3.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 300.000000
+		volume_falloff_min = 50.0
+		volume_falloff_max = 300.0
 		should_pause = true
 		attachment = "snd_attach"
 		vsnd_files = "sounds/npc/dog/scripted/body_loop_idle.vsnd"
@@ -99,15 +100,15 @@
 		soundevent_02 = "NPC_Dog_Scripted_Ending.Entry_Land_Wet"
 		soundevent_03 = "NPC_Dog_Scripted_Ending.Entry_Land_Layer"
 		soundevent_04 = "NPC_Dog_Scripted_Ending.Step_Layer"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	NPC_Dog_Scripted_Ending.Entry_Land_Core = 
 	{
 		base = "NPC_Dog_Scripted_Ending.Base_Loud"
-		volume = 1.800000
+		volume = 1.8
 		vsnd_files = "sounds/npc/dog/scripted/entry_land.vsnd"
 	}
 	NPC_Dog_Scripted_Ending.Entry_Land_Wet = 
@@ -165,8 +166,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "NPC_Dog_Scripted_Ending.Step_Approach_Hop_Down_Core"
 		soundevent_02 = "NPC_Dog_Scripted_Ending.Step_Approach_Hop_Down_Layer"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	NPC_Dog_Scripted_Ending.Step_Approach_Hop_Down_Core = 
 	{
@@ -183,8 +184,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "NPC_Dog_Scripted_Ending.Step_Approach_01_Core"
 		soundevent_02 = "NPC_Dog_Scripted_Ending.Step_Layer"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	NPC_Dog_Scripted_Ending.Step_Approach_01_Core = 
 	{
@@ -196,8 +197,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "NPC_Dog_Scripted_Ending.Step_Approach_02_Core"
 		soundevent_02 = "NPC_Dog_Scripted_Ending.Step_Layer"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	NPC_Dog_Scripted_Ending.Step_Approach_02_Core = 
 	{
@@ -209,8 +210,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "NPC_Dog_Scripted_Ending.Step_Approach_03_Core"
 		soundevent_02 = "NPC_Dog_Scripted_Ending.Step_Layer"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	NPC_Dog_Scripted_Ending.Step_Approach_03_Core = 
 	{
@@ -222,8 +223,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "NPC_Dog_Scripted_Ending.Step_Backup_Foot_01_Core"
 		soundevent_02 = "NPC_Dog_Scripted_Ending.Step_Layer"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	NPC_Dog_Scripted_Ending.Step_Backup_Foot_01_Core = 
 	{
@@ -235,8 +236,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "NPC_Dog_Scripted_Ending.Step_Backup_Foot_02_Core"
 		soundevent_02 = "NPC_Dog_Scripted_Ending.Step_Layer"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	NPC_Dog_Scripted_Ending.Step_Backup_Foot_02_Core = 
 	{
@@ -248,8 +249,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "NPC_Dog_Scripted_Ending.Step_Backup_Hand_01_Core"
 		soundevent_02 = "NPC_Dog_Scripted_Ending.Step_Layer"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	NPC_Dog_Scripted_Ending.Step_Backup_Hand_01_Core = 
 	{
@@ -261,8 +262,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "NPC_Dog_Scripted_Ending.Step_Backup_Hand_02_Core"
 		soundevent_02 = "NPC_Dog_Scripted_Ending.Step_Layer"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	NPC_Dog_Scripted_Ending.Step_Backup_Hand_02_Core = 
 	{

@@ -1,8 +1,9 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	PhysImpact_Surface.Cardboard = 
 	{
 		type = "hlvr_phys_impact_basic"
-		vgraph_volume_mult = 0.300000
+		vgraph_volume_mult = 0.3
 		vsnd_files_a = 
 		[
 			"sounds/physics/surfaces/cardboard/impact_a_01.vsnd",
@@ -33,7 +34,7 @@
 	PhysImpact_Surface.Carpet = 
 	{
 		type = "hlvr_phys_impact_basic"
-		vgraph_volume_mult = 0.300000
+		vgraph_volume_mult = 0.3
 		vsnd_files_a = 
 		[
 			"sounds/physics/surfaces/carpet/impact_a_01.vsnd",
@@ -74,7 +75,7 @@
 	PhysImpact_Surface.Chainlink = 
 	{
 		type = "hlvr_phys_impact_basic"
-		vgraph_volume_mult = 0.500000
+		vgraph_volume_mult = 0.5
 		vsnd_files_a = 
 		[
 			"sounds/physics/surfaces/chainlink/impact_a_01.vsnd",
@@ -101,7 +102,7 @@
 	PhysImpact_Surface.Concrete = 
 	{
 		type = "hlvr_phys_impact_basic"
-		vgraph_volume_mult = 0.300000
+		vgraph_volume_mult = 0.3
 		vsnd_files_a = 
 		[
 			"sounds/physics/surfaces/concrete/impact_a_01.vsnd",
@@ -140,7 +141,7 @@
 	PhysImpact_Surface.Debris_Concrete = 
 	{
 		type = "hlvr_phys_impact_basic"
-		vgraph_volume_mult = 0.300000
+		vgraph_volume_mult = 0.3
 		vsnd_files_a = 
 		[
 			"sounds/physics/surfaces/debris_concrete/impact_a_01.vsnd",
@@ -175,7 +176,7 @@
 	PhysImpact_Surface.Debris_Wood = 
 	{
 		type = "hlvr_phys_impact_basic"
-		vgraph_volume_mult = 0.300000
+		vgraph_volume_mult = 0.3
 		vsnd_files_a = 
 		[
 			"sounds/physics/surfaces/debris_wood/impact_a_01.vsnd",
@@ -217,7 +218,7 @@
 	PhysImpact_Surface.Dirt = 
 	{
 		type = "hlvr_phys_impact_basic"
-		vgraph_volume_mult = 0.300000
+		vgraph_volume_mult = 0.3
 		vsnd_files_a = 
 		[
 			"sounds/physics/surfaces/dirt/impact_a_01.vsnd",
@@ -256,7 +257,7 @@
 	PhysImpact_Surface.Foliage = 
 	{
 		type = "hlvr_phys_impact_basic"
-		vgraph_volume_mult = 0.300000
+		vgraph_volume_mult = 0.3
 		vsnd_files_a = 
 		[
 			"sounds/physics/props/foliage_stem/impact_a_01.vsnd",
@@ -279,7 +280,7 @@
 	PhysImpact_Surface.Glass = 
 	{
 		type = "hlvr_phys_impact_basic"
-		vgraph_volume_mult = 0.600000
+		vgraph_volume_mult = 0.6
 		vsnd_files_a = 
 		[
 			"sounds/physics/surfaces/glass/impact_a_01.vsnd",
@@ -310,7 +311,7 @@
 	PhysImpact_Surface.Gravel = 
 	{
 		type = "hlvr_phys_impact_basic"
-		vgraph_volume_mult = 0.300000
+		vgraph_volume_mult = 0.3
 		vsnd_files_a = 
 		[
 			"sounds/physics/surfaces/gravel/impact_a_01.vsnd",
@@ -350,7 +351,7 @@
 	PhysImpact_Surface.Mattress = 
 	{
 		type = "hlvr_phys_impact_basic"
-		vgraph_volume_mult = 0.300000
+		vgraph_volume_mult = 0.3
 		vsnd_files_a = 
 		[
 			"sounds/physics/surfaces/mattress/impact_a_01.vsnd",
@@ -388,7 +389,7 @@
 	PhysImpact_Surface.Metal_Panel = 
 	{
 		type = "hlvr_phys_impact_basic"
-		vgraph_volume_mult = 0.300000
+		vgraph_volume_mult = 0.3
 		vsnd_files_a = 
 		[
 			"sounds/physics/surfaces/metal_panel/impact_a_01.vsnd",
@@ -426,7 +427,7 @@
 	PhysImpact_Surface.Metal_Solid = 
 	{
 		type = "hlvr_phys_impact_basic"
-		vgraph_volume_mult = 0.300000
+		vgraph_volume_mult = 0.3
 		vsnd_files_a = 
 		[
 			"sounds/physics/surfaces/metal_solid/impact_a_01.vsnd",
@@ -464,7 +465,7 @@
 	PhysImpact_Surface.Metal_Thin = 
 	{
 		type = "hlvr_phys_impact_basic"
-		vgraph_volume_mult = 0.300000
+		vgraph_volume_mult = 0.3
 		vsnd_files_a = 
 		[
 			"sounds/physics/surfaces/metal_thin/metal_thin_a_01.vsnd",
@@ -500,7 +501,7 @@
 	PhysImpact_Surface.Metal_Walkway = 
 	{
 		type = "hlvr_phys_impact_basic"
-		vgraph_volume_mult = 0.300000
+		vgraph_volume_mult = 0.3
 		vsnd_files_a = 
 		[
 			"sounds/physics/surfaces/metal_walkway/impact_a_01.vsnd",
@@ -534,7 +535,7 @@
 	PhysImpact_Surface.Mud = 
 	{
 		type = "hlvr_phys_impact_basic"
-		vgraph_volume_mult = 0.300000
+		vgraph_volume_mult = 0.3
 		vsnd_files_a = 
 		[
 			"sounds/physics/surfaces/mud/impact_a_01.vsnd",
@@ -570,7 +571,7 @@
 	PhysImpact_Surface.Porcelain_Sink = 
 	{
 		type = "hlvr_phys_impact_basic"
-		vgraph_volume_mult = 0.300000
+		vgraph_volume_mult = 0.3
 		vsnd_files_a = 
 		[
 			"sounds/physics/surfaces/porcelain_sink/impact_a_01.vsnd",
@@ -604,7 +605,7 @@
 	PhysImpact_Surface.Rubber_Tire = 
 	{
 		type = "hlvr_phys_impact_basic"
-		vgraph_volume_mult = 0.300000
+		vgraph_volume_mult = 0.3
 		vsnd_files_a = 
 		[
 			"sounds/physics/surfaces/rubber_tire/impact_a_01.vsnd",
@@ -640,7 +641,7 @@
 	PhysImpact_Surface.Sofa = 
 	{
 		type = "hlvr_phys_impact_basic"
-		vgraph_volume_mult = 0.300000
+		vgraph_volume_mult = 0.3
 		vsnd_files_a = 
 		[
 			"sounds/physics/surfaces/sofa/impact_a_01.vsnd",
@@ -675,7 +676,7 @@
 	PhysImpact_Surface.Wood = 
 	{
 		type = "hlvr_phys_impact_basic"
-		vgraph_volume_mult = 0.300000
+		vgraph_volume_mult = 0.3
 		vsnd_files_a = 
 		[
 			"sounds/physics/surfaces/wood/impact_a_01.vsnd",

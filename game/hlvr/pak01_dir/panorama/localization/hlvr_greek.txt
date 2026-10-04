@@ -1,0 +1,685 @@
+"lang" 
+{ 
+"Language" "greek" 
+"Tokens" 
+{ 
+
+// main menu
+"HLVR_MainMenu_NewGame"						"Start New Game"
+"HLVR_MainMenu_Continue"					"ΣΥΝΕΧΕΙΑ"
+"HLVR_MainMenu_LoadGame"					"ΦΟΡΤΩΣΗ ΑΠΟΘΗΚ. ΠΑΙΧΝΙΔΙΟΥ"
+"HLVR_MainMenu_Quit"							"ΕΞΟΔΟΣ"
+"HLVR_MainMenu_Options"						"ΕΠΙΛΟΓΕΣ"
+"HLVR_MainMenu_PhotoMode"					"ΛΕΙΤΟΥΡΓΙΑ ΦΩΤΟΓΡΑΦΙΩΝ"
+"HLVR_MainMenu_SelectChapter"			"ΕΠΙΛΟΓΗ ΚΕΦΑΛΑΙΟΥ"
+"HLVR_MainMenu_Back"							"ΠΙΣΩ"
+
+"HLVR_MainMenu_MainMenu"					"ΚΥΡΙΟ ΜΕΝΟΥ"
+"HLVR_MainMenu_Resume"						"ΕΠΑΝΑΦΟΡΑ"
+"HLVR_MainMenu_Save"  						"ΑΠΟΘΗΚΕΥΣΗ"
+"HLVR_MainMenu_Load"  						"ΦΟΡΤΩΣΗ"
+"HLVR_MainMenu_SavedGames"				"ΠΑΙΧΝΙΔΙΑ"
+"HLVR_MainMenu_StartNewGame"	  	"ΕΚΚΙΝΗΣΗ ΝΕΟΥ ΠΑΙΧΝΙΔΙΟΥ"
+"HLVR_MainMenu_StartGame"	  			"ΝΕΟ ΠΑΙΧΝΙΔΙ"
+"HLVR_MainMenu_StartGameNoAddon"	  	"ΕΚΚΙΝΗΣΗ ΠΑΙΧΝΙΔΙΟΥ ΧΩΡΙΣ ΠΡΟΣΘΕΤΑ"
+"HLVR_MainMenu_StartGameAddon"	  	"ΕΚΚΙΝΗΣΗ ΠΑΙΧΝΙΔΙΟΥ ΜΕ ΠΡΟΣΘΕΤΑ"
+"HLVR_MainMenu_CreateNewGame"	  	"ΔΗΜΙΟΥΡΓΙΑ ΝΕΟΥ ΠΑΙΧΝΙΔΙΟΥ"
+
+"HLVR_MainMenu_Start"							"ΕΚΚΙΝΗΣΗ"
+
+"HLVR_MainMenu_LoadSlot"					"ΦΟΡΤΩΣΗ ΥΠΟΔΟΧΗΣ ΠΑΙΧΝΙΔΙΟΥ %s"
+"HLVR_MainMenu_GameSlotHeader"		"ΥΠΟΔΟΧΗ ΠΑΙΧΝΙΔΙΟΥ %s"
+"HLVR_MainMenu_GameSlotConfirm"		"\nΥποδοχή παιχνιδιού %s"
+
+"HLVR_MainMenu_SaveSlot"    	  	"ΥΠΟΔΟΧΗ"
+"HLVR_MainMenu_GameSlot"    	  	"ΥΠΟΔΟΧΗ ΠΑΙΧΝΙΔΙΟΥ"
+"HLVR_MainMenu_Overwrite"    	  	"ΑΝΤΙΚΑΤΑΣΤΑΣΗ"
+"HLVR_MainMenu_Overwrite_desc"		"Όλες οι υποδοχές παιχνιδιού είναι κατειλημμένες. Επιλέξτε μια υποδοχή για αντικατάσταση. \n\nΠΡΟΣΟΧΗ: Αυτή η διαδικασία θα διαγράψει τα υπάρχοντα δεδομένα αποθήκευσης."
+"HLVR_MainMenu_StartOver"					"ΑΝΤΙΚΑΤΑΣΤΑΣΗ;"
+"HLVR_MainMenu_NewGame"						"ΝΕΟ ΠΑΙΧΝΙΔΙ;"
+"HLVR_MainMenu_Slot"    	  			"ΥΠΟΔΟΧΗ"
+"HLVR_MainMenu_SlotOverwrite"			"ΕΠΙΛΕΞΤΕ ΥΠΟΔΟΧΗ ΓΙΑ ΑΠΟΘΗΚΕΥΣΗ ΑΠΟ ΠΑΝΩ"
+
+"HLVR_QuickSave"									"ΓΡΗΓΟΡΗ ΑΠΟΘΗΚΕΥΣΗ"
+"HLVR_AutoSave"									  "ΑΥΤΟΜΑΤΗ ΑΠΟΘΗΚΕΥΣΗ"
+
+"HLVR_Skip_Credits"								"ΠΑΡΑΛΕΙΨΗ ΣΥΝΤΕΛΕΣΤΩΝ"
+"HLVR_Skip_Credits_Confirm"				"Παράλειψη συντελεστών;"
+
+"HLVR_Addons"							"ΠΡΟΣΘΕΤΑ"
+"HLVR_MainMenu_ManageAddons"			"ΔΙΑΧΕΙΡΙΣΗ ΠΡΟΣΘΕΤΩΝ"
+"HLVR_MainMenu_AddonsToolsMode"			"Αδυναμία φόρτωσης χάρτη με πρόσθετα ενώ στη λειτουργία εργαλείων."
+"HLVR_MainMenu_StartAddonGame"			"ΕΚΚΙΝΗΣΗ ΠΑΙΧΝΙΔΙΟΥ ΜΕ ΤΑ ΑΚΟΛΟΥΘΑ ΠΡΟΣΘΕΤΑ:"
+"HLVR_MainMenu_AddonDisabled"			"Απενεργοποιήθηκε συσχετισμένο πρόσθετο"
+"HLVR_MainMenu_AddonNotAvailable"		"Το σχετιζόμενο πρόσθετο δεν είναι πλέον διαθέσιμο για αυτόν τον χάρτη.\nΕγγραφείτε ξανά και ενεργοποιήστε αυτό το πρόσθετο για να συνεχίσετε"
+"HLVR_MainMenu_NoAddonsEnabled"			"Κανένα ενεργό πρόσθετο για παιχνίδι πρόσθετων"
+"HLVR_MainMenu_AddonToggleInfo"			"Πατήστε εναλλαγή στα αριστερά για ενεργοποίηση και απενεργοποίηση"
+"HLVR_MainMenu_LocalAddon"				"Τοπικό πρόσθετο"
+"HLVR_MainMenu_MissingAddon"			"Τα ακόλουθα πρόσθετα λείπουν.  Παρακαλούμε επανεγγραφείτε για να φορτώσετε αυτό το αρχείο"
+
+"HLVR_MainMenu_OriginalGame"			"ΑΡΧΙΚΑ ΠΑΙΧΝΙΔΙΑ"
+"HLVR_MainMenu_AddonGame"				"ΠΡΟΣΘΕΤΑ ΠΑΙΧΝΙΔΙΑ"
+
+"HLVR_MainMenu_OriginalMaps"			"ΑΡΧΙΚΟ ΠΑΙΧΝΙΔΙ"
+"HLVR_MainMenu_AddonMaps"				"ΠΡΟΣΘΕΤΟΙ ΧΑΡΤΕΣ"
+
+"HLVR_MainMenu_AddonUpVote"				"Θετικές ψήφοι"
+"HLVR_MainMenu_AddonDownVote"			"Αρνητικές ψήφοι"
+
+"HLVR_browse_workshop_label"			"ΠΕΡΙΗΓΗΣΗ ΕΡΓΑΣΤΗΡΙΟΥ"
+"HLVR_browse_workshop_confirm"			"Περιήγηση εργαστηρίου μέσω της επικάλυψης Steam;"
+"HLVR_browse_workshop_desc"				"Περιήγηση εργαστηρίου Half-Life : Alyx μέσω της επικάλυψης Steam"
+
+"HLVR_local_addons"				"Τοπικά πρόσθετα"
+"HLVR_downloaded_addons"		"Κατεβασμένα πρόσθετα"
+"HLVR_enabled_addons"			"Ενεργά πρόσθετα:"
+"HLVR_addon_game"				"Παιχνίδι με ενεργά πρόσθετα"
+
+"HLVR_MainMenu_Attention"												"ΠΡΟΣΟΧΗ"
+"HLVR_MainMenu_Attention_MinSpec_CPU"								"Η CPU σας είναι κάτω των ελάχιστων απαιτήσεων για το Half-Life Alyx."
+"HLVR_MainMenu_Attention_MinSpec_RAM"								"Η μνήμη συστήματός σας είναι κάτω των ελάχιστων απαιτήσεων για το Half-Life Alyx."
+"HLVR_MainMenu_Attention_MinSpec_GPU"								"Η συσκευή γραφικών σας είναι κάτω των ελάχιστων απαιτήσεων για το Half-Life Alyx."
+"HLVR_MainMenu_Attention_Above_Recommended"					"Οι ρυθμίσεις σας είναι άνω των προτεινόμενων επιπέδων."
+"HLVR_MainMenu_Attention_Warning"										"ΤΟ ΠΑΙΧΝΙΔΙ ΜΠΟΡΕΙ ΝΑ ΕΠΗΡΕΑΣΤΕ."
+"HLVR_MainMenu_Attention_Graphics_Reset"						"Οι ρυθμίσεις επίδοσης σας επέστρεψαν σε ένα προτεινόμενο επίπεδο."
+"HLVR_MainMenu_Attention_LowDiskSpaceForSwapfile"				"Το Half-Life: Alyx μπορεί να είναι ασταθές λόγω χαμηλού χώρου δίσκου στο δίσκο λειτουργικού συστήματός σας, που μπορεί να περιορίζει το μέγεθος αρχείων σελιδοποίησης."
+"HLVR_MainMenu_Attention_Low_GPU_Memory"						"Εντοπίστηκε χαμηλή διαθέσιμη μνήμη GPU. Παρακαλούμε κλείστε οποιαδήποτε μη απαραίτητα προγράμματα για να αυξήσετε τη διαθεσιμότητα της μνήμης GPU."
+"HLVR_MainMenu_Attention_Low_System_Memory"						"Εντοπίστηκε χαμηλή διαθέσιμη μνήμη συστήματος. Παρακαλούμε κλείστε οποιαδήποτε μη απαραίτητα προγράμματα για να αυξήσετε τη διαθεσιμότητα της μνήμης συστήματος."
+"HLVR_MainMenu_Old_Driver_Version"								"Η έκδοση οδηγού GPU σας είναι κάτω από την προτεινόμενη έκδοση για το Half-Life: Alyx σε Vulkan. Παρακαλούμε εγκαταστήστε το νεότερο οδηγό για τη GPU σας."
+"HLVR_MainMenu_Attention_LoadErrorMap"							"Αδυναμία φόρτωσης παιχνιδιού επειδή δεν ήταν δυνατό να βρεθεί ο αιτούμενος χάρτης:"
+"HLVR_MainMenu_Attention_LoadErrorAddons"						"Αυτό μπορεί να συμβαίνει εξαιτίας ενός από τα ενεργά πρόσθετα:"
+
+"HLVR_MainMenu_ModalQuit"						"Τερματισμός Half-Life Alyx;"
+"HLVR_MainMenu_ModalMainMenu"					"Μετάβαση σε κύριο μενού;"
+"HLVR_MainMenu_ModalLoadGame"					"Φόρτωση αρχείου αποθήκευσης;"
+"HLVR_MainMenu_ModalNewGame"					"Δημιουργία νέου παιχνιδιού;"
+"HLVR_MainMenu_ModalNewGameOverwrite"			"Διαγραφή υπαρχόντων δεδομένων αποθήκευσης και δημιουργία νέου παιχνιδιού;"
+
+"HLVR_MainMenu_ModalAccept"						"ΑΠΟΔΟΧΗ"
+"HLVR_MainMenu_ModalCancel"						"ΑΚΥΡΟ"
+
+"HLVR_Pause_Menu_Only"								"Αυτές οι επιλογές είναι διαθέσιμες μόνο στο μενού παύσης κατά τη διάρκεια ενός ενεργού παιχνιδιού"
+
+"HLVR_MainMenu_Init_desc"		    			"Επιλέξετε το κύριο χέρι σας.\n\nΑυτό μπορεί να αλλάξει στο μενού επιλογών οποιαδήποτε στιγμή."
+
+"HLVR_MainMenu_NewGame_desc" 					"Ξεκινήστε ένα νέο παιχνίδι του Half-Life Alyx."
+"HLVR_MainMenu_SaveGame_desc" 					"Κάντε μια γρήγορη αποθήκευση της τρέχουσας προόδου."
+
+"HLVR_MainMenu_Resin"							"Ρητίνη"
+"HLVR_MainMenu_HP"								"ΖΩΗ"
+"HLVR_MainMenu_Pistol"							"Πιστόλι"
+"HLVR_MainMenu_Shotgun"							"Καραμπίνα"
+"HLVR_MainMenu_RapidFire"						"SMG"
+
+"HLVR_MainMenu_Days"							"Η"		// Short hand for Days
+"HLVR_MainMenu_Hrs"								"Ω"		// Short Hand for Hours
+
+"HLVR_MainMenu_DeleteSlot_desc"				"Αφαιρέστε όλα τα αποθηκευμένα παιχνίδια από αυτή την υποδοχή παιχνιδιού."
+"HLVR_MainMenu_DeleteSlot_Confirm"		"Αφαίρεση μόνιμα όλων των αποθηκευμένων παιχνιδιών από αυτή την υποδοχή παιχνιδιού;"
+
+"HLVR_NoSaving"			"Δεν είναι δυνατή η αποθήκευση αυτή τη στιγμή"
+
+"HLVR_Sibling_L"											"Α"
+"HLVR_Sibling_R"											"Δ"
+
+"HLVR_Options_Game_Preferences"				"ΥΠΟΔΟΧΗ ΠΑΙΧΝΙΔΙΟΥ"
+"HLVR_Options_System_Options"					"ΣΥΣΤΗΜΑ"
+
+"HLVR_Options_Diffculty_base"					"ΔΥΣΚΟΛΙΑ"
+
+"HLVR_Options_Diffculty_story"					"ΙΣΤΟΡΙΑ"
+"HLVR_Options_Diffculty_easy"					"ΕΥΚΟΛΟ"
+"HLVR_Options_Diffculty_normal"					"ΜΕΣΑΙΟ"
+"HLVR_Options_Diffculty_hard"					"ΔΥΣΚΟΛΟ"
+
+"HLVR_Options_Diffculty_story_desc"					"Η πιο απλή μάχη."
+"HLVR_Options_Diffculty_easy_desc"					"Μέτρια προκλητική μάχη."
+"HLVR_Options_Diffculty_normal_desc"				"Προκλητική μάχη."
+"HLVR_Options_Diffculty_hard_desc"					"Πολύ προκλητική μάχη."
+
+"HLVR_Options_On"					"ΕΝΕΡΓΟ"
+"HLVR_Options_Off"				"ΑΝΕΝΕΡΓΟ"
+
+"HLVR_Options_Commentary"					"Σχολιασμός δημιουργών"
+"HLVR_Options_Commentary_desc"				"Ενεργοποιήστε τους κόμβους σχολιασμού δημιουργών ενώ παίζετε.\n\nΕΙΔΟΠΟΙΗΣΗ: Ο σχολιασμός περιέχει ΣΗΜΑΝΤΙΚΑ SPOILER.\n\nΠροτείνουμε να ολοκληρώσετε πρώτα το παιχνίδι."
+
+"HLVR_Options_Movement_Base"					"ΚΙΝΗΣΗ"
+"HLVR_Options_Movement_Blink"					"ΤΗΛΕΜΕΤΑΦΟΡΑ"
+"HLVR_Options_Movement_Shift"					"ΜΕΤΑΤΟΠΙΣΗ"
+"HLVR_Options_Movement_Continuous"				"ΣΥΝΕΧΗΣ"
+"HLVR_Options_Movement_Continuous_Hand"		"ΣΥΝΕΧΗΣ ΧΕΡΙΟΥ"
+
+"HLVR_Options_Movement_Blink_desc"					"Τηλεμεταφορά σε προορισμό με σύντομο σβήσιμο οθόνης. Ο πιο άνετος τύπος κίνησης."
+"HLVR_Options_Movement_Shift_desc"					"Τηλεμεταφορά σε προορισμό με γρήγορη γραμμική κίνηση."
+"HLVR_Options_Movement_Continuous_desc"				"Κίνηση συνεχώς βάσει του προσανατολισμού του κεφαλιού σας."
+"HLVR_Options_Movement_Continuous_Hand_desc"		"Κίνηση συνεχώς βάσει του προσανατολισμού του χεριού σας."
+
+"HLVR_Options_Preferences"						"ΠΡΟΤΙΜΗΣΕΙΣ"
+"HLVR_Options_Accessibility"					"ΠΡΟΣΒΑΣΙΜΟΤΗΤΑ"				
+"HLVR_Options_Interface"						"ΔΙΕΠΑΦΗ"
+"HLVR_Options_Audio"							"ΕΝΤΑΣΗ"
+"HLVR_Options_Graphics"							"ΕΠΙΔΟΣΕΙΣ"
+"HLVR_Options_Language"							"ΓΛΩΣΣΑ"
+
+"HLVR_Options_WeaponSwitch"					"ΠΡΟΣΑΝΑΤΟΛ. ΕΠΙΛΟΓΗΣ ΟΠΛΟΥ"
+"HLVR_Options_WeaponSwitch_desc"		"Ο τύπος προσανατολισμού του μενού επιλογής όπλου."
+"HLVR_Options_WeaponSwitch_HMD"			"ΚΕΦΑΛΙ"
+"HLVR_Options_WeaponSwitch_Hand"		"ΧΕΡΙ"
+"HLVR_Options_WeaponSwitch_Hybrid"	"ΥΒΡΙΔΙΚΟ"
+
+"HLVR_Options_Ladder_Climb"					"ΑΝΑΡΡΙΧΗΣΗ ΣΚΑΛΩΝ ΜΕ ΧΕΡΙΑ"
+"HLVR_Options_Ladder_Climb_desc"		"Επιτρέπει αναρρίχηση σε σκάλες με τα χέρια."
+
+"HLVR_Options_Barnacle_Lift"				"ΑΝΥΨΩΣΗ ΚΟΛΛΙΤΣΙΔΩΝ"
+"HLVR_Options_Barnacle_Lift_desc"		"Επιτρέπει σε κολλιτσίδες να σηκώνουν τον παίκτη από το έδαφος"
+
+"HLVR_Options_Turn_Off"							"ΑΝΕΝΕΡΓΗ ΣΤΡΟΦΗ ΧΕΙΡΙΣΤΗΡΙΟΥ"
+"HLVR_Options_Turn_Snap"						"ΑΜΕΣΗ ΣΤΡΟΦΗ"
+"HLVR_Options_Turn_Continuous"					"ΣΥΝΕΧΗΣ ΣΤΡΟΦΗ"
+
+"HLVR_Options_Turn_Off_desc"					"Ορίστε το σε Άμεση ή Συνεχή στροφή για να περιστρέφετε την κατεύθυνση που κοιτάτε με το χειριστήριό σας"
+"HLVR_Options_Turn_Snap_desc"					"Η άμεση στροφή περιστρέφει την κατεύθυνση που κοιτάτε άμεσα κατά μια συγκεκριμένη γωνία."
+"HLVR_Options_Turn_Continuous_desc"				"Η συνεχής στροφή περιστρέφει ομαλά την κατεύθυνση που κοιτάτε με μια ορισμένη ταχύτητα."
+
+"HLVR_Options_QuickTurn_Angle_Base"				"ΓΩΝΙΑ ΑΜΕΣΗΣ ΣΤΡΟΦΗΣ"
+"HLVR_Options_QuickTurn_Angle_desc"				"Η γωνία περιστροφής για άμεση στροφή."
+
+"HLVR_Options_ContinuousTurn_Speed_Base"		"ΤΑΧΥΤΗΤΑ ΣΥΝΕΧΟΥΣ ΣΤΡΟΦΗΣ"
+"HLVR_Options_ContinuousTurn_Speed_desc"		"Η γωνιακή ταχύτητα για τη συνεχή στροφή."
+
+"HLVR_Options_DLC_Skins"						"ΕΜΦΑΝΙΣΕΙΣ ΠΡΟΠΑΡΑΓΓΕΛΙΑΣ"
+"HLVR_Options_DLC_Skins_desc"					"Ενεργοποιεί τη χρήση εμφανίσεων όπλων που χορηγήθηκαν προπαραγγέλνοντας ένα Valve Index."
+
+"HLVR_Options_Subtitles"						"ΥΠΟΤΙΤΛΟΙ"
+"HLVR_Options_Subtitles_Base"					"ΥΠΟΤΙΤΛΟΙ"
+"HLVR_Options_Subtitles_None"					"ΑΝΕΝΕΡΓΟΙ ΥΠΟΤΙΤΛΟΙ"
+"HLVR_Options_Subtitles_On"						"ΕΝΕΡΓΟΙ ΥΠΟΤΙΤΛΟΙ"
+"HLVR_Options_Subtitles_CC_On"					"ΥΠΟΤΙΤΛΟΙ ΚΑΙ ΚΛΕΙΣΤΕΣ ΛΕΖΑΝΤΕΣ"
+"HLVR_Options_Subtitles_desc"					"Ορισμός για προβολή υποτίτλων και κλειστών λεζάντων."
+
+"HLVR_Options_Subtitles_Speed"					"ΤΑΧΥΤΗΤΑ"
+"HLVR_Options_Subtitles_Slow_Speed"				"ΑΡΓΗ"
+"HLVR_Options_Subtitles_Medium_Speed"			"ΜΕΣΑΙΑ"
+"HLVR_Options_Subtitles_Fast_Speed"				"ΓΡΗΓΟΡΗ"
+"HLVR_Options_ClosedCaptions_Speed_desc"		"Η ταχύτητα με την οποία εμφανίζονται υπότιτλοι."
+
+"HLVR_Options_Subtitles_Size"					"ΜΕΓΕΘΟΣ"
+"HLVR_Options_Subtitles_Small_Size"				"ΜΙΚΡΟ"
+"HLVR_Options_Subtitles_Medium_Size"			"ΜΕΣΑΙΟ"
+"HLVR_Options_Subtitles_Large_Size"				"ΜΕΓΑΛΟ"
+"HLVR_Options_ClosedCaptions_Size_desc"			"Το μέγεθος της γραμματοσειράς υποτίτλων."
+
+"HLVR_Options_Subtitles_Width"					"ΠΛΑΤΟΣ"
+"HLVR_Options_Subtitles_Narrow"					"ΣΤΕΝΟ"
+"HLVR_Options_Subtitles_Medium"					"ΜΕΣΑΙΟ"
+"HLVR_Options_Subtitles_Wide"					"ΠΛΑΤΥ"
+"HLVR_Options_ClosedCaptions_Width_desc"		"Το μέγεθος των υποτίτλων στην οθόνη."
+
+"HLVR_Options_Subtitles_Spectator_Only"			"ΜΟΝΟ ΣΕ ΠΑΡΑΘΥΡΟ ΘΕΑΤΗ"
+"HLVR_Options_Subtitles_Spectator_Only_desc"	"Εμφάνιση υποτίτλων και κλειστών λεζάντων μόνο στο παράθυρο θεατή."
+
+"HLVR_Options_LeftHanded"						"ΧΕΡΙ ΟΠΛΟΥ: ΑΡΙΣΤΕΡΟ"
+"HLVR_Options_RightHanded"						"ΧΕΡΙ ΟΠΛΟΥ: ΔΕΞΙ"
+
+"HLVR_Options_LeftHanded_desc"					"Εναλλάσσει το χέρι όπλου μεταξύ αριστερού και δεξιού.\n\nΜπορείτε να επιλέξετε ποιο χέρι ελέγχει την κίνησή σας επιλέγοντας την κατάλληλη δέσμευση στο μενού δεσμεύσεων χειριστηρίου SteamVR."
+
+"HLVR_display_bindings"							"ΔΕΣΜΕΥΣΕΙΣ ΧΕΙΡΙΣΤΗΡΙΟΥ"
+"HLVR_display_bindings_desc"					"Μετάβαση στις ρυθμίσεις χειριστηρίου SteamVR για προβολή ή επεξεργασία δεσμεύσεων για το Half-Life: Alyx"
+"HLVR_display_bindings_confirm"					"Μετάβαση στις δεσμεύσεις χειριστηρίου SteamVR;"
+
+
+"HLVR_Options_ToggleCrouch"					"ΕΝΕΡΓΕΙΑ ΣΚΥΨΙΜΑΤΟΣ"
+"HLVR_Options_ToggleCrouch_desc"		"Η ενέργεια σκυψίματος ρίχνει γρήγορα το ύψος σας για να σκύψετε γρήγορα ή για να προσαρμόσετε σε μια χαμηλότερη θέση όταν χρειάζεται. Δεσμεύστε αυτή την ενέργεια στην επιλεγμένη σας είσοδο στις ρυθμίσεις SteamVR.\n\nΌταν είναι ενεργή αυτή η επιλογή, η ενέργεια σκυψίματος θα είναι διαθέσιμη κατά το παιχνίδι."
+"HLVR_Options_ToggleStand"					"ΕΝΕΡΓΕΙΑ ΟΡΘΙΑΣ ΘΕΣΗΣ"
+"HLVR_Options_ToggleStand_desc"			"Η ενέργεια όρθιας θέσης αυξάνει το ύψος σας για να βοηθήσει να φτάσετε ενώ παίζετε από μια χαμηλωμένη θέση. Δεσμεύστε αυτή την ενέργεια στην επιλεγμένη σας είσοδο στις ρυθμίσεις SteamVR.\n\nΠροτείνεται σε καθιστό παιχνίδι.\n\nΌταν είναι ενεργή αυτή η επιλογή, η ενέργεια όρθιας θέσης θα είναι διαθέσιμη κατά το παιχνίδι."
+
+"HLVR_Options_hlvr_adjust_height_mode_base"		"ΠΡΟΣΑΡΜΟΓΗ ΥΨΟΥΣ"
+"HLVR_Options_hlvr_adjust_height_mode_0"		"ΑΝΕΝΕΡΓΟ"
+"HLVR_Options_hlvr_adjust_height_mode_1"		"ΣΚΥΨΙΜΟ"
+"HLVR_Options_hlvr_adjust_height_mode_2"		"ΟΡΘΙΑ ΣΤΑΣΗ"
+"HLVR_Options_hlvr_adjust_height_mode_3"		"ΣΚΥΨΙΜΟ ΚΑΙ ΟΡΘΙΑ"
+"HLVR_Options_hlvr_adjust_height_mode_4"		"ΥΒΡΙΔΙΚΟ"
+
+"HLVR_Options_hlvr_adjust_height_mode_0_desc"		"Αυτό ορίζει τη συμπεριφορά για τις ενέργειες προσαρμογής ύψους βάσει χειριστηρίου.\n\nΌταν είναι ανενεργό, απενεργοποιούνται οι ενέργειες προσαρμογής ύψους βάσει χειριστηρίου."
+"HLVR_Options_hlvr_adjust_height_mode_1_desc"		"Μόνο ενέργεια σκυψίματος. Η όρθια θέση είναι ανενεργή.\n\nΌταν είναι ενεργή η ενέργεια σκυψίματος, εναλλάξτε για να σκύψετε γρήγορα ή να προσαρμοστείτε σε μια χαμηλωμένη θέση."
+"HLVR_Options_hlvr_adjust_height_mode_2_desc"		"Μόνο ενέργεια όρθιας θέσης. Το σκύψιμο είναι ανενεργό.\n\nΌταν είναι ενεργή η ενέργεια όρθιας θέσης, εναλλάξτε για να υψώστε τη θέση σαι για να σας βοηθήσει να φτάσετε. \nΠροτείνεται σε καθιστό παιχνίδι."
+"HLVR_Options_hlvr_adjust_height_mode_3_desc"		"Όταν είναι ενεργές οι ενέργειας σκυψίματος και όρθιας θέσης, χρησιμοποιήστε τις για να χαμηλώσετε ή να υψώσετε τη θέση σας σε δύο διαφορετικές εισόδους."
+"HLVR_Options_hlvr_adjust_height_mode_4_desc"		"Το υβριδικό χρησιμοποιεί μία μονή είσοδο και για ενέργειες σκυψίματος και για όρθιας θέσης.\n\nΓια να σκύψετε, πατήστε για να χαμηλώσετε τη θέση σας.\n\nΓια να σταθείτε, πατήστε και κρατήστε για να υψώσετε τη θέση σας."
+
+"HLVR_Options_hlvr_single_controller_mode"				"ΕΝΑ ΧΕΙΡΙΣΤΗΡΙΟ"
+"HLVR_Options_hlvr_single_controller_mode_desc"		"Όλες οι ενέργειες είναι χαρτογραφημένες σε ένα μόνο χειριστήριο."
+"HLVR_single_controller_prompt_activate"			"Η ενεργοποίηση λειτουργίας ενός χειριστηρίου απαιτεί μια δέσμευση χειριστηρίου που αλλάζει στο SteamVR\nΜετάβαση στη σελίδα δεσμεύσεων SteamVR;"
+"HLVR_single_controller_prompt_deactivate"		"Η απενεργοποίηση λειτουργίας ενός χειριστηρίου απαιτεί μια δέσμευση χειριστηρίου που αλλάζει στο SteamVR\nΜετάβαση στη σελίδα δεσμεύσεων SteamVR;"
+
+"HLVR_Options_r_light_sensitivity_mode"				"ΕΥΑΙΣΘΗΣΙΑ ΦΩΤΟΣ"
+"HLVR_Options_r_light_sensitivity_mode_desc"	"Η λειτουργία ευαισθησίας στο φως μειώνει την ισχύ και το αναβόσβησμα των φώτων."
+
+"HLVR_Options_Pause_Menu_Distance"	"ΑΠΟΣΤΑΣΗ ΜΕΝΟΥ ΠΑΥΣΗΣ"
+"HLVR_Options_Pause_Menu_Distance_Desc"	"Η απόσταση από τον παίκτη που θα εμφανίζεται το μενού παύσης όταν ενεργοποιηθεί."
+"HLVR_Options_Pause_Menu_Height"		"ΥΨΟΣ ΜΕΝΟΥ ΠΑΥΣΗΣ"
+"HLVR_Options_Pause_Menu_Height_desc"		"Το ύψος από τον παίκτη που θα εμφανίζεται το μενού παύσης όταν ενεργοποιηθεί."
+
+"HLVR_Options_Header_Weapons"					"ΟΠΛΟ"
+"HLVR_Options_Header_GameMenu"					"ΜΕΝΟΥ ΠΑΙΧΝΙΔΙΟΥ"
+"HLVR_Options_Header_Spectator"					"ΘΕΑΤΗΣ"
+
+"HLVR_Options_SpectatorHud_desc"				"Ρυθμίζει το μέγεθος της διεπαφής χρήστη στο παράθυρο θεατή."
+"HLVR_Options_SpectatorHud_base"				"ΔΙΕΠΑΦΗ ΘΕΑΤΗ"
+"HLVR_Options_SpectatorHud_off"					"ΑΝΕΝΕΡΓΗ"
+"HLVR_Options_SpectatorHud_small"				"ΜΙΚΡΗ"
+"HLVR_Options_SpectatorHud_med"					"ΜΕΣΑΙΑ"
+"HLVR_Options_SpectatorHud_large"				"ΜΕΓΑΛΗ"
+
+"HLVR_Options_SpectatorCamera_desc"				"Ρυθμίζει το ποσό εξομάλυνσης κάμερας στο παράθυρο θεατή.\n\nΑπαιτεί υψηλό επίπεδο εστίασης."
+"HLVR_Options_SpectatorCamera_base"				"ΕΞΟΜΑΛΥΝΣΗ ΚΑΜΕΡΑΣ ΘΕΑΤΗ"
+"HLVR_Options_SpectatorCamera_off"				"ΑΝΕΝΕΡΓΗ"
+"HLVR_Options_SpectatorCamera_low"				"ΧΑΜΗΛΗ"
+"HLVR_Options_SpectatorCamera_med"				"ΜΕΣΑΙΑ"
+"HLVR_Options_SpectatorCamera_high"				"ΥΨΗΛΗ"
+
+"HLVR_Options_SpectatorZoom_desc"				"Επίπεδο εστίασης θεατή."
+"HLVR_Options_SpectatorZoom_Base"				"ΕΣΤΙΑΣΗ ΘΕΑΤΗ"
+"HLVR_Options_SpectatorZoom_low"				"ΧΑΜΗΛΗ"
+"HLVR_Options_SpectatorZoom_high"				"ΥΨΗΛΗ"
+
+"HLVR_Options_Spectator_Eye_desc"				"Εναλλάσσει μεταξύ του δεξιού και αριστερού ματιού του παίκτη για το παράθυρο θεατή."
+"HLVR_Options_Spectator_Eye_Base"				"ΜΑΤΙ ΘΕΑΤΗ"
+"HLVR_Options_Eye_Left"							"ΑΡΙΣΤΕΡΟ"
+"HLVR_Options_Eye_Right"						"ΔΕΞΙ"
+
+"HLVR_Options_SpectatorSteamVR_desc"			"Ζωγραφίζει το HUD στο παράθυρο StreamVR.\n\nΑυτό προσθέτει κάποιο κόστος επίδοσης."
+"HLVR_Options_SpectatorSteamVR_Base"			"HUD ΘΕΑΤΗ ΣΕ STEAM VR"
+"HLVR_Options_SpectatorSteamVR_On"				"ΕΝΕΡΓΟ"
+"HLVR_Options_SpectatorSteamVR_Off"				"ΑΝΕΝΕΡΓΟ"
+
+"HLVR_Options_SpectatorEye_desc"				"Επιλέξτε την προοπτική ποιανού ματιού θα εμφανίζεται σε καθρεπτισμένες προβολές εκτός VR όπως την οθόνη ή την τηλεόρασή σας.\n\nΑπό προεπιλογή αυτό ταιριάζει με το τρέχον χέρι όπλου σας, αλλά μπορεί να παρακαμφθεί."
+"HLVR_Options_SpectatorEye_base"				"ΜΑΤΙ ΠΡΟΒΟΛΗΣ ΘΕΑΤΗ"
+"HLVR_Options_SpectatorEye_left"				"ΑΡΙΣΤΕΡΟ"
+"HLVR_Options_SpectatorEye_right"				"ΔΕΞΙ"
+
+"HLVR_Options_Graphics_Rendering"				"ΣΥΝΘΕΣΗ"
+"HLVR_Options_Graphics_Particles"				"ΣΩΜΑΤΙΔΙΑ"
+"HLVR_Options_Graphics_Misc"					"ΔΙΑΦΟΡΑ"
+"HLVR_Options_Graphics_Audio"					"ΗΧΟΣ"
+
+"HLVR_Options_Fidelity_Low"								"ΧΑΜΗΛΗ ΠΙΣΤΟΤΗΤΑ"
+"HLVR_Options_Fidelity_Medium"						"ΜΕΣΗ ΠΙΣΤΟΤΗΤΑ"
+"HLVR_Options_Fidelity_Medium_Long"				"ΜΕΣΑΙΑ ΠΙΣΤΟΤΗΤΑ"
+"HLVR_Options_Fidelity_High"							"ΥΨΗΛΗ ΠΙΣΤΟΤΗΤΑ"
+"HLVR_Options_Fidelity_Ultra"							"ΚΟΡΥΦΑΙΑ ΠΙΣΤΟΤΗΤΑ"
+"HLVR_Options_Fidelity_Custom"						"ΠΡΟΣΑΡΜ. ΠΙΣΤΟΤΗΤΑ"
+
+"HLVR_Options_Graphics_Adv_desc" "Εμφάνιση / απόκρυψη προχωρημένων ρυθμίσεων επιδόσεων"
+
+"HLVR_Options_Graphics_Reset"					"ΕΠΑΝΑΦΟΡΑ"
+"HLVR_Options_Graphics_Reset_desc"				"Επαναφέρει τις ρυθμίσεις επίδοσης σε ένα προτεινόμενο επίπεδο"
+"HLVR_Options_Graphics_Reset_modal"				"Επαναφορά ρυθμίσεων επίδοσης στις προτεινόμενες;"
+"HLVR_Options_Graphics_Base"					"ΠΙΣΤΟΤΗΤΑ"
+"HLVR_Options_Graphics_desc"					 "Οι ρυθμίσεις επίδοσης του παιχνιδιού ορίζονται αυτόματα. Η τροποποίηση αυτών των ρυθμίσεων μπορεί να επηρεάσει τον ρυθμό καρέ."
+
+"HLVR_Options_Graphics_Textures_Base"			"ΥΦΕΣ"
+"HLVR_Options_Graphics_Textures_Desc"			"Ορίζει την ποιότητα υφών\n\nΗ ποιότητα υφών διαμορφώνεται ανεξάρτητα από την ρύθμιση επιδόσεων πιστότητας"
+"HLVR_Options_Graphics_Textures_Low"			"ΧΑΜΗΛΕΣ"
+"HLVR_Options_Graphics_Textures_Medium"	"ΜΕΣΑΙΕΣ"
+"HLVR_Options_Graphics_Textures_High"		"ΥΨΗΛΕΣ"
+"HLVR_Options_Graphics_Textures_Ultra"		"ΚΟΡΥΦΑΙΕΣ"
+
+"HLVR_Options_Graphics_Shadows_Base"			"ΣΚΙΑ"
+"HLVR_Options_Graphics_Shadows_Low"			"ΧΑΜΗΛΗ"
+"HLVR_Options_Graphics_Shadows_Med"			"ΜΕΣΑΙΑ"
+"HLVR_Options_Graphics_Shadows_High"			"ΥΨΗΛΗ"
+"HLVR_Options_Graphics_Shadows_Ultra"			"ΚΟΡΥΦΑΙΑ"
+
+"HLVR_Options_Graphics_Characters_Base"			"ΧΑΡΑΚΤΗΡΕΣ"
+"HLVR_Options_Graphics_Characters_Low"			"ΧΑΜΗΛΟ"
+"HLVR_Options_Graphics_Characters_Med"			"ΜΕΣΑΙΟ"
+"HLVR_Options_Graphics_Characters_High"			"ΥΨΗΛΟ"
+"HLVR_Options_Graphics_Characters_Ultra"			"ΚΟΡΥΦΑΙΟ"
+
+"HLVR_Options_Graphics_Fog_Base"			"ΟΜΙΧΛΗ"
+"HLVR_Options_Graphics_Fog_Low"			"ΧΑΜΗΛΗ"
+"HLVR_Options_Graphics_Fog_Med"			"ΜΕΣΑΙΑ"
+"HLVR_Options_Graphics_Fog_High"			"ΥΨΗΛΗ"
+"HLVR_Options_Graphics_Fog_Ultra"			"ΚΟΡΥΦΑΙΑ"
+
+"HLVR_Options_Graphics_Particles_Base"			"ΣΩΜΑΤΙΔΙΑ"
+"HLVR_Options_Graphics_Particles_Low"			"ΧΑΜΗΛΑ"
+"HLVR_Options_Graphics_Particles_Med"			"ΜΕΣΑΙΑ"
+"HLVR_Options_Graphics_Particles_High"			"ΥΨΗΛΑ"
+"HLVR_Options_Graphics_Particles_Ultra"			"ΚΟΡΥΦΑΙΑ"
+
+"HLVR_Options_Graphics_Audio_Base"			"ΗΧΟΣ"
+"HLVR_Options_Graphics_Audio_Low"			"ΧΑΜΗΛΟΣ"
+"HLVR_Options_Graphics_Audio_Med"			"ΜΕΣΑΙΟΣ"
+"HLVR_Options_Graphics_Audio_High"			"ΥΨΗΛΟΣ"
+"HLVR_Options_Graphics_Audio_Ultra"			"ΚΟΡΥΦΑΙΟΣ"
+
+"HLVR_Options_High_Quality_Holograms"			"ΟΛΟΓΡΑΜΜΑΤΑ ΥΨ. ΠΟΙΟΤΗΤΑΣ"
+"HLVR_Options_High_Quality_Holograms_on"			"ΕΝΕΡΓΟ"
+"HLVR_Options_High_Quality_Holograms_off"			"ΑΝΕΝΕΡΓΟ"
+"HLVR_Options_r_light_flickering_enabled"			"ΑΝΑΒΟΣΒΗΣΜΑ ΦΩΤΩΝ"
+
+"HLVR_Options_Rendering_API"					"API ΣΥΝΘΕΣΗΣ"
+"HLVR_Options_Rendering_API_D3D11"				"Direct3D 11"
+"HLVR_Options_Rendering_API_Vulkan"				"Vulkan"
+"HLVR_Options_Rendering_API_Current"			"ΤΡΕΧΟΝ API:"
+"HLVR_Options_Rendering_API_Desc_Locked"		"Το API σύνθεσης που προσδιορίστηκε στις επιλογές εκκίνησης. Αφαιρέστε την επιλογή εκκίνησης για να επιλέξετε ένα API σύνθεσης."
+"HLVR_Options_Rendering_API_Desc_Restart"		"\n\nΑπαιτεί επανεκκίνηση παιχνιδιού για να εφαρμοστεί.\n\n"
+"HLVR_Options_Rendering_API_Desc"				"Αν το παιχνίδι δεν εκκινεί κανονικά μετά την αλλαγή αυτής της ρύθμισης μπορείτε να προσθέσετε -safe_mode στις επιλογές εκκίνησής σας για να ξεκινήσετε με το προεπιλεγμένο API σύνθεσης."
+
+"HLVR_Options_cloth_rigid_update_Base"			"ΑΠΑΛΑ ΥΦΑΣΜΑΤΑ"
+
+"HLVR_Options_g_ragdoll_maxcount_Base"			"ΠΛΗΘΟΣ ΠΤΩΜΑΤΩΝ"
+"HLVR_Options_g_ragdoll_maxcount_Base_Low"	"ΧΑΜΗΛΟ"
+"HLVR_Options_g_ragdoll_maxcount_Base_Med"	"ΜΕΣΑΙΟ"
+"HLVR_Options_g_ragdoll_maxcount_Base_High"	"ΥΨΗΛΟ"
+"HLVR_Options_g_ragdoll_maxcount_Base_Ultra"	"ΚΟΡΥΦΑΙΟ"
+
+"HLVR_Options_Audio_Master"						"ΚΥΡΙΑ ΕΝΤΑΣΗ"
+"HLVR_Options_Audio_Master_desc"				"Κύριος έλεγχος έντασης για όλο τον ήχο."
+"HLVR_Options_Audio_GameSounds"					"ΠΑΙΧΝΙΔΙ"
+"HLVR_Options_Audio_GameSounds_desc" 			"Έλεγχος έντασης για ηχητικά εφέ παιχνιδιού."
+"HLVR_Options_Audio_Music"						"ΜΟΥΣΙΚΗ ΜΑΧΗΣ"
+"HLVR_Options_Audio_Music_desc"					"Έλεγχος έντασης για τη μουσική που παίζεται κατά τη μάχη."
+"HLVR_Options_Audio_Voice"						"ΦΩΝΗ ΧΑΡΑΚΤΗΡΩΝ"
+"HLVR_Options_Audio_Voice_desc"					"Έλεγχος έντασης για φωνές χαρακτήρων."
+
+"HLVR_Loading"									"ΦΟΡΤΩΣΗ"
+"HLVR_Loading_Trigger_Start"					"Πατήστε τη %s για έναρξη"
+
+"HLVR_PhotoMode_TakePhoto"						"ΛΗΨΗ ΦΩΤΟΓΡΑΦΙΑΣ"
+"HLVR_PhotoMode_Hide"							"ΑΠΟΚΡΥΨΗ ΔΙΕΠΑΦΗΣ"
+"HLVR_PhotoMode_Return"							"ΕΠΙΣΤΡΟΦΗ"
+
+// spectator hud
+"HLVR_HUD_Ammo"									"ΠΥΡΟΜΑΧΙΚΑ"
+"HLVR_HUD_Health"								"ΖΩΗ"
+"HLVR_HUD_Resin"								"ΡΗΤΙΝΗ"
+
+// game instructor lessons
+"HLVR_Lesson_Single_Controller_On"	"ΕΝΕΡΓΟΠΟΙΗΘΗΚΕ ΛΕΙΤΟΥΡΓΙΑ ΕΝΟΣ ΧΕΙΡΙΣΤΗΡΙΟΥ"
+"HLVR_Lesson_Single_Controller_Off"	"ΑΠΕΝΕΡΓΟΠΟΙΗΘΗΚΕ ΛΕΙΤΟΥΡΓΙΑ ΕΝΟΣ ΧΕΙΡΙΣΤΗΡΙΟΥ"
+"HLVR_Lesson_Movement_PrimaryHand"	"ΚΙΝΗΣΗ ΜΕ ΤΟ ΟΠΛΟ ΧΕΡΙΟΥ\nΑΥΤΟ ΜΠΟΡΕΙ ΝΑ ΑΛΛΑΞΕΙ ΣΤΙΣ ΡΥΘΜΙΣΕΙΣ ΔΕΣΜΕΥΣΕΩΝ STEAMVR"
+"HLVR_Lesson_Movement_OffHand"		"ΚΙΝΗΣΗ ΣΤΟ ΕΝΑΛΛΑΚΤΙΚΟ ΧΕΡΙ\nΑΥΤΟ ΜΠΟΡΕΙ ΝΑ ΑΛΛΑΞΕΙ ΣΤΙΣ ΡΥΘΜΙΣΕΙΣ ΔΕΣΜΕΥΣΕΩΝ STEAMVR"
+"HLVR_Lesson_Teleport"							"ΠΑΤΗΣΤΕ ΓΙΑ ΚΙΝΗΣΗ"
+"HLVR_Lesson_Quick_Turn"						"ΩΘΗΣΤΕ ΓΙΑ ΑΜΕΣΗ ΣΤΡΟΦΗ ΑΡΙΣΤΕΡΑ Ή ΔΕΞΙΑ"
+"HLVR_Lesson_GrabTrigger"						"ΠΑΤΗΣΤΕ ΚΑΙ ΚΡΑΤΗΣΤΕ ΓΙΑ ΑΡΠΑΓΜΑ ΑΝΤΙΚΕΙΜΕΝΩΝ"
+"HLVR_Lesson_GrabHands"							"ΑΡΠΑΞΤΕ ΑΝΤΙΚΕΙΜΕΝΑ ΧΡΗΣΙΜΟΠΟΙΩΝΤΑΣ ΤΑ ΧΕΡΙΑ ΣΑΣ"
+"HLVR_Lesson_GrabHandsSingleController"			"ΑΡΠΑΞΤΕ ΑΝΤΙΚΕΙΜΕΝΑ ΧΡΗΣΙΜΟΠΟΙΩΝΤΑΣ ΤΟ ΧΕΡΙ ΣΑΣ"
+"HLVR_Lesson_Interact"							"ΑΛΛΗΛΕΠΙΔΡΑΣΤΕ ΜΕ ΧΕΡΟΥΛΙΑ\nΧΡΗΣΙΜΟΠΟΙΩΝΤΑΣ ΤΑ ΧΕΡΙΑ ΣΑΣ"
+"HLVR_Lesson_InteractSingleController"			"ΑΛΛΗΛΕΠΙΔΡΑΣΤΕ ΜΕ ΧΕΡΟΥΛΙΑ\nΧΡΗΣΙΜΟΠΟΙΩΝΤΑΣ ΤΟ ΧΕΡΙ ΣΑΣ"
+"HLVR_Lesson_Door"								"ΣΤΡΙΨΤΕ ΤΟ ΧΕΡΟΥΛΙ ΓΙΑ\nΝΑ ΑΝΟΙΞΕΤΕ ΤΗΝ ΠΟΡΤΑ"
+"HLVR_Lesson_SwitchWeapons"						"ΚΡΑΤΗΣΤΕ ΓΙΑ ΕΝΑΛΛΑΓΗ ΟΠΛΟΥ"
+"HLVR_Lesson_SwitchWeaponsSingleController"			"ΠΑΤΗΣΤΕ ΓΙΑ ΕΝΑΛΛΑΓΗ ΠΙΣΩ ΣΤΟ ΟΠΛΟ ΣΑΣ"
+"HLVR_Lesson_OpenWeaponSelectForMultitool"		"ΚΡΑΤΗΣΤΕ ΓΙΑ ΕΝΑΛΛΑΓΗ ΣΤΟ ΠΟΛΥΕΡΓΑΛΕΙΟ"
+"HLVR_Lesson_SelectMultitool"					"ΕΠΙΛΕΞΤΕ ΤΟ ΠΟΛΥΕΡΓΑΛΕΙΟ"
+"HLVR_Lesson_UseMultitool"						"ΧΡΗΣΙΜΟΠΟΙΗΣΤΕ ΤΟ ΠΟΛΥΕΡΓΑΛΕΙΟ"
+"HLVR_Lesson_ScavengeItems"						"ΑΝΑΖΗΤΗΣΤΕ ΣΤΟ ΠΕΡΙΒΑΛΛΟΝ\nΓΙΑ ΧΡΗΣΙΜΑ ΑΝΤΙΚΕΙΜΕΝΑ"
+"HLVR_Lesson_LootBodies"						"ΑΡΠΑΞΤΕ ΑΝΤΙΚΕΙΜΕΝΑ ΑΠΟ ΠΤΩΜΑΤΑ"
+"HLVR_Lesson_OpenGameMenu"						"ΠΑΤΗΣΤΕ ΚΑΙ ΚΡΑΤΗΣΤΕ ΓΙΑ ΕΝΑΛΛΑΓΗ ΜΕΝΟΥ ΠΑΙΧΝΙΔΙΟΥ"
+"HLVR_Lesson_Continuous_Mantle"					"ΓΙΑ ΣΚΑΡΦΑΛΩΜΑ, ΠΑΤΗΣΤΕ\nΚΑΙ ΚΡΑΤΗΣΤΕ ΕΝΩ ΚΙΝΕΙΣΤΕ"
+"HLVR_Lesson_Continuous_Jump"					"ΩΘΗΣΤΕ ΓΙΑ ΕΜΦΑΝΙΣΗ ΔΕΙΚΤΗ ΑΛΜΑΤΟΣ\nΚΑΙ ΑΠΕΛΕΥΘΕΡΩΣΤΕ ΓΙΑ ΝΑ ΠΗΔΗΞΕΤΕ"
+"HLVR_Lesson_Crouch_Toggle"						"ΠΑΤΗΣΤΕ ΓΙΑ ΕΝΑΛΛΑΓΗ ΜΕΤΑΞΥ ΤΟΥ ΤΡΕΧΟΝΤΟΣ ΥΨΟΥΣ ΣΑΣ ΚΑΙ ΥΨΟΥΣ ΣΚΥΨΙΜΑΤΟΣ"
+"HLVR_Lesson_Stand_Toggle"						"ΠΑΤΗΣΤΕ ΓΙΑ ΕΝΑΛΛΑΓΗ ΜΕΤΑΞΥ ΤΟΥ ΤΡΕΧΟΝΤΟΣ ΥΨΟΥΣ ΣΑΣ ΚΑΙ ΥΨΟΥΣ ΟΡΘΙΑΣ ΘΕΣΗΣ"
+"HLVR_Lesson_Climb_Ladder"						"ΑΡΠΑΞΤΕ ΤΗ ΣΚΑΛΑ ΓΙΑ ΝΑ ΣΚΑΡΦΑΛΩΣΕΤΕ"
+
+"HLVR_Lesson_WeaponInPrimaryHand"				"ΑΡΠΑΞΤΕ ΤΟ ΟΠΛΟ ΜΕ ΤΟ ΚΥΡΙΟ ΧΕΡΙ"
+
+"HLVR_Lesson_EjectClip"							"ΠΑΤΗΣΤΕ ΓΙΑ ΝΑ ΒΓΑΛΕΤΕ ΤΟΝ ΓΕΜΙΣΤΗΡΑ"
+"HLVR_Lesson_InsertClip"						"ΕΙΣΑΓΕΤΕ ΤΟΝ ΓΕΜΙΣΤΗΡΑ ΣΤΟ ΠΙΣΤΟΛΙ"
+"HLVR_Lesson_EmptyClipInserted"					"ΑΔΕΙΑΣΤΕ ΤΟΝ ΓΕΜΙΣΤΗΡΑ ΠΟΥ ΒΑΛΑΤΕ\nΠΑΤΗΣΤΕ ΓΙΑ ΒΓΑΛΣΙΜΟ ΓΕΜΙΣΤΗΡΑ"
+"HLVR_Lesson_ChamberRound"						"ΠΑΤΗΣΤΕ ΚΟΥΜΠΙ Ή\nΤΡΑΒΗΞΤΕ ΚΛΕΙΣΤΡΟ ΓΙΑ ΟΠΛΙΣΗ"
+"HLVR_Lesson_ChamberRoundSingleController"		"ΠΑΤΗΣΤΕ ΤΟ ΚΟΥΜΠΙ ΓΙΑ ΟΠΛΙΣΗ"
+"HLVR_Lesson_PutClipInBackpack"					"ΒΑΛΤΕ ΤΟ ΓΕΜΙΣΤΗΡΑ ΣΤΟ ΣΑΚΙΔΙΟ ΣΑΣ"
+"HLVR_Lesson_ToggleLaserSightWeapon"			"ΠΑΤΗΣΤΕ ΜΕ ΤΟΝ ΔΕΙΚΤΗ ΣΑΣ ΓΙΑ ΕΝΑΛΛΑΓΗ ΑΚΤΙΝΑΣ ΛΕΙΖΕΡ"
+"HLVR_Lesson_ToggleBurstFire"					"ΠΑΤΗΣΤΕ ΤΟ ΚΟΥΜΠΙ ΔΥΟ ΦΟΡΕΣ ΓΙΑ ΕΝΑΛΛΑΓΗ ΤΥΠΟΥ ΡΙΠΗΣ"
+
+"HLVR_Lesson_ShotgunGetShells"					"ΑΡΠΑΞΤΕ ΤΟ ΚΟΥΤΙ ΦΥΣΙΓΓΙΩΝ ΚΑΙ ΒΑΛΤΕ ΤΟ ΣΤΟ ΣΑΚΙΔΙΟ"
+"HLVR_Lesson_OpenShotgunToLoadShells"			"ΑΝΟΙΞΤΕ ΤΗΝ ΚΑΡΑΜΠΙΝΑ ΓΙΑ ΝΑ ΦΟΡΤΩΣΕΤΕ ΦΥΣΙΓΓΙΑ"
+"HLVR_Lesson_LoadShotgunUntilFull"				"ΦΟΡΤΩΣΤΕ ΕΩΣ (6) ΦΥΣΙΓΓΙΑ ΣΤΗΝ ΚΑΡΑΜΠΙΝΑ"
+"HLVR_Lesson_FlickToCloseShotgun"				"ΤΙΝΑΞΤΕ ΤΟ ΧΕΙΡΙΣΤΗΡΙΟ Ή\nΑΡΠΑΞΤΕ ΤHN ΚΑΝΝΗ ΓΙΑ ΚΛΕΙΣΙΜΟ ΚΑΡΑΜΠΙΝΑΣ"
+"HLVR_Lesson_FlickToCloseShotgunSingleController"	"ΤΙΝΑΞΤΕ ΤΟ ΧΕΙΡΙΣΤΗΡΙΟ ΓΙΑ ΚΛΕΙΣΙΜΟ ΚΑΡΑΜΠΙΝΑΣ"
+"HLVR_Lesson_ChamberShotgunShell"				"ΤΡΑΒΗΞΤΕ ΤΟ ΚΛΕΙΣΤΡΟ ΓΙΑ ΟΠΛΙΣΗ"
+"HLVR_Lesson_ChamberShotgunShellSingleController"	"ΠΑΤΗΣΤΕ ΓΙΑ ΟΠΛΙΣΗ"
+"HLVR_Lesson_ShotgunUpgradeAutoloaderLoad"		"ΦΟΡΤΩΣΤΕ ΦΥΣΙΓΓΙΑ ΣΤΟΝ ΑΥΤΟΓΕΜΙΣΤΗ"
+"HLVR_Lesson_ShotgunUpgradeAutoloaderActivate"	"ΠΑΤΗΣΤΕ ΚΟΥΜΠΙ ΓΙΑ ΕΝΕΡΓΟΠΟΙΗΣΗ ΑΥΤΟΓΕΜΙΣΤΗ"
+"HLVR_Lesson_ShotgunUpgradeQuickFire"			"ΠΑΤΗΣΤΕ ΔΥΟ ΦΟΡΕΣ ΓΙΑ ΝΑ ΡΙΞΕΤΕ ΔΥΟ ΓΡΗΓΟΡΕΣ ΒΟΛΕΣ"
+"HLVR_Lesson_ShotgunUpgradeGrenade"				"ΠΡΟΣΑΡΜΟΣΤΕ ΜΙΑ ΧΕΙΡΟΒΟΜΒΙΔΑ ΣΤΟ ΣΤΟΜΙΟ ΤΗΣ ΚΑΡΑΜΠΙΝΑΣ"
+"HLVR_Lesson_ShotgunUpgradeGrenadePump"			"ΩΘΗΣΤΕ ΤΗ ΛΑΒΗ ΕΜΠΡΟΣ ΓΙΑ ΝΑ ΕΤΟΙΜΑΣΕΤΕ\nΤΟΝ ΕΚΤΟΞΕΥΤΗ ΧΕΙΡΟΒΟΜΒΙΔΩΝ Ή ΓΙΑ ΝΑ\nΕΠΙΤΕΘΕΙΤΕ ΚΑΝΟΝΙΚΑ"
+"HLVR_Lesson_ShotgunUpgradeGrenadePumpSingleController"			"ΠΑΤΗΣΤΕ ΓΙΑ ΝΑ ΕΤΟΙΜΑΣΕΤΕ ΤΟΝ ΕΚΤΟΞΕΥΤΗ ΧΕΙΡΟΒΟΜΒΙΔΩΝ\n Ή ΓΙΑ ΝΑ ΕΠΙΤΕΘΕΙΤΕ ΚΑΝΟΝΙΚΑ"
+"HLVR_Lesson_ShotgunUpgradeGrenadeFire"			"ΠΑΤΗΣΤΕ ΓΙΑ ΕΚΤΟΞΕΥΣΗ ΧΕΙΡΟΒΟΜΒΙΔΑΣ\nΉ ΓΙΑ ΑΡΠΑΓΜΑ ΧΕΙΡΟΒΟΜΒΙΔΑΣ ΓΙΑ ΕΠΑΝΑΦΟΡΑ ΕΚΤΟΞΕΥΤΗ"
+"HLVR_Lesson_ShotgunUpgradeGrenadeFireSingleController"			"ΠΑΤΗΣΤΕ ΓΙΑ ΕΠΑΝΑΦΟΡΑ ΕΚΤΟΞΕΥΤΗ ΧΕΙΡΟΒΟΜΒΙΔΩΝ\n Ή ΓΙΑ ΝΑ ΕΚΤΟΞΕΥΣΗ ΧΕΙΡΟΒΟΜΒΙΔΑΣ"
+
+"HLVR_Lesson_Rapidfire_InsertCapsule_Gun"		"ΕΙΣΑΓΕΤΕ ΤΟ ΕΝΕΡΓΕΙΑΚΟ ΚΕΛΙ ΣΤΟ ΟΠΛΟ"
+"HLVR_Lesson_Rapidfire_InsertCapsule_Clip"		"ΕΙΣΑΓΕΤΕ ΤΟ ΕΝΕΡΓΕΙΑΚΟ ΚΕΛΙ ΣΤΟ ΟΠΛΟ"
+"HLVR_Lesson_Rapidfire_OpenCasing"				"ΑΝΟΙΞΤΕ ΤΟΝ ΓΕΜΙΣΤΗΡΑ"
+"HLVR_Lesson_Rapidfire_InsertCapsule_Mag"		"ΕΙΣΑΓΕΤΕ (3) ΕΝΕΡΓΕΙΑΚΑ ΚΕΛΙΑ ΣΤΟΝ ΓΕΜΙΣΤΗΡΑ"
+"HLVR_Lesson_Rapidfire_CloseCasing"				"ΚΛΕΙΣΤΕ ΤΟΝ ΓΕΜΙΣΤΗΡΑ"
+
+"HLVR_Lesson_StoreClipInBackpack"				"ΑΠΟΘΗΚΕΥΣΤΕ ΠΥΡΟΜΑΧΙΚΑ ΣΤΟ ΣΑΚΙΔΙΟ\nΑΠΕΛΕΥΘΕΡΩΝΟΝΤΑΣ ΠΑΝΩ ΑΠΟ ΤΟΝ ΩΜΟ ΣΑΣ"
+"HLVR_Lesson_GrabClipFromBackpack"				"ΑΡΠΑΞΤΕ ΣΦΑΙΡΕΣ ΑΠΟ ΤΟ ΣΑΚΙΔΙΟ"
+"HLVR_Lesson_ReloadSingleController"			"ΠΑΤΗΣΤΕ ΕΝΩ ΚΡΑΤΑΤΕ ΤΟ ΟΠΛΟ ΠΑΝΩ ΑΠΟ ΤΟΝ ΩΜΟ ΣΑΣ ΓΙΑ ΝΑ ΓΕΜΙΣΕΤΕ"
+"HLVR_Lesson_ReloadSingleControllerShotgun"		"ΠΑΤΗΣΤΕ ΕΝΩ ΚΡΑΤΑΤΕ ΤΟ ΟΠΛΟ ΠΑΝΩ ΑΠΟ ΤΟΝ ΩΜΟ ΣΑΣ ΓΙΑ ΝΑ ΓΕΜΙΣΕΤΕ.\nΠΑΤΗΣΤΕ ΠΟΛΛΕΣ ΦΟΡΕΣ ΓΙΑ ΠΕΡΙΣΣΟΤΕΡΑ ΦΥΣΙΓΓΙΑ."
+"HLVR_Lesson_ReloadSingleControllerRapidFire"	"ΠΑΤΗΣΤΕ ΕΝΩ ΚΡΑΤΑΤΕ ΤΟ ΟΠΛΟ ΠΑΝΩ ΑΠΟ ΤΟΝ ΩΜΟ ΣΑΣ ΓΙΑ ΝΑ ΓΕΜΙΣΕΤΕ.\nΠΑΤΗΣΤΕ ΠΟΛΛΕΣ ΦΟΡΕΣ ΓΙΑ ΠΕΡΙΣΣΟΤΕΡΑ ΚΕΛΙΑ."
+"HLVR_Lesson_GrabResinFromBackpack"				"ΑΡΠΑΞΤΕ ΡΗΤΙΝΗ ΑΠΟ ΣΑΚΙΔΙΟ"
+"HLVR_Lesson_StoreResinInBackpack"				"ΑΠΟΘΗΚΕΥΣΤΕ ΡΗΤΙΝΗ ΣΤΟ ΣΑΚΙΔΙΟ\nΑΠΕΛΕΥΘΕΡΩΝΟΝΤΑΣ ΠΑΝΩ ΑΠΟ ΤΟΝ ΩΜΟ ΣΑΣ"
+"HLVR_Lesson_ArmGrenade"						"ΠΑΤΗΣΤΕ ΓΙΑ ΟΠΛΙΣΜΑ ΧΕΙΡΟΒΟΜΒΙΔΑΣ"
+"HLVR_Lesson_ArmXenGrenade"						"ΖΟΥΛΗΞΤΕ ΓΙΑ ΝΑ ΟΠΛΙΣΕΤΕ ΤΗ ΧΕΙΡΟΒΟΜΒΙΔΑ ΞΕΝ"
+"HLVR_Lesson_ArmXenGrenadeVive"					"ΠΑΤΗΣΤΕ ΓΙΑ ΟΠΛΙΣΜΑ ΧΕΙΡΟΒΟΜΒΙΔΑΣ ΞΕΝ"
+"HLVR_Lesson_PrepareHealthInjector"				"ΕΤΟΙΜΑΣΤΕ ΣΥΡΙΓΓΑ ΖΩΗΣ"
+"HLVR_Lesson_HealthInjectToHand"				"ΕΙΣΑΓΕΤΕ ΣΤΟ ΣΩΜΑ, ΧΕΡΙ Ή ΠΟΔΙ"
+"HLVR_Lesson_HealthInjectToHandSingleController"	"ΕΙΣΑΓΕΤΕ ΣΤΟ ΣΩΜΑ Ή ΠΟΔΙ"
+"HLVR_Lesson_WristHUD"							"ΠΡΟΒΟΛΗ ΤΟΥ ΚΑΡΠΟΥ ΔΕΙΧΝΕΙ ΤΗ ΖΩΗ ΣΑΣ"
+"HLVR_Lesson_GameSaved"							"ΤΟ ΠΑΙΧΝΙΔΙ ΑΠΟΘΗΚΕΥΤΗΚΕ"
+"HLVR_Lesson_BackpackConstraints"				"ΤΟ ΣΑΚΙΔΙΟ ΑΠΟΘΗΚΕΥΕΙ ΜΟΝΟ ΠΥΡΟΜΑΧΙΚΑ ΚΑΙ ΡΗΤΙΝΗ"
+"HLVR_Lesson_PistolClipBackpackConstraints"		"ΤΟ ΣΑΚΙΔΙΟ ΑΠΟΘΗΚΕΥΕΙ ΜΟΝΟ ΓΕΜΑΤΟΥΣ ΓΕΜΙΣΤΗΡΕΣ"
+"HLVR_Lesson_OpenWeaponSelectForHand"			"ΠΑΤΗΣΤΕ ΓΙΑ ΝΑ ΕΝΑΛΛΑΞΕΤΕ ΓΡΗΓΟΡΑ\nΣΤΟ ΚΑΙ ΑΠΟ ΤΟ ΧΕΡΙ ΣΑΣ"
+"HLVR_Lesson_OpenWeaponSelectForHandSingleController"	"ΠΑΤΗΣΤΕ ΓΙΑ ΝΑ ΕΝΑΛΛΑΞΕΤΕ ΓΡΗΓΟΡΑ ΣΤΟ ΧΕΡΙ ΣΑΣ ΓΙΑ ΝΑ ΜΠΟΡΕΙΤΕ ΝΑ ΛΑΒΕΤΕ ΠΥΡΟΜΑΧΙΚΑ"
+"HLVR_Lesson_SelectHand"						"ΕΠΙΛΟΓΗ ΧΕΡΙΟΥ"
+"HLVR_Lesson_2HLevitate"						"ΚΛΕΙΔΩΣΤΕ ΣΤΟΧΟ ΚΑΙ ΜΕ ΤΑ ΔΥΟ ΓΑΝΤΙΑ ΒΑΡΥΤΗΤΑΣ"
+"HLVR_Lesson_GravityGloveLockOn"				"ΠΑΤΗΣΤΕ ΓΙΑ ΚΛΕΙΔΩΜΑ ΣΤΟΧΟΥ"
+"HLVR_Lesson_GravityGlovePull"					"ΤΙΝΑΞΤΕ ΤΟ ΧΕΡΙ ΠΙΣΩ ΓΙΑ ΤΡΑΒΗΓΜΑ ΑΝΤΙΚΕΙΜΕΝΟΥ"
+"HLVR_Lesson_GravityGloveCatch"					"ΠΙΑΣΤΕ ΤΟ ΑΝΤΙΚΕΙΜΕΝΟ ΣΤΟΝ ΑΕΡΑ"
+"HLVR_Lesson_2HPickup"							"ΣΗΚΩΣΤΕ ΒΑΡΙΑ ΑΝΤΙΚΕΙΜΕΝΑ ΚΑΙ ΜΕ ΤΑ ΔΥΟ ΧΕΡΙΑ"
+"HLVR_Lesson_UseMultitoolOnDoor"				"ΧΡΗΣΙΜΟΠΟΙΗΣΤΕ ΤΟ ΕΡΓΑΛΕΙΟ ΣΕ ΤΕΡΜΑΤΙΚΑ"
+"HLVR_Lesson_UseMultitoolOnToner"				"ΧΡΗΣΙΜΟΠΟΙΗΣΤΕ ΤΟ ΠΟΛΥΕΡΓΑΛΕΙΟ ΣΕ ΠΗΓΗ ΕΝΕΡΓΕΙΑΣ"
+"HLVR_Lesson_UseMultitoolOnJunction"			"ΧΡΗΣΙΜΟΠΟΙΗΣΤΕ ΤΟ ΠΟΛΥΕΡΓΑΛΕΙΟ ΓΙΑ ΠΕΡΙΣΤΡΟΦΗ ΔΙΑΣΥΝΔΕΣΗΣ"
+"HLVR_Lesson_UseMultitoolOnTripmine"			"ΧΡΗΣΙΜΟΠΟΙΗΣΤΕ ΤΟ ΕΡΓΑΛΕΙΟ ΣΕ ΝΑΡΚΗ ΛΕΙΖΕΡ"
+"HLVR_Lesson_StoreObjectInWristBag"				"ΑΠΟΘΗΚΕΥΣΤΕ ΑΝΤΙΚΕΙΜΕΝΑ ΣΕ ΘΗΚΕΣ ΚΑΡΠΟΥ"
+"HLVR_Lesson_StoreObjectInWristBagSingleController"		"ΑΝΑΚΤΗΣΤΕ ΑΝΤΙΚΕΙΜΕΝΑ ΑΠΟ ΘΗΚΕΣ"
+"HLVR_Lesson_RetrieveObjectInWristBag"			"ΑΝΑΚΤΗΣΤΕ ΑΝΤΙΚΕΙΜΕΝΟ ΣΤΗ ΘΗΚΗ ΚΑΡΠΟΥ"
+"HLVR_Lesson_Headset"							"ΕΞΟΠΛΙΣΤΕ ΤΟ HEADSET\nΑΠΕΛΕΥΘΕΡΩΝΟΝΤΑΣ ΣΤΟ ΑΥΤΙ ΣΑΣ"
+"HLVR_Lesson_Pickup_Clip"						"ΤΡΑΒΗΞΤΕ Ή ΣΗΚΩΣΤΕ ΠΥΡΟΜΑΧΙΚΑ"
+"HLVR_Lesson_AttachFlashlight"					"ΠΡΟΣΑΡΜΟΣΤΕ ΦΑΚΟ ΣΤΟ ΓΑΝΤΙ ΒΑΡΥΤΗΤΑΣ"
+"HLVR_Lesson_WeaponReturned"					"ΤΟ ΟΠΛΟ ΠΟΥ ΕΜΕΙΝΕ ΣΤΟΝ ΚΑΤΑΣΚΕΥΑΣΤΗ COMBINE ΕΠΕΣΤΡΕΨΕ"
+"HLVR_Lesson_ThrowEnergyBolt"					"ΠΕΤΑΞΤΕ ΕΝΕΡΓΕΙΑΚΗ ΦΟΡΤΙΣΗ"
+"HLVR_Lesson_Health_Station"					"ΧΡΗΣΙΜΟΠΟΙΗΣΤΕ ΤΗ ΛΑΒΗ ΓΙΑ ΝΑ ΑΝΟΙΞΕΤΕ ΤΟΝ ΣΤΑΘΜΟ ΖΩΗΣ"
+
+// upgrades
+"HLVR_Upgrade_PistolLaserSight"						"ΔΕΙΚΤΗΣ ΛΕΙΖΕΡ"
+"HLVR_Upgrade_Desc_PistolLaserSight"					"Προσθέτει ένα δείκτη λέιζερ για καλύτερη στόχευση"
+"HLVR_Upgrade_PistolReflexSight"					"ΚΑΤΑΔΕΙΞΗ ΣΤΟΧΩΝ"
+"HLVR_Upgrade_Desc_PistolReflexSight"					"Προσθέτει μια προβολή που καταδεικνύει σημαντικούς στόχους"
+"HLVR_Upgrade_PistolBurstFire"						"ΕΚΡΗΚΤΙΚΗ ΡΙΠΗ"
+"HLVR_Upgrade_Desc_PistolBurstFire"						"Προσθέτει μια εναλλαγή μεταξύ ριπής τριών βολών και μίας βολής"
+"HLVR_Upgrade_PistolBulletHopper"					"ΘΑΛΑΜΟΣ ΣΦΑΙΡΩΝ"
+"HLVR_Upgrade_Desc_PistolBulletHopper"					"Προσθέτει ένα θάλαμο που κρατάει 10 επιπλέον σφαίρες"
+
+"HLVR_Upgrade_ShotgunSpeedLoader"					"ΑΥΤΟΓΕΜΙΣΤΗΣ"
+"HLVR_Upgrade_Desc_ShotgunSpeedLoader"					"Προσθέτει ένα μηχανικό γεμιστήρα φυσιγγίων για να γεμίζει γρήγορα την καραμπίνα"
+"HLVR_Upgrade_ShotgunGrenadeAttach"					"ΕΚΤΟΞΕΥΤΗΣ ΧΕΙΡΟΒΟΜΒΙΔΩΝ"
+"HLVR_Upgrade_Desc_ShotgunGrenadeAttach"				"Προσθέτει την ικανότητα για προσαρμογή και εκτόξευση χειροβομβίδων"
+"HLVR_Upgrade_ShotgunLaserSight"					"ΔΕΙΚΤΗΣ ΛΕΙΖΕΡ"
+"HLVR_Upgrade_Desc_ShotgunLaserSight"					"Προσθέτει μια ακτίνα λέιζερ για καλύτερη στόχευση"
+"HLVR_Upgrade_ShotgunQuickFire"						"ΔΙΠΛΗ ΒΟΛΗ"
+"HLVR_Upgrade_Desc_ShotgunQuickFire"					"Προσθέτει την επιλογή για πυροβολισμό δεύτερης βολής αμέσως μετά την πρώτη"
+
+"HLVR_Upgrade_RapidfireExplodingBullets"			"ΣΥΣΤΑΔΑ ΣΦΑΙΡΩΝ"
+"HLVR_Upgrade_Desc_RapidfireExplodingBullets"			"Προσθέτει την ικανότητα για ανατίναξη μιας μικρής συστάδας σφαιρών μετά τον πυροβολισμό"
+"HLVR_Upgrade_RapidfireReflexSight"					"ΚΑΤΑΔΕΙΞΗ ΣΤΟΧΩΝ"
+"HLVR_Upgrade_Desc_RapidfireReflexSight"				"Προσθέτει μια προβολή που καταδεικνύει σημαντικούς στόχους"
+"HLVR_Upgrade_RapidfireLaserSight"					"ΔΕΙΚΤΗΣ ΛΕΙΖΕΡ"
+"HLVR_Upgrade_Desc_RapidfireLaserSight"					"Προσθέτει ένα δείκτη λέιζερ για καλύτερη στόχευση"
+"HLVR_Upgrade_RapidfireExtendedMagazine"			"ΕΠΕΚΤΑΣΗ ΓΕΜΙΣΤΗΡΑ"
+"HLVR_Upgrade_Desc_RapidfireExtendedMagazine"			"Επιτρέπει να φορτωθούν στο όπλο πολλαπλά ενεργειακά κελιά"
+
+"HLVR_Weapon_Name_Pistol"							"ΠΙΣΤΟΛΙ"
+"HLVR_Weapon_Name_Shotgun"							"ΚΑΡΑΜΠΙΝΑ"
+"HLVR_Weapon_Name_RapidFire"						"SMG"
+
+"HLVR_Weapon_Name_Pistol_UID"						"XXXXXXXXXXXX..XXX.X.X"
+"HLVR_Weapon_Name_Shotgun_UID"						"004086056845..080.2.7"
+"HLVR_Weapon_Name_RapidFire_UID"					"000123100400..342.5.1"
+
+// crafting station
+"HLVR_CraftingStation_Name"							"ΣΤΑΘΜΟΣ ΑΠΟΚΤΗΣΗΣ 0.3.3.333"
+"HLVR_CraftingStation_Startup"						"ΕΚΚΙΝΗΣΗ"
+"HLVR_CraftingStation_Scanning"						"Scanning Environment..."
+"HLVR_CraftingStation_LoadingBlueprints"			"ΦΟΡΤΩΣΗ ΣΧΕΔΙΑΓΡΑΜΜΑΤΩΝ..."
+"HLVR_CraftingStation_InsertWeapon"					"ΕΙΣΑΓΕΤΕ ΟΠΛΟ ΣΤΗΝ ΚΟΙΤΙΔΑ"
+"HLVR_CraftingStation_YourResin"					"Η ΡΗΤΙΝΗ ΣΑΣ: {i:CurrencyAmount}"
+"HLVR_CraftingStation_YourResinLabel"				"Η ΡΗΤΙΝΗ ΣΑΣ:"
+"HLVR_CraftingStation_ResinAmount"					"{i:CurrencyAmount}"
+"HLVR_CraftingStation_SelectObject"					"ΕΠΙΛΟΓΗ ΑΝΤΙΚΕΙΜΕΝΟΥ"
+"HLVR_CraftingStation_SelectedWeapon"				"{s:WeaponName}"
+"HLVR_CraftingStation_Upgrades"						"ΑΝΑΒΑΘΜΙΣΕΙΣ"
+"HLVR_CraftingStation_Cost"							"ΚΟΣΤΟΣ"
+"HLVR_CraftingStation_Summary"						"ΣΥΝΟΨΗ"
+"HLVR_CraftingStation_NoUpgrades"					"ΧΩΡΙΣ ΓΝΩΣΤΕΣ ΑΝΑΒΑΘΜΙΣΕΙΣ"
+"HLVR_CraftingStation_NotEnoughResin"				"ΧΩΡΙΣ ΑΡΚΕΤΗ ΡΗΤΙΝΗ ΓΙΑ ΑΝΑΒΑΘΜΙΣΗ"
+"HLVR_CraftingStation_InsufficientResin"			"ΑΝΕΠΑΡΚΕΙΑ"
+"HLVR_CraftingStation_InsertResin"					"ΕΙΣΑΓΕΤΕ ΡΗΤΙΝΗ ΤΩΡΑ"
+"HLVR_CraftingStation_Acquiring"					"ΑΠΟΚΤΗΣΗ"
+"HLVR_CraftingStation_Acquired"						"ΑΠΟΚΤΗΘΗΚΕ"
+"HLVR_CraftingStation_Scanning"						"ΣΑΡΩΣΗ"
+"HLVR_CraftingStation_Rendering"					"ΣΥΝΘΕΣΗ..."
+"HLVR_CraftingStation_Printing"						"ΕΚΤΥΠΩΣΗ"
+"HLVR_CraftingStation_Complete"						"Η ΚΑΤΑΣΚΕΥΗ ΟΛΟΚΛΗΡΩΘΗΚΕ"
+"HLVR_CraftingStation_Cancelled"					"Η ΚΑΤΑΣΚΕΥΗ ΑΚΥΡΩΘΗΚΕ"
+"HLVR_CraftingStation_TakeObject"					"ΛΗΨΗ ΑΝΤΙΚΕΙΜΕΝΟΥ"
+"HLVR_CraftingStation_PrintObject"					"ΕΚΤΥΠΩΣΗ ΑΝΤΙΚΕΙΜΕΝΟΥ"
+"HLVR_CraftingStation_UpgradeOwned"					"ΣΕ ΚΑΤΟΧΗ"
+"HLVR_CraftingStation_Cancel"						"ΑΚΥΡΟ"
+"HLVR_CraftingStation_Back"							"ΠΙΣΩ"
+"HLVR_CraftingStation_SmallPrint"					"ΠΑΡΑΡΤΗΜΑ ΠΟΛΙΤΙΚΗΣ ΠΡΟΣΤΑΣΙΑΣ 19-81572"
+
+// combine console
+"HLVR_CombineConsole_Name"							"ΚΟΝΣΟΛΑ COMBINE V17.14"
+"HLVR_CombineConsole_Activate"						"ΕΝΕΡΓΟΠΟΙΗΣΗ"
+
+"HLVR_Calibration_Start"							"ΠΑΤΗΣΤΕ ΚΟΥΜΠΙ ΓΙΑ ΕΝΑΡΞΗ"
+
+"HLVR_Intro_Text_01"								"Είναι πέντρε χρόνια πριν την κατάρρευση της"
+"HLVR_Intro_Text_02"                                                            " Ακρόπολης," 
+"HLVR_Intro_Text_03"								"και τον θάνατο του"
+"HLVR_Intro_Text_04"                                                            " Eli Vance." 
+
+"HLVR_Eli_Call_Incoming"							"ΕΙΣΕΡΧΟΜΕΝΗ ΚΛΗΣΗ"
+"HLVR_Eli_Call_Incoming_Name"						"Eli Vance"
+"HLVR_Eli_Call_Ended_01"							"Η ΚΛΗΣΗ"
+"HLVR_Eli_Call_Ended_02"							"ΤΕΡΜΑΤΙΣΤΗΚΕ"
+"HLVR_Eli_Call_Location"							"ΠΥΛΩΝΑΣ 7B, ΑΠΟΘΗΚΗ"
+
+
+// Referenced in hl2_gamerules.cpp
+// static HLVRChapter_t rgChapters[] = {
+// Chapter Numbers
+"HLVR_Chapter_Number_00"							"ΚΕΦΑΛΑΙΟ 1"
+"HLVR_Chapter_Number_01"							"ΚΕΦΑΛΑΙΟ 2"
+"HLVR_Chapter_Number_02"							"ΚΕΦΑΛΑΙΟ 3"
+"HLVR_Chapter_Number_03"							"ΚΕΦΑΛΑΙΟ 4"
+"HLVR_Chapter_Number_04"							"ΚΕΦΑΛΑΙΟ 5"
+"HLVR_Chapter_Number_05"							"ΚΕΦΑΛΑΙΟ 6"
+"HLVR_Chapter_Number_06"							"ΚΕΦΑΛΑΙΟ 7"
+"HLVR_Chapter_Number_07"							"ΚΕΦΑΛΑΙΟ 8"
+"HLVR_Chapter_Number_08"							"ΚΕΦΑΛΑΙΟ 9"
+"HLVR_Chapter_Number_09"							"ΚΕΦΑΛΑΙΟ 10"
+"HLVR_Chapter_Number_10"							"ΚΕΦΑΛΑΙΟ 11"
+
+"HLVR_Chapter_Title_00"								"ΠΕΡΙΠΛΕΞΗ"
+"HLVR_Chapter_Title_01"								"Η ΖΩΝΗ ΚΑΡΑΝΤΙΝΑΣ"
+"HLVR_Chapter_Title_02"								"ΕΙΝΑΙ Ή ΘΑ ΓΙΝΕΙ"
+"HLVR_Chapter_Title_03"								"ΥΠΕΡΟΠΛΟ"
+"HLVR_Chapter_Title_04"								"Ο ΠΟΛΙΚΟΣ ΑΣΤΕΡΑΣ"
+"HLVR_Chapter_Title_05"								"ΑΓΩΝΑΣ ΟΠΛΩΝ"
+"HLVR_Chapter_Title_06"								"Jeff"
+"HLVR_Chapter_Title_07"								"ΑΙΧΜΑΛΩΣΙΑ"
+"HLVR_Chapter_Title_08"								"ΑΠΟΚΑΛΥΨΕΙΣ"
+"HLVR_Chapter_Title_09"								"ΔΙΑΡΡΗΞΗ"
+"HLVR_Chapter_Title_10"								"ΣΗΜΕΙΟ ΕΞΑΓΩΓΗΣ"
+
+"HLVR_Transmission_Incoming"						"ΕΙΣΕΡΧΟΜΕΝΗ\nΜΕΤΑΔΟΣΗ"
+"HLVR_Transmission_Ended"							"ΛΗΞΗ\nΜΕΤΑΔΟΣΗΣ"
+
+"HLVR_Propaganda_Standby"							"ΠΑΡΑΚΑΛΟΥΜΕ ΑΝΑΜΕΝΕΤΕ"
+"HLVR_Propaganda_Countdown5"						"5"
+"HLVR_Propaganda_Countdown4"						"4"
+"HLVR_Propaganda_Countdown3"						"3"
+"HLVR_Propaganda_Countdown2"						"2"
+"HLVR_Propaganda_Announcement"						"ΕΙΔΙΚΗ ΑΝΑΚΟΙΝΩΣΗ"
+
+"HLVR_Distillery_Elevator_Error"					"ΥΠΕΡΒΑΣΗ ΟΡΙΟΥ ΒΑΡΟΥΣ"
+"HLVR_Distillery_Elevator_Override"					"ΑΠΑΙΤΕΙΤΑΙ ΠΑΡΑΚΑΜΨΗ"
+
+"HLVR_Trainyard_Train_Approaching"					"ΠΡΟΣΕΓΓΙΣΗ ΤΡΕΝΟΥ"
+
+"HLVR_Intro_World_01a"								"ΥΠΟΚΕΙΜΕΝΟ: "
+"HLVR_Intro_World_01b"								" Alyx Vance, Ηλικία 19, Θήλυ"
+"HLVR_Intro_World_02a"								"ΣΥΣΧΕΤΙΣΗ: "
+"HLVR_Intro_World_02b"								" Ανθρώπινη Αντίσταση"
+"HLVR_Intro_World_03a"								"ΤΡΕΧΟΥΣΑ ΑΝΑΘΕΣΗ: "
+"HLVR_Intro_World_03b"								" Αναγνώριση"
+
+"HLVR_Mission_Terminated_01a"						"ΑΝΑΘΕΣΗ: "
+"HLVR_Mission_Terminated_01b"						"ΤΕΡΜΑΤΙΣΤΗΚΕ"
+"HLVR_Mission_Terminated_02a"						"ΥΠΟΚΕΙΜΕΝΟ: "
+"HLVR_Mission_Terminated_02b"						"ALYX VANCE"
+"HLVR_Mission_Terminated_03a"						"ΑΙΤΙΑ: "
+"HLVR_Mission_Terminated_03b"						"ΑΝΙΚΑΝΟΤΗΤΑ ΠΡΟΣΤΑΣΙΑΣ ΠΟΡΩΝ ΖΩΤΙΚΗΣ ΣΗΜΑΣΙΑΣ"
+
+"HLVR_Subject"										"ΥΠΟΚΕΙΜΕΝΟ: "
+"HLVR_Subject_2"									"Alyx Vance"
+"HLVR_Status"										"ΚΑΤΑΣΤΑΣΗ: "
+"HLVR_Status_2"										"Προσλήφθηκε"
+"HLVR_Assignment"									"ΑΝΑΜΕΝΕΙ ΑΝΑΘΕΣΗ"
+
+"HLVR_Combine_Chatter"								"[Συνομιλία Combine]"
+
+// In-world signage
+"HLVR_Signage_Infestation_Control1"					"ΕΙΔΟΠΟΙΗΣΗ:"
+"HLVR_Signage_Infestation_Control2"					"ΕΛΕΓΧΟΣ ΠΑΡΑΣΙΤΩΝ"
+
+"HLVR_Signage_Emergency"							"ΕΠΕΙΓΟΥΣΑ"
+"HLVR_Signage_Main_Power"							"ΑΠΕΝΕΡΓΟΠΟΙΗΣΗ"
+"HLVR_Signage_Shutoff"								"ΚΥΡΙΟΥ ΡΕΥΜΑΤΟΣ"
+
+// Credits
+
+"HLVR_Credits_ContractorsHeader"					"ΕΠΙΠΛΕΟΝ ΑΝΑΠΤΥΞΗ"
+"HLVR_Credits_CastHeader"							"ΤΟ ΚΑΣΤ"
+"HLVR_Commentary_Elevator"							"Elevator"
+// Game Tips
+"HLVR_LOADING_SCREEN_TIP_COUNT"				"22"
+"HLVR_LOADING_SCREEN_TIP_MAP_0_COUNT"		"6"		// a1_intro_world
+"HLVR_LOADING_SCREEN_TIP_MAP_1_COUNT"		"9"		// a1_intro_world_2
+"HLVR_LOADING_SCREEN_TIP_MAP_2_COUNT"		"6"		// a2_quarantine_entrance
+"HLVR_LOADING_SCREEN_TIP_MAP_3_COUNT"		"7"		// a2_pistol
+"HLVR_LOADING_SCREEN_TIP_MAP_4_COUNT"		"12"	// a2_hideout
+"HLVR_LOADING_SCREEN_TIP_MAP_5_COUNT"		"12"	// a2_headcrabs_tunnel
+"HLVR_LOADING_SCREEN_TIP_MAP_6_COUNT"		"14"	// a2_drainage
+"HLVR_LOADING_SCREEN_TIP_MAP_7_COUNT"		"13"	// a2_train_yard
+"HLVR_LOADING_SCREEN_TIP_MAP_8_COUNT"		"11"	// a3_station_street
+"HLVR_LOADING_SCREEN_TIP_MAP_9_COUNT"		"15"	// a3_hotel_lobby_basement
+"HLVR_LOADING_SCREEN_TIP_MAP_10_COUNT"		"15"	// a3_hotel_underground_pit
+"HLVR_LOADING_SCREEN_TIP_MAP_11_COUNT"		"15"	// a3_hotel_interior_rooftop
+"HLVR_LOADING_SCREEN_TIP_MAP_12_COUNT"		"20"	// a3_hotel_street
+"HLVR_LOADING_SCREEN_TIP_MAP_13_COUNT"		"20"	// a3_c17_processing_plant
+"HLVR_LOADING_SCREEN_TIP_MAP_14_COUNT"		"20"	// a3_distillery
+"HLVR_LOADING_SCREEN_TIP_MAP_15_COUNT"		"20"	// a4_c17_zoo
+"HLVR_LOADING_SCREEN_TIP_MAP_16_COUNT"		"20"	// a4_c17_tanker_yard
+"HLVR_LOADING_SCREEN_TIP_MAP_17_COUNT"		"0"		// a4_c17_water_tower
+"HLVR_LOADING_SCREEN_TIP_MAP_18_COUNT"		"0"		// a4_c17_parking_garage
+"HLVR_LOADING_SCREEN_TIP_MAP_19_COUNT"		"0"		// a5_vault
+"HLVR_LOADING_SCREEN_TIP_MAP_20_COUNT"		"0"		// a5_ending
+} 
+}

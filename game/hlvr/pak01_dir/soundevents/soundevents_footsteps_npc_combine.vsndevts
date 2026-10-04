@@ -1,22 +1,23 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Step_Combine.Base = 
 	{
 		type = "hlvr_footstep_npc"
-		walkspeed_max = 0.800000
-		limiter_on = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 1.000000
+		walkspeed_max = 0.8
+		limiter_on = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 1.0
 		limiter_stop_oldest = false
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 1200.000000
-		distance_max = 1201.000000
-		occlusion_scale = 0.700000
+		volume_falloff_min = 200.0
+		volume_falloff_max = 1200.0
+		distance_max = 1201.0
+		occlusion_scale = 0.7
 		mixgroup = "NPC_Footsteps"
-		use_foley_layer = 1.000000
-		volume_mult_foley_layer = 0.800000
-		use_foley_falloff = 1.000000
-		foley_falloff_max = 500.000000
+		use_foley_layer = 1.0
+		volume_mult_foley_layer = 0.8
+		use_foley_falloff = 1.0
+		foley_falloff_max = 500.0
 		vsnd_files_step = 
 		[
 			"sounds/physics/footsteps/combine_soldier/concrete/combine_concrete_step_01.vsnd",
@@ -153,24 +154,24 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombineSoldier.Step_Manual_Default"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "CombineSoldier.Step_Foley"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	CombineSoldier.Step_Manual_Default = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		limiter_on = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 1.000000
+		volume = 0.7
+		limiter_on = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 1.0
 		limiter_stop_oldest = false
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 1200.000000
-		distance_max = 1201.000000
-		occlusion_scale = 0.800000
-		use_hrtf = 1.000000
+		volume_falloff_min = 200.0
+		volume_falloff_max = 1200.0
+		distance_max = 1201.0
+		occlusion_scale = 0.8
+		use_hrtf = 1.0
 		mixgroup = "NPC_Footsteps"
 		vsnd_files = 
 		[
@@ -188,17 +189,17 @@
 	CombineSoldier.Step_Foley = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		limiter_on = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 1.000000
+		volume = 0.6
+		limiter_on = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 1.0
 		limiter_stop_oldest = false
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 400.000000
-		distance_max = 401.000000
-		occlusion_scale = 0.800000
-		use_hrtf = 1.000000
+		volume_falloff_min = 100.0
+		volume_falloff_max = 400.0
+		distance_max = 401.0
+		occlusion_scale = 0.8
+		use_hrtf = 1.0
 		mixgroup = "NPC_Footsteps"
 		vsnd_files = 
 		[
@@ -216,51 +217,51 @@
 	CombineSoldier.Kidnap_Foley = 
 	{
 		base = "CombineSoldier.Step_Foley"
-		volume = 0.500000
+		volume = 0.5
 	}
 	CombineSoldier.Step_Manual_Scripted_Walkby_Parent = 
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombineSoldier.Step_Manual_Scripted_Walkby"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "CombineSoldier.Step_Manual_Scripted_Walkby_Foley"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	CombineSoldier.Step_Manual_Scripted_Walkby = 
 	{
 		base = "CombineSoldier.Step_Manual_Default"
-		volume = 0.700000
-		occlusion_scale = 0.300000
-		volume_falloff_max = 700.000000
+		volume = 0.7
+		occlusion_scale = 0.3
+		volume_falloff_max = 700.0
 	}
 	CombineSoldier.Step_Manual_Scripted_Walkby_Foley = 
 	{
 		base = "CombineSoldier.Step_Foley"
-		volume = 0.400000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 300.000000
-		distance_max = 301.000000
-		occlusion_scale = 0.500000
+		volume = 0.4
+		volume_falloff_min = 100.0
+		volume_falloff_max = 300.0
+		distance_max = 301.0
+		occlusion_scale = 0.5
 	}
 	Step_Metrocop.Base = 
 	{
 		type = "hlvr_footstep_npc"
-		volume_mult_step = 0.900000
-		walkspeed_max = 0.900000
-		limiter_on = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 1.000000
+		volume_mult_step = 0.9
+		walkspeed_max = 0.9
+		limiter_on = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 1.0
 		limiter_stop_oldest = false
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 1200.000000
-		distance_max = 1201.000000
-		occlusion_scale = 0.700000
+		volume_falloff_min = 200.0
+		volume_falloff_max = 1200.0
+		distance_max = 1201.0
+		occlusion_scale = 0.7
 		mixgroup = "NPC_Footsteps"
-		use_foley_layer = 1.000000
-		volume_mult_foley_layer = 0.500000
-		use_foley_falloff = 1.000000
-		foley_falloff_max = 900.000000
+		use_foley_layer = 1.0
+		volume_mult_foley_layer = 0.5
+		use_foley_falloff = 1.0
+		foley_falloff_max = 900.0
 		vsnd_files_step = 
 		[
 			"sounds/physics/footsteps/combine_soldier/concrete/combine_concrete_step_01.vsnd",
@@ -397,24 +398,24 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "Metrocop.Step_Manual_Default"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "Metrocop.Step_Foley"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	Metrocop.Step_Manual_Default = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		limiter_on = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 1.000000
+		volume = 0.7
+		limiter_on = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 1.0
 		limiter_stop_oldest = false
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 1000.000000
-		distance_max = 1001.000000
-		occlusion_scale = 0.800000
-		use_hrtf = 1.000000
+		volume_falloff_min = 100.0
+		volume_falloff_max = 1000.0
+		distance_max = 1001.0
+		occlusion_scale = 0.8
+		use_hrtf = 1.0
 		mixgroup = "NPC_Footsteps"
 		vsnd_files = 
 		[
@@ -432,17 +433,17 @@
 	Metrocop.Step_Foley = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		limiter_on = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 1.000000
+		volume = 0.7
+		limiter_on = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 1.0
 		limiter_stop_oldest = false
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 800.000000
-		distance_max = 801.000000
-		occlusion_scale = 0.800000
-		use_hrtf = 1.000000
+		volume_falloff_min = 100.0
+		volume_falloff_max = 800.0
+		distance_max = 801.0
+		occlusion_scale = 0.8
+		use_hrtf = 1.0
 		mixgroup = "NPC_Footsteps"
 		vsnd_files = 
 		[
@@ -460,24 +461,24 @@
 	Step_Charger.Base = 
 	{
 		type = "hlvr_footstep_npc"
-		limiter_on = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 1.000000
+		limiter_on = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 1.0
 		limiter_stop_oldest = false
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 1200.000000
-		distance_max = 1201.000000
-		occlusion_scale = 0.400000
+		volume_falloff_min = 100.0
+		volume_falloff_max = 1200.0
+		distance_max = 1201.0
+		occlusion_scale = 0.4
 		mixgroup = "NPC_Footsteps"
-		use_foley_layer = 1.000000
-		use_step_layer = 1.000000
-		volume_mult_step = 1.000000
-		volume_mult_foley_layer = 0.700000
-		volume_mult_step_layer = 0.800000
-		use_foley_falloff = 1.000000
-		foley_falloff_max = 800.000000
-		use_child = 1.000000
+		use_foley_layer = 1.0
+		use_step_layer = 1.0
+		volume_mult_step = 1.0
+		volume_mult_foley_layer = 0.7
+		volume_mult_step_layer = 0.8
+		use_foley_falloff = 1.0
+		foley_falloff_max = 800.0
+		use_child = 1.0
 		child_soundevent = "Step_Charger.Bass_Layer"
 		vsnd_files_step = 
 		[
@@ -518,13 +519,13 @@
 	Step_Charger.Bass_Layer = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
-		occlusion_max = 0.000000
-		volume_falloff_min = 200.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 1.4
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
+		occlusion_max = 0.0
+		volume_falloff_min = 200.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "NPC_Footsteps"
 		vsnd_files = 
 		[
@@ -631,28 +632,28 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombineCharger.Step_Manual_Default"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "CombineCharger.Step_Manual_Foley"
-		use_02 = 1.000000
+		use_02 = 1.0
 		soundevent_03 = "CombineCharger.Step_Manual_Layer_Clink"
-		use_03 = 1.000000
+		use_03 = 1.0
 		soundevent_04 = "CombineCharger.Step_Manual_Layer_Bass"
-		use_04 = 1.000000
+		use_04 = 1.0
 	}
 	CombineCharger.Step_Manual_Default = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		limiter_on = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 1.000000
+		volume = 0.7
+		limiter_on = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 1.0
 		limiter_stop_oldest = false
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 1200.000000
-		distance_max = 1201.000000
-		occlusion_scale = 0.400000
-		use_hrtf = 1.000000
+		volume_falloff_min = 100.0
+		volume_falloff_max = 1200.0
+		distance_max = 1201.0
+		occlusion_scale = 0.4
+		use_hrtf = 1.0
 		mixgroup = "NPC_Footsteps"
 		vsnd_files = 
 		[
@@ -701,13 +702,13 @@
 	CombineCharger.Step_Manual_Layer_Bass = 
 	{
 		base = "CombineCharger.Step_Manual_Default"
-		volume = 1.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
-		occlusion_max = 0.000000
-		volume_falloff_min = 200.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 1.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
+		occlusion_max = 0.0
+		volume_falloff_min = 200.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = 
 		[
 			"sounds/combine/soldier_charger/step_layer_bass_01.vsnd",
@@ -721,22 +722,22 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombineCharger.Step_Kidnap_Core"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "CombineCharger.Step_Kidnap_Foley"
-		use_02 = 1.000000
+		use_02 = 1.0
 		soundevent_03 = "CombineCharger.Step_Kidnap_Clink"
-		use_03 = 1.000000
+		use_03 = 1.0
 		soundevent_04 = "CombineCharger.Step_Kidnap_Bass"
-		use_04 = 1.000000
+		use_04 = 1.0
 	}
 	CombineCharger.Step_Kidnap_Subtle = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
-		occlusion_scale = 0.200000
-		use_hrtf = 1.000000
+		volume = 0.5
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
+		occlusion_scale = 0.2
+		use_hrtf = 1.0
 		mixgroup = "NPC_Footsteps"
 		vsnd_files = 
 		[
@@ -755,11 +756,11 @@
 	CombineCharger.Step_Kidnap_Core = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 800.000000
-		occlusion_scale = 0.200000
-		use_hrtf = 1.000000
+		volume = 0.9
+		volume_falloff_min = 100.0
+		volume_falloff_max = 800.0
+		occlusion_scale = 0.2
+		use_hrtf = 1.0
 		mixgroup = "NPC_Footsteps"
 		vsnd_files = 
 		[
@@ -778,9 +779,9 @@
 	CombineCharger.Step_Kidnap_Foley = 
 	{
 		base = "CombineCharger.Step_Kidnap_Core"
-		volume = 0.600000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
+		volume = 0.6
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
 		vsnd_files = 
 		[
 			"sounds/combine/soldier_charger/foley_step_01.vsnd",
@@ -797,9 +798,9 @@
 	CombineCharger.Step_Kidnap_Clink = 
 	{
 		base = "CombineCharger.Step_Kidnap_Core"
-		volume = 0.100000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
+		volume = 0.1
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
 		vsnd_files = 
 		[
 			"sounds/combine/soldier_charger/step_layer_clink_01.vsnd",
@@ -812,13 +813,13 @@
 	CombineCharger.Step_Kidnap_Bass = 
 	{
 		base = "CombineCharger.Step_Kidnap_Core"
-		volume = 1.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
-		occlusion_max = 0.000000
-		volume_falloff_min = 200.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 1.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
+		occlusion_max = 0.0
+		volume_falloff_min = 200.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = 
 		[
 			"sounds/combine/soldier_charger/step_layer_bass_01.vsnd",

@@ -64,7 +64,7 @@
 .CRT$XTZ
 .bss
 .data
-.data$r
+.data$rs
 .edata
 .idata$2
 .idata$3
@@ -75,6 +75,7 @@
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .text$di
 .text$mn
@@ -97,6 +98,7 @@
 ==========================================================\n
 ??0CThread@@QEAA@XZ
 ??0CThreadEvent@@QEAA@_N@Z
+??0CThreadFastMutex@@QEAA@XZ
 ??1CThread@@UEAA@XZ
 ??1CThreadEvent@@QEAA@XZ
 ??1CThreadSyncObject@@QEAA@XZ
@@ -117,7 +119,7 @@
 ?IsAlive@CThread@@QEAA_NXZ
 ?IsThreadRunning@CThread@@MEAA_NXZ
 ?Join@CThread@@QEAA_NI@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?LoggingSystem_IsChannelEnabled@@YA_NHW4LoggingVerbosity_t@@@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@VColor@@PEBDZZ
@@ -130,6 +132,7 @@
 ?SetPtr@CBufferString@@QEAAXPEADHH_N1@Z
 ?Sleep@CThread@@SAXI@Z
 ?Start@CThread@@UEAA_NIW4ThreadPriorityEnum_t@@@Z
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Wait@CThreadSyncObject@@QEAA_NI@Z
 ?WaitForCreateComplete@CThread@@MEAA_NPEAVCThreadEvent@@@Z
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
@@ -276,7 +279,7 @@ PropertyEditorSystem_001
 QWidget
 QueryPerformanceCounter
 QueuedLoaderVersion001
-RSDS/
+RSDS
 RegisterConfigValue: Unknown error constructing config value "%s"!\n
 Rejecting registering message '%s'. Already registered to an alternate handler.\n
 Release

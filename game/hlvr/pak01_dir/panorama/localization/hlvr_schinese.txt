@@ -34,7 +34,7 @@
 "HLVR_MainMenu_SaveSlot"    	  	"存档栏"
 "HLVR_MainMenu_GameSlot"    	  	"游戏存档栏"
 "HLVR_MainMenu_Overwrite"    	  	"覆盖"
-"HLVR_MainMenu_Overwrite_desc"		"所有的游戏存档栏位均已被占用。请选择要覆盖的存档栏。 \n\n警告：此操作将删除现有的存档数据。"
+"HLVR_MainMenu_Overwrite_desc"		"所有的游戏存档栏位均已被占用。请选择要覆盖的存档栏。 \n\n注意：此操作将删除现有的存档数据。"
 "HLVR_MainMenu_StartOver"					"覆盖存档吗？"
 "HLVR_MainMenu_NewGame"						"开始新游戏？"
 "HLVR_MainMenu_Slot"    	  			"存档栏"
@@ -53,9 +53,15 @@
 "HLVR_MainMenu_AddonDisabled"			"关联加载项已禁用"
 "HLVR_MainMenu_AddonNotAvailable"		"此地图不再有可用的关联加载项。\n重新订阅并启用此加载项以继续。"
 "HLVR_MainMenu_NoAddonsEnabled"			"加载项游戏未启用加载项"
-"HLVR_MainMenu_AddonToggleInfo"			"Press Toggle on Left to Enable and Disable"
+"HLVR_MainMenu_AddonToggleInfo"			"按下左边的切换按钮以启用或禁用"
 "HLVR_MainMenu_LocalAddon"				"本地加载项"
-"HLVR_MainMenu_MissingAddon"			"The following addon(s) are missing.  Please resubscribe to load this file"
+"HLVR_MainMenu_MissingAddon"			"缺失以下加载项。请重新订阅以载入此文件。"
+
+"HLVR_MainMenu_OriginalGame"			"原版游戏"
+"HLVR_MainMenu_AddonGame"				"加载项游戏"
+
+"HLVR_MainMenu_OriginalMaps"			"原版游戏"
+"HLVR_MainMenu_AddonMaps"				"加载项地图"
 
 "HLVR_MainMenu_AddonUpVote"				"赞"
 "HLVR_MainMenu_AddonDownVote"			"踩"
@@ -134,6 +140,9 @@
 "HLVR_Options_On"					"开启"
 "HLVR_Options_Off"				"关闭"
 
+"HLVR_Options_Commentary"					"开发者解说"
+"HLVR_Options_Commentary_desc"				"遊玩时启用开发者解說节点。\n\n注意：解說内容包含游戏剧透。\n\n建议先完成游戏再开启本功能游玩。"
+
 "HLVR_Options_Movement_Base"					"移动方式"
 "HLVR_Options_Movement_Blink"					"传送"
 "HLVR_Options_Movement_Shift"					"顺移"
@@ -177,6 +186,9 @@
 
 "HLVR_Options_ContinuousTurn_Speed_Base"		"持续转向速度"
 "HLVR_Options_ContinuousTurn_Speed_desc"		"持续转向的角度移动速度。"
+
+"HLVR_Options_DLC_Skins"						"预订皮肤"
+"HLVR_Options_DLC_Skins_desc"					"启用预订 Valve Index 时授予的武器皮肤。"
 
 "HLVR_Options_Subtitles"						"字幕"
 "HLVR_Options_Subtitles_Base"					"字幕"
@@ -530,7 +542,6 @@
 "HLVR_CraftingStation_ResinAmount"					"{i:CurrencyAmount}"
 "HLVR_CraftingStation_SelectObject"					"选择物体"
 "HLVR_CraftingStation_SelectedWeapon"				"{s:WeaponName}"
-"HLVR_CraftingStation_SelectUpgrade"				"选择{s:WeaponName}升级项"
 "HLVR_CraftingStation_Upgrades"						"升级项"
 "HLVR_CraftingStation_Cost"							"耗费"
 "HLVR_CraftingStation_Summary"						"摘要"
@@ -548,8 +559,6 @@
 "HLVR_CraftingStation_TakeObject"					"取出物品"
 "HLVR_CraftingStation_PrintObject"					"打印物体"
 "HLVR_CraftingStation_UpgradeOwned"					"已拥有"
-"HLVR_CraftingStation_SelectedPrint"				"已选择：{s:SelectedPrintObject}"
-"HLVR_CraftingStation_SelectedUpgrade"				"已选择的升级项：{s:SelectedUpgrade}"
 "HLVR_CraftingStation_Cancel"						"取消"
 "HLVR_CraftingStation_Back"							"返回"
 "HLVR_CraftingStation_SmallPrint"					"国民护卫队附件 19-81572"
@@ -637,7 +646,7 @@
 "HLVR_Combine_Chatter"								"[联合军对话]"
 
 // In-world signage
-"HLVR_Signage_Infestation_Control1"					"警告："
+"HLVR_Signage_Infestation_Control1"					"注意："
 "HLVR_Signage_Infestation_Control2"					"感染控制"
 
 "HLVR_Signage_Emergency"							"紧急"
@@ -648,6 +657,203 @@
 
 "HLVR_Credits_ContractorsHeader"					"其他开发者"
 "HLVR_Credits_CastHeader"							"演员阵容"
+
+
+
+// Commentary Titles
+
+// a1_intro_world
+"HLVR_Commentary_Intro1"							"欢迎辞"
+"HLVR_Commentary_Intro2"							"开场白"
+"HLVR_Commentary_Citadel_Vista"						"城堡全景"
+"HLVR_Commentary_Greenhouse"						"温室"
+"HLVR_Commentary_Strider"							"三脚机甲"
+"HLVR_Commentary_Refuge"							"避难所"
+"HLVR_Commentary_Olga"								"奥加"
+"HLVR_Commentary_Music"								"音乐"
+"HLVR_Commentary_Alley"								"巷道"
+
+// a1_intro_world_2
+"HLVR_Commentary_Van_Crash"							"货车撞击"
+"HLVR_Commentary_Pacing1"							"节奏1"
+"HLVR_Commentary_Pacing2"							"节奏2"
+"HLVR_Commentary_Pacing3"							"节奏3"
+"HLVR_Commentary_Russell_Typing"					"罗素打字"
+"HLVR_Commentary_Russell_Choreo"					"角色动作编排"
+"HLVR_Commentary_GG_Training_1"						"重力手套训练1"
+"HLVR_Commentary_GG_Training_2"						"重力手套训练2"
+
+// a2_quarantine_entrance
+"HLVR_Commentary_Resin"								"树脂"
+"HLVR_Commentary_Toner_Intro"						"电路谜题"
+"HLVR_Commentary_Lighting"							"照明"
+"HLVR_Commentary_Barnacles"							"藤壶怪"
+"HLVR_Commentary_Pistol_Training1"					"手枪装弹"
+"HLVR_Commentary_Locker_Hacking"					"破解"
+
+// a2_pistol
+"HLVR_Commentary_Health_Injectors"					"生命值注射器"
+"HLVR_Commentary_Pistol_Training2"					"手枪训练"
+"HLVR_Commentary_Train_Cars"						"蹲伏"
+"HLVR_Commentary_Breakable_Glass"					"可敲碎玻璃"
+"HLVR_Commentary_Weapon_Upgrades"					"武器升级"
+"HLVR_Commentary_Comfort_Pacing"					"玩家舒适度和节奏"
+"HLVR_Commentary_Art_Pacing"						"美術與节奏"
+"HLVR_Commentary_Headcrab_Foreshadowing"			"猎头蟹铺垫"
+
+// a2_hideout
+"HLVR_Commentary_Mural"								"半衰期壁画"
+"HLVR_Commentary_Mural_Music"						"音乐主题"
+"HLVR_Commentary_Alyx_Reacts"						"爱莉克斯的反应"
+"HLVR_Commentary_Hideout_Interactivity"				"藏身处互动性"
+"HLVR_Commentary_Hideout_Scene"						"藏身处场景"
+
+// a2_headcrabs_tunnel
+"HLVR_Commentary_ArmoredHeadcrabs1"					"披甲猎头蟹1"
+"HLVR_Commentary_ArmoredHeadcrabs2"					"披甲猎头蟹2"
+"HLVR_Commentary_ArmoredHeadcrabs3"					"披甲猎头蟹3"
+"HLVR_Commentary_ShotgunGate1"						"霰弹枪门槛1"
+"HLVR_Commentary_ShotgunGate2"						"霰弹枪门槛2"
+"HLVR_Commentary_ShotgunDesign1"					"霰弹枪设计 1"
+"HLVR_Commentary_ShotgunDesign2"					"霰弹枪设计 2"
+"HLVR_Commentary_DarknessGate"						"黑暗门槛"
+"HLVR_Commentary_TonerAirlock"						"气闸室电路谜题"
+"HLVR_Commentary_Flashlight1"						"手电筒"
+"HLVR_Commentary_Flashlight2"						"手电筒连接"
+"HLVR_Commentary_Sandwiches"						"三明治"
+
+// a2_drainage
+"HLVR_Commentary_Budgeting"							"预算"
+"HLVR_Commentary_Barnacle_Sounds"					"藤壶怪音效"
+"HLVR_Commentary_Manhack_Introduction"				"飞锯音效"
+"HLVR_Commentary_Exterior_Pacing"					"户外节奏"
+"HLVR_Commentary_Xen_Barrels"						"Xen蔓生"
+"HLVR_Commentary_Volumetric_Lighting"				"体积光照"
+
+// a2_train_yard
+"HLVR_Commentary_Combine_Sighting"					"目击联合军"
+"HLVR_Commentary_Single_Combine"					"第一个联合军士兵"
+"HLVR_Commentary_First_Combine_Skirmish"			"与联合军战斗"
+"HLVR_Commentary_Train_Crash"						"火车撞击"
+"HLVR_Commentary_Eli_Rescue"						"营救伊莱"
+
+// a3_station_street
+"HLVR_Commentary_Melee"								"没有撬棍？"
+"HLVR_Commentary_Vault_View"						"金库景象"
+"HLVR_Commentary_Throwing"							"投掷"
+"HLVR_Commentary_Optional_Toner"					"电路谜题"
+"HLVR_Commentary_Substation_Music"					"变电所音效"
+
+// a3_hotel_lobby_basement
+"HLVR_Commentary_Physics_Sounds"					"物理音效"
+"HLVR_Commentary_Liquid_Bottles"					"瓶中的液体"
+"HLVR_Commentary_Xen_Art"							"Xen艺术"
+"HLVR_Commentary_Xen_Animation"						"Xen植物群动画"
+"HLVR_Commentary_Reviver_Intro"						"回生者介绍"
+"HLVR_Commentary_Reviver_Animation"					"回生者动画"
+"HLVR_Commentary_HLPR"								"游戏预告片"
+
+// a3_hotel_underground_pit
+"HLVR_Commentary_Teleport_Immersion"				"传送和沉浸感"
+"HLVR_Commentary_Reviver_Foreshadowing"				"回生者铺垫"
+"HLVR_Commentary_Reviver_Training"					"回生者训练"
+"HLVR_Commentary_Reviver_Ground_Attack"				"回生者地面攻击"
+"HLVR_Commentary_Elevator_Comfort"					"电梯舒适度"
+"HLVR_Commentary_Substation_Design"					"变电所设计"
+
+// a3_hotel_interior_rooftop
+"HLVR_Commentary_Xen_Response"						"Xen植物群的反应"
+"HLVR_Commentary_Particle_Effects"					"VR中的粒子"
+"HLVR_Commentary_Darkness"							"黑暗"
+"HLVR_Commentary_Ammo_Balancing_1"					"弹药平衡1"
+"HLVR_Commentary_Ammo_Balancing_2"					"弹药平衡2"
+"HLVR_Commentary_Ammo_Balancing_3"					"弹药平衡3"
+"HLVR_Commentary_Double_Reviver"					"对战两个回生者"
+
+// a3_hotel_street
+"HLVR_Commentary_Vort_Energy"						"弗地岗人能量"
+"HLVR_Commentary_Substation_Vort"					"弗地岗人动画"
+"HLVR_Commentary_Prefabs"							"预制件"
+"HLVR_Commentary_Procedural_Displacement"			"程序性位移"
+"HLVR_Commentary_Character_Movement"				"角色移动方式"
+"HLVR_Commentary_Trip_Mines"						"陷阱地雷"
+"HLVR_Commentary_Combat_Pacing"						"战斗节奏"
+"HLVR_Commentary_Xen_World_Building"				"Xen世界的构建"
+"HLVR_Commentary_Mannequin_Headcrab"				"人体模型上的猎头蟹"
+
+// a3_c17_processing_plant
+"HLVR_Commentary_Pistol_Hopper"						"手枪弹斗升级"
+"HLVR_Commentary_Soundscapes"						"音景"
+"HLVR_Commentary_Suppressor_Intro"					"抑制兵介绍"
+"HLVR_Commentary_Environment_Art"					"环境艺术"
+"HLVR_Commentary_AI_In_VR"							"VR游戏中的AI"
+"HLVR_Commentary_Ladders"							"梯子"
+
+// a3_distillery
+"HLVR_Commentary_Jeff"								"杰夫"
+"HLVR_Commentary_Xen_Ears"							"Xen耳朵"
+"HLVR_Commentary_Xen_Clams"							"Xen蛤蜊"
+"HLVR_Commentary_Larry"								"拉里"
+"HLVR_Commentary_Coughing"							"咳嗽"
+"HLVR_Commentary_Single_Controller"					"单控制器模式"
+"HLVR_Commentary_Jeff_Attack"						"杰夫的攻击"
+"HLVR_Commentary_Training_Alcove"					"训练室"
+"HLVR_Commentary_Jeff_Design"						"杰夫的设计"
+"HLVR_Commentary_Freezer_Toner_Puzzle"				"冷冻室电路谜题"
+"HLVR_Commentary_Elevator"							"Elevator"
+"HLVR_Commentary_Cheeky_Headcrab"					"鲁莽猎头蟹的逃亡"
+"HLVR_Commentary_Combine_Forcefields"				"联合军力场"
+"HLVR_Commentary_Sounds"							"音效"
+"HLVR_Commentary_Jeff_Death"						"杰夫之死"
+
+// a4_c17_zoo
+"HLVR_Commentary_Antlion_Combat"					"蚁狮战斗"
+"HLVR_Commentary_Foliage"							"蔓植"
+"HLVR_Commentary_Antlion_Sounds"					"蚁狮音效"
+"HLVR_Commentary_Anim_Interactables"				"动画互动"
+"HLVR_Commentary_Toner_Puzzle1"						"电路谜题"
+"HLVR_Commentary_Toner_Puzzle2"						"关键接头"
+
+// a4_c17_tanker_yard
+"HLVR_Commentary_Tractor_Beam"						"牵引波束"
+"HLVR_Commentary_Collaborator"						"通敌分子"
+"HLVR_Commentary_Scavenger_Hideout"					"拾荒者藏身处"
+"HLVR_Commentary_Spectator_HUD"						"旁观者HUD"
+"HLVR_Commentary_Tanker_Yard_Combat"				"油罐车场战斗"
+
+// a4_c17_water_tower
+"HLVR_Commentary_Chasm_Puzzle"						"深坑谜题"
+"HLVR_Commentary_Combine_Combat"					"联合军战斗"
+"HLVR_Commentary_Vertical_Tower"					"纵向"
+"HLVR_Commentary_Vault_Panel"						"金库面板"
+
+// a4_c17_parking_garage
+"HLVR_Commentary_Strider_Intro"						"三脚机甲介绍"
+"HLVR_Commentary_Lone_Combine"						"单个联合军"
+"HLVR_Commentary_Disabled_Strider"					"受限的三脚机甲"
+"HLVR_Commentary_Lion_And_Mouse"					"狮子和老鼠"
+"HLVR_Commentary_AI_Animation"						"AI和动画"
+"HLVR_Commentary_Elevator"							"乘坐电梯"
+"HLVR_Commentary_Destructible_Cover"				"可摧毁掩体"
+"HLVR_Commentary_Minigun"							"三脚机甲迷你枪"
+"HLVR_Commentary_Doorframe_Bash"					"门框重击"
+"HLVR_Commentary_Strider_Sounds"					"三脚机甲音效"
+"HLVR_Commentary_Gauss_Cannon"						"高斯炮"
+"HLVR_Commentary_Destroy_Strider"					"三脚机甲的毁灭"
+"HLVR_Commentary_Mounted_Gun"						"车载机枪"
+
+// a5_vault
+"HLVR_Commentary_Broken_Vault_Music"				"破损金库的音乐"
+"HLVR_Commentary_Sideways_Music"					"侧室音乐"
+"HLVR_Commentary_Surreal_Vault"						"超现实金库"
+"HLVR_Commentary_Vort_Lightning"					"弗地岗人闪电"
+
+
+// a5_ending
+"HLVR_Commentary_Coetaneous"						"时代间的纠葛"
+"HLVR_Commentary_GMan_Room"							"G-man的房间"
+
+
 
 // Game Tips
 "HLVR_LOADING_SCREEN_TIP_COUNT"				"22"

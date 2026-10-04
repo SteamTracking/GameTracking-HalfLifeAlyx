@@ -279,7 +279,7 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 .CRT$XTZ
 .bss
 .data
-.data$r
+.data$rs
 .edata
 .idata$2
 .idata$3
@@ -290,6 +290,7 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .text$di
 .text$mn
@@ -382,6 +383,7 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 8?windowActivationChange@QWidget@@MEAAX_N@Z
 8?write@QStandardItem@@UEBAXAEAVQDataStream@@@Z
 8?write@QTableWidgetItem@@UEBAXAEAVQDataStream@@@Z
+8x@4
 :help
 :help_ref
 :name_ref
@@ -414,6 +416,7 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 =*?setIconSize@QToolBar@@QEAAXAEBVQSize@@@Z
 ?.?setVisible@QWidget@@UEAAX_N@Z
 ?3?timerEvent@QMenu@@MEAAXPEAVQTimerEvent@@@Z
+??0CThreadMutex@@QEAA@XZ
 ??0QAction@@QEAA@PEAVQObject@@@Z
 ??0QBrush@@QEAA@AEBVQColor@@W4BrushStyle@Qt@@@Z
 ??0QBrush@@QEAA@W4GlobalColor@Qt@@W4BrushStyle@2@@Z
@@ -441,8 +444,10 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 ??0QPen@@QEAA@AEBVQColor@@@Z
 ??0QPixmap@@QEAA@AEBVQSize@@@Z
 ??0QPixmap@@QEAA@XZ
+??0QPolygon@@QEAA@XZ
 ??0QPushButton@@QEAA@AEBVQString@@PEAVQWidget@@@Z
 ??0QRect@@QEAA@AEBVQPoint@@AEBVQSize@@@Z
+??0QRect@@QEAA@HHHH@Z
 ??0QRectF@@QEAA@AEBVQRect@@@Z
 ??0QRegExp@@QEAA@AEBVQString@@W4CaseSensitivity@Qt@@W4PatternSyntax@0@@Z
 ??0QSortFilterProxyModel@@QEAA@PEAVQObject@@@Z
@@ -452,6 +457,7 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 ??0QStandardItemModel@@QEAA@PEAVQObject@@@Z
 ??0QString@@QEAA@AEBV0@@Z
 ??0QString@@QEAA@PEBD@Z
+??0QString@@QEAA@XZ
 ??0QSyntaxHighlighter@@QEAA@PEAVQTextDocument@@@Z
 ??0QTableView@@QEAA@PEAVQWidget@@@Z
 ??0QTableWidget@@QEAA@PEAVQWidget@@@Z
@@ -533,7 +539,8 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 ?Format@CBufferString@@QEAAHPEBDZZ
 ?InputBindSystem
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
+?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LockForRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?MakeAbsolutePath@CBufferString@@QEAAPEBDPEBD0@Z
@@ -547,6 +554,8 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 ?SpinLockForWrite@CThreadSpinRWLock@@AEAAXPEBDHI@Z
 ?StartsWith@CBufferString@@QEAA_NPEBD@Z
 ?Truncated data
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
+?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?UnlockWrite@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?V_SplitString@@YAXPEBD0AEAV?$CUtlVector@PEADV?$CUtlMemory@PEADH@@@@@Z
@@ -633,7 +642,7 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 ?dragMoveEvent@QTextEdit@@MEAAXPEAVQDragMoveEvent@@@Z
 ?dragMoveEvent@QWidget@@MEAAXPEAVQDragMoveEvent@@@Z
 ?drawLines@QPainter@@QEAAXPEBVQLine@@H@Z
-?drawPixmap@QPainter@@QEAAXAEBVQRectF@@AEBVQPixmap@@0@Z
+?drawPixmap@QPainter@@QEAAXHHHHAEBVQPixmap@@@Z
 ?drawPolygon@QPainter@@QEAAXPEBVQPoint@@HW4FillRule@Qt@@@Z
 ?drawRects@QPainter@@QEAAXPEBVQRect@@H@Z
 ?drawText@QPainter@@QEAAXAEBVQPointF@@AEBVQString@@@Z
@@ -885,12 +894,10 @@ $\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
 ?removeGuard@QMetaObject@@SAXPEAPEAVQObject@@@Z
 ?revert@QAbstractItemModel@@UEAAXXZ
 ?scheme@QUrl@@QEBA?AVQString@@XZ
-?self@QCoreApplication@@0PEAV1@EA
 ?setProperty@QObject@@QEAA_NPEBDAEBVQVariant@@@Z
 ?shared_null@QListData@@2UData@1@A
 ?shared_null@QMapData@@2U1@A
 ?shared_null@QString@@0UData@1@A
-?shared_null@QVectorData@@2U1@A
 ?singleShot@QTimer@@SAXHPEAVQObject@@PEBD@Z
 ?size@QRect@@QEBA?AVQSize@@XZ
 ?span@QAbstractItemModel@@UEBA?AVQSize@@AEBVQModelIndex@@@Z
@@ -1062,10 +1069,13 @@ CQTabbedStyle
 CQTextEditSuppressShortcuts
 CSchemaRegistration::RegisterAllModuleData
 CSolveIKChainAnimNode
+CTSListBase: Misaligned list\n
+CTSListBase::CTSListBase
 CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
 CUtlMemoryPoolBase::CUtlMemoryPoolBase
 CUtlRBTree overflow with %u elements!\n
 CUtlRBTree<struct CUtlMap<char const *,struct CQInputBindEditor::BindingContextInfo_t *,int,bool (__cdecl*)(char const * const &,char const * const &)>::Node_t,int,class CUtlMap<char const *,struct CQInputBindEditor::BindingContextInfo_t *,int,bool (__cdecl*)(char const * const &,char const * const &)>::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<char const *,struct CQInputBindEditor::BindingContextInfo_t *,int,bool (__cdecl*)(char const * const &,char const * const &)>::Node_t,int>,int> >::NewNode
+CUtlRBTree<void *,int,bool (__cdecl*)(void * const &,void * const &),class CUtlMemory<struct UtlRBTreeNode_t<void *,int>,int> >::NewNode
 CUtlString::FormatV
 C_INIT_AddVectorToVector
 C_INIT_AgeNoise
@@ -1530,7 +1540,7 @@ QueryPerformanceCounter
 QueuedLoaderVersion001
 RMouse
 RMouseDoubleClick
-RSDS\fzx
+RSDS&
 RecursiveLoadFromBuffer:  got EOF instead of keyname
 RecursiveLoadFromBuffer:  got NULL key
 RecursiveLoadFromBuffer:  got conditional between key and value
@@ -1758,6 +1768,7 @@ Z\v?addStretch@QBoxLayout@@QEAAXH@Z
 \r?qt_metacast@QObject@@UEAAPEAXPEBD@Z
 \t?indexOf@QString@@QEBAHAEAVQRegExp@@H@Z
 \t?installEventFilter@QObject@@QEAAXPEAV1@@Z
+\t?instance@QCoreApplication@@SAPEAV1@XZ
 \v2?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 \v?addItem@QBoxLayout@@UEAAXPEAVQLayoutItem@@@Z
 \v?alphaF@QColor@@QEBANXZ
@@ -1827,6 +1838,7 @@ c:\buildslave\hlvr_rel_win64\build\src\interfaces\interfaces.cpp
 c:\buildslave\hlvr_rel_win64\build\src\kv3lib\kv3format_manager.cpp
 c:\buildslave\hlvr_rel_win64\build\src\mathlib\mathlib.cpp
 c:\buildslave\hlvr_rel_win64\build\src\public\ordered_constructor.h
+c:\buildslave\hlvr_rel_win64\build\src\public\tier0\tslist.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlrbtree.h
 c:\buildslave\hlvr_rel_win64\build\src\qcontrols\qinputbindmanager.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\configvalue.cpp

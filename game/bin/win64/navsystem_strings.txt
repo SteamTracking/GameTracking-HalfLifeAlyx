@@ -17,7 +17,6 @@
 %llu
 %s: string format requested %d chars\n
 &Sgw
-( 8PX
 (Output drawable)
 (null)
 *StO9>T
@@ -29,8 +28,8 @@
 -sse4
 .00cfg
 .?AU?$default_delete@VCNavGenPolyProcessorStageBase@@@std@@
-.?AV<lambda_9bcc9e967b56000e31aa5264a2e0aabd>@@
-.?AV<lambda_b296f7b6bab33061ed9e042365b30fcc>@@
+.?AV<lambda_1>@?1??IslandRemoval@CNavGenPolyProcessor@@QEAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0_NAEBVCNavGenParams@@@Z@
+.?AV<lambda_1>@?BG@??SplitPolysByMarkup@CNavGenPolyProcessor@@QEAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0AEBVCNavGenParams@@_NNNN@Z@
 .?AV?$CBaseAppSystem@VINavSystem@@@@
 .?AV?$CMemberFunctor9@PEAVCNavGenPolyProcessor@@P81@EAAXPEAV?$CUtlVector@VCNavGenConnection@@V?$CUtlMemory@VCNavGenConnection@@H@@@@PEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@HHHNNN_N@ZPEAV2@PEAV3@HHHNNN_NV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CRefCountServiceBase@$00VCRefMT@@@@
@@ -50,49 +49,49 @@
 .?AV?$TRPtrsVector@VTRQuadricEdge@@@@
 .?AV?$TRPtrsVector@VTRQuadricFace@@@@
 .?AV?$TRPtrsVector@VTRQuadricVtx@@@@
-.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
-.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0AEBVCNavGenParams@@@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBV5@@std@@
-.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0AEBVCNavGenParams@@N@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBV5@M@std@@
-.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0AEBVCNavGenParams@@_N@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBV5@_N@std@@
-.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0AEBVCNavGenParams@@_NNNN@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBV5@_NMMM@std@@
-.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0N@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@M@std@@
-.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0NN@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@MM@std@@
-.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0NNNNNH@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@MMMMMH@std@@
-.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0_NAEBVCNavGenParams@@@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@_NAEBV5@@std@@
-.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEBV4@HN@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@HM@std@@
-.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEBV4@NN@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@MM@std@@
-.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEBVCNavGenParams@@@ZQEAV3@AEBU?$_Ph@$00@2@AEBV5@@std@@
-.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEBVCNavGenParams@@PEAV?$CUtlVector@UNavGenRecastDebugStage_t@@V?$CUtlMemory@UNavGenRecastDebugStage_t@@H@@@@@ZQEAV3@AEBU?$_Ph@$00@2@AEBV5@AEAPEAV6@@std@@
-.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@NNN_NN@ZQEAV3@AEBU?$_Ph@$00@2@MMM_NM@std@@
-.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EBAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEBV4@N@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@M@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0AEBVCNavGenParams@@@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBV5@@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0AEBVCNavGenParams@@N@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBV5@M@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0AEBVCNavGenParams@@_N@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBV5@_N@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0AEBVCNavGenParams@@_NNNN@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBV5@_NMMM@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0N@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@M@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0NN@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@MM@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0NNNNNH@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@MMMMMH@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0_NAEBVCNavGenParams@@@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@_NAEBV5@@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEBV4@HN@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@HM@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEBV4@NN@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@MM@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEBVCNavGenParams@@@ZPEAV3@AEBU?$_Ph@$00@2@AEBV5@@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEBVCNavGenParams@@PEAV?$CUtlVector@UNavGenRecastDebugStage_t@@V?$CUtlMemory@UNavGenRecastDebugStage_t@@H@@@@@ZPEAV3@AEBU?$_Ph@$00@2@AEBV5@AEAPEAV6@@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@NNN_NN@ZPEAV3@AEBU?$_Ph@$00@2@MMM_NM@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EBAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEBV4@N@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@M@std@@
 .?AV?$_Func_base@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@@std@@
 .?AV?$_Func_base@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEAV1@@std@@
 .?AV?$_Func_base@XH@std@@
 .?AV?$_Func_base@_NAEBVCNavGenPoly@@@std@@
-.?AV?$_Func_impl@V<lambda_9bcc9e967b56000e31aa5264a2e0aabd>@@V?$allocator@H@std@@XH@std@@
-.?AV?$_Func_impl@V<lambda_b296f7b6bab33061ed9e042365b30fcc>@@V?$allocator@H@std@@_NAEBVCNavGenPoly@@@std@@
-.?AV?$_Func_impl@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@V?$allocator@H@2@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEAV4@@std@@
-.?AV?$_Func_impl@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0AEBVCNavGenParams@@@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBV5@@std@@V?$allocator@H@2@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEAV4@@std@@
-.?AV?$_Func_impl@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0AEBVCNavGenParams@@N@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBV5@M@std@@V?$allocator@H@2@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEAV4@@std@@
-.?AV?$_Func_impl@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0AEBVCNavGenParams@@_N@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBV5@_N@std@@V?$allocator@H@2@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEAV4@@std@@
-.?AV?$_Func_impl@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0AEBVCNavGenParams@@_NNNN@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBV5@_NMMM@std@@V?$allocator@H@2@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEAV4@@std@@
-.?AV?$_Func_impl@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0N@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@M@std@@V?$allocator@H@2@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEAV4@@std@@
-.?AV?$_Func_impl@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0NN@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@MM@std@@V?$allocator@H@2@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEAV4@@std@@
-.?AV?$_Func_impl@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0NNNNNH@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@MMMMMH@std@@V?$allocator@H@2@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEAV4@@std@@
-.?AV?$_Func_impl@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0_NAEBVCNavGenParams@@@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@_NAEBV5@@std@@V?$allocator@H@2@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEAV4@@std@@
-.?AV?$_Func_impl@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEBV4@HN@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@HM@std@@V?$allocator@H@2@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEAV4@@std@@
-.?AV?$_Func_impl@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEBV4@NN@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@MM@std@@V?$allocator@H@2@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEAV4@@std@@
-.?AV?$_Func_impl@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEBVCNavGenParams@@@ZQEAV3@AEBU?$_Ph@$00@2@AEBV5@@std@@V?$allocator@H@2@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@@std@@
-.?AV?$_Func_impl@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEBVCNavGenParams@@PEAV?$CUtlVector@UNavGenRecastDebugStage_t@@V?$CUtlMemory@UNavGenRecastDebugStage_t@@H@@@@@ZQEAV3@AEBU?$_Ph@$00@2@AEBV5@AEAPEAV6@@std@@V?$allocator@H@2@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@@std@@
-.?AV?$_Func_impl@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@NNN_NN@ZQEAV3@AEBU?$_Ph@$00@2@MMM_NM@std@@V?$allocator@H@2@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@@std@@
-.?AV?$_Func_impl@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EBAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEBV4@N@ZQEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@M@std@@V?$allocator@H@2@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEAV4@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??IslandRemoval@CNavGenPolyProcessor@@QEAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0_NAEBVCNavGenParams@@@Z@XH@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?BG@??SplitPolysByMarkup@CNavGenPolyProcessor@@QEAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0AEBVCNavGenParams@@_NNNN@Z@_NAEBVCNavGenPoly@@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEAV3@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0AEBVCNavGenParams@@@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBV5@@std@@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEAV3@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0AEBVCNavGenParams@@N@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBV5@M@std@@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEAV3@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0AEBVCNavGenParams@@_N@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBV5@_N@std@@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEAV3@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0AEBVCNavGenParams@@_NNNN@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBV5@_NMMM@std@@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEAV3@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0N@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@M@std@@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEAV3@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0NN@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@MM@std@@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEAV3@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0NNNNNH@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@MMMMMH@std@@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEAV3@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@0_NAEBVCNavGenParams@@@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@_NAEBV5@@std@@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEAV3@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEBV4@HN@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@HM@std@@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEAV3@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEBV4@NN@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@MM@std@@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEAV3@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEBVCNavGenParams@@@ZPEAV3@AEBU?$_Ph@$00@2@AEBV5@@std@@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEBVCNavGenParams@@PEAV?$CUtlVector@UNavGenRecastDebugStage_t@@V?$CUtlMemory@UNavGenRecastDebugStage_t@@H@@@@@ZPEAV3@AEBU?$_Ph@$00@2@AEBV5@AEAPEAV6@@std@@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EAAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@NNN_NN@ZPEAV3@AEBU?$_Ph@$00@2@MMM_NM@std@@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CNavGenPolyProcessor@@EBAXAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEBV4@N@ZPEAV3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@M@std@@XAEAV?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@AEAV3@@std@@
 .?AV?$_Ref_count@V?$CUtlVector@IV?$CUtlMemory@IH@@@@@std@@
 .?AV?$_Ref_count@V?$CUtlVector@VCNavGenPoly@@V?$CUtlMemory@VCNavGenPoly@@H@@@@@std@@
 .?AV?$_Ref_count@V?$CUtlVector@VVecDouble3@@V?$CUtlMemory@VVecDouble3@@H@@@@@std@@
 .?AV?$_Ref_count@VTRQuadricEdge@@@std@@
 .?AV?$_Ref_count@VTRQuadricFace@@@std@@
 .?AV?$_Ref_count@VTRQuadricVtx@@@std@@
-.?AV?$_Ref_count_del@VCNavGenPolyProcessorStageBase@@U?$default_delete@VCNavGenPolyProcessorStageBase@@@std@@@std@@
+.?AV?$_Ref_count_resource@PEAVCNavGenPolyProcessorStageBase@@U?$default_delete@VCNavGenPolyProcessorStageBase@@@std@@@std@@
 .?AVCDefaultAccessor@@
 .?AVCFunctor@@
 .?AVCFunctorJob@@
@@ -138,9 +137,8 @@
 .bss
 .data
 .data$r
+.data$rs
 .edata
-.gfids$x
-.gfids$y
 .idata$2
 .idata$3
 .idata$4
@@ -150,6 +148,7 @@
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .rtc$IAA
 .rtc$IZZ
@@ -178,6 +177,7 @@
 1#IND
 1#QNAN
 1#SNAN
+1.0e-2f
 1.0f
 1.5f
 10.0f
@@ -189,8 +189,6 @@
 37>k
 3>N;kU
 3>fvw
-5default
-700WP
 88.0f
 8Ccosf
 900.0f
@@ -220,21 +218,20 @@
 >>NAVGEN: stage %02d / %02d: %s, disabled\n
 >cQ6
 >jtm}S
-?1.0e-2f
 ?333333
 ?7zQ6$
 ??0CThreadMutex@@QEAA@PEBD@Z
-??1CThreadMutex@@QEAA@XZ
+??0CThreadMutex@@QEAA@XZ
 ?Concat@CBufferString@@QEAAPEBDPEBD0ZZ
 ?FixSlashes@CBufferString@@QEAAPEBDD@Z
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?Purge@CBufferString@@QEAAXH@Z
 ?SetExtension@CBufferString@@QEAAPEBDPEBD@Z
 ?StartsWith@CBufferString@@QEAA_NPEBD@Z
-?TestBoxHullForClipDir - polyBack is empty\n
 ?UUUUUU
+?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
 ?f`Y4
 ?qBJ
@@ -311,7 +308,9 @@ Animation
 AnimationList
 AnimationSystemUtils_001
 AnimationSystem_001
+AppPolicyGetProcessTerminationMethod
 April
+AreFileApisANSI
 AssetBrowserSystem_001
 AssetPreviewSystem_001
 AssetSystem001
@@ -357,8 +356,9 @@ COrderedConstructor_Create<class COrderedInitShutdownRefWrapper<&void __cdecl Ea
 CParticleSystemDefinition
 CSchemaRegistration::RegisterAllModuleData
 CSolveIKChainAnimNode
+CTSListBase: Misaligned list\n
+CTSListBase::CTSListBase
 CThreadedJob
-CUtlLinkedList overflow! (exhausted index range)\n
 CUtlLinkedList overflow! (exhausted memory allocator)\n
 CUtlLinkedList<class std::shared_ptr<class TRQuadricEdge>,int,0,int,class CUtlMemory<struct UtlLinkedListElem_t<class std::shared_ptr<class TRQuadricEdge>,int>,int> >::AllocInternal
 CUtlLinkedList<class std::shared_ptr<class TRQuadricFace>,int,0,int,class CUtlMemory<struct UtlLinkedListElem_t<class std::shared_ptr<class TRQuadricFace>,int>,int> >::AllocInternal
@@ -367,6 +367,7 @@ CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
 CUtlMemoryPoolBase::CUtlMemoryPoolBase
 CUtlRBTree overflow with %u elements!\n
 CUtlRBTree<class std::shared_ptr<class TRQuadricEdge>,int,bool (__cdecl*)(class std::shared_ptr<class TRQuadricEdge> const &,class std::shared_ptr<class TRQuadricEdge> const &),class CUtlMemory<struct UtlRBTreeNode_t<class std::shared_ptr<class TRQuadricEdge>,int>,int> >::NewNode
+CUtlRBTree<void *,int,bool (__cdecl*)(void * const &,void * const &),class CUtlMemory<struct UtlRBTreeNode_t<void *,int>,int> >::NewNode
 CUtlString::FormatV
 C_INIT_AddVectorToVector
 C_INIT_AgeNoise
@@ -481,7 +482,6 @@ Default
 DeleteCriticalSection
 DotaCardGameClient_001
 DynamicConfigList
-E3d:
 ET5>
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EconItemToolModel_001
@@ -497,8 +497,8 @@ FATAL ERROR: unable to register all schema data: %s\n
 FEMh\f
 February
 FindClose
-FindFirstFileExA
-FindNextFileA
+FindFirstFileExW
+FindNextFileW
 FindOverlaps
 FlattenedSerializersVersion001
 FlsAlloc
@@ -521,9 +521,8 @@ GetCPInfo
 GetCPUInformation
 GetCommandLineA
 GetCommandLineW
-GetConsoleCP
 GetConsoleMode
-GetCurrentPackageId
+GetConsoleOutputCP
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -531,7 +530,7 @@ GetDefaultMiniDumpTypeFlags
 GetEnvironmentStringsW
 GetFileType
 GetLastError
-GetModuleFileNameA
+GetModuleFileNameW
 GetModuleHandleExW
 GetModuleHandleW
 GetOEMCP
@@ -557,7 +556,6 @@ IKRigSimple
 IQuickTime001
 If true, nav areas will be placed flush with the ground when split.
 IkLockLocal
-InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
@@ -706,7 +704,7 @@ PreviewPresetList
 PropertyEditorSystem_001
 QueryPerformanceCounter
 QueuedLoaderVersion001
-RSDSvx.Ly
+RSDS
 RaiseException
 Recast
 Recast: 
@@ -791,6 +789,7 @@ Subtract
 Sunday
 TUUUU
 TerminateProcess
+TestBoxHullForClipDir - polyBack is empty\n
 TestFormatA
 TestFormatB
 TestFormatC
@@ -891,6 +890,7 @@ X/4B
 \tcQr
 \tkE>fvw
 ^<V7w
+_RDATA
 _V_strncpy
 __based(
 __cdecl
@@ -901,11 +901,14 @@ __pascal
 __ptr64
 __restrict
 __stdcall
+__swift_1
+__swift_2
 __thiscall
 __unaligned
 __vectorcall
 _test_conversion_counter
 `RTTI
+`anonymous namespace'
 `copy constructor closure'
 `default constructor closure'
 `dynamic atexit destructor for '
@@ -1000,6 +1003,7 @@ c:\buildslave\hlvr_rel_win64\build\src\mathlib\mathlib.cpp
 c:\buildslave\hlvr_rel_win64\build\src\navlib\nav_gen_recast.cpp
 c:\buildslave\hlvr_rel_win64\build\src\navsystem\Retail\win64\navsystem.pdb
 c:\buildslave\hlvr_rel_win64\build\src\public\ordered_constructor.h
+c:\buildslave\hlvr_rel_win64\build\src\public\tier0\tslist.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utllinkedlist.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlrbtree.h
 c:\buildslave\hlvr_rel_win64\build\src\tier1\configvalue.cpp
@@ -1026,6 +1030,7 @@ d8L2
 damage
 dddd, MMMM dd, yyyy
 debris
+default
 delaunayHull: Removing dangling face %d [%d,%d,%d].
 delay
 delta
@@ -1257,7 +1262,7 @@ modeldoc8
 modeldoc9
 multiplayer_break
 n03>Pu
-n\f"pA3Q
+n\f"pA3Q(
 name
 nan(ind)
 nan(snan)
@@ -1312,6 +1317,8 @@ numsegments
 obwQ4
 operator
 operator "" 
+operator co_await
+operator<=>
 origin_max_delta
 origin_relative
 owM&
@@ -1471,7 +1478,6 @@ vr_carry_type
 vsnap
 vstdlib.dll
 width
-xpxxxx
 yaw_end
 yaw_start
 {YIN?

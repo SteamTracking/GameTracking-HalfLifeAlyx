@@ -1,50 +1,31 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	music.a4_tanker.vault_catch = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
+		volume = 0.7
 		volume_fade_out = 4
 		track = "main"
 		priority = 0
 		restart_time = 48
-		restart_start = 20.400000
+		restart_start = 20.4
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				25.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				25.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				35.000000,
-				0.450000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				35.0, 0.45, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				75.000000,
-				0.650000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				75.0, 0.65, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				105.000000,
-				0.450000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				105.0, 0.45, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 45
@@ -57,7 +38,7 @@
 	music.a4_tanker.antlion_alley_intro = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
+		volume = 0.7
 		track = "main"
 		priority = 1
 		vsnd_files = 
@@ -68,37 +49,27 @@
 	music.a4_tanker.antlion_alley_combat_intro = 
 	{
 		type = "hlvr_start_multi_sequence"
-		use_random_delay = 0.000000
+		use_random_delay = 0.0
 		soundevent_01 = "music.a4_tanker.antlion_alley_combat_intro_child"
-		use_01 = 1.000000
-		wait_01 = 1.000000
+		use_01 = 1.0
+		wait_01 = 1.0
 		soundevent_02 = "music.a4_tanker.antlion_alley_combat_child"
-		use_02 = 1.000000
-		wait_02 = 8.400000
+		use_02 = 1.0
+		wait_02 = 8.4
 	}
 	music.a4_tanker.antlion_alley_combat_intro_child = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.370000
+		volume = 0.37
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				0.600000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 0.6, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				2.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				2.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_files = 
@@ -109,26 +80,14 @@
 	music.a4_tanker.antlion_alley_combat_child = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.750000
-		use_combat_music_convar = 1.000000
+		volume = 0.75
+		use_combat_music_convar = 1.0
 		track = "main"
 		priority = 2
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			40.799999,
-		]
-		sync_bpm = 
-		[
-			100.000000,
-		]
-		sync_bpm_beats = 
-		[
-			2.000000,
-		]
+		start_point = [ 0.0 ]
+		end_point = [ 40.799999 ]
+		sync_bpm = [ 100.0 ]
+		sync_bpm_beats = [ 2.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/c17/a4_tanker_antlion_alley_combat_01.vsnd",
@@ -137,40 +96,25 @@
 	music.a4_tanker.antlion_alley_combat_close = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.220000
-		use_combat_music_convar = 1.000000
-		delay = 8.400000
-		presence_adjust = 100.000000
-		presence_adjust_velocity = 200.000000
+		volume = 0.22
+		use_combat_music_convar = 1.0
+		delay = 8.4
+		presence_adjust = 100.0
+		presence_adjust_velocity = 200.0
 		restart_time = 19.200001
 		presence_map_curve = 
 		[
-			
 			[
-				100.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				100.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				300.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				300.0, 0.5, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				400.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				400.0, 0.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		vsnd_files = 
@@ -181,46 +125,24 @@
 	music.a4_tanker.antlion_alley_combat_wave_end = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
-		use_combat_music_convar = 1.000000
+		volume = 0.7
+		use_combat_music_convar = 1.0
 		track = "main"
 		priority = 3
 		sync_track = "main"
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			19.200001,
-		]
-		sync_bpm = 
-		[
-			100.000000,
-		]
-		sync_bpm_beats = 
-		[
-			2.000000,
-		]
+		start_point = [ 0.0 ]
+		end_point = [ 19.200001 ]
+		sync_bpm = [ 100.0 ]
+		sync_bpm_beats = [ 2.0 ]
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				3.000000,
-				0.400000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				3.0, 0.4, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_files = 
@@ -231,36 +153,24 @@
 	music.a4_tanker.antlion_alley_combat_intro2 = 
 	{
 		type = "hlvr_start_multi_sequence"
-		use_random_delay = 0.000000
+		use_random_delay = 0.0
 		soundevent_01 = "music.a4_tanker.antlion_alley_combat_intro2_child"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "music.a4_tanker.antlion_alley_combat2_child"
-		use_02 = 1.000000
-		wait_02 = 4.800000
+		use_02 = 1.0
+		wait_02 = 4.8
 	}
 	music.a4_tanker.antlion_alley_combat_intro2_child = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.520000
+		volume = 0.52
 		track = "overdub"
 		sync_track = "main"
-		volume_fade_out = 7.000000
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			40.799999,
-		]
-		sync_bpm = 
-		[
-			100.000000,
-		]
-		sync_bpm_beats = 
-		[
-			2.000000,
-		]
+		volume_fade_out = 7.0
+		start_point = [ 0.0 ]
+		end_point = [ 40.799999 ]
+		sync_bpm = [ 100.0 ]
+		sync_bpm_beats = [ 2.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/c17/a4_tanker_antlion_alley_combat_intro2.vsnd",
@@ -269,28 +179,16 @@
 	music.a4_tanker.antlion_alley_combat2_child = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.750000
-		use_combat_music_convar = 1.000000
+		volume = 0.75
+		use_combat_music_convar = 1.0
 		track = "main"
 		priority = 4
 		sync_track = "main"
-		volume_fade_out = 7.000000
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			40.799999,
-		]
-		sync_bpm = 
-		[
-			100.000000,
-		]
-		sync_bpm_beats = 
-		[
-			2.000000,
-		]
+		volume_fade_out = 7.0
+		start_point = [ 0.0 ]
+		end_point = [ 40.799999 ]
+		sync_bpm = [ 100.0 ]
+		sync_bpm_beats = [ 2.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/c17/a4_tanker_antlion_alley_combat_02.vsnd",
@@ -299,26 +197,14 @@
 	music.a4_tanker.antlion_alley_combat_endcap = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
+		volume = 0.7
 		track = "main"
 		priority = 5
 		sync_track = "main"
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			40.799999,
-		]
-		sync_bpm = 
-		[
-			100.000000,
-		]
-		sync_bpm_beats = 
-		[
-			2.000000,
-		]
+		start_point = [ 0.0 ]
+		end_point = [ 40.799999 ]
+		sync_bpm = [ 100.0 ]
+		sync_bpm_beats = [ 2.0 ]
 		vsnd_files = 
 		[
 			"sounds/common/null.vsnd",
@@ -327,53 +213,33 @@
 	music.a4_tanker.antlion_arena_combat_intro = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.400000
-		volume_fade_out = 1.500000
+		volume = 0.4
+		volume_fade_out = 1.5
 		track = "main"
 		priority = 0
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				10.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				10.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				25.000000,
-				0.750000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				25.0, 0.75, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				40.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				40.0, 0.5, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				60.000000,
-				0.750000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				60.0, 0.75, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 25
 		volume_fade_over_time_loop_end = 60
-		restart_start = 14.400000
-		restart_time = 86.400000
+		restart_start = 14.4
+		restart_time = 86.4
 		vsnd_files = 
 		[
 			"sounds/music/places/c17/a4_tanker_arena_intro.vsnd",
@@ -382,86 +248,46 @@
 	music.a4_tanker.antlion_arena_combat = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.500000
-		volume_fade_out = 1.500000
-		use_combat_music_convar = 1.000000
+		volume = 0.5
+		volume_fade_out = 1.5
+		use_combat_music_convar = 1.0
 		track = "main"
 		priority = 1
-		restart_start = 7.200000
+		restart_start = 7.2
 		restart_time = 84
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				7.000000,
-				1.300000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				7.0, 1.3, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				12.000000,
-				1,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				12.0, 1, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				60.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				60.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				80.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				80.0, 0.7, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				100.000000,
-				0.450000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				100.0, 0.45, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				115.000000,
-				0.850000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				115.0, 0.85, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				130.000000,
-				0.350000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				130.0, 0.35, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				150.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				150.0, 0.7, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 80
@@ -474,41 +300,26 @@
 	music.a4_tanker.antlion_arena_combat_close = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.350000
-		use_combat_music_convar = 1.000000
+		volume = 0.35
+		use_combat_music_convar = 1.0
 		track = "overdub"
 		restart_start = 0
-		restart_time = 38.400000
-		presence_adjust = 500.000000
-		presence_adjust_velocity = 150.000000
+		restart_time = 38.4
+		presence_adjust = 500.0
+		presence_adjust_velocity = 150.0
 		presence_map_curve = 
 		[
-			
 			[
-				100.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				100.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				300.000000,
-				0.350000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				300.0, 0.35, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				400.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				400.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_files = 
@@ -519,91 +330,51 @@
 	music.a4_tanker.antlion_arena_combat2 = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.600000
-		use_combat_music_convar = 1.000000
+		volume = 0.6
+		use_combat_music_convar = 1.0
 		volume_fade_out = 9
 		track = "main"
 		priority = 2
 		sync_track = "main"
-		start_point = 2.400000
-		end_point = 81.600000
+		start_point = 2.4
+		end_point = 81.6
 		sync_bpm = 100
-		sync_bpm_beats = 4.000000
-		restart_start = 2.400000
-		restart_time = 81.600000
+		sync_bpm_beats = 4.0
+		restart_start = 2.4
+		restart_time = 81.6
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				3,
-				1.300000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				3, 1.3, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				7.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				7.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				40.000000,
-				0.900000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				40.0, 0.9, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				70.000000,
-				0.800000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				70.0, 0.8, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				90.000000,
-				0.400000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				90.0, 0.4, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				105.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				105.0, 0.7, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				120.000000,
-				0.450000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				120.0, 0.45, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				140.000000,
-				0.800000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				140.0, 0.8, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 70
@@ -616,50 +387,35 @@
 	music.a4_tanker.antlion_arena_combat_close2 = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.500000
-		volume_fade_out = 7.000000
-		use_combat_music_convar = 1.000000
-		presence_adjust = 500.000000
-		presence_adjust_velocity = 140.000000
+		volume = 0.5
+		volume_fade_out = 7.0
+		use_combat_music_convar = 1.0
+		presence_adjust = 500.0
+		presence_adjust_velocity = 140.0
 		presence_map_curve = 
 		[
-			
 			[
-				100.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				100.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				300.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				300.0, 0.5, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				400.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				400.0, 0.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		track = "overdub"
 		priority = 2
 		sync_track = "main"
-		start_point = 2.400000
-		end_point = 81.600000
+		start_point = 2.4
+		end_point = 81.6
 		sync_bpm = 100
-		sync_bpm_beats = 4.000000
-		restart_start = 2.400000
-		restart_time = 81.600000
+		sync_bpm_beats = 4.0
+		restart_start = 2.4
+		restart_time = 81.6
 		vsnd_files = 
 		[
 			"sounds/music/places/c17/a4_tanker_arena_combat_close2.vsnd",
@@ -668,42 +424,27 @@
 	Music.a4_tanker.rumpel_creep = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.250000
-		volume_fade_in = 5.000000
-		volume_fade_out = 7.000000
+		volume = 0.25
+		volume_fade_in = 5.0
+		volume_fade_out = 7.0
 		track = "main"
 		priority = 0
-		restart_time = 57.657000
-		volume_fade_over_time_loop_start = 0.000000
-		volume_fade_over_time_loop_end = 60.000000
+		restart_time = 57.657
+		volume_fade_over_time_loop_start = 0.0
+		volume_fade_over_time_loop_end = 60.0
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				30.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				30.0, 0.7, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				60.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				60.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
 		]
 		vsnd_files = 
@@ -714,62 +455,37 @@
 	music.a4_tanker.xen = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
+		volume = 0.7
 		track = "main"
 		priority = 1
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				10.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				10.0, 0.7, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				20.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				20.0, 1.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				30.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				30.0, 0.7, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				45,
-				0.400000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				45, 0.4, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				60,
-				0.700000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				60, 0.7, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 30
 		volume_fade_over_time_loop_end = 50
 		volume_fade_in = 4
-		volume_fade_out = 7.000000
-		restart_time = 73.846000
+		volume_fade_out = 7.0
+		restart_time = 73.846
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_xen_intro.vsnd",
@@ -778,15 +494,15 @@
 	music.a4_tanker.puffer = 
 	{
 		type = "hlvr_music_3d"
-		volume = 1.100000
+		volume = 1.1
 		volume_falloff_min = 100
 		volume_falloff_max = 200
-		occlusion_scale = 0.500000
+		occlusion_scale = 0.5
 		spread_min = 12
 		spread_max = 12
 		enable_debug_radius = 0
-		volume_fade_out = 7.000000
-		restart_time = 19.384000
+		volume_fade_out = 7.0
+		restart_time = 19.384
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_puffer1.vsnd",
@@ -796,23 +512,18 @@
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "LoudMusic"
-		volume = 1.200000
-		volume_fade_out = 1.500000
-		volume_fade_in = 1.500000
-		volume_falloff_curve_amount = 0.900000
-		volume_falloff_min = 60.000000
-		volume_falloff_max = 450.000000
-		occlusion_scale = 0.400000
-		position = 
-		[
-			2114.000000,
-			-1200.000000,
-			788.000000,
-		]
+		volume = 1.2
+		volume_fade_out = 1.5
+		volume_fade_in = 1.5
+		volume_falloff_curve_amount = 0.9
+		volume_falloff_min = 60.0
+		volume_falloff_max = 450.0
+		occlusion_scale = 0.4
+		position = [ 2114.0, -1200.0, 788.0 ]
 		use_world_position = true
-		use_hrtf = 1.000000
-		enable_debug_radius = 0.000000
-		distance_max_velocity = 100.000000
+		use_hrtf = 1.0
+		enable_debug_radius = 0.0
+		distance_max_velocity = 100.0
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort_01.vsnd",
@@ -821,12 +532,7 @@
 	Music.a4_tanker_vort_01 = 
 	{
 		base = "Music.a4_tanker_vort_base"
-		position = 
-		[
-			4688.000000,
-			5432.000000,
-			216.000000,
-		]
+		position = [ 4688.0, 5432.0, 216.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort_01.vsnd",
@@ -837,12 +543,7 @@
 	Music.a4_tanker_vort_02 = 
 	{
 		base = "Music.a4_tanker_vort_base"
-		position = 
-		[
-			4688.000000,
-			5376.000000,
-			216.000000,
-		]
+		position = [ 4688.0, 5376.0, 216.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort_04.vsnd",
@@ -854,12 +555,7 @@
 	Music.a4_tanker_vort_03 = 
 	{
 		base = "Music.a4_tanker_vort_base"
-		position = 
-		[
-			4688.000000,
-			5320.000000,
-			216.000000,
-		]
+		position = [ 4688.0, 5320.0, 216.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort_08.vsnd",
@@ -871,8 +567,8 @@
 	{
 		type = "hlvr_start_arrangement"
 		arrangement = "a4_tanker_vort_3_lp01_arr"
-		arrangement_volume = 1.000000
+		arrangement_volume = 1.0
 		quantize_type = "reset"
-		bpm = 57.000000
+		bpm = 57.0
 	}
 }

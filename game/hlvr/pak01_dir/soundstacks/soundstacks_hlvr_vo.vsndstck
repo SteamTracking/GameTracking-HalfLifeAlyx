@@ -2269,3 +2269,271 @@
 	}
 }
 
+// hlvr_commentary
+"hlvr_commentary"
+{
+	"_system_properties"
+	{
+		"display_game"		"hlvr"
+	}
+	"public"
+	{
+		"operator"		"util_null"
+		"operator_variables"
+		{
+			"vsnd_duration"
+			{
+				"data_type"		"float"
+				"value"		"2.000000"
+			}
+			"mixgroup"
+			{
+				"data_type"		"string"
+				"value"		"Commentary"
+				"_system_properties"
+				{
+					"display_group"		"advanced"
+				}
+			}
+			"volume"
+			{
+				"data_type"		"float"
+				"value"		"1.000000"
+				"_system_properties"
+				{
+					"display_edit_type"		"field_linear_atten_editor"
+				}
+			}
+			"limiter_on"
+			{
+				"data_type"		"float"
+				"value"		"0"
+				"_system_properties"
+				{
+					"display_group"		"advanced"
+				}
+			}
+			"limiter_event_name"
+			{
+				"data_type"		"string"
+				"value"		"0"
+				"_system_properties"
+				{
+					"display_group"		"advanced"
+				}
+			}
+			"limiter_max"
+			{
+				"data_type"		"float"
+				"value"		"0"
+				"_system_properties"
+				{
+					"display_group"		"advanced"
+				}
+			}
+			"limiter_match_type"
+			{
+				"data_type"		"float"
+				"value"		"0"
+				"_system_properties"
+				{
+					"display_group"		"advanced"
+				}
+			}
+			"limiter_match_entity"
+			{
+				"data_type"		"float"
+				"value"		"0"
+				"_system_properties"
+				{
+					"display_group"		"advanced"
+				}
+			}
+			"limiter_match_event"
+			{
+				"data_type"		"float"
+				"value"		"0"
+				"_system_properties"
+				{
+					"display_group"		"advanced"
+				}
+			}
+			"limiter_match_substring"
+			{
+				"data_type"		"float"
+				"value"		"0"
+				"_system_properties"
+				{
+					"display_group"		"advanced"
+				}
+			}
+			"limiter_stop_oldest"
+			{
+				"data_type"		"bool"
+				"value"		"true"
+				"_system_properties"
+				{
+					"display_group"		"advanced"
+				}
+			}
+			"limiter_match_event_duration"
+			{
+				"data_type"		"float"
+				"value"		"-1.000000"
+				"_system_properties"
+				{
+					"display_group"		"advanced"
+				}
+			}
+			"vsnd_files"
+			{
+				"data_type"		"vsnd"
+				"soundevent_data"		"true"
+				"value"
+				{
+					"value0"		"sounds/common/null.vsnd"
+				}
+			}
+			"should_pause"
+			{
+				"data_type"		"bool"
+				"value"		"true"
+			}
+			"delay"
+			{
+				"data_type"		"float"
+				"value"		"0"
+				"_system_properties"
+				{
+					"display_group"		"advanced"
+				}
+			}
+		}
+	}
+	"soundevent_limit"
+	{
+		"execute_once"		"true"
+		"operator"		"soundevent_limiter"
+		"input_execute"		"@public.limiter_on"
+		"input_max_events"		"@public.limiter_max"
+		"match_event_type"		"-1"
+		"match_entity"		"@public.limiter_match_entity"
+		"match_substring"		"@public.limiter_match_substring"
+		"match_event_name"		"@public.limiter_event_name"
+		"stop_oldest"		"@public.limiter_stop_oldest"
+		"match_duration_type"		"greater_than_or_equal"
+		"match_event_duration"		"@public.limiter_match_event_duration"
+		"match_this_event"		"@public.limiter_match_event"
+	}
+	"globals"
+	{
+		"operator"		"get_system_globals"
+		"input_execute"		"1"
+		"input_listener_index"		"0"
+	}
+	"source_info"
+	{
+		"operator"		"game_get_source_info"
+		"source"		"entity"
+	}
+	"get_event_info"
+	{
+		"operator"		"soundevent_get_info"
+	}
+	"mixer"
+	{
+		"operator"		"soundmixer_get_mixgroup"
+		"mixgroup"		"@public.mixgroup"
+		"input_class_name"		"@source_info.output_entity_classname"
+		"input_is_player"		"false"
+		"input_soundlevel"		"60"
+		"input_event_type"		"-1"
+	}
+	"volume_accumulate"
+	{
+		"operator"		"math_accumulate12_float"
+		"apply"		"mult"
+		"input1"		"1.000000"
+		"input2"		"@mixer.output_volume"
+		"input3"		"@public.volume"
+		"input6"		"@globals.output_snd_gain_convar"
+	}
+	"mixer_trigger"
+	{
+		"operator"		"soundmixer_set_trigger"
+		"input_trigger"		"@volume_accumulate.output"
+		"input_mixgroups"		"@mixer.output_mixgroups"
+	}
+	"reverb_submix_send"
+	{
+		"operator"		"vmix_mixgraph_send"
+		"input_execute"		"1.000000"
+		"input"		"0.000000"
+		"submix_name"		"reverb"
+		"send_type"		"named"
+	}
+	"main_submix_send"
+	{
+		"operator"		"vmix_mixgraph_send"
+		"input_execute"		"0.000000"
+		"input"		"0.000000"
+		"submix_name"		"main"
+		"send_type"		"named"
+	}
+	"facing_submix_send"
+	{
+		"operator"		"vmix_mixgraph_send"
+		"input_execute"		"1"
+		"input"		"0"
+		"send_type"		"facing"
+	}
+	"clean_submix_send"
+	{
+		"operator"		"vmix_mixgraph_send"
+		"input_execute"		"1.000000"
+		"input"		"1.000000"
+		"submix_name"		"clean"
+		"send_type"		"named"
+	}
+	"volume_fan"
+	{
+		"operator"		"util_float_to_speakers"
+		"execute_once"		"false"
+		"input"		"@volume_accumulate.output"
+	}
+	"speakers_limit"
+	{
+		"operator"		"math_speakers"
+		"apply"		"mult"
+		"left_front"		"1.000000"
+		"right_front"		"1.000000"
+		"center"		"0.000000"
+		"lfe"		"0.000000"
+		"left_rear"		"1.000000"
+		"right_rear"		"1.000000"
+		"input2"		"@volume_fan.output"
+	}
+	"get_vsnd"
+	{
+		"execute_once"		"true"
+		"operator"		"opvar_get_vsnd"
+		"check_event_data"		"true"
+		"input_operator_name"		"public"
+		"input_field_name"		"vsnd_files"
+		"input_use_namespace"		"false"
+		"array_selection_type"		"random_exclusive"
+	}
+	"start_vsnd"
+	{
+		"operator"		"vmix_vsnd_start"
+		"input_vsnd"		"@get_vsnd.output"
+		"execute_once"		"false"
+		"input_execute"		"1.000000"
+		"input_start"		"@get_event_info.output_unstopped"
+		"input_speaker_volumes"		"@speakers_limit.output"
+		"input_pitch"		"1.000000"
+		"input_delay"		"@public.delay"
+		"input_should_pause"		"@public.should_pause"
+	}
+}
+

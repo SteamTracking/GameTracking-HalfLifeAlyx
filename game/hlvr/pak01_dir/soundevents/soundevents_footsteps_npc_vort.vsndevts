@@ -1,17 +1,18 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Step_Vort.Base = 
 	{
 		type = "hlvr_footstep_npc"
-		volume = 0.750000
-		walkspeed_max = 0.800000
-		limiter_on = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 1.000000
+		volume = 0.75
+		walkspeed_max = 0.8
+		limiter_on = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 1.0
 		limiter_stop_oldest = false
-		volume_falloff_max = 700.000000
-		distance_max = 701.000000
-		occlusion_scale = 0.700000
+		volume_falloff_max = 700.0
+		distance_max = 701.0
+		occlusion_scale = 0.7
 		mixgroup = "NPC_Footsteps"
 		vsnd_files_step = 
 		[
@@ -134,11 +135,11 @@
 	Step_Vort.Manual_Default = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		volume_falloff_max = 800.000000
-		distance_max = 801.000000
-		occlusion_scale = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		volume_falloff_max = 800.0
+		distance_max = 801.0
+		occlusion_scale = 0.7
+		use_hrtf = 1.0
 		mixgroup = "NPC_Footsteps"
 		vsnd_files = 
 		[
@@ -156,11 +157,11 @@
 	Step_Vort.Scripted_Hideout_Walkwaway = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		volume_falloff_max = 700.000000
-		distance_max = 701.000000
-		occlusion_scale = 0.400000
-		use_hrtf = 1.000000
+		volume = 0.8
+		volume_falloff_max = 700.0
+		distance_max = 701.0
+		occlusion_scale = 0.4
+		use_hrtf = 1.0
 		mixgroup = "NPC_Footsteps"
 		vsnd_files = 
 		[

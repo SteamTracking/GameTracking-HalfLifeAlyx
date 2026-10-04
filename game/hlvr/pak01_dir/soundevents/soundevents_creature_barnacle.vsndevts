@@ -1,23 +1,24 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Barnacle.Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		occlusion_scale = 0.900000
-		occlusion_radius = 80.000000
-		use_hrtf = 1.000000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 800.000000
-		distance_max = 801.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.9
+		occlusion_scale = 0.9
+		occlusion_radius = 80.0
+		use_hrtf = 1.0
+		volume_falloff_min = 200.0
+		volume_falloff_max = 800.0
+		distance_max = 801.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "Barnacles"
 	}
 	Barnacle.Puke = 
 	{
 		base = "Barnacle.Base"
-		volume_falloff_max = 800.000000
-		distance_max = 801.000000
+		volume_falloff_max = 800.0
+		distance_max = 801.0
 		vsnd_files = 
 		[
 			"sounds/creatures/barnacle/puke_01.vsnd",
@@ -33,7 +34,7 @@
 	Barnacle.Idle_Breath_In = 
 	{
 		base = "Barnacle.Base"
-		volume = 0.400000
+		volume = 0.4
 		vsnd_files = 
 		[
 			"sounds/creatures/barnacle/idle_in_01.vsnd",
@@ -51,7 +52,7 @@
 	Barnacle.Idle_Breath_Out = 
 	{
 		base = "Barnacle.Base"
-		volume = 0.400000
+		volume = 0.4
 		vsnd_files = 
 		[
 			"sounds/creatures/barnacle/idle_out_01.vsnd",
@@ -71,15 +72,15 @@
 		type = "hlvr_start_multi_switch"
 		soundevent_01 = "Barnacle.Idle_Croak"
 		soundevent_02 = "Barnacle.Idle_Breath_Subtle"
-		soundevent_split = 0.100000
+		soundevent_split = 0.1
 	}
 	Barnacle.Idle_Croak = 
 	{
 		base = "Barnacle.Base"
-		volume = 0.400000
-		volume_rand_min = -0.200000
-		delay_rand_min = 0.100000
-		delay_rand_max = 0.300000
+		volume = 0.4
+		volume_rand_min = -0.2
+		delay_rand_min = 0.1
+		delay_rand_max = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/barnacle/idle_croak_01.vsnd",
@@ -95,12 +96,12 @@
 	Barnacle.Idle_Breath_Subtle = 
 	{
 		base = "Barnacle.Base"
-		volume = 0.600000
-		volume_rand_min = -0.200000
-		delay_rand_min = 0.000000
-		delay_rand_max = 0.300000
-		volume_falloff_max = 600.000000
-		distance_max = 601.000000
+		volume = 0.6
+		volume_rand_min = -0.2
+		delay_rand_min = 0.0
+		delay_rand_max = 0.3
+		volume_falloff_max = 600.0
+		distance_max = 601.0
 		vsnd_files = 
 		[
 			"sounds/creatures/barnacle/idle_subtle_01.vsnd",
@@ -119,9 +120,9 @@
 	Barnacle.Digest = 
 	{
 		base = "Barnacle.Base"
-		volume_falloff_max = 600.000000
-		distance_max = 601.000000
-		occlusion_radius = 60.000000
+		volume_falloff_max = 600.0
+		distance_max = 601.0
+		occlusion_radius = 60.0
 		vsnd_files = 
 		[
 			"sounds/creatures/barnacle/bite_digest_01.vsnd",
@@ -153,8 +154,8 @@
 	Barnacle.Bite_Player = 
 	{
 		base = "Barnacle.Base"
-		volume = 1.000000
-		use_hrtf = 0.000000
+		volume = 1.0
+		use_hrtf = 0.0
 		vsnd_files = 
 		[
 			"sounds/creatures/barnacle/bite_player.vsnd",
@@ -163,7 +164,7 @@
 	Barnacle.Bite_Attack_A = 
 	{
 		base = "Barnacle.Base"
-		volume = 0.900000
+		volume = 0.9
 		vsnd_files = 
 		[
 			"sounds/creatures/barnacle/bite_attack_a_01.vsnd",
@@ -173,7 +174,7 @@
 	Barnacle.Bite_Attack_B = 
 	{
 		base = "Barnacle.Base"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = 
 		[
 			"sounds/creatures/barnacle/bite_attack_b_01.vsnd",
@@ -183,7 +184,7 @@
 	Barnacle.Pull_Grunt = 
 	{
 		base = "Barnacle.Base"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "Barnacles"
 		vsnd_files = 
 		[
@@ -205,12 +206,12 @@
 	Barnacle.Death_01 = 
 	{
 		base = "Barnacle.Base"
-		volume = 1.000000
-		volume_falloff_max = 2500.000000
-		block_duration = 2.000000
+		volume = 1.0
+		volume_falloff_max = 2500.0
+		block_duration = 2.0
 		block_match_this_event = false
 		block_event_name = "Barnacle.Tongue_Extend"
-		block_distance = 30.000000
+		block_distance = 30.0
 		vsnd_files = 
 		[
 			"sounds/creatures/barnacle/death_one_01.vsnd",
@@ -220,12 +221,12 @@
 	Barnacle.Death_03 = 
 	{
 		base = "Barnacle.Base"
-		volume = 1.000000
-		volume_falloff_max = 2500.000000
-		block_duration = 2.000000
+		volume = 1.0
+		volume_falloff_max = 2500.0
+		block_duration = 2.0
 		block_match_this_event = false
 		block_event_name = "Barnacle.Tongue_Extend"
-		block_distance = 30.000000
+		block_distance = 30.0
 		vsnd_files = 
 		[
 			"sounds/creatures/barnacle/death_three.vsnd",
@@ -234,12 +235,12 @@
 	Barnacle.Death_04 = 
 	{
 		base = "Barnacle.Base"
-		volume = 1.000000
-		volume_falloff_max = 2500.000000
-		block_duration = 2.000000
+		volume = 1.0
+		volume_falloff_max = 2500.0
+		block_duration = 2.0
 		block_match_this_event = false
 		block_event_name = "Barnacle.Tongue_Extend"
-		block_distance = 30.000000
+		block_distance = 30.0
 		vsnd_files = 
 		[
 			"sounds/creatures/barnacle/death_four.vsnd",
@@ -248,12 +249,12 @@
 	Barnacle.Pain = 
 	{
 		base = "Barnacle.Base"
-		delay = 0.100000
-		volume = 1.000000
-		volume_falloff_max = 2500.000000
-		block_duration = 1.000000
+		delay = 0.1
+		volume = 1.0
+		volume_falloff_max = 2500.0
+		block_duration = 1.0
 		block_match_this_event = true
-		block_match_entity = 1.000000
+		block_match_entity = 1.0
 		vsnd_files = 
 		[
 			"sounds/creatures/barnacle/pain_01.vsnd",
@@ -280,7 +281,7 @@
 	Barnacle.Spit_Build = 
 	{
 		base = "Barnacle.Base"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/creatures/barnacle/spit_build_01.vsnd",
@@ -290,7 +291,7 @@
 	Barnacle.Spit_Emit = 
 	{
 		base = "Barnacle.Base"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/creatures/barnacle/spit_emit_01.vsnd",
@@ -300,33 +301,33 @@
 	Barnacle.Drip = 
 	{
 		type = "hlvr_start_multi_sequence"
-		block_stop = 1.000000
-		use_random_delay = 0.000000
-		wait_02 = 0.700000
-		wait_03 = 0.140000
-		wait_04 = 0.210000
+		block_stop = 1.0
+		use_random_delay = 0.0
+		wait_02 = 0.7
+		wait_03 = 0.14
+		wait_04 = 0.21
 		soundevent_01 = "Barnacle.Drip_Child_First"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "Barnacle.Drip_Child_Sequenced"
-		use_02 = 1.000000
+		use_02 = 1.0
 		soundevent_03 = "Barnacle.Drip_Child_Sequenced"
-		use_03 = 1.000000
+		use_03 = 1.0
 		soundevent_04 = "Barnacle.Drip_Child_Sequenced"
-		use_04 = 1.000000
+		use_04 = 1.0
 	}
 	Barnacle.Drip_Child_First = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		volume_rand_min = -0.050000
-		volume_rand_max = 0.050000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		occlusion_scale = 1.000000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 300.000000
-		distance_max = 301.000000
+		volume = 0.6
+		volume_rand_min = -0.05
+		volume_rand_max = 0.05
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		occlusion_scale = 1.0
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 300.0
+		distance_max = 301.0
 		mixgroup = "Barnacles"
 		vsnd_files = 
 		[
@@ -342,18 +343,18 @@
 	Barnacle.Drip_Child_Sequenced = 
 	{
 		type = "hlvr_default_3d"
-		delay_rand_min = 0.000000
-		delay_rand_max = 0.300000
-		volume = 0.500000
-		volume_rand_min = -0.100000
-		volume_rand_max = 0.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		occlusion_scale = 1.000000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 300.000000
-		distance_max = 301.000000
+		delay_rand_min = 0.0
+		delay_rand_max = 0.3
+		volume = 0.5
+		volume_rand_min = -0.1
+		volume_rand_max = 0.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		occlusion_scale = 1.0
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 300.0
+		distance_max = 301.0
 		mixgroup = "Barnacles"
 		vsnd_files = 
 		[
@@ -369,13 +370,13 @@
 	Barnacle.vomit_splash = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		occlusion_scale = 0.850000
-		volume_fade_out = 3.000000
-		use_hrtf = 1.000000
+		volume = 0.6
+		occlusion_scale = 0.85
+		volume_fade_out = 3.0
+		use_hrtf = 1.0
 		mixgroup = "Barnacles"
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = 
 		[
 			"sounds/creatures/barnacle/vomit_splash_01.vsnd",
@@ -386,10 +387,10 @@
 	Barnacle.vomit_splash_drips = 
 	{
 		type = "hlvr_2d_w_falloff"
-		volume = 0.300000
-		fade_out = 3.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 200.000000
+		volume = 0.3
+		fade_out = 3.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 200.0
 		mixgroup = "Barnacles"
 		vsnd_files = 
 		[
@@ -402,16 +403,16 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "Barnacle.Tongue_Extend_Stretch"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "Barnacle.Idle_Breath_Out"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	Barnacle.Tongue_Extend_Stretch = 
 	{
 		base = "Barnacle.Base"
-		volume = 0.400000
-		volume_falloff_max = 600.000000
-		distance_max = 601.000000
+		volume = 0.4
+		volume_falloff_max = 600.0
+		distance_max = 601.0
 		vsnd_files = 
 		[
 			"sounds/creatures/barnacle/tongue_ext_01.vsnd",
@@ -421,7 +422,7 @@
 	Barnacle.Grab = 
 	{
 		base = "Barnacle.Base"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/creatures/barnacle/grab_contact_01.vsnd",
@@ -432,7 +433,7 @@
 	Barnacle.Grab_Reaction = 
 	{
 		base = "Barnacle.Base"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/creatures/barnacle/grab_react_other_01.vsnd",
@@ -444,14 +445,14 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "Barnacle.Grab_Player_Reaction"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "Barnacle.Grab_Player_TongueWrap"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	Barnacle.Grab_Player_Reaction = 
 	{
 		base = "Barnacle.Base"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/creatures/barnacle/grab_react_player_01.vsnd",
@@ -462,7 +463,7 @@
 	Barnacle.Grab_Player_TongueWrap = 
 	{
 		type = "src1_2d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "Player"
 		vsnd_files = 
 		[
@@ -482,89 +483,54 @@
 	Barnacle.IdleClicks = 
 	{
 		type = "BarnacleIdleClick"
-		pitch = 1.000000
-		volume = 2.000000
-		playerVelocity = 0.520000
-		block_duration = 0.000000
-		block_distance = 500.000000
-		retrigger_time = 1.000000
+		pitch = 1.0
+		volume = 2.0
+		playerVelocity = 0.52
+		block_duration = 0.0
+		block_distance = 500.0
+		retrigger_time = 1.0
 		block_matching_events = false
 		block_match_entity = false
-		retrigger_radius = 3000.000000
+		retrigger_radius = 3000.0
 		vsnd_files_track_01 = 
 		[
 			"sounds/creatures/barnacle/idle_click_01.vsnd",
 		]
 		distance_volume_mapping_curve = 
 		[
-			
 			[
-				0.000000,
-				0.930403,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
+				0.0, 0.930403, 0.0, 0.0,
+				2.0, 3.0,
 			],
-			
 			[
-				2394.812744,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
+				2394.812744, 0.0, 0.0, 0.0,
+				2.0, 3.0,
 			],
 		]
 		playerVelocity_retrigger_time_mapping_curve = 
 		[
-			
 			[
-				0.000000,
-				0.996337,
-				-0.994036,
-				-0.994036,
-				2.000000,
-				3.000000,
+				0.0, 0.996337, -0.994036, -0.994036,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				0.000000,
-				-0.866633,
-				-0.866633,
-				2.000000,
-				3.000000,
+				1.0, 0.0, -0.866633, -0.866633,
+				2.0, 3.0,
 			],
 		]
 		distance_pitch_mapping_curve = 
 		[
-			
 			[
-				0.000000,
-				1.400000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
+				0.0, 1.4, 0.0, 0.0,
+				2.0, 3.0,
 			],
-			
 			[
-				1200.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
+				1200.0, 1.0, 0.0, 0.0,
+				2.0, 3.0,
 			],
-			
 			[
-				2213.602295,
-				0.793495,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
+				2213.602295, 0.793495, 0.0, 0.0,
+				2.0, 3.0,
 			],
 		]
 	}

@@ -57,6 +57,12 @@
 "HLVR_MainMenu_LocalAddon"				"Complemento local"
 "HLVR_MainMenu_MissingAddon"			"Faltan los siguientes complementos. Vuelve a suscribirte para cargar este archivo."
 
+"HLVR_MainMenu_OriginalGame"			"Partidas originales"
+"HLVR_MainMenu_AddonGame"				"Partidas con complementos"
+
+"HLVR_MainMenu_OriginalMaps"			"Partida original"
+"HLVR_MainMenu_AddonMaps"				"Mapas de complementos"
+
 "HLVR_MainMenu_AddonUpVote"				"Votos positivos"
 "HLVR_MainMenu_AddonDownVote"			"Votos negativos"
 
@@ -134,6 +140,9 @@
 "HLVR_Options_On"					"Encendido"
 "HLVR_Options_Off"				"Apagado"
 
+"HLVR_Options_Commentary"					"Comentarios de los desarrolladores"
+"HLVR_Options_Commentary_desc"				"Activa los comentarios de los desarrolladores mientras juegas.\n\nADVERTENCIA: Los comentarios contienen ESPÓILERES SIGNIFICATIVOS.\n\nTe recomendamos que primero completes el juego."
+
 "HLVR_Options_Movement_Base"					"Movimiento"
 "HLVR_Options_Movement_Blink"					"Teletransportarse"
 "HLVR_Options_Movement_Shift"					"Desplazarse"
@@ -177,6 +186,9 @@
 
 "HLVR_Options_ContinuousTurn_Speed_Base"		"Velocidad de giro continuo"
 "HLVR_Options_ContinuousTurn_Speed_desc"		"Velocidad angular para el giro continuo."
+
+"HLVR_Options_DLC_Skins"						"Apariencias de la reserva"
+"HLVR_Options_DLC_Skins_desc"					"Permite el uso de las apariencias de armas obtenidas con la reserva de Valve Index."
 
 "HLVR_Options_Subtitles"						"Subtítulos"
 "HLVR_Options_Subtitles_Base"					"Subtítulos"
@@ -530,7 +542,6 @@
 "HLVR_CraftingStation_ResinAmount"					"{i:CurrencyAmount}"
 "HLVR_CraftingStation_SelectObject"					"Seleccionar objeto"
 "HLVR_CraftingStation_SelectedWeapon"				"{s:WeaponName}"
-"HLVR_CraftingStation_SelectUpgrade"				"Selecciona la mejora de {s:WeaponName}"
 "HLVR_CraftingStation_Upgrades"						"Mejoras"
 "HLVR_CraftingStation_Cost"							"Coste"
 "HLVR_CraftingStation_Summary"						"Resumen"
@@ -548,8 +559,6 @@
 "HLVR_CraftingStation_TakeObject"					"Coge el objeto"
 "HLVR_CraftingStation_PrintObject"					"Imprimir objeto"
 "HLVR_CraftingStation_UpgradeOwned"					"En propiedad"
-"HLVR_CraftingStation_SelectedPrint"				"Seleccionado: {s:SelectedPrintObject}"
-"HLVR_CraftingStation_SelectedUpgrade"				"Mejora seleccionada: {s:SelectedUpgrade}"
 "HLVR_CraftingStation_Cancel"						"Cancelar"
 "HLVR_CraftingStation_Back"							"Atrás"
 "HLVR_CraftingStation_SmallPrint"					"Anexo de Protección Civil 19-81572"
@@ -648,6 +657,202 @@
 
 "HLVR_Credits_ContractorsHeader"					"Desarrollo adicional"
 "HLVR_Credits_CastHeader"							"Actores"
+
+
+
+// Commentary Titles
+
+// a1_intro_world
+"HLVR_Commentary_Intro1"							"Bienvenida"
+"HLVR_Commentary_Intro2"							"Introducción"
+"HLVR_Commentary_Citadel_Vista"						"Vista de la Ciudadela"
+"HLVR_Commentary_Greenhouse"						"Invernadero"
+"HLVR_Commentary_Strider"							"Zancudo"
+"HLVR_Commentary_Refuge"							"Refugio"
+"HLVR_Commentary_Olga"								"Olga"
+"HLVR_Commentary_Music"								"Música"
+"HLVR_Commentary_Alley"								"Callejón"
+
+// a1_intro_world_2
+"HLVR_Commentary_Van_Crash"							"Colisión de la furgoneta"
+"HLVR_Commentary_Pacing1"							"Ritmo 1"
+"HLVR_Commentary_Pacing2"							"Ritmo 2"
+"HLVR_Commentary_Pacing3"							"Ritmo 3"
+"HLVR_Commentary_Russell_Typing"					"Russell tecleando"
+"HLVR_Commentary_Russell_Choreo"					"Coreografía de los personajes"
+"HLVR_Commentary_GG_Training_1"						"Aprendiendo a usar los guantes de gravedad 1"
+"HLVR_Commentary_GG_Training_2"						"Aprendiendo a usar los guantes de gravedad 2"
+
+// a2_quarantine_entrance
+"HLVR_Commentary_Resin"								"Resina"
+"HLVR_Commentary_Toner_Intro"						"Conexiones eléctricas"
+"HLVR_Commentary_Lighting"							"Iluminación"
+"HLVR_Commentary_Barnacles"							"Lapas"
+"HLVR_Commentary_Pistol_Training1"					"Recarga de la pistola"
+"HLVR_Commentary_Locker_Hacking"					"Hackeo"
+
+// a2_pistol
+"HLVR_Commentary_Health_Injectors"					"Jeringuillas de salud"
+"HLVR_Commentary_Pistol_Training2"					"Aprendiendo a usar la pistola"
+"HLVR_Commentary_Train_Cars"						"Agacharse"
+"HLVR_Commentary_Breakable_Glass"					"Cristal rompible"
+"HLVR_Commentary_Weapon_Upgrades"					"Mejoras de armas"
+"HLVR_Commentary_Comfort_Pacing"					"Ritmo y comodidad para los jugadores"
+"HLVR_Commentary_Headcrab_Foreshadowing"			"Llegan los cangrejos"
+
+// a2_hideout
+"HLVR_Commentary_Mural"								"Mural de Half-Life"
+"HLVR_Commentary_Mural_Music"						"Motivos musicales"
+"HLVR_Commentary_Alyx_Reacts"						"Reacciones de Alyx"
+"HLVR_Commentary_Hideout_Interactivity"				"Interacción en las guaridas"
+"HLVR_Commentary_Hideout_Scene"						"Escena de la guarida"
+
+// a2_headcrabs_tunnel
+"HLVR_Commentary_ArmoredHeadcrabs1"					"Cangrejos blindados 1"
+"HLVR_Commentary_ArmoredHeadcrabs2"					"Cangrejos blindados 2"
+"HLVR_Commentary_ArmoredHeadcrabs3"					"Cangrejos blindados 3"
+"HLVR_Commentary_ShotgunGate1"						"Obstáculo de escopeta 1"
+"HLVR_Commentary_ShotgunGate2"						"Obstáculo de escopeta 2"
+"HLVR_Commentary_ShotgunDesign1"					"Diseño de la escopeta 1"
+"HLVR_Commentary_ShotgunDesign2"					"Diseño de la escopeta 2"
+"HLVR_Commentary_DarknessGate"						"La oscuridad cómo obstáculo"
+"HLVR_Commentary_TonerAirlock"						"Compartimento estanco"
+"HLVR_Commentary_Flashlight1"						"Linterna"
+"HLVR_Commentary_Flashlight2"						"Mecánica de la linterna"
+"HLVR_Commentary_Sandwiches"						"Sándwiches"
+
+// a2_drainage
+"HLVR_Commentary_Budgeting"							"Dosificación de tiempo"
+"HLVR_Commentary_Barnacle_Sounds"					"Sonidos de las lapas"
+"HLVR_Commentary_Manhack_Introduction"				"Sonidos de las robosierras"
+"HLVR_Commentary_Exterior_Pacing"					"Ritmo exterior"
+"HLVR_Commentary_Xen_Barrels"						"Vegetación de Xen"
+"HLVR_Commentary_Volumetric_Lighting"				"Iluminación volumétrica"
+
+// a2_train_yard
+"HLVR_Commentary_Combine_Sighting"					"Atisbo de la Alianza"
+"HLVR_Commentary_Single_Combine"					"Primera vez con la Alianza"
+"HLVR_Commentary_First_Combine_Skirmish"			"Enfrentamiento con la Alianza"
+"HLVR_Commentary_Train_Crash"						"Colisión del tren"
+"HLVR_Commentary_Eli_Rescue"						"El rescate de Eli"
+
+// a3_station_street
+"HLVR_Commentary_Melee"								"¿Y la palanca?"
+"HLVR_Commentary_Vault_View"						"Vistas de la bóveda"
+"HLVR_Commentary_Throwing"							"Lanzamiento de objetos"
+"HLVR_Commentary_Optional_Toner"					"Conexión eléctrica"
+"HLVR_Commentary_Substation_Music"					"Sonidos de la subestación"
+
+// a3_hotel_lobby_basement
+"HLVR_Commentary_Physics_Sounds"					"Sonidos físicos"
+"HLVR_Commentary_Liquid_Bottles"					"Líquidos en botellas"
+"HLVR_Commentary_Xen_Art"							"Arte de Xen"
+"HLVR_Commentary_Xen_Animation"						"Animación de la flora de Xen"
+"HLVR_Commentary_Reviver_Intro"						"Introducción a los Revividores"
+"HLVR_Commentary_Reviver_Animation"					"Animación de los Revividores"
+"HLVR_Commentary_HLPR"								"Tráiler del juego"
+
+// a3_hotel_underground_pit
+"HLVR_Commentary_Teleport_Immersion"				"Teletransporte e inmersión"
+"HLVR_Commentary_Reviver_Foreshadowing"				"Llegan los Revividores"
+"HLVR_Commentary_Reviver_Training"					"Preparación para los Revividores"
+"HLVR_Commentary_Reviver_Ground_Attack"				"Ataque terrestre de los Revividores"
+"HLVR_Commentary_Elevator_Comfort"					"Comodidad en el ascensor"
+"HLVR_Commentary_Substation_Design"					"Diseño de la subestación"
+
+// a3_hotel_interior_rooftop
+"HLVR_Commentary_Xen_Response"						"Respuesta de la flora de Xen"
+"HLVR_Commentary_Particle_Effects"					"Partículas en realidad virtual"
+"HLVR_Commentary_Darkness"							"Oscuridad"
+"HLVR_Commentary_Ammo_Balancing_1"					"Equilibrio de munición 1"
+"HLVR_Commentary_Ammo_Balancing_2"					"Equilibrio de munición 2"
+"HLVR_Commentary_Ammo_Balancing_3"					"Equilibrio de munición 3"
+"HLVR_Commentary_Double_Reviver"					"Lucha con dos Revividores"
+
+// a3_hotel_street
+"HLVR_Commentary_Vort_Energy"						"Energía de vortigaunt"
+"HLVR_Commentary_Substation_Vort"					"Animación de los vortigaunts"
+"HLVR_Commentary_Prefabs"							"Prefabricados"
+"HLVR_Commentary_Procedural_Displacement"			"Desplazamiento procedimental"
+"HLVR_Commentary_Character_Movement"				"Movimiento de personajes"
+"HLVR_Commentary_Trip_Mines"						"Minas de pared"
+"HLVR_Commentary_Combat_Pacing"						"Ritmo de combate"
+"HLVR_Commentary_Xen_World_Building"				"Creación del mundo de Xen"
+"HLVR_Commentary_Mannequin_Headcrab"				"El cangrejo y el maniquí"
+
+// a3_c17_processing_plant
+"HLVR_Commentary_Pistol_Hopper"						"Mejora de la tolva de pistola"
+"HLVR_Commentary_Soundscapes"						"Paisajes acústicos"
+"HLVR_Commentary_Suppressor_Intro"					"Introducción al supresor"
+"HLVR_Commentary_Environment_Art"					"Diseño del entorno"
+"HLVR_Commentary_AI_In_VR"							"IA en realidad virtual"
+"HLVR_Commentary_Ladders"							"Escaleras"
+
+// a3_distillery
+"HLVR_Commentary_Jeff"								"Jeff"
+"HLVR_Commentary_Xen_Ears"							"Orejas de Xen"
+"HLVR_Commentary_Xen_Clams"							"Plantas carnívoras de Xen"
+"HLVR_Commentary_Larry"								"Larry"
+"HLVR_Commentary_Coughing"							"El poder de la tos"
+"HLVR_Commentary_Single_Controller"					"Modo de mando único"
+"HLVR_Commentary_Jeff_Attack"						"Ataque de Jeff"
+"HLVR_Commentary_Training_Alcove"					"Cada rincón importa"
+"HLVR_Commentary_Jeff_Design"						"Diseño de Jeff"
+"HLVR_Commentary_Freezer_Toner_Puzzle"				"Rompecabezas del congelador"
+"HLVR_Commentary_Elevator"							"Elevator"
+"HLVR_Commentary_Cheeky_Headcrab"					"La huida del cangrejo travieso"
+"HLVR_Commentary_Combine_Forcefields"				"Campos de fuerza de la Alianza"
+"HLVR_Commentary_Sounds"							"Sonidos"
+"HLVR_Commentary_Jeff_Death"						"Muerte de Jeff"
+
+// a4_c17_zoo
+"HLVR_Commentary_Antlion_Combat"					"Combate contra las hormigas león"
+"HLVR_Commentary_Foliage"							"Vegetación"
+"HLVR_Commentary_Antlion_Sounds"					"Sonidos de las hormigas león"
+"HLVR_Commentary_Anim_Interactables"				"Animaciones interactivas"
+"HLVR_Commentary_Toner_Puzzle1"						"Conexión eléctrica"
+"HLVR_Commentary_Toner_Puzzle2"						"Intersección crítica"
+
+// a4_c17_tanker_yard
+"HLVR_Commentary_Tractor_Beam"						"Rayo tractor"
+"HLVR_Commentary_Collaborator"						"Colaboraciones"
+"HLVR_Commentary_Scavenger_Hideout"					"Escondite de los carroñeros"
+"HLVR_Commentary_Spectator_HUD"						"Interfaz de espectador"
+"HLVR_Commentary_Tanker_Yard_Combat"				"Combate con vagones cisterna"
+
+// a4_c17_water_tower
+"HLVR_Commentary_Chasm_Puzzle"						"Rompecabezas en el abismo"
+"HLVR_Commentary_Combine_Combat"					"Combate contra la Alianza"
+"HLVR_Commentary_Vertical_Tower"					"Verticalidad"
+"HLVR_Commentary_Vault_Panel"						"Panel de la bóveda"
+
+// a4_c17_parking_garage
+"HLVR_Commentary_Strider_Intro"						"Introducción al zancudo"
+"HLVR_Commentary_Lone_Combine"						"La solitaria Alianza"
+"HLVR_Commentary_Disabled_Strider"					"Zancudo desactivado"
+"HLVR_Commentary_Lion_And_Mouse"					"El león y el ratón"
+"HLVR_Commentary_AI_Animation"						"IA y animación"
+"HLVR_Commentary_Elevator"							"Viaje en ascensor"
+"HLVR_Commentary_Destructible_Cover"				"Protección destruible"
+"HLVR_Commentary_Minigun"							"Ametralladora de zancudo"
+"HLVR_Commentary_Doorframe_Bash"					"Destrozando el marco de la puerta"
+"HLVR_Commentary_Strider_Sounds"					"Sonidos del zancudo"
+"HLVR_Commentary_Gauss_Cannon"						"Cañón de Gauss"
+"HLVR_Commentary_Destroy_Strider"					"Destrucción del zancudo"
+"HLVR_Commentary_Mounted_Gun"						"Lanzagranadas fijo"
+
+// a5_vault
+"HLVR_Commentary_Broken_Vault_Music"				"Distorsión musical en la bóveda"
+"HLVR_Commentary_Sideways_Music"					"Música ladeada"
+"HLVR_Commentary_Surreal_Vault"						"Surrealismo en la bóveda"
+"HLVR_Commentary_Vort_Lightning"					"Rayo de vortigaunt"
+
+
+// a5_ending
+"HLVR_Commentary_Coetaneous"						"Entrelazamiento contemporáneo"
+"HLVR_Commentary_GMan_Room"							"La sala de G-man"
+
+
 
 // Game Tips
 "HLVR_LOADING_SCREEN_TIP_COUNT"				"22"

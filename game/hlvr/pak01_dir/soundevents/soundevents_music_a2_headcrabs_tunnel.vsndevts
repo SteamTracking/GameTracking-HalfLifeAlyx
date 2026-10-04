@@ -1,11 +1,12 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Music.a2_tunnel_headcrabs = 
 	{
 		type = "hlvr_soundevent_sequence"
-		wait_rand_min = 15.000000
-		wait_rand_max = 25.000000
+		wait_rand_min = 15.0
+		wait_rand_max = 25.0
 		sequence_type = "index"
-		use_volume_atten = 1.000000
+		use_volume_atten = 1.0
 		soundevents = 
 		[
 			"Music.a2_tunnel_headcrabs_child",
@@ -18,7 +19,7 @@
 		type = "hlvr_music_2d"
 		track = "main"
 		priority = 0
-		volume = 0.600000
+		volume = 0.6
 		volume_fade_in = 5
 		volume_fade_out = 2
 		vsnd_files = 
@@ -31,7 +32,7 @@
 		type = "hlvr_music_2d"
 		track = "main"
 		priority = 0
-		volume = 0.600000
+		volume = 0.6
 		volume_fade_in = 5
 		volume_fade_out = 2
 		vsnd_files = 
@@ -44,7 +45,7 @@
 		type = "hlvr_music_2d"
 		track = "main"
 		priority = 0
-		volume = 0.600000
+		volume = 0.6
 		volume_fade_in = 5
 		volume_fade_out = 2
 		vsnd_files = 
@@ -55,11 +56,11 @@
 	Music.a2_tunnel_shotgun_zombie_intro = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.350000
+		volume = 0.35
 		volume_fade_out = 4
 		track = "main"
 		priority = 1
-		restart_time = 123.428000
+		restart_time = 123.428
 		vsnd_files = 
 		[
 			"sounds/music/places/headcrabs_tunnel/a2_tunnels_shotgun_intro.vsnd",
@@ -68,11 +69,11 @@
 	Music.a2_tunnel_shotgun_first_bash = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.400000
+		volume = 0.4
 		volume_fade_out = 4
 		track = "main"
 		priority = 2
-		restart_time = 123.428000
+		restart_time = 123.428
 		vsnd_files = 
 		[
 			"sounds/diagnostics/beep.vsnd",
@@ -81,11 +82,11 @@
 	Music.a2_tunnel_shotgun_winch = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.400000
+		volume = 0.4
 		volume_fade_out = 4
 		track = "main"
 		priority = 3
-		restart_time = 123.428000
+		restart_time = 123.428
 		vsnd_files = 
 		[
 			"sounds/music/places/headcrabs_tunnel/a2_tunnels_shotgun_winch.vsnd",
@@ -94,11 +95,11 @@
 	Music.a2_tunnel_shotgun_bash = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.550000
+		volume = 0.55
 		volume_fade_out = 4
 		track = "main"
 		priority = 4
-		restart_time = 123.428000
+		restart_time = 123.428
 		vsnd_files = 
 		[
 			"sounds/music/places/headcrabs_tunnel/a2_tunnels_shotgun_bash.vsnd",
@@ -107,11 +108,11 @@
 	Music.a2_tunnel_shotgun_zombies = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.850000
+		volume = 0.85
 		volume_fade_out = 7
 		track = "main"
 		priority = 5
-		restart_time = 54.857000
+		restart_time = 54.857
 		vsnd_files = 
 		[
 			"sounds/music/places/headcrabs_tunnel/a2_tunnels_shotgun_xombies.vsnd",
@@ -122,57 +123,32 @@
 		type = "hlvr_music_2d"
 		track = "main"
 		priority = 6
-		volume = 0.400000
+		volume = 0.4
 		volume_fade_in = 5
 		volume_fade_out = 2
-		restart_time = 68.571000
+		restart_time = 68.571
 		stop_at_time = 300
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				60.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				60.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				180.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				180.0, 0.5, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				240.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				240.0, 0.5, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				300.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				300.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_files = 
@@ -183,7 +159,7 @@
 	Music.a2_tunnel_flashlight_intro = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.600000
+		volume = 0.6
 		volume_fade_out = 2
 		track = "main"
 		priority = 7
@@ -199,44 +175,29 @@
 	Music.a2_tunnel_flashlight = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.650000
+		volume = 0.65
 		volume_fade_out = 17
-		restart_time = 123.428000
+		restart_time = 123.428
 		track = "main"
 		priority = 8
 		sync_track = "main"
 		start_point = 0
-		end_point = 123.428000
+		end_point = 123.428
 		sync_bpm = 70
 		sync_bpm_beats = 1
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				180.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				180.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				240.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				240.0, 0.5, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_files = 
@@ -251,43 +212,28 @@
 		sync_track = "main"
 		priority = 9
 		start_point = 0
-		end_point = 123.428000
+		end_point = 123.428
 		sync_bpm = 70
 		sync_bpm_beats = 2
-		volume = 0.400000
+		volume = 0.4
 		volume_fade_in = 5
 		volume_fade_out = 2
-		restart_time = 68.571000
+		restart_time = 68.571
 		volume_fade_over_time_loop_start = 0
 		volume_fade_over_time_loop_end = 60
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 0.5, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				30.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				30.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				60,
-				0.500000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				60, 0.5, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_files = 
@@ -298,13 +244,13 @@
 	Music.a2_tunnel_headcrab_hallways_dark = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.450000
+		volume = 0.45
 		volume_fade_out = 13
 		track = "main"
 		priority = 10
-		restart_time = 68.571000
+		restart_time = 68.571
 		start_point = 0
-		end_point = 68.571000
+		end_point = 68.571
 		sync_bpm = 70
 		sync_bpm_beats = 1
 		stop_at_time = 45
@@ -316,59 +262,34 @@
 	Music.a2_tunnel_maze = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.650000
+		volume = 0.65
 		volume_fade_out = 12
-		restart_time = 274.285000
+		restart_time = 274.285
 		track = "main"
 		priority = 11
 		volume_fade_over_time_loop_start = 60
 		volume_fade_over_time_loop_end = 120
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				0.750000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 0.75, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				30.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				30.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				60,
-				0.600000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				60, 0.6, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				90.000000,
-				0.850000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				90.0, 0.85, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				120.000000,
-				0.600000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				120.0, 0.6, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_files = 
@@ -384,29 +305,19 @@
 		presence_adjust_velocity = 65
 		presence_map_curve = 
 		[
-			
 			[
-				100.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				100.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				250.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				250.0, 0.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
-		volume = 0.370000
+		volume = 0.37
 		volume_fade_in = 2
 		volume_fade_out = 6
-		restart_time = 38.400000
+		restart_time = 38.4
 		vsnd_files = 
 		[
 			"sounds/music/places/trains/a2_pistol_drums4.vsnd",

@@ -1,8 +1,9 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Inventory.Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -12,7 +13,7 @@
 	Inventory.Close = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -49,10 +50,10 @@
 	Inventory.ClipGrab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 500.000000
+		volume = 1.0
+		use_hrtf = 1.0
+		volume_falloff_min = 100.0
+		volume_falloff_max = 500.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -71,10 +72,10 @@
 	Inventory.DepositItem = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 500.000000
+		volume = 0.7
+		use_hrtf = 1.0
+		volume_falloff_min = 100.0
+		volume_falloff_max = 500.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -84,8 +85,8 @@
 	Inventory.GrabItem = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.350000
-		delay = 0.050000
+		volume = 0.35
+		delay = 0.05
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -96,7 +97,7 @@
 	Inventory.BackpackGrabItemResin = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
+		volume = 0.7
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -106,8 +107,8 @@
 	Inventory.ResinGloveHoverStart = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.100000
-		use_hrtf = 1.000000
+		volume = 0.1
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -117,8 +118,8 @@
 	Inventory.ResinGloveHoverStop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.150000
-		use_hrtf = 1.000000
+		volume = 0.15
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -128,10 +129,10 @@
 	Inventory.ResinGloveHoverLp = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.150000
-		volume_fade_in = 0.650000
-		volume_fade_out = 0.400000
-		use_hrtf = 1.000000
+		volume = 0.15
+		volume_fade_in = 0.65
+		volume_fade_out = 0.4
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -144,9 +145,9 @@
 		soundevent_start_name = "Inventory.ResinGloveHoverStart"
 		soundevent_loop_name = "Inventory.ResinGloveHoverLp"
 		soundevent_stop_name = "Inventory.ResinGloveHoverStop"
-		use_start = 1.000000
-		use_loop = 1.000000
-		use_stop = 1.000000
+		use_start = 1.0
+		use_loop = 1.0
+		use_stop = 1.0
 	}
 	Inventory.StripWeapons = 
 	{
@@ -160,14 +161,14 @@
 	Inventory.WristPocketGrabItem = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		spread_min = 6.000000
-		spread_max = 24.000000
-		volume_falloff_min = 5.000000
-		volume_falloff_max = 25.000000
-		use_facing_vol_attenuation = 1.000000
-		facing_scale_min = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.9
+		spread_min = 6.0
+		spread_max = 24.0
+		volume_falloff_min = 5.0
+		volume_falloff_max = 25.0
+		use_facing_vol_attenuation = 1.0
+		facing_scale_min = 0.5
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -177,14 +178,14 @@
 	Inventory.WristPocketDepositItem = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		spread_min = 6.000000
-		spread_max = 24.000000
-		volume_falloff_min = 5.000000
-		volume_falloff_max = 25.000000
-		use_facing_vol_attenuation = 1.000000
-		facing_scale_min = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.8
+		spread_min = 6.0
+		spread_max = 24.0
+		volume_falloff_min = 5.0
+		volume_falloff_max = 25.0
+		use_facing_vol_attenuation = 1.0
+		facing_scale_min = 0.5
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -194,22 +195,22 @@
 	Inventory.WristPocketPopOpen = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		spread_min = 6.000000
-		spread_max = 24.000000
-		volume_falloff_min = 5.000000
-		volume_falloff_max = 25.000000
-		use_facing_vol_attenuation = 1.000000
-		facing_scale_min = 0.300000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
+		volume = 0.5
+		spread_min = 6.0
+		spread_max = 24.0
+		volume_falloff_min = 5.0
+		volume_falloff_max = 25.0
+		use_facing_vol_attenuation = 1.0
+		facing_scale_min = 0.3
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
+		limiter_on = 1.0
+		limiter_max = 0.0
 		limiter_event_name = "Inventory.WristPocketPop"
-		limiter_match_substring = 1.000000
+		limiter_match_substring = 1.0
 		block_event_name = "Inventory.WristPocketPopOpen"
-		block_match_entity = 1.000000
-		block_duration = 1.000000
+		block_match_entity = 1.0
+		block_duration = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -219,7 +220,7 @@
 	Inventory.WristPocketPopClosed = 
 	{
 		base = "Inventory.WristPocketPopOpen"
-		volume = 0.350000
+		volume = 0.35
 		block_event_name = "Inventory.WristPocketPopClosed"
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
@@ -230,24 +231,24 @@
 	Inventory.WristPocketOpenLp = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.250000
-		spread_min = 6.000000
-		spread_max = 24.000000
-		volume_falloff_min = 5.000000
-		volume_falloff_max = 25.000000
-		use_facing_vol_attenuation = 1.000000
-		facing_scale_min = 0.100000
-		volume_fade_in = 0.500000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
-		fade_over_time_x1 = 0.000000
-		fade_over_time_y1 = 1.000000
-		fade_over_time_x2 = 2.000000
-		fade_over_time_y2 = 1.000000
-		fade_over_time_x3 = 4.000000
-		fade_over_time_y3 = 0.350000
-		fade_over_time_x4 = 4.000000
-		fade_over_time_y4 = 0.350000
+		volume = 0.25
+		spread_min = 6.0
+		spread_max = 24.0
+		volume_falloff_min = 5.0
+		volume_falloff_max = 25.0
+		use_facing_vol_attenuation = 1.0
+		facing_scale_min = 0.1
+		volume_fade_in = 0.5
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
+		fade_over_time_x1 = 0.0
+		fade_over_time_y1 = 1.0
+		fade_over_time_x2 = 2.0
+		fade_over_time_y2 = 1.0
+		fade_over_time_x3 = 4.0
+		fade_over_time_y3 = 0.35
+		fade_over_time_x4 = 4.0
+		fade_over_time_y4 = 0.35
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -257,15 +258,15 @@
 	Inventory.FlashlightAttach = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		spread_min = 20.000000
-		spread_max = 150.000000
-		volume_falloff_min = 24.000000
-		volume_falloff_max = 100.000000
-		use_facing_vol_attenuation = 1.000000
-		facing_scale_min = 0.300000
-		volume_fade_out = 0.000000
-		use_hrtf = 1.000000
+		volume = 0.8
+		spread_min = 20.0
+		spread_max = 150.0
+		volume_falloff_min = 24.0
+		volume_falloff_max = 100.0
+		use_facing_vol_attenuation = 1.0
+		facing_scale_min = 0.3
+		volume_fade_out = 0.0
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -275,7 +276,7 @@
 	Grabbity.Acquire = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -285,10 +286,10 @@
 	Grabbity.Ready = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.050000
-		use_hrtf = 1.000000
-		volume_falloff_min = 15.000000
-		volume_falloff_max = 105.000000
+		volume = 0.05
+		use_hrtf = 1.0
+		volume_falloff_min = 15.0
+		volume_falloff_max = 105.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -298,7 +299,7 @@
 	Grabbity.Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
+		volume = 0.3
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -313,11 +314,11 @@
 	Grabbity.Charge = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.418000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 0.750000
-		use_hrtf = 1.000000
+		volume = 0.418
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 0.75
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -327,8 +328,8 @@
 	Grabbity.PowerDown = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -338,8 +339,8 @@
 	Grabbity.PowerUp = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -349,29 +350,29 @@
 	Grabbity.BeamLp = 
 	{
 		type = "hlvr_fadetime_resonant_lpf_default_3d_hrtf"
-		volume = 0.220000
-		volume_fade_in = 0.500000
-		volume_fade_out = 0.350000
-		remap_fadetime_to_freq_x1 = 0.000000
-		remap_fadetime_to_freq_y1 = 0.150000
-		remap_fadetime_to_freq_x2 = 0.700000
-		remap_fadetime_to_freq_y2 = 0.250000
-		remap_fadetime_to_freq_x3 = 1.000000
-		remap_fadetime_to_freq_y3 = 0.550000
-		remap_fadetime_to_freq_x4 = 1.000000
-		remap_fadetime_to_freq_y4 = 0.550000
-		fade_over_time_x1 = 0.000000
-		fade_over_time_y1 = 1.000000
-		fade_over_time_x2 = 0.000000
-		fade_over_time_y2 = 1.000000
-		fade_over_time_x3 = 4.500000
-		fade_over_time_y3 = 0.650000
-		fade_over_time_x4 = 10.000000
-		fade_over_time_y4 = 0.500000
-		enable_debug_radius = 0.000000
+		volume = 0.22
+		volume_fade_in = 0.5
+		volume_fade_out = 0.35
+		remap_fadetime_to_freq_x1 = 0.0
+		remap_fadetime_to_freq_y1 = 0.15
+		remap_fadetime_to_freq_x2 = 0.7
+		remap_fadetime_to_freq_y2 = 0.25
+		remap_fadetime_to_freq_x3 = 1.0
+		remap_fadetime_to_freq_y3 = 0.55
+		remap_fadetime_to_freq_x4 = 1.0
+		remap_fadetime_to_freq_y4 = 0.55
+		fade_over_time_x1 = 0.0
+		fade_over_time_y1 = 1.0
+		fade_over_time_x2 = 0.0
+		fade_over_time_y2 = 1.0
+		fade_over_time_x3 = 4.5
+		fade_over_time_y3 = 0.65
+		fade_over_time_x4 = 10.0
+		fade_over_time_y4 = 0.5
+		enable_debug_radius = 0.0
 		soundname_string = "Grabbity.BeamLp"
-		use_facing_vol_attenuation = 1.000000
-		facing_scale_min = 0.300000
+		use_facing_vol_attenuation = 1.0
+		facing_scale_min = 0.3
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -381,21 +382,21 @@
 	Grabbity.BeamEnd = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
-		volume_fade_out = 2.000000
-		volume_falloff_min = 75.000000
-		volume_falloff_max = 205.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		use_hrtf = 1.000000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
+		volume = 0.2
+		volume_fade_out = 2.0
+		volume_falloff_min = 75.0
+		volume_falloff_max = 205.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		use_hrtf = 1.0
+		limiter_on = 1.0
+		limiter_max = 0.0
 		limiter_event_name = "Grabbity.TeslaFingers"
-		limiter_match_substring = 1.000000
-		enable_debug_radius = 0.000000
+		limiter_match_substring = 1.0
+		enable_debug_radius = 0.0
 		soundname_string = "Grabbity.BeamEnd"
-		use_facing_vol_attenuation = 1.000000
-		facing_scale_min = 0.350000
+		use_facing_vol_attenuation = 1.0
+		facing_scale_min = 0.35
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -406,42 +407,42 @@
 	{
 		type = "hlvr_ambient_rand_particle_control_point"
 		random_soundevent_01_name = "Grabbity.BeamMovementChild"
-		random_soundevent_01_timer_min = 0.050000
-		random_soundevent_01_timer_max = 0.350000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 0.05
+		random_soundevent_01_timer_max = 0.35
+		use_initial_random_offset = 1.0
 	}
 	Grabbity.BeamMovementChild = 
 	{
 		type = "hlvr_ambient_rand_child_random_anim_time"
-		volume = 0.200000
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.050000
-		volume_falloff_min = 15.000000
-		volume_falloff_max = 205.000000
-		pitch_rand_min = 0.000000
-		pitch_rand_max = 0.250000
-		animation_time_min = 0.500000
-		animation_time_max = 1.750000
-		volume_fade_in = 0.250000
-		volume_fade_out = 0.500000
-		use_calculated_stop_at_time = 1.000000
-		position_source = 2.000000
-		animated_source = 0.000000
-		animated_target = 2.000000
+		volume = 0.2
+		volume_rand_min = -0.02
+		volume_rand_max = 0.05
+		volume_falloff_min = 15.0
+		volume_falloff_max = 205.0
+		pitch_rand_min = 0.0
+		pitch_rand_max = 0.25
+		animation_time_min = 0.5
+		animation_time_max = 1.75
+		volume_fade_in = 0.25
+		volume_fade_out = 0.5
+		use_calculated_stop_at_time = 1.0
+		position_source = 2.0
+		animated_source = 0.0
+		animated_target = 2.0
 		animation_type = "lerp"
-		use_doppler = 1.000000
-		doppler_factor = 2.500000
+		use_doppler = 1.0
+		doppler_factor = 2.5
 		mixgroup = "PlayerInventory"
-		use_hrtf = 1.000000
-		limiter_on = 1.000000
-		limiter_max = 6.000000
+		use_hrtf = 1.0
+		limiter_on = 1.0
+		limiter_max = 6.0
 		limiter_event_name = "Grabbity.BeamMovementChild"
-		limiter_match_substring = 0.000000
+		limiter_match_substring = 0.0
 		limiter_stop_oldest = true
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		soundname_string = "Grabbity.BeamMovement"
-		use_facing_vol_attenuation = 1.000000
-		facing_scale_min = 0.350000
+		use_facing_vol_attenuation = 1.0
+		facing_scale_min = 0.35
 		vsnd_files = 
 		[
 			"sounds/player/grabbity/grabbity_beam_spawns_01.vsnd",
@@ -455,12 +456,12 @@
 	Grabbity.HoverPing = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.150000
-		use_hrtf = 1.000000
-		limiter_on = 1.000000
-		limiter_max = 1.000000
+		volume = 0.15
+		use_hrtf = 1.0
+		limiter_on = 1.0
+		limiter_max = 1.0
 		limiter_event_name = "Grabbity.HoverPing"
-		limiter_match_substring = 1.000000
+		limiter_match_substring = 1.0
 		limiter_stop_oldest = true
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
@@ -471,12 +472,12 @@
 	Grabbity.HoverPingEnd = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.150000
-		use_hrtf = 1.000000
-		limiter_on = 1.000000
-		limiter_max = 1.000000
+		volume = 0.15
+		use_hrtf = 1.0
+		limiter_on = 1.0
+		limiter_max = 1.0
 		limiter_event_name = "Grabbity.HoverPing"
-		limiter_match_substring = 1.000000
+		limiter_match_substring = 1.0
 		limiter_stop_oldest = true
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
@@ -487,14 +488,14 @@
 	Grabbity.TeslaFingersSm = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.060000
-		use_hrtf = 1.000000
-		delay = 0.500000
-		volume_fade_out = 1.000000
-		volume_falloff_min = 15.000000
-		volume_falloff_max = 65.000000
-		use_facing_vol_attenuation = 1.000000
-		facing_scale_min = 0.350000
+		volume = 0.06
+		use_hrtf = 1.0
+		delay = 0.5
+		volume_fade_out = 1.0
+		volume_falloff_min = 15.0
+		volume_falloff_max = 65.0
+		use_facing_vol_attenuation = 1.0
+		facing_scale_min = 0.35
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -507,13 +508,13 @@
 	Grabbity.TeslaFingersMd = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.060000
-		use_hrtf = 1.000000
-		volume_fade_out = 1.000000
-		volume_falloff_min = 15.000000
-		volume_falloff_max = 65.000000
-		use_facing_vol_attenuation = 1.000000
-		facing_scale_min = 0.350000
+		volume = 0.06
+		use_hrtf = 1.0
+		volume_fade_out = 1.0
+		volume_falloff_min = 15.0
+		volume_falloff_max = 65.0
+		use_facing_vol_attenuation = 1.0
+		facing_scale_min = 0.35
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -526,14 +527,14 @@
 	Grabbity.TeslaFingersLg = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.060000
-		use_hrtf = 1.000000
-		volume_fade_out = 1.000000
-		volume_falloff_min = 15.000000
-		volume_falloff_max = 65.000000
-		use_facing_vol_attenuation = 1.000000
-		facing_scale_min = 0.350000
-		enable_debug_radius = 0.000000
+		volume = 0.06
+		use_hrtf = 1.0
+		volume_fade_out = 1.0
+		volume_falloff_min = 15.0
+		volume_falloff_max = 65.0
+		use_facing_vol_attenuation = 1.0
+		facing_scale_min = 0.35
+		enable_debug_radius = 0.0
 		soundname_string = "Grabbity.TeslaFingersLg"
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
@@ -547,24 +548,24 @@
 	Grabbity.CalibrationSignalBase = 
 	{
 		type = "hlvr_3d_pitch_vol_opvar"
-		normal_mode = 1.000000
-		volume = 0.550000
-		volume_fade_in = 1.000000
-		volume_fade_out = 1.200000
+		normal_mode = 1.0
+		volume = 0.55
+		volume_fade_in = 1.0
+		volume_fade_out = 1.2
 		global_opvar_name_01 = "grabbity_calibration_completion_pct"
-		global_opvar_to_vol_mult_min = 0.800000
-		global_opvar_to_vol_mult = 1.000000
-		global_opvar_vol_base = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 800.000000
-		remap_distance_to_freq_x1 = 1.000000
-		remap_distance_to_freq_y1 = 1.000000
-		remap_distance_to_freq_x2 = 1.000000
-		remap_distance_to_freq_y2 = 1.000000
-		remap_distance_to_freq_x3 = 1.000000
-		remap_distance_to_freq_y3 = 1.000000
-		remap_distance_to_freq_x4 = 1.000000
-		remap_distance_to_freq_y4 = 1.000000
+		global_opvar_to_vol_mult_min = 0.8
+		global_opvar_to_vol_mult = 1.0
+		global_opvar_vol_base = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 800.0
+		remap_distance_to_freq_x1 = 1.0
+		remap_distance_to_freq_y1 = 1.0
+		remap_distance_to_freq_x2 = 1.0
+		remap_distance_to_freq_y2 = 1.0
+		remap_distance_to_freq_x3 = 1.0
+		remap_distance_to_freq_y3 = 1.0
+		remap_distance_to_freq_x4 = 1.0
+		remap_distance_to_freq_y4 = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -574,37 +575,37 @@
 	Grabbity.CalibrationSignalCarrier = 
 	{
 		type = "hlvr_3d_pitch_vol_opvar"
-		normal_mode = 1.000000
-		volume = 0.850000
-		volume_fade_in = 1.000000
-		volume_fade_out = 1.200000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 800.000000
+		normal_mode = 1.0
+		volume = 0.85
+		volume_fade_in = 1.0
+		volume_fade_out = 1.2
+		volume_falloff_min = 50.0
+		volume_falloff_max = 800.0
 		global_opvar_name_01 = "grabbity_calibration_completion_pct"
 		global_opvar_name_02 = "grabbity_calibration_completion_pct"
-		filter_velocity = 1.000000
-		remap_global_opvar_x1 = 0.000000
-		remap_global_opvar_y1 = 0.000000
-		remap_global_opvar_x2 = 0.700000
-		remap_global_opvar_y2 = 1.000000
-		remap_global_opvar_x3 = 0.740000
-		remap_global_opvar_y3 = 1.000000
-		remap_global_opvar_x4 = 1.000000
-		remap_global_opvar_y4 = 0.000000
-		global_opvar_to_pitch_mult_min = 0.750000
-		global_opvar_to_pitch_mult = 1.000000
-		global_opvar_pitch_base = 1.000000
-		global_opvar_to_vol_mult_min_02 = 0.350000
-		global_opvar_to_vol_mult_02 = 1.000000
-		global_opvar_vol_base_02 = 1.000000
-		remap_distance_to_freq_x1 = 0.000000
-		remap_distance_to_freq_y1 = 0.500000
-		remap_distance_to_freq_x2 = 1.000000
-		remap_distance_to_freq_y2 = 1.000000
-		remap_distance_to_freq_x3 = 1.000000
-		remap_distance_to_freq_y3 = 1.000000
-		remap_distance_to_freq_x4 = 1.000000
-		remap_distance_to_freq_y4 = 1.000000
+		filter_velocity = 1.0
+		remap_global_opvar_x1 = 0.0
+		remap_global_opvar_y1 = 0.0
+		remap_global_opvar_x2 = 0.7
+		remap_global_opvar_y2 = 1.0
+		remap_global_opvar_x3 = 0.74
+		remap_global_opvar_y3 = 1.0
+		remap_global_opvar_x4 = 1.0
+		remap_global_opvar_y4 = 0.0
+		global_opvar_to_pitch_mult_min = 0.75
+		global_opvar_to_pitch_mult = 1.0
+		global_opvar_pitch_base = 1.0
+		global_opvar_to_vol_mult_min_02 = 0.35
+		global_opvar_to_vol_mult_02 = 1.0
+		global_opvar_vol_base_02 = 1.0
+		remap_distance_to_freq_x1 = 0.0
+		remap_distance_to_freq_y1 = 0.5
+		remap_distance_to_freq_x2 = 1.0
+		remap_distance_to_freq_y2 = 1.0
+		remap_distance_to_freq_x3 = 1.0
+		remap_distance_to_freq_y3 = 1.0
+		remap_distance_to_freq_x4 = 1.0
+		remap_distance_to_freq_y4 = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -614,51 +615,51 @@
 	Grabbity.CalibrationSignalCarrierStage2 = 
 	{
 		base = "Grabbity.CalibrationSignalCarrier"
-		remap_global_opvar_x2 = 0.200000
-		remap_global_opvar_x3 = 0.240000
+		remap_global_opvar_x2 = 0.2
+		remap_global_opvar_x3 = 0.24
 		mixgroup = "PlayerInventory"
 	}
 	Grabbity.CalibrationSignalCarrierStage3 = 
 	{
 		base = "Grabbity.CalibrationSignalCarrier"
-		remap_global_opvar_x2 = 0.870000
-		remap_global_opvar_x3 = 0.910000
+		remap_global_opvar_x2 = 0.87
+		remap_global_opvar_x3 = 0.91
 		mixgroup = "PlayerInventory"
 	}
 	Grabbity.CalibrationSignalSwt = 
 	{
 		type = "hlvr_3d_pitch_vol_opvar"
-		normal_mode = 1.000000
-		volume = 0.500000
-		volume_fade_in = 1.000000
-		volume_fade_out = 2.500000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 800.000000
+		normal_mode = 1.0
+		volume = 0.5
+		volume_fade_in = 1.0
+		volume_fade_out = 2.5
+		volume_falloff_min = 50.0
+		volume_falloff_max = 800.0
 		global_opvar_name_01 = "grabbity_calibration_completion_pct"
 		global_opvar_name_02 = "grabbity_calibration_completion_pct"
-		filter_velocity = 0.800000
-		global_opvar_to_vol_mult_min = 0.000000
-		global_opvar_to_vol_mult = 1.000000
-		global_opvar_vol_base = 1.000000
-		global_opvar_to_vol_mult_min_02 = 0.350000
-		global_opvar_to_vol_mult_02 = 1.000000
-		global_opvar_vol_base_02 = 1.000000
-		remap_global_opvar_x1 = 0.000000
-		remap_global_opvar_y1 = 0.000000
-		remap_global_opvar_x2 = 0.570000
-		remap_global_opvar_y2 = 0.000000
-		remap_global_opvar_x3 = 0.720000
-		remap_global_opvar_y3 = 1.000000
-		remap_global_opvar_x4 = 0.870000
-		remap_global_opvar_y4 = 0.000000
-		remap_distance_to_freq_x1 = 0.000000
-		remap_distance_to_freq_y1 = 0.000000
-		remap_distance_to_freq_x2 = 1.000000
-		remap_distance_to_freq_y2 = 1.000000
-		remap_distance_to_freq_x3 = 1.000000
-		remap_distance_to_freq_y3 = 1.000000
-		remap_distance_to_freq_x4 = 1.000000
-		remap_distance_to_freq_y4 = 1.000000
+		filter_velocity = 0.8
+		global_opvar_to_vol_mult_min = 0.0
+		global_opvar_to_vol_mult = 1.0
+		global_opvar_vol_base = 1.0
+		global_opvar_to_vol_mult_min_02 = 0.35
+		global_opvar_to_vol_mult_02 = 1.0
+		global_opvar_vol_base_02 = 1.0
+		remap_global_opvar_x1 = 0.0
+		remap_global_opvar_y1 = 0.0
+		remap_global_opvar_x2 = 0.57
+		remap_global_opvar_y2 = 0.0
+		remap_global_opvar_x3 = 0.72
+		remap_global_opvar_y3 = 1.0
+		remap_global_opvar_x4 = 0.87
+		remap_global_opvar_y4 = 0.0
+		remap_distance_to_freq_x1 = 0.0
+		remap_distance_to_freq_y1 = 0.0
+		remap_distance_to_freq_x2 = 1.0
+		remap_distance_to_freq_y2 = 1.0
+		remap_distance_to_freq_x3 = 1.0
+		remap_distance_to_freq_y3 = 1.0
+		remap_distance_to_freq_x4 = 1.0
+		remap_distance_to_freq_y4 = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -668,15 +669,15 @@
 	Grabbity.CalibrationSignalSwtStage2 = 
 	{
 		base = "Grabbity.CalibrationSignalSwt"
-		remap_global_opvar_x2 = 0.070000
-		remap_global_opvar_x3 = 0.220000
+		remap_global_opvar_x2 = 0.07
+		remap_global_opvar_x3 = 0.22
 		mixgroup = "PlayerInventory"
 	}
 	Grabbity.CalibrationSignalSwtStage3 = 
 	{
 		base = "Grabbity.CalibrationSignalSwt"
-		remap_global_opvar_x2 = 0.740000
-		remap_global_opvar_x3 = 0.890000
+		remap_global_opvar_x2 = 0.74
+		remap_global_opvar_x3 = 0.89
 		mixgroup = "PlayerInventory"
 	}
 	Grabbity.CalibrationSignal = 
@@ -685,9 +686,9 @@
 		soundevent_01 = "Grabbity.CalibrationSignalBase"
 		soundevent_02 = "Grabbity.CalibrationSignalCarrier"
 		soundevent_03 = "Grabbity.CalibrationSignalSwt"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	Grabbity.CalibrationSignalStage2 = 
 	{
@@ -695,9 +696,9 @@
 		soundevent_01 = "Grabbity.CalibrationSignalBase"
 		soundevent_02 = "Grabbity.CalibrationSignalCarrierStage2"
 		soundevent_03 = "Grabbity.CalibrationSignalSwtStage2"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	Grabbity.CalibrationSignalStage3 = 
 	{
@@ -705,9 +706,9 @@
 		soundevent_01 = "Grabbity.CalibrationSignalBase"
 		soundevent_02 = "Grabbity.CalibrationSignalCarrierStage3"
 		soundevent_03 = "Grabbity.CalibrationSignalSwtStage3"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	Grabbity.CalibrationClickManager = 
 	{
@@ -717,13 +718,13 @@
 	Grabbity.CalibrationClick = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
-		volume_fade_out = 1.000000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 235.000000
-		use_facing_vol_attenuation = 1.000000
-		facing_scale_min = 0.350000
+		volume = 0.8
+		use_hrtf = 1.0
+		volume_fade_out = 1.0
+		volume_falloff_min = 100.0
+		volume_falloff_max = 235.0
+		use_facing_vol_attenuation = 1.0
+		facing_scale_min = 0.35
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -733,8 +734,8 @@
 	Inventory.Appear = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
+		volume = 0.6
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -744,8 +745,8 @@
 	Inventory.Disappear = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.5
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -755,8 +756,8 @@
 	Inventory.Select = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -766,8 +767,8 @@
 	Inventory.Invalid = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
-		use_hrtf = 1.000000
+		volume = 0.2
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -777,7 +778,7 @@
 	Inventory.Rollover = 
 	{
 		base = "Inventory.Select"
-		volume = 0.350000
+		volume = 0.35
 		vsnd_files = 
 		[
 			"sounds/player/inventory/inv_rollover_01.vsnd",
@@ -804,16 +805,16 @@
 	WristWatch.HeartMonitor = 
 	{
 		type = "hlvr_3d_pitch_vol_opvar"
-		volume = 0.500000
-		spread_min = 20.000000
-		spread_max = 150.000000
-		volume_falloff_min = 5.000000
-		volume_falloff_max = 25.000000
-		global_opvar_to_vol_mult_min = 0.400000
-		global_opvar_to_vol_mult = 1.000000
-		filter_velocity = 2.000000
+		volume = 0.5
+		spread_min = 20.0
+		spread_max = 150.0
+		volume_falloff_min = 5.0
+		volume_falloff_max = 25.0
+		global_opvar_to_vol_mult_min = 0.4
+		global_opvar_to_vol_mult = 1.0
+		filter_velocity = 2.0
 		global_opvar_name_01 = "player_is_looking_at_watch"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -825,13 +826,13 @@
 	WristWatch.HealthAlarm = 
 	{
 		type = "hlvr_3d_pitch_vol_opvar"
-		volume = 0.500000
-		spread_min = 20.000000
-		spread_max = 150.000000
-		volume_falloff_min = 5.000000
-		volume_falloff_max = 55.000000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.5
+		spread_min = 20.0
+		spread_max = 150.0
+		volume_falloff_min = 5.0
+		volume_falloff_max = 55.0
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -841,12 +842,12 @@
 	WristWatch.HealthAlarmAck = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		spread_min = 20.000000
-		spread_max = 150.000000
-		volume_falloff_min = 5.000000
-		volume_falloff_max = 55.000000
-		use_hrtf = 1.000000
+		volume = 0.5
+		spread_min = 20.0
+		spread_max = 150.0
+		volume_falloff_min = 5.0
+		volume_falloff_max = 55.0
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -856,16 +857,16 @@
 	WristWatch.ResinMonitor = 
 	{
 		type = "hlvr_3d_pitch_vol_opvar"
-		volume = 0.500000
-		spread_min = 20.000000
-		spread_max = 150.000000
-		volume_falloff_min = 5.000000
-		volume_falloff_max = 25.000000
-		global_opvar_to_vol_mult_min = 0.200000
-		global_opvar_to_vol_mult = 1.000000
-		filter_velocity = 1.500000
+		volume = 0.5
+		spread_min = 20.0
+		spread_max = 150.0
+		volume_falloff_min = 5.0
+		volume_falloff_max = 25.0
+		global_opvar_to_vol_mult_min = 0.2
+		global_opvar_to_vol_mult = 1.0
+		filter_velocity = 1.5
 		global_opvar_name_01 = "player_is_looking_at_watch"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -876,12 +877,12 @@
 	WristWatch.AmmoMonitor = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		spread_min = 20.000000
-		spread_max = 150.000000
-		volume_falloff_min = 5.000000
-		volume_falloff_max = 25.000000
-		use_hrtf = 1.000000
+		volume = 0.5
+		spread_min = 20.0
+		spread_max = 150.0
+		volume_falloff_min = 5.0
+		volume_falloff_max = 25.0
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -891,42 +892,42 @@
 	Multitool.SignalBase = 
 	{
 		type = "hlvr_3d_pitch_vol_opvar"
-		normal_mode = 0.000000
-		volume = 0.240000
-		use_hrtf = 1.000000
-		volume_fade_in = 1.000000
-		volume_fade_out = 1.200000
+		normal_mode = 0.0
+		volume = 0.24
+		use_hrtf = 1.0
+		volume_fade_in = 1.0
+		volume_fade_out = 1.2
 		global_opvar_name_01 = "tool_puzzle_particle_count"
 		global_opvar_name_02 = "tool_puzzle_highlight_pct"
-		filter_velocity = 5.000000
-		pitch_rand_min = 0.250000
-		pitch_rand_max = 0.250000
-		global_opvar_to_vol_mult_min = 0.850000
-		global_opvar_to_vol_mult = 1.000000
-		global_opvar_to_pitch_mult_min = 0.990000
-		global_opvar_to_pitch_mult = 1.000000
-		global_opvar_vol_base = 1.000000
-		remap_global_opvar_x1 = 0.000000
-		remap_global_opvar_y1 = 0.000000
-		remap_global_opvar_x2 = 12.000000
-		remap_global_opvar_y2 = 0.000000
-		remap_global_opvar_x3 = 35.000000
-		remap_global_opvar_y3 = 0.800000
-		remap_global_opvar_x4 = 50.000000
-		remap_global_opvar_y4 = 1.000000
-		global_opvar_to_vol_mult_min_02 = 0.250000
-		global_opvar_to_vol_mult_02 = 1.100000
-		global_opvar_vol_base_02 = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 800.000000
-		remap_distance_to_freq_x1 = 0.000000
-		remap_distance_to_freq_y1 = 0.250000
-		remap_distance_to_freq_x2 = 1.000000
-		remap_distance_to_freq_y2 = 0.950000
-		remap_distance_to_freq_x3 = 1.000000
-		remap_distance_to_freq_y3 = 0.950000
-		remap_distance_to_freq_x4 = 1.000000
-		remap_distance_to_freq_y4 = 0.950000
+		filter_velocity = 5.0
+		pitch_rand_min = 0.25
+		pitch_rand_max = 0.25
+		global_opvar_to_vol_mult_min = 0.85
+		global_opvar_to_vol_mult = 1.0
+		global_opvar_to_pitch_mult_min = 0.99
+		global_opvar_to_pitch_mult = 1.0
+		global_opvar_vol_base = 1.0
+		remap_global_opvar_x1 = 0.0
+		remap_global_opvar_y1 = 0.0
+		remap_global_opvar_x2 = 12.0
+		remap_global_opvar_y2 = 0.0
+		remap_global_opvar_x3 = 35.0
+		remap_global_opvar_y3 = 0.8
+		remap_global_opvar_x4 = 50.0
+		remap_global_opvar_y4 = 1.0
+		global_opvar_to_vol_mult_min_02 = 0.25
+		global_opvar_to_vol_mult_02 = 1.1
+		global_opvar_vol_base_02 = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 800.0
+		remap_distance_to_freq_x1 = 0.0
+		remap_distance_to_freq_y1 = 0.25
+		remap_distance_to_freq_x2 = 1.0
+		remap_distance_to_freq_y2 = 0.95
+		remap_distance_to_freq_x3 = 1.0
+		remap_distance_to_freq_y3 = 0.95
+		remap_distance_to_freq_x4 = 1.0
+		remap_distance_to_freq_y4 = 0.95
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -936,40 +937,40 @@
 	Multitool.SignalCarrier = 
 	{
 		type = "hlvr_3d_pitch_vol_opvar"
-		normal_mode = 0.000000
-		volume = 0.360000
-		use_hrtf = 1.000000
-		volume_fade_in = 1.000000
-		volume_fade_out = 1.200000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 800.000000
-		pitch_rand_min = 0.250000
-		pitch_rand_max = 0.250000
+		normal_mode = 0.0
+		volume = 0.36
+		use_hrtf = 1.0
+		volume_fade_in = 1.0
+		volume_fade_out = 1.2
+		volume_falloff_min = 50.0
+		volume_falloff_max = 800.0
+		pitch_rand_min = 0.25
+		pitch_rand_max = 0.25
 		global_opvar_name_01 = "tool_puzzle_highlight_pct"
 		global_opvar_name_02 = "tool_puzzle_pulse_intensity"
-		filter_velocity = 0.200000
-		global_opvar_to_pitch_mult_min = 0.990000
-		global_opvar_to_pitch_mult = 1.000000
-		global_opvar_pitch_base = 1.000000
-		global_opvar_to_vol_mult_min_02 = 0.350000
-		global_opvar_to_vol_mult_02 = 1.000000
-		global_opvar_vol_base_02 = 1.000000
-		remap_global_opvar_02_x1 = 0.000000
-		remap_global_opvar_02_y1 = 0.000000
-		remap_global_opvar_02_x2 = 0.200000
-		remap_global_opvar_02_y2 = 1.000000
-		remap_global_opvar_02_x3 = 0.200000
-		remap_global_opvar_02_y3 = 1.000000
-		remap_global_opvar_02_x4 = 0.200000
-		remap_global_opvar_02_y4 = 1.000000
-		remap_distance_to_freq_x1 = 0.000000
-		remap_distance_to_freq_y1 = 0.300000
-		remap_distance_to_freq_x2 = 1.000000
-		remap_distance_to_freq_y2 = 0.850000
-		remap_distance_to_freq_x3 = 1.000000
-		remap_distance_to_freq_y3 = 0.850000
-		remap_distance_to_freq_x4 = 1.000000
-		remap_distance_to_freq_y4 = 0.850000
+		filter_velocity = 0.2
+		global_opvar_to_pitch_mult_min = 0.99
+		global_opvar_to_pitch_mult = 1.0
+		global_opvar_pitch_base = 1.0
+		global_opvar_to_vol_mult_min_02 = 0.35
+		global_opvar_to_vol_mult_02 = 1.0
+		global_opvar_vol_base_02 = 1.0
+		remap_global_opvar_02_x1 = 0.0
+		remap_global_opvar_02_y1 = 0.0
+		remap_global_opvar_02_x2 = 0.2
+		remap_global_opvar_02_y2 = 1.0
+		remap_global_opvar_02_x3 = 0.2
+		remap_global_opvar_02_y3 = 1.0
+		remap_global_opvar_02_x4 = 0.2
+		remap_global_opvar_02_y4 = 1.0
+		remap_distance_to_freq_x1 = 0.0
+		remap_distance_to_freq_y1 = 0.3
+		remap_distance_to_freq_x2 = 1.0
+		remap_distance_to_freq_y2 = 0.85
+		remap_distance_to_freq_x3 = 1.0
+		remap_distance_to_freq_y3 = 0.85
+		remap_distance_to_freq_x4 = 1.0
+		remap_distance_to_freq_y4 = 0.85
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -979,50 +980,50 @@
 	Multitool.SignalSwt = 
 	{
 		type = "hlvr_3d_pitch_vol_opvar"
-		normal_mode = 0.000000
-		volume = 0.250000
-		use_hrtf = 1.000000
-		volume_fade_in = 1.000000
-		volume_fade_out = 1.500000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 800.000000
-		pitch_rand_min = 0.250000
-		pitch_rand_max = 0.250000
+		normal_mode = 0.0
+		volume = 0.25
+		use_hrtf = 1.0
+		volume_fade_in = 1.0
+		volume_fade_out = 1.5
+		volume_falloff_min = 50.0
+		volume_falloff_max = 800.0
+		pitch_rand_min = 0.25
+		pitch_rand_max = 0.25
 		global_opvar_name_01 = "tool_puzzle_particle_count"
 		global_opvar_name_02 = "tool_puzzle_pulse_intensity"
-		filter_velocity = 5.000000
-		global_opvar_to_vol_mult_min = 0.000000
-		global_opvar_to_vol_mult = 1.000000
-		global_opvar_vol_base = 1.000000
-		global_opvar_to_pitch_mult_min = 0.990000
-		global_opvar_to_pitch_mult = 1.000000
-		global_opvar_to_vol_mult_min_02 = 0.300000
-		global_opvar_to_vol_mult_02 = 1.000000
-		global_opvar_vol_base_02 = 1.000000
-		remap_global_opvar_x1 = 0.000000
-		remap_global_opvar_y1 = 0.000000
-		remap_global_opvar_x2 = 12.000000
-		remap_global_opvar_y2 = 0.000000
-		remap_global_opvar_x3 = 35.000000
-		remap_global_opvar_y3 = 0.800000
-		remap_global_opvar_x4 = 50.000000
-		remap_global_opvar_y4 = 1.000000
-		remap_global_opvar_02_x1 = 0.000000
-		remap_global_opvar_02_y1 = 0.000000
-		remap_global_opvar_02_x2 = 0.200000
-		remap_global_opvar_02_y2 = 1.000000
-		remap_global_opvar_02_x3 = 0.200000
-		remap_global_opvar_02_y3 = 1.000000
-		remap_global_opvar_02_x4 = 0.200000
-		remap_global_opvar_02_y4 = 1.000000
-		remap_distance_to_freq_x1 = 0.000000
-		remap_distance_to_freq_y1 = 0.500000
-		remap_distance_to_freq_x2 = 1.000000
-		remap_distance_to_freq_y2 = 1.000000
-		remap_distance_to_freq_x3 = 1.000000
-		remap_distance_to_freq_y3 = 1.000000
-		remap_distance_to_freq_x4 = 1.000000
-		remap_distance_to_freq_y4 = 1.000000
+		filter_velocity = 5.0
+		global_opvar_to_vol_mult_min = 0.0
+		global_opvar_to_vol_mult = 1.0
+		global_opvar_vol_base = 1.0
+		global_opvar_to_pitch_mult_min = 0.99
+		global_opvar_to_pitch_mult = 1.0
+		global_opvar_to_vol_mult_min_02 = 0.3
+		global_opvar_to_vol_mult_02 = 1.0
+		global_opvar_vol_base_02 = 1.0
+		remap_global_opvar_x1 = 0.0
+		remap_global_opvar_y1 = 0.0
+		remap_global_opvar_x2 = 12.0
+		remap_global_opvar_y2 = 0.0
+		remap_global_opvar_x3 = 35.0
+		remap_global_opvar_y3 = 0.8
+		remap_global_opvar_x4 = 50.0
+		remap_global_opvar_y4 = 1.0
+		remap_global_opvar_02_x1 = 0.0
+		remap_global_opvar_02_y1 = 0.0
+		remap_global_opvar_02_x2 = 0.2
+		remap_global_opvar_02_y2 = 1.0
+		remap_global_opvar_02_x3 = 0.2
+		remap_global_opvar_02_y3 = 1.0
+		remap_global_opvar_02_x4 = 0.2
+		remap_global_opvar_02_y4 = 1.0
+		remap_distance_to_freq_x1 = 0.0
+		remap_distance_to_freq_y1 = 0.5
+		remap_distance_to_freq_x2 = 1.0
+		remap_distance_to_freq_y2 = 1.0
+		remap_distance_to_freq_x3 = 1.0
+		remap_distance_to_freq_y3 = 1.0
+		remap_distance_to_freq_x4 = 1.0
+		remap_distance_to_freq_y4 = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1032,28 +1033,28 @@
 	Multitool.SignalClickSingle = 
 	{
 		type = "hlvr_3d_pitch_vol_opvar"
-		volume = 0.700000
-		use_hrtf = 1.000000
-		spread_min = 20.000000
-		spread_max = 150.000000
-		pitch_rand_min = 1.800000
-		pitch_rand_max = 2.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 400.000000
+		volume = 0.7
+		use_hrtf = 1.0
+		spread_min = 20.0
+		spread_max = 150.0
+		pitch_rand_min = 1.8
+		pitch_rand_max = 2.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 400.0
 		global_opvar_name_01 = "tool_puzzle_pulse_intensity"
-		filter_velocity = 0.200000
-		global_opvar_to_vol_mult_min = 0.000000
-		global_opvar_to_vol_mult = 1.000000
-		global_opvar_vol_base = 1.000000
-		remap_global_opvar_x1 = 0.000000
-		remap_global_opvar_y1 = 0.450000
-		remap_global_opvar_x2 = 0.200000
-		remap_global_opvar_y2 = 1.000000
-		remap_global_opvar_x3 = 0.200000
-		remap_global_opvar_y3 = 1.000000
-		remap_global_opvar_x4 = 0.200000
-		remap_global_opvar_y4 = 1.000000
-		enable_debug_radius = 0.000000
+		filter_velocity = 0.2
+		global_opvar_to_vol_mult_min = 0.0
+		global_opvar_to_vol_mult = 1.0
+		global_opvar_vol_base = 1.0
+		remap_global_opvar_x1 = 0.0
+		remap_global_opvar_y1 = 0.45
+		remap_global_opvar_x2 = 0.2
+		remap_global_opvar_y2 = 1.0
+		remap_global_opvar_x3 = 0.2
+		remap_global_opvar_y3 = 1.0
+		remap_global_opvar_x4 = 0.2
+		remap_global_opvar_y4 = 1.0
+		enable_debug_radius = 0.0
 		soundname_string = "Multitool.SignalClickSingle"
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
@@ -1070,39 +1071,39 @@
 	{
 		type = "hlvr_ambient_burst"
 		soundevent_name = "Multitool.SignalClickSingle"
-		burst_length_min = 0.800000
-		burst_length_max = 1.500000
-		delay_timer_min = 0.030000
-		delay_timer_max = 0.100000
-		delay_offset_min = 0.000000
-		delay_offset_max = 0.000000
+		burst_length_min = 0.8
+		burst_length_max = 1.5
+		delay_timer_min = 0.03
+		delay_timer_max = 0.1
+		delay_offset_min = 0.0
+		delay_offset_max = 0.0
 	}
 	Multitool.SignalClickRand = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "Multitool.SignalClickBurst"
-		random_soundevent_01_timer_min = 1.500000
-		random_soundevent_01_timer_max = 2.500000
-		use_initial_random_offset = 1.000000
-		input_min_delay_adjust_mult_01 = 0.150000
-		input_max_delay_adjust_mult_01 = 0.100000
+		random_soundevent_01_timer_min = 1.5
+		random_soundevent_01_timer_max = 2.5
+		use_initial_random_offset = 1.0
+		input_min_delay_adjust_mult_01 = 0.15
+		input_max_delay_adjust_mult_01 = 0.1
 		global_opvar_name_01 = "tool_puzzle_particle_count"
-		remap_global_opvar_01_x1 = 0.000000
-		remap_global_opvar_01_y1 = 0.000000
-		remap_global_opvar_01_x2 = 65.000000
-		remap_global_opvar_01_y2 = 1.000000
-		remap_global_opvar_01_x3 = 65.000000
-		remap_global_opvar_01_y3 = 1.000000
-		remap_global_opvar_01_x4 = 65.000000
-		remap_global_opvar_01_y4 = 1.000000
+		remap_global_opvar_01_x1 = 0.0
+		remap_global_opvar_01_y1 = 0.0
+		remap_global_opvar_01_x2 = 65.0
+		remap_global_opvar_01_y2 = 1.0
+		remap_global_opvar_01_x3 = 65.0
+		remap_global_opvar_01_y3 = 1.0
+		remap_global_opvar_01_x4 = 65.0
+		remap_global_opvar_01_y4 = 1.0
 	}
 	Multitool.SignalClick = 
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "Multitool.SignalClickRand"
 		soundevent_02 = "Multitool.SignalClickBurst"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	Multitool.Signal = 
 	{
@@ -1111,16 +1112,16 @@
 		soundevent_02 = "Multitool.SignalCarrier"
 		soundevent_03 = "Multitool.SignalSwt"
 		soundevent_04 = "Multitool.SignalClick"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	Multitool.Shock = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 1.000000
+		use_hrtf = 1.0
+		volume = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1130,10 +1131,10 @@
 	Multitool.ChargedLoop = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.500000
-		volume_falloff_max = 40.000000
-		volume_falloff_min = 0.000000
+		use_hrtf = 1.0
+		volume = 0.5
+		volume_falloff_max = 40.0
+		volume_falloff_min = 0.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1143,10 +1144,10 @@
 	Multitool.ShockDeny = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.800000
-		volume_falloff_min = 0.000000
-		volume_falloff_max = 60.000000
+		use_hrtf = 1.0
+		volume = 0.8
+		volume_falloff_min = 0.0
+		volume_falloff_max = 60.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1159,8 +1160,8 @@
 	Multitool_Dowse.Standing_Loop = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.500000
+		use_hrtf = 1.0
+		volume = 0.5
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1170,8 +1171,8 @@
 	Multitool_Dowse.Empty_Loop = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.300000
+		use_hrtf = 1.0
+		volume = 0.3
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1181,8 +1182,8 @@
 	Multitool_Dowse.Warmer = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.500000
+		use_hrtf = 1.0
+		volume = 0.5
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1192,8 +1193,8 @@
 	Multitool_Dowse.Colder = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.500000
+		use_hrtf = 1.0
+		volume = 0.5
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1203,8 +1204,8 @@
 	Multitool_Dowse.Discover = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.500000
+		use_hrtf = 1.0
+		volume = 0.5
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1214,8 +1215,8 @@
 	Flashlight.On = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 1.000000
+		use_hrtf = 1.0
+		volume = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1225,8 +1226,8 @@
 	Flashlight.Off = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 1.000000
+		use_hrtf = 1.0
+		volume = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1236,7 +1237,7 @@
 	RadioHeadset.PutOn = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1246,7 +1247,7 @@
 	RadioHeadset.Interrupt = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1256,13 +1257,13 @@
 	HackingSphere.Appear = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		spread_min = 8.000000
-		spread_max = 48.000000
-		volume_falloff_min = 55.000000
-		volume_falloff_max = 255.000000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
+		volume = 1.0
+		spread_min = 8.0
+		spread_max = 48.0
+		volume_falloff_min = 55.0
+		volume_falloff_max = 255.0
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1272,13 +1273,13 @@
 	HackingSphere.Disappear = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.950000
-		spread_min = 20.000000
-		spread_max = 150.000000
-		volume_falloff_min = 55.000000
-		volume_falloff_max = 255.000000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.95
+		spread_min = 20.0
+		spread_max = 150.0
+		volume_falloff_min = 55.0
+		volume_falloff_max = 255.0
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1288,13 +1289,13 @@
 	HackingSphere.GrabActivate = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		spread_min = 20.000000
-		spread_max = 150.000000
-		volume_falloff_min = 55.000000
-		volume_falloff_max = 255.000000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.8
+		spread_min = 20.0
+		spread_max = 150.0
+		volume_falloff_min = 55.0
+		volume_falloff_max = 255.0
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1304,13 +1305,13 @@
 	HackingSphere.PointRollover = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.150000
-		spread_min = 20.000000
-		spread_max = 150.000000
-		volume_falloff_min = 55.000000
-		volume_falloff_max = 255.000000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.15
+		spread_min = 20.0
+		spread_max = 150.0
+		volume_falloff_min = 55.0
+		volume_falloff_max = 255.0
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1320,13 +1321,13 @@
 	HackingSphere.PointRolloff = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.150000
-		spread_min = 20.000000
-		spread_max = 150.000000
-		volume_falloff_min = 55.000000
-		volume_falloff_max = 255.000000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.15
+		spread_min = 20.0
+		spread_max = 150.0
+		volume_falloff_min = 55.0
+		volume_falloff_max = 255.0
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1336,13 +1337,13 @@
 	HackingSphere.GrabPoint = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		spread_min = 20.000000
-		spread_max = 150.000000
-		volume_falloff_min = 55.000000
-		volume_falloff_max = 255.000000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.5
+		spread_min = 20.0
+		spread_max = 150.0
+		volume_falloff_min = 55.0
+		volume_falloff_max = 255.0
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1352,13 +1353,13 @@
 	HackingSphere.SuccessBeep = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.310000
-		spread_min = 20.000000
-		spread_max = 150.000000
-		volume_falloff_min = 55.000000
-		volume_falloff_max = 255.000000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.31
+		spread_min = 20.0
+		spread_max = 150.0
+		volume_falloff_min = 55.0
+		volume_falloff_max = 255.0
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1368,13 +1369,13 @@
 	HackingSphere.FailureBeep = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.380000
-		spread_min = 20.000000
-		spread_max = 150.000000
-		volume_falloff_min = 55.000000
-		volume_falloff_max = 255.000000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.38
+		spread_min = 20.0
+		spread_max = 150.0
+		volume_falloff_min = 55.0
+		volume_falloff_max = 255.0
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1392,13 +1393,13 @@
 	HackingSphere.DroneLp = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		spread_min = 20.000000
-		spread_max = 150.000000
-		volume_falloff_min = 55.000000
-		volume_falloff_max = 255.000000
-		volume_fade_out = 1.500000
-		use_hrtf = 1.000000
+		volume = 0.8
+		spread_min = 20.0
+		spread_max = 150.0
+		volume_falloff_min = 55.0
+		volume_falloff_max = 255.0
+		volume_fade_out = 1.5
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1410,28 +1411,28 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "HackingSphere.SphereMelodyLp"
 		soundevent_02 = "HackingSphere.SphereRhythmLp"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	HackingSphere.SphereMelodyLp = 
 	{
 		type = "hlvr_simple_voicegraph_filter_dynamics"
-		volume = 0.700000
-		spread_min = 20.000000
-		spread_max = 150.000000
-		volume_falloff_min = 55.000000
-		volume_falloff_max = 255.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 1.000000
+		volume = 0.7
+		spread_min = 20.0
+		spread_max = 150.0
+		volume_falloff_min = 55.0
+		volume_falloff_max = 255.0
+		volume_fade_in = 0.2
+		volume_fade_out = 1.0
 		global_opvar_name = "sphere_hacking_value"
-		remap_opvar_to_freq_x1 = 0.500000
-		remap_opvar_to_freq_y1 = 0.700000
-		remap_opvar_to_freq_x2 = 0.500000
-		remap_opvar_to_freq_y2 = 0.700000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.700000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 1.000000
+		remap_opvar_to_freq_x1 = 0.5
+		remap_opvar_to_freq_y1 = 0.7
+		remap_opvar_to_freq_x2 = 0.5
+		remap_opvar_to_freq_y2 = 0.7
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.7
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1441,8 +1442,8 @@
 	HackingSphere.SphereMelodyTail = 
 	{
 		base = "HackingSphere.SphereMelodyLp"
-		volume = 0.580000
-		volume_fade_in = 0.000000
+		volume = 0.58
+		volume_fade_in = 0.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1452,21 +1453,21 @@
 	HackingSphere.SphereRhythmLp = 
 	{
 		type = "hlvr_simple_voicegraph_filter_dynamics"
-		volume = 0.300000
-		spread_min = 20.000000
-		spread_max = 150.000000
-		volume_falloff_min = 55.000000
-		volume_falloff_max = 255.000000
-		volume_fade_out = 0.500000
+		volume = 0.3
+		spread_min = 20.0
+		spread_max = 150.0
+		volume_falloff_min = 55.0
+		volume_falloff_max = 255.0
+		volume_fade_out = 0.5
 		global_opvar_name = "sphere_hacking_value"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 0.400000
-		remap_opvar_to_freq_x2 = 0.500000
-		remap_opvar_to_freq_y2 = 0.600000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.600000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 0.950000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 0.4
+		remap_opvar_to_freq_x2 = 0.5
+		remap_opvar_to_freq_y2 = 0.6
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.6
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 0.95
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1476,7 +1477,7 @@
 	HackingPuzzle.TripmineSuccess = 
 	{
 		base = "HackingSphere.Appear"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = 
 		[
 			"sounds/world/hacking/hacking_puzzle_tripmine_success_01.vsnd",
@@ -1487,13 +1488,13 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "HackingPuzzle.TripmineFailureBeep"
 		soundevent_02 = "HackingPuzzle.TripmineFailureExplo"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	HackingPuzzle.TripmineFailureBeep = 
 	{
 		base = "HackingSphere.Appear"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = 
 		[
 			"sounds/world/hacking/hacking_puzzle_tripmine_failure_01.vsnd",
@@ -1502,7 +1503,7 @@
 	HackingPuzzle.TripmineFailureExplo = 
 	{
 		base = "HackingSphere.Appear"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = 
 		[
 			"sounds/world/hacking/hacking_puzzle_tripmine_failure_explo_01.vsnd",
@@ -1511,7 +1512,7 @@
 	HackingPuzzle.TripminePulse = 
 	{
 		base = "HackingSphere.Appear"
-		volume = 0.300000
+		volume = 0.3
 		vsnd_files = 
 		[
 			"sounds/world/hacking/hacking_puzzle_tripmine_pulse_01.vsnd",
@@ -1520,7 +1521,7 @@
 	HackingPuzzle.TripmineRing = 
 	{
 		base = "HackingSphere.Appear"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_selection_type = "forward"
 		vsnd_files = 
 		[
@@ -1536,7 +1537,7 @@
 	HackingPuzzle.FailureExplo = 
 	{
 		base = "HackingSphere.Appear"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = 
 		[
 			"sounds/world/hacking/hacking_holo_failure_explo_01.vsnd",
@@ -1545,13 +1546,13 @@
 	HackingPuzzle.InitHoloAppear = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		spread_min = 20.000000
-		spread_max = 150.000000
-		volume_falloff_min = 55.000000
-		volume_falloff_max = 255.000000
-		volume_fade_out = 1.000000
-		use_hrtf = 1.000000
+		volume = 0.75
+		spread_min = 20.0
+		spread_max = 150.0
+		volume_falloff_min = 55.0
+		volume_falloff_max = 255.0
+		volume_fade_out = 1.0
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1620,13 +1621,13 @@
 	HackingPlug.Move = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.380000
+		volume = 0.38
 		spread_min = 18
 		spread_max = 48
-		volume_falloff_min = 55.000000
-		volume_falloff_max = 255.000000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
+		volume_falloff_min = 55.0
+		volume_falloff_max = 255.0
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1636,7 +1637,7 @@
 	HackingPlug.Connect = 
 	{
 		base = "HackingPlug.Move"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = 
 		[
 			"sounds/player/multitool/ui_multitool_plug_connect_01.vsnd",
@@ -1645,8 +1646,8 @@
 	Inventory.SelectSame = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[
@@ -1656,7 +1657,7 @@
 	Inventory.Camera_Shot = 
 	{
 		type = "src1_2d"
-		volume = 0.600000
+		volume = 0.6
 		mixgroup = "PlayerInventory"
 		vsnd_files = 
 		[

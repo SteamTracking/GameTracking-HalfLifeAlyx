@@ -34,7 +34,7 @@
 "HLVR_MainMenu_SaveSlot"    	  	"儲存槽"
 "HLVR_MainMenu_GameSlot"    	  	"遊戲儲存槽"
 "HLVR_MainMenu_Overwrite"    	  	"覆蓋"
-"HLVR_MainMenu_Overwrite_desc"		"所有的遊戲儲存槽都在使用中。請選擇要覆蓋的儲存槽。 \n\n警告: 此操作將刪除現有的保存資料。"
+"HLVR_MainMenu_Overwrite_desc"		"所有的遊戲儲存槽都在使用中。請選擇要覆蓋的儲存槽。 \n\n注意: 此操作將刪除現有的保存資料。"
 "HLVR_MainMenu_StartOver"					"是否覆蓋存檔？"
 "HLVR_MainMenu_NewGame"						"開始新遊戲？"
 "HLVR_MainMenu_Slot"    	  			"儲存槽"
@@ -55,7 +55,13 @@
 "HLVR_MainMenu_NoAddonsEnabled"			"未啟用遊戲所需的附加元件"
 "HLVR_MainMenu_AddonToggleInfo"			"按下左邊的切換按鈕以啟用或停用"
 "HLVR_MainMenu_LocalAddon"				"本機附加元件"
-"HLVR_MainMenu_MissingAddon"			"The following addon(s) are missing.  Please resubscribe to load this file"
+"HLVR_MainMenu_MissingAddon"			"缺少下列附加元件。請重新訂閱以載入檔案"
+
+"HLVR_MainMenu_OriginalGame"			"原版遊戲"
+"HLVR_MainMenu_AddonGame"				"附加元件遊戲"
+
+"HLVR_MainMenu_OriginalMaps"			"原版遊戲"
+"HLVR_MainMenu_AddonMaps"				"附加元件地圖"
 
 "HLVR_MainMenu_AddonUpVote"				"好評"
 "HLVR_MainMenu_AddonDownVote"			"負評"
@@ -134,6 +140,9 @@
 "HLVR_Options_On"					"開啟"
 "HLVR_Options_Off"				"關閉"
 
+"HLVR_Options_Commentary"					"開發者解說"
+"HLVR_Options_Commentary_desc"				"遊玩時啟用開發者解說節點。\n\n注意：解說內容包含遊戲劇透。\n\n建議先完成遊戲後再開啟本功能遊玩。"
+
 "HLVR_Options_Movement_Base"					"移動方式"
 "HLVR_Options_Movement_Blink"					"傳送"
 "HLVR_Options_Movement_Shift"					"順移"
@@ -177,6 +186,9 @@
 
 "HLVR_Options_ContinuousTurn_Speed_Base"		"持續轉向速度"
 "HLVR_Options_ContinuousTurn_Speed_desc"		"持續轉向的角度移動速度。"
+
+"HLVR_Options_DLC_Skins"						"預購外觀"
+"HLVR_Options_DLC_Skins_desc"					"啟用預購 Valve Index 時授予的武器外觀。"
 
 "HLVR_Options_Subtitles"						"字幕"
 "HLVR_Options_Subtitles_Base"					"字幕"
@@ -530,7 +542,6 @@
 "HLVR_CraftingStation_ResinAmount"					"{i:CurrencyAmount}"
 "HLVR_CraftingStation_SelectObject"					"選擇物體"
 "HLVR_CraftingStation_SelectedWeapon"				"{s:WeaponName}"
-"HLVR_CraftingStation_SelectUpgrade"				"選擇 {s:WeaponName} 升級"
 "HLVR_CraftingStation_Upgrades"						"升級"
 "HLVR_CraftingStation_Cost"							"耗費"
 "HLVR_CraftingStation_Summary"						"摘要"
@@ -548,8 +559,6 @@
 "HLVR_CraftingStation_TakeObject"					"取出物品"
 "HLVR_CraftingStation_PrintObject"					"列印物件"
 "HLVR_CraftingStation_UpgradeOwned"					"已擁有"
-"HLVR_CraftingStation_SelectedPrint"				"已選擇: {s:SelectedPrintObject}"
-"HLVR_CraftingStation_SelectedUpgrade"				"選擇的升級: {s:SelectedUpgrade}"
 "HLVR_CraftingStation_Cancel"						"取消"
 "HLVR_CraftingStation_Back"							"返回"
 "HLVR_CraftingStation_SmallPrint"					"國民保安附件 19-81572"
@@ -637,7 +646,7 @@
 "HLVR_Combine_Chatter"								"[合成人通訊]"
 
 // In-world signage
-"HLVR_Signage_Infestation_Control1"					"警告："
+"HLVR_Signage_Infestation_Control1"					"注意："
 "HLVR_Signage_Infestation_Control2"					"感染控制"
 
 "HLVR_Signage_Emergency"							"緊急"
@@ -648,6 +657,203 @@
 
 "HLVR_Credits_ContractorsHeader"					"其他開發人員"
 "HLVR_Credits_CastHeader"							"演員陣容"
+
+
+
+// Commentary Titles
+
+// a1_intro_world
+"HLVR_Commentary_Intro1"							"歡迎致詞"
+"HLVR_Commentary_Intro2"							"介紹"
+"HLVR_Commentary_Citadel_Vista"						"城塔景觀"
+"HLVR_Commentary_Greenhouse"						"溫室"
+"HLVR_Commentary_Strider"							"長腳蜘蛛"
+"HLVR_Commentary_Refuge"							"避難所"
+"HLVR_Commentary_Olga"								"歐嘉"
+"HLVR_Commentary_Music"								"遊戲音樂"
+"HLVR_Commentary_Alley"								"巷子"
+
+// a1_intro_world_2
+"HLVR_Commentary_Van_Crash"							"廂型車車禍"
+"HLVR_Commentary_Pacing1"							"步調（1）"
+"HLVR_Commentary_Pacing2"							"步調（2）"
+"HLVR_Commentary_Pacing3"							"步調（3）"
+"HLVR_Commentary_Russell_Typing"					"羅素打字的動作和音效"
+"HLVR_Commentary_Russell_Choreo"					"角色編排"
+"HLVR_Commentary_GG_Training_1"						"重力手套訓練（1）"
+"HLVR_Commentary_GG_Training_2"						"重力手套訓練（2）"
+
+// a2_quarantine_entrance
+"HLVR_Commentary_Resin"								"樹脂"
+"HLVR_Commentary_Toner_Intro"						"電路謎題"
+"HLVR_Commentary_Lighting"							"光線"
+"HLVR_Commentary_Barnacles"							"藤壺怪"
+"HLVR_Commentary_Pistol_Training1"					"裝填手槍彈藥"
+"HLVR_Commentary_Locker_Hacking"					"破解小遊戲"
+
+// a2_pistol
+"HLVR_Commentary_Health_Injectors"					"生命值注射器"
+"HLVR_Commentary_Pistol_Training2"					"手槍訓練"
+"HLVR_Commentary_Train_Cars"						"蹲下"
+"HLVR_Commentary_Breakable_Glass"					"可以打破的玻璃"
+"HLVR_Commentary_Weapon_Upgrades"					"升級武器"
+"HLVR_Commentary_Comfort_Pacing"					"玩家舒適度與步調"
+"HLVR_Commentary_Art_Pacing"						"美術與節奏"
+"HLVR_Commentary_Headcrab_Foreshadowing"			"食腦蟲預告"
+
+// a2_hideout
+"HLVR_Commentary_Mural"								"戰慄時空壁畫"
+"HLVR_Commentary_Mural_Music"						"音樂主題"
+"HLVR_Commentary_Alyx_Reacts"						"艾莉克絲的反應"
+"HLVR_Commentary_Hideout_Interactivity"				"和藏身處的互動"
+"HLVR_Commentary_Hideout_Scene"						"藏身處場景"
+
+// a2_headcrabs_tunnel
+"HLVR_Commentary_ArmoredHeadcrabs1"					"裝甲食腦蟲（1）"
+"HLVR_Commentary_ArmoredHeadcrabs2"					"裝甲食腦蟲（2）"
+"HLVR_Commentary_ArmoredHeadcrabs3"					"裝甲食腦蟲（3）"
+"HLVR_Commentary_ShotgunGate1"						"對應散彈槍的大門（1）"
+"HLVR_Commentary_ShotgunGate2"						"對應散彈槍的大門（2）"
+"HLVR_Commentary_ShotgunDesign1"					"霰彈槍設計 1"
+"HLVR_Commentary_ShotgunDesign2"					"霰彈槍設計 2"
+"HLVR_Commentary_DarknessGate"						"黑暗空間的大門"
+"HLVR_Commentary_TonerAirlock"						"電路氣密室"
+"HLVR_Commentary_Flashlight1"						"手電筒"
+"HLVR_Commentary_Flashlight2"						"手電筒連結"
+"HLVR_Commentary_Sandwiches"						"三明治"
+
+// a2_drainage
+"HLVR_Commentary_Budgeting"							"預算"
+"HLVR_Commentary_Barnacle_Sounds"					"藤壺怪音效"
+"HLVR_Commentary_Manhack_Introduction"				"鉅鳥音效"
+"HLVR_Commentary_Exterior_Pacing"					"外部步調"
+"HLVR_Commentary_Xen_Barrels"						"Xen 生長過剩"
+"HLVR_Commentary_Volumetric_Lighting"				"體積光線照明"
+
+// a2_train_yard
+"HLVR_Commentary_Combine_Sighting"					"發現合成人"
+"HLVR_Commentary_Single_Combine"					"初次遭遇合成人"
+"HLVR_Commentary_First_Combine_Skirmish"			"和合成人戰鬥"
+"HLVR_Commentary_Train_Crash"						"火車車禍"
+"HLVR_Commentary_Eli_Rescue"						"救出伊萊"
+
+// a3_station_street
+"HLVR_Commentary_Melee"								"鐵撬呢？"
+"HLVR_Commentary_Vault_View"						"看見金庫"
+"HLVR_Commentary_Throwing"							"投擲的動作"
+"HLVR_Commentary_Optional_Toner"					"電路謎題"
+"HLVR_Commentary_Substation_Music"					"變電所的聲音"
+
+// a3_hotel_lobby_basement
+"HLVR_Commentary_Physics_Sounds"					"物理音效"
+"HLVR_Commentary_Liquid_Bottles"					"瓶子裡的液體"
+"HLVR_Commentary_Xen_Art"							"Xen 的美術設計"
+"HLVR_Commentary_Xen_Animation"						"Xen 的植物動畫"
+"HLVR_Commentary_Reviver_Intro"						"「復活者」登場"
+"HLVR_Commentary_Reviver_Animation"					"復活者的動作演出"
+"HLVR_Commentary_HLPR"								"遊戲預告片"
+
+// a3_hotel_underground_pit
+"HLVR_Commentary_Teleport_Immersion"				"傳送移動和沉浸感"
+"HLVR_Commentary_Reviver_Foreshadowing"				"復活者預告"
+"HLVR_Commentary_Reviver_Training"					"復活者戰鬥訓練"
+"HLVR_Commentary_Reviver_Ground_Attack"				"復活者的地面攻擊"
+"HLVR_Commentary_Elevator_Comfort"					"電梯的休憩時刻"
+"HLVR_Commentary_Substation_Design"					"變電所外觀"
+
+// a3_hotel_interior_rooftop
+"HLVR_Commentary_Xen_Response"						"Xen 植物的反應"
+"HLVR_Commentary_Particle_Effects"					"VR 環境下的粒子效果"
+"HLVR_Commentary_Darkness"							"伸手不見五指"
+"HLVR_Commentary_Ammo_Balancing_1"					"彈藥資源的平衡（1）"
+"HLVR_Commentary_Ammo_Balancing_2"					"彈藥資源的平衡（2）"
+"HLVR_Commentary_Ammo_Balancing_3"					"彈藥資源的平衡（3）"
+"HLVR_Commentary_Double_Reviver"					"對付兩隻復活者的戰鬥"
+
+// a3_hotel_street
+"HLVR_Commentary_Vort_Energy"						"弗地崗人的能量"
+"HLVR_Commentary_Substation_Vort"					"弗地崗人的動作演出"
+"HLVR_Commentary_Prefabs"							"預製套件"
+"HLVR_Commentary_Procedural_Displacement"			"程式控制位移"
+"HLVR_Commentary_Character_Movement"				"角色移動"
+"HLVR_Commentary_Trip_Mines"						"陷阱地雷"
+"HLVR_Commentary_Combat_Pacing"						"戰鬥步調"
+"HLVR_Commentary_Xen_World_Building"				"Xen 與打造遊戲世界"
+"HLVR_Commentary_Mannequin_Headcrab"				"假食腦蟲的模型"
+
+// a3_c17_processing_plant
+"HLVR_Commentary_Pistol_Hopper"						"手槍容量升級"
+"HLVR_Commentary_Soundscapes"						"聲音景觀"
+"HLVR_Commentary_Suppressor_Intro"					"壓制兵登場"
+"HLVR_Commentary_Environment_Art"					"環境美術"
+"HLVR_Commentary_AI_In_VR"							"VR 中的 AI"
+"HLVR_Commentary_Ladders"							"梯子"
+
+// a3_distillery
+"HLVR_Commentary_Jeff"								"傑夫"
+"HLVR_Commentary_Xen_Ears"							"Xen 之耳"
+"HLVR_Commentary_Xen_Clams"							"Xen 蛤蠣"
+"HLVR_Commentary_Larry"								"拉里"
+"HLVR_Commentary_Coughing"							"咳嗽"
+"HLVR_Commentary_Single_Controller"					"單一控制器模式"
+"HLVR_Commentary_Jeff_Attack"						"進擊的傑夫"
+"HLVR_Commentary_Training_Alcove"					"訓練空間"
+"HLVR_Commentary_Jeff_Design"						"傑夫的外觀"
+"HLVR_Commentary_Freezer_Toner_Puzzle"				"冰箱電路謎題"
+"HLVR_Commentary_Elevator"							"Elevator"
+"HLVR_Commentary_Cheeky_Headcrab"					"頑皮食腦蟲的逃脫"
+"HLVR_Commentary_Combine_Forcefields"				"合成人力場"
+"HLVR_Commentary_Sounds"							"聲音"
+"HLVR_Commentary_Jeff_Death"						"傑夫之死"
+
+// a4_c17_zoo
+"HLVR_Commentary_Antlion_Combat"					"蟻獅戰鬥"
+"HLVR_Commentary_Foliage"							"植物"
+"HLVR_Commentary_Antlion_Sounds"					"蟻獅音效"
+"HLVR_Commentary_Anim_Interactables"				"動畫可互動物件"
+"HLVR_Commentary_Toner_Puzzle1"						"電路謎題"
+"HLVR_Commentary_Toner_Puzzle2"						"重要的連接點"
+
+// a4_c17_tanker_yard
+"HLVR_Commentary_Tractor_Beam"						"牽引光束"
+"HLVR_Commentary_Collaborator"						"合作人"
+"HLVR_Commentary_Scavenger_Hideout"					"腐食生物藏身處"
+"HLVR_Commentary_Spectator_HUD"						"觀看者狀態欄 (HUD)"
+"HLVR_Commentary_Tanker_Yard_Combat"				"調車場的戰鬥"
+
+// a4_c17_water_tower
+"HLVR_Commentary_Chasm_Puzzle"						"裂口難題"
+"HLVR_Commentary_Combine_Combat"					"合成人戰鬥"
+"HLVR_Commentary_Vertical_Tower"					"垂直戰局"
+"HLVR_Commentary_Vault_Panel"						"金庫控制面板"
+
+// a4_c17_parking_garage
+"HLVR_Commentary_Strider_Intro"						"長腳蜘蛛登場"
+"HLVR_Commentary_Lone_Combine"						"孤獨的合成人"
+"HLVR_Commentary_Disabled_Strider"					"停止運作的長腳蜘蛛"
+"HLVR_Commentary_Lion_And_Mouse"					"獅子與老鼠"
+"HLVR_Commentary_AI_Animation"						"AI 和動畫"
+"HLVR_Commentary_Elevator"							"搭電梯"
+"HLVR_Commentary_Destructible_Cover"				"可破壞的掩體"
+"HLVR_Commentary_Minigun"							"長腳蜘蛛的火神砲"
+"HLVR_Commentary_Doorframe_Bash"					"破門而入"
+"HLVR_Commentary_Strider_Sounds"					"長腳蜘蛛的音效"
+"HLVR_Commentary_Gauss_Cannon"						"高斯炮"
+"HLVR_Commentary_Destroy_Strider"					"摧毀長腳蜘蛛"
+"HLVR_Commentary_Mounted_Gun"						"固定式機槍"
+
+// a5_vault
+"HLVR_Commentary_Broken_Vault_Music"				"扭曲變異的金庫音樂"
+"HLVR_Commentary_Sideways_Music"					"來自側面的音樂"
+"HLVR_Commentary_Surreal_Vault"						"超現實感的金庫"
+"HLVR_Commentary_Vort_Lightning"					"弗地崗閃電"
+
+
+// a5_ending
+"HLVR_Commentary_Coetaneous"						"過去的糾纏"
+"HLVR_Commentary_GMan_Room"							"G-Man 的房間"
+
+
 
 // Game Tips
 "HLVR_LOADING_SCREEN_TIP_COUNT"				"二十二"

@@ -495,7 +495,7 @@
 			causes_ducking = 0
 			duck_to_percent = 100
 			ducker_threshold = 20
-		},		
+		},
 		{
 			name = "Combine_Elevator_Loop"
 			path_substring = ""
@@ -716,7 +716,7 @@
 			causes_ducking = 0
 			duck_to_percent = 100
 			ducker_threshold = 20
-		},		
+		},
 		{
 			name = "ScriptedSequence_Loud"
 			path_substring = ""
@@ -758,6 +758,19 @@
 		},
 		{
 			name = "All"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "Commentary"
 			path_substring = ""
 			class_substring = ""
 			chan_type = ""
@@ -1077,7 +1090,7 @@
 				dsp = 1.0
 				solo = 0.0
 				mute = 0.0
-			},			
+			},
 			{
 				mixgroup = "Combine_Elevator_Loop"
 				vol = 0.4
@@ -1213,7 +1226,7 @@
 				dsp = 1.0
 				solo = 0.0
 				mute = 0.0
-			},			
+			},
 			{
 				mixgroup = "ScriptedSequence_Loud"
 				vol = 1.0
@@ -1242,6 +1255,14 @@
 				mixgroup = "All"
 				vol = 0.7
 				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Commentary"
+				vol = 1.0
+				lvl = 0.0
 				dsp = 0.0
 				solo = 0.0
 				mute = 0.0
@@ -1536,7 +1557,7 @@
 				dsp = 0.0
 				solo = 0.0
 				mute = 0.0
-			},			
+			},
 			{
 				mixgroup = "Combine_Elevator_Loop"
 				vol = 0.4
@@ -1600,7 +1621,7 @@
 				dsp = 0.0
 				solo = 0.0
 				mute = 0.0
-			},			
+			},
 			{
 				mixgroup = "Physics_Breaking"
 				vol = 1.0
@@ -1642,14 +1663,6 @@
 				mute = 0.0
 			},
 			{
-				mixgroup = "Combat"
-				vol = 1.0
-				lvl = 1.0
-				dsp = 0.0
-				solo = 0.0
-				mute = 0.0
-			},
-			{
 				mixgroup = "Weapons"
 				vol = 0.79
 				lvl = 1.0
@@ -1680,7 +1693,7 @@
 				dsp = 0.0
 				solo = 0.0
 				mute = 0.0
-			},			
+			},
 			{
 				mixgroup = "ScriptedSequence_Loud"
 				vol = 1.0
@@ -1709,6 +1722,14 @@
 				mixgroup = "All"
 				vol = 0.7
 				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Commentary"
+				vol = 1.0
+				lvl = 0.0
 				dsp = 0.0
 				solo = 0.0
 				mute = 0.0
@@ -1852,7 +1873,7 @@
 				},
 			]
 			Triggers = [  ]
-		}		
+		}
 		Boost_Combine_Elevator = 
 		{
 			Mixers = 
@@ -1867,7 +1888,7 @@
 				},
 			]
 			Triggers = [  ]
-		}		
+		}
 		Duck_Player_Steps = 
 		{
 			Mixers = 
@@ -1882,6 +1903,30 @@
 				},
 			]
 			Triggers = [  ]
+		}
+		CommentaryLayer = 
+		{
+			Mixers = 
+			[
+				{
+					mixgroup = "Commentary"
+					vol = 1.0
+					lvl = 1.0
+					dsp = 1.0
+					mute = 0.0
+					solo = 0.83
+				},
+			]
+			Triggers = 
+			[
+				{
+					trigger = "Commentary"
+					threshold = 0.0
+					mixamount = 1.0
+					attack = 0.2
+					release = 0.5
+				},
+			]
 		}
 	}
 }

@@ -55,7 +55,13 @@
 "HLVR_MainMenu_NoAddonsEnabled"			"애드온 게임에 활성화된 애드온 없음"
 "HLVR_MainMenu_AddonToggleInfo"			"왼쪽의 전환 버튼을 눌러 활성화하거나 비활성화하세요"
 "HLVR_MainMenu_LocalAddon"				"로컬 애드온"
-"HLVR_MainMenu_MissingAddon"			"The following addon(s) are missing.  Please resubscribe to load this file"
+"HLVR_MainMenu_MissingAddon"			"다음 애드온을 찾을 수 없습니다. 재구독하여 이 파일을 불러오세요"
+
+"HLVR_MainMenu_OriginalGame"			"기존 게임"
+"HLVR_MainMenu_AddonGame"				"애드온 게임"
+
+"HLVR_MainMenu_OriginalMaps"			"기존 게임"
+"HLVR_MainMenu_AddonMaps"				"애드온 맵"
 
 "HLVR_MainMenu_AddonUpVote"				"추천"
 "HLVR_MainMenu_AddonDownVote"			"비추천"
@@ -134,6 +140,9 @@
 "HLVR_Options_On"					"켜짐"
 "HLVR_Options_Off"				"꺼짐"
 
+"HLVR_Options_Commentary"					"개발자 코멘터리"
+"HLVR_Options_Commentary_desc"				"플레이 중 개발자 코멘터리 노드를 켭니다.\n\n경고: 코멘터리에는 중요 스포일러가가 포함되어 있습니다.\n\n게임 플레이를 먼저 끝내는 것을 추천합니다."
+
 "HLVR_Options_Movement_Base"					"이동"
 "HLVR_Options_Movement_Blink"					"점멸 이동"
 "HLVR_Options_Movement_Shift"					"빠른 이동"
@@ -177,6 +186,9 @@
 
 "HLVR_Options_ContinuousTurn_Speed_Base"		"자연스러운 회전 속도"
 "HLVR_Options_ContinuousTurn_Speed_desc"		"자연스러운 회전의 각속도입니다."
+
+"HLVR_Options_DLC_Skins"						"스킨 예약 주문"
+"HLVR_Options_DLC_Skins_desc"					"Valve Index를 예약 주문하고 받은 무기 스킨의 사용을 활성화합니다."
 
 "HLVR_Options_Subtitles"						"자막"
 "HLVR_Options_Subtitles_Base"					"자막"
@@ -530,7 +542,6 @@
 "HLVR_CraftingStation_ResinAmount"					"{i:CurrencyAmount}"
 "HLVR_CraftingStation_SelectObject"					"물체 선택"
 "HLVR_CraftingStation_SelectedWeapon"				"{s:WeaponName}"
-"HLVR_CraftingStation_SelectUpgrade"				"{s:WeaponName} 업그레이드 선택"
 "HLVR_CraftingStation_Upgrades"						"업그레이드"
 "HLVR_CraftingStation_Cost"							"비용"
 "HLVR_CraftingStation_Summary"						"요약"
@@ -548,8 +559,6 @@
 "HLVR_CraftingStation_TakeObject"					"아이템 받기"
 "HLVR_CraftingStation_PrintObject"					"물체 프린트"
 "HLVR_CraftingStation_UpgradeOwned"					"보유 중"
-"HLVR_CraftingStation_SelectedPrint"				"선택: {s:SelectedPrintObject}"
-"HLVR_CraftingStation_SelectedUpgrade"				"선택한 업그레이드: {s:SelectedUpgrade}"
 "HLVR_CraftingStation_Cancel"						"취소"
 "HLVR_CraftingStation_Back"							"뒤로"
 "HLVR_CraftingStation_SmallPrint"					"시민 보호 기동대 별관 19-81572"
@@ -648,6 +657,202 @@
 
 "HLVR_Credits_ContractorsHeader"					"추가 개발"
 "HLVR_Credits_CastHeader"							"출연진"
+
+
+
+// Commentary Titles
+
+// a1_intro_world
+"HLVR_Commentary_Intro1"							"환영 인사"
+"HLVR_Commentary_Intro2"							"소개"
+"HLVR_Commentary_Citadel_Vista"						"요새 전경"
+"HLVR_Commentary_Greenhouse"						"온실"
+"HLVR_Commentary_Strider"							"스트라이더"
+"HLVR_Commentary_Refuge"							"피난실"
+"HLVR_Commentary_Olga"								"올가"
+"HLVR_Commentary_Music"								"음악"
+"HLVR_Commentary_Alley"								"샛길"
+
+// a1_intro_world_2
+"HLVR_Commentary_Van_Crash"							"밴 충돌"
+"HLVR_Commentary_Pacing1"							"진행 속도 1"
+"HLVR_Commentary_Pacing2"							"진행 속도 2"
+"HLVR_Commentary_Pacing3"							"진행 속도 3"
+"HLVR_Commentary_Russell_Typing"					"타이핑하는 러셀"
+"HLVR_Commentary_Russell_Choreo"					"캐릭터 연출"
+"HLVR_Commentary_GG_Training_1"						"중력 장갑 훈련 1"
+"HLVR_Commentary_GG_Training_2"						"중력 장갑 훈련 2"
+
+// a2_quarantine_entrance
+"HLVR_Commentary_Resin"								"레진"
+"HLVR_Commentary_Toner_Intro"						"토너 퍼즐"
+"HLVR_Commentary_Lighting"							"라이팅"
+"HLVR_Commentary_Barnacles"							"바나클"
+"HLVR_Commentary_Pistol_Training1"					"권총 재장전"
+"HLVR_Commentary_Locker_Hacking"					"해킹"
+
+// a2_pistol
+"HLVR_Commentary_Health_Injectors"					"체력 주입기"
+"HLVR_Commentary_Pistol_Training2"					"권총 훈련"
+"HLVR_Commentary_Train_Cars"						"웅크리기"
+"HLVR_Commentary_Breakable_Glass"					"깨지는 유리"
+"HLVR_Commentary_Weapon_Upgrades"					"무기 업그레이드"
+"HLVR_Commentary_Comfort_Pacing"					"플레이어 편의 및 속도"
+"HLVR_Commentary_Headcrab_Foreshadowing"			"헤드크랩 예고"
+
+// a2_hideout
+"HLVR_Commentary_Mural"								"Half-Life 벽화"
+"HLVR_Commentary_Mural_Music"						"음악 모티프"
+"HLVR_Commentary_Alyx_Reacts"						"알릭스의 반응"
+"HLVR_Commentary_Hideout_Interactivity"				"은신처 상호작용"
+"HLVR_Commentary_Hideout_Scene"						"은신처 장면"
+
+// a2_headcrabs_tunnel
+"HLVR_Commentary_ArmoredHeadcrabs1"					"무장한 헤드크랩 1"
+"HLVR_Commentary_ArmoredHeadcrabs2"					"무장한 헤드크랩 2"
+"HLVR_Commentary_ArmoredHeadcrabs3"					"무장한 헤드크랩 3"
+"HLVR_Commentary_ShotgunGate1"						"산탄총 관문 1"
+"HLVR_Commentary_ShotgunGate2"						"산탄총 관문 2"
+"HLVR_Commentary_ShotgunDesign1"					"산탄총 디자인 1"
+"HLVR_Commentary_ShotgunDesign2"					"산탄총 디자인 2"
+"HLVR_Commentary_DarknessGate"						"어둠 관문"
+"HLVR_Commentary_TonerAirlock"						"토너 에어락"
+"HLVR_Commentary_Flashlight1"						"플래시"
+"HLVR_Commentary_Flashlight2"						"플래시 표현"
+"HLVR_Commentary_Sandwiches"						"샌드위치"
+
+// a2_drainage
+"HLVR_Commentary_Budgeting"							"예산"
+"HLVR_Commentary_Barnacle_Sounds"					"바나클 사운드"
+"HLVR_Commentary_Manhack_Introduction"				"맨핵 사운드"
+"HLVR_Commentary_Exterior_Pacing"					"외부 진행 속도"
+"HLVR_Commentary_Xen_Barrels"						"과도성장 젠"
+"HLVR_Commentary_Volumetric_Lighting"				"볼류메트릭 라이팅"
+
+// a2_train_yard
+"HLVR_Commentary_Combine_Sighting"					"콤바인 발견"
+"HLVR_Commentary_Single_Combine"					"첫 번째 콤바인"
+"HLVR_Commentary_First_Combine_Skirmish"			"콤바인 전투"
+"HLVR_Commentary_Train_Crash"						"기차 충돌"
+"HLVR_Commentary_Eli_Rescue"						"일라이 구출"
+
+// a3_station_street
+"HLVR_Commentary_Melee"								"쇠지렛대가 없다고요?"
+"HLVR_Commentary_Vault_View"						"볼트 전망"
+"HLVR_Commentary_Throwing"							"투척"
+"HLVR_Commentary_Optional_Toner"					"토너 퍼즐"
+"HLVR_Commentary_Substation_Music"					"변전소 사운드"
+
+// a3_hotel_lobby_basement
+"HLVR_Commentary_Physics_Sounds"					"물리적 사운드"
+"HLVR_Commentary_Liquid_Bottles"					"병 안의 액체"
+"HLVR_Commentary_Xen_Art"							"젠 아트"
+"HLVR_Commentary_Xen_Animation"						"젠 식물군 애니메이션"
+"HLVR_Commentary_Reviver_Intro"						"리바이버 소개"
+"HLVR_Commentary_Reviver_Animation"					"리바이버 애니메이션"
+"HLVR_Commentary_HLPR"								"게임 트레일러"
+
+// a3_hotel_underground_pit
+"HLVR_Commentary_Teleport_Immersion"				"순간 이동 및 몰입"
+"HLVR_Commentary_Reviver_Foreshadowing"				"리바이버 예고"
+"HLVR_Commentary_Reviver_Training"					"리바이버 훈련"
+"HLVR_Commentary_Reviver_Ground_Attack"				"리바이버 지상 공격"
+"HLVR_Commentary_Elevator_Comfort"					"편안한 엘리베이터 사용"
+"HLVR_Commentary_Substation_Design"					"변전소 디자인"
+
+// a3_hotel_interior_rooftop
+"HLVR_Commentary_Xen_Response"						"젠 식물군 반응"
+"HLVR_Commentary_Particle_Effects"					"VR에서의 입자"
+"HLVR_Commentary_Darkness"							"어둠"
+"HLVR_Commentary_Ammo_Balancing_1"					"실탄 밸런싱 1"
+"HLVR_Commentary_Ammo_Balancing_2"					"실탄 밸런싱 2"
+"HLVR_Commentary_Ammo_Balancing_3"					"실탄 밸런싱 3"
+"HLVR_Commentary_Double_Reviver"					"두 리바이버의 전투"
+
+// a3_hotel_street
+"HLVR_Commentary_Vort_Energy"						"보르티곤트 에너지"
+"HLVR_Commentary_Substation_Vort"					"보르티곤트 애니메이션"
+"HLVR_Commentary_Prefabs"							"프리팹"
+"HLVR_Commentary_Procedural_Displacement"			"점진적 이동"
+"HLVR_Commentary_Character_Movement"				"캐릭터 움직임"
+"HLVR_Commentary_Trip_Mines"						"트립마인"
+"HLVR_Commentary_Combat_Pacing"						"전투 속도"
+"HLVR_Commentary_Xen_World_Building"				"젠 세계 건물"
+"HLVR_Commentary_Mannequin_Headcrab"				"마네킹 헤드크랩"
+
+// a3_c17_processing_plant
+"HLVR_Commentary_Pistol_Hopper"						"권총 호퍼 업그레이드"
+"HLVR_Commentary_Soundscapes"						"사운드스케이프"
+"HLVR_Commentary_Suppressor_Intro"					"압제자 소개"
+"HLVR_Commentary_Environment_Art"					"환경 아트"
+"HLVR_Commentary_AI_In_VR"							"VR 속 AI"
+"HLVR_Commentary_Ladders"							"사다리"
+
+// a3_distillery
+"HLVR_Commentary_Jeff"								"제프"
+"HLVR_Commentary_Xen_Ears"							"젠의 귀"
+"HLVR_Commentary_Xen_Clams"							"젠 조개"
+"HLVR_Commentary_Larry"								"래리"
+"HLVR_Commentary_Coughing"							"기침"
+"HLVR_Commentary_Single_Controller"					"싱글 컨트롤러 모드"
+"HLVR_Commentary_Jeff_Attack"						"제프의 공격"
+"HLVR_Commentary_Training_Alcove"					"훈련 공간"
+"HLVR_Commentary_Jeff_Design"						"제프 디자인"
+"HLVR_Commentary_Freezer_Toner_Puzzle"				"냉동고 토너 퍼즐"
+"HLVR_Commentary_Elevator"							"Elevator"
+"HLVR_Commentary_Cheeky_Headcrab"					"까불거리는 헤드크랩의 탈출"
+"HLVR_Commentary_Combine_Forcefields"				"콤바인 방어장"
+"HLVR_Commentary_Sounds"							"사운드"
+"HLVR_Commentary_Jeff_Death"						"제프의 죽음"
+
+// a4_c17_zoo
+"HLVR_Commentary_Antlion_Combat"					"개미귀신 전투"
+"HLVR_Commentary_Foliage"							"나뭇잎"
+"HLVR_Commentary_Antlion_Sounds"					"개미귀신 사운드"
+"HLVR_Commentary_Anim_Interactables"				"Anim Interactables"
+"HLVR_Commentary_Toner_Puzzle1"						"토너 퍼즐"
+"HLVR_Commentary_Toner_Puzzle2"						"중요 분기점"
+
+// a4_c17_tanker_yard
+"HLVR_Commentary_Tractor_Beam"						"견인 광선"
+"HLVR_Commentary_Collaborator"						"협조자"
+"HLVR_Commentary_Scavenger_Hideout"					"약탈자 은신처"
+"HLVR_Commentary_Spectator_HUD"						"관전자 HUD"
+"HLVR_Commentary_Tanker_Yard_Combat"				"유조선소 전투"
+
+// a4_c17_water_tower
+"HLVR_Commentary_Chasm_Puzzle"						"틈 퍼즐"
+"HLVR_Commentary_Combine_Combat"					"콤바인 전투"
+"HLVR_Commentary_Vertical_Tower"					"수직성"
+"HLVR_Commentary_Vault_Panel"						"볼트 제어판"
+
+// a4_c17_parking_garage
+"HLVR_Commentary_Strider_Intro"						"스트라이더 소개"
+"HLVR_Commentary_Lone_Combine"						"고독한 콤바인"
+"HLVR_Commentary_Disabled_Strider"					"비활성화된 스트라이더"
+"HLVR_Commentary_Lion_And_Mouse"					"사자와 쥐"
+"HLVR_Commentary_AI_Animation"						"AI와 애니메이션"
+"HLVR_Commentary_Elevator"							"엘리베이터 탑승"
+"HLVR_Commentary_Destructible_Cover"				"파괴 가능한 엄폐물"
+"HLVR_Commentary_Minigun"							"스트라이더 미니건"
+"HLVR_Commentary_Doorframe_Bash"					"문틀 부수기"
+"HLVR_Commentary_Strider_Sounds"					"스트라이더 사운드"
+"HLVR_Commentary_Gauss_Cannon"						"가우스 캐논"
+"HLVR_Commentary_Destroy_Strider"					"스트라이더 처치"
+"HLVR_Commentary_Mounted_Gun"						"장착형 총"
+
+// a5_vault
+"HLVR_Commentary_Broken_Vault_Music"				"부서진 볼트 음악"
+"HLVR_Commentary_Sideways_Music"					"기울어진 방 음악"
+"HLVR_Commentary_Surreal_Vault"						"초현실적 볼트"
+"HLVR_Commentary_Vort_Lightning"					"보르티곤트 번개"
+
+
+// a5_ending
+"HLVR_Commentary_Coetaneous"						"동시대의 얽힘"
+"HLVR_Commentary_GMan_Room"							"G맨 방"
+
+
 
 // Game Tips
 "HLVR_LOADING_SCREEN_TIP_COUNT"				"22"

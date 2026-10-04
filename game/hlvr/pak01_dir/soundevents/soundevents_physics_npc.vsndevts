@@ -1,10 +1,11 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	PhysImpact_NPC.Base_Small = 
 	{
 		type = "hlvr_phys_impact_basic"
-		vgraph_volume_mult = 0.500000
-		use_contents_layer = 1.000000
-		vol_mult_contents = 0.600000
+		vgraph_volume_mult = 0.5
+		use_contents_layer = 1.0
+		vol_mult_contents = 0.6
 		vsnd_files_a = 
 		[
 			"sounds/physics/props/flesh/impact_a_01.vsnd",
@@ -56,10 +57,10 @@
 	PhysImpact_NPC.Base_Large = 
 	{
 		type = "hlvr_phys_impact_basic"
-		vgraph_volume_mult = 0.750000
-		use_contents_layer = 1.000000
-		vol_mult_contents = 0.900000
-		vol_mult_d = 1.000000
+		vgraph_volume_mult = 0.75
+		use_contents_layer = 1.0
+		vol_mult_contents = 0.9
+		vol_mult_d = 1.0
 		vsnd_files_a = 
 		[
 			"sounds/physics/props/flesh/impact_a_01.vsnd",
@@ -110,7 +111,7 @@
 	PhysImpact_NPC.Combine_Soldier = 
 	{
 		base = "PhysImpact_NPC.Base_Large"
-		vol_mult_contents = 0.500000
+		vol_mult_contents = 0.5
 		vsnd_files_c = 
 		[
 			"sounds/physics/props/flesh/impact_c_01.vsnd",
@@ -134,7 +135,7 @@
 	PhysImpact_NPC.Charger_Shield = 
 	{
 		type = "hlvr_phys_impact_basic"
-		vgraph_volume_mult = 0.200000
+		vgraph_volume_mult = 0.2
 		vsnd_files_c = 
 		[
 			"sounds/physics/bullet_impacts/npc_charger_shield_01.vsnd",

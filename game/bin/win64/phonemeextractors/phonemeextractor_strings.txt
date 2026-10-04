@@ -24,6 +24,8 @@
 .00cfg
 .?AVCPhonemeExtractorSAPI@@
 .?AVIPhonemeExtractor@@
+.?AVbad_exception@std@@
+.?AVexception@std@@
 .?AVtype_info@@
 .CRT$XCA
 .CRT$XCC
@@ -44,9 +46,8 @@
 .bss
 .data
 .data$r
+.data$rs
 .edata
-.gfids$x
-.gfids$y
 .idata$2
 .idata$3
 .idata$4
@@ -56,6 +57,7 @@
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .rtc$IAA
 .rtc$IZZ
@@ -71,30 +73,33 @@
 .tls$ZZZ
 .xJ>Hf
 .xdata
+.xdata$x
 0iN>/
 11Y@
 1DBlend
+2\vpl
 333?
 37>k
 3>N;kU
 3>fvw
-6>hh
 <sil>
 =cQ6
 =imb;D
 >cQ6
 >jtm}S
 ?7zQ6$
+??0CThreadMutex@@QEAA@XZ
 ?CUtlString::FormatV
 ?Concat@CBufferString@@QEAAPEBDPEBD0ZZ
 ?FixSlashes@CBufferString@@QEAAPEBDD@Z
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?Purge@CBufferString@@QEAAXH@Z
 ?SetExtension@CBufferString@@QEAAPEBDPEBD@Z
 ?StartsWith@CBufferString@@QEAA_NPEBD@Z
 ?UUUUUU
+?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
 ?f`Y4
 ?qBJ
@@ -165,7 +170,9 @@ AnimStartLoop
 AnimSubtract
 Animation
 AnimationList
+AppPolicyGetProcessTerminationMethod
 April
+AreFileApisANSI
 Ate : upper-mid front unrounded vowel
 August
 AutoLayer
@@ -197,8 +204,12 @@ COLLISION_MODE_USE_NEAREST_TRACE
 COrderedConstructor_Create<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>,class CResolveOrderedFunc<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>,&void __cdecl _ORDERED_INIT_SHUTDOWN_WRAPPER_RESOLVEFUNC<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>(class COrderedConstructor_DependencyManagement<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)> > &)>,0>::AddRef
 CParticleSystemDefinition
 CSolveIKChainAnimNode
+CTSListBase: Misaligned list\n
+CTSListBase::CTSListBase
 CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
 CUtlMemoryPoolBase::CUtlMemoryPoolBase
+CUtlRBTree overflow with %u elements!\n
+CUtlRBTree<void *,int,bool (__cdecl*)(void * const &,void * const &),class CUtlMemory<struct UtlRBTreeNode_t<void *,int>,int> >::NewNode
 C_INIT_AddVectorToVector
 C_INIT_AgeNoise
 C_INIT_CreateFromCPs
@@ -310,6 +321,7 @@ DynamicConfigList
 ET5>
 EditorDynamicConfig
 EmptyAnim
+EncodePointer
 EnterCriticalSection
 Error:  In process recognizer object not installed?\n
 Error:  SAPI Cannot activate grammar rule. hr == %u\n
@@ -332,8 +344,8 @@ Error: couldn't open wav file %s\n
 ExitProcess
 February
 FindClose
-FindFirstFileExA
-FindNextFileA
+FindFirstFileExW
+FindNextFileW
 Finished.\n
 FlsAlloc
 FlsFree
@@ -351,9 +363,8 @@ GetCPInfo
 GetCPUInformation
 GetCommandLineA
 GetCommandLineW
-GetConsoleCP
 GetConsoleMode
-GetCurrentPackageId
+GetConsoleOutputCP
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -361,7 +372,7 @@ GetDefaultMiniDumpTypeFlags
 GetEnvironmentStringsW
 GetFileType
 GetLastError
-GetModuleFileNameA
+GetModuleFileNameW
 GetModuleHandleExW
 GetModuleHandleW
 GetOEMCP
@@ -384,7 +395,6 @@ IKRigBiped
 IKRigBug
 IKRigSimple
 IkLockLocal
-InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
@@ -477,6 +487,7 @@ Processing...\n
 Put; voiceless alveolar stop
 QueryPerformanceCounter
 RSDS
+R\fpl
 RaiseException
 Red : voiced alveolar approximant
 Red : voiced alveolar trill
@@ -491,6 +502,7 @@ RemoveBoneAndChildren
 RenderMeshFile
 RtlCaptureContext
 RtlLookupFunctionEntry
+RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
 S+Ot
@@ -536,6 +548,7 @@ URn : rhotacized lower-mid central vowel
 URn : rhotacized schwa
 UUUUUU
 UnhandledExceptionFilter
+Unknown exception
 Unrecognized phoneme %s\n
 VSNAPFile
 V_UTF32ToUTF16
@@ -561,7 +574,6 @@ WideCharToMultiByte
 With : voiced labial-velar approximant
 WriteConsoleW
 WriteFile
-X|(xi
 Yacht : voiced palatal approximant
 Zap : voiced alveolar fricative
 [ Hypothesis ] %s\n
@@ -575,6 +587,7 @@ Zap : voiced alveolar fricative
 \nCwf\r
 \tkE>fvw
 ]qBD
+_RDATA
 _V_strncat
 _V_strncpy
 __based(
@@ -586,12 +599,15 @@ __pascal
 __ptr64
 __restrict
 __stdcall
+__swift_1
+__swift_2
 __thiscall
 __unaligned
 __vectorcall
 _class
 _test_conversion_counter
 `RTTI
+`anonymous namespace'
 `copy constructor closure'
 `default constructor closure'
 `dynamic atexit destructor for '
@@ -646,6 +662,7 @@ attachment_type
 auto_unragdoll_duration
 bOOk : semi-high back rounded vowel
 bUpdate
+bad exception
 blendamount
 blockLOS
 body_type
@@ -663,6 +680,8 @@ burst_randomize
 burst_scale
 c:\buildslave\hlvr_rel_win64\build\src\mathlib\mathlib.cpp
 c:\buildslave\hlvr_rel_win64\build\src\public\ordered_constructor.h
+c:\buildslave\hlvr_rel_win64\build\src\public\tier0\tslist.h
+c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlrbtree.h
 c:\buildslave\hlvr_rel_win64\build\src\tier1\mempool.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\utlstring.cpp
 c:\buildslave\hlvr_rel_win64\build\src\utils\phonemeextractor\Retail\win64\phonemeextractor.pdb
@@ -908,7 +927,7 @@ modeldoc8
 modeldoc9
 multiplayer_break
 n03>Pu
-n\f"pA3Q(h
+n\f"pA3Qh
 name
 nav_attribute_avoid
 nav_data
@@ -916,6 +935,8 @@ numsegments
 ole32.dll
 operator
 operator "" 
+operator co_await
+operator<=>
 origin_max_delta
 origin_relative
 pEt : lower-mid front unrounded vowel
@@ -938,6 +959,7 @@ preferred_carryangles
 prop_data
 purecall
 r\tVr.>T
+r\vpl
 radius
 radius0
 radius1

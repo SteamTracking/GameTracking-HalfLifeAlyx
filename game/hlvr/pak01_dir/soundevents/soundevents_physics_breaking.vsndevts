@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	PhysNull.Break = 
 	{
@@ -11,14 +12,14 @@
 	PhysBreak.Default = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_max = 1500.000000
-		occlusion_scale = 0.300000
-		use_hrtf = 1.000000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
-		limiter_match_event = 1.000000
-		volume_fade_out = 0.500000
+		volume = 1.2
+		volume_falloff_max = 1500.0
+		occlusion_scale = 0.3
+		use_hrtf = 1.0
+		limiter_on = 1.0
+		limiter_max = 0.0
+		limiter_match_event = 1.0
+		volume_fade_out = 0.5
 		mixgroup = "Physics_Breaking"
 		vsnd_files = 
 		[
@@ -29,11 +30,11 @@
 	PhysBreak.Foliage = 
 	{
 		base = "PhysBreak.Default"
-		volume = 0.450000
-		occlusion_scale = 0.800000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
+		volume = 0.45
+		occlusion_scale = 0.8
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
 		vsnd_files = 
 		[
 			"sounds/world/foliage/foliage_interact_01.vsnd",
@@ -105,8 +106,8 @@
 	PhysBreak.Metal_Cocktail_Shaker = 
 	{
 		base = "PhysBreak.Default"
-		volume = 0.700000
-		volume_falloff_min = 200.000000
+		volume = 0.7
+		volume_falloff_min = 200.0
 		vsnd_files = 
 		[
 			"sounds/physics/breaking/break_metal_cocktail_shaker_01.vsnd",
@@ -116,8 +117,8 @@
 	PhysBreak.Metal_Paintcan = 
 	{
 		base = "PhysBreak.Default"
-		volume = 0.900000
-		volume_falloff_min = 200.000000
+		volume = 0.9
+		volume_falloff_min = 200.0
 		vsnd_files = 
 		[
 			"sounds/physics/footsteps/player/mud_puddle/step_01.vsnd",
@@ -151,8 +152,8 @@
 	PhysBreak.Plastic_Lid_Small = 
 	{
 		base = "PhysBreak.Default"
-		volume = 0.700000
-		volume_falloff_min = 200.000000
+		volume = 0.7
+		volume_falloff_min = 200.0
 		vsnd_files = 
 		[
 			"sounds/physics/breaking/break_plastic_lid_small_01.vsnd",
@@ -173,11 +174,11 @@
 	Phys.GlassBreakSm = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.800000
+		volume = 0.8
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		use_hrtf = 1.0
+		occlusion_scale = 0.8
 		mixgroup = "Physics_Breaking"
 		vsnd_files = 
 		[
@@ -194,11 +195,11 @@
 	Phys.GlassBreakMd = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.700000
+		volume = 0.9
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		use_hrtf = 1.0
+		occlusion_scale = 0.7
 		mixgroup = "Physics_Breaking"
 		vsnd_files = 
 		[
@@ -214,11 +215,11 @@
 	Phys.GlassBreakLg = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.600000
+		volume = 1.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		use_hrtf = 1.0
+		occlusion_scale = 0.6
 		mixgroup = "Physics_Breaking"
 		vsnd_files = 
 		[
@@ -334,7 +335,7 @@
 	PhysBreak.Wood_Picture_Frame_Large = 
 	{
 		base = "PhysBreak.Default"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/physics/breaking/break_wood_picture_frame_large_01.vsnd",
@@ -345,7 +346,7 @@
 	PhysBreak.Wood_Picture_Frame_Small = 
 	{
 		base = "PhysBreak.Default"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = 
 		[
 			"sounds/physics/breaking/break_wood_picture_frame_small_01.vsnd",

@@ -1,0 +1,24 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/base_styles.vcss_c" />
+		<include src="s2r://panorama/styles/commentary_nodeui.vcss_c" />
+    <include src="s2r://panorama/styles/language_shared.vcss_c" />
+	</styles>
+
+	<ClientUIDialogPanel class="RootPanel">
+		<HLVRCommentaryHUD class="CommentaryHUD" id="CommentaryHUD">
+      <Panel class ="CurrentNodeBox">
+        <Panel class ="CurrentNodeInternal">
+          <Panel class ="CurrentNodeNodeCountLine">
+            <Label class="CurrentNodeNodeCountText" id="NodeCount" text="{i:NodeCount} / {i:NodeCountMax}" />
+          </Panel>
+          <Panel class ="CurrentNodeTitleContainer">
+            <Panel class ="CurrentNodeTitleLine">
+              <Label class="CurrentNodeTitleText" id="NodeTitle" text="{s:NodeTitle}" />
+            </Panel>
+          </Panel>
+        </Panel>
+      </Panel>
+		</HLVRCommentaryHUD>
+	</ClientUIDialogPanel>
+</root>

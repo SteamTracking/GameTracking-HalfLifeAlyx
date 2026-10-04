@@ -1,0 +1,685 @@
+"lang" 
+{ 
+"Language" "thai" 
+"Tokens" 
+{ 
+
+// main menu
+"HLVR_MainMenu_NewGame"						"Start New Game"
+"HLVR_MainMenu_Continue"					"เล่นต่อ"
+"HLVR_MainMenu_LoadGame"					"โหลดเกมที่บันทึกไว้"
+"HLVR_MainMenu_Quit"							"ออกจากเกม"
+"HLVR_MainMenu_Options"						"ตัวเลือก"
+"HLVR_MainMenu_PhotoMode"					"โหมดภาพถ่าย"
+"HLVR_MainMenu_SelectChapter"			"เลือกบท"
+"HLVR_MainMenu_Back"							"ย้อนกลับ"
+
+"HLVR_MainMenu_MainMenu"					"เมนูหลัก"
+"HLVR_MainMenu_Resume"						"เล่นต่อ"
+"HLVR_MainMenu_Save"  						"บันทึก"
+"HLVR_MainMenu_Load"  						"โหลด"
+"HLVR_MainMenu_SavedGames"				"เกม"
+"HLVR_MainMenu_StartNewGame"	  	"เริ่มต้นเกมใหม่"
+"HLVR_MainMenu_StartGame"	  			"เริ่มต้นเกม"
+"HLVR_MainMenu_StartGameNoAddon"	  	"เริ่มต้นเกมโดยไม่มีส่วนเสริม"
+"HLVR_MainMenu_StartGameAddon"	  	"เริ่มต้นเกมโดยมีส่วนเสริม"
+"HLVR_MainMenu_CreateNewGame"	  	"สร้างเกมใหม่"
+
+"HLVR_MainMenu_Start"							"เริ่มต้น"
+
+"HLVR_MainMenu_LoadSlot"					"โหลดช่องเก็บเกม %s"
+"HLVR_MainMenu_GameSlotHeader"		"ช่องเก็บเกม %s"
+"HLVR_MainMenu_GameSlotConfirm"		"\nช่องเก็บเกม %s"
+
+"HLVR_MainMenu_SaveSlot"    	  	"ช่องเก็บ"
+"HLVR_MainMenu_GameSlot"    	  	"ช่องเก็บเกม"
+"HLVR_MainMenu_Overwrite"    	  	"เขียนทับ"
+"HLVR_MainMenu_Overwrite_desc"		"ช่องเก็บเกมเต็มทุกช่อง\nเลือกช่องที่ต้องการบันทึกทับ\n\nคำเตือน : การทำเช่นนี้จะลบ\nข้อมูลที่บันทึกไว้แล้วทั้งหมด"
+"HLVR_MainMenu_StartOver"					"บันทึกทับลงไปหรือไม่?"
+"HLVR_MainMenu_NewGame"						"เกมใหม่หรือไม่?"
+"HLVR_MainMenu_Slot"    	  			"ช่องเก็บ"
+"HLVR_MainMenu_SlotOverwrite"			"เลือกช่องเก็บเพื่อบันทึกทับ"
+
+"HLVR_QuickSave"									"บันทึกอย่างรวดเร็ว"
+"HLVR_AutoSave"									  "บันทึกอัตโนมัติ"
+
+"HLVR_Skip_Credits"								"ข้ามเครดิต"
+"HLVR_Skip_Credits_Confirm"				"ข้ามเครดิตหรือไม่?"
+
+"HLVR_Addons"							"ส่วนเสริม"
+"HLVR_MainMenu_ManageAddons"			"จัดการส่วนเสริม"
+"HLVR_MainMenu_AddonsToolsMode"			"ไม่สามารถโหลดแผนที่พร้อมส่วนเสริม\nขณะอยู่ในโหมดเครื่องมือ"
+"HLVR_MainMenu_StartAddonGame"			"เริ่มต้นเกมโดยมีส่วนเสริมดังต่อไปนี้:"
+"HLVR_MainMenu_AddonDisabled"			"ส่วนเสริมที่เกี่ยวข้องถูกปิดใช้งาน"
+"HLVR_MainMenu_AddonNotAvailable"		"แผนที่นี้ไม่มีส่วนเสริมที่เกี่ยวข้องให้ใช้ได้อีกต่อไป\nกรุณาสมัครเป็นสมาชิกและ\nเปิดการใช้งานส่วนเสริมนี้\nเพื่อดำเนินการต่อไป"
+"HLVR_MainMenu_NoAddonsEnabled"			"ไม่มีส่วนเสริมถูกเปิดการใช้งานสำหรับส่วนเสริมเกม"
+"HLVR_MainMenu_AddonToggleInfo"			"กดสลับด้านซ้ายเพื่อ\nเปิดการใช้งานหรือปิดการใช้งาน"
+"HLVR_MainMenu_LocalAddon"				"ส่วนเสริมภายในเครื่อง"
+"HLVR_MainMenu_MissingAddon"			"ส่วนเสริมต่อไปนี้หายไปจากเกม\nกรุณาสมัครสมาชิกอีกครั้งเพื่อโหลดไฟล์นี้"
+
+"HLVR_MainMenu_OriginalGame"			"เกมหลัก"
+"HLVR_MainMenu_AddonGame"				"เกมส่วนเสริม"
+
+"HLVR_MainMenu_OriginalMaps"			"เกมหลัก"
+"HLVR_MainMenu_AddonMaps"				"แผนที่ส่วนเสริม"
+
+"HLVR_MainMenu_AddonUpVote"				"ถูกใจ"
+"HLVR_MainMenu_AddonDownVote"			"ไม่ถูกใจ"
+
+"HLVR_browse_workshop_label"			"เปิดหาเวิร์กชอป"
+"HLVR_browse_workshop_confirm"			"เปิดหาเวิร์กชอปผ่านทาง\nโอเวอร์เลย์ Steam หรือไม่?"
+"HLVR_browse_workshop_desc"				"เปิดหาเวิร์กชอป Half-Life: Alyx \nผ่านทางโอเวอร์เลย์ Steam"
+
+"HLVR_local_addons"				"ส่วนเสริมภายในเครื่อง"
+"HLVR_downloaded_addons"		"ส่วนเสริมที่ดาวน์โหลดไว้"
+"HLVR_enabled_addons"			"ส่วนเสริมที่เปิดการใช้งานไว้:"
+"HLVR_addon_game"				"เกมที่เปิดการใช้งานส่วนเสริม"
+
+"HLVR_MainMenu_Attention"												"โปรดทราบ"
+"HLVR_MainMenu_Attention_MinSpec_CPU"								"CPU ของคุณมีขนาดต่ำกว่า\nความต้องการขั้นต่ำสำหรับ Half-Life: Alyx"
+"HLVR_MainMenu_Attention_MinSpec_RAM"								"หน่วยความจำระบบมีเนื้อที่น้อยกว่า\nความต้องการขั้นต่ำสำหรับ Half-Life: Alyx"
+"HLVR_MainMenu_Attention_MinSpec_GPU"								"อุปกรณ์กราฟิกของคุณมีประสิทธิภาพต่ำกว่า\nความต้องการขั้นต่ำสำหรับ Half-Life: Alyx"
+"HLVR_MainMenu_Attention_Above_Recommended"					"คุณตั้งค่าไว้สูงกว่าระดับที่แนะนำไว้"
+"HLVR_MainMenu_Attention_Warning"										"เกมเพลย์อาจได้รับผลกระทบ"
+"HLVR_MainMenu_Attention_Graphics_Reset"						"ค่าประสิทธิภาพที่คุณตั้งค่าไว้\nได้กลับคืนไปยังระดับที่แนะนำไว้แล้ว"
+"HLVR_MainMenu_Attention_LowDiskSpaceForSwapfile"				"Half-Life: Alyx อาจไม่เสถียร\nเนื่องจากไดรฟ์ระบบปฏิบัติการของคุณ\nมีพื้นที่ดิสก์เหลือน้อย\nซึ่งอาจจำกัดขนาดแฟ้มเพจของคุณได้"
+"HLVR_MainMenu_Attention_Low_GPU_Memory"						"ตรวจพบว่ามีหน่วยความจำ GPU เหลือน้อย\nกรุณาปิดโปรแกรมอื่นที่เปิดทิ้งไว้โดยไม่จำเป็น\nเพื่อเพิ่มหน่วยความจำ GPU ที่มีให้ใช้ได้"
+"HLVR_MainMenu_Attention_Low_System_Memory"						"ตรวจพบว่ามีหน่วยความจำระบบเหลือน้อย\nกรุณาปิดโปรแกรมอื่นที่เปิดทิ้งไว้โดยไม่จำเป็น\nเพื่อเพิ่มหน่วยความจำระบบที่มีให้ใช้ได้"
+"HLVR_MainMenu_Old_Driver_Version"								"เวอร์ชันไดรเวอร์ GPU ของคุณต่ำกว่า\nเวอร์ชันที่แนะนำสำหรับ Half-Life: Alyx บน Vulkan\nกรุณาติดตั้งไดรเวอร์ล่าสุดสำหรับ GPU ของคุณ"
+"HLVR_MainMenu_Attention_LoadErrorMap"							"ไม่สามารถโหลดเกมได้\nเนื่องจากไม่พบแผนที่ที่ขอไว้:"
+"HLVR_MainMenu_Attention_LoadErrorAddons"						"ทั้งนี้อาจมีสาเหตุจากหนึ่งใน\nส่วนเสริมที่เปิดการใช้งานไว้:"
+
+"HLVR_MainMenu_ModalQuit"						"ออกจาก Half-Life: Alyx หรือไม่?"
+"HLVR_MainMenu_ModalMainMenu"					"ไปยังเมนูหลักหรือไม่?"
+"HLVR_MainMenu_ModalLoadGame"					"โหลดไฟล์ที่บันทึกไว้หรือไม่?"
+"HLVR_MainMenu_ModalNewGame"					"สร้างเกมใหม่หรือไม่?"
+"HLVR_MainMenu_ModalNewGameOverwrite"			"ลบข้อมูลที่บันทึกไว้อยู่แล้ว\nและสร้างเกมใหม่หรือไม่?"
+
+"HLVR_MainMenu_ModalAccept"						"ยอมรับ"
+"HLVR_MainMenu_ModalCancel"						"ยกเลิก"
+
+"HLVR_Pause_Menu_Only"								"ตัวเลือกเหล่านี้มีให้ใช้ได้เฉพาะในเมนู\nหยุดชั่วคราวระหว่างที่เล่นเกมอยู่เท่านั้น"
+
+"HLVR_MainMenu_Init_desc"		    			"เลือกมือข้างที่คุณถนัด\n\nคุณสามารถเปลี่ยนได้ตลอดเวลา\nในเมนูตัวเลือก"
+
+"HLVR_MainMenu_NewGame_desc" 					"เริ่มเกมใหม่ Half-Life: Alyx"
+"HLVR_MainMenu_SaveGame_desc" 					"บันทึกอย่างรวดเร็วเพื่อเก็บ\nความคืบหน้าจนถึงจุดนี้"
+
+"HLVR_MainMenu_Resin"							"เรซิน"
+"HLVR_MainMenu_HP"								"พลังชีวิต"
+"HLVR_MainMenu_Pistol"							"ปืนพก"
+"HLVR_MainMenu_Shotgun"							"ปืนลูกซอง"
+"HLVR_MainMenu_RapidFire"						"ปืนกลมือ"
+
+"HLVR_MainMenu_Days"							"วัน"		// Short hand for Days
+"HLVR_MainMenu_Hrs"								"ชม."		// Short Hand for Hours
+
+"HLVR_MainMenu_DeleteSlot_desc"				"ลบเกมที่บันทึกไว้ทั้งหมดออกจาก\nช่องเก็บเกมนี้"
+"HLVR_MainMenu_DeleteSlot_Confirm"		"ลบเกมที่บันทึกไว้ทั้งหมดออกจาก\nช่องเก็บเกมนี้อย่างถาวรหรือไม่?"
+
+"HLVR_NoSaving"			"การบันทึกไม่พร้อมใช้งานในขณะนี้"
+
+"HLVR_Sibling_L"											"ซ้าย"
+"HLVR_Sibling_R"											"ขวา"
+
+"HLVR_Options_Game_Preferences"				"ช่องเก็บเกม"
+"HLVR_Options_System_Options"					"ระบบ"
+
+"HLVR_Options_Diffculty_base"					"ความยาก"
+
+"HLVR_Options_Diffculty_story"					"เนื้อเรื่อง"
+"HLVR_Options_Diffculty_easy"					"ง่าย"
+"HLVR_Options_Diffculty_normal"					"ปกติ"
+"HLVR_Options_Diffculty_hard"					"ยาก"
+
+"HLVR_Options_Diffculty_story_desc"					"การต่อสู้ระดับง่ายที่สุด"
+"HLVR_Options_Diffculty_easy_desc"					"การต่อสู้ระดับท้าทายอย่างง่าย"
+"HLVR_Options_Diffculty_normal_desc"				"การต่อสู้ระดับท้าทาย"
+"HLVR_Options_Diffculty_hard_desc"					"การต่อสู้ระดับท้าทายอย่างยิ่ง"
+
+"HLVR_Options_On"					"เปิด"
+"HLVR_Options_Off"				"ปิด"
+
+"HLVR_Options_Commentary"					"คำอธิบายจากผู้พัฒนา"
+"HLVR_Options_Commentary_desc"				"เปิดการใช้งานโหนดคำอธิบายจากผู้พัฒนาขณะเล่น\n\nคำเตือน: คำอธิบายมีสปอยล์สำคัญ ๆ\n\nเราขอแนะนำให้คุณเล่นเกมให้จบก่อน\n\nไม่มีคำแปลภาษาไทย"
+
+"HLVR_Options_Movement_Base"					"การเคลื่อนไหว"
+"HLVR_Options_Movement_Blink"					"บลิงก์"
+"HLVR_Options_Movement_Shift"					"ชิฟต์"
+"HLVR_Options_Movement_Continuous"				"ต่อเนื่อง"
+"HLVR_Options_Movement_Continuous_Hand"		"ต่อเนื่องตามมือ"
+
+"HLVR_Options_Movement_Blink_desc"					"เทเลพอร์ตไปยังตำแหน่งเป้าหมาย\nโดยที่หน้าจอมืดแวบเดียว\nเป็นประเภทการเคลื่อนไหว\nที่สบายตาที่สุด"
+"HLVR_Options_Movement_Shift_desc"					"เทเลพอร์ตไปยังตำแหน่งเป้าหมาย\nด้วยการเคลื่อนไหวเป็นเส้นตรง\nอย่างรวดเร็ว"
+"HLVR_Options_Movement_Continuous_desc"				"เคลื่อนไหวอย่างต่อเนื่อง\nตามทิศทางศีรษะของคุณ"
+"HLVR_Options_Movement_Continuous_Hand_desc"		"เคลื่อนไหวอย่างต่อเนื่อง\nตามทิศทางมือของคุณ"
+
+"HLVR_Options_Preferences"						"การปรับแต่ง"
+"HLVR_Options_Accessibility"					"การเข้าถึง"				
+"HLVR_Options_Interface"						"อินเตอร์เฟซ"
+"HLVR_Options_Audio"							"ระดับเสียง"
+"HLVR_Options_Graphics"							"ประสิทธิภาพ"
+"HLVR_Options_Language"							"ภาษา"
+
+"HLVR_Options_WeaponSwitch"					"ทิศทางการเลือกอาวุธ"
+"HLVR_Options_WeaponSwitch_desc"		"ประเภททิศทางของ\nเมนูการเลือกอาวุธ"
+"HLVR_Options_WeaponSwitch_HMD"			"ศีรษะ"
+"HLVR_Options_WeaponSwitch_Hand"		"มือ"
+"HLVR_Options_WeaponSwitch_Hybrid"	"ผสม"
+
+"HLVR_Options_Ladder_Climb"					"บันไดที่ปีนขึ้นด้วยมือ"
+"HLVR_Options_Ladder_Climb_desc"		"เปิดการใช้งานบันไดที่ปีนขึ้นด้วยมือ"
+
+"HLVR_Options_Barnacle_Lift"				"บาร์นาเคิลดึงขึ้น"
+"HLVR_Options_Barnacle_Lift_desc"		"เปิดการใช้งานให้บาร์นาเคิล\nฉุดผู้เล่นขึ้นจากพื้นได้"
+
+"HLVR_Options_Turn_Off"							"หันด้วยคอนโทรลเลอร์ ปิด"
+"HLVR_Options_Turn_Snap"						"หันทันที"
+"HLVR_Options_Turn_Continuous"					"หันแบบต่อเนื่อง"
+
+"HLVR_Options_Turn_Off_desc"					"ตั้งค่าไปที่การหันทันที\nหรือการหันแบบต่อเนื่อง\nเพื่อเปลี่ยนทิศทางที่คุณหันหน้า\nโดยใช้คอนโทรลเลอร์ของคุณ"
+"HLVR_Options_Turn_Snap_desc"					"การหันทันทีจะเปลี่ยนทิศทางที่คุณ\nหันหน้าไปตามค่ามุมที่ระบุไว้"
+"HLVR_Options_Turn_Continuous_desc"				"การหันแบบต่อเนื่องจะเปลี่ยน\nทิศทางที่คุณหันหน้าไปอย่าง\nราบรื่นตามความเร็วที่ระบุไว้"
+
+"HLVR_Options_QuickTurn_Angle_Base"				"มุมหันทันที"
+"HLVR_Options_QuickTurn_Angle_desc"				"มุมการหันสำหรับการหันทันที"
+
+"HLVR_Options_ContinuousTurn_Speed_Base"		"ความเร็วหันแบบต่อเนื่อง"
+"HLVR_Options_ContinuousTurn_Speed_desc"		"ความเร็วเชิงมุมสำหรับ\nการหันแบบต่อเนื่อง"
+
+"HLVR_Options_DLC_Skins"						"สกินสั่งซื้อล่วงหน้า"
+"HLVR_Options_DLC_Skins_desc"					"เปิดการใช้งานการใช้สกินอาวุธที่ได้รับ\nจากการสั่งซื้อ Valve Index ล่วงหน้า"
+
+"HLVR_Options_Subtitles"						"คำบรรยาย"
+"HLVR_Options_Subtitles_Base"					"คำบรรยาย"
+"HLVR_Options_Subtitles_None"					"คำบรรยาย ปิด"
+"HLVR_Options_Subtitles_On"						"คำบรรยาย เปิด"
+"HLVR_Options_Subtitles_CC_On"					"คำบรรยายและ\nคำบรรยายทดแทนการได้ยิน"
+"HLVR_Options_Subtitles_desc"					"ตั้งค่าเพื่อแสดงคำบรรยาย\nและคำบรรยายทดแทนการได้ยิน"
+
+"HLVR_Options_Subtitles_Speed"					"ความเร็ว"
+"HLVR_Options_Subtitles_Slow_Speed"				"ช้า"
+"HLVR_Options_Subtitles_Medium_Speed"			"กลาง"
+"HLVR_Options_Subtitles_Fast_Speed"				"เร็ว"
+"HLVR_Options_ClosedCaptions_Speed_desc"		"ความเร็วในการแสดงคำบรรยาย"
+
+"HLVR_Options_Subtitles_Size"					"ขนาดฟอนต์"
+"HLVR_Options_Subtitles_Small_Size"				"เล็ก"
+"HLVR_Options_Subtitles_Medium_Size"			"กลาง"
+"HLVR_Options_Subtitles_Large_Size"				"ใหญ่"
+"HLVR_Options_ClosedCaptions_Size_desc"			"ขนาดฟอนต์ของคำบรรยาย"
+
+"HLVR_Options_Subtitles_Width"					"ความกว้าง"
+"HLVR_Options_Subtitles_Narrow"					"แคบ"
+"HLVR_Options_Subtitles_Medium"					"กลาง"
+"HLVR_Options_Subtitles_Wide"					"กว้าง"
+"HLVR_Options_ClosedCaptions_Width_desc"		"ความกว้างของคำบรรยายบนหน้าจอ"
+
+"HLVR_Options_Subtitles_Spectator_Only"			"เฉพาะหน้าต่างผู้เข้าชมเท่านั้น"
+"HLVR_Options_Subtitles_Spectator_Only_desc"	"แสดงคำบรรยายและ\nคำบรรยายทดแทนการได้ยินเฉพาะ\nในหน้าต่างผู้เข้าชมเท่านั้น"
+
+"HLVR_Options_LeftHanded"						"มือที่จับอาวุธ : ซ้าย"
+"HLVR_Options_RightHanded"						"มือที่จับอาวุธ : ขวา"
+
+"HLVR_Options_LeftHanded_desc"					"สลับเปลี่ยนมือที่ใช้จับ\nอาวุธระหว่างมือซ้ายและขวา\n\nคุณสามารถเลือกมือที่จะควบคุม\nการเคลื่อนไหวของคุณได้\nโดยเลือกการกำหนดปุ่มที่เหมาะสม\nจากเมนูการกำหนดปุ่ม\nคอนโทรลเลอร์ใน SteamVR"
+
+"HLVR_display_bindings"							"การกำหนดปุ่มคอนโทรลเลอร์"
+"HLVR_display_bindings_desc"					"ไปที่การตั้งค่าคอนโทรลเลอร์\nSteamVR เพื่อดูหรือแก้ไข\nการกำหนดปุ่มคอนโทรลเลอร์\nสำหรับ Half-life: Alyx"
+"HLVR_display_bindings_confirm"					"ไปที่การกำหนดปุ่มคอนโทรลเลอร์ SteamVR หรือไม่?"
+
+
+"HLVR_Options_ToggleCrouch"					"คำสั่งย่อตัว"
+"HLVR_Options_ToggleCrouch_desc"		"คำสั่งย่อตัวจะทำให้ร่างเสมือน\nของคุณทรุดตัวลงเพื่อก้มตัวหลบ\nหรือปรับให้ก้มตัวลงอย่างรวดเร็ว\nเมื่อต้องการ กำหนดคำสั่งนี้\nเข้ากับอุปกรณ์ควบคุมที่คุณเลือกไว้\nในการตั้งค่า SteamVR\n\nเมื่อตัวเลือกนี้เปิดใช้งาน\nคำสั่งย่อตัวจะพร้อมให้ใช้ได้\nในระหว่างเกมเพลย์"
+"HLVR_Options_ToggleStand"					"คำสั่งยืน"
+"HLVR_Options_ToggleStand_desc"			"คำสั่งยืนจะทำให้ร่างเสมือนของคุณ\nยืนขึ้นเพื่อช่วยให้เอื้อมหยิบได้\nในขณะที่เล่นเกมในตำแหน่งที่\nต้องก้มตัวลง\nกำหนดคำสั่งนี้เข้ากับอุปกรณ์\nควบคุมที่เลือกไว้ในการตั้งค่า SteamVR\n\nขอแนะนำให้ใช้ในระหว่างที่นั่งเล่นเกม\n\nเมื่อตัวเลือกนี้เปิดใช้งาน\nคำสั่งยืนจะพร้อมให้ใช้ได้ในระหว่างเกมเพลย์"
+
+"HLVR_Options_hlvr_adjust_height_mode_base"		"ปรับความสูง"
+"HLVR_Options_hlvr_adjust_height_mode_0"		"ปิด"
+"HLVR_Options_hlvr_adjust_height_mode_1"		"ย่อตัว"
+"HLVR_Options_hlvr_adjust_height_mode_2"		"ยืน"
+"HLVR_Options_hlvr_adjust_height_mode_3"		"ย่อตัวและยืน"
+"HLVR_Options_hlvr_adjust_height_mode_4"		"ผสม"
+
+"HLVR_Options_hlvr_adjust_height_mode_0_desc"		"ตัวเลือกนี้กำหนดพฤติกรรมของคำสั่ง\nตามคอนโทรลเลอร์เพื่อปรับความสูง\n\nเมื่อปิดใช้งาน\nคำสั่งการปรับความสูงตาม\nคอนโทรลเลอร์จะปิดใช้งาน"
+"HLVR_Options_hlvr_adjust_height_mode_1_desc"		"เฉพาะคำสั่งย่อตัวเท่านั้น\nปิดการใช้งานคำสั่งยืน\n\nเมื่อเปิดการใช้งานคำสั่งยืน\nกดสลับเปลี่ยนเพื่อก้มตัวหลบ\nอย่างรวดเร็ว\nหรือปรับไปที่ตำแหน่งต่ำลง"
+"HLVR_Options_hlvr_adjust_height_mode_2_desc"		"เฉพาะคำสั่งยืนเท่านั้น\nปิดการใช้งานคำสั่งย่อตัว\n\nเมื่อเปิดการใช้งานคำสั่งยืน\nกดสลับเปลี่ยนเพื่อยก\nตำแหน่งของคุณ\nเพื่อช่วยให้เอื้อมหยิบได้\n\nขอแนะนำให้ใช้ในระหว่าง\nที่นั่งเล่นเกม"
+"HLVR_Options_hlvr_adjust_height_mode_3_desc"		"เมื่อเปิดการใช้งานคำสั่งย่อตัวและยืน ใช้คำสั่งดังกล่าวเพื่อลดหรือยกตำแหน่งของคุณด้วยอุปกรณ์ควบคุมสองรายการแยกจากกัน"
+"HLVR_Options_hlvr_adjust_height_mode_4_desc"		"แบบผสมใช้การควบคุมเดียว\nสำหรับทั้งคำสั่งย่อตัวและยืน\n\nคลิกเพื่อย่อตัวลดตำแหน่งของคุณ\n\nกดค้างเพื่อยืนยกตำแหน่งของคุณ"
+
+"HLVR_Options_hlvr_single_controller_mode"				"คอนโทรลเลอร์เดียว"
+"HLVR_Options_hlvr_single_controller_mode_desc"		"คำสั่งทั้งหมดจะถูกกำหนด\nลงบนคอนโทรลเลอร์เดียว"
+"HLVR_single_controller_prompt_activate"			"การเปิดใช้งานโหมดคอนโทรลเลอร์เดียว\nจำเป็นต้องมีการเปลี่ยนแปลงการกำหนด\nปุ่มคอนโทรลเลอร์ใน SteamVR\nไปที่หน้ากำหนดปุ่ม SteamVR หรือไม่?"
+"HLVR_single_controller_prompt_deactivate"		"การปิดใช้งานโหมดคอนโทรลเลอร์เดียว\nจำเป็นต้องมีการเปลี่ยนแปลงการกำหนด\nปุ่มคอนโทรลเลอร์ใน SteamVR\nไปที่หน้ากำหนดปุ่ม SteamVR หรือไม่?"
+
+"HLVR_Options_r_light_sensitivity_mode"				"ความไวต่อแสง"
+"HLVR_Options_r_light_sensitivity_mode_desc"	"โหมดไวต่อแสงช่วยลดความรุนแรง\nและการกะพริบของแสงไฟ"
+
+"HLVR_Options_Pause_Menu_Distance"	"ระยะห่างเมนูหยุดชั่วคราว"
+"HLVR_Options_Pause_Menu_Distance_Desc"	"ระยะห่างที่เมนูหยุดชั่วคราว\nจะปรากฏจากผู้เล่น\nเมื่อเปิดใช้งาน"
+"HLVR_Options_Pause_Menu_Height"		"ความสูงเมนูหยุดชั่วคราว"
+"HLVR_Options_Pause_Menu_Height_desc"		"ความสูงที่เมนูหยุดชั่วคราว\nจะปรากฏจากผู้เล่น\nเมื่อเปิดใช้งาน"
+
+"HLVR_Options_Header_Weapons"					"อาวุธ"
+"HLVR_Options_Header_GameMenu"					"เมนูเกม"
+"HLVR_Options_Header_Spectator"					"ผู้เข้าชม"
+
+"HLVR_Options_SpectatorHud_desc"				"กำหนดขนาดของ HUD \nในหน้าต่างผู้เข้าชม"
+"HLVR_Options_SpectatorHud_base"				"HUD ของผู้เข้าชม"
+"HLVR_Options_SpectatorHud_off"					"ปิด"
+"HLVR_Options_SpectatorHud_small"				"เล็ก"
+"HLVR_Options_SpectatorHud_med"					"กลาง"
+"HLVR_Options_SpectatorHud_large"				"ใหญ่"
+
+"HLVR_Options_SpectatorCamera_desc"				"กำหนดปริมาณการปรับเรียบ\nให้กล้องในหน้าต่างผู้เข้าชม\n\nต้องใช้ระดับซูมสูง"
+"HLVR_Options_SpectatorCamera_base"				"การปรับเรียบให้กล้องสำหรับผู้เข้าชม"
+"HLVR_Options_SpectatorCamera_off"				"ปิด"
+"HLVR_Options_SpectatorCamera_low"				"ต่ำ"
+"HLVR_Options_SpectatorCamera_med"				"กลาง"
+"HLVR_Options_SpectatorCamera_high"				"สูง"
+
+"HLVR_Options_SpectatorZoom_desc"				"ระดับซูมของผู้เข้าชม"
+"HLVR_Options_SpectatorZoom_Base"				"ซูมของผู้เข้าชม"
+"HLVR_Options_SpectatorZoom_low"				"ต่ำ"
+"HLVR_Options_SpectatorZoom_high"				"สูง"
+
+"HLVR_Options_Spectator_Eye_desc"				"สลับระหว่างดวงตาผู้เล่นซ้าย\nและขวาสำหรับหน้าต่างผู้เข้าชม"
+"HLVR_Options_Spectator_Eye_Base"				"ดวงตาของผู้เข้าชม"
+"HLVR_Options_Eye_Left"							"ซ้าย"
+"HLVR_Options_Eye_Right"						"ขวา"
+
+"HLVR_Options_SpectatorSteamVR_desc"			"แสดง HUD ในหน้าต่าง SteamVR\n\nการทำเช่นนี้จะส่งผลกระทบ\nต่อประสิทธิภาพ"
+"HLVR_Options_SpectatorSteamVR_Base"			"HUD ของผู้เข้าชมใน SteamVR"
+"HLVR_Options_SpectatorSteamVR_On"				"เปิด"
+"HLVR_Options_SpectatorSteamVR_Off"				"ปิด"
+
+"HLVR_Options_SpectatorEye_desc"				"เลือกว่ามุมมองของดวงตาข้างใด\nจะถูกแสดงบนหน้าจอเสมือน\nที่ไม่ใช่ VR เช่นจอภาพหรือโทรทัศน์\n\nค่าเริ่มต้นของตัวเลือกนี้\nจะตรงกับมือที่จับอาวุธปัจจุบัน\nของคุณ แต่สามารถเลือกทับได้"
+"HLVR_Options_SpectatorEye_base"				"ดวงตามุมมองของผู้เข้าชม"
+"HLVR_Options_SpectatorEye_left"				"ซ้าย"
+"HLVR_Options_SpectatorEye_right"				"ขวา"
+
+"HLVR_Options_Graphics_Rendering"				"การเรนเดอร์"
+"HLVR_Options_Graphics_Particles"				"อนุภาค"
+"HLVR_Options_Graphics_Misc"					"เบ็ดเตล็ด"
+"HLVR_Options_Graphics_Audio"					"เสียง"
+
+"HLVR_Options_Fidelity_Low"								"คุณภาพต่ำ"
+"HLVR_Options_Fidelity_Medium"						"คุณภาพกลาง"
+"HLVR_Options_Fidelity_Medium_Long"				"คุณภาพปานกลาง"
+"HLVR_Options_Fidelity_High"							"คุณภาพสูง"
+"HLVR_Options_Fidelity_Ultra"							"คุณภาพสูงสุด"
+"HLVR_Options_Fidelity_Custom"						"คุณภาพกำหนดเอง"
+
+"HLVR_Options_Graphics_Adv_desc" "แสดง/ซ่อนการตั้งค่า\nประสิทธิภาพขั้นสูง"
+
+"HLVR_Options_Graphics_Reset"					"รีเซ็ต"
+"HLVR_Options_Graphics_Reset_desc"				"รีเซ็ตการตั้งค่าประสิทธิภาพ\nให้เป็นระดับที่แนะนำ"
+"HLVR_Options_Graphics_Reset_modal"				"รีเซ็ตการตั้งค่าประสิทธิภาพ\nให้เป็นที่แนะนำหรือไม่?"
+"HLVR_Options_Graphics_Base"					"คุณภาพ"
+"HLVR_Options_Graphics_desc"					 "การตั้งค่าประสิทธิภาพของเกม\nจะถูกกำหนดโดยอัตโนมัติ\nการเปลี่ยนแปลงการตั้งค่าเหล่านี้\nอาจส่งผลกระทบต่ออัตราเฟรม"
+
+"HLVR_Options_Graphics_Textures_Base"			"พื้นผิว"
+"HLVR_Options_Graphics_Textures_Desc"			"กำหนดคุณภาพพื้นผิว\n\nคุณภาพพื้นผิวถูกกำหนดค่า\nอย่างเป็นอิสระ\nจากการตั้งค่าคุณภาพประสิทธิภาพ"
+"HLVR_Options_Graphics_Textures_Low"			"ต่ำ"
+"HLVR_Options_Graphics_Textures_Medium"	"กลาง"
+"HLVR_Options_Graphics_Textures_High"		"สูง"
+"HLVR_Options_Graphics_Textures_Ultra"		"สูงสุด"
+
+"HLVR_Options_Graphics_Shadows_Base"			"เงา"
+"HLVR_Options_Graphics_Shadows_Low"			"ต่ำ"
+"HLVR_Options_Graphics_Shadows_Med"			"กลาง"
+"HLVR_Options_Graphics_Shadows_High"			"สูง"
+"HLVR_Options_Graphics_Shadows_Ultra"			"สูงสุด"
+
+"HLVR_Options_Graphics_Characters_Base"			"ตัวละคร"
+"HLVR_Options_Graphics_Characters_Low"			"ต่ำ"
+"HLVR_Options_Graphics_Characters_Med"			"กลาง"
+"HLVR_Options_Graphics_Characters_High"			"สูง"
+"HLVR_Options_Graphics_Characters_Ultra"			"สูงสุด"
+
+"HLVR_Options_Graphics_Fog_Base"			"หมอก"
+"HLVR_Options_Graphics_Fog_Low"			"ต่ำ"
+"HLVR_Options_Graphics_Fog_Med"			"กลาง"
+"HLVR_Options_Graphics_Fog_High"			"สูง"
+"HLVR_Options_Graphics_Fog_Ultra"			"สูงสุด"
+
+"HLVR_Options_Graphics_Particles_Base"			"อนุภาค"
+"HLVR_Options_Graphics_Particles_Low"			"ต่ำ"
+"HLVR_Options_Graphics_Particles_Med"			"กลาง"
+"HLVR_Options_Graphics_Particles_High"			"สูง"
+"HLVR_Options_Graphics_Particles_Ultra"			"สูง"
+
+"HLVR_Options_Graphics_Audio_Base"			"เสียง"
+"HLVR_Options_Graphics_Audio_Low"			"ต่ำ"
+"HLVR_Options_Graphics_Audio_Med"			"กลาง"
+"HLVR_Options_Graphics_Audio_High"			"สูง"
+"HLVR_Options_Graphics_Audio_Ultra"			"สูงสุด"
+
+"HLVR_Options_High_Quality_Holograms"			"โฮโลแกรมคุณภาพสูง"
+"HLVR_Options_High_Quality_Holograms_on"			"เปิด"
+"HLVR_Options_High_Quality_Holograms_off"			"ปิด"
+"HLVR_Options_r_light_flickering_enabled"			"แสงไฟกะพริบ"
+
+"HLVR_Options_Rendering_API"					"API การเรนเดอร์"
+"HLVR_Options_Rendering_API_D3D11"				"Direct3D 11"
+"HLVR_Options_Rendering_API_Vulkan"				"Vulkan"
+"HLVR_Options_Rendering_API_Current"			"API ปัจจุบัน:"
+"HLVR_Options_Rendering_API_Desc_Locked"		"API การเรนเดอร์มีระบุไว้\nในตัวเลือกการเริ่มเปิด\nลบตัวเลือกการเริ่มเปิด\nเพื่อเลือก API การเรนเดอร์"
+"HLVR_Options_Rendering_API_Desc_Restart"		"\n\nต้องรีสตาร์ทเกมเพื่อให้ส่งผล\n\n"
+"HLVR_Options_Rendering_API_Desc"				"ถ้าเกมไม่เริ่มเปิดอย่างเหมาะสม\nหลังจากที่เปลี่ยนการตั้งค่าแล้ว\nคุณสามารถเพิ่ม -safe_mode\nเข้าไปในตัวเลือกการเริ่มเปิดของคุณ\nเพื่อเริ่มต้นด้วย API การเรนเดอร์เริ่มต้น"
+
+"HLVR_Options_cloth_rigid_update_Base"			"ผ้าเนื้อนิ่ม"
+
+"HLVR_Options_g_ragdoll_maxcount_Base"			"จำนวนแร็กดอล"
+"HLVR_Options_g_ragdoll_maxcount_Base_Low"	"ต่ำ"
+"HLVR_Options_g_ragdoll_maxcount_Base_Med"	"กลาง"
+"HLVR_Options_g_ragdoll_maxcount_Base_High"	"สูง"
+"HLVR_Options_g_ragdoll_maxcount_Base_Ultra"	"สูงสุด"
+
+"HLVR_Options_Audio_Master"						"ระดับเสียงหลัก"
+"HLVR_Options_Audio_Master_desc"				"ควบคุมระดับเสียงหลักสำหรับ\nเสียงทั้งหมด"
+"HLVR_Options_Audio_GameSounds"					"เกม"
+"HLVR_Options_Audio_GameSounds_desc" 			"ควบคุมระดับเสียงสำหรับ\nเสียงเอฟเฟกต์เกม"
+"HLVR_Options_Audio_Music"						"ดนตรีการต่อสู้"
+"HLVR_Options_Audio_Music_desc"					"ควบคุมระดับเสียงสำหรับ\nดนตรีที่เล่นในระหว่างต่อสู้"
+"HLVR_Options_Audio_Voice"						"เสียงพูดตัวละคร"
+"HLVR_Options_Audio_Voice_desc"					"ควบคุมระดับเสียงสำหรับ\nเสียงพูดของตัวละคร"
+
+"HLVR_Loading"									"กำลังโหลด"
+"HLVR_Loading_Trigger_Start"					"กด %s เพื่อเริ่ม"
+
+"HLVR_PhotoMode_TakePhoto"						"ถ่ายภาพ"
+"HLVR_PhotoMode_Hide"							"ซ่อน UI"
+"HLVR_PhotoMode_Return"							"กลับ"
+
+// spectator hud
+"HLVR_HUD_Ammo"									"กระสุน"
+"HLVR_HUD_Health"								"พลังชีวิต"
+"HLVR_HUD_Resin"								"เรซิน"
+
+// game instructor lessons
+"HLVR_Lesson_Single_Controller_On"	"โหมดคอนโทรลเลอร์เดียวถูกเปิดใช้งาน"
+"HLVR_Lesson_Single_Controller_Off"	"โหมดคอนโทรลเลอร์เดียวถูกปิดใช้งาน"
+"HLVR_Lesson_Movement_PrimaryHand"	"การเคลื่อนไหวบนมือที่จับอาวุธ\nตัวเลือกนี้สามารถเปลี่ยนแปลงได้\nในการกำหนดปุ่ม\nคอนโทรลเลอร์ SteamVR"
+"HLVR_Lesson_Movement_OffHand"		"การเคลื่อนไหวบนมือรอง\nตัวเลือกนี้สามารถเปลี่ยนแปลงได้\nในการกำหนดปุ่ม\nคอนโทรลเลอร์ SteamVR"
+"HLVR_Lesson_Teleport"							"กดเพื่อเคลื่อนที่"
+"HLVR_Lesson_Quick_Turn"						"กดเพื่อหันตัวไปซ้ายหรือขวาทันที"
+"HLVR_Lesson_GrabTrigger"						"กดค้างเพื่อจับวัตถุ"
+"HLVR_Lesson_GrabHands"							"จับวัตถุด้วยมือของคุณ"
+"HLVR_Lesson_GrabHandsSingleController"			"จับวัตถุด้วยมือของคุณ"
+"HLVR_Lesson_Interact"							"ตอบโต้กับด้ามจับ\nด้วยมือของคุณ"
+"HLVR_Lesson_InteractSingleController"			"ตอบโต้กับด้ามจับ\nด้วยมือของคุณ"
+"HLVR_Lesson_Door"								"หมุนด้ามจับเพื่อ\nเปิดประตู"
+"HLVR_Lesson_SwitchWeapons"						"กดค้างเพื่อเปลี่ยนอาวุธ"
+"HLVR_Lesson_SwitchWeaponsSingleController"			"แตะเพื่อเปลี่ยนกลับเป็นอาวุธของคุณ"
+"HLVR_Lesson_OpenWeaponSelectForMultitool"		"กดค้างเพื่อเปลี่ยนเป็น\nเครื่องมืออเนกประสงค์"
+"HLVR_Lesson_SelectMultitool"					"เลือกเครื่องมืออเนกประสงค์"
+"HLVR_Lesson_UseMultitool"						"ใช้เครื่องมืออเนกประสงค์"
+"HLVR_Lesson_ScavengeItems"						"ค้นหาตามสภาพแวดล้อม\nเพื่อหาไอเท็มที่มีประโยชน์"
+"HLVR_Lesson_LootBodies"						"ปล้นไอเท็มจากศพ"
+"HLVR_Lesson_OpenGameMenu"						"กดค้างเพื่อเปิด/ปิดเมนูเกม"
+"HLVR_Lesson_Continuous_Mantle"					"กดค้างในขณะเคลื่อนที่\nเพื่อปีนข้าม"
+"HLVR_Lesson_Continuous_Jump"					"กดเพื่อเรียกตัวบ่งชี้การกระโดดขึ้นมา\nและปล่อยเพื่อกระโดด"
+"HLVR_Lesson_Crouch_Toggle"						"กดเพื่อสลับระหว่างความสูง\nปัจจุบันของคุณ\nและความสูงเมื่อย่อตัว"
+"HLVR_Lesson_Stand_Toggle"						"กดเพื่อสลับระหว่างความสูง\nปัจจุบันของคุณ\nและความสูงเมื่อยืน"
+"HLVR_Lesson_Climb_Ladder"						"จับบันไดเพื่อปีนขึ้น"
+
+"HLVR_Lesson_WeaponInPrimaryHand"				"จับอาวุธด้วยมือหลัก"
+
+"HLVR_Lesson_EjectClip"							"กดเพื่อถอดแมกกาซีน"
+"HLVR_Lesson_InsertClip"						"สวมแมกกาซีนเข้าไปในปืนพก"
+"HLVR_Lesson_EmptyClipInserted"					"แมกกาซีนที่สวมอยู่ว่างเปล่า\nกดเพื่อถอดแมกกาซีน"
+"HLVR_Lesson_ChamberRound"						"กดปุ่มหรือดึงสไลด์\nเพื่อส่งกระสุนเข้ารังเพลิง"
+"HLVR_Lesson_ChamberRoundSingleController"		"กดปุ่มเพื่อส่งกระสุน\nเข้ารังเพลิง"
+"HLVR_Lesson_PutClipInBackpack"					"ใส่แมกกาซีนลงในเป้สะพายหลัง"
+"HLVR_Lesson_ToggleLaserSightWeapon"			"แตะด้วยนิ้วชี้เพื่อสลับเลเซอร์ติดปืน"
+"HLVR_Lesson_ToggleBurstFire"					"แตะปุ่มสองครั้งเพื่อสลับยิงเป็นชุด"
+
+"HLVR_Lesson_ShotgunGetShells"					"คว้ากล่องกระสุน\nและใส่ในเป้สะพายหลัง"
+"HLVR_Lesson_OpenShotgunToLoadShells"			"เปิดปืนลูกซองเพื่อใส่กระสุน"
+"HLVR_Lesson_LoadShotgunUntilFull"				"บรรจุกระสุนในปืน\nลูกซองได้ถึง (6) นัด"
+"HLVR_Lesson_FlickToCloseShotgun"				"สะบัดคอนโทรลเลอร์หรือจับ\nกระบอกปืนเพื่อปิดปืนลูกซอง"
+"HLVR_Lesson_FlickToCloseShotgunSingleController"	"สะบัดคอนโทรลเลอร์\nเพื่อปิดปืนลูกซอง"
+"HLVR_Lesson_ChamberShotgunShell"				"ดึงสไลด์เพื่อใส่กระสุน\nในรังเพลิง"
+"HLVR_Lesson_ChamberShotgunShellSingleController"	"กดเพื่อใส่กระสุนในรังเพลิง"
+"HLVR_Lesson_ShotgunUpgradeAutoloaderLoad"		"ใส่กระสุนเข้าไปในออโตโหลดเดอร์"
+"HLVR_Lesson_ShotgunUpgradeAutoloaderActivate"	"กดปุ่มเพื่อเปิดการใช้งาน\nออโตโหลดเดอร์"
+"HLVR_Lesson_ShotgunUpgradeQuickFire"			"กดสองครั้งเพื่อยิงปืนสองนัด\nอย่างรวดเร็ว"
+"HLVR_Lesson_ShotgunUpgradeGrenade"				"ติดลูกระเบิดตรงปลายปืนลูกซอง"
+"HLVR_Lesson_ShotgunUpgradeGrenadePump"			"ผลักด้ามจับไปข้างหน้าเพื่อ\nเตรียมพร้อมเครื่องยิงลูกระเบิด\nหรือยิงต่อสู้ตามปกติ"
+"HLVR_Lesson_ShotgunUpgradeGrenadePumpSingleController"			"กดเพื่อเตรียมพร้อม\nเครื่องยิงลูกระเบิด\nหรือยิงต่อสู้ตามปกติ"
+"HLVR_Lesson_ShotgunUpgradeGrenadeFire"			"กดเพื่อยิงลูกระเบิด\nหรือจับลูกระเบิด\nเพื่อรีเซ็ตเครื่องยิงลูกระเบิด"
+"HLVR_Lesson_ShotgunUpgradeGrenadeFireSingleController"			"กดเพื่อรีเซ็ตเครื่องยิงลูกระเบิด\nหรือยิงเพื่อยิงลูกระเบิด"
+
+"HLVR_Lesson_Rapidfire_InsertCapsule_Gun"		"ใส่เซลล์พลังงานเข้าไปในปืน"
+"HLVR_Lesson_Rapidfire_InsertCapsule_Clip"		"ใส่เซลล์พลังงานเข้าไปในปืน"
+"HLVR_Lesson_Rapidfire_OpenCasing"				"เปิดแมกกาซีน"
+"HLVR_Lesson_Rapidfire_InsertCapsule_Mag"		"ใส่เซลล์พลังงาน (3) ชุด\nเข้าไปในแมกกาซีน"
+"HLVR_Lesson_Rapidfire_CloseCasing"				"ปิดซองกระสุน"
+
+"HLVR_Lesson_StoreClipInBackpack"				"เก็บกระสุนในเป้สะพายหลัง\nโดยหย่อนลงข้ามไหล่ของคุณ"
+"HLVR_Lesson_GrabClipFromBackpack"				"คว้ากระสุนจากเป้สะพายหลัง"
+"HLVR_Lesson_ReloadSingleController"			"กดขณะที่จับอาวุธข้ามไหล่ของคุณ\nเพื่อบรรจุกระสุนใหม่"
+"HLVR_Lesson_ReloadSingleControllerShotgun"		"กดขณะที่จับอาวุธข้ามไหล่ของคุณ\nเพื่อบรรจุกระสุนใหม่\nกดหลายครั้งเพื่อเพิ่มกระสุน"
+"HLVR_Lesson_ReloadSingleControllerRapidFire"	"กดขณะที่จับอาวุธข้ามไหล่ของคุณ\nเพื่อบรรจุกระสุนใหม่\nกดหลายครั้งเพื่อเพิ่มเซลล์"
+"HLVR_Lesson_GrabResinFromBackpack"				"คว้าเรซินจากเป้สะพายหลัง"
+"HLVR_Lesson_StoreResinInBackpack"				"เก็บเรซินในเป้สะพายหลัง\nโดยหย่อนลงข้ามไหล่ของคุณ"
+"HLVR_Lesson_ArmGrenade"						"กดเพื่อถอดสลักระเบิด"
+"HLVR_Lesson_ArmXenGrenade"						"บีบเพื่อถอดสลักระเบิดเซน"
+"HLVR_Lesson_ArmXenGrenadeVive"					"กดเพื่อถอดสลักระเบิดเซน"
+"HLVR_Lesson_PrepareHealthInjector"				"จัดเตรียมเข็มฉีดพลังชีวิต"
+"HLVR_Lesson_HealthInjectToHand"				"ฉีดเข้าที่ลำตัว มือ หรือขา"
+"HLVR_Lesson_HealthInjectToHandSingleController"	"ฉีดเข้าที่ลำตัว หรือขา"
+"HLVR_Lesson_WristHUD"							"หน้าจอหลังมือแสดงพลังชีวิตของคุณ"
+"HLVR_Lesson_GameSaved"							"บันทึกเกมแล้ว"
+"HLVR_Lesson_BackpackConstraints"				"เป้สะพายหลังเก็บได้เฉพาะ\nกระสุนและเรซินเท่านั้น"
+"HLVR_Lesson_PistolClipBackpackConstraints"		"เป้สะพายหลังเก็บได้เฉพาะ\nแมกกาซีนที่มีกระสุนเต็มเท่านั้น"
+"HLVR_Lesson_OpenWeaponSelectForHand"			"แตะเพื่อเปลี่ยนจากมือ\nของคุณอย่างรวดเร็ว"
+"HLVR_Lesson_OpenWeaponSelectForHandSingleController"	"แตะเพื่อเปลี่ยน\nไปยังมือของคุณอย่างรวดเร็ว\nเพื่อให้คุณสามารถหยิบกระสุนได้"
+"HLVR_Lesson_SelectHand"						"เลือกมือ"
+"HLVR_Lesson_2HLevitate"						"ล็อคเป้าด้วยถุงมือ\nแรงโน้มถ่วงทั้งสอง"
+"HLVR_Lesson_GravityGloveLockOn"				"กดเพื่อล็อคเป้า"
+"HLVR_Lesson_GravityGlovePull"					"สะบัดมือกลับเพื่อดึงวัตถุ"
+"HLVR_Lesson_GravityGloveCatch"					"คว้าวัตถุกลางอากาศ"
+"HLVR_Lesson_2HPickup"							"หยิบของหนักด้วยมือทั้งสองข้าง"
+"HLVR_Lesson_UseMultitoolOnDoor"				"ใช้เครื่องมืออเนกประสงค์\nกับเทอร์มินัล"
+"HLVR_Lesson_UseMultitoolOnToner"				"ใช้เครื่องมืออเนกประสงค์\nกับแหล่งพลังงาน"
+"HLVR_Lesson_UseMultitoolOnJunction"			"คลิกเครื่องมืออเนกประสงค์\nเพื่อหันรอยต่อ"
+"HLVR_Lesson_UseMultitoolOnTripmine"			"ใช้เครื่องมืออเนกประสงค์\nบนทริปไมน์"
+"HLVR_Lesson_StoreObjectInWristBag"				"เก็บไอเท็มในกระเป๋าที่ข้อมือ"
+"HLVR_Lesson_StoreObjectInWristBagSingleController"		"เก็บไอเท็มในกระเป๋า"
+"HLVR_Lesson_RetrieveObjectInWristBag"			"ดึงไอเท็มจากกระเป๋าที่ข้อมือ"
+"HLVR_Lesson_Headset"							"สวมใส่เครื่องสวมศีรษะ\nโดยวางลงบนหูของคุณ"
+"HLVR_Lesson_Pickup_Clip"						"ดึงหรือหยิบกระสุน"
+"HLVR_Lesson_AttachFlashlight"					"ติดไฟฉายเข้ากับ\nถุงมือแรงโน้มถ่วง"
+"HLVR_Lesson_WeaponReturned"					"อาวุธที่ทิ้งไว้ในเครื่องปรับแต่ง\nอุปกรณ์ของคอมไบน์ถูกส่งคืนแล้ว"
+"HLVR_Lesson_ThrowEnergyBolt"					"ขว้างพลังสายฟ้า"
+"HLVR_Lesson_Health_Station"					"ใช้ด้ามจับเพื่อเปิดสถานีพลังชีวิต"
+
+// upgrades
+"HLVR_Upgrade_PistolLaserSight"						"เลเซอร์ติดปืน"
+"HLVR_Upgrade_Desc_PistolLaserSight"					"เพิ่มเลเซอร์ติดปืน\nเพื่อให้เล็งเป้าได้แม่นยำขึ้น"
+"HLVR_Upgrade_PistolReflexSight"					"ศูนย์กล้อง"
+"HLVR_Upgrade_Desc_PistolReflexSight"					"เพิ่มศูนย์กล้อง\nเพื่อเน้นเป้ายิงปืน"
+"HLVR_Upgrade_PistolBurstFire"						"ยิงเป็นชุด"
+"HLVR_Upgrade_Desc_PistolBurstFire"						"เพิ่มการสลับเปลี่ยนระหว่าง\nยิงเป็นชุดสามนัด\nกับยิงนัดเดียว"
+"HLVR_Upgrade_PistolBulletHopper"					"แผงกระสุนสำรอง"
+"HLVR_Upgrade_Desc_PistolBulletHopper"					"เพิ่มแผงสำรองที่มี\nกระสุนเพิ่มอีก 10 นัด"
+
+"HLVR_Upgrade_ShotgunSpeedLoader"					"ออโตโหลดเดอร์"
+"HLVR_Upgrade_Desc_ShotgunSpeedLoader"					"เพิ่มกลไกป้อนกระสุนเพื่อบรรจุ\nกระสุนให้ปืนลูกซอง\nอย่างรวดเร็ว"
+"HLVR_Upgrade_ShotgunGrenadeAttach"					"เครื่องยิงลูกระเบิด"
+"HLVR_Upgrade_Desc_ShotgunGrenadeAttach"				"เพิ่มความสามารถที่จะติดตั้ง\nและยิงลูกระเบิด"
+"HLVR_Upgrade_ShotgunLaserSight"					"เลเซอร์ติดปืน"
+"HLVR_Upgrade_Desc_ShotgunLaserSight"					"เพิ่มเลเซอร์ติดปืน\nเพื่อให้เล็งเป้าได้แม่นยำขึ้น"
+"HLVR_Upgrade_ShotgunQuickFire"						"ยิงสองนัดซ้อน"
+"HLVR_Upgrade_Desc_ShotgunQuickFire"					"เพิ่มตัวเลือกเพื่อให้ยิง\nกระสุนนัดที่สองต่อ\nจากนัดแรกได้ทันที"
+
+"HLVR_Upgrade_RapidfireExplodingBullets"			"กระสุนคลัสเตอร์"
+"HLVR_Upgrade_Desc_RapidfireExplodingBullets"			"เพิ่มความสามารถในการจุดระเบิด\nแผงกระสุนคลัสเตอร์หลังยิง"
+"HLVR_Upgrade_RapidfireReflexSight"					"ศูนย์กล้อง"
+"HLVR_Upgrade_Desc_RapidfireReflexSight"				"เพิ่มศูนย์กล้อง\nเพื่อเน้นเป้ายิงปืน"
+"HLVR_Upgrade_RapidfireLaserSight"					"เลเซอร์ติดปืน"
+"HLVR_Upgrade_Desc_RapidfireLaserSight"					"เพิ่มเลเซอร์ติดปืน\nเพื่อให้เล็งเป้าได้แม่นยำขึ้น"
+"HLVR_Upgrade_RapidfireExtendedMagazine"			"แมกกาซีนแบบขยาย"
+"HLVR_Upgrade_Desc_RapidfireExtendedMagazine"			"ทำให้สามารถบรรจุเซลล์พลังงาน\nหลายชุดเข้าไปในอาวุธได้"
+
+"HLVR_Weapon_Name_Pistol"							"ปืนพก"
+"HLVR_Weapon_Name_Shotgun"							"ปืนลูกซอง"
+"HLVR_Weapon_Name_RapidFire"						"ปืนกลมือ"
+
+"HLVR_Weapon_Name_Pistol_UID"						"XXXXXXXXXXXX..XXX.X.X"
+"HLVR_Weapon_Name_Shotgun_UID"						"004086056845..080.2.7"
+"HLVR_Weapon_Name_RapidFire_UID"					"000123100400..342.5.1"
+
+// crafting station
+"HLVR_CraftingStation_Name"							"สถานีจัดหา 0.3.3.333"
+"HLVR_CraftingStation_Startup"						"เริ่มเดินเครื่อง"
+"HLVR_CraftingStation_Scanning"						"Scanning Environment..."
+"HLVR_CraftingStation_LoadingBlueprints"			"กำลังโหลดพิมพ์เขียว..."
+"HLVR_CraftingStation_InsertWeapon"					"ใส่อาวุธในแคร่"
+"HLVR_CraftingStation_YourResin"					"เรซินของคุณ: {i:CurrencyAmount}"
+"HLVR_CraftingStation_YourResinLabel"				"เรซินของคุณ:"
+"HLVR_CraftingStation_ResinAmount"					"{i:CurrencyAmount}"
+"HLVR_CraftingStation_SelectObject"					"เลือกสิ่งของ"
+"HLVR_CraftingStation_SelectedWeapon"				"{s:WeaponName}"
+"HLVR_CraftingStation_Upgrades"						"อัปเกรด"
+"HLVR_CraftingStation_Cost"							"ราคา"
+"HLVR_CraftingStation_Summary"						"สรุป"
+"HLVR_CraftingStation_NoUpgrades"					"ไม่มีอัปเกรดที่ทราบแน่นอน"
+"HLVR_CraftingStation_NotEnoughResin"				"มีเรซินไม่พอให้อัปเกรด"
+"HLVR_CraftingStation_InsufficientResin"			"ไม่เพียงพอ"
+"HLVR_CraftingStation_InsertResin"					"ใส่เรซินเดี๋ยวนี้"
+"HLVR_CraftingStation_Acquiring"					"กำลังจัดหา"
+"HLVR_CraftingStation_Acquired"						"ได้มาแล้ว"
+"HLVR_CraftingStation_Scanning"						"กำลังสแกน"
+"HLVR_CraftingStation_Rendering"					"กำลังเรนเดอร์"
+"HLVR_CraftingStation_Printing"						"กำลังพิมพ์"
+"HLVR_CraftingStation_Complete"						"การปรับแต่งอุปกรณ์เสร็จสมบูรณ์"
+"HLVR_CraftingStation_Cancelled"					"การปรับแต่งอุปกรณ์ยกเลิกแล้ว"
+"HLVR_CraftingStation_TakeObject"					"รับไอเท็ม"
+"HLVR_CraftingStation_PrintObject"					"พิมพ์วัตถุ"
+"HLVR_CraftingStation_UpgradeOwned"					"มีแล้ว"
+"HLVR_CraftingStation_Cancel"						"ยกเลิก"
+"HLVR_CraftingStation_Back"							"ย้อนกลับ"
+"HLVR_CraftingStation_SmallPrint"					"ภาคผนวกการพิทักษ์พลเมือง 19-81572"
+
+// combine console
+"HLVR_CombineConsole_Name"							"คอนโซลคอมไบน์ V17.14"
+"HLVR_CombineConsole_Activate"						"เปิดใช้งาน"
+
+"HLVR_Calibration_Start"							"กดปุ่มเพื่อเริ่มต้น"
+
+"HLVR_Intro_Text_01"								"เป็นเวลา 5 ปีก่อนการล่มสลายของ"
+"HLVR_Intro_Text_02"                                                            " ซิทาเดล" 
+"HLVR_Intro_Text_03"								"และการจากไปของ"
+"HLVR_Intro_Text_04"                                                            " อีไล แวนซ์" 
+
+"HLVR_Eli_Call_Incoming"							"สายโทรเข้า"
+"HLVR_Eli_Call_Incoming_Name"						"อีไล แวนซ์"
+"HLVR_Eli_Call_Ended_01"							" "
+"HLVR_Eli_Call_Ended_02"							"วางสายแล้ว"
+"HLVR_Eli_Call_Location"							"ลานตุนเสบียงไพลอน 7B"
+
+
+// Referenced in hl2_gamerules.cpp
+// static HLVRChapter_t rgChapters[] = {
+// Chapter Numbers
+"HLVR_Chapter_Number_00"							"บทที่ 1"
+"HLVR_Chapter_Number_01"							"บทที่ 2"
+"HLVR_Chapter_Number_02"							"บทที่ 3"
+"HLVR_Chapter_Number_03"							"บทที่ 4"
+"HLVR_Chapter_Number_04"							"บทที่ 5"
+"HLVR_Chapter_Number_05"							"บทที่ 6"
+"HLVR_Chapter_Number_06"							"บทที่ 7"
+"HLVR_Chapter_Number_07"							"บทที่ 8"
+"HLVR_Chapter_Number_08"							"บทที่ 9"
+"HLVR_Chapter_Number_09"							"บทที่ 10"
+"HLVR_Chapter_Number_10"							"บทที่ 11"
+
+"HLVR_Chapter_Title_00"								"การพัวพัน"
+"HLVR_Chapter_Title_01"								"เขตกักกัน"
+"HLVR_Chapter_Title_02"								"ตายหรือจะตาย"
+"HLVR_Chapter_Title_03"								"อาวุธสุดยอด"
+"HLVR_Chapter_Title_04"								"ดาวเหนือ"
+"HLVR_Chapter_Title_05"								"ใครแน่กว่ากัน"
+"HLVR_Chapter_Title_06"								"เจฟฟ์"
+"HLVR_Chapter_Title_07"								"ในวงล้อมศัตรู"
+"HLVR_Chapter_Title_08"								"ร่างหลังเงามืด"
+"HLVR_Chapter_Title_09"								"ถล่มรุกบุกทะลวง"
+"HLVR_Chapter_Title_10"								"จุดชิงตัว"
+
+"HLVR_Transmission_Incoming"						"สัญญาณภาพวิดีโอ\nเรียกเข้า"
+"HLVR_Transmission_Ended"							"การส่งสัญญาณ\nสิ้นสุดลงแล้ว"
+
+"HLVR_Propaganda_Standby"							"โปรดเตรียมพร้อม"
+"HLVR_Propaganda_Countdown5"						"5"
+"HLVR_Propaganda_Countdown4"						"4"
+"HLVR_Propaganda_Countdown3"						"3"
+"HLVR_Propaganda_Countdown2"						"2"
+"HLVR_Propaganda_Announcement"						"ประกาศพิเศษ"
+
+"HLVR_Distillery_Elevator_Error"					"เกินขีดจำกัดน้ำหนัก"
+"HLVR_Distillery_Elevator_Override"					"ต้องควบคุมด้วยมือ"
+
+"HLVR_Trainyard_Train_Approaching"					"รถไฟใกล้เข้ามา"
+
+"HLVR_Intro_World_01a"								"ชื่อบุคคล: "
+"HLVR_Intro_World_01b"								" อลิกซ์ แวนซ์ อายุ 19 ปี เพศหญิง"
+"HLVR_Intro_World_02a"								"สังกัด: "
+"HLVR_Intro_World_02b"								" มนุษย์ฝ่ายต่อต้าน"
+"HLVR_Intro_World_03a"								"ภารกิจปัจจุบัน: "
+"HLVR_Intro_World_03b"								" สอดแนม"
+
+"HLVR_Mission_Terminated_01a"						"ภารกิจ: "
+"HLVR_Mission_Terminated_01b"						"ล้มเลิก"
+"HLVR_Mission_Terminated_02a"						"ชื่อบุคคล: "
+"HLVR_Mission_Terminated_02b"						"อลิกซ์ แวนซ์"
+"HLVR_Mission_Terminated_03a"						"เหตุผล: "
+"HLVR_Mission_Terminated_03b"						"ล้มเหลวในการรักษาทรัพยากรที่มีความสำคัญต่อภารกิจ"
+
+"HLVR_Subject"										"ชื่อบุคคล: "
+"HLVR_Subject_2"									"อลิกซ์ แวนซ์"
+"HLVR_Status"										"สถานะ: "
+"HLVR_Status_2"										"ได้รับการว่าจ้าง"
+"HLVR_Assignment"									"รอการมอบหมายภารกิจ"
+
+"HLVR_Combine_Chatter"								"[เสียงคอมไบน์คุยกัน]"
+
+// In-world signage
+"HLVR_Signage_Infestation_Control1"					"คำเตือน:"
+"HLVR_Signage_Infestation_Control2"					"การควบคุมการระบาด"
+
+"HLVR_Signage_Emergency"							"ฉุกเฉิน"
+"HLVR_Signage_Main_Power"							"ระบบไฟฟ้าหลัก"
+"HLVR_Signage_Shutoff"								"ปิดสวิตช์"
+
+// Credits
+
+"HLVR_Credits_ContractorsHeader"					"ทีมพัฒนาเสริม"
+"HLVR_Credits_CastHeader"							"รายชื่อนักแสดง"
+"HLVR_Commentary_Elevator"							"Elevator"
+// Game Tips
+"HLVR_LOADING_SCREEN_TIP_COUNT"				"22"
+"HLVR_LOADING_SCREEN_TIP_MAP_0_COUNT"		"6"		// a1_intro_world
+"HLVR_LOADING_SCREEN_TIP_MAP_1_COUNT"		"9"		// a1_intro_world_2
+"HLVR_LOADING_SCREEN_TIP_MAP_2_COUNT"		"6"		// a2_quarantine_entrance
+"HLVR_LOADING_SCREEN_TIP_MAP_3_COUNT"		"7"		// a2_pistol
+"HLVR_LOADING_SCREEN_TIP_MAP_4_COUNT"		"12"	// a2_hideout
+"HLVR_LOADING_SCREEN_TIP_MAP_5_COUNT"		"12"	// a2_headcrabs_tunnel
+"HLVR_LOADING_SCREEN_TIP_MAP_6_COUNT"		"14"	// a2_drainage
+"HLVR_LOADING_SCREEN_TIP_MAP_7_COUNT"		"13"	// a2_train_yard
+"HLVR_LOADING_SCREEN_TIP_MAP_8_COUNT"		"11"	// a3_station_street
+"HLVR_LOADING_SCREEN_TIP_MAP_9_COUNT"		"15"	// a3_hotel_lobby_basement
+"HLVR_LOADING_SCREEN_TIP_MAP_10_COUNT"		"15"	// a3_hotel_underground_pit
+"HLVR_LOADING_SCREEN_TIP_MAP_11_COUNT"		"15"	// a3_hotel_interior_rooftop
+"HLVR_LOADING_SCREEN_TIP_MAP_12_COUNT"		"20"	// a3_hotel_street
+"HLVR_LOADING_SCREEN_TIP_MAP_13_COUNT"		"20"	// a3_c17_processing_plant
+"HLVR_LOADING_SCREEN_TIP_MAP_14_COUNT"		"20"	// a3_distillery
+"HLVR_LOADING_SCREEN_TIP_MAP_15_COUNT"		"20"	// a4_c17_zoo
+"HLVR_LOADING_SCREEN_TIP_MAP_16_COUNT"		"20"	// a4_c17_tanker_yard
+"HLVR_LOADING_SCREEN_TIP_MAP_17_COUNT"		"0"		// a4_c17_water_tower
+"HLVR_LOADING_SCREEN_TIP_MAP_18_COUNT"		"0"		// a4_c17_parking_garage
+"HLVR_LOADING_SCREEN_TIP_MAP_19_COUNT"		"0"		// a5_vault
+"HLVR_LOADING_SCREEN_TIP_MAP_20_COUNT"		"0"		// a5_ending
+} 
+}

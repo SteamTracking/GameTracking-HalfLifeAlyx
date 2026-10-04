@@ -1,56 +1,42 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Mix.hlvr_pulse_interior_layer_0p0 = 
 	{
 		type = "core_set_mixlayer_amount"
 		mixlayer = "PulseInteriorLayer"
-		amount = 0.000000
+		amount = 0.0
 	}
 	Mix.hlvr_pulse_interior_layer_1p0 = 
 	{
 		type = "core_set_mixlayer_amount"
 		mixlayer = "PulseInteriorLayer"
-		amount = 1.000000
+		amount = 1.0
 	}
 	Mix.hlvr_pulse_interior_layer_1p0_timed = 
 	{
 		type = "core_set_mixlayer_amount_timed"
 		mixlayer = "PulseInteriorLayer"
-		amount = 1.000000
-		time = 4.000000
+		amount = 1.0
+		time = 4.0
 	}
 	Mix.hlvr_pulse_interior_layer_timed_curve = 
 	{
 		type = "core_set_mixlayer_amount_timed_curve"
 		mixlayer = "PulseInteriorLayer"
-		time = 4.000000
+		time = 4.0
 		amount_curve = 
 		[
-			
 			[
-				0.000100,
-				0.005168,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.0001, 0.005168, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				1.852802,
-				1.000000,
-				-0.001292,
-				-0.001292,
-				3.000000,
-				1.000000,
+				1.852802, 1.0, -0.001292, -0.001292,
+				3.0, 1.0,
 			],
-			
 			[
-				4.000000,
-				0.000000,
-				0.227125,
-				0.227125,
-				2.000000,
-				3.000000,
+				4.0, 0.0, 0.227125, 0.227125,
+				2.0, 3.0,
 			],
 		]
 	}
@@ -58,96 +44,96 @@
 	{
 		type = "core_set_mixlayer_amount"
 		mixlayer = "PulseInteriorLayer"
-		amount = 0.825000
+		amount = 0.825
 	}
 	Mix.a3_station_street_pulse_interior_01 = 
 	{
 		type = "core_set_mixlayer_amount"
 		mixlayer = "PulseInteriorLayer"
-		amount = 0.825000
+		amount = 0.825
 	}
 	Mix.a3_station_street_pulse_interior_02 = 
 	{
 		type = "core_set_mixlayer_amount"
 		mixlayer = "PulseInteriorLayer"
-		amount = 0.750000
+		amount = 0.75
 	}
 	Mix.a3_station_street_pulse_interior_03 = 
 	{
 		type = "core_set_mixlayer_amount"
 		mixlayer = "PulseInteriorLayer"
-		amount = 0.675000
+		amount = 0.675
 	}
 	Mix.a3_station_street_pulse_interior_04 = 
 	{
 		type = "core_set_mixlayer_amount"
 		mixlayer = "PulseInteriorLayer"
-		amount = 0.600000
+		amount = 0.6
 	}
 	Mix.a3_station_street_pulse_interior_05 = 
 	{
 		type = "core_set_mixlayer_amount"
 		mixlayer = "PulseInteriorLayer"
-		amount = 0.000000
+		amount = 0.0
 	}
 	Mix.a3_station_street_pulse_interior_06 = 
 	{
 		type = "core_set_mixlayer_amount"
 		mixlayer = "PulseInteriorLayer"
-		amount = 0.500000
+		amount = 0.5
 	}
 	Mix.a3_station_street_pulse_interior_07 = 
 	{
 		type = "core_set_mixlayer_amount"
 		mixlayer = "PulseInteriorLayer"
-		amount = 0.400000
+		amount = 0.4
 	}
 	Mix.a3_station_street_pulse_interior_08 = 
 	{
 		type = "core_set_mixlayer_amount"
 		mixlayer = "PulseInteriorLayer"
-		amount = 0.300000
+		amount = 0.3
 	}
 	Mix.a3_station_street_pulse_interior_09 = 
 	{
 		type = "core_set_mixlayer_amount"
 		mixlayer = "PulseInteriorLayer"
-		amount = 0.200000
+		amount = 0.2
 	}
 	Mix.a3_station_street_pulse_interior_10 = 
 	{
 		type = "core_set_mixlayer_amount"
 		mixlayer = "PulseInteriorLayer"
-		amount = 0.000000
+		amount = 0.0
 	}
 	SetMixlayer.Mute_Physics = 
 	{
 		type = "core_set_mixlayer_amount_until_stopped"
 		mixlayer = "Mute_Physics"
-		amount = 1.000000
+		amount = 1.0
 	}
 	SetMixlayer.Duck_NPC_Footsteps_Strong = 
 	{
 		type = "core_set_mixlayer_amount_until_stopped"
 		mixlayer = "Duck_NPC_Footsteps"
-		amount = 1.000000
+		amount = 1.0
 	}
 	SetMixlayer.Duck_Strider_Minigun = 
 	{
 		type = "core_set_mixlayer_amount_until_stopped"
 		mixlayer = "Strider_Fight_Ducking"
-		amount = 1.000000
+		amount = 1.0
 	}
 	SetMixlayer.Boost_Combine_Elevator = 
 	{
 		type = "core_set_mixlayer_amount_until_stopped"
 		mixlayer = "Boost_Combine_Elevator"
-		amount = 1.000000
+		amount = 1.0
 	}
 	SetMixlayer.Duck_PlayerFootsteps = 
 	{
 		type = "core_set_mixlayer_amount_until_stopped"
 		mixlayer = "Duck_Player_Steps"
-		amount = 0.800000
+		amount = 0.8
 	}
 }

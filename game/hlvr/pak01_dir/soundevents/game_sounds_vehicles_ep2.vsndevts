@@ -1,222 +1,223 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	JNK_engine_idle = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/junker/jnk_idle_loop1.vsnd"
 	}
 	JNK_engine_start = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/junker/jnk_start_loop1.vsnd"
 	}
 	JNK_engine_stop = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/junker/jnk_stop1.vsnd"
 	}
 	JNK_rev = 
 	{
 		type = "src1_3d"
 		volume = 0.899902
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 0.900000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 0.9
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/junker/jnk_rev_short_loop1.vsnd"
 	}
 	JNK_reverse = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 0.950000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 0.95
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/junker/jnk_firstgear_rev_loop1.vsnd"
 	}
 	JNK_firstgear = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 0.950000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 0.95
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/junker/jnk_first.vsnd"
 	}
 	JNK_secondgear = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 0.900000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 0.9
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/junker/jnk_second.vsnd"
 	}
 	JNK_thirdgear = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 0.900000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 0.9
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/junker/jnk_third.vsnd"
 	}
 	JNK_fourthgear = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 0.950000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 0.95
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/junker/jnk_fourth_cruise_loop2.vsnd"
 	}
 	JNK_firstgear_noshift = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 0.950000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 0.95
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/junker/jnk_first.vsnd"
 	}
 	JNK_secondgear_noshift = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 0.950000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 0.95
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/junker/jnk_first.vsnd"
 	}
 	JNK_thirdgear_noshift = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 0.950000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 0.95
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/junker/jnk_first.vsnd"
 	}
 	JNK_fourthgear_noshift = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 0.950000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 0.95
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/junker/jnk_fourth_cruise_loop2.vsnd"
 	}
 	JNK_throttleoff_slowspeed = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 0.900000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 0.9
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/junker/jnk_throttle_off_slow_loop2.vsnd"
 	}
 	JNK_throttleoff_fastspeed = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 0.900000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 0.9
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = "sounds/vehicles/junker/jnk_throttle_off_fast_loop1.vsnd"
 	}
 	JNK_turbo_on = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 0.900000
-		soundlevel = 80.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 0.9
+		soundlevel = 80.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = "sounds/vehicles/junker/jnk_turbo_on_loop1.vsnd"
 	}
 	JNK_skid_lowfriction = 
 	{
 		type = "src1_3d"
 		volume = 0.799805
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		event_type = 4.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.0
+		soundlevel = 80.0
+		event_type = 4.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = "sounds/vehicles/junker/skid_lowfriction_nostartdelay.vsnd"
 	}
 	JNK_skid_normalfriction = 
 	{
 		type = "src1_3d"
-		volume = 0.500000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		event_type = 4.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 0.5
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.0
+		soundlevel = 80.0
+		event_type = 4.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = "sounds/vehicles/junker/skid_lowfriction_nostartdelay.vsnd"
 	}
 	JNK_skid_highfriction = 
 	{
 		type = "src1_3d"
 		volume = 0.799805
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		event_type = 4.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.0
+		soundlevel = 80.0
+		event_type = 4.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = "sounds/vehicles/junker/skid_normalfriction_nostartdelay.vsnd"
 	}
 	JNK_skid_lowfriction_short = 
 	{
 		type = "src1_3d"
 		volume = 0.599609
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.0
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = 
 		[
 			"sounds/vehicles/junker/skid_lowfriction_short1.vsnd",
@@ -228,11 +229,11 @@
 	{
 		type = "src1_3d"
 		volume = 0.599609
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.0
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = 
 		[
 			"sounds/vehicles/junker/skid_lowfriction_short1.vsnd",
@@ -244,11 +245,11 @@
 	{
 		type = "src1_3d"
 		volume = 0.799805
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.0
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = 
 		[
 			"sounds/vehicles/junker/skid_highfriction_short1.vsnd",
@@ -261,12 +262,12 @@
 	JNK_suspension = 
 	{
 		type = "src1_3d"
-		volume = 0.250000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		volume = 0.25
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.0
+		soundlevel = 80.0
+		limiter_on = 0.0
 		vsnd_files = 
 		[
 			"sounds/vehicles/junker/suspension1.vsnd",
@@ -281,29 +282,29 @@
 	JNK_Radar_Ping_Friendly = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 100.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 100.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = "sounds/vehicles/junker/radar_ping_friendly1.vsnd"
 	}
 	JNK_Radar_Ping_Enemy = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 100.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 100.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = "sounds/vehicles/junker/radar_ping_enemy1.vsnd"
 	}
 }

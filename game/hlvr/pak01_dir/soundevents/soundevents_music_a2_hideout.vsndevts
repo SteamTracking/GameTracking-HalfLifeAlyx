@@ -1,56 +1,32 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Music.a2_hideout_puzzle1 = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.500000
-		volume_fade_out = 8.170000
-		restart_time = 73.846000
+		volume = 0.5
+		volume_fade_out = 8.17
+		restart_time = 73.846
 		presence_map_curve = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				0.200000,
-				0.200000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				0.2, 0.2, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				0.600000,
-				0.350000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				0.6, 0.35, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				0.800000,
-				0.600000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				0.8, 0.6, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				1.0, 1.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		vsnd_files = 
@@ -61,9 +37,9 @@
 	Music.a2_hideout_puzzle2 = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.500000
-		volume_fade_out = 7.170000
-		restart_time = 73.846000
+		volume = 0.5
+		volume_fade_out = 7.17
+		restart_time = 73.846
 		vsnd_files = 
 		[
 			"sounds/music/places/hideout/a2_hideout_puzzle2.vsnd",
@@ -72,9 +48,9 @@
 	Music.a2_hideout_approach1 = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.500000
+		volume = 0.5
 		volume_fade_out = 4
-		restart_time = 44.307000
+		restart_time = 44.307
 		vsnd_files = 
 		[
 			"sounds/music/places/hideout/a2_hideout_approach1.vsnd",
@@ -83,9 +59,9 @@
 	Music.a2_hideout_approach2 = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.500000
+		volume = 0.5
 		volume_fade_out = 4
-		restart_time = 44.307000
+		restart_time = 44.307
 		vsnd_files = 
 		[
 			"sounds/music/places/hideout/a2_hideout_approach2.vsnd",
@@ -94,9 +70,9 @@
 	Music.a2_hideout_approach3 = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.500000
+		volume = 0.5
 		volume_fade_out = 4
-		restart_time = 44.307000
+		restart_time = 44.307
 		vsnd_files = 
 		[
 			"sounds/music/places/hideout/a2_hideout_approach3.vsnd",
@@ -109,26 +85,16 @@
 		volume_fade_out = 5
 		track = "music"
 		priority = 0
-		restart_time = 73.846000
+		restart_time = 73.846
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				10.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				10.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				30.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				30.0, 0.7, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		vsnd_files = 
@@ -139,7 +105,7 @@
 	Music.a2_hideout_entrance_end = 
 	{
 		type = "hlvr_music_2d"
-		volume = 1.200000
+		volume = 1.2
 		track = "music"
 		priority = 1
 		vsnd_files = 
@@ -150,11 +116,11 @@
 	Music.a2_hideout_kitchen = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.750000
+		volume = 0.75
 		volume_fade_out = 1
 		track = "music"
 		priority = 2
-		restart_time = 59.076000
+		restart_time = 59.076
 		vsnd_files = 
 		[
 			"sounds/music/places/hideout/a2_hideout_kitchen.vsnd",
@@ -163,11 +129,11 @@
 	Music.a2_hideout_alter_door = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.900000
+		volume = 0.9
 		volume_fade_out = 5
 		track = "music"
 		priority = 3
-		restart_time = 44.307000
+		restart_time = 44.307
 		vsnd_files = 
 		[
 			"sounds/music/places/hideout/a2_hideout_door.vsnd",
@@ -181,20 +147,20 @@
 		soundevent_02 = "Music.a2_hideout_vort_prep_r"
 		soundevent_03 = "Music.a2_hideout_vort_prep_ls"
 		soundevent_04 = "Music.a2_hideout_vort_prep_rs"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	Music.a2_hideout_vort_prep_l = 
 	{
 		type = "hlvr_music_fixed_rotation"
-		volume_base = 1.000000
+		volume_base = 1.0
 		mixgroup = "LoudMusic"
 		rotation_angle = 315
 		volume_fade_out = 12
-		volume = 1.300000
-		enable_debug_radius = 0.000000
+		volume = 1.3
+		enable_debug_radius = 0.0
 		soundname_string = "L"
-		restart_time = 44.769000
+		restart_time = 44.769
 		vsnd_files = 
 		[
 			"sounds/music/places/hideout/a2_hideout_vort_prep_l.vsnd",
@@ -234,27 +200,27 @@
 	{
 		type = "hlvr_stop_soundevent"
 		soundevent = "vort_prep"
-		match_substring = 1.000000
+		match_substring = 1.0
 	}
 	Music.a2_hideout_alter = 
 	{
 		type = "hlvr_start_multi_sequence"
 		soundevent_01 = "Music.a2_hideout_alter_child"
 		soundevent_02 = "Music.a2_hideout_vort_prep_stop"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 0.000000
-		use_04 = 0.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 0.0
+		use_04 = 0.0
 	}
 	Music.a2_hideout_alter_child = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.900000
+		volume = 0.9
 		volume_fade_out = 5
 		track = "music"
 		priority = 4
-		restart_start = 93.230000
-		restart_time = 119.538000
+		restart_start = 93.23
+		restart_time = 119.538
 		vsnd_files = 
 		[
 			"sounds/music/places/hideout/a2_hideout_alter.vsnd",
@@ -263,7 +229,7 @@
 	Music.a2_hideout_alter_end = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.500000
+		volume = 0.5
 		track = "music"
 		priority = 5
 		vsnd_files = 
@@ -279,29 +245,29 @@
 		soundevent_02 = "Music.a2_hideout_vort_prep_nstar_r"
 		soundevent_03 = "Music.a2_hideout_vort_prep_nstar_ls"
 		soundevent_04 = "Music.a2_hideout_vort_prep_nstar_rs"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	Music.a2_hideout_vort_prep_nstar_l = 
 	{
 		type = "hlvr_music_fixed_rotation"
-		volume_base = 1.000000
+		volume_base = 1.0
 		mixgroup = "LoudMusic"
 		rotation_angle = 0
-		volume_fade_out = 7.000000
-		volume = 0.900000
-		enable_debug_radius = 0.000000
+		volume_fade_out = 7.0
+		volume = 0.9
+		enable_debug_radius = 0.0
 		soundname_string = "L"
-		restart_time = 44.769000
+		restart_time = 44.769
 		stop_at_time = 13
-		fade_over_time_x1 = 3.000000
-		fade_over_time_y1 = 1.000000
-		fade_over_time_x2 = 9.000000
-		fade_over_time_y2 = 0.400000
-		fade_over_time_x3 = 13.000000
-		fade_over_time_y3 = 0.000000
-		fade_over_time_x4 = 14.000000
-		fade_over_time_y4 = 0.000000
+		fade_over_time_x1 = 3.0
+		fade_over_time_y1 = 1.0
+		fade_over_time_x2 = 9.0
+		fade_over_time_y2 = 0.4
+		fade_over_time_x3 = 13.0
+		fade_over_time_y3 = 0.0
+		fade_over_time_x4 = 14.0
+		fade_over_time_y4 = 0.0
 		vsnd_files = 
 		[
 			"sounds/music/places/hideout/a2_hideout_vort_prep_l.vsnd",
@@ -342,15 +308,15 @@
 		type = "hlvr_start_multi_sequence"
 		soundevent_01 = "Music.a2_hideout_northernstar_child"
 		soundevent_02 = "Music.a2_hideout_vort_prep_nstar"
-		use_01 = 1.000000
+		use_01 = 1.0
 		use_02 = 1
-		use_03 = 0.000000
-		use_04 = 0.000000
+		use_03 = 0.0
+		use_04 = 0.0
 	}
 	Music.a2_hideout_northernstar_child = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.800000
+		volume = 0.8
 		track = "music"
 		priority = 6
 		vsnd_files = 

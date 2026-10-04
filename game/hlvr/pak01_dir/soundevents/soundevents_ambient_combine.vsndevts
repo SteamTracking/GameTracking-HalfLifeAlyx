@@ -1,11 +1,12 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	AmbientCombine.DistantCombat = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientCombine.DistantCombatMulti"
-		random_soundevent_01_timer_min = 22.500000
-		random_soundevent_01_timer_max = 35.500000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 22.5
+		random_soundevent_01_timer_max = 35.5
+		use_initial_random_offset = 1.0
 	}
 	AmbientCombine.DistantCombatMulti = 
 	{
@@ -13,10 +14,10 @@
 		soundevent_01 = "AmbientCombine.DistantCombatMgBurst"
 		soundevent_02 = "AmbientCombine.DistantCombatMortarBurst"
 		soundevent_03 = "AmbientCombine.DistantCombatRifleBurst"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 0.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 0.0
 	}
 	AmbientCombine.DistantCombatMgBurst = 
 	{
@@ -24,7 +25,7 @@
 		soundevent_name = "AmbientCombine.DistantCombatMg"
 		burst_length_min = 5
 		burst_length_max = 7
-		delay_timer_min = 1.250000
+		delay_timer_min = 1.25
 		delay_timer_max = 3
 	}
 	AmbientCombine.DistantCombatMg = 
@@ -55,54 +56,54 @@
 		vsnd_vol_01 = "1.0"
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 0.100000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 0.1
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.700000
+		volume = 0.7
 		global_opvar_name_01 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity = 2.500000
-		remap_vol_opvar_x1 = 0.000000
-		remap_vol_opvar_y1 = 0.430000
-		remap_vol_opvar_x2 = 0.000000
-		remap_vol_opvar_y2 = 0.430000
-		remap_vol_opvar_x3 = 1.000000
-		remap_vol_opvar_y3 = 0.500000
-		remap_vol_opvar_x4 = 1.000000
-		remap_vol_opvar_y4 = 0.500000
-		opvar_to_volume_multiplier_min = 0.000000
-		opvar_to_volume_multiplier = 1.000000
-		filter_mix = 1.000000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 0.450000
-		remap_filter_freq_opvar_x2 = 0.500000
-		remap_filter_freq_opvar_y2 = 0.600000
-		remap_filter_freq_opvar_x3 = 0.700000
-		remap_filter_freq_opvar_y3 = 0.820000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 1.000000
+		global_opvar_filter_velocity = 2.5
+		remap_vol_opvar_x1 = 0.0
+		remap_vol_opvar_y1 = 0.43
+		remap_vol_opvar_x2 = 0.0
+		remap_vol_opvar_y2 = 0.43
+		remap_vol_opvar_x3 = 1.0
+		remap_vol_opvar_y3 = 0.5
+		remap_vol_opvar_x4 = 1.0
+		remap_vol_opvar_y4 = 0.5
+		opvar_to_volume_multiplier_min = 0.0
+		opvar_to_volume_multiplier = 1.0
+		filter_mix = 1.0
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 0.45
+		remap_filter_freq_opvar_x2 = 0.5
+		remap_filter_freq_opvar_y2 = 0.6
+		remap_filter_freq_opvar_x3 = 0.7
+		remap_filter_freq_opvar_y3 = 0.82
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 1.0
 	}
 	AmbientCombine.DistantCombatMg01_R = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mg_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientCombine.DistantCombatMg01_LS = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mg_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientCombine.DistantCombatMg01_RS = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mg_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientCombine.DistantCombatMg02 = 
 	{
@@ -116,25 +117,25 @@
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mg_02_l.vsnd"
-		rotation_angle = 45.000000
+		rotation_angle = 45.0
 	}
 	AmbientCombine.DistantCombatMg02_R = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mg_02_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientCombine.DistantCombatMg02_LS = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mg_02_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientCombine.DistantCombatMg02_RS = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mg_02_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientCombine.DistantCombatMg03 = 
 	{
@@ -148,25 +149,25 @@
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mg_03_l.vsnd"
-		rotation_angle = 45.000000
+		rotation_angle = 45.0
 	}
 	AmbientCombine.DistantCombatMg03_R = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mg_03_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientCombine.DistantCombatMg03_LS = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mg_03_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientCombine.DistantCombatMg03_RS = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mg_03_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientCombine.DistantCombatMg04 = 
 	{
@@ -180,25 +181,25 @@
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mg_04_l.vsnd"
-		rotation_angle = 45.000000
+		rotation_angle = 45.0
 	}
 	AmbientCombine.DistantCombatMg04_R = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mg_04_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientCombine.DistantCombatMg04_LS = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mg_04_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientCombine.DistantCombatMg04_RS = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mg_04_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientCombine.DistantCombatMg05 = 
 	{
@@ -212,25 +213,25 @@
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mg_05_l.vsnd"
-		rotation_angle = 45.000000
+		rotation_angle = 45.0
 	}
 	AmbientCombine.DistantCombatMg05_R = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mg_05_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientCombine.DistantCombatMg05_LS = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mg_05_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientCombine.DistantCombatMg05_RS = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mg_05_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientCombine.DistantCombatMortarBurst = 
 	{
@@ -265,25 +266,25 @@
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mortar_01_l.vsnd"
-		rotation_angle = 45.000000
+		rotation_angle = 45.0
 	}
 	AmbientCombine.DistantCombatMortar01_R = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mortar_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientCombine.DistantCombatMortar01_LS = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mortar_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientCombine.DistantCombatMortar01_RS = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mortar_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientCombine.DistantCombatMortar02 = 
 	{
@@ -297,25 +298,25 @@
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mortar_02_l.vsnd"
-		rotation_angle = 45.000000
+		rotation_angle = 45.0
 	}
 	AmbientCombine.DistantCombatMortar02_R = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mortar_02_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientCombine.DistantCombatMortar02_LS = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mortar_02_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientCombine.DistantCombatMortar02_RS = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mortar_02_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientCombine.DistantCombatMortar03 = 
 	{
@@ -329,25 +330,25 @@
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mortar_03_l.vsnd"
-		rotation_angle = 45.000000
+		rotation_angle = 45.0
 	}
 	AmbientCombine.DistantCombatMortar03_R = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mortar_03_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientCombine.DistantCombatMortar03_LS = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mortar_03_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientCombine.DistantCombatMortar03_RS = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mortar_03_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientCombine.DistantCombatMortar04 = 
 	{
@@ -361,25 +362,25 @@
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mortar_04_l.vsnd"
-		rotation_angle = 45.000000
+		rotation_angle = 45.0
 	}
 	AmbientCombine.DistantCombatMortar04_R = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mortar_04_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientCombine.DistantCombatMortar04_LS = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mortar_04_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientCombine.DistantCombatMortar04_RS = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_mortar_04_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientCombine.DistantCombatRifleBurst = 
 	{
@@ -387,8 +388,8 @@
 		soundevent_name = "AmbientCombine.DistantCombatRifle"
 		burst_length_min = 3
 		burst_length_max = 5
-		delay_timer_min = 1.100000
-		delay_timer_max = 2.000000
+		delay_timer_min = 1.1
+		delay_timer_max = 2.0
 	}
 	AmbientCombine.DistantCombatRifle = 
 	{
@@ -413,25 +414,25 @@
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_rifle_01_l.vsnd"
-		rotation_angle = 45.000000
+		rotation_angle = 45.0
 	}
 	AmbientCombine.DistantCombatRifle01_R = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_rifle_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientCombine.DistantCombatRifle01_LS = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_rifle_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientCombine.DistantCombatRifle01_RS = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_rifle_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientCombine.DistantCombatRifle02 = 
 	{
@@ -445,25 +446,25 @@
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_rifle_02_l.vsnd"
-		rotation_angle = 45.000000
+		rotation_angle = 45.0
 	}
 	AmbientCombine.DistantCombatRifle02_R = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_rifle_02_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientCombine.DistantCombatRifle02_LS = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_rifle_02_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientCombine.DistantCombatRifle02_RS = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_rifle_02_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientCombine.DistantCombatRifle03 = 
 	{
@@ -477,25 +478,25 @@
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_rifle_03_l.vsnd"
-		rotation_angle = 45.000000
+		rotation_angle = 45.0
 	}
 	AmbientCombine.DistantCombatRifle03_R = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_rifle_03_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientCombine.DistantCombatRifle03_LS = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_rifle_03_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientCombine.DistantCombatRifle03_RS = 
 	{
 		base = "AmbientCombine.DistantCombatMg01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_combine_distant_gunfire_rifle_03_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientCombine.ExtraDistantCombat = 
 	{
@@ -503,7 +504,7 @@
 		random_soundevent_01_name = "AmbientCombine.DistantCombatRandomExplo"
 		random_soundevent_01_timer_min = 20
 		random_soundevent_01_timer_max = 30
-		use_initial_random_offset = 1.000000
+		use_initial_random_offset = 1.0
 	}
 	AmbientCombine.DistantCombatRandomExplo = 
 	{
@@ -511,7 +512,7 @@
 		soundevent_name = "AmbientCombine.DistantCombatExplos"
 		burst_length_min = 6
 		burst_length_max = 9
-		delay_timer_min = 1.500000
+		delay_timer_min = 1.5
 		delay_timer_max = 3
 	}
 	AmbientCombine.DistantCombatExplos = 
@@ -542,8 +543,8 @@
 		soundevent_02 = "AmbientCombine.DistantCombatExplo01_R"
 		soundevent_03 = "AmbientCombine.DistantCombatExplo01_LS"
 		soundevent_04 = "AmbientCombine.DistantCombatExplo01_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientCombine.DistantCombatExplo01_L = 
 	{
@@ -551,54 +552,54 @@
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_01_l.vsnd"
 		vsnd_vol_01 = "1.00"
 		mixgroup = "AmbientDSP"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 0.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 2.800000
+		volume = 2.8
 		global_opvar_name_01 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity = 2.500000
-		remap_vol_opvar_x1 = 0.000000
-		remap_vol_opvar_y1 = 0.430000
-		remap_vol_opvar_x2 = 0.000000
-		remap_vol_opvar_y2 = 0.430000
-		remap_vol_opvar_x3 = 1.000000
-		remap_vol_opvar_y3 = 1.000000
-		remap_vol_opvar_x4 = 1.000000
-		remap_vol_opvar_y4 = 1.000000
-		opvar_to_volume_multiplier_min = 0.000000
-		opvar_to_volume_multiplier = 1.000000
-		filter_mix = 1.000000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 0.450000
-		remap_filter_freq_opvar_x2 = 0.500000
-		remap_filter_freq_opvar_y2 = 0.600000
-		remap_filter_freq_opvar_x3 = 0.700000
-		remap_filter_freq_opvar_y3 = 0.820000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 1.000000
+		global_opvar_filter_velocity = 2.5
+		remap_vol_opvar_x1 = 0.0
+		remap_vol_opvar_y1 = 0.43
+		remap_vol_opvar_x2 = 0.0
+		remap_vol_opvar_y2 = 0.43
+		remap_vol_opvar_x3 = 1.0
+		remap_vol_opvar_y3 = 1.0
+		remap_vol_opvar_x4 = 1.0
+		remap_vol_opvar_y4 = 1.0
+		opvar_to_volume_multiplier_min = 0.0
+		opvar_to_volume_multiplier = 1.0
+		filter_mix = 1.0
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 0.45
+		remap_filter_freq_opvar_x2 = 0.5
+		remap_filter_freq_opvar_y2 = 0.6
+		remap_filter_freq_opvar_x3 = 0.7
+		remap_filter_freq_opvar_y3 = 0.82
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 1.0
 	}
 	AmbientCombine.DistantCombatExplo01_R = 
 	{
 		base = "AmbientCombine.DistantCombatExplo01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientCombine.DistantCombatExplo01_LS = 
 	{
 		base = "AmbientCombine.DistantCombatExplo01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientCombine.DistantCombatExplo01_RS = 
 	{
 		base = "AmbientCombine.DistantCombatExplo01_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientCombine.DistantCombatExplo02 = 
 	{
@@ -607,8 +608,8 @@
 		soundevent_02 = "AmbientCombine.DistantCombatExplo02_R"
 		soundevent_03 = "AmbientCombine.DistantCombatExplo02_LS"
 		soundevent_04 = "AmbientCombine.DistantCombatExplo02_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientCombine.DistantCombatExplo02_L = 
 	{
@@ -619,19 +620,19 @@
 	{
 		base = "AmbientCombine.DistantCombatExplo02_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_02_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientCombine.DistantCombatExplo02_LS = 
 	{
 		base = "AmbientCombine.DistantCombatExplo02_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_02_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientCombine.DistantCombatExplo02_RS = 
 	{
 		base = "AmbientCombine.DistantCombatExplo02_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_02_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientCombine.DistantCombatExplo03 = 
 	{
@@ -640,8 +641,8 @@
 		soundevent_02 = "AmbientCombine.DistantCombatExplo03_R"
 		soundevent_03 = "AmbientCombine.DistantCombatExplo03_LS"
 		soundevent_04 = "AmbientCombine.DistantCombatExplo03_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientCombine.DistantCombatExplo03_L = 
 	{
@@ -652,19 +653,19 @@
 	{
 		base = "AmbientCombine.DistantCombatExplo03_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_03_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientCombine.DistantCombatExplo03_LS = 
 	{
 		base = "AmbientCombine.DistantCombatExplo03_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_03_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientCombine.DistantCombatExplo03_RS = 
 	{
 		base = "AmbientCombine.DistantCombatExplo03_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_03_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientCombine.DistantCombatExplo04 = 
 	{
@@ -673,8 +674,8 @@
 		soundevent_02 = "AmbientCombine.DistantCombatExplo04_R"
 		soundevent_03 = "AmbientCombine.DistantCombatExplo04_LS"
 		soundevent_04 = "AmbientCombine.DistantCombatExplo04_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientCombine.DistantCombatExplo04_L = 
 	{
@@ -685,19 +686,19 @@
 	{
 		base = "AmbientCombine.DistantCombatExplo04_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_04_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientCombine.DistantCombatExplo04_LS = 
 	{
 		base = "AmbientCombine.DistantCombatExplo04_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_04_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientCombine.DistantCombatExplo04_RS = 
 	{
 		base = "AmbientCombine.DistantCombatExplo04_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_04_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientCombine.DistantCombatExplo05 = 
 	{
@@ -706,8 +707,8 @@
 		soundevent_02 = "AmbientCombine.DistantCombatExplo05_R"
 		soundevent_03 = "AmbientCombine.DistantCombatExplo05_LS"
 		soundevent_04 = "AmbientCombine.DistantCombatExplo05_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientCombine.DistantCombatExplo05_L = 
 	{
@@ -718,19 +719,19 @@
 	{
 		base = "AmbientCombine.DistantCombatExplo05_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_05_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientCombine.DistantCombatExplo05_LS = 
 	{
 		base = "AmbientCombine.DistantCombatExplo05_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_05_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientCombine.DistantCombatExplo05_RS = 
 	{
 		base = "AmbientCombine.DistantCombatExplo05_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_05_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientCombine.DistantCombatExplo06 = 
 	{
@@ -739,8 +740,8 @@
 		soundevent_02 = "AmbientCombine.DistantCombatExplo06_R"
 		soundevent_03 = "AmbientCombine.DistantCombatExplo06_LS"
 		soundevent_04 = "AmbientCombine.DistantCombatExplo06_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientCombine.DistantCombatExplo06_L = 
 	{
@@ -751,19 +752,19 @@
 	{
 		base = "AmbientCombine.DistantCombatExplo06_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_06_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientCombine.DistantCombatExplo06_LS = 
 	{
 		base = "AmbientCombine.DistantCombatExplo06_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_06_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientCombine.DistantCombatExplo06_RS = 
 	{
 		base = "AmbientCombine.DistantCombatExplo06_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_06_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientCombine.DistantCombatExplo07 = 
 	{
@@ -772,8 +773,8 @@
 		soundevent_02 = "AmbientCombine.DistantCombatExplo07_R"
 		soundevent_03 = "AmbientCombine.DistantCombatExplo07_LS"
 		soundevent_04 = "AmbientCombine.DistantCombatExplo07_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientCombine.DistantCombatExplo07_L = 
 	{
@@ -784,19 +785,19 @@
 	{
 		base = "AmbientCombine.DistantCombatExplo07_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_07_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientCombine.DistantCombatExplo07_LS = 
 	{
 		base = "AmbientCombine.DistantCombatExplo07_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_07_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientCombine.DistantCombatExplo07_RS = 
 	{
 		base = "AmbientCombine.DistantCombatExplo07_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_07_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientCombine.DistantCombatExplo08 = 
 	{
@@ -805,8 +806,8 @@
 		soundevent_02 = "AmbientCombine.DistantCombatExplo08_R"
 		soundevent_03 = "AmbientCombine.DistantCombatExplo08_LS"
 		soundevent_04 = "AmbientCombine.DistantCombatExplo08_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientCombine.DistantCombatExplo08_L = 
 	{
@@ -817,19 +818,19 @@
 	{
 		base = "AmbientCombine.DistantCombatExplo08_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_08_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientCombine.DistantCombatExplo08_LS = 
 	{
 		base = "AmbientCombine.DistantCombatExplo08_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_08_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientCombine.DistantCombatExplo08_RS = 
 	{
 		base = "AmbientCombine.DistantCombatExplo08_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_08_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientCombine.DistantCombatExplo09 = 
 	{
@@ -838,8 +839,8 @@
 		soundevent_02 = "AmbientCombine.DistantCombatExplo09_R"
 		soundevent_03 = "AmbientCombine.DistantCombatExplo09_LS"
 		soundevent_04 = "AmbientCombine.DistantCombatExplo09_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientCombine.DistantCombatExplo09_L = 
 	{
@@ -850,19 +851,19 @@
 	{
 		base = "AmbientCombine.DistantCombatExplo09_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_09_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientCombine.DistantCombatExplo09_LS = 
 	{
 		base = "AmbientCombine.DistantCombatExplo09_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_09_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientCombine.DistantCombatExplo09_RS = 
 	{
 		base = "AmbientCombine.DistantCombatExplo09_L"
 		vsnd_file_01 = "sounds/ambient/combine/distant_combat/amb_distant_combat_explos_09_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientCombine.InteriorDistantCombatNear = 
 	{
@@ -871,10 +872,10 @@
 		soundevent_02 = "AmbientCombine.InteriorDistantCombatNearMortarBurst"
 		soundevent_03 = "AmbientCombine.InteriorDistantCombatNearRifleBurst"
 		soundevent_04 = "AmbientCombine.InteriorDistantCombatNear02"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientCombine.InteriorDistantCombatNear02 = 
 	{
@@ -882,10 +883,10 @@
 		soundevent_01 = "AmbientCombine.InteriorDistantCombatNearSupressorBurst"
 		soundevent_02 = "AmbientCombine.InteriorDistantCombatNearZombieBurst"
 		soundevent_03 = ""
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 0.000000
-		use_04 = 0.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 0.0
+		use_04 = 0.0
 	}
 	AmbientCombine.InteriorDistantCombatNearMgBurst = 
 	{
@@ -893,13 +894,13 @@
 		soundevent_name = "AmbientCombine.InteriorDistantCombatNearMg"
 		burst_length_min = 5
 		burst_length_max = 7
-		delay_timer_min = 1.250000
+		delay_timer_min = 1.25
 		delay_timer_max = 3
 	}
 	AmbientCombine.InteriorDistantCombatNearMg = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
+		volume = 0.9
 		use_named_send = "ambient"
 		vsnd_files = 
 		[
@@ -922,7 +923,7 @@
 	AmbientCombine.InteriorDistantCombatNearMortar = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
+		volume = 0.9
 		use_named_send = "ambient"
 		vsnd_files = 
 		[
@@ -938,13 +939,13 @@
 		soundevent_name = "AmbientCombine.InteriorDistantCombatNearRifle"
 		burst_length_min = 3
 		burst_length_max = 5
-		delay_timer_min = 1.100000
-		delay_timer_max = 2.000000
+		delay_timer_min = 1.1
+		delay_timer_max = 2.0
 	}
 	AmbientCombine.InteriorDistantCombatNearRifle = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
+		volume = 0.9
 		use_named_send = "ambient"
 		vsnd_files = 
 		[
@@ -965,7 +966,7 @@
 	AmbientCombine.InteriorDistantCombatNearSupressor = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
+		volume = 0.9
 		use_named_send = "ambient"
 		vsnd_files = 
 		[
@@ -980,13 +981,13 @@
 		soundevent_name = "AmbientCombine.InteriorDistantCombatNearZombie"
 		burst_length_min = 4
 		burst_length_max = 7
-		delay_timer_min = 1.350000
-		delay_timer_max = 1.700000
+		delay_timer_min = 1.35
+		delay_timer_max = 1.7
 	}
 	AmbientCombine.InteriorDistantCombatNearZombie = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
+		volume = 0.4
 		use_named_send = "ambient"
 		vsnd_files = 
 		[
@@ -1013,10 +1014,10 @@
 		soundevent_02 = "AmbientCombine.InteriorDistantCombatDistantMortarBurst"
 		soundevent_03 = "AmbientCombine.InteriorDistantCombatDistantRifleBurst"
 		soundevent_04 = "AmbientCombine.InteriorDistantCombatDistant02"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientCombine.InteriorDistantCombatDistant02 = 
 	{
@@ -1024,10 +1025,10 @@
 		soundevent_01 = "AmbientCombine.InteriorDistantCombatDistantSupressorBurst"
 		soundevent_02 = "AmbientCombine.InteriorDistantCombatDistantZombieBurst"
 		soundevent_03 = ""
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 0.000000
-		use_04 = 0.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 0.0
+		use_04 = 0.0
 	}
 	AmbientCombine.InteriorDistantCombatDistantMgBurst = 
 	{
@@ -1035,13 +1036,13 @@
 		soundevent_name = "AmbientCombine.InteriorDistantCombatDistantMg"
 		burst_length_min = 5
 		burst_length_max = 7
-		delay_timer_min = 1.250000
+		delay_timer_min = 1.25
 		delay_timer_max = 3
 	}
 	AmbientCombine.InteriorDistantCombatDistantMg = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
+		volume = 0.9
 		use_named_send = "ambient"
 		vsnd_files = 
 		[
@@ -1064,7 +1065,7 @@
 	AmbientCombine.InteriorDistantCombatDistantMortar = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
+		volume = 0.9
 		use_named_send = "ambient"
 		vsnd_files = 
 		[
@@ -1080,13 +1081,13 @@
 		soundevent_name = "AmbientCombine.InteriorDistantCombatDistantRifle"
 		burst_length_min = 3
 		burst_length_max = 5
-		delay_timer_min = 1.100000
-		delay_timer_max = 2.000000
+		delay_timer_min = 1.1
+		delay_timer_max = 2.0
 	}
 	AmbientCombine.InteriorDistantCombatDistantRifle = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
+		volume = 0.9
 		use_named_send = "ambient"
 		vsnd_files = 
 		[
@@ -1107,7 +1108,7 @@
 	AmbientCombine.InteriorDistantCombatDistantSupressor = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
+		volume = 0.9
 		use_named_send = "ambient"
 		vsnd_files = 
 		[
@@ -1122,13 +1123,13 @@
 		soundevent_name = "AmbientCombine.InteriorDistantCombatDistantZombie"
 		burst_length_min = 4
 		burst_length_max = 7
-		delay_timer_min = 1.350000
-		delay_timer_max = 1.700000
+		delay_timer_min = 1.35
+		delay_timer_max = 1.7
 	}
 	AmbientCombine.InteriorDistantCombatDistantZombie = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
+		volume = 0.4
 		use_named_send = "ambient"
 		vsnd_files = 
 		[
@@ -1152,14 +1153,14 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientCombine.SpacesTechChild"
-		random_soundevent_01_timer_min = 5.000000
-		random_soundevent_01_timer_max = 5.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 5.0
+		random_soundevent_01_timer_max = 5.0
+		use_initial_random_offset = 1.0
 	}
 	AmbientCombine.SpacesTechChild = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
+		volume = 0.9
 		use_named_send = "ambient"
 		vsnd_files = 
 		[
@@ -1171,96 +1172,96 @@
 			"sounds/ambient/combine/amb_combine_tech_spaces_06.vsnd",
 			"sounds/ambient/combine/amb_combine_tech_spaces_07.vsnd",
 		]
-		volume_falloff_min = 700.000000
-		volume_falloff_max = 1800.000000
+		volume_falloff_min = 700.0
+		volume_falloff_max = 1800.0
 	}
 	AmbientCombine.ScreenLp = 
 	{
 		type = "hlvr_start_multi_aabb"
 		soundevent_01 = "AmbientCombine.ScreenLpHigh"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "AmbientCombine.ScreenLpLow"
-		use_02 = 1.000000
+		use_02 = 1.0
 		soundevent_03 = "AmbientCombine.ScreenStaticLp"
-		use_03 = 1.000000
+		use_03 = 1.0
 	}
 	AmbientCombine.ScreenStaticLp = 
 	{
 		base = "AmbientElectric.HumBuzzExtra"
-		volume = 0.150000
-		volume_falloff_min = 30.000000
-		volume_falloff_max = 125.000000
-		spread_min = 0.000000
-		spread_max = 125.000000
+		volume = 0.15
+		volume_falloff_min = 30.0
+		volume_falloff_max = 125.0
+		spread_min = 0.0
+		spread_max = 125.0
 		cull_at_distance = 145
 	}
 	AmbientCombine.ScreenLpLow = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		volume_falloff_min = 15.000000
-		volume_falloff_max = 60.000000
-		spread_min = 0.000000
-		spread_max = 60.000000
-		volume_filter_amount = 0.400000
+		volume = 0.4
+		volume_falloff_min = 15.0
+		volume_falloff_max = 60.0
+		spread_min = 0.0
+		spread_max = 60.0
+		volume_filter_amount = 0.4
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
-		use_hrtf = 1.000000
-		use_facing_vol_attenuation = 1.000000
-		facing_scale_min = 0.600000
+		use_hrtf = 1.0
+		use_facing_vol_attenuation = 1.0
+		facing_scale_min = 0.6
 		cull_at_distance = 75
-		should_pause = 1.000000
+		should_pause = 1.0
 		vsnd_files = 
 		[
 			"sounds/ambient/combine/amb_combine_screen_low_lp_01.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 200
 	}
 	AmbientCombine.ScreenLpHigh = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.150000
-		volume_falloff_min = 30.000000
-		volume_falloff_max = 125.000000
-		spread_min = 0.000000
-		spread_max = 125.000000
-		volume_filter_amount = 0.400000
+		volume = 0.15
+		volume_falloff_min = 30.0
+		volume_falloff_max = 125.0
+		spread_min = 0.0
+		spread_max = 125.0
+		volume_filter_amount = 0.4
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
-		use_hrtf = 1.000000
-		use_facing_vol_attenuation = 1.000000
-		facing_scale_min = 0.600000
+		use_hrtf = 1.0
+		use_facing_vol_attenuation = 1.0
+		facing_scale_min = 0.6
 		cull_at_distance = 145
-		should_pause = 1.000000
+		should_pause = 1.0
 		vsnd_files = 
 		[
 			"sounds/ambient/combine/amb_combine_screen_high_lp_01.vsnd",
 			"sounds/ambient/combine/amb_combine_screen_high_lp_02.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 200
 	}
 	AmbientCombine.InfestationRemovalTankLp = 
 	{
 		type = "hlvr_default_3d_on_aabb"
-		volume = 0.700000
-		volume_falloff_min = 60.000000
-		volume_falloff_max = 200.000000
-		spread_min = 12.000000
-		spread_max = 80.000000
-		volume_filter_amount = 0.400000
+		volume = 0.7
+		volume_falloff_min = 60.0
+		volume_falloff_max = 200.0
+		spread_min = 12.0
+		spread_max = 80.0
+		volume_filter_amount = 0.4
 		cull_at_distance = 225
 		mixgroup = "Ambient"
 		use_named_send = "ambient"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		vsnd_files = 
 		[
 			"sounds/ambient/combine/amb_infestation_control_tank_lp_01.vsnd",
 			"sounds/ambient/combine/amb_infestation_control_tank_lp_02.vsnd",
 			"sounds/ambient/combine/amb_infestation_control_tank_lp_03.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 250
 	}
 	AmbientCombine.HelicopterCircles = 
@@ -1269,72 +1270,72 @@
 		random_soundevent_01_name = "AmbientCombine.HelicopterCirclesChild"
 		random_soundevent_01_timer_min = 35
 		random_soundevent_01_timer_max = 55
-		use_initial_random_offset = 1.000000
+		use_initial_random_offset = 1.0
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.500000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.5
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	AmbientCombine.HelicopterCirclesChild = 
 	{
 		type = "hlvr_ambient_rand_child_random_anim_time"
-		volume = 0.600000
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.050000
-		volume_falloff_min = 2000.000000
-		volume_falloff_max = 7000.000000
+		volume = 0.6
+		volume_rand_min = -0.02
+		volume_rand_max = 0.05
+		volume_falloff_min = 2000.0
+		volume_falloff_max = 7000.0
 		spread_min = 600
 		spread_max = 1200
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		animation_time_min = 22
 		animation_time_max = 27
-		use_calculated_stop_at_time = 1.000000
-		volume_fade_in = 7.000000
-		volume_fade_out = 5.000000
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 0.000000
-		unconstrained_target = 1.000000
+		use_calculated_stop_at_time = 1.0
+		volume_fade_in = 7.0
+		volume_fade_out = 5.0
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 0.0
+		unconstrained_target = 1.0
 		animation_type = "circle"
 		rand_radius_min = 2200
 		rand_radius_max = 3500
-		use_doppler = 1.000000
-		doppler_factor = 1.100000
-		use_world_position = 1.000000
-		reverb_xfade_value = 0.200000
+		use_doppler = 1.0
+		doppler_factor = 1.1
+		use_world_position = 1.0
+		reverb_xfade_value = 0.2
 		reverb_curve_max_distance = 7000
 		mixgroup = "AmbientDsp"
 		use_named_send = "Ambient"
-		random_pos_center_select = 0.000000
-		circle_pos_center_select = 1.000000
-		use_hrtf = 0.900000
-		drunk = 1.000000
-		drunk_range = 125.000000
-		drunk_velocity = 0.050000
+		random_pos_center_select = 0.0
+		circle_pos_center_select = 1.0
+		use_hrtf = 0.9
+		drunk = 1.0
+		drunk_range = 125.0
+		drunk_velocity = 0.05
 		vsnd_files = 
 		[
 			"sounds/ambient/combine/amb_combine_heli_circles_lp_01.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 100
 		soundname_string = "AmbientCombine.HelicopterCirclesChild"
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "skylight_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 0.400000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.500000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.700000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 1.000000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 0.750000
-		remap_opvar_to_vol_x2 = 1.000000
-		remap_opvar_to_vol_y2 = 1.000000
-		remap_opvar_to_vol_x3 = 1.000000
-		remap_opvar_to_vol_y3 = 1.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 1.000000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 0.4
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.5
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.7
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 1.0
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 0.75
+		remap_opvar_to_vol_x2 = 1.0
+		remap_opvar_to_vol_y2 = 1.0
+		remap_opvar_to_vol_x3 = 1.0
+		remap_opvar_to_vol_y3 = 1.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 1.0
 	}
 }

@@ -1,45 +1,26 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Music.StationStreetChargerIntro = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.400000
+		volume = 0.4
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				10.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				10.0, 1.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				20.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				20.0, 0.5, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				30.000000,
-				0.300000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				30.0, 0.3, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		vsnd_files = 
@@ -50,58 +31,33 @@
 	Music.StationStreetCombineManhack = 
 	{
 		type = "hlvr_music_2d"
-		use_combat_music_convar = 1.000000
-		volume = 0.400000
+		use_combat_music_convar = 1.0
+		volume = 0.4
 		volume_fade_out = 17
 		track = "main"
 		priority = 1
-		restart_time = 43.795000
+		restart_time = 43.795
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				0.600000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 0.6, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				12.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				12.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				20.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				20.0, 1.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				60.000000,
-				0.750000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				60.0, 0.75, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				100.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				100.0, 1.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 20
@@ -114,11 +70,11 @@
 	Music.StationStreetCombineManhack2 = 
 	{
 		type = "hlvr_music_2d"
-		use_combat_music_convar = 1.000000
-		volume = 0.700000
+		use_combat_music_convar = 1.0
+		volume = 0.7
 		volume_fade_out = 7
 		start_point = 0
-		end_point = 17.333000
+		end_point = 17.333
 		sync_bpm = 135
 		sync_bpm_beats = 4
 		vsnd_files = 
@@ -129,14 +85,14 @@
 	Music.StationStreetCombine = 
 	{
 		type = "hlvr_music_2d"
-		use_combat_music_convar = 1.000000
+		use_combat_music_convar = 1.0
 		track = "main"
 		sync_track = "main"
 		priority = 2
-		volume = 0.600000
-		volume_fade_out = 4.000000
+		volume = 0.6
+		volume_fade_out = 4.0
 		start_point = 0
-		end_point = 101.605000
+		end_point = 101.605
 		sync_bpm = 137
 		sync_bpm_beats = 4
 		vsnd_files = 
@@ -147,14 +103,14 @@
 	Music.StationStreetCombine2 = 
 	{
 		type = "hlvr_music_2d"
-		use_combat_music_convar = 1.000000
+		use_combat_music_convar = 1.0
 		track = "main"
 		sync_track = "main"
 		priority = 3
-		volume = 0.600000
-		volume_fade_out = 2.000000
+		volume = 0.6
+		volume_fade_out = 2.0
 		start_point = 0
-		end_point = 101.605000
+		end_point = 101.605
 		sync_bpm = 137
 		sync_bpm_beats = 4
 		vsnd_files = 
@@ -165,13 +121,13 @@
 	Music.StationStreetCombineEndCap = 
 	{
 		type = "hlvr_music_2d"
-		use_combat_music_convar = 1.000000
+		use_combat_music_convar = 1.0
 		track = "main"
 		priority = 4
 		sync_track = "main"
-		volume = 0.500000
+		volume = 0.5
 		start_point = 0
-		end_point = 101.605000
+		end_point = 101.605
 		sync_bpm = 137
 		sync_bpm_beats = 4
 		vsnd_files = 

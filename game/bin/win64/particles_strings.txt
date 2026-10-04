@@ -1,5 +1,5 @@
                           
-                AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZ
+                AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZ`
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
@@ -13,7 +13,7 @@
  delete[]
  new
  next: %p, parent: %p\n
- throw(
+ noexcept
  volatile
 "Position within sphere random" no longer supports the "randomly distribute to highest supplied Control Point" feature\n\t"Emit continuously" and "Emit noise" no longer support "scale emission to used control points".\n\t"Position from control points" had a max control point added to it.
 "Remap control point orientation to rotation" does something approaching sanity for the cases I looked at.  If we have cases where this isn't appropriate, we can split out the behavior.\n
@@ -70,7 +70,6 @@ $tIAT\tK
 %s: string format requested %d chars\n
 &Sgw
 'Lighten blend mode
-('8PW
 (None)
 (null)
 *StO9>T
@@ -95,7 +94,7 @@ $tIAT\tK
 .02 .02 .02
 .125 .125 .125
 .25 .25 .25
-.?AV<lambda_ad753c1e821d108e1a311dfa79cd9d31>@@
+.?AV<lambda_1>@?1??StopEmission@CNewParticleEffect@@QEAAX_N000@Z@
 .?AV?$CBaseAppSystem@VIParticleSystemMgr@@@@
 .?AV?$CKV3Transfer_UtlSymbolLargeInterface@V?$CUtlSymbolTableLargeBase@$0A@$0IAA@VCThreadNullMutex@@@@@@
 .?AV?$CParticleFunctionDefinitionTyped@VC_INIT_AddVectorToVector@@@@
@@ -451,7 +450,7 @@ $tIAT\tK
 .?AV?$CTier3AppSystem@VIParticleSystemMgr@@$0A@@@
 .?AV?$ISceneObjectDescBase@VCSceneParticleObject@@@@
 .?AV?$_Func_base@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_ad753c1e821d108e1a311dfa79cd9d31>@@V?$allocator@H@std@@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??StopEmission@CNewParticleEffect@@QEAAX_N000@Z@X$$V@std@@
 .?AVCBaseRendererSource2@@
 .?AVCBaseTrailRenderer@@
 .?AVCChildFunctionDefinition@@
@@ -857,6 +856,7 @@ $tIAT\tK
 .?AVIVSSequence@@
 .?AV__non_rtti_object@std@@
 .?AVbad_cast@std@@
+.?AVbad_exception@std@@
 .?AVbad_typeid@std@@
 .?AVcharNode@@
 .?AVexception@std@@
@@ -882,9 +882,8 @@ $tIAT\tK
 .bss
 .data
 .data$r
+.data$rs
 .edata
-.gfids$x
-.gfids$y
 .idata$2
 .idata$3
 .idata$4
@@ -894,6 +893,7 @@ $tIAT\tK
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .rtc$IAA
 .rtc$IZZ
@@ -927,6 +927,7 @@ $tIAT\tK
 0.25
 00000000-0000-0000-0000-000000000000
 0iN>/
+0lz 
 1 0 0
 1 1 1
 1 1000
@@ -965,12 +966,12 @@ $tIAT\tK
 3>N;kU
 3>fvw
 3L?Zb%
+4,&\n9,&\n9,&\n9,&\n9o
 45.0
 4?Ku
 5000
 60.0
 64.0
-700PP
 75.0
 8f?D
 :???;???;???3776>????/?/????7'7&>?????????
@@ -994,8 +995,8 @@ $tIAT\tK
 >jtm}S
 ?/?????/?.>??????????????>>??;?/?+???;?/?**?/?;???+?/?;??>>??????????????>.?/?????/?
 ?7zQ6$
-??0CThreadMutex@@QEAA@PEBD@Z
-??1CThreadMutex@@QEAA@XZ
+??0CThreadFastMutex@@QEAA@XZ
+??0CThreadMutex@@QEAA@XZ
 ?????????>&7'7????/?/????>6773???;???;???:
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
 ?ConMsg@@YAXPEBDZZ
@@ -1006,7 +1007,7 @@ $tIAT\tK
 ?FixSlashes@CBufferString@@QEAAPEBDD@Z
 ?FixupPathName@CBufferString@@QEAAPEBDD@Z
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@VColor@@PEBDZZ
@@ -1019,6 +1020,7 @@ $tIAT\tK
 ?StartsWith@CBufferString@@QEAA_NPEBD@Z
 ?ToLowerFast@CBufferString@@QEAAXH@Z
 ?UUUUUU
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockWrite@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?V_SplitString@@YAXPEBD0AEAV?$CUtlVector@VCUtlString@@V?$CUtlMemory@VCUtlString@@H@@@@_N@Z
@@ -1098,6 +1100,7 @@ Alpha fade out random
 Alpha fade out simple
 Alpha random
 Alpha window threshold random
+Am_bUseShadowFastPath
 Amount of simulation time that can elapse before new systems start falling back to cheaper versions
 Anchor point source
 Anim
@@ -1128,6 +1131,7 @@ AnimationList
 AnimationSystemUtils_001
 AnimationSystem_001
 AnimationType_t
+AppPolicyGetProcessTerminationMethod
 Apply Min Pullforce
 Apply fog of war to color
 Apply fog to particle
@@ -1137,6 +1141,7 @@ April
 Aq?S
 Arc Duration Maximum
 Arc Speed
+AreFileApisANSI
 AssertMsg_ConditionFailed
 AssetBrowse( vmat )
 AssetBrowse( vmdl )
@@ -1306,6 +1311,8 @@ CUtlLinkedList overflow! (exhausted memory allocator)\n
 CUtlLinkedList<short,unsigned short,0,unsigned short,class CUtlMemory<struct UtlLinkedListElem_t<short,unsigned short>,unsigned short> >::AllocInternal
 CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
 CUtlMemoryPoolBase::CUtlMemoryPoolBase
+CUtlRBTree overflow with %u elements!\n
+CUtlRBTree<void *,int,bool (__cdecl*)(void * const &,void * const &),class CUtlMemory<struct UtlRBTreeNode_t<void *,int>,int> >::NewNode
 CUtlString
 CUtlString::FormatV
 CUtlStringToken
@@ -1806,6 +1813,7 @@ EmptyAnim
 Enable children from parent particle count
 Enable/disable particle rendering
 Enables/Disables Particle Simulation
+EncodePointer
 Endcap timed system freeze
 Engine2/SupportsVulkanParticleOptimizations
 EngineServiceMgr001
@@ -1890,8 +1898,8 @@ Failed to transfer KV3 data for resource '%s' - %s\n
 FeatureID
 February
 FindClose
-FindFirstFileExA
-FindNextFileA
+FindFirstFileExW
+FindNextFileW
 First control point to set
 First/Oldest Particle
 Fit Lifetime
@@ -1937,9 +1945,8 @@ GetCPUInformation
 GetCStringCharConversion
 GetCommandLineA
 GetCommandLineW
-GetConsoleCP
 GetConsoleMode
-GetCurrentPackageId
+GetConsoleOutputCP
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -1947,7 +1954,7 @@ GetDefaultMiniDumpTypeFlags
 GetEnvironmentStringsW
 GetFileType
 GetLastError
-GetModuleFileNameA
+GetModuleFileNameW
 GetModuleHandleExW
 GetModuleHandleW
 GetOEMCP
@@ -1963,6 +1970,7 @@ Globally Scale Initial Attributes
 Glow Alpha
 Glow RGB
 Gravity
+H'dx#
 HAT\tKAT\tKAT\tKAT\tK
 HH:mm:ss
 HITBOX_INDEX
@@ -2001,7 +2009,6 @@ IParticleSystemDefinition
 IQuickTime001
 Ignore delta time (RenderTrails)
 IkLockLocal
-Imodel_default_preview_sequence_name
 InfoForResourceTypeCModel
 InfoForResourceTypeCTextureBase
 InfoForResourceTypeIMaterial2
@@ -2023,7 +2030,6 @@ Init from CP snapshot
 Init from killed parent particle
 Init vector attribute from a list of values
 Initial Trace Down
-InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
@@ -2160,6 +2166,7 @@ Max Sim (us)
 Maximum Count
 Maximum Trace Length
 MbP?
+MbP?fff?
 Medium
 MemAlloc_AllocFunc
 MemAlloc_CallocFunc
@@ -2569,7 +2576,7 @@ RGB blend weight for sequence 0
 RGB blend weight for sequence 1
 ROTATION
 ROTATION_SPEED
-RSDSYa
+RSDSp*
 Radial Amount (-1..1)
 RadianEuler
 Radius
@@ -2677,7 +2684,7 @@ RenderDevice003
 RenderDeviceMgr001
 RenderHardwareConfig002
 RenderMeshFile
-RenderOps_Init(7717): 
+RenderOps_Init(7718): 
 RenderService_001
 RenderSystemSurface001
 RenderUtils_001
@@ -3108,7 +3115,6 @@ X axis scaling scalar field
 X offset of center point
 X/4B
 XY velocity only
-X|(pc
 Y Dimension Count
 Y Dimension Spacing
 Y axis scaling scalar field
@@ -3121,11 +3127,13 @@ Z axis scaling scalar field
 [aOni*{
 [thunk]:
 \nCwf\r
+\nPlz 
 \n\n----------------------------\nInstance Count:\n
 \t%4d -  %s\n
 \tcQr
 \tkE>fvw
 ^<V7w
+_RDATA
 _V_strncmp
 _V_strncpy
 _V_strnicmp_fast
@@ -3144,6 +3152,8 @@ __pascal
 __ptr64
 __restrict
 __stdcall
+__swift_1
+__swift_2
 __temp_unserialization_member__
 __thiscall
 __unaligned
@@ -3165,7 +3175,7 @@ _test_conversion_counter
 `eh vector vbase copy constructor iterator'
 `generic-class-parameter-
 `generic-method-parameter-
-`h`hhh
+`generic-type-
 `local static destructor helper'
 `local static guard'
 `local static thread guard'
@@ -3183,6 +3193,7 @@ _test_conversion_counter
 `template static data member constructor helper'
 `template static data member destructor helper'
 `template-parameter
+`template-parameter-
 `template-type-parameter-
 `typeof'
 `udt returning'
@@ -3263,6 +3274,7 @@ attribute to read from
 attribute to use for normal
 attribute to write to
 attributes
+auto
 auto_unragdoll_duration
 avg_num_tests
 avg_num_traces
@@ -3271,6 +3283,7 @@ avg_sim
 b>mUf
 b?/n3>j
 bUpdate
+bad exception
 baked_light_indexing
 bakelightindex
 bakelightindexscale
@@ -3332,6 +3345,7 @@ c:\buildslave\hlvr_rel_win64\build\src\public\tier0\tslist.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlblockmemory.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlleanvector.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utllinkedlist.h
+c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlrbtree.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlsymbol.h
 c:\buildslave\hlvr_rel_win64\build\src\schemalib\schemaclassinfo.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\configvalue.cpp
@@ -3359,6 +3373,7 @@ char
 char 
 char16_t
 char32_t
+char8_t
 child group ID
 child group ID to affect
 children
@@ -3494,6 +3509,7 @@ decay delay
 decay time
 decibel level field
 decibel level scale
+decltype(auto)
 def min cpu=%d system cpu=%d def gpu=%d system gpu=%d\n
 default
 default text
@@ -3612,6 +3628,7 @@ even distribution count
 event_class
 event_keys
 eventindex
+exTx#
 explosion_behavior
 explosion_buildup
 explosion_delay
@@ -4262,7 +4279,6 @@ m_bUseQuat
 m_bUseRandomCPs
 m_bUseRawMeshGroup
 m_bUseScalarForTextureCoordinate
-m_bUseShadowFastPath
 m_bUseTexture
 m_bUseTopology
 m_bUseVelocity
@@ -5296,6 +5312,7 @@ model override economy loadout slot type
 model override original model only (ignore shapeshift/hex/etc)
 model scale CP
 model size cull bloat
+model_default_preview_sequence_name
 model_name
 modeldoc0
 modeldoc1
@@ -5331,7 +5348,7 @@ motion vectors texture
 multiplayer_break
 n03>Pu
 n?9a
-n\f"pA3Q b
+n\f"pA3Q
 name
 names
 nan(ind)
@@ -5364,6 +5381,7 @@ normalize output 0/1
 not obeying particle system stencil of failure to parse stencil comparison string %s\n
 not rendering particle system because of failure ot parse stencil write string %s\n
 null
+nullptr
 num to emit
 num_particles
 numsegments
@@ -5401,6 +5419,7 @@ only write where stencil is NOT stencil test ID
 opacity
 operator
 operator "" 
+operator co_await
 operator end cap state
 operator end fadein
 operator end fadeout
@@ -5415,6 +5434,7 @@ operator time offset seed
 operator time scale max
 operator time scale min
 operator time scale seed
+operator<=>
 operators
 orient model z to normal
 orientation control point
@@ -5467,7 +5487,8 @@ override CP field
 override max velocity from this CP
 override translucent materials
 owM&
-p\r0\fP
+p\rP!J
+p\rP\f0
 parent_bone
 particle
 particle density
@@ -6058,7 +6079,6 @@ wrap input
 write stencil on z-buffer test failure
 write stencil on z-buffer test success
 written field
-xwpwpp
 yaw initial
 yaw offset max
 yaw offset min

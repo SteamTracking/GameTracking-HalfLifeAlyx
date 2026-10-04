@@ -57,6 +57,12 @@
 "HLVR_MainMenu_LocalAddon"				"Локальный аддон"
 "HLVR_MainMenu_MissingAddon"			"Следующие аддоны недоступны. Пожалуйста, заново подпишитесь на них, чтобы загрузить этот файл"
 
+"HLVR_MainMenu_OriginalGame"			"Изначальные игры"
+"HLVR_MainMenu_AddonGame"				"Игры-аддоны"
+
+"HLVR_MainMenu_OriginalMaps"			"Изначальная игра"
+"HLVR_MainMenu_AddonMaps"				"Карты-аддоны"
+
 "HLVR_MainMenu_AddonUpVote"				"Голосов «За»"
 "HLVR_MainMenu_AddonDownVote"			"Голосов «Против»"
 
@@ -134,6 +140,9 @@
 "HLVR_Options_On"					"Вкл."
 "HLVR_Options_Off"				"Выкл."
 
+"HLVR_Options_Commentary"					"Комментарии разработчиков"
+"HLVR_Options_Commentary_desc"				"Включить комментарии разработчиков во время игры.\n\nВНИМАНИЕ : в комментариях содержатся ЗНАЧИТЕЛЬНЫЕ СПОЙЛЕРЫ.\n\nРекомендуем сначала пройти игру до конца."
+
 "HLVR_Options_Movement_Base"					"Передвижение"
 "HLVR_Options_Movement_Blink"					"Телепорт"
 "HLVR_Options_Movement_Shift"					"Смещение"
@@ -177,6 +186,9 @@
 
 "HLVR_Options_ContinuousTurn_Speed_Base"		"Скорость плавного поворота"
 "HLVR_Options_ContinuousTurn_Speed_desc"		"Выберите скорость для плавных поворотов."
+
+"HLVR_Options_DLC_Skins"						"Раскраски оружия за предзаказ"
+"HLVR_Options_DLC_Skins_desc"					"Включить раскраски оружия, полученные за предзаказ Valve Index."
 
 "HLVR_Options_Subtitles"						"Субтитры"
 "HLVR_Options_Subtitles_Base"					"Субтитры"
@@ -530,7 +542,6 @@
 "HLVR_CraftingStation_ResinAmount"					"{i:CurrencyAmount}"
 "HLVR_CraftingStation_SelectObject"					"Выберите объект"
 "HLVR_CraftingStation_SelectedWeapon"				"{s:WeaponName}"
-"HLVR_CraftingStation_SelectUpgrade"				"Выберите улучшение: {s:WeaponName}"
 "HLVR_CraftingStation_Upgrades"						"Улучшения"
 "HLVR_CraftingStation_Cost"							"Стоимость"
 "HLVR_CraftingStation_Summary"						"Описание"
@@ -548,8 +559,6 @@
 "HLVR_CraftingStation_TakeObject"					"Возьмите предмет"
 "HLVR_CraftingStation_PrintObject"					"Изготовить объект"
 "HLVR_CraftingStation_UpgradeOwned"					"Получено"
-"HLVR_CraftingStation_SelectedPrint"				"Выбрано: {s:SelectedPrintObject}"
-"HLVR_CraftingStation_SelectedUpgrade"				"Выбранное улучшение: {s:SelectedUpgrade}"
 "HLVR_CraftingStation_Cancel"						"Отмена"
 "HLVR_CraftingStation_Back"							"Назад"
 "HLVR_CraftingStation_SmallPrint"					"Приложение по Гражданской обороне 19-81572"
@@ -648,6 +657,202 @@
 
 "HLVR_Credits_ContractorsHeader"					"При участии"
 "HLVR_Credits_CastHeader"							"В ролях"
+
+
+
+// Commentary Titles
+
+// a1_intro_world
+"HLVR_Commentary_Intro1"							"Добро пожаловать"
+"HLVR_Commentary_Intro2"							"Вступление"
+"HLVR_Commentary_Citadel_Vista"						"Вид Цитадели"
+"HLVR_Commentary_Greenhouse"						"Оранжерея"
+"HLVR_Commentary_Strider"							"Страйдер"
+"HLVR_Commentary_Refuge"							"Укрытие"
+"HLVR_Commentary_Olga"								"Ольга"
+"HLVR_Commentary_Music"								"Музыка"
+"HLVR_Commentary_Alley"								"Переулок"
+
+// a1_intro_world_2
+"HLVR_Commentary_Van_Crash"							"Авария"
+"HLVR_Commentary_Pacing1"							"Темп игры 1"
+"HLVR_Commentary_Pacing2"							"Темп игры 2"
+"HLVR_Commentary_Pacing3"							"Темп игры 3"
+"HLVR_Commentary_Russell_Typing"					"Рассел печатает"
+"HLVR_Commentary_Russell_Choreo"					"Поведение персонажа в сцене"
+"HLVR_Commentary_GG_Training_1"						"Обучение с грави-перчатками 1"
+"HLVR_Commentary_GG_Training_2"						"Обучение с грави-перчатками 2"
+
+// a2_quarantine_entrance
+"HLVR_Commentary_Resin"								"Смола"
+"HLVR_Commentary_Toner_Intro"						"Головоломки с проводкой"
+"HLVR_Commentary_Lighting"							"Освещение"
+"HLVR_Commentary_Barnacles"							"Барнаклы"
+"HLVR_Commentary_Pistol_Training1"					"Перезарядка пистолета"
+"HLVR_Commentary_Locker_Hacking"					"Взлом"
+
+// a2_pistol
+"HLVR_Commentary_Health_Injectors"					"Шприцы"
+"HLVR_Commentary_Pistol_Training2"					"Обучение с пистолетом"
+"HLVR_Commentary_Train_Cars"						"Приседание"
+"HLVR_Commentary_Breakable_Glass"					"Разбиваемое стекло"
+"HLVR_Commentary_Weapon_Upgrades"					"Улучшения оружия"
+"HLVR_Commentary_Comfort_Pacing"					"Удобство для игрока и темп игры"
+"HLVR_Commentary_Headcrab_Foreshadowing"			"Намек на встречу с хедкрабом"
+
+// a2_hideout
+"HLVR_Commentary_Mural"								"Рисунок с событиями Half-Life"
+"HLVR_Commentary_Mural_Music"						"Музыкальные мотивы"
+"HLVR_Commentary_Alyx_Reacts"						"Реакции Аликс"
+"HLVR_Commentary_Hideout_Interactivity"				"Интерактивность у вортигонта"
+"HLVR_Commentary_Hideout_Scene"						"Сцена у вортигонта"
+
+// a2_headcrabs_tunnel
+"HLVR_Commentary_ArmoredHeadcrabs1"					"Панцирные хедкрабы 1"
+"HLVR_Commentary_ArmoredHeadcrabs2"					"Панцирные хедкрабы 2"
+"HLVR_Commentary_ArmoredHeadcrabs3"					"Панцирные хедкрабы 3"
+"HLVR_Commentary_ShotgunGate1"						"Барьер дробовика 1"
+"HLVR_Commentary_ShotgunGate2"						"Барьер дробовика 2"
+"HLVR_Commentary_ShotgunDesign1"					"Дизайн дробовика 1"
+"HLVR_Commentary_ShotgunDesign2"					"Дизайн дробовика 2"
+"HLVR_Commentary_DarknessGate"						"Барьер темноты"
+"HLVR_Commentary_TonerAirlock"						"Шлюз с проводкой"
+"HLVR_Commentary_Flashlight1"						"Фонарик"
+"HLVR_Commentary_Flashlight2"						"Механика фонарика"
+"HLVR_Commentary_Sandwiches"						"Сэндвичи"
+
+// a2_drainage
+"HLVR_Commentary_Budgeting"							"Бюджет"
+"HLVR_Commentary_Barnacle_Sounds"					"Звуки барнаклов"
+"HLVR_Commentary_Manhack_Introduction"				"Звуки мэнхэков"
+"HLVR_Commentary_Exterior_Pacing"					"Темп игры вне помещения"
+"HLVR_Commentary_Xen_Barrels"						"Наросты Зен"
+"HLVR_Commentary_Volumetric_Lighting"				"Объемное освещение"
+
+// a2_train_yard
+"HLVR_Commentary_Combine_Sighting"					"Наблюдение за солдатами Альянса"
+"HLVR_Commentary_Single_Combine"					"Первый солдат Альянса"
+"HLVR_Commentary_First_Combine_Skirmish"			"Бои с солдатами Альянса"
+"HLVR_Commentary_Train_Crash"						"Крушение поезда"
+"HLVR_Commentary_Eli_Rescue"						"Спасение Илая"
+
+// a3_station_street
+"HLVR_Commentary_Melee"								"Нет монтировки?"
+"HLVR_Commentary_Vault_View"						"Вид Бункера"
+"HLVR_Commentary_Throwing"							"Броски"
+"HLVR_Commentary_Optional_Toner"					"Головоломка с проводкой"
+"HLVR_Commentary_Substation_Music"					"Звуки подстанции"
+
+// a3_hotel_lobby_basement
+"HLVR_Commentary_Physics_Sounds"					"Физика звуков"
+"HLVR_Commentary_Liquid_Bottles"					"Жидкость в бутылках"
+"HLVR_Commentary_Xen_Art"							"Оформление флоры Зен"
+"HLVR_Commentary_Xen_Animation"						"Анимация флоры Зен"
+"HLVR_Commentary_Reviver_Intro"						"Введение оживителей"
+"HLVR_Commentary_Reviver_Animation"					"Анимация оживителей"
+"HLVR_Commentary_HLPR"								"Трейлер игры"
+
+// a3_hotel_underground_pit
+"HLVR_Commentary_Teleport_Immersion"				"Телепортация и погружение"
+"HLVR_Commentary_Reviver_Foreshadowing"				"Намек на встречу с оживителем"
+"HLVR_Commentary_Reviver_Training"					"Обучение с оживителем"
+"HLVR_Commentary_Reviver_Ground_Attack"				"Наземная атака оживителя"
+"HLVR_Commentary_Elevator_Comfort"					"Удобство в лифтах"
+"HLVR_Commentary_Substation_Design"					"Дизайн подстанции"
+
+// a3_hotel_interior_rooftop
+"HLVR_Commentary_Xen_Response"						"Реакция флоры Зен"
+"HLVR_Commentary_Particle_Effects"					"Частицы в VR"
+"HLVR_Commentary_Darkness"							"Темнота"
+"HLVR_Commentary_Ammo_Balancing_1"					"Баланс боеприпасов 1"
+"HLVR_Commentary_Ammo_Balancing_2"					"Баланс боеприпасов 2"
+"HLVR_Commentary_Ammo_Balancing_3"					"Баланс боеприпасов 3"
+"HLVR_Commentary_Double_Reviver"					"Бой с двумя оживителями"
+
+// a3_hotel_street
+"HLVR_Commentary_Vort_Energy"						"Энергия вортигонтов"
+"HLVR_Commentary_Substation_Vort"					"Анимация вортигонта"
+"HLVR_Commentary_Prefabs"							"Префабы"
+"HLVR_Commentary_Procedural_Displacement"			"Процедурное смещение"
+"HLVR_Commentary_Character_Movement"				"Движение персонажей"
+"HLVR_Commentary_Trip_Mines"						"Мины"
+"HLVR_Commentary_Combat_Pacing"						"Темп боя"
+"HLVR_Commentary_Xen_World_Building"				"Растения Зен и создание мира"
+"HLVR_Commentary_Mannequin_Headcrab"				"Хедкраб на манекене"
+
+// a3_c17_processing_plant
+"HLVR_Commentary_Pistol_Hopper"						"«Фидер» для пистолета"
+"HLVR_Commentary_Soundscapes"						"Звуковое окружение"
+"HLVR_Commentary_Suppressor_Intro"					"Введение подавителей"
+"HLVR_Commentary_Environment_Art"					"Оформление окружения"
+"HLVR_Commentary_AI_In_VR"							"ИИ в VR"
+"HLVR_Commentary_Ladders"							"Лестницы"
+
+// a3_distillery
+"HLVR_Commentary_Jeff"								"Джефф"
+"HLVR_Commentary_Xen_Ears"							"«Уши Зен»"
+"HLVR_Commentary_Xen_Clams"							"Зен-раковины"
+"HLVR_Commentary_Larry"								"Ларри"
+"HLVR_Commentary_Coughing"							"Кашель"
+"HLVR_Commentary_Single_Controller"					"Режим одного контроллера"
+"HLVR_Commentary_Jeff_Attack"						"Атака Джеффа"
+"HLVR_Commentary_Training_Alcove"					"Обучающая песочница"
+"HLVR_Commentary_Jeff_Design"						"Дизайн Джеффа"
+"HLVR_Commentary_Freezer_Toner_Puzzle"				"Проводка в холодильной камере"
+"HLVR_Commentary_Elevator"							"Elevator"
+"HLVR_Commentary_Cheeky_Headcrab"					"Побег наглого хедкраба"
+"HLVR_Commentary_Combine_Forcefields"				"Силовые поля Альянса"
+"HLVR_Commentary_Sounds"							"Звуки"
+"HLVR_Commentary_Jeff_Death"						"Смерть Джеффа"
+
+// a4_c17_zoo
+"HLVR_Commentary_Antlion_Combat"					"Бой с муравьиными львами"
+"HLVR_Commentary_Foliage"							"Листва"
+"HLVR_Commentary_Antlion_Sounds"					"Звуки муравьиных львов"
+"HLVR_Commentary_Anim_Interactables"				"Анимированные интерактивы"
+"HLVR_Commentary_Toner_Puzzle1"						"Головоломка с проводкой"
+"HLVR_Commentary_Toner_Puzzle2"						"Ключевое соединение"
+
+// a4_c17_tanker_yard
+"HLVR_Commentary_Tractor_Beam"						"Тяговый луч"
+"HLVR_Commentary_Collaborator"						"Предатель"
+"HLVR_Commentary_Scavenger_Hideout"					"Убежище мародера"
+"HLVR_Commentary_Spectator_HUD"						"Интерфейс зрителя"
+"HLVR_Commentary_Tanker_Yard_Combat"				"Бой на станции для цистерн"
+
+// a4_c17_water_tower
+"HLVR_Commentary_Chasm_Puzzle"						"Головоломка с пропастью"
+"HLVR_Commentary_Combine_Combat"					"Бой с Альянсом"
+"HLVR_Commentary_Vertical_Tower"					"Вертикаль"
+"HLVR_Commentary_Vault_Panel"						"Пульт управления Бункером"
+
+// a4_c17_parking_garage
+"HLVR_Commentary_Strider_Intro"						"Введение страйдера"
+"HLVR_Commentary_Lone_Combine"						"Одинокий солдат"
+"HLVR_Commentary_Disabled_Strider"					"Отключенный страйдер"
+"HLVR_Commentary_Lion_And_Mouse"					"Лев и мышь"
+"HLVR_Commentary_AI_Animation"						"ИИ и анимация"
+"HLVR_Commentary_Elevator"							"Поездка на лифте"
+"HLVR_Commentary_Destructible_Cover"				"Разрушаемое укрытие"
+"HLVR_Commentary_Minigun"							"Пулемет страйдера"
+"HLVR_Commentary_Doorframe_Bash"					"Разрушение дверного проема"
+"HLVR_Commentary_Strider_Sounds"					"Звуки страйдера"
+"HLVR_Commentary_Gauss_Cannon"						"Пушка Гаусса"
+"HLVR_Commentary_Destroy_Strider"					"Уничтожение страйдера"
+"HLVR_Commentary_Mounted_Gun"						"Станковый гранатомет"
+
+// a5_vault
+"HLVR_Commentary_Broken_Vault_Music"				"Музыка в рухнувшем Бункере"
+"HLVR_Commentary_Sideways_Music"					"Музыка в наклонной комнате"
+"HLVR_Commentary_Surreal_Vault"						"Сюрреализм Бункера"
+"HLVR_Commentary_Vort_Lightning"					"Молния вортигонтов"
+
+
+// a5_ending
+"HLVR_Commentary_Coetaneous"						"Одновременная запутанность"
+"HLVR_Commentary_GMan_Room"							"Комната G-Man"
+
+
 
 // Game Tips
 "HLVR_LOADING_SCREEN_TIP_COUNT"				"22"

@@ -234,7 +234,6 @@ $gender
 '\n"SPAWN_GROUP_CREATE_NEW_SCENE_WORLD
 '\n#SPAWN_GROUP_LOAD_ENTITIES_FROM_SAVE
 'out_location' must not be NULL
-( 8PX
 (#GameUI_Disconnect_LoopLevelLoadActivate
 (#GameUI_Disconnect_RemoteProblem_BadCert
 (#GameUI_Disconnect_RemoteProblem_Timeout
@@ -289,6 +288,7 @@ $gender
 -#GameUI_Disconnect_LocalProblem_NetworkConfig
 -BH>t
 -avx
+-enable_2gb_morphs
 -inf
 -sse2
 -sse3
@@ -508,6 +508,7 @@ $gender
 .?AVZeroCopyOutputStream@io@protobuf@google@@
 .?AV__non_rtti_object@std@@
 .?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
 .?AVbad_cast@std@@
 .?AVbad_exception@std@@
 .?AVbad_typeid@std@@
@@ -542,11 +543,10 @@ $gender
 .bss
 .data
 .data$r
+.data$rs
 .dummy
 .edata
 .foo = value".
-.gfids$x
-.gfids$y
 .google.protobuf.EnumOptions
 .google.protobuf.FieldOptions
 .google.protobuf.FieldOptions"
@@ -566,6 +566,7 @@ $gender
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .rtc$IAA
 .rtc$IZZ
@@ -605,7 +606,7 @@ $gender
 2*.google.protobuf.FieldDescriptorProto.Type
 2+.google.protobuf.FieldDescriptorProto.Label
 2/.google.protobuf.MethodOptions.IdempotencyLevel:
-2\vpH-
+2\vpL
 3 FB
 37>k
 3>N;kU
@@ -617,7 +618,6 @@ $gender
 6NK>
 6\fXO>\ntA
 6\n\fmessage_type
-700WP
 7>I0
 7?GX
 7\n\tenum_type
@@ -652,14 +652,15 @@ $gender
 ?7zQ6$
 ?7{KV\nU
 ?8bunz8
+??0CThreadMutex@@QEAA@XZ
 ?@En[vP
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
 ?Concat@CBufferString@@QEAAPEBDPEBD0ZZ
 ?DevMsg@@YAXPEBDZZ
 ?FixSlashes@CBufferString@@QEAAPEBDD@Z
-?FixupPathName@CBufferString@@QEAAPEBDD@Z
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
+?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?Purge@CBufferString@@QEAAXH@Z
 ?R0I?
@@ -672,17 +673,17 @@ $gender
 ?ToLowerFast@CBufferString@@QEAAXH@Z
 ?Truncated data
 ?UUUUUU
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
+?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
 ?f`Y4
 ?kxG2)
 ?lZE
-?model_default_preview_sequence_name
 ?qBJ
 ?rAj
 ?ysB
 A file with this name is already in the pool.
 A protocol message was rejected because it was too big (more than 
-A-enable_2gb_morphs
 A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
@@ -730,7 +731,6 @@ A\n!NETWORK_DISCONNECT_REJECT_NOLOBBY
 A\n\nannotation
 AbsolutePoseControl
 Access violation - no RTTI data!
-AcquireSRWLockExclusive
 Activate diffcheck system.
 Actually show diffcheck results.
 AddAllocatedMessage
@@ -775,7 +775,9 @@ Animation
 AnimationList
 AnimationSystemUtils_001
 AnimationSystem_001
+AppPolicyGetProcessTerminationMethod
 April
+AreFileApisANSI
 AssetBrowserSystem_001
 AssetPreviewSystem_001
 AssetSystem001
@@ -939,6 +941,7 @@ CUtlMemoryPoolBase::CUtlMemoryPoolBase
 CUtlRBTree overflow with %u elements!\n
 CUtlRBTree<class CDiffInfo,int,bool (__cdecl*)(class CDiffInfo const &,class CDiffInfo const &),class CUtlMemory<struct UtlRBTreeNode_t<class CDiffInfo,int>,int> >::NewNode
 CUtlRBTree<struct CUtlMap<char const *,enum gender_t,unsigned char,bool (__cdecl*)(char const * const &,char const * const &)>::Node_t,unsigned char,class CUtlMap<char const *,enum gender_t,unsigned char,bool (__cdecl*)(char const * const &,char const * const &)>::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<char const *,enum gender_t,unsigned char,bool (__cdecl*)(char const * const &,char const * const &)>::Node_t,unsigned char>,unsigned char> >::NewNode
+CUtlRBTree<void *,int,bool (__cdecl*)(void * const &,void * const &),class CUtlMemory<struct UtlRBTreeNode_t<void *,int>,int> >::NewNode
 CUtlString
 CUtlString::FormatV
 CUtlStringToken
@@ -1040,9 +1043,6 @@ Cannot get here
 Cannot register same format from/to a KV3 conversion (from '%s' to '%s')
 ClearField
 CloseHandle
-CloseThreadpoolTimer
-CloseThreadpoolWait
-CloseThreadpoolWork
 ClothShapeCapsule
 ClothShapeList
 ClothShapeSphere
@@ -1050,7 +1050,6 @@ Color
 CommandLine
 CommandProcedure
 CommandProcedureList
-CompareStringEx
 ConVar(%s) defined with infinite float value (%s)\n
 ConVarRef %s doesn't point to an existing ConVar\n
 Conditional Error: %s\n
@@ -1058,21 +1057,13 @@ ConfigAttachedModel
 ConfigurationSystem_001
 ConnectGameInterfaces
 ConnectInterfaces
-Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
 CorExitProcess
 Could not create an instance of 
 Could not find type "
 Couldn't parse default value "
-CreateEventExW
 CreateEventW
 CreateFileW
 CreateInterface
-CreateSemaphoreExW
-CreateSemaphoreW
-CreateSymbolicLinkW
-CreateThreadpoolTimer
-CreateThreadpoolWait
-CreateThreadpoolWork
 Cycle or diamond double-reference to '%s'
 CycleOverride
 DACGameManager001
@@ -1095,7 +1086,6 @@ DynamicConfigList
 E>nEA
 ENetworkDisconnectionReason
 ERROR
-ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!\n
 ET5>
 EXPORTSYSTEM_INTERFACE_VERSION_001
 E[\rn?gc
@@ -1254,8 +1244,8 @@ FileOptions
 Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports "
 Files with optimize_for = LITE_RUNTIME cannot define services unless you set both options cc_generic_services and java_generic_sevices to false.
 FindClose
-FindFirstFileExA
-FindNextFileA
+FindFirstFileExW
+FindNextFileW
 First argument to Swap() (of type "
 First argument to SwapFields() (of type "
 FixupResourceName: Illegal full path passed in ("%s")!\n
@@ -1266,12 +1256,10 @@ FlsFree
 FlsGetValue
 FlsSetValue
 FlushFileBuffers
-FlushProcessWriteBuffers
 FontManager_001
 Found invalid proto option data for: 
 FreeEnvironmentStringsW
 FreeLibrary
-FreeLibraryWhenCallbackReturns
 Friday
 G>US
 GAMECONSOLE
@@ -1290,26 +1278,23 @@ GetCPInfo
 GetCPUInformation
 GetCommandLineA
 GetCommandLineW
-GetConsoleCP
 GetConsoleMode
-GetCurrentPackageId
+GetConsoleOutputCP
 GetCurrentProcess
 GetCurrentProcessId
-GetCurrentProcessorNumber
 GetCurrentThreadId
 GetDefaultMiniDumpTypeFlags
 GetDouble
 GetEnumValue
 GetEnvironmentStringsW
-GetFileInformationByHandleEx
+GetFileSizeEx
 GetFileType
 GetFloat
 GetInt32
 GetInt64
 GetLastError
-GetLocaleInfoEx
 GetMessage
-GetModuleFileNameA
+GetModuleFileNameW
 GetModuleHandleExW
 GetModuleHandleW
 GetOEMCP
@@ -1335,8 +1320,6 @@ GetString
 GetStringReference
 GetStringTypeW
 GetSystemTimeAsFileTime
-GetSystemTimePreciseAsFileTime
-GetTickCount64
 GetUInt32
 GetUInt64
 Google.Protobuf.Reflection
@@ -1361,7 +1344,7 @@ IKRig
 IKRigBiped
 IKRigBug
 IKRigSimple
-IND)ind)
+IND)ind)"
 INFO
 INITY
 INVALID_CPPTYPE
@@ -1376,13 +1359,10 @@ Illegal jstype for int64, uint64, sint64, fixed64 or sfixed64 field:
 Import 
 Import "
 Index out-of-bounds (field is empty).
-InitOnceExecuteOnce
-InitializeConditionVariable
 InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
-InitializeSRWLock
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
@@ -1680,6 +1660,7 @@ Quaternion
 QueryPerformanceCounter
 QueuedLoaderVersion001
 RSDS
+R\fpL
 RadianEuler
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -1696,7 +1677,6 @@ RegisterStringToken
 Release
 ReleaseLast
 ReleaseMessage
-ReleaseSRWLockExclusive
 RemoveBoneAndChildren
 RemoveLast
 RenderDevice003
@@ -1762,7 +1742,6 @@ SetEnum
 SetEnumValue
 SetEnumValue accepts only valid integer values: value 
 SetEvent
-SetFileInformationByHandle
 SetFilePointerEx
 SetFloat
 SetInt32
@@ -1780,8 +1759,6 @@ SetRepeatedUInt32
 SetRepeatedUInt64
 SetStdHandle
 SetString
-SetThreadpoolTimer
-SetThreadpoolWait
 SetUInt32
 SetUInt64
 SetUnhandledExceptionFilter
@@ -1790,7 +1767,6 @@ Show diff only.
 Show diff with matching filter substring only.
 Sleep
 SleepConditionVariableCS
-SleepConditionVariableSRW
 SmoothLoop
 SoundOpSystem001
 SoundOpSystemEdit001
@@ -1817,7 +1793,6 @@ SteamToursHost001
 String field
 String literals cannot cross line boundaries.
 StringOutputStream.
-SubmitThreadpoolWork
 Subtract
 Sunday
 SurfacePropertiesList
@@ -1859,7 +1834,6 @@ ToolService_001
 Trailing Data
 Tried to merge messages of different types 
 True
-TryAcquireSRWLockExclusive
 Tuesday
 Two Bone
 Two KV3 format GUIDs with the same human-friendly name ('%s')
@@ -2008,9 +1982,7 @@ W\n,NETWORK_DISCONNECT_REJECT_CONNECT_FROM_LOBBY
 W\n,NETWORK_DISCONNECT_REJECT_RESERVED_FOR_LOBBY
 WaNd?
 WaitForSingleObjectEx
-WaitForThreadpoolTimerCallbacks
 WakeAllConditionVariable
-WakeConditionVariable
 Warning
 Warning parsing text-format 
 Warning:  %s = '%s' is infinite, clamping value.\n
@@ -2143,6 +2115,7 @@ Z\n+NETWORK_DISCONNECT_CONNECT_REQUEST_TIMEDOUT
 ^<V7w
 ^RfN>
 ^\n*NETWORK_DISCONNECT_LOCALPROBLEM_MANYRELAYS
+_RDATA
 _V_FileBase
 _V_strncat
 _V_strncmp
@@ -2160,6 +2133,8 @@ __pascal
 __ptr64
 __restrict
 __stdcall
+__swift_1
+__swift_2
 __temp_unserialization_member__
 __thiscall
 __unaligned
@@ -2168,6 +2143,7 @@ _class
 _oD>Kg
 _test_conversion_counter
 `RTTI
+`anonymous namespace'
 `copy constructor closure'
 `default constructor closure'
 `dynamic atexit destructor for '
@@ -2236,6 +2212,7 @@ b\n,NETWORK_DISCONNECT_SPLITPACKET_SEND_OVERFLOW
 bad 
 bad address
 bad allocation
+bad array new length
 bad exception
 bad file descriptor
 bad message
@@ -2671,6 +2648,7 @@ message_set_wire_format
 method
 min_angle
 min_client_limit
+model_default_preview_sequence_name
 model_name
 modeldoc0
 modeldoc1
@@ -2766,6 +2744,8 @@ operation not supported
 operation would block
 operator
 operator "" 
+operator co_await
+operator<=>
 optional
 options
 origin_max_delta
@@ -2810,6 +2790,7 @@ purecall
 py_generic_services
 qS>g?h3
 r\tVr.>T
+r\vpL
 radius
 radius0
 radius1
@@ -2913,6 +2894,7 @@ value
 value too large
 valveextensions.proto
 vanmgrph
+vector too long
 vector<T> too long
 version
 vmdl
@@ -2960,7 +2942,6 @@ world_offset_pos
 wrong protocol type
 wrong submessage type
 xT?V
-xpxxxx
 xuid
 yaw_end
 yaw_start

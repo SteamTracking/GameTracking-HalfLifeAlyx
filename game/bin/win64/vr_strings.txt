@@ -5,8 +5,6 @@
                 AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZ+inf
         MiddleEyeToLeftEye                    MiddleEyeToRightEye\n
         ProjectionLeftEye                     ProjectionRightEye\n
-    %u iterated blocks\n
-    %u unfinished blocks\n
   -nohmd      Renders through the VR code paths without using the HMD's tracking or display\n
   -scale [x]  Available with either -vrdebug or -nohmd. Will scale window by float amount (0.5 is half width & height)\n
   -vr         Enable VR (can be automatically enabled if launched from Steam in VR mode)\n
@@ -34,11 +32,9 @@
  seconds, last frame 
  totaling 
 !! Disabling VRFly mode to allow you to correctly author reference point.\n
-!1AQaq
 !2gpu\n
 !4gpu\n
 !gathersysteminfo\n
-"2BRbr
 "[BINARY BLOB]"
 "e?<<<<<<l?
 # Positions\n
@@ -46,19 +42,16 @@
 # Triangles\n
 # VR_DUMP_RENDER_MODEL\n
 # Vertex Normals\n
-#3CScs
 #9fm
-$4DTdt
 $Ib?s
 %.1f fps
 %.2f Hz (%s/%s -> %s/%s) %.3f ms/frame\n
 %.2f Hz (%s/%s) %.3f ms/frame\n\n
 %.2f MP / sec
 %16s: %5.1f ms, avg: %5.1f max: %5.1f ms
+%16s: %5.2f ms, avg: %5.2f max: %5.2f ms
 %16s: %s / %s MB
-%1t7
 %5.2f
-%5EUeu
 %6.3f
 %7.3f %8.3f %8.3f %8.3f   %8.3f %8.3f %8.3f %8.3f\n%7.3f %8.3f %8.3f %8.3f   %8.3f %8.3f %8.3f %8.3f\n%7.3f %8.3f %8.3f %8.3f   %8.3f %8.3f %8.3f %8.3f\n%7.3f %8.3f %8.3f %8.3f   %8.3f %8.3f %8.3f %8.3f\n
 %7.3f %8.3f %8.3f %8.3f   %8.3f %8.3f %8.3f %8.3f\n%7.3f %8.3f %8.3f %8.3f   %8.3f %8.3f %8.3f %8.3f\n%7.3f %8.3f %8.3f %8.3f   %8.3f %8.3f %8.3f %8.3f\n%7.3f %8.3f %8.3f %8.3f   %8.3f %8.3f %8.3f %8.3f\n\n
@@ -71,16 +64,9 @@ $Ib?s
 %s: string format requested %d chars\n
 %s_%u.vmdl
 %u,%u,%f,%f,%f,%f,%i\n
-&6FVfv
 &?PPPPPPP?
 &Sgw
-'7GWgw
-( 8PX
-(8HXhx
-(null)
-)9IYiy
 )yIx
-*:JZjz
 *StO9>T
 , VR_CONTROLLER_INPUT_JOYSTICK
 , VR_CONTROLLER_INPUT_TRACKPAD
@@ -105,6 +91,7 @@ $Ib?s
 -height
 -inf
 -msaa
+-multiview
 -noaq
 -noautofidelity
 -nohackstartup
@@ -131,48 +118,13 @@ $Ib?s
 . Renderer now requires 
 .00cfg
 .>\rfJBGo
-.?AU?$_InitialTaskHandle@XV<lambda_5a9ef80d79df7873994019ff15dceae5>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@
-.?AU?$_InitialTaskHandle@XV<lambda_60c5de84e69e46aa92419d47e2f3ad51>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@
-.?AU?$_InitialTaskHandle@XV<lambda_85226a1ade6d27c19b16702c44b1a394>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@
-.?AU?$_InitialTaskHandle@XV<lambda_e7905d7dbd7cab7f9b19199433c4f5d3>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@
-.?AU?$_PPLTaskHandle@EU?$_InitialTaskHandle@XV<lambda_5a9ef80d79df7873994019ff15dceae5>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@U_TaskProcHandle@details@3@@details@Concurrency@@
-.?AU?$_PPLTaskHandle@EU?$_InitialTaskHandle@XV<lambda_60c5de84e69e46aa92419d47e2f3ad51>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@U_TaskProcHandle@details@3@@details@Concurrency@@
-.?AU?$_PPLTaskHandle@EU?$_InitialTaskHandle@XV<lambda_85226a1ade6d27c19b16702c44b1a394>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@U_TaskProcHandle@details@3@@details@Concurrency@@
-.?AU?$_PPLTaskHandle@EU?$_InitialTaskHandle@XV<lambda_e7905d7dbd7cab7f9b19199433c4f5d3>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@U_TaskProcHandle@details@3@@details@Concurrency@@
-.?AU?$_Task_impl@E@details@Concurrency@@
-.?AUIExecutionContext@Concurrency@@
-.?AUIExecutionResource@Concurrency@@
-.?AUIResourceManager@Concurrency@@
-.?AUIScheduler@Concurrency@@
-.?AUISchedulerProxy@Concurrency@@
-.?AUIThreadProxy@Concurrency@@
-.?AUIThreadProxyFactory@details@Concurrency@@
-.?AUITopologyExecutionResource@Concurrency@@
-.?AUITopologyNode@Concurrency@@
-.?AUIVirtualProcessorRoot@Concurrency@@
-.?AUTopologyObject@GlobalCore@details@Concurrency@@
-.?AUTopologyObject@GlobalNode@details@Concurrency@@
-.?AU_Anon@?$_Associated_state@H@std@@
-.?AU_Anon@?$_Associated_state@I@std@@
-.?AU_Chore@details@Concurrency@@
-.?AU_TaskProcHandle@details@Concurrency@@
-.?AU_Task_impl_base@details@Concurrency@@
-.?AUscheduler_interface@Concurrency@@
-.?AV<lambda_0760b0e512ddddebef09f948d4dd4071>@@
-.?AV<lambda_5551af60b14f00cdfaa7537c8253bf4a>@@
-.?AV<lambda_5a9ef80d79df7873994019ff15dceae5>@@
-.?AV<lambda_5d1e501df15b28cc6f8f9514b0556e50>@@
-.?AV<lambda_60c5de84e69e46aa92419d47e2f3ad51>@@
-.?AV<lambda_63a4bffa0019ddfb7183ea09b8bcde8b>@@
-.?AV<lambda_713ee8bbd6b08550d59c52695cab5ce3>@@
-.?AV<lambda_763529b0c7473cbc215a52d189ac9b18>@@
-.?AV<lambda_7a64351339404d7c272e9cbb666424bc>@@
-.?AV<lambda_85226a1ade6d27c19b16702c44b1a394>@@
-.?AV<lambda_dc37bdb35edf75872f22ec4c6cad54c3>@@
-.?AV<lambda_e0b623a606acfd10554dbddbb0c1a7da>@@
-.?AV<lambda_e7905d7dbd7cab7f9b19199433c4f5d3>@@
-.?AV<lambda_f25c37099038263181b5186a3fa41b37>@@
-.?AV<lambda_fac74c1338e5afbc2423a21681fc11b7>@@
+.?AV<lambda_1>@?1???$ConvertFromBC6h@UBGRA8888_t@@$00@ImageLoader@@YA_NPEBEPEAUBGRA8888_t@@HH@Z@
+.?AV<lambda_1>@?1???$ConvertFromBC6h@URGBA32323232F_t@@$0A@@ImageLoader@@YA_NPEBEPEAURGBA32323232F_t@@HH@Z@
+.?AV<lambda_1>@?1???$ConvertFromBC6h@URGBA8888_t@@$00@ImageLoader@@YA_NPEBEPEAURGBA8888_t@@HH@Z@
+.?AV<lambda_1>@?1???$ConvertFromBC7@UBGRA8888_t@@@ImageLoader@@YA_NPEBEPEAUBGRA8888_t@@HH@Z@
+.?AV<lambda_1>@?1???$ConvertFromBC7@URGBA8888_t@@@ImageLoader@@YA_NPEBEPEAURGBA8888_t@@HH@Z@
+.?AV<lambda_1>@?8??WriteToBufferBC6H@FloatBitMap_t@@QEBA_NPEAX_KW4ImageFormat@@_N3@Z@
+.?AV<lambda_1>@?8??WriteToBufferBC7@FloatBitMap_t@@QEBA_NPEAX_KW4ImageFormat@@_N3@Z@
 .?AV?$CBaseAppSystem@VIVr@@@@
 .?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CParallelProcessor@HV?$CLambdaJobItemProcessor@H@@$00@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CParallelProcessor@HV?$CMemberFuncJobItemProcessor@HV?$CCallQueueT@V?$CTSQueue@PEAVCFunctor@@$0A@@@@@V1@@@$00@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
@@ -183,58 +135,14 @@ $Ib?s
 .?AV?$CTier0AppSystem@VIVr@@@@
 .?AV?$CTier1AppSystem@VIVr@@$0A@@@
 .?AV?$CTier2AppSystem@VIVr@@$0A@@@
-.?AV?$ThreadProxyFactory@VFreeThreadProxy@details@Concurrency@@@details@Concurrency@@
-.?AV?$_Associated_state@H@std@@
-.?AV?$_Associated_state@I@std@@
-.?AV?$_CancellationTokenCallback@V<lambda_be3e5d9dce35d2c8dbfa8485373731d5>@@@details@Concurrency@@
-.?AV?$_Deferred_async_state@I@std@@
-.?AV?$_Deferred_async_state@X@std@@
-.?AV?$_Fake_no_copy_callable_adapter@P8Image@Etc@@EAAIIII@ZQEAV12@AEAIAEAHAEAI@std@@
-.?AV?$_Fake_no_copy_callable_adapter@P8Image@Etc@@EAAXII@ZQEAV12@AEAHAEAI@std@@
-.?AV?$_Func_base@E$$V@std@@
-.?AV?$_Func_base@I$$V@std@@
-.?AV?$_Func_base@X$$V@std@@
 .?AV?$_Func_base@XAEAH@std@@
-.?AV?$_Func_impl@V<lambda_0760b0e512ddddebef09f948d4dd4071>@@V?$allocator@H@std@@XAEAH@std@@
-.?AV?$_Func_impl@V<lambda_5551af60b14f00cdfaa7537c8253bf4a>@@V?$allocator@H@std@@XAEAH@std@@
-.?AV?$_Func_impl@V<lambda_5a9ef80d79df7873994019ff15dceae5>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_5d1e501df15b28cc6f8f9514b0556e50>@@V?$allocator@H@std@@XAEAH@std@@
-.?AV?$_Func_impl@V<lambda_60c5de84e69e46aa92419d47e2f3ad51>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_63a4bffa0019ddfb7183ea09b8bcde8b>@@V?$allocator@H@std@@XAEAH@std@@
-.?AV?$_Func_impl@V<lambda_713ee8bbd6b08550d59c52695cab5ce3>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_763529b0c7473cbc215a52d189ac9b18>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_7a64351339404d7c272e9cbb666424bc>@@V?$allocator@H@std@@XAEAH@std@@
-.?AV?$_Func_impl@V<lambda_85226a1ade6d27c19b16702c44b1a394>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_dc37bdb35edf75872f22ec4c6cad54c3>@@V?$allocator@H@std@@XAEAH@std@@
-.?AV?$_Func_impl@V<lambda_e0b623a606acfd10554dbddbb0c1a7da>@@V?$allocator@H@std@@E$$V@std@@
-.?AV?$_Func_impl@V<lambda_e7905d7dbd7cab7f9b19199433c4f5d3>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_f25c37099038263181b5186a3fa41b37>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_fac74c1338e5afbc2423a21681fc11b7>@@V?$allocator@H@std@@XAEAH@std@@
-.?AV?$_Func_impl@V?$_Fake_no_copy_callable_adapter@P8Image@Etc@@EAAIIII@ZQEAV12@AEAIAEAHAEAI@std@@V?$allocator@H@2@I$$V@std@@
-.?AV?$_Func_impl@V?$_Fake_no_copy_callable_adapter@P8Image@Etc@@EAAXII@ZQEAV12@AEAHAEAI@std@@V?$allocator@H@2@X$$V@std@@
-.?AV?$_MallocaArrayHolder@PEAVContext@Concurrency@@@details@Concurrency@@
-.?AV?$_MallocaArrayHolder@PEAVevent@Concurrency@@@details@Concurrency@@
-.?AV?$_Packaged_state@$$A6AIXZ@std@@
-.?AV?$_Packaged_state@$$A6AXXZ@std@@
-.?AV?$_Ref_count_obj@U?$_Task_impl@E@details@Concurrency@@@std@@
-.?AV?$_Ref_count_obj@U_ExceptionHolder@details@Concurrency@@@std@@
-.?AV?$_Ref_count_obj@V__ExceptionPtr@@@std@@
-.?AV?$_Ref_count_obj_alloc@V__ExceptionPtr@@U?$_StaticAllocator@H@@@std@@
-.?AV?$_Task_async_state@I$00@std@@
-.?AV?$_Task_async_state@I$0A@@std@@
-.?AV?$_Task_async_state@X$00@std@@
-.?AV?$_Task_async_state@X$0A@@std@@
-.?AVBlock4x4Encoding@Etc@@
-.?AVBlock4x4Encoding_ETC1@Etc@@
-.?AVBlock4x4Encoding_R11@Etc@@
-.?AVBlock4x4Encoding_RG11@Etc@@
-.?AVBlock4x4Encoding_RGB8@Etc@@
-.?AVBlock4x4Encoding_RGB8A1@Etc@@
-.?AVBlock4x4Encoding_RGB8A1_Opaque@Etc@@
-.?AVBlock4x4Encoding_RGB8A1_Transparent@Etc@@
-.?AVBlock4x4Encoding_RGBA8@Etc@@
-.?AVBlock4x4Encoding_RGBA8_Opaque@Etc@@
-.?AVBlock4x4Encoding_RGBA8_Transparent@Etc@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$ConvertFromBC6h@UBGRA8888_t@@$00@ImageLoader@@YA_NPEBEPEAUBGRA8888_t@@HH@Z@XAEAH@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$ConvertFromBC6h@URGBA32323232F_t@@$0A@@ImageLoader@@YA_NPEBEPEAURGBA32323232F_t@@HH@Z@XAEAH@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$ConvertFromBC6h@URGBA8888_t@@$00@ImageLoader@@YA_NPEBEPEAURGBA8888_t@@HH@Z@XAEAH@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$ConvertFromBC7@UBGRA8888_t@@@ImageLoader@@YA_NPEBEPEAUBGRA8888_t@@HH@Z@XAEAH@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$ConvertFromBC7@URGBA8888_t@@@ImageLoader@@YA_NPEBEPEAURGBA8888_t@@HH@Z@XAEAH@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?8??WriteToBufferBC6H@FloatBitMap_t@@QEBA_NPEAX_KW4ImageFormat@@_N3@Z@XAEAH@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?8??WriteToBufferBC7@FloatBitMap_t@@QEBA_NPEAX_KW4ImageFormat@@_N3@Z@XAEAH@std@@
 .?AVCBeginRenderingSceneCallback@@
 .?AVCDebugVisualizerAbsTime@@
 .?AVCDefaultAccessor@@
@@ -263,21 +171,9 @@ $Ib?s
 .?AVCVrStencilRenderer@@
 .?AVCVrSubviewStencilRenderer@@
 .?AVCVrWarpRenderer@@
-.?AVCacheLocalScheduleGroup@details@Concurrency@@
-.?AVCacheLocalScheduleGroupSegment@details@Concurrency@@
-.?AVCancellationTokenRegistration_TaskProc@details@Concurrency@@
 .?AVConCommand@@
 .?AVConCommandBase@@
 .?AVConVar@@
-.?AVContext@Concurrency@@
-.?AVContextBase@details@Concurrency@@
-.?AVExecutionResource@details@Concurrency@@
-.?AVExternalContextBase@details@Concurrency@@
-.?AVFairScheduleGroup@details@Concurrency@@
-.?AVFairScheduleGroupSegment@details@Concurrency@@
-.?AVFreeThreadProxy@details@Concurrency@@
-.?AVFreeThreadProxyFactory@details@Concurrency@@
-.?AVFreeVirtualProcessorRoot@details@Concurrency@@
 .?AVIAppSystem@@
 .?AVIBaseSequence@@
 .?AVIConCommandBaseAccessor@@
@@ -290,76 +186,14 @@ $Ib?s
 .?AVISequence@@
 .?AVIVSSequence@@
 .?AVIVr@@
-.?AVInternalContextBase@details@Concurrency@@
-.?AVMultiWaitBlock@details@Concurrency@@
-.?AVRealizedChore@details@Concurrency@@
-.?AVResourceManager@details@Concurrency@@
-.?AVScheduleGroup@Concurrency@@
-.?AVScheduleGroupBase@details@Concurrency@@
-.?AVScheduleGroupSegmentBase@details@Concurrency@@
-.?AVScheduler@Concurrency@@
-.?AVSchedulerBase@details@Concurrency@@
-.?AVSchedulerProxy@details@Concurrency@@
-.?AVSingleWaitBlock@details@Concurrency@@
-.?AVThreadInternalContext@details@Concurrency@@
-.?AVThreadProxy@details@Concurrency@@
-.?AVThreadScheduler@details@Concurrency@@
-.?AVThreadVirtualProcessor@details@Concurrency@@
-.?AVTimedSingleWaitBlock@details@Concurrency@@
-.?AVVirtualProcessor@details@Concurrency@@
-.?AVVirtualProcessorRoot@details@Concurrency@@
-.?AVWaitAllBlock@details@Concurrency@@
-.?AVWaitAnyBlock@details@Concurrency@@
-.?AVWaitBlock@details@Concurrency@@
-.?AV_CancellationTokenRegistration@details@Concurrency@@
-.?AV_DefaultPPLTaskScheduler@details@Concurrency@@
-.?AV_Future_error_category@std@@
-.?AV_Generic_error_category@std@@
-.?AV_Interruption_exception@details@Concurrency@@
-.?AV_RefCounter@details@Concurrency@@
-.?AV_Ref_count_base@std@@
-.?AV_System_error@std@@
-.?AV__non_rtti_object@std@@
 .?AVbad_alloc@std@@
-.?AVbad_cast@std@@
+.?AVbad_array_new_length@std@@
 .?AVbad_exception@std@@
 .?AVbad_function_call@std@@
-.?AVbad_typeid@std@@
-.?AVcontext_self_unblock@Concurrency@@
-.?AVcontext_unblock_unbalanced@Concurrency@@
-.?AVerror_category@std@@
 .?AVexception@std@@
-.?AVexception@stdext@@
-.?AVfuture_error@std@@
-.?AVimproper_lock@Concurrency@@
-.?AVimproper_scheduler_attach@Concurrency@@
-.?AVimproper_scheduler_reference@Concurrency@@
-.?AVinvalid_argument@std@@
-.?AVinvalid_operation@Concurrency@@
-.?AVinvalid_oversubscribe_operation@Concurrency@@
-.?AVinvalid_scheduler_policy_key@Concurrency@@
-.?AVinvalid_scheduler_policy_thread_specification@Concurrency@@
-.?AVinvalid_scheduler_policy_value@Concurrency@@
 .?AVlength_error@std@@
 .?AVlogic_error@std@@
-.?AVmissing_wait@Concurrency@@
-.?AVnested_scheduler_missing_detach@Concurrency@@
-.?AVout_of_range@std@@
-.?AVruntime_error@std@@
-.?AVscheduler_resource_allocation_error@Concurrency@@
-.?AVscheduler_worker_creation_error@Concurrency@@
-.?AVstl_condition_variable_concrt@details@Concurrency@@
-.?AVstl_condition_variable_interface@details@Concurrency@@
-.?AVstl_condition_variable_vista@details@Concurrency@@
-.?AVstl_condition_variable_win7@details@Concurrency@@
-.?AVstl_critical_section_concrt@details@Concurrency@@
-.?AVstl_critical_section_interface@details@Concurrency@@
-.?AVstl_critical_section_vista@details@Concurrency@@
-.?AVstl_critical_section_win7@details@Concurrency@@
-.?AVsystem_error@std@@
-.?AVtask_canceled@Concurrency@@
 .?AVtype_info@@
-.?AVunsupported_os@Concurrency@@
 .CRT$XCA
 .CRT$XCC
 .CRT$XCL
@@ -371,7 +205,6 @@ $Ib?s
 .CRT$XLA
 .CRT$XLZ
 .CRT$XPA
-.CRT$XPB
 .CRT$XPX
 .CRT$XPXA
 .CRT$XPZ
@@ -380,9 +213,8 @@ $Ib?s
 .bss
 .data
 .data$r
+.data$rs
 .edata
-.gfids$x
-.gfids$y
 .idata$2
 .idata$3
 .idata$4
@@ -392,6 +224,7 @@ $Ib?s
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .rtc$IAA
 .rtc$IZZ
@@ -420,9 +253,6 @@ $Ib?s
 0.04
 0.10
 0.85
-0000
-00003333
-0123456789ABCDEF
 0123456789abcdefghijklmnopqrstuvwxyz
 0=Off, 1=VerticalSplit, 2=Checker, 3=FixedFoveated2x
 0E>X
@@ -430,19 +260,13 @@ $Ib?s
 0iN>/
 1 = spew constantly, 2 = every second, 3 = only when over budget
 1 = spew constantly, 2 = spew when we skip a frame
-1#IND
-1#INF
-1#QNAN
-1#SNAN
 100.0
 11Y@
-123456789
 1DBlend
-1eaB@
-2\r52t
+2\rU2h
+2\vp0
 3 FB
 3+5<t
-3333
 333?\n
 33s?
 37>k
@@ -450,24 +274,19 @@ $Ib?s
 3>fvw
 3?tr
 51>W
-6>HL\r
 6NK>
 6\fXO>\ntA
-700WP
 7>I0
 7?GX
 7~xh
 8ke?;
 9>70
 9>powf
-;1cb
 <ERROR>
 <deferred>
 <no failure reason set>
 <null>
-<sqrt
 <unconnected>
-=1cb
 =87M
 =cQ6
 =e2m
@@ -482,10 +301,9 @@ $Ib?s
 ?7{KV\nU
 ?8UUUUU
 ?8bunz8
-??0CThreadMutex@@QEAA@PEBD@Z
+??0CThreadMutex@@QEAA@XZ
 ??0CThreadRWLock_FastRead@@QEAA@_N@Z
 ??1CThreadEvent@@QEAA@XZ
-??1CThreadMutex@@QEAA@XZ
 ??1CThreadSemaphore@@QEAA@XZ
 ?@En[vP
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
@@ -496,11 +314,10 @@ $Ib?s
 ?ExtractFileBase@CBufferString@@QEAAPEBDPEBD@Z
 ?FindOrCreateCounter@CVProfile@@QEAAPEA_KPEBDW4CounterGroup_t@@@Z
 ?FixSlashes@CBufferString@@QEAAPEBDD@Z
-?FloatBitMap_t::ConvertGammaToLinear(338): Conversion not supported yet!\n
 ?HandleFirstWriteLockTransition@CThreadRWLock_FastRead@@IEAAXXZ
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
 ?Ji@9
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@VColor@@PEBDZZ
@@ -512,6 +329,7 @@ $Ib?s
 ?SetExtension@CBufferString@@QEAAPEBDPEBD@Z
 ?StartsWith@CBufferString@@QEAA_NPEBD@Z
 ?UUUUUU
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockReadAccounting@CThreadRWLock_FastRead@@IEAAXPEBDHI@Z
 ?UnlockWrite@CThreadRWLock_FastRead@@QEAAXPEBDH@Z
@@ -525,9 +343,8 @@ $Ib?s
 ?lZE
 ?qBJ
 ?rAj
-?sqrtf
 ?ysB
-@^8U)zj
+@false
 A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABGR8888
@@ -567,7 +384,6 @@ AK>(v
 ANIMATION_TYPE_FIT_LIFETIME
 ANIMATION_TYPE_FIXED_RATE
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
-APhysics
 ARGB8888
 ATI1N
 ATI2N
@@ -576,8 +392,6 @@ ATI_DST24
 ATI_TC_CalculateBufferSize_Wrapper
 ATI_TC_ConvertTexture_Wrapper
 AbsolutePoseControl
-Access violation - no RTTI data!
-AcquireSRWLockExclusive
 Acquired overlay %s has unsupported API type: %d\n
 Acquired overlay %s texture failed to be shared.\n
 Acquired overlay %s texture isn't available. (yet)\n
@@ -611,12 +425,15 @@ Animation
 AnimationList
 AnimationSystemUtils_001
 AnimationSystem_001
+AppPolicyGetProcessTerminationMethod
 April
+AreFileApisANSI
 AssertMsg_ConditionFailed
 AssetBrowserSystem_001
 AssetPreviewSystem_001
 AssetSystem001
 AssetSystemTest001
+Asymmetric Projections:\n\t[0] Left: %f Right: %f Top: %f Bottom: %f\n\t[1] Left: %f Right: %f Top: %f Bottom: %f\n
 Attempt to hide invalid overlay (index=%d)\n
 Attempt to show invalid overlay (index=%d)\n
 Attempting to re-register existing mailbox!\n
@@ -629,9 +446,11 @@ BC1%M
 BC6H
 BC?>6t9^\tc:>
 BF>^G
+BGR101111_UFLOAT
 BGR565
 BGR888
 BGR888_BLUESCREEN
+BGR999_E5
 BGRA1010102
 BGRA4444
 BGRA5551
@@ -640,7 +459,6 @@ BGRA8888_LINEAR
 BGRX5551
 BGRX8888
 BGRX8888_LINEAR
-Bad dynamic_cast!
 BakedLODBuilderMgr001
 BaseIKRig
 BasePhysicsShape
@@ -698,39 +516,40 @@ CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
 CUtlMemoryPoolBase::CUtlMemoryPoolBase
 CUtlRBTree overflow with %u elements!\n
 CUtlRBTree<struct CUtlMap<class CUtlString,class IVrMailboxMessageHandler *,int,class CDefLess<class CUtlString> >::Node_t,int,class CUtlMap<class CUtlString,class IVrMailboxMessageHandler *,int,class CDefLess<class CUtlString> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class CUtlString,class IVrMailboxMessageHandler *,int,class CDefLess<class CUtlString> >::Node_t,int>,int> >::NewNode
-CVr::CreateRenderModel(9811): 
-CVr::DisableMotionSmoothingForThisFrame(3561): 
+CUtlRBTree<void *,int,bool (__cdecl*)(void * const &,void * const &),class CUtlMemory<struct UtlRBTreeNode_t<void *,int>,int> >::NewNode
+CVr::CreateRenderModel(10763): 
+CVr::DisableMotionSmoothingForThisFrame(3933): 
 CVr::GetOutputDevice not supported for this rendersystem API.\n
-CVr::MarkGamePhase(5348): 
-CVr::MarkGamePhase(5355): 
-CVr::PollHMDStateForRenderThread(5436): 
-CVr::PollHMDStateForRenderThread(5448): 
-CVr::PollHMDStateForRenderThread(5472): 
-CVr::PreShutdown(1251): 
-CVr::SampleAxisControllerState(4575): ERROR! Unknown controller axis type %d!\n
-CVr::SetOverlayTexture(11010): 
-CVr::SetSkyboxOverride(2401): 
-CVr::UpdateGhostCorrectionTexture(1105): 
+CVr::MarkGamePhase(5928): 
+CVr::MarkGamePhase(5935): 
+CVr::PollHMDStateForRenderThread(6080): 
+CVr::PollHMDStateForRenderThread(6092): 
+CVr::PollHMDStateForRenderThread(6116): 
+CVr::PreShutdown(1468): 
+CVr::SampleAxisControllerState(5109): ERROR! Unknown controller axis type %d!\n
+CVr::SetOverlayTexture(11967): 
+CVr::SetSkyboxOverride(2782): 
+CVr::UpdateGhostCorrectionTexture(1236): 
 CVrReconstructionRenderer
-CVrReconstructionRenderer::Render(7338): VR - Destroying old VB for reconstruction eye %d!\n
-CVrReconstructionRenderer::Render(7345): VR - Destroying old IB for reconstruction eye %d!\n
-CVrReconstructionRenderer::Render(7366): VR - Destroying old IB for reconstruction!\n
-CVrReconstructionRenderer::Render(7506): VR - Error! VB handle is invalid in CVrReconstructionRenderer!\n
-CVrReconstructionRenderer::Render(7515): VR - Error! IB handle is invalid in CVrReconstructionRenderer!\n
+CVrReconstructionRenderer::Render(8165): VR - Destroying old VB for reconstruction eye %d!\n
+CVrReconstructionRenderer::Render(8172): VR - Destroying old IB for reconstruction eye %d!\n
+CVrReconstructionRenderer::Render(8193): VR - Destroying old IB for reconstruction!\n
+CVrReconstructionRenderer::Render(8333): VR - Error! VB handle is invalid in CVrReconstructionRenderer!\n
+CVrReconstructionRenderer::Render(8342): VR - Error! IB handle is invalid in CVrReconstructionRenderer!\n
 CVrReconstructionRendererIB
 CVrReconstructionRendererVB
 CVrStencilRenderer
-CVrStencilRenderer::Render(6389): VR - Destroying old VB for Stenciling!\n
-CVrStencilRenderer::Render(6434): VR - Error! VB handle is invalid in CVrStencilRenderer!\n
+CVrStencilRenderer::Render(7216): VR - Destroying old VB for Stenciling!\n
+CVrStencilRenderer::Render(7261): VR - Error! VB handle is invalid in CVrStencilRenderer!\n
 CVrStencilRendererVB
 CVrSubviewStencilRenderer
-CVrSubviewStencilRenderer::Render(6578): VR - Destroying old VB for SubviewStenciling!\n
-CVrSubviewStencilRenderer::Render(6920): VR - Error! VB handle is invalid in CVrSubviewStencilRenderer!\n
+CVrSubviewStencilRenderer::Render(7405): VR - Destroying old VB for SubviewStenciling!\n
+CVrSubviewStencilRenderer::Render(7747): VR - Error! VB handle is invalid in CVrSubviewStencilRenderer!\n
 CVrSubviewStencilRendererVB
 CVrWarpRenderer
-CVrWarpRenderer::Render(7101): VR - Destroying old IB for warping!\n
-CVrWarpRenderer::Render(7179): VR - Error! VB handle is invalid in CVrWarpRenderer!\n
-CVrWarpRenderer::Render(7188): VR - Error! IB handle is invalid in CVrWarpRenderer!\n
+CVrWarpRenderer::Render(7928): VR - Destroying old IB for warping!\n
+CVrWarpRenderer::Render(8006): VR - Error! VB handle is invalid in CVrWarpRenderer!\n
+CVrWarpRenderer::Render(8015): VR - Error! IB handle is invalid in CVrWarpRenderer!\n
 CVrWarpRendererIB
 CVrWarpRendererVB
 CWD>~3
@@ -821,22 +640,17 @@ C_OP_StopAfterCPDuration
 C_OP_TwistAroundAxis
 C_OP_WorldTraceConstraint
 Cannot save KV3 JSON to a non-text buffer!
-ChangeTimerQueueTimer
 Checker.
 Clear Color
 Clip Space Bounds Left Eye  (L/R/T/B): 
 Clip Space Bounds Right Eye (L/R/T/B): 
 CloseHandle
-CloseThreadpoolTimer
-CloseThreadpoolWait
-CloseThreadpoolWork
 ClothShapeCapsule
 ClothShapeList
 ClothShapeSphere
 CommandLine
 CommandProcedure
 CommandProcedureList
-CompareStringEx
 Compositor failed initialization with error code %s: "%s"
 CompressBlocksBC6H
 CompressBlocksBC7
@@ -846,8 +660,6 @@ ConfigAttachedModel
 ConfigurationSystem_001
 ConnectInterfaces
 Connected to SteamVR compositor!\n
-ContextPriority
-ContextStackSize
 Controller %d Brand: 
 Controller %d Manufacturer: 
 Controller %d Model: 
@@ -855,30 +667,15 @@ Controller %d Render Model:
 Controller %d Serial Number: 
 Controller %d, input %2d
 Controller %d, input %2d, VR_CONTROLLER_INPUT_BUTTON  
-Controller at tracked device slot: %d %s\n
 Controller event vr::VREvent_%s, name = %-10s
 Converting display frequency from %f to %d / %d\n
 CopyAttrFrom
-Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
 CorExitProcess
 Couldn't write Frame Timing data.\n
-CreateEventExW
 CreateEventW
 CreateFileW
 CreateInterface
-CreateRemoteThreadEx
-CreateSemaphoreExW
-CreateSemaphoreW
 CreateSimpleThread
-CreateSymbolicLinkW
-CreateThread
-CreateThreadpoolTimer
-CreateThreadpoolWait
-CreateThreadpoolWork
-CreateTimerQueue
-CreateTimerQueueTimer
-CreateUmsCompletionList
-CreateUmsThreadContext
 CycleOverride
 D%lld
 D15S1
@@ -888,8 +685,6 @@ D24S8
 D24X4S4
 D24X8
 D24X8_SHADOW
-DDDD
-DDDDUUUU
 DXT1
 DXT1_ONEBITALPHA
 DXT3
@@ -902,19 +697,13 @@ December
 DecodePointer
 Default
 DeleteCriticalSection
-DeleteProcThreadAttributeList
-DeleteTimerQueueTimer
-DeleteUmsCompletionList
-DeleteUmsThreadContext
-DequeueUmsCompletionListItems
+Disabling vr_zero_copy - not supported by this version of SteamVR.\n
 Display VR Perf HUD in HMD
 Display fidelity visualizer in VR Perf HUD (vr_perf_hud must be 1)
 DotaCardGameClient_001
 Driver high = 0x%x, low = 0x%x\n
 Dump the left-hand controller render data to an OBJ + TGA files
-DuplicateHandle
 DynamicConfigList
-DynamicProgressFeedback
 Dynamically adjust vr_fidelity_level based on current performance
 E>nEA
 ERROR! CVr::CreateWarpMaterialAndTexture() called with an invalid g_pRenderDevice!\n
@@ -933,9 +722,7 @@ EncodePointer
 Encountered unknown vr::EVRInputError value.\n
 EngineServiceMgr001
 EnterCriticalSection
-EnterUmsSchedulingMode
 EventSystem001
-ExecuteUmsThread
 ExitProcess
 Expected ',' or '%s'
 Expected ':' after member name '%s'
@@ -954,7 +741,6 @@ FCVAR_NEVER_AS_STRING
 FEMh\f
 FOV Left Eye  (L/R/T/B): 
 FOV Right Eye (L/R/T/B): 
-Fail to schedule the chore!
 Failed to SetOverlayFromFile %s: %s\n
 Failed to assign bool literal value
 Failed to create VR loading overlay: %s\n
@@ -975,25 +761,24 @@ February
 FfW?
 FillAttr
 FindClose
-FindFirstFileExA
-FindNextFileA
-Finished %d Blocks out of %d\n
+FindFirstFileExW
+FindNextFileW
 FlattenedSerializersVersion001
 FloatBitMap_t::ConvertGammaToLinear
+FloatBitMap_t::ConvertGammaToLinear(341): Conversion not supported yet!\n
 FloatBitMap_t::LoadFromBuffer: Received improper buffer size, skipping!\n
 FloatBitMap_t::LoadFromBuffer: Unsupported color format, skipping!\n
-FloatBitMap_t::WriteToBuffer(901): Unsupported color format "%s", skipping!\n
+FloatBitMap_t::WriteToBuffer(904): Unsupported color format "%s", skipping!\n
 FloatBitMap_t::WriteToBuffer: Received improper buffer size %s (expecting %s), skipping!\n
-FloatBitMap_t::WriteToBufferDXT(1004): Unsupported output color format "%s"!\n
-FloatBitMap_t::WriteToBufferDXT(1013): Error! Allocated %llu bytes when ATI's lib requires %d bytes!\n
-FloatBitMap_t::WriteToBufferDXT(1021): Error %d returned from ATI_TC_ConvertTexture()!\n
-FloatBitMap_t::WriteToBufferDXT(939): Error! Temp texture is %d bytes when ATI's lib requires %d bytes!\n
+FloatBitMap_t::WriteToBufferDXT(1007): Unsupported output color format "%s"!\n
+FloatBitMap_t::WriteToBufferDXT(1016): Error! Allocated %llu bytes when ATI's lib requires %d bytes!\n
+FloatBitMap_t::WriteToBufferDXT(1024): Error %d returned from ATI_TC_ConvertTexture()!\n
+FloatBitMap_t::WriteToBufferDXT(942): Error! Temp texture is %d bytes when ATI's lib requires %d bytes!\n
 FlsAlloc
 FlsFree
 FlsGetValue
 FlsSetValue
 FlushFileBuffers
-FlushProcessWriteBuffers
 FontManager_001
 Found overlay %s is invalid\n
 Found unknown controller product id: 0x%04x, using default WindowsMR controller.\n
@@ -1002,8 +787,6 @@ Frame time
 FrameIndex,NumDroppedFrames,PreSubmitGpuMs,PostSubmitGpuMs,CompositorRenderGpuMs,ClientFrameIntervalMs,FidelityLevel\n
 FreeEnvironmentStringsW
 FreeLibrary
-FreeLibraryAndExitThread
-FreeLibraryWhenCallbackReturns
 Friday
 G>US
 GAME
@@ -1011,6 +794,7 @@ GAMEROOT
 GCTL
 GCUtlString::FormatV
 GPU Memory
+GPU time
 GPU: 
 Game CPU time
 GameResourceServiceClientV001
@@ -1020,43 +804,26 @@ GameUIService_001
 GenericGameData
 GenuineIntel
 GetACP
-GetActiveWindow
 GetCPInfo
 GetCPUInformation
 GetCommandLineA
 GetCommandLineW
-GetConsoleCP
 GetConsoleMode
-GetCurrentPackageId
+GetConsoleOutputCP
 GetCurrentProcess
 GetCurrentProcessId
-GetCurrentProcessorNumber
-GetCurrentProcessorNumberEx
-GetCurrentThread
 GetCurrentThreadId
-GetCurrentUmsThread
 GetDefaultMiniDumpTypeFlags
 GetEnvironmentStringsW
-GetFileInformationByHandleEx
 GetFileType
 GetJSONCharConversion
-GetLastActivePopup
 GetLastError
-GetLocaleInfoEx
-GetLogicalProcessorInformation
-GetLogicalProcessorInformationEx
-GetModuleFileNameA
 GetModuleFileNameW
-GetModuleHandleA
 GetModuleHandleExW
 GetModuleHandleW
-GetNextUmsListItem
-GetNumaHighestNodeNumber
 GetOEMCP
 GetProcAddress
-GetProcessAffinityMask
 GetProcessHeap
-GetProcessWindowStation
 GetProfile_alpha_basic
 GetProfile_alpha_fast
 GetProfile_alpha_slow
@@ -1079,19 +846,7 @@ GetStdHandle
 GetStringTypeW
 GetSystemMetrics
 GetSystemTimeAsFileTime
-GetSystemTimePreciseAsFileTime
-GetThreadGroupAffinity
-GetThreadPriority
-GetThreadTimes
-GetTickCount
-GetTickCount64
-GetTraceEnableFlags
-GetTraceEnableLevel
-GetTraceLoggerHandle
-GetUmsCompletionListEvent
-GetUserObjectInformationW
 GetVersionExA
-GetVersionExW
 Ghost Correction Table:\n"%s"\n
 Ghost correction editor - %d -> %d = %d, %d, %d\n
 Ghost correction editor - Editing %d -> %d = %d, %d, %d\n
@@ -1107,6 +862,7 @@ HammerMapLoader001
 HelpSystem_001
 Hitbox indexing is incorrect for set %s, hitbox %s. Hitboxes will not be setup properly.\n
 HostStateMgr001
+How to round the width based on tile size. 0 = floor. 1 = round. 2 = ceil
 IA88
 IKChain
 IKChainOld
@@ -1116,23 +872,25 @@ IKRigBiped
 IKRigBug
 IKRigSimple
 IND)ind)
+IND)ind)"
 INITY
 IQuickTime001
 IVRApplications_007
-IVRChaperone_003
+IVRChaperone_004
 IVRCompositor::%s() failed with error '%s'\n
 IVRCompositor::Submit() failed with error '%s'\n
-IVRCompositor_026
+IVRCompositor_029
 IVRControlPanel::RegisterExternalWebRoot() failed with error '%s'\n
 IVRHeadsetView_001
+IVRIPCResourceManagerClient_004
 IVRInput version %s unavailable
 IVRInputInternal_002
-IVRInput_010
+IVRInput_011
 IVRMailbox_001
 IVROverlayView_003
-IVROverlay_024
+IVROverlay_028
 IVRRenderModels_006
-IVRSystem_021
+IVRSystem_026
 IXrProto_001
 If you don't have a VR device, you can run with -vrdebug to see vr rendering as a side-by-side stereo render.\n
 Ignore All
@@ -1140,24 +898,18 @@ Ignore Always
 Ignore Once
 IkLockLocal
 Il?333333c?
-Illegal to wait on a task in a Windows Runtime STA
-InitOnceExecuteOnce
-InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
-InitializeProcThreadAttributeList
 InitializeSListHead
-InitializeSRWLock
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
 InstallSchemaBindings
 Intentionally vague touch behavior for %p\n
 InterlockedFlushSList
-InterlockedPopEntrySList
-InterlockedPushEntrySList
 Invalid code point \u%04x
 Invalid data for member '%s'
+Invisible
 InvokeMiniDumpHandler
 IsDebuggerPresent
 IsProcessorFeaturePresent
@@ -1198,12 +950,9 @@ LinearDelta
 LoadAtiCompress
 LoadISPCTexComp
 LoadLibraryExW
-LoadLibraryW
 Loading action manifest from depot.\n
-LocalContextCacheSize
 LocaleNameToLCID
 Localize_001
-Lock already taken
 LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
 LoggingSystem_RegisterLoggingChannel
@@ -1218,17 +967,11 @@ MapListService_001
 March
 MaterialUtils_001
 MathLib_Init
-MaxConcurrency
-MaxPolicyElementKey
 MbP?9
-Mbp?333333
 Measured GPU Speed: 
 Median client cpu usage=%fms\n
 MeshSystem001
 MeshUtils001
-MessageBoxA
-MessageBoxW
-MinConcurrency
 Model conversion: %d conversions in %.3fsec (%.3fms each)\n
 ModelDocUtils001
 Monday
@@ -1236,14 +979,13 @@ MultiByteToWideChar
 N3`d?
 N>O=I9
 N>VF
-NAN(IND)
-NAN(SNAN)
 NQ?s
 NV_DST16
 NV_DST24
 NV_INTZ
 NV_NULL
 NV_RAWZ
+Native render target size: %d x %d\n
 NavSystem001
 NetworkClientService_001
 NetworkMessagesVersion001
@@ -1254,6 +996,7 @@ NetworkSystemUtilsVersion001
 NetworkSystemVersion001
 Newline in string literal
 No Frame Timing data available.\n
+No IPCResourceManagerClient available. Using copies!\n
 No headset detected. \nPlease check your headset's connections and try again.
 NoPoseControl
 None\n
@@ -1266,7 +1009,7 @@ Only DXT1/DXT5 online texture compression supported.\n
 OpenVR event vr::VREvent_InputFocusCaptured\n
 OpenVR event vr::VREvent_InputFocusReleased\n
 Ordered constructor wrapped type has no default constructor.\n\tYou must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.\n
-OutputDebugStringW
+Original recommended render target size: %d x %d\n
 Overall FOV (H/V): 
 PARTICLE_DEPTH_FEATHERING_OFF
 PARTICLE_DEPTH_FEATHERING_ON_OPTIONAL
@@ -1283,13 +1026,13 @@ PF_TYPE_LITERAL
 PF_TYPE_PARTICLE_AGE_NORMALIZED
 PF_TYPE_RANDOM_UNIFORM
 PREDICTIVE DROP vr_fidelity_level %d. Last frames = %.2fms, %.2fms, %.2fms > %.2f\n
-PTe\r
 PVEC_TYPE_LITERAL
 PVEC_TYPE_LITERAL_COLOR
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
 ParticleSystemMgr003
+Physics
 Physics2 Interface Old v0.5
 PhysicsBodyMarkup
 PhysicsBoneMarkup
@@ -1331,11 +1074,7 @@ PreviewPresetList
 PropertyEditorSystem_001
 Q5rHg,>
 QAf?
-QueryDepthSList
 QueryPerformanceCounter
-QueryPerformanceFrequency
-QueryUmsThreadInformation
-QueueUserWorkItem
 QueuedLoaderVersion001
 R11_EAC
 R16F
@@ -1349,6 +1088,7 @@ RG1616
 RG1616F
 RG1616F_EXPAND
 RG3232F
+RG88
 RGB323232F
 RGB565
 RGB888
@@ -1367,7 +1107,7 @@ RGBA8888
 RGBA8888_LINEAR
 RGBX555
 RGBX8888
-RSDSC
+RSDS
 RaiseException
 RandomInt
 Raw matrices from SteamVR (all units in meters):\n\n
@@ -1379,11 +1119,7 @@ Recommended render target size: %d x %d\n
 Refresh Rate: 
 RegisterConfigValue: Unknown error constructing config value "%s"!\n
 RegisterStringToken
-RegisterTraceGuidsW
-RegisterWaitForSingleObject
 Release
-ReleaseSRWLockExclusive
-ReleaseSemaphore
 RemoveAssertionCallback
 RemoveBoneAndChildren
 Render Model: 
@@ -1402,12 +1138,11 @@ ResourceCompilerSystem001
 ResourceHandleUtils001
 ResourceManifestRegistry001
 ResourceSystem013
-RoInitialize
-RoUninitialize
 Rounding display frequency from %f to %d\n
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlPcToFileHeader
+RtlUnwind
 RtlUnwindEx
 RtlVirtualUnwind
 S+Ot
@@ -1416,12 +1151,11 @@ S2_CVR_LoadingForeground
 S9>H
 S>$hkDh$h>[2
 SNAN)
+SSE and SSE2 are required.
 Samsung Windows Mixed Reality 800ZAA
 Saturday
 SceneSystem_002
 SceneUtils_001
-SchedulerKind
-SchedulingProtocol
 SchemaSystem_001
 SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
@@ -1438,30 +1172,22 @@ SetEvent
 SetExplicitTimingMode to VRCompositorTimingMode_Explicit_ApplicationPerformsPostPresentHandoff\n
 SetExplicitTimingMode to VRCompositorTimingMode_Explicit_RuntimePerformsPostPresentHandoff\n
 SetExplicitTimingMode to VRCompositorTimingMode_Implicit\n
-SetFileInformationByHandle
 SetFilePointerEx
 SetLastError
 SetOverlayAlpha failed: %s\n
 SetOverlayAlpha: invalid overlay %d\n
 SetOverlayTexture: invalid overlay %d\n
+SetOverlayTransform failed as it's not implemented anymore in SteamVR. Ignoring.\n
 SetOverlayTransform failed: %s\n
 SetOverlayTransform: invalid overlay %d\n
 SetOverlayWidth: invalid overlay %d\n
 SetOverlayWidthInMeters failed: %s\n
 SetStdHandle
-SetThreadAffinityMask
-SetThreadGroupAffinity
-SetThreadPriority
-SetThreadpoolTimer
-SetThreadpoolWait
-SetUmsThreadInformation
 SetUnhandledExceptionFilter
-SignalObjectAndWait
 Single pass stereo with multiview instancing.
+Single pass stereo with true multiview
 Single tick time
-Sleep
 SleepConditionVariableCS
-SleepConditionVariableSRW
 SmoothLoop
 SoundOpSystem001
 SoundOpSystemEdit001
@@ -1492,16 +1218,19 @@ Stencil mask reduces rendering area by:
 Stereo FOV (H/V): 
 Submit
 SubmitEye
-SubmitThreadpoolWork
 Submitting first frame to the compositor\n
 Subtract
 Subview Mode = 
 Subview stencil mesh reduces rendering area by 
 Sunday
-SwitchToThread
+Symmetric Info:\n\t[0] uvMin: %f, %f uvMax: %f, %f\n\t[1] uvMin: %f, %f uvMax: %f, %f\n\tAsym RT Size: (%u %u) Sym RT Size: (%u %u)\n
+Symmetric Projection:\n\tAsymmetric Res: %u %u\n\tSymmetric Res: %u %u\n
+Symmetric Projection:\n\tNum Tiles: %d\n
+Symmetric Projection:\n\tflAsymTanSize: %f\n\tflSymTanSize: %f\n
+Symmetric Projection:\n\tflLeftTan: %f\n\tflRightTan: %f\n
 TEST INCREASE vr_fidelity_level %d. Last frames = %.2fms, %.2fms, %.2fms\n
 TUUUU
-TargetOversubscriptionFactor
+Tag objects for better reprojection in vrcompositor.
 TerminateProcess
 TestFormatA
 TestFormatB
@@ -1512,7 +1241,7 @@ TestScriptMgr001
 TextLayout_001
 TextMessageMgr_001
 The normalized fidelity level reported back to SteamVR Perf Test
-This function cannot be called on a default constructed task
+ThreadAtomicNotifyAll
 ThreadGetCurrentProcessId
 ThreadSleep
 Throttling due to cpu usage: disabled\n
@@ -1527,10 +1256,7 @@ ToolFramework2_002
 ToolSceneNodeFactory_001
 ToolScriptManager001
 ToolService_001
-TraceEvent
 Triggering haptic pulse on controller %d, input %s\n
-TryAcquireSRWLockExclusive
-TryEnterCriticalSection
 Trying to find a flex controller (%s) that doesn't actually exist in the model.\n
 Tuesday
 Two Bone
@@ -1542,7 +1268,6 @@ UUUUUU
 UV88
 UVLX8888
 UVWQ8888
-UmsThreadYield
 Unable find required entry points in %s\n
 Unable to acquire overlay %s - error %s\n
 Unable to find overlay %s - error %s\n
@@ -1555,14 +1280,12 @@ Unknown HMD manufacturer name '%s' - falling back to %s.\n
 Unknown controller modelnumber '%s' - falling back to WindowsMR controller.\n
 Unknown controller type name '%s' - falling back to HMD manufacturer name.\n
 Unknown exception
-UnregisterTraceGuids
-UnregisterWait
-UnregisterWaitEx
-Unsupported ETC image format %d.\n
 Unsupported escape character '\%c'
-UpdateProcThreadAttribute
 Use: vr_dump_render_model <obj_filename> <tga_filename>\n
 UserInfoChangeService_001
+Using asymmetric projection...\n
+Using symmetric projection...\n
+Using zero copy presentation.\n
 VApplication001
 VAvi001
 VBAllocTracker001
@@ -1597,6 +1320,7 @@ VR - Warning! SteamVR failed initialization with error code %s: "%s"!\n
 VR - vr_test_nonblocking_hmd_input available\n
 VR GPU Compositor benchmark data not available.\n
 VR Multiview Instancing enabled.\n
+VR True Multiview enabled.\n
 VR failure loading render model %s: %d\n
 VR load render model texture failure: %d\n
 VR perf test data written to %s\n
@@ -1654,6 +1378,7 @@ V_FixupPathCharToUnderscore
 V_PrettifyNum
 V_RemoveDotSlashes
 V_UTF16ToUTF8
+V_UnqualifiedFileName
 V_atan2f
 V_atof
 V_atofloat32
@@ -1661,6 +1386,7 @@ V_atofloat64
 V_atoi
 V_atoi64
 V_atoui64
+V_fmodf
 V_fpclassify
 V_frexpf
 V_isnan
@@ -1680,10 +1406,8 @@ Vertical split full resolution.
 Viewport Left Eye:  
 Viewport Right Eye: 
 Virtual reality command line args:\n
-VirtualAlloc
-VirtualFree
-VirtualProtect
 VisBuilder_001
+Visible
 Vr/FilterFidelityLevelsByGPUMemoryRatio
 Vr/MultiviewInstancing
 Vr/PreAllocateScratchRenderTargets
@@ -1710,16 +1434,13 @@ W=vmdlkeys0
 WARNING: Trying to create a CRenderContextPtr without a valid context.\n
 WaNd?
 WaitForSingleObjectEx
-WaitForThreadpoolTimerCallbacks
 WakeAllConditionVariable
-WakeConditionVariable
 Warning
 Warning:  %s = '%s' is infinite, clamping value.\n
 Warp mesh covers 
 Wednesday
 WeightList
 WideCharToMultiByte
-WinRTInitialization
 Window Rect:        
 WindowsMR
 WindowsMR: %x/%x/%i/%i
@@ -1755,7 +1476,11 @@ Z\>z8
 [Auto-Fidelity System] WARNING! Cannot init auto fidelity system with null g_pRenderDevice!\n
 [Auto-Fidelity System] WARNING! Cannot init auto fidelity system! pVendorName =""\n
 [Auto-Fidelity System] WARNING! Couldn't read %s!\n
+[ForceNativeRes Hack] Client menu hands state: %s\n
+[ForceNativeRes Hack] bDisableTeleport: %s\n
+[ForceNativeRes Hack] bHideHands: %s\n
 [aOni*{
+\_OuQ
 \n//-----------------------------------------------------------------------------------------\n
 \nCwf\r
 \nStats:\n
@@ -1768,6 +1493,7 @@ Z\>z8
 \vA03>A|
 ^<V7w
 ^RfN>
+_RDATA
 _V_ComposeFileName
 _V_SetExtension
 _V_StringAfterPrefix
@@ -1783,6 +1509,8 @@ __pascal
 __ptr64
 __restrict
 __stdcall
+__swift_1
+__swift_2
 __thiscall
 __unaligned
 __vectorcall
@@ -1790,6 +1518,7 @@ _class
 _oD>Kg
 _test_conversion_counter
 `RTTI
+`anonymous namespace'
 `copy constructor closure'
 `default constructor closure'
 `dynamic atexit destructor for '
@@ -1824,8 +1553,9 @@ _test_conversion_counter
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
+a1_intro_world
+a5_ending
 a6>r
-aXL\r
 abcdefghijklmnopqrstuvwxyz
 address family not supported
 address in use
@@ -1852,7 +1582,7 @@ attachment_type
 auto_unragdoll_duration
 bUpdate
 bad address
-bad allocation
+bad array new length
 bad exception
 bad file descriptor
 bad function call
@@ -1873,7 +1603,6 @@ breakable_count
 breakable_model
 breakable_skin
 broken pipe
-broken promise
 bt3V
 burst_randomize
 burst_scale
@@ -1920,7 +1649,6 @@ connection already in progress
 connection refused
 connection reset
 control_point
-count
 create_particle
 cross device link
 cylon
@@ -1943,18 +1671,14 @@ dmg.fire
 dpad
 duration
 dynamic_interaction
-e+000
 eF>t
 eLK(w
-effortblocks = %d\n
 emitFromWorld
 enable_limit
 error
-eventObject
 event_class
 event_keys
 eventindex
-exLe\r
 executable format error
 explosion_behavior
 explosion_buildup
@@ -1966,7 +1690,6 @@ f %d/%d/%d %d/%d/%d %d/%d/%d\n
 fD>b
 fWi?
 faceMergeAngle
-false
 file exists
 file too large
 filename too long
@@ -1974,8 +1697,6 @@ force
 frame
 friction
 function not supported
-future
-future already retrieved
 g_Mathlib_GammaToLinearByteTable
 g_VProfCurrentProfile
 g_pMemAlloc
@@ -2008,10 +1729,10 @@ ikrig
 illegal byte sequence
 inappropriate io control operation
 inity
+instancing
 interrupted
 invalid argument
 invalid seek
-invalid string position
 invalid_parameter
 invert_orientation
 io error
@@ -2227,11 +1948,9 @@ modellib
 multiplayer_break
 n03>Pu
 nTries < 10000000
-n\f"pA3Q
+n\f"pA3QP
 n]?iJ
 name
-nan(ind)
-nan(snan)
 nav_attribute_avoid
 nav_data
 network down
@@ -2245,7 +1964,6 @@ no message
 no message available
 no protocol option
 no space on device
-no state
 no stream resources
 no such device
 no such device or address
@@ -2276,22 +1994,17 @@ operation not supported
 operation would block
 operator
 operator "" 
+operator co_await
+operator<=>
 origin_max_delta
 origin_relative
 osvr
 owM&
 owner dead
 p?ati_compress_wrapper.dll
-p@SSE and SSE2 are required.
-pContext
-pEvents
-pExecutionResource
-pScheduler
-pThreadProxy
 parent_bone
 particle
 particles/
-pass %u\n
 perftest
 perftest_multigpu
 permission denied
@@ -2306,16 +2019,12 @@ point1
 pose_control
 pose_control_type
 position
-ppVirtualProcessorRoots
 preferred_carryangles
-proc
-promise already satisfied
 prop_data
 protocol error
 protocol not supported
 purecall
 qS>g?h3
-rLp>B
 r\tVr.>T
 r_gpu_driver_high
 r_gpu_driver_low
@@ -2334,7 +2043,6 @@ restrict(
 result out of range
 root
 rootNode
-sHF'
 secondary
 sequence_name
 sequence_number
@@ -2362,7 +2070,6 @@ stream timeout
 string too long
 suppress
 surface_prop
-switchState
 system
 system.HeadsetView
 system.desktop.1
@@ -2385,8 +2092,6 @@ ujGs?
 unable to load mesh "%s"\n
 uniform_burst
 unknown
-unknown error
-unknown exception
 use_additional_offset
 uzKs@>
 v %.6g, %.6g, %.6g\n
@@ -2395,7 +2100,6 @@ value
 value too large
 valve.steam.desktop
 vanmgrph
-vector<T> too long
 vive_controller
 vive_cosmos_controller
 vmdl
@@ -2438,6 +2142,7 @@ vr_carry_type
 vr_chaperone_hardbounds_disabled
 vr_companion_window_always_on
 vr_companion_window_brightnessmultiplier
+vr_companion_window_force_off
 vr_companion_window_zoom
 vr_decouple_tick_rate_and_display_rate
 vr_dump_render_model only works in VR\n
@@ -2447,20 +2152,27 @@ vr_fidelity_level
 vr_fidelity_level = [
 vr_fidelity_level_auto
 vr_fidelity_level_cycle_test
+vr_fidelity_level_dryrun
 vr_fidelity_level_reported
 vr_fidelity_level_spew
 vr_fidelity_levels.csv
 vr_fidelity_levels_override.csv
 vr_fidelity_memory_threshold
+vr_fidelity_target_extra_ms
+vr_fidelity_target_half_rate
 vr_fidelity_threshold_frame_percent_critical
 vr_fidelity_threshold_frame_percent_extrapolation
 vr_fidelity_threshold_frame_percent_max
 vr_fidelity_threshold_frame_percent_min
 vr_fidelity_visualizer
+vr_force_native_resolution
+vr_force_native_resolution_for_invisible_hands
 vr_foveated_boundary
 vr_foveated_inner_scalar
 vr_foveated_outer_scalar
 vr_foveated_overlap
+vr_foveation_disable
+vr_foveation_disable_for_invisible_hands
 vr_fxaa
 vr_ghost_color
 vr_ghost_correction_editing_enable
@@ -2473,6 +2185,7 @@ vr_ghost_increment
 vr_ghost_next
 vr_ghost_previous
 vr_gpu_flush_timer
+vr_hidden_pixels_use_depth
 vr_info
 vr_loading_card_fg_offset_x
 vr_loading_card_fg_offset_y
@@ -2491,16 +2204,21 @@ vr_perf_hud_dist_from_eye
 vr_perf_hud_frame_time
 vr_perf_hud_size_x
 vr_perf_hud_size_y
+vr_perf_mode_max_fidelity_level
+vr_perf_mode_override2
 vr_perf_test_capture
 vr_perfhud
 vr_perfhud.vtex
 vr_predict
 vr_print_controllers
+vr_proj_spew
 vr_render_target_scale
 vr_render_target_scale = 
 vr_reprojection_cpu_auto
 vr_reprojection_cpu_auto_spew
 vr_save_render_model
+vr_send_deltaposes
+vr_send_deltaposes_height
 vr_shadows_debug
 vr_spew_fidelity_data
 vr_spew_position
@@ -2509,15 +2227,22 @@ vr_spew_time
 vr_spew_time_cpu
 vr_spew_time_cpu %d - ClientServer( 
 vr_stencil_hidden_pixels
+vr_stencil_tag_for_compositor
 vr_subview_mode
+vr_symmetric_fov
+vr_symmetric_fov_round_mode
+vr_target_fps
 vr_test_nonblocking_hmd_input
+vr_tile_size
+vr_true_multiview
 vr_warp
 vr_warp_debug
 vr_warp_debug_reverse_mesh
 vr_warp_mesh_quads
 vr_warp_mesh_shrink_fit
 vr_warp_using_mesh
-vr_zero_tracker
+vr_window_hide
+vr_zero_copy
 vrfly_author_refpt
 vrfly_controller_look_mult
 vrfly_controller_move_mult
@@ -2535,8 +2260,6 @@ width
 wrong protocol type
 x360
 xT?V
-xpxxxx
 yaw_end
 yaw_start
-z>version
 {YIN?

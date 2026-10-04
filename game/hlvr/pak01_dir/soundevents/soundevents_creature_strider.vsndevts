@@ -1,27 +1,28 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	CombatStrider.Base = 
 	{
 		type = "hlvr_default_3d"
 		use_named_send = "loud"
-		volume = 1.400000
-		use_hrtf = 1.000000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 4000.000000
-		reverb_curve_max_distance = 4000.000000
-		occlusion_scale = 0.150000
-		occlusion_max = 0.350000
+		volume = 1.4
+		use_hrtf = 1.0
+		volume_falloff_min = 400.0
+		volume_falloff_max = 4000.0
+		reverb_curve_max_distance = 4000.0
+		occlusion_scale = 0.15
+		occlusion_max = 0.35
 		mixgroup = "Strider"
 	}
 	CombatStrider.Base_Reverb = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 4000.000000
-		reverb_curve_max_distance = 4000.000000
-		occlusion_scale = 0.100000
-		occlusion_max = 0.300000
+		volume = 1.0
+		use_hrtf = 1.0
+		volume_falloff_min = 400.0
+		volume_falloff_max = 4000.0
+		reverb_curve_max_distance = 4000.0
+		occlusion_scale = 0.1
+		occlusion_max = 0.3
 		mixgroup = "Strider"
 	}
 	CombatStrider.Footstep = 
@@ -31,20 +32,20 @@
 		soundevent_02 = "CombatStrider.Step_Lfe"
 		soundevent_03 = "CombatStrider.Step_Layer_Dry"
 		soundevent_04 = "CombatStrider.Step_Layer_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
-		create_shared_vsnd_index = 1.000000
-		use_shared_vsnd_index_for_03 = 1.000000
-		use_shared_vsnd_index_for_04 = 1.000000
-		shared_vsnd_index_max = 9.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
+		create_shared_vsnd_index = 1.0
+		use_shared_vsnd_index_for_03 = 1.0
+		use_shared_vsnd_index_for_04 = 1.0
+		shared_vsnd_index_max = 9.0
 	}
 	CombatStrider.Step_Detail = 
 	{
 		base = "CombatStrider.Base"
-		volume = 1.200000
-		volume_falloff_max = 2500.000000
+		volume = 1.2
+		volume_falloff_max = 2500.0
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/steps/combat_step_01.vsnd",
@@ -57,9 +58,9 @@
 	CombatStrider.Step_Lfe = 
 	{
 		base = "CombatStrider.Base"
-		volume = 0.900000
-		occlusion_scale = 0.000000
-		occlusion_max = 0.000000
+		volume = 0.9
+		occlusion_scale = 0.0
+		occlusion_max = 0.0
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/steps/step_lfe_01.vsnd",
@@ -71,11 +72,11 @@
 	CombatStrider.Step_Layer_Dry = 
 	{
 		base = "CombatStrider.Base"
-		volume = 1.000000
-		occlusion_scale = 0.200000
-		occlusion_max = 0.400000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 2500.000000
+		volume = 1.0
+		occlusion_scale = 0.2
+		occlusion_max = 0.4
+		volume_falloff_min = 400.0
+		volume_falloff_max = 2500.0
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/steps/combat_step_layer_dry_01.vsnd",
@@ -114,23 +115,23 @@
 		soundevent_02 = "CombatStrider.Idle_Step_Lfe"
 		soundevent_03 = "CombatStrider.Idle_Step_Layer_Dry"
 		soundevent_04 = "CombatStrider.Idle_Step_Layer_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
-		create_shared_vsnd_index = 1.000000
-		use_shared_vsnd_index_for_03 = 1.000000
-		use_shared_vsnd_index_for_04 = 1.000000
-		shared_vsnd_index_max = 9.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
+		create_shared_vsnd_index = 1.0
+		use_shared_vsnd_index_for_03 = 1.0
+		use_shared_vsnd_index_for_04 = 1.0
+		shared_vsnd_index_max = 9.0
 	}
 	CombatStrider.Idle_Step_Detail = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
-		volume_falloff_max = 2500.000000
-		occlusion_scale = 0.500000
-		occlusion_max = 0.700000
+		volume = 0.8
+		use_hrtf = 1.0
+		volume_falloff_max = 2500.0
+		occlusion_scale = 0.5
+		occlusion_max = 0.7
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/steps/combat_step_01.vsnd",
@@ -143,10 +144,10 @@
 	CombatStrider.Idle_Step_Lfe = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
-		occlusion_max = 0.000000
+		volume = 0.8
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
+		occlusion_max = 0.0
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/steps/step_lfe_01.vsnd",
@@ -158,11 +159,11 @@
 	CombatStrider.Idle_Step_Layer_Dry = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
-		volume_falloff_max = 2500.000000
-		occlusion_scale = 0.500000
-		occlusion_max = 0.700000
+		volume = 0.8
+		use_hrtf = 1.0
+		volume_falloff_max = 2500.0
+		occlusion_scale = 0.5
+		occlusion_max = 0.7
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/steps/combat_step_layer_dry_01.vsnd",
@@ -180,11 +181,11 @@
 	CombatStrider.Idle_Step_Layer_Wet = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
-		volume_falloff_max = 2500.000000
-		occlusion_scale = 0.100000
-		occlusion_max = 0.300000
+		volume = 0.8
+		use_hrtf = 1.0
+		volume_falloff_max = 2500.0
+		occlusion_scale = 0.1
+		occlusion_max = 0.3
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/steps/combat_step_layer_wet_01.vsnd",
@@ -204,15 +205,15 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Target_Acquired_Dry"
 		soundevent_02 = "CombatStrider.Target_Acquired_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 		attachment = "MiniGun"
 	}
 	CombatStrider.Target_Acquired_Dry = 
 	{
 		base = "CombatStrider.Base"
-		occlusion_scale = 0.100000
-		occlusion_max = 0.300000
+		occlusion_scale = 0.1
+		occlusion_max = 0.3
 		attachment = "MiniGun"
 		vsnd_files = 
 		[
@@ -222,8 +223,8 @@
 	CombatStrider.Target_Acquired_Wet = 
 	{
 		base = "CombatStrider.Base_Reverb"
-		occlusion_scale = 0.100000
-		occlusion_max = 0.300000
+		occlusion_scale = 0.1
+		occlusion_max = 0.3
 		attachment = "MiniGun"
 		vsnd_files = 
 		[
@@ -235,12 +236,12 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Damaged_Flinch_Dry"
 		soundevent_02 = "CombatStrider.Damaged_Flinch_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		create_shared_vsnd_index = 1.000000
-		use_shared_vsnd_index_for_01 = 1.000000
-		use_shared_vsnd_index_for_02 = 1.000000
-		shared_vsnd_index_max = 2.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		create_shared_vsnd_index = 1.0
+		use_shared_vsnd_index_for_01 = 1.0
+		use_shared_vsnd_index_for_02 = 1.0
+		shared_vsnd_index_max = 2.0
 	}
 	CombatStrider.Damaged_Flinch_Dry = 
 	{
@@ -267,12 +268,12 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Damaged_Shake_Dry"
 		soundevent_02 = "CombatStrider.Damaged_Shake_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		create_shared_vsnd_index = 1.000000
-		use_shared_vsnd_index_for_01 = 1.000000
-		use_shared_vsnd_index_for_02 = 1.000000
-		shared_vsnd_index_max = 3.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		create_shared_vsnd_index = 1.0
+		use_shared_vsnd_index_for_01 = 1.0
+		use_shared_vsnd_index_for_02 = 1.0
+		shared_vsnd_index_max = 3.0
 	}
 	CombatStrider.Damaged_Shake_Dry = 
 	{
@@ -301,7 +302,7 @@
 		type = "hlvr_start_multi_switch"
 		soundevent_01 = "CombatStrider.Idle_Vox"
 		soundevent_02 = "CombatStrider.Idle_Hunting_B"
-		chance_to_play = 2.000000
+		chance_to_play = 2.0
 	}
 	CombatStrider.Idle_Hunting_B = 
 	{
@@ -314,21 +315,21 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Idle_Vox_Dry"
 		soundevent_02 = "CombatStrider.Idle_Vox_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		create_shared_vsnd_index = 1.000000
-		use_shared_vsnd_index_for_01 = 1.000000
-		use_shared_vsnd_index_for_02 = 1.000000
-		shared_vsnd_index_max = 7.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		create_shared_vsnd_index = 1.0
+		use_shared_vsnd_index_for_01 = 1.0
+		use_shared_vsnd_index_for_02 = 1.0
+		shared_vsnd_index_max = 7.0
 	}
 	CombatStrider.Idle_Vox_Dry = 
 	{
 		base = "CombatStrider.Base"
-		volume = 0.800000
-		block_duration = 5.000000
+		volume = 0.8
+		block_duration = 5.0
 		block_match_this_event = true
-		occlusion_scale = 0.300000
-		occlusion_max = 0.500000
+		occlusion_scale = 0.3
+		occlusion_max = 0.5
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/combat/idle/vox_dry_01.vsnd",
@@ -344,8 +345,8 @@
 	CombatStrider.Idle_Vox_Wet = 
 	{
 		base = "CombatStrider.Base_Reverb"
-		volume = 0.700000
-		block_duration = 5.000000
+		volume = 0.7
+		block_duration = 5.0
 		block_match_this_event = true
 		vsnd_files = 
 		[
@@ -364,17 +365,17 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Search_Ping_Dry"
 		soundevent_02 = "CombatStrider.Search_Ping_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Search_Ping_Dry = 
 	{
 		base = "CombatStrider.Base"
-		volume = 0.800000
-		block_duration = 5.000000
+		volume = 0.8
+		block_duration = 5.0
 		block_match_this_event = true
-		occlusion_scale = 0.300000
-		occlusion_max = 0.500000
+		occlusion_scale = 0.3
+		occlusion_max = 0.5
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/combat/ping_dry.vsnd",
@@ -383,8 +384,8 @@
 	CombatStrider.Search_Ping_Wet = 
 	{
 		base = "CombatStrider.Base_Reverb"
-		volume = 0.700000
-		block_duration = 5.000000
+		volume = 0.7
+		block_duration = 5.0
 		block_match_this_event = true
 		vsnd_files = 
 		[
@@ -396,17 +397,17 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Movement_Grunt_Dry"
 		soundevent_02 = "CombatStrider.Movement_Grunt_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		create_shared_vsnd_index = 1.000000
-		use_shared_vsnd_index_for_01 = 1.000000
-		use_shared_vsnd_index_for_02 = 1.000000
-		shared_vsnd_index_max = 8.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		create_shared_vsnd_index = 1.0
+		use_shared_vsnd_index_for_01 = 1.0
+		use_shared_vsnd_index_for_02 = 1.0
+		shared_vsnd_index_max = 8.0
 	}
 	CombatStrider.Movement_Grunt_Dry = 
 	{
 		base = "CombatStrider.Base"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/combat/movement_grunt/dry_01.vsnd",
@@ -423,7 +424,7 @@
 	CombatStrider.Movement_Grunt_Wet = 
 	{
 		base = "CombatStrider.Base_Reverb"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/combat/movement_grunt/wet_01.vsnd",
@@ -442,8 +443,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Intro_Recover_Dry"
 		soundevent_02 = "CombatStrider.Intro_Recover_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Intro_Recover_Dry = 
 	{
@@ -456,9 +457,9 @@
 	CombatStrider.Intro_Recover_Wet = 
 	{
 		base = "CombatStrider.Base_Reverb"
-		limiter_on = 1.000000
+		limiter_on = 1.0
 		limiter_event_name = "CombatStrider.Target_Acquired"
-		limiter_max = 0.000000
+		limiter_max = 0.0
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/combat/seq_intro/vox_recover_wet.vsnd",
@@ -469,13 +470,13 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Intro_Recover_FX_Powerup_Dry"
 		soundevent_02 = "CombatStrider.Intro_Recover_FX_Powerup_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Intro_Recover_FX_Powerup_Dry = 
 	{
 		base = "CombatStrider.Base"
-		volume = 1.200000
+		volume = 1.2
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/combat/seq_intro/fx_powerup_dry.vsnd",
@@ -484,7 +485,7 @@
 	CombatStrider.Intro_Recover_FX_Powerup_Wet = 
 	{
 		base = "CombatStrider.Base_Reverb"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/combat/seq_intro/fx_powerup_wet.vsnd",
@@ -495,8 +496,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Arena_Entry_Backup_Dry"
 		soundevent_02 = "CombatStrider.Arena_Entry_Backup_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Arena_Entry_Backup_Dry = 
 	{
@@ -519,8 +520,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Arena_Entry_Grunt_Dry"
 		soundevent_02 = "CombatStrider.Arena_Entry_Grunt_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Arena_Entry_Grunt_Dry = 
 	{
@@ -543,8 +544,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Arena_Entry_Warning_Dry"
 		soundevent_02 = "CombatStrider.Arena_Entry_Warning_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Arena_Entry_Warning_Dry = 
 	{
@@ -567,8 +568,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Cover_Smash_Attack_Grunt_Dry"
 		soundevent_02 = "CombatStrider.Cover_Smash_Attack_Grunt_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Cover_Smash_Attack_Grunt_Dry = 
 	{
@@ -591,8 +592,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Cover_Smash_Backup_Dry"
 		soundevent_02 = "CombatStrider.Cover_Smash_Backup_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Cover_Smash_Backup_Dry = 
 	{
@@ -615,8 +616,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Cover_Smash_Raise_Leg_Dry"
 		soundevent_02 = "CombatStrider.Cover_Smash_Raise_Leg_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Cover_Smash_Raise_Leg_Dry = 
 	{
@@ -639,8 +640,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Cover_Smash_Warning_Dry"
 		soundevent_02 = "CombatStrider.Cover_Smash_Warning_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Cover_Smash_Warning_Dry = 
 	{
@@ -663,8 +664,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Cover_Smash_FX_Backup_Dry"
 		soundevent_02 = "CombatStrider.Cover_Smash_FX_Backup_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Cover_Smash_FX_Backup_Dry = 
 	{
@@ -687,8 +688,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Cover_Smash_FX_Impact_Dry"
 		soundevent_02 = "CombatStrider.Cover_Smash_FX_Impact_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Cover_Smash_FX_Impact_Dry = 
 	{
@@ -711,8 +712,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Cover_Smash_FX_Raise_Leg_Dry"
 		soundevent_02 = "CombatStrider.Cover_Smash_FX_Raise_Leg_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Cover_Smash_FX_Raise_Leg_Dry = 
 	{
@@ -735,8 +736,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Elevator_Chase_Vox_A_Dry"
 		soundevent_02 = "CombatStrider.Elevator_Chase_Vox_A_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Elevator_Chase_Vox_A_Dry = 
 	{
@@ -759,8 +760,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Elevator_Chase_Vox_B_Dry"
 		soundevent_02 = "CombatStrider.Elevator_Chase_Vox_B_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Elevator_Chase_Vox_B_Dry = 
 	{
@@ -783,8 +784,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Elevator_Chase_Vox_C_Dry"
 		soundevent_02 = "CombatStrider.Elevator_Chase_Vox_C_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Elevator_Chase_Vox_C_Dry = 
 	{
@@ -807,8 +808,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Elevator_Chase_Vox_D_Dry"
 		soundevent_02 = "CombatStrider.Elevator_Chase_Vox_D_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Elevator_Chase_Vox_D_Dry = 
 	{
@@ -831,8 +832,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Elevator_Chase_Vox_E_Dry"
 		soundevent_02 = "CombatStrider.Elevator_Chase_Vox_E_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Elevator_Chase_Vox_E_Dry = 
 	{
@@ -855,8 +856,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Elevator_Chase_Vox_F_Dry"
 		soundevent_02 = "CombatStrider.Elevator_Chase_Vox_F_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Elevator_Chase_Vox_F_Dry = 
 	{
@@ -879,8 +880,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Headbutt_Vox_Backup_Dry"
 		soundevent_02 = "CombatStrider.Headbutt_Vox_Backup_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Headbutt_Vox_Backup_Dry = 
 	{
@@ -903,8 +904,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Headbutt_Vox_Pound_Dry"
 		soundevent_02 = "CombatStrider.Headbutt_Vox_Pound_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Headbutt_Vox_Pound_Dry = 
 	{
@@ -927,8 +928,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Headbutt_Vox_Push_Dry"
 		soundevent_02 = "CombatStrider.Headbutt_Vox_Push_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Headbutt_Vox_Push_Dry = 
 	{
@@ -951,8 +952,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Headbutt_Vox_Warning_Dry"
 		soundevent_02 = "CombatStrider.Headbutt_Vox_Warning_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Headbutt_Vox_Warning_Dry = 
 	{
@@ -975,8 +976,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Headbutt_FX_Backup_Dry"
 		soundevent_02 = "CombatStrider.Headbutt_FX_Backup_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Headbutt_FX_Backup_Dry = 
 	{
@@ -999,8 +1000,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Headbutt_FX_Impact_A_Dry"
 		soundevent_02 = "CombatStrider.Headbutt_FX_Impact_A_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Headbutt_FX_Impact_A_Dry = 
 	{
@@ -1023,8 +1024,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Headbutt_FX_Impact_B_Dry"
 		soundevent_02 = "CombatStrider.Headbutt_FX_Impact_B_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Headbutt_FX_Impact_B_Dry = 
 	{
@@ -1047,8 +1048,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Heli_Kill_Vox_Warning_Dry"
 		soundevent_02 = "CombatStrider.Heli_Kill_Vox_Warning_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Heli_Kill_Vox_Warning_Dry = 
 	{
@@ -1071,8 +1072,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Heli_Kill_Vox_Prepare_Dry"
 		soundevent_02 = "CombatStrider.Heli_Kill_Vox_Prepare_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Heli_Kill_Vox_Prepare_Dry = 
 	{
@@ -1095,8 +1096,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Heli_Pounce_Vox_Growl_Dry"
 		soundevent_02 = "CombatStrider.Heli_Pounce_Vox_Growl_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Heli_Pounce_Vox_Growl_Dry = 
 	{
@@ -1119,8 +1120,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Heli_Pounce_FX_Impact_Dry"
 		soundevent_02 = "CombatStrider.Heli_Pounce_FX_Impact_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Heli_Pounce_FX_Impact_Dry = 
 	{
@@ -1143,8 +1144,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Heli_Pounce_FX_Riser_Dry"
 		soundevent_02 = "CombatStrider.Heli_Pounce_FX_Riser_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Heli_Pounce_FX_Riser_Dry = 
 	{
@@ -1167,8 +1168,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Pit_Recover_Vox_Start_Dry"
 		soundevent_02 = "CombatStrider.Pit_Recover_Vox_Start_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Pit_Recover_Vox_Start_Dry = 
 	{
@@ -1191,8 +1192,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Pit_Recover_Vox_A_Dry"
 		soundevent_02 = "CombatStrider.Pit_Recover_Vox_A_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Pit_Recover_Vox_A_Dry = 
 	{
@@ -1215,8 +1216,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Pit_Recover_Vox_C_Dry"
 		soundevent_02 = "CombatStrider.Pit_Recover_Vox_C_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Pit_Recover_Vox_C_Dry = 
 	{
@@ -1239,8 +1240,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Pit_Recover_Vox_D_Dry"
 		soundevent_02 = "CombatStrider.Pit_Recover_Vox_D_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Pit_Recover_Vox_D_Dry = 
 	{
@@ -1264,14 +1265,14 @@
 		soundevent_01 = "CombatStrider.Death_Explo_Base"
 		soundevent_02 = "CombatStrider.Death_Explo_Flavor"
 		soundevent_03 = "CombatStrider.Death_Explo_Reverb"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	CombatStrider.Death_Explo_Base = 
 	{
 		base = "CombatStrider.Base"
-		volume_falloff_min = 600.000000
+		volume_falloff_min = 600.0
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/combat/seq_death/explo_base.vsnd",
@@ -1280,7 +1281,7 @@
 	CombatStrider.Death_Explo_Flavor = 
 	{
 		base = "CombatStrider.Base"
-		volume_falloff_min = 600.000000
+		volume_falloff_min = 600.0
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/combat/seq_death/explo_flavor.vsnd",
@@ -1289,7 +1290,7 @@
 	CombatStrider.Death_Explo_Reverb = 
 	{
 		base = "CombatStrider.Base_Reverb"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/combat/seq_death/explo_reverb.vsnd",
@@ -1300,8 +1301,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Death_Fall_Dry"
 		soundevent_02 = "CombatStrider.Death_Fall_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Death_Fall_Dry = 
 	{
@@ -1326,15 +1327,15 @@
 		soundevent_02 = "CombatStrider.Death_Land_Flavor"
 		soundevent_03 = "CombatStrider.Death_Land_Rumble"
 		soundevent_04 = "CombatStrider.Death_Land_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	CombatStrider.Death_Land_Core = 
 	{
 		base = "CombatStrider.Base"
-		volume_falloff_min = 600.000000
+		volume_falloff_min = 600.0
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/combat/seq_death/land_core.vsnd",
@@ -1343,7 +1344,7 @@
 	CombatStrider.Death_Land_Flavor = 
 	{
 		base = "CombatStrider.Base"
-		volume_falloff_min = 600.000000
+		volume_falloff_min = 600.0
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/combat/seq_death/land_flavor.vsnd",
@@ -1352,7 +1353,7 @@
 	CombatStrider.Death_Land_Rumble = 
 	{
 		base = "CombatStrider.Base"
-		volume_falloff_min = 600.000000
+		volume_falloff_min = 600.0
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/combat/seq_death/land_rumble.vsnd",
@@ -1369,7 +1370,7 @@
 	CombatStrider.Death_Land_Rocks = 
 	{
 		base = "CombatStrider.Base"
-		volume_falloff_min = 600.000000
+		volume_falloff_min = 600.0
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/combat/seq_death/land_rocks.vsnd",
@@ -1380,8 +1381,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Death_Plasma_Pulse_A_Dry"
 		soundevent_02 = "CombatStrider.Death_Plasma_Pulse_A_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Death_Plasma_Pulse_A_Dry = 
 	{
@@ -1394,7 +1395,7 @@
 	CombatStrider.Death_Plasma_Pulse_A_Wet = 
 	{
 		base = "CombatStrider.Base_Reverb"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/combat/seq_death/plasma_a_wet.vsnd",
@@ -1405,8 +1406,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Death_Plasma_Pulse_B_Dry"
 		soundevent_02 = "CombatStrider.Death_Plasma_Pulse_B_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Death_Plasma_Pulse_B_Dry = 
 	{
@@ -1419,7 +1420,7 @@
 	CombatStrider.Death_Plasma_Pulse_B_Wet = 
 	{
 		base = "CombatStrider.Base_Reverb"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/combat/seq_death/plasma_b_wet.vsnd",
@@ -1430,8 +1431,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Death_Zap_A_Dry"
 		soundevent_02 = "CombatStrider.Death_Zap_A_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Death_Zap_A_Dry = 
 	{
@@ -1444,7 +1445,7 @@
 	CombatStrider.Death_Zap_A_Wet = 
 	{
 		base = "CombatStrider.Base_Reverb"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/combat/seq_death/zap_wet_01.vsnd",
@@ -1455,8 +1456,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Death_Zap_B_Dry"
 		soundevent_02 = "CombatStrider.Death_Zap_B_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Death_Zap_B_Dry = 
 	{
@@ -1469,7 +1470,7 @@
 	CombatStrider.Death_Zap_B_Wet = 
 	{
 		base = "CombatStrider.Base_Reverb"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/combat/seq_death/zap_wet_02.vsnd",
@@ -1480,8 +1481,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Death_Zap_C_Dry"
 		soundevent_02 = "CombatStrider.Death_Zap_C_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Death_Zap_C_Dry = 
 	{
@@ -1494,7 +1495,7 @@
 	CombatStrider.Death_Zap_C_Wet = 
 	{
 		base = "CombatStrider.Base_Reverb"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/combat/seq_death/zap_wet_03.vsnd",
@@ -1505,8 +1506,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Death_Zap_D_Dry"
 		soundevent_02 = "CombatStrider.Death_Zap_D_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Death_Zap_D_Dry = 
 	{
@@ -1519,7 +1520,7 @@
 	CombatStrider.Death_Zap_D_Wet = 
 	{
 		base = "CombatStrider.Base_Reverb"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = 
 		[
 			"sounds/creatures/strider/combat/seq_death/zap_wet_04.vsnd",
@@ -1530,8 +1531,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Death_Vox_A_Dry"
 		soundevent_02 = "CombatStrider.Death_Vox_A_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Death_Vox_A_Dry = 
 	{
@@ -1554,8 +1555,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Death_Vox_B_Dry"
 		soundevent_02 = "CombatStrider.Death_Vox_B_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Death_Vox_B_Dry = 
 	{
@@ -1578,8 +1579,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Death_Vox_C_Dry"
 		soundevent_02 = "CombatStrider.Death_Vox_C_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Death_Vox_C_Dry = 
 	{
@@ -1600,9 +1601,9 @@
 	Strider.Bodyloop_a = 
 	{
 		base = "CombatStrider.Base"
-		volume = 0.500000
-		occlusion_scale = 0.900000
-		volume_falloff_max = 1500.000000
+		volume = 0.5
+		occlusion_scale = 0.9
+		volume_falloff_max = 1500.0
 		mixgroup = "Strider"
 		vsnd_files = 
 		[
@@ -1612,9 +1613,9 @@
 	Strider.Bodyloop_b = 
 	{
 		base = "CombatStrider.Base"
-		volume = 0.500000
-		occlusion_scale = 0.900000
-		volume_falloff_max = 1500.000000
+		volume = 0.5
+		occlusion_scale = 0.9
+		volume_falloff_max = 1500.0
 		mixgroup = "Strider"
 		vsnd_files = 
 		[
@@ -1624,8 +1625,8 @@
 	Strider.Movement = 
 	{
 		base = "CombatStrider.Base"
-		volume = 0.700000
-		occlusion_scale = 0.700000
+		volume = 0.7
+		occlusion_scale = 0.7
 		mixgroup = "Strider"
 		vsnd_files = 
 		[
@@ -1650,8 +1651,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Warp_Cannon_Warning_Short_Dry"
 		soundevent_02 = "CombatStrider.Warp_Cannon_Warning_Short_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Warp_Cannon_Warning_Short_Dry = 
 	{
@@ -1674,8 +1675,8 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "CombatStrider.Warp_Cannon_Warning_Long_Dry"
 		soundevent_02 = "CombatStrider.Warp_Cannon_Warning_Long_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	CombatStrider.Warp_Cannon_Warning_Long_Dry = 
 	{
@@ -1700,10 +1701,10 @@
 		soundevent_02 = "CombatStrider.Warp_Cannon_Shoot_Core"
 		soundevent_03 = "CombatStrider.Warp_Cannon_Shoot_Mech"
 		soundevent_04 = "CombatStrider.Warp_Cannon_Shoot_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	CombatStrider.Warp_Cannon_Shoot_Blast = 
 	{
@@ -1744,10 +1745,10 @@
 		soundevent_02 = "CombatStrider.Warp_Cannon_Failed_Shot_Core"
 		soundevent_03 = "CombatStrider.Warp_Cannon_Failed_Shot_Mech"
 		soundevent_04 = "CombatStrider.Warp_Cannon_Failed_Shot_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	CombatStrider.Warp_Cannon_Failed_Shot_Blast = 
 	{
@@ -1786,16 +1787,16 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "Strider.Cannon_Windup_Core"
 		soundevent_02 = "Strider.Cannon_Windup_Layer"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 		attachment = "MiniGun"
 	}
 	Strider.Cannon_Windup_Core = 
 	{
 		base = "CombatStrider.Base"
-		volume = 1.100000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 1.1
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "Strider_Minigun"
 		attachment = "MiniGun"
 		vsnd_files = 
@@ -1808,12 +1809,12 @@
 	Strider.Cannon_Windup_Layer = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_falloff_min = 400.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.500000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.5
+		volume_falloff_min = 400.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.5
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "Strider_Minigun"
 		attachment = "MiniGun"
 		vsnd_files = 
@@ -1826,30 +1827,30 @@
 	NPC_Strider.FireMinigun = 
 	{
 		type = "hlvr_gun_layers_3d"
-		volume = 1.000000
-		limiter_on = 1.000000
+		volume = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "NPC_Strider.FireMinigun"
-		limiter_max = 8.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 8.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		pitch = 1.200000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.000000
-		direct_mix_level = 1.000000
-		volume_falloff_mid_min = 1500.000000
-		volume_falloff_mid_max = 2400.000000
-		volume_mid = 1.000000
-		volume_falloff_mech_min = 1500.000000
-		volume_falloff_mech_max = 2400.000000
-		volume_mech = 1.000000
-		volume_falloff_lfe_min = 1500.000000
-		volume_falloff_lfe_max = 4000.000000
-		volume_lfe = 1.000000
-		volume_falloff_distant_min = 1800.000000
-		volume_falloff_distant_max = 5000.000000
-		volume_distant = 1.000000
-		distant_xfade_start = 200.000000
-		distant_xfade_end = 1800.000000
+		pitch = 1.2
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.0
+		direct_mix_level = 1.0
+		volume_falloff_mid_min = 1500.0
+		volume_falloff_mid_max = 2400.0
+		volume_mid = 1.0
+		volume_falloff_mech_min = 1500.0
+		volume_falloff_mech_max = 2400.0
+		volume_mech = 1.0
+		volume_falloff_lfe_min = 1500.0
+		volume_falloff_lfe_max = 4000.0
+		volume_lfe = 1.0
+		volume_falloff_distant_min = 1800.0
+		volume_falloff_distant_max = 5000.0
+		volume_distant = 1.0
+		distant_xfade_start = 200.0
+		distant_xfade_end = 1800.0
 		mixgroup = "Strider_Minigun"
 		attachment = "MiniGun"
 		vsnd_files_mid = 

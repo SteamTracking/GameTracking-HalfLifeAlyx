@@ -41,6 +41,9 @@
 .?AVISteamAudio@@
 .?AVISteamAudioProbes@@
 .?AVISteamAudioScene@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVexception@std@@
 .?AVtype_info@@
 .CRT$XCA
 .CRT$XCC
@@ -57,6 +60,7 @@
 .bss
 .data
 .data$r
+.data$rs
 .edata
 .idata$2
 .idata$3
@@ -67,6 +71,7 @@
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .sapaths
 .sareverb
@@ -79,6 +84,7 @@
 .tls$ZZZ
 .vmap
 .xdata
+.xdata$x
 /content/
 /game/
 00000000-0000-0000-0000-000000000000
@@ -88,7 +94,6 @@
 2RD\n2
 30.0
 65536
-6>Py
 8P0`
 <!-- schema 
 <deferred>
@@ -96,18 +101,18 @@
 <null>
 <unconnected>
 ??0CThreadEvent@@QEAA@PEBD_N1@Z
-??0CThreadMutex@@QEAA@PEBD@Z
+??0CThreadMutex@@QEAA@XZ
 ??1CThreadEvent@@QEAA@XZ
-??1CThreadMutex@@QEAA@XZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
 ?Check@CThreadEvent@@QEAA_NXZ
 ?Concat@CBufferString@@QEAAPEBDPEBD0ZZ
 ?FixSlashes@CBufferString@@QEAAPEBDD@Z
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?Purge@CBufferString@@QEAAXH@Z
+?Relinquish@CBufferString@@QEAAPEADW4EAllocationOption_t@1@@Z
 ?RemoveAt@CBufferString@@QEAAPEBDHH@Z
 ?Replace@CBufferString@@QEAAHPEBD0_N@Z
 ?Reset@CThreadEvent@@QEAA_NXZ
@@ -116,6 +121,7 @@
 ?StartsWith@CBufferString@@QEAA_NPEBD@Z
 ?Truncated data
 ?TryLock@CThreadMutex@@QEAA_NPEBDH@Z
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
 ?Wait@CThreadSyncObject@@QEAA_NI@Z
@@ -248,6 +254,8 @@ CTSListBase: Misaligned list\n
 CTSListBase::CTSListBase
 CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
 CUtlMemoryPoolBase::CUtlMemoryPoolBase
+CUtlRBTree overflow with %u elements!\n
+CUtlRBTree<void *,int,bool (__cdecl*)(void * const &,void * const &),class CUtlMemory<struct UtlRBTreeNode_t<void *,int>,int> >::NewNode
 CUtlString::FormatV
 C_INIT_AddVectorToVector
 C_INIT_AgeNoise
@@ -546,10 +554,10 @@ Probes: Filesystem not initialized.\n
 Probes: Mising baked reverb data - %s.\n
 Probes: Reverb needs to be baked before Path baking.\n
 PropertyEditorSystem_001
-Q8?B`e>
+Q8??5
 QueryPerformanceCounter
 QueuedLoaderVersion001
-RSDS
+RSDSE4
 RaiseException
 RegisterStringToken
 Release
@@ -664,6 +672,7 @@ Unable to create scene: %d.\n
 Unable to create static mesh: %d.\n
 Unable to determine buffer encoding.
 Unexpected end of file
+Unknown exception
 Unrecognized flag name '%s'
 Unrecognized type '%d'
 Unresolved object reference '%s'
@@ -767,7 +776,7 @@ attachment_offset
 attachment_type
 auto_unragdoll_duration
 bUpdate
-bad_alloc
+bad array new length
 binary
 binary_auto
 binary_bc
@@ -792,6 +801,7 @@ c:\buildslave\hlvr_rel_win64\build\src\kv3lib\kv3format_manager.cpp
 c:\buildslave\hlvr_rel_win64\build\src\mathlib\mathlib.cpp
 c:\buildslave\hlvr_rel_win64\build\src\public\ordered_constructor.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier0\tslist.h
+c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlrbtree.h
 c:\buildslave\hlvr_rel_win64\build\src\soundsystem\steamaudio\Retail\win64\steamaudio.pdb
 c:\buildslave\hlvr_rel_win64\build\src\soundsystem\steamaudio\steamaudio.cpp
 c:\buildslave\hlvr_rel_win64\build\src\soundsystem\steamaudio\steamaudioscene.cpp
@@ -941,7 +951,7 @@ last_sniff
 lcQe
 length
 length_error
-lg?H
+lg?o
 lockRotationAlpha
 loop
 loop_break_on_damage
@@ -1214,7 +1224,7 @@ uniform_burst
 use_additional_offset
 value
 vanmgrph
-vector<T> too long
+vector too long
 version
 vmdl
 vmdlkeys1

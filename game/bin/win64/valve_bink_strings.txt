@@ -31,7 +31,7 @@
 .bik
 .bss
 .data
-.data$r
+.data$rs
 .edata
 .idata$2
 .idata$3
@@ -42,6 +42,7 @@
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .text$di
 .text$mn
@@ -52,19 +53,16 @@
 .tls$ZZZ
 .vtex
 .xdata
+2\vp0n
 <deferred>
 <no failure reason set>
 <null>
 <unconnected>
 ?DefaultExtension@CBufferString@@QEAAPEBDPEBD@Z
-?FixSlashes@CBufferString@@QEAAPEBDD@Z
-?FixupPathName@CBufferString@@QEAAPEBDD@Z
-?FixupResourceName: Illegal full path passed in ("%s")!\n
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?Purge@CBufferString@@QEAAXH@Z
 ?RemoveAt@CBufferString@@QEAAPEBDHH@Z
-?SetExtension@CBufferString@@QEAAPEBDPEBD@Z
 ?SetLength@CBufferString@@QEAAPEADH_NPEAH@Z
 ?ToLowerFast@CBufferString@@QEAAXH@Z
 ABGR8888
@@ -83,9 +81,11 @@ AssetPreviewSystem_001
 AssetSystem001
 AssetSystemTest001
 BC6H
+BGR101111_UFLOAT
 BGR565
 BGR888
 BGR888_BLUESCREEN
+BGR999_E5
 BGRA1010102
 BGRA4444
 BGRA5551
@@ -147,12 +147,12 @@ DXT5_NM
 DebugTextureInfo001
 DisableThreadLibraryCalls
 DotaCardGameClient_001
-ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!\n
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EconItemToolModel_001
 EngineServiceMgr001
 EventSystem001
 FATAL ERROR: unable to register all schema data: %s\n
+FixupResourceName: Illegal full path passed in ("%s")!\n
 FixupResourceName: Illegal path, missing extension passed in ("%s")!\n
 FlattenedSerializersVersion001
 FontManager_001
@@ -250,6 +250,7 @@ RG1616
 RG1616F
 RG1616F_EXPAND
 RG3232F
+RG88
 RGB323232F
 RGB565
 RGB888
@@ -269,6 +270,7 @@ RGBA8888_LINEAR
 RGBX555
 RGBX8888
 RSDS
+R\vp0n
 Release
 ReleaseSRWLockExclusive
 RenderDevice003
@@ -361,7 +363,6 @@ V_atoi
 V_qsort_s
 V_snprintf
 V_sscanf
-V_stricmp_fast
 VisBuilder_001
 WARNING: Trying to create a CRenderContextPtr without a valid context.\n
 WakeAllConditionVariable
@@ -390,7 +391,6 @@ error
 g_pMemAlloc
 materials/error.vmat
 materialsystem2
-nR3H
 purecall
 tier0.dll
 valve_bink

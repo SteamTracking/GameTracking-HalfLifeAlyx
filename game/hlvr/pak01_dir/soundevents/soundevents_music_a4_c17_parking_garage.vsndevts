@@ -1,15 +1,16 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Music.a4_garage.approach_warp_3d = 
 	{
 		type = "hlvr_music_3d"
-		volume = 1.000000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 6500.000000
-		volume_fade_out = 0.000000
-		volume_fade_in = 0.000000
-		distance_max_velocity = 10.000000
-		spread_min = 30.000000
-		spread_max = 40.000000
+		volume = 1.0
+		volume_falloff_min = 400.0
+		volume_falloff_max = 6500.0
+		volume_fade_out = 0.0
+		volume_fade_in = 0.0
+		distance_max_velocity = 10.0
+		spread_min = 30.0
+		spread_max = 40.0
 		track = "warp"
 		sync_track = "main"
 		vsnd_files = 
@@ -25,7 +26,7 @@
 	Music.a4_garage.approach_warp_2d = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
+		volume = 0.7
 		track = "warp"
 		sync_track = "main"
 		vsnd_files = 
@@ -41,7 +42,7 @@
 	Music.a4_garage.gravity_event = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.900000
+		volume = 0.9
 		track = "warp"
 		sync_track = "main"
 		vsnd_files = 
@@ -54,130 +55,70 @@
 		type = "hlvr_set_pulse_particle_opvars"
 		pulse_particle_2_curve = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				8.750000,
-				8.750000,
-				1.000000,
-				1.000000,
+				0.0, 0.0, 8.75, 8.75,
+				1.0, 1.0,
 			],
-			
 			[
-				0.114286,
-				1.000000,
-				0.426829,
-				0.426829,
-				1.000000,
-				1.000000,
+				0.114286, 1.0, 0.426829, 0.426829,
+				1.0, 1.0,
 			],
-			
 			[
-				2.342857,
-				1.000000,
-				-0.170732,
-				-0.170732,
-				1.000000,
-				1.000000,
+				2.342857, 1.0, -0.170732, -0.170732,
+				1.0, 1.0,
 			],
-			
 			[
-				5.971428,
-				0.000000,
-				-0.275591,
-				-0.275591,
-				3.000000,
-				1.000000,
+				5.971428, 0.0, -0.275591, -0.275591,
+				3.0, 1.0,
 			],
 		]
 		pulse_particle_1_curve = 
 		[
-			
 			[
-				0.000100,
-				0.000000,
-				10.304726,
-				10.304726,
-				1.000000,
-				1.000000,
+				0.0001, 0.0, 10.304726, 10.304726,
+				1.0, 1.0,
 			],
-			
 			[
-				0.097143,
-				1.000000,
-				0.431819,
-				0.431819,
-				1.000000,
-				1.000000,
+				0.097143, 1.0, 0.431819, 0.431819,
+				1.0, 1.0,
 			],
-			
 			[
-				2.315886,
-				1.000000,
-				-0.168978,
-				-0.168978,
-				1.000000,
-				1.000000,
+				2.315886, 1.0, -0.168978, -0.168978,
+				1.0, 1.0,
 			],
-			
 			[
-				6.015086,
-				0.000000,
-				-0.270329,
-				-0.270329,
-				3.000000,
-				1.000000,
+				6.015086, 0.0, -0.270329, -0.270329,
+				3.0, 1.0,
 			],
 		]
 		pulse_particle_3_curve = 
 		[
-			
 			[
-				0.000100,
-				0.000000,
-				14.604631,
-				14.604631,
-				1.000000,
-				1.000000,
+				0.0001, 0.0, 14.604631, 14.604631,
+				1.0, 1.0,
 			],
-			
 			[
-				0.068571,
-				1.000000,
-				14.604631,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.068571, 1.0, 14.604631, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				2.331429,
-				1.000000,
-				-0.171569,
-				-0.171569,
-				1.000000,
-				1.000000,
+				2.331429, 1.0, -0.171569, -0.171569,
+				1.0, 1.0,
 			],
-			
 			[
-				5.897143,
-				0.000000,
-				-0.280449,
-				0.000000,
-				0.000000,
-				0.000000,
+				5.897143, 0.0, -0.280449, 0.0,
+				0.0, 0.0,
 			],
 		]
 	}
 	a5_strider_bld_2.gravity_beam_b1 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
+		volume = 0.9
 		volume_fade_out = 4
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 1700.000000
-		occlusion_scale = 0.200000
+		volume_falloff_min = 400.0
+		volume_falloff_max = 1700.0
+		occlusion_scale = 0.2
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vault_gravity_beam_no_warp.vsnd",
@@ -186,9 +127,9 @@
 	a5_strider_bld_2.gravity_beam_close = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 1500.000000
+		volume = 0.7
+		volume_falloff_min = 400.0
+		volume_falloff_max = 1500.0
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vault_gravity_beam.vsnd",
@@ -197,7 +138,7 @@
 	a5_strider_bld_2.gravity_beam_enter = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
+		volume = 0.7
 		track = "warp"
 		sync_track = "main"
 		vsnd_files = 
@@ -209,72 +150,35 @@
 	{
 		type = "hlvr_music_2d"
 		track = "main"
-		restart_time = 127.179000
+		restart_time = 127.179
 		stop_at_time = 240
-		volume = 0.550000
-		volume_fade_out = 8.000000
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			127.179000,
-		]
-		sync_bpm = 
-		[
-			154.000000,
-		]
-		sync_bpm_beats = 
-		[
-			4.000000,
-		]
+		volume = 0.55
+		volume_fade_out = 8.0
+		start_point = [ 0.0 ]
+		end_point = [ 127.179 ]
+		sync_bpm = [ 154.0 ]
+		sync_bpm_beats = [ 4.0 ]
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				90.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				90.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				150.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				150.0, 0.5, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				200.000000,
-				0.250000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				200.0, 0.25, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				240.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				240.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		vsnd_files = 
@@ -286,12 +190,12 @@
 	{
 		type = "hlvr_start_arrangement"
 		arrangement = "a4_c17_grg_ss00_arr"
-		bpm = 154.000000
+		bpm = 154.0
 	}
 	Music.a4_garage.garage_start_music = 
 	{
 		type = "hlvr_music_2d"
-		volume = 1.400000
+		volume = 1.4
 		vsnd_files = 
 		[
 			"sounds/music/places/garage/garage_start.vsnd",
@@ -301,10 +205,10 @@
 	{
 		type = "hlvr_music_2d"
 		track = "main"
-		use_combat_music_convar = 1.000000
+		use_combat_music_convar = 1.0
 		priority = 0
-		restart_time = 37.402000
-		volume = 0.800000
+		restart_time = 37.402
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/music/places/garage/garage_elevator.vsnd",
@@ -314,27 +218,15 @@
 	{
 		type = "hlvr_music_2d"
 		track = "main"
-		use_combat_music_convar = 1.000000
+		use_combat_music_convar = 1.0
 		priority = 2
-		volume = 0.750000
+		volume = 0.75
 		volume_fade_out = 7
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			37.402000,
-		]
-		restart_time = 37.402000
-		sync_bpm = 
-		[
-			154.000000,
-		]
-		sync_bpm_beats = 
-		[
-			4.000000,
-		]
+		start_point = [ 0.0 ]
+		end_point = [ 37.402 ]
+		restart_time = 37.402
+		sync_bpm = [ 154.0 ]
+		sync_bpm_beats = [ 4.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/garage/garage_start_elevator.vsnd",
@@ -343,64 +235,32 @@
 	Music.a4_garage.garage_gate = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.900000
-		use_combat_music_convar = 1.000000
+		volume = 0.9
+		use_combat_music_convar = 1.0
 		track = "main"
 		priority = 3
-		volume_fade_out = 8.000000
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			49.870000,
-		]
-		sync_bpm = 
-		[
-			154.000000,
-		]
-		sync_bpm_beats = 
-		[
-			4.000000,
-		]
+		volume_fade_out = 8.0
+		start_point = [ 0.0 ]
+		end_point = [ 49.87 ]
+		sync_bpm = [ 154.0 ]
+		sync_bpm_beats = [ 4.0 ]
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				15.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				15.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				30.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				30.0, 0.7, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				60.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				60.0, 0.5, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				90.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				90.0, 0.7, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 30
@@ -426,10 +286,10 @@
 	{
 		type = "hlvr_music_2d"
 		track = "main"
-		use_combat_music_convar = 1.000000
+		use_combat_music_convar = 1.0
 		priority = 4
 		restart_time = 18.700001
-		volume = 0.750000
+		volume = 0.75
 		vsnd_files = 
 		[
 			"sounds/music/places/garage/garage_calm.vsnd",
@@ -438,64 +298,32 @@
 	Music.a4_garage.garage_smash = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.800000
-		use_combat_music_convar = 1.000000
+		volume = 0.8
+		use_combat_music_convar = 1.0
 		track = "main"
 		priority = 5
 		sync_track = "main"
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			12.467000,
-		]
-		sync_bpm = 
-		[
-			154.000000,
-		]
-		sync_bpm_beats = 
-		[
-			4.000000,
-		]
+		start_point = [ 0.0 ]
+		end_point = [ 12.467 ]
+		sync_bpm = [ 154.0 ]
+		sync_bpm_beats = [ 4.0 ]
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				15.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				15.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				30.000000,
-				0.750000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				30.0, 0.75, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				60.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				60.0, 0.5, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				90.000000,
-				0.750000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				90.0, 0.75, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 30
@@ -508,74 +336,37 @@
 	Music.a4_garage.garage_combine1 = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
-		use_combat_music_convar = 1.000000
+		volume = 0.7
+		use_combat_music_convar = 1.0
 		track = "main"
 		priority = 6
 		sync_track = "main"
-		volume_fade_out = 8.000000
-		start_point = 
-		[
-			1.558000,
-		]
-		end_point = 
-		[
-			51.428000,
-		]
-		sync_bpm = 
-		[
-			154.000000,
-		]
-		sync_bpm_beats = 
-		[
-			4.000000,
-		]
+		volume_fade_out = 8.0
+		start_point = [ 1.558 ]
+		end_point = [ 51.428 ]
+		sync_bpm = [ 154.0 ]
+		sync_bpm_beats = [ 4.0 ]
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				15.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				15.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				30.000000,
-				0.800000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				30.0, 0.8, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				60.000000,
-				0.450000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				60.0, 0.45, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				90.000000,
-				0.750000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				90.0, 0.75, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				120.000000,
-				0.450000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				120.0, 0.45, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 60
@@ -588,27 +379,15 @@
 	Music.a4_garage.garage_end = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.400000
-		use_combat_music_convar = 1.000000
+		volume = 0.4
+		use_combat_music_convar = 1.0
 		track = "main"
 		sync_track = "main"
 		priority = 7
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			35.229000,
-		]
-		sync_bpm = 
-		[
-			109,
-		]
-		sync_bpm_beats = 
-		[
-			4.000000,
-		]
+		start_point = [ 0.0 ]
+		end_point = [ 35.229 ]
+		sync_bpm = [ 109 ]
+		sync_bpm_beats = [ 4.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/garage/garage_end.vsnd",
@@ -617,27 +396,15 @@
 	Music.a4_garage.parking_battle = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.500000
-		use_combat_music_convar = 1.000000
+		volume = 0.5
+		use_combat_music_convar = 1.0
 		track = "main"
 		priority = 8
 		sync_track = "main"
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			12.467000,
-		]
-		sync_bpm = 
-		[
-			109,
-		]
-		sync_bpm_beats = 
-		[
-			4.000000,
-		]
+		start_point = [ 0.0 ]
+		end_point = [ 12.467 ]
+		sync_bpm = [ 109 ]
+		sync_bpm_beats = [ 4.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/garage/parking_battle.vsnd",
@@ -646,28 +413,16 @@
 	Music.a4_garage.parking_battle2 = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.600000
-		use_combat_music_convar = 1.000000
-		volume_fade_out = 0.000000
+		volume = 0.6
+		use_combat_music_convar = 1.0
+		volume_fade_out = 0.0
 		track = "main"
 		priority = 9
 		sync_track = "main"
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			145.321000,
-		]
-		sync_bpm = 
-		[
-			109,
-		]
-		sync_bpm_beats = 
-		[
-			4.000000,
-		]
+		start_point = [ 0.0 ]
+		end_point = [ 145.321 ]
+		sync_bpm = [ 109 ]
+		sync_bpm_beats = [ 4.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/garage/parking_battle2.vsnd",
@@ -676,28 +431,16 @@
 	Music.a4_garage.parking_battle3 = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
-		use_combat_music_convar = 1.000000
+		volume = 0.7
+		use_combat_music_convar = 1.0
 		volume_fade_out = 7
 		track = "main"
 		priority = 10
 		sync_track = "main"
-		start_point = 
-		[
-			0.000000,
-		]
-		end_point = 
-		[
-			12.467000,
-		]
-		sync_bpm = 
-		[
-			70.458000,
-		]
-		sync_bpm_beats = 
-		[
-			4.000000,
-		]
+		start_point = [ 0.0 ]
+		end_point = [ 12.467 ]
+		sync_bpm = [ 70.458 ]
+		sync_bpm_beats = [ 4.0 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/garage/parking_battle3.vsnd",
@@ -714,66 +457,34 @@
 	Music.a4_vault.arena_0_music = 
 	{
 		type = "hlvr_music_2d"
-		volume = 1.000000
-		use_combat_music_convar = 1.000000
+		volume = 1.0
+		use_combat_music_convar = 1.0
 		track = "main"
 		priority = 11
 		volume_fade_out = 7
-		start_point = 
-		[
-			5.295000,
-		]
-		end_point = 
-		[
-			87.346000,
-		]
-		sync_bpm = 
-		[
-			117.000000,
-		]
-		sync_bpm_beats = 
-		[
-			4.000000,
-		]
-		restart_time = 87.346000
-		restart_start = 5.295000
+		start_point = [ 5.295 ]
+		end_point = [ 87.346 ]
+		sync_bpm = [ 117.0 ]
+		sync_bpm_beats = [ 4.0 ]
+		restart_time = 87.346
+		restart_start = 5.295
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				60.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				60.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				90.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				90.0, 0.7, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				120.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				120.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 60
@@ -787,7 +498,7 @@
 	{
 		type = "hlvr_music_2d"
 		track = "main"
-		priority = 11.500000
+		priority = 11.5
 		vsnd_files = 
 		[
 			"sounds/common/null.vsnd",
@@ -796,66 +507,34 @@
 	Music.a4_vault.arena_1_music = 
 	{
 		type = "hlvr_music_2d"
-		volume = 1.000000
-		use_combat_music_convar = 1.000000
+		volume = 1.0
+		use_combat_music_convar = 1.0
 		track = "main"
 		priority = 12
-		volume_fade_out = 0.100000
-		start_point = 
-		[
-			4.102000,
-		]
-		end_point = 
-		[
-			36.923000,
-		]
-		sync_bpm = 
-		[
-			117.000000,
-		]
-		sync_bpm_beats = 
-		[
-			4.000000,
-		]
-		restart_start = 4.102000
-		restart_time = 36.923000
+		volume_fade_out = 0.1
+		start_point = [ 4.102 ]
+		end_point = [ 36.923 ]
+		sync_bpm = [ 117.0 ]
+		sync_bpm_beats = [ 4.0 ]
+		restart_start = 4.102
+		restart_time = 36.923
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				60.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				60.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				90.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				90.0, 0.7, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				120.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				120.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 60
@@ -868,55 +547,35 @@
 	Music.a4_vault.arena_4_music = 
 	{
 		type = "hlvr_music_2d"
-		volume = 1.000000
-		use_combat_music_convar = 1.000000
+		volume = 1.0
+		use_combat_music_convar = 1.0
 		track = "main"
 		priority = 13
 		sync_track = "main"
 		volume_fade_out = 7
-		start_point = 4.102000
-		end_point = 69.743000
-		sync_bpm = 117.000000
-		sync_bpm_beats = 4.000000
-		restart_start = 4.102000
-		restart_time = 69.743000
+		start_point = 4.102
+		end_point = 69.743
+		sync_bpm = 117.0
+		sync_bpm_beats = 4.0
+		restart_start = 4.102
+		restart_time = 69.743
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				60.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				60.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				90.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				90.0, 0.7, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				120.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				120.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 60

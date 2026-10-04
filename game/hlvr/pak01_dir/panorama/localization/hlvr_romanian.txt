@@ -1,0 +1,685 @@
+"lang" 
+{ 
+"Language" "romanian" 
+"Tokens" 
+{ 
+
+// main menu
+"HLVR_MainMenu_NewGame"						"Start New Game"
+"HLVR_MainMenu_Continue"					"Continuă"
+"HLVR_MainMenu_LoadGame"					"Încarcă un joc salvat"
+"HLVR_MainMenu_Quit"							"Părăsește jocul"
+"HLVR_MainMenu_Options"						"Opțiuni"
+"HLVR_MainMenu_PhotoMode"					"Mod foto"
+"HLVR_MainMenu_SelectChapter"			"Selectează capitolul"
+"HLVR_MainMenu_Back"							"Înapoi"
+
+"HLVR_MainMenu_MainMenu"					"Meniul principal"
+"HLVR_MainMenu_Resume"						"Reia"
+"HLVR_MainMenu_Save"  						"Salvează"
+"HLVR_MainMenu_Load"  						"Încarcă"
+"HLVR_MainMenu_SavedGames"				"Jocuri"
+"HLVR_MainMenu_StartNewGame"	  	"Începe un joc nou"
+"HLVR_MainMenu_StartGame"	  			"Începe jocul"
+"HLVR_MainMenu_StartGameNoAddon"	  	"Începe jocul fără addonuri"
+"HLVR_MainMenu_StartGameAddon"	  	"Începe jocul cu addonuri"
+"HLVR_MainMenu_CreateNewGame"	  	"Creează un joc nou"
+
+"HLVR_MainMenu_Start"							"Start"
+
+"HLVR_MainMenu_LoadSlot"					"Încarcă slotul de joc %s"
+"HLVR_MainMenu_GameSlotHeader"		"Slotul de joc %s"
+"HLVR_MainMenu_GameSlotConfirm"		"\nSlotul de joc %s"
+
+"HLVR_MainMenu_SaveSlot"    	  	"Slot"
+"HLVR_MainMenu_GameSlot"    	  	"Slot de joc"
+"HLVR_MainMenu_Overwrite"    	  	"Suprascriere"
+"HLVR_MainMenu_Overwrite_desc"		"Toate sloturile de joc sunt ocupate. Selectează un slot pentru a-l suprascrie.\n\nATENȚIE: Această operație va șterge datele salvate."
+"HLVR_MainMenu_StartOver"					"Suprascrii?"
+"HLVR_MainMenu_NewGame"						"Joc nou?"
+"HLVR_MainMenu_Slot"    	  			"Slot"
+"HLVR_MainMenu_SlotOverwrite"			"ALEGE UN SLOT PE CARE SĂ-L SUPRASCRI"
+
+"HLVR_QuickSave"									"Salvare rapidă"
+"HLVR_AutoSave"									  "Salvare automată"
+
+"HLVR_Skip_Credits"								"Sari peste generic"
+"HLVR_Skip_Credits_Confirm"				"Sari peste generic?"
+
+"HLVR_Addons"							"Addonuri"
+"HLVR_MainMenu_ManageAddons"			"Gestionează addonurile"
+"HLVR_MainMenu_AddonsToolsMode"			"Nu se poate încărca o hartă cu addonuri în modul Instrumente."
+"HLVR_MainMenu_StartAddonGame"			"Începe jocul cu următoarele addonuri:"
+"HLVR_MainMenu_AddonDisabled"			"Addonul asociat este dezactivat"
+"HLVR_MainMenu_AddonNotAvailable"		"Addonul asociat nu mai este disponibil pentru această hartă.\nReabonează-te și activează acest addon pentru a continua"
+"HLVR_MainMenu_NoAddonsEnabled"			"Nu a fost activat niciun addon pentru jocul addon"
+"HLVR_MainMenu_AddonToggleInfo"			"Apasă butonul din stânga pentru activare/dezactivare"
+"HLVR_MainMenu_LocalAddon"				"Addon local"
+"HLVR_MainMenu_MissingAddon"			"Lipsesc unul sau mai multe addonuri după cum urmează. Te rugăm să te abonezi din nou pentru a încărca fișierul acesta"
+
+"HLVR_MainMenu_OriginalGame"			"Jocuri originale"
+"HLVR_MainMenu_AddonGame"				"Jocuri din addonuri"
+
+"HLVR_MainMenu_OriginalMaps"			"Jocul original"
+"HLVR_MainMenu_AddonMaps"				"Hărți addon"
+
+"HLVR_MainMenu_AddonUpVote"				"Voturi pozitive"
+"HLVR_MainMenu_AddonDownVote"			"Voturi negative"
+
+"HLVR_browse_workshop_label"			"Explorează atelierul"
+"HLVR_browse_workshop_confirm"			"Vrei să explorezi atelierul cu ajutorul interfeței suprapuse Steam?"
+"HLVR_browse_workshop_desc"				"Explorează atelierul Half-Life: Alyx cu ajutorul interfeței suprapuse Steam"
+
+"HLVR_local_addons"				"Addonuri locale"
+"HLVR_downloaded_addons"		"Addonuri descărcate"
+"HLVR_enabled_addons"			"Addonuri active:"
+"HLVR_addon_game"				"Joc cu addonuri active"
+
+"HLVR_MainMenu_Attention"												"Atenție"
+"HLVR_MainMenu_Attention_MinSpec_CPU"								"Procesorul tău nu îndeplinește cerințele minime pentru Half-Life: Alyx."
+"HLVR_MainMenu_Attention_MinSpec_RAM"								"Memoria sistemului nu îndeplinește cerințele minime pentru Half-Life: Alyx."
+"HLVR_MainMenu_Attention_MinSpec_GPU"								"Placa ta grafică nu îndeplinește cerințele minime pentru Half-Life: Alyx."
+"HLVR_MainMenu_Attention_Above_Recommended"					"Setările tale sunt peste nivelurile recomandate."
+"HLVR_MainMenu_Attention_Warning"										"Experiența de joc poate fi afectată."
+"HLVR_MainMenu_Attention_Graphics_Reset"						"Setările tale de performanță au fost readuse la nivelul recomandat."
+"HLVR_MainMenu_Attention_LowDiskSpaceForSwapfile"				"Din cauza lipsei de spațiu pe disc, dimensiunea fișierului swap (memoria virtuală) este redusă, iar Half-Life: Alyx poate întâmpina probleme de stabilitate."
+"HLVR_MainMenu_Attention_Low_GPU_Memory"						"S-a detectat un nivel redus de memorie disponibilă pentru placa video. Te rugăm să închizi orice program deschis de care nu ai nevoie pentru a mări nivelul de memorie grafică disponibilă."
+"HLVR_MainMenu_Attention_Low_System_Memory"						"S-a detectat un nivel redus de memorie de sistem disponibilă. Te rugăm să închizi orice program deschis de care nu ai nevoie pentru a mări nivelul memoriei de sistem disponibile."
+"HLVR_MainMenu_Old_Driver_Version"								"Versiunea driverului tău pentru placa video nu corespunde versiunii recomandate pentru Half-Life: Alyx pe Vulkan. Te rugăm să instalezi cel mai recent driver pentru placa ta video."
+"HLVR_MainMenu_Attention_LoadErrorMap"							"Jocul nu a putut fi încărcat deoarece harta solicitată nu a putut fi găsită:"
+"HLVR_MainMenu_Attention_LoadErrorAddons"						"Acest lucru poate fi cauzat de unul dintre addonurile active:"
+
+"HLVR_MainMenu_ModalQuit"						"Părăsești Half-Life: Alyx?"
+"HLVR_MainMenu_ModalMainMenu"					"Accesezi meniul principal?"
+"HLVR_MainMenu_ModalLoadGame"					"Încarci jocul salvat?"
+"HLVR_MainMenu_ModalNewGame"					"Creezi un joc nou?"
+"HLVR_MainMenu_ModalNewGameOverwrite"			"Ștergi datele salvate și creezi un joc nou?"
+
+"HLVR_MainMenu_ModalAccept"						"Acceptă"
+"HLVR_MainMenu_ModalCancel"						"Anulează"
+
+"HLVR_Pause_Menu_Only"								"Setările acestea sunt disponibile doar în cadrul meniului de pauză din timpul unei sesiuni de joc"
+
+"HLVR_MainMenu_Init_desc"		    			"Selectează mâna principală.\n\nAceasta poate fi schimbată oricând din meniul cu opțiuni."
+
+"HLVR_MainMenu_NewGame_desc" 					"Începe o nouă sesiune de Half-Life: Alyx."
+"HLVR_MainMenu_SaveGame_desc" 					"Efectuează o salvare rapidă a progresului actual."
+
+"HLVR_MainMenu_Resin"							"Polimer"
+"HLVR_MainMenu_HP"								"PV"
+"HLVR_MainMenu_Pistol"							"Pistol"
+"HLVR_MainMenu_Shotgun"							"Pușcă"
+"HLVR_MainMenu_RapidFire"						"Pistol-mitralieră"
+
+"HLVR_MainMenu_Days"							"Z"		// Short hand for Days
+"HLVR_MainMenu_Hrs"								"O"		// Short Hand for Hours
+
+"HLVR_MainMenu_DeleteSlot_desc"				"Șterge toate jocurile salvate din acest slot de joc"
+"HLVR_MainMenu_DeleteSlot_Confirm"		"Vrei să ștergi permanent toate jocurile salvate din acest slot de joc?"
+
+"HLVR_NoSaving"			"Salvarea nu este posibilă în acest moment"
+
+"HLVR_Sibling_L"											"S"
+"HLVR_Sibling_R"											"D"
+
+"HLVR_Options_Game_Preferences"				"Slot de joc"
+"HLVR_Options_System_Options"					"Sistem"
+
+"HLVR_Options_Diffculty_base"					"Dificultate"
+
+"HLVR_Options_Diffculty_story"					"Poveste"
+"HLVR_Options_Diffculty_easy"					"Ușor"
+"HLVR_Options_Diffculty_normal"					"Normal"
+"HLVR_Options_Diffculty_hard"					"Dificil"
+
+"HLVR_Options_Diffculty_story_desc"					"Lupte foarte ușoare."
+"HLVR_Options_Diffculty_easy_desc"					"Lupte cu dificultate moderată."
+"HLVR_Options_Diffculty_normal_desc"				"Lupte dificile."
+"HLVR_Options_Diffculty_hard_desc"					"Lupte foarte dificile."
+
+"HLVR_Options_On"					"Da"
+"HLVR_Options_Off"				"Nu"
+
+"HLVR_Options_Commentary"					"Comentariile dezvoltatorului"
+"HLVR_Options_Commentary_desc"				"Activează comentariile dezvoltatorului în timpul jocului.\n\nATENȚIE: comentariile divulgă INFORMAȚII SEMNIFICATIVE DESPRE JOC.\n\nÎți recomandăm să finalizezi mai întâi jocul.\n\nTraducerea în limba română nu este disponibilă."
+
+"HLVR_Options_Movement_Base"					"Deplasare"
+"HLVR_Options_Movement_Blink"					"Teleportare"
+"HLVR_Options_Movement_Shift"					"Compensată"
+"HLVR_Options_Movement_Continuous"				"Continuă"
+"HLVR_Options_Movement_Continuous_Hand"		"Mână continuă"
+
+"HLVR_Options_Movement_Blink_desc"					"Te vei teleporta la destinație, iar ecranul va fi estompat rapid. Cel mai confortabil mod de deplasare."
+"HLVR_Options_Movement_Shift_desc"					"Te vei teleporta la destinație cu ajutorul unei deplasări liniare rapide."
+"HLVR_Options_Movement_Continuous_desc"				"Te vei deplasa continuu în direcția definită de orientarea capului tău."
+"HLVR_Options_Movement_Continuous_Hand_desc"		"Te vei deplasa continuu în funcție de orientarea mâinii."
+
+"HLVR_Options_Preferences"						"Preferințe"
+"HLVR_Options_Accessibility"					"Accesibilitate"				
+"HLVR_Options_Interface"						"Interfață"
+"HLVR_Options_Audio"							"Volum"
+"HLVR_Options_Graphics"							"Performanță"
+"HLVR_Options_Language"							"Limbă"
+
+"HLVR_Options_WeaponSwitch"					"Orientarea selecției de arme"
+"HLVR_Options_WeaponSwitch_desc"		"Tipul orientării pentru meniul selecției de arme."
+"HLVR_Options_WeaponSwitch_HMD"			"Cap"
+"HLVR_Options_WeaponSwitch_Hand"		"Mână"
+"HLVR_Options_WeaponSwitch_Hybrid"	"Hibrid"
+
+"HLVR_Options_Ladder_Climb"					"Folosește scările cu ajutorul mâinilor"
+"HLVR_Options_Ladder_Climb_desc"		"Îți permite să urci scările cu ajutorul mâinilor."
+
+"HLVR_Options_Barnacle_Lift"				"Ridicarea de către lipitori"
+"HLVR_Options_Barnacle_Lift_desc"		"Pemite lipitorilor să ridice jucătorul de pe pământ"
+
+"HLVR_Options_Turn_Off"							"Rotirea controlerului dezactivată"
+"HLVR_Options_Turn_Snap"						"Rotire rapidă"
+"HLVR_Options_Turn_Continuous"					"Rotire continuă"
+
+"HLVR_Options_Turn_Off_desc"					"Setează rotirea pe „rapidă” sau „continuă” pentru a te roti în direcția în care îndrepți controlerul"
+"HLVR_Options_Turn_Snap_desc"					"Rotirea rapidă îți permite să te rotești rapid în direcția indicată de unghiul specificat."
+"HLVR_Options_Turn_Continuous_desc"				"Rotirea continuă îți permite să te rotești progresiv în direcția dorită la viteza specificată."
+
+"HLVR_Options_QuickTurn_Angle_Base"				"Unghiul de rotire bruscă"
+"HLVR_Options_QuickTurn_Angle_desc"				"Unghiul de rotire pentru rotirea bruscă."
+
+"HLVR_Options_ContinuousTurn_Speed_Base"		"Viteza rotirii continue"
+"HLVR_Options_ContinuousTurn_Speed_desc"		"Viteza unghiulară a rotirii continue."
+
+"HLVR_Options_DLC_Skins"						"Aspecte de la precomandă"
+"HLVR_Options_DLC_Skins_desc"					"Activează utilizarea aspectelor pentru arme acordate prin precomanda unui Valve Index."
+
+"HLVR_Options_Subtitles"						"Subtitrări"
+"HLVR_Options_Subtitles_Base"					"Subtitrări"
+"HLVR_Options_Subtitles_None"					"Subtitrări dezactivate"
+"HLVR_Options_Subtitles_On"						"Subtitrări activate"
+"HLVR_Options_Subtitles_CC_On"					"Subtitrări standard și complexe"
+"HLVR_Options_Subtitles_desc"					"Configurat să afișeze subtitrările standard și complexe."
+
+"HLVR_Options_Subtitles_Speed"					"Viteză"
+"HLVR_Options_Subtitles_Slow_Speed"				"Redusă"
+"HLVR_Options_Subtitles_Medium_Speed"			"Medie"
+"HLVR_Options_Subtitles_Fast_Speed"				"Mare"
+"HLVR_Options_ClosedCaptions_Speed_desc"		"Viteza cu care sunt afișate subtitrările."
+
+"HLVR_Options_Subtitles_Size"					"Dimensiunea fontului"
+"HLVR_Options_Subtitles_Small_Size"				"Redusă"
+"HLVR_Options_Subtitles_Medium_Size"			"Medie"
+"HLVR_Options_Subtitles_Large_Size"				"Mare"
+"HLVR_Options_ClosedCaptions_Size_desc"			"Dimensiunea fontului pentru subtitrări."
+
+"HLVR_Options_Subtitles_Width"					"Lățime"
+"HLVR_Options_Subtitles_Narrow"					"Îngustă"
+"HLVR_Options_Subtitles_Medium"					"Medie"
+"HLVR_Options_Subtitles_Wide"					"Largă"
+"HLVR_Options_ClosedCaptions_Width_desc"		"Lățimea subtitrărilor pe ecran."
+
+"HLVR_Options_Subtitles_Spectator_Only"			"Doar fereastra spectatorului"
+"HLVR_Options_Subtitles_Spectator_Only_desc"	"Afișează subtitrările standard și complexe doar în fereastra spectatorului."
+
+"HLVR_Options_LeftHanded"						"Mâna cu armă: stânga"
+"HLVR_Options_RightHanded"						"Mâna cu armă: dreapta"
+
+"HLVR_Options_LeftHanded_desc"					"Comută mâna în care este ținută arma (stânga sau dreapta).\n\nPoți alege mâna care controlează mișcările tale selectând asocierea corespunzătoare din meniul cu asocieri al controlerului din SteamVR."
+
+"HLVR_display_bindings"							"Asocieri controler"
+"HLVR_display_bindings_desc"					"Acceseză setările controlerului prin intermediul SteamVR pentru a vizualiza sau modifica asocierile controlerului pentru Half-Life: Alyx"
+"HLVR_display_bindings_confirm"					"Accesezi asocierile controlerului din SteamVR?"
+
+
+"HLVR_Options_ToggleCrouch"					"Poziție ghemuit"
+"HLVR_Options_ToggleCrouch_desc"		"Acțiunea de ghemuire îți reduce înălțimea ca să te poți feri rapid sau pentru a folosi la nevoie o poziție mai joasă. Asociază această acțiune de inputul preferat în setările Steam RV.\n\nCând această opțiune este activă, acțiunea de ghemuire este disponibilă în timpul jocului."
+"HLVR_Options_ToggleStand"					"Poziție ridicat"
+"HLVR_Options_ToggleStand_desc"			"Acțiunea de stat ridicat îți mărește înălțimea pentru a te ajuta să ajungi mai sus în timp ce joci într-o poziție joasă. Asociază această acțiune cu inputul preferat în setările Steam RV.\n\nEste recomandată când joci așezat.\n\nCând această opțiune este activă, acțiunea de stat ridicat este disponibilă în timpul jocului."
+
+"HLVR_Options_hlvr_adjust_height_mode_base"		"Reglare înălțime"
+"HLVR_Options_hlvr_adjust_height_mode_0"		"Dezactivată"
+"HLVR_Options_hlvr_adjust_height_mode_1"		"Ghemuit"
+"HLVR_Options_hlvr_adjust_height_mode_2"		"Ridicat"
+"HLVR_Options_hlvr_adjust_height_mode_3"		"Ghemuit și ridicat"
+"HLVR_Options_hlvr_adjust_height_mode_4"		"Hibrid"
+
+"HLVR_Options_hlvr_adjust_height_mode_0_desc"		"Configurează comportamentul acțiunilor efectuate cu controlerul pentru reglajul înălțimii.\n\nCând este dezactivată, înălțimea nu poate fi reglată cu ajutorul controlerului."
+"HLVR_Options_hlvr_adjust_height_mode_1_desc"		"Doar poziția ghemuit. Poziția ridicat este dezactivată.\n\nCând poziția ghemuit este activată, comută pentru a te apleca sau pentru a ajusta poziția la un nivel mai jos."
+"HLVR_Options_hlvr_adjust_height_mode_2_desc"		"Doar poziția ridicat. Poziția ghemuit este dezactivată.\n\nCând poziția ridicat este activă, comută pentru a-ți înălța poziția și a putea ajunge la obiectele aflate sus.\nRecomandată când joci într-o poziție așezată."
+"HLVR_Options_hlvr_adjust_height_mode_3_desc"		"Când pozițiile ghemuit și ridicat sunt activate, folosește-le pentru a-ți ajusta înălțimea cu ajutorul a două inputuri separate."
+"HLVR_Options_hlvr_adjust_height_mode_4_desc"		"Opțiunea hibrid îți permite să folosești un singur input pentru ambele poziții, ghemuit și ridicat.\n\nApasă clic pentru a te ghemui.\n\nPentru ridicare, ține apăsat."
+
+"HLVR_Options_hlvr_single_controller_mode"				"Un singur controler"
+"HLVR_Options_hlvr_single_controller_mode_desc"		"Toate acțiunile sunt efectuate cu un singur controler."
+"HLVR_single_controller_prompt_activate"			"Activarea modului „Un singur controler” necesită o schimbare a asocierii controlerului în SteamVR\nAccesezi pagina de asocieri SteamVR?"
+"HLVR_single_controller_prompt_deactivate"		"Dezactivarea modului „Un singur controler necesită” o schimbare a asocierii controlerului în SteamVR\nAccesezi pagina de asocieri SteamVR?"
+
+"HLVR_Options_r_light_sensitivity_mode"				"Sensibilitate la lumină"
+"HLVR_Options_r_light_sensitivity_mode_desc"	"Modul de sensibilitate la lumină reduce intensitatea și intermitența luminilor."
+
+"HLVR_Options_Pause_Menu_Distance"	"Distanța față de meniul de pauză"
+"HLVR_Options_Pause_Menu_Distance_Desc"	"Distanța la care va fi afișat meniul de pauză în raport cu jucătorul."
+"HLVR_Options_Pause_Menu_Height"		"Înălțimea meniului de pauză"
+"HLVR_Options_Pause_Menu_Height_desc"		"Înălțimea la care va fi afișat meniul de pauză în raport cu jucătorul."
+
+"HLVR_Options_Header_Weapons"					"Armă"
+"HLVR_Options_Header_GameMenu"					"Meniul jocului"
+"HLVR_Options_Header_Spectator"					"Spectator"
+
+"HLVR_Options_SpectatorHud_desc"				"Setează dimensiunea interfeței în fereastra spectatorului"
+"HLVR_Options_SpectatorHud_base"				"Interfața spectatorului"
+"HLVR_Options_SpectatorHud_off"					"Dezactivată"
+"HLVR_Options_SpectatorHud_small"				"Mică"
+"HLVR_Options_SpectatorHud_med"					"Medie"
+"HLVR_Options_SpectatorHud_large"				"Mare"
+
+"HLVR_Options_SpectatorCamera_desc"				"Configurează nivelul de stabilizare a camerei în modul spectator.\n\nNecesită un grad mare de mărire."
+"HLVR_Options_SpectatorCamera_base"				"Stabilizarea camerei în modul spectator"
+"HLVR_Options_SpectatorCamera_off"				"Dezactivată"
+"HLVR_Options_SpectatorCamera_low"				"Redusă"
+"HLVR_Options_SpectatorCamera_med"				"Medie"
+"HLVR_Options_SpectatorCamera_high"				"Ridicată"
+
+"HLVR_Options_SpectatorZoom_desc"				"Nivelul de mărire pentru spectator."
+"HLVR_Options_SpectatorZoom_Base"				"Mărire pentru spectator"
+"HLVR_Options_SpectatorZoom_low"				"Redusă"
+"HLVR_Options_SpectatorZoom_high"				"Ridicată"
+
+"HLVR_Options_Spectator_Eye_desc"				"Alternează între ochiul drept și stâng al jucătorului pentru fereastra spectatorului"
+"HLVR_Options_Spectator_Eye_Base"				"Ochiul spectatorului"
+"HLVR_Options_Eye_Left"							"Stâng"
+"HLVR_Options_Eye_Right"						"Drept"
+
+"HLVR_Options_SpectatorSteamVR_desc"			"Afișează interfața în fereastra SteamVR.\n\nAceastă opțiune afectează performanța."
+"HLVR_Options_SpectatorSteamVR_Base"			"Interfața spectatorului în SteamVR"
+"HLVR_Options_SpectatorSteamVR_On"				"Activată"
+"HLVR_Options_SpectatorSteamVR_Off"				"Dezactivată"
+
+"HLVR_Options_SpectatorEye_desc"				"Alege imaginea cărui ochi va fi afișată pe ecranele non-RV, cum ar fi monitorul sau televizorul tău.\n\n În mod implicit, aceasta corespunde cu mâna pe care o folosești în mod normal pentru a ținti, dar setarea aceasta poate fi modificată."
+"HLVR_Options_SpectatorEye_base"				"Vederea spectatorului"
+"HLVR_Options_SpectatorEye_left"				"Stâng"
+"HLVR_Options_SpectatorEye_right"				"Drept"
+
+"HLVR_Options_Graphics_Rendering"				"Randare"
+"HLVR_Options_Graphics_Particles"				"Particule"
+"HLVR_Options_Graphics_Misc"					"Diverse"
+"HLVR_Options_Graphics_Audio"					"Audio"
+
+"HLVR_Options_Fidelity_Low"								"Calitate redusă"
+"HLVR_Options_Fidelity_Medium"						"Calitate med."
+"HLVR_Options_Fidelity_Medium_Long"				"Calitate medie"
+"HLVR_Options_Fidelity_High"							"Calitate ridicată"
+"HLVR_Options_Fidelity_Ultra"							"Calitate excelentă"
+"HLVR_Options_Fidelity_Custom"						"Calitate personalizată"
+
+"HLVR_Options_Graphics_Adv_desc" "Afișează/ascunde setările avansate de performanță"
+
+"HLVR_Options_Graphics_Reset"					"Resetează"
+"HLVR_Options_Graphics_Reset_desc"				"Resetează setările de performanță la un nivel recomandat"
+"HLVR_Options_Graphics_Reset_modal"				"Resetezi setările de performanță la nivelul recomandat?"
+"HLVR_Options_Graphics_Base"					"Calitate"
+"HLVR_Options_Graphics_desc"					 "Parametrii de performanță ai jocului sunt setați automat. Modificarea acestor parametri poate avea un impact asupra frecvenței de cadre."
+
+"HLVR_Options_Graphics_Textures_Base"			"Texturi"
+"HLVR_Options_Graphics_Textures_Desc"			"Setează calitatea texturii\n\nCalitatea texturii este configurată independent de setarea calității performanței"
+"HLVR_Options_Graphics_Textures_Low"			"Scăzută"
+"HLVR_Options_Graphics_Textures_Medium"	"Medie"
+"HLVR_Options_Graphics_Textures_High"		"Ridicată"
+"HLVR_Options_Graphics_Textures_Ultra"		"Ultra"
+
+"HLVR_Options_Graphics_Shadows_Base"			"Umbre"
+"HLVR_Options_Graphics_Shadows_Low"			"Scăzută"
+"HLVR_Options_Graphics_Shadows_Med"			"Medie"
+"HLVR_Options_Graphics_Shadows_High"			"Ridicată"
+"HLVR_Options_Graphics_Shadows_Ultra"			"Ultra"
+
+"HLVR_Options_Graphics_Characters_Base"			"Personaje"
+"HLVR_Options_Graphics_Characters_Low"			"Scăzută"
+"HLVR_Options_Graphics_Characters_Med"			"Medie"
+"HLVR_Options_Graphics_Characters_High"			"Ridicată"
+"HLVR_Options_Graphics_Characters_Ultra"			"Ultra"
+
+"HLVR_Options_Graphics_Fog_Base"			"Ceață"
+"HLVR_Options_Graphics_Fog_Low"			"Scăzută"
+"HLVR_Options_Graphics_Fog_Med"			"Medie"
+"HLVR_Options_Graphics_Fog_High"			"Ridicată"
+"HLVR_Options_Graphics_Fog_Ultra"			"Ultra"
+
+"HLVR_Options_Graphics_Particles_Base"			"Particule"
+"HLVR_Options_Graphics_Particles_Low"			"Scăzută"
+"HLVR_Options_Graphics_Particles_Med"			"Medie"
+"HLVR_Options_Graphics_Particles_High"			"Ridicată"
+"HLVR_Options_Graphics_Particles_Ultra"			"Ultra"
+
+"HLVR_Options_Graphics_Audio_Base"			"Audio"
+"HLVR_Options_Graphics_Audio_Low"			"Scăzută"
+"HLVR_Options_Graphics_Audio_Med"			"Medie"
+"HLVR_Options_Graphics_Audio_High"			"Ridicată"
+"HLVR_Options_Graphics_Audio_Ultra"			"Ultra"
+
+"HLVR_Options_High_Quality_Holograms"			"Holograme de înaltă calitate"
+"HLVR_Options_High_Quality_Holograms_on"			"Da"
+"HLVR_Options_High_Quality_Holograms_off"			"Nu"
+"HLVR_Options_r_light_flickering_enabled"			"Lumini intermitente"
+
+"HLVR_Options_Rendering_API"					"API-ul de randare"
+"HLVR_Options_Rendering_API_D3D11"				"Direct3D 11"
+"HLVR_Options_Rendering_API_Vulkan"				"Vulkan"
+"HLVR_Options_Rendering_API_Current"			"API-ul curent:"
+"HLVR_Options_Rendering_API_Desc_Locked"		"API-ul de randare a fost specificat în opțiunile de lansare. Elimină această opțiune de lansare pentru a selecta un API pentru randare."
+"HLVR_Options_Rendering_API_Desc_Restart"		"\n\nNecesită repornirea jocului pentru a se activa.\n\n"
+"HLVR_Options_Rendering_API_Desc"				"Dacă jocul nu se lansează corect după schimbarea acestei setări, poți adăuga comanda „-safe_mode” în opțiunile de lansare pentru a porni cu un API de randare implicit."
+
+"HLVR_Options_cloth_rigid_update_Base"			"Țesătură flexibilă"
+
+"HLVR_Options_g_ragdoll_maxcount_Base"			"Numărul de cadavre"
+"HLVR_Options_g_ragdoll_maxcount_Base_Low"	"Scăzut"
+"HLVR_Options_g_ragdoll_maxcount_Base_Med"	"Mediu"
+"HLVR_Options_g_ragdoll_maxcount_Base_High"	"Ridicat"
+"HLVR_Options_g_ragdoll_maxcount_Base_Ultra"	"Ultra"
+
+"HLVR_Options_Audio_Master"						"Volum general"
+"HLVR_Options_Audio_Master_desc"				"Controlul general de volum pentru toate sunetele."
+"HLVR_Options_Audio_GameSounds"					"Joc"
+"HLVR_Options_Audio_GameSounds_desc" 			"Controlul volumului pentru efectele sonore din joc."
+"HLVR_Options_Audio_Music"						"Muzică de luptă"
+"HLVR_Options_Audio_Music_desc"					"Controlul volumului pentru muzica de luptă."
+"HLVR_Options_Audio_Voice"						"Vocea personajelor"
+"HLVR_Options_Audio_Voice_desc"					"Controlul volumului pentru vocile personajelor."
+
+"HLVR_Loading"									"SE ÎNCARCĂ"
+"HLVR_Loading_Trigger_Start"					"Apasă %s pentru a începe"
+
+"HLVR_PhotoMode_TakePhoto"						"Fotografiază"
+"HLVR_PhotoMode_Hide"							"Ascunde interfața"
+"HLVR_PhotoMode_Return"							"Înapoi"
+
+// spectator hud
+"HLVR_HUD_Ammo"									"Muniție"
+"HLVR_HUD_Health"								"Viață"
+"HLVR_HUD_Resin"								"Polimeri"
+
+// game instructor lessons
+"HLVR_Lesson_Single_Controller_On"	"Modul cu un singur controler este activat"
+"HLVR_Lesson_Single_Controller_Off"	"Modul cu un singur controler este dezactivat"
+"HLVR_Lesson_Movement_PrimaryHand"	"Mișcarea este controlată de mâna care ține arma.\nAcest lucru poate fi modificat în asocierile controlerului din SteamVR."
+"HLVR_Lesson_Movement_OffHand"		"Mișcarea este controlată de mâna liberă.\nsAcest lucru poate fi modificat în asocierile controlerului din SteamVR"
+"HLVR_Lesson_Teleport"							"Apasă pentru a te deplasa"
+"HLVR_Lesson_Quick_Turn"						"Apasă pentru a te roti brusc spre stânga sau dreapta"
+"HLVR_Lesson_GrabTrigger"						"Apasă și menține apăsat pentru a apuca obiecte"
+"HLVR_Lesson_GrabHands"							"Apucă obiecte cu mâinile tale"
+"HLVR_Lesson_GrabHandsSingleController"			"Apucă obiecte cu mâna ta"
+"HLVR_Lesson_Interact"							"Folosește-ți mâinile pentru\na interacționa cu mânerele"
+"HLVR_Lesson_InteractSingleController"			"Folosește-ți mâna pentru\na interacționa cu mânerele"
+"HLVR_Lesson_Door"								"Rotește mânerul pentru\na deschide ușa"
+"HLVR_Lesson_SwitchWeapons"						"Menține apăsat pentru a schimba arma"
+"HLVR_Lesson_SwitchWeaponsSingleController"			"Apasă pentru a reveni la arma ta"
+"HLVR_Lesson_OpenWeaponSelectForMultitool"		"Menține apăsat pentru a comuta la instrumentul multifuncțional"
+"HLVR_Lesson_SelectMultitool"					"Selectează instrumentul multifuncțional"
+"HLVR_Lesson_UseMultitool"						"Folosește instrumentul multifuncțional"
+"HLVR_Lesson_ScavengeItems"						"Caută în jur\nobiecte folositoare"
+"HLVR_Lesson_LootBodies"						"Fură obiecte de la cadavre"
+"HLVR_Lesson_OpenGameMenu"						"Menține apăsat pentru a activa/dezactiva meniul jocului"
+"HLVR_Lesson_Continuous_Mantle"					"Pentru cățărare, împinge și\nmenține apăsat în timp ce te deplasezi"
+"HLVR_Lesson_Continuous_Jump"					"Apasă pentru a afișa indicatorul de săritură\nși dă drumul pentru a sări"
+"HLVR_Lesson_Crouch_Toggle"						"Apasă pentru a comuta între înălțimea ta actuală și cea din poziția ghemuit"
+"HLVR_Lesson_Stand_Toggle"						"Apasă pentru a comuta între înălțimea ta actuală și cea din poziția ridicat"
+"HLVR_Lesson_Climb_Ladder"						"Apucă scara pentru a te cățăra"
+
+"HLVR_Lesson_WeaponInPrimaryHand"				"Apucă arma cu mâna dominantă"
+
+"HLVR_Lesson_EjectClip"							"Apasă pentru a scoate încărcătorul"
+"HLVR_Lesson_InsertClip"						"Introdu încărcătorul în pistol"
+"HLVR_Lesson_EmptyClipInserted"					"Încărcătorul este gol\nApasă pentru a scoate încărcătorul"
+"HLVR_Lesson_ChamberRound"						"Apasă butonul\nsau trage manșonul pentru a încărca arma"
+"HLVR_Lesson_ChamberRoundSingleController"		"Apasă butonul pentru a introduce un cartuș în armă"
+"HLVR_Lesson_PutClipInBackpack"					"Pune încărcătorul în rucsacul tău"
+"HLVR_Lesson_ToggleLaserSightWeapon"			"Atinge cu degetul arătător pentru a comuta dispozitivul de ochire cu laser"
+"HLVR_Lesson_ToggleBurstFire"					"Atinge butonul de două ori pentru a comuta tirul în rafale"
+
+"HLVR_Lesson_ShotgunGetShells"					"Apucă cutia de cartușe și pune-o în rucsac"
+"HLVR_Lesson_OpenShotgunToLoadShells"			"Deschide pușca pentru a încărca cartușele"
+"HLVR_Lesson_LoadShotgunUntilFull"				"Încarcă până la (6) cartușe în pușcă"
+"HLVR_Lesson_FlickToCloseShotgun"				"Scutură controlerul\nsau apucă țeava pentru a închide pușca"
+"HLVR_Lesson_FlickToCloseShotgunSingleController"	"Scutură controlerul pentru a închide pușca"
+"HLVR_Lesson_ChamberShotgunShell"				"Trage manșonul pentru a încărca un cartuș"
+"HLVR_Lesson_ChamberShotgunShellSingleController"	"Apasă pentru a introduce un cartuș în armă"
+"HLVR_Lesson_ShotgunUpgradeAutoloaderLoad"		"Pune cartușe în încărcătorul automat"
+"HLVR_Lesson_ShotgunUpgradeAutoloaderActivate"	"Apasă butonul pentru a activa încărcătorul automat"
+"HLVR_Lesson_ShotgunUpgradeQuickFire"			"Apasă de două ori pentru a trage rapid două focuri"
+"HLVR_Lesson_ShotgunUpgradeGrenade"				"Atașează o grenadă la țeava puștii"
+"HLVR_Lesson_ShotgunUpgradeGrenadePump"			"Împinge mânerul în față pentru a pregăti lansatorul de grenade\nsau trage pentru a ataca normal"
+"HLVR_Lesson_ShotgunUpgradeGrenadePumpSingleController"			"Apasă pentru a pregăti lansatorul de grenade\nsau trage pentru a ataca normal"
+"HLVR_Lesson_ShotgunUpgradeGrenadeFire"			"Apasă pentru a lansa grenada\nsau apucă grenada pentru a reseta lansatorul"
+"HLVR_Lesson_ShotgunUpgradeGrenadeFireSingleController"			"Apasă pentru a reseta lansatorul\nsau trage pentru a lansa grenada"
+
+"HLVR_Lesson_Rapidfire_InsertCapsule_Gun"		"Introdu celula voltaică în armă"
+"HLVR_Lesson_Rapidfire_InsertCapsule_Clip"		"Introdu celula voltaică în armă"
+"HLVR_Lesson_Rapidfire_OpenCasing"				"Deschide încărcătorul"
+"HLVR_Lesson_Rapidfire_InsertCapsule_Mag"		"Introdu (3) celule voltaice în încărcător"
+"HLVR_Lesson_Rapidfire_CloseCasing"				"Închide încărcătorul"
+
+"HLVR_Lesson_StoreClipInBackpack"				"Pune muniția în rucsac\naruncând-o peste umăr"
+"HLVR_Lesson_GrabClipFromBackpack"				"Ia muniție din rucsac"
+"HLVR_Lesson_ReloadSingleController"			"Pentru a reîncărca, apasă în timp ce ții arma peste umăr"
+"HLVR_Lesson_ReloadSingleControllerShotgun"		"Pentru a reîncărca, apasă în timp ce ții arma peste umăr. Apasă de mai multe ori pentru mai multe cartușe."
+"HLVR_Lesson_ReloadSingleControllerRapidFire"	"Pentru a reîncărca, apasă în timp ce ții arma peste umăr. Apasă de mai multe ori pentru mai multe celule."
+"HLVR_Lesson_GrabResinFromBackpack"				"Ia polimer din rucsac"
+"HLVR_Lesson_StoreResinInBackpack"				"Pune polimerul în rucsac\naruncându-l peste umăr"
+"HLVR_Lesson_ArmGrenade"						"Apasă pentru a arma grenada"
+"HLVR_Lesson_ArmXenGrenade"						"Strânge pentru a arma grenada Xen"
+"HLVR_Lesson_ArmXenGrenadeVive"					"Apasă pentru a arma grenada Xen"
+"HLVR_Lesson_PrepareHealthInjector"				"Pregătește seringa medicală"
+"HLVR_Lesson_HealthInjectToHand"				"Injectează în corp, mână sau picior"
+"HLVR_Lesson_HealthInjectToHandSingleController"	"Injectează în corp sau picior"
+"HLVR_Lesson_WristHUD"							"Ecranul de la încheietura mâinii îți afișează viața"
+"HLVR_Lesson_GameSaved"							"JOCUL A FOST SALVAT"
+"HLVR_Lesson_BackpackConstraints"				"Rucsacul poate stoca doar muniție și polimer"
+"HLVR_Lesson_PistolClipBackpackConstraints"		"Rucsacul poate stoca doar încărcătoare pline"
+"HLVR_Lesson_OpenWeaponSelectForHand"			"Apasă pentru a alterna rapid\nîntre mână și armă"
+"HLVR_Lesson_OpenWeaponSelectForHandSingleController"	"Apasă pentru a reveni rapid la mâna goală pentru a lua muniția"
+"HLVR_Lesson_SelectHand"						"Selectează mâna"
+"HLVR_Lesson_2HLevitate"						"Fixează ținta cu ambele mănuși gravitaționale"
+"HLVR_Lesson_GravityGloveLockOn"				"Apasă pentru a fixa ținta"
+"HLVR_Lesson_GravityGlovePull"					"Scutură mâna înapoi pentru a trage obiectul"
+"HLVR_Lesson_GravityGloveCatch"					"Prinde obiectul în zbor"
+"HLVR_Lesson_2HPickup"							"Ridică obiecte grele cu ambele mâini"
+"HLVR_Lesson_UseMultitoolOnDoor"				"Folosește instrumentul multifuncțional pe terminale"
+"HLVR_Lesson_UseMultitoolOnToner"				"Folosește instrumentul multifuncțional pe sursa de alimentare"
+"HLVR_Lesson_UseMultitoolOnJunction"			"Apasă pe instrumentul multifuncțional pentru a roti joncțiunea"
+"HLVR_Lesson_UseMultitoolOnTripmine"			"Folosește instrumentul multifuncțional pe mina cu laser"
+"HLVR_Lesson_StoreObjectInWristBag"				"Depozitează obiectele în buzunarele de la încheieturile mâinilor"
+"HLVR_Lesson_StoreObjectInWristBagSingleController"		"Depozitează obiecte în buzunare"
+"HLVR_Lesson_RetrieveObjectInWristBag"			"Recuperează obiectul din buzunarul de la încheietură"
+"HLVR_Lesson_Headset"							"Echipează casca\ntrăgând-o pe ureche"
+"HLVR_Lesson_Pickup_Clip"						"Trage sau ridică muniție"
+"HLVR_Lesson_AttachFlashlight"					"Atașează lanterna la mănușa gravitațională"
+"HLVR_Lesson_WeaponReturned"					"Arma lăsată în fabricatorul Combine ți-a fost returnată"
+"HLVR_Lesson_ThrowEnergyBolt"					"Eliberează energia"
+"HLVR_Lesson_Health_Station"					"Folosește mânerul pentru a deschide stația medicală"
+
+// upgrades
+"HLVR_Upgrade_PistolLaserSight"						"Dispozitiv de ochire cu laser"
+"HLVR_Upgrade_Desc_PistolLaserSight"					"Adaugă un dispozitiv de ochire cu laser pentru a ținti mai bine"
+"HLVR_Upgrade_PistolReflexSight"					"Dispozitiv de ochire cu punct"
+"HLVR_Upgrade_Desc_PistolReflexSight"					"Evidențiază țintele tactice"
+"HLVR_Upgrade_PistolBurstFire"						"Mod rafală"
+"HLVR_Upgrade_Desc_PistolBurstFire"						"Comută între modul rafală (3 focuri) și modul semiautomat (1 foc)"
+"HLVR_Upgrade_PistolBulletHopper"					"Rezerva de cartușe"
+"HLVR_Upgrade_Desc_PistolBulletHopper"					"Adaugă o rezervă care poate conține 10 cartușe suplimentare"
+
+"HLVR_Upgrade_ShotgunSpeedLoader"					"Încărcător automat"
+"HLVR_Upgrade_Desc_ShotgunSpeedLoader"					"Adaugă un alimentator mecanic pentru a încărca rapid pușca"
+"HLVR_Upgrade_ShotgunGrenadeAttach"					"Lansator de grenade"
+"HLVR_Upgrade_Desc_ShotgunGrenadeAttach"				"Permite atașarea și lansarea grenadelor"
+"HLVR_Upgrade_ShotgunLaserSight"					"Dispozitiv de ochire cu laser"
+"HLVR_Upgrade_Desc_ShotgunLaserSight"					"Adaugă o proiecție laser pentru a ținti mai bine"
+"HLVR_Upgrade_ShotgunQuickFire"						"Foc dublu"
+"HLVR_Upgrade_Desc_ShotgunQuickFire"					"Adaugă opțiunea de a trage un al doilea foc imediat după primul"
+
+"HLVR_Upgrade_RapidfireExplodingBullets"			"Muniție explozivă"
+"HLVR_Upgrade_Desc_RapidfireExplodingBullets"			"Adaugă abilitatea de a detona un mic grup de gloanțe după tragere"
+"HLVR_Upgrade_RapidfireReflexSight"					"Dispozitiv de ochire cu punct"
+"HLVR_Upgrade_Desc_RapidfireReflexSight"				"Evidențiază țintele tactice"
+"HLVR_Upgrade_RapidfireLaserSight"					"Dispozitiv de ochire cu laser"
+"HLVR_Upgrade_Desc_RapidfireLaserSight"					"Adaugă un dispozitiv de ochire cu laser pentru a ținti mai bine"
+"HLVR_Upgrade_RapidfireExtendedMagazine"			"Încărcător cu capacitate mărită"
+"HLVR_Upgrade_Desc_RapidfireExtendedMagazine"			"Permite încărcarea armei cu mai multe celule voltaice"
+
+"HLVR_Weapon_Name_Pistol"							"Pistol"
+"HLVR_Weapon_Name_Shotgun"							"Pușcă"
+"HLVR_Weapon_Name_RapidFire"						"Pistol-mitralieră"
+
+"HLVR_Weapon_Name_Pistol_UID"						"XXXXXXXXXXXX..XXX.X.X"
+"HLVR_Weapon_Name_Shotgun_UID"						"004086056845..080.2.7"
+"HLVR_Weapon_Name_RapidFire_UID"					"000123100400..342.5.1"
+
+// crafting station
+"HLVR_CraftingStation_Name"							"Stația de achiziție 0.3.3.333"
+"HLVR_CraftingStation_Startup"						"Pornire"
+"HLVR_CraftingStation_Scanning"						"Scanning Environment..."
+"HLVR_CraftingStation_LoadingBlueprints"			"Se încarcă planurile..."
+"HLVR_CraftingStation_InsertWeapon"					"Introdu arma în compartiment"
+"HLVR_CraftingStation_YourResin"					"Polimeri disponibili: {i:CurrencyAmount}"
+"HLVR_CraftingStation_YourResinLabel"				"Polimeri disponibili:"
+"HLVR_CraftingStation_ResinAmount"					"{i:CurrencyAmount}"
+"HLVR_CraftingStation_SelectObject"					"Selectează obiectul"
+"HLVR_CraftingStation_SelectedWeapon"				"{s:WeaponName}"
+"HLVR_CraftingStation_Upgrades"						"Îmbunătățiri"
+"HLVR_CraftingStation_Cost"							"Cost"
+"HLVR_CraftingStation_Summary"						"Sumar"
+"HLVR_CraftingStation_NoUpgrades"					"Nicio îmbunătățire disponibilă"
+"HLVR_CraftingStation_NotEnoughResin"				"Nu este suficient polimer pentru îmbunătățire"
+"HLVR_CraftingStation_InsufficientResin"			"Insuficient"
+"HLVR_CraftingStation_InsertResin"					"Introdu polimerul acum"
+"HLVR_CraftingStation_Acquiring"					"In curs de obținere"
+"HLVR_CraftingStation_Acquired"						"Obținut"
+"HLVR_CraftingStation_Scanning"						"Scanare"
+"HLVR_CraftingStation_Rendering"					"Randare în curs"
+"HLVR_CraftingStation_Printing"						"Se imprimă"
+"HLVR_CraftingStation_Complete"						"Fabricarea finalizată"
+"HLVR_CraftingStation_Cancelled"					"Fabricarea anulată"
+"HLVR_CraftingStation_TakeObject"					"Ia obiectul"
+"HLVR_CraftingStation_PrintObject"					"Imprimă obiectul"
+"HLVR_CraftingStation_UpgradeOwned"					"Deținut"
+"HLVR_CraftingStation_Cancel"						"Anulează"
+"HLVR_CraftingStation_Back"							"Înapoi"
+"HLVR_CraftingStation_SmallPrint"					"Anexa de protecție civilă 19-81572"
+
+// combine console
+"HLVR_CombineConsole_Name"							"Consola Combine V17.14"
+"HLVR_CombineConsole_Activate"						"Activează"
+
+"HLVR_Calibration_Start"							"Apasă butonul pentru a începe"
+
+"HLVR_Intro_Text_01"								"Cu cinci ani înainte de căderea"
+"HLVR_Intro_Text_02"                                                            " Citadelei" 
+"HLVR_Intro_Text_03"								"și moartea lui"
+"HLVR_Intro_Text_04"                                                            " Eli Vance." 
+
+"HLVR_Eli_Call_Incoming"							"Intrare apel"
+"HLVR_Eli_Call_Incoming_Name"						"Eli Vance"
+"HLVR_Eli_Call_Ended_01"							"Apel"
+"HLVR_Eli_Call_Ended_02"							"Terminat"
+"HLVR_Eli_Call_Location"							"Zona de provizii Pylon 7B"
+
+
+// Referenced in hl2_gamerules.cpp
+// static HLVRChapter_t rgChapters[] = {
+// Chapter Numbers
+"HLVR_Chapter_Number_00"							"CAPITOLUL 1"
+"HLVR_Chapter_Number_01"							"CAPITOLUL 2"
+"HLVR_Chapter_Number_02"							"CAPITOLUL 3"
+"HLVR_Chapter_Number_03"							"CAPITOLUL 4"
+"HLVR_Chapter_Number_04"							"CAPITOLUL 5"
+"HLVR_Chapter_Number_05"							"CAPITOLUL 6"
+"HLVR_Chapter_Number_06"							"CAPITOLUL 7"
+"HLVR_Chapter_Number_07"							"CAPITOLUL 8"
+"HLVR_Chapter_Number_08"							"CAPITOLUL 9"
+"HLVR_Chapter_Number_09"							"CAPITOLUL 10"
+"HLVR_Chapter_Number_10"							"CAPITOLUL 11"
+
+"HLVR_Chapter_Title_00"								"Inseparabilitatea"
+"HLVR_Chapter_Title_01"								"Zona de carantină"
+"HLVR_Chapter_Title_02"								"Este sau va fi"
+"HLVR_Chapter_Title_03"								"Superarma"
+"HLVR_Chapter_Title_04"								"Steaua Nordului"
+"HLVR_Chapter_Title_05"								"Cursa înarmărilor"
+"HLVR_Chapter_Title_06"								"Jeff"
+"HLVR_Chapter_Title_07"								"Captivitate"
+"HLVR_Chapter_Title_08"								"Revelații"
+"HLVR_Chapter_Title_09"								"Intrare prin efracție"
+"HLVR_Chapter_Title_10"								"Punctul de extracție"
+
+"HLVR_Transmission_Incoming"						"INTRARE\nTRANSMISIUNE"
+"HLVR_Transmission_Ended"							"TRANSMISIUNE\nTERMINATĂ"
+
+"HLVR_Propaganda_Standby"							"VĂ RUGĂM SĂ AȘTEPTAȚI"
+"HLVR_Propaganda_Countdown5"						"5"
+"HLVR_Propaganda_Countdown4"						"4"
+"HLVR_Propaganda_Countdown3"						"3"
+"HLVR_Propaganda_Countdown2"						"2"
+"HLVR_Propaganda_Announcement"						"ANUNȚ SPECIAL"
+
+"HLVR_Distillery_Elevator_Error"					"GREUTATEA MAXIMĂ A FOST DEPĂȘITĂ"
+"HLVR_Distillery_Elevator_Override"					"ESTE NECESAR CONTROLUL MANUAL"
+
+"HLVR_Trainyard_Train_Approaching"					"TRENUL SE APROPIE"
+
+"HLVR_Intro_World_01a"								"SUBIECT: "
+"HLVR_Intro_World_01b"								" Alyx Vance, 19 ani, femeie"
+"HLVR_Intro_World_02a"								"AFILIERE: "
+"HLVR_Intro_World_02b"								" Rezistența umană"
+"HLVR_Intro_World_03a"								"MISIUNEA ACTUALĂ: "
+"HLVR_Intro_World_03b"								" Recunoaștere"
+
+"HLVR_Mission_Terminated_01a"						"MISIUNE: "
+"HLVR_Mission_Terminated_01b"						"ÎNCHEIATĂ"
+"HLVR_Mission_Terminated_02a"						"SUBIECT: "
+"HLVR_Mission_Terminated_02b"						"ALYX VANCE"
+"HLVR_Mission_Terminated_03a"						"MOTIV: "
+"HLVR_Mission_Terminated_03b"						"A EȘUAT ÎN PROTEJAREA RESURSELOR VITALE MISIUNII"
+
+"HLVR_Subject"										"SUBIECT: "
+"HLVR_Subject_2"									"Alyx Vance"
+"HLVR_Status"										"STARE: "
+"HLVR_Status_2"										"Angajată"
+"HLVR_Assignment"									"ÎN AȘTEPTAREA MISIUNII"
+
+"HLVR_Combine_Chatter"								"[Discuții Combine]"
+
+// In-world signage
+"HLVR_Signage_Infestation_Control1"					"AVERTISMENT:"
+"HLVR_Signage_Infestation_Control2"					"Controlul infestației"
+
+"HLVR_Signage_Emergency"							"URGENȚĂ"
+"HLVR_Signage_Main_Power"							"ALIMENTARE PRINCIPALĂ"
+"HLVR_Signage_Shutoff"								"ÎNCHIDERE"
+
+// Credits
+
+"HLVR_Credits_ContractorsHeader"					"Dezvoltare suplimentară"
+"HLVR_Credits_CastHeader"							"Distribuția"
+"HLVR_Commentary_Elevator"							"Elevator"
+// Game Tips
+"HLVR_LOADING_SCREEN_TIP_COUNT"				"22"
+"HLVR_LOADING_SCREEN_TIP_MAP_0_COUNT"		"6"		// a1_intro_world
+"HLVR_LOADING_SCREEN_TIP_MAP_1_COUNT"		"9"		// a1_intro_world_2
+"HLVR_LOADING_SCREEN_TIP_MAP_2_COUNT"		"6"		// a2_quarantine_entrance
+"HLVR_LOADING_SCREEN_TIP_MAP_3_COUNT"		"7"		// a2_pistol
+"HLVR_LOADING_SCREEN_TIP_MAP_4_COUNT"		"12"	// a2_hideout
+"HLVR_LOADING_SCREEN_TIP_MAP_5_COUNT"		"12"	// a2_headcrabs_tunnel
+"HLVR_LOADING_SCREEN_TIP_MAP_6_COUNT"		"14"	// a2_drainage
+"HLVR_LOADING_SCREEN_TIP_MAP_7_COUNT"		"13"	// a2_train_yard
+"HLVR_LOADING_SCREEN_TIP_MAP_8_COUNT"		"11"	// a3_station_street
+"HLVR_LOADING_SCREEN_TIP_MAP_9_COUNT"		"15"	// a3_hotel_lobby_basement
+"HLVR_LOADING_SCREEN_TIP_MAP_10_COUNT"		"15"	// a3_hotel_underground_pit
+"HLVR_LOADING_SCREEN_TIP_MAP_11_COUNT"		"15"	// a3_hotel_interior_rooftop
+"HLVR_LOADING_SCREEN_TIP_MAP_12_COUNT"		"20"	// a3_hotel_street
+"HLVR_LOADING_SCREEN_TIP_MAP_13_COUNT"		"20"	// a3_c17_processing_plant
+"HLVR_LOADING_SCREEN_TIP_MAP_14_COUNT"		"20"	// a3_distillery
+"HLVR_LOADING_SCREEN_TIP_MAP_15_COUNT"		"20"	// a4_c17_zoo
+"HLVR_LOADING_SCREEN_TIP_MAP_16_COUNT"		"20"	// a4_c17_tanker_yard
+"HLVR_LOADING_SCREEN_TIP_MAP_17_COUNT"		"0"		// a4_c17_water_tower
+"HLVR_LOADING_SCREEN_TIP_MAP_18_COUNT"		"0"		// a4_c17_parking_garage
+"HLVR_LOADING_SCREEN_TIP_MAP_19_COUNT"		"0"		// a5_vault
+"HLVR_LOADING_SCREEN_TIP_MAP_20_COUNT"		"0"		// a5_ending
+} 
+}

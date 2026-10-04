@@ -1,6 +1,17 @@
+                          
                 AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZUPDATE_STRING_TOKEN_DATABASE
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ Base Class Array'
+ Base Class Descriptor at (
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
  Fade
  Not Depth Pre-passed
+ Type Descriptor'
+ delete
+ delete[]
+ new
 %f %f %f %f
 %i %i %i %i
 %lld
@@ -10,6 +21,9 @@
 %s allocation count overflow( %llu > %llu )\n
 %s allocation count overflow( %llu >= %llu )\n
 %s: string format requested %d chars\n
+&Sgw
+(null)
+*StO9>T
 +inf
 -avx
 -enable_2gb_morphs
@@ -17,7 +31,8 @@
 -sse2
 -sse3
 -sse4
-.?AV<lambda_0ffa585b374ea2b965c8e3d3a764e9ec>@@
+.00cfg
+.?AV<lambda_1>@?BO@??CreatePerViewConstantBuffer@@YAXPEAVISceneView@@AEAVCRenderAttributes@@PEBV2@AEBVVMatrix@@_N44@Z@
 .?AV?$CBaseAppSystem@VIAppSystem@@@@
 .?AV?$CRenderingPipelineFactory@VCRenderingPipelineForward@@@@
 .?AV?$CRenderingPipelineFactory@VCRenderingPipelineLightSetup@@@@
@@ -33,8 +48,8 @@
 .?AV?$CTier3AppSystem@VIAppSystem@@$0A@@@
 .?AV?$_Func_base@XPEAVCSceneObject@@@std@@
 .?AV?$_Func_base@XPEBVISceneView@@MH@std@@
-.?AV?$_Func_impl@P6AXPEAVCSceneObject@@@ZV?$allocator@H@std@@XPEAV1@@std@@
-.?AV?$_Func_impl@V<lambda_0ffa585b374ea2b965c8e3d3a764e9ec>@@V?$allocator@H@std@@XPEBVISceneView@@MH@std@@
+.?AV?$_Func_impl_no_alloc@P6AXPEAVCSceneObject@@@ZXPEAV1@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?BO@??CreatePerViewConstantBuffer@@YAXPEAVISceneView@@AEAVCRenderAttributes@@PEBV3@AEBVVMatrix@@_N44@Z@XPEBV3@MH@std@@
 .?AVCBaseRenderingPipelineFactory@@
 .?AVCDefaultAccessor@@
 .?AVCEmptySequence@@
@@ -55,7 +70,6 @@
 .?AVCRenderingPipelines@@
 .?AVCSchemaInstallCallback@@
 .?AVCScreenSpaceReflectionsRenderer@@
-.?AVCShadowMapTextureBarrierLayer@@
 .?AVCSignalSemaphoreLayer@@
 .?AVCTemplateSceneViewFactory_RenderVRMonitors@@
 .?AVCVR3DSkyboxRenderer@@
@@ -63,6 +77,7 @@
 .?AVCVrClearQuadOverdrawVisualizationTextures@@
 .?AVCVrComputeShaderRenderer@@
 .?AVCVrQuadRenderer@@
+.?AVConCommand@@
 .?AVConCommandBase@@
 .?AVConVar@@
 .?AVIAppSystem@@
@@ -74,16 +89,27 @@
 .?AVIRenderingPipelineFactory@@
 .?AVISequence@@
 .?AVIVSSequence@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_exception@std@@
+.?AVexception@std@@
+.?AVinvalid_argument@std@@
+.?AVlength_error@std@@
+.?AVlogic_error@std@@
+.?AVout_of_range@std@@
 .?AVtype_info@@
 .CRT$XCA
 .CRT$XCC
 .CRT$XCU
 .CRT$XCZ
 .CRT$XIA
+.CRT$XIC
 .CRT$XIZ
 .CRT$XLA
 .CRT$XLZ
 .CRT$XPA
+.CRT$XPX
+.CRT$XPXA
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
@@ -91,6 +117,7 @@
 .bss
 .data
 .data$r
+.data$rs
 .edata
 .idata$2
 .idata$3
@@ -101,50 +128,82 @@
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
 .text$di
 .text$mn
+.text$mn$00
 .text$x
 .text$yd
 .tls
 .tls$
 .tls$ZZZ
+.xJ>Hf
 .xdata
+.xdata$x
+/tmp/fdm_%s_%d_%d.ppm
 0=Off, 1=All AlphaTested, 2=only AlphaTested with PrepassAlphaTest enabled
 0=Off, 1=DebugWireframe, 2=DebugSolidBlink
+0iN>/
 1 = bloom output, 2 = quarter res downsample
+1#IND
+1#INF
+1#QNAN
+1#SNAN
+11Y@
 1DBlend
+2\vpd"
+37>k
+3>N;kU
+3>fvw
 3D Skybox
 3D Skybox Procedural
 3DSkybox Depth Prepass
 3DSkybox Translucent Forward
 3DSkyboxForward
 3DSkyboxLightBinnerVr
+5t8)
 60.0
+8xH)
+9wn+:wn+:wn+:wn+:\f
 <deferred>
 <no failure reason set>
 <null>
 <unconnected>
-??0CThreadMutex@@QEAA@PEBD@Z
-??1CThreadMutex@@QEAA@XZ
+=87M
+=cQ6
+=imb;D
+>cQ6
+>jtm}S
+?7zQ6$
+??0CThreadMutex@@QEAA@XZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
 ?Concat@CBufferString@@QEAAPEBDPEBD0ZZ
 ?FixSlashes@CBufferString@@QEAAPEBDD@Z
-?FixupPathName@CBufferString@@QEAAPEBDD@Z
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?Purge@CBufferString@@QEAAXH@Z
 ?RemoveAt@CBufferString@@QEAAPEBDHH@Z
-?SSE and SSE2 are required.
 ?SetExtension@CBufferString@@QEAAPEBDPEBD@Z
 ?SetLength@CBufferString@@QEAAPEADH_NPEAH@Z
 ?StartsWith@CBufferString@@QEAA_NPEBD@Z
 ?ToLowerFast@CBufferString@@QEAAXH@Z
+?UUUUUU
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?V_SplitString@@YAXPEBD0AEAV?$CUtlVector@VCUtlString@@V?$CUtlMemory@VCUtlString@@H@@@@_N@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
+?f`Y4
+?qBJ
+?ysB
+A>pP&
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABGR8888
 AE_ACTION_SET_TURN_RATE_SCALE
 AE_BLIND_ZOMBIE_SNIFF
@@ -187,7 +246,6 @@ ATI2N
 ATI_DST16
 ATI_DST24
 AbsolutePoseControl
-AcquireSRWLockExclusive
 AddLayer
 After3DGeo
 AfterTranslucent3D
@@ -196,7 +254,6 @@ Align
 Allow bloom on scene monitors
 Ambient Occlusion Proxies
 Ambient Occlusion Proxies Downsample Depth
-Ambient Occlusion Proxies: Texture Barrier
 AmbientOcclusionDepth
 Aname
 Anim
@@ -227,17 +284,25 @@ AnimationList
 AnimationSystemUtils_001
 AnimationSystem_001
 AoProxyDebug
+AppPolicyGetProcessTerminationMethod
 ApplyFog
+April
+AreFileApisANSI
 AssertMsg_ConditionFailed
 AssetBrowserSystem_001
 AssetPreviewSystem_001
 AssetSystem001
 AssetSystemTest001
+August
 AutoLayer
 BC6H
+BC?>6t9^\tc:>
+BF>^G
+BGR101111_UFLOAT
 BGR565
 BGR888
 BGR888_BLUESCREEN
+BGR999_E5
 BGRA1010102
 BGRA4444
 BGRA5551
@@ -281,10 +346,14 @@ CPostProcessRenderer needs to use a layer which has had a render attribute calle
 CRenderingPipelinePostProcess::AddLayersToView expects 'tonemapRenderer' attribute! (Explicitly set to NULL to disable tonemapping.)
 CSchemaRegistration::RegisterAllModuleData
 CSolveIKChainAnimNode
+CTSListBase: Misaligned list\n
+CTSListBase::CTSListBase
 CUtlLeanVectorBase<class std::function<void __cdecl(class ISceneView const *,float,int)>,short>::EnsureCapacity
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<class std::function<void __cdecl(class ISceneView const *,float,int)>,short>,class std::function<void __cdecl(class ISceneView const *,float,int)>,short>::AddToTailGetPtr
 CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
 CUtlMemoryPoolBase::CUtlMemoryPoolBase
+CUtlRBTree overflow with %u elements!\n
+CUtlRBTree<void *,int,bool (__cdecl*)(void * const &,void * const &),class CUtlMemory<struct UtlRBTreeNode_t<void *,int>,int> >::NewNode
 CVrQuadRenderer
 C_INIT_AddVectorToVector
 C_INIT_AgeNoise
@@ -373,9 +442,13 @@ C_OP_TwistAroundAxis
 C_OP_WorldTraceConstraint
 CameraDepth
 Clear Color Depth Stencil
+Clear Color Depth Stencil (Late Depth Prepass)
+Clear Color Depth Stencil for Stencil Pass
+Clear Depth Stencil for Stencil Mask
 ClearHdrBackBuffer
 ClearOutputDepth
 ClearQuadCoverage
+CloseHandle
 ClosedCaption
 ClothShapeCapsule
 ClothShapeList
@@ -390,9 +463,13 @@ ConfigurationSystem_001
 ConnectInterfaces
 CopyHDRBackBuffer
 CopyRefractTexture
+CorExitProcess
 Create PerViewConstantBufferVR_t
+CreateEventW
+CreateFileW
 CreateInterface
 CreatePerViewConstantBuffer
+Creating fragment density map with size: %ux%ux%u (RT: %ux%ux%u)\n
 CustomClearColor
 CycleOverride
 D15S1
@@ -417,24 +494,27 @@ DecalNormals_0.vtex
 DecalVisualisation
 Decals
 Decals (Static and Dynamic)
+December
 Default
 DeferredDynamicDecals
 DeferredMod2x
 DeferredShadingAndLighting
 DeferredShadingAndTransmissiveLighting
 DeferredStaticDecals
+DeleteCriticalSection
 Depth Prepass AlphaTested
 Depth Prepass Large
 Depth Prepass Small
+Depth Un-subsample
 DepthPrePass
 DepthPrePassDecals
 DepthPrePassNormals
 DepthPrepass
-DisableThreadLibraryCalls
 DotaCardGameClient_001
 DownsampleDepth
 DrawDepth Fade
 DrawDepth%s
+Dump FDMs to disk.
 Dynamic AlphaTest Forward
 Dynamic Decals
 Dynamic Opaque Forward
@@ -442,7 +522,7 @@ DynamicAmbientOcclusion
 DynamicConfigList
 DynamicGBuffer
 ERROR! Cannot load RenderingPipelineVrStartup resource manifest for the vr render pipeline!\n
-ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!\n
+ET5>
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EconItemToolModel_001
 EditorDynamicConfig
@@ -450,6 +530,10 @@ EffectsOpaque
 EffectsTranslucent
 EmissiveGBuffer
 EmptyAnim
+Enable for spec-correctness, disable for speed. You shouldn't change this unless you know what you are doing.
+Enable tiler optimizations for eg. Steam Frame.
+Enable use of a fragment density map for foveated rendering
+EncodePointer
 Engine2/RenderingPipeline/AmbientOcclusionProxies
 Engine2/RenderingPipeline/HighPrecisionLighting
 Engine2/RenderingPipeline/OpaqueFade
@@ -458,18 +542,34 @@ Engine2/RenderingPipeline/RetinaBurnFx
 Engine2/RenderingPipeline/SkipPostProcessing
 Engine2/RenderingPipeline/ToolsVisModes
 EngineServiceMgr001
+EnterCriticalSection
 EnvironmentalInteractionLayer
 EventSystem001
+ExitProcess
 FATAL ERROR: unable to register all schema data: %s\n
+FCVAR_NEVER_AS_STRING
+FEMh\f
+February
+FindClose
+FindFirstFileExW
+FindNextFileW
 FixupResourceName: Illegal full path passed in ("%s")!\n
 FixupResourceName: Illegal path, missing extension passed in ("%s")!\n
 FlattenedSerializersVersion001
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushFileBuffers
 FogObjects
 FogVolume
 FogVolumeBackfaces
 FontManager_001
 Forward
 ForwardLightSetup
+FreeEnvironmentStringsW
+FreeLibrary
+Friday
 GBuffer
 GBufferAlbedo
 GBufferDepth
@@ -479,7 +579,6 @@ GBufferSSAOTemp
 GBuffer_Expensive
 GCTL
 GCUtlString::FormatV
-GSFailure
 GameOverlay
 GameResourceServiceClientV001
 GameResourceServiceServerV001
@@ -490,19 +589,41 @@ GameUIService_001
 Gaussian Bloom
 GaussianBloomBlurManifest
 GenericGameData
+GetACP
+GetCPInfo
 GetCPUInformation
+GetCommandLineA
+GetCommandLineW
+GetConsoleMode
+GetConsoleOutputCP
+GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
 GetDefaultMiniDumpTypeFlags
+GetEnvironmentStringsW
+GetFileSizeEx
+GetFileType
+GetLastError
+GetModuleFileNameW
+GetModuleHandleExW
+GetModuleHandleW
+GetOEMCP
+GetProcAddress
+GetProcessHeap
 GetResourceManifestCount
 GetResourceManifests
+GetStartupInfoW
+GetStdHandle
+GetStringTypeW
 GetSystemTimeAsFileTime
 GroundFog
 HDRBloom
 HDRColorBuffer
 HDRColorBufferCopy
 HDRPostProcess
+HH:mm:ss
 HammerMapLoader001
+Hello? Is this thing on?
 HelpSystem_001
 Hologram Depth
 Hologram Fast Fresnel
@@ -516,8 +637,12 @@ IKRig
 IKRigBiped
 IKRigBug
 IKRigSimple
+IND)ind)
+INITY
 IQuickTime001
 IkLockLocal
+InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
 InitializeSListHead
 InnerSky
 InputService_001
@@ -529,6 +654,12 @@ InterlockedFlushSList
 IntermediateOutputColorResolved
 InvalidBubble
 InvokeMiniDumpHandler
+IsDebuggerPresent
+IsProcessorFeaturePresent
+IsValidCodePage
+January
+July
+June
 KERNEL32.dll
 KL2H
 KeyValueCache001
@@ -536,6 +667,9 @@ KeyValuesSystem
 Kick Dependent Views
 Kick Dependent Views View
 Kicks off creation of dependent views early in the frame
+L>ev
+LCMapStringEx
+LCMapStringW
 LE_BGRA8888
 LE_BGRX8888
 LINEAR_ABGR8888
@@ -550,10 +684,14 @@ LINEAR_RGB888
 LINEAR_RGBA16161616
 LINEAR_RGBA8888
 LOG_GENERAL
+LeaveCriticalSection
+Legacy square mode
 LightBinnerVr
 LightSetup
 Lightmaps are out of date !!! - Please re-bake. Rendering as FULLBRIGHT
 LinearDelta
+LoadLibraryExW
+LocaleNameToLCID
 Localize_001
 LockDynamicConstantBuffer failed in CreatePerViewConstantBuffer!!!\n
 LoggingSystem_IsChannelEnabled
@@ -561,10 +699,14 @@ LoggingSystem_Log
 LoggingSystem_RegisterLoggingChannel
 LrwcE
 MATCHFRAMEWORK_001
+MM/dd/yy
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
 MSAA Resolve
+MSAA Resolve (Programmable)
 MapListService_001
+March
+Mask the wipe effect with a depth-tested re-draw of the no-wipe geometry instead of stencil, so LRZ stays enabled.
 MaterialSystem2/ShaderIDColors
 MaterialUtils_001
 MathLib_Init
@@ -572,7 +714,11 @@ MbP?
 MeshSystem001
 MeshUtils001
 ModelDocUtils001
+Monday
 Monitor
+MultiByteToWideChar
+NAN(IND)
+NAN(SNAN)
 NV_DST16
 NV_DST24
 NV_INTZ
@@ -587,11 +733,16 @@ NetworkService_001
 NetworkSystemUtilsVersion001
 NetworkSystemVersion001
 No-Wipe Alpha Test Forward
+No-Wipe Alpha Test Restore
 No-Wipe Opaque Forward
+No-Wipe Opaque Restore
 NoDecalGBuffer
 NoOpPostprocess
 NoPoseControl
+November
+OZQ%
 OcclusionQueryIssueLayer
+October
 Offset
 Opaque
 OpaqueForward
@@ -604,6 +755,7 @@ OvertopMenuForward
 OvertopMenuLightBinnerVr
 OvertopMenuRender
 OvertopMenuRendererTemplate
+P6\n%u %u\n255\n
 PARTICLE_DEPTH_FEATHERING_OFF
 PARTICLE_DEPTH_FEATHERING_ON_OPTIONAL
 PARTICLE_SET_REPLACE_VALUE
@@ -689,6 +841,7 @@ RG1616
 RG1616F
 RG1616F_EXPAND
 RG3232F
+RG88
 RGB323232F
 RGB565
 RGB888
@@ -707,18 +860,21 @@ RGBA8888
 RGBA8888_LINEAR
 RGBX555
 RGBX8888
-RSDS
+RSDScK
+R\fpd"
 RaiseException
 RandomFloat
+ReadConsoleW
+ReadFile
 ReflectionTemplate
 ReflexSightsLayer
 RegisterConfigValue: Unknown error constructing config value "%s"!\n
 RegisterStringToken
 Release
-ReleaseSRWLockExclusive
 RemoveBoneAndChildren
 RenderDevice003
 RenderDeviceMgr001
+RenderEmbeddedView: VR3DSkyboxView
 RenderHardwareConfig002
 RenderMeshFile
 RenderPipelineAliases
@@ -739,6 +895,7 @@ RenderingPipelineVrManifestDeveloperModeOnly
 RenderingPipelineVrRetinaBurnManifest
 RenderingPipelineVrStartup
 RenderingPipelines_001
+ResetEvent
 ResolveDepth
 ResourceCompilerSystem001
 ResourceHandleUtils001
@@ -749,12 +906,19 @@ RetinaBurnCapture1
 RetinaBurnRt0
 RetinaBurnRt1
 RetinaBurnSplat
+RtlCaptureContext
+RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
+RtlVirtualUnwind
 S+Ot
+S9>H
+SNAN)
 SSAO
 SSAOBlurH
 SSAOBlurV
+SSE and SSE2 are required.
+Saturday
 SceneSystem/DisableShadowFullSort
 SceneSystem/EnvironmentalInteraction
 SceneSystem/VrDefaultShadowTextureHeight
@@ -770,14 +934,24 @@ ScreenSpaceReflections
 ScreenSpaceReflectionsManifest
 ScreenSpaceReflectionsRenderer
 ScreenSpaceTranslucent
+September
 SequenceMarkup
 SequenceMarkupList
 SerializedEntitiesVersion001
 ServerUploadGameStats001
-ShadowMap Texture Barrier
+Set the foveation level
+Set whether to use square or radial foveation
+SetEndOfFile
+SetEvent
+SetFilePointerEx
+SetLastError
+SetStdHandle
+SetUnhandledExceptionFilter
 ShadowTemplate
 ShadowVisLayer
-SleepConditionVariableSRW
+Should we use biplanar for seamless texturing on eg. xen foliage? This was an experiment that proved to not be necessary once we did conditional sampling for triplanar.
+ShouldDisableVolumeFogWhenYouSeeTheSky Info\n
+SleepConditionVariableCS
 SlimDeferred
 SmoothLoop
 SoundOpSystem001
@@ -803,6 +977,9 @@ Static World Overlays
 StatsService_001
 SteamAudio001
 Subtract
+Sunday
+TUUUU
+TerminateProcess
 TestFormatA
 TestFormatB
 TestFormatC
@@ -811,6 +988,11 @@ TestFormatE
 TestScriptMgr001
 TextLayout_001
 TextMessageMgr_001
+Thursday
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
 Tonemap
 TonemapManifest
 ToolFramework2_002
@@ -865,14 +1047,24 @@ Translucent Forward
 Translucent No-Wipe
 TranslucentDebugDraw
 TranslucentViewModel
+Tuesday
+Tune the foveated inner region size (radial only)
+Tune the foveated minimum value (radial only)
+Tune the foveated outer region size (radial only)
 Two Bone
 UNKNOWN
+UTF-16LEUNICODE
+UTF-8
+UUUUUU
 UV88
 UVLX8888
 UVWQ8888
+UnhandledExceptionFilter
+Unknown exception
 Unsupported MSAA sample count for custom MSAA resolve\n
 Update PerViewConstantBufferVR_t (%s)
 Use compute shaders for bloom on Vulkan
+Use subsampled rendering with FDM.
 UserInfoChangeService_001
 VApplication001
 VAvi001
@@ -910,7 +1102,6 @@ VScriptDbg
 VScriptManager010
 VStringTokenSystem001
 V_GetFileExtension
-V_GetRtSupportFunctions
 V_IsAbsolutePath
 V_RemoveDotSlashes
 V_UTF16ToUTF8
@@ -957,6 +1148,7 @@ VrWriteStencilMaskRightEye
 VrWriteSubviewStencilMaskLeftEye
 VrWriteSubviewStencilMaskRightEye
 WARNING: Trying to create a CRenderContextPtr without a valid context.\n
+WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning
 Warning:  %s = '%s' is infinite, clamping value.\n
@@ -965,7 +1157,10 @@ WaterSurface
 WaterSurfaceGBuffer
 WaterSurfaceGBuffer2
 WaterSurfaceStencil
+Wednesday
 WeightList
+What maps should we disable volume fog on if we see the sky?
+WideCharToMultiByte
 Wipe
 Wireframe Decal
 Wireframe Opaque
@@ -973,13 +1168,78 @@ Wireframe Translucent
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
+WriteConsoleW
+WriteFile
+X/4B
 X360_DST16
 X360_DST24
 X360_DST24F
+[aOni*{
 \nCwf\r
+\tActive: %s\n
+\tCurrent Map: %s\n
+\tList of maps affected:\n
+\tNot in VR!\n
+\tcQr
+\tkE>fvw
+^<V7w
+_RDATA
+_V_strncmp
 _V_strncpy
+_V_strnicmp_fast
+__based(
+__cdecl
+__clrcall
+__eabi
+__fastcall
+__pascal
+__ptr64
+__restrict
+__stdcall
+__swift_1
+__swift_2
+__thiscall
+__unaligned
+__vectorcall
 _class
 _test_conversion_counter
+`RTTI
+`anonymous namespace'
+`copy constructor closure'
+`default constructor closure'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector constructor iterator'
+`eh vector copy constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`eh vector vbase copy constructor iterator'
+`local static guard'
+`local static thread guard'
+`local vftable constructor closure'
+`local vftable'
+`managed vector constructor iterator'
+`managed vector copy constructor iterator'
+`managed vector destructor iterator'
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`scalar deleting destructor'
+`string'
+`typeof'
+`udt returning'
+`vbase destructor'
+`vbtable'
+`vcall'
+`vector constructor iterator'
+`vector copy constructor iterator'
+`vector deleting destructor'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`vector vbase copy constructor iterator'
+`vftable'
+`virtual displacement map'
+abcdefghijklmnopqrstuvwxyz
 ai_model_info
 allowstatic
 anchor_angles
@@ -997,6 +1257,8 @@ attachment_offset
 attachment_type
 auto_unragdoll_duration
 bUpdate
+bad array new length
+bad exception
 blendamount
 blockLOS
 body_type
@@ -1016,7 +1278,9 @@ c:\buildslave\hlvr_rel_win64\build\src\interfaces\interfaces.cpp
 c:\buildslave\hlvr_rel_win64\build\src\mathlib\mathlib.cpp
 c:\buildslave\hlvr_rel_win64\build\src\public\ordered_constructor.h
 c:\buildslave\hlvr_rel_win64\build\src\public\scenesystem\vertexformat.h
+c:\buildslave\hlvr_rel_win64\build\src\public\tier0\tslist.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlleanvector.h
+c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlrbtree.h
 c:\buildslave\hlvr_rel_win64\build\src\renderingpipelines\Retail\win64\renderingpipelines.pdb
 c:\buildslave\hlvr_rel_win64\build\src\renderingpipelines\gaussian_bloom_blur.cpp
 c:\buildslave\hlvr_rel_win64\build\src\renderingpipelines\postprocess.cpp
@@ -1045,7 +1309,9 @@ collision_prop
 composite
 control_point
 create_particle
+d8L2
 damage
+dddd, MMMM dd, yyyy
 debris
 default
 degrees to add to fov to compensate for just-in-time HMD
@@ -1058,6 +1324,9 @@ dmg.explosive
 dmg.fire
 duration
 dynamic_interaction
+e+000
+eF>t
+eLK(w
 emitFromWorld
 enable_limit
 error
@@ -1074,6 +1343,15 @@ faceMergeAngle
 false
 fogAccumulation
 force
+fove_dump
+fove_level
+fove_radial_inner
+fove_radial_min
+fove_radial_outer
+fove_radial_outer_only
+fove_square
+fove_square_use_legacy
+foveated_fdm_texture_%d_%d_%d
 frame
 friction
 fullsort the opaque pass when there wasn't a depth prepass
@@ -1083,6 +1361,8 @@ game_keys
 generic
 glow
 gravity
+guasssianbloomblurrenderer_reflection_mip_%d_%d
+h0'D
 handindex
 headtype
 health
@@ -1091,21 +1371,29 @@ hurt_me
 hurt_them
 ikdata
 ikrig
+inity
 intermediate_color_stereo_rt
+intermediate_depth_stereo_resolve_rt
 intermediate_depth_stereo_rt
+invalid stof argument
+invalid stoi argument
 invalid_parameter
 invert_orientation
 is_debris
+k=yI
 last_sniff
 lcQe
 length
 lockRotationAlpha
+log10
 loop
 loop_break_on_damage
 loop_break_on_flashlight
 loop_in_action
 looping
+mG4>
 mXr4
+m\nXo
 m_Bone
 m_ChainData
 m_Children
@@ -1256,6 +1544,7 @@ materials/dev/post_process.vmat
 materials/dev/retina_burn_capture.vmat
 materials/dev/screenspacereflectionblur.vmat
 materials/dev/screenspacereflections.vmat
+materials/dev/unsubsample.vmat
 materials/dev/visualize_depth.vmat
 materials/dev/visualize_quad_overdraw.vmat
 materials/rendertargetops/bilateral_blur_horz.vmat
@@ -1302,16 +1591,25 @@ modeldoc7
 modeldoc8
 modeldoc9
 multiplayer_break
-n\f"pA3Q(
+n03>Pu
+n\f"pA3Qx
+nan(ind)
+nan(snan)
 nav_attribute_avoid
 nav_data
 numsegments
+obwQ4
+operator
+operator "" 
+operator co_await
+operator<=>
 origin_max_delta
 origin_relative
 outputColor
 outputDepth
 overlay
 overrideIntermediateColor
+owM&
 parent_bone
 particle
 particles/
@@ -1334,6 +1632,9 @@ prop_data
 purecall
 quad_coverage.vtex
 quad_coverage_lock.vtex
+r<}\v<}\v<}\v<}\v
+r\tVr.>T
+r\vpd"
 r_bloom_compute
 r_cubemap_debug_colors
 r_deferred_cubemap_diffuse
@@ -1369,6 +1670,7 @@ r_vr_3d_skybox
 r_vr_3d_skybox_depth_prepass
 r_vr_3d_skybox_depth_prepass_cull_threshold
 r_vr_overtop_menu
+radial
 radius
 radius0
 radius1
@@ -1378,6 +1680,7 @@ relative_angles
 relative_origin
 renderingpipelines
 renderingpipelines.dll
+restrict(
 retina_burn_rt_0.vtex
 retina_burn_rt_1.vtex
 rootNode
@@ -1391,14 +1694,20 @@ sequence_name
 sequence_number
 shapeType
 size
+snan)
 source_filename
 spawn_motion_disabled
 speed
+square
+square_legacy
 ssaoBlurTemp1
 ssaoBlurTemp2
+stof argument out of range
+stoi argument out of range
 stop_immediately
 stop_instantly
 stop_on_seq_change
+string too long
 suppress
 surface_prop
 test_angles_relative
@@ -1412,10 +1721,14 @@ texturescale
 tier0.dll
 true
 turn_rate
+ultra
 uniform_burst
 use_additional_offset
+uzKs@>
+v2!L.2
 value
 vanmgrph
+vector too long
 vmdl
 vmdlkeys0
 vmdlkeys1
@@ -1460,15 +1773,25 @@ vr_decal_debug
 vr_depth_prepass
 vr_depth_prepass_alphatested
 vr_depth_prepass_cull_threshold
+vr_directional_lightmaps
 vr_enable_cubemap_fog
+vr_enable_depth_resolve
 vr_enable_glows
 vr_enable_gradient_fog
 vr_enable_high_precision_lighting
 vr_enable_tonemapping
 vr_enable_translucent_screen_space
 vr_enable_volume_fog
+vr_enable_volume_fog_only_when_no_sky
+vr_enable_volume_fog_only_when_no_sky_test
+vr_enable_volume_fog_skybox
 vr_expand_cull_frustum
 vr_fast_hologram
+vr_fdm
+vr_hidden_pixels_use_depth
+vr_hologram_depth
+vr_hologram_fresnel
+vr_hologram_wireframe
 vr_kick_dependent_views_early
 vr_monitor_bloom
 vr_postprocess_enable
@@ -1479,16 +1802,22 @@ vr_render_opaque
 vr_render_opaque_notzprepassed
 vr_render_overlays
 vr_render_refraction
+vr_render_subsampled
+vr_render_subsampled_depth
+vr_render_tiler_mode
 vr_render_translucent
 vr_shadows_debug
 vr_stencil_debug
 vr_stencil_hidden_pixels
 vr_stencil_postprocessing
+vr_symmetric_fov
 vr_translucent_screen_space_downres
+vr_use_biplanar_seamless
 vr_use_fullsort_for_opaque
 vr_use_invalid_bubble
 vr_warp
 vr_warp_debug
+vr_wipe_use_depth
 vsnap
 vstdlib.dll
 width

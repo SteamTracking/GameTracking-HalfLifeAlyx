@@ -1,23 +1,19 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Music.a3_processing_vort_base = 
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "LoudMusic"
-		volume = 1.600000
-		volume_falloff_curve_amount = 0.900000
-		volume_falloff_min = 60.000000
-		volume_falloff_max = 650.000000
-		occlusion_scale = 0.400000
-		position = 
-		[
-			2114.000000,
-			-1200.000000,
-			788.000000,
-		]
+		volume = 1.6
+		volume_falloff_curve_amount = 0.9
+		volume_falloff_min = 60.0
+		volume_falloff_max = 650.0
+		occlusion_scale = 0.4
+		position = [ 2114.0, -1200.0, 788.0 ]
 		use_world_position = true
-		use_hrtf = 1.000000
-		enable_debug_radius = 0.000000
-		distance_max_velocity = 100.000000
+		use_hrtf = 1.0
+		enable_debug_radius = 0.0
+		distance_max_velocity = 100.0
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_01.vsnd",
@@ -26,12 +22,7 @@
 	Music.a3_processing_vort_01 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			63.600000,
-			-1528.780000,
-			933.240000,
-		]
+		position = [ 63.6, -1528.78, 933.24 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_01.vsnd",
@@ -40,12 +31,7 @@
 	Music.a3_processing_vort_02 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			112,
-			-1533.970000,
-			933.240000,
-		]
+		position = [ 112, -1533.97, 933.24 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_02.vsnd",
@@ -54,12 +40,7 @@
 	Music.a3_processing_vort_03 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			176,
-			-1568,
-			912,
-		]
+		position = [ 176, -1568, 912 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_03.vsnd",
@@ -68,12 +49,7 @@
 	Music.a3_processing_vort_04 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			83.461500,
-			-1520,
-			841.795000,
-		]
+		position = [ 83.4615, -1520, 841.795 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_04.vsnd",
@@ -82,12 +58,7 @@
 	Music.a3_processing_vort_05 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			144.224000,
-			-1540.750000,
-			865.504000,
-		]
+		position = [ 144.224, -1540.75, 865.504 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_05.vsnd",
@@ -96,12 +67,7 @@
 	Music.a3_processing_vort_06 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			204.016000,
-			-1551.960000,
-			851.903000,
-		]
+		position = [ 204.016, -1551.96, 851.903 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_06.vsnd",
@@ -110,12 +76,7 @@
 	Music.a3_processing_vort_07 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			60.187600,
-			-1544.350000,
-			775.525000,
-		]
+		position = [ 60.1876, -1544.35, 775.525 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_07.vsnd",
@@ -124,12 +85,7 @@
 	Music.a3_processing_vort_08 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			108.387000,
-			-1521.520000,
-			763.098000,
-		]
+		position = [ 108.387, -1521.52, 763.098 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_08.vsnd",
@@ -138,12 +94,7 @@
 	Music.a3_processing_vort_09 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			176.149000,
-			-1573.680000,
-			774.725000,
-		]
+		position = [ 176.149, -1573.68, 774.725 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_09.vsnd",
@@ -152,12 +103,7 @@
 	Music.a3_processing_vort_10 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			303.722000,
-			-1569.160000,
-			756.645000,
-		]
+		position = [ 303.722, -1569.16, 756.645 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_10.vsnd",
@@ -166,12 +112,7 @@
 	Music.a3_processing_vort_11 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			74.832600,
-			-1532.120000,
-			661.228000,
-		]
+		position = [ 74.8326, -1532.12, 661.228 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_01.vsnd",
@@ -183,12 +124,7 @@
 	Music.a3_processing_vort_12 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			144.363000,
-			-1533.570000,
-			697.015000,
-		]
+		position = [ 144.363, -1533.57, 697.015 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_07.vsnd",
@@ -200,12 +136,7 @@
 	Music.a3_processing_vort_13 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			204.284000,
-			-1569.650000,
-			680.076000,
-		]
+		position = [ 204.284, -1569.65, 680.076 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_01.vsnd",
@@ -223,12 +154,7 @@
 	Music.a3_processing_vort_14 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			272.220000,
-			-1587.480000,
-			682.095000,
-		]
+		position = [ 272.22, -1587.48, 682.095 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_01.vsnd",
@@ -246,12 +172,7 @@
 	Music.a3_processing_vort_15 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			110.916000,
-			-1517.290000,
-			604.487000,
-		]
+		position = [ 110.916, -1517.29, 604.487 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_01.vsnd",
@@ -269,12 +190,7 @@
 	Music.a3_processing_vort_16 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			173.376000,
-			-1497.670000,
-			611.099000,
-		]
+		position = [ 173.376, -1497.67, 611.099 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_01.vsnd",
@@ -292,12 +208,7 @@
 	Music.a3_processing_vort_17 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			236.294000,
-			-1544.060000,
-			580.997000,
-		]
+		position = [ 236.294, -1544.06, 580.997 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_01.vsnd",
@@ -315,12 +226,7 @@
 	Music.a3_processing_vort_18 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			292.080000,
-			-1514.560000,
-			604.394000,
-		]
+		position = [ 292.08, -1514.56, 604.394 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_01.vsnd",
@@ -338,12 +244,7 @@
 	Music.a3_processing_vort_19 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			47.665400,
-			-1635.960000,
-			613.860000,
-		]
+		position = [ 47.6654, -1635.96, 613.86 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_01.vsnd",
@@ -361,12 +262,7 @@
 	Music.a3_processing_vort_20 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			38.791800,
-			-1572.040000,
-			607.222000,
-		]
+		position = [ 38.7918, -1572.04, 607.222 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_01.vsnd",
@@ -384,12 +280,7 @@
 	Music.a3_processing_vort_21 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			35.629800,
-			-1508.270000,
-			601.698000,
-		]
+		position = [ 35.6298, -1508.27, 601.698 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_01.vsnd",
@@ -408,19 +299,14 @@
 	{
 		type = "hlvr_start_arrangement"
 		arrangement = "a3_processing_vort_21_lp01_arr"
-		arrangement_volume = 1.000000
+		arrangement_volume = 1.0
 		quantize_type = "reset"
-		bpm = 77.000000
+		bpm = 77.0
 	}
 	Music.a3_processing2_vort_01 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			556.465000,
-			-2478.290000,
-			793.648000,
-		]
+		position = [ 556.465, -2478.29, 793.648 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_01.vsnd",
@@ -429,12 +315,7 @@
 	Music.a3_processing2_vort_02 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			496.175000,
-			-2469.290000,
-			792.047000,
-		]
+		position = [ 496.175, -2469.29, 792.047 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_02.vsnd",
@@ -443,12 +324,7 @@
 	Music.a3_processing2_vort_03 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			436.158000,
-			-2480.780000,
-			795.715000,
-		]
+		position = [ 436.158, -2480.78, 795.715 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_03.vsnd",
@@ -457,12 +333,7 @@
 	Music.a3_processing2_vort_04 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			523.818000,
-			-2485.570000,
-			711.407000,
-		]
+		position = [ 523.818, -2485.57, 711.407 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_04.vsnd",
@@ -471,12 +342,7 @@
 	Music.a3_processing2_vort_05 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			463.952000,
-			-2504.310000,
-			719.627000,
-		]
+		position = [ 463.952, -2504.31, 719.627 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_05.vsnd",
@@ -485,12 +351,7 @@
 	Music.a3_processing2_vort_06 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			556.216000,
-			-2493.590000,
-			618.182000,
-		]
+		position = [ 556.216, -2493.59, 618.182 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_06.vsnd",
@@ -499,12 +360,7 @@
 	Music.a3_processing2_vort_07 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			495.246000,
-			-2497.090000,
-			624.521000,
-		]
+		position = [ 495.246, -2497.09, 624.521 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_07.vsnd",
@@ -513,12 +369,7 @@
 	Music.a3_processing2_vort_08 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			436.064000,
-			-2478.990000,
-			619.871000,
-		]
+		position = [ 436.064, -2478.99, 619.871 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_08.vsnd",
@@ -527,12 +378,7 @@
 	Music.a3_processing2_vort_09 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			523.971000,
-			-2482.010000,
-			530.217000,
-		]
+		position = [ 523.971, -2482.01, 530.217 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_09.vsnd",
@@ -541,12 +387,7 @@
 	Music.a3_processing2_vort_10 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			463.762000,
-			-2501.630000,
-			544.497000,
-		]
+		position = [ 463.762, -2501.63, 544.497 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_10.vsnd",
@@ -555,12 +396,7 @@
 	Music.a3_processing2_vort_11 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			556.938000,
-			-2484.100000,
-			432.373000,
-		]
+		position = [ 556.938, -2484.1, 432.373 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_01.vsnd",
@@ -572,12 +408,7 @@
 	Music.a3_processing2_vort_12 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			495.489000,
-			-2496,
-			445.008000,
-		]
+		position = [ 495.489, -2496, 445.008 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_07.vsnd",
@@ -589,12 +420,7 @@
 	Music.a3_processing2_vort_13 = 
 	{
 		base = "Music.a3_processing_vort_base"
-		position = 
-		[
-			436.265000,
-			-2495.850000,
-			444.122000,
-		]
+		position = [ 436.265, -2495.85, 444.122 ]
 		vsnd_files = 
 		[
 			"sounds/music/places/vault/vort2_01.vsnd",
@@ -613,9 +439,9 @@
 	{
 		type = "hlvr_start_arrangement"
 		arrangement = "a3_processing2_vort_13_lp01_arr"
-		arrangement_volume = 1.000000
+		arrangement_volume = 1.0
 		quantize_type = "reset"
-		bpm = 117.000000
+		bpm = 117.0
 	}
 	Music.a4_processing_tripmines = 
 	{
@@ -623,56 +449,31 @@
 		track = "main"
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				30.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				30.0, 0.7, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				70.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				70.0, 0.5, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				100.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				100.0, 0.7, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				130.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				130.0, 0.5, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 70
 		volume_fade_over_time_loop_end = 130
-		volume = 0.750000
-		volume_fade_out = 5.000000
+		volume = 0.75
+		volume_fade_out = 5.0
 		restart_time = 100
 		vsnd_files = 
 		[
@@ -682,54 +483,34 @@
 	Music.ProcessingCombine01 = 
 	{
 		type = "hlvr_music_2d"
-		use_combat_music_convar = 1.000000
+		use_combat_music_convar = 1.0
 		track = "main"
 		priority = 0
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				20.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				20.0, 1.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				30.000000,
-				0.850000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				30.0, 0.85, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				90.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				90.0, 0.7, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
-		volume = 0.750000
-		volume_fade_out = 5.000000
-		restart_time = 102.295000
-		restart_start = 3.934000
+		volume = 0.75
+		volume_fade_out = 5.0
+		restart_time = 102.295
+		restart_start = 3.934
 		start_point = 0
-		end_point = 102.295000
+		end_point = 102.295
 		sync_bpm = 122
 		sync_bpm_beats = 4
 		vsnd_files = 
@@ -740,17 +521,17 @@
 	Music.ProcessingCombineInter = 
 	{
 		type = "hlvr_music_2d"
-		use_combat_music_convar = 1.000000
+		use_combat_music_convar = 1.0
 		track = "main"
 		priority = 1
-		volume = 1.000000
-		volume_fade_out = 4.000000
+		volume = 1.0
+		volume_fade_out = 4.0
 		start_point = 0
-		end_point = 101.605000
+		end_point = 101.605
 		sync_bpm = 137
 		sync_bpm_beats = 4
-		restart_time = 15.737000
-		restart_start = 9.320000
+		restart_time = 15.737
+		restart_start = 9.32
 		vsnd_files = 
 		[
 			"sounds/music/places/c17/combine_battle_inter_03.vsnd",
@@ -759,55 +540,35 @@
 	Music.ProcessingCombine02 = 
 	{
 		type = "hlvr_music_2d"
-		use_combat_music_convar = 1.000000
+		use_combat_music_convar = 1.0
 		track = "main"
 		priority = 3
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				20.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				20.0, 1.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				30.000000,
-				0.600000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				30.0, 0.6, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				90.000000,
-				0.400000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				90.0, 0.4, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
-		volume = 0.750000
-		volume_fade_out = 8.000000
+		volume = 0.75
+		volume_fade_out = 8.0
 		start_point = 0
-		end_point = 98.360000
+		end_point = 98.36
 		sync_bpm = 122
 		sync_bpm_beats = 4
-		stop_at_time = 130.000000
+		stop_at_time = 130.0
 		vsnd_files = 
 		[
 			"sounds/music/places/c17/combine_battle_03.vsnd",

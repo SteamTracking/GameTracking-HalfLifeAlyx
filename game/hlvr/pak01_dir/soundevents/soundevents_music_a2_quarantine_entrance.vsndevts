@@ -1,55 +1,31 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Music.a2_entrance_gate_intro = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.650000
-		delay = 0.500000
+		volume = 0.65
+		delay = 0.5
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				11.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				11.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				15.000000,
-				0.650000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				15.0, 0.65, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				26.000000,
-				0.650000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				26.0, 0.65, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				34.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				34.0, 1.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		vsnd_files = 
@@ -60,7 +36,7 @@
 	Music.a2_entrance_approach_gate = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.875000
+		volume = 0.875
 		volume_fade_in = 2
 		vsnd_files = 
 		[
@@ -70,7 +46,7 @@
 	Music.a2_entrance_battery_placed = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = 
 		[
 			"sounds/common/null.wav",
@@ -79,7 +55,7 @@
 	Music.a2_entrance_pre_gate_opened_lp = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.300000
+		volume = 0.3
 		vsnd_files = 
 		[
 			"sounds/common/null.wav",
@@ -90,17 +66,17 @@
 		type = "hlvr_start_multi_sequence_simple"
 		soundevent_01 = "Music.a2_entrance_gate_opened_child"
 		soundevent_02 = "Music.a2_entrance_approach_opened_gate_lp_child"
-		use_01 = 1.000000
+		use_01 = 1.0
 		use_02 = 1
 		wait_01 = 1
 		wait_02 = 12
-		use_03 = 0.000000
-		use_04 = 0.000000
+		use_03 = 0.0
+		use_04 = 0.0
 	}
 	Music.a2_entrance_gate_opened_child = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
+		volume = 0.7
 		stop_at_time = 11
 		volume_fade_out = 4
 		vsnd_files = 
@@ -111,41 +87,26 @@
 	Music.a2_entrance_approach_opened_gate_lp_child = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.800000
-		volume_fade_out = 2.000000
+		volume = 0.8
+		volume_fade_out = 2.0
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				0.600000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 0.6, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				6.000000,
-				0.800000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				6.0, 0.8, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				25.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				25.0, 0.7, 0.0, 0.0,
+				1.0, 1.0,
 			],
 		]
 		track = "music"
 		priority = 0
-		restart_time = 118.153000
+		restart_time = 118.153
 		vsnd_files = 
 		[
 			"sounds/music/places/trains/a2_entrance_opened_gate.vsnd",
@@ -164,17 +125,17 @@
 		type = "hlvr_start_multi_sequence_simple"
 		soundevent_01 = "Music.a2_entrance_xengene_lp_01_child"
 		soundevent_02 = "Music.a2_entrance_xen_dna"
-		use_01 = 1.000000
-		wait_01 = 2.400000
+		use_01 = 1.0
+		wait_01 = 2.4
 		use_02 = 1
 	}
 	Music.a2_entrance_xengene_lp_01_child = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.450000
-		volume_fade_in = 0.300000
-		volume_fade_out = 25.000000
-		restart_time = 66.923000
+		volume = 0.45
+		volume_fade_in = 0.3
+		volume_fade_out = 25.0
+		restart_time = 66.923
 		track = "music"
 		voice_layer = "async_load"
 		should_pause = 0
@@ -187,7 +148,7 @@
 	Music.a2_entrance_xen_dna = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.450000
+		volume = 0.45
 		vsnd_files = 
 		[
 			"sounds/music/places/trains/a2_entrance_xen_dna.vsnd",

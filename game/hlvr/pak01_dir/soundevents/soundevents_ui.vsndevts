@@ -1,16 +1,17 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	PanoUI.Appear = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.250000
+		volume = 0.25
 		mixgroup = "UI"
-		enable_debug_radius = 0.000000
-		debug_radius_max = 50.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 200.000000
-		spread_min = 36.000000
-		spread_max = 80.000000
-		use_hrtf = 1.000000
+		enable_debug_radius = 0.0
+		debug_radius_max = 50.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 200.0
+		spread_min = 36.0
+		spread_max = 80.0
+		use_hrtf = 1.0
 		voice_layer = "ui"
 		should_pause = false
 		vsnd_files = 
@@ -29,7 +30,7 @@
 	PanoUI.AffirmLg = 
 	{
 		base = "PanoUI.Appear"
-		volume = 0.200000
+		volume = 0.2
 		vsnd_files = 
 		[
 			"sounds/ui/pano_ui_affirm_lg_01.vsnd",
@@ -38,7 +39,7 @@
 	PanoUI.Rollover = 
 	{
 		base = "PanoUI.Appear"
-		volume = 0.070000
+		volume = 0.07
 		vsnd_files = 
 		[
 			"sounds/ui/pano_ui_rollover_01.vsnd",
@@ -55,8 +56,8 @@
 	PanoUI.ToggleOption = 
 	{
 		base = "PanoUI.Appear"
-		volume = 0.200000
-		pitch = 1.000000
+		volume = 0.2
+		pitch = 1.0
 		vsnd_files = 
 		[
 			"sounds/ui/pano_ui_toggle_01.vsnd",
@@ -73,7 +74,7 @@
 	PanoUI.SelectPositive = 
 	{
 		base = "PanoUI.Appear"
-		volume = 0.200000
+		volume = 0.2
 		vsnd_files = 
 		[
 			"sounds/ui/pano_ui_select_01.vsnd",
@@ -106,7 +107,7 @@
 	CraftingUI.Appear = 
 	{
 		base = "PanoUI.Appear"
-		volume = 0.300000
+		volume = 0.3
 		vsnd_files = 
 		[
 			"sounds/ui/combine_machines_crafting_ui_appear_01.vsnd",
@@ -147,7 +148,7 @@
 	DossierUI.Line01 = 
 	{
 		base = "PanoUI.Appear"
-		volume = 0.300000
+		volume = 0.3
 		vsnd_files = 
 		[
 			"sounds/ui/ui_dossier_text_line_01.vsnd",
@@ -156,7 +157,7 @@
 	DossierUI.Line02 = 
 	{
 		base = "DossierUI.Line01"
-		volume = 0.300000
+		volume = 0.3
 		vsnd_files = 
 		[
 			"sounds/ui/ui_dossier_text_line_02.vsnd",
@@ -165,7 +166,7 @@
 	DossierUI.Line03 = 
 	{
 		base = "DossierUI.Line01"
-		volume = 0.300000
+		volume = 0.3
 		vsnd_files = 
 		[
 			"sounds/ui/ui_dossier_text_line_03.vsnd",
@@ -174,7 +175,7 @@
 	DossierUI.IntroLine01 = 
 	{
 		base = "DossierUI.Line01"
-		volume = 0.300000
+		volume = 0.3
 		vsnd_files = 
 		[
 			"sounds/ui/ui_dossier_intro_text_line_01.vsnd",
@@ -183,7 +184,7 @@
 	DossierUI.IntroLine02 = 
 	{
 		base = "DossierUI.Line01"
-		volume = 0.300000
+		volume = 0.3
 		vsnd_files = 
 		[
 			"sounds/ui/ui_dossier_intro_text_line_02.vsnd",
@@ -192,7 +193,7 @@
 	DossierUI.IntroLine03 = 
 	{
 		base = "DossierUI.Line01"
-		volume = 0.300000
+		volume = 0.3
 		vsnd_files = 
 		[
 			"sounds/ui/ui_dossier_intro_text_line_03.vsnd",
@@ -201,7 +202,7 @@
 	DossierUI.MissionFailureLine01 = 
 	{
 		base = "DossierUI.Line01"
-		volume = 0.300000
+		volume = 0.3
 		vsnd_files = 
 		[
 			"sounds/ui/ui_dossier_mission_failure_text_line_01.vsnd",
@@ -210,7 +211,7 @@
 	DossierUI.MissionFailureLine02 = 
 	{
 		base = "DossierUI.Line01"
-		volume = 0.300000
+		volume = 0.3
 		vsnd_files = 
 		[
 			"sounds/ui/ui_dossier_mission_failure_text_line_02.vsnd",
@@ -219,7 +220,7 @@
 	DossierUI.MissionFailureLine03 = 
 	{
 		base = "DossierUI.Line01"
-		volume = 0.300000
+		volume = 0.3
 		vsnd_files = 
 		[
 			"sounds/ui/ui_dossier_mission_failure_text_line_03.vsnd",
@@ -228,20 +229,15 @@
 	CreditsUI.NamesIn = 
 	{
 		base = "PanoUI.Appear"
-		position = 
-		[
-			0.000000,
-			1150.000000,
-			-1380.000000,
-		]
+		position = [ 0.0, 1150.0, -1380.0 ]
 		use_world_position = true
-		volume = 0.700000
-		volume_fade_out = 0.500000
-		volume_falloff_min = 9999.000000
-		volume_falloff_max = 9999.000000
-		spread_min = 36.000000
-		spread_max = 200.000000
-		enable_debug_radius = 0.000000
+		volume = 0.7
+		volume_fade_out = 0.5
+		volume_falloff_min = 9999.0
+		volume_falloff_max = 9999.0
+		spread_min = 36.0
+		spread_max = 200.0
+		enable_debug_radius = 0.0
 		soundname_string = "NamesIn"
 		vsnd_files = 
 		[
@@ -260,7 +256,7 @@
 	HLVR.KnockKnock = 
 	{
 		base = "PanoUI.Appear"
-		volume = 0.200000
+		volume = 0.2
 		vsnd_files = 
 		[
 			"sounds/ui/pano_ui_toggle_01.vsnd",

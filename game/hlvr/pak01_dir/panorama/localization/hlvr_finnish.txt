@@ -1,0 +1,685 @@
+"lang" 
+{ 
+"Language" "finnish" 
+"Tokens" 
+{ 
+
+// main menu
+"HLVR_MainMenu_NewGame"						"Start New Game"
+"HLVR_MainMenu_Continue"					"Jatka"
+"HLVR_MainMenu_LoadGame"					"Lataa tallennettu peli"
+"HLVR_MainMenu_Quit"							"Lopeta peli"
+"HLVR_MainMenu_Options"						"Asetukset"
+"HLVR_MainMenu_PhotoMode"					"Kuvatila"
+"HLVR_MainMenu_SelectChapter"			"Valitse luku"
+"HLVR_MainMenu_Back"							"Takaisin"
+
+"HLVR_MainMenu_MainMenu"					"Päävalikko"
+"HLVR_MainMenu_Resume"						"Jatka"
+"HLVR_MainMenu_Save"  						"Tallenna"
+"HLVR_MainMenu_Load"  						"Lataa"
+"HLVR_MainMenu_SavedGames"				"Pelit"
+"HLVR_MainMenu_StartNewGame"	  	"Aloita uusi peli"
+"HLVR_MainMenu_StartGame"	  			"Aloita peli"
+"HLVR_MainMenu_StartGameNoAddon"	  	"Aloita peli ilman lisäosia"
+"HLVR_MainMenu_StartGameAddon"	  	"Aloita peli lisäosilla"
+"HLVR_MainMenu_CreateNewGame"	  	"Luo uusi peli"
+
+"HLVR_MainMenu_Start"							"Aloita"
+
+"HLVR_MainMenu_LoadSlot"					"Lataa tallennuspaikka %s"
+"HLVR_MainMenu_GameSlotHeader"		"Tallennuspaikka %s"
+"HLVR_MainMenu_GameSlotConfirm"		"\nTallennuspaikka %s"
+
+"HLVR_MainMenu_SaveSlot"    	  	"Paikka"
+"HLVR_MainMenu_GameSlot"    	  	"Tallennuspaikka"
+"HLVR_MainMenu_Overwrite"    	  	"Korvaa"
+"HLVR_MainMenu_Overwrite_desc"		"Kaikki tallennuspaikat on varattu. Valitse paikka, joka korvataan. \n\nVAROITUS: tämä toiminto poistaa tallennetun datan."
+"HLVR_MainMenu_StartOver"					"Korvaa?"
+"HLVR_MainMenu_NewGame"						"Uusi peli?"
+"HLVR_MainMenu_Slot"    	  			"Paikka"
+"HLVR_MainMenu_SlotOverwrite"			"VALITSE PAIKKA, JOKA KORVATAAN"
+
+"HLVR_QuickSave"									"Pikatallennus"
+"HLVR_AutoSave"									  "Automaattinen tallennus"
+
+"HLVR_Skip_Credits"								"Ohita tekijätiedot"
+"HLVR_Skip_Credits_Confirm"				"Ohitetaanko tekijätiedot?"
+
+"HLVR_Addons"							"Lisäosat"
+"HLVR_MainMenu_ManageAddons"			"Hallinnoi lisäosia"
+"HLVR_MainMenu_AddonsToolsMode"			"Karttaa lisäosilla ei pysty lataamaan työkalutilassa."
+"HLVR_MainMenu_StartAddonGame"			"Aloita peli seuraavilla lisäosilla:"
+"HLVR_MainMenu_AddonDisabled"			"Liityvä lisäosa pois käytöstä"
+"HLVR_MainMenu_AddonNotAvailable"		"Liittyvä lisäosa ei ole enää saatavilla tälle kartalle.\nTilaa uudelleen ja ota lisäosa käyttöön jatkaaksesi"
+"HLVR_MainMenu_NoAddonsEnabled"			"Pelissä ei ole käytössä lisäosia"
+"HLVR_MainMenu_AddonToggleInfo"			"Paina vaihtopainiketta vasemmalla laittaaksesi päälle/pois"
+"HLVR_MainMenu_LocalAddon"				"Paikallinen lisäosa"
+"HLVR_MainMenu_MissingAddon"			"Seuraava lisäosa tai lisäosat puuttuvat. Uudista tilaus ja lataa tiedosto."
+
+"HLVR_MainMenu_OriginalGame"			"Alkuperäiset pelit"
+"HLVR_MainMenu_AddonGame"				"Pelit lisäosilla"
+
+"HLVR_MainMenu_OriginalMaps"			"Alkuperäinen peli"
+"HLVR_MainMenu_AddonMaps"				"Lisäosakartat"
+
+"HLVR_MainMenu_AddonUpVote"				"Plusääniä"
+"HLVR_MainMenu_AddonDownVote"			"Miinusääniä"
+
+"HLVR_browse_workshop_label"			"Selaa workshopia"
+"HLVR_browse_workshop_confirm"			"Selataanko workshopia Steamin yhteisönäkymässä?"
+"HLVR_browse_workshop_desc"				"Selataanko Half-Life: Alyxin workshopia Steamin yhteisönäkymässä"
+
+"HLVR_local_addons"				"Paikalliset lisäosat"
+"HLVR_downloaded_addons"		"Ladatut lisäosat"
+"HLVR_enabled_addons"			"Käytössä olevat lisäosat:"
+"HLVR_addon_game"				"Lisäosilla varustettu peli"
+
+"HLVR_MainMenu_Attention"												"Huom!"
+"HLVR_MainMenu_Attention_MinSpec_CPU"								"Suoritinteho ei riitä Half-Life: Alyxin pelaamiseen."
+"HLVR_MainMenu_Attention_MinSpec_RAM"								"Järjestelmän muisti ei riitä Half-Life: Alyxin pelaamiseen."
+"HLVR_MainMenu_Attention_MinSpec_GPU"								"Näyttölaite ei riitä Half-Life: Alyxin pelaamiseen."
+"HLVR_MainMenu_Attention_Above_Recommended"					"Asetukset ovat yli suositustasojen."
+"HLVR_MainMenu_Attention_Warning"										"Saattaa vaikuttaa peliin."
+"HLVR_MainMenu_Attention_Graphics_Reset"						"Suorituskykyasetukset on palautettu suositustasolle."
+"HLVR_MainMenu_Attention_LowDiskSpaceForSwapfile"				"Half-Life: Alyxin epävakaus saattaa johtua käyttöjärjestelmälevyn levytilan vähyydestä, mikä rajoittaa sivutustiedoston kokoa."
+"HLVR_MainMenu_Attention_Low_GPU_Memory"						"Grafiikkasuorittimen muisti on vähäinen. Sulje kaikki tarpeettomat ohjelmat lisätäksesi grafiikkasuorittimelle saatavilla olevan muistin määrää."
+"HLVR_MainMenu_Attention_Low_System_Memory"						"Järjestelmän muisti on vähäinen. Sulje kaikki tarpeettomat ohjelmat lisätäksesi järjestelmän saatavilla olevan muistin määrää."
+"HLVR_MainMenu_Old_Driver_Version"								"Grafiikkasuorittimesi ajurin versio ei riitä Half-Life: Alyxin pelaamiseen Vulkanilla. Asenna grafiikkasuorittimeesi uusin ajuri."
+"HLVR_MainMenu_Attention_LoadErrorMap"							"Peliä ei voitu ladata, koska valittua karttaa ei löytynyt:"
+"HLVR_MainMenu_Attention_LoadErrorAddons"						"Tämä saattaa johtua yhdestä käytössä olevasta lisäosasta:"
+
+"HLVR_MainMenu_ModalQuit"						"Lopeta Half-Life: Alyx?"
+"HLVR_MainMenu_ModalMainMenu"					"Mene päävalikkoon?"
+"HLVR_MainMenu_ModalLoadGame"					"Ladataanko tallennettu peli?"
+"HLVR_MainMenu_ModalNewGame"					"Luo uusi peli?"
+"HLVR_MainMenu_ModalNewGameOverwrite"			"Poistetaanko tallennetut tiedot ja luodaan uusi peli?"
+
+"HLVR_MainMenu_ModalAccept"						"Hyväksy"
+"HLVR_MainMenu_ModalCancel"						"Peruuta"
+
+"HLVR_Pause_Menu_Only"								"Nämä asetukset ovat saatavilla pysäytysvalikossa ainoastaan käynnissä olevan pelin aikana."
+
+"HLVR_MainMenu_Init_desc"		    			"Valitse hallitseva käsi. \n\nVoit vaihtaa sitä asetusvalikosta milloin tahansa."
+
+"HLVR_MainMenu_NewGame_desc" 					"Aloita uusi Half-Life: Alyx -peli."
+"HLVR_MainMenu_SaveGame_desc" 					"Tee tähänastisesta edistymisestä pikatallennus. "
+
+"HLVR_MainMenu_Resin"							"Hartsi"
+"HLVR_MainMenu_HP"								"Terveys"
+"HLVR_MainMenu_Pistol"							"Pistooli"
+"HLVR_MainMenu_Shotgun"							"Haulikko"
+"HLVR_MainMenu_RapidFire"						"Konepistooli"
+
+"HLVR_MainMenu_Days"							"p."		// Short hand for Days
+"HLVR_MainMenu_Hrs"								"t"		// Short Hand for Hours
+
+"HLVR_MainMenu_DeleteSlot_desc"				"Poista kaikki tallennetut pelit tästä tallennuspaikasta."
+"HLVR_MainMenu_DeleteSlot_Confirm"		"Poistetaanko kaikki tallennetut pelit tästä tallennuspaikasta lopullisesti?"
+
+"HLVR_NoSaving"			"Tallentaminen ei juuri nyt onnistu."
+
+"HLVR_Sibling_L"											"V"
+"HLVR_Sibling_R"											"O"
+
+"HLVR_Options_Game_Preferences"				"Tallennuspaikka"
+"HLVR_Options_System_Options"					"Järjestelmä"
+
+"HLVR_Options_Diffculty_base"					"Vaikeusaste"
+
+"HLVR_Options_Diffculty_story"					"Tarina"
+"HLVR_Options_Diffculty_easy"					"Helppo"
+"HLVR_Options_Diffculty_normal"					"Normaali"
+"HLVR_Options_Diffculty_hard"					"Vaikea"
+
+"HLVR_Options_Diffculty_story_desc"					"Helpoin taistelu."
+"HLVR_Options_Diffculty_easy_desc"					"Kohtalaisen haastava taistelu."
+"HLVR_Options_Diffculty_normal_desc"				"Haastava taistelu."
+"HLVR_Options_Diffculty_hard_desc"					"Erittäin haastava taistelu."
+
+"HLVR_Options_On"					"Päällä"
+"HLVR_Options_Off"				"Pois"
+
+"HLVR_Options_Commentary"					"Kehittäjän kommentit"
+"HLVR_Options_Commentary_desc"				"Ota käyttöön kehittäjän kommentit pelin aikana.\n\nHUOMAA! Kommentit sisältävät merkittäviä juonipaljastuksia.\n\nPeli kannattaa pelata ensin loppuun.\n\nSuomenkielistä käännöstä ei ole saatavilla."
+
+"HLVR_Options_Movement_Base"					"Liikkuminen"
+"HLVR_Options_Movement_Blink"					"teleporttaus"
+"HLVR_Options_Movement_Shift"					"spurtti"
+"HLVR_Options_Movement_Continuous"				"jatkuva"
+"HLVR_Options_Movement_Continuous_Hand"		"jatkuva (käsi)"
+
+"HLVR_Options_Movement_Blink_desc"					"Teleporttaa kohteeseen pikaisella näytön häivytyksellä. Miellyttävin tapa liikkua."
+"HLVR_Options_Movement_Shift_desc"					"Teleporttaa kohteeseen nopealla pitkittäisellä liikkeellä."
+"HLVR_Options_Movement_Continuous_desc"				"Liiku jatkuvalla liikkeellä pään suunnan mukaan."
+"HLVR_Options_Movement_Continuous_Hand_desc"		"Liiku jatkuvalla liikkeellä käden suunnan mukaan."
+
+"HLVR_Options_Preferences"						"Lisäasetukset"
+"HLVR_Options_Accessibility"					"Helppokäyttöisyys"				
+"HLVR_Options_Interface"						"Käyttöliittymä"
+"HLVR_Options_Audio"							"Äänenvoimakkuus"
+"HLVR_Options_Graphics"							"Suorituskyky"
+"HLVR_Options_Language"							"Kieli"
+
+"HLVR_Options_WeaponSwitch"					"Asevalikon suuntaus"
+"HLVR_Options_WeaponSwitch_desc"		"Asevalikon suuntaus näytöllä."
+"HLVR_Options_WeaponSwitch_HMD"			"Pää"
+"HLVR_Options_WeaponSwitch_Hand"		"Käsi"
+"HLVR_Options_WeaponSwitch_Hybrid"	"Hybridi"
+
+"HLVR_Options_Ladder_Climb"					"Käsinkiivettävät tikkaat"
+"HLVR_Options_Ladder_Climb_desc"		"Mahdollistaa tikkaiden käsinkiipeämisen."
+
+"HLVR_Options_Barnacle_Lift"				"Riippujan nosto"
+"HLVR_Options_Barnacle_Lift_desc"		"Mahdollistaa sen, että riippujat nostavat pelaajan maasta."
+
+"HLVR_Options_Turn_Off"							"Ohjainkäännös pois"
+"HLVR_Options_Turn_Snap"						"Asteittainen käännös"
+"HLVR_Options_Turn_Continuous"					"Jatkuva käännös"
+
+"HLVR_Options_Turn_Off_desc"					"Aseta asteittaiseen tai jatkuvaan käännökseen, jotta voit kääntää katselusuunnan ohjaimellasi."
+"HLVR_Options_Turn_Snap_desc"					"Asteittainen käännös kääntää katselusuunnan heti tiettyyn kulmaan."
+"HLVR_Options_Turn_Continuous_desc"				"Jatkuva käännös kääntää katselusuunnan sulavasti määritetyllä nopeudella."
+
+"HLVR_Options_QuickTurn_Angle_Base"				"Asteittaisen käännöksen kulma"
+"HLVR_Options_QuickTurn_Angle_desc"				"Asteittaisen käännöksen kiertokulma."
+
+"HLVR_Options_ContinuousTurn_Speed_Base"		"Jatkuvan käännöksen nopeus"
+"HLVR_Options_ContinuousTurn_Speed_desc"		"Jatkuvan käännöksen kulmanopeus."
+
+"HLVR_Options_DLC_Skins"						"Ennakkotilaa skinejä"
+"HLVR_Options_DLC_Skins_desc"					"Ota käyttöön aseskinit, jotka sait Valve Indexin ennakkotilaamisesta."
+
+"HLVR_Options_Subtitles"						"Tekstitys"
+"HLVR_Options_Subtitles_Base"					"Tekstitys"
+"HLVR_Options_Subtitles_None"					"Tekstitys pois"
+"HLVR_Options_Subtitles_On"						"Tekstitys päälle"
+"HLVR_Options_Subtitles_CC_On"					"Käännös- ja ohjelmatekstitys"
+"HLVR_Options_Subtitles_desc"					"Näytä käännös- ja ohjelmatekstitys."
+
+"HLVR_Options_Subtitles_Speed"					"Nopeus"
+"HLVR_Options_Subtitles_Slow_Speed"				"Hidas"
+"HLVR_Options_Subtitles_Medium_Speed"			"Keskinopea"
+"HLVR_Options_Subtitles_Fast_Speed"				"Nopea"
+"HLVR_Options_ClosedCaptions_Speed_desc"		"Tekstityksen näyttönopeus."
+
+"HLVR_Options_Subtitles_Size"					"Fonttikoko"
+"HLVR_Options_Subtitles_Small_Size"				"Pieni"
+"HLVR_Options_Subtitles_Medium_Size"			"Keskikoko"
+"HLVR_Options_Subtitles_Large_Size"				"Iso"
+"HLVR_Options_ClosedCaptions_Size_desc"			"Tekstityksen fontin koko."
+
+"HLVR_Options_Subtitles_Width"					"Leveys"
+"HLVR_Options_Subtitles_Narrow"					"Kapea"
+"HLVR_Options_Subtitles_Medium"					"Keskikoko"
+"HLVR_Options_Subtitles_Wide"					"Leveä"
+"HLVR_Options_ClosedCaptions_Width_desc"		"Tekstityksen leveys näytöllä."
+
+"HLVR_Options_Subtitles_Spectator_Only"			"Vain katsojan näkymä"
+"HLVR_Options_Subtitles_Spectator_Only_desc"	"Näytä käännös- ja ohjelmatekstitys vain katsojan näkymässä."
+
+"HLVR_Options_LeftHanded"						"Asekäsi: vasen"
+"HLVR_Options_RightHanded"						"Asekäsi: oikea"
+
+"HLVR_Options_LeftHanded_desc"					"Vaihtaa asekättä oikeaan tai vasempaan.\n\nVoit valita kummalla kädellä ohjaat liikkumistasi valitsemalla määrityksen SteamVR:n ohjainmääritysvalikossa."
+
+"HLVR_display_bindings"							"Ohjainmääritykset"
+"HLVR_display_bindings_desc"					"Siirry SteamVR-ohjainasetuksiin, jotta voit nähdä ja muokata Half-Life: Alyxin ohjainmäärityksiä."
+"HLVR_display_bindings_confirm"					"Siirrytäänkö SteamVR-ohjainmäärityksiin?"
+
+
+"HLVR_Options_ToggleCrouch"					"Kyyristymistoiminto"
+"HLVR_Options_ToggleCrouch_desc"		"Kyyristymistoiminnolla voit tehdä nopean väistöliikkeen tai asettua matalammaksi tarvittaessa. Määritä tämä toiminto haluamallesi syötteelle SteamVR-asetuksissa.\n\nKun tämä on valittu, kyyristyminen on käytettävissä pelin aikana."
+"HLVR_Options_ToggleStand"					"Seisomistoiminto"
+"HLVR_Options_ToggleStand_desc"			"Seisomistoiminnon avulla yletät korkeammalle, jos pelaat matalassa asennossa. Määritä tämä toiminto haluamallesi syötteelle SteamVR-asetuksissa.\n\nSuositellaan, jos pelaat istualtaan.\n\nKun tämä on valittu, seisominen on käytettävissä pelin aikana."
+
+"HLVR_Options_hlvr_adjust_height_mode_base"		"Pituuden säätö"
+"HLVR_Options_hlvr_adjust_height_mode_0"		"Pois"
+"HLVR_Options_hlvr_adjust_height_mode_1"		"Kyyristy"
+"HLVR_Options_hlvr_adjust_height_mode_2"		"Seiso"
+"HLVR_Options_hlvr_adjust_height_mode_3"		"Kyyristy ja seiso"
+"HLVR_Options_hlvr_adjust_height_mode_4"		"Hybridi"
+
+"HLVR_Options_hlvr_adjust_height_mode_0_desc"		"Määrittää sen, miten pituuden määritykseen tarvittavat ohjainpohjaiset toiminnot käyttäytyvät.\n\nKun poissa päältä, ohjaimiin perustuva pituudenmääritys ei ole käytössä."
+"HLVR_Options_hlvr_adjust_height_mode_1_desc"		"Kyyristymistoiminto päällä. Seisomistoiminto pois.\n\nKun kyyristymistoiminto on käytössä, voit tehdä nopean väistöliikkeen tai mennä matalaksi."
+"HLVR_Options_hlvr_adjust_height_mode_2_desc"		"Seisomistoiminto päällä. Kyyristymistoiminto pois.\n\nKun seisomistoiminto on käytössä, voit kohottaa asentoa ylettääksesi paremmin.\nSuositellaan, jos pelaat istualtaan."
+"HLVR_Options_hlvr_adjust_height_mode_3_desc"		"Kun kyyristymis- ja seisomistoiminnot ovat päällä, madalla tai korota asentoa kahdella eri syötteellä."
+"HLVR_Options_hlvr_adjust_height_mode_4_desc"		"Hybridi käyttää yhtä syötettä sekä kyyristymis- että seisomistoiminnolle.\n\nJos haluat kyyristyä, madalla asentoa klikkaamalla.\n\nJos haluat seisoa, korota asentoa painamalla ja pitämällä painettuna."
+
+"HLVR_Options_hlvr_single_controller_mode"				"Yksi ohjain"
+"HLVR_Options_hlvr_single_controller_mode_desc"		"Kaikki toiminnot on määritelty yhdelle ohjaimelle."
+"HLVR_single_controller_prompt_activate"			"Yhden ohjaimen pelitilan käyttöönotto vaatii SteamVR-ohjainmääritysten muutosta\nSiirrytäänkö SteamVR-määritysten sivulle?"
+"HLVR_single_controller_prompt_deactivate"		"Yhden ohjaimen pelitilan käytöstä poisto vaatii SteamVR-ohjainmääritysten muutosta\nSiirrytäänkö SteamVR-määritysten sivulle?"
+
+"HLVR_Options_r_light_sensitivity_mode"				"Valoherkkyys"
+"HLVR_Options_r_light_sensitivity_mode_desc"	"Valoherkkyystila vähentää valojen voimakkuutta ja välkkymistä."
+
+"HLVR_Options_Pause_Menu_Distance"	"Pysäytysvalikon etäisyys"
+"HLVR_Options_Pause_Menu_Distance_Desc"	"Pysäytysvalikon etäisyys pelaajasta, kun se on aktivoitu."
+"HLVR_Options_Pause_Menu_Height"		"Pysäytysvalikon korkeus"
+"HLVR_Options_Pause_Menu_Height_desc"		"Pysäytysvalikon korkeus pelaajan nähden, kun se on aktivoitu."
+
+"HLVR_Options_Header_Weapons"					"Ase"
+"HLVR_Options_Header_GameMenu"					"Pelivalikko"
+"HLVR_Options_Header_Spectator"					"Katsoja"
+
+"HLVR_Options_SpectatorHud_desc"				"Valitse katsojan näkymän HUD:n koko"
+"HLVR_Options_SpectatorHud_base"				"Katsojan HUD"
+"HLVR_Options_SpectatorHud_off"					"Pois"
+"HLVR_Options_SpectatorHud_small"				"Pieni"
+"HLVR_Options_SpectatorHud_med"					"Keskikoko"
+"HLVR_Options_SpectatorHud_large"				"Iso"
+
+"HLVR_Options_SpectatorCamera_desc"				"Määritä kameran pehmennys katsojan näkymässä.\n\nVaatii korkean zoomaustason."
+"HLVR_Options_SpectatorCamera_base"				"Katsojan kameran pehmennnys"
+"HLVR_Options_SpectatorCamera_off"				"Pois"
+"HLVR_Options_SpectatorCamera_low"				"Alhainen"
+"HLVR_Options_SpectatorCamera_med"				"Keskitaso"
+"HLVR_Options_SpectatorCamera_high"				"Korkea"
+
+"HLVR_Options_SpectatorZoom_desc"				"Katsojan zoomaustaso."
+"HLVR_Options_SpectatorZoom_Base"				"Katsojan zoom"
+"HLVR_Options_SpectatorZoom_low"				"Alhainen"
+"HLVR_Options_SpectatorZoom_high"				"Korkea"
+
+"HLVR_Options_Spectator_Eye_desc"				"Vaihda katsojan näkymää pelaajan oikean ja vasemman silmän välillä"
+"HLVR_Options_Spectator_Eye_Base"				"Katsojan näkymän silmä"
+"HLVR_Options_Eye_Left"							"Vasen"
+"HLVR_Options_Eye_Right"						"Oikea"
+
+"HLVR_Options_SpectatorSteamVR_desc"			"Vedä HUD SteamVR-ikkunaan.\n\nSuorituskyky saattaa hiukan kärsiä."
+"HLVR_Options_SpectatorSteamVR_Base"			"Katsojan HUD SteamVR:ssä"
+"HLVR_Options_SpectatorSteamVR_On"				"Päällä"
+"HLVR_Options_SpectatorSteamVR_Off"				"Pois"
+
+"HLVR_Options_SpectatorEye_desc"				"Valitse kumman silmän näkymä näytetään tavallisella peilatulla näytöllä, kuten tietokoneen näytöllä tai TV:llä.\n\nOletuksena näkymä vastaa nykyistä asekättäsi, mutta tämän voi muuttaa."
+"HLVR_Options_SpectatorEye_base"				"Katsojan näkymän silmä"
+"HLVR_Options_SpectatorEye_left"				"Vasen"
+"HLVR_Options_SpectatorEye_right"				"Oikea"
+
+"HLVR_Options_Graphics_Rendering"				"Renderöi"
+"HLVR_Options_Graphics_Particles"				"Hiukkaset"
+"HLVR_Options_Graphics_Misc"					"Muut"
+"HLVR_Options_Graphics_Audio"					"Ääni"
+
+"HLVR_Options_Fidelity_Low"								"Alhainen kuvatarkkuus"
+"HLVR_Options_Fidelity_Medium"						"Keskiverto kuvatarkkuus"
+"HLVR_Options_Fidelity_Medium_Long"				"Keskiverto kuvatarkkuus"
+"HLVR_Options_Fidelity_High"							"Korkea kuvatarkkuus"
+"HLVR_Options_Fidelity_Ultra"							"Ultra kuvatarkkuus"
+"HLVR_Options_Fidelity_Custom"						"Mukautettu kuvatarkkuus"
+
+"HLVR_Options_Graphics_Adv_desc" "Näytä/piilota suorituskyvyn lisäasetukset"
+
+"HLVR_Options_Graphics_Reset"					"Palauta"
+"HLVR_Options_Graphics_Reset_desc"				"Palauta suorituskykyasetukset suositustasolle"
+"HLVR_Options_Graphics_Reset_modal"				"Palautetaanko suorituskykyasetukset suositustasolle?"
+"HLVR_Options_Graphics_Base"					"Kuvatarkkuus"
+"HLVR_Options_Graphics_desc"					 "Pelin suorituskykyasetukset asetetaan automaattisesti. Asetusten muuttaminen saattaa vaikutttaa kuvataajuuteen."
+
+"HLVR_Options_Graphics_Textures_Base"			"Tekstuurit"
+"HLVR_Options_Graphics_Textures_Desc"			"Valitse tekstuurien laatu.\n\nTekstuurien laatu määritetään erikseen suorituskyvyn laadun asetuksista."
+"HLVR_Options_Graphics_Textures_Low"			"Matala"
+"HLVR_Options_Graphics_Textures_Medium"	"Keskitaso"
+"HLVR_Options_Graphics_Textures_High"		"Korkea"
+"HLVR_Options_Graphics_Textures_Ultra"		"Ultra"
+
+"HLVR_Options_Graphics_Shadows_Base"			"Varjot"
+"HLVR_Options_Graphics_Shadows_Low"			"Matala"
+"HLVR_Options_Graphics_Shadows_Med"			"Keskitaso"
+"HLVR_Options_Graphics_Shadows_High"			"Korkea"
+"HLVR_Options_Graphics_Shadows_Ultra"			"Ultra"
+
+"HLVR_Options_Graphics_Characters_Base"			"Hahmot"
+"HLVR_Options_Graphics_Characters_Low"			"Matala"
+"HLVR_Options_Graphics_Characters_Med"			"Keskitaso"
+"HLVR_Options_Graphics_Characters_High"			"Korkea"
+"HLVR_Options_Graphics_Characters_Ultra"			"Ultra"
+
+"HLVR_Options_Graphics_Fog_Base"			"Sumu"
+"HLVR_Options_Graphics_Fog_Low"			"Matala"
+"HLVR_Options_Graphics_Fog_Med"			"Keskitaso"
+"HLVR_Options_Graphics_Fog_High"			"Korkea"
+"HLVR_Options_Graphics_Fog_Ultra"			"Ultra"
+
+"HLVR_Options_Graphics_Particles_Base"			"Hiukkaset"
+"HLVR_Options_Graphics_Particles_Low"			"Matala"
+"HLVR_Options_Graphics_Particles_Med"			"Keskitaso"
+"HLVR_Options_Graphics_Particles_High"			"Korkea"
+"HLVR_Options_Graphics_Particles_Ultra"			"Ultra"
+
+"HLVR_Options_Graphics_Audio_Base"			"Ääni"
+"HLVR_Options_Graphics_Audio_Low"			"Matala"
+"HLVR_Options_Graphics_Audio_Med"			"Keskitaso"
+"HLVR_Options_Graphics_Audio_High"			"Korkea"
+"HLVR_Options_Graphics_Audio_Ultra"			"Ultra"
+
+"HLVR_Options_High_Quality_Holograms"			"Korkealaatuiset hologrammit"
+"HLVR_Options_High_Quality_Holograms_on"			"Päällä"
+"HLVR_Options_High_Quality_Holograms_off"			"Pois"
+"HLVR_Options_r_light_flickering_enabled"			"Välkkyvät valot"
+
+"HLVR_Options_Rendering_API"					"Renderöinnin API"
+"HLVR_Options_Rendering_API_D3D11"				"Direct3D 11"
+"HLVR_Options_Rendering_API_Vulkan"				"Vulkan"
+"HLVR_Options_Rendering_API_Current"			"Nykyinen API:"
+"HLVR_Options_Rendering_API_Desc_Locked"		"Rendreröinnin ohjelmistorajapinta määritetään käynnistysasetuksissa. Poista käynnistysasetus, jotta voit valita rendreröinnin ohjelmistorajapinnan."
+"HLVR_Options_Rendering_API_Desc_Restart"		"\n\nVaatii pelin uudelleenkäynnistyksen.\n\n"
+"HLVR_Options_Rendering_API_Desc"				"Jo peli ei käynnisty kunnolla tämän asetuksen muuttamisen jälkeen, voit lisätä kohdan -safe_mode käynnistysasetuksiin käynnistääksesi renderöinnin oletusohjelmistorajapinnalla."
+
+"HLVR_Options_cloth_rigid_update_Base"			"Pehmeän kappaleen dynamiikka"
+
+"HLVR_Options_g_ragdoll_maxcount_Base"			"Ragdoll-luku"
+"HLVR_Options_g_ragdoll_maxcount_Base_Low"	"Matala"
+"HLVR_Options_g_ragdoll_maxcount_Base_Med"	"Keskitaso"
+"HLVR_Options_g_ragdoll_maxcount_Base_High"	"Korkea"
+"HLVR_Options_g_ragdoll_maxcount_Base_Ultra"	"Ultra"
+
+"HLVR_Options_Audio_Master"						"Päävoimakkuus"
+"HLVR_Options_Audio_Master_desc"				"Äänenvoimakkuuden säätö kaikille äänille."
+"HLVR_Options_Audio_GameSounds"					"Peli"
+"HLVR_Options_Audio_GameSounds_desc" 			"Äänenvoimakkuuden säätö pelin äänitehosteille."
+"HLVR_Options_Audio_Music"						"Taistelumusiikki"
+"HLVR_Options_Audio_Music_desc"					"Äänenvoimakkuuden säätö taistelumusiikille."
+"HLVR_Options_Audio_Voice"						"Hahmojen puhe"
+"HLVR_Options_Audio_Voice_desc"					"Äänenvoimakkuuden säätö hahmojen puheelle."
+
+"HLVR_Loading"									"LADATAAN"
+"HLVR_Loading_Trigger_Start"					"Paina %s aloittaaksesi"
+
+"HLVR_PhotoMode_TakePhoto"						"Ota kuva"
+"HLVR_PhotoMode_Hide"							"Piilota käyttöliittymä"
+"HLVR_PhotoMode_Return"							"Palaa"
+
+// spectator hud
+"HLVR_HUD_Ammo"									"Ammukset"
+"HLVR_HUD_Health"								"Terveys"
+"HLVR_HUD_Resin"								"Hartsi"
+
+// game instructor lessons
+"HLVR_Lesson_Single_Controller_On"	"Yhden ohjaimen pelitila päällä"
+"HLVR_Lesson_Single_Controller_Off"	"Yhden ohjaimen pelitila pois päältä"
+"HLVR_Lesson_Movement_PrimaryHand"	"Asekäden liike\nTätä voi muokata SteamVR-ohjainmäärityksistä."
+"HLVR_Lesson_Movement_OffHand"		"Asekäden liike\nTätä voi muokata SteamVR-ohjainmäärityksistä."
+"HLVR_Lesson_Teleport"							"Liiku painamalla"
+"HLVR_Lesson_Quick_Turn"						"Paina ja käänny asteittain vasemmalle tai oikealle"
+"HLVR_Lesson_GrabTrigger"						"Paina ja pidä painettuna napataksesi esineitä"
+"HLVR_Lesson_GrabHands"							"Nappaa esineitä käsiä käyttämällä"
+"HLVR_Lesson_GrabHandsSingleController"			"Nappaa esineitä kättä käyttämällä"
+"HLVR_Lesson_Interact"							"Käytä vipuja\nkäsilläsi"
+"HLVR_Lesson_InteractSingleController"			"Käytä vipuja\nkäsilläsi"
+"HLVR_Lesson_Door"								"Käännä kahvasta\navataksesi oven"
+"HLVR_Lesson_SwitchWeapons"						"Pidä painettuna vaihtaaksesi asetta"
+"HLVR_Lesson_SwitchWeaponsSingleController"			"Napauta, niin saat jälleen aseen käyttöön"
+"HLVR_Lesson_OpenWeaponSelectForMultitool"		"Pidä painettuna, niin saat monitoimityökalun käyttöön"
+"HLVR_Lesson_SelectMultitool"					"Valitse monitoimityökalu"
+"HLVR_Lesson_UseMultitool"						"Käytä monitoimityökalua"
+"HLVR_Lesson_ScavengeItems"						"Etsi ympäristöstä\nhyödyllisiä esineitä"
+"HLVR_Lesson_LootBodies"						"Kerää esineitä ruumiilta"
+"HLVR_Lesson_OpenGameMenu"						"Pidä painettuna, niin pääset pelivalikkoon ja takaisin"
+"HLVR_Lesson_Continuous_Mantle"					"Kiipeä painamalla\n ja pitämällä liikkeen ajan painettuna"
+"HLVR_Lesson_Continuous_Jump"					"Paina nähdäksesi hyppyosoitin\nja irrota hypätäksesi"
+"HLVR_Lesson_Crouch_Toggle"						"Painamalla vaihdat pituuden ja kyyristyspituuden välillä"
+"HLVR_Lesson_Stand_Toggle"						"Painamalla vaihdat pituuden ja seisontapituuden välillä"
+"HLVR_Lesson_Climb_Ladder"						"Tartu tikkaisiin ja kiipeä"
+
+"HLVR_Lesson_WeaponInPrimaryHand"				"Tartu aseeseen hallitsevalla kädellä"
+
+"HLVR_Lesson_EjectClip"							"Paina poistaaksesi lipas"
+"HLVR_Lesson_InsertClip"						"Syötä lipas pistooliin"
+"HLVR_Lesson_EmptyClipInserted"					"Tyhjennä käytössä oleva lipas\nIrrota lipas painamalla"
+"HLVR_Lesson_ChamberRound"						"Paina painiketta\ntai vedä luisti ladataksesi ase"
+"HLVR_Lesson_ChamberRoundSingleController"		"Paina painiketta ladataksesi ase"
+"HLVR_Lesson_PutClipInBackpack"					"Laita lipas reppuun"
+"HLVR_Lesson_ToggleLaserSightWeapon"			"Koskemalla etusormella vaihdat lasertähtäimeen ja takaisin"
+"HLVR_Lesson_ToggleBurstFire"					"Napauta painiketta kahdesti vaihtaaksesi sarjatuleen"
+
+"HLVR_Lesson_ShotgunGetShells"					"Nappaa ammuslaatikko ja laita se reppuun"
+"HLVR_Lesson_OpenShotgunToLoadShells"			"Avaa haulikko ja lataa ammuksia."
+"HLVR_Lesson_LoadShotgunUntilFull"				"Lataa korkeintaan 6 ammusta haulikkoon"
+"HLVR_Lesson_FlickToCloseShotgun"				"Nykäise ohjainta\ntai sulje haulikko tarttumalla piippuun"
+"HLVR_Lesson_FlickToCloseShotgunSingleController"	"Nykäise ohjainta ja sulje haulikko"
+"HLVR_Lesson_ChamberShotgunShell"				"Vetämällä luistia lataat ammuksen"
+"HLVR_Lesson_ChamberShotgunShellSingleController"	"Painamalla lataat ammuksen"
+"HLVR_Lesson_ShotgunUpgradeAutoloaderLoad"		"Lataa ammukset automaattilataajaan"
+"HLVR_Lesson_ShotgunUpgradeAutoloaderActivate"	"Paina aktivoidaksesi automaattilataus"
+"HLVR_Lesson_ShotgunUpgradeQuickFire"			"Painamalla kahdesti ammut kaksi nopeaa laukausta"
+"HLVR_Lesson_ShotgunUpgradeGrenade"				"Laita kranaatti haulikon piipun suuhun"
+"HLVR_Lesson_ShotgunUpgradeGrenadePump"			"Työnnä kahva eteenpäin käyttääksesi kranaatinheitintä\ntai ammu normaalisti"
+"HLVR_Lesson_ShotgunUpgradeGrenadePumpSingleController"			"Paina käyttääksesi kranaatinheitintä\ntai ammu normaalisti"
+"HLVR_Lesson_ShotgunUpgradeGrenadeFire"			"Paina laukaistaksesi kranaatti\ntai tartu kranaattiin ja nollaa heitin"
+"HLVR_Lesson_ShotgunUpgradeGrenadeFireSingleController"			"Paina nollataksesi kranaatinheitin\ntai ammu ja laukaise kranaatti"
+
+"HLVR_Lesson_Rapidfire_InsertCapsule_Gun"		"Syötä virtakapseli aseeseen"
+"HLVR_Lesson_Rapidfire_InsertCapsule_Clip"		"Syötä virtakapseli aseeseen"
+"HLVR_Lesson_Rapidfire_OpenCasing"				"Avaa lipas"
+"HLVR_Lesson_Rapidfire_InsertCapsule_Mag"		"Syötä 3 virtakapselia lippaaseen"
+"HLVR_Lesson_Rapidfire_CloseCasing"				"Sulje lipas"
+
+"HLVR_Lesson_StoreClipInBackpack"				"Laita ammukset reppuun talteen\nviemällä käsi olan yli"
+"HLVR_Lesson_GrabClipFromBackpack"				"Nappaa ammuksia repusta"
+"HLVR_Lesson_ReloadSingleController"			"Lataa ase painamalla, kun pidät asetta olkapäällä"
+"HLVR_Lesson_ReloadSingleControllerShotgun"		"Lataa painamalla, kun pidät asetta olkapäällä. Painamalla useamman kerran saat useamman ammuksen."
+"HLVR_Lesson_ReloadSingleControllerRapidFire"	"Lataa painamalla, kun pidät asetta olkapäällä. Painamalla useamman kerran saat useamman kapselin."
+"HLVR_Lesson_GrabResinFromBackpack"				"Nappaa hartsia repusta"
+"HLVR_Lesson_StoreResinInBackpack"				"Laita hartsi reppuun talteen\nviemällä käsi olan taakse"
+"HLVR_Lesson_ArmGrenade"						"Paina aktivoidaksesi kranaatti"
+"HLVR_Lesson_ArmXenGrenade"						"Purista aktivoidaksesi Xen-kranaatti"
+"HLVR_Lesson_ArmXenGrenadeVive"					"Paina aktivoidaksesi Xen-kranaatti"
+"HLVR_Lesson_PrepareHealthInjector"				"Valmistele terveyskynä"
+"HLVR_Lesson_HealthInjectToHand"				"Piikitä kehoon, käteen tai jalkaan"
+"HLVR_Lesson_HealthInjectToHandSingleController"	"Piikitä kehoon tai jalkaan"
+"HLVR_Lesson_WristHUD"							"Rannenäyttö näyttää terveytesi"
+"HLVR_Lesson_GameSaved"							"PELI TALLENNETTU"
+"HLVR_Lesson_BackpackConstraints"				"Repussa voi säilyttää vain ammuksia ja hartsia"
+"HLVR_Lesson_PistolClipBackpackConstraints"		"Repussa voi säilyttää vain täysiä lippaita"
+"HLVR_Lesson_OpenWeaponSelectForHand"			"Napauta vaihtaaksesi\nkädessä olevaa asetta"
+"HLVR_Lesson_OpenWeaponSelectForHandSingleController"	"Napauta vaihtaaksesi kättä, jotta voit poimia ammukset"
+"HLVR_Lesson_SelectHand"						"Valitse käsi"
+"HLVR_Lesson_2HLevitate"						"Lukitse kohde molemmilla painovoimahanskoilla"
+"HLVR_Lesson_GravityGloveLockOn"				"Lukitse kohde painamalla"
+"HLVR_Lesson_GravityGlovePull"					"Nykäise kättä taaksepäin vetääksesi objekti itseäsi kohti"
+"HLVR_Lesson_GravityGloveCatch"					"Nappaa esine ilmasta"
+"HLVR_Lesson_2HPickup"							"Poimi raskaita esineitä kahdella kädellä"
+"HLVR_Lesson_UseMultitoolOnDoor"				"Käytä monitoimityökalua ohjauskeskukseen"
+"HLVR_Lesson_UseMultitoolOnToner"				"Käytä monitoimityökalua virtalähteeseen"
+"HLVR_Lesson_UseMultitoolOnJunction"			"Klikkaa monitoimityökalulla kääntääksesi liitosta"
+"HLVR_Lesson_UseMultitoolOnTripmine"			"Käytä monitoimityökalua miina-ansaan"
+"HLVR_Lesson_StoreObjectInWristBag"				"Säilytä esineitä rannetaskuissa"
+"HLVR_Lesson_StoreObjectInWristBagSingleController"		"Säilytä esineitä taskuissa"
+"HLVR_Lesson_RetrieveObjectInWristBag"			"Ota esine rannetaskusta"
+"HLVR_Lesson_Headset"							"Laita kuulokkeet päähän\npäästämällä irti korvien kohdalla"
+"HLVR_Lesson_Pickup_Clip"						"Vedä tai poimi ammukset"
+"HLVR_Lesson_AttachFlashlight"					"Kiinnitä taskulamppu painovoimahanskaan"
+"HLVR_Lesson_WeaponReturned"					"Combine-kokoonpanijaan jätetty ase on palautettu"
+"HLVR_Lesson_ThrowEnergyBolt"					"Heitä energiasalama"
+"HLVR_Lesson_Health_Station"					"Avaa terveysasema kahvasta"
+
+// upgrades
+"HLVR_Upgrade_PistolLaserSight"						"Lasertähtäin"
+"HLVR_Upgrade_Desc_PistolLaserSight"					"Lisää lasertähtäimen parempaa tähtäystä varten"
+"HLVR_Upgrade_PistolReflexSight"					"Heijastustähtäin"
+"HLVR_Upgrade_Desc_PistolReflexSight"					"Lisää taktiset kohteet korostavan näytön"
+"HLVR_Upgrade_PistolBurstFire"						"Sarjatuli"
+"HLVR_Upgrade_Desc_PistolBurstFire"						"Lisää vaihdon kolmen laukauksen sarjasta yhteen laukaukseen"
+"HLVR_Upgrade_PistolBulletHopper"					"Luotisäilö"
+"HLVR_Upgrade_Desc_PistolBulletHopper"					"Lisää säilön, johon mahtuu 10 ylimääräistä luotia"
+
+"HLVR_Upgrade_ShotgunSpeedLoader"					"Automaattilataus"
+"HLVR_Upgrade_Desc_ShotgunSpeedLoader"					"Lisää mekaanisen ammusten syöttäjän haulikon nopeaa latausta varten"
+"HLVR_Upgrade_ShotgunGrenadeAttach"					"Kranaatinheitin"
+"HLVR_Upgrade_Desc_ShotgunGrenadeAttach"				"Lisää mahdollisuuden kiinnittää ja laukaista kranaatteja"
+"HLVR_Upgrade_ShotgunLaserSight"					"Lasertähtäin"
+"HLVR_Upgrade_Desc_ShotgunLaserSight"					"Lisää laserheijastuksen parempaa tähtäystä varten"
+"HLVR_Upgrade_ShotgunQuickFire"						"Tuplalaukaus"
+"HLVR_Upgrade_Desc_ShotgunQuickFire"					"Lisää mahdollisuuden ampua toinen laukaus heti perään"
+
+"HLVR_Upgrade_RapidfireExplodingBullets"			"Luotiryppäät"
+"HLVR_Upgrade_Desc_RapidfireExplodingBullets"			"Lisää mahdollisuuden räjäyttää pienen luotiryppään tulituksen jälkeen"
+"HLVR_Upgrade_RapidfireReflexSight"					"Heijastustähtäin"
+"HLVR_Upgrade_Desc_RapidfireReflexSight"				"Lisää taktiset kohteet korostavan näytön"
+"HLVR_Upgrade_RapidfireLaserSight"					"Lasertähtäin"
+"HLVR_Upgrade_Desc_RapidfireLaserSight"					"Lisää lasertähtäimen parempaa tähtäystä varten"
+"HLVR_Upgrade_RapidfireExtendedMagazine"			"Laajennettu lipas"
+"HLVR_Upgrade_Desc_RapidfireExtendedMagazine"			"Mahdollistaa useamman virtakapselin lataamiseen aseeseen"
+
+"HLVR_Weapon_Name_Pistol"							"Pistooli"
+"HLVR_Weapon_Name_Shotgun"							"Haulikko"
+"HLVR_Weapon_Name_RapidFire"						"Konepistooli"
+
+"HLVR_Weapon_Name_Pistol_UID"						"XXXXXXXXXXXX..XXX.X.X"
+"HLVR_Weapon_Name_Shotgun_UID"						"004086056845..080.2.7"
+"HLVR_Weapon_Name_RapidFire_UID"					"000123100400..342.5.1"
+
+// crafting station
+"HLVR_CraftingStation_Name"							"Hankinta-asema 0.3.3.333"
+"HLVR_CraftingStation_Startup"						"Käynnistys"
+"HLVR_CraftingStation_Scanning"						"Scanning Environment..."
+"HLVR_CraftingStation_LoadingBlueprints"			"Ladataan suunnitelmaa..."
+"HLVR_CraftingStation_InsertWeapon"					"Laita ase telineeseen"
+"HLVR_CraftingStation_YourResin"					"Hartsimäärä: {i:CurrencyAmount}"
+"HLVR_CraftingStation_YourResinLabel"				"Hartsimäärä:"
+"HLVR_CraftingStation_ResinAmount"					"{i:CurrencyAmount}"
+"HLVR_CraftingStation_SelectObject"					"Valitse kohde"
+"HLVR_CraftingStation_SelectedWeapon"				"{s:WeaponName}"
+"HLVR_CraftingStation_Upgrades"						"Päivitykset"
+"HLVR_CraftingStation_Cost"							"Hinta"
+"HLVR_CraftingStation_Summary"						"Yhteenveto"
+"HLVR_CraftingStation_NoUpgrades"					"Ei päivityksiä tarjolla"
+"HLVR_CraftingStation_NotEnoughResin"				"Ei riittävästi hartsia päivitykseen"
+"HLVR_CraftingStation_InsufficientResin"			"Hartsi ei riitä"
+"HLVR_CraftingStation_InsertResin"					"Syötä hartsi nyt"
+"HLVR_CraftingStation_Acquiring"					"Hankitaan"
+"HLVR_CraftingStation_Acquired"						"Hankittu"
+"HLVR_CraftingStation_Scanning"						"Skannaa"
+"HLVR_CraftingStation_Rendering"					"Renderöi"
+"HLVR_CraftingStation_Printing"						"Tulostaa"
+"HLVR_CraftingStation_Complete"						"Päivitys suoritettu"
+"HLVR_CraftingStation_Cancelled"					"Päivitys peruttu"
+"HLVR_CraftingStation_TakeObject"					"Ota esine"
+"HLVR_CraftingStation_PrintObject"					"Tulosta esine"
+"HLVR_CraftingStation_UpgradeOwned"					"Omistat jo"
+"HLVR_CraftingStation_Cancel"						"Peruuta"
+"HLVR_CraftingStation_Back"							"Takaisin"
+"HLVR_CraftingStation_SmallPrint"					"Suojelupalveluliite 19-81572"
+
+// combine console
+"HLVR_CombineConsole_Name"							"Combine-konsoli V17.14"
+"HLVR_CombineConsole_Activate"						"Aktivoi"
+
+"HLVR_Calibration_Start"							"Aloita painamalla painiketta"
+
+"HLVR_Intro_Text_01"								"Viisi vuotta ennen "
+"HLVR_Intro_Text_02"                                                            "Linnoituksen luhistumista " 
+"HLVR_Intro_Text_03"								"ja "
+"HLVR_Intro_Text_04"                                                            " Eli Vancen kuolemaa." 
+
+"HLVR_Eli_Call_Incoming"							"Puhelu tulossa"
+"HLVR_Eli_Call_Incoming_Name"						"Eli Vance"
+"HLVR_Eli_Call_Ended_01"							"Puhelu"
+"HLVR_Eli_Call_Ended_02"							"päättyi"
+"HLVR_Eli_Call_Location"							"Pylon 7B, varastoalue"
+
+
+// Referenced in hl2_gamerules.cpp
+// static HLVRChapter_t rgChapters[] = {
+// Chapter Numbers
+"HLVR_Chapter_Number_00"							"LUKU 1"
+"HLVR_Chapter_Number_01"							"LUKU 2"
+"HLVR_Chapter_Number_02"							"LUKU 3"
+"HLVR_Chapter_Number_03"							"LUKU 4"
+"HLVR_Chapter_Number_04"							"LUKU 5"
+"HLVR_Chapter_Number_05"							"LUKU 6"
+"HLVR_Chapter_Number_06"							"LUKU 7"
+"HLVR_Chapter_Number_07"							"LUKU 8"
+"HLVR_Chapter_Number_08"							"LUKU 9"
+"HLVR_Chapter_Number_09"							"LUKU 10"
+"HLVR_Chapter_Number_10"							"LUKU 11"
+
+"HLVR_Chapter_Title_00"								"Vyyhti"
+"HLVR_Chapter_Title_01"								"Karanteenialue"
+"HLVR_Chapter_Title_02"								"Onko kuollut vai kuoleeko?"
+"HLVR_Chapter_Title_03"								"Superase"
+"HLVR_Chapter_Title_04"								"Pohjantähti"
+"HLVR_Chapter_Title_05"								"Kilpavarustelu"
+"HLVR_Chapter_Title_06"								"Jeff"
+"HLVR_Chapter_Title_07"								"Vankeus"
+"HLVR_Chapter_Title_08"								"Jymyuutinen"
+"HLVR_Chapter_Title_09"								"Murto"
+"HLVR_Chapter_Title_10"								"Päätepiste"
+
+"HLVR_Transmission_Incoming"						"LÄHETYS\nTULOSSA"
+"HLVR_Transmission_Ended"							"LÄHETYS\nPÄÄTTYI"
+
+"HLVR_Propaganda_Standby"							"OLE HYVÄ JA ODOTA"
+"HLVR_Propaganda_Countdown5"						"5"
+"HLVR_Propaganda_Countdown4"						"4"
+"HLVR_Propaganda_Countdown3"						"3"
+"HLVR_Propaganda_Countdown2"						"2"
+"HLVR_Propaganda_Announcement"						"ERIKOISILMOITUS"
+
+"HLVR_Distillery_Elevator_Error"					"PAINORAJA YLITETTY"
+"HLVR_Distillery_Elevator_Override"					"MANUAALINEN OHITUS VAADITAAN"
+
+"HLVR_Trainyard_Train_Approaching"					"JUNA LÄHESTYY"
+
+"HLVR_Intro_World_01a"								"KOHDE: "
+"HLVR_Intro_World_01b"								" Alyx Vance, 19, nainen"
+"HLVR_Intro_World_02a"								"RYHMITTYMÄ: "
+"HLVR_Intro_World_02b"								" ihmisten vastarintaliike"
+"HLVR_Intro_World_03a"								"NYKYINEN TEHTÄVÄ: "
+"HLVR_Intro_World_03b"								" Tiedustelu"
+
+"HLVR_Mission_Terminated_01a"						"TEHTÄVÄ: "
+"HLVR_Mission_Terminated_01b"						"PÄÄTTYNYT"
+"HLVR_Mission_Terminated_02a"						"KOHDE: "
+"HLVR_Mission_Terminated_02b"						"ALYX VANCE"
+"HLVR_Mission_Terminated_03a"						"SYY: "
+"HLVR_Mission_Terminated_03b"						"TEHTÄVÄLLE OLENNAISTEN RESURSSIEN SUOJELUN EPÄONNISTUMINEN"
+
+"HLVR_Subject"										"KOHDE: "
+"HLVR_Subject_2"									"Alyx Vance"
+"HLVR_Status"										"TILA: "
+"HLVR_Status_2"										"Palkattu"
+"HLVR_Assignment"									"ODOTTAA TEHTÄVÄÄ"
+
+"HLVR_Combine_Chatter"								"[Combinen radioliikennettä]"
+
+// In-world signage
+"HLVR_Signage_Infestation_Control1"					"VAROITUS:"
+"HLVR_Signage_Infestation_Control2"					"Tartuntakontrolli"
+
+"HLVR_Signage_Emergency"							"HÄTÄTILANNE"
+"HLVR_Signage_Main_Power"							"PÄÄVIRTALÄHDE"
+"HLVR_Signage_Shutoff"								"SULKEMINEN"
+
+// Credits
+
+"HLVR_Credits_ContractorsHeader"					"Muu tuotanto"
+"HLVR_Credits_CastHeader"							"Esittäjät"
+"HLVR_Commentary_Elevator"							"Elevator"
+// Game Tips
+"HLVR_LOADING_SCREEN_TIP_COUNT"				"22"
+"HLVR_LOADING_SCREEN_TIP_MAP_0_COUNT"		"6"		// a1_intro_world
+"HLVR_LOADING_SCREEN_TIP_MAP_1_COUNT"		"9"		// a1_intro_world_2
+"HLVR_LOADING_SCREEN_TIP_MAP_2_COUNT"		"6"		// a2_quarantine_entrance
+"HLVR_LOADING_SCREEN_TIP_MAP_3_COUNT"		"7"		// a2_pistol
+"HLVR_LOADING_SCREEN_TIP_MAP_4_COUNT"		"12"	// a2_hideout
+"HLVR_LOADING_SCREEN_TIP_MAP_5_COUNT"		"12"	// a2_headcrabs_tunnel
+"HLVR_LOADING_SCREEN_TIP_MAP_6_COUNT"		"14"	// a2_drainage
+"HLVR_LOADING_SCREEN_TIP_MAP_7_COUNT"		"13"	// a2_train_yard
+"HLVR_LOADING_SCREEN_TIP_MAP_8_COUNT"		"11"	// a3_station_street
+"HLVR_LOADING_SCREEN_TIP_MAP_9_COUNT"		"15"	// a3_hotel_lobby_basement
+"HLVR_LOADING_SCREEN_TIP_MAP_10_COUNT"		"15"	// a3_hotel_underground_pit
+"HLVR_LOADING_SCREEN_TIP_MAP_11_COUNT"		"15"	// a3_hotel_interior_rooftop
+"HLVR_LOADING_SCREEN_TIP_MAP_12_COUNT"		"20"	// a3_hotel_street
+"HLVR_LOADING_SCREEN_TIP_MAP_13_COUNT"		"20"	// a3_c17_processing_plant
+"HLVR_LOADING_SCREEN_TIP_MAP_14_COUNT"		"20"	// a3_distillery
+"HLVR_LOADING_SCREEN_TIP_MAP_15_COUNT"		"20"	// a4_c17_zoo
+"HLVR_LOADING_SCREEN_TIP_MAP_16_COUNT"		"20"	// a4_c17_tanker_yard
+"HLVR_LOADING_SCREEN_TIP_MAP_17_COUNT"		"0"		// a4_c17_water_tower
+"HLVR_LOADING_SCREEN_TIP_MAP_18_COUNT"		"0"		// a4_c17_parking_garage
+"HLVR_LOADING_SCREEN_TIP_MAP_19_COUNT"		"0"		// a5_vault
+"HLVR_LOADING_SCREEN_TIP_MAP_20_COUNT"		"0"		// a5_ending
+} 
+}

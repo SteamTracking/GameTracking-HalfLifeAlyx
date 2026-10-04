@@ -28,8 +28,6 @@
      *Update Solver Contacts: %6.3f [ms]
      *Update Velocities: %6.3f [ms]
     %-64.64s:  %s
-    %u iterated blocks\n
-    %u unfinished blocks\n
     '%s' localization matches\n
     *Process Results: %6.3f [ms] for %d aggregates
     *Process Updater: %6.3f [ms]
@@ -81,6 +79,7 @@
  !""#$%&'((()*+,-./0123456789:;<=>?@AABCDEFGHIJKLLAMAAN
  !"#$%&'()*+,-./0123
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  #GameUI_Disconnect_ExitingEngine
@@ -103,8 +102,6 @@
  *** FakeVRMode is not yet supported when VR is enabled ***  \nRemove -VR from command line and try again if you want to access this mode \n
  - %s (%s)\n
  - [0x%llx]
- .CPlayer_GetNicknameList_Request
- .CPublishedFile_Publish_Response"2
  240 frames: %5.1f fps, avg time:%5.2fms, abs_range:%7.2fms, min_time:%5.2fms, max_time:%5.2fms
  240 frames: %5.1f fps, avg time:%5.2fms, abs_range:%7.2fms, min_time:%5.2fms, max_time:%5.2fms\n
  240 server ticks: %5.1f tps, avg time:%5.2fms, abs_range:%7.2fms, min_time:%5.2fms, max_time:%5.2fms
@@ -122,7 +119,7 @@
  Failed to unpack %s - Code %d\n
  NOT
  Outdent() without matching Indent().
- Returns details on a Cloud file.
+ PFU
  Tokenizer::ParseFloat() passed text that could not have been tokenized as a float: 
  Tokenizer::ParseStringAppend() passed text that could not have been tokenized as a string: 
  Type Descriptor'
@@ -149,17 +146,17 @@
  fnumber=%d ofs=0x%x sz=%d
  google/protobuf/descriptor.proto"
  google/protobuf/descriptor.proto*
- google/protobuf/descriptor.proto*]\n
  google/protobuf/descriptor.proto:9\n\tmap_field
  invert
+ jFU
  message of type "
  new
+ noexcept
  not found
  of the Protocol Buffer runtime library, but the installed version is 
  of the Protocol Buffer runtime library, which is not compatible with the installed version (
  offset size\n
  parent-relative
- throw(
  took %d bits, %d bytes\n
  type does not match\n
  unexpected for field 
@@ -184,13 +181,9 @@
 !#GameUI_ServerRejectFailedChannel
 !$fQ3
 !(pField->flags & FTYPEDESC_PTR )
-!.CPlayer_GetNicknameList_Response"<
-!.CPublishedFile_Subscribe_Request
 !.google.protobuf.EnumValueOptions
-!1AQaq
 !Access to convar functions
 !Access to global system functions
-!App ID to enumerate the files of.
 !DUc
 !E9#L
 !FieldRequiresSpecialHandling( td )
@@ -251,11 +244,9 @@
 "#GameUI_Disconnect_DeltaEntMessage
 "#GameUI_Disconnect_HLTVUnavailable
 "#GameUI_ServerRejectInvalidCertLen
-"#\n!CPublishedFile_Subscribe_Response"v\n"CPublishedFile_Unsubscribe_Request
 "#\n\nCEntityMsg
 "$0" does not declare $1 as an extension number.
 "$\n\fCMsgVector2D
-"%\n#CPublishedFile_Unsubscribe_Response"
 "%\n\nCIPASNInfo
 "&\n$CWorkshop_AddSpecialPayment_Response"W\n$CWorkshop_GetSpecialPayments_Request
 ") is not compatible with this reflection object (which is for type "
@@ -274,21 +265,15 @@
 ". This appears to be a value from a sibling type.
 ". This is not 
 ". Value: "
-".CCloud_EnumerateUserFiles_Request
-".CPublishedFile_GetDetails_Request
-".CPublishedFile_Subscribe_Response"-
 "/*" inside block comment.  Block comments cannot be nested.
 "0\n\tCP2P_Ping
 "0x" must be followed by hex digits.
-"2BRbr
-"3\n"CPlayer_GetGameBadgeLevels_Request
 "4\n!CMsgGCToGCUniverseStartupResponse
 "9\n\vCMsgTESmoke
 "<\n CNETMsg_SpawnGroup_LoadCompleted
 ">\n\nCMsgTEFizz
 "@Hqr
 "DeleteMapValue"
-"EPublishedFileInfoMatchingFileType
 "E\n$CMsgGCGetPartnerAccountLink_Response
 "F\n\fGCSQLVersion
 "GetMapData"
@@ -299,14 +284,12 @@
 "MapEnd"
 "MapSize"
 "MutableRawRepeatedField"
-"Text title for the published file.
 "U\n&CHLVRClientMsg_CombineConsoleCompleted
 "\n\nowner_soid
 "\n\rcore_position
 "\n\rorigin_offset
 "\v\n\tCDemoStop"0\n\fCDemoUserCmd
 "^\n\fOneofOptions
-"`\n/CPlayer_UpdateSteamAnnouncementLastRead_Request
 "c\n%CMsgGCRequestSubGCSessionInfoResponse
 "dSx?
 "e" must be followed by exponent.
@@ -326,13 +309,6 @@
 ##GameUI_Disconnect_SnapshotOverflow
 #%02X%02X%02X%02X
 #%s_NAME
-#.CCloud_EnumerateUserFiles_Response"[
-#.CCloud_GetUploadServerInfo_Request
-#.CPlayer_GetGameBadgeLevels_Request
-#.CPlayer_GetLastPlayedTimes_Request
-#.CPublishedFile_GetDetails_Response"9
-#.CPublishedFile_Unsubscribe_Request
-#3CScs
 #9fm
 #Achievement_Earned
 #AsyncPanel_Failure
@@ -552,11 +528,6 @@ $#GameUI_Disconnect_BadServerPassword
 $#GameUI_Disconnect_ConnectionFailure
 $#GameUI_Disconnect_MessageParseError
 $#GameUI_Disconnect_Request_HLTVRelay
-$.CCloud_GetUploadServerInfo_Response":
-$.CPlayer_GetGameBadgeLevels_Response"U
-$.CPlayer_GetLastPlayedTimes_Response".
-$.CPublishedFile_GetUserFiles_Request
-$.CPublishedFile_Unsubscribe_Response"1
 $0  extend .$1 {\n
 $0  extensions $1 to $2;\n
 $0  reserved 
@@ -565,17 +536,14 @@ $0enum $1 {\n
 $0message $1
 $0oneof $1 {
 $0option $1;\n
-$4DTdt
 $BaseTexture
 $DT<I
 $DryEraseMarker
 $Emissive
 $Ib?s
-$Retrieves files published by a user.
 $SO0
 $\n GCConnectionStatus_GC_GOING_DOWN
 $\n k_EMobilePaymentProvider_Invalid
-$\n k_EProtoExecutionSiteSteamClient
 $\n k_ESOMsg_CacheSubscribedUpToDate
 $\n\rresource_type
 $gender
@@ -597,7 +565,6 @@ $spriteRenderMode
 %%%d.%ds [%%s::%%s] 
 %%s  %%c %%10s : %c%%%ds%c %%s
 %%s  %%c %%10s : %c%%-%d.%ds%c %%s
-%(Optional) Starting page for results.
 %-15.15s[ %s ]
 %-16.16s | 
 %-20s
@@ -611,7 +578,6 @@ $spriteRenderMode
 %.2f (client: post update)
 %.2f away (threshold: %.2f)
 %.2f: client (pre-update)
-%.CPublishedFile_GetUserFiles_Response"(
 %02d
 %02d %s
 %02d: dur(%8.2f) amp(%8.2f) freq(%8.2f)
@@ -639,19 +605,15 @@ $spriteRenderMode
 %42s %-20s %s\n
 %5.3f:%s: adding layer %d (order %d): %s : cycle %5.3f (weight %5.3f)\n
 %50.50s %32.32s: %s %s\n
-%5EUeu
 %5d: %8.6f msec change '%s()' on field %s(path=%s) for ent %s(%s) name='%s'\n
 %8.3f
 %8.3f %8.3f %8.3f
 %8.3f[%d] %s:  %s
 %8.6f
 %8.8s: %-5d entries, '%s', ...
-%A service for Steam Cloud operations.
-%Deletes a file from the user's cloud.
+%?InternalFieldCount@Object@v8@@QEBAHXZ
 %I64u
 %O?ZE
-%Refresh the voting queue for the user
-%Shortcut name for the published file.
 %Tp8
 %Tpx
 %Tpxa
@@ -740,11 +702,15 @@ $spriteRenderMode
 %s (%.2f, %.2f, %.2f)
 %s (%s) has no particle system name specified!\n
 %s - %s %s\n
+%s : "%s"[%s]
 %s : %8.2f:  clearing events\n
 %s : %8.2f:  finish %s\n
 %s : %8.2f:  ignored %s\n
 %s : %8.2f:  start %s\n
 %s : %s : %s -- %s "%s"
+%s : <NULL>
+%s : <conversion failure>
+%s : <void>
 %s Model '%s' doesn't have attachment '%s' to attach particle system '%s' to.\n
 %s Touching %s %s %s; 
 %s allocation count overflow
@@ -979,11 +945,9 @@ $spriteRenderMode
 &#GameUI_Disconnect_PureServer_Mismatch
 &#GameUI_Disconnect_RemoteProblem_Other
 &#GameUI_ServerRejectInvalidReservation
-&(optional) Filter by privacy settings.
 &0000
-&6FVfv
+&?IsBoolean@Value@v8@@QEBA_NXZ
 &?PPPPPPP?
-&App Id this published file belongs to.
 &Apply
 &Cut
 &Exit
@@ -1002,14 +966,8 @@ $spriteRenderMode
 '#GameUI_Disconnect_BadSpectatorPassword
 '#GameUI_Disconnect_DifferentClassTables
 '#GameUI_ServerRejectInvalidSteamCertLen
-'(Optional) Title of the published file.
-'.CPlayer_GetFriendsGameplayInfo_Request
-'7GWgw
 '8P;Wo
-'A service to access published file data
-'App Id this file is being published TO.
 'OYM
-'Sets the player's community preferences
 '\n"SPAWN_GROUP_CREATE_NEW_SCENE_WORLD
 '\n"k_EMsgGCToClientPollConvarResponse
 '\n#GAME_PARTICLE_MANAGER_EVENT_DESTROY
@@ -1019,9 +977,10 @@ $spriteRenderMode
 '\n#SPAWN_GROUP_LOAD_ENTITIES_FROM_SAVE
 '\n#eQueryCvarValueStatus_CvarProtected
 '\n#k_EMobilePaymentProvider_GooglePlay
+'\nPx,\nEh-\n)
+'\nQx,\nFh-\n)
 '\n\rsignedPayload
 'out_location' must not be NULL
-( 8PX
 ( modelName, context ) - Manually precache a single model
 ( nOwner & 7 ) == 0 && ( nOwner & 0x8000000000000000ull ) != 0x8000000000000000ull
 ( resourceType, resourcePath, context ) - Manually precache a single resource. Types: "model|model_folder|sound|soundfile|particle|particle_folder"
@@ -1033,25 +992,17 @@ $spriteRenderMode
 (%d) Name: %s (%s)
 (%d/%d)%s %s
 (%g %g %g %g)
-('8PW
 ((https?|ftp|file)://|www\.)([^<]*)
+()$^.*+?[]|\-{},:=!\n\r
 (*MARK) must have an argument
 (*VERB) not recognized
-(.CPlayer_GetCommunityPreferences_Request
-(.CPlayer_GetFriendsGameplayInfo_Response"K
-(.CPlayer_GetPerFriendPreferences_Request
-(.CPlayer_SetCommunityPreferences_Request
-(.CPlayer_SetPerFriendPreferences_Request
 (0x%08X)'??'
-(8HXhx
 (?R or (?[+-]digits must be followed by )
 (?VideoPlayerInitAudio
 (ACTIVE)
-(App Id to retrieve published files from.
 (Fade Removed: [%d,%d,%d,%d])\n
-(ID of the Cloud file to get details for.
+(I?Value@External@v8@@QEBAPEAXXZ
 (None)
-(Text description for the published file.
 (This info has been copied to the clipboard.)
 (WIPE AND EXTRACT)
 (\f"Z\n CClientMsg_CustomGameEventBounce
@@ -1064,7 +1015,6 @@ $spriteRenderMode
 (\n$GAME_PARTICLE_MANAGER_EVENT_SET_TEXT
 (\n\fstring_table
 (\r"!\n\rHandler_Flags
-(\r"2\n0CPlayer_UpdateSteamAnnouncementLastRead_Response*
 (\r"6\n"CMsgGCCheckClanMembership_Response
 (\r"8\n%CGCSystemMsg_GetPurchaseTrust_Request
 (\r":\n"CWorkshop_GetContributors_Response
@@ -1073,8 +1023,6 @@ $spriteRenderMode
 (\r"R\n#CHLVRClientMsg_CraftingPrintSubmenu
 (\r"R\n\nCMsg_CVars
 (\r"V\n\fCMsgTEImpact
-(\r"Y\n"CPublishedFile_GetDetails_Response
-(\r"^\n(CPlayer_GetCommunityPreferences_Response
 (\r"f\n&CHLVRClientMsg_CraftingUpgradeSelected
 (\r"f\n\nCMsgTEDust
 (\r"m\n&CHLVRClientMsg_HoloHackPuzzleTurnedOff
@@ -1086,17 +1034,14 @@ $spriteRenderMode
 (\r"{\n,CHLVRClientMsg_HoloHackPointSearchCoreSolved
 (\r"}\n/CHLVRClientMsg_HoloHackPuzzleInteractionStarted
 (\r"~\n\vOperation_t
-(\t")\n'CPlayer_GetPerFriendPreferences_Request"
 (\t"<\n\fCSVCMsg_Menu
 (\t"=\n(CMsgGCMsgWebAPIJobRequestForwardResponse
 (\t">\n+CClientMsg_DevPaletteVisibilityChangedEvent
-(\t"@\n2CHelpRequestLogs_UploadUserApplicationLog_Response
 (\t"B\n"CHLVRClientMsg_XenFoliageEmitSound
 (\t"C\n&CWorkshop_SetItemPaymentRules_Response
 (\t"J\n\fCCLCMsg_Move
 (\t"K\n$CMsgGCMsgMasterSetDirectory_Response
 (\t"\r\n\vCNETMsg_NOP"'\n
-(\t:\vlastupdatedB8
 (\v2 .CCommunity_ClanAnnouncementInfo"p\n$CBroadcast_PostGameDataFrame_Request
 (\v2 .CMsgGCHUpdateSession.ExtraField
 (\v2 .CMsgGCToGCForwardAccountDetails"&\n$CMsgGCToGCLoadSessionSOCacheResponse"f\n
@@ -1135,7 +1080,6 @@ $spriteRenderMode
 (\v2&.google.protobuf.MethodDescriptorProto
 (\v2'.CGCToGCMsgMasterStartupComplete.GCInfo
 (\v2'.CMsgDPPartnerMicroTxns.PartnerMicroTxn
-(\v2'.CPlayer_IncomingInviteMutualFriendList"7\n&CPlayer_GetFriendsGameplayInfo_Request
 (\v2'.google.protobuf.ServiceDescriptorProto
 (\v2(.CGCSystemMsg_GetAccountDetails_Response
 (\v2(.CMsgGCUpdateSubGCSessionInfo.CMsgUpdate
@@ -1144,12 +1088,9 @@ $spriteRenderMode
 (\v2(.google.protobuf.SourceCodeInfo.Location
 (\v2).CGameInfo.CDotaGameInfo.CHeroSelectEvent
 (\v2).CMsgGCMsgMasterSetClientMsgRouting.Entry
-(\v2).CPlayer_GetLastPlayedTimes_Response.Game
-(\v2).CPublishedFile_GetUserFiles_Response.App
 (\v2).CUserMsg_ParticleManager.DestroyParticle
 (\v2).CUserMsg_ParticleManager.SetParticleText
 (\v2).google.protobuf.EnumValueDescriptorProto
-(\v2*.CPlayer_GetGameBadgeLevels_Response.Badge
 (\v2+.CMsgGCGetPersonaNames_Response.PersonaName
 (\v2+.CUserMsg_ParticleManager.UpdateParticleEnt
 (\v2+.CUserMsg_ParticleManager.UpdateParticleFwd
@@ -1169,7 +1110,6 @@ $spriteRenderMode
 (\v2..CUserMsg_ParticleManager.UpdateParticleOrient
 (\v2..google.protobuf.DescriptorProto.ReservedRange
 (\v2/.google.protobuf.DescriptorProto.ExtensionRange
-(\v20.CPlayer_GetNicknameList_Response.PlayerNickname
 (\v20.CUserMessageRapidfireBulletManager.CreateBullet
 (\v20.CUserMsg_ParticleManager.UpdateParticleFallback
 (\v21.CBidirMsg_RelayPacket.SignedDestinationAddress_t
@@ -1195,10 +1135,8 @@ $spriteRenderMode
 (\v26.CUserMessageRapidfireBulletManager.AddBulletToCluster
 (\v26.CUserMsg_ParticleManager.ChangeControlPointAttachment
 (\v26.google.protobuf.EnumDescriptorProto.EnumReservedRange
-(\v28.CPlayer_GetFriendsGameplayInfo_Response.OwnGameplayInfo
 (\v2;.CMsgNotificationOfSuspiciousActivity.MultipleGameInstances
 (\v2;.CUserMessageRapidfireBulletManager.RemoveBulletFromCluster
-(\v2<.CPlayer_GetFriendsGameplayInfo_Response.FriendsGameplayInfo
 (\v2=.CWorkshop_SetItemPaymentRules_Request.PartnerItemPaymentRule
 (\v2>.CWorkshop_SetItemPaymentRules_Request.WorkshopItemPaymentRule
 (\v2A.CWorkshop_PopulateItemDescriptions_Request.SingleItemDescription"F\n!CWorkshop_GetContributors_Request
@@ -1260,16 +1198,8 @@ $spriteRenderMode
 )->AmmoPercentage() >= 30 
 )->AmmoPercentage() >= 30\n
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-).CPlayer_GetCommunityPreferences_Response".
-).CPlayer_GetPerFriendPreferences_Response"M
-).CPlayer_SetCommunityPreferences_Response"+
-).CPlayer_SetPerFriendPreferences_Response"G
-)9IYiy
+)4?NewFromUtf8@String@v8@@SA?AV?$MaybeLocal@VString@v8@@@2@PEAVIsolate@2@PEBDW4NewStringType@2@H@Z
 )@FD1y
-)A service for accessing Steam player dataB
-)App Id this file is being published FROM.
-)Invites another Steam user to be a friend
-)Subscribes the user to the published file
 )\n!host_framestarttime_std_deviation
 )\n$k_EMsgGCCompressedMsgToClient_Legacy
 )\n\fMessageRange
@@ -1280,38 +1210,28 @@ $spriteRenderMode
 *#GameUI_Disconnect_LocalProblem_ManyRelays
 ** ERROR!!! BONE TRANSFORM DATA WITH NO MODEL**!!!!\n
 *** No startup map specified in dev / tools mode ***\n*** Use console command 'map startup if a starting map is desired\n
-*.COAuthToken_ImplicitGrantNoPrompt_Request
-*.CPublishedFile_RefreshVotingQueue_Request
 *.txt
+*3333333333333333
 *5\n\rESourceEngine
-*:JZjz
+*?IsNumber@Value@v8@@QEBA_NXZ
+*?IsObject@Value@v8@@QEBA_NXZ
 *BaseAnimating::C_BodyComponentBaseAnimating
 *BaseEntity::CBodyComponent
 *BaseModelEntity::CBodyComponentBaseModelEntity
-*Gets the last-played times for the account
 *M\n#Bidirectional_Messages_LowFrequency
 *PAUSED  
-*Returns the player's community preferences
 *StO9>T
 *\n"host_computationtime_std_deviation
 *\n%HLVR_CM_HoloHackPointSearchCoreSolved
 *\n&GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENT
 *\n&k_EMobilePaymentProvider_AppleAppStore
-*\n&k_ENotificationSettingNotifyUseDefault
-*\n\vpreferences
 *`LDI
 *h\n\vDIALOG_TYPE
 *o\n\teRollType
 *}\n\fP2P_Messages
-+(Optional) Filename for the published file.
-+(Optional) User's YouTube account username.
 +++ %-64.64s:  %s (was %s)
 ++CLoopModeGame::SetWorldSession
-+.COAuthToken_ImplicitGrantNoPrompt_Response"y
-+.CPublishedFile_RefreshVotingQueue_Response")
 +999 %s
-+App ID to which a file will be uploaded to."9\n#CCloud_GetUploadServerInfo_Response
-+Updates information about a published file.
 +\n#dota_spectator_watching_broadcaster
 +\n&GE_ClearDecalsForSkeletonInstanceEvent
 +\n'GAME_PARTICLE_MANAGER_EVENT_SHOULD_DRAW
@@ -1398,10 +1318,9 @@ $spriteRenderMode
 , not just within "
 , with mounted addons: 
 ,#GameUI_Disconnect_Splitpacket_Send_Overflow
-,(Optional) Visibility of the published file.
 ,<ellipsis>
 ,HR>O
-,Service for dealing with user-submitted logsB
+,I?Value@Number@v8@@QEBANXZ
 ,\n\rRequestHeader
 ,cC7
 ,oXd
@@ -1415,7 +1334,6 @@ $spriteRenderMode
 - Item %llu : 
 - PLAYING DEBUG SOUNDSCAPE: %d [%s]\n
 -#GameUI_Disconnect_LocalProblem_NetworkConfig
--(Optional) Description of the published file.
 ---- samples begin ---- [interp %.6f] target = %.6f
 ---- samples end ------
 ----------------------------------\n\n
@@ -1427,7 +1345,6 @@ $spriteRenderMode
 --CLoopModeGame::ReceivedServerInfo
 --CLoopModeGame::SetWorldSession
 --CLoopModeGame::~CLoopModeGame
--.CPlayer_GetNewSteamAnnouncementState_Request
 -0.0s
 -0.5f
 -10.0f
@@ -1442,8 +1359,8 @@ $spriteRenderMode
 -6.0f
 -6.5f
 -64.0
+-?IsolateFromNeverReadOnlySpaceObject@internal@v8@@YAPEAVIsolate@12@_K@Z
 -BH>t
--Unsubscribes the user from the published file
 -\n(HLVR_CM_HoloHackPuzzleInteractionStarted
 -\n)GAME_PARTICLE_MANAGER_EVENT_UPDATE_OFFSET
 -all_languages
@@ -1460,6 +1377,7 @@ $spriteRenderMode
 -buildainet
 -buildcubemaps
 -buildcubemaps - Game shutdown before cubemaps got built!
+-bundleddriver
 -camdistance
 -camin
 -cammousemove
@@ -1523,6 +1441,7 @@ $spriteRenderMode
 -nopanorama
 -noscripting
 -novid
+-novideo
 -pad_down_hand0
 -pad_down_hand1
 -pad_hand0
@@ -1546,6 +1465,8 @@ $spriteRenderMode
 -secondary
 -showbudget_texture
 -showbudget_texture_global
+-showdeckardgraphicsoptions
+-showhiddengraphicsoptions
 -showscores
 -speed
 -sse2
@@ -1571,21 +1492,10 @@ $spriteRenderMode
 -zoom
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
-.(Optional) Set of tags for the published file.
 ...<truncated>...
-..CPlayer_GetNewSteamAnnouncementState_Response"_
 .00cfg
 .3333
 .>\rfJBGo
-.?AU?$_InitialTaskHandle@XV<lambda_5a9ef80d79df7873994019ff15dceae5>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@
-.?AU?$_InitialTaskHandle@XV<lambda_60c5de84e69e46aa92419d47e2f3ad51>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@
-.?AU?$_InitialTaskHandle@XV<lambda_85226a1ade6d27c19b16702c44b1a394>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@
-.?AU?$_InitialTaskHandle@XV<lambda_e7905d7dbd7cab7f9b19199433c4f5d3>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@
-.?AU?$_PPLTaskHandle@EU?$_InitialTaskHandle@XV<lambda_5a9ef80d79df7873994019ff15dceae5>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@U_TaskProcHandle@details@3@@details@Concurrency@@
-.?AU?$_PPLTaskHandle@EU?$_InitialTaskHandle@XV<lambda_60c5de84e69e46aa92419d47e2f3ad51>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@U_TaskProcHandle@details@3@@details@Concurrency@@
-.?AU?$_PPLTaskHandle@EU?$_InitialTaskHandle@XV<lambda_85226a1ade6d27c19b16702c44b1a394>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@U_TaskProcHandle@details@3@@details@Concurrency@@
-.?AU?$_PPLTaskHandle@EU?$_InitialTaskHandle@XV<lambda_e7905d7dbd7cab7f9b19199433c4f5d3>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@U_TaskProcHandle@details@3@@details@Concurrency@@
-.?AU?$_Task_impl@E@details@Concurrency@@
 .?AUCBaseAnimatingEasingFloat_t@@
 .?AUCBaseAnimatingEasings_t@@
 .?AUCCallbackInternal_OnItemSubscribed@CHLVRAddonManager@@
@@ -1597,64 +1507,40 @@ $spriteRenderMode
 .?AUFileWeaponInfo_t@@
 .?AUGamePadData_t@panorama@@
 .?AUHtmlFormHasFocus_t@panorama@@
-.?AUIExecutionContext@Concurrency@@
-.?AUIExecutionResource@Concurrency@@
-.?AUIResourceManager@Concurrency@@
 .?AUIRulePayload@rr2@@
-.?AUIScheduler@Concurrency@@
-.?AUISchedulerProxy@Concurrency@@
-.?AUIThreadProxy@Concurrency@@
-.?AUIThreadProxyFactory@details@Concurrency@@
-.?AUITopologyExecutionResource@Concurrency@@
-.?AUITopologyNode@Concurrency@@
 .?AUIVTableIndexCalculator@@
-.?AUIVirtualProcessorRoot@Concurrency@@
 .?AULadderMove_t@@
 .?AUPhysicsWorld_t@CPhysicsGameSystem@@
 .?AUPostProcessParameters_t@@
 .?AUTonemapParameters_t@@
-.?AUTopologyObject@GlobalCore@details@Concurrency@@
-.?AUTopologyObject@GlobalNode@details@Concurrency@@
 .?AUTransitioningLayer_t@@
 .?AUVPhysicsCollisionAttribute_t@@
-.?AU_Anon@?$_Associated_state@H@std@@
-.?AU_Anon@?$_Associated_state@I@std@@
-.?AU_Chore@details@Concurrency@@
-.?AU_TaskProcHandle@details@Concurrency@@
-.?AU_Task_impl_base@details@Concurrency@@
+.?AU_Crt_new_delete@std@@
 .?AUaudioparams_t@@
 .?AUc_vehicleview_t@@
+.?AUctype_base@std@@
 .?AUfogparams_t@@
 .?AUinteractions_data_t@@
 .?AUprevent_interaction_t@@
-.?AUscheduler_interface@Concurrency@@
 .?AUshard_model_desc_t@@
 .?AUsky3dparams_t@@
-.?AV<lambda_057179dcc9ffbd4029ccee361158a8f1>@@
-.?AV<lambda_0760b0e512ddddebef09f948d4dd4071>@@
-.?AV<lambda_09aed28d9e63bfccf5212aef1dd8f4ab>@@
-.?AV<lambda_54fedc5b46335bf25c7b076395d32c74>@@
-.?AV<lambda_5a9ef80d79df7873994019ff15dceae5>@@
-.?AV<lambda_5e6aa0ce31a2b0a22b16c116e283509d>@@
-.?AV<lambda_6015b29b8edf4e0467bb0b3727f07787>@@
-.?AV<lambda_60c5de84e69e46aa92419d47e2f3ad51>@@
-.?AV<lambda_65259d4e0c43f967c9b0973e16d0b88d>@@
-.?AV<lambda_713ee8bbd6b08550d59c52695cab5ce3>@@
-.?AV<lambda_763529b0c7473cbc215a52d189ac9b18>@@
-.?AV<lambda_7b61b3954df95f2a70499341a85afd69>@@
-.?AV<lambda_801f68bb41ddccec39ec3058eae9d28d>@@
-.?AV<lambda_83e86be7a544ce4721c4d4951ac85029>@@
-.?AV<lambda_85226a1ade6d27c19b16702c44b1a394>@@
-.?AV<lambda_8fb1248390bb775c5c5f82cebe4b6849>@@
-.?AV<lambda_ad753c1e821d108e1a311dfa79cd9d31>@@
-.?AV<lambda_ade3241156d811587cb861a511d498c5>@@
-.?AV<lambda_cb7b545794cfdc8a464492d213c02276>@@
-.?AV<lambda_d5c08daec867e88c967670d2e53ad2d6>@@
-.?AV<lambda_e0b623a606acfd10554dbddbb0c1a7da>@@
-.?AV<lambda_e5bd1d888a3ee8b22b22fc8a58b03262>@@
-.?AV<lambda_e7905d7dbd7cab7f9b19199433c4f5d3>@@
-.?AV<lambda_f25c37099038263181b5186a3fa41b37>@@
-.?AV<lambda_fac74c1338e5afbc2423a21681fc11b7>@@
+.?AV<lambda_1>@?1???$IterateChildrenTraverseOfType@VCLabel@panorama@@@CPanel2D@panorama@@QEAA_NV?$function@$$A6A_NPEAVCLabel@panorama@@@Z@std@@@Z@
+.?AV<lambda_1>@?1???0CDelayLoadPanel@panorama@@QEAA@PEAVCPanel2D@2@PEBD@Z@
+.?AV<lambda_1>@?1??InitOwner@CHLVRCreditsPanel@@IEAAXXZ@
+.?AV<lambda_1>@?1??PreRender@C_EnvTimeOfDay2@@UEAA_NVCSplitScreenSlot@@@Z@
+.?AV<lambda_1>@?1??Restart@CNewParticleEffect@@QEAAXXZ@
+.?AV<lambda_1>@?1??SaveGame_Finalize@CEntity2SaveRestore@@UEAA_NPEAUSaveRestoreDataHandle_t__@@@Z@
+.?AV<lambda_1>@?1??SaveReadHeaderAndSpawnGroupList@CEntity2SaveRestore@@AEAAHPEAXPEAUSaveHeaderCache_t@@@Z@
+.?AV<lambda_1>@?1??SetDormant@CNewParticleEffect@@QEAAX_N@Z@
+.?AV<lambda_1>@?1??StopEmission@CNewParticleEffect@@QEAAX_N000@Z@
+.?AV<lambda_1>@?4??PreRender@C_EnvCombinedLightProbeVolume@@MEAA_NVCSplitScreenSlot@@@Z@
+.?AV<lambda_1>@?4??PreRender@C_EnvCubemap@@MEAA_NVCSplitScreenSlot@@@Z@
+.?AV<lambda_1>@?4??PreRender@C_EnvLightProbeVolume@@MEAA_NVCSplitScreenSlot@@@Z@
+.?AV<lambda_1>@?7??UpdateSearchText@CDebugLayout@panorama@@QEAAXAEBVCUtlString@@@Z@
+.?AV<lambda_1>@?8??WriteToBufferBC6H@FloatBitMap_t@@QEBA_NPEAX_KW4ImageFormat@@_N3@Z@
+.?AV<lambda_1>@?8??WriteToBufferBC7@FloatBitMap_t@@QEBA_NPEAX_KW4ImageFormat@@_N3@Z@
+.?AV<lambda_2>@?1??InitOwner@CHLVRCreditsPanel@@IEAAXXZ@
+.?AV<lambda_3>@?1??InitOwner@CHLVRCreditsPanel@@IEAAXXZ@
 .?AV?$CAnimTagListenerHelper@VIClothSettingsAnimTag@@@@
 .?AV?$CAnimTagListenerHelper@VIParticleAnimTag@@@@
 .?AV?$CAnimTagListenerHelper@VIPostGraphIKChainBlendTag@@@@
@@ -1701,7 +1587,6 @@ $spriteRenderMode
 .?AV?$CCallback@VCHTML@panorama@@UHTML_URLChanged_t@@$0A@@@
 .?AV?$CCallback@VCHTML@panorama@@UHTML_UpdateToolTip_t@@$0A@@@
 .?AV?$CCallback@VCHTML@panorama@@UHTML_VerticalScroll_t@@$0A@@@
-.?AV?$CCallback@VCSteamUnifiedMessageDispatcher@@USteamUnifiedMessagesSendMethodResult_t@@$0A@@@
 .?AV?$CCallbackImpl@$00@@
 .?AV?$CCallbackImpl@$03@@
 .?AV?$CCallbackImpl@$07@@
@@ -2111,16 +1996,15 @@ $spriteRenderMode
 .?AV?$CInterpolatedVarProceduralUsingOwnerLerp@VCIKInterpolationState@@VCSkeletonInstance@@@@
 .?AV?$CLoopModeFactory@VCLoopModeGame@@@@
 .?AV?$CMemberFunctor0@PEAVCEntity2SaveRestore@@P81@EAAXXZV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
-.?AV?$CMemberFunctor0@PEAVCParticleJobUpdater@?A0xa300dbff@@P812@EAAXXZV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CMemberFunctor0@PEAVIFileSystem@@P81@EAAXXZV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CMemberFunctor0@PEAVISceneSystem@@P81@EAAXXZV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
-.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_2d9e57603846de8b5694c16539ed7475>@@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
-.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_34cea91d72f8e14ae6dea454d52292b9>@@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
-.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_69c5012d25093ab17941f96d54ba56e9>@@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
-.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_89badc062f732ca8d4cffbc2c3444801>@@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
-.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_a23d939911d8807279e3c08a675be5b4>@@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
-.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_e2072a02847de5edcf3715551e8d3f4c>@@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
-.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_f4b1c8d431a590a27fec41da16ed1563>@@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
+.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_1>@?1??BuildKeyValuesCache@CEntityKeyValuesSaveRestoreOpsBase@@QEAAXPEAVCGameSaveRestoreInfo@@@Z@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
+.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_1>@?1??WriteInMemoryEXRFast@FloatBitMap_t@@IEBA_NAEAVCUtlBuffer@@@Z@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
+.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_1>@?8??SimulateParticles@CParticleMgr@@AEAAXAEAV?$CUtlVectorFixedGrowableCompat@UParticleSimListItem_t@CParticleMgr@@$0CAA@@@@Z@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
+.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_1>@?L@??Init@LightmapQueryData_t@@QEAA_NIAEBVKeyValues3@@@Z@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
+.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_2>@?7??PerformLatchWork@C_BaseEntity@@CAXW4InterpolatedVarPhase_t@@W4InterpolatedVarInterpolationTimeType_t@@HPEAULatchWork_t@@@Z@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
+.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_2>@?BP@???0CAnimGraphBatchUpdater@@QEAA@PEAPEAVC_BaseEntity@@H@Z@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
+.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_2>@?DB@??OnClientPreOutput@CRenderGameSystem@@QEAAXAEBUEventClientPreOutput_t@@@Z@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CParallelLoopProcessor@VFloatBitMap_t@@V?$CLoopMemberFuncJobItemProcessor@VFloatBitMap_t@@V1@V1@@@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CParallelProcessor@HV?$CLambdaJobItemProcessor@H@@$00@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CParallelProcessor@HV?$CMemberFuncJobItemProcessor@HV?$CCallQueueT@V?$CTSQueue@PEAVCFunctor@@$0A@@@@@V1@@@$00@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
@@ -2128,8 +2012,10 @@ $spriteRenderMode
 .?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CParallelProcessor@UWorkItem_t@IWrappedInterpolatedVar@@V?$CFuncJobItemProcessor@UWorkItem_t@IWrappedInterpolatedVar@@@@$00@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@VCRestoreLastSimulationValuesForInterpolationList_ParallelProcessingController@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CMemberFunctor1@PEAVCPointHLVRCommentaryHUD@@P81@EAAXPEAVIGameEvent@@@ZPEAV2@V?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
+.?AV?$CMemberFunctor1@PEAVCSource2Client@@P81@EAAXM@ZMV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CMemberFunctor2@PEAVCEntity2SaveRestore@@P81@EAAXPEBD0@ZV?$CUtlEnvelope@PEBD@@V2@V?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CMemberFunctor2@PEAVCEntity2SaveRestore@@P81@EBAXPEAVCCallQueue@@PEBD@ZPEAV2@V?$CUtlEnvelope@PEBD@@V?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
+.?AV?$CMemberFunctor3@PEAVCParticleMgr@@P81@EAAXMM_N@ZMM_NV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CMemberFunctor6@PEAVCSOAContainer@@P81@EAAXHHHHHT__m128@@@ZHHHHHT2@V?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CMemberFunctor7@PEAVCSOAContainer@@P81@EAAXHHHHPEBV1@HH@ZHHHHPEBV1@HHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CMemberFunctor7@PEAVCSOAContainer@@P81@EAAXPEAV1@HHHHHH@ZPEAV1@HHHHHHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
@@ -2322,6 +2208,7 @@ $spriteRenderMode
 .?AV?$CSchemaUtlVectorManipulator@V?$CUtlVector@_NV?$CUtlMemory@_NH@@@@_N@@
 .?AV?$CScriptAccessorT@VCDefScriptAccessorBase@@$00@@
 .?AV?$CScriptScopeT@VCDefScriptAccessorBase@@$00@@
+.?AV?$CStackAnnotation@PEAVCEntityInstance@@PEAV1@PEAUEntityIOOutputDesc_t@@PEAV?$CVariantBase@VCVariantDefaultAllocator@@@@MXXXX@@
 .?AV?$CStartupHookGameSystem@VGameEvent_RegisterInternal@@$0EEAA@@@
 .?AV?$CStylePropertyDimensionsBase@VCStylePropertyMargin@panorama@@@panorama@@
 .?AV?$CStylePropertyDimensionsBase@VCStylePropertyPadding@panorama@@@panorama@@
@@ -2550,64 +2437,36 @@ $spriteRenderMode
 .?AV?$RepeatedPtrField@VMessageLite@protobuf@google@@@protobuf@google@@
 .?AV?$RepeatedPtrFieldWrapper@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@internal@protobuf@google@@
 .?AV?$RepeatedPtrFieldWrapper@VMessage@protobuf@google@@@internal@protobuf@google@@
-.?AV?$ThreadProxyFactory@VFreeThreadProxy@details@Concurrency@@@details@Concurrency@@
 .?AV?$TypeDefinedMapFieldBase@VMapKey@protobuf@google@@VMapValueRef@23@@internal@protobuf@google@@
-.?AV?$_Associated_state@H@std@@
-.?AV?$_Associated_state@I@std@@
-.?AV?$_CancellationTokenCallback@V<lambda_be3e5d9dce35d2c8dbfa8485373731d5>@@@details@Concurrency@@
-.?AV?$_Deferred_async_state@I@std@@
-.?AV?$_Deferred_async_state@X@std@@
-.?AV?$_Fake_no_copy_callable_adapter@P8Image@Etc@@EAAIIII@ZQEAV12@AEAIAEAHAEAI@std@@
-.?AV?$_Fake_no_copy_callable_adapter@P8Image@Etc@@EAAXII@ZQEAV12@AEAHAEAI@std@@
-.?AV?$_Func_base@E$$V@std@@
 .?AV?$_Func_base@HPEAVIUIPanelClient@panorama@@PEAV12@@std@@
-.?AV?$_Func_base@I$$V@std@@
 .?AV?$_Func_base@X$$V@std@@
 .?AV?$_Func_base@XAEAH@std@@
 .?AV?$_Func_base@XPEAVCDelayLoadPanel@panorama@@@std@@
 .?AV?$_Func_base@_NPEAVCLabel@panorama@@@std@@
 .?AV?$_Func_base@_NPEAVCPanel2D@panorama@@@std@@
-.?AV?$_Func_impl@P6AHPEBVIUIPanelClient@panorama@@0@ZV?$allocator@H@std@@HPEAV12@PEAV12@@std@@
-.?AV?$_Func_impl@V<lambda_057179dcc9ffbd4029ccee361158a8f1>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_0760b0e512ddddebef09f948d4dd4071>@@V?$allocator@H@std@@XAEAH@std@@
-.?AV?$_Func_impl@V<lambda_09aed28d9e63bfccf5212aef1dd8f4ab>@@V?$allocator@H@std@@_NPEAVCLabel@panorama@@@std@@
-.?AV?$_Func_impl@V<lambda_54fedc5b46335bf25c7b076395d32c74>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_5a9ef80d79df7873994019ff15dceae5>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_5e6aa0ce31a2b0a22b16c116e283509d>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_6015b29b8edf4e0467bb0b3727f07787>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_60c5de84e69e46aa92419d47e2f3ad51>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_65259d4e0c43f967c9b0973e16d0b88d>@@V?$allocator@H@std@@_NPEAVCLabel@panorama@@@std@@
-.?AV?$_Func_impl@V<lambda_713ee8bbd6b08550d59c52695cab5ce3>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_763529b0c7473cbc215a52d189ac9b18>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_7b61b3954df95f2a70499341a85afd69>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_801f68bb41ddccec39ec3058eae9d28d>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_83e86be7a544ce4721c4d4951ac85029>@@V?$allocator@H@std@@_NPEAVCPanel2D@panorama@@@std@@
-.?AV?$_Func_impl@V<lambda_85226a1ade6d27c19b16702c44b1a394>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_8fb1248390bb775c5c5f82cebe4b6849>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_ad753c1e821d108e1a311dfa79cd9d31>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_ade3241156d811587cb861a511d498c5>@@V?$allocator@H@std@@XPEAVCDelayLoadPanel@panorama@@@std@@
-.?AV?$_Func_impl@V<lambda_cb7b545794cfdc8a464492d213c02276>@@V?$allocator@H@std@@_NPEAVCPanel2D@panorama@@@std@@
-.?AV?$_Func_impl@V<lambda_d5c08daec867e88c967670d2e53ad2d6>@@V?$allocator@H@std@@_NPEAVCLabel@panorama@@@std@@
-.?AV?$_Func_impl@V<lambda_e0b623a606acfd10554dbddbb0c1a7da>@@V?$allocator@H@std@@E$$V@std@@
-.?AV?$_Func_impl@V<lambda_e5bd1d888a3ee8b22b22fc8a58b03262>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_e7905d7dbd7cab7f9b19199433c4f5d3>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_f25c37099038263181b5186a3fa41b37>@@V?$allocator@H@std@@X$$V@std@@
-.?AV?$_Func_impl@V<lambda_fac74c1338e5afbc2423a21681fc11b7>@@V?$allocator@H@std@@XAEAH@std@@
-.?AV?$_Func_impl@V?$_Fake_no_copy_callable_adapter@P8Image@Etc@@EAAIIII@ZQEAV12@AEAIAEAHAEAI@std@@V?$allocator@H@2@I$$V@std@@
-.?AV?$_Func_impl@V?$_Fake_no_copy_callable_adapter@P8Image@Etc@@EAAXII@ZQEAV12@AEAHAEAI@std@@V?$allocator@H@2@X$$V@std@@
-.?AV?$_MallocaArrayHolder@PEAVContext@Concurrency@@@details@Concurrency@@
-.?AV?$_MallocaArrayHolder@PEAVevent@Concurrency@@@details@Concurrency@@
-.?AV?$_Packaged_state@$$A6AIXZ@std@@
-.?AV?$_Packaged_state@$$A6AXXZ@std@@
-.?AV?$_Ref_count_obj@U?$_Task_impl@E@details@Concurrency@@@std@@
-.?AV?$_Ref_count_obj@U_ExceptionHolder@details@Concurrency@@@std@@
-.?AV?$_Ref_count_obj@V__ExceptionPtr@@@std@@
-.?AV?$_Ref_count_obj_alloc@V__ExceptionPtr@@U?$_StaticAllocator@H@@@std@@
-.?AV?$_Task_async_state@I$00@std@@
-.?AV?$_Task_async_state@I$0A@@std@@
-.?AV?$_Task_async_state@X$00@std@@
-.?AV?$_Task_async_state@X$0A@@std@@
+.?AV?$_Func_impl_no_alloc@P6AHPEBVIUIPanelClient@panorama@@0@ZHPEAV12@PEAV12@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$IterateChildrenTraverseOfType@VCLabel@panorama@@@CPanel2D@panorama@@QEAA_NV?$function@$$A6A_NPEAVCLabel@panorama@@@Z@std@@@Z@_NPEAV23@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???0CDelayLoadPanel@panorama@@QEAA@PEAVCPanel2D@3@PEBD@Z@XPEAV23@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??InitOwner@CHLVRCreditsPanel@@IEAAXXZ@_NPEAVCLabel@panorama@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PreRender@C_EnvTimeOfDay2@@UEAA_NVCSplitScreenSlot@@@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??Restart@CNewParticleEffect@@QEAAXXZ@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??SaveGame_Finalize@CEntity2SaveRestore@@UEAA_NPEAUSaveRestoreDataHandle_t__@@@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??SaveReadHeaderAndSpawnGroupList@CEntity2SaveRestore@@AEAAHPEAXPEAUSaveHeaderCache_t@@@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??SetDormant@CNewParticleEffect@@QEAAX_N@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??StopEmission@CNewParticleEffect@@QEAAX_N000@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??PreRender@C_EnvCombinedLightProbeVolume@@MEAA_NVCSplitScreenSlot@@@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??PreRender@C_EnvCubemap@@MEAA_NVCSplitScreenSlot@@@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??PreRender@C_EnvLightProbeVolume@@MEAA_NVCSplitScreenSlot@@@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?7??UpdateSearchText@CDebugLayout@panorama@@QEAAXAEBVCUtlString@@@Z@_NPEAVCPanel2D@4@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?8??WriteToBufferBC6H@FloatBitMap_t@@QEBA_NPEAX_KW4ImageFormat@@_N3@Z@XAEAH@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?8??WriteToBufferBC7@FloatBitMap_t@@QEBA_NPEAX_KW4ImageFormat@@_N3@Z@XAEAH@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??InitOwner@CHLVRCreditsPanel@@IEAAXXZ@_NPEAVCLabel@panorama@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_3>@?1??InitOwner@CHLVRCreditsPanel@@IEAAXXZ@_NPEAVCLabel@panorama@@@std@@
+.?AV?$_Node_class@DV?$regex_traits@D@std@@@std@@
+.?AV?$_Node_str@D@std@@
 .?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$collate@D@std@@
+.?AV?$ctype@D@std@@
 .?AV?$function@$$A6AXXZ@std@@
 .?AVAggregateErrorCollector@?A0xc9545c76@protobuf@google@@
 .?AVAggregateOptionFinder@OptionInterpreter@DescriptorBuilder@protobuf@google@@
@@ -2619,17 +2478,6 @@ $spriteRenderMode
 .?AVBaseTooltip@vgui@@
 .?AVBitmapImage@@
 .?AVBlankImage@@
-.?AVBlock4x4Encoding@Etc@@
-.?AVBlock4x4Encoding_ETC1@Etc@@
-.?AVBlock4x4Encoding_R11@Etc@@
-.?AVBlock4x4Encoding_RG11@Etc@@
-.?AVBlock4x4Encoding_RGB8@Etc@@
-.?AVBlock4x4Encoding_RGB8A1@Etc@@
-.?AVBlock4x4Encoding_RGB8A1_Opaque@Etc@@
-.?AVBlock4x4Encoding_RGB8A1_Transparent@Etc@@
-.?AVBlock4x4Encoding_RGBA8@Etc@@
-.?AVBlock4x4Encoding_RGBA8_Opaque@Etc@@
-.?AVBlock4x4Encoding_RGBA8_Transparent@Etc@@
 .?AVBuildGroup@vgui@@
 .?AVBuildModeDialog@vgui@@
 .?AVButton@vgui@@
@@ -2763,15 +2611,6 @@ $spriteRenderMode
 .?AVCClientUIDialogManager@@
 .?AVCClientUIDialogPanel@@
 .?AVCClient_Precipitation@@
-.?AVCCloud_Delete_Request@@
-.?AVCCloud_Delete_Response@@
-.?AVCCloud_EnumerateUserFiles_Request@@
-.?AVCCloud_EnumerateUserFiles_Response@@
-.?AVCCloud_GetFileDetails_Request@@
-.?AVCCloud_GetFileDetails_Response@@
-.?AVCCloud_GetUploadServerInfo_Request@@
-.?AVCCloud_GetUploadServerInfo_Response@@
-.?AVCCloud_UserFile@@
 .?AVCCollisionProperty@@
 .?AVCColorCorrectionMgr@@
 .?AVCColorProperty@@
@@ -3161,8 +3000,6 @@ $spriteRenderMode
 .?AVCHUDQuickInfo@@
 .?AVCHapticRelay@@
 .?AVCHeadlightEffect@@
-.?AVCHelpRequestLogs_UploadUserApplicationLog_Request@@
-.?AVCHelpRequestLogs_UploadUserApplicationLog_Response@@
 .?AVCHighQualityShadowRendererSceneObject@@
 .?AVCHighQualityShadowRendererSceneObjectDesc@@
 .?AVCHitboxComponent@@
@@ -3454,8 +3291,6 @@ $spriteRenderMode
 .?AVCNoRefFunctor@@
 .?AVCNotifyManager@@
 .?AVCNumberEntry@panorama@@
-.?AVCOAuthToken_ImplicitGrantNoPrompt_Request@@
-.?AVCOAuthToken_ImplicitGrantNoPrompt_Response@@
 .?AVCOffscreenParticleMipsProceduralLayer@@
 .?AVCOffscreenParticleTexture@@
 .?AVCP2P_Ping@@
@@ -3502,43 +3337,6 @@ $spriteRenderMode
 .?AVCPlaceholderConVar@@
 .?AVCPlayerTraversalFilter@@
 .?AVCPlayerVRFakeMove_InputHandler@@
-.?AVCPlayer_AcceptSSA_Request@@
-.?AVCPlayer_AcceptSSA_Response@@
-.?AVCPlayer_AddFriend_Request@@
-.?AVCPlayer_AddFriend_Response@@
-.?AVCPlayer_CommunityPreferences@@
-.?AVCPlayer_GetCommunityPreferences_Request@@
-.?AVCPlayer_GetCommunityPreferences_Response@@
-.?AVCPlayer_GetFriendsGameplayInfo_Request@@
-.?AVCPlayer_GetFriendsGameplayInfo_Response@@
-.?AVCPlayer_GetFriendsGameplayInfo_Response_FriendsGameplayInfo@@
-.?AVCPlayer_GetFriendsGameplayInfo_Response_OwnGameplayInfo@@
-.?AVCPlayer_GetGameBadgeLevels_Request@@
-.?AVCPlayer_GetGameBadgeLevels_Response@@
-.?AVCPlayer_GetGameBadgeLevels_Response_Badge@@
-.?AVCPlayer_GetLastPlayedTimes_Request@@
-.?AVCPlayer_GetLastPlayedTimes_Response@@
-.?AVCPlayer_GetLastPlayedTimes_Response_Game@@
-.?AVCPlayer_GetMutualFriendsForIncomingInvites_Request@@
-.?AVCPlayer_GetMutualFriendsForIncomingInvites_Response@@
-.?AVCPlayer_GetNewSteamAnnouncementState_Request@@
-.?AVCPlayer_GetNewSteamAnnouncementState_Response@@
-.?AVCPlayer_GetNicknameList_Request@@
-.?AVCPlayer_GetNicknameList_Response@@
-.?AVCPlayer_GetNicknameList_Response_PlayerNickname@@
-.?AVCPlayer_GetPerFriendPreferences_Request@@
-.?AVCPlayer_GetPerFriendPreferences_Response@@
-.?AVCPlayer_IgnoreFriend_Request@@
-.?AVCPlayer_IgnoreFriend_Response@@
-.?AVCPlayer_IncomingInviteMutualFriendList@@
-.?AVCPlayer_RemoveFriend_Request@@
-.?AVCPlayer_RemoveFriend_Response@@
-.?AVCPlayer_SetCommunityPreferences_Request@@
-.?AVCPlayer_SetCommunityPreferences_Response@@
-.?AVCPlayer_SetPerFriendPreferences_Request@@
-.?AVCPlayer_SetPerFriendPreferences_Response@@
-.?AVCPlayer_UpdateSteamAnnouncementLastRead_Request@@
-.?AVCPlayer_UpdateSteamAnnouncementLastRead_Response@@
 .?AVCPointClientUIWorldMoviePanel@@
 .?AVCPointClientUIWorldTextPanelPreviewer@@
 .?AVCPointHLVRCommentaryHUD@@
@@ -3694,21 +3492,6 @@ $spriteRenderMode
 .?AVCProtobufBinding@?$CNetMessagePB@$0NC@VCMsgSosSetSoundEventParams@@$03$00$00@@
 .?AVCProtobufBinding@?$CNetMessagePB@$0ND@VCMsgSosSetLibraryStackFields@@$03$00$00@@
 .?AVCProtobufBinding@?$CNetMessagePB@$0NE@VCMsgSosStopSoundEventHash@@$03$00$00@@
-.?AVCPublishedFile_GetDetails_Request@@
-.?AVCPublishedFile_GetDetails_Response@@
-.?AVCPublishedFile_GetUserFiles_Request@@
-.?AVCPublishedFile_GetUserFiles_Response@@
-.?AVCPublishedFile_GetUserFiles_Response_App@@
-.?AVCPublishedFile_Publish_Request@@
-.?AVCPublishedFile_Publish_Response@@
-.?AVCPublishedFile_RefreshVotingQueue_Request@@
-.?AVCPublishedFile_RefreshVotingQueue_Response@@
-.?AVCPublishedFile_Subscribe_Request@@
-.?AVCPublishedFile_Subscribe_Response@@
-.?AVCPublishedFile_Unsubscribe_Request@@
-.?AVCPublishedFile_Unsubscribe_Response@@
-.?AVCPublishedFile_Update_Request@@
-.?AVCPublishedFile_Update_Response@@
 .?AVCPushAwayEnumerator@@
 .?AVCRadioButton@panorama@@
 .?AVCRagdoll@@
@@ -3834,13 +3617,13 @@ $spriteRenderMode
 .?AVCSpecButton@@
 .?AVCSpectatorGUI@@
 .?AVCSpectatorMenu@@
-.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_2d9e57603846de8b5694c16539ed7475>@@@@@@QEAAXXZ@
-.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_34cea91d72f8e14ae6dea454d52292b9>@@@@@@QEAAXXZ@
-.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_69c5012d25093ab17941f96d54ba56e9>@@@@@@QEAAXXZ@
-.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_89badc062f732ca8d4cffbc2c3444801>@@@@@@QEAAXXZ@
-.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_a23d939911d8807279e3c08a675be5b4>@@@@@@QEAAXXZ@
-.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_e2072a02847de5edcf3715551e8d3f4c>@@@@@@QEAAXXZ@
-.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_f4b1c8d431a590a27fec41da16ed1563>@@@@@@QEAAXXZ@
+.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_1>@?1??BuildKeyValuesCache@CEntityKeyValuesSaveRestoreOpsBase@@QEAAXPEAVCGameSaveRestoreInfo@@@Z@@@@@QEAAXXZ@
+.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_1>@?1??WriteInMemoryEXRFast@FloatBitMap_t@@IEBA_NAEAVCUtlBuffer@@@Z@@@@@QEAAXXZ@
+.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_1>@?8??SimulateParticles@CParticleMgr@@AEAAXAEAV?$CUtlVectorFixedGrowableCompat@UParticleSimListItem_t@CParticleMgr@@$0CAA@@@@Z@@@@@QEAAXXZ@
+.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_1>@?L@??Init@LightmapQueryData_t@@QEAA_NIAEBVKeyValues3@@@Z@@@@@QEAAXXZ@
+.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_2>@?7??PerformLatchWork@C_BaseEntity@@CAXW4InterpolatedVarPhase_t@@W4InterpolatedVarInterpolationTimeType_t@@HPEAULatchWork_t@@@Z@@@@@QEAAXXZ@
+.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_2>@?BP@???0CAnimGraphBatchUpdater@@QEAA@PEAPEAVC_BaseEntity@@H@Z@@@@@QEAAXXZ@
+.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_2>@?DB@??OnClientPreOutput@CRenderGameSystem@@QEAAXAEBUEventClientPreOutput_t@@@Z@@@@@QEAAXXZ@
 .?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CParallelLoopProcessor@VFloatBitMap_t@@V?$CLoopMemberFuncJobItemProcessor@VFloatBitMap_t@@V1@V1@@@@@@@QEAAXXZ@
 .?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CParallelProcessor@HV?$CLambdaJobItemProcessor@H@@$00@@@@QEAAXXZ@
 .?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CParallelProcessor@HV?$CMemberFuncJobItemProcessor@HV?$CCallQueueT@V?$CTSQueue@PEAVCFunctor@@$0A@@@@@V1@@@$00@@@@QEAAXXZ@
@@ -4466,9 +4249,6 @@ $spriteRenderMode
 .?AVC_XenBlindZombieSpores@@
 .?AVC_XenFoliageTurretProjectile@@
 .?AVC_XenHearingFlower@@
-.?AVCacheLocalScheduleGroup@details@Concurrency@@
-.?AVCacheLocalScheduleGroupSegment@details@Concurrency@@
-.?AVCancellationTokenRegistration_TaskProc@details@Concurrency@@
 .?AVCaptionGripPanel@?A0x8aa18b2e@@
 .?AVCheckButton@vgui@@
 .?AVCheckImage@@
@@ -4489,8 +4269,6 @@ $spriteRenderMode
 .?AVConVar@@
 .?AVConVar_ServerBounded@@
 .?AVConVar_m_pitch@@
-.?AVContext@Concurrency@@
-.?AVContextBase@details@Concurrency@@
 .?AVContinuousProgressBar@vgui@@
 .?AVCountdownTimer@@
 .?AVDNameNode@@
@@ -4514,13 +4292,9 @@ $spriteRenderMode
 .?AVEnumValueDescriptorProto@protobuf@google@@
 .?AVEnumValueOptions@protobuf@google@@
 .?AVErrorCollector@io@protobuf@google@@
-.?AVExecutionResource@details@Concurrency@@
 .?AVExpandButton@vgui@@
 .?AVExtensionFinder@internal@protobuf@google@@
 .?AVExtensionRangeOptions@protobuf@google@@
-.?AVExternalContextBase@details@Concurrency@@
-.?AVFairScheduleGroup@details@Concurrency@@
-.?AVFairScheduleGroupSegment@details@Concurrency@@
 .?AVFastFieldValuePrinter@TextFormat@protobuf@google@@
 .?AVFatalException@protobuf@google@@
 .?AVFieldDescriptorProto@protobuf@google@@
@@ -4534,9 +4308,6 @@ $spriteRenderMode
 .?AVFrame@vgui@@
 .?AVFrameButton@vgui@@
 .?AVFrameSystemButton@vgui@@
-.?AVFreeThreadProxy@details@Concurrency@@
-.?AVFreeThreadProxyFactory@details@Concurrency@@
-.?AVFreeVirtualProcessorRoot@details@Concurrency@@
 .?AVFullscreenHLViewport@@
 .?AVFunctionClosure0@internal@protobuf@google@@
 .?AVGameEvent_RegisterHookupGameSystem@@
@@ -4680,6 +4451,7 @@ $spriteRenderMode
 .?AVIRecordingList@@
 .?AVIRefCounted@@
 .?AVIRegistry@@
+.?AVIRenderHandler@@
 .?AVIResponseDB@rr2@@
 .?AVIResponseSystem@@
 .?AVIRestore@@
@@ -4705,6 +4477,7 @@ $spriteRenderMode
 .?AVISource2ServerConfig@@
 .?AVISpawnGroup@@
 .?AVISpawnGroupEntityFilter@@
+.?AVIStack_Annotation@@
 .?AVIStepSimulationManager@@
 .?AVIStreamEntitiesFromFileCompletion@@
 .?AVITempEnts@@
@@ -4748,7 +4521,6 @@ $spriteRenderMode
 .?AVImage@vgui@@
 .?AVImagePanel@vgui@@
 .?AVInnerMap@?$Map@VMapKey@protobuf@google@@VMapValueRef@23@@protobuf@google@@
-.?AVInternalContextBase@details@Concurrency@@
 .?AVIntervalTimer@@
 .?AVLabel@vgui@@
 .?AVListPanel@vgui@@
@@ -4769,7 +4541,6 @@ $spriteRenderMode
 .?AVMessageOptions@protobuf@google@@
 .?AVMethodDescriptorProto@protobuf@google@@
 .?AVMethodOptions@protobuf@google@@
-.?AVMultiWaitBlock@details@Concurrency@@
 .?AVNetworkVar_fog@sky3dparams_t@@
 .?AVNetworkVar_m_Collision@C_BaseModelEntity@@
 .?AVNetworkVar_m_Easings@C_BaseAnimating@@
@@ -4803,34 +4574,19 @@ $spriteRenderMode
 .?AVPanel@vgui@@
 .?AVPanelListPanel@vgui@@
 .?AVParserErrorCollector@ParserImpl@Parser@TextFormat@protobuf@google@@
-.?AVPerFriendPreferences@@
 .?AVPlaceDecalEvent_t@@
 .?AVProgressBar@vgui@@
 .?AVProtoFlattenedSerializerField_t@@
 .?AVProtoFlattenedSerializer_t@@
-.?AVPublishedFileDetails@@
-.?AVPublishedFileDetails_Child@@
-.?AVPublishedFileDetails_KVTag@@
-.?AVPublishedFileDetails_Preview@@
-.?AVPublishedFileDetails_Tag@@
-.?AVPublishedFileDetails_VoteData@@
 .?AVRadioButton@vgui@@
 .?AVRandomAccessRepeatedFieldAccessor@internal@protobuf@google@@
-.?AVRealizedChore@details@Concurrency@@
 .?AVReflection@protobuf@google@@
 .?AVRepeatedFieldAccessor@internal@protobuf@google@@
 .?AVRepeatedPtrFieldMessageAccessor@internal@protobuf@google@@
 .?AVRepeatedPtrFieldStringAccessor@internal@protobuf@google@@
-.?AVResourceManager@details@Concurrency@@
 .?AVRichText@vgui@@
 .?AVRichTextInterior@vgui@@
 .?AVScalableImagePanel@vgui@@
-.?AVScheduleGroup@Concurrency@@
-.?AVScheduleGroupBase@details@Concurrency@@
-.?AVScheduleGroupSegmentBase@details@Concurrency@@
-.?AVScheduler@Concurrency@@
-.?AVSchedulerBase@details@Concurrency@@
-.?AVSchedulerProxy@details@Concurrency@@
 .?AVScrollBar@vgui@@
 .?AVScrollBarButton@?A0xdf808ee3@@
 .?AVScrollBarSlider@vgui@@
@@ -4839,7 +4595,6 @@ $spriteRenderMode
 .?AVServiceDescriptorProto@protobuf@google@@
 .?AVServiceOptions@protobuf@google@@
 .?AVSignedPayload_t@@
-.?AVSingleWaitBlock@details@Concurrency@@
 .?AVSlider@vgui@@
 .?AVSource1LegacyGameEventList_t@@
 .?AVSource1LegacyGameEvent_t@@
@@ -4877,11 +4632,6 @@ $spriteRenderMode
 .?AVTextGenerator@Printer@TextFormat@protobuf@google@@
 .?AVTextImage@vgui@@
 .?AVTextTooltip@vgui@@
-.?AVThreadInternalContext@details@Concurrency@@
-.?AVThreadProxy@details@Concurrency@@
-.?AVThreadScheduler@details@Concurrency@@
-.?AVThreadVirtualProcessor@details@Concurrency@@
-.?AVTimedSingleWaitBlock@details@Concurrency@@
 .?AVToggleButton@vgui@@
 .?AVTreeNode@vgui@@
 .?AVTreeNodeDropPanel@vgui@@
@@ -4895,65 +4645,39 @@ $spriteRenderMode
 .?AVUninterpretedOption_NamePart@protobuf@google@@
 .?AVUnknownFieldSetFieldSkipper@internal@protobuf@google@@
 .?AVVideoPanel@@
-.?AVVirtualProcessor@details@Concurrency@@
-.?AVVirtualProcessorRoot@details@Concurrency@@
-.?AVWaitAllBlock@details@Concurrency@@
-.?AVWaitAnyBlock@details@Concurrency@@
-.?AVWaitBlock@details@Concurrency@@
 .?AVZeroCopyInputStream@io@protobuf@google@@
 .?AVZeroCopyOutputStream@io@protobuf@google@@
-.?AV_CancellationTokenRegistration@details@Concurrency@@
-.?AV_DefaultPPLTaskScheduler@details@Concurrency@@
-.?AV_Future_error_category@std@@
-.?AV_Generic_error_category@std@@
-.?AV_Interruption_exception@details@Concurrency@@
-.?AV_RefCounter@details@Concurrency@@
-.?AV_Ref_count_base@std@@
-.?AV_System_error@std@@
+.?AV_Facet_base@std@@
+.?AV_Locimp@locale@std@@
+.?AV_Node_assert@std@@
+.?AV_Node_back@std@@
+.?AV_Node_base@std@@
+.?AV_Node_capture@std@@
+.?AV_Node_end_group@std@@
+.?AV_Node_end_rep@std@@
+.?AV_Node_endif@std@@
+.?AV_Node_if@std@@
+.?AV_Node_rep@std@@
+.?AV_Root_node@std@@
 .?AV__non_rtti_object@std@@
 .?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
 .?AVbad_cast@std@@
 .?AVbad_exception@std@@
 .?AVbad_function_call@std@@
 .?AVbad_typeid@std@@
 .?AVcharNode@@
-.?AVcontext_self_unblock@Concurrency@@
-.?AVcontext_unblock_unbalanced@Concurrency@@
-.?AVerror_category@std@@
 .?AVexception@std@@
-.?AVfuture_error@std@@
-.?AVimproper_lock@Concurrency@@
-.?AVimproper_scheduler_attach@Concurrency@@
-.?AVimproper_scheduler_reference@Concurrency@@
-.?AVinvalid_argument@std@@
-.?AVinvalid_operation@Concurrency@@
-.?AVinvalid_oversubscribe_operation@Concurrency@@
-.?AVinvalid_scheduler_policy_key@Concurrency@@
-.?AVinvalid_scheduler_policy_thread_specification@Concurrency@@
-.?AVinvalid_scheduler_policy_value@Concurrency@@
+.?AVfacet@locale@std@@
 .?AVlength_error@std@@
 .?AVlogic_error@std@@
-.?AVmissing_wait@Concurrency@@
-.?AVnested_scheduler_missing_detach@Concurrency@@
 .?AVout_of_range@std@@
 .?AVpDNameNode@@
 .?AVpairNode@@
 .?AVpcharNode@@
+.?AVregex_error@std@@
 .?AVruntime_error@std@@
-.?AVscheduler_resource_allocation_error@Concurrency@@
-.?AVscheduler_worker_creation_error@Concurrency@@
-.?AVstl_condition_variable_concrt@details@Concurrency@@
-.?AVstl_condition_variable_interface@details@Concurrency@@
-.?AVstl_condition_variable_vista@details@Concurrency@@
-.?AVstl_condition_variable_win7@details@Concurrency@@
-.?AVstl_critical_section_concrt@details@Concurrency@@
-.?AVstl_critical_section_interface@details@Concurrency@@
-.?AVstl_critical_section_vista@details@Concurrency@@
-.?AVstl_critical_section_win7@details@Concurrency@@
-.?AVsystem_error@std@@
-.?AVtask_canceled@Concurrency@@
 .?AVtype_info@@
-.?AVunsupported_os@Concurrency@@
 .?AW4EActiveControllerType@panorama@@
 .?AW4ELanguage@@
 .?AW4ELoadLayoutAsyncDetails@panorama@@
@@ -4961,12 +4685,6 @@ $spriteRenderMode
 .?AW4EVideoPlayerEvent@@
 .?AW4EVideoPlayerPlaybackError@@
 .?AW4GamePadCode@panorama@@
-.CCloud_Delete_Request
-.CCloud_Delete_Response")
-.CCloud_GetFileDetails_Request
-.CCloud_GetFileDetails_Response"$
-.CCloud_UserFile
-.CCloud_UserFile"
 .CDemoClassInfo.class_t
 .CDemoStringTables
 .CDemoStringTables.items_t
@@ -4999,19 +4717,6 @@ $spriteRenderMode
 .CMsgVoiceAudio
 .CMsgWebAPIKey
 .CMsg_CVars.CVar
-.CPlayer_AcceptSSA_Request
-.CPlayer_AcceptSSA_Response"
-.CPlayer_AddFriend_Request
-.CPlayer_AddFriend_Response"-
-.CPlayer_CommunityPreferences"*\n(CPlayer_SetCommunityPreferences_Response"@\n,CPlayer_GetNewSteamAnnouncementState_Request
-.CPlayer_CommunityPreferences"]\n'CPlayer_SetCommunityPreferences_Request
-.CPlayer_IgnoreFriend_Request
-.CPlayer_IgnoreFriend_Response"W
-.CPlayer_RemoveFriend_Request
-.CPlayer_RemoveFriend_Response"3
-.CPublishedFile_Publish_Request
-.CPublishedFile_Update_Request
-.CPublishedFile_Update_Response"/
 .CRT$XCA
 .CRT$XCC
 .CRT$XCL
@@ -5023,7 +4728,6 @@ $spriteRenderMode
 .CRT$XLA
 .CRT$XLZ
 .CRT$XPA
-.CRT$XPB
 .CRT$XPX
 .CRT$XPXA
 .CRT$XPZ
@@ -5043,12 +4747,8 @@ $spriteRenderMode
 .EClientUIEvent
 .EMobilePaymentProvider
 .ENetworkDisconnectionReason"
-.ENotificationSetting
-.ENotificationSetting"V\n(CPlayer_GetPerFriendPreferences_Response
-.EProtoExecutionSite:
 .ESourceEngine:\rk_ESE_Source1
 .ESplitScreenMessageType
-.Exclude any files that have any of these tags.
 .GCConnectionStatus
 .GCProtoBufMsgSrc
 .P6AHPEBVIUIPanelClient@panorama@@0@Z
@@ -5072,17 +4772,7 @@ $spriteRenderMode
 .PEBVILocalizationString@panorama@@
 .PLACEHOLDER_VALUE
 .PartnerAccountType
-.PerFriendPreferences"*\n(CPlayer_SetPerFriendPreferences_Response"c\n
-.PerFriendPreferences"U\n'CPlayer_SetPerFriendPreferences_Request
 .ProtoFlattenedSerializer_t
-.PublishedFileDetails
-.PublishedFileDetails"
-.PublishedFileDetails.Child
-.PublishedFileDetails.KVTag
-.PublishedFileDetails.Preview
-.PublishedFileDetails.Tag
-.PublishedFileDetails.VoteData
-.Publishes a clouded user file to the Workshop.
 .RequestPause_t
 .SerializedNetAddress_t
 .SignedPayload_t
@@ -5096,13 +4786,12 @@ $spriteRenderMode
 .com
 .data
 .data$r
+.data$rs
 .dummy
-.eBlabelled_debug_helper_skeleton_show_bone_names
+.eBlabelled_debug_helper_show_text
 .edata
 .foo = value".
 .g[rA
-.gfids$x
-.gfids$y
 .google.protobuf.EnumOptions
 .google.protobuf.FieldOptions
 .google.protobuf.FieldOptions"
@@ -5110,7 +4799,6 @@ $spriteRenderMode
 .google.protobuf.MessageOptions
 .google.protobuf.MethodOptions
 .google.protobuf.OneofOptions"
-.google.protobuf.ServiceOptions
 .google.protobuf.ServiceOptions"
 .google.protobuf.SourceCodeInfo
 .htm
@@ -5128,17 +4816,13 @@ $spriteRenderMode
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .rtc$IAA
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
 .sav
-.steammessages_unified_base.steamworkssdk.proto"
-.steammessages_unified_base.steamworkssdk.proto"4\n2CPlayer_GetMutualFriendsForIncomingInvites_Request"\\n&CPlayer_IncomingInviteMutualFriendList
-.steammessages_unified_base.steamworkssdk.proto"d\n"CCloud_GetUploadServerInfo_Request
-.steammessages_unified_base.steamworkssdk.proto"t\n CPublishedFile_Subscribe_Request
-.steammessages_unified_base.steamworkssdk.proto"{\n)COAuthToken_ImplicitGrantNoPrompt_Request
 .text$di
 .text$mn
 .text$mn$00
@@ -5155,8 +4839,6 @@ $spriteRenderMode
 .xdata
 .xdata$x
 /2GG>!B
-/Published file id of the file we'd like update.
-/Removes a friend or ignores a friend suggestion
 /\n+GAME_PARTICLE_MANAGER_EVENT_UPDATE_FALLBACK
 /\n\nMoveBullet
 /\n\nget_params
@@ -5230,6 +4912,7 @@ $spriteRenderMode
 0 == ( pInstance->GetOwnerGameEntity()->GetEntityIdentity()->GetFlags() & EF_IN_STAGING_LIST )
 0 @ ( %1.3f, %1.3f ) - 1 @ ( %1.3f, %1.3f )\n
 0 Auto Detect, 1 Always, 2 never
+0 is Low, 1 is Medium, 2 is High, -1 is Don't do anything
 0.001f
 0.002
 0.0035
@@ -5291,13 +4974,9 @@ $spriteRenderMode
 0.85
 0.93f
 0.9f
-0.CPlayer_UpdateSteamAnnouncementLastRead_Request
 0.Ui
-0000
 00000000-0000-0000-0000-000000000000
-00003333
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-0123456789ABCDEF
 0123456789abcdef
 0123456789abcdefghijklmnopqrstuvwxyz
 02\x
@@ -5306,17 +4985,14 @@ $spriteRenderMode
 0: Oriented to the VR Hand, 1: Oriented to the HMD, 2: Combo of HMD, Hand and world orientation
 0:<\n\fdelta_ignore
 0E>X
-0Marks latest announcement timestamp read by user
-0Name of the file to publish in the user's cloud.
 0X8b?~
-0\f%04
-0\f504P
+0\f504T
+0\f50t\f
 0\fXr
 0\n,GCConnectionStatus_NO_SESSION_IN_LOGON_QUEUE
 0\n,RAPIDFIRE_BULLET_MANAGER_EVENT_CREATE_BULLET
 0\n\vpost_params
 0\n\vserializers
-0\tE0d
 0iN>/
 0x%016llX
 0x%4.4x 
@@ -5347,7 +5023,6 @@ $spriteRenderMode
 1.75
 1.75f
 1.8f
-1.CPlayer_UpdateSteamAnnouncementLastRead_Response"4
 10.0
 10.0f
 100.0
@@ -5369,8 +5044,8 @@ $spriteRenderMode
 120.0
 120.0f
 1200
-123456789
 127.0.0.1
+1271
 1296.0
 13.0f
 130.0
@@ -5388,7 +5063,7 @@ $spriteRenderMode
 16.6666666667
 16384
 1647
-1731
+1732
 18.0
 18.0f
 180 90 -15
@@ -5400,19 +5075,13 @@ $spriteRenderMode
 1@Ih
 1DBlend
 1GERA
-1If true, return children in the returned details.
 1O[y?
 1QJ)
-1Service containing methods to manage OAuth tokens
-1Steam ID of user to whom to send a friend invite."
 1\n-GAME_PARTICLE_MANAGER_EVENT_DESTROY_INVOLVING
 1\n-NETWORK_DISCONNECT_DIRECT_CONNECT_RESERVATION
 1\n-RAPIDFIRE_BULLET_MANAGER_EVENT_CREATE_CLUSTER
-1\n\tvote_data
-1\r51h
 1a4+
 1dm:
-1eaB@
 1uWf
 1w?WA
 2 - bottom-left
@@ -5437,7 +5106,6 @@ $spriteRenderMode
 2.25f
 2.2f
 2.5f
-2.CHelpRequestLogs_UploadUserApplicationLog_Request
 2/.google.protobuf.MethodOptions.IdempotencyLevel:
 20 185 90
 20.0
@@ -5471,10 +5139,7 @@ $spriteRenderMode
 26t3
 2719
 2779
-2Array of text tags to apply to the published file.
-2If true, return vote data in the returned details.
 2SZ\v@
-2Set of published file Ids to retrieve details for.
 2ZGU
 2\n.GAME_PARTICLE_MANAGER_EVENT_SET_FOW_PROPERTIES
 2\n.GAME_PARTICLE_MANAGER_EVENT_UPDATE_ORIENTATION
@@ -5482,20 +5147,15 @@ $spriteRenderMode
 2\n.RAPIDFIRE_BULLET_MANAGER_EVENT_EXPLODE_CLUSTER
 2\n.RAPIDFIRE_BULLET_MANAGER_EVENT_TRANSFER_BULLET
 2\n.eRollType
-2\n\vpreferences
 2\r%2h
 2\r.PrefetchType"5\n
-2\r52t
 2tGZE
 2uWv
 3 - bottom-right
 3 - down & right
 3 FB
-3(Optional) Preview filename for the published file." \n
 3+5<t
 3.0f
-3.CHelpRequestLogs_UploadUserApplicationLog_Response"#
-3.CPlayer_GetMutualFriendsForIncomingInvites_Request
 30 -90 190
 30.0
 30.0f
@@ -5505,50 +5165,47 @@ $spriteRenderMode
 32.0f
 3200
 32:B\n
-3333
 333333
-3333333333333333
 333?
 333?333?
 3500
 36.0
 37>k
 384B
-3901
+3902
 3;AQ
 3>N;kU
 3>fvw
+3?New@Number@v8@@SA?AV?$Local@VNumber@v8@@@2@PEAVIsolate@2@N@Z
+3?New@Object@v8@@SA?AV?$Local@VObject@v8@@@2@PEAVIsolate@2@@Z
 3?tr
-3\f53t\f
 3\n/RAPIDFIRE_BULLET_MANAGER_EVENT_ACTIVATE_CLUSTER
 3\n/RAPIDFIRE_BULLET_MANAGER_EVENT_TRANSFER_CLUSTER
 3\n\toperation
+3\r53t
 4 - no pin
 4 by 3
-4(Optional) Sorting method to use on returned values.
 4.0f
 4.5f
-4.CPlayer_GetMutualFriendsForIncomingInvites_Response"^
 40 40 40 196
 40.0
 40.0f
 400.0
 400.0f
 4096
-4337
 4338
+4339
 440.0
-4465
+4466
 44T{
 45.0f
 4500
 456789:;<=
-4754
+4755
 48.0
 4@G8-x
 4Ca\v6C
 4KNb
-4Redirection URI provided during client registration.2
 4\n0GAME_PARTICLE_MANAGER_EVENT_SET_SHOULD_CHECK_FOW
 4\n0RAPIDFIRE_BULLET_MANAGER_EVENT_DEACTIVATE_BULLET
 4\n\vPersonaName
@@ -5556,8 +5213,6 @@ $spriteRenderMode
 4o0/
 4w>Mw
 5 5 5
-5(EWorkshopFileType) Type of Workshop file to publish.
-5(Optional) The number of results, per page to return.
 5+6A/7
 5.0f
 50.0
@@ -5568,16 +5223,18 @@ $spriteRenderMode
 51>W
 53.0
 560.0
-5884
+57h\t
+5886
 59B'
 5?Missing file '%s'
-5Retrieves information about a set of published files.
+5Gx!
 5YHe/
+5\f%54
 5\n1GAME_PARTICLE_MANAGER_EVENT_SET_TEXTURE_ATTRIBUTE
 5\n1RAPIDFIRE_BULLET_MANAGER_EVENT_DEACTIVATE_CLUSTER
 5\n\vnested_type
 5\n\vtype_caches
-6(Optional) Type of game the published file represents.
+5\r%5h
 6.0f
 6.4f
 60.0
@@ -5585,12 +5242,11 @@ $spriteRenderMode
 600.0
 66.666666667
 6<u7@
+6?NumberValue@Value@v8@@QEBA?AV?$Maybe@N@2@V?$Local@VContext@v8@@@2@@Z
 6E6F
 6I=U
 6MDd
 6NK>
-6Returns the URL of the proper cloud server for a user.
-6True if the operation was successful, false otherwise.
 6\fXO>\ntA
 6\frY}
 6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
@@ -5599,20 +5255,19 @@ $spriteRenderMode
 6u?E
 7.0f
 70.0
-700PP
-700WP
 75.0
 75P=
 7>I0
 7?GX
 7@Sz
-7If true, return key value tags in the returned details.
 7L4HA
 7Ze&<o
+7\f574
 7\n3GAME_PARTICLE_MANAGER_EVENT_SET_CONTROL_POINT_MODEL
 7\n\nbody_parts
 7\n\rannouncements
 7\n\tenum_type
+7\rE7
 7`ZKV?e
 7~xh
 8#GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay
@@ -5623,13 +5278,8 @@ $spriteRenderMode
 87.0
 89u<
 8<lCE
-8Client ID for which to count the number of issued tokens"
 8Csinf
-8Gets the list of nicknames this user has for other users
-8If set, remove from ignore/block list instead of adding "\\n
-8If true, return tag information in the returned details.
 8L4H
-8Name of the file to use as the published file's preview.
 8Rqtyy?
 8\n4RAPIDFIRE_BULLET_MANAGER_EVENT_ADD_BULLET_TO_CLUSTER
 8\n\rgcsql_version
@@ -5637,19 +5287,15 @@ $spriteRenderMode
 8\n\textension
 8\n\vdescriptors
 8ke?;
-8x`f
 90.0
 90.0f
 95*P>
 98N*>
 9>70
-9>powf
 9@0G
 9D7V=
 9Px? FcH
 9Zg,>4
-9\fU94,
-9\n\faccess_token
 9\n\noneof_decl
 9\n\vplayer_info
 9gCN>
@@ -5664,7 +5310,6 @@ $spriteRenderMode
 : Tried to merge from a message with a different type.  to: 
 : failed to parse contents
 :15Sk
-:4\n\vdescription
 :9Cq
 :9\n\tkey_field
 :CHH
@@ -5686,7 +5331,6 @@ $spriteRenderMode
 < unset >
 <!-- dmx encoding keyvalues2_noids 4 format vtex 1 -->\n"CDmeVtex"\n{\n\t"m_inputTextureArray" "element_array"\n\t[\n
 <!-- schema 
-<(Optional) Type of collection the published file represents.
 </font>
 << NULL >>\n
 <<illegal>>
@@ -5694,7 +5338,6 @@ $spriteRenderMode
 <ERROR>
 <HOi#
 <HOq
-<If true, return preview information in the returned details.
 <NULL>
 <Unknown>
 <\n\tusermsg_t
@@ -5750,7 +5393,7 @@ $spriteRenderMode
 =cQ6
 =e2m
 =imb;D
->0123456789ABCDEF
+=invalid_hitbox
 >5AT
 >9K!0>N
 >CBaseAchievement
@@ -5774,7 +5417,6 @@ $spriteRenderMode
 ?$EdX
 ?(CUL
 ?(Hlw
-?(Optional) Video Id of a YouTube video for this published file.
 ?*JSN
 ?*SPzt]
 ?+hZbe4
@@ -5810,21 +5452,25 @@ $spriteRenderMode
 ??0CGaussianRandomStream@@QEAA@PEAVIUniformRandomStream@@@Z
 ??0CMiniDumpCommentBuilderBase@@QEAA@XZ
 ??0CThreadEvent@@QEAA@_N@Z
+??0CThreadFastMutex@@QEAA@PEBD@Z
+??0CThreadFastMutex@@QEAA@XZ
 ??0CThreadFiber@@QEAA@_K@Z
 ??0CThreadMultiWaitEvent@@QEAA@_N@Z
 ??0CThreadMutex@@QEAA@PEBD@Z
+??0CThreadMutex@@QEAA@XZ
 ??0CThreadRWLock_FastRead@@QEAA@_N@Z
 ??0CUniformRandomStream@@QEAA@XZ
 ??0HandleScope@v8@@QEAA@PEAVIsolate@1@@Z
-??0TryCatch@v8@@QEAA@XZ
-??0Utf8Value@String@v8@@QEAA@V?$Local@VValue@v8@@@2@@Z
+??0IStack_Annotation@@QEAA@AEBVCCallStackMarkerBase@@@Z
+??0TryCatch@v8@@QEAA@PEAVIsolate@1@@Z
+??0Utf8Value@String@v8@@QEAA@PEAVIsolate@2@V?$Local@VValue@v8@@@2@@Z
 ??1CMiniDumpCommentBuilderBase@@UEAA@XZ
 ??1CThreadEvent@@QEAA@XZ
 ??1CThreadMultiWaitEvent@@QEAA@XZ
-??1CThreadMutex@@QEAA@XZ
 ??1CThreadSemaphore@@QEAA@XZ
 ??1CThreadSyncObject@@QEAA@XZ
 ??1HandleScope@v8@@QEAA@XZ
+??1IStack_Annotation@@UEAA@XZ
 ??1TryCatch@v8@@QEAA@XZ
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?@En[vP
@@ -5836,21 +5482,25 @@ $spriteRenderMode
 ?AttachToStream@CGaussianRandomStream@@QEAAXPEAVIUniformRandomStream@@@Z
 ?Aw0
 ?B9v
-?BooleanValue@Value@v8@@QEBA_NXZ
+?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
 ?CarouselNav
 ?ComposeFileName@CBufferString@@QEAAPEBDPEBD0D@Z
 ?ConColorMsg@@YAXAEBVColor@@PEBDZZ
 ?ConMsg@@YAXPEBDZZ
 ?Concat@CBufferString@@QEAAPEBDPEBD0ZZ
-?CreateHandle@HandleScope@v8@@CAPEAPEAVObject@internal@2@PEAVHeapObject@42@PEAV342@@Z
-?CreateHandle@HandleScope@v8@@KAPEAPEAVObject@internal@2@PEAVIsolate@42@PEAV342@@Z
+?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
 ?D1y
 ?DevMsg@@YAXPEBDZZ
 ?DevWarning@@YAXPEBDZZ
+?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
 ?Dxj
 ?EGr
 ?EncounteredComplexReadLockOperation@CThreadRWLock_FastRead@@IEAA_NI_NPEBDH@Z
+?Enter@Context@v8@@QEAAXXZ
+?Enter@Isolate@v8@@QEAAXXZ
 ?EnterScope@CVProfile@@QEAAXPEBDH0_NH@Z
+?Exit@Context@v8@@QEAAXXZ
+?Exit@Isolate@v8@@QEAAXXZ
 ?ExitScope@CVProfile@@QEAAXXZ
 ?ExtractFileBase@CBufferString@@QEAAPEBDPEBD@Z
 ?ExtractFileExtension@CBufferString@@QEAAPEBDPEBD@Z
@@ -5860,28 +5510,26 @@ $spriteRenderMode
 ?FixSlashes@CBufferString@@QEAAPEBDD@Z
 ?FixupPathName@CBufferString@@QEAAPEBDD@Z
 ?Format@CBufferString@@QEAAHPEBDZZ
+?FromJustIsNothing@api_internal@v8@@YAXXZ
+?Get@Object@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@I@Z
 ?GetBudgetGroupColor@CVProfile@@QEAAXHAEAH000@Z
 ?GetCounterGroup@CVProfile@@QEBA?AW4CounterGroup_t@@H@Z
 ?GetCounterName@CVProfile@@QEBAPEBDH@Z
 ?GetCounterValue@CVProfile@@QEBA_KH@Z
+?GetCurrentContext@Isolate@v8@@QEAA?AV?$Local@VContext@v8@@@2@XZ
 ?GetName@Function@v8@@QEBA?AV?$Local@VValue@v8@@@2@XZ
 ?GetNextCommentBuilder@CMiniDumpCommentBuilderBase@@UEAAPEAV1@XZ
 ?GetNumCounters@CVProfile@@QEBAHXZ
-?GlobalizeReference@V8@v8@@CAPEAPEAVObject@internal@2@PEAVIsolate@42@PEAPEAV342@@Z
+?GlobalizeReference@api_internal@v8@@YAPEA_KPEAVIsolate@internal@2@_K@Z
 ?HandleFirstWriteLockTransition@CThreadRWLock_FastRead@@IEAAXXZ
 ?HasCaught@TryCatch@v8@@QEBA_NXZ
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?InternalFieldCount@Object@v8@@QEAAHXZ
-?IsBoolean@Value@v8@@QEBA_NXZ
-?IsEnabled@CVProfile@@QEBA_NXZ
-?IsNumber@Value@v8@@QEBA_NXZ
-?IsObject@Value@v8@@QEBA_NXZ
 ?JV8f
 ?Ji@9
 ?K5X
 ?Kre
 ?KxB
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LockForRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
@@ -5894,13 +5542,6 @@ $spriteRenderMode
 ?MeQ
 ?MxS
 ?N%fj
-?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-?New@External@v8@@SA?AV?$Local@VExternal@v8@@@2@PEAVIsolate@2@PEAX@Z
-?New@FunctionTemplate@v8@@SA?AV?$Local@VFunctionTemplate@v8@@@2@PEAVIsolate@2@P6AXAEBV?$FunctionCallbackInfo@VValue@v8@@@2@@ZV?$Local@VValue@v8@@@2@V?$Local@VSignature@v8@@@2@HW4ConstructorBehavior@2@@Z
-?New@Number@v8@@SA?AV?$Local@VNumber@v8@@@2@PEAVIsolate@2@N@Z
-?New@Object@v8@@SA?AV?$Local@VObject@v8@@@2@PEAVIsolate@2@@Z
-?NewFromUtf8@String@v8@@SA?AV?$Local@VString@v8@@@2@PEAVIsolate@2@PEBDW4NewStringType@12@H@Z
-?NumberValue@Value@v8@@QEBANXZ
 ?NwC
 ?OYM
 ?P3I
@@ -5922,34 +5563,25 @@ $spriteRenderMode
 ?S]Nv$x
 ?Set@CThreadEvent@@QEAA_NXZ
 ?Set@CThreadMultiWaitEvent@@QEAAXXZ
-?Set@Object@v8@@QEAA_NIV?$Local@VValue@v8@@@2@@Z
-?Set@Object@v8@@QEAA_NV?$Local@VValue@v8@@@2@0@Z
-?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
-?SetAccessor@ObjectTemplate@v8@@QEAAXV?$Local@VString@v8@@@2@P6AX0AEBV?$PropertyCallbackInfo@VValue@v8@@@2@@ZP6AX0V?$Local@VValue@v8@@@2@AEBV?$PropertyCallbackInfo@X@2@@Z3W4AccessControl@2@W4PropertyAttribute@2@V?$Local@VAccessorSignature@v8@@@2@@Z
 ?SetExtension@CBufferString@@QEAAPEBDPEBD@Z
 ?SetLength@CBufferString@@QEAAPEADH_NPEAH@Z
 ?SetPtr@CBufferString@@QEAAXPEADHH_N1@Z
 ?SetSeed@CUniformRandomStream@@UEAAXH@Z
-?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VValue@v8@@@2@H@Z
 ?SpinLockForWrite@CThreadSpinRWLock@@AEAAXPEBDHI@Z
 ?StartsWith@CBufferString@@QEAA_NPEBD@Z
 ?StripExtension@CBufferString@@QEAAPEBDXZ
 ?StripTrailingSlash@CBufferString@@QEAAPEBDXZ
 ?TFm,r
-?The most recent last-played time the client already knows about"
-?ThrowException@Isolate@v8@@QEAA?AV?$Local@VValue@v8@@@2@V32@@Z
-?ToBoolean@Value@v8@@QEBA?AV?$MaybeLocal@VBoolean@v8@@@2@V?$Local@VContext@v8@@@2@@Z
 ?ToLowerFast@CBufferString@@QEAAXH@Z
-?ToNumber@Value@v8@@QEBA?AV?$MaybeLocal@VNumber@v8@@@2@V?$Local@VContext@v8@@@2@@Z
-?ToObject@Value@v8@@QEBA?AV?$MaybeLocal@VObject@v8@@@2@V?$Local@VContext@v8@@@2@@Z
-?ToString@Value@v8@@QEBA?AV?$MaybeLocal@VString@v8@@@2@V?$Local@VContext@v8@@@2@@Z
 ?UUUUUU
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?UnlockReadAccounting@CThreadRWLock_FastRead@@IEAAXPEBDHI@Z
 ?UnlockRead_LockForWrite@CThreadRWLock_FastRead@@QEAA?AW4RWLockTranstionResult_t@@PEBDH@Z
 ?UnlockWrite@CThreadRWLock_FastRead@@QEAAXPEBDH@Z
 ?UnlockWrite@CThreadSpinRWLock@@QEAAXPEBDH@Z
+?Unspecified
 ?V_GetUTF8BytesNeeded@@YAHPEB_WH@Z
 ?V_SplitString@@YAXPEBD0AEAV?$CUtlVector@PEADV?$CUtlMemory@PEADH@@@@@Z
 ?V_SplitString@@YAXPEBD0AEAV?$CUtlVector@VCUtlString@@V?$CUtlMemory@VCUtlString@@H@@@@_N@Z
@@ -5959,9 +5591,6 @@ $spriteRenderMode
 ?V_UnicodeLength@@YAHPEBD@Z
 ?V_UnicodeLength@@YAHPEBI@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
-?Value@Boolean@v8@@QEBA_NXZ
-?Value@External@v8@@QEBAPEAXXZ
-?Value@Number@v8@@QEBANXZ
 ?Vdt@
 ?Wait@CThreadSyncObject@@QEAA_NI@Z
 ?Wzm6V"
@@ -5983,16 +5612,17 @@ $spriteRenderMode
 ?actor
 ?bMeQ
 ?bQ\t6KU
+?butt
 ?cLU5
 ?c\tkc
 ?cwO
 ?eH_R
 ?expf
-?expression
 ?fAr|
 ?f`Y4
 ?ff&?ff&?ff&?
 ?ffffff
+?fmodf
 ?hWL
 ?iEH
 ?iOn
@@ -6021,7 +5651,6 @@ $spriteRenderMode
 ?r4GV~\t
 ?rAj
 ?rl=C8&
-?sqrtf
 ?t4X
 ?t\r34
 ?t`9B
@@ -6045,7 +5674,9 @@ $spriteRenderMode
 @0bDG
 @2l9<)8
 @?$2bUs
+@?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @AJG
+@AddStyle
 @BoneSetup
 @DP5z5@
 @DebugIndividualStyle
@@ -6054,7 +5685,6 @@ $spriteRenderMode
 @Gr}H
 @Kre
 @OpV
-@PanelNeedsRepaint
 @UN{J
 @Vc\tkc
 @WA\ft
@@ -6077,7 +5707,6 @@ $spriteRenderMode
 @panorama_movie_async_load_size_bytes
 @p}Xo
 @wKr
-A Log_Meta_* macro at %s (%d) went out of scope before it's parent Log_End().\n
 A burning player that gibs has burning gibs.
 A directional light entity
 A file with this name is already in the pool.
@@ -7754,7 +7383,6 @@ A\n!NETWORK_DISCONNECT_REJECT_NOLOBBY
 A\n\nannotation
 A\n\vdescriptors
 A\t3m
-A\t?DisposeGlobal@V8@v8@@CAXPEAPEAVObject@internal@2@@Z
 A_txt
 AbsTagType(unknown)
 AbsolutePoseControl
@@ -7767,7 +7395,6 @@ Achievement Progress
 Achievement count increased for %s: %d/%d\n
 Achievement_Blocks
 Achievements disabled, ignoring achievement progress for %s\n
-AcquireSRWLockExclusive
 Activate
 ActivateBullet
 ActivateCluster
@@ -7775,6 +7402,7 @@ ActivateGameOverlay: %s \n
 ActivateItem
 ActivateMainWindow
 Activated
+Activator
 Active Markers: %d\n
 Active Particles : %d\n
 Active projected textures: %d\n
@@ -7834,7 +7462,6 @@ AddRule
 AddRule(CRule) : Add a CRule object (defined in rulescript_base.nut) 
 AddSequenceLayer
 AddString
-AddStyle
 AddStyleAfterDelay
 AddStyleToEachChild
 AddTimedStyle
@@ -8057,6 +7684,7 @@ Animated characters who have vertex flex capability.
 AnimatedImageStrip
 Animating models
 AnimatingBreakableThink
+AnimatingImagePanel
 Animation
 Animation/AccumulatePose
 AnimationController
@@ -8089,8 +7717,8 @@ Announcer.RoundEnds3seconds
 Announcer.RoundEnds4seconds
 Announcer.RoundEnds5seconds
 Announcer.RoundEnds60seconds
-App ID the file belongs to."
 AppID
+AppPolicyGetProcessTerminationMethod
 AppendChildrenFromLayoutFileAsync
 AppendToLogFile
 AppendToLogFile is deprecated. Print to the console for logging instead.
@@ -8108,6 +7736,7 @@ Applying overrides for %s 0x%p\n
 April
 Ar!ES
 Arabic
+AreFileApisANSI
 Area Portal Tool
 AreaPortalUIPanel
 Arial Black
@@ -8119,6 +7748,7 @@ AssetBrowserSystem_001
 AssetPreviewSystem_001
 AssetSystem001
 AssetSystemTest001
+Async Simulate Particles
 Async%llu
 AsyncCaptionResourceManager
 AsyncCaption_t::LoadFromFile_Internal
@@ -8204,9 +7834,11 @@ BEAM_LASER
 BEAM_POINTS
 BEAM_SPLINE
 BF>^G
+BGR101111_UFLOAT
 BGR565
 BGR888
 BGR888_BLUESCREEN
+BGR999_E5
 BGRA1010102
 BGRA4444
 BGRA5551
@@ -8245,9 +7877,9 @@ BULLET
 BUMP_WITH_TIMEOUT_WHEN_LEARNED
 BURN
 B\9{gt
-B\fP\v0
 B\fp\v0
 B\n\fCOrientation
+B\np\t0
 B\t3m
 B\vP\n0
 B\vp\nP
@@ -8287,7 +7919,6 @@ Bad read pointer - no RTTI data!
 Bad sequence in GetSequenceActivityName() for model '%s'!\n
 Bad type %d in saved CVariant\n
 Bad value
-Badge
 BagThink
 BakedLODBuilderMgr001
 Balinese
@@ -8653,11 +8284,6 @@ CClientUIDialogManager
 CClientUIScheme::LoadFromFile( %s )
 CClientUISchemeManager::RequireSchemeFromFile
 CClient_Precipitation
-CCloud_Delete_Request
-CCloud_Delete_Response2
-CCloud_GetFileDetails_Request
-CCloud_GetFileDetails_Response
-CCloud_UserFile
 CCoJobMgr::BResumeSleepingJobs
 CCoJobMgr::BResumeYieldingJobs
 CCoJobMgr::CheckForJobTimeouts
@@ -8944,7 +8570,6 @@ CGameMenuOptionCyclePanel:: Invalid ConVar %s
 CGameMenuOptionTogglePanel:: Invalid ConVar %s 
 CGameMessageDelegateHook::Dispatch called for user message but messages are marked for destruction, ignoring!\n
 CGameMessageDelegateHook::Dispatch called for user message, but message was never hooked!\n
-CGameMessageDelegateHook::Registered twice (no intervening Release)\n
 CGameMovement(%s):  %d/%s Got a NaN origin on %s\n
 CGameMovement(%s):  %d/%s Got a NaN velocity on %s\n
 CGameMovement(%s):  %d/%s Got a velocity too high (>%.2f) on %s\n
@@ -8959,6 +8584,7 @@ CGameSceneNode::AddHierarchyUpdate: Encountered unknown bone in parent entity %s
 CGameSceneNode::BuildBoneMergeWork: Invalid use of bonemerge-based hierarchy in non-skeleton instance based entity %s / entity %s!\n
 CGameSceneNode::BuildBoneMergeWork: Tried to bone merge an entity that has no model or no parent model : [%d] "%s" / parent [%d] "%s"!\n
 CGameSceneNode::StartHierarchicalAttachment: Cannot specify a skeleton instance that has no owner!\n
+CGameSceneNode::StartHierarchicalAttachment: Cannot start hierarchical attachment on a skeleton instance that has no owner!\n
 CGameSceneNode::StartHierarchicalAttachment: Encountered unknown attachment in parent entity "%s" (model "%s")!\n
 CGameSceneNode::StartHierarchicalAttachment: Invalid use of attachment-based hierarchy in non-skeleton instance based entity %s!\n
 CGameSceneNode::StartHierarchicalAttachment: Invalid use of bone-based hierarchy in non-skeleton instance based entity %s!\n
@@ -9021,7 +8647,6 @@ CHECK failed: (to->GetDescriptor()) == (descriptor):
 CHECK failed: (type) != (WireFormatLite::TYPE_ENUM): 
 CHECK failed: (type) != (WireFormatLite::TYPE_GROUP): 
 CHECK failed: (type) != (WireFormatLite::TYPE_MESSAGE): 
-CHECK failed: (type) == (WireFormatLite::TYPE_ENUM): 
 CHECK failed: (value.size()) <= (kint32max): 
 CHECK failed: allow_unknown_field_ || reserved_field: 
 CHECK failed: builder_: 
@@ -9426,7 +9051,6 @@ CLightSpotEntity
 CLoadingDiscPanel
 CLoadingSpawnGroup::CreateEntityToSpawn
 CLocatorPanel
-CLoggingInternalMsg_ScopeVerification::~CLoggingInternalMsg_ScopeVerification
 CLogicRelay
 CLogicalEntity
 CLoopModeGame::InitAllSystems()
@@ -9710,16 +9334,6 @@ CPlayerLocalData
 CPlayerResource
 CPlayerSlot
 CPlayerState
-CPlayer_AcceptSSA_Request"
-CPlayer_AcceptSSA_Response"!\n
-CPlayer_AddFriend_Request
-CPlayer_AddFriend_Response
-CPlayer_CommunityPreferences
-CPlayer_GetNicknameList_Request"
-CPlayer_IgnoreFriend_Request
-CPlayer_IgnoreFriend_Response
-CPlayer_RemoveFriend_Request
-CPlayer_RemoveFriend_Response
 CPointCamera
 CPointClientUIDialog
 CPointClientUIHUD
@@ -9785,10 +9399,6 @@ CProp_HLVR_Weapon_Shotgun_Shellbox
 CProp_HLVR_Weapon_Shotgun_Shellgroup
 CProp_HLVR_Weapon_Shotgun_Shellgroup::SetBulletCount larger then clip capacity!\n
 CProtobufLogHandler::LogHandler
-CPublishedFile_Publish_Request
-CPublishedFile_Publish_Response
-CPublishedFile_Update_Request
-CPublishedFile_Update_Response"
 CRAFTING_STATION_STATE_BOOTUP
 CRAFTING_STATION_STATE_CANCELLED
 CRAFTING_STATION_STATE_CRAFTING
@@ -9826,6 +9436,7 @@ CRenderComponent
 CRenderComponent::Storage_t
 CRenderComponentReferenced
 CRenderComponentReferencedPtr
+CRenderGameSystem
 CRenderGameSystem::OnClientPreOutput
 CRenderMicroBenchmark - failed to get material for shader.\n
 CRenderMicroBenchmark - failed to get material mode for shader.\n
@@ -9913,7 +9524,6 @@ CScriptedIconLesson::Update
 CSectionHeader
 CSequenceTransitioner2
 CServerOnlyModelEntity
-CSets the logged in user's per-friend preferences for the given user
 CShadowControl
 CShatterGlassGameSystem
 CShatterGlassShardPhysics
@@ -10356,7 +9966,6 @@ CXenBlindZombieSpores
 CXenFoliageTurretProjectile
 CXenHearingFlower
 C\n\rhave_versions
-C\n\tnicknames
 C\n\vmove_bullet
 C\n\vstop_bullet
 C_AI_BaseNPC
@@ -10782,9 +10391,9 @@ CallGlobalScriptFunction
 CallPrivateScriptFunction
 CallScriptFunction
 Callback for event "%s" is NULL!!!\n
+Caller
 Camera
 Can't 
-Can't access unified message interface. Make sure Steam is up-to-date!\n
 Can't add Keybindings Context for unnamed panels\n
 Can't create temporary entity with NULL model!\n
 Can't ent_call w/o arguments!\n
@@ -10861,7 +10470,6 @@ Cham
 ChangeAccessorFieldPathIndex_t
 ChangeControlPointAttachment
 ChangeFOV
-ChangeTimerQueueTimer
 ChangeUser
 ChapterImage
 CharacterDecalSystem
@@ -10897,7 +10505,6 @@ CheckForLayoutFilesChanges
 CheckPoint
 Checks to see if the given hScript is a valid entity
 Cherokee
-Child
 Child01
 Child02
 Child03
@@ -10929,6 +10536,7 @@ ClearImageSource
 ClearPanelEvent
 ClearPropertyFromCode
 ClearSelection
+ClearSingleThreadedWorkThread
 ClearWorldDecalsEvent_t
 Clearing old .sav file %s\n
 Clears all achievements
@@ -10945,6 +10553,7 @@ Client Main World:
 Client Messages
 Client Physics
 Client Rendering
+Client Restore Server State
 Client Scene Entity %d - Frame(%d)\n
 Client Simulation
 Client Soundscape data dump:\n
@@ -10961,7 +10570,6 @@ Client: Failed to load caption file: %s\n
 ClientDLL Init - Finish
 ClientDLL factories - End
 ClientDLL factories - Start
-ClientGetLastPlayedTimes
 ClientModeHLNormal
 ClientModeHLNormalFullscreen
 ClientPerfData
@@ -10993,16 +10601,12 @@ CloseFrameButtonPressed
 CloseHandle
 CloseModal
 CloseModalDialog
-CloseThreadpoolTimer
-CloseThreadpoolWait
-CloseThreadpoolWork
 CloseWeaponSelectionMenu
 Closing
 Closing Lesson Named...\n
 ClothShapeCapsule
 ClothShapeList
 ClothShapeSphere
-Cloud
 Cm<T*c?
 ColdLS
 Collide rope with the world
@@ -11142,8 +10746,6 @@ ContextMenuBody
 ContextMenuEvent
 ContextMenuEventDirect
 ContextMenuFadoutTime
-ContextPriority
-ContextStackSize
 Continue an iteration over the list of entities, providing reference to a previously found entity
 ContinuousProgressBar
 Contractors
@@ -11175,7 +10777,6 @@ CopySelectedLabelText
 CopySelectedLabelText()
 CopyStringToClipboard
 CopyStringToClipboard( %s, #UI_Paste_URL )
-Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
 CorExitProcess
 Coroutine_Continue
 CosmosController
@@ -11218,7 +10819,6 @@ CreateEffect
 CreateEntity
 CreateEntity failed for slot %d\n
 CreateEvent: event '%s' not registered.\n
-CreateEventExW
 CreateEventW
 CreateFileW
 CreateGameRulesObject
@@ -11227,19 +10827,7 @@ CreateNewControl
 CreatePanelWithCurrentContext
 CreateParticle
 CreateParticleForPlayer
-CreateRemoteThreadEx
-CreateSemaphoreExW
-CreateSemaphoreW
 CreateShardModelFromKV3
-CreateSymbolicLinkW
-CreateThread
-CreateThreadpoolTimer
-CreateThreadpoolWait
-CreateThreadpoolWork
-CreateTimerQueue
-CreateTimerQueueTimer
-CreateUmsCompletionList
-CreateUmsThreadContext
 CreateVideoPlayer
 Created physics for %s\n
 Creates a dlight in front of the player
@@ -11313,8 +10901,6 @@ DACGameManager001
 DAMAGE_EVENTS_ONLY
 DAMAGE_NO
 DAMAGE_YES
-DDDD
-DDDDUUUU
 DEAD
 DEBRIS
 DEBUG
@@ -11343,7 +10929,6 @@ DISCARD
 DISPLAY_LIMIT
 DISSOLVE
 DISTANCE
-DIf true, return a short description instead of the full description."
 DMG_%s
 DN @6\t9J
 DOESN'T HAVE
@@ -11375,7 +10960,6 @@ DXT3
 DXT5
 DXT5_NM
 DYING
-D\n\nvisibility
 Daisy wheel input mode: RS | ABXY
 DaisyInputTypeABXY
 DaisyInputTypePIN
@@ -11474,10 +11058,11 @@ DecalGameSystemManifest_client
 Decals
 December
 Decider
+DeclareCurrentThreadIsSingleThreadedWorkThread
 DecodePointer
 Decompression failure
 DecrementButton
-Dedicated GPU Memory: %s / %s available.  Physical size: %s\n
+Dedicated GPU Memory: %s used of %s budget.  Physical size: %s\n
 Default
 Default Game Description
 Default class when joining a game
@@ -11494,6 +11079,7 @@ DefaultUnderline
 DefaultVerySmall
 DefaultVerySmallFallBack
 DegreeEuler
+Delay
 DelayLoadList
 DelayLoadListLoadVisiblePanels
 DelayLoadPanel
@@ -11504,14 +11090,9 @@ DeleteCriticalSection
 DeleteFrameRowButton
 DeletePanel
 DeletePanelButton
-DeleteProcThreadAttributeList
 DeleteRowButton
-DeleteTimerQueueTimer
-DeleteUmsCompletionList
-DeleteUmsThreadContext
 DeleteVideoPlayer
 Density of Particle Rain 0-1
-DequeueUmsCompletionListItems
 Describe datamap_t for entindex
 DescriptorProto
 DescriptorProtosH
@@ -11530,7 +11111,6 @@ Destructing
 Detach from its parent
 DetachFromParent
 Detected bad save game %s, renaming to %s\n
-Detected one or more errors parsing %s\n
 Detected video config level %d\n
 Determines if specified # of teammates belong to same clan w/local player
 DevInfo
@@ -11555,6 +11135,7 @@ Disable
 Disable interpolation list optimizations.
 Disable map color-correction entities
 Disable player sprays.
+Disable skeletal summary. On Deckard EV1.5 Roy controllers, this is broken.
 DisableAnimEventSounds
 DisableCollision
 DisableFrontOfBoardCheck
@@ -11765,7 +11346,6 @@ DumpScriptBindings()
 Dumps info about an entity
 Dumps the client's soundscape data.\n
 Dumps the names and values of this entity's script scope to the console\n\tArguments:   \t{entity_name} / {class_name} / no argument picks what player is looking at 
-DuplicateHandle
 Duration
 Duration it takes for attached caption to ideal point
 DxLvl
@@ -11779,12 +11359,12 @@ DynamicFaceOcclusionDepthOnly
 DynamicFaceOcclusionPingPongRT
 DynamicFaceOcclusionRT
 DynamicFaceOcclusionView
-DynamicProgressFeedback
 E!4H
 E1/v
-E1x\t
+E3Tg
 E7NL
 E>nEA
+E?ThrowException@Isolate@v8@@QEAA?AV?$Local@VValue@v8@@@2@V32@@Z
 EALS_LOADED_NOT_READY
 EALS_LOADED_READY_TO_ACTIVATE
 EALS_LOW_AMMO
@@ -11803,13 +11383,12 @@ EGCBaseClientMsg
 EGS_LOADED_PUMP_REQUIRED
 EGS_LOADED_READY_TO_FIRE
 EGS_NOT_LOADED
-EGx/
+EGx.
 EHANDLE
 EHANDLE2
 EHLVRClientMessages
 EHLVRWeaponType
 EHapticPulseType
-EJxT
 EMP.Explode
 EM_PropagateForce
 EM_RemoveAllDecals
@@ -11837,8 +11416,7 @@ ENTITY_IO_TARGET_SPECIAL_CALLER
 ENTITY_NOT_DORMANT
 ENTITY_SUSPENDED
 ENetworkDisconnectionReason
-ENotificationSetting
-EProtoExecutionSite
+EOxV
 EQueryCvarValueStatus
 ERROR
 ERROR! Cannot load RenderMicrobenchmarkGroup resource manifest!\n
@@ -11960,7 +11538,6 @@ EntIndexToHScript
 EntInput_t
 EntOutput_t
 EnterCriticalSection
-EnterUmsSchedulingMode
 Entities
 Entities/Client Entity Count
 Entities/Thinks
@@ -12018,9 +11595,10 @@ Enum value in map must define 0 as the first value.
 EnumDescriptorProto
 EnumOptions
 EnumReservedRange
+EnumSystemLocalesEx
+EnumSystemLocalesW
 EnumValueDescriptorProto
 EnumValueOptions
-EnumerateUserFiles
 Enums must contain at least one value.
 EnvCubemapFogSystem
 EnvTimeOfDayPreviewerScriptScope
@@ -12095,7 +11673,6 @@ Execute a vscript file, replacing existing functions with the functions in the r
 Execute all of this entity's VScripts, replacing existing functions with the functions in the run scripts
 ExecuteQueuedCreation() took %lluus [ Spawned: %i, Activated %i, PostDataUpdate: %i, Destroyed: %i, Deallocated: %i, PvsUpdate: %i ]\n
 ExecuteSteamURL
-ExecuteUmsThread
 Executes url-based commands, used for incoming commands from url-based launches when the game's already running.
 Exit
 ExitButton
@@ -12173,6 +11750,7 @@ EyeOcclusionPingPongRT_%dx%d.vtex
 EyeOcclusionRT.vtex
 F0av
 F>qUxv
+F?ToString@Value@v8@@QEBA?AV?$MaybeLocal@VString@v8@@@2@V?$Local@VContext@v8@@@2@@Z
 FAIL
 FAILED
 FALL
@@ -12317,7 +11895,6 @@ FadeOut
 FadeOutWeaponSelectionMenu
 FadeSpeed
 Fades: %d ------------------------------------\n
-Fail to schedule the chore!
 Failed command: %s\n
 Failed to activate script entity %s of type %s: script entity instance is null\n
 Failed to assign bool literal value
@@ -12448,9 +12025,9 @@ FindChildrenWithClassTraverse
 FindClose
 FindDefaultButton
 FindDropDownMenuChild
-FindFirstFileExA
+FindFirstFileExW
 FindLongestStringForLocVariable
-FindNextFileA
+FindNextFileW
 FindOrCreateQuantizedFloatEncoder
 FindPanelInLayoutFile
 FingerCurl_Index
@@ -12460,7 +12037,6 @@ FingerCurl_Ring
 FingerCurl_Thumb
 FinishGravity
 Finished
-Finished %d Blocks out of %d\n
 Finished (%.1f seconds)\n
 Finished building cubemaps, shutting down\n
 Finished pinging.
@@ -12505,24 +12081,23 @@ FlightTime
 Float Bitmap Failure
 FloatBitMap::QuarterSize
 FloatBitMap_t::ConvertGammaToLinear
-FloatBitMap_t::ConvertGammaToLinear(338): Conversion not supported yet!\n
-FloatBitMap_t::ConvertLinearToGamma(438): Conversion not supported yet!\n
+FloatBitMap_t::ConvertGammaToLinear(341): Conversion not supported yet!\n
+FloatBitMap_t::ConvertLinearToGamma(441): Conversion not supported yet!\n
 FloatBitMap_t::CopyFloatBitmap: Received NULL pointer!\n
 FloatBitMap_t::LoadFromBuffer: Received improper buffer size, skipping!\n
 FloatBitMap_t::LoadFromBuffer: Unsupported color format, skipping!\n
 FloatBitMap_t::LoadFromFloatBitmap: Received improper bitmap size, skipping!\n
-FloatBitMap_t::WriteToBuffer(901): Unsupported color format "%s", skipping!\n
+FloatBitMap_t::WriteToBuffer(904): Unsupported color format "%s", skipping!\n
 FloatBitMap_t::WriteToBuffer: Received improper buffer size %s (expecting %s), skipping!\n
-FloatBitMap_t::WriteToBufferDXT(1004): Unsupported output color format "%s"!\n
-FloatBitMap_t::WriteToBufferDXT(1013): Error! Allocated %llu bytes when ATI's lib requires %d bytes!\n
-FloatBitMap_t::WriteToBufferDXT(1021): Error %d returned from ATI_TC_ConvertTexture()!\n
-FloatBitMap_t::WriteToBufferDXT(939): Error! Temp texture is %d bytes when ATI's lib requires %d bytes!\n
+FloatBitMap_t::WriteToBufferDXT(1007): Unsupported output color format "%s"!\n
+FloatBitMap_t::WriteToBufferDXT(1016): Error! Allocated %llu bytes when ATI's lib requires %d bytes!\n
+FloatBitMap_t::WriteToBufferDXT(1024): Error %d returned from ATI_TC_ConvertTexture()!\n
+FloatBitMap_t::WriteToBufferDXT(942): Error! Temp texture is %d bytes when ATI's lib requires %d bytes!\n
 FlsAlloc
 FlsFree
 FlsGetValue
 FlsSetValue
 FlushFileBuffers
-FlushProcessWriteBuffers
 Flushes async'd captions.
 Flushes the client side soundscapes
 FocusOnEnable
@@ -12621,8 +12196,6 @@ FrametimeHistory
 Free
 FreeEnvironmentStringsW
 FreeLibrary
-FreeLibraryAndExitThread
-FreeLibraryWhenCallbackReturns
 Frees the specified particle index
 Freeze
 FreezeCam_Only
@@ -12630,7 +12203,6 @@ Frequency
 Frequency (Ghz)
 Friction during noclip move.
 Friday
-FriendsGameplayInfo
 Full screen EnableWithRootPanel %d took %f msecs to Enable\n
 FullObserverMove
 FullTossMoveBaseVelocity
@@ -12643,7 +12215,6 @@ FullscreenHLViewport
 FuncMonitorIntermediateTexture.vtex
 FuncMonitorTexture.vtex
 Function              %10s %10s %10s %10s\n
-Functor
 G8-x
 G>US
 GAME
@@ -12652,7 +12223,7 @@ GAMECONSOLE
 GAMEPAD_BINDING
 GAMETITLE
 GAME_HEADER
-GB=\nHBbutt
+GB=\nHB
 GCConnectionStatus
 GCConnectionStatus_HAVE_SESSION
 GCConnectionStatus_NO_SESSION
@@ -12710,10 +12281,8 @@ GG_ACTIVE_WITH_TARGET
 GG_DISABLED
 GG_INACTIVE
 GG_PULL
-GGet a list of friends who are playing, have played, own, or want a game
 GHQ%
 GPU Level - Default: High
-GPU memory availability %.2f%% less than expected consumption of %.2f%%\n
 GPUDeviceID
 GPUDriverVersion
 GPUDrv
@@ -12853,7 +12422,6 @@ Get the time spent on the server in the last frame
 GetACP
 GetAbsOrigin
 GetActiveSpawnGroupHandle
-GetActiveWindow
 GetAmmoType
 GetAngle
 GetAttacker
@@ -12880,17 +12448,11 @@ GetCommandClient
 GetCommandClient() : returns the player who issued this console command.
 GetCommandLineA
 GetCommandLineW
-GetCommunityPreferences
-GetConsoleCP
 GetConsoleMode
-GetCurrentPackageId
+GetConsoleOutputCP
 GetCurrentProcess
 GetCurrentProcessId
-GetCurrentProcessorNumber
-GetCurrentProcessorNumberEx
-GetCurrentThread
 GetCurrentThreadId
-GetCurrentUmsThread
 GetCursorOffset
 GetDamage
 GetDamageCustom
@@ -12913,8 +12475,7 @@ GetEntityNameAsCStr
 GetEnumValue
 GetEnvironmentStringsW
 GetEyePosition() Can't get pstudiohdr ptr!\n
-GetFileDetails
-GetFileInformationByHandleEx
+GetFileSizeEx
 GetFileType
 GetFloat
 GetFloat(name) : returns the convar as a float. May return null if no such convar.
@@ -12922,9 +12483,6 @@ GetFocusChild
 GetFocusIndex
 GetFocusedChildVisibleIndex
 GetFrameCount
-GetFriendsGameplayInfo
-GetGameBadgeLevels
-GetHSteamPipe
 GetHud
 GetHud called with NULL g_pHudGameSystem!
 GetInflictor
@@ -12936,31 +12494,23 @@ GetIntAttr
 GetItemDownloadFraction( %llu ) = %.3f\n
 GetItemDownloadFraction( %llu ) = 0 : still gathering dependencies\n
 GetItemState( %llu ): %s\n
-GetLastActivePopup
 GetLastError
 GetListenServerHost
 GetLocalTime
 GetLocaleInfoEx
-GetLogicalProcessorInformation
-GetLogicalProcessorInformationEx
+GetLocaleInfoW
 GetLongPathNameA
 GetMapName
 GetMaxCharCount
 GetMaxDamage
 GetMaxOutputDelay
 GetMessage
-GetModuleFileNameA
 GetModuleFileNameW
-GetModuleHandleA
 GetModuleHandleExW
 GetModuleHandleW
 GetName
 GetNativeClassForScriptClass
 GetNativeOutputsForClass
-GetNewSteamAnnouncementState
-GetNextUmsListItem
-GetNicknameList
-GetNumaHighestNodeNumber
 GetNumber
 GetOEMCP
 GetOrCreatePrivateScriptScope
@@ -12969,7 +12519,6 @@ GetOriginalDamage
 GetOwnerEntityID
 GetParent
 GetParticleReplacement
-GetPerFriendPreferences
 GetPhysAngularVelocity
 GetPhysVelocity
 GetPlayerLimits:  default maxplayers must be >= 1 (%i)
@@ -12979,9 +12528,7 @@ GetPlayerLimits:  min maxplayers must be >= 1 (%i)
 GetPositionWithinWindow
 GetPrivateScriptScope
 GetProcAddress
-GetProcessAffinityMask
 GetProcessHeap
-GetProcessWindowStation
 GetProfile_alpha_basic
 GetProfile_alpha_fast
 GetProfile_alpha_slow
@@ -13036,31 +12583,20 @@ GetStringTypeW
 GetSubscribedItems returned %d (expected %d)\n
 GetSystemInfo
 GetSystemTimeAsFileTime
-GetSystemTimePreciseAsFileTime
 GetTeamNumber
 GetText
-GetThreadGroupAffinity
-GetThreadPriority
-GetThreadTimes
-GetTickCount
-GetTickCount64
 GetTimeFormatA
 GetTimeFormatEx
 GetTimeFormatW
 GetTimeZoneInformation
 GetTooltipTarget
-GetTraceEnableFlags
-GetTraceEnableLevel
-GetTraceLoggerHandle
 GetTracerOrigin: Couldn't find attachment %d on model %s\n
 GetUInt32
 GetUInt64
-GetUmsCompletionListEvent
-GetUploadServerInfo
-GetUserObjectInformationW
+GetUserDefaultLCID
+GetUserDefaultLocaleName
 GetValue
 GetVector
-GetVersionExW
 Gets the value of the given cvar, as a float.
 Gives a list of all currently open lessons.
 Gives a list of lessons that been completed or shown
@@ -13141,7 +12677,6 @@ HDR Color Scale: %0.3f
 HDR Demo HUD Element toggle.
 HDRColorScale
 HDRDemoText
-HDUUUUUUUUUUUUUUUU
 HEADSET
 HELD
 HFont
@@ -13332,6 +12867,7 @@ HackingSphere.PuzzleActivatedLp
 HackingSphere.SphereMelodyTail
 HackingSphere.SuccessBeep
 Half-Life Alyx
+Half-Life: Alyx on Steam Frame is currently using a bundled graphics driver.\nThe Steam Shader Cache will not work for this driver.\n\nYou may experience stuttering.\nCustomers and press will not experience this.
 Hammer/DefaultTextureScale
 HammerMapLoader001
 Hand
@@ -13406,7 +12942,6 @@ HelicopterImpact
 HelicopterImpact_global_client
 HelicopterMegaBomb
 HelicopterMegaBomb_global_client
-HelpRequestLogs
 HelpSystem_001
 Hex and octal numbers must be integers.
 Hidden
@@ -13544,7 +13079,6 @@ HudZoom
 HunterDamage
 HunterDamage_global_client
 I("hq
-I?AnimatingImagePanel
 IA88
 IAnimVRProxy
 ICON_OFFSET
@@ -13559,7 +13093,6 @@ IGameSystem::Add
 IGameSystem::Init( %-80s ) %8.3f msec
 IGameSystem::InitAllSystems
 IGameSystem::PostInit( %-80s ) %8.3f msec
-IGets the list of per-friend preferences this user has set for other users
 IHandleEntity
 IKChain
 IKChainOld
@@ -13571,6 +13104,7 @@ IKRigSimple
 IMECandidatesMenu
 IMEManager001
 IND)ind)
+IND)ind)`p
 INFO
 INITY
 INSTANCE_TYPE
@@ -13614,7 +13148,6 @@ IVehicle
 I\n NETWORK_DISCONNECT_STEAM_DROPPED
 I\n$NETWORK_DISCONNECT_STEAM_VACBANSTATE
 I\n%NETWORK_DISCONNECT_REJECT_HIDDEN_GAME
-I\n\rexcluded_tags
 Icon Target handle went invalid before the lesson started!
 Icon Target is using effect NODRAW and allow_nodraw_target is false!
 Icon_Hand
@@ -13645,7 +13178,6 @@ IgnoreScheme
 IkLockLocal
 Il?333333c?
 Illegal jstype for int64, uint64, sint64, fixed64 or sfixed64 field: 
-Illegal to wait on a task in a Windows Runtime STA
 Image
 Image Too Large
 ImageFailedLoad
@@ -13666,7 +13198,6 @@ ImpactJeep
 ImpactJeep_global_client
 Impact_global_client
 Imperial_Aramaic
-ImplicitGrantNoPrompt
 Import 
 Import "
 In Render Order
@@ -13678,7 +13209,6 @@ InSettings
 Include a particular addon when playing addon mode (helper for managing default_enabled_addons_list convar)
 IncludeScript Warning - Script %s either missing or empty\n
 IncludeScript stack overflow\n
-Incorrect data received or wrong callback result!\n
 IncrementButton
 Indent
 Index of the bone to follow.  -2 == disabled.  -1 == root bone.  0+ is bone index.
@@ -13707,19 +13237,15 @@ InitGameSystems - Start
 InitLogFile
 InitLogFile is deprecated. Print to the console for logging instead.
 InitLogFile is deprecated. Print to the console for logging instead.\n
-InitOnceExecuteOnce
 InitPredictable
 InitViewport-finish
 InitViewport-start
 InitialAnim
 Initialize with number of outputs
-InitializeConditionVariable
 InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
-InitializeProcThreadAttributeList
 InitializeSListHead
-InitializeSRWLock
 Initializing prereqs for scripted lesson 
 Initializing scripted lesson 
 Initializing...\n
@@ -13865,7 +13391,6 @@ Interaction Cull Test
 InteractionRenderer
 InteractionUpdate
 InterlockedFlushSList
-InterlockedPopEntrySList
 InterlockedPushEntrySList
 Internal failure creating panel in panorama
 InternalLambdaEvent
@@ -13939,6 +13464,7 @@ IsClient
 IsCrafting
 IsCurrencyForPrinting
 IsDebuggerPresent
+IsDeckard
 IsDedicatedServer
 IsDormant
 IsDraggable
@@ -13959,6 +13485,8 @@ IsTemplate
 IsValid
 IsValidCodePage
 IsValidEntity
+IsValidLocale
+IsValidLocaleName
 IsViewingUpgrade
 IsWaitingForCurrency
 IsWaitingForObject
@@ -13982,9 +13510,7 @@ ItemThumbImage
 Item_%c
 Item_%s
 I}YZ
-J(Optional) If this represents a game, this is the URL to that game's page."P\n
 J?US
-JDesired number of items in the voting queue.  May be clamped by the server",\n*CPublishedFile_RefreshVotingQueue_Response2
 JSConsoleInput
 JSConsoleOutput
 JSConsoleText
@@ -14018,13 +13544,10 @@ KEY_BACKSPACE: Clearing state due to %d\n
 KEY_BACKSPACE: Rejected.\n
 KL2H
 KV Conditional Evaluation Error
-KVTag
 K\n!NETWORK_DISCONNECT_INTERNAL_ERROR
 K\n#NETWORK_DISCONNECT_TICKMSG_OVERFLOW
 K\n$NETWORK_DISCONNECT_STEAM_AUTHINVALID
 K\n'NETWORK_DISCONNECT_CLIENT_DIFFERENT_MAP
-K\n\rcloudfilename
-K\n\tyour_info
 K]K+2
 Kaithi
 Kannada
@@ -14057,7 +13580,7 @@ KnucklesEV1_3Controller
 Korean
 Kuj?
 L6y%
-L>UUU>
+L>VUU>
 L>ev
 L?UUUUUUU?
 L@33S@
@@ -14074,6 +13597,7 @@ LATCH_DIRTY_SERVER_CONTROLLED
 LAYOUTPOSITIONTYPE_FRACTIONAL
 LAYOUTPOSITIONTYPE_NONE
 LAYOUTPOSITIONTYPE_VIEWPORT_RELATIVE
+LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
 LEFT
@@ -14114,8 +13638,6 @@ LWG>
 LWW>
 L\n!NETWORK_DISCONNECT_HLTVRESTRICTED
 L\n!NETWORK_DISCONNECT_LOOPDEACTIVATE
-L\n\fincludevotes
-L\n\tfile_type
 Label
 Label.BgColor
 Label.DisabledFgColor1
@@ -14250,7 +13772,6 @@ LoadLayoutFromBase64XMLStringAsync
 LoadLayoutFromStringAsync
 LoadLayoutFromXMLStringAsync
 LoadLibraryExW
-LoadLibraryW
 LoadSchemeFromFileEx(resource/clientscheme.res)
 Loading and pickling daisy wheel dictionaries\n
 LoadingLabel
@@ -14260,7 +13781,6 @@ Lobby
 Local player changed team (or disconnected)...\n
 Local player died...\n
 Local player disconnected...\n
-LocalContextCacheSize
 LocalPlayerExclusive
 LocalTime
 LocalWeaponExclusive
@@ -14277,7 +13797,6 @@ LocatorBG
 LocatorHorizCenter
 LocatorPanel
 Lock Hands to current world position
-Lock already taken
 LockThink
 Locked
 Locks map angle, doesn't follow view angle.\n
@@ -14402,7 +13921,6 @@ M\n$NETWORK_DISCONNECT_REJECT_SERVERFULL
 M\n&NETWORK_DISCONNECT_STEAM_AUTHCANCELLED
 M\n'NETWORK_DISCONNECT_REJECT_SINGLE_PLAYER
 M\n(NETWORK_DISCONNECT_SERVER_REQUIRES_STEAM
-M\n\tgame_type
 MainMenuContinue
 MainMenuNewGame
 MainMenu_BackToMainMenu
@@ -14482,13 +14000,11 @@ Max score one team can reach before server changes maps
 Max view roll angle
 MaxAnimTime
 MaxButton
-MaxConcurrency
 MaxExposure
 MaxFPS
 MaxFadeSize
 MaxNetworkableEntities
 MaxNonNetworkableEntities
-MaxPolicyElementKey
 Maximize
 Maximum amount of force applied to physics objects by players.
 Maximum downwards speed of shattered glass particles
@@ -14503,7 +14019,6 @@ Maximum velocity for a drag scroll flick
 Maximum velocity for a drag scroll flick in VR
 Maximum visible distance
 MbP?
-Mbp?"
 MediaNextTrack
 MediaPlayPause
 MediaPrevTrack
@@ -14564,9 +14079,7 @@ Message extensions cannot have required fields.
 Message missing required fields: 
 Message type "
 MessageBox
-MessageBoxA
 MessageBoxText
-MessageBoxW
 MessageOptions
 MessageSet is not supported in proto3.
 MessageSets cannot have fields, only extensions.
@@ -14581,7 +14094,6 @@ MhP<
 Min (ms)
 MinAnimTime
 MinButton
-MinConcurrency
 MinExposure
 MinFPS
 MinFadeSize
@@ -14727,9 +14239,7 @@ Muzzle
 MuzzleFlash
 MuzzleFlash_global_client
 Myanmar
-N(Optional) Tags that must be present on a published file to satisfy the query.
 N3`d?
-N8@1
 N>O=I9
 N>VF
 NAN(IND)
@@ -14814,7 +14324,6 @@ NV_NULL
 NV_RAWZ
 N\n"NETWORK_DISCONNECT_HLTVUNAVAILABLE
 N\n#NETWORK_DISCONNECT_REJECTED_BY_GAME
-N\n\fredirect_uri
 Name
 Name of a visible VR helmet model that doesn't follow pitch, yaw, or roll.
 Name of a visible VR helmet model that follows roll and pitch.
@@ -14967,7 +14476,6 @@ Nx\tV @M
 Nyt#
 NytS
 N{\f@ZM2
-OAuth Token, granted on success
 OFFSCREEN_ICON
 OH|8
 ONFRAME_FALSE
@@ -14980,6 +14488,7 @@ OPEN_PARTIAL
 OPQRSTUVWXYZ[\]F^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^_^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^`abbbbbbbbcddefghijklmn
 OSCILLATE_POSE_PARAMETERS
 OSType
+OU@VUU@
 OUTPUT
 OWw,
 OXR>
@@ -14992,7 +14501,6 @@ O\n%NETWORK_DISCONNECT_SOUNDSMSG_OVERFLOW
 O\n(NETWORK_DISCONNECT_REJECT_BACKGROUND_MAP
 O\n(NETWORK_DISCONNECT_STEAM_AUTHALREADYUSED
 O\n\nAnnotation
-O\n\vinvite_sent
 October
 Offscreen
 OffscreenParticleWorld
@@ -15112,6 +14620,7 @@ OnWearablesChanged
 Oneof must have at least one field.
 OneofDescriptorProto
 OneofOptions
+Only %s of GPU memory available, need %s to run without thrashing\n
 Only DXT1/DXT5 online texture compression supported.\n
 Only do the spherical trace if we've moved by the square root of this first.
 Open event 
@@ -15143,11 +14652,11 @@ OriginalSaveSlot
 Oriya
 Osmanya
 OutRemainingHealth
+Output
 Output help for script functions
 Output help for script functions suitable for auto-completion
 Output memory size is zero
 Output unserialization of entities on map load. 0 - off, 1 - client/server, 2 - server, 3 - client
-OutputDebugStringW
 OutputType_AnimationCycle
 OutputType_RotationX
 OutputType_RotationY
@@ -15165,7 +14674,6 @@ Overrides\n
 OvertopMenuSceneWorld
 Overview map translucency.\n
 Overview: scale %.2f, pos_x %.0f, pos_y %.0f\n
-OwnGameplayInfo
 Owned
 OwnerContext
 P2P ping to "%s". Timed out after %.2fms\n
@@ -15188,11 +14696,11 @@ PANEL_SPECGUI
 PANORAMA_LAYOUTFILE
 PARALLEL_PROCESS CAnimGraphBatchUpdater::CAnimGraphBatchUpdater(), c:\buildslave\hlvr_rel_win64\build\src\game\client\animgraph_batchupdater.cpp:127
 PARALLEL_PROCESS CEntityKeyValuesSaveRestoreOpsBase::BuildKeyValuesCache(), c:\buildslave\hlvr_rel_win64\build\src\game\shared\game_saverestore_entities.cpp:105
-PARALLEL_PROCESS CRenderGameSystem::OnClientPreOutput(), c:\buildslave\hlvr_rel_win64\build\src\game\shared\rendergamesystem.cpp:1191
+PARALLEL_PROCESS CParticleMgr::SimulateParticles(), c:\buildslave\hlvr_rel_win64\build\src\particleslib\particlemgr.cpp:1013
+PARALLEL_PROCESS CRenderGameSystem::OnClientPreOutput(), c:\buildslave\hlvr_rel_win64\build\src\game\shared\rendergamesystem.cpp:1186
 PARALLEL_PROCESS C_BaseEntity::PerformLatchWork(), c:\buildslave\hlvr_rel_win64\build\src\game\client\c_baseentity.cpp:2521
 PARALLEL_PROCESS FloatBitMap_t::WriteInMemoryEXRFast(), c:\buildslave\hlvr_rel_win64\build\src\bitmap\tinyexr_impl.cpp:163
 PARALLEL_PROCESS LightmapQueryData_t::Init(), c:\buildslave\hlvr_rel_win64\build\src\game\shared\lightquerygamesystem.cpp:219
-PARALLEL_PROCESS `anonymous-namespace'::CParticleJobUpdater::UpdateNewEffectsJobFn(), c:\buildslave\hlvr_rel_win64\build\src\particleslib\particlemgr.cpp:975
 PARALYZE
 PARTICLE_DEPTH_FEATHERING_OFF
 PARTICLE_DEPTH_FEATHERING_ON_OPTIONAL
@@ -15293,10 +14801,10 @@ PROTOBUF_FIELD_UINT64
 PRUNE
 PVEC_TYPE_LITERAL
 PVEC_TYPE_LITERAL_COLOR
+P\f%Ph
 P\n#NETWORK_DISCONNECT_BADRELAYPASSWORD
 P\n#NETWORK_DISCONNECT_RELIABLEOVERFLOW
 P\n#NETWORK_DISCONNECT_SNAPSHOTOVERFLOW
-P\n\nnumperpage
 Packed store %s with refcount > 0.\n
 PadBackButton
 PadBackButtonUp
@@ -15329,6 +14837,7 @@ PanelListPanel
 PanelListPanelVScroll
 PanelLoaded
 PanelMoved
+PanelNeedsRepaint
 PanelPtr
 PanelRequestedSecondaryLayout
 PanelStart
@@ -15354,6 +14863,7 @@ PanoramaUIEngine interface not set up\n
 PanoramaUIEngine setup failed\n
 PanoramaUIEngine001
 PanoramaWorldPanelGenerateMips
+Param
 Params: (entity, query) : tests 'query' against entity's response system and returns the best response found (or null if none found).
 ParentWithProperties
 Parse error on %s: %s\n
@@ -15405,7 +14915,6 @@ Path_SetCount failed, depth already == DEFAULT_MAX_PATH_DEPTH(%d)
 Pause
 Pellets per shot
 Per-frame texture stats
-PerFriendPreferences
 PerfNone
 PerfUIPanel
 Perform client side prediction of weapon effects.
@@ -15553,7 +15062,6 @@ PlayerHoverOverUpgradeClear
 PlayerIndex
 PlayerInstanceFromIndex
 PlayerList
-PlayerNickname
 PlayerSelectedPrint
 PlayerSelectedPrintBack
 PlayerSelectedPrintSubmenu
@@ -15650,7 +15158,6 @@ Prev
 PrevChild
 PrevSearch
 Prevent jiggle bones from pointing directly away from their target in case of numerical instability.
-Preview
 PreviewAttachmentModel
 PreviewBoneAttachedModel
 PreviewBoneMergedModel
@@ -15675,7 +15182,6 @@ Priority level not set for lesson: %s\n
 ProbablyUnlocalizedText
 Problem in lesson %s: Locator_GetTargetFromHandle returned null for handle %d.\n IsInstanceActive: %s. IsInstructing: %s. IsLearned: %s\n
 Process
-ProcessPSystems
 ProfileOff
 ProfileOn
 ProgressBar
@@ -15713,8 +15219,6 @@ Protocol Buffer map usage error:\n
 Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Reflection::
 Protocol message could not be serialized.
 Protocol message serialized itself in invalid fashion.
-Publish
-PublishedFileDetails
 Pulse
 Pulse_AmmoGet
 Pulse_AmmoGetGunIcon
@@ -15730,7 +15234,6 @@ Pushes an identifier used to group overlays. Deletes all existing overlays using
 Pushes an identifier used to group overlays. Overlays marked with this identifier can be deleted in a big batch.
 Put all physics in all the worlds to sleep
 PuzzleType
-Q(Optional) If supplied, the resulting published file's Id is appended to the URI.
 Q0c\n
 Q0c\nV
 Q5rHg,>
@@ -15740,31 +15243,21 @@ QAf?
 QAngle
 QAngle-world
 QBUq
-QReturns the Steam Level of a user, the Badge level for the game, and if it's foil
 Q\n&NETWORK_DISCONNECT_REJECT_BADCHALLENGE
 Q\n&NETWORK_DISCONNECT_TEMPENTMSG_OVERFLOW
 Q\n*NETWORK_DISCONNECT_CLIENT_CONSISTENCY_FAIL
 Q\n+NETWORK_DISCONNECT_CLIENT_UNABLE_TO_CRC_MAP
 Q\n,NETWORK_DISCONNECT_REJECT_SERVERAUTHDISABLED
-Q\n\vin_wishlist
-Q\n\vincludetags
-Q\n\vplayed_ever
 Q`dv
 QjN?#
 QuarterSizeAttrWithBoxFilter
 Quaternion
 Quaternion-world
-QueryDepthSList
 QueryPerformanceCounter
-QueryPerformanceFrequency
-QueryUmsThreadInformation
 Queue AgeSaveList\n
-QueueUserWorkItem
 QueuedLoaderVersion001
 QuickSwitch
 QuitApp
-R(Optional) If true, only return the total number of files that satisfy this query.
-R(Optional) Tags that must NOT be present on a published file to satisfy the query."
 R11_EAC
 R16F
 R16F_EXPAND
@@ -15794,6 +15287,7 @@ RG1616
 RG1616F
 RG1616F_EXPAND
 RG3232F
+RG88
 RGB323232F
 RGB565
 RGB888
@@ -15824,10 +15318,10 @@ RPGShotDown_global_client
 RPG_Round
 RP_PAUSE
 RP_TOGGLEPAUSE
-RSDS
+RSDS;
 RT_txt
 R\n@Z*oG8
-R\n\rincludekvtags
+R\vph
 Radial using: %s\n
 RadianEuler
 RadioBox
@@ -15874,7 +15368,6 @@ ReadyForDisplay
 ReadyPanelForDisplay
 RealtimeBase
 RebuildDebugLayout
-Received method callback. Handle: %llu. Context: %llu. EResult: %d. Response Size: %d.\n
 Recommended config level %d, currently configured for level %d\n
 RecomputeSprings
 ReconnectGameInterface
@@ -15887,7 +15380,6 @@ RecursiveLoadFromBuffer:  got } in key
 RecursiveLoadFromBuffer:  recursion overflow
 RedirectOutput
 Refresh
-RefreshVotingQueue
 RegCloseKey
 RegCreateKeyExA
 RegQueryValueExA
@@ -15904,16 +15396,12 @@ RegisterGameEventMessages
 RegisterGlobalObject
 RegisterSpawnGroupFilterProxy
 RegisterStringToken
-RegisterTraceGuidsW
-RegisterWaitForSingleObject
 ReinitPredictables due to convar change\n
 Rejang
 Release
 ReleaseLast
 ReleaseMessage
 ReleaseParticleIndex
-ReleaseSRWLockExclusive
-ReleaseSemaphore
 ReleaseSporesThink
 Reload all response system scripts. Note: This won't work unless you run with -rr_allow_reload.
 Reload scripts
@@ -16097,8 +15585,6 @@ RightMouseScrollRegion
 RightOfFocus%d
 RightTitleY
 Rigid Entity Decals: %d\n
-RoInitialize
-RoUninitialize
 Roles
 Root
 Root class of all client-side entities
@@ -16119,6 +15605,7 @@ RoundedCorners
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlPcToFileHeader
+RtlUnwind
 RtlUnwindEx
 RtlVirtualUnwind
 Run lessons (Displayed / Success)...\n
@@ -16139,7 +15626,6 @@ SAVE\animgraph
 SAVE\faceposer
 SAVE\faceposer\%s.sav
 SAVE_HEADER
-SBlocks or unblocks communication with the user.  Despite name, can be a non-friend.
 SCAFFOLD
 SCORE
 SCREENEFFECT_EP1_INTRO
@@ -16245,21 +15731,18 @@ SPEEDLOADER_COUNT
 SPEEDLOADER_OPEN
 SSE and SSE2 are required.
 START_SOUND
-STEAMAPPLIST_INTERFACE_VERSION001
-STEAMAPPS_INTERFACE_VERSION008
+STEAMAPPS_INTERFACE_VERSION009
 STEAMHTMLSURFACE_INTERFACE_VERSION_005
 STEAMHTTP_INTERFACE_VERSION003
 STEAMINVENTORY_INTERFACE_V003
-STEAMMUSICREMOTE_INTERFACE_VERSION001
 STEAMMUSIC_INTERFACE_VERSION001
 STEAMPARENTALSETTINGS_INTERFACE_VERSION001
-STEAMREMOTESTORAGE_INTERFACE_VERSION014
+STEAMREMOTEPLAY_INTERFACE_VERSION004
+STEAMREMOTESTORAGE_INTERFACE_VERSION016
 STEAMSCREENSHOTS_INTERFACE_VERSION003
-STEAMTV_INTERFACE_V001
-STEAMUGC_INTERFACE_VERSION013
-STEAMUNIFIEDMESSAGES_INTERFACE_VERSION001
-STEAMUSERSTATS_INTERFACE_VERSION011
-STEAMVIDEO_INTERFACE_V002
+STEAMUGC_INTERFACE_VERSION021
+STEAMUSERSTATS_INTERFACE_VERSION013
+STEAMVIDEO_INTERFACE_V007
 STRING
 STRING1
 STRING2
@@ -16319,8 +15802,6 @@ ScenePrint
 SceneSystem_002
 SceneUtils_001
 Scenes
-SchedulerKind
-SchedulingProtocol
 SchemaSystem_001
 SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
@@ -16665,7 +16146,6 @@ SetColor
 SetColorLerpTo
 SetColorSecondary
 SetColorSecondaryLerpTo
-SetCommunityPreferences
 SetContextThink
 SetControlPoint
 SetControlPointModel
@@ -16694,11 +16174,10 @@ SetEndDistLerpTo
 SetEnum
 SetEnumValue
 SetEnumValue accepts only valid integer values: value 
-SetEnvironmentVariableA
+SetEnvironmentVariableW
 SetEvent
 SetFadeSpeed
 SetFarZ
-SetFileInformationByHandle
 SetFilePointer
 SetFilePointerEx
 SetFileTime
@@ -16768,7 +16247,6 @@ SetParticleControlOrientationFLU
 SetParticleFoWProperties
 SetParticleShouldCheckFoW
 SetParticleText
-SetPerFriendPreferences
 SetPercentBrightPixels
 SetPercentTarget
 SetPhysAngularVelocity
@@ -16820,18 +16298,12 @@ SetString
 SetText
 SetTexture
 SetTextureAttribute
-SetThreadAffinityMask
-SetThreadGroupAffinity
-SetThreadPriority
-SetThreadpoolTimer
-SetThreadpoolWait
 SetTitle
 SetToDefaults
 SetTopOfInputContext
 SetUInt32
 SetUInt64
 SetURL
-SetUmsThreadInformation
 SetUnhandledExceptionFilter
 SetValueNoEvents
 SetVelocity
@@ -16985,7 +16457,6 @@ ShutdownPredictables due to convar change\n
 ShutdownRequest
 Shuts down all open lessons and reloads them from the script file.
 Shutting down...\n
-SignalObjectAndWait
 SignedDestinationAddress_t
 SignedPayload_t
 Signon
@@ -17007,7 +16478,6 @@ Sky is blue?
 SkyStateChanged
 Sleep
 SleepConditionVariableCS
-SleepConditionVariableSRW
 SlideMaterialList_t
 Slider
 Slider.DisabledTextColor1
@@ -17236,39 +16706,41 @@ Status:
 StatusLabel
 StdDevFPS
 Steam
-Steam ID of friend to remove."\\n
 Steam not running, achievements disabled. Cannot reset achievements.\n
 Steam not running, achievements disabled. Cannot view or unlock achievements.\n
 SteamAPI initialized
+SteamAPI_GetHSteamPipe
 SteamAPI_GetHSteamUser
-SteamAPI_Init
 SteamAPI_RegisterCallResult
 SteamAPI_RegisterCallback
 SteamAPI_SetTryCatchCallbacks
 SteamAPI_UnregisterCallResult
 SteamAPI_UnregisterCallback
 SteamAudio001
-SteamClient019
-SteamController007
-SteamFriends017
+SteamClient023
+SteamController008
+SteamFriends018
 SteamGameStats001
 SteamID
 SteamID %llu %s\n
-SteamInput001
+SteamInput007
 SteamInternal_ContextInit
 SteamInternal_CreateInterface
 SteamInternal_FindOrCreateUserInterface
+SteamInternal_SteamAPI_Init
 SteamLeaderboardUpdated
 SteamLightGreen
-SteamMatchGameSearch001
 SteamMatchMaking009
-SteamMatchMakingServers002
-SteamNetworking005
+SteamMatchMakingServers003
+SteamNetworking006
+SteamNetworkingMessages002
+SteamNetworkingSockets013
+SteamNetworkingUtils004
 SteamPad
+SteamParties002
 SteamToursHost001
-SteamUnifiedMessages
-SteamUser021
-SteamUtils009
+SteamUser023
+SteamUtils011
 SteamVR runtime failure!
 SteamVR_WorldPanel
 SteamWorksGameStatsClient
@@ -17328,7 +16800,6 @@ SubGC
 SubPanel
 SubPanelBgColor
 SubTabPosition
-SubmitThreadpoolWork
 SubscribedType
 Subtitle offset distance (forward, in front of player)
 Subtitle vertical offset distance (positive is up)
@@ -17369,7 +16840,6 @@ Switch to thirdperson-shoulder camera.
 Switch which class the panel has for a given attribute slot. Allows easily changing between multiple states.
 SwitchClass
 SwitchStyle
-SwitchToThread
 Syloti_Nagri
 Symbol name "
 Synchronously spawn an entity group from a list of spawn tables.
@@ -17378,6 +16848,7 @@ Syriac
 System %s failed to init\n
 System Memory (%s): 
 SystemInputLanguageChanged
+T0d/
 T95*
 TChinese
 TD_OFFSET_NORMAL
@@ -17445,6 +16916,7 @@ TRUE
 TUBE_CLOSED
 TUBE_FULL_OPEN
 TUUUU
+TUUUUUUUUUUUUUUUU
 T\n%NETWORK_DISCONNECT_LOCALPROBLEM_OTHER
 T\n&NETWORK_DISCONNECT_BAD_SERVER_PASSWORD
 T\n&NETWORK_DISCONNECT_MESSAGE_PARSE_ERROR
@@ -17464,7 +16936,6 @@ Tai_Tham
 Tai_Viet
 TakeDamageInfo
 Tamil
-TargetOversubscriptionFactor
 TeamChanged
 Teams are unbalanced when one team has this many more players than the other team. (0 disables check)
 Teams will be scrambled if one team reaches this streak
@@ -17597,10 +17068,10 @@ The type parameter T in RepeatedFieldRef<T> API doesn't match
 There %s %d players who you're in a Steam group with.\n
 This ZeroCopyOutputStream doesn't support aliasing. Reaching here usually means a ZeroCopyOutputStream implementation bug.
 This could be your Title.
-This function cannot be called on a default constructed task
 This program requires version 
 This program was compiled against version 
 This shouldn't be called if all the sizes are equal.
+ThreadAtomicNotifyAll
 ThreadInMainThread
 ThreadInMainThread()
 ThreadMultiWaitObjectSetDestroy
@@ -17707,7 +17178,6 @@ Tooltip.BgColor
 Tooltip.TextColor
 TooltipHidden
 TooltipVisible
-Top candidates:\n
 Top-%u 
 TopArrow
 TopArrowVisible
@@ -17724,7 +17194,6 @@ TotalLevelTime
 TouchController
 Trace using: %s\n
 TraceCollideable
-TraceEvent
 TraceHull
 TraceLine
 Tracer
@@ -17772,8 +17241,6 @@ True
 True if the joystick is enabled, false otherwise.
 Truncated data
 Try to clear all the debug overlay info
-TryAcquireSRWLockExclusive
-TryEnterCriticalSection
 Trying to add duplicate decal material %s.\n
 Trying to change pitch on invalid sound event %s\n
 Trying to change volume on invalid sound event %s\n
@@ -17844,7 +17311,6 @@ U:\dev\source2\main\src\thirdparty\protobuf-3.5.1\src\google\protobuf\text_forma
 U:\dev\source2\main\src\thirdparty\protobuf-3.5.1\src\google\protobuf\wire_format.cc
 U:\dev\source2\main\src\thirdparty\protobuf-3.5.1\src\google\protobuf\wire_format_lite.cc
 UA>N0Wl
-UBx 
 UCP)
 UGC Not Found - %s 
 UGCOperation
@@ -17881,7 +17347,6 @@ UNKNOWN
 UNKNOWN_ENUM_VALUE_%s_%d
 UNUSED_job_name
 UN{J
-UOnly valid in PublishedFile.GetUserFiles and not normal PublishedFile.GetDetail calls
 UPARROW
 UPDATE_INTERVAL
 UPDATE_STRING_TOKEN_DATABASE
@@ -17912,14 +17377,12 @@ UV88
 UVLX8888
 UVWQ8888
 U\n"NETWORK_DISCONNECT_REMOTE_BADCRYPT
-U\n$incoming_invite_mutual_friends_lists
 U\n&NETWORK_DISCONNECT_REPLAY_INCOMPATIBLE
 U\n&NETWORK_DISCONNECT_SERVERINFO_OVERFLOW
 U\n&NETWORK_DISCONNECT_SERVER_INCOMPATIBLE
 U\n(NETWORK_DISCONNECT_REJECT_INVALIDCERTLEN
 Udt@R
 Ugaritic
-UmsThreadYield
 Unable find required entry points in %s\n
 Unable to allocate %d bytes for the animation decode cache\n
 Unable to connect to debugger\n
@@ -17976,20 +17439,14 @@ UnreadyForDisplay
 Unrecognized flag name '%s'
 Unrecognized syntax: 
 Unrecognized type '%d'
-UnregisterTraceGuids
-UnregisterWait
-UnregisterWaitEx
 Unresolved
 Unresolved object reference '%s'
-Unspecified
 Unsupported
-Unsupported ETC image format %d.\n
 Unsupported KeyValue type for key "%s" (type %s) when parsing connections\n
 Unsupported functionality
 Unsupported in HL.
 Unsupported: type mismatch
 Unzipping %s (%d files)\n
-Update
 Update event 
 Update spatial partition entities before we do latch work. Overcomes a potential deadlock in IK, but convared so we can test perf implications.
 Update the animation graph
@@ -18003,7 +17460,6 @@ UpdateFocusInContext
 UpdateHUD
 UpdateJSConsoleNextHistory
 UpdateJSConsolePriorHistory
-UpdateNewEffects
 UpdateOnRemove
 UpdatePanelInfo
 UpdatePanelInfo - update
@@ -18017,8 +17473,6 @@ UpdateParticleOrient
 UpdateParticleSetFrozen
 UpdateParticleShouldDraw
 UpdatePlayerName with bogus slot %d\n
-UpdateProcThreadAttribute
-UpdateSteamAnnouncementLastRead
 UpdateStyleInMemory
 Updated looping radius sound %d to vol=%f\n
 Updates visibility bits.
@@ -18034,7 +17488,6 @@ UpgradeEntry_t
 UpgradeName
 UploadEnvMapConstants
 UploadLightProbeVolumeConstants
-UploadUserApplicationLog
 Usable
 Usage:  %s < entindex [server|client] varname | reset >\n
 Usage:  %s <entindex>
@@ -18064,8 +17517,6 @@ UseL4D2VguiHack
 UseScreenAspectRatio
 UsedVoice
 User Messages
-User is accepting the SSA
-User uploading application logs
 UserData
 UserInfoChangeService_001
 UserInputActive
@@ -18353,9 +17804,6 @@ ViewSaveGameList
 ViewportBG
 ViewportClientSystem
 VignetteStateChanged
-VirtualAlloc
-VirtualFree
-VirtualProtect
 VisBuilder_001
 Visible
 VisualizeMode
@@ -18373,7 +17821,6 @@ VoiceStatusManifest
 VolumeControl
 VolumeSliderPopup
 VolumeSliderValueChanged
-VoteData
 VrForward
 Vulkan
 W 7x
@@ -18421,7 +17868,6 @@ WEAPON_RELOAD_CLIP_INSERTING
 WEAPON_RELOAD_NOT_STARTED
 WEAPON_RELOAD_NO_CLIP_INSERTED
 WEBAPI_PARAM_STEAMID_ACCOUNTID
-WEnumerates Cloud files for a user of a given app ID. Returns up to 500 files at a time.
 WIN32
 WINDOWS
 WINXP
@@ -18443,11 +17889,9 @@ W\n,NETWORK_DISCONNECT_REJECT_RESERVED_FOR_LOBBY
 W\n\fdescriptions
 WaNd?
 WaitForSingleObjectEx
-WaitForThreadpoolTimerCallbacks
 Waiting for rendering to complete...\n
 Wake all physics objects in the Main physics up
 WakeAllConditionVariable
-WakeConditionVariable
 WalkSpeed
 Warning
 Warning font %s does not have a 'name' key! No windows font will be created. Check your scheme to make sure all machine configs are supported.\n
@@ -18507,7 +17951,6 @@ Width
 Width: %d, Height: %d, Bytes: %d\n
 WinMRController
 WinMRControllerSamsung
-WinRTInitialization
 WindowBgColor
 WindowCursorHidden
 WindowCursorShown
@@ -18577,7 +18020,6 @@ WriteSteamRemoteStorageFileAsync( "%s" ) -> at %.3f\n
 WriteToBuffer Message %s is not initialized! Probably missing required fields!\n
 WriteUsercmd: from=%d to=%d\n
 Writing cubemaps to %s\n
-X(Optional) If true, only return the published file ids of files that satisfy this query.
 X/4B
 X32H
 X360
@@ -18593,7 +18035,6 @@ X\n(NETWORK_DISCONNECT_INVALID_MESSAGE_ERROR
 XboxSystemInterface001
 XenGrenade
 XuV\v
-Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z\n"CCloud_EnumerateUserFiles_Response
 Y8a:
 Y9j;
 Y>kX>M
@@ -18602,7 +18043,6 @@ Y\n)NETWORK_DISCONNECT_NO_PEER_GROUP_HANDLERS
 Y\n*NETWORK_DISCONNECT_STRINGTABLEMSG_OVERFLOW
 Y\n0NETWORK_DISCONNECT_REJECT_SERVERCDKEYAUTHINVALID
 Y\n\fdescriptor_t
-Y\n\nsortmethod
 Y_txt
 YawArrow
 YcuP.
@@ -18614,8 +18054,6 @@ Z49r
 Z9O>
 Z>github.com/golang/protobuf/protoc-gen-go/descriptor;descriptor
 ZFP compression is not supported in this build
-ZGet me the mutual friends for each of my pending incoming invites (individuals and clans).
-ZInclude files that have all the tags or any of the tags if match_all_tags is set to false.
 ZOOM
 Z\>z8
 Z\n(NETWORK_DISCONNECT_REMOTE_CERTNOTTRUSTED
@@ -18651,7 +18089,6 @@ Z}uU
 [CC]:  %s Exceeds max caption length of %d bytes\n
 [CC]:  %s: %s\n
 [CC]:  %s: No Caption Found\n
-[Calculates and returns what to display for UI that renders new steam announcement available
 [DIFFERS]
 [GAMEEVENT] Event '%s' (index %d) added %s listener %p\n
 [GS %s - %7.2f] %s
@@ -18690,6 +18127,7 @@ Z}uU
 \\n\tlanguages
 \c at end of pattern
 \c must be followed by an ASCII character
+\fp\vPh
 \g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number
 \high
 \n    Actual    : 
@@ -18700,44 +18138,23 @@ Z}uU
 \n  Problem     : Enum value did not match field type:\n    Expected  : 
 \n  Problem     : Field is not the right type for this message:\n    Expected  : 
 \n CMsgGCToGCMasterBroadcastMessage
-\n CPlayer_GetNicknameList_Response
 \n CSVCMsg_GameSessionConfiguration
 \n RAPIDFIRE_BULLET_MANAGER_MESSAGE
 \n google/protobuf/descriptor.proto
-\n!CCloud_EnumerateUserFiles_Request
-\n!CPublishedFile_GetDetails_Request
 \n"CMsgGCMsgMasterSetClientMsgRouting
-\n"CPlayer_GetLastPlayedTimes_Request
 \n"CUserMessageRapidfireBulletManager
-\n"GetMutualFriendsForIncomingInvites
 \n################################################################################\n\n
-\n#CPlayer_GetGameBadgeLevels_Response
-\n#CPlayer_GetLastPlayedTimes_Response
-\n#CPublishedFile_GetUserFiles_Request
 \n#CWorkshop_AddSpecialPayment_Request
 \n$CMsgNotificationOfSuspiciousActivity
-\n$CPublishedFile_GetUserFiles_Response
 \n%CWorkshop_GetSpecialPayments_Response
 \n%CWorkshop_SetItemPaymentRules_Request
 \n&CGCSystemMsg_GetPurchaseTrust_Response
 \n'CCommunity_GetClanAnnouncements_Request
 \n'CGCSystemMsg_GetAccountDetails_Response
-\n'CPlayer_GetFriendsGameplayInfo_Response
-\n'steammessages_cloud.steamworkssdk.proto
-\n'steammessages_oauth.steamworkssdk.proto
 \n(CCommunity_GetClanAnnouncements_Response
-\n(steammessages_player.steamworkssdk.proto
-\n)CPublishedFile_RefreshVotingQueue_Request
-\n*COAuthToken_ImplicitGrantNoPrompt_Response
 \n*CWorkshop_PopulateItemDescriptions_Request
 \n+CGCSystemMsg_ReportExternalPurchase_Request
 \n------- CLIENT SOUNDSCAPES (%d total) -------\n
-\n-CPlayer_GetNewSteamAnnouncementState_Response
-\n-steammessages_helprequest.steamworkssdk.proto
-\n.steammessages_unified_base.steamworkssdk.proto
-\n/steammessages_publishedfile.steamworkssdk.proto
-\n1CHelpRequestLogs_UploadUserApplicationLog_Request
-\n3CPlayer_GetMutualFriendsForIncomingInvites_Response
 \n@scz
 \nCwf\r
 \nDOZ
@@ -18750,8 +18167,6 @@ Z}uU
 \n\fDIALOG_ENTRY
 \n\fEDACPlatform
 \n\fFieldOptions
-\n\fGetUserFiles
-\n\fIgnoreFriend
 \n\fLITE_RUNTIME
 \n\fNET_Messages
 \n\fPARTNER_NONE
@@ -18759,7 +18174,6 @@ Z}uU
 \n\fPrefetchType
 \n\fRIO_NO_ROUTE
 \n\fROLL_CREDITS
-\n\fRemoveFriend
 \n\fSTRING_PIECE
 \n\fSVC_Messages
 \n\fTE_BubblesId
@@ -18777,7 +18191,6 @@ Z}uU
 \n\favg_loss_out
 \n\fbi_GameEvent
 \n\fbi_RelayInfo
-\n\fborder_color
 \n\fbroadcast_id
 \n\fbullet_index
 \n\fcommand_line
@@ -18798,39 +18211,32 @@ Z}uU
 \n\fflagstoclear
 \n\ffriend_count
 \n\ffriends_name
-\n\fimage_height
-\n\fincompatible
 \n\fis_dedicated
 \n\fis_explosive
 \n\fis_extension
 \n\fis_localonly
 \n\fjava_package
 \n\flandmarkname
-\n\flog_contents
 \n\flow_priority
 \n\fmachine_name
 \n\fmaterialtype
 \n\fmessagessize
 \n\fminblendrate
 \n\fnetwork_name
-\n\fnum_children
 \n\fnum_commands
 \n\fnum_elements
 \n\fpartner_name
 \n\fpersona_name
 \n\fplayer_index
-\n\fplayer_level
 \n\fposttoserver
 \n\fprevhopcount
 \n\fprocess_name
-\n\fredirect_uri
 \n\fref_trans_id
 \n\frender_width
 \n\fsavegamename
 \n\fscreen_width
 \n\fserver_count
 \n\fservice_list
-\n\fshortcutname
 \n\fsignon_state
 \n\fstart_effect
 \n\fsteamid_left
@@ -18843,7 +18249,6 @@ Z}uU
 \n\fsync_version
 \n\ftexture_name
 \n\ftime_created
-\n\ftime_updated
 \n\fvar_name_sym
 \n\fvar_type_sym
 \n\fwait_seconds
@@ -18853,9 +18258,7 @@ Z}uU
 \n\nDIALOG_MSG
 \n\nEErrorCode
 \n\nEM_DoSpark
-\n\nGetDetails
 \n\nIDEMPOTENT
-\n\nOAuthToken
 \n\nROLL_STATS
 \n\nRP_UNPAUSE
 \n\nStopBullet
@@ -18876,7 +18279,6 @@ Z}uU
 \n\nalert_type
 \n\narmorvalue
 \n\nattachment
-\n\nban_reason
 \n\nbrightness
 \n\nbytes_read
 \n\nclass_name
@@ -18925,15 +18327,12 @@ Z}uU
 \n\ns1_mapname
 \n\nsecret_key
 \n\nsendprop_t
-\n\nserver_url
 \n\nservice_id
 \n\nset_frozen
-\n\nshortcutid
 \n\nsimplified
 \n\nstack_hash
 \n\nstart_time
 \n\nstartframe
-\n\nstartindex
 \n\nstat_value
 \n\nstrip_html
 \n\nsubscriber
@@ -18945,9 +18344,7 @@ Z}uU
 \n\nval_string
 \n\nval_uint64
 \n\nvalidslots
-\n\nvisibility
 \n\nvoice_data
-\n\nvotes_down
 \n\rCDemoSyncTick"$\n
 \n\rCDotaGameInfo
 \n\rCSVCMsg_Print
@@ -18956,7 +18353,6 @@ Z}uU
 \n\rEDemoCommands
 \n\rEM_PlayJingle
 \n\rMethodOptions
-\n\rPublishedFile
 \n\rRoutingMethod
 \n\rTE_BSPDecalId
 \n\rTE_BeamEntsId
@@ -18969,14 +18365,12 @@ Z}uU
 \n\rUM_ScreenTilt
 \n\rbaseline_tick
 \n\rbytes_written
-\n\rcan_subscribe
 \n\rclc_VoiceData
 \n\rcluster_index
 \n\rcode_filename
 \n\rcomputer_guid
 \n\rcontext_value
 \n\rcontrol_point
-\n\rcreator_appid
 \n\rcurrency_code
 \n\rcurrency_name
 \n\rdefault_value
@@ -18986,7 +18380,6 @@ Z}uU
 \n\rerror_message
 \n\rfade_out_time
 \n\rgamesessionid
-\n\rhcontent_file
 \n\ris_banned_now
 \n\ris_cyber_cafe
 \n\ris_subscribed
@@ -18994,11 +18387,9 @@ Z}uU
 \n\ris_vac_banned
 \n\rk_ESE_Source1
 \n\rk_ESE_Source2
-\n\rlast_playtime
 \n\rneeds_decoder
 \n\rnet_SetConVar
 \n\rnet_StringCmd
-\n\rnotify_client
 \n\rnum_tv_relays
 \n\rpacked_fields
 \n\rpacked_params
@@ -19022,7 +18413,6 @@ Z}uU
 \n\rsource_app_id
 \n\rsteamid_locks
 \n\rsteamid_right
-\n\rsubscriptions
 \n\rsvc_ClassInfo
 \n\rsvc_StopSound
 \n\rsvc_VoiceData
@@ -19034,19 +18424,16 @@ Z}uU
 \n\rtotal_data_in
 \n\ruser_sessions
 \n\rvalidate_only
-\n\rworkshop_file
 \n\ryielding_jobs
 \n\ryou_hear_them
 \n\tCGameInfo
 \n\tDEM_Error
 \n\tROLL_NONE
-\n\tSubscribe
 \n\tTE_DustId
 \n\tTE_FizzId
 \n\tUM_Damage
 \n\tUM_Geiger
 \n\taccountid
-\n\tadminonly
 \n\tamplitude
 \n\tbackcolor
 \n\tban_masks
@@ -19067,10 +18454,6 @@ Z}uU
 \n\tent_index
 \n\tevictions
 \n\texplosive
-\n\tfavorited
-\n\tfile_size
-\n\tfile_type
-\n\tfollowers
 \n\tframerate
 \n\tfrequency
 \n\tgame_data
@@ -19085,14 +18468,12 @@ Z}uU
 \n\thold_time
 \n\thost_loss
 \n\thost_name
-\n\timage_url
 \n\tinit_time
 \n\tint_value
 \n\tip_public
 \n\tis_replay
 \n\tjson_name
 \n\tline_item
-\n\tlist_type
 \n\tlongitude
 \n\tlow_value
 \n\tmagnitude
@@ -19100,7 +18481,6 @@ Z}uU
 \n\tname_part
 \n\tp2p_Voice
 \n\tpackageid
-\n\tpreviewid
 \n\tprice_usd
 \n\tproximity
 \n\trecipient
@@ -19113,14 +18493,12 @@ Z}uU
 \n\tshardsize
 \n\tsignature
 \n\tsoid_type
-\n\tsortorder
 \n\tsound_num
 \n\tsoundname
 \n\tsource_gc
 \n\tsteam_ids
 \n\tsvc_dummy
 \n\ttickcount
-\n\ttimestamp
 \n\ttype_name
 \n\tval_float
 \n\tval_short
@@ -19151,7 +18529,6 @@ Z}uU
 \n\vUM_ShakeDir
 \n\vUM_ShowMenu
 \n\vUM_VGUIMenu
-\n\vUnsubscribe
 \n\vaccount_ids
 \n\vachievement
 \n\vactive_jobs
@@ -19181,8 +18558,6 @@ Z}uU
 \n\vgame_winner
 \n\vhidden_only
 \n\vhover_clear
-\n\vimage_width
-\n\vin_wishlist
 \n\vis_adjacent
 \n\vis_headless
 \n\vis_sentence
@@ -19198,7 +18573,6 @@ Z}uU
 \n\vnet_message
 \n\vnum_clients
 \n\vnum_entries
-\n\vnum_reports
 \n\vobject_data
 \n\voneof_index
 \n\votherentity
@@ -19210,7 +18584,6 @@ Z}uU
 \n\vplayer_name
 \n\vplayer_slot
 \n\vplayerindex
-\n\vpreview_url
 \n\vrandom_seed
 \n\vregion_code
 \n\vremote_addr
@@ -19226,7 +18599,6 @@ Z}uU
 \n\vsounddata_t
 \n\vsource_file
 \n\vspawn_count
-\n\vspoiler_tag
 \n\vstartentity
 \n\vstatus_code
 \n\vsteam_level
@@ -19236,9 +18608,7 @@ Z}uU
 \n\vsvc_SetView
 \n\vswap_height
 \n\vtable_flags
-\n\vtime_posted
 \n\vtoken_value
-\n\vtotal_files
 \n\vunlock_time
 \n\vworld_scale
 \nh?oT
@@ -19247,9 +18617,6 @@ Z}uU
 \p{Xps}
 \p{Xsp}
 \p{Xwd}
-\r?Get@Object@v8@@QEAA?AV?$Local@VValue@v8@@@2@I@Z
-\r?GetCurrent@Isolate@v8@@SAPEAV12@XZ
-\r?GetCurrentContext@Isolate@v8@@QEAA?AV?$Local@VContext@v8@@@2@XZ
 \rKfie
 \r\f\v\v\n\n\t\t\t\t\t
 \r\n\tCODE_SIZE
@@ -19281,10 +18648,6 @@ Z}uU
 \t%s %lld -> %lld\n
 \t( ["%s"]->IsInstanceActive() 
 \t6\t9J
-\t?Enter@Context@v8@@QEAAXXZ
-\t?Enter@Isolate@v8@@QEAAXXZ
-\t?Exit@Context@v8@@QEAAXXZ
-\t?Exit@Isolate@v8@@QEAAXXZ
 \tAdding close event 
 \tAdding onopen event 
 \tAdding open event 
@@ -19422,6 +18785,7 @@ Z}uU
 \t\t\t\t"inputTexture%i"%s\n
 \t\t\t\t\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tati_compress_wrapper.dll
 \t\t\t]\n\t\t}\n\t]\n\t"m_bHiddenAssetFlag" "bool" "1"\n}\n
 \t\tentitygroundcontact[%d].entindex %d\n
 \t\tentitygroundcontact[%d].maxheight %2.2f\n
@@ -19446,6 +18810,7 @@ Z}uU
 ^f3b
 _BaseEntity
 _PrecacheGlowMaterial_client
+_RDATA
 _V_AppendSlash
 _V_ComposeFileName
 _V_ExtractFileExtension
@@ -19497,6 +18862,8 @@ __procedural_adopted_targetname_
 __ptr64
 __restrict
 __stdcall
+__swift_1
+__swift_2
 __temp_unserialization_member__
 __thiscall
 __unaligned
@@ -19522,9 +18889,11 @@ _test_conversion_counter
 _to_curve_
 _top_left
 _top_right
+`3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
 `7l[4
 `?540
 `AP$N
+`F?ToLocalEmpty@api_internal@v8@@YAXXZ
 `RTTI
 `TRg
 `adjustor{
@@ -19541,7 +18910,7 @@ _top_right
 `eh vector vbase copy constructor iterator'
 `generic-class-parameter-
 `generic-method-parameter-
-`h`hhh
+`generic-type-
 `local static destructor helper'
 `local static guard'
 `local static thread guard'
@@ -19560,6 +18929,7 @@ _top_right
 `template static data member constructor helper'
 `template static data member destructor helper'
 `template-parameter
+`template-parameter-
 `template-type-parameter-
 `typeof'
 `udt returning'
@@ -19800,20 +19170,15 @@ animgraph_enable
 animgraph_trace_ignore_prop_physics
 animgraph_update
 animgraphcontroller
-announcement_gid
-announcement_headline
-announcement_url
 antialias
 antiquewhite
 ao%d
 api_key
 app_id
 app_instance_count
-app_name
 append
 appid
 apply_voice_ban_rules
-apps
 aqua
 aquamarine
 are not
@@ -19838,7 +19203,6 @@ assertion expected after (?(
 associate
 associated_workshop_files
 async_state
-ati_compress_wrapper.dll
 attach
 attach_camera
 attach_centrifuge
@@ -19931,7 +19295,7 @@ bWasRunningAnim
 b\fp\v0
 b\n,NETWORK_DISCONNECT_SPLITPACKET_SEND_OVERFLOW
 b\n\fdescriptor_t
-b\vp\nP
+b\vP\n0
 b_Crafting
 b_Hit_Trigger
 b_dead
@@ -19954,17 +19318,17 @@ backpackclipcount
 backwards
 bad address
 bad allocation
+bad array new length
+bad cast
 bad exception
 bad file descriptor
 bad function call
+bad locale name
 bad message
-badges
 baked_light_indexing
 bakelightindex
 bakelightindexscale
 balance
-banned
-banner
 barnacle_entindex
 barnacle_onurface_anim
 barnacle_tongue_wrap
@@ -20146,7 +19510,6 @@ brightness
 brighttext
 broadcast_group
 broken pipe
-broken promise
 brown
 browse_item_%d
 browse_workshop
@@ -20302,7 +19665,6 @@ c:\buildslave\hlvr_rel_win64\build\src\game\shared\baseflex_shared.cpp
 c:\buildslave\hlvr_rel_win64\build\src\game\shared\beam_shared.cpp
 c:\buildslave\hlvr_rel_win64\build\src\game\shared\collisionproperty.cpp
 c:\buildslave\hlvr_rel_win64\build\src\game\shared\decalgamesystem.cpp
-c:\buildslave\hlvr_rel_win64\build\src\game\shared\entitydebuggamesystem.cpp
 c:\buildslave\hlvr_rel_win64\build\src\game\shared\env_cubemap.cpp
 c:\buildslave\hlvr_rel_win64\build\src\game\shared\env_time_of_day2.cpp
 c:\buildslave\hlvr_rel_win64\build\src\game\shared\func_shatterglass.cpp
@@ -20331,6 +19693,7 @@ c:\buildslave\hlvr_rel_win64\build\src\game\shared\point_worldtext.cpp
 c:\buildslave\hlvr_rel_win64\build\src\game\shared\predictioncopy.cpp
 c:\buildslave\hlvr_rel_win64\build\src\game\shared\predictioncopy_referenced.h
 c:\buildslave\hlvr_rel_win64\build\src\game\shared\predictioncopy_utlvector.h
+c:\buildslave\hlvr_rel_win64\build\src\game\shared\rendergamesystem.cpp
 c:\buildslave\hlvr_rel_win64\build\src\game\shared\skeletoninstance.cpp
 c:\buildslave\hlvr_rel_win64\build\src\game\shared\spawngroupmgrgamesystem.cpp
 c:\buildslave\hlvr_rel_win64\build\src\game\shared\te\te_bubbles.cpp
@@ -20360,6 +19723,7 @@ c:\buildslave\hlvr_rel_win64\build\src\panorama\controls\html.cpp
 c:\buildslave\hlvr_rel_win64\build\src\panorama\layout\panel2dfactory.cpp
 c:\buildslave\hlvr_rel_win64\build\src\panorama\layout\stylepropertyfactory.cpp
 c:\buildslave\hlvr_rel_win64\build\src\particleslib\particle_property.cpp
+c:\buildslave\hlvr_rel_win64\build\src\particleslib\particlemgr.cpp
 c:\buildslave\hlvr_rel_win64\build\src\physicslib\physaggregatedata.cpp
 c:\buildslave\hlvr_rel_win64\build\src\public\closedcaption\closedcaptions.cpp
 c:\buildslave\hlvr_rel_win64\build\src\public\entity2\concreteentitylist.h
@@ -20370,15 +19734,9 @@ c:\buildslave\hlvr_rel_win64\build\src\public\networksystem\networkquantizedtype
 c:\buildslave\hlvr_rel_win64\build\src\public\ordered_constructor.h
 c:\buildslave\hlvr_rel_win64\build\src\public\panorama\layout\fillbrush.h
 c:\buildslave\hlvr_rel_win64\build\src\public\scenesystem\vertexformat.h
-c:\buildslave\hlvr_rel_win64\build\src\public\steam\steammessages_cloud.steamworkssdk.pb.cc
-c:\buildslave\hlvr_rel_win64\build\src\public\steam\steammessages_helprequest.steamworkssdk.pb.cc
-c:\buildslave\hlvr_rel_win64\build\src\public\steam\steammessages_oauth.steamworkssdk.pb.cc
-c:\buildslave\hlvr_rel_win64\build\src\public\steam\steammessages_player.steamworkssdk.pb.cc
-c:\buildslave\hlvr_rel_win64\build\src\public\steam\steammessages_publishedfile.steamworkssdk.pb.cc
 c:\buildslave\hlvr_rel_win64\build\src\public\tier0\threadtools.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier0\tslist.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\eventdispatcher.h
-c:\buildslave\hlvr_rel_win64\build\src\public\tier1\loggingmetahelpers.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\memstack.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlblockmemory.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlfixedmemory.h
@@ -20411,7 +19769,6 @@ c?Mg'
 c?kdWZF\n
 cOL(
 c\f@ZF
-c\n\tAcceptSSA
 c\rrr
 c_maxdistance
 c_maxpitch
@@ -20462,7 +19819,6 @@ camortho
 campaign
 can't reach here.
 can't solve quadratic for light %f %f\n
-can_be_deleted
 cancel
 cancelselect
 cancelselect\n
@@ -20570,6 +19926,7 @@ char
 char 
 char16_t
 char32_t
+char8_t
 character
 character value in \x{...} sequence is too large
 charging
@@ -20600,6 +19957,7 @@ cl_anim_queue_changes
 cl_anim_sequence_transitioner
 cl_animationinfo
 cl_async_client_shatter
+cl_async_restore_server_authoritative_state
 cl_axis
 cl_backspeed
 cl_box
@@ -21007,7 +20365,6 @@ code
 codec
 cointerface 
 collapse
-collection_type
 collision_group
 collision_group_override
 collision_prop
@@ -21085,9 +20442,6 @@ constraint
 constraint_axislimit_t
 constraint_breakableparams_t
 constraint_hingeparams_t
-consumer_appid
-consumer_shortcut_name
-consumer_shortcutid
 contain
 container_Ammo
 container_Guns
@@ -21155,7 +20509,6 @@ create_flare
 create_on_client
 create_particle
 creationsequence
-creator
 credits_left
 credits_middle
 credits_panel_middle
@@ -21328,6 +20681,7 @@ decalScaleVariation
 decalStartFadeTime
 decal_texture_index
 decalmaterialindex
+decltype(auto)
 dedicated
 deeppink
 deepskyblue
@@ -21381,7 +20735,6 @@ descriptor
 desired
 desired spectator mode (4 = in-eye, 5 = chase, 6 = roaming)
 desired_orientation
-desired_queue_size
 desiredlayoutheight
 desiredlayoutwidth
 dest
@@ -21390,7 +20743,6 @@ destroy_immediately
 destroy_particle
 destroy_particle_involving
 detach_from_owner
-details
 dev/panorama_world_panel_commentary_hud.vmat
 dev/panorama_world_panel_commentary_node.vmat
 dev/panorama_world_panel_default.vmat
@@ -21560,7 +20912,6 @@ effect_name_hash_code
 effect_simplified
 effectname
 effects
-effortblocks = %d\n
 eg: First, Easy, Medium, Hard, VeryHard. Leave blank to not override.
 eh 0x%p
 ehandle
@@ -21642,8 +20993,6 @@ entitytable_t
 entries
 enum
 enum 
-enum_description
-enum_value_description
 env sprite previewer
 envMapArray.vtex
 env_clock
@@ -21658,7 +21007,6 @@ env_flare
 env_fog_controller
 env_gradient_fog
 env_light_probe_volume
-env_screenoverlay couldn't find overlay %s.\n
 env_sky
 env_spherical_vignette
 env_spherical_vignette_pause
@@ -21686,14 +21034,12 @@ error in transition graph: %s to %s\n
 error-text
 errors
 escape
-ethe resulting relationship.  Depending on state, may move directly to friends rather than invite sent"R\n
 ev/Z
 evcode
 evenodd
 event
 event:
 eventID
-eventObject
 event_class
 event_keys
 event_ramp
@@ -21703,7 +21049,6 @@ eventid
 eventindex
 events
 evparam
-ex<i
 example_param
 exampleeffect
 exclude_from_save_games
@@ -21752,10 +21097,10 @@ exponential_decay
 exposurecompensation
 exposurespeeddown
 exposurespeedup
+expression
 expressions
 expressions/%s.vfe
 extend .$0 {\n
-extended_details
 extendee
 extension_range
 extent_origin_left
@@ -21901,12 +21246,9 @@ file://{resources}/layout/wrist_hud.xml
 file://{resources}/videos/wupgrade_boot.webm
 file://{resources}/videos/wupgrade_frabrication.webm
 file://{resources}/videos/wupgrade_loop.webm
-file_description
-file_url
 filename
 filename too long
 filepos
-files
 fill
 fill 
 fill-parent-flow
@@ -21934,7 +21276,6 @@ firebrick
 firetrigger
 fireworks
 firing_interval
-first_playtime
 firstperson
 fish_debug
 fish_pos_x
@@ -22000,7 +21341,7 @@ float64 differs (net %g pred %g) diff(%g)\n
 floralwhite
 flow-children
 fltx4
-fmodf
+fmod
 focus
 focus-offset
 focus-x-offset
@@ -22148,7 +21489,6 @@ freeze option
 freezecam_started
 frequency
 friction
-friend_relationship
 friendship_timestamps
 from
 fuchsia
@@ -22170,8 +21510,6 @@ func_monitor
 func_precipitation
 func_wall
 function not supported
-future
-future already retrieved
 fxTime
 fx_airboat_gun_impact
 fx_blood_bullet_impact
@@ -22185,6 +21523,7 @@ g(I2
 g5n{
 g?xy
 g?~h0WPb
+gF?ToNumber@Value@v8@@QEBA?AV?$MaybeLocal@VNumber@v8@@@2@V?$Local@VContext@v8@@@2@@Z
 g\f>RI
 g_GameEventManager.Init()
 g_GameTime
@@ -22259,7 +21598,6 @@ gamemode
 gamepad
 gamerules_masks
 gamerules_roundstate_t
-games
 gameslot
 gamestats.dat
 gamestats.log
@@ -22399,7 +21737,6 @@ hThinkFunc
 hUK:J
 hW!e
 h\n,NETWORK_DISCONNECT_REMOTE_TIMEOUT_CONNECTING
-h\n\frequiredtags
 h\vcf
 hack_succeeded
 hacking_point_fixed
@@ -22439,7 +21776,6 @@ has_rotation
 has_save_games
 hash
 hat_id
-hcontent_preview
 header
 headerdetaillabel
 headerlabel
@@ -22484,8 +21820,6 @@ height-percentage( %s )
 help
 hero_id
 hidden
-hide_adult_content_sex
-hide_adult_content_violence
 hide_freezepanel
 hide_photo_mode_menu
 hidehud
@@ -22564,6 +21898,7 @@ hlvr/mailbox
 hlvr_adjust_height_mode
 hlvr_adjust_height_option
 hlvr_adjust_turn_option
+hlvr_auto_dismiss_loading
 hlvr_client_ui_hand_debug
 hlvr_client_ui_hand_max_movement
 hlvr_client_ui_hand_point_finger_distance
@@ -22741,6 +22076,7 @@ hlvr_shotgun_extra_shell_grab_range_moving
 hlvr_shotgun_extra_shell_gravity_glove_range
 hlvr_shotgun_grant_upgrade
 hlvr_shotgun_slide_interactable
+hlvr_simple_loading_diorama
 hlvr_single_controller_mode
 hlvr_skip_credits
 hlvr_slide_interactable
@@ -22880,8 +22216,6 @@ hudtextparms_t
 hue-rotation
 hurt_me
 hurt_them
-i(ERemoteStoragePublishedFileVisibility) Visibility of the published file (private, friends, public, etc.)
-i(Optional) Maximum number of results to return on this call. Defaults to a maximum of 500 files returned.
 i3N#
 i3Ns
 iAmmoType
@@ -22891,7 +22225,6 @@ iDamageCustom
 iSlideIndex
 iSlideMaterials
 iUK:
-i\n\ttotalonly
 ico_friend_indicator_avatar
 icon
 iconColor
@@ -22920,7 +22253,6 @@ identifier removed
 identifier_value
 idle
 idle_hacking
-ids_only
 if camera moves this much from last anchor update anchor
 if camera orientation changes this much update orientation
 if_split_screen_active
@@ -22976,7 +22308,6 @@ impulse
 impulse 101
 in freemove
 in_dev_teleport
-in_game
 in_jlook
 in_logon_surge
 inactive
@@ -22987,8 +22318,6 @@ include_friendship_timestamps
 include_hidden
 include_partner_events
 include_wearables
-includeadditionalpreviews
-includechildren
 inconsistent NEWLINE options
 increment
 index
@@ -23113,10 +22442,9 @@ invalid escape sequence in character class
 invalid hash bucket count
 invalid seek
 invalid string position
-invalid vector<T> subscript
+invalid vector subscript
 invalid/negative time base %f\n
 invalid_bone
-invalid_hitbox
 invalid_parameter
 inventory_model
 inventory_position
@@ -23286,6 +22614,7 @@ iv_yaw
 iv_zoom
 ivory
 i~Fs
+j>?Set@Object@v8@@QEAA?AV?$Maybe@_N@2@V?$Local@VContext@v8@@@2@IV?$Local@VValue@v8@@@2@@Z
 jIG9
 jalopy_radar_panel
 japanese
@@ -23373,6 +22702,7 @@ justify_vertical
 k'JB
 k9J{c>
 k=yI
+k>?Set@Object@v8@@QEAA?AV?$Maybe@_N@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@1@Z
 kBEAMCLIPSTYLE_NUMBITS
 kBZc
 kGEOCLIP
@@ -23411,7 +22741,6 @@ kRenderTransAlphaAdd
 kRenderTransColor
 kRenderTransTexture
 kRenderWorldGlow
-k\n\fredirect_uri
 k\nd6
 k]jD
 k_EMsgGCClientConnectionStatus
@@ -23424,10 +22753,6 @@ k_EMsgGCServerConnectionStatus
 k_EMsgGCServerHello
 k_EMsgGCServerWelcome
 k_EMsgGCToClientRequestDropped
-k_ENotificationSettingAlways
-k_ENotificationSettingNever
-k_EProtoExecutionSiteUnknown
-k_EProtoExecutionSiteUnknown:<\n
 k_ESOMsg_CacheSubscribed
 k_ESOMsg_CacheUnsubscribed
 k_ESOMsg_Create
@@ -23483,12 +22808,10 @@ koreana
 ktsV
 kv 0x%p AddRef refcount == %d\n
 kv 0x%p Release refcount == %d\n
-kvtags
 l4d2_upsell
 l=C8f9
 lAJG
 lWi]
-l\n\fexcludedtags
 l\tTZ
 label
 label0
@@ -23502,7 +22825,7 @@ labelled_debug_helper_arc_segments
 labelled_debug_helper_enabled
 labelled_debug_helper_scale
 labelled_debug_helper_show_position
-labelled_debug_helper_show_text
+labelled_debug_helper_skeleton_show_bone_names
 labeltext
 ladder
 landmark
@@ -23524,7 +22847,6 @@ last_sniff
 last_update_time
 lastactivate
 lastinv
-lastupdated
 latch
 latitude
 lavender
@@ -23572,7 +22894,6 @@ less than
 lesson_name
 lessonname
 letter-spacing
-level
 levelName
 levellist_t
 levelname
@@ -23580,9 +22901,6 @@ leveltransition
 lfoot
 license
 life
-lifetime_favorited
-lifetime_followers
-lifetime_subscriptions
 lift_trigger_player_inside
 light
 light has _fifty_percent_distance of %f but no zero_percent_distance\n
@@ -23703,7 +23021,6 @@ lockRotationAlpha
 lockbodyfacing
 locked
 log10
-log_type
 logic_relay
 logo
 logo2
@@ -26872,6 +26189,7 @@ m_pParticleEffect
 m_pParticleInnerFarDef
 m_pParticleInnerNearDef
 m_pParticleOuterDef
+m_pParticleSimJob
 m_pParticles
 m_pPathParticleEffect
 m_pPictureSceneObject
@@ -27496,9 +26814,7 @@ mat_viewportupscale
 mat_wateroverlaysize
 mat_wireframe
 mat_yuv
-match_all_tags
 match_id
-matching_file_type
 material
 material_group_name
 material_param
@@ -27735,7 +27051,6 @@ messagemode
 messagemode2
 messages
 method
-method_description
 mic_listen_while_nonfocused
 middle
 middle_finger_tip
@@ -27746,7 +27061,6 @@ min-height
 min-width
 min_angle
 min_client_limit
-min_last_played
 mincpulevel
 mindisplaypercentage
 minexposure
@@ -27762,8 +27076,6 @@ mins
 mintcream
 minusone
 minutehandentity
-minutes_played
-minutes_played_forever
 minwind
 missing )
 missing ) after comment
@@ -28118,7 +27430,6 @@ multiply
 multitool_attach_point
 multitouchzoomscale
 muted
-mutual_friend_account_ids
 muzzle
 muzzle_flash_effect
 muzzle_flash_enable
@@ -28142,7 +27453,7 @@ nSaved
 nShakeType
 nTries < 10000000
 nZ:0J
-n\f"pA3Q`V
+n\f"pA3Q
 n]?iJ
 name
 name: %s
@@ -28214,7 +27525,6 @@ next_zipline
 nextfadetime
 nexttoken
 ng_yP
-nickname
 nmonqnmomnmomomno
 no API
 no buffer space
@@ -28228,7 +27538,6 @@ no model
 no protocol option
 no samples latched
 no space on device
-no state
 no stream resources
 no such device
 no such device or address
@@ -28272,10 +27581,6 @@ not set
 not supported
 notches
 nothing to repeat
-notifications_sendmobile
-notifications_showingame
-notifications_showmessages
-notifications_showonline
 nowrap
 npc_antlion
 npc_barnacle_debug_tongue_vis
@@ -28294,11 +27599,10 @@ npc_zombie
 nqCBJ
 nqq?
 null
+nullptr
 num_bits
 num_bots
 num_changed_entries
-num_comments_developer
-num_comments_public
 num_search_results
 num_server_players
 num_spectators
@@ -28402,6 +27706,8 @@ operations_submitted
 operations_timed_out_in_queue
 operator
 operator "" 
+operator co_await
+operator<=>
 operatorName
 optional
 options
@@ -28463,13 +27769,11 @@ overview_tracks
 overview_zoom
 overwrite
 owM&
-owned
 owner
 owner dead
 owner_context
 owner_id
 ownername
-owns
 o}Xot#
 p)cS
 p2p_Ping
@@ -28485,20 +27789,14 @@ p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
 p2p_ping sending to "%s"\n
 p;4,F
-p?33s?H
+p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p?}WF
 p@none 
-pContext
 pData->GetDataDescMap() == pTemplateDataMap
-pEvents
-pExecutionResource
 pField
 pMessage
-pScheduler
-pThreadProxy
 pVehicle
 pWorldObject
-p\r0\fP
 pa end %f
 pa start %f
 package
@@ -28511,7 +27809,6 @@ padding-bottom
 padding-left
 padding-right
 padding-top
-page
 pagescroll
 paintbackground
 paintborder
@@ -28544,7 +27841,6 @@ panorama/localization/hlvr_%language%.txt
 panorama/panorama_config.txt
 panorama::CFillBrush::AccessStopColors
 panorama::CFillBrush::CopyOther
-panorama::CFillBrush::GetFillColor
 panorama::CFillBrush::GetRadialGradientValues
 panorama::CFillBrush::GetStartAndEndPoints
 panorama::CFillBrush::Purge
@@ -28608,7 +27904,6 @@ parent_sibling
 parentdisabled
 parented
 parentheses nested too deeply
-parenthesize_nicknames
 parentname
 parentnamefixup
 parse
@@ -28822,7 +28117,6 @@ particles/weapon_fx/weapon_shotgun_laser_sight.vpcf
 particles_list
 partner
 partner_accounts
-pass %u\n
 passes_granted
 passes_to_grant
 password
@@ -28845,6 +28139,8 @@ pending_submit
 percent_bright_pixels
 percent_target
 percentage
+perf mode override: %s\n
+perf mode override: running on device but requesting -1, forcing to 2 (high)\n
 perfdata
 perfui
 permission denied
@@ -28942,7 +28238,6 @@ playback_ticks
 playback_time
 playback_volume
 playbackrate
-played_recently
 player
 playerIndex
 player_armed_grenade
@@ -29031,8 +28326,6 @@ playoverscript
 playrandom
 playsoundscape
 playtime
-playtime_2weeks
-playtime_forever
 playvideo
 playvideo_exitcommand
 playvideo_exitcommand_nointerrupt
@@ -29108,7 +28401,7 @@ posx
 posy
 posz
 powderblue
-ppVirtualProcessorRoots
+powf
 pre-transform-rotate2d
 pre-transform-scale2d
 precache_shared.cpp PrecacheMaterial:: path '%s' missing extension!\n
@@ -29141,10 +28434,6 @@ prev_cycle_event
 prev_zipline
 prevent_interaction_t
 preview
-preview_cloudfilename
-preview_file_size
-preview_filename
-previews
 previouslevel
 price
 primary_ammo
@@ -29154,16 +28443,12 @@ print origin in script format
 print soundscapes
 printname
 priority
-privacy
-private
 private: 
-proc
 product
 prof_%s.csv
 program
 progress
 projector
-promise already satisfied
 prop_animating_breakable
 prop_animating_breakable - no break stages in model '%s'
 prop_animating_breakable - no sequences for activity '%s' for model '%s'
@@ -29228,9 +28513,6 @@ public.
 public: 
 public_dependency
 publicchat_button
-publishedfiledetails
-publishedfileid
-publishedfileids
 publisher_group_id
 punct
 purchase_result_detail
@@ -29245,6 +28527,7 @@ pxADj
 py_generic_services
 q4GV
 q;4,F
+q?33s?H
 qKPh
 qS>g?h3
 q\n\vCPlayerInfo
@@ -29266,8 +28549,6 @@ r axis
 r0@GP!
 rJ@LB
 rKK\t@i;
-rLp>B
-r\n\vstart_index
 r\tVr.>T
 r_AirboatViewDampenDamp
 r_AirboatViewDampenFreq
@@ -29336,6 +28617,7 @@ r_impacts_alt_orientation
 r_impacts_decal_grazing_incidence_cutoff
 r_impacts_decal_grazing_incidence_variance
 r_jiggle_bones
+r_late_particle_job_sync
 r_light_flickering_enabled
 r_light_sensitivity_mode
 r_mapextents
@@ -29417,6 +28699,22 @@ reflex_sights
 refpt_authoring_controller
 refresh
 refresh_all
+regex_error
+regex_error(error_backref): The expression contained an invalid back reference.
+regex_error(error_badbrace): The expression contained an invalid range in a { expression }.
+regex_error(error_badrepeat): One of *?+{ was not preceded by a valid regular expression.
+regex_error(error_brace): The expression contained mismatched { and }.
+regex_error(error_brack): The expression contained mismatched [ and ].
+regex_error(error_collate): The expression contained an invalid collating element name.
+regex_error(error_complexity): The complexity of an attempted match against a regular expression exceeded a pre-set level.
+regex_error(error_ctype): The expression contained an invalid character class name.
+regex_error(error_escape): The expression contained an invalid escaped character, or a trailing escape.
+regex_error(error_paren): The expression contained mismatched ( and ).
+regex_error(error_parse)
+regex_error(error_range): The expression contained an invalid character range, such as [b-a] in most encodings.
+regex_error(error_space): There was insufficient memory to convert the expression into a finite state machine.
+regex_error(error_stack): There was insufficient memory to determine whether the regular expression could match the specified character sequence.
+regex_error(error_syntax)
 registered: 
 regression
 regular expression is too large
@@ -29642,10 +28940,8 @@ s69F~
 s7>Ip
 sF9=
 sHF'
-sIf true, then files must have all the tags specified.  If false, then must have at least one of the tags specified.
 sUpgradeHoloModelName
 sUpgradeLocTokenSuffix
-s\n\tAddFriend
 s_EntComponentInfo
 s_Ladders
 s_bAbsQueriesValid
@@ -29830,7 +29126,6 @@ serialized_entities
 serializer_name_sym
 serializer_version
 serializing
-series
 server
 server %5.1f ms curr, %5.1f ave, %5.1f peak
 server_cvar
@@ -29841,8 +29136,6 @@ server_steam_id
 server_streaming
 servermsg_button
 service
-service_description
-service_execution_site
 setChildPanelWidth
 set_control_point_model
 set_control_point_snapshot
@@ -29922,7 +29215,6 @@ short
 short 
 short (%i)
 short differs (net %i pred %i) diff(%i)\n
-short_description
 shotgun
 shotgun_ammo
 should PostActionSignals
@@ -29978,7 +29270,6 @@ show_save_container
 show_save_slot_item
 show_saved_slots_container
 show_spectator_container
-show_subscribe_all
 show_subtitles_container
 show_visibility_boxes
 showbudget_texture
@@ -30206,9 +29497,6 @@ soundname
 soundpatch_captionlength
 sounds
 sounds/ui/menu_focus.wav
-sounds_showingame
-sounds_showmessages
-sounds_showonline
 soundscapeEntityListIndex
 soundscapeIndex
 soundscape_dumpclient
@@ -30294,8 +29582,6 @@ sprayDecalName
 sprayDecalName_Alive
 springConstant
 springgreen
-sprites/
-sqrt
 square
 squeezable
 squeeze_target
@@ -30363,16 +29649,9 @@ steam_txn_type
 steamcode
 steamdatagram_login
 steamid
-steamid_creator
 steamids
 steammessages.proto
 steammessages.proto"@\n
-steammessages_cloud.steamworkssdk.proto
-steammessages_helprequest.steamworkssdk.proto
-steammessages_oauth.steamworkssdk.proto
-steammessages_player.steamworkssdk.proto
-steammessages_publishedfile.steamworkssdk.proto
-steammessages_unified_base.steamworkssdk.proto
 steamvr_activate_overlay
 steamworks_sessionid_client
 steamworks_sessionid_server
@@ -30548,7 +29827,6 @@ svgstrokelinecap
 svgstrokelinejoin
 svgstrokeopacity
 svgstrokewidth
-switchState
 switch_off
 symbol
 symbols
@@ -30686,8 +29964,6 @@ tf_arena_round_time
 thai
 the actual field type (for enums T should be the generated enum 
 the global scope
-the resulting relationship"
-the resulting relationship")\n'CPlayer_GetCommunityPreferences_Request"
 theta
 thick
 thin
@@ -30725,13 +30001,11 @@ time_all_trusted
 time_dilation_percent
 time_label_%d
 time_saved
-time_subscribed
 timed out
 timedemo
 timeofday %s
 timeofday_thinkinterval
 timer_length
-timestamp_updated
 tint
 tint_color
 tint_controller
@@ -30830,7 +30104,6 @@ tripmine_hack_started
 tripmine_hacked
 true
 true 
-trueBw
 true\n
 trusted
 turn history graph off and on. . good to turn off on low end
@@ -30877,13 +30150,12 @@ type_instances
 typedata
 u axis
 u gq
+u3?New@External@v8@@SA?AV?$Local@VExternal@v8@@@2@PEAVIsolate@2@PEAX@Z
 u64( %lld = 0x%llX )
 u7Ou
 u?Ad
-uGrants an implicit OAuth token (grant type 'token') for the specified client ID on behalf of a user without prompting
 uT5A
 uYLl>
-ugcid
 ui-scale
 ui-scale-x
 ui-scale-y
@@ -30915,7 +30187,6 @@ unichar
 unicode
 unified
 uniform_burst
-unignore
 uninterpreted_option
 union 
 unique_target
@@ -31061,10 +30332,12 @@ vecSave
 vec[] differs (1st diff) (net %g %g %g - pred %g %g %g) delta(%g %g %g)\n
 vector
 vector (%g %g %g)
+vector too long
 vector%d
 vector2d
 vector4d
 vector<T> too long
+vector<bool> too long
 vehicleRole %i\n
 vehicle_driver_eyes
 vehicleview_t
@@ -31072,7 +30345,6 @@ velocity
 velocity_cp
 version
 version number
-version_string
 versions
 versus_stats_highlight_interval
 vertex_count
@@ -31141,7 +30413,6 @@ viewmodel_offset_x
 viewmodel_offset_y
 viewmodel_offset_z
 viewmodelfov
-views
 vignettecolor
 vignetteend
 vignettefalloffexponent
@@ -31195,7 +30466,6 @@ volume_fog_height
 volume_fog_width
 volumematcheseventramp
 vote_create_failed_t
-votes_up
 vpcf
 vpcf1
 vpcf10
@@ -31301,6 +30571,8 @@ vr_debug_actions
 vr_debug_overlay
 vr_debug_panel_manipulation
 vr_debug_velocity
+vr_depth_prepass
+vr_disable_skeletal
 vr_disable_view_override
 vr_door_lighting_debug
 vr_draw_hand
@@ -31708,6 +30980,7 @@ vr_head_invalid_bubble_movement_tweak_percent
 vr_head_invalid_bubble_speed_compensation_max
 vr_head_invalid_bubble_speed_compensation_min
 vr_head_invalid_clip_effect_z_offset
+vr_hidden_pixels_use_depth
 vr_hide_viewmodel
 vr_hmd_brightness_adaptation_rate
 vr_hmd_brightness_debug
@@ -31790,6 +31063,7 @@ vr_palm
 vr_panel_view_focus_max_distance
 vr_peephole_debug
 vr_peephole_debug_duration
+vr_perf_mode_override2
 vr_photo_mode_camera_grab_radius
 vr_photo_mode_camera_offset
 vr_photo_mode_frame_forward_offset
@@ -31894,6 +31168,7 @@ vr_slingshot_max_strength_distance
 vr_spectator_remove_roll
 vr_spectator_remove_roll_halflife
 vr_spectator_roll
+vr_stencil_hidden_pixels
 vr_teleport_action_ladder_continuous_time
 vr_teleport_action_ladder_time
 vr_teleport_action_window_time
@@ -31971,6 +31246,7 @@ vr_teleport_show_navignore_solvers
 vr_teleport_slope_sample_debug
 vr_teleport_slope_sample_distance
 vr_teleport_spamhint
+vr_teleport_suppress_delta_pose
 vr_teleport_unstuck_debug
 vr_teleport_viewsmooth
 vr_teleport_viewsmooth_force_duration
@@ -32119,7 +31395,6 @@ windradius
 wj.7
 wooden
 word
-workshop_accepted
 workshop_file_id
 workshop_item_list
 workshop_status
@@ -32156,7 +31431,7 @@ x360
 xL9-C
 xT?V
 xU<d
-xV4b?fff?
+xV4b?fff?=\ng?
 x\TK
 xb1E
 xdigit
@@ -32176,25 +31451,20 @@ xen_hearing_flower_min_range
 xlook
 xmove
 xpos
-xpxxxx
 xq,9
 xuid
-xwpwpp
 y axis
 y-offset
+y>?SetAccessor@ObjectTemplate@v8@@QEAAXV?$Local@VString@v8@@@2@P6AX0AEBV?$PropertyCallbackInfo@VValue@v8@@@2@@ZP6AX0V?$Local@VValue@v8@@@2@AEBV?$PropertyCallbackInfo@X@2@@Z3W4AccessControl@2@W4PropertyAttribute@2@W4SideEffectType@2@8@Z
 y@4N
 yHcz
 yaw_end
 yaw_start
 yellow
 yellowgreen
-youtube_username
-youtube_videoid
-youtubevideoid
 ypos
 ypwV
 yres
-z 5z
 z axis
 z-index
 z-offset
@@ -32217,11 +31487,11 @@ zpos
 {uyfn?z
 {}[]()=&, \t\n'"*;
 {}[]=, \t\n'":|;
-|(Optional) Get extended details back on the files found. Defaults to only returned the app Id and UGC Id of the files found.
 |5ha
-|B0Y
+|F?ToObject@Value@v8@@QEBA?AV?$MaybeLocal@VObject@v8@@@2@V?$Local@VContext@v8@@@2@@Z
 |a2U
 |aJC
+}3?New@FunctionTemplate@v8@@SA?AV?$Local@VFunctionTemplate@v8@@@2@PEAVIsolate@2@P6AXAEBV?$FunctionCallbackInfo@VValue@v8@@@2@@ZV?$Local@VValue@v8@@@2@V?$Local@VSignature@v8@@@2@HW4ConstructorBehavior@2@W4SideEffectType@2@PEBVCFunction@2@GGG@Z
 }l7f
 }l7f~
 }w+Kt

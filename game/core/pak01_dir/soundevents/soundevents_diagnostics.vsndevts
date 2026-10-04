@@ -1,24 +1,25 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Diagnostic.timed_silence = 
 	{
 		type = "diagnostic.timed_silence"
-		interval = 10.000000
+		interval = 10.0
 	}
 	Diagnostic.start_n_soundevents = 
 	{
 		type = "diagnostic.start_n_soundevents"
-		soundevent_number = 100.000000
+		soundevent_number = 100.0
 	}
 	Diagnostic.simple_beep = 
 	{
 		type = "core_start_simple_oneshot"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/diagnostics/beep.vsnd"
 	}
 	Diagnostic.AAAAA_editTESTER = 
 	{
 		type = "core_start_simple_oneshot"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = "sounds/diagnostics/ambient/random_amb_sfx/forest_bird01.vsnd"
 	}
 	Diagnostic.Bell.Spatial.Center = 
@@ -32,12 +33,7 @@
 	Diagnostic.Bell.Spatial.30FeetY = 
 	{
 		type = "src1_3d"
-		position = 
-		[
-			0.000000,
-			360.000000,
-			64.000000,
-		]
+		position = [ 0.0, 360.0, 64.0 ]
 		vsnd_files = 
 		[
 			"sounds/diagnostics/bell.vsnd",
@@ -46,13 +42,13 @@
 	Diagnostic.timed_beeper = 
 	{
 		type = "diagnostic.timed_beeper"
-		pitch = 1.000000
+		pitch = 1.0
 		vsnd_files = "sounds/diagnostics/beep.vsnd"
 	}
 	Diagnostic.update_test_reference_op = 
 	{
 		type = "core_start_simple_oneshot"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = "sounds/diagnostics/ambient/random_amb_sfx/forest_bird01.vsnd"
 	}
 	Diagnostic.update_test_start_stack_vsnd_rand_oneshot = 
@@ -65,7 +61,7 @@
 	Diagnostic.update_test_start_vsnd_rand_oneshot = 
 	{
 		type = "update_test_start_vsnd_rand_oneshot"
-		delay = 0.000000
+		delay = 0.0
 		vsnd_files = 
 		[
 			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01.vsnd",
@@ -78,9 +74,9 @@
 	Diagnostic.update_test_start_vsnd_rand_oneshot_restart = 
 	{
 		type = "update_test_start_vsnd_rand_oneshot"
-		delay = 0.000000
-		restart_time = 9.000000
-		time_scale = 2.000000
+		delay = 0.0
+		restart_time = 9.0
+		time_scale = 2.0
 		vsnd_files = 
 		[
 			"sounds/diagnostics/beep_headtail_10sec_restart_9sec.vsnd",
@@ -89,7 +85,7 @@
 	Diagnostic.update_test_start_event_vsnd_rand_oneshot = 
 	{
 		type = "update_test_start_event_vsnd_rand_oneshot"
-		delay = 0.000000
+		delay = 0.0
 		vsnd_files = 
 		[
 			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01.vsnd",
@@ -102,7 +98,7 @@
 	Diagnostic.update_test_start_event_vsnd_rand_weighted_oneshot = 
 	{
 		type = "update_test_start_event_vsnd_rand_weighted_oneshot"
-		delay = 0.000000
+		delay = 0.0
 		vsnd_files = 
 		[
 			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01.vsnd",
@@ -113,11 +109,8 @@
 		]
 		weights = 
 		[
-			1.000000,
-			2.000000,
-			3.000000,
-			4.000000,
-			5.000000,
+			1.0, 2.0, 3.0, 4.0,
+			5.0,
 		]
 	}
 	Diagnostic.test_timers = 
@@ -173,41 +166,17 @@
 		type = "update_test_opvar_event_sequence"
 		float_sequence = 
 		[
-			1.000000,
-			2.000000,
-			3.000000,
-			4.000000,
-			5.000000,
-			6.000000,
-			7.000000,
-			8.000000,
-			9.000000,
+			1.0, 2.0, 3.0, 4.0,
+			5.0, 6.0, 7.0, 8.0,
+			9.0,
 		]
 	}
 	Diagnostic.update_test_opvar_event_multi_sequence = 
 	{
 		type = "update_test_opvar_event_multi_sequence"
-		float_sequence1 = 
-		[
-			1.000000,
-			2.000000,
-			3.000000,
-			4.000000,
-		]
-		float_sequence2 = 
-		[
-			21.000000,
-			22.000000,
-			23.000000,
-			24.000000,
-		]
-		float_sequence3 = 
-		[
-			31.000000,
-			32.000000,
-			33.000000,
-			34.000000,
-		]
+		float_sequence1 = [ 1.0, 2.0, 3.0, 4.0 ]
+		float_sequence2 = [ 21.0, 22.0, 23.0, 24.0 ]
+		float_sequence3 = [ 31.0, 32.0, 33.0, 34.0 ]
 	}
 	Diagnostic.update_test_opvar_global_stack_sequence = 
 	{
@@ -222,15 +191,9 @@
 		type = "update_test_array_index_event_sequence"
 		float_sequence = 
 		[
-			1.000000,
-			2.000000,
-			3.000000,
-			4.000000,
-			5.000000,
-			6.000000,
-			7.000000,
-			8.000000,
-			9.000000,
+			1.0, 2.0, 3.0, 4.0,
+			5.0, 6.0, 7.0, 8.0,
+			9.0,
 		]
 	}
 	Diagnostic.update_test_array_index_event_increment = 
@@ -238,21 +201,15 @@
 		type = "update_test_array_index_event_increment"
 		float_sequence = 
 		[
-			1.000000,
-			2.000000,
-			3.000000,
-			4.000000,
-			5.000000,
-			6.000000,
-			7.000000,
-			8.000000,
-			9.000000,
+			1.0, 2.0, 3.0, 4.0,
+			5.0, 6.0, 7.0, 8.0,
+			9.0,
 		]
 	}
 	Diagnostic.update_test_array_index_stack_increment = 
 	{
 		type = "update_test_array_index_stack_increment"
-		float_sequence = 0.000000
+		float_sequence = 0.0
 	}
 	Diagnostic.update_test_utils = 
 	{
@@ -293,9 +250,9 @@
 	Diagnostic.test_soundevent_limiter_lfo = 
 	{
 		type = "test_soundevent_limiter_lfo"
-		max_count = 0.000000
-		match_substring = 1.000000
-		invert_match = 1.000000
+		max_count = 0.0
+		match_substring = 1.0
+		invert_match = 1.0
 	}
 	Diagnostic.test_stop_soundevents_lfo_at_time = 
 	{
@@ -304,19 +261,19 @@
 	Diagnostic.test_soundevent_block = 
 	{
 		type = "test_soundevent_block"
-		duration = 10.000000
-		match_substring = 0.000000
+		duration = 10.0
+		match_substring = 0.0
 		match_event_name = "Diagnostic.test_soundevent_block"
 	}
 	Diagnostic.test_soundevent_start_oneshot = 
 	{
 		type = "test_soundevent_start_oneshot"
-		duration = 5.000000
+		duration = 5.0
 	}
 	Diagnostic.test_soundevent_start_lfo = 
 	{
 		type = "test_soundevent_start_lfo"
-		time = 17.000000
+		time = 17.0
 	}
 	Diagnostic.test_soundevent_start_opvar_get_ancestor = 
 	{
@@ -354,80 +311,68 @@
 	{
 		type = "test_beep_on_track"
 		track = "track_1"
-		priority = 1.000000
-		pitch = 0.950000
+		priority = 1.0
+		pitch = 0.95
 		sync_track = "track_1"
 		sync_field = "public.sync_points"
-		start_point = 
-		[
-			1.000000,
-		]
-		end_point = 
-		[
-			8.000000,
-		]
+		start_point = [ 1.0 ]
+		end_point = [ 8.0 ]
 		sync_points = 
 		[
-			1.000000,
-			2.000000,
-			3.000000,
-			4.000000,
-			5.000000,
-			6.000000,
-			7.000000,
-			8.000000,
+			1.0, 2.0, 3.0, 4.0,
+			5.0, 6.0, 7.0, 8.0,
 		]
 	}
 	Diagnostic.test_beep_on_track_priority_2 = 
 	{
 		type = "test_beep_on_track"
 		track = "track_1"
-		priority = 2.000000
-		pitch = 1.000000
+		priority = 2.0
+		pitch = 1.0
 	}
 	Diagnostic.test_beep_on_track_priority_3 = 
 	{
 		type = "test_beep_on_track"
 		track = "track_1"
-		priority = 3.000000
-		pitch = 1.050000
+		priority = 3.0
+		pitch = 1.05
 	}
 	Diagnostic.test_beep_on_track_priority_1_override = 
 	{
 		type = "test_beep_on_track"
 		track = "track_1"
-		priority = 1.000000
-		priority_override = 1.000000
-		pitch = 1.100000
+		priority = 1.0
+		priority_override = 1.0
+		pitch = 1.1
 	}
 	Diagnostic.test_beep_on_track_priority_1_block_equal = 
 	{
 		type = "test_beep_on_track"
 		track = "track_1"
-		priority = 1.000000
-		block_equal_priority = 1.000000
-		pitch = 1.150000
+		priority = 1.0
+		block_equal_priority = 1.0
+		pitch = 1.15
 	}
 	Diagnostic.test_beep_on_track2_priority_1 = 
 	{
 		type = "test_beep_on_track"
 		track = "track_2"
-		priority = 1.000000
-		pitch = 0.950000
+		priority = 1.0
+		pitch = 0.95
 	}
 	Diagnostic.test_beep_on_track2_priority_2 = 
 	{
 		type = "test_beep_on_track"
 		track = "track_2"
-		priority = 2.000000
-		pitch = 1.000000
+		priority = 2.0
+		pitch = 1.0
 	}
 	Diagnostic.test_vsnd_on_track_priority_1 = 
 	{
 		type = "test_vsnd_on_track"
-		priority = 1.000000
-		block_equal_priority = 1.000000
-		pitch = 1.150000
+		priority = 1.0
+		block_equal_priority = 1.0
+		pitch = 1.15
 		vsnd_files = 
 		[
 			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01.vsnd",
@@ -436,9 +381,9 @@
 	Diagnostic.test_vsnd_on_track_priority_1_sync = 
 	{
 		type = "test_vsnd_on_track"
-		priority = 1.000000
-		block_equal_priority = 1.000000
-		pitch = 1.150000
+		priority = 1.0
+		block_equal_priority = 1.0
+		pitch = 1.15
 		sync_track = "track_1"
 		sync_field = "public.sync_points"
 		track = "default_track"
@@ -450,9 +395,9 @@
 	Diagnostic.test_vsnd_NO_track_priority_1_sync = 
 	{
 		type = "test_vsnd_on_track"
-		priority = 1.000000
-		block_equal_priority = 1.000000
-		pitch = 1.150000
+		priority = 1.0
+		block_equal_priority = 1.0
+		pitch = 1.15
 		sync_track = "track_1"
 		sync_field = "public.sync_points"
 		vsnd_files = 
@@ -465,7 +410,7 @@
 		type = "test_vsnd_on_track"
 		track = "track_1"
 		sync_track = "track_1"
-		priority = 1.000000
+		priority = 1.0
 		vsnd_files = 
 		[
 			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01.vsnd",
@@ -476,7 +421,7 @@
 		type = "test_vsnd_on_track"
 		track = "track_1"
 		sync_track = "track_1"
-		priority = 1.000000
+		priority = 1.0
 		vsnd_files = 
 		[
 			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01.vsnd",
@@ -506,16 +451,16 @@
 	Diagnostic.core_start_simple_oneshot = 
 	{
 		type = "core_start_simple_oneshot"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = "sounds/diagnostics/bell.vsnd"
 	}
 	Diagnostic.core_start_oneshot = 
 	{
 		type = "core_start_oneshot"
-		volume_min = 0.100000
-		volume_max = 1.000000
-		pitch_min = 0.500000
-		pitch_max = 1.500000
+		volume_min = 0.1
+		volume_max = 1.0
+		pitch_min = 0.5
+		pitch_max = 1.5
 		vsnd_files = "sounds/diagnostics/bell.vsnd"
 	}
 	Diagnostic.src1_3d = 
@@ -529,7 +474,7 @@
 	Diagnostic.test_vmix_8track = 
 	{
 		type = "test_vmix_8track"
-		volume = 0.100000
+		volume = 0.1
 		vgraph = "test.mix8"
 		track1 = "t1"
 		track2 = "t2"
@@ -547,7 +492,7 @@
 		vsnd_files6 = "sounds/diagnostics/ambient/thunder/thunder_distant_01.vsnd"
 		vsnd_files7 = "sounds/diagnostics/ambient/random_amb_sfx/forest_bird03.vsnd"
 		vsnd_files8 = "sounds/diagnostics/ambient/random_amb_sfx/forest_bird02.vsnd"
-		volume_test_input = 0.100000
+		volume_test_input = 0.1
 	}
 	Diagnostic.test_vmix_vsnd_info = 
 	{
@@ -566,72 +511,67 @@
 	Diagnostic.BaseTest = 
 	{
 		type = "src1_3d"
-		volume = 0.666000
-		volume_rand_min = 66.000000
-		volume_rand_max = 666.000000
+		volume = 0.666
+		volume_rand_min = 66.0
+		volume_rand_max = 666.0
 	}
 	Diagnostic.BaseTest2 = 
 	{
 		base = "Diagnostic.BaseTest"
-		volume_rand_max = 777.000000
+		volume_rand_max = 777.0
 	}
 	Diagnostic.BaseTestNest1 = 
 	{
 		base = "Diagnostic.BaseTest"
-		volume = 111.000000
-		volume_rand_min = 111.000000
-		volume_rand_max = 111.000000
+		volume = 111.0
+		volume_rand_min = 111.0
+		volume_rand_max = 111.0
 	}
 	Diagnostic.BaseTestNest2 = 
 	{
 		base = "Diagnostic.BaseTestNest1"
-		volume_rand_min = 222.000000
-		volume_rand_max = 222.000000
+		volume_rand_min = 222.0
+		volume_rand_max = 222.0
 	}
 	Diagnostic.BaseTestNest3 = 
 	{
 		base = "Diagnostic.BaseTestNest2"
-		volume_rand_max = 333.000000
+		volume_rand_max = 333.0
 	}
 	Diagnostic.BaseTestNest4 = 
 	{
 		base = "Diagnostic.BaseTestNest3"
-		volume_rand_min = 444.000000
-		volume_rand_max = 444.000000
+		volume_rand_min = 444.0
+		volume_rand_max = 444.0
 	}
 	Diagnostic.InverseVec3Test = 
 	{
 		type = "test_inverse_vec3"
-		position = 
-		[
-			0.000000,
-			0.000000,
-			0.000000,
-		]
+		position = [ 0.0, 0.0, 0.0 ]
 	}
 	Diagnostic.TestSoundEventGroups1 = 
 	{
 		type = "test_soundevent_groups"
-		event_type = 555.000000
-		entity_index = 777.000000
+		event_type = 555.0
+		entity_index = 777.0
 	}
 	Diagnostic.TestSoundEventGroups2 = 
 	{
 		type = "test_soundevent_groups"
-		event_type = 666.000000
-		entity_index = 888.000000
+		event_type = 666.0
+		entity_index = 888.0
 	}
 	Diagnostic.TestSoundEventGroups3 = 
 	{
 		type = "test_soundevent_groups"
-		event_type = 555.000000
-		entity_index = 888.000000
+		event_type = 555.0
+		entity_index = 888.0
 	}
 	Diagnostic.TestSoundEventGroups4 = 
 	{
 		type = "test_soundevent_groups"
-		event_type = 666.000000
-		entity_index = 777.000000
+		event_type = 666.0
+		entity_index = 777.0
 	}
 	Diagnostic.TestSoundEventGroupStop = 
 	{
@@ -664,7 +604,7 @@
 	Diagnostic.TestSubNameInvert = 
 	{
 		type = "test_groups_subname_invert"
-		invert = 1.000000
+		invert = 1.0
 	}
 	Diagnostic.TestNoName = 
 	{
@@ -673,51 +613,51 @@
 	Diagnostic.TestNoNameInvert = 
 	{
 		type = "test_groups_subname_invert"
-		invert = 1.000000
+		invert = 1.0
 	}
 	Diagnostic.TestEntityMatch = 
 	{
 		type = "test_groups_entindex_invert"
-		entity_index = 777.000000
+		entity_index = 777.0
 	}
 	Diagnostic.TestEntityMatchInvert = 
 	{
 		type = "test_groups_entindex_invert"
-		entity_index = 777.000000
-		invert = 1.000000
+		entity_index = 777.0
+		invert = 1.0
 	}
 	Diagnostic.TestEntityNoMatch = 
 	{
 		type = "test_groups_entindex_invert"
-		entity_index = 888.000000
+		entity_index = 888.0
 	}
 	Diagnostic.TestEntityNoMatchInvert = 
 	{
 		type = "test_groups_entindex_invert"
-		entity_index = 888.000000
-		invert = 1.000000
+		entity_index = 888.0
+		invert = 1.0
 	}
 	Diagnostic.TestOpvarMatch = 
 	{
 		type = "test_groups_opvar_invert"
-		opvar = 666.000000
+		opvar = 666.0
 	}
 	Diagnostic.TestOpvarMatchInvert = 
 	{
 		type = "test_groups_opvar_invert"
-		opvar = 666.000000
-		invert = 1.000000
+		opvar = 666.0
+		invert = 1.0
 	}
 	Diagnostic.TestOpvarNoMatch = 
 	{
 		type = "test_groups_opvar_invert"
-		opvar = 777.000000
+		opvar = 777.0
 	}
 	Diagnostic.TestOpvarNoMatchInvert = 
 	{
 		type = "test_groups_opvar_invert"
-		opvar = 888.000000
-		invert = 1.000000
+		opvar = 888.0
+		invert = 1.0
 	}
 	Diagnostic.TestSoundEventGroupSimple = 
 	{
@@ -740,7 +680,7 @@
 	Diagnostic.TestLFO = 
 	{
 		type = "test_LFO"
-		frequency = 10.000000
+		frequency = 10.0
 	}
 	Diagnostic.TestToneLP = 
 	{
@@ -750,44 +690,24 @@
 	Diagnostic.TestCurve2d = 
 	{
 		type = "Diagnostic.TestCurve2d"
-		input = 0.250000
+		input = 0.25
 		curve = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.666138,
-				0.666138,
-				1.000000,
-				1.000000,
+				0.0, 0.0, 0.666138, 0.666138,
+				1.0, 1.0,
 			],
-			
 			[
-				0.371429,
-				0.247423,
-				1.476951,
-				1.476951,
-				1.000000,
-				1.000000,
+				0.371429, 0.247423, 1.476951, 1.476951,
+				1.0, 1.0,
 			],
-			
 			[
-				0.551429,
-				0.814433,
-				1.197282,
-				1.197282,
-				1.000000,
-				1.000000,
+				0.551429, 0.814433, 1.197282, 1.197282,
+				1.0, 1.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.413684,
-				0.413684,
-				1.000000,
-				1.000000,
+				1.0, 1.0, 0.413684, 0.413684,
+				1.0, 1.0,
 			],
 		]
 	}

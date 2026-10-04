@@ -31,7 +31,7 @@
 .CRT$XTZ
 .bss
 .data
-.data$r
+.data$rs
 .edata
 .idata$2
 .idata$3
@@ -42,6 +42,7 @@
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .text$di
 .text$mn
@@ -175,7 +176,7 @@ PostProcessingSystem_001
 PropertyEditorSystem_001
 QueryPerformanceCounter
 QueuedLoaderVersion001
-RSDS
+RSDSMW
 Release
 ReleaseSRWLockExclusive
 RenderDevice003
@@ -268,6 +269,7 @@ Warning:  %s = '%s' is infinite, clamping value.\n
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
+YUY2
 _V_SetExtension
 c:\buildslave\hlvr_rel_win64\build\src\interfaces\interfaces.cpp
 c:\buildslave\hlvr_rel_win64\build\src\public\ordered_constructor.h
@@ -303,7 +305,6 @@ pVideoTypeOut->SetUINT32( MF_MT_INTERLACE_MODE, MFVideoInterlace_Progressive )
 pVideoTypeOut->SetUINT32( MF_MT_MPEG2_PROFILE, eAVEncH264VProfile_Main )
 purecall
 qH264
-qYUY2
 qvids
 tier0.dll
 valve_wmf

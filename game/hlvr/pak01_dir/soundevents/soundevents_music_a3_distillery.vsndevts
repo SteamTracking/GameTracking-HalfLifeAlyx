@@ -1,63 +1,39 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	music.a3_distillery.bz_xen_intro = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
+		volume = 0.7
 		track = "main"
 		priority = 0
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				10.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				10.0, 0.7, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				20.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				20.0, 1.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				30.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				30.0, 0.7, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				45,
-				0.400000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				45, 0.4, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				60,
-				0.700000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				60, 0.7, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 30
 		volume_fade_over_time_loop_end = 50
 		volume_fade_in = 4
-		volume_fade_out = 7.000000
-		restart_time = 73.846000
+		volume_fade_out = 7.0
+		restart_time = 73.846
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_xen_intro.vsnd",
@@ -66,15 +42,15 @@
 	music.a3_distillery.puffer1 = 
 	{
 		type = "hlvr_music_3d"
-		volume = 1.100000
+		volume = 1.1
 		volume_falloff_min = 100
 		volume_falloff_max = 200
-		occlusion_scale = 0.500000
+		occlusion_scale = 0.5
 		spread_min = 12
 		spread_max = 12
 		enable_debug_radius = 0
-		volume_fade_out = 7.000000
-		restart_time = 19.384000
+		volume_fade_out = 7.0
+		restart_time = 19.384
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_puffer1.vsnd",
@@ -83,15 +59,15 @@
 	music.a3_distillery.puffer2_1 = 
 	{
 		type = "hlvr_music_3d"
-		volume = 1.100000
+		volume = 1.1
 		volume_falloff_min = 100
 		volume_falloff_max = 200
-		occlusion_scale = 0.500000
+		occlusion_scale = 0.5
 		spread_min = 12
 		spread_max = 12
 		enable_debug_radius = 0
-		volume_fade_out = 7.000000
-		restart_time = 19.384000
+		volume_fade_out = 7.0
+		restart_time = 19.384
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_puffer1.vsnd",
@@ -100,15 +76,15 @@
 	music.a3_distillery.puffer2_2 = 
 	{
 		type = "hlvr_music_3d"
-		volume = 1.100000
+		volume = 1.1
 		volume_falloff_min = 100
 		volume_falloff_max = 200
-		occlusion_scale = 0.500000
+		occlusion_scale = 0.5
 		spread_min = 12
 		spread_max = 12
 		enable_debug_radius = 0
-		volume_fade_out = 7.000000
-		restart_time = 19.384000
+		volume_fade_out = 7.0
+		restart_time = 19.384
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_puffer1.vsnd",
@@ -117,15 +93,15 @@
 	music.a3_distillery.puffer3 = 
 	{
 		type = "hlvr_music_3d"
-		volume = 1.100000
+		volume = 1.1
 		volume_falloff_min = 100
 		volume_falloff_max = 200
-		occlusion_scale = 0.500000
+		occlusion_scale = 0.5
 		spread_min = 12
 		spread_max = 12
 		enable_debug_radius = 0
-		volume_fade_out = 7.000000
-		restart_time = 19.384000
+		volume_fade_out = 7.0
+		restart_time = 19.384
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_puffer1.vsnd",
@@ -134,15 +110,15 @@
 	music.a3_distillery.puffer4 = 
 	{
 		type = "hlvr_music_3d"
-		volume = 1.100000
+		volume = 1.1
 		volume_falloff_min = 100
 		volume_falloff_max = 200
-		occlusion_scale = 0.500000
+		occlusion_scale = 0.5
 		spread_min = 12
 		spread_max = 12
 		enable_debug_radius = 0
-		volume_fade_out = 7.000000
-		restart_time = 19.384000
+		volume_fade_out = 7.0
+		restart_time = 19.384
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_puffer1.vsnd",
@@ -151,15 +127,15 @@
 	music.a3_distillery.puffer5 = 
 	{
 		type = "hlvr_music_3d"
-		volume = 1.100000
+		volume = 1.1
 		volume_falloff_min = 100
 		volume_falloff_max = 200
-		occlusion_scale = 0.500000
+		occlusion_scale = 0.5
 		spread_min = 12
 		spread_max = 12
 		enable_debug_radius = 0
-		volume_fade_out = 7.000000
-		restart_time = 19.384000
+		volume_fade_out = 7.0
+		restart_time = 19.384
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_puffer1.vsnd",
@@ -168,15 +144,15 @@
 	music.a3_distillery.puffer6 = 
 	{
 		type = "hlvr_music_3d"
-		volume = 1.100000
+		volume = 1.1
 		volume_falloff_min = 100
 		volume_falloff_max = 200
-		occlusion_scale = 0.500000
+		occlusion_scale = 0.5
 		spread_min = 12
 		spread_max = 12
 		enable_debug_radius = 0
-		volume_fade_out = 7.000000
-		restart_time = 19.384000
+		volume_fade_out = 7.0
+		restart_time = 19.384
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_puffer1.vsnd",
@@ -191,7 +167,7 @@
 		volume_fade_in = 5
 		delay = -14
 		volume_fade_out = 5
-		restart_time = 84.210000
+		restart_time = 84.21
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/a3_distillery_vault1.vsnd",
@@ -205,7 +181,7 @@
 		volume_fade_in = 5
 		delay = -14
 		volume_fade_out = 5
-		restart_time = 84.210000
+		restart_time = 84.21
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/a3_distillery_vault1.vsnd",
@@ -214,33 +190,23 @@
 	music.a3_distillery.bz_xen = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.300000
+		volume = 0.3
 		track = "main"
 		presence_adjust = 1
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				0.700000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 0.7, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				10.000000,
-				0.400000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				10.0, 0.4, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		volume_fade_in = 4
-		volume_fade_out = 7.000000
-		restart_time = 73.846000
+		volume_fade_out = 7.0
+		restart_time = 73.846
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_xen_intro.vsnd",
@@ -249,51 +215,31 @@
 	music.a3_distillery.bz_intro = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.900000
+		volume = 0.9
 		track = "main"
 		priority = 2
-		presence_adjust = 1.000000
+		presence_adjust = 1.0
 		presence_map_curve = 
 		[
-			
 			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 0.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				0.500000,
-				0.600000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				0.5, 0.6, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				0.700000,
-				0.800000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				0.7, 0.8, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				1.0, 1.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
-		volume_fade_out = 7.000000
-		restart_time = 147.692000
+		volume_fade_out = 7.0
+		restart_time = 147.692
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_bz_intro.vsnd",
@@ -302,56 +248,36 @@
 	music.a3_distillery.bz_xen_cave = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
+		volume = 0.7
 		track = "main"
 		priority = 3
-		start_point = 0.000000
-		end_point = 73.846000
+		start_point = 0.0
+		end_point = 73.846
 		sync_bpm = 65
-		sync_bpm_beats = 1.000000
+		sync_bpm_beats = 1.0
 		presence_adjust = 1
 		presence_map_curve = 
 		[
-			
 			[
-				0.000000,
-				0.350000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 0.35, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				0.500000,
-				0.600000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				0.5, 0.6, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				0.700000,
-				0.800000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				0.7, 0.8, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				1.0, 1.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
-		presence_adjust_velocity = 0.300000
-		volume_fade_out = 4.000000
-		restart_time = 73.846000
+		presence_adjust_velocity = 0.3
+		volume_fade_out = 4.0
+		restart_time = 73.846
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_xen_cave.vsnd",
@@ -360,57 +286,37 @@
 	music.a3_distillery.bz_xen_cave2 = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
+		volume = 0.7
 		track = "main"
 		sync_track = "main"
 		priority = 4
-		start_point = 0.000000
-		end_point = 73.846000
+		start_point = 0.0
+		end_point = 73.846
 		sync_bpm = 65
-		sync_bpm_beats = 1.000000
+		sync_bpm_beats = 1.0
 		presence_adjust = 1
 		presence_map_curve = 
 		[
-			
 			[
-				0.000000,
-				0.350000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				0.0, 0.35, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				0.500000,
-				0.600000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				0.5, 0.6, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				0.700000,
-				0.800000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				0.7, 0.8, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				1.0, 1.0, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
-		presence_adjust_velocity = 0.300000
-		volume_fade_out = 7.000000
-		restart_time = 73.846000
+		presence_adjust_velocity = 0.3
+		volume_fade_out = 7.0
+		restart_time = 73.846
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_xen_cave2.vsnd",
@@ -419,49 +325,34 @@
 	music.a3_distillery.bz_xen_cave_end = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.400000
+		volume = 0.4
 		track = "main"
 		priority = 5
 		sync_track = "main"
-		start_point = 0.000000
-		end_point = 73.846000
+		start_point = 0.0
+		end_point = 73.846
 		sync_bpm = 65
-		sync_bpm_beats = 1.000000
+		sync_bpm_beats = 1.0
 		presence_adjust = 1
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				5.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				5.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				15.000000,
-				0.650000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				15.0, 0.65, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				25.000000,
-				0.450000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				25.0, 0.45, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 15
 		volume_fade_over_time_loop_end = 25
-		volume_fade_out = 7.000000
-		restart_time = 73.846000
+		volume_fade_out = 7.0
+		restart_time = 73.846
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_xen_cave_end.vsnd",
@@ -475,66 +366,36 @@
 		priority = 6
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				10.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				10.0, 1.0, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				20.000000,
-				0.800000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				20.0, 0.8, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				27.000000,
-				0.800000,
-				0.000000,
-				0.000000,
-				1.000000,
-				1.000000,
+				27.0, 0.8, 0.0, 0.0,
+				1.0, 1.0,
 			],
-			
 			[
-				40.000000,
-				0.650000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				40.0, 0.65, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				55.000000,
-				0.450000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				55.0, 0.45, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				70.000000,
-				0.650000,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				70.0, 0.65, 0.0, 0.0,
+				0.0, 3.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 40
 		volume_fade_over_time_loop_end = 70
-		volume_fade_out = 7.000000
-		restart_time = 88.292000
-		restart_start = 25.853000
+		volume_fade_out = 7.0
+		restart_time = 88.292
+		restart_start = 25.853
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_bz_hello.vsnd",
@@ -543,11 +404,11 @@
 	music.a3_distillery.bz_hello_end = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
+		volume = 0.7
 		track = "main"
 		priority = 7
 		stop_at_time = 6
-		volume_fade_out = 7.000000
+		volume_fade_out = 7.0
 		restart_time = 140.300003
 		vsnd_files = 
 		[
@@ -557,60 +418,35 @@
 	music.a3_distillery.bz_walkin = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
+		volume = 0.7
 		track = "main"
 		priority = 8
 		stop_at_time = 180
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				15.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				15.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				30.000000,
-				0.850000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				30.0, 0.85, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				160.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				160.0, 0.5, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				180.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				180.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
-		volume_fade_out = 7.000000
-		restart_time = 147.692000
+		volume_fade_out = 7.0
+		restart_time = 147.692
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_bz_intro2.vsnd",
@@ -619,61 +455,36 @@
 	music.a3_distillery.bz_lights_out = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.650000
+		volume = 0.65
 		track = "main"
 		priority = 9
 		volume_fade_in = 2
 		stop_at_time = 180
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				10.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				10.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				25.000000,
-				0.850000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				25.0, 0.85, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				160.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				160.0, 0.5, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				180.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				180.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
-		volume_fade_out = 7.000000
-		restart_time = 147.692000
+		volume_fade_out = 7.0
+		restart_time = 147.692
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_bz_dark.vsnd",
@@ -687,58 +498,33 @@
 		priority = 10
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				3.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				3.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				25.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				25.0, 0.5, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				45.000000,
-				0.350000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				45.0, 0.35, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				65.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				65.0, 0.5, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 25
 		volume_fade_over_time_loop_end = 65
-		restart_time = 86.829000
-		restart_start = 24.390000
+		restart_time = 86.829
+		restart_start = 24.39
 		stop_at_time = 120
-		volume_fade_out = 7.000000
+		volume_fade_out = 7.0
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_bz_freezer_escape.vsnd",
@@ -747,51 +533,31 @@
 	a3_distillery.elevator_start = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
+		volume = 0.7
 		track = "main"
-		priority = 10.500000
+		priority = 10.5
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				15.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				15.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				30.000000,
-				0.850000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				30.0, 0.85, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				60.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				60.0, 0.5, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
-		volume_fade_out = 7.000000
-		restart_time = 147.692000
-		restart_start = 36.164000
+		volume_fade_out = 7.0
+		restart_time = 147.692
+		restart_start = 36.164
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_elevator_on.vsnd",
@@ -800,11 +566,11 @@
 	a3_distillery.elevator_open = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.900000
+		volume = 0.9
 		track = "main"
 		priority = 11
-		volume_fade_out = 1.700000
-		restart_time = 55.670000
+		volume_fade_out = 1.7
+		restart_time = 55.67
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_elevator_open.vsnd",
@@ -813,7 +579,7 @@
 	a3_distillery.elevator_button_start = 
 	{
 		type = "hlvr_music_2d"
-		volume = 1.100000
+		volume = 1.1
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_elevator_start.vsnd",
@@ -825,12 +591,12 @@
 		track = "main"
 		priority = 12
 		volume = 1
-		volume_falloff_min = 10.000000
-		volume_falloff_max = 300.000000
+		volume_falloff_min = 10.0
+		volume_falloff_max = 300.0
 		spread_min = 10
 		spread_max = 15
-		volume_falloff_floor = 1.000000
-		volume_fade_in = 0.000000
+		volume_falloff_floor = 1.0
+		volume_fade_in = 0.0
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_elevator_radio.vsnd",
@@ -839,7 +605,7 @@
 	a3_distillery.elevator_arrive = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = 
 		[
 			"sounds/common/null.vsnd",
@@ -848,41 +614,26 @@
 	music.a3_distillery.plug_intro = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
+		volume = 0.7
 		track = "main"
 		priority = 0
 		stop_at_time = 20
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				10.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				10.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				20.000000,
-				0.150000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				20.0, 0.15, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
-		volume_fade_out = 7.000000
+		volume_fade_out = 7.0
 		restart_time = 140.300003
 		vsnd_files = 
 		[
@@ -898,35 +649,20 @@
 		stop_at_time = 60
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				15.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				15.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				30.000000,
-				0.450000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				30.0, 0.45, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
-		volume_fade_out = 7.000000
+		volume_fade_out = 7.0
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_bz_intro2.vsnd",
@@ -935,13 +671,13 @@
 	music.a3_distillery.bz_xen_passage = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.450000
+		volume = 0.45
 		track = "main"
 		priority = 15
 		presence_adjust = 1
-		presence_adjust_velocity = 0.300000
-		volume_fade_out = 7.000000
-		restart_time = 73.846000
+		presence_adjust_velocity = 0.3
+		volume_fade_out = 7.0
+		restart_time = 73.846
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_xen_cave.vsnd",
@@ -950,41 +686,26 @@
 	music.a3_distillery.plug_vault = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
+		volume = 0.7
 		track = "main"
 		priority = 0
 		stop_at_time = 30
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				15.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				15.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				30.000000,
-				0.150000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				30.0, 0.15, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
-		volume_fade_out = 7.000000
+		volume_fade_out = 7.0
 		restart_time = 140.300003
 		vsnd_files = 
 		[
@@ -994,60 +715,35 @@
 	music.a3_distillery.pit = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.700000
+		volume = 0.7
 		track = "main"
 		priority = 0
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				15.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				15.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				30.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				30.0, 0.5, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				60.000000,
-				0.650000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				60.0, 0.65, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				90.000000,
-				0.500000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				90.0, 0.5, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
 		volume_fade_over_time_loop_start = 30
 		volume_fade_over_time_loop_end = 90
-		volume_fade_out = 7.000000
+		volume_fade_out = 7.0
 		restart_time = 140.300003
 		vsnd_files = 
 		[
@@ -1057,15 +753,15 @@
 	music.a3_distillery.pitpuffer1 = 
 	{
 		type = "hlvr_music_3d"
-		volume = 1.100000
+		volume = 1.1
 		volume_falloff_min = 100
 		volume_falloff_max = 200
-		occlusion_scale = 0.500000
+		occlusion_scale = 0.5
 		spread_min = 12
 		spread_max = 12
 		enable_debug_radius = 0
-		volume_fade_out = 7.000000
-		restart_time = 19.384000
+		volume_fade_out = 7.0
+		restart_time = 19.384
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_puffer1.vsnd",
@@ -1074,15 +770,15 @@
 	music.a3_distillery.pitpuffer2 = 
 	{
 		type = "hlvr_music_3d"
-		volume = 1.100000
+		volume = 1.1
 		volume_falloff_min = 100
 		volume_falloff_max = 200
-		occlusion_scale = 0.500000
+		occlusion_scale = 0.5
 		spread_min = 12
 		spread_max = 12
 		enable_debug_radius = 0
-		volume_fade_out = 7.000000
-		restart_time = 19.384000
+		volume_fade_out = 7.0
+		restart_time = 19.384
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_puffer1.vsnd",
@@ -1091,15 +787,15 @@
 	music.a3_distillery.pitpuffer3 = 
 	{
 		type = "hlvr_music_3d"
-		volume = 1.100000
+		volume = 1.1
 		volume_falloff_min = 100
 		volume_falloff_max = 200
-		occlusion_scale = 0.500000
+		occlusion_scale = 0.5
 		spread_min = 12
 		spread_max = 12
 		enable_debug_radius = 0
-		volume_fade_out = 7.000000
-		restart_time = 19.384000
+		volume_fade_out = 7.0
+		restart_time = 19.384
 		vsnd_files = 
 		[
 			"sounds/music/places/distillery/distillery_puffer1.vsnd",
@@ -1108,11 +804,11 @@
 	music.a3_distillery.bz_trapped = 
 	{
 		type = "hlvr_music_3d"
-		volume = 0.400000
+		volume = 0.4
 		track = "trapped"
-		volume_falloff_min = 10.000000
-		volume_falloff_max = 500.000000
-		occlusion_scale = 0.700000
+		volume_falloff_min = 10.0
+		volume_falloff_max = 500.0
+		occlusion_scale = 0.7
 		spread_min = 10
 		spread_max = 15
 		vsnd_files = 
@@ -1123,10 +819,10 @@
 	music.a3_distillery.bz_compactor = 
 	{
 		type = "hlvr_music_3d"
-		volume = 1.600000
+		volume = 1.6
 		track = "trapped"
-		volume_falloff_min = 10.000000
-		volume_falloff_max = 700.000000
+		volume_falloff_min = 10.0
+		volume_falloff_max = 700.0
 		spread_min = 10
 		spread_max = 15
 		vsnd_files = 
@@ -1137,49 +833,29 @@
 	music.a3_distillery.bz_plug_open = 
 	{
 		type = "hlvr_music_2d"
-		volume = 0.600000
+		volume = 0.6
 		track = "main"
 		volume_fade_over_time_curve = 
 		[
-			
 			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				0.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				12.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				12.0, 1.0, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				19.000000,
-				0.550000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				19.0, 0.55, 0.0, 0.0,
+				0.0, 0.0,
 			],
-			
 			[
-				40.000000,
-				0.450000,
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
+				40.0, 0.45, 0.0, 0.0,
+				0.0, 0.0,
 			],
 		]
-		volume_fade_out = 7.000000
-		restart_time = 40.800000
+		volume_fade_out = 7.0
+		restart_time = 40.8
 		restart_start = 12
 		vsnd_files = 
 		[

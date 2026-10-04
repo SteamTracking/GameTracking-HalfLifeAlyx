@@ -11,13 +11,13 @@
  delete
  delete[]
  new
- throw(
+ noexcept
  volatile
 "-Infinity"
 "Infinity"
-"NULL"
 "NaN"
 "e?<<<<<<l?
+"nullptr"
 $Ib?s
 %.0Lf
 %H : %M : %S
@@ -27,12 +27,13 @@ $Ib?s
 %m / %d / %y
 &?PPPPPPP?
 &Sgw
-( 8PX
-('8PW
 (null)
 )yIx
 *StO9>T
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
+,"bind_id":"0x
+,"flow_in":true
+,"flow_out":true
 ,<ellipsis>
 ,HR>O
 -BH>t
@@ -42,9 +43,21 @@ $Ib?s
 .?AUmessages_base@std@@
 .?AUmoney_base@std@@
 .?AUtime_base@std@@
+.?AV?$_Iosb@H@std@@
 .?AV?$_Mpunct@D@std@@
 .?AV?$_Mpunct@G@std@@
 .?AV?$_Mpunct@_W@std@@
+.?AV?$_Ref_count_obj2@VDefaultForegroundTaskRunner@platform@v8@@@std@@
+.?AV?$_Ref_count_obj2@VDefaultJobState@platform@v8@@@std@@
+.?AV?$_Ref_count_obj2@VDefaultWorkerThreadsTaskRunner@platform@v8@@@std@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
 .?AV?$codecvt@DDU_Mbstatet@@@std@@
 .?AV?$codecvt@GDU_Mbstatet@@@std@@
 .?AV?$codecvt@_WDU_Mbstatet@@@std@@
@@ -54,6 +67,7 @@ $Ib?s
 .?AV?$ctype@D@std@@
 .?AV?$ctype@G@std@@
 .?AV?$ctype@_W@std@@
+.?AV?$enable_shared_from_this@VDefaultJobState@platform@v8@@@std@@
 .?AV?$messages@D@std@@
 .?AV?$messages@G@std@@
 .?AV?$messages@_W@std@@
@@ -86,18 +100,56 @@ $Ib?s
 .?AV?$time_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
 .?AVDNameNode@@
 .?AVDNameStatusNode@@
+.?AVDefaultForegroundTaskRunner@platform@v8@@
+.?AVDefaultJobHandle@platform@v8@@
+.?AVDefaultJobState@platform@v8@@
+.?AVDefaultJobWorker@platform@v8@@
+.?AVDefaultPlatform@platform@v8@@
+.?AVDefaultThreadIsolatedAllocator@platform@v8@@
+.?AVDefaultWorkerThreadsTaskRunner@platform@v8@@
+.?AVHighAllocationThroughputObserver@v8@@
+.?AVJSONTraceWriter@tracing@platform@v8@@
+.?AVJobDelegate@DefaultJobState@platform@v8@@
+.?AVJobDelegate@v8@@
+.?AVJobHandle@v8@@
+.?AVPageAllocator@base@v8@@
+.?AVPageAllocator@v8@@
+.?AVPlatform@v8@@
+.?AVSystemInstrumentationTraceWriter@tracing@platform@v8@@
+.?AVTask@v8@@
+.?AVTaskRunner@v8@@
+.?AVThread@base@v8@@
+.?AVThreadIsolatedAllocator@v8@@
+.?AVTraceBuffer@tracing@platform@v8@@
+.?AVTraceBufferRingBuffer@tracing@platform@v8@@
+.?AVTraceWriter@tracing@platform@v8@@
+.?AVTracingController@tracing@platform@v8@@
+.?AVTracingController@v8@@
+.?AVWorkerThread@DefaultWorkerThreadsTaskRunner@platform@v8@@
+.?AVWorkerThread@platform@v8@@
+.?AVZoneBackingAllocator@v8@@
 .?AV_Facet_base@std@@
+.?AV_Iostream_error_category2@std@@
 .?AV_Locimp@locale@std@@
+.?AV_Ref_count_base@std@@
+.?AV_System_error@std@@
 .?AVbad_alloc@std@@
+.?AVbad_alloc@stdext@@
 .?AVbad_array_new_length@std@@
+.?AVbad_array_new_length@stdext@@
 .?AVbad_cast@std@@
 .?AVbad_exception@std@@
 .?AVbad_function_call@std@@
+.?AVbad_weak_ptr@std@@
 .?AVcharNode@@
 .?AVcodecvt_base@std@@
+.?AVerror_category@std@@
 .?AVexception@std@@
+.?AVexception@stdext@@
 .?AVfacet@locale@std@@
+.?AVfailure@ios_base@std@@
 .?AVinvalid_argument@std@@
+.?AVios_base@std@@
 .?AVlength_error@std@@
 .?AVlogic_error@std@@
 .?AVout_of_range@std@@
@@ -107,6 +159,7 @@ $Ib?s
 .?AVpcharNode@@
 .?AVregex_error@std@@
 .?AVruntime_error@std@@
+.?AVsystem_error@std@@
 .?AVtype_info@@
 .xJ>Hf
 /2GG>!B
@@ -123,8 +176,6 @@ $Ib?s
 1#QNAN
 1#SNAN
 11Y@
-2\n0pY
-2\vppY
 3 FB
 37>k
 3>N;kU
@@ -133,8 +184,6 @@ $Ib?s
 51>W
 6NK>
 6\fXO>\ntA
-700PP
-700WP
 7>I0
 7?GX
 7~xh
@@ -156,7 +205,17 @@ $Ib?s
 ?7zQ6$
 ?7{KV\nU
 ?8bunz8
-??0DefaultPlatform@platform@v8@@QEAA@XZ
+??0?$enable_shared_from_this@VDefaultJobState@platform@v8@@@std@@IEAA@AEBV01@@Z
+??0?$enable_shared_from_this@VDefaultJobState@platform@v8@@@std@@IEAA@XZ
+??0DefaultForegroundTaskRunner@platform@v8@@QEAA@W4IdleTaskSupport@12@P6ANXZ@Z
+??0DefaultJobHandle@platform@v8@@QEAA@V?$shared_ptr@VDefaultJobState@platform@v8@@@std@@@Z
+??0DefaultJobState@platform@v8@@QEAA@PEAVPlatform@2@V?$unique_ptr@VJobTask@v8@@U?$default_delete@VJobTask@v8@@@std@@@std@@W4TaskPriority@2@_K@Z
+??0DefaultPlatform@platform@v8@@QEAA@HW4IdleTaskSupport@12@V?$unique_ptr@VTracingController@v8@@U?$default_delete@VTracingController@v8@@@std@@@std@@W4PriorityMode@12@@Z
+??0DefaultThreadIsolatedAllocator@platform@v8@@QEAA@AEBV012@@Z
+??0DefaultThreadIsolatedAllocator@platform@v8@@QEAA@XZ
+??0DefaultWorkerThreadsTaskRunner@platform@v8@@QEAA@IP6ANXZW4Priority@Thread@base@2@@Z
+??0DelayedTaskQueue@platform@v8@@QEAA@P6ANXZ@Z
+??0Recorder@tracing@platform@v8@@QEAA@XZ
 ??0TaskQueue@platform@v8@@QEAA@XZ
 ??0TraceBuffer@tracing@platform@v8@@QEAA@XZ
 ??0TraceBufferChunk@tracing@platform@v8@@QEAA@I@Z
@@ -165,82 +224,162 @@ $Ib?s
 ??0TraceWriter@tracing@platform@v8@@QEAA@XZ
 ??0TracingController@tracing@platform@v8@@QEAA@XZ
 ??0WorkerThread@platform@v8@@QEAA@PEAVTaskQueue@12@@Z
+??1?$enable_shared_from_this@VDefaultJobState@platform@v8@@@std@@IEAA@XZ
+??1DefaultForegroundTaskRunner@platform@v8@@UEAA@XZ
+??1DefaultJobHandle@platform@v8@@UEAA@XZ
+??1DefaultJobState@platform@v8@@UEAA@XZ
 ??1DefaultPlatform@platform@v8@@UEAA@XZ
+??1DefaultThreadIsolatedAllocator@platform@v8@@UEAA@XZ
+??1DefaultWorkerThreadsTaskRunner@platform@v8@@UEAA@XZ
+??1DelayedTaskQueue@platform@v8@@QEAA@XZ
+??1Recorder@tracing@platform@v8@@QEAA@XZ
 ??1TaskQueue@platform@v8@@QEAA@XZ
 ??1TraceBuffer@tracing@platform@v8@@UEAA@XZ
 ??1TraceBufferChunk@tracing@platform@v8@@QEAA@XZ
 ??1TraceConfig@tracing@platform@v8@@QEAA@XZ
 ??1TraceObject@tracing@platform@v8@@QEAA@XZ
 ??1TraceWriter@tracing@platform@v8@@UEAA@XZ
-??1TracingController@tracing@platform@v8@@QEAA@XZ
+??1TracingController@tracing@platform@v8@@UEAA@XZ
 ??1WorkerThread@platform@v8@@UEAA@XZ
+??4?$enable_shared_from_this@VDefaultJobState@platform@v8@@@std@@IEAAAEAV01@AEBV01@@Z
+??4DefaultThreadIsolatedAllocator@platform@v8@@QEAAAEAV012@AEBV012@@Z
+??4Recorder@tracing@platform@v8@@QEAAAEAV0123@AEBV0123@@Z
+??_7DefaultForegroundTaskRunner@platform@v8@@6B@
+??_7DefaultJobHandle@platform@v8@@6B@
+??_7DefaultJobState@platform@v8@@6B@
 ??_7DefaultPlatform@platform@v8@@6B@
+??_7DefaultThreadIsolatedAllocator@platform@v8@@6B@
+??_7DefaultWorkerThreadsTaskRunner@platform@v8@@6B@
 ??_7TraceBuffer@tracing@platform@v8@@6B@
 ??_7TraceWriter@tracing@platform@v8@@6B@
+??_7TracingController@tracing@platform@v8@@6B@
 ??_7WorkerThread@platform@v8@@6B@
+??_FDefaultPlatform@platform@v8@@QEAAXXZ
 ?@En[vP
+?AcquireTaskId@DefaultJobState@platform@v8@@QEAAEXZ
+?AddEvent@Recorder@tracing@platform@v8@@QEAAXPEAVTraceObject@234@@Z
 ?AddIncludedCategory@TraceConfig@tracing@platform@v8@@QEAAXPEBD@Z
-?AddTraceEvent@DefaultPlatform@platform@v8@@UEAA_KDPEBEPEBD1_K2HPEAPEBD0PEB_KPEAV?$unique_ptr@VConvertableToTraceFormat@v8@@U?$default_delete@VConvertableToTraceFormat@v8@@@std@@@std@@I@Z
 ?AddTraceEvent@TraceBufferChunk@tracing@platform@v8@@QEAAPEAVTraceObject@234@PEA_K@Z
-?AddTraceEvent@TracingController@tracing@platform@v8@@QEAA_KDPEBEPEBD1_K2HPEAPEBD0PEB_KPEAV?$unique_ptr@VConvertableToTraceFormat@v8@@U?$default_delete@VConvertableToTraceFormat@v8@@@std@@@std@@I@Z
-?AddTraceStateObserver@DefaultPlatform@platform@v8@@UEAAXPEAVTraceStateObserver@Platform@3@@Z
-?AddTraceStateObserver@TracingController@tracing@platform@v8@@QEAAXPEAVTraceStateObserver@Platform@4@@Z
-?Append@TaskQueue@platform@v8@@QEAAXPEAVTask@3@@Z
+?AddTraceEvent@TracingController@tracing@platform@v8@@UEAA_KDPEBEPEBD1_K2HPEAPEBD0PEB_KPEAV?$unique_ptr@VConvertableToTraceFormat@v8@@U?$default_delete@VConvertableToTraceFormat@v8@@@std@@@std@@I@Z
+?AddTraceEventWithTimestamp@TracingController@tracing@platform@v8@@UEAA_KDPEBEPEBD1_K2HPEAPEBD0PEB_KPEAV?$unique_ptr@VConvertableToTraceFormat@v8@@U?$default_delete@VConvertableToTraceFormat@v8@@@std@@@std@@I_J@Z
+?AddTraceStateObserver@TracingController@tracing@platform@v8@@UEAAXPEAVTraceStateObserver@14@@Z
+?Allocate@DefaultThreadIsolatedAllocator@platform@v8@@UEAAPEAX_K@Z
+?Append@DelayedTaskQueue@platform@v8@@QEAAXV?$unique_ptr@VTask@v8@@U?$default_delete@VTask@v8@@@std@@@std@@@Z
+?Append@TaskQueue@platform@v8@@QEAAXV?$unique_ptr@VTask@v8@@U?$default_delete@VTask@v8@@@std@@@std@@@Z
+?AppendDelayed@DelayedTaskQueue@platform@v8@@QEAAXV?$unique_ptr@VTask@v8@@U?$default_delete@VTask@v8@@@std@@@std@@N@Z
 ?BlockUntilQueueEmptyForTesting@TaskQueue@platform@v8@@AEAAXXZ
-?CallDelayedOnForegroundThread@DefaultPlatform@platform@v8@@UEAAXPEAVIsolate@3@PEAVTask@3@N@Z
-?CallIdleOnForegroundThread@DefaultPlatform@platform@v8@@UEAAXPEAVIsolate@3@PEAVIdleTask@3@@Z
-?CallOnBackgroundThread@DefaultPlatform@platform@v8@@UEAAXPEAVTask@3@W4ExpectedRuntime@Platform@3@@Z
-?CallOnForegroundThread@DefaultPlatform@platform@v8@@UEAAXPEAVIsolate@3@PEAVTask@3@@Z
-?CreateDefaultPlatform@platform@v8@@YAPEAVPlatform@2@H@Z
+?CallOnWorkerThread@DefaultJobState@platform@v8@@AEAAXW4TaskPriority@3@V?$unique_ptr@VTask@v8@@U?$default_delete@VTask@v8@@@std@@@std@@@Z
+?CanRunFirstTask@DefaultJobState@platform@v8@@QEAA_NXZ
+?Cancel@DefaultJobHandle@platform@v8@@UEAAXXZ
+?CancelAndDetach@DefaultJobHandle@platform@v8@@UEAAXXZ
+?CancelAndDetach@DefaultJobState@platform@v8@@QEAAXXZ
+?CancelAndWait@DefaultJobState@platform@v8@@QEAAXXZ
+?CappedMaxConcurrency@DefaultJobState@platform@v8@@AEBA_K_K@Z
 ?CreateDefaultTraceConfig@TraceConfig@tracing@platform@v8@@SAPEAV1234@XZ
 ?CreateJSONTraceWriter@TraceWriter@tracing@platform@v8@@SAPEAV1234@AEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@@Z
+?CreateJSONTraceWriter@TraceWriter@tracing@platform@v8@@SAPEAV1234@AEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@6@@Z
+?CreateJob@DefaultPlatform@platform@v8@@UEAA?AV?$unique_ptr@VJobHandle@v8@@U?$default_delete@VJobHandle@v8@@@std@@@std@@W4TaskPriority@3@V?$unique_ptr@VJobTask@v8@@U?$default_delete@VJobTask@v8@@@std@@@5@@Z
+?CreateSystemInstrumentationTraceWriter@TraceWriter@tracing@platform@v8@@SAPEAV1234@XZ
 ?CreateTraceBufferRingBuffer@TraceBuffer@tracing@platform@v8@@SAPEAV1234@_KPEAVTraceWriter@234@@Z
+?CurrentClockTimeMillis@DefaultPlatform@platform@v8@@UEAANXZ
+?CurrentCpuTimestampMicroseconds@TracingController@tracing@platform@v8@@MEAA_JXZ
+?CurrentTimestampMicroseconds@TracingController@tracing@platform@v8@@MEAA_JXZ
+?DidRunTask@DefaultJobState@platform@v8@@QEAA_NXZ
 ?EnableArgumentFilter@TraceConfig@tracing@platform@v8@@QEAAXXZ
 ?EnableSystrace@TraceConfig@tracing@platform@v8@@QEAAXXZ
-?EnsureInitialized@DefaultPlatform@platform@v8@@QEAAXXZ
-?GetCategoryGroupEnabled@DefaultPlatform@platform@v8@@UEAAPEBEPEBD@Z
-?GetCategoryGroupEnabled@TracingController@tracing@platform@v8@@QEAAPEBEPEBD@Z
-?GetCategoryGroupEnabledInternal@TracingController@tracing@platform@v8@@AEAAPEBEPEBD@Z
-?GetCategoryGroupName@DefaultPlatform@platform@v8@@UEAAPEBDPEBE@Z
+?EnsureBackgroundTaskRunnerInitialized@DefaultPlatform@platform@v8@@QEAAXXZ
+?Free@DefaultThreadIsolatedAllocator@platform@v8@@UEAAXPEAX@Z
+?GetCategoryGroupEnabled@TracingController@tracing@platform@v8@@UEAAPEBEPEBD@Z
 ?GetCategoryGroupName@TracingController@tracing@platform@v8@@SAPEBDPEBE@Z
+?GetEnabledCategories@TraceConfig@tracing@platform@v8@@QEBAAEBV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
 ?GetEventAt@TraceBufferChunk@tracing@platform@v8@@QEAAPEAVTraceObject@234@_K@Z
-?GetNext@TaskQueue@platform@v8@@QEAAPEAVTask@3@XZ
+?GetForegroundTaskRunner@DefaultPlatform@platform@v8@@UEAA?AV?$shared_ptr@VTaskRunner@v8@@@std@@PEAVIsolate@3@@Z
+?GetNext@TaskQueue@platform@v8@@QEAA?AV?$unique_ptr@VTask@v8@@U?$default_delete@VTask@v8@@@std@@@std@@XZ
+?GetPageAllocator@DefaultPlatform@platform@v8@@UEAAPEAVPageAllocator@3@XZ
+?GetStackTracePrinter@DefaultPlatform@platform@v8@@UEAAP6AXXZXZ
+?GetThreadIsolatedAllocator@DefaultPlatform@platform@v8@@UEAAPEAVThreadIsolatedAllocator@3@XZ
 ?GetTraceRecordMode@TraceConfig@tracing@platform@v8@@QEBA?AW4TraceRecordMode@234@XZ
+?GetTracingController@DefaultPlatform@platform@v8@@UEAAPEAVTracingController@3@XZ
+?HasPoppableTaskInQueue@DefaultForegroundTaskRunner@platform@v8@@AEBA_NXZ
+?IdleTasksEnabled@DefaultForegroundTaskRunner@platform@v8@@UEAA_NXZ
 ?IdleTasksEnabled@DefaultPlatform@platform@v8@@UEAA_NPEAVIsolate@3@@Z
-?Initialize@TraceObject@tracing@platform@v8@@QEAAXDPEBEPEBD1_K2HPEAPEBD0PEB_KPEAV?$unique_ptr@VConvertableToTraceFormat@v8@@U?$default_delete@VConvertableToTraceFormat@v8@@@std@@@std@@I@Z
+?IdleTasksEnabled@DefaultWorkerThreadsTaskRunner@platform@v8@@UEAA_NXZ
+?Initialize@TraceObject@tracing@platform@v8@@QEAAXDPEBEPEBD1_K2HPEAPEBD0PEB_KPEAV?$unique_ptr@VConvertableToTraceFormat@v8@@U?$default_delete@VConvertableToTraceFormat@v8@@@std@@@std@@I_J6@Z
 ?Initialize@TracingController@tracing@platform@v8@@QEAAXPEAVTraceBuffer@234@@Z
 ?InitializeForTesting@TraceObject@tracing@platform@v8@@QEAAXDPEBEPEBD1_K2HPEAPEBD0PEB_KPEAV?$unique_ptr@VConvertableToTraceFormat@v8@@U?$default_delete@VConvertableToTraceFormat@v8@@@std@@@std@@IHH_J622@Z
+?IsActive@DefaultJobHandle@platform@v8@@UEAA_NXZ
+?IsActive@DefaultJobState@platform@v8@@QEAA_NXZ
 ?IsArgumentFilterEnabled@TraceConfig@tracing@platform@v8@@QEBA_NXZ
 ?IsCategoryGroupEnabled@TraceConfig@tracing@platform@v8@@QEBA_NPEBD@Z
+?IsEnabled@Recorder@tracing@platform@v8@@QEAA_NE@Z
+?IsEnabled@Recorder@tracing@platform@v8@@QEAA_NXZ
 ?IsFull@TraceBufferChunk@tracing@platform@v8@@QEBA_NXZ
 ?IsSystraceEnabled@TraceConfig@tracing@platform@v8@@QEBA_NXZ
+?IsValid@DefaultJobHandle@platform@v8@@UEAA_NXZ
+?Join@DefaultJobHandle@platform@v8@@UEAAXXZ
+?Join@DefaultJobState@platform@v8@@QEAAXXZ
+?MonotonicallyIncreasingTime@DefaultForegroundTaskRunner@platform@v8@@QEAANXZ
 ?MonotonicallyIncreasingTime@DefaultPlatform@platform@v8@@UEAANXZ
-?NumberOfAvailableBackgroundThreads@DefaultPlatform@platform@v8@@UEAA_KXZ
-?PopTaskInMainThreadDelayedQueue@DefaultPlatform@platform@v8@@AEAAPEAVTask@3@PEAVIsolate@3@@Z
-?PopTaskInMainThreadIdleQueue@DefaultPlatform@platform@v8@@AEAAPEAVIdleTask@3@PEAVIsolate@3@@Z
-?PopTaskInMainThreadQueue@DefaultPlatform@platform@v8@@AEAAPEAVTask@3@PEAVIsolate@3@@Z
-?PumpMessageLoop@DefaultPlatform@platform@v8@@QEAA_NPEAVIsolate@3@@Z
-?PumpMessageLoop@platform@v8@@YA_NPEAVPlatform@2@PEAVIsolate@2@@Z
+?MonotonicallyIncreasingTime@DefaultWorkerThreadsTaskRunner@platform@v8@@QEAANXZ
+?MonotonicallyIncreasingTime@DelayedTaskQueue@platform@v8@@QEAANXZ
+?MoveExpiredDelayedTasks@DefaultForegroundTaskRunner@platform@v8@@AEAAXAEBV?$LockGuard@VMutex@base@v8@@$0A@@base@3@@Z
+?NewDefaultJobHandle@platform@v8@@YA?AV?$unique_ptr@VJobHandle@v8@@U?$default_delete@VJobHandle@v8@@@std@@@std@@PEAVPlatform@2@W4TaskPriority@2@V?$unique_ptr@VJobTask@v8@@U?$default_delete@VJobTask@v8@@@std@@@4@_K@Z
+?NewDefaultPlatform@platform@v8@@YA?AV?$unique_ptr@VPlatform@v8@@U?$default_delete@VPlatform@v8@@@std@@@std@@HW4IdleTaskSupport@12@W4InProcessStackDumping@12@V?$unique_ptr@VTracingController@v8@@U?$default_delete@VTracingController@v8@@@std@@@4@W4PriorityMode@12@@Z
+?NewSingleThreadedDefaultPlatform@platform@v8@@YA?AV?$unique_ptr@VPlatform@v8@@U?$default_delete@VPlatform@v8@@@std@@@std@@W4IdleTaskSupport@12@W4InProcessStackDumping@12@V?$unique_ptr@VTracingController@v8@@U?$default_delete@VTracingController@v8@@@std@@@4@@Z
+?NonNestableTasksEnabled@DefaultForegroundTaskRunner@platform@v8@@UEBA_NXZ
+?NotifyConcurrencyIncrease@DefaultJobHandle@platform@v8@@UEAAXXZ
+?NotifyConcurrencyIncrease@DefaultJobState@platform@v8@@QEAAXXZ
+?NotifyIsolateShutdown@DefaultPlatform@platform@v8@@QEAAXPEAVIsolate@3@@Z
+?NotifyIsolateShutdown@platform@v8@@YAXPEAVPlatform@2@PEAVIsolate@2@@Z
+?NumberOfWorkerThreads@DefaultPlatform@platform@v8@@UEAAHXZ
+?Pkey@DefaultThreadIsolatedAllocator@platform@v8@@UEBAHXZ
+?PopTaskFromDelayedQueue@DelayedTaskQueue@platform@v8@@AEAA?AV?$unique_ptr@VTask@v8@@U?$default_delete@VTask@v8@@@std@@@std@@N@Z
+?PopTaskFromDelayedQueueLocked@DefaultForegroundTaskRunner@platform@v8@@AEAA?AV?$unique_ptr@VTask@v8@@U?$default_delete@VTask@v8@@@std@@@std@@AEBV?$LockGuard@VMutex@base@v8@@$0A@@base@3@PEAW4Nestability@123@@Z
+?PopTaskFromIdleQueue@DefaultForegroundTaskRunner@platform@v8@@QEAA?AV?$unique_ptr@VIdleTask@v8@@U?$default_delete@VIdleTask@v8@@@std@@@std@@XZ
+?PopTaskFromQueue@DefaultForegroundTaskRunner@platform@v8@@QEAA?AV?$unique_ptr@VTask@v8@@U?$default_delete@VTask@v8@@@std@@@std@@W4MessageLoopBehavior@23@@Z
+?PostDelayedTask@DefaultForegroundTaskRunner@platform@v8@@UEAAXV?$unique_ptr@VTask@v8@@U?$default_delete@VTask@v8@@@std@@@std@@N@Z
+?PostDelayedTask@DefaultWorkerThreadsTaskRunner@platform@v8@@UEAAXV?$unique_ptr@VTask@v8@@U?$default_delete@VTask@v8@@@std@@@std@@N@Z
+?PostDelayedTaskLocked@DefaultForegroundTaskRunner@platform@v8@@AEAAXV?$unique_ptr@VTask@v8@@U?$default_delete@VTask@v8@@@std@@@std@@NW4Nestability@123@AEBV?$LockGuard@VMutex@base@v8@@$0A@@base@3@@Z
+?PostDelayedTaskOnWorkerThreadImpl@DefaultPlatform@platform@v8@@UEAAXW4TaskPriority@3@V?$unique_ptr@VTask@v8@@U?$default_delete@VTask@v8@@@std@@@std@@NAEBVSourceLocation@3@@Z
+?PostIdleTask@DefaultForegroundTaskRunner@platform@v8@@UEAAXV?$unique_ptr@VIdleTask@v8@@U?$default_delete@VIdleTask@v8@@@std@@@std@@@Z
+?PostIdleTask@DefaultWorkerThreadsTaskRunner@platform@v8@@UEAAXV?$unique_ptr@VIdleTask@v8@@U?$default_delete@VIdleTask@v8@@@std@@@std@@@Z
+?PostNonNestableDelayedTask@DefaultForegroundTaskRunner@platform@v8@@UEAAXV?$unique_ptr@VTask@v8@@U?$default_delete@VTask@v8@@@std@@@std@@N@Z
+?PostNonNestableTask@DefaultForegroundTaskRunner@platform@v8@@UEAAXV?$unique_ptr@VTask@v8@@U?$default_delete@VTask@v8@@@std@@@std@@@Z
+?PostTask@DefaultForegroundTaskRunner@platform@v8@@UEAAXV?$unique_ptr@VTask@v8@@U?$default_delete@VTask@v8@@@std@@@std@@@Z
+?PostTask@DefaultWorkerThreadsTaskRunner@platform@v8@@UEAAXV?$unique_ptr@VTask@v8@@U?$default_delete@VTask@v8@@@std@@@std@@@Z
+?PostTaskLocked@DefaultForegroundTaskRunner@platform@v8@@AEAAXV?$unique_ptr@VTask@v8@@U?$default_delete@VTask@v8@@@std@@@std@@W4Nestability@123@AEBV?$LockGuard@VMutex@base@v8@@$0A@@base@3@@Z
+?PostTaskOnWorkerThreadImpl@DefaultPlatform@platform@v8@@UEAAXW4TaskPriority@3@V?$unique_ptr@VTask@v8@@U?$default_delete@VTask@v8@@@std@@@std@@AEBVSourceLocation@3@@Z
+?PumpMessageLoop@DefaultPlatform@platform@v8@@QEAA_NPEAVIsolate@3@W4MessageLoopBehavior@23@@Z
+?PumpMessageLoop@platform@v8@@YA_NPEAVPlatform@2@PEAVIsolate@2@W4MessageLoopBehavior@12@@Z
 ?R0I?
-?RemoveTraceStateObserver@DefaultPlatform@platform@v8@@UEAAXPEAVTraceStateObserver@Platform@3@@Z
-?RemoveTraceStateObserver@TracingController@tracing@platform@v8@@QEAAXPEAVTraceStateObserver@Platform@4@@Z
+?ReleaseTaskId@DefaultJobState@platform@v8@@QEAAXE@Z
+?RemoveTraceStateObserver@TracingController@tracing@platform@v8@@UEAAXPEAVTraceStateObserver@14@@Z
 ?Reset@TraceBufferChunk@tracing@platform@v8@@QEAAXI@Z
 ?Run@WorkerThread@platform@v8@@UEAAXXZ
 ?RunIdleTasks@DefaultPlatform@platform@v8@@QEAAXPEAVIsolate@3@N@Z
 ?RunIdleTasks@platform@v8@@YAXPEAVPlatform@2@PEAVIsolate@2@N@Z
-?SetThreadPoolSize@DefaultPlatform@platform@v8@@QEAAXH@Z
+?SetTimeFunctionForTesting@DefaultPlatform@platform@v8@@QEAAXP6ANXZ@Z
 ?SetTraceRecordMode@TraceConfig@tracing@platform@v8@@QEAAXW4TraceRecordMode@234@@Z
-?SetTracingController@DefaultPlatform@platform@v8@@QEAAXPEAVTracingController@tracing@23@@Z
-?SetTracingController@platform@v8@@YAXPEAVPlatform@2@PEAVTracingController@tracing@12@@Z
+?SetTracingController@DefaultPlatform@platform@v8@@QEAAXV?$unique_ptr@VTracingController@v8@@U?$default_delete@VTracingController@v8@@@std@@@std@@@Z
 ?StartTracing@TracingController@tracing@platform@v8@@QEAAXPEAVTraceConfig@234@@Z
 ?StopTracing@TracingController@tracing@platform@v8@@QEAAXXZ
+?Terminate@DefaultForegroundTaskRunner@platform@v8@@QEAAXXZ
+?Terminate@DefaultWorkerThreadsTaskRunner@platform@v8@@QEAAXXZ
+?Terminate@DelayedTaskQueue@platform@v8@@QEAAXXZ
 ?Terminate@TaskQueue@platform@v8@@QEAAXXZ
+?TryGetNext@DelayedTaskQueue@platform@v8@@QEAA?AUMaybeNextTask@123@XZ
+?Type@DefaultThreadIsolatedAllocator@platform@v8@@UEBA?AW40ThreadIsolatedAllocator@3@XZ
 ?UUUUUU
 ?UpdateCategoryGroupEnabledFlag@TracingController@tracing@platform@v8@@AEAAX_K@Z
 ?UpdateCategoryGroupEnabledFlags@TracingController@tracing@platform@v8@@AEAAXXZ
-?UpdateDuration@TraceObject@tracing@platform@v8@@QEAAXXZ
-?UpdateTraceEventDuration@DefaultPlatform@platform@v8@@UEAAXPEBEPEBD_K@Z
-?UpdateTraceEventDuration@TracingController@tracing@platform@v8@@QEAAXPEBEPEBD_K@Z
+?UpdateDuration@TraceObject@tracing@platform@v8@@QEAAX_J0@Z
+?UpdatePriority@DefaultJobHandle@platform@v8@@UEAAXW4TaskPriority@3@@Z
+?UpdatePriority@DefaultJobState@platform@v8@@QEAAXW4TaskPriority@3@@Z
+?UpdatePriorityEnabled@DefaultJobHandle@platform@v8@@UEBA_NXZ
+?UpdateTraceEventDuration@TracingController@tracing@platform@v8@@UEAAXPEBEPEBD_K@Z
+?V_NewDefaultPlatform@platform@v8@@YAPEAVPlatform@2@H@Z
+?Valid@DefaultThreadIsolatedAllocator@platform@v8@@QEBA_NXZ
+?WaitForTaskLocked@DefaultForegroundTaskRunner@platform@v8@@AEAAXAEBV?$LockGuard@VMutex@base@v8@@$0A@@base@3@@Z
 ?arg_convertables@TraceObject@tracing@platform@v8@@QEAAPEAV?$unique_ptr@VConvertableToTraceFormat@v8@@U?$default_delete@VConvertableToTraceFormat@v8@@@std@@@std@@XZ
 ?arg_names@TraceObject@tracing@platform@v8@@QEAAPEAPEBDXZ
 ?arg_types@TraceObject@tracing@platform@v8@@QEAAPEAEXZ
@@ -253,27 +392,32 @@ $Ib?s
 ?flags@TraceObject@tracing@platform@v8@@QEBAIXZ
 ?id@TraceObject@tracing@platform@v8@@QEBA_KXZ
 ?kChunkSize@TraceBufferChunk@tracing@platform@v8@@2_KB
-?kMaxThreadPoolSize@DefaultPlatform@platform@v8@@0HB
 ?kRingBufferChunks@TraceBuffer@tracing@platform@v8@@2_KB
 ?kxG2)
 ?lZE
 ?name@TraceObject@tracing@platform@v8@@QEBAPEBDXZ
 ?num_args@TraceObject@tracing@platform@v8@@QEBAHXZ
+?num_worker_runners@DefaultPlatform@platform@v8@@AEBAHXZ
 ?phase@TraceObject@tracing@platform@v8@@QEBADXZ
 ?pid@TraceObject@tracing@platform@v8@@QEBAHXZ
+?priority_from_index@DefaultPlatform@platform@v8@@AEBA?AW4Priority@Thread@base@3@H@Z
+?priority_to_index@DefaultPlatform@platform@v8@@AEBAHW4TaskPriority@3@@Z
 ?qBJ
 ?rAj
 ?scope@TraceObject@tracing@platform@v8@@QEBAPEBDXZ
 ?seq@TraceBufferChunk@tracing@platform@v8@@QEBAIXZ
+?shared_from_this@?$enable_shared_from_this@VDefaultJobState@platform@v8@@@std@@QEAA?AV?$shared_ptr@VDefaultJobState@platform@v8@@@2@XZ
+?shared_from_this@?$enable_shared_from_this@VDefaultJobState@platform@v8@@@std@@QEBA?AV?$shared_ptr@$$CBVDefaultJobState@platform@v8@@@2@XZ
 ?size@TraceBufferChunk@tracing@platform@v8@@QEBA_KXZ
 ?tid@TraceObject@tracing@platform@v8@@QEBAHXZ
 ?ts@TraceObject@tracing@platform@v8@@QEAA_JXZ
 ?tts@TraceObject@tracing@platform@v8@@QEAA_JXZ
+?weak_from_this@?$enable_shared_from_this@VDefaultJobState@platform@v8@@@std@@QEAA?AV?$weak_ptr@VDefaultJobState@platform@v8@@@2@XZ
+?weak_from_this@?$enable_shared_from_this@VDefaultJobState@platform@v8@@@std@@QEBA?AV?$weak_ptr@$$CBVDefaultJobState@platform@v8@@@2@XZ
 ?ysB
 A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 AK>(v
-AcquireSRWLockExclusive
 AppPolicyGetProcessTerminationMethod
 AppPolicyGetShowDeveloperDiagnostic
 AppPolicyGetThreadInitializationType
@@ -281,35 +425,24 @@ AppPolicyGetWindowingModel
 April
 AreFileApisANSI
 August
+Aw'W86KJ
 BC?>6t9^\tc:>
 BF>^G
 C5R?\t
 CL:>8
 CWD>~3
-CloseThreadpoolTimer
-CloseThreadpoolWait
-CloseThreadpoolWork
+Check failed: %s.
 CompareStringEx
-Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
 CorExitProcess
-CreateEventExW
-CreateSemaphoreExW
-CreateSemaphoreW
-CreateSymbolicLinkW
-CreateThreadpoolTimer
-CreateThreadpoolWait
-CreateThreadpoolWork
-D:\v\csgos1\thirdpartycode\v8\v8\out.gn\x64.release\v8_libplatform.dll.pdb
 December
+E:\p4_temp\thirdpartycode\nonredist\v8\v8-11.9.169.6\v8\out.gn\x64.release\v8_libplatform.dll.pdb
 E>nEA
 ET5>
+ETW0
 E[\rn?gc
 EiUL
 EnumSystemLocalesEx
-EventRegister
-EventSetInformation
-EventUnregister
-EventWriteTransfer
+Event Name
 F>qUxv
 FEMh\f
 February
@@ -318,21 +451,16 @@ FlsAlloc
 FlsFree
 FlsGetValue
 FlsSetValue
-FlushProcessWriteBuffers
-FreeLibraryWhenCallbackReturns
 Friday
 G>US
 GetActiveWindow
-GetCurrentPackageId
-GetCurrentProcessorNumber
 GetDateFormatEx
 GetEnabledXStateFeatures
-GetFileInformationByHandleEx
 GetLastActivePopup
 GetLocaleInfoEx
 GetProcessWindowStation
 GetSystemTimePreciseAsFileTime
-GetTickCount64
+GetTempPath2W
 GetTimeFormatEx
 GetUserDefaultLocaleName
 GetUserObjectInformationW
@@ -340,11 +468,9 @@ GetXStateFeaturesMask
 HH:mm:ss
 IND)ind)
 INITY
+IdleTaskSupport::kEnabled == idle_task_support_
 Il?333333c?
-InitOnceExecuteOnce
-InitializeConditionVariable
 InitializeCriticalSectionEx
-InitializeSRWLock
 IsValidLocaleName
 JanFebMarAprMayJunJulAugSepOctNovDec
 January
@@ -375,9 +501,7 @@ OZQ%
 October
 Q5rHg,>
 QAf?
-RSDSz
-R\vppY
-ReleaseSRWLockExclusive
+RSDS
 RoInitialize
 RoUninitialize
 S9>H
@@ -385,29 +509,22 @@ S>$hkDh$h>[2
 SNAN)
 Saturday
 September
-SetFileInformationByHandle
 SetThreadStackGuarantee
-SetThreadpoolTimer
-SetThreadpoolWait
-SleepConditionVariableCS
-SleepConditionVariableSRW
-SubmitThreadpoolWork
+Start()
 SunMonTueWedThuFriSat
 Sunday
 SystemFunction036
 TUUUU
 Thursday
-TryAcquireSRWLockExclusive
 Tuesday
 UA>N0Wl
 UNKNOWN
 UUUUUU
 Unknown exception
+V8 DefaultWorkerThreadsTaskRunner WorkerThread
 V8 WorkerThread
+V8.js
 WaNd?
-WaitForThreadpoolTimerCallbacks
-WakeAllConditionVariable
-WakeConditionVariable
 Wednesday
 X/4B
 Y8a:
@@ -418,12 +535,13 @@ Z\>z8
 [thunk]:
 \nh?oT
 \nk>oB
+\ntdur
 \r\f\v\v\n\n\t\t\t\t\t
 \tcQr
 \tkE>fvw
+\tphase
+\ttts
 \vA03>A|
-\vPnB
-\vpnB
 ^<V7w
 ^RfN>
 __based(
@@ -441,6 +559,9 @@ __pascal
 __ptr64
 __restrict
 __stdcall
+__swift_1
+__swift_2
+__swift_3
 __thiscall
 __unaligned
 __vectorcall
@@ -463,7 +584,7 @@ _oD>Kg
 `eh vector vbase copy constructor iterator'
 `generic-class-parameter-
 `generic-method-parameter-
-`h`hhh
+`generic-type-
 `local static destructor helper'
 `local static guard'
 `local static thread guard'
@@ -481,6 +602,7 @@ _oD>Kg
 `template static data member constructor helper'
 `template static data member destructor helper'
 `template-parameter
+`template-parameter-
 `template-type-parameter-
 `typeof'
 `udt returning'
@@ -510,6 +632,7 @@ argument out of domain
 asin
 atan
 atan2
+auto
 bad address
 bad allocation
 bad array new length
@@ -519,14 +642,17 @@ bad file descriptor
 bad function call
 bad locale name
 bad message
+bad_weak_ptr
 bool
 broken pipe
 c?FA@s}
+category
 ceil
 char
 char 
 char16_t
 char32_t
+char8_t
 class 
 cli::array<
 cli::pin_ptr<
@@ -544,12 +670,12 @@ d8L2
 d?000000`?
 dRL>
 dddd, MMMM dd, yyyy
+decltype(auto)
 deque<T> too long
 destination address required
 device or resource busy
 directory not empty
 double
-dummy
 e+000
 eF>t
 eLK(w
@@ -568,7 +694,6 @@ floor
 fmod
 frexp
 function not supported
-generic
 generic-type-
 h0'D
 h>1my
@@ -580,6 +705,7 @@ inity
 int 
 interrupted
 invalid argument
+invalid hash bucket count
 invalid seek
 invalid string position
 io error
@@ -590,8 +716,8 @@ iostream
 iostream stream error
 is a directory
 k=yI
+lambda
 ldexp
-list<T> too long
 log10
 log10f
 logf
@@ -600,7 +726,7 @@ long
 m?H7
 mG4>
 m\nXo
-map/set<T> too long
+map/set too long
 message size
 modf
 n03>Pu
@@ -629,6 +755,7 @@ not a stream
 not connected
 not enough memory
 not supported
+nullptr
 o?GS
 oI>O7
 obwQ4
@@ -639,6 +766,8 @@ operation not supported
 operation would block
 operator
 operator "" 
+operator co_await
+operator<=>
 owM&
 owner dead
 permission denied
@@ -685,28 +814,32 @@ std::nullptr_t
 stream timeout
 string too long
 struct 
+success
 tanh
 template-parameter-
 text file busy
+this 
 timed out
 too many files open
 too many files open in system
 too many links
 too many symbolic link levels
 toplevel
-tracing already shutdown
-tracing categories exhausted; must increase MAX_CATEGORY_GROUPS
+traceEvents
+tracing categories exhausted; must increase kMaxCategoryGroups
 true
 union 
+unknown
 unknown error
 unknown exception
+unordered_map/set too long
 unreachable code
 unsigned 
 uzKs@>
 v2!L.2
 v8_libplatform.dll
 value too large
-vector<T> too long
+vector too long
 virtual 
 void
 void 
@@ -715,8 +848,5 @@ volatile
 wchar_t
 wrong protocol type
 xT?V
-xpxxxx
-xwpwpp
-{"traceEvents":[
 {flat}
 {for 

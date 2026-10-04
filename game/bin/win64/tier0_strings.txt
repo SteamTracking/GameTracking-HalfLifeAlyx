@@ -34,7 +34,7 @@
  delete[]
  low
  new
- throw(
+ noexcept
  volatile
 "%s" +url_execute "%%1"
 "e?<<<<<<l?
@@ -214,8 +214,6 @@ $Ib?s
 &yacute;
 &yen;
 &yuml;
-( 8PX
-('8PW
 (Missing)
 (Unaccounted)
 (Unknown Cause)
@@ -363,7 +361,6 @@ $Ib?s
 .?AVexception@std@@
 .?AVlength_error@std@@
 .?AVlogic_error@std@@
-.?AVout_of_range@std@@
 .?AVpDNameNode@@
 .?AVpairNode@@
 .?AVpcharNode@@
@@ -373,10 +370,13 @@ $Ib?s
 .CRT$XCL
 .CRT$XCU
 .CRT$XCZ
+.CRT$XDA
+.CRT$XDZ
 .CRT$XIA
 .CRT$XIC
 .CRT$XIZ
 .CRT$XLA
+.CRT$XLC
 .CRT$XLY
 .CRT$XLZ
 .CRT$XPA
@@ -389,10 +389,9 @@ $Ib?s
 .bss
 .data
 .data$r
+.data$rs
 .dll
 .edata
-.gfids$x
-.gfids$y
 .idata$2
 .idata$3
 .idata$4
@@ -402,6 +401,7 @@ $Ib?s
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .rsrc$01
 .rsrc$02
@@ -409,7 +409,6 @@ $Ib?s
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.stls
 .text$di
 .text$mn
 .text$mn$00
@@ -438,15 +437,15 @@ $Ib?s
 11UT
 11Y@
 2464
+2\f524@
 3 FB
 3+5<t
-3626
+3627
 37>k
 3>N;kU
 3>fvw
 3?tr
-3\v534
-4\fE4t:
+4\fE4t;
 4\tgA
 51>W
 5?INF
@@ -454,8 +453,6 @@ $Ib?s
 6NK>
 6\fXO>
 6\fXO>\ntA
-700PP
-700WP
 7>I0
 7?GX
 7h>?8
@@ -553,6 +550,8 @@ $Ib?s
 ??0CThreadEvent@@QEAA@PEAX@Z
 ??0CThreadEvent@@QEAA@PEBD_N1@Z
 ??0CThreadEvent@@QEAA@_N@Z
+??0CThreadFastMutex@@QEAA@PEBD@Z
+??0CThreadFastMutex@@QEAA@XZ
 ??0CThreadFiber@@QEAA@_K@Z
 ??0CThreadFullMutex@@QEAA@_NPEBD00@Z
 ??0CThreadLocalScope@@QEAA@PEAUThreadHandle_t__@@_N@Z
@@ -560,6 +559,7 @@ $Ib?s
 ??0CThreadMultiWaitObject@@QEAA@XZ
 ??0CThreadMultiWaitSemaphore@@QEAA@XZ
 ??0CThreadMutex@@QEAA@PEBD@Z
+??0CThreadMutex@@QEAA@XZ
 ??0CThreadRWLock_FastRead@@QEAA@_N@Z
 ??0CThreadSemaphore@@QEAA@HHPEBD_N@Z
 ??0CThreadSpinLock@@QEAA@PEBDH@Z
@@ -600,7 +600,6 @@ $Ib?s
 ??1CThreadMultiWaitEvent@@QEAA@XZ
 ??1CThreadMultiWaitObject@@QEAA@XZ
 ??1CThreadMultiWaitSemaphore@@QEAA@XZ
-??1CThreadMutex@@QEAA@XZ
 ??1CThreadSemaphore@@QEAA@XZ
 ??1CThreadSwapContext@@QEAA@XZ
 ??1CThreadSyncObject@@QEAA@XZ
@@ -651,11 +650,12 @@ $Ib?s
 ??_FCThreadFullMutex@@QEAAXXZ
 ??_FCThreadLocalScope@@QEAAXXZ
 ??_FCThreadMultiWaitEvent@@QEAAXXZ
-??_FCThreadMutex@@QEAAXXZ
 ??_FCThreadRWLock_FastRead@@QEAAXXZ
 ??_FCThreadSpinLock@@QEAAXXZ
 ??_FCVProfReporter@@QEAAXXZ
 ?@En[vP
+?AcquireLock@CThreadFastMutex@@AEAAXI@Z
+?AcquireLock@CThreadMutex@@AEAAXI@Z
 ?AddBudgetGroupName@CVProfile@@IEAAHPEBDH@Z
 ?AddDeferredFunction@CVProfile@@QEAA_NP6AXPEAX@Z0@Z
 ?AddTest@CTestSuite@@UEAAXPEAVITestCase@@@Z
@@ -671,6 +671,7 @@ $Ib?s
 ?AppendFormattedComment@CMiniDumpComment@@QEAAXPEBDZZ
 ?AppendOSComment@CMiniDumpComment@@QEAAXXZ
 ?AppendRepeat@CBufferString@@QEAAPEBDDH_N@Z
+?AssertOwnedByCurrentThread@CThreadFastMutex@@QEBA_NXZ
 ?AssertOwnedByCurrentThread@CThreadFullMutex@@QEBA_NXZ
 ?AssertOwnedByCurrentThread@CThreadMutex@@QEBA_NXZ
 ?AssertUseable@CThreadSyncObject@@IEAAXXZ
@@ -781,6 +782,8 @@ $Ib?s
 ?GetCurrentPointer@CMiniDumpComment@@QEAAPEADXZ
 ?GetCurrentPointer@CMiniDumpComment@@QEBAPEBDXZ
 ?GetCurrentTop@CStackTop_Base@@SAPEAV1@_N@Z
+?GetDepth@CThreadFastMutex@@QEBAIXZ
+?GetDepth@CThreadMutex@@QEBAIXZ
 ?GetDetailLevel@CVProfile@@QEBAHXZ
 ?GetElement@CVProfReporter@@QEBAAEBUProfileRow_t@1@I@Z
 ?GetEndPointer@CMiniDumpComment@@QEBAPEBDXZ
@@ -862,6 +865,8 @@ $Ib?s
 ?IsEqualRegion@CVirtualMemorySnapshot@@SA_NPEBV1@PEBURegion_t@1@01@Z
 ?IsFlaggedForDeletion@CVProfReporter@@QEBA_NXZ
 ?IsLocalThreadScope@CThreadLocalScope@@QEBA_NXZ
+?IsLocked@CThreadFastMutex@@QEBA_NXZ
+?IsLocked@CThreadMutex@@QEBA_NXZ
 ?IsReadyToResume@CFiber@@QEAA_NXZ
 ?IsRunningInThreadMemory@CFiber@@SA_NXZ
 ?IsSuspended@CThread@@QEAA_NXZ
@@ -875,18 +880,20 @@ $Ib?s
 ?LocalSymCleanup@CDbgHelpFunctionsLoader@@QEAAXXZ
 ?LocalSymInitialize@CDbgHelpFunctionsLoader@@QEAAXPEBD@Z
 ?LocalSymInitialize@CDbgHelpFunctionsLoader@@QEAAXPEB_W@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
+?Lock@CThreadFastMutex@@QEBAXPEBDH@Z
 ?Lock@CThreadFullMutex@@QEAA_NPEBDH@Z
 ?Lock@CThreadFullMutex@@QEAA_NPEBDHI@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?Lock@CThreadMutex@@QEBAXPEBDH@Z
 ?Lock@CThreadSpinLock@@QEAAXPEBDH@Z
+?LockForRead@CThreadFastMutex@@QEAAXPEBDH@Z
 ?LockForRead@CThreadMutex@@QEAAXPEBDH@Z
 ?LockForRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
+?LockForWrite@CThreadFastMutex@@QEAAXPEBDH@Z
 ?LockForWrite@CThreadMutex@@QEAAXPEBDH@Z
 ?LockForWrite@CThreadRWLock@@QEAAXPEBDH@Z
 ?LockMutex@CDbgHelpFunctionsLoader@@QEAAXXZ
-?LockSilent@CThreadMutex@@QEAAXPEBDH@Z
 ?LoggingSystem_IsChannelEnabled@@YA_NHW4LoggingVerbosity_t@@@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBULoggingMetaData_t@@PEBDZZ
@@ -914,6 +921,7 @@ $Ib?s
 ?OnFrameBoundaryExecuteCallback@CVProfReporter@@CAXPEAX@Z
 ?OutputReport@CVProfile@@QEAAXAEBUVProfReportSettings_t@@PEBDH@Z
 ?OutputReport@CVProfile@@QEAAXPEBDH@Z
+?OwnedByCurrentThread@CThreadFastMutex@@QEBA_NXZ
 ?OwnedByCurrentThread@CThreadMutex@@QEBA_NXZ
 ?OwnerThreadRun@CThreadSwapTarget@@QEAAXXZ
 ?PMEEnable@CVProfile@@QEAAX_N@Z
@@ -1072,33 +1080,42 @@ $Ib?s
 ?TrimTail@CBufferString@@QEAAPEBDPEBD@Z
 ?TruncateAt@CBufferString@@QEAAPEBDH_N@Z
 ?TruncateAt@CBufferString@@QEAAPEBDPEBD_N@Z
+?TryAcquireLock@CThreadFastMutex@@AEAA_NI@Z
+?TryAcquireLock@CThreadMutex@@AEAA_NI@Z
+?TryLock@CThreadFastMutex@@QEAA_NPEBDH@Z
 ?TryLock@CThreadMutex@@QEAA_NPEBDH@Z
-?TryLock@CThreadMutex@@QEBA_NPEBDH@Z
+?TryLockForRead@CThreadFastMutex@@QEAA_NPEBDH@Z
 ?TryLockForRead@CThreadMutex@@QEAA_NPEBDH@Z
+?TryLockForWrite@CThreadFastMutex@@QEAA_NPEBDH@Z
 ?TryLockForWrite@CThreadMutex@@QEAA_NPEBDH@Z
 ?TryLockForWrite@CThreadRWLock@@QEAA_NPEBDH@Z
 ?UUUUUU
 ?UnicodeCaseConvert@CBufferString@@QEAAHHW4EStringConvertErrorPolicy@@@Z
 ?UnlinkFromLongJumpHierarchy@StackContext_StartData_t@@QEAAXXZ
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
+?Unlock@CThreadFastMutex@@QEBAXPEBDH@Z
 ?Unlock@CThreadFullMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEBAXPEBDH@Z
 ?Unlock@CThreadSpinLock@@QEAAXPEBDH@Z
 ?UnlockMutex@CDbgHelpFunctionsLoader@@QEAAXXZ
+?UnlockRead@CThreadFastMutex@@QEAAXPEBDH@Z
 ?UnlockRead@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?UnlockReadAccounting@CThreadRWLock_FastRead@@IEAAXPEBDHI@Z
 ?UnlockRead_LockForWrite@CEventRWLock@@QEAA?AW4RWLockTranstionResult_t@@AEAVCEventListNode@@@Z
+?UnlockRead_LockForWrite@CThreadFastMutex@@QEAA?AW4RWLockTranstionResult_t@@PEBDH@Z
 ?UnlockRead_LockForWrite@CThreadMutex@@QEAA?AW4RWLockTranstionResult_t@@PEBDH@Z
 ?UnlockRead_LockForWrite@CThreadRWLock@@QEAA?AW4RWLockTranstionResult_t@@PEBDH@Z
 ?UnlockRead_LockForWrite@CThreadRWLock_FastRead@@QEAA?AW4RWLockTranstionResult_t@@PEBDH@Z
 ?UnlockRead_LockForWrite@CThreadSpinRWLock@@QEAA?AW4RWLockTranstionResult_t@@PEBDH@Z
-?UnlockSilent@CThreadMutex@@QEAAXPEBDH@Z
+?UnlockWrite@CThreadFastMutex@@QEAAXPEBDH@Z
 ?UnlockWrite@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockWrite@CThreadRWLock@@QEAAXPEBDH@Z
 ?UnlockWrite@CThreadRWLock_FastRead@@QEAAXPEBDH@Z
 ?UnlockWrite@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?UnlockWrite_LockForRead@CEventRWLock@@QEAA?AW4RWLockTranstionResult_t@@AEAVCEventListNode@@@Z
+?UnlockWrite_LockForRead@CThreadFastMutex@@QEAA?AW4RWLockTranstionResult_t@@PEBDH@Z
 ?UnlockWrite_LockForRead@CThreadMutex@@QEAA?AW4RWLockTranstionResult_t@@PEBDH@Z
 ?UnlockWrite_LockForRead@CThreadRWLock@@QEAA?AW4RWLockTranstionResult_t@@PEBDH@Z
 ?UnlockWrite_LockForRead@CThreadRWLock_FastRead@@QEAA?AW4RWLockTranstionResult_t@@PEBDH@Z
@@ -1190,7 +1207,6 @@ Affinity preferences: no per-logical-processor information\n
 Affinity preferences: no preferences, skipping assignment\n
 Affinity preferences: no-pref all-procs does not set affinity\n
 Affinity preferences: only one logical processor\n
-Affinity preferences: turned off for internal reason\n
 AllocConsole
 AllocateAndInitializeSid
 AllowGameDVR
@@ -1207,6 +1223,7 @@ Android 8 MR1
 Android 8.0
 Android 9.0
 AppCaptureEnabled
+AppPolicyGetProcessTerminationMethod
 AppendMiniProfilerToList
 April
 AreFileApisANSI
@@ -1243,8 +1260,6 @@ BroadcastAssertionMiniDumpHandler - [Invoking crashdumpmailer]\n
 Build-time option settings
 BuiltDebug
 C5R?\t
-CAssertGlobals::AssertDisableMutex
-CAssertGlobals::assertLock
 CBufferString::AppendConcat
 CBufferString::AppendConcatV
 CBufferString::AppendFormatV
@@ -1281,7 +1296,6 @@ CTSQueue corruption
 CTSQueue: Misaligned queue\n
 CTSQueue<int,1>::CTSQueue
 CTSQueue<int,1>::Push
-CThread
 CThreadMultiWaitEvent::CThreadMultiWaitEvent
 CThreadMultiWaitSemaphore::CThreadMultiWaitSemaphore
 CThreadSyncObject::WaitForMultiple
@@ -1309,6 +1323,7 @@ CatchAndWriteMiniDumpForVoidPtrFn
 Ccoshf
 CheckTokenMembership
 ClearHardwareBreakpoint
+ClearSingleThreadedWorkThread
 Client Game
 Client Input/Output
 Client Physics
@@ -1317,9 +1332,6 @@ Client Simulation
 Client VScript
 Client_Animation
 CloseHandle
-CloseThreadpoolTimer
-CloseThreadpoolWait
-CloseThreadpoolWork
 CoCreateInstance
 CoInitializeEx
 CoTaskMemAlloc
@@ -1342,7 +1354,6 @@ CreateCompatibleDC
 CreateDIBSection
 CreateDirectoryW
 CreateEventA
-CreateEventExW
 CreateEventW
 CreateFile failed.
 CreateFileA
@@ -1354,16 +1365,10 @@ CreateMutexA
 CreateProcessA
 CreateProcessW
 CreateSemaphoreA
-CreateSemaphoreExW
-CreateSemaphoreW
 CreateSimpleProcess
 CreateSimpleThread
 CreateSolidBrush
-CreateSymbolicLinkW
 CreateThread
-CreateThreadpoolTimer
-CreateThreadpoolWait
-CreateThreadpoolWork
 CreateWindowExA
 Csinhf
 Cy2@K>
@@ -1372,6 +1377,7 @@ DBGHELP_SERVICE=1
 DEBUG_EXITPROCESS
 December
 DeclareCurrentThreadIsMainThread
+DeclareCurrentThreadIsSingleThreadedWorkThread
 DefWindowProcA
 DeleteCriticalSection
 DeleteDC
@@ -1434,6 +1440,7 @@ EncodePointer
 EndDialog
 EndPaint
 EnterCriticalSection
+EnumSystemLocalesEx
 EnumerateLoadedModules64
 EnumerateLoadedModulesW64
 Error
@@ -1442,6 +1449,7 @@ Error setting dss
 EventRegister
 EventUnregister
 EventWrite
+EventWriteTransfer
 Exception
 Exit Process
 ExitProcess
@@ -1460,22 +1468,20 @@ File: %s\nLine: %i\nExpr: %s
 FileSystem
 FileTimeToSystemTime
 FindClose
-FindFirstFileExA
-FindNextFileA
+FindFirstFileExW
+FindNextFileW
 FlashWindow
 FlsAlloc
 FlsFree
 FlsGetValue
 FlsSetValue
 FlushFileBuffers
-FlushProcessWriteBuffers
 FormatMessageA
 Found Application AutoArgs file '%s'\n
 Frame Boundary
 FreeCommandLine
 FreeEnvironmentStringsW
 FreeLibrary
-FreeLibraryWhenCallbackReturns
 FreeSid
 Friday
 G>US
@@ -1496,17 +1502,17 @@ GetCommandLineA
 GetCommandLineW
 GetComputerNameExA
 GetComputerNameExW
-GetConsoleCP
 GetConsoleMode
+GetConsoleOutputCP
 GetConsoleScreenBufferInfo
 GetCurrentDirectoryA
 GetCurrentDirectoryW
-GetCurrentPackageId
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentProcessorNumber
 GetCurrentThread
 GetCurrentThreadId
+GetDateFormatEx
 GetDefaultMiniDumpHandler
 GetDefaultMiniDumpTypeFlags
 GetDesktopWindow
@@ -1520,7 +1526,8 @@ GetExitCodeThread
 GetFileAndLineFromAddress
 GetFileAttributesExW
 GetFileAttributesW
-GetFileInformationByHandleEx
+GetFileInformationByHandle
+GetFileSizeEx
 GetFileType
 GetForegroundWindow
 GetFullPathNameW
@@ -1561,17 +1568,18 @@ GetSymbolNameFromAddress
 GetSystemInfo
 GetSystemMetrics
 GetSystemTimeAsFileTime
-GetSystemTimePreciseAsFileTime
+GetTempPath2W
 GetTempPathW
 GetThreadContext
 GetThreadInformationBlock
 GetThreadPriority
 GetThreadedLoadLibraryFunc
 GetTickCount
-GetTickCount64
+GetTimeFormatEx
 GetTimeZoneInformation
 GetTopWindow
 GetUnitTest
+GetUserDefaultLocaleName
 GetUserNameA
 GetVersionExA
 GetWin32ConsoleCursorColumnIndex
@@ -1629,10 +1637,8 @@ Ignores this assertion until you quit the program.
 Il?333333c?
 Illegal char string format specifier '%c' (%d) in '%s'
 Illegal wchar_t string format specifier '%c' (%d) in '%s'
-InitOnceExecuteOnce
 InitPME
 InitWin32ConsoleColorContext
-InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
@@ -1653,6 +1659,7 @@ IsDebuggerPresent
 IsIconic
 IsProcessorFeaturePresent
 IsValidCodePage
+IsValidLocaleName
 IsWow64Process
 IterateCapturedStackAnnotations
 JE_MALLOC_CONF
@@ -1671,6 +1678,7 @@ KeyValuesSystem
 L-n>4
 L>ev
 L?UUUUUUU?
+LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
 LOADING
@@ -2105,8 +2113,7 @@ Quantum size
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RD?4KF?=GH?9FJ?8HL?
-RSDSA
-R\v0\fh
+RSDS\r
 RaiseException
 ReadConsoleW
 ReadFile
@@ -2140,6 +2147,7 @@ RtlCaptureContext
 RtlCaptureStackBackTrace
 RtlLookupFunctionEntry
 RtlPcToFileHeader
+RtlUnwind
 RtlUnwindEx
 RtlVirtualUnwind
 Run-time option settings
@@ -2271,6 +2279,9 @@ SDL_StartTextInput
 SDL_StopTextInput
 SDL_UpperBlitScaled
 SDL_VIDEO_MINIMIZE_ON_FOCUS_LOSS
+SDL_Vulkan_CreateSurface
+SDL_Vulkan_GetInstanceExtensions
+SDL_Vulkan_LoadLibrary
 SDL_WaitEvent
 SDL_WaitEventTimeout
 SDL_WarpMouseGlobal
@@ -2315,12 +2326,10 @@ SetDefaultMiniDumpHandler( %p )\n
 SetDlgItemInt
 SetDlgItemTextA
 SetEndOfFile
-SetEnvironmentVariableA
 SetEnvironmentVariableW
 SetErrorMode
 SetEvent
 SetFileAttributesW
-SetFileInformationByHandle
 SetFilePointerEx
 SetForegroundWindow
 SetHardwareBreakpoint
@@ -2336,8 +2345,6 @@ SetThreadContext
 SetThreadGroupAffinity
 SetThreadPriority
 SetThreadedLoadLibraryFunc
-SetThreadpoolTimer
-SetThreadpoolWait
 SetTimer
 SetUnhandledExceptionFilter
 SetWin32ConsoleColor
@@ -2350,7 +2357,6 @@ ShowWindow
 ShutdownPME
 Sleep
 SleepConditionVariableCS
-SleepConditionVariableSRW
 Software\Classes\%s
 Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\%s
 Sorry -- no stats saved to file memstats.txt when the heap allocator is enabled.\n
@@ -2381,7 +2387,6 @@ StackWalk64
 Steam
 Stop has been called on %p\n
 StretchBlt
-SubmitThreadpoolWork
 SunMonTueWedThuFriSat
 Sunday
 SuspendThread
@@ -2441,6 +2446,10 @@ Tests done, purging test memory...
 Thread failed to initialize\n
 Thread failed to respond, probably exited\n
 Thread(%p/%p)
+ThreadAtomicNotifyAll
+ThreadAtomicNotifyN
+ThreadAtomicNotifyOne
+ThreadAtomicWait
 ThreadCloseProcess
 ThreadGetCurrentHandle
 ThreadGetCurrentProcessHandle
@@ -2451,6 +2460,7 @@ ThreadGetPriority
 ThreadGetProcessExitCode
 ThreadGetProcessPriority
 ThreadInMainThread
+ThreadInMainThreadOrSingleThreadedWorkThread
 ThreadInitOnceCall_Finish
 ThreadInitOnceCall_ShouldRun
 ThreadIsProcessActive
@@ -2459,6 +2469,7 @@ ThreadJoin
 ThreadMultiWait
 ThreadMultiWaitObjectSetCreate
 ThreadMultiWaitObjectSetDestroy
+ThreadMultiWaitObjectSetGetCount
 ThreadNanoSleep
 ThreadProcWrapped
 ThreadScopeChangeEventHandler_ThreadID
@@ -2515,7 +2526,6 @@ Trailing space on executable name! This will cause Application Verifier and ETW 
 TranslateMessage
 TranslateStackInfo
 TryAcquireSRWLockExclusive
-TryEnterCriticalSection
 Tuesday
 UA>N0Wl
 UCS-2
@@ -2531,7 +2541,6 @@ UUUUU
 UUUUUU
 Unable to create event, error %d\n
 Unable to create semaphore, error %d\n
-Unable to determine CPU Frequency\n
 Unable to get Version
 Unable to load COM\n
 Unable to load SDL2\n
@@ -2831,10 +2840,11 @@ WaitForMultiple: %d exceeded maximum of %d\n
 WaitForMultipleObjects
 WaitForSingleObject
 WaitForSingleObjectEx
-WaitForThreadpoolTimerCallbacks
+WaitOnAddress
 Wak>E
 WakeAllConditionVariable
-WakeConditionVariable
+WakeByAddressAll
+WakeByAddressSingle
 Warning
 Warning: Failed to initialize COM! HRESULT = 0x%X %s\n
 Warning: Fell out of small block heap!\n
@@ -2882,7 +2892,6 @@ X/4B
 X>0S
 X?fff?
 XS&Y+
-XZHL
 XboxDVRCheck: AllowGameDVR = 0x%08X (e0x%08X)\n
 XboxDVRCheck: AppCaptureEnabled = 0x%08X (e0x%08X)\n
 XboxDVRCheck: GameDVR_Enabled = 0x%08X (e0x%08X)\n
@@ -2911,7 +2920,6 @@ ZwQueryInformationProcess
 \D2%4
 \\.\GDPERF
 \\.\GDPERF.VXD
-\fp\vPD
 \n4Zv
 \nAbortMessage({
 \nOS memory stats:\n
@@ -2990,6 +2998,8 @@ __pascal
 __ptr64
 __restrict
 __stdcall
+__swift_1
+__swift_2
 __thiscall
 __unaligned
 __vectorcall
@@ -3013,7 +3023,7 @@ _oD>Kg
 `eh vector vbase copy constructor iterator'
 `generic-class-parameter-
 `generic-method-parameter-
-`h`hhh
+`generic-type-
 `local static destructor helper'
 `local static guard'
 `local static thread guard'
@@ -3031,6 +3041,7 @@ _oD>Kg
 `template static data member constructor helper'
 `template static data member destructor helper'
 `template-parameter
+`template-parameter-
 `template-type-parameter-
 `typeof'
 `udt returning'
@@ -3062,6 +3073,7 @@ alloc
 allocated
 allocatedp
 always
+api-ms-win-core-synch-l1-2-0.dll
 arena
 arena.4096.purge
 arena_large
@@ -3089,6 +3101,7 @@ atan
 atan2
 auto
 autoargs
+b\fp\v0
 background_thread
 bad allocation
 bad array new length
@@ -3105,27 +3118,19 @@ c:\buildslave\hlvr_rel_win64\build\src\public\ordered_constructor.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier0\globallist.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier0\tslist.h
 c:\buildslave\hlvr_rel_win64\build\src\tier0\Retail\win64\tier0.pdb
-c:\buildslave\hlvr_rel_win64\build\src\tier0\assert_dialog.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier0\buffer_string.cpp
-c:\buildslave\hlvr_rel_win64\build\src\tier0\cpu.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier0\dbg.cpp
-c:\buildslave\hlvr_rel_win64\build\src\tier0\debugdraw.cpp
-c:\buildslave\hlvr_rel_win64\build\src\tier0\fibertools.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier0\hangwatchdogthread.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier0\hibernate.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier0\logging.cpp
-c:\buildslave\hlvr_rel_win64\build\src\tier0\mem_helpers.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier0\memprocessheap.cpp(379):***** OUT OF MEMORY! attempted allocation size: %I64d ****\n
 c:\buildslave\hlvr_rel_win64\build\src\tier0\memstd.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier0\minidump.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier0\platform.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier0\platform_com.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier0\platform_sdl.cpp
-c:\buildslave\hlvr_rel_win64\build\src\tier0\stackhelpers_windows_dbghelp.cpp
-c:\buildslave\hlvr_rel_win64\build\src\tier0\stacktools.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier0\threadtools.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier0\tier0_strtools.cpp
-c:\buildslave\hlvr_rel_win64\build\src\tier0\vprof.cpp
 c:\source2_minidump_log.txt
 c>F2
 c>v\tk
@@ -3136,6 +3141,7 @@ char
 char 
 char16_t
 char32_t
+char8_t
 class 
 cli::array<
 cli::pin_ptr<
@@ -3182,6 +3188,7 @@ debug
 decay
 decay_dirty
 decay_muzzy
+decltype(auto)
 default
 destroy
 detailed
@@ -3290,7 +3297,6 @@ intdividebyzero
 internal
 interval
 intoverflow
-invalid string position
 invalid_parameter
 jeTb
 jemalloc
@@ -3312,7 +3318,7 @@ lg_prof_sample
 lg_sample
 lg_tcache_max
 linux
-list<T> too long
+list too long
 log10
 log10f
 log_start
@@ -3329,7 +3335,7 @@ mO-B
 m\nXo
 macos
 malloc_conf
-map/set<T> too long
+map/set too long
 mapped
 max_background_threads
 max_num_thds
@@ -3379,6 +3385,7 @@ nslabs
 ntdll
 ntdll.dll
 nthreads
+nullptr
 num_ops
 num_owner_switch
 num_runs
@@ -3394,6 +3401,8 @@ ole32.dll
 oleaut32.dll
 operator
 operator "" 
+operator co_await
+operator<=>
 opt.abort
 opt.abort_conf
 opt.background_thread
@@ -3542,7 +3551,7 @@ uzKs@>
 v2!L.2
 value of the environment variable MALLOC_CONF
 valve.org
-vector<T> too long
+vector too long
 version
 vfbasics.dll
 virtual 
@@ -3568,8 +3577,6 @@ wo=N
 x8}0\t9
 xT?V
 xmalloc
-xpxxxx
-xwpwpp
 yE>cb
 z>h4
 z\r8Pf

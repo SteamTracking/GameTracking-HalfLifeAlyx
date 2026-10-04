@@ -798,6 +798,11 @@ Label.SmallText
 	animation-iteration-count: infinite;
 }
 
+.IsDeckard #WaitingForObject .Chevron
+{
+	opacity-mask: url("s2r://panorama/images/upgrade_station_ui/crafting_station_chevron_mask_deckard_psd.vtex");
+}
+
 @keyframes 'AnimateChevron'
 {
 	0%
@@ -1336,6 +1341,13 @@ Label.SmallText
 	wash-color: #14c7f4; 
 }
 
+.IsDeckard #AnimatedTexture,
+.IsDeckard #AnimatedTextureAlt
+{
+	width: 600px;
+	height: 2600px;
+}
+
 .IsWaitingForObject #AnimatedTextureAlt
 {
 	opacity: .2; 
@@ -1387,4 +1399,28 @@ Label.SmallText
 .HasCancelled #AnimatedTextureAlt {
     opacity: .2;
     transform: translateY(800px);
+}
+
+.IsDeckard.IsWaitingForObject #AnimatedTexture,
+.IsDeckard.IsWaitingForPrintSelect #AnimatedTexture,
+.IsDeckard.HasObject #AnimatedTexture,
+.IsDeckard.IsWaitingForCurrency #AnimatedTexture,
+.IsDeckard.IsCrafting #AnimatedTexture,
+.IsDeckard.HasFinished #AnimatedTexture,
+.IsDeckard.HasCancelled #AnimatedTexture,
+.IsDeckard.IsViewingUpgrade #AnimatedTexture
+{
+	transform: translateY(867px);
+}
+
+.IsDeckard.IsWaitingForObject #AnimatedTextureAlt,
+.IsDeckard.IsWaitingForPrintSelect #AnimatedTextureAlt,
+.IsDeckard.HasObject #AnimatedTextureAlt,
+.IsDeckard.IsWaitingForCurrency #AnimatedTextureAlt,
+.IsDeckard.IsCrafting #AnimatedTextureAlt,
+.IsDeckard.HasFinished #AnimatedTextureAlt,
+.IsDeckard.HasCancelled #AnimatedTextureAlt,
+.IsDeckard.IsViewingUpgrade #AnimatedTextureAlt
+{
+	transform: translateY(347px);
 }

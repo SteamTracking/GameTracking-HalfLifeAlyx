@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	AmbientC17.SpillwayQuadLp = 
 	{
@@ -15,15 +16,15 @@
 			"sounds/ambient/city/amb_spillway_quad_lp_01_l.vsnd",
 		]
 		mixgroup = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 	}
 	AmbientC17.SpillwayQuadLp_R = 
 	{
@@ -32,7 +33,7 @@
 		[
 			"sounds/ambient/city/amb_spillway_quad_lp_01_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientC17.SpillwayQuadLp_LS = 
 	{
@@ -41,7 +42,7 @@
 		[
 			"sounds/ambient/city/amb_spillway_quad_lp_01_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientC17.SpillwayQuadLp_RS = 
 	{
@@ -50,7 +51,7 @@
 		[
 			"sounds/ambient/city/amb_spillway_quad_lp_01_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientC17.SpillwayLp = 
 	{
@@ -59,8 +60,8 @@
 		soundevent_02 = "AmbientC17.SpillwayLp_R"
 		soundevent_03 = "AmbientC17.SpillwayLp_LS"
 		soundevent_04 = "AmbientC17.SpillwayLp_RS"
-		rand_delay_min = -5.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = -5.0
+		rand_delay_max = 0.0
 	}
 	AmbientC17.SpillwayLp_L = 
 	{
@@ -69,37 +70,37 @@
 		vsnd_file_02 = "sounds/ambient/air/amb_a2_pistol_skylight_add_lp_01_l.vsnd"
 		vsnd_vol_01 = "0.9"
 		vsnd_vol_02 = "0.25"
-		volume = 0.900000
-		filter_mix = 0.900000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 0.600000
-		remap_filter_freq_opvar_x2 = 0.000000
-		remap_filter_freq_opvar_y2 = 0.600000
-		remap_filter_freq_opvar_x3 = 0.500000
-		remap_filter_freq_opvar_y3 = 0.700000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 1.000000
+		volume = 0.9
+		filter_mix = 0.9
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 0.6
+		remap_filter_freq_opvar_x2 = 0.0
+		remap_filter_freq_opvar_y2 = 0.6
+		remap_filter_freq_opvar_x3 = 0.5
+		remap_filter_freq_opvar_y3 = 0.7
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 1.0
 	}
 	AmbientC17.SpillwayLp_R = 
 	{
 		base = "AmbientC17.SpillwayLp_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_spillway_quad_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/air/amb_a2_pistol_skylight_add_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientC17.SpillwayLp_LS = 
 	{
 		base = "AmbientC17.SpillwayLp_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_spillway_quad_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/air/amb_a2_pistol_skylight_add_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientC17.SpillwayLp_RS = 
 	{
 		base = "AmbientC17.SpillwayLp_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_spillway_quad_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/air/amb_a2_pistol_skylight_add_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientC17Zoo.ExteriorLp = 
 	{
@@ -108,8 +109,8 @@
 		soundevent_02 = "AmbientC17Zoo.ExteriorLp_R"
 		soundevent_03 = "AmbientC17Zoo.ExteriorLp_LS"
 		soundevent_04 = "AmbientC17Zoo.ExteriorLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientC17Zoo.ExteriorLp_L = 
 	{
@@ -120,16 +121,16 @@
 		vsnd_vol_01 = "0.75"
 		vsnd_vol_02 = "0.4"
 		vsnd_vol_03 = "1.00"
-		volume = 1.000000
-		filter_mix = 0.900000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 0.750000
-		remap_filter_freq_opvar_x2 = 0.000000
-		remap_filter_freq_opvar_y2 = 0.750000
-		remap_filter_freq_opvar_x3 = 0.000000
-		remap_filter_freq_opvar_y3 = 0.750000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 1.000000
+		volume = 1.0
+		filter_mix = 0.9
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 0.75
+		remap_filter_freq_opvar_x2 = 0.0
+		remap_filter_freq_opvar_y2 = 0.75
+		remap_filter_freq_opvar_x3 = 0.0
+		remap_filter_freq_opvar_y3 = 0.75
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 1.0
 	}
 	AmbientC17Zoo.ExteriorLp_R = 
 	{
@@ -137,7 +138,7 @@
 		vsnd_file_01 = "sounds/ambient/city/amb_zoo_ext_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/amb_zoo_ext_monkey_lp_01_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_spillway_quad_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientC17Zoo.ExteriorLp_LS = 
 	{
@@ -145,7 +146,7 @@
 		vsnd_file_01 = "sounds/ambient/city/amb_zoo_ext_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/amb_zoo_ext_monkey_lp_01_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_spillway_quad_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientC17Zoo.ExteriorLp_RS = 
 	{
@@ -153,7 +154,7 @@
 		vsnd_file_01 = "sounds/ambient/city/amb_zoo_ext_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/amb_zoo_ext_monkey_lp_01_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_spillway_quad_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientC17Zoo.HallwaysLp = 
 	{
@@ -162,8 +163,8 @@
 		soundevent_02 = "AmbientC17Zoo.HallwaysLp_R"
 		soundevent_03 = "AmbientC17Zoo.HallwaysLp_LS"
 		soundevent_04 = "AmbientC17Zoo.HallwaysLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientC17Zoo.HallwaysLp_L = 
 	{
@@ -174,27 +175,27 @@
 		vsnd_vol_01 = "0.77"
 		vsnd_vol_02 = "0.94"
 		vsnd_vol_03 = "0.71"
-		volume = 0.900000
+		volume = 0.9
 		global_opvar_name_02 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity_02 = 2.500000
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
-		remap_vol_opvar_02_x1 = 0.000000
-		remap_vol_opvar_02_y1 = 1.000000
-		remap_vol_opvar_02_x2 = 0.450000
-		remap_vol_opvar_02_y2 = 0.500000
-		remap_vol_opvar_02_x3 = 1.000000
-		remap_vol_opvar_02_y3 = 0.000000
-		remap_vol_opvar_02_x4 = 1.000000
-		remap_vol_opvar_02_y4 = 0.000000
-		remap_filter_freq_opvar_02_x1 = 0.000000
-		remap_filter_freq_opvar_02_y1 = 1.000000
-		remap_filter_freq_opvar_02_x2 = 0.000000
-		remap_filter_freq_opvar_02_y2 = 1.000000
-		remap_filter_freq_opvar_02_x3 = 0.000000
-		remap_filter_freq_opvar_02_y3 = 1.000000
-		remap_filter_freq_opvar_02_x4 = 1.000000
-		remap_filter_freq_opvar_02_y4 = 0.750000
+		global_opvar_filter_velocity_02 = 2.5
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
+		remap_vol_opvar_02_x1 = 0.0
+		remap_vol_opvar_02_y1 = 1.0
+		remap_vol_opvar_02_x2 = 0.45
+		remap_vol_opvar_02_y2 = 0.5
+		remap_vol_opvar_02_x3 = 1.0
+		remap_vol_opvar_02_y3 = 0.0
+		remap_vol_opvar_02_x4 = 1.0
+		remap_vol_opvar_02_y4 = 0.0
+		remap_filter_freq_opvar_02_x1 = 0.0
+		remap_filter_freq_opvar_02_y1 = 1.0
+		remap_filter_freq_opvar_02_x2 = 0.0
+		remap_filter_freq_opvar_02_y2 = 1.0
+		remap_filter_freq_opvar_02_x3 = 0.0
+		remap_filter_freq_opvar_02_y3 = 1.0
+		remap_filter_freq_opvar_02_x4 = 1.0
+		remap_filter_freq_opvar_02_y4 = 0.75
 	}
 	AmbientC17Zoo.HallwaysLp_R = 
 	{
@@ -202,7 +203,7 @@
 		vsnd_file_01 = "sounds/ambient/interior/amb_zoo_halls_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/amb_c17_dark_spinning_quad_lp_01_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_a4_c17_antlion_tunnels_02_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientC17Zoo.HallwaysLp_LS = 
 	{
@@ -210,7 +211,7 @@
 		vsnd_file_01 = "sounds/ambient/interior/amb_zoo_halls_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/amb_c17_dark_spinning_quad_lp_01_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_a4_c17_antlion_tunnels_02_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientC17Zoo.HallwaysLp_RS = 
 	{
@@ -218,7 +219,7 @@
 		vsnd_file_01 = "sounds/ambient/interior/amb_zoo_halls_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/amb_c17_dark_spinning_quad_lp_01_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_a4_c17_antlion_tunnels_02_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientC17.ExteriorDroneLp = 
 	{
@@ -227,8 +228,8 @@
 		soundevent_02 = "AmbientC17.ExteriorDroneLp_R"
 		soundevent_03 = "AmbientC17.ExteriorDroneLp_LS"
 		soundevent_04 = "AmbientC17.ExteriorDroneLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientC17.ExteriorDroneLp_L = 
 	{
@@ -239,19 +240,19 @@
 		vsnd_vol_01 = "0.6"
 		vsnd_vol_02 = "1.00"
 		vsnd_vol_03 = "0.75"
-		volume = 0.900000
+		volume = 0.9
 		global_opvar_name_02 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity_02 = 2.500000
-		remap_vol_opvar_02_x1 = 0.000000
-		remap_vol_opvar_02_y1 = 1.000000
-		remap_vol_opvar_02_x2 = 0.200000
-		remap_vol_opvar_02_y2 = 0.900000
-		remap_vol_opvar_02_x3 = 0.500000
-		remap_vol_opvar_02_y3 = 0.650000
-		remap_vol_opvar_02_x4 = 1.000000
-		remap_vol_opvar_02_y4 = 0.300000
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
+		global_opvar_filter_velocity_02 = 2.5
+		remap_vol_opvar_02_x1 = 0.0
+		remap_vol_opvar_02_y1 = 1.0
+		remap_vol_opvar_02_x2 = 0.2
+		remap_vol_opvar_02_y2 = 0.9
+		remap_vol_opvar_02_x3 = 0.5
+		remap_vol_opvar_02_y3 = 0.65
+		remap_vol_opvar_02_x4 = 1.0
+		remap_vol_opvar_02_y4 = 0.3
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
 	}
 	AmbientC17.ExteriorDroneLp_R = 
 	{
@@ -259,7 +260,7 @@
 		vsnd_file_01 = "sounds/ambient/city/amb_c17_dark_spinning_quad_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/a1_city_ext_lp_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_brick_garage_lp_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientC17.ExteriorDroneLp_LS = 
 	{
@@ -267,7 +268,7 @@
 		vsnd_file_01 = "sounds/ambient/city/amb_c17_dark_spinning_quad_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/a1_city_ext_lp_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_brick_garage_lp_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientC17.ExteriorDroneLp_RS = 
 	{
@@ -275,7 +276,7 @@
 		vsnd_file_01 = "sounds/ambient/city/amb_c17_dark_spinning_quad_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/a1_city_ext_lp_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_brick_garage_lp_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientC17.RubbleEchoes01 = 
 	{
@@ -284,8 +285,8 @@
 		soundevent_02 = "AmbientC17.RubbleEchoes01_R"
 		soundevent_03 = "AmbientC17.RubbleEchoes01_LS"
 		soundevent_04 = "AmbientC17.RubbleEchoes01_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientC17.RubbleEchoes01_L = 
 	{
@@ -295,15 +296,15 @@
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_01_l.vsnd",
 		]
 		mixgroup = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 0.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 	}
 	AmbientC17.RubbleEchoes01_R = 
 	{
@@ -312,7 +313,7 @@
 		[
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_01_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientC17.RubbleEchoes01_LS = 
 	{
@@ -321,7 +322,7 @@
 		[
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_01_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientC17.RubbleEchoes01_RS = 
 	{
@@ -330,7 +331,7 @@
 		[
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_01_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientC17.RubbleEchoes02 = 
 	{
@@ -348,15 +349,15 @@
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_02_l.vsnd",
 		]
 		mixgroup = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 0.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 	}
 	AmbientC17.RubbleEchoes02_R = 
 	{
@@ -365,7 +366,7 @@
 		[
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_02_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientC17.RubbleEchoes02_LS = 
 	{
@@ -374,7 +375,7 @@
 		[
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_02_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientC17.RubbleEchoes02_RS = 
 	{
@@ -383,7 +384,7 @@
 		[
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_02_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientC17.RubbleEchoes03 = 
 	{
@@ -401,15 +402,15 @@
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_03_l.vsnd",
 		]
 		mixgroup = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 0.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 	}
 	AmbientC17.RubbleEchoes03_R = 
 	{
@@ -418,7 +419,7 @@
 		[
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_03_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientC17.RubbleEchoes03_LS = 
 	{
@@ -427,7 +428,7 @@
 		[
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_03_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientC17.RubbleEchoes03_RS = 
 	{
@@ -436,7 +437,7 @@
 		[
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_03_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientC17.RubbleEchoes04 = 
 	{
@@ -454,15 +455,15 @@
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_04_l.vsnd",
 		]
 		mixgroup = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 0.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 	}
 	AmbientC17.RubbleEchoes04_R = 
 	{
@@ -471,7 +472,7 @@
 		[
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_04_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientC17.RubbleEchoes04_LS = 
 	{
@@ -480,7 +481,7 @@
 		[
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_04_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientC17.RubbleEchoes04_RS = 
 	{
@@ -489,7 +490,7 @@
 		[
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_04_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientC17.RubbleEchoes05 = 
 	{
@@ -507,15 +508,15 @@
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_05_l.vsnd",
 		]
 		mixgroup = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 0.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 	}
 	AmbientC17.RubbleEchoes05_R = 
 	{
@@ -524,7 +525,7 @@
 		[
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_05_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientC17.RubbleEchoes05_LS = 
 	{
@@ -533,7 +534,7 @@
 		[
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_05_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientC17.RubbleEchoes05_RS = 
 	{
@@ -542,7 +543,7 @@
 		[
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_05_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientC17.RubbleEchoes06 = 
 	{
@@ -560,15 +561,15 @@
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_06_l.vsnd",
 		]
 		mixgroup = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 0.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 	}
 	AmbientC17.RubbleEchoes06_R = 
 	{
@@ -577,7 +578,7 @@
 		[
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_06_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientC17.RubbleEchoes06_LS = 
 	{
@@ -586,7 +587,7 @@
 		[
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_06_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientC17.RubbleEchoes06_RS = 
 	{
@@ -595,7 +596,7 @@
 		[
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_06_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientC17.RubbleEchoes07 = 
 	{
@@ -613,15 +614,15 @@
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_07_l.vsnd",
 		]
 		mixgroup = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 0.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 	}
 	AmbientC17.RubbleEchoes07_R = 
 	{
@@ -630,7 +631,7 @@
 		[
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_07_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientC17.RubbleEchoes07_LS = 
 	{
@@ -639,7 +640,7 @@
 		[
 			"sounds/ambient/rocks/amb_c17_rubble_echoes_07_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientC17.RubbleEchoes07_RS = 
 	{
@@ -653,15 +654,15 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientC17.RubbleEchoesChild"
-		random_soundevent_01_timer_min = 25.000000
-		random_soundevent_01_timer_max = 55.000000
+		random_soundevent_01_timer_min = 25.0
+		random_soundevent_01_timer_max = 55.0
 		global_volume_opvar_01 = "hotel_small_room_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 1.000000
-		remap_global_opvar_01_to_vol_max = 0.000000
+		remap_global_opvar_01_to_vol_min = 1.0
+		remap_global_opvar_01_to_vol_max = 0.0
 		global_volume_opvar_02 = "skylight_proximity_beacon"
-		remap_global_opvar_02_to_vol_min = 0.000000
-		remap_global_opvar_02_to_vol_max = 1.000000
-		use_initial_random_offset = 1.000000
+		remap_global_opvar_02_to_vol_min = 0.0
+		remap_global_opvar_02_to_vol_max = 1.0
+		use_initial_random_offset = 1.0
 	}
 	AmbientC17.RubbleEchoesChild = 
 	{
@@ -681,9 +682,9 @@
 	{
 		base = "AmbientWater.WaterdripSingle"
 		global_volume_opvar_01 = "hotel_small_room_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
-		use_initial_random_offset = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
+		use_initial_random_offset = 1.0
 	}
 	AmbientC17Antlions.SewerIntLp = 
 	{
@@ -692,8 +693,8 @@
 		soundevent_02 = "AmbientC17Antlions.SewerIntLp_R"
 		soundevent_03 = "AmbientC17Antlions.SewerIntLp_LS"
 		soundevent_04 = "AmbientC17Antlions.SewerIntLp_RS"
-		rand_delay_min = -5.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = -5.0
+		rand_delay_max = 0.0
 	}
 	AmbientC17Antlions.SewerIntLp_L = 
 	{
@@ -704,19 +705,19 @@
 		vsnd_vol_01 = "0.90"
 		vsnd_vol_02 = "0.59"
 		vsnd_vol_03 = "0.71"
-		volume = 0.900000
+		volume = 0.9
 		global_opvar_name_02 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity_02 = 2.500000
-		remap_vol_opvar_02_x1 = 0.000000
-		remap_vol_opvar_02_y1 = 1.000000
-		remap_vol_opvar_02_x2 = 0.200000
-		remap_vol_opvar_02_y2 = 0.900000
-		remap_vol_opvar_02_x3 = 0.500000
-		remap_vol_opvar_02_y3 = 0.650000
-		remap_vol_opvar_02_x4 = 1.000000
-		remap_vol_opvar_02_y4 = 0.300000
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
+		global_opvar_filter_velocity_02 = 2.5
+		remap_vol_opvar_02_x1 = 0.0
+		remap_vol_opvar_02_y1 = 1.0
+		remap_vol_opvar_02_x2 = 0.2
+		remap_vol_opvar_02_y2 = 0.9
+		remap_vol_opvar_02_x3 = 0.5
+		remap_vol_opvar_02_y3 = 0.65
+		remap_vol_opvar_02_x4 = 1.0
+		remap_vol_opvar_02_y4 = 0.3
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
 	}
 	AmbientC17Antlions.SewerIntLp_R = 
 	{
@@ -724,7 +725,7 @@
 		vsnd_file_01 = "sounds/ambient/city/amb_a4_c17_antlion_tunnels_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/amb_a4_c17_antlion_tunnels_02_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_strider_building_cave_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientC17Antlions.SewerIntLp_LS = 
 	{
@@ -732,7 +733,7 @@
 		vsnd_file_01 = "sounds/ambient/city/amb_a4_c17_antlion_tunnels_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/amb_a4_c17_antlion_tunnels_02_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_strider_building_cave_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientC17Antlions.SewerIntLp_RS = 
 	{
@@ -740,7 +741,7 @@
 		vsnd_file_01 = "sounds/ambient/city/amb_a4_c17_antlion_tunnels_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/amb_a4_c17_antlion_tunnels_02_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_strider_building_cave_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientC17Antlions.SewerSubBasementLp = 
 	{
@@ -765,29 +766,29 @@
 		vsnd_vol_02 = "0.36"
 		vsnd_vol_03 = "0.44"
 		vsnd_vol_04 = "0.10"
-		volume = 0.900000
+		volume = 0.9
 		global_opvar_name_01 = "hotel_sub_basement_proximity_beacon"
-		global_opvar_filter_velocity = 2.500000
-		remap_vol_opvar_x1 = 0.000000
-		remap_vol_opvar_y1 = 0.000000
-		remap_vol_opvar_x2 = 0.000000
-		remap_vol_opvar_y2 = 0.000000
-		remap_vol_opvar_x3 = 0.500000
-		remap_vol_opvar_y3 = 0.450000
-		remap_vol_opvar_x4 = 1.000000
-		remap_vol_opvar_y4 = 1.000000
+		global_opvar_filter_velocity = 2.5
+		remap_vol_opvar_x1 = 0.0
+		remap_vol_opvar_y1 = 0.0
+		remap_vol_opvar_x2 = 0.0
+		remap_vol_opvar_y2 = 0.0
+		remap_vol_opvar_x3 = 0.5
+		remap_vol_opvar_y3 = 0.45
+		remap_vol_opvar_x4 = 1.0
+		remap_vol_opvar_y4 = 1.0
 		global_opvar_name_02 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity_02 = 2.500000
-		remap_vol_opvar_02_x1 = 0.000000
-		remap_vol_opvar_02_y1 = 1.000000
-		remap_vol_opvar_02_x2 = 0.200000
-		remap_vol_opvar_02_y2 = 0.900000
-		remap_vol_opvar_02_x3 = 0.500000
-		remap_vol_opvar_02_y3 = 0.650000
-		remap_vol_opvar_02_x4 = 1.000000
-		remap_vol_opvar_02_y4 = 0.300000
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
+		global_opvar_filter_velocity_02 = 2.5
+		remap_vol_opvar_02_x1 = 0.0
+		remap_vol_opvar_02_y1 = 1.0
+		remap_vol_opvar_02_x2 = 0.2
+		remap_vol_opvar_02_y2 = 0.9
+		remap_vol_opvar_02_x3 = 0.5
+		remap_vol_opvar_02_y3 = 0.65
+		remap_vol_opvar_02_x4 = 1.0
+		remap_vol_opvar_02_y4 = 0.3
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
 	}
 	AmbientC17Antlions.SewerSubBasementLp_R = 
 	{
@@ -796,7 +797,7 @@
 		vsnd_file_02 = "sounds/ambient/water/amb_cave_waterdrip_quad_lp_01_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/wind/wind_system/amb_cavern_wind_light_lp_01_r.vsnd"
 		vsnd_file_04 = "sounds/ambient/abstract/amb_cave_snow_texture_quad_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientC17Antlions.SewerSubBasementLp_LS = 
 	{
@@ -805,7 +806,7 @@
 		vsnd_file_02 = "sounds/ambient/water/amb_cave_waterdrip_quad_lp_01_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/wind/wind_system/amb_cavern_wind_light_lp_01_ls.vsnd"
 		vsnd_file_04 = "sounds/ambient/abstract/amb_cave_snow_texture_quad_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientC17Antlions.SewerSubBasementLp_RS = 
 	{
@@ -814,15 +815,15 @@
 		vsnd_file_02 = "sounds/ambient/water/amb_cave_waterdrip_quad_lp_01_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/wind/wind_system/amb_cavern_wind_light_lp_01_rs.vsnd"
 		vsnd_file_04 = "sounds/ambient/abstract/amb_cave_snow_texture_quad_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientC17Antlions.RandomBoom = 
 	{
 		base = "AmbientExcavationTunnel.RandomBoom"
 		global_volume_opvar_01 = "hotel_small_room_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
-		use_initial_random_offset = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
+		use_initial_random_offset = 1.0
 	}
 	AmbientC17Antlions.SmallRoomXenLp01 = 
 	{
@@ -831,8 +832,8 @@
 		soundevent_02 = "AmbientC17Antlions.SmallRoomXenLp01_R"
 		soundevent_03 = "AmbientC17Antlions.SmallRoomXenLp01_LS"
 		soundevent_04 = "AmbientC17Antlions.SmallRoomXenLp01_RS"
-		rand_delay_min = -4.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = -4.0
+		rand_delay_max = 0.0
 	}
 	AmbientC17Antlions.SmallRoomXenLp01_L = 
 	{
@@ -843,46 +844,46 @@
 		base = "AmbientC17Antlions.SmallRoomXenLp01_L"
 		vsnd_file_01 = "sounds/ambient/abstract/amb_blue_and_blippy_quad_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/xen/amb_xen_foliage_apt_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientC17Antlions.SmallRoomXenLp01_LS = 
 	{
 		base = "AmbientC17Antlions.SmallRoomXenLp01_L"
 		vsnd_file_01 = "sounds/ambient/abstract/amb_blue_and_blippy_quad_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/xen/amb_xen_foliage_apt_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientC17Antlions.SmallRoomXenLp01_RS = 
 	{
 		base = "AmbientC17Antlions.SmallRoomXenLp01_L"
 		vsnd_file_01 = "sounds/ambient/abstract/amb_blue_and_blippy_quad_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/xen/amb_xen_foliage_apt_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientC17Zoo.RainforestSpeakerLp = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		volume_falloff_min = 48.000000
-		volume_falloff_max = 240.000000
+		volume = 0.8
+		volume_falloff_min = 48.0
+		volume_falloff_max = 240.0
 		spread_min = 40
 		spread_max = 240
 		cull_at_distance = 255
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		mixgroup = "AmbientDSP"
 		reverb_curve_max_distance = 800
 		use_named_send = "Ambient"
-		use_hrtf = 1.000000
-		hrtf_mix = 0.800000
-		occlusion_min = 0.500000
-		occlusion_max = 1.000000
+		use_hrtf = 1.0
+		hrtf_mix = 0.8
+		occlusion_min = 0.5
+		occlusion_max = 1.0
 		vsnd_files = 
 		[
 			"sounds/ambient/radio/zoo/amb_zoo_speakers_rainforest_lp_01.vsnd",
 			"sounds/ambient/radio/zoo/amb_zoo_speakers_rainforest_lp_02.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 240
 		soundname_string = "AmbientC17Zoo.RainforestSpeakerLp"
 	}
@@ -917,31 +918,31 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientC17Zoo.AnnouncerFishChild"
-		random_soundevent_01_timer_min = 10.000000
-		random_soundevent_01_timer_max = 15.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 10.0
+		random_soundevent_01_timer_max = 15.0
+		use_initial_random_offset = 1.0
 	}
 	AmbientC17Zoo.AnnouncerFishChild = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		volume_falloff_min = 48.000000
-		volume_falloff_max = 600.000000
+		volume = 0.8
+		volume_falloff_min = 48.0
+		volume_falloff_max = 600.0
 		spread_min = 40
 		spread_max = 340
-		volume_fade_in = 0.000000
-		volume_fade_out = 0.000000
+		volume_fade_in = 0.0
+		volume_fade_out = 0.0
 		mixgroup = "AmbientDSP"
 		use_named_send = "Ambient"
 		reverb_curve_max_distance = 600
-		use_hrtf = 1.000000
-		hrtf_mix = 0.800000
-		occlusion_scale = 1.000000
-		occlusion_min = 0.300000
-		occlusion_max = 1.000000
+		use_hrtf = 1.0
+		hrtf_mix = 0.8
+		occlusion_scale = 1.0
+		occlusion_min = 0.3
+		occlusion_max = 1.0
 		occlusion_radius = 15
 		vsnd_selection_type = "forward"
-		should_pause = 1.000000
+		should_pause = 1.0
 		vsnd_files = 
 		[
 			"sounds/ambient/radio/zoo/amb_zoo_announcer_fish_01.vsnd",
@@ -951,7 +952,7 @@
 			"sounds/ambient/radio/zoo/amb_zoo_announcer_fish_05.vsnd",
 			"sounds/ambient/radio/zoo/amb_zoo_announcer_fish_06.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 600
 		soundname_string = "AmbientC17Zoo.AnnouncerFishChild"
 	}
@@ -1032,8 +1033,8 @@
 		soundevent_02 = "AmbientC17Zoo.JungleAddinLp_R"
 		soundevent_03 = "AmbientC17Zoo.JungleAddinLp_LS"
 		soundevent_04 = "AmbientC17Zoo.JungleAddinLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientC17Zoo.JungleAddinLp_L = 
 	{
@@ -1042,50 +1043,50 @@
 		vsnd_file_02 = "sounds/ambient/interior/amb_stairwell_addin_lp_l.vsnd"
 		vsnd_vol_01 = "0.90"
 		vsnd_vol_02 = "0.20"
-		volume = 0.700000
-		volume_lfo_freq = 0.050000
-		volume_lfo_scale = 0.150000
+		volume = 0.7
+		volume_lfo_freq = 0.05
+		volume_lfo_scale = 0.15
 		global_opvar_name_01 = "large_room_addin_beacon"
-		remap_vol_opvar_x1 = 0.000000
-		remap_vol_opvar_y1 = 0.000000
-		remap_vol_opvar_x2 = 0.200000
-		remap_vol_opvar_y2 = 0.350000
-		remap_vol_opvar_x3 = 0.500000
-		remap_vol_opvar_y3 = 0.650000
-		remap_vol_opvar_x4 = 1.000000
-		remap_vol_opvar_y4 = 1.000000
-		opvar_to_volume_multiplier_min = 0.000000
-		opvar_to_volume_multiplier = 1.000000
-		filter_mix = 1.000000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 0.000000
-		remap_filter_freq_opvar_x2 = 0.000000
-		remap_filter_freq_opvar_y2 = 0.000000
-		remap_filter_freq_opvar_x3 = 0.500000
-		remap_filter_freq_opvar_y3 = 0.750000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 1.000000
+		remap_vol_opvar_x1 = 0.0
+		remap_vol_opvar_y1 = 0.0
+		remap_vol_opvar_x2 = 0.2
+		remap_vol_opvar_y2 = 0.35
+		remap_vol_opvar_x3 = 0.5
+		remap_vol_opvar_y3 = 0.65
+		remap_vol_opvar_x4 = 1.0
+		remap_vol_opvar_y4 = 1.0
+		opvar_to_volume_multiplier_min = 0.0
+		opvar_to_volume_multiplier = 1.0
+		filter_mix = 1.0
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 0.0
+		remap_filter_freq_opvar_x2 = 0.0
+		remap_filter_freq_opvar_y2 = 0.0
+		remap_filter_freq_opvar_x3 = 0.5
+		remap_filter_freq_opvar_y3 = 0.75
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 1.0
 	}
 	AmbientC17Zoo.JungleAddinLp_R = 
 	{
 		base = "AmbientC17Zoo.JungleAddinLp_L"
 		vsnd_file_01 = "sounds/ambient/nature/amb_zoo_sideroom_addin_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_stairwell_addin_lp_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientC17Zoo.JungleAddinLp_LS = 
 	{
 		base = "AmbientC17Zoo.JungleAddinLp_L"
 		vsnd_file_01 = "sounds/ambient/nature/amb_zoo_sideroom_addin_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_stairwell_addin_lp_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientC17Zoo.JungleAddinLp_RS = 
 	{
 		base = "AmbientC17Zoo.JungleAddinLp_L"
 		vsnd_file_01 = "sounds/ambient/nature/amb_zoo_sideroom_addin_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_stairwell_addin_lp_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientC17Zoo.CaveLp = 
 	{
@@ -1094,8 +1095,8 @@
 		soundevent_02 = "AmbientC17Zoo.CaveLp_R"
 		soundevent_03 = "AmbientC17Zoo.CaveLp_LS"
 		soundevent_04 = "AmbientC17Zoo.CaveLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientC17Zoo.CaveLp_L = 
 	{
@@ -1112,15 +1113,15 @@
 		vsnd_vol_05 = "0.43"
 		global_opvar_name_01 = "large_room_addin_beacon"
 		mixgroup = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 250
 		spread_max = 250
-		volume = 0.900000
+		volume = 0.9
 	}
 	AmbientC17Zoo.CaveLp_R = 
 	{
@@ -1130,7 +1131,7 @@
 		vsnd_file_03 = "sounds/ambient/water/amb_cave_waterdrip_quad_lp_01_r.vsnd"
 		vsnd_file_04 = "sounds/ambient/city/amb_strider_building_cave_lp_01_r.vsnd"
 		vsnd_file_05 = "sounds/ambient/wind/wind_system/amb_cavern_wind_light_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientC17Zoo.CaveLp_LS = 
 	{
@@ -1140,7 +1141,7 @@
 		vsnd_file_03 = "sounds/ambient/water/amb_cave_waterdrip_quad_lp_01_ls.vsnd"
 		vsnd_file_04 = "sounds/ambient/city/amb_strider_building_cave_lp_01_ls.vsnd"
 		vsnd_file_05 = "sounds/ambient/wind/wind_system/amb_cavern_wind_light_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientC17Zoo.CaveLp_RS = 
 	{
@@ -1150,6 +1151,6 @@
 		vsnd_file_03 = "sounds/ambient/water/amb_cave_waterdrip_quad_lp_01_rs.vsnd"
 		vsnd_file_04 = "sounds/ambient/city/amb_strider_building_cave_lp_01_rs.vsnd"
 		vsnd_file_05 = "sounds/ambient/wind/wind_system/amb_cavern_wind_light_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 }

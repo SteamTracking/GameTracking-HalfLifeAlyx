@@ -1,12 +1,13 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Foliage.Interact = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.450000
-		occlusion_scale = 0.800000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
+		volume = 0.45
+		occlusion_scale = 0.8
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -20,10 +21,10 @@
 	Foliage.Explosion = 
 	{
 		type = "hlvr_default_3d"
-		delay = 0.500000
-		volume = 1.000000
-		use_hrtf = 1.000000
-		volume_falloff_max = 1500.000000
+		delay = 0.5
+		volume = 1.0
+		use_hrtf = 1.0
+		volume_falloff_max = 1500.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -37,16 +38,16 @@
 	Water.Drip_Splashy_Loop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		volume_fade_in = 0.500000
-		volume_fade_out = 0.500000
-		delay_rand_min = 0.300000
-		delay_rand_max = 0.600000
-		occlusion_scale = 0.800000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 350.000000
-		cull_at_distance = 360.000000
+		volume = 0.6
+		volume_fade_in = 0.5
+		volume_fade_out = 0.5
+		delay_rand_min = 0.3
+		delay_rand_max = 0.6
+		occlusion_scale = 0.8
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 350.0
+		cull_at_distance = 360.0
 		mixgroup = "World"
 		should_pause = "true"
 		vsnd_files = 
@@ -63,8 +64,8 @@
 	Lock_Door_Default.Unlock = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -74,8 +75,8 @@
 	Lock_Door_Default.Lock = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -85,8 +86,8 @@
 	Powered_Door.Power_Up = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -96,8 +97,8 @@
 	Powered_Door.Unlock = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -111,11 +112,11 @@
 	VidLink.Incoming_Call = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "World"
-		spread_min = 10.000000
-		spread_max = 20.000000
+		spread_min = 10.0
+		spread_max = 20.0
 		vsnd_files = 
 		[
 			"sounds/world/misc/vidlink_call.vsnd",
@@ -124,8 +125,8 @@
 	VidLink.End_Call = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.650000
-		use_hrtf = 1.000000
+		volume = 0.65
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -135,16 +136,16 @@
 	Spark.Short = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.550000
-		volume_rand_min = -0.050000
-		volume_rand_max = 0.050000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		occlusion_scale = 0.800000
-		occlusion_radius = 20.000000
-		use_hrtf = 1.000000
-		volume_falloff_max = 800.000000
-		distance_max = 801.000000
+		volume = 0.55
+		volume_rand_min = -0.05
+		volume_rand_max = 0.05
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		occlusion_scale = 0.8
+		occlusion_radius = 20.0
+		use_hrtf = 1.0
+		volume_falloff_max = 800.0
+		distance_max = 801.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -167,17 +168,17 @@
 	Spark.Short_Subtle = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		volume_rand_min = -0.050000
-		volume_rand_max = 0.050000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		occlusion_scale = 0.900000
-		occlusion_radius = 20.000000
-		use_hrtf = 1.000000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 500.000000
-		distance_max = 501.000000
+		volume = 0.4
+		volume_rand_min = -0.05
+		volume_rand_max = 0.05
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		occlusion_scale = 0.9
+		occlusion_radius = 20.0
+		use_hrtf = 1.0
+		volume_falloff_min = 100.0
+		volume_falloff_max = 500.0
+		distance_max = 501.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -200,17 +201,17 @@
 	Spark.Short_Subtle_A2Scripted = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		volume_rand_min = -0.050000
-		volume_rand_max = 0.050000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		occlusion_scale = 0.500000
-		occlusion_radius = 20.000000
-		use_hrtf = 1.000000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 500.000000
-		distance_max = 501.000000
+		volume = 0.4
+		volume_rand_min = -0.05
+		volume_rand_max = 0.05
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		occlusion_scale = 0.5
+		occlusion_radius = 20.0
+		use_hrtf = 1.0
+		volume_falloff_min = 100.0
+		volume_falloff_max = 500.0
+		distance_max = 501.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -233,17 +234,17 @@
 	Spark.Tiny = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.250000
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.020000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		occlusion_scale = 0.900000
-		occlusion_radius = 20.000000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
-		distance_max = 501.000000
+		volume = 0.25
+		volume_rand_min = -0.02
+		volume_rand_max = 0.02
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		occlusion_scale = 0.9
+		occlusion_radius = 20.0
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
+		distance_max = 501.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -264,13 +265,13 @@
 	Spark.Large = 
 	{
 		type = "hlvr_default_3d"
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.020000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		occlusion_scale = 0.500000
-		use_hrtf = 1.000000
-		volume_falloff_max = 2000.000000
+		volume_rand_min = -0.02
+		volume_rand_max = 0.02
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		occlusion_scale = 0.5
+		use_hrtf = 1.0
+		volume_falloff_max = 2000.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -293,14 +294,14 @@
 	Spark.Short_Sparkles = 
 	{
 		type = "hlvr_default_3d"
-		volume_rand_min = -0.050000
-		volume_rand_max = 0.050000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		occlusion_scale = 0.200000
-		use_hrtf = 1.000000
-		volume_falloff_max = 600.000000
-		distance_max = 601.000000
+		volume_rand_min = -0.05
+		volume_rand_max = 0.05
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		occlusion_scale = 0.2
+		use_hrtf = 1.0
+		volume_falloff_max = 600.0
+		distance_max = 601.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -323,10 +324,10 @@
 	JunctionBox.Clunk = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		occlusion_scale = 0.700000
-		use_hrtf = 1.000000
-		volume_falloff_max = 500.000000
+		volume = 0.5
+		occlusion_scale = 0.7
+		use_hrtf = 1.0
+		volume_falloff_max = 500.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -336,9 +337,9 @@
 	DoorHandle_Metal.Break = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.950000
-		use_hrtf = 1.000000
-		volume_falloff_max = 800.000000
+		volume = 0.95
+		use_hrtf = 1.0
+		volume_falloff_max = 800.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -348,10 +349,10 @@
 	Luggage_Cart.Roll_Loop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		volume_fade_in = 0.500000
-		volume_fade_out = 0.500000
-		volume_falloff_max = 1500.000000
+		volume = 0.7
+		volume_fade_in = 0.5
+		volume_fade_out = 0.5
+		volume_falloff_max = 1500.0
 		mixgroup = "World"
 		should_pause = "true"
 		vsnd_files = 
@@ -363,50 +364,50 @@
 	Siren.Citywide_Alert_Loop = 
 	{
 		type = "hlvr_2d_remap_opvar"
-		volume = 0.400000
-		volume_fade_in = 0.500000
-		volume_fade_out = 3.000000
-		volume_filter_amount = 0.500000
-		freq_filter_amount = 0.500000
+		volume = 0.4
+		volume_fade_in = 0.5
+		volume_fade_out = 3.0
+		volume_filter_amount = 0.5
+		freq_filter_amount = 0.5
 		mixgroup = "World"
 		voicegraph_name = "hlvr.2d_lpf"
 		global_opvar_name = "skylight_proximity_beacon"
-		filter_mix = 0.700000
+		filter_mix = 0.7
 		should_pause = true
 		vsnd_files = 
 		[
 			"sounds/world/misc/city17_siren_loop.vsnd",
 		]
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 0.400000
-		remap_opvar_to_freq_x2 = 1.000000
-		remap_opvar_to_freq_y2 = 1.000000
-		remap_opvar_to_freq_x3 = 1.000000
-		remap_opvar_to_freq_y3 = 1.000000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 1.000000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 0.300000
-		remap_opvar_to_vol_x2 = 1.000000
-		remap_opvar_to_vol_y2 = 0.700000
-		remap_opvar_to_vol_x3 = 1.000000
-		remap_opvar_to_vol_y3 = 0.700000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 0.700000
-		fade_over_time_x1 = 0.000000
-		fade_over_time_y1 = 1.000000
-		fade_over_time_x2 = 10.000000
-		fade_over_time_y2 = 1.000000
-		fade_over_time_x3 = 30.000000
-		fade_over_time_y3 = 0.300000
-		fade_over_time_x4 = 30.000000
-		fade_over_time_y4 = 0.300000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 0.4
+		remap_opvar_to_freq_x2 = 1.0
+		remap_opvar_to_freq_y2 = 1.0
+		remap_opvar_to_freq_x3 = 1.0
+		remap_opvar_to_freq_y3 = 1.0
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 1.0
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 0.3
+		remap_opvar_to_vol_x2 = 1.0
+		remap_opvar_to_vol_y2 = 0.7
+		remap_opvar_to_vol_x3 = 1.0
+		remap_opvar_to_vol_y3 = 0.7
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 0.7
+		fade_over_time_x1 = 0.0
+		fade_over_time_y1 = 1.0
+		fade_over_time_x2 = 10.0
+		fade_over_time_y2 = 1.0
+		fade_over_time_x3 = 30.0
+		fade_over_time_y3 = 0.3
+		fade_over_time_x4 = 30.0
+		fade_over_time_y4 = 0.3
 	}
 	AlarmBell.Loop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "World"
 		should_pause = "true"
 		vsnd_files = 
@@ -417,12 +418,12 @@
 	AlarmBell.Loop_Trainyard = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 3000.000000
-		volume_fade_in = 0.500000
-		volume_fade_out = 1.000000
-		use_hrtf = 1.000000
+		volume = 0.8
+		volume_falloff_min = 400.0
+		volume_falloff_max = 3000.0
+		volume_fade_in = 0.5
+		volume_fade_out = 1.0
+		use_hrtf = 1.0
 		mixgroup = "World"
 		should_pause = "true"
 		vsnd_files = 
@@ -433,10 +434,10 @@
 	AlarmBell.Train_Crossing_Oneshot = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		volume_fade_in = 0.500000
-		volume_fade_out = 1.000000
-		use_hrtf = 1.000000
+		volume = 0.8
+		volume_fade_in = 0.5
+		volume_fade_out = 1.0
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -449,7 +450,7 @@
 	Alarm.Combine_Oneshot = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -459,10 +460,10 @@
 	Alarm_Buzzer.Trainyard_Oneshot = 
 	{
 		type = "hlvr_default_3d"
-		volume_falloff_min = 50.000000
-		spread_min = 10.000000
-		spread_max = 20.000000
-		occlusion_scale = 0.500000
+		volume_falloff_min = 50.0
+		spread_min = 10.0
+		spread_max = 20.0
+		occlusion_scale = 0.5
 		mixgroup = "CombineMachines"
 		vsnd_files = 
 		[
@@ -472,7 +473,7 @@
 	NoiseHazard.Table = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.850000
+		volume = 0.85
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -482,7 +483,7 @@
 	NoiseHazard.Wheel = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -494,8 +495,8 @@
 	Door_Distillery_Vertical_Large.Start = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -505,8 +506,8 @@
 	Door_Distillery_Vertical_Large.Stop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -516,8 +517,8 @@
 	Door_Zoo_Vertical_Large.Stop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -527,8 +528,8 @@
 	Elevator_Apartment.Door_Start = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -541,8 +542,8 @@
 	Elevator_Apartment.Door_Stop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -553,7 +554,7 @@
 	Elevator_Apartment.Move_Oneshot = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
+		volume = 0.5
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -563,7 +564,7 @@
 	Elevator_Apartment.Move_Stop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
+		volume = 0.4
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -573,8 +574,8 @@
 	Elevator_Apartment.Light_Flicker = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		use_hrtf = 1.000000
+		volume = 0.3
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -586,8 +587,8 @@
 	Elevator_Apartment.Ding = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.950000
-		use_hrtf = 1.000000
+		volume = 0.95
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -597,8 +598,8 @@
 	Elevator_Shared.Power_On = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -608,9 +609,9 @@
 	Elevator_Shared.Start_Layer = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
-		hrtf_mix = 0.500000
+		volume = 0.8
+		use_hrtf = 1.0
+		hrtf_mix = 0.5
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -620,14 +621,14 @@
 	Elevator_Shared.Start_Layer_Light = 
 	{
 		base = "Elevator_Shared.Start_Layer"
-		volume = 0.600000
+		volume = 0.6
 	}
 	Elevator_Shared.Stop_Layer = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
-		hrtf_mix = 0.500000
+		volume = 0.9
+		use_hrtf = 1.0
+		hrtf_mix = 0.5
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -637,15 +638,15 @@
 	Elevator_Shared.Stop_Layer_Light = 
 	{
 		base = "Elevator_Shared.Stop_Layer"
-		volume = 0.550000
+		volume = 0.55
 	}
 	Elevator_Train_Station.Move_Loop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "World"
 		should_pause = "true"
-		block_pitch_from_code = 1.000000
+		block_pitch_from_code = 1.0
 		vsnd_files = 
 		[
 			"sounds/world/elevator_trainstation/move_loop.vsnd",
@@ -656,13 +657,13 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "Elevator_Train_Station.Move_Start_Core"
 		soundevent_02 = "Elevator_Shared.Start_Layer_Light"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	Elevator_Train_Station.Move_Start_Core = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
+		volume = 0.9
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -675,13 +676,13 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "Elevator_Train_Station.Move_Stop_Core"
 		soundevent_02 = "Elevator_Shared.Stop_Layer_Light"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	Elevator_Train_Station.Move_Stop_Core = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
+		volume = 0.9
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -692,7 +693,7 @@
 	Elevator_Cage_Door.Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -702,7 +703,7 @@
 	Elevator_Cage_Door.Close = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -713,17 +714,17 @@
 	{
 		type = "hlvr_rand_parent"
 		random_soundevent_01_name = "Elevator_Distillery.Mechanism_Broken_Child"
-		random_soundevent_01_timer_min = 1.800000
-		random_soundevent_01_timer_max = 1.900000
+		random_soundevent_01_timer_min = 1.8
+		random_soundevent_01_timer_max = 1.9
 	}
 	Elevator_Distillery.Mechanism_Broken_Child = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
-		volume_falloff_min = 300.000000
-		volume_falloff_max = 1500.000000
+		volume = 1.4
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
+		volume_falloff_min = 300.0
+		volume_falloff_max = 1500.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -738,8 +739,8 @@
 	Elevator_Distillery.Doors_Jammed = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.9
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -749,10 +750,10 @@
 	Elevator_Distillery.Door_Start = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "World"
-		block_pitch_from_code = 1.000000
+		block_pitch_from_code = 1.0
 		vsnd_files = 
 		[
 			"sounds/world/elevator_distillery/door_start_01.vsnd",
@@ -764,10 +765,10 @@
 	Elevator_Distillery.Door_Stop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "World"
-		block_pitch_from_code = 1.000000
+		block_pitch_from_code = 1.0
 		vsnd_files = 
 		[
 			"sounds/world/elevator_distillery/door_stop_01.vsnd",
@@ -778,9 +779,9 @@
 	Elevator_Distillery.Ding = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
-		volume_falloff_min = 400.000000
+		volume = 1.0
+		use_hrtf = 1.0
+		volume_falloff_min = 400.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -796,13 +797,13 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "Elevator_Distillery.Move_Start_Core"
 		soundevent_02 = "Elevator_Shared.Start_Layer"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	Elevator_Distillery.Move_Start_Core = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -814,13 +815,13 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "Elevator_Distillery.Move_Stop_Core"
 		soundevent_02 = "Elevator_Shared.Stop_Layer"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	Elevator_Distillery.Move_Stop_Core = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
+		volume = 1.2
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -830,11 +831,11 @@
 	Elevator_Distillery.Call_Move = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		hrtf_mix = 0.500000
-		volume = 1.200000
-		volume_falloff_min = 300.000000
-		volume_falloff_max = 3000.000000
+		use_hrtf = 1.0
+		hrtf_mix = 0.5
+		volume = 1.2
+		volume_falloff_min = 300.0
+		volume_falloff_max = 3000.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -844,12 +845,12 @@
 	Elevator_Distillery.Move_Parent = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_fade_in = 1.000000
-		volume_fade_out = 0.500000
+		volume = 1.0
+		volume_fade_in = 1.0
+		volume_fade_out = 0.5
 		mixgroup = "World"
 		should_pause = "true"
-		block_pitch_from_code = 1.000000
+		block_pitch_from_code = 1.0
 		vsnd_files = 
 		[
 			"sounds/world/elevator_distillery/move_loop.vsnd",
@@ -858,10 +859,10 @@
 	Elevator_Parking_Garage.Power_Up = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
-		volume_falloff_min = 600.000000
-		volume_falloff_max = 4000.000000
+		volume = 1.2
+		use_hrtf = 1.0
+		volume_falloff_min = 600.0
+		volume_falloff_max = 4000.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -871,8 +872,8 @@
 	Elevator_Parking_Garage.Door_Move_Start = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.9
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -883,8 +884,8 @@
 	Elevator_Parking_Garage.Door_Move_Stop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.9
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -897,16 +898,16 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "Elevator_Parking_Garage.Move_Start_Core"
 		soundevent_02 = "Elevator_Shared.Start_Layer"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	Elevator_Parking_Garage.Move_Start_Core = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_min = 800.000000
-		volume_falloff_max = 3000.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		volume_falloff_min = 800.0
+		volume_falloff_max = 3000.0
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -919,16 +920,16 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "Elevator_Parking_Garage.Move_Stop_Core"
 		soundevent_02 = "Elevator_Shared.Stop_Layer"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	Elevator_Parking_Garage.Move_Stop_Core = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_min = 800.000000
-		volume_falloff_max = 3000.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		volume_falloff_min = 800.0
+		volume_falloff_max = 3000.0
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -939,12 +940,12 @@
 	Elevator_Parking_Garage.Move_Loop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_fade_in = 1.000000
-		volume_fade_out = 0.100000
+		volume = 0.5
+		volume_fade_in = 1.0
+		volume_fade_out = 0.1
 		mixgroup = "World"
 		should_pause = "true"
-		block_pitch_from_code = 1.000000
+		block_pitch_from_code = 1.0
 		vsnd_files = 
 		[
 			"sounds/world/elevator_parking_garage/move_loop.vsnd",
@@ -953,13 +954,13 @@
 	Headcrab_Trap.Move_Start = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		use_hrtf = 1.000000
-		block_pitch_from_code = 1.000000
+		volume = 0.75
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		use_hrtf = 1.0
+		block_pitch_from_code = 1.0
 		mixgroup = "World"
-		block_duration = 1.000000
+		block_duration = 1.0
 		block_match_this_event = true
 		vsnd_files = 
 		[
@@ -970,13 +971,13 @@
 	Headcrab_Trap.Move_Stop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		use_hrtf = 1.000000
-		block_pitch_from_code = 1.000000
+		volume = 0.75
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		use_hrtf = 1.0
+		block_pitch_from_code = 1.0
 		mixgroup = "World"
-		block_duration = 1.000000
+		block_duration = 1.0
 		block_match_this_event = true
 		vsnd_files = 
 		[
@@ -987,32 +988,32 @@
 	Speaker_Distillery.Pop_On = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.9
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = "sounds/world/misc/distillery_radio_pop_on.vsnd"
 	}
 	Speaker_Distillery.Elevator_Start = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = "sounds/world/misc/distillery_elevator_speaker_start.vsnd"
 	}
 	Speaker_Distillery.Elevator_Stop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = "sounds/world/misc/distillery_elevator_speaker_stop.vsnd"
 	}
 	Trash_Compactor.Inner_Door_Start = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
+		volume = 0.6
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -1024,8 +1025,8 @@
 	Trash_Compactor.Inner_Door_Stop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
+		volume = 0.6
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -1036,8 +1037,8 @@
 	Trash_Compactor.Inner_Door_Pneumatics_Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.5
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -1047,8 +1048,8 @@
 	Trash_Compactor.Inner_Door_Pneumatics_Close = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.5
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -1058,8 +1059,8 @@
 	Trash_Compactor.Door_Start = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
+		volume = 0.6
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -1072,8 +1073,8 @@
 	Trash_Compactor.Door_Stop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
+		volume = 0.6
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -1085,8 +1086,8 @@
 	Trash_Compactor.Inner_Door_Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
+		volume = 0.6
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -1098,8 +1099,8 @@
 	Trash_Compactor.Inner_Door_Close = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
+		volume = 0.6
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -1111,9 +1112,9 @@
 	Trash_Compactor.Run_Empty = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.200000
+		volume = 1.2
+		use_hrtf = 1.0
+		occlusion_scale = 0.2
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -1123,9 +1124,9 @@
 	Trash_Compactor.Reset = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.200000
+		volume = 0.9
+		use_hrtf = 1.0
+		occlusion_scale = 0.2
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -1138,16 +1139,16 @@
 		soundevent_01 = "Trash_Compactor.Run_BZ_Mechanism"
 		soundevent_02 = "Trash_Compactor.Run_BZ_Screams"
 		soundevent_03 = "Trash_Compactor.Run_BZ_Detail"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	Trash_Compactor.Run_BZ_Mechanism = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 300.000000
-		occlusion_scale = 0.200000
+		volume = 1.2
+		volume_falloff_min = 300.0
+		occlusion_scale = 0.2
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1157,9 +1158,9 @@
 	Trash_Compactor.Run_BZ_Screams = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 300.000000
-		occlusion_scale = 0.200000
+		volume = 1.2
+		volume_falloff_min = 300.0
+		occlusion_scale = 0.2
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1169,9 +1170,9 @@
 	Trash_Compactor.Run_BZ_Detail = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 300.000000
-		occlusion_scale = 0.200000
+		volume = 1.2
+		volume_falloff_min = 300.0
+		occlusion_scale = 0.2
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1183,18 +1184,18 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "Pallet_Winch.Move_Start"
 		soundevent_02 = "Pallet_Winch.Move_Loop"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	Pallet_Winch.Move_Start = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		volume_falloff_min = 400.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
+		volume = 1.4
+		volume_falloff_min = 400.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -1205,13 +1206,13 @@
 	Pallet_Winch.Move_Loop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		volume_falloff_min = 300.000000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
+		volume = 1.4
+		volume_falloff_min = 300.0
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
 		mixgroup = "World"
 		should_pause = "true"
-		block_pitch_from_code = 1.000000
+		block_pitch_from_code = 1.0
 		vsnd_files = 
 		[
 			"sounds/world/pallet_winch/move_lp.vsnd",
@@ -1220,12 +1221,12 @@
 	Pallet_Winch.Move_Stop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 400.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
+		volume = 1.2
+		volume_falloff_min = 400.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -1236,8 +1237,8 @@
 	Pallet_Winch.Clunk = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.9
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -1247,8 +1248,8 @@
 	Pallet_Winch_Vert.Clunk = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -1261,16 +1262,16 @@
 		soundevent_start_name = "Pallet_Winch_Vert.Move_Start"
 		soundevent_loop_name = "Pallet_Winch_Vert.Move_Loop"
 		soundevent_stop_name = "Pallet_Winch_Vert.Move_Stop"
-		use_start = 1.000000
-		use_loop = 1.000000
-		use_stop = 1.000000
+		use_start = 1.0
+		use_loop = 1.0
+		use_stop = 1.0
 	}
 	Pallet_Winch_Vert.Move_Start = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		volume_falloff_min = 300.000000
-		use_hrtf = 1.000000
+		volume = 0.7
+		volume_falloff_min = 300.0
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -1282,13 +1283,13 @@
 	Pallet_Winch_Vert.Move_Loop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
-		volume_fade_in = 1.000000
-		volume_fade_out = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
+		volume_fade_in = 1.0
+		volume_fade_out = 1.0
 		mixgroup = "World"
 		should_pause = "true"
-		block_pitch_from_code = 1.000000
+		block_pitch_from_code = 1.0
 		vsnd_files = 
 		[
 			"sounds/world/scissor_lift/move_loop.vsnd",
@@ -1297,9 +1298,9 @@
 	Pallet_Winch_Vert.Move_Stop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		volume_falloff_min = 300.000000
-		use_hrtf = 1.000000
+		volume = 0.7
+		volume_falloff_min = 300.0
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -1311,8 +1312,8 @@
 	Pallet_Lever.Powerup = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.5
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -1322,9 +1323,9 @@
 	Pallet_Lever.Unpowered_Beep = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		use_hrtf = 1.000000
-		pitch = 0.900000
+		volume = 0.3
+		use_hrtf = 1.0
+		pitch = 0.9
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -1334,12 +1335,12 @@
 	Waste_Pit_Lift.Move_Start = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		block_volume_atten = 1.000000
-		use_hrtf = 1.000000
+		volume = 0.9
+		block_volume_atten = 1.0
+		use_hrtf = 1.0
 		mixgroup = "World"
-		block_pitch_from_code = 1.000000
-		block_duration = 2.000000
+		block_pitch_from_code = 1.0
+		block_duration = 2.0
 		block_match_this_event = true
 		vsnd_files = 
 		[
@@ -1350,16 +1351,16 @@
 	Waste_Pit_Lift.Move_Loop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 800.000000
-		volume_fade_in = 1.000000
-		block_volume_atten = 1.000000
-		volume_fade_out = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 800.0
+		volume_fade_in = 1.0
+		block_volume_atten = 1.0
+		volume_fade_out = 1.0
 		mixgroup = "World"
 		should_pause = "true"
-		block_pitch_from_code = 1.000000
+		block_pitch_from_code = 1.0
 		vsnd_files = 
 		[
 			"sounds/world/waste_pit_lift/move_loop.vsnd",
@@ -1368,12 +1369,12 @@
 	Waste_Pit_Lift.Bump = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		volume_falloff_max = 1000.000000
-		use_hrtf = 1.000000
+		volume = 0.9
+		volume_falloff_max = 1000.0
+		use_hrtf = 1.0
 		mixgroup = "World"
-		block_pitch_from_code = 1.000000
-		block_duration = 2.000000
+		block_pitch_from_code = 1.0
+		block_duration = 2.0
 		block_match_this_event = true
 		vsnd_files = 
 		[
@@ -1385,9 +1386,9 @@
 	Waste_Pit_Bridge.Start = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
+		volume = 1.0
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -1398,9 +1399,9 @@
 	Waste_Pit_Bridge.Stop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
+		volume = 1.0
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -1411,9 +1412,9 @@
 	Waste_Pit_Bridge.Loop = 
 	{
 		type = "hlvr_default_3d"
-		volume_fade_out = 0.100000
-		volume_falloff_max = 1500.000000
-		use_hrtf = 1.000000
+		volume_fade_out = 0.1
+		volume_falloff_max = 1500.0
+		use_hrtf = 1.0
 		mixgroup = "World"
 		should_pause = "true"
 		vsnd_files = 
@@ -1425,7 +1426,7 @@
 	Waste_Pit_Bridge.Lock = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -1439,10 +1440,10 @@
 	Rolling_Chainlink_Gate.Loop = 
 	{
 		type = "hlvr_default_3d"
-		volume_fade_in = 0.100000
-		volume_fade_out = 0.100000
-		volume_falloff_max = 1000.000000
-		use_hrtf = 1.000000
+		volume_fade_in = 0.1
+		volume_fade_out = 0.1
+		volume_falloff_max = 1000.0
+		use_hrtf = 1.0
 		mixgroup = "World"
 		should_pause = "true"
 		vsnd_files = 
@@ -1453,9 +1454,9 @@
 	Rolling_Chainlink_Gate.Stop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_falloff_max = 1000.000000
-		use_hrtf = 1.000000
+		volume = 0.5
+		volume_falloff_max = 1000.0
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -1466,13 +1467,13 @@
 	NPC_Crow.Flap = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		volume_fade_in = 0.500000
-		volume_fade_out = 0.500000
-		volume_falloff_max = 400.000000
-		cull_at_distance = 500.000000
-		occlusion_scale = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.9
+		volume_fade_in = 0.5
+		volume_fade_out = 0.5
+		volume_falloff_max = 400.0
+		cull_at_distance = 500.0
+		occlusion_scale = 0.9
+		use_hrtf = 1.0
 		mixgroup = "World"
 		should_pause = "true"
 		vsnd_files = 
@@ -1485,18 +1486,18 @@
 	NPC_Crow.Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		volume_falloff_max = 1000.000000
-		distance_max = 1001.000000
-		occlusion_scale = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.8
+		volume_falloff_max = 1000.0
+		distance_max = 1001.0
+		occlusion_scale = 0.9
+		use_hrtf = 1.0
 		mixgroup = "World"
 	}
 	NPC_Crow.Gib = 
 	{
 		base = "NPC_Crow.Base"
-		volume = 0.500000
-		volume_falloff_min = 200.000000
+		volume = 0.5
+		volume_falloff_min = 200.0
 		vsnd_files = 
 		[
 			"sounds/damage/break_npc_critter_01.vsnd",
@@ -1524,10 +1525,10 @@
 	NPC_Crow.Idle = 
 	{
 		base = "NPC_Crow.Base"
-		volume = 0.600000
-		chance_to_play = 3.000000
-		volume_falloff_max = 600.000000
-		distance_max = 601.000000
+		volume = 0.6
+		chance_to_play = 3.0
+		volume_falloff_max = 600.0
+		distance_max = 601.0
 		vsnd_files = 
 		[
 			"sounds/world/critters/crow/idle_croak_01.vsnd",
@@ -1541,9 +1542,9 @@
 	NPC_Crow.Wings_Jump = 
 	{
 		base = "NPC_Crow.Base"
-		volume = 1.000000
-		volume_falloff_max = 400.000000
-		distance_max = 401.000000
+		volume = 1.0
+		volume_falloff_max = 400.0
+		distance_max = 401.0
 		vsnd_files = 
 		[
 			"sounds/world/critters/crow/wings_jump_01.vsnd",
@@ -1555,12 +1556,12 @@
 	NPC_Crow.Squawk_Short = 
 	{
 		base = "NPC_Crow.Base"
-		volume = 0.700000
-		delay_rand_min = 0.100000
-		delay_rand_max = 0.300000
-		block_duration = 2.000000
+		volume = 0.7
+		delay_rand_min = 0.1
+		delay_rand_max = 0.3
+		block_duration = 2.0
 		block_match_this_event = true
-		block_distance = 200.000000
+		block_distance = 200.0
 		vsnd_files = 
 		[
 			"sounds/world/critters/crow/squawk_short_01.vsnd",
@@ -1589,26 +1590,26 @@
 		type = "hlvr_start_multi_switch"
 		soundevent_01 = "NPC_Crow.Squawk_Call"
 		soundevent_02 = "NPC_Crow.Squawk_Short"
-		soundevent_split = 0.500000
+		soundevent_split = 0.5
 	}
 	NPC_Crow.Scripted_Takeoff = 
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "NPC_Crow.Wings_Jump"
 		soundevent_02 = "NPC_Crow.Squawk_Takeoff"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	NPC_Pigeon.Flap = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		volume_fade_in = 1.000000
-		volume_fade_out = 0.500000
-		volume_falloff_max = 400.000000
-		cull_at_distance = 500.000000
-		occlusion_scale = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.8
+		volume_fade_in = 1.0
+		volume_fade_out = 0.5
+		volume_falloff_max = 400.0
+		cull_at_distance = 500.0
+		occlusion_scale = 0.9
+		use_hrtf = 1.0
 		mixgroup = "World"
 		should_pause = "true"
 		vsnd_files = 
@@ -1621,21 +1622,21 @@
 	NPC_Pigeon.Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 700.000000
-		distance_max = 701.000000
-		occlusion_scale = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.5
+		volume_falloff_min = 50.0
+		volume_falloff_max = 700.0
+		distance_max = 701.0
+		occlusion_scale = 0.8
+		use_hrtf = 1.0
 		mixgroup = "World"
 	}
 	NPC_Pigeon.Gib = 
 	{
 		base = "NPC_Pigeon.Base"
-		volume = 0.700000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 1500.000000
-		distance_max = 1501.000000
+		volume = 0.7
+		volume_falloff_min = 200.0
+		volume_falloff_max = 1500.0
+		distance_max = 1501.0
 		vsnd_files = 
 		[
 			"sounds/damage/break_npc_critter_01.vsnd",
@@ -1646,11 +1647,11 @@
 	NPC_Pigeon.Pain = 
 	{
 		base = "NPC_Pigeon.Base"
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
-		limiter_match_event = 1.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		limiter_on = 1.0
+		limiter_max = 0.0
+		limiter_match_event = 1.0
 		vsnd_files = 
 		[
 			"sounds/world/critters/pigeon/pain.vsnd",
@@ -1659,14 +1660,14 @@
 	NPC_Pigeon.Squawk = 
 	{
 		base = "NPC_Pigeon.Base"
-		volume = 0.500000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
-		limiter_match_event = 1.000000
-		block_duration = 2.000000
-		block_distance = 200.000000
+		volume = 0.5
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		limiter_on = 1.0
+		limiter_max = 0.0
+		limiter_match_event = 1.0
+		block_duration = 2.0
+		block_distance = 200.0
 		block_match_this_event = true
 		vsnd_files = 
 		[
@@ -1676,11 +1677,11 @@
 	NPC_Pigeon.Die = 
 	{
 		base = "NPC_Pigeon.Base"
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
-		limiter_match_event = 1.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		limiter_on = 1.0
+		limiter_max = 0.0
+		limiter_match_event = 1.0
 		vsnd_files = 
 		[
 			"sounds/world/critters/pigeon/die.vsnd",
@@ -1695,26 +1696,26 @@
 		type = "hlvr_start_multi_switch"
 		soundevent_01 = "NPC_Pigeon.Idle_Coo_Long"
 		soundevent_02 = "NPC_Pigeon.Idle_Coo_Short"
-		soundevent_split = 0.500000
+		soundevent_split = 0.5
 	}
 	NPC_Pigeon.Idle_Coo_Long = 
 	{
 		base = "NPC_Pigeon.Base"
-		volume = 0.450000
-		volume_fade_out = 0.500000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		chance_to_play = 6.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
-		distance_max = 501.000000
-		limiter_on = 1.000000
-		limiter_max = 3.000000
-		limiter_match_event = 1.000000
-		delay_rand_min = 0.000000
-		delay_rand_max = 0.500000
-		block_duration = 3.000000
-		block_distance = 200.000000
+		volume = 0.45
+		volume_fade_out = 0.5
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		chance_to_play = 6.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
+		distance_max = 501.0
+		limiter_on = 1.0
+		limiter_max = 3.0
+		limiter_match_event = 1.0
+		delay_rand_min = 0.0
+		delay_rand_max = 0.5
+		block_duration = 3.0
+		block_distance = 200.0
 		block_match_this_event = true
 		vsnd_files = 
 		[
@@ -1726,21 +1727,21 @@
 	NPC_Pigeon.Idle_Coo_Short = 
 	{
 		base = "NPC_Pigeon.Base"
-		volume = 0.450000
-		volume_fade_out = 0.500000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		chance_to_play = 6.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
-		distance_max = 501.000000
-		limiter_on = 1.000000
-		limiter_max = 3.000000
-		limiter_match_event = 1.000000
-		delay_rand_min = 0.000000
-		delay_rand_max = 0.500000
-		block_duration = 3.000000
-		block_distance = 200.000000
+		volume = 0.45
+		volume_fade_out = 0.5
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		chance_to_play = 6.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
+		distance_max = 501.0
+		limiter_on = 1.0
+		limiter_max = 3.0
+		limiter_match_event = 1.0
+		delay_rand_min = 0.0
+		delay_rand_max = 0.5
+		block_duration = 3.0
+		block_distance = 200.0
 		block_match_this_event = true
 		vsnd_files = 
 		[
@@ -1766,16 +1767,16 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "NPC_Pigeon.Wings_Takeoff"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "NPC_Pigeon.Squawk"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	NPC_Pigeon.Wings_Hop = 
 	{
 		base = "NPC_Pigeon.Base"
-		volume = 0.500000
-		volume_falloff_max = 600.000000
-		distance_max = 601.000000
+		volume = 0.5
+		volume_falloff_max = 600.0
+		distance_max = 601.0
 		vsnd_files = 
 		[
 			"sounds/world/critters/pigeon/wings_hop_01.vsnd",
@@ -1787,13 +1788,13 @@
 	NPC_Rat.Squeal = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.100000
-		occlusion_scale = 0.900000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 300.000000
-		distance_max = 301.000000
-		reverb_curve_max_distance = 500.000000
+		volume = 0.1
+		occlusion_scale = 0.9
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 300.0
+		distance_max = 301.0
+		reverb_curve_max_distance = 500.0
 		vsnd_files = 
 		[
 			"sounds/world/critters/rats/rat_die_01.vsnd",
@@ -1806,11 +1807,11 @@
 	Cockroach_Swarm.Large = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		occlusion_scale = 0.500000
-		use_hrtf = 1.000000
-		volume_falloff_max = 400.000000
-		distance_max = 501.000000
+		volume = 0.3
+		occlusion_scale = 0.5
+		use_hrtf = 1.0
+		volume_falloff_max = 400.0
+		distance_max = 501.0
 		vsnd_files = 
 		[
 			"sounds/world/critters/cockroaches/swarm_large_01.vsnd",
@@ -1821,11 +1822,11 @@
 	Cockroach_Swarm.Small = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		occlusion_scale = 0.500000
-		use_hrtf = 1.000000
-		volume_falloff_max = 400.000000
-		distance_max = 501.000000
+		volume = 0.3
+		occlusion_scale = 0.5
+		use_hrtf = 1.0
+		volume_falloff_max = 400.0
+		distance_max = 501.0
 		vsnd_files = 
 		[
 			"sounds/world/critters/cockroaches/swarm_small_01.vsnd",
@@ -1836,15 +1837,15 @@
 	WorldMoviePanel.Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
 		mixgroup = "Screens"
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 300.000000
-		volume_falloff_curve_amount = 0.850000
-		spread_min = 20.000000
-		spread_max = 60.000000
-		occlusion_scale = 1.000000
+		volume_falloff_min = 50.0
+		volume_falloff_max = 300.0
+		volume_falloff_curve_amount = 0.85
+		spread_min = 20.0
+		spread_max = 60.0
+		occlusion_scale = 1.0
 	}
 	WorldMoviePanel.Default = 
 	{
@@ -1854,12 +1855,12 @@
 	WorldMoviePanel.Large = 
 	{
 		base = "WorldMoviePanel.Base"
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 2400.000000
-		volume_falloff_curve_amount = 0.600000
-		spread_min = 100.000000
-		spread_max = 300.000000
-		occlusion_scale = 0.500000
+		volume_falloff_min = 400.0
+		volume_falloff_max = 2400.0
+		volume_falloff_curve_amount = 0.6
+		spread_min = 100.0
+		spread_max = 300.0
+		occlusion_scale = 0.5
 		mixgroup = "Screens"
 	}
 	Toner.Spark = 
@@ -1870,10 +1871,10 @@
 	Toner_Node.Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 600.000000
-		use_hrtf = 1.000000
+		volume = 0.8
+		volume_falloff_min = 50.0
+		volume_falloff_max = 600.0
+		use_hrtf = 1.0
 		mixgroup = "Toner"
 		vsnd_files = 
 		[
@@ -1883,10 +1884,10 @@
 	Toner_Node.Connect = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 600.000000
-		use_hrtf = 1.000000
+		volume = 0.9
+		volume_falloff_min = 50.0
+		volume_falloff_max = 600.0
+		use_hrtf = 1.0
 		mixgroup = "Toner"
 		vsnd_files = 
 		[
@@ -1896,10 +1897,10 @@
 	Toner.PortTurnedOn = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 600.000000
-		use_hrtf = 1.000000
+		volume = 0.9
+		volume_falloff_min = 50.0
+		volume_falloff_max = 600.0
+		use_hrtf = 1.0
 		mixgroup = "Toner"
 		vsnd_files = 
 		[
@@ -1909,10 +1910,10 @@
 	Toner.JunctionRotate = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 600.000000
-		use_hrtf = 1.000000
+		volume = 0.9
+		volume_falloff_min = 50.0
+		volume_falloff_max = 600.0
+		use_hrtf = 1.0
 		mixgroup = "Toner"
 		vsnd_files = 
 		[
@@ -1922,10 +1923,10 @@
 	Toner.PathPowerUp = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 600.000000
-		use_hrtf = 1.000000
+		volume = 0.9
+		volume_falloff_min = 50.0
+		volume_falloff_max = 600.0
+		use_hrtf = 1.0
 		mixgroup = "Toner"
 		vsnd_files = 
 		[
@@ -1935,10 +1936,10 @@
 	Toner.PathPowerDown = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 600.000000
-		use_hrtf = 1.000000
+		volume = 0.9
+		volume_falloff_min = 50.0
+		volume_falloff_max = 600.0
+		use_hrtf = 1.0
 		mixgroup = "Toner"
 		vsnd_files = 
 		[
@@ -1952,10 +1953,10 @@
 		[
 			"match_toner_success",
 		]
-		volume = 0.800000
-		use_hrtf = 1.000000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 600.000000
+		volume = 0.8
+		use_hrtf = 1.0
+		volume_falloff_min = 100.0
+		volume_falloff_max = 600.0
 		vsnd_selection_type = "forward"
 		mixgroup = "Toner"
 		vsnd_files = 
@@ -1976,10 +1977,10 @@
 		[
 			"match_toner_success",
 		]
-		volume = 0.800000
-		use_hrtf = 1.000000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 1000.000000
+		volume = 0.8
+		use_hrtf = 1.0
+		volume_falloff_min = 200.0
+		volume_falloff_max = 1000.0
 		vsnd_selection_type = "forward"
 		mixgroup = "Toner"
 		vsnd_files = 
@@ -1996,10 +1997,10 @@
 	BreakableBoard.Strain = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		use_hrtf = 1.000000
-		volume_falloff_max = 600.000000
-		occlusion_scale = 1.000000
+		volume = 0.3
+		use_hrtf = 1.0
+		volume_falloff_max = 600.0
+		occlusion_scale = 1.0
 		vsnd_files = 
 		[
 			"sounds/world/breakables/board/strain_01.vsnd",
@@ -2013,10 +2014,10 @@
 	BreakableBoard.Nail_Release = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
-		volume_falloff_max = 600.000000
-		occlusion_scale = 1.000000
+		volume = 0.5
+		use_hrtf = 1.0
+		volume_falloff_max = 600.0
+		occlusion_scale = 1.0
 		vsnd_files = 
 		[
 			"sounds/world/breakables/board/nail_release_01.vsnd",
@@ -2027,7 +2028,7 @@
 	Van_Horn.Beep = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		vsnd_files = 
 		[
 			"sounds/world/misc/vehicle_horn_beep_03.vsnd",
@@ -2036,7 +2037,7 @@
 	Car_Horn.Beep = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		vsnd_files = 
 		[
 			"sounds/world/misc/vehicle_horn_beep_01.vsnd",
@@ -2066,12 +2067,12 @@
 	Lock.PadlockBreak = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "WorldObjects"
 		limiter_event_name = "PhysBreak.Default"
-		limiter_on = 1.000000
-		limiter_max = 0.000000
-		limiter_match_event_duration = 1.000000
+		limiter_on = 1.0
+		limiter_max = 0.0
+		limiter_match_event_duration = 1.0
 		vsnd_files = 
 		[
 			"sounds/world/locks/padlock_destroy_01.vsnd",
@@ -2082,17 +2083,17 @@
 	Washing_Machine.Spin = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
-		volume_fade_in = 1.000000
-		volume_fade_out = 1.000000
-		occlusion_scale = 0.300000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 300.000000
-		cull_at_distance = 601.000000
+		volume = 1.0
+		use_hrtf = 1.0
+		volume_fade_in = 1.0
+		volume_fade_out = 1.0
+		occlusion_scale = 0.3
+		volume_falloff_min = 50.0
+		volume_falloff_max = 300.0
+		cull_at_distance = 601.0
 		mixgroup = "WorldMachines"
 		should_pause = "true"
-		block_pitch_from_code = 1.000000
+		block_pitch_from_code = 1.0
 		vsnd_files = 
 		[
 			"sounds/world/misc/washing_machine_drum_loop.vsnd",
@@ -2101,7 +2102,7 @@
 	Vent.AirRelease = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/ambient/air/amb_steam_rush_01.vsnd",
@@ -2115,8 +2116,8 @@
 	Vent.BurstOpen = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
 		vsnd_files = 
 		[
 			"sounds/world/grate/vent_crash_open_01.vsnd",
@@ -2128,8 +2129,8 @@
 	Rotating_Bridge.Finished_Lock = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.9
+		use_hrtf = 1.0
 		vsnd_files = 
 		[
 			"sounds/world/misc/rotating_bridge_lock.vsnd",
@@ -2138,8 +2139,8 @@
 	Steam.PipeLoop_a = 
 	{
 		type = "hlvr_default_3d"
-		volume_falloff_max = 1000.000000
-		volume = 0.500000
+		volume_falloff_max = 1000.0
+		volume = 0.5
 		mixgroup = "WorldMachines"
 		should_pause = "true"
 		vsnd_files = 
@@ -2150,8 +2151,8 @@
 	Steam.PipeLoop_b = 
 	{
 		type = "hlvr_default_3d"
-		volume_falloff_max = 1000.000000
-		volume = 0.500000
+		volume_falloff_max = 1000.0
+		volume = 0.5
 		mixgroup = "WorldMachines"
 		should_pause = "true"
 		vsnd_files = 
@@ -2162,9 +2163,9 @@
 	Steam.HazardLoop = 
 	{
 		type = "hlvr_default_3d"
-		volume_falloff_max = 1000.000000
-		volume = 0.500000
-		occlusion_scale = 0.500000
+		volume_falloff_max = 1000.0
+		volume = 0.5
+		occlusion_scale = 0.5
 		mixgroup = "WorldMachines"
 		should_pause = "true"
 		vsnd_files = 
@@ -2175,8 +2176,8 @@
 	Steam.HazardShutoff = 
 	{
 		type = "hlvr_default_3d"
-		volume_falloff_max = 1000.000000
-		volume = 0.700000
+		volume_falloff_max = 1000.0
+		volume = 0.7
 		mixgroup = "WorldMachines"
 		vsnd_files = 
 		[
@@ -2186,9 +2187,9 @@
 	BarrelFire.Loop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_fade_in = 1.000000
-		volume_fade_out = 1.000000
+		volume = 1.0
+		volume_fade_in = 1.0
+		volume_fade_out = 1.0
 		should_pause = "true"
 		vsnd_files = 
 		[
@@ -2198,8 +2199,8 @@
 	Door_Train_Freight.Slide_Start = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.9
+		use_hrtf = 1.0
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -2210,8 +2211,8 @@
 	Door_Train_Freight.Slide_End = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.9
+		use_hrtf = 1.0
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -2222,8 +2223,8 @@
 	Advisor_Train_Platform.Lower = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -2233,8 +2234,8 @@
 	Advisor_Train_Door.Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.500000
-		use_hrtf = 1.000000
+		volume = 1.5
+		use_hrtf = 1.0
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -2244,8 +2245,8 @@
 	Advisor_Train_Door.Bounce = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -2255,9 +2256,9 @@
 	Door.Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		volume_falloff_max = 500.000000
-		occlusion_scale = 1.000000
+		volume = 0.6
+		volume_falloff_max = 500.0
+		occlusion_scale = 1.0
 		mixgroup = "Doors"
 	}
 	PhysDoor.Metal_Close = 
@@ -2346,11 +2347,11 @@
 	DoorMetal.PhysMovementLp = 
 	{
 		type = "hlvr_update_door_rotating"
-		volume = 0.300000
-		volume_fade_in = 0.010000
-		volume_fade_out = 0.010000
-		volume_falloff_max = 500.000000
-		occlusion_scale = 1.000000
+		volume = 0.3
+		volume_fade_in = 0.01
+		volume_fade_out = 0.01
+		volume_falloff_max = 500.0
+		occlusion_scale = 1.0
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -2400,7 +2401,7 @@
 	Door_Chainlink_Gate.Jiggle = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
+		volume = 0.9
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -2412,11 +2413,11 @@
 	Door.Distillery_Creaky_PhysMovementLp = 
 	{
 		type = "hlvr_update_door_rotating"
-		volume = 1.000000
-		volume_fade_in = 0.010000
-		volume_fade_out = 0.010000
-		volume_falloff_max = 1000.000000
-		occlusion_scale = 0.700000
+		volume = 1.0
+		volume_fade_in = 0.01
+		volume_fade_out = 0.01
+		volume_falloff_max = 1000.0
+		occlusion_scale = 0.7
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -2426,11 +2427,11 @@
 	Door.Distillery_Cage_PhysMovementLp = 
 	{
 		type = "hlvr_update_door_rotating"
-		volume = 1.000000
-		volume_fade_in = 0.010000
-		volume_fade_out = 0.010000
-		volume_falloff_max = 1000.000000
-		occlusion_scale = 0.700000
+		volume = 1.0
+		volume_fade_in = 0.01
+		volume_fade_out = 0.01
+		volume_falloff_max = 1000.0
+		occlusion_scale = 0.7
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -2440,7 +2441,7 @@
 	Door_Van.Move = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
+		volume = 0.3
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -2454,7 +2455,7 @@
 	Door_Van.Latch = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
+		volume = 0.4
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -2465,7 +2466,7 @@
 	Door_Van.Fully_Opened = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
+		volume = 0.4
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -2477,7 +2478,7 @@
 	Door_Van.Fully_Closed = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -2509,9 +2510,9 @@
 	ScissorLift.Move_Start = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		volume_falloff_min = 300.000000
-		use_hrtf = 1.000000
+		volume = 0.8
+		volume_falloff_min = 300.0
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -2523,9 +2524,9 @@
 	ScissorLift.Move_Stop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		volume_falloff_min = 300.000000
-		use_hrtf = 1.000000
+		volume = 0.8
+		volume_falloff_min = 300.0
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -2537,8 +2538,8 @@
 	ScissorLift.Clunk = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -2549,20 +2550,20 @@
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ScissorLift.Move_Loop"
-		use_01 = 1.000000
+		use_01 = 1.0
 		soundevent_02 = "ScissorLift.Move_Rattle_Random"
-		use_02 = 1.000000
+		use_02 = 1.0
 	}
 	ScissorLift.Move_Loop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		use_hrtf = 1.000000
-		volume_fade_in = 1.000000
-		volume_fade_out = 1.000000
+		volume = 0.75
+		use_hrtf = 1.0
+		volume_fade_in = 1.0
+		volume_fade_out = 1.0
 		mixgroup = "World"
 		should_pause = "true"
-		block_pitch_from_code = 1.000000
+		block_pitch_from_code = 1.0
 		vsnd_files = 
 		[
 			"sounds/world/scissor_lift/move_loop.vsnd",
@@ -2572,14 +2573,14 @@
 	{
 		type = "hlvr_rand_parent"
 		random_soundevent_01_name = "ScissorLift.Move_Rattle_Child"
-		random_soundevent_01_timer_min = 3.000000
-		random_soundevent_01_timer_max = 5.000000
+		random_soundevent_01_timer_min = 3.0
+		random_soundevent_01_timer_max = 5.0
 	}
 	ScissorLift.Move_Rattle_Child = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.5
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -2592,7 +2593,7 @@
 	Hideout_Gate.Puzzle_Fail = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -2602,7 +2603,7 @@
 	Hideout_Gate.Puzzle_Success = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -2612,8 +2613,8 @@
 	Hideout_Gate.Winch_Raise = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.850000
-		use_hrtf = 1.000000
+		volume = 0.85
+		use_hrtf = 1.0
 		mixgroup = "World"
 		should_pause = true
 		vsnd_files = 
@@ -2624,8 +2625,8 @@
 	Hideout_Gate.Door_Raise = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.250000
-		use_hrtf = 1.000000
+		volume = 1.25
+		use_hrtf = 1.0
 		mixgroup = "World"
 		should_pause = true
 		vsnd_files = 
@@ -2637,21 +2638,21 @@
 	{
 		type = "hlvr_ambient_burst"
 		soundevent_name = "DebrisCloud.Impact01"
-		burst_length_min = 6.000000
-		burst_length_max = 7.000000
-		delay_timer_min = 0.100000
-		delay_timer_max = 0.150000
-		delay_offset_min = -0.010000
-		delay_offset_max = 0.000000
+		burst_length_min = 6.0
+		burst_length_max = 7.0
+		delay_timer_min = 0.1
+		delay_timer_max = 0.15
+		delay_offset_min = -0.01
+		delay_offset_max = 0.0
 	}
 	DebrisCloud.Impact = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		limiter_on = 1.000000
+		volume = 0.5
+		limiter_on = 1.0
 		limiter_event_name = "DebrisCloud.Impact"
-		limiter_max = 4.000000
-		limiter_match_event_duration = 1.000000
+		limiter_max = 4.0
+		limiter_match_event_duration = 1.0
 		vsnd_files = 
 		[
 			"sounds/world/debris/cardboard_swarm_impact_01.vsnd",
@@ -2664,34 +2665,24 @@
 	DebrisCloud.Impact01 = 
 	{
 		type = "hlvr_ambient_rand_child_in_box"
-		animation_time = 2.000000
+		animation_time = 2.0
 		animation_type = "slerp"
-		position_source = 2.000000
-		animated_source = 0.000000
+		position_source = 2.0
+		animated_source = 0.0
 		make_ortho_vertical = false
-		ortho_distance_min = 100.000000
-		ortho_distance_max = 500.000000
-		animated_target = 1.000000
-		rand_radius_min = 100.000000
-		rand_radius_max = 200.000000
-		use_doppler = 1.000000
-		volume = 0.000000
-		limiter_on = 1.000000
+		ortho_distance_min = 100.0
+		ortho_distance_max = 500.0
+		animated_target = 1.0
+		rand_radius_min = 100.0
+		rand_radius_max = 200.0
+		use_doppler = 1.0
+		volume = 0.0
+		limiter_on = 1.0
 		limiter_event_name = "DebrisCloud.Impact"
-		limiter_max = 8.000000
-		limiter_match_event_duration = 3.000000
-		box_position_01 = 
-		[
-			969.807007,
-			-677.101990,
-			-131.623993,
-		]
-		box_position_02 = 
-		[
-			1053.900024,
-			-629.333984,
-			-1.800000,
-		]
+		limiter_max = 8.0
+		limiter_match_event_duration = 3.0
+		box_position_01 = [ 969.807007, -677.10199, -131.623993 ]
+		box_position_02 = [ 1053.900024, -629.333984, -1.8 ]
 		vsnd_files = 
 		[
 			"sounds/world/debris/cardboard_swarm_impact_01.vsnd",
@@ -2704,9 +2695,9 @@
 	DebrisCloud.LoopSm = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.000000
-		volume_fade_in = 1.000000
-		volume_fade_out = 2.000000
+		volume = 0.0
+		volume_fade_in = 1.0
+		volume_fade_out = 2.0
 		use_world_position = true
 		should_pause = true
 		vsnd_files = 
@@ -2717,7 +2708,7 @@
 	DebrisCloud.LoopLg = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.000000
+		volume = 0.0
 		use_world_position = true
 		should_pause = true
 		vsnd_files = 
@@ -2728,49 +2719,39 @@
 	DebrisCloud.Loop01 = 
 	{
 		type = "hlvr_ambient_swarm_loop"
-		volume_filter_velocity = 0.700000
+		volume_filter_velocity = 0.7
 		soundevent = "DebrisCloud.LoopSm"
-		position_source = 0.000000
-		bounding_box_position_01 = 
-		[
-			969.807007,
-			-677.101990,
-			-131.623993,
-		]
-		bounding_box_position_02 = 
-		[
-			1053.900024,
-			-629.333984,
-			-1.800000,
-		]
+		position_source = 0.0
+		bounding_box_position_01 = [ 969.807007, -677.10199, -131.623993 ]
+		bounding_box_position_02 = [ 1053.900024, -629.333984, -1.8 ]
 		swarm_count_soundevent_name = "DebrisCloud.Impact01"
-		soundevent_count_to_vol_x1 = 0.000000
-		soundevent_count_to_vol_y1 = 0.000000
-		soundevent_count_to_vol_x2 = 2.000000
-		soundevent_count_to_vol_y2 = 0.500000
-		soundevent_count_to_vol_x3 = 5.000000
-		soundevent_count_to_vol_y3 = 1.000000
-		soundevent_count_to_vol_x4 = 7.000000
-		soundevent_count_to_vol_y4 = 0.800000
+		soundevent_count_to_vol_x1 = 0.0
+		soundevent_count_to_vol_y1 = 0.0
+		soundevent_count_to_vol_x2 = 2.0
+		soundevent_count_to_vol_y2 = 0.5
+		soundevent_count_to_vol_x3 = 5.0
+		soundevent_count_to_vol_y3 = 1.0
+		soundevent_count_to_vol_x4 = 7.0
+		soundevent_count_to_vol_y4 = 0.8
 	}
 	DebrisCloud.Loop02 = 
 	{
 		base = "DebrisCloud.Loop01"
 		soundevent = "DebrisCloud.LoopLg"
-		soundevent_count_to_vol_x1 = 0.000000
-		soundevent_count_to_vol_y1 = 0.000000
-		soundevent_count_to_vol_x2 = 3.000000
-		soundevent_count_to_vol_y2 = 0.300000
-		soundevent_count_to_vol_x3 = 7.000000
-		soundevent_count_to_vol_y3 = 0.700000
-		soundevent_count_to_vol_x4 = 8.000000
-		soundevent_count_to_vol_y4 = 1.000000
+		soundevent_count_to_vol_x1 = 0.0
+		soundevent_count_to_vol_y1 = 0.0
+		soundevent_count_to_vol_x2 = 3.0
+		soundevent_count_to_vol_y2 = 0.3
+		soundevent_count_to_vol_x3 = 7.0
+		soundevent_count_to_vol_y3 = 0.7
+		soundevent_count_to_vol_x4 = 8.0
+		soundevent_count_to_vol_y4 = 1.0
 	}
 	DebrisCloud.VortModelBurst01 = 
 	{
 		base = "DebrisCloud.ImpactBurst01"
-		burst_length_min = 7.000000
-		burst_length_max = 7.000000
+		burst_length_min = 7.0
+		burst_length_max = 7.0
 	}
 	DebrisCloud.VortModelBurst02 = 
 	{
@@ -2793,9 +2774,9 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "DebrisCloud.Loop01"
 		soundevent_02 = "DebrisCloud.Loop02"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		stop_at_time = 6.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		stop_at_time = 6.0
 	}
 	DebrisCloud.VortModel02 = 
 	{
@@ -2816,10 +2797,10 @@
 	A4_Chasm_Crane.Stuck_Creak = 
 	{
 		type = "hlvr_default_3d_rand_sat"
-		volume = 0.900000
-		volume_fade_out = 0.500000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		volume = 0.9
+		volume_fade_out = 0.5
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -2832,11 +2813,11 @@
 	A4_Chasm_Crane.Move_Start = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "World"
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = 
 		[
 			"sounds/world/scissor_lift/start_01.vsnd",
@@ -2847,11 +2828,11 @@
 	A4_Chasm_Crane.Move_Stop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "World"
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
 		vsnd_files = 
 		[
 			"sounds/world/scissor_lift/stop_01.vsnd",
@@ -2862,13 +2843,13 @@
 	A4_Chasm_Crane.Move_Loop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
-		volume_fade_in = 1.000000
-		volume_fade_out = 0.100000
+		volume = 1.0
+		use_hrtf = 1.0
+		volume_fade_in = 1.0
+		volume_fade_out = 0.1
 		mixgroup = "World"
 		should_pause = "true"
-		block_pitch_from_code = 1.000000
+		block_pitch_from_code = 1.0
 		vsnd_files = 
 		[
 			"sounds/world/scissor_lift/move_loop.vsnd",
@@ -2877,12 +2858,12 @@
 	World.TurnstileSpin = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 1500.000000
+		volume = 0.6
+		volume_falloff_min = 250.0
+		volume_falloff_max = 1500.0
 		block_event_name = "World.TurnstileSpin"
-		block_match_entity = 1.000000
-		block_duration = 1.000000
+		block_match_entity = 1.0
+		block_duration = 1.0
 		mixgroup = "Doors"
 		vsnd_files = 
 		[
@@ -2896,7 +2877,7 @@
 	TapeMachine.Rewind = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "WorldMachines"
 		vsnd_files = 
 		[
@@ -2906,7 +2887,7 @@
 	Van.Crash = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "LoudEvents"
 		vsnd_files = 
 		[
@@ -2916,12 +2897,12 @@
 	Snark_Jar.Tap = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		pitch_rand_min = -0.020000
-		pitch_rand_max = 0.020000
-		occlusion_scale = 0.500000
-		use_hrtf = 1.000000
-		volume_falloff_max = 500.000000
+		volume = 0.7
+		pitch_rand_min = -0.02
+		pitch_rand_max = 0.02
+		occlusion_scale = 0.5
+		use_hrtf = 1.0
+		volume_falloff_max = 500.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -2937,20 +2918,20 @@
 	Snark_Food.Shake = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.100000
-		volume_fade_out = 1.500000
-		occlusion_scale = 0.500000
-		use_hrtf = 1.000000
-		volume_falloff_max = 500.000000
+		volume = 0.1
+		volume_fade_out = 1.5
+		occlusion_scale = 0.5
+		use_hrtf = 1.0
+		volume_falloff_max = 500.0
 		mixgroup = "World"
 	}
 	World.Metal_Walkway_Creak = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		use_hrtf = 1.000000
+		volume = 0.3
+		use_hrtf = 1.0
 		mixgroup = "World"
-		block_duration = 3.000000
+		block_duration = 3.0
 		block_match_this_event = true
 		vsnd_files = 
 		[
@@ -2964,15 +2945,15 @@
 	RussellMap.Ping = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.000000
-		occlusion_radius = 20.000000
-		use_hrtf = 1.000000
-		hrtf_mix = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 350.000000
-		spread_min = 6.000000
-		spread_max = 36.000000
+		volume = 1.0
+		occlusion_scale = 0.0
+		occlusion_radius = 20.0
+		use_hrtf = 1.0
+		hrtf_mix = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 350.0
+		spread_min = 6.0
+		spread_max = 36.0
 		mixgroup = "World"
 		vsnd_files = 
 		[
@@ -3040,60 +3021,50 @@
 	Vault.TractorBeam = 
 	{
 		type = "hlvr_voicegraph_filter_dynamics_on_capsule"
-		volume = 1.000000
-		occlusion_scale = 0.000000
-		use_hrtf = 0.600000
-		volume_falloff_min = 4500.000000
-		volume_falloff_max = 10000.000000
-		spread_min = 1000.000000
-		spread_max = 4000.000000
+		volume = 1.0
+		occlusion_scale = 0.0
+		use_hrtf = 0.6
+		volume_falloff_min = 4500.0
+		volume_falloff_max = 10000.0
+		spread_min = 1000.0
+		spread_max = 4000.0
 		mixgroup = "World"
-		enable_debug_radius = 0.000000
-		debug_radius_max = 800.000000
-		sphere_1_pos = 
-		[
-			3044.971680,
-			2440.445068,
-			2337.667725,
-		]
+		enable_debug_radius = 0.0
+		debug_radius_max = 800.0
+		sphere_1_pos = [ 3044.97168, 2440.445068, 2337.667725 ]
 		sphere_1_radius = 800
-		sphere_2_pos = 
-		[
-			920.726624,
-			5966.821777,
-			2225.354492,
-		]
+		sphere_2_pos = [ 920.726624, 5966.821777, 2225.354492 ]
 		sphere_2_radius = 12
 		use_world_position = true
 		reverb_use_curve = 0
 		reverb_xfade_value = 0
-		fade_over_time_x1 = 0.000000
-		fade_over_time_y1 = 1.000000
-		fade_over_time_x2 = 10.000000
-		fade_over_time_y2 = 1.000000
-		fade_over_time_x3 = 60.000000
-		fade_over_time_y3 = 0.500000
-		fade_over_time_x4 = 60.000000
-		fade_over_time_y4 = 0.500000
+		fade_over_time_x1 = 0.0
+		fade_over_time_y1 = 1.0
+		fade_over_time_x2 = 10.0
+		fade_over_time_y2 = 1.0
+		fade_over_time_x3 = 60.0
+		fade_over_time_y3 = 0.5
+		fade_over_time_x4 = 60.0
+		fade_over_time_y4 = 0.5
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "skylight_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 0.450000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.650000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.850000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 1.000000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 0.600000
-		remap_opvar_to_vol_x2 = 0.500000
-		remap_opvar_to_vol_y2 = 0.850000
-		remap_opvar_to_vol_x3 = 1.000000
-		remap_opvar_to_vol_y3 = 1.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 1.000000
-		should_save = 1.000000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 0.45
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.65
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.85
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 1.0
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 0.6
+		remap_opvar_to_vol_x2 = 0.5
+		remap_opvar_to_vol_y2 = 0.85
+		remap_opvar_to_vol_x3 = 1.0
+		remap_opvar_to_vol_y3 = 1.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 1.0
+		should_save = 1.0
 		vsnd_files = 
 		[
 			"sounds/world/combine_tractor_beam/world_vault_tractor_beam_lp_01.vsnd",
@@ -3102,26 +3073,16 @@
 	Vault.TractorBeamWaterTower = 
 	{
 		base = "Vault.TractorBeam"
-		volume = 1.000000
-		volume_falloff_min = 2500.000000
-		volume_falloff_max = 5000.000000
-		spread_min = 500.000000
-		spread_max = 4000.000000
-		enable_debug_radius = 0.000000
-		debug_radius_max = 800.000000
-		sphere_1_pos = 
-		[
-			2455.488525,
-			5239.010742,
-			2638.705811,
-		]
+		volume = 1.0
+		volume_falloff_min = 2500.0
+		volume_falloff_max = 5000.0
+		spread_min = 500.0
+		spread_max = 4000.0
+		enable_debug_radius = 0.0
+		debug_radius_max = 800.0
+		sphere_1_pos = [ 2455.488525, 5239.010742, 2638.705811 ]
 		sphere_1_radius = 12
-		sphere_2_pos = 
-		[
-			2584.976074,
-			2434.242676,
-			3375.202148,
-		]
+		sphere_2_pos = [ 2584.976074, 2434.242676, 3375.202148 ]
 		sphere_2_radius = 800
 	}
 	Vault.CrashFakeout = 
@@ -3131,10 +3092,10 @@
 		soundevent_02 = "Vault.CrashFakeout_R"
 		soundevent_03 = "Vault.CrashFakeout_LS"
 		soundevent_04 = "Vault.CrashFakeout_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	Vault.CrashFakeout_L = 
 	{
@@ -3144,20 +3105,20 @@
 			"sounds/world/combine_tractor_beam/world_vault_catch_01_l.vsnd",
 		]
 		mixgroup = "World"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 500
 		volume_falloff_max = 500
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 		vertical_rotation_angle = 20
-		volume_fade_in = 0.000000
-		volume_fade_out = 2.000000
+		volume_fade_in = 0.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		use_hrtf = 1.000000
-		hrtf_mix = 0.800000
-		volume = 1.000000
-		enable_debug_radius = 0.000000
-		debug_radius_max = 25.000000
+		use_hrtf = 1.0
+		hrtf_mix = 0.8
+		volume = 1.0
+		enable_debug_radius = 0.0
+		debug_radius_max = 25.0
 		use_named_send = "ScriptedSeqPriority3"
 		soundname_string = "Left"
 	}
@@ -3168,7 +3129,7 @@
 		[
 			"sounds/world/combine_tractor_beam/world_vault_catch_01_r.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 		soundname_string = "Right"
 	}
 	Vault.CrashFakeout_LS = 
@@ -3178,7 +3139,7 @@
 		[
 			"sounds/world/combine_tractor_beam/world_vault_catch_01_ls.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 		vertical_rotation_angle = 0
 		soundname_string = "LS"
 	}
@@ -3189,7 +3150,7 @@
 		[
 			"sounds/world/combine_tractor_beam/world_vault_catch_01_rs.vsnd",
 		]
-		rotation_angle = 45.000000
+		rotation_angle = 45.0
 		vertical_rotation_angle = 0
 		soundname_string = "RS"
 	}
@@ -3200,10 +3161,10 @@
 		soundevent_02 = "Vault.CableCutExplo_R"
 		soundevent_03 = "Vault.CableCutExplo_LS"
 		soundevent_04 = "Vault.CableCutExplo_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	Vault.CableCutExplo_L = 
 	{
@@ -3213,20 +3174,20 @@
 			"sounds/world/combine_tractor_beam/world_vault_crash_fake_cable_explo_l.vsnd",
 		]
 		mixgroup = "World"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 500
 		volume_falloff_max = 500
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 		vertical_rotation_angle = 20
-		volume_fade_in = 0.000000
-		volume_fade_out = 2.000000
+		volume_fade_in = 0.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		use_hrtf = 1.000000
-		hrtf_mix = 0.800000
-		volume = 1.000000
-		enable_debug_radius = 0.000000
-		debug_radius_max = 25.000000
+		use_hrtf = 1.0
+		hrtf_mix = 0.8
+		volume = 1.0
+		enable_debug_radius = 0.0
+		debug_radius_max = 25.0
 		use_named_send = "ScriptedSeqPriority2"
 		soundname_string = "Left"
 	}
@@ -3237,7 +3198,7 @@
 		[
 			"sounds/world/combine_tractor_beam/world_vault_crash_fake_cable_explo_r.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	Vault.CableCutExplo_LS = 
 	{
@@ -3246,7 +3207,7 @@
 		[
 			"sounds/world/combine_tractor_beam/world_vault_crash_fake_cable_explo_ls.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 		vertical_rotation_angle = 0
 	}
 	Vault.CableCutExplo_RS = 
@@ -3256,30 +3217,30 @@
 		[
 			"sounds/world/combine_tractor_beam/world_vault_crash_fake_cable_explo_rs.vsnd",
 		]
-		rotation_angle = 45.000000
+		rotation_angle = 45.0
 		vertical_rotation_angle = 0
 	}
 	Vault.GroundExploChild = 
 	{
 		type = "hlvr_default_3d"
-		volume = 2.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 3.000000
-		use_hrtf = 1.000000
-		hrtf_mix = 0.900000
-		occlusion_scale = 0.000000
+		volume = 2.0
+		volume_fade_in = 0.0
+		volume_fade_out = 3.0
+		use_hrtf = 1.0
+		hrtf_mix = 0.9
+		occlusion_scale = 0.0
 		reverb_use_curve = 0
 		reverb_xfade_value = 0
 		volume_falloff_min = 745
 		volume_falloff_max = 2000
 		spread_min = 100
 		spread_max = 745
-		use_doppler = 1.000000
-		doppler_factor = 1.200000
-		enable_debug_radius = 0.000000
+		use_doppler = 1.0
+		doppler_factor = 1.2
+		enable_debug_radius = 0.0
 		soundname_string = "EXPLO"
-		ambient_ducking_pct = 0.800000
-		use_world_position = 1.000000
+		ambient_ducking_pct = 0.8
+		use_world_position = 1.0
 		vsnd_files = 
 		[
 			"sounds/world/combine_tractor_beam/world_vault_crash_fake_explo_01.vsnd",
@@ -3295,24 +3256,14 @@
 		]
 		animation_time_min = 1
 		animation_time_max = 1
-		position_source = 2.000000
-		animated_source = 0.000000
-		animated_target = 2.000000
-		use_public_position = 1.000000
-		unconstrained_target = 1.000000
+		position_source = 2.0
+		animated_source = 0.0
+		animated_target = 2.0
+		use_public_position = 1.0
+		unconstrained_target = 1.0
 		animation_type = "lerp"
-		position = 
-		[
-			4736.603516,
-			2139.556152,
-			272.255157,
-		]
-		position_target = 
-		[
-			6175.018066,
-			2333.983154,
-			675.095276,
-		]
+		position = [ 4736.603516, 2139.556152, 272.255157 ]
+		position_target = [ 6175.018066, 2333.983154, 675.095276 ]
 	}
 	hlvr.global_stack = 
 	{

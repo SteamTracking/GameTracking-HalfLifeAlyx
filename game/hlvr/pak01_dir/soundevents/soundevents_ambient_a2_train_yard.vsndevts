@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	A2TrainYard.AmbSubterraneanLp = 
 	{
@@ -6,7 +7,7 @@
 		soundevent_02 = "A2TrainYard.AmbSubterraneanLp_R"
 		soundevent_03 = "A2TrainYard.AmbSubterraneanLp_LS"
 		soundevent_04 = "A2TrainYard.AmbSubterraneanLp_RS"
-		rand_delay_min = -2.000000
+		rand_delay_min = -2.0
 	}
 	A2TrainYard.AmbSubterraneanLp_L = 
 	{
@@ -16,10 +17,10 @@
 		vsnd_file_03 = "sounds/ambient/abstract/amb_pianagraph_subterranean_lp_01_l.vsnd"
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		vsnd_vol_01 = 1.000000
-		vsnd_vol_02 = 0.350000
-		vsnd_vol_03 = 0.670000
-		volume = 0.950000
+		vsnd_vol_01 = 1.0
+		vsnd_vol_02 = 0.35
+		vsnd_vol_03 = 0.67
+		volume = 0.95
 	}
 	A2TrainYard.AmbSubterraneanLp_R = 
 	{
@@ -29,7 +30,7 @@
 		vsnd_file_03 = "sounds/ambient/abstract/amb_pianagraph_subterranean_lp_01_r.vsnd"
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	A2TrainYard.AmbSubterraneanLp_LS = 
 	{
@@ -39,7 +40,7 @@
 		vsnd_file_03 = "sounds/ambient/abstract/amb_pianagraph_subterranean_lp_01_ls.vsnd"
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	A2TrainYard.AmbSubterraneanLp_RS = 
 	{
@@ -49,7 +50,7 @@
 		vsnd_file_03 = "sounds/ambient/abstract/amb_pianagraph_subterranean_lp_01_rs.vsnd"
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	A2TrainYard.AmbExteriorLp = 
 	{
@@ -58,8 +59,8 @@
 		soundevent_02 = "A2TrainYard.AmbExteriorLp_R"
 		soundevent_03 = "A2TrainYard.AmbExteriorLp_LS"
 		soundevent_04 = "A2TrainYard.AmbExteriorLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	A2TrainYard.AmbExteriorLp_L = 
 	{
@@ -72,12 +73,12 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		vsnd_vol_01 = 0.140000
-		vsnd_vol_02 = 0.290000
-		vsnd_vol_03 = 0.270000
-		vsnd_vol_04 = 0.280000
-		vsnd_vol_05 = 0.270000
-		volume = 0.900000
+		vsnd_vol_01 = 0.14
+		vsnd_vol_02 = 0.29
+		vsnd_vol_03 = 0.27
+		vsnd_vol_04 = 0.28
+		vsnd_vol_05 = 0.27
+		volume = 0.9
 	}
 	A2TrainYard.AmbExteriorLp_R = 
 	{
@@ -90,7 +91,7 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	A2TrainYard.AmbExteriorLp_LS = 
 	{
@@ -103,7 +104,7 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	A2TrainYard.AmbExteriorLp_RS = 
 	{
@@ -116,7 +117,7 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	A2TrainYard.AmbSubterranean02Lp = 
 	{
@@ -125,8 +126,8 @@
 		soundevent_02 = "A2TrainYard.AmbSubterranean02Lp_R"
 		soundevent_03 = "A2TrainYard.AmbSubterranean02Lp_LS"
 		soundevent_04 = "A2TrainYard.AmbSubterranean02Lp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	A2TrainYard.AmbSubterranean02Lp_L = 
 	{
@@ -139,12 +140,12 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		vsnd_vol_01 = 0.350000
-		vsnd_vol_02 = 0.080000
-		vsnd_vol_03 = 0.100000
-		vsnd_vol_04 = 1.000000
-		vsnd_vol_05 = 0.480000
-		volume = 0.900000
+		vsnd_vol_01 = 0.35
+		vsnd_vol_02 = 0.08
+		vsnd_vol_03 = 0.1
+		vsnd_vol_04 = 1.0
+		vsnd_vol_05 = 0.48
+		volume = 0.9
 	}
 	A2TrainYard.AmbSubterranean02Lp_R = 
 	{
@@ -157,7 +158,7 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	A2TrainYard.AmbSubterranean02Lp_LS = 
 	{
@@ -170,7 +171,7 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	A2TrainYard.AmbSubterranean02Lp_RS = 
 	{
@@ -183,7 +184,7 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	A2TrainYard.TrainCarIntLp = 
 	{
@@ -193,21 +194,21 @@
 	{
 		base = "AmbientWater.WaterdripSingle"
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 1.000000
-		remap_global_opvar_01_to_vol_max = 0.000000
+		remap_global_opvar_01_to_vol_min = 1.0
+		remap_global_opvar_01_to_vol_max = 0.0
 		global_volume_opvar_02 = "hotel_small_room_proximity_beacon"
-		remap_global_opvar_02_to_vol_min = 0.700000
-		remap_global_opvar_02_to_vol_max = 1.000000
+		remap_global_opvar_02_to_vol_min = 0.7
+		remap_global_opvar_02_to_vol_max = 1.0
 	}
 	A2TrainYard.FliesBuzzing = 
 	{
 		base = "AmbientCreature.FliesBuzzing"
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 1.000000
-		remap_global_opvar_01_to_vol_max = 0.000000
+		remap_global_opvar_01_to_vol_min = 1.0
+		remap_global_opvar_01_to_vol_max = 0.0
 		global_volume_opvar_02 = "hotel_small_room_proximity_beacon"
-		remap_global_opvar_02_to_vol_min = 0.700000
-		remap_global_opvar_02_to_vol_max = 1.000000
+		remap_global_opvar_02_to_vol_min = 0.7
+		remap_global_opvar_02_to_vol_max = 1.0
 	}
 	A2TrainYard.DistantCombat = 
 	{
@@ -217,15 +218,15 @@
 	{
 		base = "AmbientCreepy.WoodRattle"
 		global_volume_opvar_01 = "hotel_small_room_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 1.000000
-		remap_global_opvar_01_to_vol_max = 0.000000
+		remap_global_opvar_01_to_vol_min = 1.0
+		remap_global_opvar_01_to_vol_max = 0.0
 	}
 	A2TrainYard.AlarmNotice = 
 	{
 		base = "AmbientTrainyard.AlarmNotice"
 		global_volume_opvar_01 = "hotel_small_room_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 1.000000
-		remap_global_opvar_01_to_vol_max = 0.000000
+		remap_global_opvar_01_to_vol_min = 1.0
+		remap_global_opvar_01_to_vol_max = 0.0
 	}
 	AmbientA2TrainYard.RockfallDebris01 = 
 	{
@@ -234,8 +235,8 @@
 		soundevent_02 = "AmbientA2TrainYard.RockfallDebris01_R"
 		soundevent_03 = "AmbientA2TrainYard.RockfallDebris01_LS"
 		soundevent_04 = "AmbientA2TrainYard.RockfallDebris01_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA2TrainYard.RockfallDebris01_L = 
 	{
@@ -243,54 +244,54 @@
 		vsnd_file_01 = "sounds/ambient/rocks/amb_city_rockfall_debris_01_l.vsnd"
 		vsnd_vol_01 = "0.90"
 		mixgroup = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 0.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.900000
+		volume = 0.9
 		global_opvar_name_01 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity = 2.500000
-		remap_vol_opvar_x1 = 0.000000
-		remap_vol_opvar_y1 = 0.430000
-		remap_vol_opvar_x2 = 0.000000
-		remap_vol_opvar_y2 = 0.430000
-		remap_vol_opvar_x3 = 1.000000
-		remap_vol_opvar_y3 = 0.500000
-		remap_vol_opvar_x4 = 1.000000
-		remap_vol_opvar_y4 = 0.500000
-		opvar_to_volume_multiplier_min = 0.000000
-		opvar_to_volume_multiplier = 1.000000
-		filter_mix = 1.000000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 0.450000
-		remap_filter_freq_opvar_x2 = 0.500000
-		remap_filter_freq_opvar_y2 = 0.600000
-		remap_filter_freq_opvar_x3 = 0.700000
-		remap_filter_freq_opvar_y3 = 0.820000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 1.000000
+		global_opvar_filter_velocity = 2.5
+		remap_vol_opvar_x1 = 0.0
+		remap_vol_opvar_y1 = 0.43
+		remap_vol_opvar_x2 = 0.0
+		remap_vol_opvar_y2 = 0.43
+		remap_vol_opvar_x3 = 1.0
+		remap_vol_opvar_y3 = 0.5
+		remap_vol_opvar_x4 = 1.0
+		remap_vol_opvar_y4 = 0.5
+		opvar_to_volume_multiplier_min = 0.0
+		opvar_to_volume_multiplier = 1.0
+		filter_mix = 1.0
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 0.45
+		remap_filter_freq_opvar_x2 = 0.5
+		remap_filter_freq_opvar_y2 = 0.6
+		remap_filter_freq_opvar_x3 = 0.7
+		remap_filter_freq_opvar_y3 = 0.82
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 1.0
 	}
 	AmbientA2TrainYard.RockfallDebris01_R = 
 	{
 		base = "AmbientA2TrainYard.RockfallDebris01_L"
 		vsnd_file_01 = "sounds/ambient/rocks/amb_city_rockfall_debris_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA2TrainYard.RockfallDebris01_LS = 
 	{
 		base = "AmbientA2TrainYard.RockfallDebris01_L"
 		vsnd_file_01 = "sounds/ambient/rocks/amb_city_rockfall_debris_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA2TrainYard.RockfallDebris01_RS = 
 	{
 		base = "AmbientA2TrainYard.RockfallDebris01_L"
 		vsnd_file_01 = "sounds/ambient/rocks/amb_city_rockfall_debris_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA2TrainYard.RockfallDebris02 = 
 	{
@@ -299,8 +300,8 @@
 		soundevent_02 = "AmbientA2TrainYard.RockfallDebris02_R"
 		soundevent_03 = "AmbientA2TrainYard.RockfallDebris02_LS"
 		soundevent_04 = "AmbientA2TrainYard.RockfallDebris02_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA2TrainYard.RockfallDebris02_L = 
 	{
@@ -312,19 +313,19 @@
 	{
 		base = "AmbientA2TrainYard.RockfallDebris02_L"
 		vsnd_file_01 = "sounds/ambient/rocks/amb_city_rockfall_debris_02_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA2TrainYard.RockfallDebris02_LS = 
 	{
 		base = "AmbientA2TrainYard.RockfallDebris02_L"
 		vsnd_file_01 = "sounds/ambient/rocks/amb_city_rockfall_debris_02_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA2TrainYard.RockfallDebris02_RS = 
 	{
 		base = "AmbientA2TrainYard.RockfallDebris02_L"
 		vsnd_file_01 = "sounds/ambient/rocks/amb_city_rockfall_debris_02_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA2TrainYard.RockfallDebris03 = 
 	{
@@ -333,8 +334,8 @@
 		soundevent_02 = "AmbientA2TrainYard.RockfallDebris03_R"
 		soundevent_03 = "AmbientA2TrainYard.RockfallDebris03_LS"
 		soundevent_04 = "AmbientA2TrainYard.RockfallDebris03_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA2TrainYard.RockfallDebris03_L = 
 	{
@@ -346,19 +347,19 @@
 	{
 		base = "AmbientA2TrainYard.RockfallDebris03_L"
 		vsnd_file_01 = "sounds/ambient/rocks/amb_city_rockfall_debris_03_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA2TrainYard.RockfallDebris03_LS = 
 	{
 		base = "AmbientA2TrainYard.RockfallDebris03_L"
 		vsnd_file_01 = "sounds/ambient/rocks/amb_city_rockfall_debris_03_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA2TrainYard.RockfallDebris03_RS = 
 	{
 		base = "AmbientA2TrainYard.RockfallDebris03_L"
 		vsnd_file_01 = "sounds/ambient/rocks/amb_city_rockfall_debris_03_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA2TrainYard.RockfallDebris04 = 
 	{
@@ -367,8 +368,8 @@
 		soundevent_02 = "AmbientA2TrainYard.RockfallDebris04_R"
 		soundevent_03 = "AmbientA2TrainYard.RockfallDebris04_LS"
 		soundevent_04 = "AmbientA2TrainYard.RockfallDebris04_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA2TrainYard.RockfallDebris04_L = 
 	{
@@ -380,19 +381,19 @@
 	{
 		base = "AmbientA2TrainYard.RockfallDebris04_L"
 		vsnd_file_01 = "sounds/ambient/rocks/amb_city_rockfall_debris_04_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA2TrainYard.RockfallDebris04_LS = 
 	{
 		base = "AmbientA2TrainYard.RockfallDebris04_L"
 		vsnd_file_01 = "sounds/ambient/rocks/amb_city_rockfall_debris_04_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA2TrainYard.RockfallDebris04_RS = 
 	{
 		base = "AmbientA2TrainYard.RockfallDebris04_L"
 		vsnd_file_01 = "sounds/ambient/rocks/amb_city_rockfall_debris_04_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA2TrainYard.RockfallDebris05 = 
 	{
@@ -401,8 +402,8 @@
 		soundevent_02 = "AmbientA2TrainYard.RockfallDebris05_R"
 		soundevent_03 = "AmbientA2TrainYard.RockfallDebris05_LS"
 		soundevent_04 = "AmbientA2TrainYard.RockfallDebris05_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA2TrainYard.RockfallDebris05_L = 
 	{
@@ -414,19 +415,19 @@
 	{
 		base = "AmbientA2TrainYard.RockfallDebris05_L"
 		vsnd_file_01 = "sounds/ambient/rocks/amb_city_rockfall_debris_05_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA2TrainYard.RockfallDebris05_LS = 
 	{
 		base = "AmbientA2TrainYard.RockfallDebris05_L"
 		vsnd_file_01 = "sounds/ambient/rocks/amb_city_rockfall_debris_05_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA2TrainYard.RockfallDebris05_RS = 
 	{
 		base = "AmbientA2TrainYard.RockfallDebris05_L"
 		vsnd_file_01 = "sounds/ambient/rocks/amb_city_rockfall_debris_05_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA2TrainYard.RockfallDebris06 = 
 	{
@@ -435,8 +436,8 @@
 		soundevent_02 = "AmbientA2TrainYard.RockfallDebris06_R"
 		soundevent_03 = "AmbientA2TrainYard.RockfallDebris06_LS"
 		soundevent_04 = "AmbientA2TrainYard.RockfallDebris06_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA2TrainYard.RockfallDebris06_L = 
 	{
@@ -448,29 +449,29 @@
 	{
 		base = "AmbientA2TrainYard.RockfallDebris06_L"
 		vsnd_file_01 = "sounds/ambient/rocks/amb_city_rockfall_debris_06_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA2TrainYard.RockfallDebris06_LS = 
 	{
 		base = "AmbientA2TrainYard.RockfallDebris06_L"
 		vsnd_file_01 = "sounds/ambient/rocks/amb_city_rockfall_debris_06_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA2TrainYard.RockfallDebris06_RS = 
 	{
 		base = "AmbientA2TrainYard.RockfallDebris06_L"
 		vsnd_file_01 = "sounds/ambient/rocks/amb_city_rockfall_debris_06_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA2TrainYard.RockfallDebris = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientA2TrainYard.RockfallDebrisChild"
-		random_soundevent_01_timer_min = 20.000000
-		random_soundevent_01_timer_max = 30.000000
+		random_soundevent_01_timer_min = 20.0
+		random_soundevent_01_timer_max = 30.0
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 	AmbientA2TrainYard.RockfallDebrisChild = 
 	{
@@ -493,8 +494,8 @@
 		soundevent_02 = "AmbientA2TrainYard.IntConcreteLgLp_R"
 		soundevent_03 = "AmbientA2TrainYard.IntConcreteLgLp_LS"
 		soundevent_04 = "AmbientA2TrainYard.IntConcreteLgLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA2TrainYard.IntConcreteLgLp_L = 
 	{
@@ -503,48 +504,48 @@
 		vsnd_file_02 = "sounds/ambient/interior/amb_stairwell_addin_lp_l.vsnd"
 		vsnd_vol_01 = "0.90"
 		vsnd_vol_02 = "0.73"
-		volume = 0.900000
+		volume = 0.9
 		global_opvar_name_02 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity_02 = 2.500000
-		remap_vol_opvar_02_x1 = 0.000000
-		remap_vol_opvar_02_y1 = 1.000000
-		remap_vol_opvar_02_x2 = 0.200000
-		remap_vol_opvar_02_y2 = 0.900000
-		remap_vol_opvar_02_x3 = 0.500000
-		remap_vol_opvar_02_y3 = 0.650000
-		remap_vol_opvar_02_x4 = 1.000000
-		remap_vol_opvar_02_y4 = 0.000000
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 0.650000
-		remap_filter_freq_opvar_x2 = 0.000000
-		remap_filter_freq_opvar_y2 = 0.650000
-		remap_filter_freq_opvar_x3 = 0.500000
-		remap_filter_freq_opvar_y3 = 0.750000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 1.000000
+		global_opvar_filter_velocity_02 = 2.5
+		remap_vol_opvar_02_x1 = 0.0
+		remap_vol_opvar_02_y1 = 1.0
+		remap_vol_opvar_02_x2 = 0.2
+		remap_vol_opvar_02_y2 = 0.9
+		remap_vol_opvar_02_x3 = 0.5
+		remap_vol_opvar_02_y3 = 0.65
+		remap_vol_opvar_02_x4 = 1.0
+		remap_vol_opvar_02_y4 = 0.0
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 0.65
+		remap_filter_freq_opvar_x2 = 0.0
+		remap_filter_freq_opvar_y2 = 0.65
+		remap_filter_freq_opvar_x3 = 0.5
+		remap_filter_freq_opvar_y3 = 0.75
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 1.0
 	}
 	AmbientA2TrainYard.IntConcreteLgLp_R = 
 	{
 		base = "AmbientA2TrainYard.IntConcreteLgLp_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_concrete_lg_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_stairwell_addin_lp_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA2TrainYard.IntConcreteLgLp_LS = 
 	{
 		base = "AmbientA2TrainYard.IntConcreteLgLp_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_concrete_lg_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_stairwell_addin_lp_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA2TrainYard.IntConcreteLgLp_RS = 
 	{
 		base = "AmbientA2TrainYard.IntConcreteLgLp_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_concrete_lg_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_stairwell_addin_lp_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA2TrainYard.ExteriorAboveLp = 
 	{
@@ -553,8 +554,8 @@
 		soundevent_02 = "AmbientA2TrainYard.ExteriorAboveLp_R"
 		soundevent_03 = "AmbientA2TrainYard.ExteriorAboveLp_LS"
 		soundevent_04 = "AmbientA2TrainYard.ExteriorAboveLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA2TrainYard.ExteriorAboveLp_L = 
 	{
@@ -563,57 +564,57 @@
 		vsnd_file_02 = "sounds/ambient/city/amb_spillway_quad_lp_01_l.vsnd"
 		vsnd_vol_01 = "0.99"
 		vsnd_vol_02 = "0.88"
-		volume = 1.000000
-		filter_mix = 0.900000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 0.600000
-		remap_filter_freq_opvar_x2 = 0.000000
-		remap_filter_freq_opvar_y2 = 0.600000
-		remap_filter_freq_opvar_x3 = 0.500000
-		remap_filter_freq_opvar_y3 = 0.700000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 1.000000
+		volume = 1.0
+		filter_mix = 0.9
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 0.6
+		remap_filter_freq_opvar_x2 = 0.0
+		remap_filter_freq_opvar_y2 = 0.6
+		remap_filter_freq_opvar_x3 = 0.5
+		remap_filter_freq_opvar_y3 = 0.7
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 1.0
 		global_opvar_name_02 = "hotel_small_room_proximity_beacon"
-		global_opvar_filter_velocity_02 = 2.500000
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
-		remap_vol_opvar_02_x1 = 0.000000
-		remap_vol_opvar_02_y1 = 1.000000
-		remap_vol_opvar_02_x2 = 0.000000
-		remap_vol_opvar_02_y2 = 1.000000
-		remap_vol_opvar_02_x3 = 1.000000
-		remap_vol_opvar_02_y3 = 0.500000
-		remap_vol_opvar_02_x4 = 1.000000
-		remap_vol_opvar_02_y4 = 0.500000
-		remap_filter_freq_opvar_02_x1 = 0.000000
-		remap_filter_freq_opvar_02_y1 = 1.000000
-		remap_filter_freq_opvar_02_x2 = 0.000000
-		remap_filter_freq_opvar_02_y2 = 1.000000
-		remap_filter_freq_opvar_02_x3 = 0.000000
-		remap_filter_freq_opvar_02_y3 = 1.000000
-		remap_filter_freq_opvar_02_x4 = 1.000000
-		remap_filter_freq_opvar_02_y4 = 0.750000
+		global_opvar_filter_velocity_02 = 2.5
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
+		remap_vol_opvar_02_x1 = 0.0
+		remap_vol_opvar_02_y1 = 1.0
+		remap_vol_opvar_02_x2 = 0.0
+		remap_vol_opvar_02_y2 = 1.0
+		remap_vol_opvar_02_x3 = 1.0
+		remap_vol_opvar_02_y3 = 0.5
+		remap_vol_opvar_02_x4 = 1.0
+		remap_vol_opvar_02_y4 = 0.5
+		remap_filter_freq_opvar_02_x1 = 0.0
+		remap_filter_freq_opvar_02_y1 = 1.0
+		remap_filter_freq_opvar_02_x2 = 0.0
+		remap_filter_freq_opvar_02_y2 = 1.0
+		remap_filter_freq_opvar_02_x3 = 0.0
+		remap_filter_freq_opvar_02_y3 = 1.0
+		remap_filter_freq_opvar_02_x4 = 1.0
+		remap_filter_freq_opvar_02_y4 = 0.75
 	}
 	AmbientA2TrainYard.ExteriorAboveLp_R = 
 	{
 		base = "AmbientA2TrainYard.ExteriorAboveLp_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_ext_above_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/amb_spillway_quad_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA2TrainYard.ExteriorAboveLp_LS = 
 	{
 		base = "AmbientA2TrainYard.ExteriorAboveLp_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_ext_above_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/amb_spillway_quad_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA2TrainYard.ExteriorAboveLp_RS = 
 	{
 		base = "AmbientA2TrainYard.ExteriorAboveLp_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_ext_above_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/amb_spillway_quad_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA2TrainYard.IntConcreteSmLp = 
 	{
@@ -622,8 +623,8 @@
 		soundevent_02 = "AmbientA2TrainYard.IntConcreteSmLp_R"
 		soundevent_03 = "AmbientA2TrainYard.IntConcreteSmLp_LS"
 		soundevent_04 = "AmbientA2TrainYard.IntConcreteSmLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA2TrainYard.IntConcreteSmLp_L = 
 	{
@@ -632,40 +633,40 @@
 		vsnd_file_02 = "sounds/ambient/train_warehouse/amb_traincar_int_lp_01_l.vsnd"
 		vsnd_vol_01 = "0.89"
 		vsnd_vol_02 = "0.62"
-		volume = 0.900000
+		volume = 0.9
 		global_opvar_name_02 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity_02 = 2.500000
-		remap_vol_opvar_02_x1 = 0.000000
-		remap_vol_opvar_02_y1 = 1.000000
-		remap_vol_opvar_02_x2 = 0.200000
-		remap_vol_opvar_02_y2 = 0.900000
-		remap_vol_opvar_02_x3 = 0.500000
-		remap_vol_opvar_02_y3 = 0.650000
-		remap_vol_opvar_02_x4 = 1.000000
-		remap_vol_opvar_02_y4 = 0.300000
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
+		global_opvar_filter_velocity_02 = 2.5
+		remap_vol_opvar_02_x1 = 0.0
+		remap_vol_opvar_02_y1 = 1.0
+		remap_vol_opvar_02_x2 = 0.2
+		remap_vol_opvar_02_y2 = 0.9
+		remap_vol_opvar_02_x3 = 0.5
+		remap_vol_opvar_02_y3 = 0.65
+		remap_vol_opvar_02_x4 = 1.0
+		remap_vol_opvar_02_y4 = 0.3
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
 	}
 	AmbientA2TrainYard.IntConcreteSmLp_R = 
 	{
 		base = "AmbientA2TrainYard.IntConcreteSmLp_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_c17_interior_small_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/train_warehouse/amb_traincar_int_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA2TrainYard.IntConcreteSmLp_LS = 
 	{
 		base = "AmbientA2TrainYard.IntConcreteSmLp_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_c17_interior_small_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/train_warehouse/amb_traincar_int_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA2TrainYard.IntConcreteSmLp_RS = 
 	{
 		base = "AmbientA2TrainYard.IntConcreteSmLp_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_c17_interior_small_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/train_warehouse/amb_traincar_int_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA2TrainYard.PostCrashTrainCarIntLp = 
 	{
@@ -674,8 +675,8 @@
 		soundevent_02 = "AmbientA2TrainYard.PostCrashTrainCarIntLp_R"
 		soundevent_03 = "AmbientA2TrainYard.PostCrashTrainCarIntLp_LS"
 		soundevent_04 = "AmbientA2TrainYard.PostCrashTrainCarIntLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA2TrainYard.PostCrashTrainCarIntLp_L = 
 	{
@@ -684,48 +685,48 @@
 		vsnd_file_02 = "sounds/ambient/train_warehouse/amb_traincar_int_lp_01_l.vsnd"
 		vsnd_vol_01 = "1.00"
 		vsnd_vol_02 = "0.72"
-		volume = 0.900000
+		volume = 0.9
 		global_opvar_name_02 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity_02 = 2.500000
-		remap_vol_opvar_02_x1 = 0.000000
-		remap_vol_opvar_02_y1 = 1.000000
-		remap_vol_opvar_02_x2 = 0.200000
-		remap_vol_opvar_02_y2 = 0.900000
-		remap_vol_opvar_02_x3 = 0.500000
-		remap_vol_opvar_02_y3 = 0.650000
-		remap_vol_opvar_02_x4 = 1.000000
-		remap_vol_opvar_02_y4 = 0.000000
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 0.650000
-		remap_filter_freq_opvar_x2 = 0.000000
-		remap_filter_freq_opvar_y2 = 0.650000
-		remap_filter_freq_opvar_x3 = 0.500000
-		remap_filter_freq_opvar_y3 = 0.750000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 1.000000
+		global_opvar_filter_velocity_02 = 2.5
+		remap_vol_opvar_02_x1 = 0.0
+		remap_vol_opvar_02_y1 = 1.0
+		remap_vol_opvar_02_x2 = 0.2
+		remap_vol_opvar_02_y2 = 0.9
+		remap_vol_opvar_02_x3 = 0.5
+		remap_vol_opvar_02_y3 = 0.65
+		remap_vol_opvar_02_x4 = 1.0
+		remap_vol_opvar_02_y4 = 0.0
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 0.65
+		remap_filter_freq_opvar_x2 = 0.0
+		remap_filter_freq_opvar_y2 = 0.65
+		remap_filter_freq_opvar_x3 = 0.5
+		remap_filter_freq_opvar_y3 = 0.75
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 1.0
 	}
 	AmbientA2TrainYard.PostCrashTrainCarIntLp_R = 
 	{
 		base = "AmbientA2TrainYard.PostCrashTrainCarIntLp_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_post_crash_traincar_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/train_warehouse/amb_traincar_int_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA2TrainYard.PostCrashTrainCarIntLp_LS = 
 	{
 		base = "AmbientA2TrainYard.PostCrashTrainCarIntLp_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_post_crash_traincar_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/train_warehouse/amb_traincar_int_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA2TrainYard.PostCrashTrainCarIntLp_RS = 
 	{
 		base = "AmbientA2TrainYard.PostCrashTrainCarIntLp_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_post_crash_traincar_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/train_warehouse/amb_traincar_int_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA2TrainYard.PostCrashTallRoomLp = 
 	{
@@ -734,8 +735,8 @@
 		soundevent_02 = "AmbientA2TrainYard.PostCrashTallRoomLp_R"
 		soundevent_03 = "AmbientA2TrainYard.PostCrashTallRoomLp_LS"
 		soundevent_04 = "AmbientA2TrainYard.PostCrashTallRoomLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA2TrainYard.PostCrashTallRoomLp_L = 
 	{
@@ -746,27 +747,27 @@
 		vsnd_vol_01 = "1.00"
 		vsnd_vol_02 = "0.44"
 		vsnd_vol_03 = "0.33"
-		volume = 0.900000
+		volume = 0.9
 		global_opvar_name_01 = "large_room_addin_beacon"
-		remap_vol_opvar_x1 = 0.000000
-		remap_vol_opvar_y1 = 0.000000
-		remap_vol_opvar_x2 = 0.200000
-		remap_vol_opvar_y2 = 0.350000
-		remap_vol_opvar_x3 = 0.500000
-		remap_vol_opvar_y3 = 0.650000
-		remap_vol_opvar_x4 = 1.000000
-		remap_vol_opvar_y4 = 1.000000
-		opvar_to_volume_multiplier_min = 0.000000
-		opvar_to_volume_multiplier = 1.000000
-		filter_mix = 1.000000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 0.000000
-		remap_filter_freq_opvar_x2 = 0.000000
-		remap_filter_freq_opvar_y2 = 0.000000
-		remap_filter_freq_opvar_x3 = 0.500000
-		remap_filter_freq_opvar_y3 = 0.750000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 1.000000
+		remap_vol_opvar_x1 = 0.0
+		remap_vol_opvar_y1 = 0.0
+		remap_vol_opvar_x2 = 0.2
+		remap_vol_opvar_y2 = 0.35
+		remap_vol_opvar_x3 = 0.5
+		remap_vol_opvar_y3 = 0.65
+		remap_vol_opvar_x4 = 1.0
+		remap_vol_opvar_y4 = 1.0
+		opvar_to_volume_multiplier_min = 0.0
+		opvar_to_volume_multiplier = 1.0
+		filter_mix = 1.0
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 0.0
+		remap_filter_freq_opvar_x2 = 0.0
+		remap_filter_freq_opvar_y2 = 0.0
+		remap_filter_freq_opvar_x3 = 0.5
+		remap_filter_freq_opvar_y3 = 0.75
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 1.0
 	}
 	AmbientA2TrainYard.PostCrashTallRoomLp_R = 
 	{
@@ -774,7 +775,7 @@
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_post_crash_silo_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/subway_station/amb_station_tall_room_base_lp_01_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_water_tower_int_lg_tower_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA2TrainYard.PostCrashTallRoomLp_LS = 
 	{
@@ -782,7 +783,7 @@
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_post_crash_silo_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/subway_station/amb_station_tall_room_base_lp_01_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_water_tower_int_lg_tower_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA2TrainYard.PostCrashTallRoomLp_RS = 
 	{
@@ -790,7 +791,7 @@
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_post_crash_silo_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/subway_station/amb_station_tall_room_base_lp_01_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_water_tower_int_lg_tower_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA2TrainYard.PostCrashExtLp = 
 	{
@@ -799,8 +800,8 @@
 		soundevent_02 = "AmbientA2TrainYard.PostCrashExtLp_R"
 		soundevent_03 = "AmbientA2TrainYard.PostCrashExtLp_LS"
 		soundevent_04 = "AmbientA2TrainYard.PostCrashExtLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA2TrainYard.PostCrashExtLp_L = 
 	{
@@ -809,28 +810,28 @@
 		vsnd_file_02 = "sounds/ambient/city/amb_spillway_quad_lp_01_l.vsnd"
 		vsnd_vol_01 = "0.99"
 		vsnd_vol_02 = "0.88"
-		volume = 1.000000
+		volume = 1.0
 	}
 	AmbientA2TrainYard.PostCrashExtLp_R = 
 	{
 		base = "AmbientA2TrainYard.PostCrashExtLp_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_ext_above_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/amb_spillway_quad_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA2TrainYard.PostCrashExtLp_LS = 
 	{
 		base = "AmbientA2TrainYard.PostCrashExtLp_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_ext_above_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/amb_spillway_quad_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA2TrainYard.PostCrashExtLp_RS = 
 	{
 		base = "AmbientA2TrainYard.PostCrashExtLp_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_ext_above_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/amb_spillway_quad_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA2TrainYard.PostCrashMetal01 = 
 	{
@@ -839,8 +840,8 @@
 		soundevent_02 = "AmbientA2TrainYard.PostCrashMetal01_R"
 		soundevent_03 = "AmbientA2TrainYard.PostCrashMetal01_LS"
 		soundevent_04 = "AmbientA2TrainYard.PostCrashMetal01_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA2TrainYard.PostCrashMetal01_L = 
 	{
@@ -850,68 +851,68 @@
 		vsnd_vol_01 = "1.00"
 		vsnd_vol_02 = "0.44"
 		mixgroup = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 0.0
+		volume_fade_out = 2.0
 		spread_min = 250
 		spread_max = 250
-		volume = 1.000000
+		volume = 1.0
 		global_opvar_name_01 = "large_room_addin_beacon"
-		remap_vol_opvar_x1 = 0.000000
-		remap_vol_opvar_y1 = 0.000000
-		remap_vol_opvar_x2 = 0.200000
-		remap_vol_opvar_y2 = 0.350000
-		remap_vol_opvar_x3 = 0.500000
-		remap_vol_opvar_y3 = 0.650000
-		remap_vol_opvar_x4 = 1.000000
-		remap_vol_opvar_y4 = 1.000000
-		opvar_to_volume_multiplier_min = 0.000000
-		opvar_to_volume_multiplier = 1.000000
-		filter_mix = 1.000000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 0.650000
-		remap_filter_freq_opvar_x2 = 0.000000
-		remap_filter_freq_opvar_y2 = 0.650000
-		remap_filter_freq_opvar_x3 = 0.500000
-		remap_filter_freq_opvar_y3 = 0.750000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 1.000000
+		remap_vol_opvar_x1 = 0.0
+		remap_vol_opvar_y1 = 0.0
+		remap_vol_opvar_x2 = 0.2
+		remap_vol_opvar_y2 = 0.35
+		remap_vol_opvar_x3 = 0.5
+		remap_vol_opvar_y3 = 0.65
+		remap_vol_opvar_x4 = 1.0
+		remap_vol_opvar_y4 = 1.0
+		opvar_to_volume_multiplier_min = 0.0
+		opvar_to_volume_multiplier = 1.0
+		filter_mix = 1.0
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 0.65
+		remap_filter_freq_opvar_x2 = 0.0
+		remap_filter_freq_opvar_y2 = 0.65
+		remap_filter_freq_opvar_x3 = 0.5
+		remap_filter_freq_opvar_y3 = 0.75
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 1.0
 		global_opvar_name_02 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity_02 = 2.500000
-		remap_vol_opvar_02_x1 = 0.000000
-		remap_vol_opvar_02_y1 = 1.000000
-		remap_vol_opvar_02_x2 = 0.200000
-		remap_vol_opvar_02_y2 = 0.900000
-		remap_vol_opvar_02_x3 = 0.500000
-		remap_vol_opvar_02_y3 = 0.650000
-		remap_vol_opvar_02_x4 = 1.000000
-		remap_vol_opvar_02_y4 = 0.000000
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
+		global_opvar_filter_velocity_02 = 2.5
+		remap_vol_opvar_02_x1 = 0.0
+		remap_vol_opvar_02_y1 = 1.0
+		remap_vol_opvar_02_x2 = 0.2
+		remap_vol_opvar_02_y2 = 0.9
+		remap_vol_opvar_02_x3 = 0.5
+		remap_vol_opvar_02_y3 = 0.65
+		remap_vol_opvar_02_x4 = 1.0
+		remap_vol_opvar_02_y4 = 0.0
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
 	}
 	AmbientA2TrainYard.PostCrashMetal01_R = 
 	{
 		base = "AmbientA2TrainYard.PostCrashMetal01_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_post_crash_silo_metal_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/metal/amb_micrometal_quad_rear_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA2TrainYard.PostCrashMetal01_LS = 
 	{
 		base = "AmbientA2TrainYard.PostCrashMetal01_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_post_crash_silo_metal_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/metal/amb_micrometal_quad_rear_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA2TrainYard.PostCrashMetal01_RS = 
 	{
 		base = "AmbientA2TrainYard.PostCrashMetal01_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_post_crash_silo_metal_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/metal/amb_micrometal_quad_rear_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA2TrainYard.PostCrashMetal02 = 
 	{
@@ -920,8 +921,8 @@
 		soundevent_02 = "AmbientA2TrainYard.PostCrashMetal02_R"
 		soundevent_03 = "AmbientA2TrainYard.PostCrashMetal02_LS"
 		soundevent_04 = "AmbientA2TrainYard.PostCrashMetal02_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA2TrainYard.PostCrashMetal02_L = 
 	{
@@ -936,21 +937,21 @@
 		base = "AmbientA2TrainYard.PostCrashMetal02_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_post_crash_silo_metal_02_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/metal/amb_micrometal_quad_rear_02_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA2TrainYard.PostCrashMetal02_LS = 
 	{
 		base = "AmbientA2TrainYard.PostCrashMetal02_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_post_crash_silo_metal_02_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/metal/amb_micrometal_quad_rear_02_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA2TrainYard.PostCrashMetal02_RS = 
 	{
 		base = "AmbientA2TrainYard.PostCrashMetal02_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_post_crash_silo_metal_02_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/metal/amb_micrometal_quad_rear_02_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA2TrainYard.PostCrashMetal03 = 
 	{
@@ -959,8 +960,8 @@
 		soundevent_02 = "AmbientA2TrainYard.PostCrashMetal03_R"
 		soundevent_03 = "AmbientA2TrainYard.PostCrashMetal03_LS"
 		soundevent_04 = "AmbientA2TrainYard.PostCrashMetal03_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA2TrainYard.PostCrashMetal03_L = 
 	{
@@ -975,21 +976,21 @@
 		base = "AmbientA2TrainYard.PostCrashMetal03_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_post_crash_silo_metal_03_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/metal/amb_micrometal_quad_rear_03_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA2TrainYard.PostCrashMetal03_LS = 
 	{
 		base = "AmbientA2TrainYard.PostCrashMetal03_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_post_crash_silo_metal_03_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/metal/amb_micrometal_quad_rear_03_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA2TrainYard.PostCrashMetal03_RS = 
 	{
 		base = "AmbientA2TrainYard.PostCrashMetal03_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_post_crash_silo_metal_03_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/metal/amb_micrometal_quad_rear_03_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA2TrainYard.PostCrashMetal04 = 
 	{
@@ -998,8 +999,8 @@
 		soundevent_02 = "AmbientA2TrainYard.PostCrashMetal04_R"
 		soundevent_03 = "AmbientA2TrainYard.PostCrashMetal04_LS"
 		soundevent_04 = "AmbientA2TrainYard.PostCrashMetal04_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA2TrainYard.PostCrashMetal04_L = 
 	{
@@ -1014,21 +1015,21 @@
 		base = "AmbientA2TrainYard.PostCrashMetal04_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_post_crash_silo_metal_04_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/metal/amb_micrometal_quad_rear_04_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA2TrainYard.PostCrashMetal04_LS = 
 	{
 		base = "AmbientA2TrainYard.PostCrashMetal04_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_post_crash_silo_metal_04_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/metal/amb_micrometal_quad_rear_04_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA2TrainYard.PostCrashMetal04_RS = 
 	{
 		base = "AmbientA2TrainYard.PostCrashMetal04_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_post_crash_silo_metal_04_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/metal/amb_micrometal_quad_rear_04_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA2TrainYard.PostCrashMetal05 = 
 	{
@@ -1037,8 +1038,8 @@
 		soundevent_02 = "AmbientA2TrainYard.PostCrashMetal05_R"
 		soundevent_03 = "AmbientA2TrainYard.PostCrashMetal05_LS"
 		soundevent_04 = "AmbientA2TrainYard.PostCrashMetal05_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA2TrainYard.PostCrashMetal05_L = 
 	{
@@ -1053,21 +1054,21 @@
 		base = "AmbientA2TrainYard.PostCrashMetal05_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_post_crash_silo_metal_05_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/metal/amb_micrometal_quad_rear_05_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA2TrainYard.PostCrashMetal05_LS = 
 	{
 		base = "AmbientA2TrainYard.PostCrashMetal05_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_post_crash_silo_metal_05_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/metal/amb_micrometal_quad_rear_05_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA2TrainYard.PostCrashMetal05_RS = 
 	{
 		base = "AmbientA2TrainYard.PostCrashMetal05_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_post_crash_silo_metal_05_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/metal/amb_micrometal_quad_rear_05_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA2TrainYard.PostCrashMetal06 = 
 	{
@@ -1076,8 +1077,8 @@
 		soundevent_02 = "AmbientA2TrainYard.PostCrashMetal06_R"
 		soundevent_03 = "AmbientA2TrainYard.PostCrashMetal06_LS"
 		soundevent_04 = "AmbientA2TrainYard.PostCrashMetal06_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientA2TrainYard.PostCrashMetal06_L = 
 	{
@@ -1092,31 +1093,31 @@
 		base = "AmbientA2TrainYard.PostCrashMetal06_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_post_crash_silo_metal_06_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/metal/amb_micrometal_quad_front_06_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA2TrainYard.PostCrashMetal06_LS = 
 	{
 		base = "AmbientA2TrainYard.PostCrashMetal06_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_post_crash_silo_metal_06_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/metal/amb_micrometal_quad_front_06_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA2TrainYard.PostCrashMetal06_RS = 
 	{
 		base = "AmbientA2TrainYard.PostCrashMetal06_L"
 		vsnd_file_01 = "sounds/ambient/train_warehouse/trainyard/amb_trainyard_int_post_crash_silo_metal_06_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/metal/amb_micrometal_quad_front_06_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA2TrainYard.PostCrashMetal = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientA2TrainYard.PostCrashMetalChild"
-		random_soundevent_01_timer_min = 15.000000
-		random_soundevent_01_timer_max = 22.000000
+		random_soundevent_01_timer_min = 15.0
+		random_soundevent_01_timer_max = 22.0
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 1.000000
-		remap_global_opvar_01_to_vol_max = 0.000000
+		remap_global_opvar_01_to_vol_min = 1.0
+		remap_global_opvar_01_to_vol_max = 0.0
 	}
 	AmbientA2TrainYard.PostCrashMetalChild = 
 	{
@@ -1136,9 +1137,9 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientA2TrainYard.FireballDestructionChild"
-		random_soundevent_01_timer_min = 15.000000
-		random_soundevent_01_timer_max = 35.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 15.0
+		random_soundevent_01_timer_max = 35.0
+		use_initial_random_offset = 1.0
 	}
 	AmbientA2TrainYard.FireballDestructionChild = 
 	{
@@ -1147,53 +1148,48 @@
 		[
 			"AmbientA2TrainYard.FireballDestructionMulti",
 		]
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 1.000000
-		constrain_direction = 2.000000
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 1.0
+		constrain_direction = 2.0
 		ortho_distance_min = 1500
 		ortho_distance_max = 2000
 		make_ortho_vertical = false
-		ortho_flyby = 1.000000
-		unconstrained_target = 1.000000
+		ortho_flyby = 1.0
+		unconstrained_target = 1.0
 		animation_type = "lerp"
 		animation_time_min = 2
 		animation_time_max = 3
 		rand_radius_min = 500
 		rand_radius_max = 1200
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			100,
-		]
+		position_offset = [ 0.0, 0.0, 100 ]
 	}
 	AmbientA2TrainYard.FireballDestructionMulti = 
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "AmbientA2TrainYard.FireballDestructionHead"
 		soundevent_02 = "AmbientA2TrainYard.FireballDestructionTail"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	AmbientA2TrainYard.FireballDestructionHead = 
 	{
 		type = "hlvr_simple_voicegraph_filter_dynamics"
-		volume = 0.250000
-		volume_falloff_min = 850.000000
-		volume_falloff_max = 2500.000000
+		volume = 0.25
+		volume_falloff_min = 850.0
+		volume_falloff_max = 2500.0
 		spread_min = 500
 		spread_max = 1000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 0.750000
-		use_doppler = 1.000000
-		doppler_factor = 2.000000
-		doppler_factor_receding = 2.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.0
+		volume_fade_in = 0.0
+		volume_fade_out = 0.75
+		use_doppler = 1.0
+		doppler_factor = 2.0
+		doppler_factor_receding = 2.0
 		mixgroup = "ambient"
 		use_named_send = "Ambient"
-		use_hrtf = 0.600000
+		use_hrtf = 0.6
 		vsnd_files = 
 		[
 			"sounds/ambient/city/amb_parking_garage_fireball_flyby_01.vsnd",
@@ -1201,32 +1197,32 @@
 			"sounds/ambient/city/amb_parking_garage_fireball_flyby_03.vsnd",
 			"sounds/ambient/city/amb_parking_garage_fireball_flyby_04.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 350
 		soundname_string = "AmbientA2TrainYard.FireballDestructionHead"
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "large_room_addin_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 1.000000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.700000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.600000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 0.500000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 1.000000
-		remap_opvar_to_vol_x2 = 1.000000
-		remap_opvar_to_vol_y2 = 0.000000
-		remap_opvar_to_vol_x3 = 1.000000
-		remap_opvar_to_vol_y3 = 0.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 0.700000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 1.0
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.7
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.6
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 0.5
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 1.0
+		remap_opvar_to_vol_x2 = 1.0
+		remap_opvar_to_vol_y2 = 0.0
+		remap_opvar_to_vol_x3 = 1.0
+		remap_opvar_to_vol_y3 = 0.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 0.7
 	}
 	AmbientA2TrainYard.FireballDestructionTail = 
 	{
 		base = "AmbientA2TrainYard.FireballDestructionHead"
-		volume = 0.300000
+		volume = 0.3
 		vsnd_files = 
 		[
 			"sounds/ambient/city/amb_parking_garage_fireball_impact_01.vsnd",
@@ -1234,15 +1230,15 @@
 			"sounds/ambient/city/amb_parking_garage_fireball_impact_03.vsnd",
 			"sounds/ambient/city/amb_parking_garage_fireball_impact_04.vsnd",
 		]
-		delay = 2.100000
-		enable_debug_radius = 0.000000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 1.000000
-		remap_opvar_to_vol_x2 = 1.000000
-		remap_opvar_to_vol_y2 = 0.000000
-		remap_opvar_to_vol_x3 = 1.000000
-		remap_opvar_to_vol_y3 = 0.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 0.900000
+		delay = 2.1
+		enable_debug_radius = 0.0
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 1.0
+		remap_opvar_to_vol_x2 = 1.0
+		remap_opvar_to_vol_y2 = 0.0
+		remap_opvar_to_vol_x3 = 1.0
+		remap_opvar_to_vol_y3 = 0.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 0.9
 	}
 }

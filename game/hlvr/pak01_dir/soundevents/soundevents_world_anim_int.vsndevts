@@ -1,13 +1,14 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Anim_Int_Shared.Locked = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
+		volume = 0.6
 		mixgroup = "AnimInteract"
-		block_duration = 1.000000
+		block_duration = 1.0
 		block_match_this_event = true
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/shared/locked.vsnd",
@@ -16,10 +17,10 @@
 	Anim_Vert_Ratchet.Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
+		volume = 0.6
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/lever_geared/grab.vsnd",
@@ -29,18 +30,18 @@
 	{
 		type = "hlvr_update_animinteractable_tick"
 		child_soundevent_name = "Anim_Vert_Ratchet.Move_Tick"
-		timer_min = 0.100000
-		timer_max = 0.600000
-		pitch_map_min = 1.000000
-		pitch_map_max = 1.020000
+		timer_min = 0.1
+		timer_max = 0.6
+		pitch_map_min = 1.0
+		pitch_map_max = 1.02
 	}
 	Anim_Vert_Ratchet.Move_Tick = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		occlusion_scale = 0.500000
+		volume = 0.5
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
-		volume_falloff_max = 600.000000
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/lever_geared/tick_01.vsnd",
@@ -60,10 +61,10 @@
 	Anim_Vert_Ratchet.Release = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		occlusion_scale = 0.500000
+		volume = 0.7
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
-		volume_falloff_max = 600.000000
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/lever_geared/end_01.vsnd",
@@ -73,10 +74,10 @@
 	Anim_Truck_Gun.Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
+		volume = 0.6
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/lever_tall/grab.vsnd",
@@ -86,19 +87,19 @@
 	{
 		type = "hlvr_update_animinteractable_tick"
 		child_soundevent_name = "Anim_Truck_Gun.Tick"
-		timer_min = 0.100000
-		timer_max = 0.500000
-		pitch_map_min = 1.000000
-		pitch_map_max = 1.020000
-		remap_code_vol_x3 = 0.500000
+		timer_min = 0.1
+		timer_max = 0.5
+		pitch_map_min = 1.0
+		pitch_map_max = 1.02
+		remap_code_vol_x3 = 0.5
 	}
 	Anim_Truck_Gun.Tick = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.100000
-		occlusion_scale = 0.500000
+		volume = 0.1
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
-		volume_falloff_max = 600.000000
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/truck_gun/clunk_01.vsnd",
@@ -112,10 +113,10 @@
 	Truck_Gun.Reset = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/truck_gun/reset.vsnd",
@@ -124,10 +125,10 @@
 	Anim_GearedLever.Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
+		volume = 0.6
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/lever_geared/grab.vsnd",
@@ -136,10 +137,10 @@
 	Anim_GearedLever.Bounce = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		occlusion_scale = 0.500000
+		volume = 0.7
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
-		volume_falloff_max = 600.000000
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/lever_geared/bounce.vsnd",
@@ -148,10 +149,10 @@
 	Anim_GearedLever.End = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		occlusion_scale = 0.500000
+		volume = 0.8
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
-		volume_falloff_max = 600.000000
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/lever_geared/end_01.vsnd",
@@ -161,24 +162,24 @@
 	Anim_GearedLever.Stuck = 
 	{
 		base = "Anim_GearedLever.End"
-		pitch = 0.900000
+		pitch = 0.9
 	}
 	Anim_GearedLever.Move = 
 	{
 		type = "hlvr_update_animinteractable_tick"
 		child_soundevent_name = "Anim_GearedLever.Tick"
-		timer_min = 0.100000
-		timer_max = 0.500000
-		pitch_map_min = 1.000000
-		pitch_map_max = 1.020000
+		timer_min = 0.1
+		timer_max = 0.5
+		pitch_map_min = 1.0
+		pitch_map_max = 1.02
 	}
 	Anim_GearedLever.Tick = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		occlusion_scale = 0.500000
+		volume = 0.6
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
-		volume_falloff_max = 600.000000
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/lever_geared/tick_01.vsnd",
@@ -198,10 +199,10 @@
 	Anim_CombineLever.Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
+		volume = 0.6
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/lever_geared/grab.vsnd",
@@ -210,10 +211,10 @@
 	Anim_CombineLever.End = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		occlusion_scale = 0.500000
+		volume = 0.8
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
-		volume_falloff_max = 600.000000
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/lever_geared/end_01.vsnd",
@@ -224,19 +225,19 @@
 	{
 		type = "hlvr_update_animinteractable_tick"
 		child_soundevent_name = "Anim_CombineLever.Tick"
-		timer_min = 0.100000
-		timer_max = 0.500000
-		pitch_map_min = 1.000000
-		pitch_map_max = 1.020000
-		remap_code_vol_y2 = 0.400000
-		remap_code_vol_y3 = 1.400000
+		timer_min = 0.1
+		timer_max = 0.5
+		pitch_map_min = 1.0
+		pitch_map_max = 1.02
+		remap_code_vol_y2 = 0.4
+		remap_code_vol_y3 = 1.4
 	}
 	Anim_CombineLever.Tick = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_max = 600.000000
-		occlusion_scale = 0.500000
+		volume = 1.2
+		volume_falloff_max = 600.0
+		occlusion_scale = 0.5
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/lever_geared/tick_01.vsnd",
@@ -256,10 +257,10 @@
 	Anim_CombineSlider.Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/shared/grab_shared.vsnd",
@@ -268,9 +269,9 @@
 	Anim_CombineSlider.End = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		volume = 0.4
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -280,10 +281,10 @@
 	Anim_CombineSlider.Complete = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/combine_slider/complete.vsnd",
@@ -293,17 +294,17 @@
 	{
 		type = "hlvr_update_animinteractable_tick_pitched"
 		child_soundevent_name = "Anim_CombineSlider.Tick"
-		timer_min = 0.050000
-		timer_max = 0.300000
-		pitch_map_min = 0.900000
-		pitch_map_max = 1.100000
+		timer_min = 0.05
+		timer_max = 0.3
+		pitch_map_min = 0.9
+		pitch_map_max = 1.1
 	}
 	Anim_CombineSlider.Tick = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		volume = 0.7
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -316,10 +317,10 @@
 	Anim_CombineRod.Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
+		volume = 0.7
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/shared/grab_shared.vsnd",
@@ -328,8 +329,8 @@
 	Anim_CombineRod.End = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_max = 600.000000
+		volume = 1.2
+		volume_falloff_max = 600.0
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -340,22 +341,22 @@
 	{
 		type = "hlvr_update_animinteractable_3staged_tick"
 		child_soundevent_a = "Anim_CombineRod.Tick_A"
-		timer_min_a = 0.100000
-		timer_max_a = 0.200000
+		timer_min_a = 0.1
+		timer_max_a = 0.2
 		child_soundevent_b = "Anim_CombineRod.Tick_B"
-		timer_min_b = 0.100000
-		timer_max_b = 0.150000
+		timer_min_b = 0.1
+		timer_max_b = 0.15
 		child_soundevent_c = "Anim_CombineRod.Tick_C"
-		timer_min_c = 0.100000
-		timer_max_c = 0.200000
-		remap_code_vol_y2 = 0.500000
-		remap_code_vol_y3 = 1.600000
+		timer_min_c = 0.1
+		timer_max_c = 0.2
+		remap_code_vol_y2 = 0.5
+		remap_code_vol_y3 = 1.6
 	}
 	Anim_CombineRod.Tick_A = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_max = 600.000000
+		volume = 1.2
+		volume_falloff_max = 600.0
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -374,8 +375,8 @@
 	Anim_CombineRod.Tick_B = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_max = 600.000000
+		volume = 1.2
+		volume_falloff_max = 600.0
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -394,8 +395,8 @@
 	Anim_CombineRod.Tick_C = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_max = 600.000000
+		volume = 1.2
+		volume_falloff_max = 600.0
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -409,17 +410,17 @@
 	{
 		type = "hlvr_update_animinteractable_tick"
 		child_soundevent_name = "AnimLever.MoveLp_Tick"
-		timer_min = 0.100000
-		timer_max = 0.500000
-		pitch_map_min = 1.000000
-		pitch_map_max = 1.020000
+		timer_min = 0.1
+		timer_max = 0.5
+		pitch_map_min = 1.0
+		pitch_map_max = 1.02
 	}
 	AnimLever.MoveLp_Tick = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		volume = 0.5
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -440,10 +441,10 @@
 	AnimLever.Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
+		volume = 0.6
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/shared/grab_shared.vsnd",
@@ -452,10 +453,10 @@
 	AnimLever.Release = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
+		volume = 0.5
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/wheel/end.vsnd",
@@ -464,10 +465,10 @@
 	AnimLever.BounceLg = 
 	{
 		type = "hlvr_default_3d"
-		volume_fade_out = 0.350000
+		volume_fade_out = 0.35
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/lever/move_loop.vsnd",
@@ -477,41 +478,41 @@
 	{
 		type = "hlvr_start_bounce_single"
 		soundevent = "AnimLever.BounceLg"
-		delay = 0.000000
-		remap_code_vol_x1 = 0.000000
-		remap_code_vol_y1 = 0.000000
-		remap_code_vol_x2 = 0.200000
-		remap_code_vol_y2 = 0.500000
-		remap_code_vol_x3 = 0.700000
-		remap_code_vol_y3 = 0.800000
-		remap_code_vol_x4 = 0.950000
-		remap_code_vol_y4 = 0.200000
-		remap_code_pitch_x1 = 0.000000
-		remap_code_pitch_y1 = 0.850000
-		remap_code_pitch_x2 = 0.300000
-		remap_code_pitch_y2 = 1.000000
-		remap_code_pitch_x3 = 0.650000
-		remap_code_pitch_y3 = 1.000000
-		remap_code_pitch_x4 = 1.000000
-		remap_code_pitch_y4 = 0.750000
-		remap_code_vol_limiter = 1.500000
-		remap_code_pitch_limiter = 1.500000
+		delay = 0.0
+		remap_code_vol_x1 = 0.0
+		remap_code_vol_y1 = 0.0
+		remap_code_vol_x2 = 0.2
+		remap_code_vol_y2 = 0.5
+		remap_code_vol_x3 = 0.7
+		remap_code_vol_y3 = 0.8
+		remap_code_vol_x4 = 0.95
+		remap_code_vol_y4 = 0.2
+		remap_code_pitch_x1 = 0.0
+		remap_code_pitch_y1 = 0.85
+		remap_code_pitch_x2 = 0.3
+		remap_code_pitch_y2 = 1.0
+		remap_code_pitch_x3 = 0.65
+		remap_code_pitch_y3 = 1.0
+		remap_code_pitch_x4 = 1.0
+		remap_code_pitch_y4 = 0.75
+		remap_code_vol_limiter = 1.5
+		remap_code_pitch_limiter = 1.5
 	}
 	AnimLeverTallTrainYard.MoveLp = 
 	{
 		type = "hlvr_update_animinteractable_tick"
 		child_soundevent_name = "AnimLeverTallTrainYard.MoveLp_Tick"
-		timer_min = 0.100000
-		timer_max = 0.500000
-		pitch_map_min = 1.000000
-		pitch_map_max = 1.020000
+		timer_min = 0.1
+		timer_max = 0.5
+		pitch_map_min = 1.0
+		pitch_map_max = 1.02
 	}
 	AnimLeverTallTrainYard.MoveLp_Tick = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		volume = 0.5
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -532,10 +533,10 @@
 	AnimLeverTallTrainYard.Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
+		volume = 0.4
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/lever_tall/grab.vsnd",
@@ -544,10 +545,10 @@
 	AnimLeverTallTrainYard.Release = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/lever_tall/release.vsnd",
@@ -557,17 +558,17 @@
 	{
 		type = "hlvr_update_animinteractable_tick"
 		child_soundevent_name = "AnimLeverShortTrainYard.MoveLp_Tick"
-		timer_min = 0.100000
-		timer_max = 0.500000
-		pitch_map_min = 1.000000
-		pitch_map_max = 1.020000
+		timer_min = 0.1
+		timer_max = 0.5
+		pitch_map_min = 1.0
+		pitch_map_max = 1.02
 	}
 	AnimLeverShortTrainYard.MoveLp_Tick = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		volume = 0.3
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -588,10 +589,10 @@
 	AnimLeverShortTrainYard.Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
+		volume = 0.2
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/lever_short/grab.vsnd",
@@ -600,10 +601,10 @@
 	AnimLeverShortTrainYard.Release = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/lever_tall/release.vsnd",
@@ -612,10 +613,10 @@
 	AnimLeverTrainYardTrack.Start = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/lever_track/start.vsnd",
@@ -625,17 +626,17 @@
 	{
 		type = "hlvr_update_animinteractable_tick"
 		child_soundevent_name = "AnimLeverTrainYardTrack.MoveLp_Tick"
-		timer_min = 0.100000
-		timer_max = 0.500000
-		pitch_map_min = 1.000000
-		pitch_map_max = 1.020000
+		timer_min = 0.1
+		timer_max = 0.5
+		pitch_map_min = 1.0
+		pitch_map_max = 1.02
 	}
 	AnimLeverTrainYardTrack.MoveLp_Tick = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		volume = 0.8
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -656,10 +657,10 @@
 	AnimLeverTrainYardTrack.Stop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/lever_track/stop.vsnd",
@@ -668,21 +669,21 @@
 	RollUpDoor.MoveLp = 
 	{
 		type = "hlvr_update_animinteractable"
-		volume = 0.850000
-		pitch = 1.000000
-		remap_code_vol_x1 = 0.000000
-		remap_code_vol_y1 = 0.000000
+		volume = 0.85
+		pitch = 1.0
+		remap_code_vol_x1 = 0.0
+		remap_code_vol_y1 = 0.0
 		remap_code_vol_x2 = 0.001875
-		remap_code_vol_y2 = 0.500000
-		remap_code_vol_x3 = 0.010000
-		remap_code_vol_y3 = 1.000000
-		remap_code_vol_x4 = 1.000000
-		remap_code_vol_y4 = 1.000000
-		remap_code_vol_limiter = 1.500000
-		volume_fade_out = 0.050000
+		remap_code_vol_y2 = 0.5
+		remap_code_vol_x3 = 0.01
+		remap_code_vol_y3 = 1.0
+		remap_code_vol_x4 = 1.0
+		remap_code_vol_y4 = 1.0
+		remap_code_vol_limiter = 1.5
+		volume_fade_out = 0.05
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/door_rollup/move_loop.vsnd",
@@ -691,10 +692,10 @@
 	RollUpDoor.Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
+		volume = 0.6
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/shared/grab_shared.vsnd",
@@ -704,8 +705,8 @@
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/wheel/end.vsnd",
@@ -714,10 +715,10 @@
 	RollUpDoor.BounceDoorLp = 
 	{
 		type = "hlvr_default_3d"
-		volume_fade_out = 0.150000
+		volume_fade_out = 0.15
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/door_rollup/move_loop.vsnd",
@@ -728,40 +729,40 @@
 		type = "hlvr_start_animinteract_multi"
 		soundevent_01 = "RollUpDoor.BounceDoor"
 		soundevent_02 = "RollUpDoor.BounceImpact"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	RollUpDoor.BounceDoor = 
 	{
 		type = "hlvr_start_bounce_single"
 		soundevent = "RollUpDoor.BounceDoorLp"
-		delay = 0.000000
-		min_completion_pct = 0.900000
-		remap_code_vol_x1 = 0.000000
-		remap_code_vol_y1 = 0.000000
-		remap_code_vol_x2 = 0.100000
-		remap_code_vol_y2 = 0.500000
-		remap_code_vol_x3 = 0.500000
-		remap_code_vol_y3 = 1.000000
-		remap_code_vol_x4 = 0.950000
-		remap_code_vol_y4 = 0.200000
-		remap_code_pitch_x1 = 0.000000
-		remap_code_pitch_y1 = 0.900000
-		remap_code_pitch_x2 = 0.300000
-		remap_code_pitch_y2 = 1.000000
-		remap_code_pitch_x3 = 0.750000
-		remap_code_pitch_y3 = 1.000000
-		remap_code_pitch_x4 = 1.000000
-		remap_code_pitch_y4 = 0.950000
-		remap_code_vol_limiter = 1.500000
-		remap_code_pitch_limiter = 1.500000
+		delay = 0.0
+		min_completion_pct = 0.9
+		remap_code_vol_x1 = 0.0
+		remap_code_vol_y1 = 0.0
+		remap_code_vol_x2 = 0.1
+		remap_code_vol_y2 = 0.5
+		remap_code_vol_x3 = 0.5
+		remap_code_vol_y3 = 1.0
+		remap_code_vol_x4 = 0.95
+		remap_code_vol_y4 = 0.2
+		remap_code_pitch_x1 = 0.0
+		remap_code_pitch_y1 = 0.9
+		remap_code_pitch_x2 = 0.3
+		remap_code_pitch_y2 = 1.0
+		remap_code_pitch_x3 = 0.75
+		remap_code_pitch_y3 = 1.0
+		remap_code_pitch_x4 = 1.0
+		remap_code_pitch_y4 = 0.95
+		remap_code_vol_limiter = 1.5
+		remap_code_pitch_limiter = 1.5
 	}
 	RollUpDoor.BounceImpact = 
 	{
 		type = "hlvr_start_bounce"
-		cycle_amt_compare_lg = 0.368200
-		cycle_amt_compare_md = 0.736400
-		cycle_amt_compare_sm = 0.920500
+		cycle_amt_compare_lg = 0.3682
+		cycle_amt_compare_md = 0.7364
+		cycle_amt_compare_sm = 0.9205
 		soundevent_lg = "RollUpDoor.BounceLg"
 		soundevent_md = "RollUpDoor.BounceMd"
 		soundevent_sm = "RollUpDoor.BounceSm"
@@ -769,14 +770,14 @@
 	RollUpDoor.BounceLg = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
+		volume = 0.7
 		mixgroup = "AnimInteract"
-		limiter_on = 1.000000
+		limiter_on = 1.0
 		limiter_event_name = "RollUpDoor.BounceDoorLp"
-		limiter_max = 0.000000
-		limiter_match_entity = 1.000000
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		limiter_max = 0.0
+		limiter_match_entity = 1.0
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/door_rollup/bounce_lg.vsnd",
@@ -785,10 +786,10 @@
 	RollUpDoor.BounceMd = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
+		volume = 0.5
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/door_rollup/bounce_md.vsnd",
@@ -797,10 +798,10 @@
 	RollUpDoor.BounceSm = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
+		volume = 0.5
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/door_rollup/bounce_sm.vsnd",
@@ -809,7 +810,7 @@
 	RollUpDoor.FullOpen = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
+		volume = 0.7
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -819,7 +820,7 @@
 	RollUpDoor.Start_Closing = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
+		volume = 0.9
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -829,7 +830,7 @@
 	RollUpDoor.BounceMdLouder = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -843,10 +844,10 @@
 	RollUpDoor.Scripted_Zoo_Move_Loop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "World"
-		occlusion_scale = 0.300000
+		occlusion_scale = 0.3
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/door_rollup/move_loop.vsnd",
@@ -855,12 +856,12 @@
 	RollUpDoor.MoveLinear_Start = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.300000
+		volume = 0.6
+		use_hrtf = 1.0
+		occlusion_scale = 0.3
 		mixgroup = "World"
-		block_pitch_from_code = 1.000000
-		volume_falloff_max = 800.000000
+		block_pitch_from_code = 1.0
+		volume_falloff_max = 800.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/door_rollup/start_closing.vsnd",
@@ -877,10 +878,10 @@
 	Ladder.Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.450000
+		volume = 0.45
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/shared/grab_shared.vsnd",
@@ -890,11 +891,11 @@
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "AnimInteract"
-		limiter_on = 1.000000
+		limiter_on = 1.0
 		limiter_event_name = "Ladder.Stop"
-		limiter_max = 0.000000
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		limiter_max = 0.0
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/ladder/bounce_sm.vsnd",
@@ -904,11 +905,11 @@
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "AnimInteract"
-		limiter_on = 1.000000
+		limiter_on = 1.0
 		limiter_event_name = "Ladder.Stop"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
-		limiter_max = 0.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
+		limiter_max = 0.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/ladder/bounce_med.vsnd",
@@ -918,11 +919,11 @@
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "AnimInteract"
-		limiter_on = 1.000000
+		limiter_on = 1.0
 		limiter_event_name = "Ladder.Stop"
-		limiter_max = 0.000000
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		limiter_max = 0.0
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/ladder/bounce_lg.vsnd",
@@ -931,10 +932,10 @@
 	Ladder.Release = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
+		volume = 0.5
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/ladder/release.vsnd",
@@ -943,11 +944,11 @@
 	Ladder.Stop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		volume_fade_out = 0.500000
+		volume = 0.6
+		volume_fade_out = 0.5
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/ladder/stop.vsnd",
@@ -956,9 +957,9 @@
 	Ladder.Bounce = 
 	{
 		type = "hlvr_start_bounce"
-		cycle_amt_compare_lg = 0.368200
-		cycle_amt_compare_md = 0.736400
-		cycle_amt_compare_sm = 0.920500
+		cycle_amt_compare_lg = 0.3682
+		cycle_amt_compare_md = 0.7364
+		cycle_amt_compare_sm = 0.9205
 		soundevent_lg = "Ladder.BounceLg"
 		soundevent_md = "Ladder.BounceMd"
 		soundevent_sm = "Ladder.BounceSm"
@@ -966,21 +967,21 @@
 	Ladder.SlideLp = 
 	{
 		type = "hlvr_update_animinteractable"
-		volume = 0.500000
-		pitch = 1.000000
-		remap_code_vol_x1 = 0.000000
-		remap_code_vol_y1 = 0.000000
+		volume = 0.5
+		pitch = 1.0
+		remap_code_vol_x1 = 0.0
+		remap_code_vol_y1 = 0.0
 		remap_code_vol_x2 = 0.001875
-		remap_code_vol_y2 = 0.500000
-		remap_code_vol_x3 = 0.010000
-		remap_code_vol_y3 = 1.000000
-		remap_code_vol_x4 = 1.000000
-		remap_code_vol_y4 = 1.000000
-		remap_code_vol_limiter = 1.500000
-		volume_fade_out = 0.600000
+		remap_code_vol_y2 = 0.5
+		remap_code_vol_x3 = 0.01
+		remap_code_vol_y3 = 1.0
+		remap_code_vol_x4 = 1.0
+		remap_code_vol_y4 = 1.0
+		remap_code_vol_limiter = 1.5
+		volume_fade_out = 0.6
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/ladder/move_loop.vsnd",
@@ -989,21 +990,21 @@
 	Ladder.SlideLp_Slow = 
 	{
 		type = "hlvr_update_animinteractable"
-		volume = 0.500000
-		pitch = 1.000000
-		remap_code_vol_x1 = 0.000000
-		remap_code_vol_y1 = 0.000000
+		volume = 0.5
+		pitch = 1.0
+		remap_code_vol_x1 = 0.0
+		remap_code_vol_y1 = 0.0
 		remap_code_vol_x2 = 0.001875
-		remap_code_vol_y2 = 0.500000
-		remap_code_vol_x3 = 0.010000
-		remap_code_vol_y3 = 1.000000
-		remap_code_vol_x4 = 1.000000
-		remap_code_vol_y4 = 1.000000
-		remap_code_vol_limiter = 1.500000
-		volume_fade_out = 0.200000
+		remap_code_vol_y2 = 0.5
+		remap_code_vol_x3 = 0.01
+		remap_code_vol_y3 = 1.0
+		remap_code_vol_x4 = 1.0
+		remap_code_vol_y4 = 1.0
+		remap_code_vol_limiter = 1.5
+		volume_fade_out = 0.2
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/ladder/move_loop.vsnd",
@@ -1012,11 +1013,11 @@
 	Anim_Frankenswitch.Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
+		volume = 0.6
+		use_hrtf = 1.0
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/frankenswitch/grab.vsnd",
@@ -1026,16 +1027,16 @@
 	{
 		type = "hlvr_update_animinteractable_tick"
 		child_soundevent_name = "Anim_Frankenswitch.Tick"
-		timer_min = 0.100000
-		timer_max = 0.250000
+		timer_min = 0.1
+		timer_max = 0.25
 	}
 	Anim_Frankenswitch.Tick = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
+		volume = 0.75
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/frankenswitch/tick_01.vsnd",
@@ -1051,11 +1052,11 @@
 	Anim_Frankenswitch.End = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		limiter_match_entity = 1.000000
+		use_hrtf = 1.0
+		limiter_match_entity = 1.0
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/frankenswitch/end.vsnd",
@@ -1064,10 +1065,10 @@
 	Anim_Frankenswitch.Bounce_Return = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
+		volume = 0.5
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/frankenswitch/bounce_return.vsnd",
@@ -1076,10 +1077,10 @@
 	Anim_Frankenswitch.Bounce_Remain = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.100000
+		volume = 0.1
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/frankenswitch/bounce_remain.vsnd",
@@ -1088,7 +1089,7 @@
 	Freezer_Door.Lock = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
+		volume = 0.9
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -1098,7 +1099,7 @@
 	Freezer_Door.Unlock = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
+		volume = 0.9
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -1108,11 +1109,11 @@
 	Anim_FreezerDoor.Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		use_hrtf = 1.000000
+		volume = 0.4
+		use_hrtf = 1.0
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/freezer/grab.vsnd",
@@ -1121,22 +1122,22 @@
 	Anim_FreezerDoor.MoveLp = 
 	{
 		type = "hlvr_update_animinteractable"
-		volume = 1.000000
-		volume_fade_in = 0.500000
-		pitch = 1.000000
-		remap_code_vol_x1 = 0.000000
-		remap_code_vol_y1 = 0.000000
-		remap_code_vol_x2 = 0.001000
-		remap_code_vol_y2 = 0.100000
-		remap_code_vol_x3 = 0.007000
-		remap_code_vol_y3 = 1.000000
-		remap_code_vol_x4 = 1.000000
-		remap_code_vol_y4 = 1.000000
-		remap_code_vol_limiter = 1.500000
-		volume_fade_out = 0.050000
+		volume = 1.0
+		volume_fade_in = 0.5
+		pitch = 1.0
+		remap_code_vol_x1 = 0.0
+		remap_code_vol_y1 = 0.0
+		remap_code_vol_x2 = 0.001
+		remap_code_vol_y2 = 0.1
+		remap_code_vol_x3 = 0.007
+		remap_code_vol_y3 = 1.0
+		remap_code_vol_x4 = 1.0
+		remap_code_vol_y4 = 1.0
+		remap_code_vol_limiter = 1.5
+		volume_fade_out = 0.05
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/freezer/loop.vsnd",
@@ -1145,10 +1146,10 @@
 	Anim_FreezerDoor.BounceSm = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
+		volume = 0.5
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/freezer/bounce_sm.vsnd",
@@ -1157,10 +1158,10 @@
 	Anim_FreezerDoor.BounceMd = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
+		volume = 0.6
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/freezer/bounce_md.vsnd",
@@ -1169,10 +1170,10 @@
 	Anim_FreezerDoor.BounceLg = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
+		volume = 0.7
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/freezer/bounce_lg.vsnd",
@@ -1181,9 +1182,9 @@
 	Anim_FreezerDoor.Bounce = 
 	{
 		type = "hlvr_start_bounce"
-		cycle_amt_compare_lg = 0.300000
-		cycle_amt_compare_md = 0.700000
-		cycle_amt_compare_sm = 0.900000
+		cycle_amt_compare_lg = 0.3
+		cycle_amt_compare_md = 0.7
+		cycle_amt_compare_sm = 0.9
 		soundevent_lg = "Anim_FreezerDoor.BounceLg"
 		soundevent_md = "Anim_FreezerDoor.BounceMd"
 		soundevent_sm = "Anim_FreezerDoor.BounceSm"
@@ -1193,14 +1194,14 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "Refuge_Door.Unlock_A"
 		soundevent_02 = "Refuge_Door.Unlock_B"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	Refuge_Door.Unlock_A = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.9
+		use_hrtf = 1.0
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -1210,8 +1211,8 @@
 	Refuge_Door.Unlock_B = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -1221,11 +1222,11 @@
 	Anim_RefugeDoor.Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
+		volume = 0.6
+		use_hrtf = 1.0
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/shared/grab_shared.vsnd",
@@ -1234,21 +1235,21 @@
 	Anim_RefugeDoor.MoveLp = 
 	{
 		type = "hlvr_update_animinteractable_2staged"
-		volume = 1.200000
-		pitch = 1.000000
-		remap_code_vol_x1 = 0.000000
-		remap_code_vol_y1 = 0.000000
-		remap_code_vol_x2 = 0.001000
-		remap_code_vol_y2 = 0.100000
-		remap_code_vol_x3 = 0.003000
-		remap_code_vol_y3 = 1.000000
-		remap_code_vol_x4 = 1.000000
-		remap_code_vol_y4 = 1.000000
-		remap_code_vol_limiter = 1.500000
-		volume_fade_out = 0.050000
+		volume = 1.2
+		pitch = 1.0
+		remap_code_vol_x1 = 0.0
+		remap_code_vol_y1 = 0.0
+		remap_code_vol_x2 = 0.001
+		remap_code_vol_y2 = 0.1
+		remap_code_vol_x3 = 0.003
+		remap_code_vol_y3 = 1.0
+		remap_code_vol_x4 = 1.0
+		remap_code_vol_y4 = 1.0
+		remap_code_vol_limiter = 1.5
+		volume_fade_out = 0.05
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files_a = 
 		[
 			"sounds/world/anim_int/door_refuge/handle_move_loop_01.vsnd",
@@ -1262,10 +1263,10 @@
 	Anim_RefugeDoor.Handle_Open_End = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
+		volume = 0.3
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/door_refuge/handle_open_end.vsnd",
@@ -1274,10 +1275,10 @@
 	Anim_RefugeDoor.Handle_Close_Start = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
+		volume = 0.3
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/door_refuge/handle_close_start.vsnd",
@@ -1286,10 +1287,10 @@
 	Anim_RefugeDoor.Slide_Start = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
+		volume = 0.3
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/door_refuge/slide_start.vsnd",
@@ -1298,10 +1299,10 @@
 	Anim_RollingCabinet.Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
+		volume = 0.3
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/rolling_cabinet/grab_01.vsnd",
@@ -1313,18 +1314,18 @@
 	{
 		type = "hlvr_update_animinteractable_tick"
 		child_soundevent_name = "Anim_RollingCabinet.Tick"
-		timer_min = 0.100000
-		timer_max = 0.500000
-		pitch_map_min = 1.000000
-		pitch_map_max = 1.050000
+		timer_min = 0.1
+		timer_max = 0.5
+		pitch_map_min = 1.0
+		pitch_map_max = 1.05
 	}
 	Anim_RollingCabinet.Tick = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
+		volume = 0.2
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/rolling_cabinet/move_tick_01.vsnd",
@@ -1344,15 +1345,15 @@
 	Anim_RollingCabinet.End = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		use_hrtf = 1.000000
-		limiter_on = 1.000000
+		volume = 0.3
+		use_hrtf = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "Anim_RollingCabinet.Bounce"
-		limiter_max = 0.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 0.0
+		limiter_match_entity = 1.0
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/rolling_cabinet/end_01.vsnd",
@@ -1363,11 +1364,11 @@
 	AnimWheel.Insert = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/wheel/insert.vsnd",
@@ -1377,21 +1378,21 @@
 	{
 		type = "hlvr_update_animinteractable_tick"
 		child_soundevent_name = "AnimWheel.Tick"
-		remap_code_vol_x2 = 0.001000
-		elbow_speed = 0.001000
-		fastest_speed = 0.010000
-		timer_min = 0.100000
-		timer_max = 0.500000
-		pitch_map_min = 0.900000
-		pitch_map_max = 1.100000
+		remap_code_vol_x2 = 0.001
+		elbow_speed = 0.001
+		fastest_speed = 0.01
+		timer_min = 0.1
+		timer_max = 0.5
+		pitch_map_min = 0.9
+		pitch_map_max = 1.1
 	}
 	AnimWheel.Tick = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		occlusion_scale = 0.500000
+		volume = 0.6
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
-		volume_falloff_max = 600.000000
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/wheel/tick_01.vsnd",
@@ -1411,11 +1412,11 @@
 	AnimWheel.Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.250000
-		use_hrtf = 1.000000
+		volume = 0.25
+		use_hrtf = 1.0
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/shared/grab_shared.vsnd",
@@ -1424,14 +1425,14 @@
 	AnimWheel.End = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
-		limiter_on = 1.000000
+		volume = 0.5
+		use_hrtf = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "AnimWheel.Bounce_Child"
-		limiter_max = 0.000000
-		limiter_match_entity = 1.000000
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		limiter_max = 0.0
+		limiter_match_entity = 1.0
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -1441,12 +1442,12 @@
 	AnimWheel.Bounce_Child = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.5
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/wheel/bounce.vsnd",
@@ -1455,28 +1456,28 @@
 	AnimWheel.Bounce = 
 	{
 		type = "hlvr_start_bounce"
-		cycle_amt_compare_lg = 0.050000
+		cycle_amt_compare_lg = 0.05
 		soundevent_lg = "AnimWheel.Bounce_Child"
 	}
 	AnimWheel_Creaky.MoveLp = 
 	{
 		type = "hlvr_update_animinteractable_tick"
 		child_soundevent_name = "AnimWheel_Creaky.Tick"
-		remap_code_vol_x2 = 0.000500
-		remap_code_vol_y2 = 0.500000
-		elbow_speed = 0.001000
-		fastest_speed = 0.080000
-		timer_min = 0.100000
-		timer_max = 0.500000
-		pitch_map_min = 0.950000
-		pitch_map_max = 1.050000
+		remap_code_vol_x2 = 0.0005
+		remap_code_vol_y2 = 0.5
+		elbow_speed = 0.001
+		fastest_speed = 0.08
+		timer_min = 0.1
+		timer_max = 0.5
+		pitch_map_min = 0.95
+		pitch_map_max = 1.05
 	}
 	AnimWheel_Creaky.Tick = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
-		volume_falloff_max = 1000.000000
+		volume = 1.0
+		occlusion_scale = 0.5
+		volume_falloff_max = 1000.0
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -1497,11 +1498,11 @@
 	AnimWheel_Creaky.Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.250000
-		use_hrtf = 1.000000
+		volume = 0.25
+		use_hrtf = 1.0
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 1000.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 1000.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/shared/grab_shared.vsnd",
@@ -1510,14 +1511,14 @@
 	AnimWheel_Creaky.End = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
-		limiter_on = 1.000000
+		volume = 0.5
+		use_hrtf = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "AnimWheel_Creaky.Bounce_Child"
-		limiter_max = 0.000000
-		limiter_match_entity = 1.000000
-		occlusion_scale = 0.500000
-		volume_falloff_max = 1000.000000
+		limiter_max = 0.0
+		limiter_match_entity = 1.0
+		occlusion_scale = 0.5
+		volume_falloff_max = 1000.0
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -1527,20 +1528,20 @@
 	AnimWheel_Creaky.Bounce = 
 	{
 		type = "hlvr_start_bounce"
-		cycle_amt_compare_lg = 0.050000
+		cycle_amt_compare_lg = 0.05
 		soundevent_lg = "AnimWheel.Bounce_Child"
 	}
 	AnimWheel_Creaky.End_Freezer = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
-		limiter_on = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "AnimWheel_Creaky.Bounce_Child"
-		limiter_max = 0.000000
-		limiter_match_entity = 1.000000
-		occlusion_scale = 0.500000
-		volume_falloff_max = 1000.000000
+		limiter_max = 0.0
+		limiter_match_entity = 1.0
+		occlusion_scale = 0.5
+		volume_falloff_max = 1000.0
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -1550,33 +1551,33 @@
 	RollUpDoor.MoveLp_WheelChild = 
 	{
 		base = "RollUpDoor.MoveLp"
-		volume = 0.600000
-		volume_fade_out = 0.200000
-		spread_min = 0.000000
-		spread_max = 1000.000000
-		spread_max_value = 0.500000
+		volume = 0.6
+		volume_fade_out = 0.2
+		spread_min = 0.0
+		spread_max = 1000.0
+		spread_max_value = 0.5
 	}
 	AnimWheel.MoveLp_RollerDoor_Parent = 
 	{
 		type = "hlvr_update_animinteractable_tick_with_child"
 		child_soundevent_name = "AnimWheel.Tick"
 		animint_child_soundevent_name = "RollUpDoor.MoveLp_WheelChild"
-		remap_code_vol_x2 = 0.001000
-		elbow_speed = 0.001000
-		fastest_speed = 0.010000
-		timer_min = 0.100000
-		timer_max = 0.500000
-		pitch_map_min = 0.900000
-		pitch_map_max = 1.100000
+		remap_code_vol_x2 = 0.001
+		elbow_speed = 0.001
+		fastest_speed = 0.01
+		timer_min = 0.1
+		timer_max = 0.5
+		pitch_map_min = 0.9
+		pitch_map_max = 1.1
 	}
 	AnimWheel.Bounce_RollerDoor_Parent = 
 	{
 		type = "hlvr_start_bounce_layer"
-		cycle_amt_compare_layer = 0.050000
+		cycle_amt_compare_layer = 0.05
 		soundevent_layer = "AnimWheel.Bounce_Child"
-		cycle_amt_compare_lg = 0.400000
-		cycle_amt_compare_md = 0.700000
-		cycle_amt_compare_sm = 0.920000
+		cycle_amt_compare_lg = 0.4
+		cycle_amt_compare_md = 0.7
+		cycle_amt_compare_sm = 0.92
 		soundevent_lg = "RollUpDoor.BounceLg_WheelChild"
 		soundevent_md = "RollUpDoor.BounceMd_WheelChild"
 		soundevent_sm = "RollUpDoor.BounceSm_WheelChild"
@@ -1584,17 +1585,17 @@
 	RollUpDoor.BounceLg_WheelChild = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
+		volume = 0.6
 		mixgroup = "AnimInteract"
-		spread_min = 0.000000
-		spread_max = 1000.000000
-		spread_max_value = 0.500000
-		limiter_on = 1.000000
+		spread_min = 0.0
+		spread_max = 1000.0
+		spread_max_value = 0.5
+		limiter_on = 1.0
 		limiter_event_name = "RollUpDoor.MoveLp_WheelChild"
-		limiter_max = 0.000000
-		limiter_match_entity = 1.000000
-		occlusion_scale = 0.200000
-		volume_falloff_max = 800.000000
+		limiter_max = 0.0
+		limiter_match_entity = 1.0
+		occlusion_scale = 0.2
+		volume_falloff_max = 800.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/door_rollup/bounce_lg.vsnd",
@@ -1603,13 +1604,13 @@
 	RollUpDoor.BounceMd_WheelChild = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
+		volume = 0.5
 		mixgroup = "AnimInteract"
-		spread_min = 0.000000
-		spread_max = 1000.000000
-		spread_max_value = 0.500000
-		occlusion_scale = 0.200000
-		volume_falloff_max = 800.000000
+		spread_min = 0.0
+		spread_max = 1000.0
+		spread_max_value = 0.5
+		occlusion_scale = 0.2
+		volume_falloff_max = 800.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/door_rollup/bounce_md.vsnd",
@@ -1618,13 +1619,13 @@
 	RollUpDoor.BounceSm_WheelChild = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
+		volume = 0.4
 		mixgroup = "AnimInteract"
-		spread_min = 0.000000
-		spread_max = 1000.000000
-		spread_max_value = 0.500000
-		occlusion_scale = 0.200000
-		volume_falloff_max = 800.000000
+		spread_min = 0.0
+		spread_max = 1000.0
+		spread_max_value = 0.5
+		occlusion_scale = 0.2
+		volume_falloff_max = 800.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/door_rollup/bounce_sm.vsnd",
@@ -1634,21 +1635,21 @@
 	{
 		type = "hlvr_update_animinteractable_tick"
 		child_soundevent_name = "CombineWheel.Tick"
-		remap_code_vol_x2 = 0.001000
-		elbow_speed = 0.001000
-		fastest_speed = 0.010000
-		timer_min = 0.100000
-		timer_max = 0.500000
-		pitch_map_min = 0.900000
-		pitch_map_max = 1.100000
+		remap_code_vol_x2 = 0.001
+		elbow_speed = 0.001
+		fastest_speed = 0.01
+		timer_min = 0.1
+		timer_max = 0.5
+		pitch_map_min = 0.9
+		pitch_map_max = 1.1
 	}
 	CombineWheel.Tick = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
-		volume_falloff_max = 600.000000
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/wheel_combine/tick_01.vsnd",
@@ -1666,10 +1667,10 @@
 	CombineWheel.Grab = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/wheel_combine/grab.vsnd",
@@ -1678,13 +1679,13 @@
 	CombineWheel.End = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		limiter_on = 1.000000
+		use_hrtf = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "CombineWheel.Bounce_Child"
-		limiter_max = 0.000000
-		limiter_match_entity = 1.000000
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		limiter_max = 0.0
+		limiter_match_entity = 1.0
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -1694,11 +1695,11 @@
 	CombineWheel.Bounce_Child = 
 	{
 		type = "hlvr_default_3d"
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/wheel_combine/bounce.vsnd",
@@ -1707,27 +1708,27 @@
 	CombineWheel.Bounce = 
 	{
 		type = "hlvr_start_bounce"
-		cycle_amt_compare_lg = 0.050000
+		cycle_amt_compare_lg = 0.05
 		soundevent_lg = "CombineWheel.Bounce_Child"
 	}
 	DoorSubway.MovementLp = 
 	{
 		type = "hlvr_update_animinteractable"
-		volume = 0.800000
-		pitch = 1.000000
-		remap_code_vol_x1 = 0.000000
-		remap_code_vol_y1 = 0.000000
+		volume = 0.8
+		pitch = 1.0
+		remap_code_vol_x1 = 0.0
+		remap_code_vol_y1 = 0.0
 		remap_code_vol_x2 = 0.001875
-		remap_code_vol_y2 = 0.500000
-		remap_code_vol_x3 = 0.010000
-		remap_code_vol_y3 = 1.000000
-		remap_code_vol_x4 = 1.000000
-		remap_code_vol_y4 = 1.000000
-		remap_code_vol_limiter = 1.500000
-		volume_fade_out = 0.600000
+		remap_code_vol_y2 = 0.5
+		remap_code_vol_x3 = 0.01
+		remap_code_vol_y3 = 1.0
+		remap_code_vol_x4 = 1.0
+		remap_code_vol_y4 = 1.0
+		remap_code_vol_limiter = 1.5
+		volume_fade_out = 0.6
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/door_subway/move_loop_01.vsnd",
@@ -1738,10 +1739,10 @@
 	DoorSubway.HandleInteract = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
+		volume = 0.5
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/door_subway/grabbed_01.vsnd",
@@ -1752,10 +1753,10 @@
 	DoorSubway.StopMove = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
+		volume = 0.5
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/door_subway/end_01.vsnd",
@@ -1766,11 +1767,11 @@
 	DoorSubway.BounceLg = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_fade_out = 0.350000
+		volume = 0.5
+		volume_fade_out = 0.35
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/door_subway/move_loop_01.vsnd",
@@ -1782,43 +1783,43 @@
 	{
 		type = "hlvr_start_bounce_single"
 		soundevent = "DoorSubway.BounceLg"
-		delay = 0.000000
-		remap_code_vol_x1 = 0.000000
-		remap_code_vol_y1 = 0.000000
-		remap_code_vol_x2 = 0.500000
-		remap_code_vol_y2 = 0.500000
-		remap_code_vol_x3 = 0.700000
-		remap_code_vol_y3 = 0.800000
-		remap_code_vol_x4 = 0.950000
-		remap_code_vol_y4 = 0.200000
-		remap_code_pitch_x1 = 0.000000
-		remap_code_pitch_y1 = 0.800000
-		remap_code_pitch_x2 = 0.300000
-		remap_code_pitch_y2 = 1.000000
-		remap_code_pitch_x3 = 0.650000
-		remap_code_pitch_y3 = 1.000000
-		remap_code_pitch_x4 = 1.000000
-		remap_code_pitch_y4 = 0.650000
-		remap_code_vol_limiter = 1.500000
-		remap_code_pitch_limiter = 1.500000
+		delay = 0.0
+		remap_code_vol_x1 = 0.0
+		remap_code_vol_y1 = 0.0
+		remap_code_vol_x2 = 0.5
+		remap_code_vol_y2 = 0.5
+		remap_code_vol_x3 = 0.7
+		remap_code_vol_y3 = 0.8
+		remap_code_vol_x4 = 0.95
+		remap_code_vol_y4 = 0.2
+		remap_code_pitch_x1 = 0.0
+		remap_code_pitch_y1 = 0.8
+		remap_code_pitch_x2 = 0.3
+		remap_code_pitch_y2 = 1.0
+		remap_code_pitch_x3 = 0.65
+		remap_code_pitch_y3 = 1.0
+		remap_code_pitch_x4 = 1.0
+		remap_code_pitch_y4 = 0.65
+		remap_code_vol_limiter = 1.5
+		remap_code_pitch_limiter = 1.5
 	}
 	Anim_Sliding_Window.Move = 
 	{
 		type = "hlvr_update_animinteractable"
-		volume = 0.700000
-		pitch = 1.000000
-		remap_code_vol_x1 = 0.000000
-		remap_code_vol_y1 = 0.000000
+		volume = 0.7
+		pitch = 1.0
+		remap_code_vol_x1 = 0.0
+		remap_code_vol_y1 = 0.0
 		remap_code_vol_x2 = 0.001875
-		remap_code_vol_y2 = 0.500000
-		remap_code_vol_x3 = 0.010000
-		remap_code_vol_y3 = 1.000000
-		remap_code_vol_x4 = 1.000000
-		remap_code_vol_y4 = 1.000000
-		remap_code_vol_limiter = 1.500000
-		volume_fade_out = 0.100000
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		remap_code_vol_y2 = 0.5
+		remap_code_vol_x3 = 0.01
+		remap_code_vol_y3 = 1.0
+		remap_code_vol_x4 = 1.0
+		remap_code_vol_y4 = 1.0
+		remap_code_vol_limiter = 1.5
+		volume_fade_out = 0.1
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -1829,9 +1830,9 @@
 	Anim_Sliding_Window.Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		volume = 0.5
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -1842,9 +1843,9 @@
 	Anim_Sliding_Window.Stop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		volume = 0.5
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -1855,21 +1856,21 @@
 	AnimDoor.OpenLp = 
 	{
 		type = "hlvr_update_animinteractable"
-		volume = 0.500000
-		pitch = 1.000000
-		remap_code_vol_x1 = 0.000000
-		remap_code_vol_y1 = 0.000000
+		volume = 0.5
+		pitch = 1.0
+		remap_code_vol_x1 = 0.0
+		remap_code_vol_y1 = 0.0
 		remap_code_vol_x2 = 0.001875
-		remap_code_vol_y2 = 0.500000
-		remap_code_vol_x3 = 0.010000
-		remap_code_vol_y3 = 1.000000
-		remap_code_vol_x4 = 1.000000
-		remap_code_vol_y4 = 1.000000
-		remap_code_vol_limiter = 1.500000
-		volume_fade_out = 0.600000
+		remap_code_vol_y2 = 0.5
+		remap_code_vol_x3 = 0.01
+		remap_code_vol_y3 = 1.0
+		remap_code_vol_x4 = 1.0
+		remap_code_vol_y4 = 1.0
+		remap_code_vol_limiter = 1.5
+		volume_fade_out = 0.6
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/door/move_loop.vsnd",
@@ -1878,10 +1879,10 @@
 	AnimDoor.Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.450000
+		volume = 0.45
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/door/grab.vsnd",
@@ -1891,8 +1892,8 @@
 	{
 		type = "hlvr_default_3d"
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/door/end.vsnd",
@@ -1901,21 +1902,21 @@
 	AnimGears.MoveLp = 
 	{
 		type = "hlvr_update_animinteractable"
-		volume = 0.500000
-		pitch = 1.000000
-		remap_code_vol_x1 = 0.000000
-		remap_code_vol_y1 = 0.000000
+		volume = 0.5
+		pitch = 1.0
+		remap_code_vol_x1 = 0.0
+		remap_code_vol_y1 = 0.0
 		remap_code_vol_x2 = 0.001875
-		remap_code_vol_y2 = 0.500000
-		remap_code_vol_x3 = 0.010000
-		remap_code_vol_y3 = 1.000000
-		remap_code_vol_x4 = 1.000000
-		remap_code_vol_y4 = 1.000000
-		remap_code_vol_limiter = 1.500000
-		volume_fade_out = 0.600000
+		remap_code_vol_y2 = 0.5
+		remap_code_vol_x3 = 0.01
+		remap_code_vol_y3 = 1.0
+		remap_code_vol_x4 = 1.0
+		remap_code_vol_y4 = 1.0
+		remap_code_vol_limiter = 1.5
+		volume_fade_out = 0.6
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/gears/move_loop.vsnd",
@@ -1924,10 +1925,10 @@
 	AnimGears.Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
+		volume = 0.6
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/shared/grab_shared.vsnd",
@@ -1936,10 +1937,10 @@
 	AnimGears.Release = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
+		volume = 0.5
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/wheel/end.vsnd",
@@ -1948,10 +1949,10 @@
 	AnimGears.BounceLg = 
 	{
 		type = "hlvr_default_3d"
-		volume_fade_out = 0.650000
+		volume_fade_out = 0.65
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/gears/move_loop.vsnd",
@@ -1961,68 +1962,68 @@
 	{
 		type = "hlvr_start_bounce_single"
 		soundevent = "AnimGears.BounceLg"
-		delay = 0.000000
-		remap_code_vol_x1 = 0.000000
-		remap_code_vol_y1 = 0.000000
-		remap_code_vol_x2 = 0.200000
-		remap_code_vol_y2 = 0.500000
-		remap_code_vol_x3 = 0.700000
-		remap_code_vol_y3 = 0.800000
-		remap_code_vol_x4 = 0.950000
-		remap_code_vol_y4 = 0.200000
-		remap_code_pitch_x1 = 0.000000
-		remap_code_pitch_y1 = 0.800000
-		remap_code_pitch_x2 = 0.300000
-		remap_code_pitch_y2 = 1.000000
-		remap_code_pitch_x3 = 0.650000
-		remap_code_pitch_y3 = 1.000000
-		remap_code_pitch_x4 = 1.000000
-		remap_code_pitch_y4 = 0.650000
-		remap_code_vol_limiter = 1.500000
-		remap_code_pitch_limiter = 1.500000
+		delay = 0.0
+		remap_code_vol_x1 = 0.0
+		remap_code_vol_y1 = 0.0
+		remap_code_vol_x2 = 0.2
+		remap_code_vol_y2 = 0.5
+		remap_code_vol_x3 = 0.7
+		remap_code_vol_y3 = 0.8
+		remap_code_vol_x4 = 0.95
+		remap_code_vol_y4 = 0.2
+		remap_code_pitch_x1 = 0.0
+		remap_code_pitch_y1 = 0.8
+		remap_code_pitch_x2 = 0.3
+		remap_code_pitch_y2 = 1.0
+		remap_code_pitch_x3 = 0.65
+		remap_code_pitch_y3 = 1.0
+		remap_code_pitch_x4 = 1.0
+		remap_code_pitch_y4 = 0.65
+		remap_code_vol_limiter = 1.5
+		remap_code_pitch_limiter = 1.5
 	}
 	AnimGears.BounceSlow = 
 	{
 		type = "hlvr_start_bounce_single"
 		soundevent = "AnimGears.BounceLg"
-		delay = 0.000000
-		remap_code_vol_x1 = 0.000000
-		remap_code_vol_y1 = 0.000000
-		remap_code_vol_x2 = 0.200000
-		remap_code_vol_y2 = 0.400000
-		remap_code_vol_x3 = 0.700000
-		remap_code_vol_y3 = 0.450000
-		remap_code_vol_x4 = 0.950000
-		remap_code_vol_y4 = 0.200000
-		remap_code_pitch_x1 = 0.000000
-		remap_code_pitch_y1 = 0.350000
-		remap_code_pitch_x2 = 0.300000
-		remap_code_pitch_y2 = 0.400000
-		remap_code_pitch_x3 = 0.650000
-		remap_code_pitch_y3 = 0.400000
-		remap_code_pitch_x4 = 1.000000
-		remap_code_pitch_y4 = 0.200000
-		remap_code_vol_limiter = 1.500000
-		remap_code_pitch_limiter = 1.500000
+		delay = 0.0
+		remap_code_vol_x1 = 0.0
+		remap_code_vol_y1 = 0.0
+		remap_code_vol_x2 = 0.2
+		remap_code_vol_y2 = 0.4
+		remap_code_vol_x3 = 0.7
+		remap_code_vol_y3 = 0.45
+		remap_code_vol_x4 = 0.95
+		remap_code_vol_y4 = 0.2
+		remap_code_pitch_x1 = 0.0
+		remap_code_pitch_y1 = 0.35
+		remap_code_pitch_x2 = 0.3
+		remap_code_pitch_y2 = 0.4
+		remap_code_pitch_x3 = 0.65
+		remap_code_pitch_y3 = 0.4
+		remap_code_pitch_x4 = 1.0
+		remap_code_pitch_y4 = 0.2
+		remap_code_vol_limiter = 1.5
+		remap_code_pitch_limiter = 1.5
 	}
 	AnimBladeSwitch.MoveLp = 
 	{
 		type = "hlvr_update_animinteractable"
-		volume = 0.500000
-		pitch = 1.000000
-		remap_code_vol_x1 = 0.000000
-		remap_code_vol_y1 = 0.000000
+		volume = 0.5
+		pitch = 1.0
+		remap_code_vol_x1 = 0.0
+		remap_code_vol_y1 = 0.0
 		remap_code_vol_x2 = 0.001875
-		remap_code_vol_y2 = 0.500000
-		remap_code_vol_x3 = 0.010000
-		remap_code_vol_y3 = 1.000000
-		remap_code_vol_x4 = 1.000000
-		remap_code_vol_y4 = 1.000000
-		remap_code_vol_limiter = 1.500000
-		volume_fade_out = 0.150000
+		remap_code_vol_y2 = 0.5
+		remap_code_vol_x3 = 0.01
+		remap_code_vol_y3 = 1.0
+		remap_code_vol_x4 = 1.0
+		remap_code_vol_y4 = 1.0
+		remap_code_vol_limiter = 1.5
+		volume_fade_out = 0.15
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/bladeswitch/move_loop.vsnd",
@@ -2031,10 +2032,10 @@
 	AnimBladeSwitch.Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
+		volume = 0.6
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/shared/grab_shared.vsnd",
@@ -2043,10 +2044,10 @@
 	AnimBladeSwitch.Release = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
+		volume = 0.5
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/wheel/end.vsnd",
@@ -2055,10 +2056,10 @@
 	AnimBladeSwitch.Complete = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
+		volume = 0.6
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/bladeswitch/connect.vsnd",
@@ -2067,10 +2068,10 @@
 	AnimBladeSwitch.BounceLg = 
 	{
 		type = "hlvr_default_3d"
-		volume_fade_out = 0.350000
+		volume_fade_out = 0.35
 		mixgroup = "AnimInteract"
-		occlusion_scale = 0.500000
-		volume_falloff_max = 600.000000
+		occlusion_scale = 0.5
+		volume_falloff_max = 600.0
 		vsnd_files = 
 		[
 			"sounds/world/anim_int/bladeswitch/move_loop.vsnd",
@@ -2080,32 +2081,32 @@
 	{
 		type = "hlvr_start_bounce_single"
 		soundevent = "AnimBladeSwitch.BounceLg"
-		delay = 0.000000
-		min_completion_pct = 0.930000
-		remap_code_vol_x1 = 0.000000
-		remap_code_vol_y1 = 0.000000
-		remap_code_vol_x2 = 0.200000
-		remap_code_vol_y2 = 0.500000
-		remap_code_vol_x3 = 0.700000
-		remap_code_vol_y3 = 0.800000
-		remap_code_vol_x4 = 0.950000
-		remap_code_vol_y4 = 0.200000
-		remap_code_pitch_x1 = 0.000000
-		remap_code_pitch_y1 = 0.850000
-		remap_code_pitch_x2 = 0.300000
-		remap_code_pitch_y2 = 1.000000
-		remap_code_pitch_x3 = 0.650000
-		remap_code_pitch_y3 = 1.000000
-		remap_code_pitch_x4 = 1.000000
-		remap_code_pitch_y4 = 0.750000
-		remap_code_vol_limiter = 1.500000
-		remap_code_pitch_limiter = 1.500000
+		delay = 0.0
+		min_completion_pct = 0.93
+		remap_code_vol_x1 = 0.0
+		remap_code_vol_y1 = 0.0
+		remap_code_vol_x2 = 0.2
+		remap_code_vol_y2 = 0.5
+		remap_code_vol_x3 = 0.7
+		remap_code_vol_y3 = 0.8
+		remap_code_vol_x4 = 0.95
+		remap_code_vol_y4 = 0.2
+		remap_code_pitch_x1 = 0.0
+		remap_code_pitch_y1 = 0.85
+		remap_code_pitch_x2 = 0.3
+		remap_code_pitch_y2 = 1.0
+		remap_code_pitch_x3 = 0.65
+		remap_code_pitch_y3 = 1.0
+		remap_code_pitch_x4 = 1.0
+		remap_code_pitch_y4 = 0.75
+		remap_code_vol_limiter = 1.5
+		remap_code_pitch_limiter = 1.5
 	}
 	Anim_Piano.A0 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2115,8 +2116,8 @@
 	Anim_Piano.A1 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2126,8 +2127,8 @@
 	Anim_Piano.A2 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2137,8 +2138,8 @@
 	Anim_Piano.A3 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2148,8 +2149,8 @@
 	Anim_Piano.A4 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2159,8 +2160,8 @@
 	Anim_Piano.A5 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2170,8 +2171,8 @@
 	Anim_Piano.A6 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2181,8 +2182,8 @@
 	Anim_Piano.A7 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2192,8 +2193,8 @@
 	Anim_Piano.As0 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2203,8 +2204,8 @@
 	Anim_Piano.As1 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2214,8 +2215,8 @@
 	Anim_Piano.As2 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2225,8 +2226,8 @@
 	Anim_Piano.As3 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2236,8 +2237,8 @@
 	Anim_Piano.As4 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2247,8 +2248,8 @@
 	Anim_Piano.As5 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2258,8 +2259,8 @@
 	Anim_Piano.As6 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2269,8 +2270,8 @@
 	Anim_Piano.As7 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2280,8 +2281,8 @@
 	Anim_Piano.B0 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2291,8 +2292,8 @@
 	Anim_Piano.B1 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2302,8 +2303,8 @@
 	Anim_Piano.B2 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2313,8 +2314,8 @@
 	Anim_Piano.B3 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2324,8 +2325,8 @@
 	Anim_Piano.B4 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2335,8 +2336,8 @@
 	Anim_Piano.B5 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2346,8 +2347,8 @@
 	Anim_Piano.B6 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2357,8 +2358,8 @@
 	Anim_Piano.B7 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2368,8 +2369,8 @@
 	Anim_Piano.C1 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2379,8 +2380,8 @@
 	Anim_Piano.C2 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2390,8 +2391,8 @@
 	Anim_Piano.C3 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2401,8 +2402,8 @@
 	Anim_Piano.C4 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2412,8 +2413,8 @@
 	Anim_Piano.C5 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2423,8 +2424,8 @@
 	Anim_Piano.C6 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2434,8 +2435,8 @@
 	Anim_Piano.C7 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2445,8 +2446,8 @@
 	Anim_Piano.C8 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2456,8 +2457,8 @@
 	Anim_Piano.Cs1 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2467,8 +2468,8 @@
 	Anim_Piano.Cs2 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2478,8 +2479,8 @@
 	Anim_Piano.Cs3 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2489,8 +2490,8 @@
 	Anim_Piano.Cs4 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2500,8 +2501,8 @@
 	Anim_Piano.Cs5 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2511,8 +2512,8 @@
 	Anim_Piano.Cs6 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2522,8 +2523,8 @@
 	Anim_Piano.Cs7 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2533,8 +2534,8 @@
 	Anim_Piano.D1 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2544,8 +2545,8 @@
 	Anim_Piano.D2 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2555,8 +2556,8 @@
 	Anim_Piano.D3 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2566,8 +2567,8 @@
 	Anim_Piano.D4 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2577,8 +2578,8 @@
 	Anim_Piano.D5 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2588,8 +2589,8 @@
 	Anim_Piano.D6 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2599,8 +2600,8 @@
 	Anim_Piano.D7 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2610,8 +2611,8 @@
 	Anim_Piano.Ds1 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2621,8 +2622,8 @@
 	Anim_Piano.Ds2 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2632,8 +2633,8 @@
 	Anim_Piano.Ds3 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2643,8 +2644,8 @@
 	Anim_Piano.Ds4 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2654,8 +2655,8 @@
 	Anim_Piano.Ds5 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2665,8 +2666,8 @@
 	Anim_Piano.Ds6 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2676,8 +2677,8 @@
 	Anim_Piano.Ds7 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2687,8 +2688,8 @@
 	Anim_Piano.E1 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2698,8 +2699,8 @@
 	Anim_Piano.E2 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2709,8 +2710,8 @@
 	Anim_Piano.E3 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2720,8 +2721,8 @@
 	Anim_Piano.E4 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2731,8 +2732,8 @@
 	Anim_Piano.E5 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2742,8 +2743,8 @@
 	Anim_Piano.E6 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2753,8 +2754,8 @@
 	Anim_Piano.E7 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2764,8 +2765,8 @@
 	Anim_Piano.F1 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2775,8 +2776,8 @@
 	Anim_Piano.F2 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2786,8 +2787,8 @@
 	Anim_Piano.F3 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2797,8 +2798,8 @@
 	Anim_Piano.F4 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2808,8 +2809,8 @@
 	Anim_Piano.F5 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2819,8 +2820,8 @@
 	Anim_Piano.F6 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2830,8 +2831,8 @@
 	Anim_Piano.F7 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2841,8 +2842,8 @@
 	Anim_Piano.Fs1 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2852,8 +2853,8 @@
 	Anim_Piano.Fs2 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2863,8 +2864,8 @@
 	Anim_Piano.Fs3 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2874,8 +2875,8 @@
 	Anim_Piano.Fs4 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2885,8 +2886,8 @@
 	Anim_Piano.Fs5 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2896,8 +2897,8 @@
 	Anim_Piano.Fs6 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2907,8 +2908,8 @@
 	Anim_Piano.Fs7 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2918,8 +2919,8 @@
 	Anim_Piano.G1 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2929,8 +2930,8 @@
 	Anim_Piano.G2 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2940,8 +2941,8 @@
 	Anim_Piano.G3 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2951,8 +2952,8 @@
 	Anim_Piano.G4 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2962,8 +2963,8 @@
 	Anim_Piano.G5 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2973,8 +2974,8 @@
 	Anim_Piano.G6 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2984,8 +2985,8 @@
 	Anim_Piano.G7 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -2995,8 +2996,8 @@
 	Anim_Piano.Gs1 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -3006,8 +3007,8 @@
 	Anim_Piano.Gs2 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -3017,8 +3018,8 @@
 	Anim_Piano.Gs3 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -3028,8 +3029,8 @@
 	Anim_Piano.Gs4 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -3039,8 +3040,8 @@
 	Anim_Piano.Gs5 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -3050,8 +3051,8 @@
 	Anim_Piano.Gs6 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -3061,8 +3062,8 @@
 	Anim_Piano.Gs7 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -3072,8 +3073,8 @@
 	Anim_Piano.Scale1 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -3083,8 +3084,8 @@
 	Anim_Piano.Scale2 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -3094,8 +3095,8 @@
 	Anim_Piano.Scale3 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -3105,8 +3106,8 @@
 	Anim_Piano.Scale4 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -3116,8 +3117,8 @@
 	Anim_Piano.Scale5 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -3127,8 +3128,8 @@
 	Anim_Piano.Scale6 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -3138,8 +3139,8 @@
 	Anim_Piano.Scale7 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[
@@ -3149,8 +3150,8 @@
 	Anim_Piano.Scale8 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "AnimInteract"
 		vsnd_files = 
 		[

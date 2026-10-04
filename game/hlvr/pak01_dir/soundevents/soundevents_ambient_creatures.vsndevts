@@ -1,11 +1,12 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	AmbientCreature.AntlionClick = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientCreature.AntlionClickBurst"
-		random_soundevent_01_timer_min = 16.500000
-		random_soundevent_01_timer_max = 22.500000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 16.5
+		random_soundevent_01_timer_max = 22.5
+		use_initial_random_offset = 1.0
 	}
 	AmbientCreature.AntlionClickBurst = 
 	{
@@ -13,37 +14,37 @@
 		soundevent_name = "AmbientCreature.AntlionClickChild"
 		burst_length_min = 5
 		burst_length_max = 7
-		delay_timer_min = 1.000000
-		delay_timer_max = 2.500000
-		delay_offset_min = -0.050000
-		delay_offset_max = 0.000000
+		delay_timer_min = 1.0
+		delay_timer_max = 2.5
+		delay_offset_min = -0.05
+		delay_offset_max = 0.0
 	}
 	AmbientCreature.AntlionClickChild = 
 	{
 		type = "hlvr_ambient_rand_child"
-		volume = 0.550000
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.050000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 2500.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		animation_time = 2.500000
-		position_source = 2.000000
-		animated_target = 1.000000
+		volume = 0.55
+		volume_rand_min = -0.02
+		volume_rand_max = 0.05
+		volume_falloff_min = 250.0
+		volume_falloff_max = 2500.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		animation_time = 2.5
+		position_source = 2.0
+		animated_target = 1.0
 		constrain_direction = "none"
 		make_ortho_vertical = false
-		ortho_distance_min = 550.000000
-		ortho_distance_max = 1100.000000
-		ortho_flyby = 1.000000
-		unconstrained_target = 1.000000
+		ortho_distance_min = 550.0
+		ortho_distance_max = 1100.0
+		ortho_flyby = 1.0
+		unconstrained_target = 1.0
 		animation_type = "lerp"
-		rand_radius_min = 500.000000
-		rand_radius_max = 750.000000
-		use_doppler = 1.000000
-		doppler_factor = 0.800000
+		rand_radius_min = 500.0
+		rand_radius_max = 750.0
+		use_doppler = 1.0
+		doppler_factor = 0.8
 		mixgroup = "ambient"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		vsnd_files = 
 		[
 			"sounds/ambient/creatures/amb_creature_antlion_click_01.vsnd",
@@ -72,56 +73,56 @@
 		random_soundevent_01_name = "AmbientCreature.FliesBuzzingBurst"
 		random_soundevent_01_timer_min = 22
 		random_soundevent_01_timer_max = 30
-		use_initial_random_offset = 1.000000
+		use_initial_random_offset = 1.0
 	}
 	AmbientCreature.FliesBuzzingBurst = 
 	{
 		type = "hlvr_ambient_burst"
 		soundevent_name = "AmbientCreature.FliesBuzzingChild"
-		burst_length_min = 2.500000
+		burst_length_min = 2.5
 		burst_length_max = 6
-		delay_timer_min = 1.000000
-		delay_timer_max = 2.000000
-		delay_offset_min = -0.500000
-		delay_offset_max = 0.000000
+		delay_timer_min = 1.0
+		delay_timer_max = 2.0
+		delay_offset_min = -0.5
+		delay_offset_max = 0.0
 	}
 	AmbientCreature.FliesBuzzingChild = 
 	{
 		type = "hlvr_ambient_rand_child_random_anim_time"
-		volume = 0.700000
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.000000
-		volume_falloff_min = 90.000000
-		volume_falloff_max = 850.000000
-		pitch_rand_min = 0.000000
-		pitch_rand_max = 0.230000
-		animation_time_min = 3.500000
-		animation_time_max = 6.500000
-		use_calculated_stop_at_time = 1.000000
-		volume_fade_in = 1.000000
-		volume_fade_out = 0.750000
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 0.000000
-		unconstrained_target = 1.000000
+		volume = 0.7
+		volume_rand_min = -0.02
+		volume_rand_max = 0.0
+		volume_falloff_min = 90.0
+		volume_falloff_max = 850.0
+		pitch_rand_min = 0.0
+		pitch_rand_max = 0.23
+		animation_time_min = 3.5
+		animation_time_max = 6.5
+		use_calculated_stop_at_time = 1.0
+		volume_fade_in = 1.0
+		volume_fade_out = 0.75
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 0.0
+		unconstrained_target = 1.0
 		animation_type = "slerp"
-		rand_radius_min = 35.000000
-		rand_radius_max = 210.000000
-		use_doppler = 1.000000
-		doppler_factor = 1.500000
-		pct_to_distance_x1 = 0.000000
-		pct_to_distance_y1 = 1.150000
-		pct_to_distance_x2 = 0.400000
-		pct_to_distance_y2 = 0.800000
-		pct_to_distance_x3 = 0.600000
-		pct_to_distance_y3 = 1.000000
-		pct_to_distance_x4 = 1.000000
-		pct_to_distance_y4 = 1.150000
+		rand_radius_min = 35.0
+		rand_radius_max = 210.0
+		use_doppler = 1.0
+		doppler_factor = 1.5
+		pct_to_distance_x1 = 0.0
+		pct_to_distance_y1 = 1.15
+		pct_to_distance_x2 = 0.4
+		pct_to_distance_y2 = 0.8
+		pct_to_distance_x3 = 0.6
+		pct_to_distance_y3 = 1.0
+		pct_to_distance_x4 = 1.0
+		pct_to_distance_y4 = 1.15
 		mixgroup = "ambient"
-		use_hrtf = 1.000000
-		drunk = 1.000000
-		drunk_range = 20.000000
-		drunk_velocity = 0.400000
+		use_hrtf = 1.0
+		drunk = 1.0
+		drunk_range = 20.0
+		drunk_velocity = 0.4
 		vsnd_files = 
 		[
 			"sounds/ambient/creatures/amb_flies_buzzing_01.vsnd",
@@ -136,7 +137,7 @@
 			"sounds/ambient/creatures/amb_flies_buzzing_10.vsnd",
 			"sounds/ambient/creatures/amb_flies_buzzing_11.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 90
 		soundname_string = "AmbientCreature.FliesBuzzing"
 	}
@@ -146,38 +147,38 @@
 		random_soundevent_01_name = "AmbientCreature.FliesBuzzingPositionalBurst"
 		random_soundevent_01_timer_min = 4
 		random_soundevent_01_timer_max = 7
-		use_initial_random_offset = 1.000000
+		use_initial_random_offset = 1.0
 	}
 	AmbientCreature.FliesBuzzingPositionalBurst = 
 	{
 		type = "hlvr_ambient_burst"
 		soundevent_name = "AmbientCreature.FliesBuzzingPositionalChild"
-		burst_length_min = 2.500000
+		burst_length_min = 2.5
 		burst_length_max = 6
-		delay_timer_min = 1.000000
-		delay_timer_max = 2.000000
-		delay_offset_min = -0.500000
-		delay_offset_max = 0.000000
+		delay_timer_min = 1.0
+		delay_timer_max = 2.0
+		delay_offset_min = -0.5
+		delay_offset_max = 0.0
 	}
 	AmbientCreature.FliesBuzzingPositionalChild = 
 	{
 		base = "AmbientCreature.FliesBuzzingChild"
-		volume = 0.500000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 300.000000
-		random_pos_center_select = 1.000000
-		unconstrained_target = 1.000000
-		rand_radius_min = 1.000000
-		rand_radius_max = 24.000000
+		volume = 0.5
+		volume_falloff_min = 50.0
+		volume_falloff_max = 300.0
+		random_pos_center_select = 1.0
+		unconstrained_target = 1.0
+		rand_radius_min = 1.0
+		rand_radius_max = 24.0
 		max_audible_distance = 400
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 50
 	}
 	AmbientCreature.HeadcrabChitter = 
 	{
 		type = "hlvr_start_soundevent"
 		sequence_type = "random"
-		restart_on_finish = 1.000000
+		restart_on_finish = 1.0
 		soundevents = 
 		[
 			"AmbientCreature.HeadcrabChitterBurst",
@@ -189,8 +190,8 @@
 		soundevent_name = "AmbientCreature.HeadcrabChitterChildBurst"
 		burst_length_min = 9
 		burst_length_max = 14
-		delay_timer_min = 1.500000
-		delay_timer_max = 3.000000
+		delay_timer_min = 1.5
+		delay_timer_max = 3.0
 		ortho_distance_min = 100
 		ortho_distance_max = 150
 	}
@@ -198,42 +199,42 @@
 	{
 		type = "hlvr_ambient_burst"
 		soundevent_name = "AmbientCreature.HeadcrabChitterChild"
-		burst_length_min = 1.500000
-		burst_length_max = 2.800000
-		delay_timer_min = 0.400000
-		delay_timer_max = 1.000000
+		burst_length_min = 1.5
+		burst_length_max = 2.8
+		delay_timer_min = 0.4
+		delay_timer_max = 1.0
 	}
 	AmbientCreature.HeadcrabChitterChild = 
 	{
 		type = "hlvr_ambient_rand_child_random_anim_time"
-		volume = 0.500000
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.050000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 1250.000000
-		pitch_rand_min = 0.000000
-		pitch_rand_max = 0.230000
-		animation_time_min = 1.500000
-		animation_time_max = 2.500000
-		use_calculated_stop_at_time = 0.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 0.750000
-		position_source = 2.000000
-		animated_source = 0.000000
-		animated_target = 0.000000
-		unconstrained_target = 1.000000
+		volume = 0.5
+		volume_rand_min = -0.02
+		volume_rand_max = 0.05
+		volume_falloff_min = 400.0
+		volume_falloff_max = 1250.0
+		pitch_rand_min = 0.0
+		pitch_rand_max = 0.23
+		animation_time_min = 1.5
+		animation_time_max = 2.5
+		use_calculated_stop_at_time = 0.0
+		volume_fade_in = 0.0
+		volume_fade_out = 0.75
+		position_source = 2.0
+		animated_source = 0.0
+		animated_target = 0.0
+		unconstrained_target = 1.0
 		animation_type = "slerp"
-		rand_radius_min = 35.000000
-		rand_radius_max = 55.000000
-		use_doppler = 1.000000
-		doppler_factor = 1.500000
-		use_world_position = 1.000000
+		rand_radius_min = 35.0
+		rand_radius_max = 55.0
+		use_doppler = 1.0
+		doppler_factor = 1.5
+		use_world_position = 1.0
 		mixgroup = "ambient"
-		random_pos_center_select = 1.000000
-		use_hrtf = 1.000000
-		drunk = 1.000000
-		drunk_range = 20.000000
-		drunk_velocity = 0.400000
+		random_pos_center_select = 1.0
+		use_hrtf = 1.0
+		drunk = 1.0
+		drunk_range = 20.0
+		drunk_velocity = 0.4
 		vsnd_files = 
 		[
 			"sounds/ambient/creatures/headcrab/amb_creature_headcrab_chirp_01.vsnd",
@@ -258,7 +259,7 @@
 			"sounds/ambient/creatures/headcrab/amb_creature_headcrab_grunt_05.vsnd",
 			"sounds/ambient/creatures/headcrab/amb_creature_headcrab_grunt_06.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 5
 		soundname_string = "AmbientCreature.HeadcrabChitterChild"
 	}

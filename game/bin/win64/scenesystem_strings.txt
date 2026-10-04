@@ -76,7 +76,6 @@
 !#GameUI_Disconnect_TempEntMessage
 !#GameUI_ServerRejectFailedChannel
 !.google.protobuf.EnumValueOptions
-!1AQaq
 !pObj->HasFlags( SCENEOBJECTFLAG_DELETED )
 !pObj->IsDeleted()
 " (mixed)
@@ -144,7 +143,6 @@
 ". Value: "
 "/*" inside block comment.  Block comments cannot be nested.
 "0x" must be followed by hex digits.
-"2BRbr
 "<\n CNETMsg_SpawnGroup_LoadCompleted
 "DeleteMapValue"
 "GetMapData"
@@ -187,7 +185,6 @@
 #%s/UpdatePerViewConstantBuffers%d
 #%s/VolumetricFog/SetupConstantBuffer
 #%s/VolumetricFog/SetupConstantBuffer%s
-#3CScs
 #GameUI_ClientConsistencyFail
 #GameUI_ClientDifferentMap
 #GameUI_ClientNoMap
@@ -246,7 +243,6 @@ $0enum $1 {\n
 $0message $1
 $0oneof $1 {
 $0option $1;\n
-$4DTdt
 $Ib?s
 $tIP
 %#GameUI_Disconnect_BadClientDeltaTick
@@ -263,7 +259,6 @@ $tIP
 %.15lf
 %02X
 %08dx.geo
-%5EUeu
 %Dtx
 %I64u
 %d (%d depth-only, %d depth-only alpha-tested)\n
@@ -287,24 +282,19 @@ $tIP
 &#GameUI_Disconnect_PureServer_Mismatch
 &#GameUI_Disconnect_RemoteProblem_Other
 &#GameUI_ServerRejectInvalidReservation
-&6FVfv
 &?PPPPPPP?
 &Sgw
 &\n"SPAWN_GROUP_IS_INITIAL_SPAWN_GROUP
 '#GameUI_Disconnect_BadSpectatorPassword
 '#GameUI_Disconnect_DifferentClassTables
 '#GameUI_ServerRejectInvalidSteamCertLen
-'7GWgw
 '\n"SPAWN_GROUP_CREATE_NEW_SCENE_WORLD
 '\n#SPAWN_GROUP_LOAD_ENTITIES_FROM_SAVE
 'out_location' must not be NULL
-( 8PX
 (#GameUI_Disconnect_LoopLevelLoadActivate
 (#GameUI_Disconnect_RemoteProblem_BadCert
 (#GameUI_Disconnect_RemoteProblem_Timeout
 (%3.3f - %3.3f)\n(%3.3f - %3.3f)\n(%3.3f - %3.3f)\n%3.3f x %3.3f
-('8PW
-(8HXhx
 (MSAA)
 (No MSAA)
 (SceneWorld 3D Dump contains %d large objects - they are scaled down and will render red.)\n
@@ -348,11 +338,9 @@ $tIP
 )#GameUI_Disconnect_SteamDeny_BadAntiCheat
 ), this value label conflicts with 
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-)9IYiy
 )\n!host_framestarttime_std_deviation
 )yIx
 *#GameUI_Disconnect_LocalProblem_ManyRelays
-*:JZjz
 *StO9>T
 *\n"host_computationtime_std_deviation
 +\n'SPAWN_GROUP_CREATE_CLIENT_ONLY_ENTITIES
@@ -364,13 +352,17 @@ $tIP
 , not just within "
 ,#GameUI_Disconnect_Splitpacket_Send_Overflow
 ,HR>O
-,\tNx-\tBh.\t0
 -#GameUI_Disconnect_LocalProblem_NetworkConfig
 -- %d Scene Worlds: --\n
 -- Dumping Scene World %d: 0x%p '%s': %d objects --\n
 -BH>t
 -avx
+-enable_2gb_morphs
 -inf
+-novr
+-rt_use_101111_ufloat
+-rt_use_16161616F_float
+-rt_use_bgr999_e5
 -scene_system_partitions
 -shadowTargetSize
 -sse2
@@ -388,16 +380,13 @@ $tIP
 .?AUContainer@?$InternalMetadataWithArenaBase@VUnknownFieldSet@protobuf@google@@VInternalMetadataWithArena@internal@23@@internal@protobuf@google@@
 .?AU_Crt_new_delete@std@@
 .?AUctype_base@std@@
-.?AV<lambda_145fd1566b925bb31c026bba78f0ae0f>@@
-.?AV<lambda_35e59b4fa46750667b16a5f083517ec0>@@
-.?AV<lambda_462384bc7051fa324bde30a2217a88a2>@@
-.?AV<lambda_54bdb0e6d13ab997513b7a0d64625e9f>@@
-.?AV<lambda_6137690851670156ed27a617be10ccd1>@@
-.?AV<lambda_8f92e1a87b129f052e6d88e8cb55ce04>@@
-.?AV<lambda_9e84c756f3e50235311531c606078739>@@
-.?AV<lambda_a434b47959dd3d9ddee38632336775b2>@@
-.?AV<lambda_d66357f1dcc33d128de5810280b7464f>@@
-.?AV<lambda_e21fb7c176450106e4dde344651ee958>@@
+.?AV<lambda_1>@?1??AllocateMixedShadowsForLocalLights@CLightBinnerVr@@AEAA_NPEAVCSceneView@@PEAVISceneLayer@@AEBVCFrustum@@AEBUFrustumGeometry_t@@_K4H@Z@
+.?AV<lambda_1>@?1??EnsureEnvironmentMaps@CBindlessFastPathPartition@@IEAAXXZ@
+.?AV<lambda_1>@?1??GatherVisibleLights@CLightBinnerVr@@AEAAXAEAV?$CUtlVectorFixedGrowable@UConsiderLight_t@@$0BAA@@@00PEAVCSceneView@@AEBVCFrustum@@_K3@Z@
+.?AV<lambda_1>@?4??AddEnvironmentMapsForView@CLightBinner2@@IEAAXPEAVCSceneView@@_K1@Z@
+.?AV<lambda_1>@?4??AddLightProbeVolumesForView@CLightBinner2@@IEAAXPEAVCSceneView@@_K1@Z@
+.?AV<lambda_1>@?4??InitForFrustum_DebugRendering@@YAX_K0PEAVCSceneView@@@Z@
+.?AV<lambda_1>@?6??EnsureLightProbeVolumeDescriptorSet@CBindlessFastPathSceneObjectDesc@@QEAAXXZ@
 .?AV?$CBaseAppSystem@VISceneSystem@@@@
 .?AV?$CBaseAppSystem@VISceneUtils@@@@
 .?AV?$CBaseNonPooledSceneObjectDesc@VC6FaceSkyboxObject@@@@
@@ -466,20 +455,15 @@ $tIP
 .?AV?$_Func_base@XPEAVCSceneLightObjectInternal@@@std@@
 .?AV?$_Func_base@XPEAVCSceneLightProbeVolumeObject@@@std@@
 .?AV?$_Func_base@XPEAVCSceneObject@@@std@@
-.?AV?$_Func_impl@P6AXPEAVCSceneObject@@@ZV?$allocator@H@std@@XPEAV1@@std@@
-.?AV?$_Func_impl@V<lambda_145fd1566b925bb31c026bba78f0ae0f>@@V?$allocator@H@std@@XPEAVCEnvMapSceneObject@@@std@@
-.?AV?$_Func_impl@V<lambda_35e59b4fa46750667b16a5f083517ec0>@@V?$allocator@H@std@@XPEAVCSceneLightObjectInternal@@@std@@
-.?AV?$_Func_impl@V<lambda_462384bc7051fa324bde30a2217a88a2>@@V?$allocator@H@std@@XPEAVCSceneLightObjectInternal@@@std@@
-.?AV?$_Func_impl@V<lambda_54bdb0e6d13ab997513b7a0d64625e9f>@@V?$allocator@H@std@@XPEAVCSceneLightObjectInternal@@@std@@
-.?AV?$_Func_impl@V<lambda_6137690851670156ed27a617be10ccd1>@@V?$allocator@H@std@@XPEAVCSceneLightProbeVolumeObject@@@std@@
-.?AV?$_Func_impl@V<lambda_8f92e1a87b129f052e6d88e8cb55ce04>@@V?$allocator@H@std@@XPEAVCSceneLightObjectInternal@@@std@@
-.?AV?$_Func_impl@V<lambda_9e84c756f3e50235311531c606078739>@@V?$allocator@H@std@@XPEAVCEnvMapSceneObject@@@std@@
-.?AV?$_Func_impl@V<lambda_a434b47959dd3d9ddee38632336775b2>@@V?$allocator@H@std@@XPEAVCSceneLightObjectInternal@@@std@@
-.?AV?$_Func_impl@V<lambda_d66357f1dcc33d128de5810280b7464f>@@V?$allocator@H@std@@XPEAVCSceneLightProbeVolumeObject@@@std@@
-.?AV?$_Func_impl@V<lambda_e21fb7c176450106e4dde344651ee958>@@V?$allocator@H@std@@XPEAVCSceneLightObjectInternal@@@std@@
+.?AV?$_Func_impl_no_alloc@P6AXPEAVCSceneObject@@@ZXPEAV1@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??AllocateMixedShadowsForLocalLights@CLightBinnerVr@@AEAA_NPEAVCSceneView@@PEAVISceneLayer@@AEBVCFrustum@@AEBUFrustumGeometry_t@@_K4H@Z@XPEAVCSceneLightObjectInternal@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??EnsureEnvironmentMaps@CBindlessFastPathPartition@@IEAAXXZ@XPEAVCEnvMapSceneObject@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??GatherVisibleLights@CLightBinnerVr@@AEAAXAEAV?$CUtlVectorFixedGrowable@UConsiderLight_t@@$0BAA@@@00PEAVCSceneView@@AEBVCFrustum@@_K3@Z@XPEAVCSceneLightObjectInternal@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??AddEnvironmentMapsForView@CLightBinner2@@IEAAXPEAVCSceneView@@_K1@Z@XPEAVCEnvMapSceneObject@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??AddLightProbeVolumesForView@CLightBinner2@@IEAAXPEAVCSceneView@@_K1@Z@XPEAVCSceneLightProbeVolumeObject@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??InitForFrustum_DebugRendering@@YAX_K0PEAVCSceneView@@@Z@XPEAVCSceneLightObjectInternal@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?6??EnsureLightProbeVolumeDescriptorSet@CBindlessFastPathSceneObjectDesc@@QEAAXXZ@XPEAVCSceneLightProbeVolumeObject@@@std@@
 .?AV?$_Iosb@H@std@@
-.?AV?$_Ref_count_obj@V__ExceptionPtr@@@std@@
-.?AV?$_Ref_count_obj_alloc@V__ExceptionPtr@@U?$_StaticAllocator@H@@@std@@
 .?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
@@ -531,7 +515,6 @@ $tIP
 .?AVCGenerateMipsProceduralLayer@@
 .?AVCInputLayoutRegistration_sm_hLayout@@
 .?AVCLightBinner2@@
-.?AVCLightBinnerCsgo@@
 .?AVCLightBinnerVr@@
 .?AVCLightObjectDesc@@
 .?AVCLightProbeVolumeObjectDesc@@
@@ -566,6 +549,7 @@ $tIP
 .?AVCPointLightObjectDescCsgo@@
 .?AVCPointLightObjectDescVr@@
 .?AVCPostConnectCallback@@
+.?AVCProgrammableResolveRenderer@@
 .?AVCProjectedDecalSceneObjectDesc@@
 .?AVCRasterizerOcclusionCuller@@
 .?AVCRenderingPipeline@@
@@ -721,13 +705,12 @@ $tIP
 .?AVZeroCopyInputStream@io@protobuf@google@@
 .?AVZeroCopyOutputStream@io@protobuf@google@@
 .?AV_Facet_base@std@@
-.?AV_Generic_error_category@std@@
-.?AV_Iostream_error_category@std@@
+.?AV_Iostream_error_category2@std@@
 .?AV_Locimp@locale@std@@
-.?AV_Ref_count_base@std@@
 .?AV_System_error@std@@
 .?AV__non_rtti_object@std@@
 .?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
 .?AVbad_cast@std@@
 .?AVbad_exception@std@@
 .?AVbad_function_call@std@@
@@ -755,7 +738,6 @@ $tIP
 .CRT$XLA
 .CRT$XLZ
 .CRT$XPA
-.CRT$XPB
 .CRT$XPX
 .CRT$XPXA
 .CRT$XPZ
@@ -771,11 +753,10 @@ $tIP
 .bss
 .data
 .data$r
+.data$rs
 .dummy
 .edata
 .foo = value".
-.gfids$x
-.gfids$y
 .google.protobuf.EnumOptions
 .google.protobuf.FieldOptions
 .google.protobuf.FieldOptions"
@@ -795,12 +776,12 @@ $tIP
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .rtc$IAA
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.stls
 .text$di
 .text$mn
 .text$mn$00
@@ -816,16 +797,15 @@ $tIP
 /2GG>!B
 0.25
 0.85
-0000
 00000000-0000-0000-0000-000000000000
-00003333
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-0123456789ABCDEF
 0123456789abcdef
 0123456789abcdefghijklmnopqrstuvwxyz
 0:<\n\fdelta_ignore
+0Dw 
 0E>X
 0X8b?~
+0\rP!U
 0iN>/
 1 = visualize bounds, 2 = visualize sceneobject mesh materials, 3 = required texture size, 4 = bounds group
 1#IND
@@ -834,14 +814,11 @@ $tIP
 1#SNAN
 1052
 1072
-1105
+1156
 11Y@
-123456789
 125 130 135
 1DBlend
 1\n-NETWORK_DISCONNECT_DIRECT_CONNECT_RESERVATION
-1\v%14
-1eaB@
 2#.google.protobuf.FieldOptions.CType:
 2#GameUI_Disconnect_RemoteProblem_TimeoutConnecting
 2$.google.protobuf.FieldOptions.JSType:\tJS_NORMAL
@@ -850,10 +827,8 @@ $tIP
 2+.google.protobuf.FieldDescriptorProto.Label
 2.13
 2/.google.protobuf.MethodOptions.IdempotencyLevel:
-2\r52t
 3 FB
 32.0
-3333
 37>k
 3>N;kU
 3>fvw
@@ -863,21 +838,19 @@ $tIP
 456789:;<=
 51>W
 5\n\vnested_type
+5t(h&
 6NK>
 6\fXO>\ntA
 6\n\fmessage_type
-700PP
-700WP
-7546
-7553
-7554
+7583
+7590
+7591
 7>I0
 7?GX
 7\n\tenum_type
 7~xh
 8#GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay
 8C3F
-8Csinf
 8\n\textension
 8ke?;
 9>70
@@ -901,7 +874,6 @@ $tIP
 <no failure reason set>
 <none>
 <null>
-<sqrt
 <table border="1">
 <td> CLEAR_COLOR %d </td>
 <td>,? (%llx)</td>
@@ -933,8 +905,8 @@ $tIP
 <td>IS_LIGHT_VOLUME</td>
 <td>IS_LOADED</td>
 <td>IS_OCCLUDER</td>
-<td>IS_OPAQUE</td>
 <td>IS_SUN_LIGHT</td>
+<td>IS_TRANSLUCENT</td>
 <td>LAYERFLAGS_DEBUGDRAW</td>
 <td>LAYERFLAGS_DEBUG_BREAK_ON_RENDERING</td>
 <td>LAYERFLAGS_DEBUG_BREAK_ON_SUBMISSION</td>
@@ -944,10 +916,13 @@ $tIP
 <td>LAYERFLAGS_DOESNT_MODIFY_DEPTH_STENCIL_BUFFER</td>
 <td>LAYERFLAGS_DO_NOT_SORT</td>
 <td>LAYERFLAGS_INGNORE_LAYER_MATCH_ID</td>
+<td>LAYERFLAGS_IS_DEPTH_PREPASS</td>
 <td>LAYERFLAGS_IS_DEPTH_RENDERING_PASS</td>
 <td>LAYERFLAGS_LIGHT_BINNER_SETUP_LAYER</td>
 <td>LAYERFLAGS_MATCH_TARGET_VIEWPORT_SIZE</td>
 <td>LAYERFLAGS_NEEDS_FULLSORT</td>
+<td>LAYERFLAGS_NEEDS_LOCAL_READ_COLOR</td>
+<td>LAYERFLAGS_NEEDS_LOCAL_READ_DEPTH</td>
 <td>LAYERFLAGS_NEEDS_PER_VIEW_LIGHTING_CONSTANTS</td>
 <td>LAYERFLAGS_NEVER_REMOVE</td>
 <td>LAYERFLAGS_NO_APP_TILING</td>
@@ -1014,6 +989,7 @@ $tIP
 =imb;D
 >Physics
 >cQ6
+>expf
 >jtm}S
 >mesh_calculate_curvature_smooth_pass_count
 ?!5WOo
@@ -1023,15 +999,17 @@ $tIP
 ?7zQ6$
 ?7{KV\nU
 ?8bunz8
-?<td>IS_TRANSLUCENT</td>
+?<td>IS_OPAQUE</td>
 ??0CThreadEvent@@QEAA@_N@Z
+??0CThreadFastMutex@@QEAA@PEBD@Z
+??0CThreadFastMutex@@QEAA@XZ
 ??0CThreadMultiWaitEvent@@QEAA@_N@Z
 ??0CThreadMutex@@QEAA@PEBD@Z
+??0CThreadMutex@@QEAA@XZ
 ??0CThreadRWLock_FastRead@@QEAA@_N@Z
 ??0CUniformRandomStream@@QEAA@XZ
 ??1CThreadEvent@@QEAA@XZ
 ??1CThreadMultiWaitEvent@@QEAA@XZ
-??1CThreadMutex@@QEAA@XZ
 ??1CThreadSemaphore@@QEAA@XZ
 ?@En[vP
 ?AppendConcat@CBufferString@@QEAAPEBDHPEBQEBDPEBH_N@Z
@@ -1046,9 +1024,11 @@ $tIP
 ?Format@CBufferString@@QEAAHPEBDZZ
 ?HandleFirstWriteLockTransition@CThreadRWLock_FastRead@@IEAAXXZ
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
+?LockForRead@CThreadFastMutex@@QEAAXPEBDH@Z
 ?LockForRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
+?LockForWrite@CThreadFastMutex@@QEAAXPEBDH@Z
 ?LockForWrite@CThreadRWLock@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@PEBULoggingMetaData_t@@PEBDZZ
@@ -1067,29 +1047,31 @@ $tIP
 ?SetSeed@CUniformRandomStream@@UEAAXH@Z
 ?SpinLockForWrite@CThreadSpinRWLock@@AEAAXPEBDHI@Z
 ?StartsWith@CBufferString@@QEAA_NPEBD@Z
+?ToLowerFast@CBufferString@@QEAAXH@Z
 ?UUUUUU
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
+?UnlockRead@CThreadFastMutex@@QEAAXPEBDH@Z
 ?UnlockRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?UnlockReadAccounting@CThreadRWLock_FastRead@@IEAAXPEBDHI@Z
+?UnlockWrite@CThreadFastMutex@@QEAAXPEBDH@Z
 ?UnlockWrite@CThreadRWLock@@QEAAXPEBDH@Z
 ?UnlockWrite@CThreadRWLock_FastRead@@QEAAXPEBDH@Z
 ?UnlockWrite@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
 ?Wait@CThreadSyncObject@@QEAA_NI@Z
 ?WaitForRead@CThreadRWLock@@AEAAXXZ
-?\tRx@\tGhA\t5
+?\tHx@\t=hA\t+
 ?f`Y4
 ?kxG2)
 ?lZE
 ?qBJ
 ?rAj
 ?ysB
-@^8U)zj
 @fff>fff>fff>fff>
 A file with this name is already in the pool.
 A protocol message was rejected because it was too big (more than 
 A sceneobject (perhaps a decal) is still in the world that needs to be deleted before deleting the world.\n
-A-enable_2gb_morphs
 A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
@@ -1157,7 +1139,6 @@ A\n!NETWORK_DISCONNECT_REJECT_NOLOBBY
 A\n\nannotation
 AbsolutePoseControl
 Access violation - no RTTI data!
-AcquireSRWLockExclusive
 AddAllocatedMessage
 AddBool
 AddDouble
@@ -1211,7 +1192,9 @@ AnimationSnapshot_t
 AnimationSystemUtils_001
 AnimationSystem_001
 AoProxyManifest
+AppPolicyGetProcessTerminationMethod
 April
+AreFileApisANSI
 AssertMsg_ConditionFailed
 Assertion Failed in function %s():\n%s
 AssetBrowserSystem_001
@@ -1232,9 +1215,11 @@ Available
 BC6H
 BC?>6t9^\tc:>
 BF>^G
+BGR101111_UFLOAT
 BGR565
 BGR888
 BGR888_BLUESCREEN
+BGR999_E5
 BGRA1010102
 BGRA4444
 BGRA5551
@@ -1285,10 +1270,10 @@ CAnimationDecodeContext::AddAnimationDecodeDesc ran out of allocator memory (1)\
 CAnimationDecodeContext::AddAnimationDecodeDesc ran out of allocator memory (2)\n
 CAnimationDecodeContext::AddAnimationDecodeDesc ran out of allocator memory (3)\n
 CBaseSceneObjectDesc
-CBindlessFastPathPartition::AddMaterial(236): 
+CBindlessFastPathPartition::AddMaterial(235): 
 CBindlessFastPathPartition::EnsureGPUResources - insufficient descriptor set support. CWorldNode::CanUseBindlessDesc() needs to filter before getting here.\n
 CBindlessFastPathSceneObjectDesc
-CBindlessFastPathSceneObjectDesc::UpdateBoundingBoxToMatchTransform(1346): 
+CBindlessFastPathSceneObjectDesc::UpdateBoundingBoxToMatchTransform(1339): 
 CBlitTextureToBackBufferLayer
 CCharacterDecalRendererDesc
 CDebugLayerRenderer::ShowRenderTargets GetMode("Default") == NULL? Can't Render with material %s!\n
@@ -1364,10 +1349,6 @@ CHECK failed: trees:
 CHECK failed: uninterpreted_options_field != NULL: 
 CL:>8
 CLightBinner::UpdateBinTexture
-CLightBinnerCsgo: Unsupported CSGONumBakedLights %d
-CLightBinnerCsgo: Unsupported CsgoMaxLights %d
-CLightBinnerCsgo: Unsupported NumBakedLights %d
-CLightBinnerCsgo::InitForFrustum
 CLightBinnerVr: Unsupported NumBakedLights %d
 CLightBinnerVr: Unsupported VrMaxLights %d
 CLightBinnerVr: Unsupported VrNumBakedLights %d
@@ -1393,6 +1374,7 @@ COLLISION_MODE_INITIAL_TRACE_DOWN
 COLLISION_MODE_PER_FRAME_PLANESET
 COLLISION_MODE_PER_PARTICLE_TRACE
 COLLISION_MODE_USE_NEAREST_TRACE
+COLOR RESOLVE: After layer %s, resolve rt to %s %d %d, %dx%d\n
 COLORCORRECTION_VERSION_1
 CORD
 COccluderSceneObject::EnableDebugVisualization(92): 
@@ -1416,7 +1398,6 @@ CPointLightObjectDescCsgo
 CPointLightObjectDescVr
 CProjectedDecalSceneObjectDesc
 CProtobufLogHandler::LogHandler
-CSGO
 CSOAContainer::SetAttributeType - ERROR, trying to change type of previously-defined attribute %d!\n
 CSSDSEndFrameViewInfo
 CSSDSMsg_EndFrame
@@ -1435,20 +1416,19 @@ CSceneObject
 CSceneObjectExtraData_t
 CSceneObjectReference_t
 CSceneSkyBoxObject::m_LightQueryMutex
-CSceneSystem::AllocateScratchRenderTargets(1476): 
+CSceneSystem::AllocateScratchRenderTargets(1501): 
 CSceneSystem::BeginRenderingViews
 CSceneSystem::ChangeObjectPartition
-CSceneSystem::CompletionWaitJob(7847): Waited 500 ms for jobs to complete. Attempt to drain windows message queue. Jobs in queue = %d\n
 CSceneSystem::CreateStaticShape(309): 
 CSceneSystem::DeleteObjectForReal
 CSceneSystem::DeleteSceneObject
 CSceneSystem::FindRefInfo
 CSceneSystem::FinishRenderingViews
-CSceneSystem::GenerateCompositeMorphTextureAtlas(6531): Expecting 1 renderable pass for material "%s" but found %d!\n
+CSceneSystem::GenerateCompositeMorphTextureAtlas(6564): Expecting 1 renderable pass for material "%s" but found %d!\n
 CSceneSystem::Init
 CSceneSystem::InitGfxObjects(715): 
 CSceneSystem::InitGfxObjects(872): 
-CSceneSystem::InitializeRenderAttributes(4627): 
+CSceneSystem::InitializeRenderAttributes(4656): 
 CSceneSystem::InstallTemplateViewFactory
 CSceneSystem::SetLightCookieTexture, trying to set texture %s that has no sheet data!\n
 CSceneSystem::Thread_RenderOccludersAndQueueRenderPartitions
@@ -1495,6 +1475,7 @@ CTSQueue<struct CSceneSystem::HMDAttachmentFixup_t,0>::CTSQueue
 CTSQueue<struct CSceneSystem::HMDAttachmentFixup_t,0>::Push
 CTextureDisplayer
 CTonemapRenderer is trying to render with an invalid occlusion query handle. Are we rendering while the screen isn't visible? Look for a previous warning saying we ran out of buckets.\n
+CTonemapRenderer needs to use a layer which has LAYERFLAGS_NEEDS_LOCAL_READ_COLOR set!\n
 CTonemapRenderer needs to use a layer which has had a render attribute called "ColorBuffer" set!\n
 CTonemapSystem::GenerateRendererData ran out of buckets!!\n
 CTransform
@@ -1516,6 +1497,8 @@ CUtlLeanVectorFixedGrowableBase<struct RenderSubPassAttachment_t,4,short>::Ensur
 CUtlLeanVectorFixedGrowableBase<struct texture_use_info_t,1,short>::EnsureCapacity
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<class CBindlessFastPathSceneObject *,short>,class CBindlessFastPathSceneObject *,short>::AddToTailGetPtr
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<class CStrongHandle<struct InfoForResourceTypeCTextureBase>,short>,class CStrongHandle<struct InfoForResourceTypeCTextureBase>,short>::AddToTailGetPtr
+CUtlLeanVectorImpl<class CUtlLeanVectorFixedGrowableBase<class CWeakHandle<struct InfoForResourceTypeCTextureBase>,8,short>,class CWeakHandle<struct InfoForResourceTypeCTextureBase>,short>::AddToTailGetPtr
+CUtlLeanVectorImpl<class CUtlLeanVectorFixedGrowableBase<enum RenderImageLayout_t,8,short>,enum RenderImageLayout_t,short>::AddToTailGetPtr
 CUtlLeanVectorImpl<class CUtlLeanVectorFixedGrowableBase<struct RenderPassAttachmentDesc_t,8,short>,struct RenderPassAttachmentDesc_t,short>::AddToTailGetPtr
 CUtlLeanVectorImpl<class CUtlLeanVectorFixedGrowableBase<struct RenderPassSubPassDependency_t,4,short>,struct RenderPassSubPassDependency_t,short>::AddToTailGetPtr
 CUtlLeanVectorImpl<class CUtlLeanVectorFixedGrowableBase<struct RenderPassSubPass_t,8,short>,struct RenderPassSubPass_t,short>::AddToTailGetPtr
@@ -1660,9 +1643,6 @@ ClearField
 Client Rendering
 ClipMeshes
 CloseHandle
-CloseThreadpoolTimer
-CloseThreadpoolWait
-CloseThreadpoolWork
 ClothShapeCapsule
 ClothShapeList
 ClothShapeSphere
@@ -1681,31 +1661,19 @@ Conditional Error: %s\n
 ConfigAttachedModel
 ConfigurationSystem_001
 ConnectInterfaces
-ContextPriority
-ContextStackSize
 Copy
-Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
 CorExitProcess
 Coudn't read pixels for texture %s\n
 Could not create an instance of 
 Could not find type "
 Couldn't parse default value "
 Courier New
-CreateEventExW
 CreateEventW
 CreateFileW
 CreateInterface
 CreateManyQuadsIndexBuffer(488): 
 CreateNxNTesselatedIndexBuffer(466): 
 CreatePerViewLightingConstantBuffer
-CreatePerViewLightingConstantBufferCsgo
-CreateSemaphoreExW
-CreateSemaphoreW
-CreateSymbolicLinkW
-CreateThreadpoolTimer
-CreateThreadpoolWait
-CreateThreadpoolWork
-CsgoLightCookieSettings
 CubeMapDebugColors
 CycleOverride
 D15S1
@@ -1715,10 +1683,9 @@ D24S8
 D24X4S4
 D24X8
 D24X8_SHADOW
-DDDD
-DDDDUUUU
 DEFAULT_WRITE_PATH
 DEMO
+DEPTH RESOLVE: After layer %s, resolve rt to %s %d, %dx%d\n
 DXT1
 DXT1_ONEBITALPHA
 DXT3
@@ -1762,13 +1729,13 @@ Dump a list of the objects in a sceneworld (Usage: sc_dumpworld <world_index>)
 Dump debug info
 Dump the objects in a sceneworld into a 3d geoview buffer (Usage: sc_dumpworld3d <world_index>)
 DynamicConfigList
-DynamicProgressFeedback
 E>nEA
 ENetworkDisconnectionReason
 ERROR
 ET5>
 EXPORTSYSTEM_INTERFACE_VERSION_001
 E[\rn?gc
+E\fEE4
 E\n NETWORK_DISCONNECT_REJECT_BANNED
 EconItemToolModel_001
 EditorDynamicConfig
@@ -1810,7 +1777,7 @@ Error: View "%s", layer "%s", render target "%s": \nAttempted to resolve a non-M
 Error: View "%s", layer "%s", render target "%s": \n\tAttempted to read from scratch render target that was not written to first!\n
 Error: View "%s", layer "%s", render target "%s": \n\tAttempted to set up a render target output w/ MSAA %d where the color targets have different MSAA settings %d!\n
 Error: View "%s", layer "%s", render target "%s": \n\tIt is illegal to do a non-MSAA write to a MSAA back buffer or HRenderTexture!\n
-Error: View "%s", layer "%s": \n\tError allocating render target binding! Different render target dimensions/MSAA assigned from the depth target!\n\tMain: %dx%d, Depth: %dx%d\n
+Error: View "%s", layer "%s": \n\tError allocating render target binding! Different render target dimensions/MSAA assigned from the depth target!\n\tMain: %dx%dx%d, Depth: %dx%dx%d\n
 Error: View "%s", layer "%s": \n\tError allocating render target binding! Different render target dimensions/MSAA assigned!\n
 Error: View "%s", layer "%s": \n\tError allocating render target binding! No targets have been specified!\n
 Error: View "%s", layer "%s": \n\tIt is illegal to indicate LAYERFLAGS_DOESNT_MODIFY_COLOR_BUFFERS but also do a color clear or discard!\n
@@ -1903,16 +1870,18 @@ FillAttr
 FillPreTessPatchIB
 FillPreTessPatchVB
 FindClose
-FindFirstFileExA
-FindNextFileA
+FindFirstFileExW
+FindNextFileW
 FindOrCreateRenderTarget: Does not work to pass pOtherView == this!\n
 Finish to complete : %f\n
 FinishRenderingViews has been called without a call to begin!!!
 First argument to Swap() (of type "
 First argument to SwapFields() (of type "
+FixupResourceName: Illegal full path passed in ("%s")!\n
+FixupResourceName: Illegal path, missing extension passed in ("%s")!\n
 FlattenedSerializersVersion001
 FloatBitMap_t::ConvertGammaToLinear
-FloatBitMap_t::ConvertGammaToLinear(338): Conversion not supported yet!\n
+FloatBitMap_t::ConvertGammaToLinear(341): Conversion not supported yet!\n
 FloatBitMap_t::LoadFromBuffer: Received improper buffer size, skipping!\n
 FloatBitMap_t::LoadFromBuffer: Unsupported color format, skipping!\n
 FlsAlloc
@@ -1920,17 +1889,14 @@ FlsFree
 FlsGetValue
 FlsSetValue
 FlushFileBuffers
-FlushProcessWriteBuffers
-Fog Clipmaps - insufficient shadow atlas space %d units centered on (setpos %d %d %d) - some lighting will be missing from the fog - csgo_show_light_fog_clipmap_cb_cost\n
 Fog Clipmaps - insufficient shadow atlas space %d units centered on (setpos %d %d %d) - some lighting will be missing from the fog - vr_show_light_fog_clipmap_cb_cost\n
-Fog Clipmaps - too many lights (%d - max: %d) %d units centered on (setpos %d %d %d) - some lighting will be missing from fog - use csgo_show_light_fog_clipmap_cb_cost\n
 Fog Clipmaps - too many lights (%d - max: %d) %d units centered on (setpos %d %d %d) - some lighting will be missing from fog - use vr_show_light_fog_clipmap_cb_cost\n
+Fog: %d volumes visible, %d culled [%d frustum, %d dist, %d PVS]\n
 FogLightView
 FontManager_001
 Found invalid proto option data for: 
 FreeEnvironmentStringsW
 FreeLibrary
-FreeLibraryWhenCallbackReturns
 Friday
 G>US
 GAME
@@ -1953,19 +1919,17 @@ GetCPUInformation
 GetCStringCharConversion
 GetCommandLineA
 GetCommandLineW
-GetConsoleCP
 GetConsoleMode
-GetCurrentPackageId
+GetConsoleOutputCP
 GetCurrentProcess
 GetCurrentProcessId
-GetCurrentProcessorNumber
-GetCurrentThread
 GetCurrentThreadId
+GetDateFormatEx
 GetDefaultMiniDumpTypeFlags
 GetDouble
 GetEnumValue
 GetEnvironmentStringsW
-GetFileInformationByHandleEx
+GetFileSizeEx
 GetFileType
 GetFloat
 GetInt32
@@ -1974,7 +1938,7 @@ GetLastError
 GetLocaleInfoEx
 GetLocaleInfoW
 GetMessage
-GetModuleFileNameA
+GetModuleFileNameW
 GetModuleHandleExW
 GetModuleHandleW
 GetOEMCP
@@ -2002,9 +1966,7 @@ GetStringReference
 GetStringTypeW
 GetSystemInfo
 GetSystemTimeAsFileTime
-GetSystemTimePreciseAsFileTime
-GetThreadTimes
-GetTickCount64
+GetTimeFormatEx
 GetUInt32
 GetUInt64
 GetUserDefaultLCID
@@ -2033,6 +1995,7 @@ IKRigBiped
 IKRigBug
 IKRigSimple
 IND)ind)
+IND)ind)"
 INFO
 INITY
 INVALID_CPPTYPE
@@ -2049,13 +2012,10 @@ Illegal jstype for int64, uint64, sint64, fixed64 or sfixed64 field:
 Import 
 Import "
 Index out-of-bounds (field is empty).
-InitOnceExecuteOnce
-InitializeConditionVariable
 InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
-InitializeSRWLock
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
@@ -2155,7 +2115,6 @@ List all the active sceneworlds
 List the object class names known by scenesystem\n
 LoadFromBuffer: expected '{', found '%s'
 LoadLibraryExW
-LocalContextCacheSize
 LocaleNameToLCID
 Localize_001
 Location
@@ -2204,8 +2163,6 @@ MarkBindlessLightingTexturesUsed
 Material changes: 
 MaterialUtils_001
 MathLib_Init
-MaxConcurrency
-MaxPolicyElementKey
 MbP?
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
@@ -2225,7 +2182,6 @@ Messages can't have default values!
 Messages can't have default values.
 MethodDescriptorProto
 MethodOptions
-MinConcurrency
 Missing field: FileDescriptorProto.name.
 Missing name.
 ModelDocUtils001
@@ -2378,6 +2334,7 @@ PARTICLE_DEPTH_FEATHERING_ON_OPTIONAL
 PARTICLE_SET_REPLACE_VALUE
 PARTICLE_SET_SCALE_CURRENT_VALUE
 PARTICLE_SET_SCALE_INITIAL_VALUE
+PDw 
 PF\n%d %d\n-1.000000\n
 PF_BIAS_TYPE_EXPONENTIAL
 PF_MAP_TYPE_MULT
@@ -2463,6 +2420,7 @@ Protocol Buffer map usage error:\n
 Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Reflection::
 Protocol message could not be serialized.
 Protocol message serialized itself in invalid fashion.
+PtT%
 Q5rHg,>
 Q?33s?w
 QAf?
@@ -2483,12 +2441,12 @@ R32F
 R32_UINT
 R8G8B8A8_ETC2_EAC
 R8G8B8_ETC2
-RESOLVE: After layer %s, resolve rt to %s %d %d, %dx%d\n
 RG11_EAC
 RG1616
 RG1616F
 RG1616F_EXPAND
 RG3232F
+RG88
 RGB323232F
 RGB565
 RGB888
@@ -2508,7 +2466,7 @@ RGBA8888_LINEAR
 RGBX555
 RGBX8888
 RSDS
-R\vpx]
+R\vpDw 
 RadianEuler
 RaiseException
 RandomFloat
@@ -2532,7 +2490,6 @@ RegisterStringToken
 Release
 ReleaseLast
 ReleaseMessage
-ReleaseSRWLockExclusive
 RemoveBoneAndChildren
 RemoveLast
 Render batchlist draw calls: 
@@ -2570,6 +2527,7 @@ Right
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlPcToFileHeader
+RtlUnwind
 RtlUnwindEx
 RtlVirtualUnwind
 S+Ot
@@ -2603,14 +2561,7 @@ SceneSystem/CMTAtlasHeight
 SceneSystem/CMTAtlasWidth
 SceneSystem/CameraTranslationInProjection
 SceneSystem/CharacterDecals
-SceneSystem/CsgoDefaultShadowTextureHeight
-SceneSystem/CsgoDefaultShadowTextureWidth
 SceneSystem/CsgoLightBinner
-SceneSystem/CsgoLightBinnerCachedShadowMapHeight
-SceneSystem/CsgoLightBinnerCachedShadowMapTileSize
-SceneSystem/CsgoLightBinnerCachedShadowMapWidth
-SceneSystem/CsgoLightBinnerMaxLights
-SceneSystem/CsgoLightBinnerSingleLightFastPath
 SceneSystem/CubemapFog
 SceneSystem/DisableShadowFullSort
 SceneSystem/DynamicSkyLighting
@@ -2646,10 +2597,7 @@ SceneViewDebugOverlaysScreenTextFont
 SceneViewId_t
 SceneWorldDump
 Scenesystem render target token too large! Increase MAX_RT_NAME_SIZE in scenesystem/scenesystem.h!\n
-Scenesystem/CsgoShadowDepthMasks
 Scenesystem/VrShadowDepthMasks
-SchedulerKind
-SchedulingProtocol
 SchemaSystem_001
 SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
@@ -2671,7 +2619,6 @@ SetEnum
 SetEnumValue
 SetEnumValue accepts only valid integer values: value 
 SetEvent
-SetFileInformationByHandle
 SetFilePointerEx
 SetFloat
 SetInt32
@@ -2689,12 +2636,9 @@ SetRepeatedUInt32
 SetRepeatedUInt64
 SetStdHandle
 SetString
-SetThreadpoolTimer
-SetThreadpoolWait
 SetUInt32
 SetUInt64
 SetUnhandledExceptionFilter
-SetupLightingForViewCsgo
 SetupLightingForViewVr
 ShadowMap "
 Shadowed spot lights in view: %d\n
@@ -2725,7 +2669,6 @@ SkyMapSkyRender
 Skybox
 Sleep
 SleepConditionVariableCS
-SleepConditionVariableSRW
 SmoothLoop
 SoundOpSystem001
 SoundOpSystemEdit001
@@ -2768,7 +2711,6 @@ Submit update for main camera pos=
 SubmitAllDisplayLists
 SubmitDepthResolve
 SubmitRenderLists
-SubmitThreadpoolWork
 Subtract
 Suggested
 SunShadow
@@ -2785,7 +2727,6 @@ T\n&NETWORK_DISCONNECT_BAD_SERVER_PASSWORD
 T\n&NETWORK_DISCONNECT_MESSAGE_PARSE_ERROR
 T\n)NETWORK_DISCONNECT_REQUEST_HOSTSTATE_IDLE
 T\n+NETWORK_DISCONNECT_STEAM_VAC_CHECK_TIMEDOUT
-TargetOversubscriptionFactor
 Tell debugoverlay to not draw any entries that have aged out by the time of rendering. Useful if sim runs more often than rendering.
 Template view factory "%s" was registered twice!\n
 TerminateProcess
@@ -2806,6 +2747,7 @@ This program requires version
 This program was compiled against version 
 This shouldn't be called if all the sizes are equal.
 Thread pool has %i threads, scene system using %i partitions\n
+ThreadAtomicNotifyAll
 ThreadMultiWaitObjectSetDestroy
 Thread_ProcessProceduralLayer
 Thursday
@@ -2835,7 +2777,6 @@ Triangles rendered:
 Tried to merge messages of different types 
 Tried to move layer to be after non-existant label
 True
-TryAcquireSRWLockExclusive
 Tuesday
 Two Bone
 Type
@@ -2875,7 +2816,6 @@ UNKNOWN
 UNKNOWN_ENUM_VALUE_%s_%d
 UPDATE_STRING_TOKEN_DATABASE
 UTF-8 data when 
-UUUU
 UUUUUU
 UV88
 UVLX8888
@@ -2914,7 +2854,9 @@ Usage is sc_setintattr <attrname> <value>\n
 Usage scope:
 Use multiview instancing for stereo rendering.
 Use to set a single indexed light to black
+Use true multiview for stereo rendering.
 UserInfoChangeService_001
+V4T%
 VApplication001
 VAvi001
 VBAllocTracker001
@@ -2951,7 +2893,10 @@ VStringTokenSystem001
 V\n&NETWORK_DISCONNECT_PURESERVER_MISMATCH
 V\n'NETWORK_DISCONNECT_CREATE_SERVER_FAILED
 V_GetErrno
+V_GetFileExtension
+V_IsAbsolutePath
 V_PrettifyNum
+V_RemoveDotSlashes
 V_SetErrno
 V_UTF16ToUTF8
 V_acosf
@@ -3027,9 +2972,7 @@ W\n,NETWORK_DISCONNECT_REJECT_CONNECT_FROM_LOBBY
 W\n,NETWORK_DISCONNECT_REJECT_RESERVED_FOR_LOBBY
 WaNd?
 WaitForSingleObjectEx
-WaitForThreadpoolTimerCallbacks
 WakeAllConditionVariable
-WakeConditionVariable
 Warning
 Warning parsing text-format 
 Warning:  %s = '%s' is infinite, clamping value.\n
@@ -3037,7 +2980,6 @@ Wednesday
 WeightList
 When enum name is stripped and label is PascalCased (
 WideCharToMultiByte
-WinRTInitialization
 Wireframe2DLayout
 Wireframe3DLayout
 WorkshopSetup001
@@ -3081,6 +3023,7 @@ Z\n+NETWORK_DISCONNECT_CONNECT_REQUEST_TIMEDOUT
 \\n)NETWORK_DISCONNECT_PURESERVER_CLIENTEXTRA
 \\n*NETWORK_DISCONNECT_LOOP_LEVELLOAD_ACTIVATE
 \\n.NETWORK_DISCONNECT_REQUEST_HOSTSTATE_HLTVRELAY
+\fp\vPDw 
 \n    Actual    : 
 \n    Field type: 
 \n  Field       : 
@@ -3177,6 +3120,7 @@ Z\n+NETWORK_DISCONNECT_CONNECT_REQUEST_TIMEDOUT
 \r\n\tJS_STRING
 \r\n\tTYPE_BOOL
 \r\n\tTYPE_ENUM
+\rp\f`\vP\n0Dw 
 \tLayer %d "%s": %d inputs, %d outputs\n
 \tLayer %d "%s"\n
 \tTarget %d "%s": [MSAA-> %s] [%s size : %d %d]\n
@@ -3190,8 +3134,10 @@ Z\n+NETWORK_DISCONNECT_CONNECT_REQUEST_TIMEDOUT
 \t\t\t"%s": msaa = %s\n
 \t\t\t%8s, %8s: %s\n
 \t\t\tColor Target %d: HRT = %llX, MSAA = %s, Resolve = %llX, Width = %d, Height = %d\n
+\t\t\tDepth Resolve Target: HRT = %llX, MSAA = %s, Width = %d, Height = %d\n
 \t\t\tDepth Target: HRT = %llX, MSAA = %s, Resolve = %llX, Width = %d, Height = %d\n
 \t\t\tHRT = %llX, MSAA = %s\n
+\t\t\tResolve Target: HRT = %llX, MSAA = %s, Width = %d, Height = %d\n
 \t\t\t\t[%d -> %d]
 \t\tviewport TopLeftX: %d TopLeftY: %d Width: %d Height: %d\n
 \tcQr
@@ -3204,6 +3150,7 @@ Z\n+NETWORK_DISCONNECT_CONNECT_REQUEST_TIMEDOUT
 _BoundTexture%d
 _BoundTextureSrgb%d
 _Dup
+_RDATA
 _V_strncat
 _V_strncmp
 _V_strncpy
@@ -3219,6 +3166,8 @@ __pascal
 __ptr64
 __restrict
 __stdcall
+__swift_1
+__swift_2
 __thiscall
 __unaligned
 __vectorcall
@@ -3229,6 +3178,7 @@ _nextafter
 _oD>Kg
 _test_conversion_counter
 `RTTI
+`anonymous namespace'
 `copy constructor closure'
 `default constructor closure'
 `dynamic atexit destructor for '
@@ -3238,7 +3188,6 @@ _test_conversion_counter
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static guard'
 `local static thread guard'
 `local vftable constructor closure'
@@ -3308,6 +3257,7 @@ b\fp\v0
 b\n,NETWORK_DISCONNECT_SPLITPACKET_SEND_OVERFLOW
 bad address
 bad allocation
+bad array new length
 bad cast
 bad exception
 bad file descriptor
@@ -3375,7 +3325,6 @@ c:\buildslave\hlvr_rel_win64\build\src\scenesystem\animatable.cpp
 c:\buildslave\hlvr_rel_win64\build\src\scenesystem\bindlessfastpathdesc.cpp
 c:\buildslave\hlvr_rel_win64\build\src\scenesystem\generated_proto\win64\networkbasetypes.pb.cc
 c:\buildslave\hlvr_rel_win64\build\src\scenesystem\lightbinner.cpp
-c:\buildslave\hlvr_rel_win64\build\src\scenesystem\lightbinner_csgo.cpp
 c:\buildslave\hlvr_rel_win64\build\src\scenesystem\lightbinner_vr.cpp
 c:\buildslave\hlvr_rel_win64\build\src\scenesystem\occludersceneobject.cpp
 c:\buildslave\hlvr_rel_win64\build\src\scenesystem\rasterizerocclusionculler.cpp
@@ -3443,26 +3392,6 @@ cosh
 create_particle
 creationsequence
 cross device link
-csgo_allow_time_sliced_shadow_map_rendering
-csgo_cubemap_normalization_max
-csgo_cubemap_normalization_roughness_begin
-csgo_directional_lightmaps
-csgo_dither_scale
-csgo_enable_cached_lights
-csgo_enable_lights
-csgo_kill_indexed_light
-csgo_max_lights
-csgo_shadow_map_culling
-csgo_show_indexed_light_indices
-csgo_show_light_fog_clipmap_cb_cost
-csgo_show_light_priority
-csgo_show_lod_origin
-csgo_show_nonfogging_cached_lights
-csgo_single_light_fast_path_sun_cascade_0_texels_per_world
-csgo_single_light_fast_path_sun_cascade_1_texels_per_world
-csgo_single_light_fast_path_sun_cascade_vignette
-csgo_single_light_fast_path_sun_size_cull_threshold
-csgo_unlit_shadow_color
 csharp_namespace
 csm_bias_override_0
 csm_bias_override_1
@@ -3537,7 +3466,7 @@ eventid
 eventindex
 events
 executable format error
-expf
+exlT%
 explosion_behavior
 explosion_buildup
 explosion_delay
@@ -3608,9 +3537,6 @@ google.protobuf.StreamOptions
 google/protobuf/descriptor.proto
 gravity
 group
-h-8P
-h-8b
-h/8Z(
 h0'D
 h>1my
 h\n,NETWORK_DISCONNECT_REMOTE_TIMEOUT_CONNECTING
@@ -4139,6 +4065,8 @@ operation not supported
 operation would block
 operator
 operator "" 
+operator co_await
+operator<=>
 optional
 options
 origin_max_delta
@@ -4152,8 +4080,8 @@ owM&
 owner dead
 pChunk
 pChunk == pList
+pDw 
 pObj->GetRefDataPtr() == nullptr
-p\r0\fP
 package
 packed
 parent_bone
@@ -4199,7 +4127,6 @@ public_dependency
 purecall
 py_generic_services
 qS>g?h3
-rLp>B
 r\tVr.>T
 r_allow_morph_batching_on_base
 r_aoproxy_cull_dist
@@ -4231,6 +4158,7 @@ r_stereo_mode_anaglyph
 r_stereo_mode_crossed
 r_stereo_mode_parallel
 r_stereo_multiview_instancing
+r_stereo_true_multiview
 r_texture_lod_scale
 radius
 radius0
@@ -4385,6 +4313,7 @@ shadowdepth
 shadowtextureheight
 shadowtexturewidth
 shapeType
+sinf
 sinh
 sint32
 sint64
@@ -4405,6 +4334,7 @@ spawngroupparenthandle
 speed
 spotLightLayout
 spotLightQuadLayout
+sqrt
 srgb
 start
 state not recoverable
@@ -4426,6 +4356,7 @@ suppress
 surface_prop
 syntax
 tanf
+tangent
 tanh
 tesidx
 test_angles_relative
@@ -4478,12 +4409,14 @@ value
 value too large
 valveextensions.proto
 vanmgrph
+vector too long
 vector<T> too long
 vertexbuffer
 vmdl
 vmdlkeys1
 vmdlkeys2
 vmdlkeys3
+volume_fog_cheap
 volume_fog_clipmap_update
 volume_fog_clipmaps_enabled
 volume_fog_depth
@@ -4538,6 +4471,7 @@ vr_enable_cached_lights
 vr_enable_lights
 vr_kill_indexed_light
 vr_max_lights
+vr_render_tiler_mode
 vr_shadow_map_culling
 vr_show_indexed_light_indices
 vr_show_light_fog_clipmap_cb_cost
@@ -4571,11 +4505,8 @@ world_offset_angle
 world_offset_pos
 wrong protocol type
 wrong submessage type
-x.8R(
 xT?V
-xpxxxx
 xuid
-xwpwpp
 yaw_end
 yaw_start
 z\n8NETWORK_DISCONNECT_LOCALPROBLEM_HOSTEDSERVERPRIMARYRELAY

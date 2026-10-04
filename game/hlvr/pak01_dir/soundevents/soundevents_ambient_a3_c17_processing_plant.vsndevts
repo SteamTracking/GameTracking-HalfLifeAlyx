@@ -1,10 +1,11 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	AmbProcPlant.TankAbstrakt = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbProcPlant.TankAbstraktChild"
-		random_soundevent_01_timer_min = 25.000000
-		random_soundevent_01_timer_max = 35.000000
+		random_soundevent_01_timer_min = 25.0
+		random_soundevent_01_timer_max = 35.0
 	}
 	AmbProcPlant.TankAbstraktChild = 
 	{
@@ -34,15 +35,15 @@
 			"sounds/ambient/abstract/amb_proc_plant_tanks_abstract_01_l.vsnd",
 		]
 		mixgroup = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.700000
+		volume = 0.7
 		use_named_send = "ambient"
 	}
 	AmbProcPlant.TankAbstrakt01_R = 
@@ -52,7 +53,7 @@
 		[
 			"sounds/ambient/abstract/amb_proc_plant_tanks_abstract_01_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbProcPlant.TankAbstrakt01_LS = 
 	{
@@ -61,7 +62,7 @@
 		[
 			"sounds/ambient/abstract/amb_proc_plant_tanks_abstract_01_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbProcPlant.TankAbstrakt01_RS = 
 	{
@@ -70,7 +71,7 @@
 		[
 			"sounds/ambient/abstract/amb_proc_plant_tanks_abstract_01_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbProcPlant.TankAbstrakt02 = 
 	{
@@ -88,15 +89,15 @@
 			"sounds/ambient/abstract/amb_proc_plant_tanks_abstract_02_l.vsnd",
 		]
 		mixgroup = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.700000
+		volume = 0.7
 		use_named_send = "ambient"
 	}
 	AmbProcPlant.TankAbstrakt02_R = 
@@ -106,7 +107,7 @@
 		[
 			"sounds/ambient/abstract/amb_proc_plant_tanks_abstract_02_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbProcPlant.TankAbstrakt02_LS = 
 	{
@@ -115,7 +116,7 @@
 		[
 			"sounds/ambient/abstract/amb_proc_plant_tanks_abstract_02_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbProcPlant.TankAbstrakt02_RS = 
 	{
@@ -124,7 +125,7 @@
 		[
 			"sounds/ambient/abstract/amb_proc_plant_tanks_abstract_02_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbProcPlant.TankAbstrakt03 = 
 	{
@@ -133,10 +134,10 @@
 		soundevent_02 = "AmbProcPlant.TankAbstrakt03_R"
 		soundevent_03 = "AmbProcPlant.TankAbstrakt03_LS"
 		soundevent_04 = "AmbProcPlant.TankAbstrakt03_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbProcPlant.TankAbstrakt03_L = 
 	{
@@ -146,15 +147,15 @@
 			"sounds/ambient/abstract/amb_proc_plant_tanks_abstract_03_l.vsnd",
 		]
 		mixgroup = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.700000
+		volume = 0.7
 		use_named_send = "ambient"
 	}
 	AmbProcPlant.TankAbstrakt03_R = 
@@ -164,7 +165,7 @@
 		[
 			"sounds/ambient/abstract/amb_proc_plant_tanks_abstract_03_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbProcPlant.TankAbstrakt03_LS = 
 	{
@@ -173,7 +174,7 @@
 		[
 			"sounds/ambient/abstract/amb_proc_plant_tanks_abstract_03_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbProcPlant.TankAbstrakt03_RS = 
 	{
@@ -182,7 +183,7 @@
 		[
 			"sounds/ambient/abstract/amb_proc_plant_tanks_abstract_03_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbProcPlant.TankAbstrakt04 = 
 	{
@@ -200,15 +201,15 @@
 			"sounds/ambient/abstract/amb_proc_plant_tanks_abstract_04_l.vsnd",
 		]
 		mixgroup = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.700000
+		volume = 0.7
 		use_named_send = "ambient"
 	}
 	AmbProcPlant.TankAbstrakt04_R = 
@@ -218,7 +219,7 @@
 		[
 			"sounds/ambient/abstract/amb_proc_plant_tanks_abstract_04_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbProcPlant.TankAbstrakt04_LS = 
 	{
@@ -227,7 +228,7 @@
 		[
 			"sounds/ambient/abstract/amb_proc_plant_tanks_abstract_04_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbProcPlant.TankAbstrakt04_RS = 
 	{
@@ -236,7 +237,7 @@
 		[
 			"sounds/ambient/abstract/amb_proc_plant_tanks_abstract_04_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbProcPlant.TankAbstrakt05 = 
 	{
@@ -254,15 +255,15 @@
 			"sounds/ambient/abstract/amb_proc_plant_tanks_abstract_05_l.vsnd",
 		]
 		mixgroup = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.700000
+		volume = 0.7
 		use_named_send = "ambient"
 	}
 	AmbProcPlant.TankAbstrakt05_R = 
@@ -272,7 +273,7 @@
 		[
 			"sounds/ambient/abstract/amb_proc_plant_tanks_abstract_05_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbProcPlant.TankAbstrakt05_LS = 
 	{
@@ -281,7 +282,7 @@
 		[
 			"sounds/ambient/abstract/amb_proc_plant_tanks_abstract_05_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbProcPlant.TankAbstrakt05_RS = 
 	{
@@ -290,7 +291,7 @@
 		[
 			"sounds/ambient/abstract/amb_proc_plant_tanks_abstract_05_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbProcPlant.InteriorLp = 
 	{
@@ -299,8 +300,8 @@
 		soundevent_02 = "AmbProcPlant.InteriorLp_R"
 		soundevent_03 = "AmbProcPlant.InteriorLp_LS"
 		soundevent_04 = "AmbProcPlant.InteriorLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbProcPlant.InteriorLp_L = 
 	{
@@ -317,27 +318,27 @@
 		vsnd_vol_02 = "0.5"
 		vsnd_vol_03 = "0.2"
 		vsnd_vol_04 = "0.8"
-		volume = 0.850000
+		volume = 0.85
 		global_opvar_name_02 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity_02 = 2.500000
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
-		remap_vol_opvar_02_x1 = 0.000000
-		remap_vol_opvar_02_y1 = 1.000000
-		remap_vol_opvar_02_x2 = 0.450000
-		remap_vol_opvar_02_y2 = 0.500000
-		remap_vol_opvar_02_x3 = 1.000000
-		remap_vol_opvar_02_y3 = 0.000000
-		remap_vol_opvar_02_x4 = 1.000000
-		remap_vol_opvar_02_y4 = 0.000000
-		remap_filter_freq_opvar_02_x1 = 0.000000
-		remap_filter_freq_opvar_02_y1 = 1.000000
-		remap_filter_freq_opvar_02_x2 = 0.000000
-		remap_filter_freq_opvar_02_y2 = 1.000000
-		remap_filter_freq_opvar_02_x3 = 0.000000
-		remap_filter_freq_opvar_02_y3 = 1.000000
-		remap_filter_freq_opvar_02_x4 = 1.000000
-		remap_filter_freq_opvar_02_y4 = 0.750000
+		global_opvar_filter_velocity_02 = 2.5
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
+		remap_vol_opvar_02_x1 = 0.0
+		remap_vol_opvar_02_y1 = 1.0
+		remap_vol_opvar_02_x2 = 0.45
+		remap_vol_opvar_02_y2 = 0.5
+		remap_vol_opvar_02_x3 = 1.0
+		remap_vol_opvar_02_y3 = 0.0
+		remap_vol_opvar_02_x4 = 1.0
+		remap_vol_opvar_02_y4 = 0.0
+		remap_filter_freq_opvar_02_x1 = 0.0
+		remap_filter_freq_opvar_02_y1 = 1.0
+		remap_filter_freq_opvar_02_x2 = 0.0
+		remap_filter_freq_opvar_02_y2 = 1.0
+		remap_filter_freq_opvar_02_x3 = 0.0
+		remap_filter_freq_opvar_02_y3 = 1.0
+		remap_filter_freq_opvar_02_x4 = 1.0
+		remap_filter_freq_opvar_02_y4 = 0.75
 	}
 	AmbProcPlant.InteriorLp_R = 
 	{
@@ -346,7 +347,7 @@
 		vsnd_file_02 = "sounds/ambient/interior/amb_proc_plant_hum_lp_02_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_proc_plant_hum_lp_03_r.vsnd"
 		vsnd_file_04 = "sounds/ambient/interior/amb_proc_plant_main_large_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbProcPlant.InteriorLp_LS = 
 	{
@@ -355,7 +356,7 @@
 		vsnd_file_02 = "sounds/ambient/interior/amb_proc_plant_hum_lp_02_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_proc_plant_hum_lp_03_ls.vsnd"
 		vsnd_file_04 = "sounds/ambient/interior/amb_proc_plant_main_large_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbProcPlant.InteriorLp_RS = 
 	{
@@ -364,7 +365,7 @@
 		vsnd_file_02 = "sounds/ambient/interior/amb_proc_plant_hum_lp_02_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_proc_plant_hum_lp_03_rs.vsnd"
 		vsnd_file_04 = "sounds/ambient/interior/amb_proc_plant_main_large_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbProcPlant.InteriorConstructionLp = 
 	{
@@ -373,8 +374,8 @@
 		soundevent_02 = "AmbProcPlant.InteriorConstructionLp_R"
 		soundevent_03 = "AmbProcPlant.InteriorConstructionLp_LS"
 		soundevent_04 = "AmbProcPlant.InteriorConstructionLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbProcPlant.InteriorConstructionLp_L = 
 	{
@@ -382,30 +383,30 @@
 		vsnd_file_01 = "sounds/ambient/interior/amb_proc_plant_woody_lp_01_l.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_proc_plant_hum_lp_01_l.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_proc_plant_hum_lp_02_l.vsnd"
-		vsnd_vol_01 = 1.000000
-		vsnd_vol_02 = 0.150000
-		vsnd_vol_03 = 0.100000
-		volume = 1.000000
+		vsnd_vol_01 = 1.0
+		vsnd_vol_02 = 0.15
+		vsnd_vol_03 = 0.1
+		volume = 1.0
 		global_opvar_name_02 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity_02 = 2.500000
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
-		remap_vol_opvar_02_x1 = 0.000000
-		remap_vol_opvar_02_y1 = 1.000000
-		remap_vol_opvar_02_x2 = 0.450000
-		remap_vol_opvar_02_y2 = 0.500000
-		remap_vol_opvar_02_x3 = 1.000000
-		remap_vol_opvar_02_y3 = 0.000000
-		remap_vol_opvar_02_x4 = 1.000000
-		remap_vol_opvar_02_y4 = 0.000000
-		remap_filter_freq_opvar_02_x1 = 0.000000
-		remap_filter_freq_opvar_02_y1 = 1.000000
-		remap_filter_freq_opvar_02_x2 = 0.000000
-		remap_filter_freq_opvar_02_y2 = 1.000000
-		remap_filter_freq_opvar_02_x3 = 0.000000
-		remap_filter_freq_opvar_02_y3 = 1.000000
-		remap_filter_freq_opvar_02_x4 = 1.000000
-		remap_filter_freq_opvar_02_y4 = 0.750000
+		global_opvar_filter_velocity_02 = 2.5
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
+		remap_vol_opvar_02_x1 = 0.0
+		remap_vol_opvar_02_y1 = 1.0
+		remap_vol_opvar_02_x2 = 0.45
+		remap_vol_opvar_02_y2 = 0.5
+		remap_vol_opvar_02_x3 = 1.0
+		remap_vol_opvar_02_y3 = 0.0
+		remap_vol_opvar_02_x4 = 1.0
+		remap_vol_opvar_02_y4 = 0.0
+		remap_filter_freq_opvar_02_x1 = 0.0
+		remap_filter_freq_opvar_02_y1 = 1.0
+		remap_filter_freq_opvar_02_x2 = 0.0
+		remap_filter_freq_opvar_02_y2 = 1.0
+		remap_filter_freq_opvar_02_x3 = 0.0
+		remap_filter_freq_opvar_02_y3 = 1.0
+		remap_filter_freq_opvar_02_x4 = 1.0
+		remap_filter_freq_opvar_02_y4 = 0.75
 	}
 	AmbProcPlant.InteriorConstructionLp_R = 
 	{
@@ -413,7 +414,7 @@
 		vsnd_file_01 = "sounds/ambient/interior/amb_proc_plant_woody_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_proc_plant_hum_lp_01_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_proc_plant_hum_lp_02_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbProcPlant.InteriorConstructionLp_LS = 
 	{
@@ -421,7 +422,7 @@
 		vsnd_file_01 = "sounds/ambient/interior/amb_proc_plant_woody_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_proc_plant_hum_lp_01_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_proc_plant_hum_lp_02_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbProcPlant.InteriorConstructionLp_RS = 
 	{
@@ -429,7 +430,7 @@
 		vsnd_file_01 = "sounds/ambient/interior/amb_proc_plant_woody_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_proc_plant_hum_lp_01_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_proc_plant_hum_lp_02_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbProcPlant.ExteriorLp = 
 	{
@@ -438,8 +439,8 @@
 		soundevent_02 = "AmbProcPlant.ExteriorLp_R"
 		soundevent_03 = "AmbProcPlant.ExteriorLp_LS"
 		soundevent_04 = "AmbProcPlant.ExteriorLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbProcPlant.ExteriorLp_L = 
 	{
@@ -450,16 +451,16 @@
 		vsnd_vol_01 = "0.9"
 		vsnd_vol_02 = "0.65"
 		vsnd_vol_03 = "0.3"
-		volume = 0.950000
-		filter_mix = 0.900000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 0.750000
-		remap_filter_freq_opvar_x2 = 0.000000
-		remap_filter_freq_opvar_y2 = 0.750000
-		remap_filter_freq_opvar_x3 = 0.000000
-		remap_filter_freq_opvar_y3 = 0.750000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 1.000000
+		volume = 0.95
+		filter_mix = 0.9
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 0.75
+		remap_filter_freq_opvar_x2 = 0.0
+		remap_filter_freq_opvar_y2 = 0.75
+		remap_filter_freq_opvar_x3 = 0.0
+		remap_filter_freq_opvar_y3 = 0.75
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 1.0
 	}
 	AmbProcPlant.ExteriorLp_R = 
 	{
@@ -467,7 +468,7 @@
 		vsnd_file_01 = "sounds/ambient/city/amb_proc_plant_ext_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/wind/wind_system/amb_windy_light_lp_01_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_city_birds_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbProcPlant.ExteriorLp_LS = 
 	{
@@ -475,7 +476,7 @@
 		vsnd_file_01 = "sounds/ambient/city/amb_proc_plant_ext_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/wind/wind_system/amb_windy_light_lp_01_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_city_birds_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbProcPlant.ExteriorLp_RS = 
 	{
@@ -483,7 +484,7 @@
 		vsnd_file_01 = "sounds/ambient/city/amb_proc_plant_ext_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/wind/wind_system/amb_windy_light_lp_01_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/city/amb_city_birds_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbProcPlant.WoodCreak = 
 	{
@@ -491,10 +492,10 @@
 		random_soundevent_01_name = "AmbProcPlant.WoodCreakBurst"
 		random_soundevent_01_timer_min = 10
 		random_soundevent_01_timer_max = 20
-		use_initial_random_offset = 1.000000
+		use_initial_random_offset = 1.0
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 1.000000
-		remap_global_opvar_01_to_vol_max = 0.000000
+		remap_global_opvar_01_to_vol_min = 1.0
+		remap_global_opvar_01_to_vol_max = 0.0
 	}
 	AmbProcPlant.WoodCreakBurst = 
 	{
@@ -502,7 +503,7 @@
 		soundevent_name = "AmbProcPlant.WoodCreakBurstChild"
 		burst_length_min = 5
 		burst_length_max = 7
-		delay_timer_min = 1.500000
+		delay_timer_min = 1.5
 		delay_timer_max = 3
 		ortho_distance_min = 100
 		ortho_distance_max = 400
@@ -511,42 +512,42 @@
 	{
 		type = "hlvr_ambient_burst"
 		soundevent_name = "AmbProcPlant.WoodCreakChild"
-		burst_length_min = 3.500000
+		burst_length_min = 3.5
 		burst_length_max = 5
-		delay_timer_min = 1.000000
-		delay_timer_max = 2.000000
+		delay_timer_min = 1.0
+		delay_timer_max = 2.0
 	}
 	AmbProcPlant.WoodCreakChild = 
 	{
 		type = "hlvr_ambient_rand_child_random_anim_time"
-		volume = 0.100000
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.050000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 1250.000000
-		pitch_rand_min = 0.000000
-		pitch_rand_max = 0.100000
-		animation_time_min = 2.500000
-		animation_time_max = 4.500000
-		use_calculated_stop_at_time = 0.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 0.750000
-		position_source = 2.000000
-		animated_source = 0.000000
-		animated_target = 0.000000
-		unconstrained_target = 1.000000
+		volume = 0.1
+		volume_rand_min = -0.02
+		volume_rand_max = 0.05
+		volume_falloff_min = 400.0
+		volume_falloff_max = 1250.0
+		pitch_rand_min = 0.0
+		pitch_rand_max = 0.1
+		animation_time_min = 2.5
+		animation_time_max = 4.5
+		use_calculated_stop_at_time = 0.0
+		volume_fade_in = 0.0
+		volume_fade_out = 0.75
+		position_source = 2.0
+		animated_source = 0.0
+		animated_target = 0.0
+		unconstrained_target = 1.0
 		animation_type = "slerp"
-		rand_radius_min = 35.000000
-		rand_radius_max = 55.000000
-		use_doppler = 1.000000
-		doppler_factor = 1.500000
-		use_world_position = 1.000000
+		rand_radius_min = 35.0
+		rand_radius_max = 55.0
+		use_doppler = 1.0
+		doppler_factor = 1.5
+		use_world_position = 1.0
 		mixgroup = "ambient"
-		random_pos_center_select = 1.000000
-		use_hrtf = 0.600000
-		drunk = 1.000000
-		drunk_range = 20.000000
-		drunk_velocity = 0.400000
+		random_pos_center_select = 1.0
+		use_hrtf = 0.6
+		drunk = 1.0
+		drunk_range = 20.0
+		drunk_velocity = 0.4
 		vsnd_files = 
 		[
 			"sounds/ambient/wood/amb_proc_plant_wood_creak_01.vsnd",
@@ -568,27 +569,27 @@
 			"sounds/ambient/wood/amb_proc_plant_wood_creak_17.vsnd",
 			"sounds/ambient/wood/amb_proc_plant_wood_creak_18.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 5
 		soundname_string = "AmbProcPlant.WoodCreakChild"
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"
 		global_opvar_name = "skylight_proximity_beacon"
-		remap_opvar_to_freq_x1 = 0.000000
-		remap_opvar_to_freq_y1 = 1.000000
-		remap_opvar_to_freq_x2 = 0.300000
-		remap_opvar_to_freq_y2 = 0.700000
-		remap_opvar_to_freq_x3 = 0.500000
-		remap_opvar_to_freq_y3 = 0.500000
-		remap_opvar_to_freq_x4 = 1.000000
-		remap_opvar_to_freq_y4 = 0.400000
-		remap_opvar_to_vol_x1 = 0.000000
-		remap_opvar_to_vol_y1 = 1.000000
-		remap_opvar_to_vol_x2 = 0.000000
-		remap_opvar_to_vol_y2 = 1.000000
-		remap_opvar_to_vol_x3 = 0.000000
-		remap_opvar_to_vol_y3 = 1.000000
-		remap_opvar_to_vol_x4 = 1.000000
-		remap_opvar_to_vol_y4 = 0.000000
+		remap_opvar_to_freq_x1 = 0.0
+		remap_opvar_to_freq_y1 = 1.0
+		remap_opvar_to_freq_x2 = 0.3
+		remap_opvar_to_freq_y2 = 0.7
+		remap_opvar_to_freq_x3 = 0.5
+		remap_opvar_to_freq_y3 = 0.5
+		remap_opvar_to_freq_x4 = 1.0
+		remap_opvar_to_freq_y4 = 0.4
+		remap_opvar_to_vol_x1 = 0.0
+		remap_opvar_to_vol_y1 = 1.0
+		remap_opvar_to_vol_x2 = 0.0
+		remap_opvar_to_vol_y2 = 1.0
+		remap_opvar_to_vol_x3 = 0.0
+		remap_opvar_to_vol_y3 = 1.0
+		remap_opvar_to_vol_x4 = 1.0
+		remap_opvar_to_vol_y4 = 0.0
 	}
 	AmbProcPlant.IntSmallRoomLp = 
 	{
@@ -597,8 +598,8 @@
 		soundevent_02 = "AmbProcPlant.IntSmallRoomLp_R"
 		soundevent_03 = "AmbProcPlant.IntSmallRoomLp_LS"
 		soundevent_04 = "AmbProcPlant.IntSmallRoomLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbProcPlant.IntSmallRoomLp_L = 
 	{
@@ -610,19 +611,19 @@
 		vsnd_vol_01 = "0.90"
 		vsnd_vol_02 = "0.35"
 		vsnd_vol_03 = "0.80"
-		volume = 0.600000
+		volume = 0.6
 		global_opvar_name_02 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity_02 = 2.500000
-		remap_vol_opvar_02_x1 = 0.000000
-		remap_vol_opvar_02_y1 = 1.000000
-		remap_vol_opvar_02_x2 = 0.200000
-		remap_vol_opvar_02_y2 = 0.900000
-		remap_vol_opvar_02_x3 = 0.500000
-		remap_vol_opvar_02_y3 = 0.500000
-		remap_vol_opvar_02_x4 = 1.000000
-		remap_vol_opvar_02_y4 = 0.000000
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
+		global_opvar_filter_velocity_02 = 2.5
+		remap_vol_opvar_02_x1 = 0.0
+		remap_vol_opvar_02_y1 = 1.0
+		remap_vol_opvar_02_x2 = 0.2
+		remap_vol_opvar_02_y2 = 0.9
+		remap_vol_opvar_02_x3 = 0.5
+		remap_vol_opvar_02_y3 = 0.5
+		remap_vol_opvar_02_x4 = 1.0
+		remap_vol_opvar_02_y4 = 0.0
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
 	}
 	AmbProcPlant.IntSmallRoomLp_R = 
 	{
@@ -630,7 +631,7 @@
 		vsnd_file_01 = "sounds/ambient/abstract/amb_underground_pit_basement_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/subway_station/amb_station_small_room_base_lp_01_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_proc_plant_small_room_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbProcPlant.IntSmallRoomLp_LS = 
 	{
@@ -638,7 +639,7 @@
 		vsnd_file_01 = "sounds/ambient/abstract/amb_underground_pit_basement_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/subway_station/amb_station_small_room_base_lp_01_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_proc_plant_small_room_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbProcPlant.IntSmallRoomLp_RS = 
 	{
@@ -646,7 +647,7 @@
 		vsnd_file_01 = "sounds/ambient/abstract/amb_underground_pit_basement_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/subway_station/amb_station_small_room_base_lp_01_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_proc_plant_small_room_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbProcPlant.DeepAddinLp = 
 	{
@@ -655,8 +656,8 @@
 		soundevent_02 = "AmbProcPlant.DeepAddinLp_R"
 		soundevent_03 = "AmbProcPlant.DeepAddinLp_LS"
 		soundevent_04 = "AmbProcPlant.DeepAddinLp_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbProcPlant.DeepAddinLp_L = 
 	{
@@ -665,28 +666,28 @@
 		vsnd_file_02 = "sounds/ambient/interior/amb_stairwell_addin_lp_l.vsnd"
 		vsnd_vol_01 = "0.81"
 		vsnd_vol_02 = "0.46"
-		volume = 0.600000
+		volume = 0.6
 		global_opvar_name_01 = "large_room_addin_beacon"
-		remap_vol_opvar_x1 = 0.000000
-		remap_vol_opvar_y1 = 0.000000
-		remap_vol_opvar_x2 = 0.200000
-		remap_vol_opvar_y2 = 0.350000
-		remap_vol_opvar_x3 = 0.500000
-		remap_vol_opvar_y3 = 0.500000
-		remap_vol_opvar_x4 = 1.000000
-		remap_vol_opvar_y4 = 1.000000
-		opvar_to_volume_multiplier_min = 0.000000
-		opvar_to_volume_multiplier = 1.000000
-		filter_mix = 1.000000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 0.750000
-		remap_filter_freq_opvar_x2 = 0.000000
-		remap_filter_freq_opvar_y2 = 0.750000
-		remap_filter_freq_opvar_x3 = 0.000000
-		remap_filter_freq_opvar_y3 = 0.750000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 1.000000
-		enable_debug_radius = 0.000000
+		remap_vol_opvar_x1 = 0.0
+		remap_vol_opvar_y1 = 0.0
+		remap_vol_opvar_x2 = 0.2
+		remap_vol_opvar_y2 = 0.35
+		remap_vol_opvar_x3 = 0.5
+		remap_vol_opvar_y3 = 0.5
+		remap_vol_opvar_x4 = 1.0
+		remap_vol_opvar_y4 = 1.0
+		opvar_to_volume_multiplier_min = 0.0
+		opvar_to_volume_multiplier = 1.0
+		filter_mix = 1.0
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 0.75
+		remap_filter_freq_opvar_x2 = 0.0
+		remap_filter_freq_opvar_y2 = 0.75
+		remap_filter_freq_opvar_x3 = 0.0
+		remap_filter_freq_opvar_y3 = 0.75
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 1.0
+		enable_debug_radius = 0.0
 		soundname_string = "AmbProcPlant.DeepAddinLp"
 	}
 	AmbProcPlant.DeepAddinLp_R = 
@@ -694,27 +695,27 @@
 		base = "AmbProcPlant.DeepAddinLp_L"
 		vsnd_file_01 = "sounds/ambient/abstract/amb_proc_deep_addin_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_stairwell_addin_lp_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbProcPlant.DeepAddinLp_LS = 
 	{
 		base = "AmbProcPlant.DeepAddinLp_L"
 		vsnd_file_01 = "sounds/ambient/abstract/amb_proc_deep_addin_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_stairwell_addin_lp_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbProcPlant.DeepAddinLp_RS = 
 	{
 		base = "AmbProcPlant.DeepAddinLp_L"
 		vsnd_file_01 = "sounds/ambient/abstract/amb_proc_deep_addin_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_stairwell_addin_lp_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbProcPlant.FliesBuzzing = 
 	{
 		base = "AmbientCreature.FliesBuzzing"
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 0.000000
-		remap_global_opvar_01_to_vol_max = 1.000000
+		remap_global_opvar_01_to_vol_min = 0.0
+		remap_global_opvar_01_to_vol_max = 1.0
 	}
 }

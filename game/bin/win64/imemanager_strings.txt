@@ -74,7 +74,7 @@
 .CRT$XTZ
 .bss
 .data
-.data$r
+.data$rs
 .edata
 .idata$2
 .idata$3
@@ -85,6 +85,7 @@
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .text$di
 .text$mn
@@ -95,7 +96,7 @@
 .tls$ZZZ
 .xdata
 0x%4.4x 
-2\vp0+
+2\vppV
 <deferred>
 <no failure reason set>
 <null>
@@ -405,8 +406,8 @@ Quan Pin 6.0
 QueryPerformanceCounter
 QueuedLoaderVersion001
 Quick
-RSDSF
-R\vp0+
+RSDSw0J8,{ZA
+R\vppV
 RegCloseKey
 RegEnumKeyExA
 RegOpenKeyExA

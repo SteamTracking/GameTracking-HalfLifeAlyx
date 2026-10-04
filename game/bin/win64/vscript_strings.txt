@@ -6,6 +6,7 @@
  <null>
  Base Class Array'
  Base Class Descriptor at (
+ C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
  Type Descriptor'
@@ -17,7 +18,8 @@
  in function <%s:%d>
  in main chunk
  new
-%.14g
+"e?<<<<<<l?
+$Ib?s
 %016llx
 %12.6f
 %d %d %d %d
@@ -27,23 +29,17 @@
 %llu
 %s %p [%f %f %f]
 %s <null>
-%s at line %d
 %s called with %d arguments - expected %d
 %s called with %d arguments - expected %d-%d
 %s expected, got %s
 %s has no instance glue - are you doing objectName.%s instead of objectName:%s?
 %s near '%s'
 %s parameter %d: expected %s but got %s.\n
-%s.dll
 %s: string format requested %d chars\n
+&?PPPPPPP?
 &Sgw
-'%s' cannot be indexed
-'%s' cannot be indexed with '%s'
 '%s' expected
 '%s' expected (to close '%s' at line %d)
-'%s' has no '%s' metamethod
-'%s' has no member named '%s'
-'%s' is not callable
 '=' or 'in' expected
 'for' initial value must be a number
 'for' limit must be a number
@@ -54,9 +50,11 @@
 'package.preload' must be a table
 'setfenv' cannot change environment of given object
 'tostring' must return a string to 'print'
-( 8PX
 (*temporary)
 (*vararg)
+(04\n \n008@HPX\n
+(binary)
+(error object is not a string)
 (for control)
 (for generator)
 (for index)
@@ -65,13 +63,17 @@
 (for step)
 (null)
 (yaX
+)yIx
 *StO9>T
+,HR>O
+-BH>t
 -avx
 -luajit
 -sse2
 -sse3
 -sse4
 .00cfg
+.>\rfJBGo
 .?AV?$CBaseAppSystem@VIScriptManager@@@@
 .?AV?$CTier0AppSystem@VIScriptManager@@@@
 .?AV?$CTier1AppSystem@VIScriptManager@@$0A@@@
@@ -95,12 +97,13 @@
 .?AVIScriptManager@@
 .?AVIScriptVM@@
 .?AVIStack_VM_Segment_Marker@@
-.?AVbad_alloc@std@@
+.?AVbad_alloc@stdext@@
+.?AVbad_array_new_length@stdext@@
 .?AVbad_exception@std@@
 .?AVexception@std@@
+.?AVexception@stdext@@
 .?AVlength_error@std@@
 .?AVlogic_error@std@@
-.?AVout_of_range@std@@
 .?AVtype_info@@
 .CRT$XCA
 .CRT$XCC
@@ -122,9 +125,8 @@
 .bss
 .data
 .data$r
+.data$rs
 .edata
-.gfids$x
-.gfids$y
 .idata$2
 .idata$3
 .idata$4
@@ -137,6 +139,7 @@
 .rdata$T
 .rdata$Z
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .rtc$IAA
 .rtc$IZZ
@@ -155,29 +158,52 @@
 .xJ>Hf
 .xdata
 .xdata$x
+/2GG>!B
 0123456789ABCDEF
+0123456789ABCDEFPX
 0123456789abcdef
+0123456789abcdefpx
+0C1X4\f6
+0E>X
+0X8b?~
 0iN>/
 1#IND
 1#INF
 1#QNAN
 1#SNAN
+11UT
 11Y@
 127.0.0.1
 1434713789_main
-2\vplp
+1X2\v3z3
+2\vp4d
 37>k
 3>N;kU
 3>fvw
 4\tgA
+51>W
+601\v
+6L4\v
+6NK>
+6Z2\v
 6\fXO>
-700WP
+6\fXO>\ntA
+6i8\v
+7>I0
+7?GX
+7yp>
+7~xh
+8@HPX
+8Csin
+8ke?;
+9>70
+9>pow
+9g>@3
+;1cb
 <?xml version="1.0" encoding="UTF-8"?>\n
 <deferred>
 <eof>
 <goto %s> jumps into the scope of local '%s'
-<identifier>
-<integer>
 <name>
 <name> or '...' expected
 <no failure reason set>
@@ -188,40 +214,59 @@
 <unknown>
 =(debug command)
 =(load)
+=1cb
 =87M
 =cQ6
+=e2m
 =imb;D
 =stdin
 ><![CDATA[%s]]>
 >cQ6
 >jtm}S
+?1cb
 ?456789:;<=
 ?7zQ6$
+?8UUUUU
+?8bunz8
+??0CThreadMutex@@QEAA@XZ
 ??0CVirtualMachineCallStackTranslationEncoder@@QEAA@PEBD@Z
 ??1CVirtualMachineCallStackTranslationEncoder@@QEAA@XZ
+?@En[vP
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
 ?DevMsg@@YAXPEBDZZ
 ?EncodeAsNativePointer@CVirtualMachineCallStackTranslationEncoder@@QEAAPEAXPEBD0I@Z
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?JV8f
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
+?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@VColor@@PEBDZZ
 ?N]TUUU
 ?Purge@CBufferString@@QEAAXH@Z
+?R0I?
 ?UUUUUU
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
+?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
-?c:\buildslave\hlvr_rel_win64\build\src\socketlib\socketlib.cpp
+?exp
 ?f`Y4
 ?qBJ
+?rAj
 ?ysB
-A*\fEtobit
+@(\fEtobitDbnotEbswapFlshift
+@6D5\v
+@BXV
+@^8U)zj
 A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+AK>(v
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
+A`1w>
 AnimGraphEditorUtils001
 AnimationSystemUtils_001
 AnimationSystem_001
+AppPolicyGetProcessTerminationMethod
 April
 AreFileApisANSI
 Arg list too long
@@ -245,25 +290,30 @@ BitwiseOr
 BitwiseXor
 Breakpoint type (%s) not supported.
 Broken pipe
-C type
 C++ exception
+C5R?\t
 CDesc
 CGlobalConfigValueRegistry::HookUpConfigValue
+CL:>8
 CMemAllocSystemInitialize
 COLORCORRECTION_VERSION_1
 COMSPEC
 COrderedConstructor_Create<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>,class CResolveOrderedFunc<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>,&void __cdecl _ORDERED_INIT_SHUTDOWN_WRAPPER_RESOLVEFUNC<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>(class COrderedConstructor_DependencyManagement<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)> > &)>,0>::AddRef
 CSchemaRegistration::RegisterAllModuleData
 CSocketConnection::ResetEndpoint
+CTSListBase: Misaligned list\n
+CTSListBase::CTSListBase
 CUtlBuffer::VaPrintf
 CUtlBuffer::VaPrintf: String overflowed buffer [%llu]\n
 CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
 CUtlMemoryPoolBase::CUtlMemoryPoolBase
+CUtlRBTree overflow with %u elements!\n
+CUtlRBTree<void *,int,bool (__cdecl*)(void * const &,void * const &),class CUtlMemory<struct UtlRBTreeNode_t<void *,int>,int> >::NewNode
+CWD>~3
 Cabs
 Can't call %s:%s on an object of type %s
 Cannot recover from failed socket shutdown.
 ClearBit
-ClenDbyteDcharCsubCrepGreverse
 CloseHandle
 CloseSocket
 CommandLine
@@ -280,8 +330,10 @@ CreateFileW
 CreateInterface
 CreateNonBlockingSocket
 CreatePipe
-CreateProcessA
+CreateProcessW
 Cross
+Cy2@K>
+DbyteDcharCsub
 DebugTextureInfo001
 Debugger
 December
@@ -290,34 +342,41 @@ Directory not empty
 Domain error
 DotaCardGameClient_001
 DuplicateHandle
-DynASM 1.3.0
+DynASM 1.5.0
+E>nEA
 EDesc
 ET5>
 EXPORTSYSTEM_INTERFACE_VERSION_001
+E[\rn?gc
+Eatan2
 EconItemToolModel_001
 EncodePointer
 EngineServiceMgr001
 EnterCriticalSection
 Epairs@
 Error: Duplicate command handler registered (%s)!\n
+Eup^
 Eval
 EventSystem001
 Exec format error
 ExitProcess
+F>qUxv
 FATAL ERROR: unable to register all schema data: %s\n
 FDesc
 FEMh\f
+FFFFFFFFFFFFFFFF
 FILE*
 Failed to find %s
 Failed to read %s
 Fassert
 February
+FfW?
 File exists
 File too large
 Filename too long
 FindClose
-FindFirstFileExA
-FindNextFileA
+FindFirstFileExW
+FindNextFileW
 Fipairs
 FlattenedSerializersVersion001
 FlsAlloc
@@ -332,6 +391,7 @@ FreeEnvironmentStringsW
 FreeLibrary
 Friday
 Function not implemented
+G>US
 GAME
 GCTL
 GCUtlString::FormatV
@@ -345,9 +405,8 @@ GetCPInfo
 GetCPUInformation
 GetCommandLineA
 GetCommandLineW
-GetConsoleCP
 GetConsoleMode
-GetCurrentPackageId
+GetConsoleOutputCP
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -355,9 +414,11 @@ GetDefaultMiniDumpTypeFlags
 GetEnvironmentStringsW
 GetExitCodeProcess
 GetFileAttributesExW
+GetFileSizeEx
 GetFileType
 GetLastError
 GetModuleFileNameA
+GetModuleFileNameW
 GetModuleHandleA
 GetModuleHandleExA
 GetModuleHandleExW
@@ -371,22 +432,26 @@ GetStartupInfoW
 GetStdHandle
 GetStringTypeW
 GetSystemTimeAsFileTime
+GetTempPath2W
 GetTempPathW
 GfZ+?p
 Global
 Globals
+GrJoq>@
 H>r1
 HH:mm:ss
 HammerMapLoader001
 HelpSystem_001
 HostStateMgr001
+I;u>A
 IND)ind)
+IND)ind)S
 INITY
 IQuickTime001
+Il?333333c?
 Illegal byte sequence
 Improper link
 Inappropriate I/O control operation
-InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
@@ -412,7 +477,7 @@ IsNull
 IsNull called without an object - did you call obj.IsNull() instead of obj:IsNull()?
 IsProcessorFeaturePresent
 IsValidCodePage
-JIT compiler disabled, CPU does not support SSE2
+JIT compiler disabled
 January
 July
 June
@@ -421,6 +486,7 @@ KERNEL32.dll
 KeyValueCache001
 KeyValuesSystem
 L>ev
+L?UUUUUUU?
 LCMapStringEx
 LCMapStringW
 LOADLIB: %s
@@ -430,6 +496,8 @@ LUA Memory usage: The VM has a usage of %s bytes.\n
 LUA_CPATH
 LUA_NOENV
 LUA_PATH
+LWG>
+LWW>
 LeaveCriticalSection
 Left
 Length
@@ -438,7 +506,7 @@ Lerp
 LoadAndCompileScriptFile: Failed to compile script file "%s"\n
 LoadAndCompileScriptFile: No filesystem found\n
 LoadAndCompileScriptFile: Script file "%s" type does not match VM type\n
-LoadLibraryA
+LoadLibraryExA
 LoadLibraryExW
 Local
 LocaleNameToLCID
@@ -458,6 +526,7 @@ LuaDBGp: Trying to connect to %s:%d\n
 LuaDBGp: Unknown command received from the IDE - "%s"
 LuaDbg - Debugging started\n
 LuaDbg - Debugging stopped\n
+M'y>0y
 MATCHFRAMEWORK_001
 MM/dd/yy
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
@@ -474,10 +543,12 @@ Missing breakpoint with given ID %s.
 ModelDocUtils001
 Monday
 MultiByteToWideChar
+N3`d?
+N>O=I9
+N>VF
 NAN(IND)
 NAN(SNAN)
-NYI: cannot call this C function (yet)
-NYI: packed bit fields
+NQ?s
 NavSystem001
 NetworkClientService_001
 NetworkMessagesVersion001
@@ -487,7 +558,6 @@ NetworkService_001
 NetworkSystemUtilsVersion001
 NetworkSystemVersion001
 No child processes
-No conversion from %s to float now\n
 No conversion from %s to int now\n
 No conversion from %s to string at the moment!\n
 No conversion from %s to uint now\n
@@ -504,13 +574,13 @@ Normalized
 Not a directory
 Not enough space
 November
-NtAllocateVirtualMemory
 OZQ%
 October
 Operation not permitted
 Ordered constructor wrapped type has no default constructor.\n\tYou must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.\n
 PANIC: unprotected error in call to Lua API (
 PATH
+PRNG state must be an array with up to 8 integers or an integer
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
@@ -532,12 +602,27 @@ PostProcessingSystem_001
 Print a message
 Print a warning
 PropertyEditorSystem_001
+Q5rHg,>
+QAf?
 QAngle
+QQQQQQQQQQGQQQQQYYYYQQQQREQQQQQQRRRRRRRR
+QQQQQQQQQQQQQQQQQQ
+QQQQRRRRRRRRRRRRRRRR
+QQRRR
+QQcfQQQQQQ
 Quaternion
 QueryPerformanceCounter
 QueuedLoaderVersion001
+REQ 
+REQQ
+RRQQ
+RRRRRRQRQ
+RRRRRRRR
+RRRRRRRR4Q5QQQQQ
+RRRRRRRREEGRQQQQ
 RSDS
-R\vplp
+R\fp4d
+R\vp4d
 RaiseException
 RandomFloat
 RandomInt
@@ -565,11 +650,16 @@ Result too large
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlPcToFileHeader
+RtlRestoreContext
+RtlUnwind
 RtlUnwindEx
 RtlVirtualUnwind
 S9>H
+S>$hkDh$h>[2
 SNAN)
+SQpq
 SSE and SSE2 are required.
+SSSSSSSS
 Saturday
 SceneSystem_002
 SceneUtils_001
@@ -585,7 +675,7 @@ SerializedEntitiesVersion001
 ServerUploadGameStats001
 SetBit
 SetEndOfFile
-SetEnvironmentVariableA
+SetEnvironmentVariableW
 SetEvent
 SetFilePointerEx
 SetLastError
@@ -613,8 +703,11 @@ Source2ServerSerializers002
 StatsService_001
 SteamAudio001
 Sunday
+SystemFunction036
+TQSQQRQQ
 TUUU
 TUUUU
+TXnr
 TerminateProcess
 TestScriptMgr001
 TextLayout_001
@@ -638,10 +731,12 @@ ToolScriptManager001
 ToolService_001
 Trying to set a breakpoint with missing file/line. Ensure the file is part of the Eclipse project (refresh project is necessary) and reopen the file in Eclipse.
 Tuesday
+UA>N0Wl
 UInt64
 UPDATE_STRING_TOKEN_DATABASE
 UTF-16LEUNICODE
 UTF-8
+UUUU
 UUUUU
 UUUUUU
 Unable to create environment
@@ -714,15 +809,16 @@ WARNING: Lua unable to create VM\n
 WARNING: Lua unmap unable to decommit all pages\n
 WARNING: Lua unmap unable to find %llu pages\n
 WS2_32.dll
+WaNd?
 WaitForSingleObject
 WaitForSingleObjectEx
 Waiting for debugger connection...\n
+Wak>E
 WakeAllConditionVariable
 Warning
 Warning:  %s = '%s' is infinite, clamping value.\n
 Wednesday
 WideCharToMultiByte
-Windows
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
@@ -730,104 +826,210 @@ WriteConsoleW
 WriteFile
 X/4B
 Xbox VDP is not supported on this platform.
+Y8a:
+Y>kX>M
+ZSq>
+Z\>z8
+[*ncd>0
 [*ncd>TQ
 [aOni*{
+[builtin:
 [none]
 [string "
-\f2K2K
-\fplp
 \n\t[builtin#%d]:
 \n\tno field package.preload['%s']
 \n\tno file '%s'
 \n\tno module '%s' in file '%s'
+\nh?oT
+\nk>oB
 \nrandomseed
+\t2K2K
+\tJR>8o
 \tcQr
+\tisrunning
 \tkE>fvw
+\vA03>A|
 \var\srcds\shared\dota
 \vgetregistry\fgetmetatable\fsetmetatable
-\vplp
+\vp4d
 ^<V7w
+^RfN>
 ^axb
-_Bool
-_Complex
 _LOADED
 _LOADLIB
 _NAME
 _PACKAGE
 _PRELOAD
+_RDATA
 _VERSION
 _VMEVENTS
 _V_strncmp
 _V_strncpy
 _V_strnicmp_fast
 __add
-__alignof
-__alignof__
-__asm
-__attribute
-__attribute__
-__attribute__((vector_size(
 __based(
-__builtin_va_list
 __call
 __cdecl
 __clrcall
-__complex
-__complex__
-__concat
-__const
-__const__
-__declspec
 __div
 __eabi
-__extension__
 __fastcall
 __gc\n__tostring
-__gnuc_va_list
 __index
-__index\n__newindex
-__index__newindex__gc__mode__eq__len__lt__le__concat__call__add__sub__mul__div__mod__pow__unm__metatable__tostring__new__pairs__ipairs
-__inline
-__inline__
-__int16
-__int32
-__int64
-__int8
-__ipairs
+__index__newindex__gc__mode__eq__len__lt__le__concat__call__add__sub__mul__div__mod__pow__unm__metatable__tostring__new
 __len
 __metatable
-__mod
 __mode
 __mul
 __newindex
-__pairs
 __pascal
-__pow
-__ptr32
 __ptr64
 __restrict
-__restrict__
 __self
-__signed
-__signed__
 __sourceid
 __stdcall
 __sub
+__swift_1
+__swift_2
+__swprintf_l
 __thiscall
 __tostring
 __unaligned
 __unm
-__unm\n__tostring
 __userdata_metatable
 __vectorcall
-__volatile
-__volatile__
+__vswprintf_l
 _cabs
+_fprintf_l
+_fprintf_p
+_fprintf_p_l
+_fprintf_s_l
+_fscanf_l
+_fscanf_s_l
+_fwprintf_l
+_fwprintf_p
+_fwprintf_p_l
+_fwprintf_s_l
+_fwscanf_l
+_fwscanf_s_l
 _hypot
 _logb
 _nextafter
-_zsu
+_oD>Kg
+_printf_l
+_printf_p
+_printf_p_l
+_printf_s_l
+_scanf_l
+_scanf_s_l
+_scprintf
+_scprintf_l
+_scprintf_p
+_scprintf_p_l
+_scwprintf
+_scwprintf_l
+_scwprintf_p
+_scwprintf_p_l
+_snprintf
+_snprintf_c
+_snprintf_c_l
+_snprintf_l
+_snprintf_s
+_snprintf_s_l
+_snscanf
+_snscanf_l
+_snscanf_s
+_snscanf_s_l
+_snwprintf
+_snwprintf_l
+_snwprintf_s
+_snwprintf_s_l
+_snwscanf
+_snwscanf_l
+_snwscanf_s
+_snwscanf_s_l
+_sprintf_l
+_sprintf_p
+_sprintf_p_l
+_sprintf_s_l
+_sscanf_l
+_sscanf_s_l
+_swprintf
+_swprintf_c
+_swprintf_c_l
+_swprintf_l
+_swprintf_p
+_swprintf_p_l
+_swprintf_s_l
+_swscanf_l
+_swscanf_s_l
+_vfprintf_l
+_vfprintf_p
+_vfprintf_p_l
+_vfprintf_s_l
+_vfscanf_l
+_vfscanf_s_l
+_vfwprintf_l
+_vfwprintf_p
+_vfwprintf_p_l
+_vfwprintf_s_l
+_vfwscanf_l
+_vfwscanf_s_l
+_vprintf_l
+_vprintf_p
+_vprintf_p_l
+_vprintf_s_l
+_vscanf_l
+_vscanf_s_l
+_vscprintf
+_vscprintf_l
+_vscprintf_p
+_vscprintf_p_l
+_vscwprintf
+_vscwprintf_l
+_vscwprintf_p
+_vscwprintf_p_l
+_vsnprintf
+_vsnprintf_c
+_vsnprintf_c_l
+_vsnprintf_l
+_vsnprintf_s
+_vsnprintf_s_l
+_vsnwprintf
+_vsnwprintf_l
+_vsnwprintf_s
+_vsnwprintf_s_l
+_vsnwscanf_l
+_vsnwscanf_s_l
+_vsprintf_l
+_vsprintf_p
+_vsprintf_p_l
+_vsprintf_s_l
+_vsscanf_l
+_vsscanf_s_l
+_vswprintf
+_vswprintf_c
+_vswprintf_c_l
+_vswprintf_l
+_vswprintf_p
+_vswprintf_p_l
+_vswprintf_s_l
+_vswscanf_l
+_vswscanf_s_l
+_vwprintf_l
+_vwprintf_p
+_vwprintf_p_l
+_vwprintf_s_l
+_vwscanf_l
+_vwscanf_s_l
+_wprintf_l
+_wprintf_p
+_wprintf_p_l
+_wprintf_s_l
+_wscanf_l
+_wscanf_s_l
 `RTTI
+`anonymous namespace'
 `copy constructor closure'
 `default constructor closure'
 `dynamic atexit destructor for '
@@ -862,14 +1064,18 @@ _zsu
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
+a6>r
 abcdefghijklmnopqrstuvwxyz
 abort
 acos
 activelines
-alignof
+address family not supported
+address in use
+address not available
+advapi32.dll
+already connected
 ambiguous syntax (function call x new statement)
 appid
-arch
 arshift
 asin
 assertion failed!
@@ -879,27 +1085,20 @@ attempt to %s %s '%s' (a %s value)
 attempt to %s a %s value
 attempt to call a %s value
 attempt to compare %s with %s
-attempt to compare '%s' with '%s'
 attempt to compare two %s values
-attempt to concatenate '%s' and '%s'
-attempt to get length of '%s'
 attempt to load chunk with wrong mode
-attempt to perform arithmetic on '%s' and '%s'
-attempt to redefine '%s'
 attempt to use a closed file
-attempt to write to constant location
 attempt to yield across C-call boundary
-auto
+b\rp\fP
 bad FPU precision (use D3DCREATE_FPU_PRESERVE with DirectX)
 bad action while in __gc metamethod
-bad allocation
 bad argument #%d to '%s' (%s)
-bad callback
+bad array new length
 bad exception
 bad light userdata pointer
-bad storage class
+bad message
+bad options table
 base out of range
-bnot
 bool
 boolean
 boolean or proxy expected
@@ -909,12 +1108,15 @@ breakpoint_get
 breakpoint_remove
 breakpoint_set
 breakpoint_update
-bswapFlshift
+buffer
 bxor
 bytecode instructions
 c:\buildslave\hlvr_rel_win64\build\src\interfaces\interfaces.cpp
 c:\buildslave\hlvr_rel_win64\build\src\mathlib\mathlib.cpp
 c:\buildslave\hlvr_rel_win64\build\src\public\ordered_constructor.h
+c:\buildslave\hlvr_rel_win64\build\src\public\tier0\tslist.h
+c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlrbtree.h
+c:\buildslave\hlvr_rel_win64\build\src\socketlib\socketlib.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\configvalue.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\mempool.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\utlbuffer.cpp
@@ -922,27 +1124,26 @@ c:\buildslave\hlvr_rel_win64\build\src\tier1\utlstring.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier2\schemabindings.cpp
 c:\buildslave\hlvr_rel_win64\build\src\vscript\Retail\win64\vscript.pdb
 c:\buildslave\hlvr_rel_win64\build\src\vscript\languages\lua\vlua\vlua.cpp
+c>F2
+c?FA@s}
 call
 calling '%s' on bad self (%s)
 cannot change a protected metatable
 cannot close standard file
-cannot convert '%s' to '%s'
+cannot deserialize dictionary index %d
+cannot deserialize tag 0x%02x
 cannot load incompatible bytecode
 cannot load malformed bytecode
-cannot load module '%s': %s
 cannot open %s: %s
+cannot put buffer into itself
 cannot read %s: %s
-cannot resolve symbol '%s': %s
 cannot resume dead coroutine
 cannot resume non-suspended coroutine
 cannot resume running coroutine
+cannot serialize '%s'
 cannot use '...' outside a vararg function
-cast
 ccode:/
 cdata
-cdata<%s>: %d
-cdata<%s>: %p
-cdef
 ceil
 ceilDsqrt
 char
@@ -952,6 +1153,8 @@ children
 chunk has more than %d local variables
 chunk has too many lines
 chunk has too many syntax levels
+clear
+clone
 close
 closed file
 cmd.exe
@@ -960,18 +1163,19 @@ collect
 collectgarbage
 color
 command
-complex
 concat
 concatenate
 config
-const
+connection aborted
+connection already in progress
+connection refused
+connection reset
 constants
 cont\n
 context
 context_get
 context_names
 control structure too long
-copy
 coroutine
 coroutine expected
 coroutine_list
@@ -980,21 +1184,24 @@ count
 cpath
 createEyieldFresume
 cstring
-ctype
-ctype<%s>
 currentline
 d8L2
+d?000000`?
+dRL>
 dddd, MMMM dd, yyyy
 dead
 debug
 debug\ttraceback
-declaration specifier expected
+decode
 desc
+destination address required
+dict
 disabled
 dofile
 double
 dump
 duplicate label '%s'
+duplicate table key
 e+000
 eF>t
 eLK(w
@@ -1002,16 +1209,17 @@ ehandle
 else
 elseif
 enabled
+encode
 encoding
-enum
-errno
 error
 error in error handling
 error loading module '%s' from file '%s':\n\t%s
 errorEpcall
 eval
-extern
 external hook
+fD>b
+fGa>
+fWi?
 fabs
 false
 feature
@@ -1026,7 +1234,6 @@ file (closed)
 file:///e:/work/valve/source2/main/game/core/scripts/vscripts/animationsystem/animationsysteminit.lua
 filename
 fileuri
-fill
 find
 flnSu
 float
@@ -1035,12 +1242,16 @@ floor
 flush
 fmod
 fmodEldexpCmin
-foreachDgetn
+foreach
 foreachi
 format
+fprintf
+fprintf_s
 frU%D4fr
 free
 frexp
+fscanf
+fscanf_s
 full
 fullname
 func
@@ -1050,86 +1261,84 @@ function at line %d has more than %d %s
 function or expression too complex
 function or level expected
 function too long for return fixup
-function: builtin#%d
+fwprintf
+fwprintf_s
+fwscanf
+fwscanf_s
 g_Tier1_CRC64Table
 g_pMemAlloc
 gcinfo
-gdi32.dll
 get length of
 getfenv
 gethook
 getinfo
 getlocal
 getmetatableLsetmetatable
+getn
 gfind
 global
 gmatch
 goto
 gsub
 h0'D
+h5uv
+h>1my
 handle
 handle_lightbinding
 hit_condition
 hit_count
 hit_value
+host unreachable
 hscript
 hscript_lightbinding
 huge
 i>VF
 idekey
+identifier removed
 index
 index out of range
 init
 inity
-inline
 input
 insert
 int16
-int16_t
-int32_t
 int64
-int64_t
-int8_t
 integer
-intptr_t
-invalid C type
 invalid capture index
 invalid escape sequence
 invalid format
-invalid format (repeated flags)
-invalid format (width or precision too long)
 invalid key to 'next'
 invalid level
 invalid long string delimiter
 invalid option
-invalid option '%%%c' to 'format'
 invalid option '%s'
+invalid option '%s' to 'format'
 invalid order function for sorting
 invalid pattern capture
 invalid replacement value (a %s)
-invalid string position
 invalid value
 invalid value (%s) at index %d in table for 'concat'
 invalid_parameter
-istype
+isarray
+isempty
 isvararg
+jeTb
 js_array
 js_object
 js_raw_args
 js_value
 k=yI
-kernel32.dll
+k>4\tF
 language
 lastlinedefined
 ldexp
+left-over data in buffer
 level
 level out of range
-lexical element too long
 line
 linedefined
 lineno
 lines
-load
 load\nloadstring
 loaded
 loaders
@@ -1139,8 +1348,6 @@ loadlib
 local
 local variables
 log10
-long
-long double
 loop in gettable
 loop in settable
 loop or previous error loading module '%s'
@@ -1150,7 +1357,9 @@ lua_assert_on_error
 lua_debug> 
 lua_report_memory
 luaopen_%s
+m?H7
 mG4>
+mO-B
 m\nXo
 main
 main function has more than %d %s
@@ -1164,81 +1373,116 @@ max_data
 max_depth
 maxn
 message
+message size
 metamethod
-metatype
+metatable
 method
 missing '[' after '%f' in pattern
-missing declaration for symbol '%s'
 modf
+modfClog
 module
 module '%s' not found:%s
+move
 n03>Pu
+n]?iJ
 name
 name conflict for module '%s'
 namewhat
 nan(ind)
 nan(snan)
+network down
+network reset
+network unreachable
 newproxy
 next
 nil or table expected
+nkeys
+no buffer space
 no calling environment
+no link
 no loop to break
+no message
+no message available
+no protocol option
+no stream resources
 no value
 none
 normal
+not a socket
+not a stream
+not connected
 not enough memory
+not supported
 nparams
-ntdll.dll
 number
+number out of range
 numchildren
 nups
+o*do^
+o?GS
+oI>O7
 obwQ4
-offsetof
-oh\rD
 on\f3
 open
+operation canceled
+operation in progress
+operation not supported
+operation would block
 operator
 operator "" 
+operator co_await
+operator<=>
 output
 owM&
-p\r`\f0lp
+owner dead
+p>.G1
+p>Y3
+p\r`\f04d
 package
 page
 pagesize
 pairs
 parent
 path
+path too long
 pattern too complex
 perform arithmetic on
 popen
 preload
 print
+printf
+printf_s
 printstack
 property
 property_get
 property_set
 proto
+protocol error
+protocol not supported
 protocol_version
-ptrdiff_t
 purecall
+putf
+q>F,3
+qS>g?h3
 qangle
 quaternion
+rNm>)
 r\tVr.>T
-radClogEatan2
+r\vp4d
 random
 rawequal
 rawset
 read
 reader function must return a string
 reason
-register
 remove
+repGreverse
 repeat
 require
+reset
 resourcehandle
 response
 restart
-restrict
 restrict(
 return
 return %s
@@ -1246,14 +1490,19 @@ returnType
 rorDband
 rshift
 running
+running\visyieldable
 runtime code generation failed, restricted kernel?
+sAasin
+sHF'
+scanf
+scanf_s
 schemasystem
 scripts\vscripts
 scripts\vscripts\%s
 searchpath
 seeall
 seek
-selectHtonumber
+selectHtonumberHtostring
 self
 session
 setfenv
@@ -1262,18 +1511,19 @@ sethook
 setlocal\ngetupvalue\nsetupvalue\tupvalueid\vupvaluejoin
 setpause\nsetstepmul
 setvbuf
-short
 short_src
-signed
 sinh
 size
-size of C type is unknown or too large
-size_t
-sizeof
+skip
 snan)
+snprintf
 sort
 source
+sprintf
+sprintf_s
 sqrt
+sscanf
+sscanf_s
 stack
 stack overflow
 stack overflow (%s)
@@ -1283,7 +1533,7 @@ standard file is closed
 start
 starting
 state
-static
+state not recoverable
 status
 stderr
 stdin
@@ -1297,105 +1547,140 @@ stop
 stopped
 stopping
 stream
+stream timeout
 string
 string length overflow
 string slice too long
 string too long
+string.buffer
 string/function/table expected
+string/number/__tostring
 string_t
-struct
 success
 supported
 suspended
+swprintf
+swprintf_s
+swscanf
+swscanf_s
 syntax error
 system error %d\n
 table
 table index is NaN
 table index is nil
 table overflow
+table.clear
+table.clone
+table.isarray
+table.isempty
+table.new
+table.nkeys
 tail return
 tanh
+text file busy
 then
 thread
 tier0.dll
+timed out
 tmpfile
 tohex
+too deep to serialize
 too many arguments
-too many callbacks
 too many captures
-too many initializers for '%s'
 too many nested functions
 too many results to unpack
+too many symbolic link levels
+too many upvalues
 tostring
 trace
 traceback
 transaction_id
 true
-trueHtostring
 type
-type parameter
 typeDnext
-typedef
-typeof
 uint16
-uint16_t
-uint32_t
 uint64
-uint64_t
 uint8
-uint8_t
-uintptr_t
 unable to dump given function
 unable to generate a unique filename
 unable to get ModuleFileName
 unbalanced pattern
-undeclared or implicit tag '%s'
 undefined label '%s'
+unexpected end of buffer
 unexpected symbol
 unfinished capture
 unfinished long comment
 unfinished long string
 unfinished string
-union
 unknown
+unknown exception
 unknown or malformed optimization flag '%s'
 unknown_variant_type
 unpack
 unsigned
-unsigned char
 until
 upper
 upval
 upvalue
 upvalues
 urn:debugger_protocol_v1
-user32.dll
 userdata
 userdata length overflow
 utlstringtoken
 uzKs@>
 v2!L.2
-va_list
 value expected
+value too large
 variable names
 variant
 vector
 vector2d
 vector4d
+vfprintf
+vfprintf_s
+vfscanf
+vfscanf_s
+vfwprintf
+vfwprintf_s
+vfwscanf
+vfwscanf_s
 void
-volatile
+vprintf
+vprintf_s
+vscanf
+vscanf_s
 vscript
 vscript.dll
+vsnprintf
+vsnprintf_s
+vsprintf
+vsprintf_s
+vsscanf
+vsscanf_s
 vstdlib.dll
+vswprintf
+vswprintf_s
+vswscanf
+vswscanf_s
+vwprintf
+vwprintf_s
+vwscanf
+vwscanf_s
 w8#5
-wchar_t
+wHbr^
+wNcvn
 what
 while
+wprintf
+wprintf_s
 wrap
 write
-wrong number of arguments for function call
 wrong number of arguments to 'insert'
-wrong number of type parameters
+wrong protocol type
+wscanf
+wscanf_s
+xT?V
 xmlns
 xpcall
-xpxxxx
+yE>cb
+z>h4

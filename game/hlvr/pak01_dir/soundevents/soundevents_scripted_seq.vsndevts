@@ -1,9 +1,10 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	ScriptedSeq.Static_Base = 
 	{
 		type = "hlvr_default_3d"
-		static_position = 1.000000
-		use_hrtf = 1.000000
+		static_position = 1.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 	}
 	ScriptedSeq.Intro_Heli = 
@@ -11,17 +12,17 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ScriptedSeq.Intro_Heli_Core"
 		soundevent_02 = "ScriptedSeq.Intro_Heli_Layer"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ScriptedSeq.Intro_Heli_Core = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.800000
-		volume_falloff_min = 2000.000000
-		volume_falloff_max = 9000.000000
-		occlusion_scale = 0.000000
-		use_hrtf = 1.000000
+		volume = 1.8
+		volume_falloff_min = 2000.0
+		volume_falloff_max = 9000.0
+		occlusion_scale = 0.0
+		use_hrtf = 1.0
 		mixgroup = "CombineMachines"
 		should_pause = true
 		attachment = "cargo"
@@ -33,11 +34,11 @@
 	ScriptedSeq.Intro_Heli_Layer = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.600000
-		volume_falloff_min = 2000.000000
-		volume_falloff_max = 9000.000000
-		occlusion_scale = 0.000000
-		use_hrtf = 1.000000
+		volume = 1.6
+		volume_falloff_min = 2000.0
+		volume_falloff_max = 9000.0
+		occlusion_scale = 0.0
+		use_hrtf = 1.0
 		mixgroup = "CombineMachines"
 		should_pause = true
 		attachment = "cargo"
@@ -49,10 +50,10 @@
 	ScriptedSeq.Bicycle_Bell = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		volume_falloff_max = 800.000000
-		occlusion_scale = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.6
+		volume_falloff_max = 800.0
+		occlusion_scale = 0.7
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -64,8 +65,8 @@
 	ScriptedSeq.Olga_Window_Knock = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -79,17 +80,17 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ScriptedSeq.A1_CombineTruck_Passby_Slow_Engine"
 		soundevent_02 = "ScriptedSeq.A1_CombineTruck_Passby_Slow_Detail"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ScriptedSeq.A1_CombineTruck_Passby_Slow_Engine = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.800000
-		use_hrtf = 1.000000
-		hrtf_mix = 0.700000
-		occlusion_scale = 0.300000
-		volume_falloff_min = 400.000000
+		volume = 1.8
+		use_hrtf = 1.0
+		hrtf_mix = 0.7
+		occlusion_scale = 0.3
+		volume_falloff_min = 400.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -99,10 +100,10 @@
 	ScriptedSeq.A1_CombineTruck_Passby_Slow_Detail = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.600000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.300000
-		volume_falloff_min = 400.000000
+		volume = 1.6
+		use_hrtf = 1.0
+		occlusion_scale = 0.3
+		volume_falloff_min = 400.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -112,10 +113,10 @@
 	ScriptedSeq.A1_CombineTruck_Roundup_Door_Start = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.500000
-		volume_falloff_min = 300.000000
+		volume = 1.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.5
+		volume_falloff_min = 300.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -125,10 +126,10 @@
 	ScriptedSeq.A1_CombineTruck_Roundup_Door_Stop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.500000
-		volume_falloff_min = 300.000000
+		volume = 1.2
+		use_hrtf = 1.0
+		occlusion_scale = 0.5
+		volume_falloff_min = 300.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -138,10 +139,10 @@
 	ScriptedSeq.A1_CombineTruck_Roundup_Engine = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.800000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.500000
-		volume_falloff_min = 500.000000
+		volume = 1.8
+		use_hrtf = 1.0
+		occlusion_scale = 0.5
+		volume_falloff_min = 500.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -151,10 +152,10 @@
 	ScriptedSeq.A1_CombineTruck_Postcrash_Arrival = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.250000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.500000
-		volume_falloff_min = 400.000000
+		volume = 1.25
+		use_hrtf = 1.0
+		occlusion_scale = 0.5
+		volume_falloff_min = 400.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -164,11 +165,11 @@
 	ScriptedSeq.A1_Citizen_Door_Slam = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.500000
-		delay = 0.100000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.100000
-		volume_falloff_max = 1000.000000
+		volume = 1.5
+		delay = 0.1
+		use_hrtf = 1.0
+		occlusion_scale = 0.1
+		volume_falloff_max = 1000.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -178,9 +179,9 @@
 	ScriptedSeq.A1_Citizen_Door_Slam_Walkaway = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
-		volume_falloff_max = 1000.000000
+		volume = 0.7
+		use_hrtf = 1.0
+		volume_falloff_max = 1000.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -190,10 +191,10 @@
 	ScriptedSeq.Kidnap_Foley_Eli_Step_Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.450000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 600.000000
+		volume = 0.45
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 600.0
 		mixgroup = "ScriptedSequence"
 	}
 	ScriptedSeq.Kidnap_Foley_Eli_Step_A = 
@@ -279,7 +280,7 @@
 	ScriptedSeq.A1_Kidnap_Alyx_Stunned = 
 	{
 		type = "src1_2d"
-		volume = 0.900000
+		volume = 0.9
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -289,8 +290,8 @@
 	ScriptedSeq.A1_Kidnap_Eli_Push = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -300,8 +301,8 @@
 	ScriptedSeq.A1_Kidnap_Eli_Push_Hit_Door = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -311,8 +312,8 @@
 	ScriptedSeq.A1_Kidnap_Eli_Push_Fall = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -322,8 +323,8 @@
 	ScriptedSeq.A1_Kidnap_Eli_Push_Fall_Layer = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -335,14 +336,14 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ScriptedSeq.A1_Kidnap_Eli_Stunned_Core"
 		soundevent_02 = "ScriptedSeq.A1_Kidnap_Eli_Stunned_Layer"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ScriptedSeq.A1_Kidnap_Eli_Stunned_Core = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		use_hrtf = 1.000000
+		volume = 1.4
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence_Loud"
 		vsnd_files = 
 		[
@@ -352,8 +353,8 @@
 	ScriptedSeq.A1_Kidnap_Eli_Stunned_Layer = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		use_hrtf = 1.000000
+		volume = 1.4
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence_Loud"
 		vsnd_files = 
 		[
@@ -363,8 +364,8 @@
 	ScriptedSeq.A1_Kidnap_Eli_Stunned_Fall = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -374,8 +375,8 @@
 	ScriptedSeq.A1_Kidnap_Eli_Stunned_Fall_Layer = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -385,10 +386,10 @@
 	ScriptedSeq.A1_Kidnap_Eli_Foley_Rise = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 500.000000
+		volume = 0.5
+		use_hrtf = 1.0
+		volume_falloff_min = 100.0
+		volume_falloff_max = 500.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -398,10 +399,10 @@
 	ScriptedSeq.A1_Kidnap_Eli_Foley_Bend = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 500.000000
+		volume = 0.7
+		use_hrtf = 1.0
+		volume_falloff_min = 100.0
+		volume_falloff_max = 500.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -411,10 +412,10 @@
 	ScriptedSeq.A1_Kidnap_Drag_Body = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 300.000000
+		volume = 0.6
+		use_hrtf = 1.0
+		volume_falloff_min = 100.0
+		volume_falloff_max = 300.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -424,8 +425,8 @@
 	ScriptedSeq.A1_Kidnap_Soldier_L_Gun_Lower = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.9
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -435,8 +436,8 @@
 	ScriptedSeq.A1_Kidnap_Soldier_L_Gun_A = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -446,8 +447,8 @@
 	ScriptedSeq.A1_Kidnap_Soldier_L_Gun_B = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -457,8 +458,8 @@
 	ScriptedSeq.A1_Kidnap_Soldier_R_Gun = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -468,8 +469,8 @@
 	ScriptedSeq.A1_Kidnap_Stunner_Activate_Alyx = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -479,9 +480,9 @@
 	ScriptedSeq.A1_Kidnap_Stunner_Activate_Eli = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		delay = 0.200000
-		use_hrtf = 1.000000
+		volume = 1.0
+		delay = 0.2
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -491,8 +492,8 @@
 	ScriptedSeq.A1_Kidnap_Citizen_Push = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -502,8 +503,8 @@
 	ScriptedSeq.A1_Kidnap_Citizen_Fall = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -513,8 +514,8 @@
 	ScriptedSeq.A1_Kidnap_Soldier_Elevator_Hold = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.9
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -524,8 +525,8 @@
 	ScriptedSeq.A1_Kidnap_Soldier_Gungrab_Flinch = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.9
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -536,8 +537,8 @@
 	ScriptedSeq.A1_Kidnap_Soldier_Push_Alyx = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.9
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -549,29 +550,29 @@
 	ScriptedSeq.A1_Kidnap_Shoot_Button_Fire = 
 	{
 		type = "hlvr_gun_layers_3d"
-		volume = 0.900000
-		limiter_on = 1.000000
+		volume = 0.9
+		limiter_on = 1.0
 		limiter_event_name = "CombineAR.Fire"
-		limiter_max = 6.000000
-		limiter_match_entity = 1.000000
+		limiter_max = 6.0
+		limiter_match_entity = 1.0
 		limiter_stop_oldest = true
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.030000
-		direct_mix_level = 1.000000
-		volume_falloff_mid_min = 200.000000
-		volume_falloff_mid_max = 1200.000000
-		volume_mid = 1.000000
-		volume_falloff_mech_min = 800.000000
-		volume_falloff_mech_max = 1500.000000
-		volume_mech = 0.700000
-		volume_falloff_lfe_min = 70.000000
-		volume_falloff_lfe_max = 800.000000
-		volume_lfe = 1.000000
-		volume_falloff_distant_min = 1800.000000
-		volume_falloff_distant_max = 4000.000000
-		volume_distant = 1.000000
-		distant_xfade_start = 20.000000
-		distant_xfade_end = 1800.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.03
+		direct_mix_level = 1.0
+		volume_falloff_mid_min = 200.0
+		volume_falloff_mid_max = 1200.0
+		volume_mid = 1.0
+		volume_falloff_mech_min = 800.0
+		volume_falloff_mech_max = 1500.0
+		volume_mech = 0.7
+		volume_falloff_lfe_min = 70.0
+		volume_falloff_lfe_max = 800.0
+		volume_lfe = 1.0
+		volume_falloff_distant_min = 1800.0
+		volume_falloff_distant_max = 4000.0
+		volume_distant = 1.0
+		distant_xfade_start = 20.0
+		distant_xfade_end = 1800.0
 		mixgroup = "NPC_WeaponFire"
 		vsnd_files_mid = 
 		[
@@ -605,8 +606,8 @@
 	ScriptedSeq.A1_Kidnap_Shoot_Button_Impact = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -617,9 +618,9 @@
 	ScriptedSeq.A1_Couple_Fridge_Creak = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
-		volume_falloff_max = 600.000000
+		volume = 0.5
+		use_hrtf = 1.0
+		volume_falloff_max = 600.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -629,9 +630,9 @@
 	ScriptedSeq.A1_Couple_Fridge_Close = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
-		volume_falloff_max = 800.000000
+		volume = 0.7
+		use_hrtf = 1.0
+		volume_falloff_max = 800.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -641,9 +642,9 @@
 	ScriptedSeq.A1_Couple_Blinds_Close = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
-		volume_falloff_max = 400.000000
+		volume = 0.7
+		use_hrtf = 1.0
+		volume_falloff_max = 400.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -653,9 +654,9 @@
 	ScriptedSeq.A1_Couple_Blinds_End = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		use_hrtf = 1.000000
-		volume_falloff_max = 400.000000
+		volume = 0.3
+		use_hrtf = 1.0
+		volume_falloff_max = 400.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -665,7 +666,7 @@
 	ScriptedSeq.Drone_Hit_Carousel = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -675,10 +676,10 @@
 	ScriptedSeq.Drone_Hit_Gate = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.850000
-		use_hrtf = 1.000000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 700.000000
+		volume = 0.85
+		use_hrtf = 1.0
+		volume_falloff_min = 400.0
+		volume_falloff_max = 700.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -688,8 +689,8 @@
 	ScriptedSeq.Drone_Laser_Cutter = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -699,8 +700,8 @@
 	ScriptedSeq.Drone_Ladder_Release = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.5
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -710,8 +711,8 @@
 	ScriptedSeq.Drone_Ladder_End = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -721,7 +722,7 @@
 	ScriptedSeq.Drone_Strider_Impact = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -731,7 +732,7 @@
 	ScriptedSeq.Drone_Tailspin = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -741,7 +742,7 @@
 	ScriptedSeq.Drone_Explode = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -751,10 +752,10 @@
 	ScriptedSeq.DeathOfDrone = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		volume_falloff_min = 2000.000000
-		volume_falloff_max = 5000.000000
-		ambient_ducking_pct = 1.000000
+		volume = 0.8
+		volume_falloff_min = 2000.0
+		volume_falloff_max = 5000.0
+		ambient_ducking_pct = 1.0
 		use_named_send = "loud"
 		mixgroup = "LoudEvents"
 		vsnd_files = 
@@ -765,10 +766,10 @@
 	ScriptedSeq.DroneLaser = 
 	{
 		type = "hlvr_default_3d"
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 1200.000000
-		volume_fade_out = 0.500000
-		ambient_ducking_pct = 1.000000
+		volume_falloff_min = 100.0
+		volume_falloff_max = 1200.0
+		volume_fade_out = 0.5
+		ambient_ducking_pct = 1.0
 		use_named_send = "main"
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
@@ -779,10 +780,10 @@
 	ScriptedSeq.DroneLaserLp = 
 	{
 		type = "hlvr_default_3d"
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 1200.000000
-		volume_fade_out = 0.500000
-		ambient_ducking_pct = 1.000000
+		volume_falloff_min = 100.0
+		volume_falloff_max = 1200.0
+		volume_fade_out = 0.5
+		ambient_ducking_pct = 1.0
 		use_named_send = "main"
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
@@ -793,9 +794,9 @@
 	ScriptedSeq.DroneLaserLockBreak = 
 	{
 		type = "hlvr_default_3d"
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 1200.000000
-		ambient_ducking_pct = 1.000000
+		volume_falloff_min = 100.0
+		volume_falloff_max = 1200.0
+		ambient_ducking_pct = 1.0
 		use_named_send = "main"
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
@@ -806,10 +807,10 @@
 	ScriptedSeq.Russel_SecretDoor_Start = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
+		volume = 0.75
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -819,10 +820,10 @@
 	ScriptedSeq.Russel_SecretDoor_Stop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 600.000000
+		volume = 0.75
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 600.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -832,8 +833,8 @@
 	ScriptedSeq.Russel_Cage_Slide_Start = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
+		volume = 0.6
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -843,8 +844,8 @@
 	ScriptedSeq.Russel_Cage_Slide_Stop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -854,8 +855,8 @@
 	ScriptedSeq.Russel_Open_Window = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
+		volume = 0.6
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -865,7 +866,7 @@
 	ScriptedSeq.Russel_Bullet_Hit_Concrete = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -875,7 +876,7 @@
 	ScriptedSeq.Russel_Bullet_Hit_Metal = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -887,14 +888,14 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ScriptedSeq.Russel_Bullet_Ricochet_Impact"
 		soundevent_02 = "ScriptedSeq.Russel_Bullet_Ricochet_Passby"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ScriptedSeq.Russel_Bullet_Ricochet_Impact = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
+		volume = 0.6
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -904,7 +905,7 @@
 	ScriptedSeq.Russel_Bullet_Ricochet_Passby = 
 	{
 		type = "src1_2d"
-		volume = 0.200000
+		volume = 0.2
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -914,15 +915,15 @@
 	ScriptedSeq.Russel_Keyboard_Tap = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		volume_rand_min = -0.030000
-		volume_rand_max = 0.030000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 300.000000
-		distance_max = 301.000000
+		volume = 0.3
+		volume_rand_min = -0.03
+		volume_rand_max = 0.03
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 300.0
+		distance_max = 301.0
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/a1/safehouse/keyboard_tap_01.vsnd",
@@ -947,13 +948,13 @@
 	ScriptedSeq.Russel_Move_Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.250000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 300.000000
-		distance_max = 301.000000
+		volume = 0.25
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 300.0
+		distance_max = 301.0
 	}
 	ScriptedSeq.Russel_Move_Twitch = 
 	{
@@ -995,7 +996,7 @@
 	ScriptedSeq.Russel_Move_Thumbs_Up = 
 	{
 		base = "ScriptedSeq.Russel_Move_Base"
-		volume = 0.300000
+		volume = 0.3
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/a1/safehouse/move_short_01.vsnd",
@@ -1004,8 +1005,8 @@
 	ScriptedSeq.Russel_Move_Table_Rest = 
 	{
 		base = "ScriptedSeq.Russel_Move_Base"
-		volume = 0.300000
-		pitch = 0.900000
+		volume = 0.3
+		pitch = 0.9
 		vsnd_files = 
 		[
 			"sounds/physics/surfaces/wood/impact_b_01.vsnd",
@@ -1018,9 +1019,9 @@
 	ScriptedSeq.Russel_Move_Throw = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		volume_falloff_max = 800.000000
-		use_hrtf = 1.000000
+		volume = 0.7
+		volume_falloff_max = 800.0
+		use_hrtf = 1.0
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/a1/safehouse/move_throw_01.vsnd",
@@ -1031,10 +1032,10 @@
 	ScriptedSeq.Russel_Sit_Chair = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.450000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 800.000000
+		volume = 0.45
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 800.0
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/a1/safehouse/sit_chair.vsnd",
@@ -1043,11 +1044,11 @@
 	ScriptedSeq.Russel_Button_Map = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 400.000000
-		distance_max = 401.000000
+		volume = 0.7
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 400.0
+		distance_max = 401.0
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/a1/safehouse/button_map_click.vsnd",
@@ -1056,11 +1057,11 @@
 	ScriptedSeq.Russel_Button_Mic = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 400.000000
-		distance_max = 401.000000
+		volume = 0.75
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 400.0
+		distance_max = 401.0
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/a1/safehouse/button_mic_click.vsnd",
@@ -1069,9 +1070,9 @@
 	ScriptedSeq.Train_Int_Leave = 
 	{
 		type = "hlvr_2d_w_occlusion"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "ScriptedSequence"
-		occlusion_scale = 0.000000
+		occlusion_scale = 0.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1081,9 +1082,9 @@
 	ScriptedSeq.Train_Int_Slow = 
 	{
 		type = "hlvr_2d_w_occlusion"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "ScriptedSequence"
-		occlusion_scale = 0.000000
+		occlusion_scale = 0.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1093,9 +1094,9 @@
 	ScriptedSeq.Train_Int_Stop = 
 	{
 		type = "hlvr_2d_w_occlusion"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "ScriptedSequence"
-		occlusion_scale = 0.000000
+		occlusion_scale = 0.0
 		should_pause = true
 		vsnd_files = 
 		[
@@ -1123,8 +1124,8 @@
 	ScriptedSeq.A2_Barrel_Extra_A = 
 	{
 		type = "hlvr_default_3d"
-		volume_falloff_min = 400.000000
-		occlusion_scale = 0.200000
+		volume_falloff_min = 400.0
+		occlusion_scale = 0.2
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1135,8 +1136,8 @@
 	ScriptedSeq.A2_Barrel_Extra_B = 
 	{
 		type = "hlvr_default_3d"
-		volume_falloff_min = 400.000000
-		occlusion_scale = 0.200000
+		volume_falloff_min = 400.0
+		occlusion_scale = 0.2
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1146,104 +1147,74 @@
 	ScriptedSeq.Hideout_DoorBell = 
 	{
 		type = "hlvr_default_3d"
-		volume = 2.000000
+		volume = 2.0
 		mixgroup = "ScriptedSequence"
-		volume_mult = 1.000000
+		volume_mult = 1.0
 		vsnd_files = 
 		[
 			"sounds/doors/door_bell_vorthideout.vsnd",
 		]
 		reverb_falloff_curve = 
 		[
-			
 			[
-				0.000000,
-				0.699634,
-				0.000000,
-				0.000000,
-				0.000000,
-				3.000000,
+				0.0, 0.699634, 0.0, 0.0,
+				0.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.227125,
-				0.227125,
-				2.000000,
-				3.000000,
+				1.0, 1.0, 0.227125, 0.227125,
+				2.0, 3.0,
 			],
 		]
 	}
 	ScriptedSeq.Hideout_Door_Panel_Open = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/a2/hideout/door_panel_open.vsnd",
 		]
 		reverb_falloff_curve = 
 		[
-			
 			[
-				0.005714,
-				0.300000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.005714, 0.3, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.227125,
-				0.227125,
-				2.000000,
-				3.000000,
+				1.0, 1.0, 0.227125, 0.227125,
+				2.0, 3.0,
 			],
 		]
 	}
 	ScriptedSeq.Hideout_Door_Panel_Close = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/a2/hideout/door_panel_close.vsnd",
 		]
 		reverb_falloff_curve = 
 		[
-			
 			[
-				0.005714,
-				0.300000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.005714, 0.3, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.227125,
-				0.227125,
-				2.000000,
-				3.000000,
+				1.0, 1.0, 0.227125, 0.227125,
+				2.0, 3.0,
 			],
 		]
 	}
 	ScriptedSeq.Hideout_Door_Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.600000
-		use_hrtf = 1.000000
+		volume = 1.6
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1251,31 +1222,21 @@
 		]
 		reverb_falloff_curve = 
 		[
-			
 			[
-				0.005714,
-				0.300000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.005714, 0.3, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.227125,
-				0.227125,
-				2.000000,
-				3.000000,
+				1.0, 1.0, 0.227125, 0.227125,
+				2.0, 3.0,
 			],
 		]
 	}
 	ScriptedSeq.Hideout_Door_Close = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.600000
-		use_hrtf = 1.000000
+		volume = 1.6
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1283,63 +1244,43 @@
 		]
 		reverb_falloff_curve = 
 		[
-			
 			[
-				0.005714,
-				0.300000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.005714, 0.3, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.227125,
-				0.227125,
-				2.000000,
-				3.000000,
+				1.0, 1.0, 0.227125, 0.227125,
+				2.0, 3.0,
 			],
 		]
 	}
 	ScriptedSeq.Hideout_Door_Unlocks = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
-		volume = 2.000000
+		volume = 2.0
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/a2/hideout/door_unlocks.vsnd",
 		]
 		reverb_falloff_curve = 
 		[
-			
 			[
-				0.005714,
-				0.300000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.005714, 0.3, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.227125,
-				0.227125,
-				2.000000,
-				3.000000,
+				1.0, 1.0, 0.227125, 0.227125,
+				2.0, 3.0,
 			],
 		]
 	}
 	ScriptedSeq.Hideout_Headcrab_Boiling = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1347,31 +1288,21 @@
 		]
 		reverb_falloff_curve = 
 		[
-			
 			[
-				0.005714,
-				0.300000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.005714, 0.3, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.227125,
-				0.227125,
-				2.000000,
-				3.000000,
+				1.0, 1.0, 0.227125, 0.227125,
+				2.0, 3.0,
 			],
 		]
 	}
 	ScriptedSeq.Hideout_Headcrab_Corpse_Drop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
+		volume = 0.6
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1379,31 +1310,21 @@
 		]
 		reverb_falloff_curve = 
 		[
-			
 			[
-				0.005714,
-				0.300000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.005714, 0.3, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.227125,
-				0.227125,
-				2.000000,
-				3.000000,
+				1.0, 1.0, 0.227125, 0.227125,
+				2.0, 3.0,
 			],
 		]
 	}
 	ScriptedSeq.Hideout_Headcrab_Grumble = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1411,31 +1332,21 @@
 		]
 		reverb_falloff_curve = 
 		[
-			
 			[
-				0.005714,
-				0.300000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.005714, 0.3, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.227125,
-				0.227125,
-				2.000000,
-				3.000000,
+				1.0, 1.0, 0.227125, 0.227125,
+				2.0, 3.0,
 			],
 		]
 	}
 	ScriptedSeq.Hideout_Headcrab_Purr_A = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1443,31 +1354,21 @@
 		]
 		reverb_falloff_curve = 
 		[
-			
 			[
-				0.005714,
-				0.300000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.005714, 0.3, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.227125,
-				0.227125,
-				2.000000,
-				3.000000,
+				1.0, 1.0, 0.227125, 0.227125,
+				2.0, 3.0,
 			],
 		]
 	}
 	ScriptedSeq.Hideout_Headcrab_Purr_B = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1475,31 +1376,21 @@
 		]
 		reverb_falloff_curve = 
 		[
-			
 			[
-				0.005714,
-				0.300000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.005714, 0.3, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.227125,
-				0.227125,
-				2.000000,
-				3.000000,
+				1.0, 1.0, 0.227125, 0.227125,
+				2.0, 3.0,
 			],
 		]
 	}
 	ScriptedSeq.Hideout_Headcrab_Purr_C = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1512,83 +1403,63 @@
 		soundevent_01 = "ScriptedSeq.Hideout_Rolling_Door_Impact_Hit"
 		soundevent_02 = "ScriptedSeq.Hideout_Rolling_Door_Impact_Wobble"
 		soundevent_03 = "ScriptedSeq.Hideout_Rolling_Door_Impact_Layer"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	ScriptedSeq.Hideout_Rolling_Door_Impact_Hit = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
-		volume = 1.600000
-		static_position = 1.000000
+		volume = 1.6
+		static_position = 1.0
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/a2/hideout/rolling_door_impact.vsnd",
 		]
 		reverb_falloff_curve = 
 		[
-			
 			[
-				0.000000,
-				0.695035,
-				0.395517,
-				0.395517,
-				2.000000,
-				3.000000,
+				0.0, 0.695035, 0.395517, 0.395517,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.227125,
-				0.227125,
-				2.000000,
-				3.000000,
+				1.0, 1.0, 0.227125, 0.227125,
+				2.0, 3.0,
 			],
 		]
 	}
 	ScriptedSeq.Hideout_Rolling_Door_Impact_Wobble = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
-		volume = 1.600000
-		static_position = 1.000000
+		volume = 1.6
+		static_position = 1.0
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/a2/hideout/rolling_door_wobble.vsnd",
 		]
 		reverb_falloff_curve = 
 		[
-			
 			[
-				0.000000,
-				0.695035,
-				0.395517,
-				0.395517,
-				2.000000,
-				3.000000,
+				0.0, 0.695035, 0.395517, 0.395517,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.227125,
-				0.227125,
-				2.000000,
-				3.000000,
+				1.0, 1.0, 0.227125, 0.227125,
+				2.0, 3.0,
 			],
 		]
 	}
 	ScriptedSeq.Hideout_Rolling_Door_Impact_Layer = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
-		volume = 1.600000
-		static_position = 1.000000
+		volume = 1.6
+		static_position = 1.0
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/a2/hideout/rolling_door_impact_layer.vsnd",
@@ -1597,8 +1468,8 @@
 	ScriptedSeq.Hideout_Rolling_Door_Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.600000
-		use_hrtf = 1.000000
+		volume = 1.6
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1606,33 +1477,23 @@
 		]
 		reverb_falloff_curve = 
 		[
-			
 			[
-				0.005714,
-				0.300000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.005714, 0.3, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.227125,
-				0.227125,
-				2.000000,
-				3.000000,
+				1.0, 1.0, 0.227125, 0.227125,
+				2.0, 3.0,
 			],
 		]
 	}
 	ScriptedSeq.Hideout_Rolling_Door_Close = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_fade_in = 1.000000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
+		volume = 1.2
+		volume_fade_in = 1.0
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1640,31 +1501,21 @@
 		]
 		reverb_falloff_curve = 
 		[
-			
 			[
-				0.005714,
-				0.300000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.005714, 0.3, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.227125,
-				0.227125,
-				2.000000,
-				3.000000,
+				1.0, 1.0, 0.227125, 0.227125,
+				2.0, 3.0,
 			],
 		]
 	}
 	ScriptedSeq.Hideout_Table_Drag = 
 	{
 		type = "hlvr_default_3d"
-		volume = 2.000000
-		use_hrtf = 1.000000
+		volume = 2.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1672,31 +1523,21 @@
 		]
 		reverb_falloff_curve = 
 		[
-			
 			[
-				0.000000,
-				0.593407,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.0, 0.593407, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.227125,
-				0.227125,
-				2.000000,
-				3.000000,
+				1.0, 1.0, 0.227125, 0.227125,
+				2.0, 3.0,
 			],
 		]
 	}
 	ScriptedSeq.Hideout_Cage_Drop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		use_hrtf = 1.000000
+		volume = 0.4
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1704,31 +1545,21 @@
 		]
 		reverb_falloff_curve = 
 		[
-			
 			[
-				0.005714,
-				0.300000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.005714, 0.3, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.227125,
-				0.227125,
-				2.000000,
-				3.000000,
+				1.0, 1.0, 0.227125, 0.227125,
+				2.0, 3.0,
 			],
 		]
 	}
 	ScriptedSeq.Hideout_Cage_Impact = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
+		volume = 0.6
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1736,31 +1567,21 @@
 		]
 		reverb_falloff_curve = 
 		[
-			
 			[
-				0.005714,
-				0.300000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.005714, 0.3, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.227125,
-				0.227125,
-				2.000000,
-				3.000000,
+				1.0, 1.0, 0.227125, 0.227125,
+				2.0, 3.0,
 			],
 		]
 	}
 	ScriptedSeq.Hideout_Cage_Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		use_hrtf = 1.000000
+		volume = 0.3
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1768,31 +1589,21 @@
 		]
 		reverb_falloff_curve = 
 		[
-			
 			[
-				0.005714,
-				0.300000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.005714, 0.3, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.227125,
-				0.227125,
-				2.000000,
-				3.000000,
+				1.0, 1.0, 0.227125, 0.227125,
+				2.0, 3.0,
 			],
 		]
 	}
 	ScriptedSeq.Hideout_Cage_Tweak = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		use_hrtf = 1.000000
+		volume = 0.3
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1800,31 +1611,21 @@
 		]
 		reverb_falloff_curve = 
 		[
-			
 			[
-				0.005714,
-				0.300000,
-				1.083000,
-				1.083000,
-				2.000000,
-				3.000000,
+				0.005714, 0.3, 1.083, 1.083,
+				2.0, 3.0,
 			],
-			
 			[
-				1.000000,
-				1.000000,
-				0.227125,
-				0.227125,
-				2.000000,
-				3.000000,
+				1.0, 1.0, 0.227125, 0.227125,
+				2.0, 3.0,
 			],
 		]
 	}
 	ScriptedSeq.Hideout_Vort_Beyond_Door = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1834,8 +1635,8 @@
 	ScriptedSeq.Hideout_Vort_Beyond_Door_Leave = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1845,8 +1646,8 @@
 	ScriptedSeq.Hideout_Vort_Jump_Land_A = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.5
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1856,9 +1657,9 @@
 	ScriptedSeq.Hideout_Vort_Jump_Land_B = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		pitch = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.5
+		pitch = 0.9
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1868,8 +1669,8 @@
 	ScriptedSeq.Hideout_Vort_Jump_Land_2_A = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.5
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1879,9 +1680,9 @@
 	ScriptedSeq.Hideout_Vort_Jump_Land_2_B = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		pitch = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.4
+		pitch = 0.9
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1891,8 +1692,8 @@
 	ScriptedSeq.Substation_Vort_Pod_Exit_Land_A = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.5
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1902,9 +1703,9 @@
 	ScriptedSeq.Substation_Vort_Pod_Exit_Land_B = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		pitch = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.4
+		pitch = 0.9
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1914,10 +1715,10 @@
 	ScriptedSeq.Substation_Vort_Pod_Exit_Scramble = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		volume_fade_in = 0.500000
-		pitch = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.6
+		volume_fade_in = 0.5
+		pitch = 0.9
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1927,13 +1728,13 @@
 	ScriptedSeq.Hideout_Vort_Blast_Build = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.200000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
+		occlusion_scale = 0.2
+		limiter_on = 1.0
+		limiter_max = 0.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1943,13 +1744,13 @@
 	ScriptedSeq.Hideout_Vort_Blast_Shoot = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.200000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
+		occlusion_scale = 0.2
+		limiter_on = 1.0
+		limiter_max = 0.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1959,13 +1760,13 @@
 	ScriptedSeq.Hideout_Vort_Blast_Impact = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.200000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
+		occlusion_scale = 0.2
+		limiter_on = 1.0
+		limiter_max = 0.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1975,7 +1776,7 @@
 	ScriptedSeq.Hideout_Vort_Eat_Gib_Prepared = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1985,7 +1786,7 @@
 	ScriptedSeq.Hideout_Vort_Eat_Gib_Raw = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -1995,7 +1796,7 @@
 	ScriptedSeq.Hideout_Vort_Grab_Gib = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2005,7 +1806,7 @@
 	ScriptedSeq.Hideout_Vort_Sustenance_Grab = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2015,7 +1816,7 @@
 	ScriptedSeq.Hideout_Vort_Sustenance_Throw = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2025,9 +1826,9 @@
 	ScriptedSeq.Zombie_Wall_Smash_Foreshadow = 
 	{
 		base = "ScriptedSeq.Static_Base"
-		volume = 0.700000
-		volume_rand_max = 0.100000
-		use_hrtf = 1.000000
+		volume = 0.7
+		volume_rand_max = 0.1
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2064,9 +1865,9 @@
 	ScriptedSeq.Zombie_Chainlink_Bash_GruntSoft = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		occlusion_scale = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		occlusion_scale = 0.8
+		use_hrtf = 1.0
 		mixgroup = "Zombies"
 		vsnd_files = 
 		[
@@ -2086,9 +1887,9 @@
 	ScriptedSeq.Zombie_Chainlink_Bash_GruntHard = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		occlusion_scale = 0.800000
-		use_hrtf = 1.000000
+		volume = 1.0
+		occlusion_scale = 0.8
+		use_hrtf = 1.0
 		mixgroup = "Zombies"
 		vsnd_files = 
 		[
@@ -2106,12 +1907,12 @@
 	ScriptedSeq.Zombie_Chainlink_Impact = 
 	{
 		base = "ScriptedSeq.Static_Base"
-		volume = 1.000000
-		occlusion_scale = 0.800000
-		use_hrtf = 1.000000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 1000.000000
-		distance_max = 1001.000000
+		volume = 1.0
+		occlusion_scale = 0.8
+		use_hrtf = 1.0
+		volume_falloff_min = 100.0
+		volume_falloff_max = 1000.0
+		distance_max = 1001.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2125,11 +1926,11 @@
 	ScriptedSeq.Zombie_Chainlink_Bash_Rattle = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.100000
-		delay = 0.200000
-		occlusion_scale = 0.950000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
+		volume = 0.1
+		delay = 0.2
+		occlusion_scale = 0.95
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2143,12 +1944,12 @@
 	ScriptedSeq.Zombie_Chainlink_Bash_WaterTower = 
 	{
 		base = "ScriptedSeq.Static_Base"
-		volume = 1.000000
-		occlusion_scale = 0.800000
-		use_hrtf = 1.000000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 1000.000000
-		distance_max = 1001.000000
+		volume = 1.0
+		occlusion_scale = 0.8
+		use_hrtf = 1.0
+		volume_falloff_min = 100.0
+		volume_falloff_max = 1000.0
+		distance_max = 1001.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2162,12 +1963,12 @@
 	ScriptedSeq.Zombie_Chainlink_Bash_Sign_Tap = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		delay = 0.300000
-		occlusion_scale = 0.950000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
-		use_hrtf = 1.000000
+		volume = 0.6
+		delay = 0.3
+		occlusion_scale = 0.95
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2181,7 +1982,7 @@
 	ScriptedSeq.A2_Zombie_Intro_Yell = 
 	{
 		type = "hlvr_default_3d"
-		occlusion_scale = 0.000000
+		occlusion_scale = 0.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2191,8 +1992,8 @@
 	ScriptedSeq.A2_Subway_Door_Stinger = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		occlusion_scale = 0.000000
+		volume = 0.8
+		occlusion_scale = 0.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2202,8 +2003,8 @@
 	ScriptedSeq.A2_Subway_Door_ForceOpen_Left_A = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2213,8 +2014,8 @@
 	ScriptedSeq.A2_Subway_Door_ForceOpen_Right_A = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2224,8 +2025,8 @@
 	ScriptedSeq.A2_Subway_Door_ForceOpen_Left_B = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2235,8 +2036,8 @@
 	ScriptedSeq.A2_Subway_Door_ForceOpen_Right_B = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2255,13 +2056,13 @@
 	ScriptedSeq.A2_Zombie_BodySlam_Traincar = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		occlusion_scale = 0.500000
-		occlusion_radius = 50.000000
-		volume_falloff_max = 1200.000000
-		use_hrtf = 1.000000
+		volume = 0.9
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		occlusion_scale = 0.5
+		occlusion_radius = 50.0
+		volume_falloff_max = 1200.0
+		use_hrtf = 1.0
 		mixgroup = "Zombies"
 		vsnd_files = 
 		[
@@ -2275,15 +2076,15 @@
 	ScriptedSeq.A2_Zombie_Slap_Traincar = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		volume_rand_min = -0.100000
-		volume_rand_max = 0.100000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		occlusion_scale = 0.500000
-		occlusion_radius = 50.000000
-		volume_falloff_max = 600.000000
-		use_hrtf = 1.000000
+		volume = 0.9
+		volume_rand_min = -0.1
+		volume_rand_max = 0.1
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		occlusion_scale = 0.5
+		occlusion_radius = 50.0
+		volume_falloff_max = 600.0
+		use_hrtf = 1.0
 		mixgroup = "Zombies"
 		vsnd_files = 
 		[
@@ -2297,27 +2098,27 @@
 	ScriptedSeq.A2_Zombie_Shoulder_Traincar = 
 	{
 		base = "ScriptedSeq.A2_Zombie_BodySlam_Traincar"
-		volume = 0.600000
-		volume_falloff_max = 1000.000000
-		pitch = 0.900000
+		volume = 0.6
+		volume_falloff_max = 1000.0
+		pitch = 0.9
 	}
 	ScriptedSeq.A2_Zombie_Shoulder_Chainlink = 
 	{
 		base = "ScriptedSeq.A2_Zombie_Slap_Traincar"
-		volume_falloff_max = 1000.000000
-		pitch = 0.900000
+		volume_falloff_max = 1000.0
+		pitch = 0.9
 	}
 	ScriptedSeq.A2_Zombie_Slap_Metal_Machine = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		occlusion_scale = 0.900000
-		volume_falloff_min = 500.000000
-		volume_falloff_max = 500.000000
-		distance_max = 501.000000
-		use_hrtf = 1.000000
+		volume = 0.5
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		occlusion_scale = 0.9
+		volume_falloff_min = 500.0
+		volume_falloff_max = 500.0
+		distance_max = 501.0
+		use_hrtf = 1.0
 		mixgroup = "Zombies"
 		vsnd_files = 
 		[
@@ -2333,9 +2134,9 @@
 	ScriptedSeq.A2_Headcrab_Bash_Door_Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		occlusion_scale = 0.200000
-		use_hrtf = 1.000000
+		volume = 0.8
+		occlusion_scale = 0.2
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2345,9 +2146,9 @@
 	ScriptedSeq.A2_Headcrab_Bash_Door_Rattle = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		occlusion_scale = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		occlusion_scale = 0.8
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2357,7 +2158,7 @@
 	ScriptedSeq.A2_Headcrab_Foreshadow = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2367,10 +2168,10 @@
 	ScriptedSeq.A2_Eli_Rescue_Eli_Rise = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 500.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
+		volume = 1.2
+		volume_falloff_min = 500.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2380,9 +2181,9 @@
 	ScriptedSeq.A2_Eli_Rescue_Eli_Land = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
+		volume = 1.2
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2392,11 +2193,11 @@
 	ScriptedSeq.A2_Eli_Rescue_Panels_Fall = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.600000
-		volume_falloff_min = 500.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
-		static_position = 1.000000
+		volume = 1.6
+		volume_falloff_min = 500.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
+		static_position = 1.0
 		mixgroup = "ScriptedSequence_Loud"
 		vsnd_files = 
 		[
@@ -2406,11 +2207,11 @@
 	ScriptedSeq.A2_Eli_Rescue_Panels_Clatter = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		volume_falloff_min = 800.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
-		static_position = 1.000000
+		volume = 1.4
+		volume_falloff_min = 800.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
+		static_position = 1.0
 		mixgroup = "ScriptedSequence_Loud"
 		vsnd_files = 
 		[
@@ -2422,22 +2223,22 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "PhysBreak.Wood_Box"
 		soundevent_02 = "BreakableBoard.Nail_Release"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ScriptedSeq.A3_PP_Zombie_Dangler_Fall_Impact = 
 	{
 		type = "hlvr_start_multi"
 		soundevent_01 = "ScriptedSeq.A3_PP_Zombie_Dangler_Fall_Impact_A"
 		soundevent_02 = "ScriptedSeq.A3_PP_Zombie_Dangler_Fall_Impact_B"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ScriptedSeq.A3_PP_Zombie_Dangler_Fall_Impact_A = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2447,8 +2248,8 @@
 	ScriptedSeq.A3_PP_Zombie_Dangler_Fall_Impact_B = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2458,10 +2259,10 @@
 	ScriptedSeq.A3_Station_Headcrab_Ceiling_Foreshadow = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_min = 400.000000
-		occlusion_scale = 0.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		volume_falloff_min = 400.0
+		occlusion_scale = 0.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2471,10 +2272,10 @@
 	ScriptedSeq.A3_Station_Headcrab_Ceiling_Scurry_Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_min = 400.000000
-		occlusion_scale = 0.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		volume_falloff_min = 400.0
+		occlusion_scale = 0.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 	}
 	ScriptedSeq.A3_Station_Headcrab_Ceiling_Scurry_A_01 = 
@@ -2512,10 +2313,10 @@
 	ScriptedSeq.A3_Station_Headcrab_Ceiling_Collapse = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_min = 400.000000
-		occlusion_scale = 0.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		volume_falloff_min = 400.0
+		occlusion_scale = 0.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2527,16 +2328,16 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ScriptedSeq.A3_Charger_Smash_Door_Impact"
 		soundevent_02 = "ScriptedSeq.A3_Charger_Smash_Door_Layer"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ScriptedSeq.A3_Charger_Smash_Door_Impact = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		volume_falloff_min = 600.000000
-		occlusion_scale = 0.100000
-		use_hrtf = 1.000000
+		volume = 1.4
+		volume_falloff_min = 600.0
+		occlusion_scale = 0.1
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence_Loud"
 		vsnd_files = 
 		[
@@ -2546,10 +2347,10 @@
 	ScriptedSeq.A3_Charger_Smash_Door_Layer = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		volume_falloff_min = 600.000000
-		occlusion_scale = 0.100000
-		use_hrtf = 1.000000
+		volume = 1.4
+		volume_falloff_min = 600.0
+		occlusion_scale = 0.1
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence_Loud"
 		vsnd_files = 
 		[
@@ -2559,7 +2360,7 @@
 	ScriptedSeq.A3_Hotel_Int_Powerdown = 
 	{
 		type = "src1_2d"
-		volume = 0.700000
+		volume = 0.7
 		mixgroup = "ScriptedSequence_Loud"
 		vsnd_files = 
 		[
@@ -2569,7 +2370,7 @@
 	ScriptedSeq.A3_Hotel_Int_BHC_Toilet = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
+		volume = 0.7
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2579,7 +2380,7 @@
 	ScriptedSeq.A3_Hotel_Int_Door_Fall_Start = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2598,8 +2399,8 @@
 	ScriptedSeq.A3_Hotel_Int_Door_Fall_Impact = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 400.000000
+		volume = 1.2
+		volume_falloff_min = 400.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2609,9 +2410,9 @@
 	ScriptedSeq.A3_Wood_Beam_Creak = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		delay = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.3
+		delay = 0.5
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2624,7 +2425,7 @@
 	ScriptedSeq.A3_Zombie_Hooked_Rip = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2643,7 +2444,7 @@
 	ScriptedSeq.Substation_CableShield_Expose = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2657,10 +2458,10 @@
 	ScriptedSeq.Substation_CableShield_Destroy = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 200.000000
-		delay = 0.100000
-		use_hrtf = 1.000000
+		volume = 1.2
+		volume_falloff_min = 200.0
+		delay = 0.1
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2674,7 +2475,7 @@
 	ScriptedSeq.Substation_Pod_Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2684,7 +2485,7 @@
 	ScriptedSeq.Substation_Release_Vort = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
+		volume = 0.7
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2694,10 +2495,10 @@
 	ScriptedSeq.Substation_Vort_Hand_Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
-		use_hrtf = 1.000000
+		volume = 0.5
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2714,8 +2515,8 @@
 	ScriptedSeq.Substation_Elevator_Stuck = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2733,12 +2534,12 @@
 	ScriptedSeq.Distillery_Pigeon_Flock_Prelude = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		delay = 0.500000
-		volume_falloff_min = 200.000000
-		spread_min = 150.000000
-		spread_max = 800.000000
-		use_hrtf = 1.000000
+		volume = 0.7
+		delay = 0.5
+		volume_falloff_min = 200.0
+		spread_min = 150.0
+		spread_max = 800.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2748,9 +2549,9 @@
 	ScriptedSeq.Distillery_Pigeon_Flock = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.100000
-		volume_falloff_min = 300.000000
-		use_hrtf = 1.000000
+		volume = 1.1
+		volume_falloff_min = 300.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2760,8 +2561,8 @@
 	ScriptedSeq.Distillery_Wood_Beam_Creak = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2774,8 +2575,8 @@
 	ScriptedSeq.Distillery_Wood_Beam_Crash = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2785,8 +2586,8 @@
 	ScriptedSeq.Distillery_HC_Prefight = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.9
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2799,8 +2600,8 @@
 	ScriptedSeq.Distillery_Ladder_Kick = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2810,9 +2611,9 @@
 	ScriptedSeq.Distillery_Ladder_Lower = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		volume_fade_out = 0.200000
-		use_hrtf = 1.000000
+		volume = 0.9
+		volume_fade_out = 0.2
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2822,14 +2623,14 @@
 	ScriptedSeq.Distillery_Larry_Move_Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		use_hrtf = 1.000000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 500.000000
-		distance_max = 501.000000
-		occlusion_scale = 0.900000
+		volume = 0.5
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		use_hrtf = 1.0
+		volume_falloff_min = 100.0
+		volume_falloff_max = 500.0
+		distance_max = 501.0
+		occlusion_scale = 0.9
 		mixgroup = "ScriptedSequence"
 	}
 	ScriptedSeq.Distillery_Larry_Move_Twitch = 
@@ -2848,7 +2649,7 @@
 	ScriptedSeq.Distillery_Larry_Move_Long = 
 	{
 		base = "ScriptedSeq.Distillery_Larry_Move_Base"
-		volume = 0.350000
+		volume = 0.35
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/a1/safehouse/move_long_01.vsnd",
@@ -2860,8 +2661,8 @@
 	ScriptedSeq.Distillery_Larry_Fall = 
 	{
 		base = "ScriptedSeq.Distillery_Larry_Move_Base"
-		volume = 0.800000
-		occlusion_scale = 0.200000
+		volume = 0.8
+		occlusion_scale = 0.2
 		vsnd_files = 
 		[
 			"sounds/npc/shared/human_bodyfall_soft_01.vsnd",
@@ -2870,8 +2671,8 @@
 	ScriptedSeq.Distillery_Larry_Peer_Enter = 
 	{
 		base = "ScriptedSeq.Distillery_Larry_Move_Base"
-		volume = 1.000000
-		occlusion_scale = 0.200000
+		volume = 1.0
+		occlusion_scale = 0.2
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/a3/distillery/larry_peer_enter.vsnd",
@@ -2880,8 +2681,8 @@
 	ScriptedSeq.Distillery_Larry_Peer_Leave = 
 	{
 		base = "ScriptedSeq.Distillery_Larry_Move_Base"
-		volume = 1.000000
-		occlusion_scale = 0.200000
+		volume = 1.0
+		occlusion_scale = 0.2
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/a3/distillery/larry_peer_leave.vsnd",
@@ -2890,7 +2691,7 @@
 	ScriptedSeq.Distillery_Powercut = 
 	{
 		type = "src1_2d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2900,7 +2701,7 @@
 	ScriptedSeq.Distillery_PowerOn = 
 	{
 		type = "src1_2d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2910,7 +2711,7 @@
 	ScriptedSeq.Headcrab_BZIntro_Corpse_Impact = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2920,11 +2721,11 @@
 	ScriptedSeq.Headcrab_BZIntro_Struggle_Grunt = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.500000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 800.000000
+		volume = 0.3
+		use_hrtf = 1.0
+		occlusion_scale = 0.5
+		volume_falloff_min = 50.0
+		volume_falloff_max = 800.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2944,7 +2745,7 @@
 	ScriptedSeq.Headcrab_BZIntro_Drown_Gargle = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2956,15 +2757,15 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ScriptedSeq.Headcrab_Elevator_Rummage_Core"
 		soundevent_02 = "ScriptedSeq.Headcrab_Elevator_Vox_Warning"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ScriptedSeq.Headcrab_Elevator_Rummage_Core = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
+		volume = 0.8
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2974,7 +2775,7 @@
 	ScriptedSeq.Headcrab_Elevator_Vox_Curious = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2984,8 +2785,8 @@
 	ScriptedSeq.Headcrab_Elevator_Crate_Impact_A = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.100000
-		use_hrtf = 1.000000
+		volume = 1.1
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -2995,8 +2796,8 @@
 	ScriptedSeq.Headcrab_Elevator_Crate_Impact_B = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3006,9 +2807,9 @@
 	ScriptedSeq.Headcrab_Elevator_Vox_Warning = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.100000
-		delay = 4.000000
-		use_hrtf = 1.000000
+		volume = 1.1
+		delay = 4.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3018,8 +2819,8 @@
 	ScriptedSeq.Headcrab_Elevator_Vox_Warning_B = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.100000
-		use_hrtf = 1.000000
+		volume = 1.1
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3029,8 +2830,8 @@
 	ScriptedSeq.Headcrab_Elevator_Vox_Jump = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3040,8 +2841,8 @@
 	ScriptedSeq.Headcrab_Elevator_Vox_Squeal = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence_Loud"
 		vsnd_files = 
 		[
@@ -3051,8 +2852,8 @@
 	ScriptedSeq.Headcrab_Elevator_Vox_Notice = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence_Loud"
 		vsnd_files = 
 		[
@@ -3062,8 +2863,8 @@
 	ScriptedSeq.Headcrab_Elevator_Vox_Attempt = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence_Loud"
 		vsnd_files = 
 		[
@@ -3073,7 +2874,7 @@
 	ScriptedSeq.Headcrab_Elevator_Corpse_Impact = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3083,7 +2884,7 @@
 	ScriptedSeq.Headcrab_Elevator_Drown_Gargle = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3093,8 +2894,8 @@
 	ScriptedSeq.Headcrab_Elevator_Body_Peel_A = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence_Loud"
 		vsnd_files = 
 		[
@@ -3104,8 +2905,8 @@
 	ScriptedSeq.Headcrab_Elevator_Body_Peel_B = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence_Loud"
 		vsnd_files = 
 		[
@@ -3115,8 +2916,8 @@
 	ScriptedSeq.Headcrab_Elevator_Grabbed = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence_Loud"
 		vsnd_files = 
 		[
@@ -3126,8 +2927,8 @@
 	ScriptedSeq.Headcrab_Elevator_Pulled = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence_Loud"
 		vsnd_files = 
 		[
@@ -3137,8 +2938,8 @@
 	ScriptedSeq.Headcrab_Elevator_Vox_Growl = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence_Loud"
 		vsnd_files = 
 		[
@@ -3148,7 +2949,7 @@
 	ScriptedSeq.Headcrab_Cheeky_Bash_Vox_Start = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3158,7 +2959,7 @@
 	ScriptedSeq.Headcrab_Cheeky_Bash_Vox_A = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3168,7 +2969,7 @@
 	ScriptedSeq.Headcrab_Cheeky_Bash_Vox_B = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3178,7 +2979,7 @@
 	ScriptedSeq.Headcrab_Cheeky_Bash_Vox_C = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3188,8 +2989,8 @@
 	ScriptedSeq.Headcrab_Cheeky_Vox_Walk_A = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.9
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3199,7 +3000,7 @@
 	ScriptedSeq.Headcrab_Cheeky_Vox_Walk_B = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3209,8 +3010,8 @@
 	ScriptedSeq.Headcrab_Cheeky_Bash_A = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3220,8 +3021,8 @@
 	ScriptedSeq.Headcrab_Cheeky_Bash_B = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3231,8 +3032,8 @@
 	ScriptedSeq.Headcrab_Cheeky_Bash_C = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		use_hrtf = 1.000000
+		volume = 1.2
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3242,8 +3043,8 @@
 	ScriptedSeq.Headcrab_Cheeky_Anim_Vox_Taunt = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3253,7 +3054,7 @@
 	ScriptedSeq.Headcrab_Cheeky_Anim_Vox_Jump = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3263,7 +3064,7 @@
 	ScriptedSeq.Headcrab_Cheeky_Anim_Vox_Escape_A = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3273,7 +3074,7 @@
 	ScriptedSeq.Headcrab_Cheeky_Anim_Vox_Escape_B = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3283,7 +3084,7 @@
 	ScriptedSeq.Headcrab_Cheeky_Anim_Vox_Escape_C = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3293,8 +3094,8 @@
 	ScriptedSeq.Headcrab_Cheeky_Vent_Journey_A = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3304,8 +3105,8 @@
 	ScriptedSeq.Headcrab_Cheeky_Vent_Journey_B = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3315,8 +3116,8 @@
 	ScriptedSeq.Headcrab_Cheeky_Vent_Grab = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.9
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3326,8 +3127,8 @@
 	ScriptedSeq.Headcrab_Cheeky_Vent_Vox_Idle_A = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3337,8 +3138,8 @@
 	ScriptedSeq.Headcrab_Cheeky_Vent_Vox_Idle_B = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.600000
-		use_hrtf = 1.000000
+		volume = 0.6
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3348,8 +3149,8 @@
 	ScriptedSeq.Headcrab_Cheeky_Vent_Vox_Grunt_A = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3359,8 +3160,8 @@
 	ScriptedSeq.Headcrab_Cheeky_Vent_Vox_Grunt_B = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3370,8 +3171,8 @@
 	ScriptedSeq.Headcrab_Cheeky_Vent_Vox_Backup_A = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3381,8 +3182,8 @@
 	ScriptedSeq.Headcrab_Cheeky_Vent_Vox_Backup_B = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3392,12 +3193,12 @@
 	ScriptedSeq.Headcrab_Cheeky_Vent_Claw = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.250000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 400.000000
-		distance_max = 401.000000
-		occlusion_scale = 0.900000
+		volume = 0.25
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 400.0
+		distance_max = 401.0
+		occlusion_scale = 0.9
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3411,12 +3212,12 @@
 	ScriptedSeq.Headcrab_Cheeky_Vent_Step = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
-		distance_max = 501.000000
-		occlusion_scale = 0.900000
+		volume = 0.4
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
+		distance_max = 501.0
+		occlusion_scale = 0.9
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3433,8 +3234,8 @@
 	ScriptedSeq.Headcrab_Cheeky_Wood_Jostle_A = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.9
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3447,8 +3248,8 @@
 	ScriptedSeq.Headcrab_Cheeky_Wood_Jostle_B = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3462,8 +3263,8 @@
 	ScriptedSeq.Headcrab_Cheeky_Wood_Jostle_C = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3476,8 +3277,8 @@
 	ScriptedSeq.Headcrab_Spawn_Vent_Impact_A = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3487,8 +3288,8 @@
 	ScriptedSeq.Headcrab_Spawn_Vent_Impact_B = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3498,8 +3299,8 @@
 	ScriptedSeq.Headcrab_Spawn_Vent_Grunt_A = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3509,8 +3310,8 @@
 	ScriptedSeq.Headcrab_Spawn_Vent_Grunt_B = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3520,8 +3321,8 @@
 	ScriptedSeq.Headcrab_Spawn_Vent_Grunt_C = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3531,9 +3332,9 @@
 	ScriptedSeq.BHC_Vent_Smash = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
-		occlusion_scale = 0.000000
+		occlusion_scale = 0.0
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/reviver/intro_vent_smash.vsnd",
@@ -3542,11 +3343,11 @@
 	ScriptedSeq.Reviver_Intro_Vent_Smash = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		volume_falloff_min = 400.000000
-		use_hrtf = 1.000000
+		volume = 1.4
+		volume_falloff_min = 400.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
-		occlusion_scale = 0.000000
+		occlusion_scale = 0.0
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/reviver/intro_vent_smash.vsnd",
@@ -3555,11 +3356,11 @@
 	ScriptedSeq.Reviver_Pit_Vent_Smash = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		volume_falloff_min = 400.000000
-		use_hrtf = 1.000000
+		volume = 1.4
+		volume_falloff_min = 400.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
-		occlusion_scale = 0.000000
+		occlusion_scale = 0.0
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/reviver/pit_vent_smash.vsnd",
@@ -3568,10 +3369,10 @@
 	ScriptedSeq.Reviver_Pit_Distant = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		volume_falloff_min = 400.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
+		volume = 1.4
+		volume_falloff_min = 400.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3581,10 +3382,10 @@
 	ScriptedSeq.Reviver_Elevator_Entrance = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		volume_falloff_min = 400.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
+		volume = 1.4
+		volume_falloff_min = 400.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3594,11 +3395,11 @@
 	ScriptedSeq.Reviver_Elevator_End = 
 	{
 		type = "hlvr_default_3d"
-		volume_falloff_min = 400.000000
-		delay = 1.000000
-		volume = 1.400000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
+		volume_falloff_min = 400.0
+		delay = 1.0
+		volume = 1.4
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3635,8 +3436,8 @@
 	ScriptedSeq.Reviver_Chainlink_Step_Heavy = 
 	{
 		base = "ScriptedSeq.Static_Base"
-		volume = 0.850000
-		use_hrtf = 1.000000
+		volume = 0.85
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3654,10 +3455,10 @@
 	ScriptedSeq.Reviver_Chainlink_Step_Light = 
 	{
 		base = "ScriptedSeq.Static_Base"
-		volume = 0.700000
-		use_hrtf = 1.000000
-		volume_falloff_max = 1000.000000
-		occlusion_scale = 0.900000
+		volume = 0.7
+		use_hrtf = 1.0
+		volume_falloff_max = 1000.0
+		occlusion_scale = 0.9
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3675,7 +3476,7 @@
 	ScriptedSeq.Reviver_Junk_Impact = 
 	{
 		base = "ScriptedSeq.Static_Base"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3685,7 +3486,7 @@
 	ScriptedSeq.Reviver_Table_Impact = 
 	{
 		base = "ScriptedSeq.Static_Base"
-		volume = 0.700000
+		volume = 0.7
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3696,7 +3497,7 @@
 	ScriptedSeq.Reviver_Table_Impact_Quiet = 
 	{
 		base = "ScriptedSeq.Static_Base"
-		volume = 0.600000
+		volume = 0.6
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3706,7 +3507,7 @@
 	ScriptedSeq.Reviver_Vent_Impact = 
 	{
 		base = "ScriptedSeq.Static_Base"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3717,8 +3518,8 @@
 	ScriptedSeq.Hotel_Lobby_Elevator_Ding = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3728,9 +3529,9 @@
 	ScriptedSeq.Hotel_Lobby_Elevator_Start = 
 	{
 		type = "hlvr_default_3d"
-		volume_falloff_min = 400.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
+		volume_falloff_min = 400.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3740,9 +3541,9 @@
 	ScriptedSeq.Hotel_Lobby_Elevator_Issue = 
 	{
 		type = "hlvr_default_3d"
-		volume_falloff_min = 400.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
+		volume_falloff_min = 400.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
 		mixgroup = "ScriptedSequence_Loud"
 		vsnd_files = 
 		[
@@ -3752,10 +3553,10 @@
 	ScriptedSeq.Hotel_Lobby_Elevator_Fall = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 400.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
+		volume = 1.2
+		volume_falloff_min = 400.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
 		mixgroup = "ScriptedSequence_Loud"
 		vsnd_files = 
 		[
@@ -3767,15 +3568,15 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ScriptedSeq.Hotel_Lobby_Elevator_Crash_Core"
 		soundevent_02 = "ScriptedSeq.Hotel_Lobby_Elevator_Crash_Layer"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ScriptedSeq.Hotel_Lobby_Elevator_Crash_Core = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 400.000000
-		occlusion_scale = 0.000000
+		volume = 1.2
+		volume_falloff_min = 400.0
+		occlusion_scale = 0.0
 		mixgroup = "ScriptedSequence_Loud"
 		vsnd_files = 
 		[
@@ -3785,9 +3586,9 @@
 	ScriptedSeq.Hotel_Lobby_Elevator_Crash_Layer = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 400.000000
-		occlusion_scale = 0.000000
+		volume = 1.2
+		volume_falloff_min = 400.0
+		occlusion_scale = 0.0
 		mixgroup = "ScriptedSequence_Loud"
 		vsnd_files = 
 		[
@@ -3797,7 +3598,7 @@
 	ScriptedSeq.Hotel_Lobby_Elevator_Powercut = 
 	{
 		type = "src1_2d"
-		volume = 0.700000
+		volume = 0.7
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3807,7 +3608,7 @@
 	ScriptedSeq.Hotel_Lobby_Elevator_PowerOn = 
 	{
 		type = "src1_2d"
-		volume = 0.700000
+		volume = 0.7
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3817,7 +3618,7 @@
 	ScriptedSeq.Hotel_Lobby_Lights_Powercut = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
+		volume = 0.5
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3827,7 +3628,7 @@
 	ScriptedSeq.Hotel_Lobby_Lights_Powerup = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
+		volume = 0.5
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3837,9 +3638,9 @@
 	ScriptedSeq.Hotel_Lobby_Zombie_Rail_Crack = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
+		volume = 1.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3849,10 +3650,10 @@
 	ScriptedSeq.Hotel_Lobby_Zombie_Impact = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.300000
-		delay = 1.350000
+		volume = 1.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.3
+		delay = 1.35
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3864,14 +3665,14 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ScriptedSeq.Hotel_Lobby_Headcrab_Bar_Smash_Impact"
 		soundevent_02 = "NPC_BlackHeadcrab.Scripted_Bar_Jump"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ScriptedSeq.Hotel_Lobby_Headcrab_Bar_Smash_Impact = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3881,9 +3682,9 @@
 	ScriptedSeq.Toilet_Flush_Occ = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 400.000000
-		use_hrtf = 1.000000
+		volume = 1.2
+		volume_falloff_min = 400.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3893,7 +3694,7 @@
 	ScriptedSeq.Chair_Fall_Impact = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
+		volume = 0.9
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3903,9 +3704,9 @@
 	ScriptedSeq.A3_Electrics_Explosion = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		occlusion_scale = 0.200000
-		occlusion_radius = 50.000000
+		use_hrtf = 1.0
+		occlusion_scale = 0.2
+		occlusion_radius = 50.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3942,9 +3743,9 @@
 	ScriptedSeq.A4_Antlion_Car_Smash_Hit = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 400.000000
-		use_hrtf = 1.000000
+		volume = 1.2
+		volume_falloff_min = 400.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3954,9 +3755,9 @@
 	ScriptedSeq.A4_Antlion_Car_Smash_Land = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 400.000000
-		use_hrtf = 1.000000
+		volume = 1.2
+		volume_falloff_min = 400.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3966,9 +3767,9 @@
 	ScriptedSeq.A4_Antlion_Window_Smash_In = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 400.000000
-		use_hrtf = 1.000000
+		volume = 1.2
+		volume_falloff_min = 400.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3978,9 +3779,9 @@
 	ScriptedSeq.A4_Antlion_Window_Smash_Out = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_min = 400.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		volume_falloff_min = 400.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -3990,10 +3791,10 @@
 	ScriptedSeq.A4_Parking_Garage_Fire_Hazard_Loop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_fade_in = 0.500000
-		use_hrtf = 1.000000
-		volume_falloff_max = 500.000000
+		volume = 1.0
+		volume_fade_in = 0.5
+		use_hrtf = 1.0
+		volume_falloff_max = 500.0
 		mixgroup = "ScriptedSequence"
 		should_pause = true
 		vsnd_files = 
@@ -4004,8 +3805,8 @@
 	ScriptedSeq.A4_Parking_Garage_Fire_Hazard_Start = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -4015,16 +3816,16 @@
 	ScriptedSeq.TrainCrashWallImpact = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		volume_falloff_min = 2000.000000
-		volume_falloff_max = 4000.000000
+		volume = 1.4
+		volume_falloff_min = 2000.0
+		volume_falloff_max = 4000.0
 		use_named_send = "loud"
-		spread_min = 300.000000
-		spread_max = 500.000000
-		use_hrtf = 1.000000
-		hrtf_mix = 0.200000
-		occlusion_scale = 0.100000
-		occlusion_radius = 250.000000
+		spread_min = 300.0
+		spread_max = 500.0
+		use_hrtf = 1.0
+		hrtf_mix = 0.2
+		occlusion_scale = 0.1
+		occlusion_radius = 250.0
 		should_pause = true
 		mixgroup = "LoudEvents"
 		vsnd_files = 
@@ -4035,12 +3836,12 @@
 	ScriptedSeq.TrainCrashOverpassPreHit = 
 	{
 		type = "hlvr_default_3d"
-		volume = 2.000000
-		volume_falloff_min = 2000.000000
-		volume_falloff_max = 4000.000000
+		volume = 2.0
+		volume_falloff_min = 2000.0
+		volume_falloff_max = 4000.0
 		use_named_send = "loud"
-		occlusion_scale = 0.100000
-		occlusion_radius = 250.000000
+		occlusion_scale = 0.1
+		occlusion_radius = 250.0
 		should_pause = true
 		mixgroup = "LoudEvents"
 		vsnd_files = 
@@ -4051,16 +3852,16 @@
 	ScriptedSeq.TrainCrashOverpassImpact = 
 	{
 		type = "hlvr_default_3d"
-		volume = 2.000000
-		volume_falloff_min = 2000.000000
-		volume_falloff_max = 4000.000000
+		volume = 2.0
+		volume_falloff_min = 2000.0
+		volume_falloff_max = 4000.0
 		use_named_send = "loud"
-		spread_min = 300.000000
-		spread_max = 500.000000
-		use_hrtf = 1.000000
-		hrtf_mix = 0.200000
-		occlusion_scale = 0.100000
-		occlusion_radius = 250.000000
+		spread_min = 300.0
+		spread_max = 500.0
+		use_hrtf = 1.0
+		hrtf_mix = 0.2
+		occlusion_scale = 0.1
+		occlusion_radius = 250.0
 		should_pause = true
 		mixgroup = "LoudEvents"
 		vsnd_files = 
@@ -4071,12 +3872,12 @@
 	ScriptedSeq.TrainCrashTrainWhistle = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
+		volume = 1.4
 		use_named_send = "loud"
-		volume_falloff_min = 2000.000000
-		volume_falloff_max = 4000.000000
-		occlusion_scale = 0.100000
-		occlusion_radius = 250.000000
+		volume_falloff_min = 2000.0
+		volume_falloff_max = 4000.0
+		occlusion_scale = 0.1
+		occlusion_radius = 250.0
 		should_pause = true
 		mixgroup = "LoudEvents"
 		vsnd_files = 
@@ -4087,12 +3888,12 @@
 	ScriptedSeq.TrainCrashTrainWhistlePassBy = 
 	{
 		type = "hlvr_default_3d"
-		volume = 2.000000
+		volume = 2.0
 		use_named_send = "loud"
-		volume_falloff_min = 2000.000000
-		volume_falloff_max = 4000.000000
-		occlusion_scale = 0.100000
-		occlusion_radius = 250.000000
+		volume_falloff_min = 2000.0
+		volume_falloff_max = 4000.0
+		occlusion_scale = 0.1
+		occlusion_radius = 250.0
 		should_pause = true
 		mixgroup = "LoudEvents"
 		vsnd_files = 
@@ -4103,11 +3904,11 @@
 	ScriptedSeq.TrainCrashPassBy = 
 	{
 		type = "hlvr_default_3d"
-		volume = 2.000000
-		volume_falloff_min = 2000.000000
-		volume_falloff_max = 4000.000000
-		occlusion_scale = 0.100000
-		occlusion_radius = 250.000000
+		volume = 2.0
+		volume_falloff_min = 2000.0
+		volume_falloff_max = 4000.0
+		occlusion_scale = 0.1
+		occlusion_radius = 250.0
 		should_pause = true
 		mixgroup = "LoudEvents"
 		vsnd_files = 
@@ -4118,11 +3919,11 @@
 	ScriptedSeq.TrainCrashPostCrashSteam = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_min = 2000.000000
-		volume_falloff_max = 4000.000000
-		occlusion_scale = 0.100000
-		occlusion_radius = 250.000000
+		volume = 1.0
+		volume_falloff_min = 2000.0
+		volume_falloff_max = 4000.0
+		occlusion_scale = 0.1
+		occlusion_radius = 250.0
 		should_pause = true
 		mixgroup = "LoudEvents"
 		vsnd_files = 
@@ -4133,9 +3934,9 @@
 	ScriptedSeq.TrainCrashPostDebrisCrash = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.300000
-		volume_falloff_min = 500.000000
-		volume_falloff_max = 900.000000
+		volume = 1.3
+		volume_falloff_min = 500.0
+		volume_falloff_max = 900.0
 		should_pause = true
 		mixgroup = "LoudEvents"
 		vsnd_files = 
@@ -4146,9 +3947,9 @@
 	ScriptedSeq.TrainCrashPostDebrisChunk = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.300000
-		volume_falloff_min = 500.000000
-		volume_falloff_max = 900.000000
+		volume = 1.3
+		volume_falloff_min = 500.0
+		volume_falloff_max = 900.0
 		should_pause = true
 		mixgroup = "LoudEvents"
 		vsnd_files = 
@@ -4159,11 +3960,11 @@
 	ScriptedSeq.TrainCrashSmokeStackInitialExplosion = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_min = 2000.000000
-		volume_falloff_max = 4000.000000
-		occlusion_scale = 0.100000
-		occlusion_radius = 250.000000
+		volume = 1.0
+		volume_falloff_min = 2000.0
+		volume_falloff_max = 4000.0
+		occlusion_scale = 0.1
+		occlusion_radius = 250.0
 		should_pause = true
 		mixgroup = "LoudEvents"
 		vsnd_files = 
@@ -4174,12 +3975,12 @@
 	ScriptedSeq.TrainCrashApproach = 
 	{
 		type = "hlvr_default_3d"
-		volume = 2.000000
+		volume = 2.0
 		use_named_send = "loud"
-		volume_falloff_min = 2000.000000
-		volume_falloff_max = 4000.000000
-		occlusion_scale = 0.100000
-		occlusion_radius = 250.000000
+		volume_falloff_min = 2000.0
+		volume_falloff_max = 4000.0
+		occlusion_scale = 0.1
+		occlusion_radius = 250.0
 		should_pause = true
 		mixgroup = "LoudEvents"
 		vsnd_files = 
@@ -4190,9 +3991,9 @@
 	ScriptedSeq.TrainCrashTrackChange = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 550.000000
+		volume = 0.75
+		volume_falloff_min = 250.0
+		volume_falloff_max = 550.0
 		should_pause = true
 		mixgroup = "LoudEvents"
 		vsnd_files = 
@@ -4204,18 +4005,18 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "ScriptedSeq.TrainCrashPostDebrisSettleChild"
-		random_soundevent_01_timer_min = 7.000000
-		random_soundevent_01_timer_max = 14.000000
+		random_soundevent_01_timer_min = 7.0
+		random_soundevent_01_timer_max = 14.0
 	}
 	ScriptedSeq.TrainCrashPostDebrisSettleChild = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 800.000000
-		distance_max = 801.000000
-		occlusion_scale = 0.100000
-		occlusion_radius = 250.000000
+		volume = 0.5
+		volume_falloff_min = 400.0
+		volume_falloff_max = 800.0
+		distance_max = 801.0
+		occlusion_scale = 0.1
+		occlusion_radius = 250.0
 		should_pause = true
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
@@ -4230,19 +4031,19 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "ScriptedSeq.TrainCrashPostMetalClunkChild01"
-		random_soundevent_01_timer_min = 7.000000
-		random_soundevent_01_timer_max = 14.000000
+		random_soundevent_01_timer_min = 7.0
+		random_soundevent_01_timer_max = 14.0
 	}
 	ScriptedSeq.TrainCrashPostMetalClunkChild01 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		delay = 6.000000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 800.000000
-		distance_max = 801.000000
-		occlusion_scale = 0.100000
-		occlusion_radius = 250.000000
+		volume = 1.0
+		delay = 6.0
+		volume_falloff_min = 400.0
+		volume_falloff_max = 800.0
+		distance_max = 801.0
+		occlusion_scale = 0.1
+		occlusion_radius = 250.0
 		should_pause = true
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
@@ -4260,19 +4061,19 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "ScriptedSeq.TrainCrashPostMetalClunkChild02"
-		random_soundevent_01_timer_min = 7.000000
-		random_soundevent_01_timer_max = 14.000000
+		random_soundevent_01_timer_min = 7.0
+		random_soundevent_01_timer_max = 14.0
 	}
 	ScriptedSeq.TrainCrashPostMetalClunkChild02 = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		delay = 12.000000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 800.000000
-		distance_max = 801.000000
-		occlusion_scale = 0.100000
-		occlusion_radius = 250.000000
+		volume = 1.0
+		delay = 12.0
+		volume_falloff_min = 400.0
+		volume_falloff_max = 800.0
+		distance_max = 801.0
+		occlusion_scale = 0.1
+		occlusion_radius = 250.0
 		should_pause = true
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
@@ -4290,18 +4091,18 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "ScriptedSeq.TrainCrashPostSteamIntermittentChild"
-		random_soundevent_01_timer_min = 5.000000
-		random_soundevent_01_timer_max = 10.000000
+		random_soundevent_01_timer_min = 5.0
+		random_soundevent_01_timer_max = 10.0
 	}
 	ScriptedSeq.TrainCrashPostSteamIntermittentChild = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 800.000000
-		distance_max = 801.000000
-		occlusion_scale = 0.100000
-		occlusion_radius = 250.000000
+		volume = 0.4
+		volume_falloff_min = 400.0
+		volume_falloff_max = 800.0
+		distance_max = 801.0
+		occlusion_scale = 0.1
+		occlusion_radius = 250.0
 		should_pause = true
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
@@ -4316,12 +4117,12 @@
 	ScriptedSeq.TrainCrashPostSteamSteadyLp = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.400000
-		volume_falloff_min = 400.000000
-		volume_falloff_max = 800.000000
-		cull_at_distance = 801.000000
-		occlusion_scale = 0.100000
-		occlusion_radius = 250.000000
+		volume = 0.4
+		volume_falloff_min = 400.0
+		volume_falloff_max = 800.0
+		cull_at_distance = 801.0
+		occlusion_scale = 0.1
+		occlusion_radius = 250.0
 		should_pause = true
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
@@ -4333,24 +4134,24 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "ScriptedSeq.TrainCrashPostMetal_Strain_Child"
-		random_soundevent_01_timer_min = 3.000000
-		random_soundevent_01_timer_max = 12.000000
+		random_soundevent_01_timer_min = 3.0
+		random_soundevent_01_timer_max = 12.0
 	}
 	ScriptedSeq.TrainCrashPostMetal_Strain_B = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "ScriptedSeq.TrainCrashPostMetal_Strain_Child"
-		random_soundevent_01_timer_min = 6.000000
-		random_soundevent_01_timer_max = 15.000000
+		random_soundevent_01_timer_min = 6.0
+		random_soundevent_01_timer_max = 15.0
 	}
 	ScriptedSeq.TrainCrashPostMetal_Strain_Child = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_min = 400.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
-		distance_max = 1500.000000
+		volume = 1.0
+		volume_falloff_min = 400.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
+		distance_max = 1500.0
 		should_pause = true
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
@@ -4370,12 +4171,12 @@
 	ScriptedSeq.TrainCrashPostMetal_Strain_Initial = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_min = 400.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		volume_falloff_min = 400.0
+		use_hrtf = 1.0
 		should_pause = true
 		mixgroup = "ScriptedSequence"
-		occlusion_scale = 0.000000
+		occlusion_scale = 0.0
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/a2/train_crash/post_crash_metal_strain_initial.vsnd",
@@ -4384,13 +4185,13 @@
 	ScriptedSeq.Headcrab_Chainlink_Hang_Bite = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		use_hrtf = 1.000000
+		volume = 0.75
+		use_hrtf = 1.0
 		mixgroup = "Headcrabs"
-		occlusion_scale = 0.800000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
-		distance_max = 501.000000
+		occlusion_scale = 0.8
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
+		distance_max = 501.0
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_classic/onface/chomp_01.vsnd",
@@ -4408,13 +4209,13 @@
 	ScriptedSeq.Headcrab_Chainlink_Hang_Slobber = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.750000
-		use_hrtf = 1.000000
+		volume = 0.75
+		use_hrtf = 1.0
 		mixgroup = "Headcrabs"
-		occlusion_scale = 0.800000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
-		distance_max = 501.000000
+		occlusion_scale = 0.8
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
+		distance_max = 501.0
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_classic/onface/slobber_01.vsnd",
@@ -4444,13 +4245,13 @@
 	ScriptedSeq.Headcrab_Chainlink_Hang_Click = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.550000
-		use_hrtf = 1.000000
+		volume = 0.55
+		use_hrtf = 1.0
 		mixgroup = "Headcrabs"
-		occlusion_scale = 0.800000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
-		distance_max = 501.000000
+		occlusion_scale = 0.8
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
+		distance_max = 501.0
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_classic/onface/click_01.vsnd",
@@ -4477,17 +4278,17 @@
 		soundevent_01 = "ScriptedSeq.Headcrab_Chainlink_Impact_Core"
 		soundevent_02 = "ScriptedSeq.Headcrab_Chainlink_Impact_Layer"
 		soundevent_03 = "ScriptedSeq.Headcrab_Chainlink_Rattle"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
 	}
 	ScriptedSeq.Headcrab_Chainlink_Impact_Core = 
 	{
 		base = "ScriptedSeq.Static_Base"
-		pitch = 1.100000
-		occlusion_scale = 0.300000
-		occlusion_radius = 50.000000
-		volume_falloff_max = 1000.000000
+		pitch = 1.1
+		occlusion_scale = 0.3
+		occlusion_radius = 50.0
+		volume_falloff_max = 1000.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -4501,10 +4302,10 @@
 	ScriptedSeq.Headcrab_Chainlink_Impact_Layer = 
 	{
 		base = "ScriptedSeq.Static_Base"
-		volume = 0.800000
-		occlusion_scale = 0.900000
-		occlusion_radius = 50.000000
-		volume_falloff_max = 1000.000000
+		volume = 0.8
+		occlusion_scale = 0.9
+		occlusion_radius = 50.0
+		volume_falloff_max = 1000.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -4514,12 +4315,12 @@
 	ScriptedSeq.Headcrab_Chainlink_Rattle = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		occlusion_scale = 0.800000
-		volume_falloff_max = 500.000000
+		volume = 0.7
+		occlusion_scale = 0.8
+		volume_falloff_max = 500.0
 		mixgroup = "ScriptedSequence"
-		volume_falloff_min = 50.000000
-		distance_max = 501.000000
+		volume_falloff_min = 50.0
+		distance_max = 501.0
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/a2/chainlink/chainlink_rattle_01.vsnd",
@@ -4532,12 +4333,12 @@
 	ScriptedSeq.Headcrab_Chainlink_Rattle_Light = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		occlusion_scale = 0.800000
-		volume_falloff_max = 500.000000
+		volume = 0.7
+		occlusion_scale = 0.8
+		volume_falloff_max = 500.0
 		mixgroup = "ScriptedSequence"
-		volume_falloff_min = 50.000000
-		distance_max = 501.000000
+		volume_falloff_min = 50.0
+		distance_max = 501.0
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/reviver/room_escape/chainlink_step_light_01.vsnd",
@@ -4554,12 +4355,12 @@
 	ScriptedSeq.Headcrab_Chainlink_Tap = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		occlusion_scale = 0.800000
-		volume_falloff_max = 500.000000
+		volume = 0.7
+		occlusion_scale = 0.8
+		volume_falloff_max = 500.0
 		mixgroup = "ScriptedSequence"
-		volume_falloff_min = 50.000000
-		distance_max = 501.000000
+		volume_falloff_min = 50.0
+		distance_max = 501.0
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/a2/chainlink/chainlink_tap_01.vsnd",
@@ -4590,9 +4391,9 @@
 	ScriptedSeq.Headcrab_Mannequin_Jump_Off = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		pitch = 0.900000
-		occlusion_scale = 0.800000
+		volume = 0.8
+		pitch = 0.9
+		occlusion_scale = 0.8
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -4607,10 +4408,10 @@
 	ScriptedSeq.Headcrab_Mannequin_Grunt = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		occlusion_scale = 0.700000
-		volume_falloff_max = 800.000000
-		distance_max = 801.000000
+		volume = 0.9
+		occlusion_scale = 0.7
+		volume_falloff_max = 800.0
+		distance_max = 801.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -4632,17 +4433,17 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ScriptedSeq.Headcrab_Zoo_Window_Impact_Clean_Child"
 		soundevent_02 = "ScriptedSeq.Headcrab_Zoo_Window_Impact_FX"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ScriptedSeq.Headcrab_Zoo_Window_Impact_Clean_Child = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 300.000000
-		volume_falloff_max = 1500.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
+		volume = 1.2
+		volume_falloff_min = 300.0
+		volume_falloff_max = 1500.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
 		mixgroup = "ScriptedSequence_Loud"
 		vsnd_files = 
 		[
@@ -4652,11 +4453,11 @@
 	ScriptedSeq.Headcrab_Zoo_Window_Impact_FX = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_min = 300.000000
-		volume_falloff_max = 1500.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
+		volume = 1.0
+		volume_falloff_min = 300.0
+		volume_falloff_max = 1500.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -4666,11 +4467,11 @@
 	ScriptedSeq.Headcrab_Zoo_Window_Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.100000
-		volume_falloff_min = 300.000000
-		volume_falloff_max = 800.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
+		volume = 1.1
+		volume_falloff_min = 300.0
+		volume_falloff_max = 800.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
 		mixgroup = "ScriptedSequence"
 	}
 	ScriptedSeq.Headcrab_Zoo_Window_Escape_Rattle = 
@@ -4684,7 +4485,7 @@
 	ScriptedSeq.Headcrab_Zoo_Window_Vox_Attack_Window = 
 	{
 		base = "ScriptedSeq.Headcrab_Zoo_Window_Base"
-		volume = 1.200000
+		volume = 1.2
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_classic/scripted/zoo/vox_attack_window.vsnd",
@@ -4805,7 +4606,7 @@
 	ScriptedSeq.Headcrab_Zoo_Window_Vent_Step = 
 	{
 		base = "ScriptedSeq.Headcrab_Zoo_Window_Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/creatures/headcrab_reviver/vent/vent_step_21.vsnd",
@@ -4870,12 +4671,12 @@
 	ScriptedSeq.A4_Water_Tower_Pigeon_Flock = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		delay = 0.500000
-		volume_falloff_min = 6000.000000
-		volume_falloff_max = 9000.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.000000
+		volume = 1.4
+		delay = 0.5
+		volume_falloff_min = 6000.0
+		volume_falloff_max = 9000.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -4885,8 +4686,8 @@
 	ScriptedSeq.A4_Water_Tower_Falling_Stair = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -4896,7 +4697,7 @@
 	ScriptedSeq.Vault_ClownDoor_Break = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -4906,7 +4707,7 @@
 	ScriptedSeq.Vault_ClownDoor_Impact = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -4916,7 +4717,7 @@
 	ScriptedSeq.Vault_Assemble_Lightning = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -4926,9 +4727,9 @@
 	ScriptedSeq.Vault_MR_Thud_A = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 600.000000
-		use_hrtf = 1.000000
+		volume = 1.2
+		volume_falloff_min = 600.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -4938,9 +4739,9 @@
 	ScriptedSeq.Vault_MR_Thud_B = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 600.000000
-		use_hrtf = 1.000000
+		volume = 1.2
+		volume_falloff_min = 600.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -4954,13 +4755,13 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ScriptedSeq.Vault_MR_Open_Suck_A"
 		soundevent_02 = "ScriptedSeq.Vault_MR_Open_Suck_B"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ScriptedSeq.Vault_MR_Open_Suck_A = 
 	{
 		type = "src1_2d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -4970,7 +4771,7 @@
 	ScriptedSeq.Vault_MR_Open_Suck_B = 
 	{
 		type = "src1_2d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -4980,7 +4781,7 @@
 	ScriptedSeq.Vault_MR_Exit_Transition = 
 	{
 		type = "src1_2d"
-		volume = 0.900000
+		volume = 0.9
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -4990,13 +4791,13 @@
 	ScriptedSeq.Vault_MR_Exit_Loop = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_fade_in = 0.500000
-		volume_fade_out = 2.000000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 800.000000
-		use_hrtf = 1.000000
-		occlusion_scale = 0.500000
+		volume = 1.0
+		volume_fade_in = 0.5
+		volume_fade_out = 2.0
+		volume_falloff_min = 100.0
+		volume_falloff_max = 800.0
+		use_hrtf = 1.0
+		occlusion_scale = 0.5
 		mixgroup = "ScriptedSequence"
 		should_pause = true
 		vsnd_files = 
@@ -5009,13 +4810,13 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ScriptedSeq.InnerVault_Machine_Start_Moving_Dry"
 		soundevent_02 = "ScriptedSeq.InnerVault_Machine_Start_Moving_Wet"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ScriptedSeq.InnerVault_Machine_Start_Moving_Dry = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
+		volume = 1.2
 		mixgroup = "ScriptedSequence_Loud"
 		vsnd_files = 
 		[
@@ -5025,7 +4826,7 @@
 	ScriptedSeq.InnerVault_Machine_Start_Moving_Wet = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5035,7 +4836,7 @@
 	ScriptedSeq.InnerVault_Powerdown = 
 	{
 		type = "src1_2d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5046,7 +4847,7 @@
 	ScriptedSeq.InnerVault_Powerup = 
 	{
 		type = "src1_2d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5057,7 +4858,7 @@
 	ScriptedSeq.GmanTeleport = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5067,8 +4868,8 @@
 	ScriptedSeq.Gman_Blur_A = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.850000
-		use_hrtf = 1.000000
+		volume = 0.85
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5080,14 +4881,14 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ScriptedSeq.Gman_Blur_B_Core"
 		soundevent_02 = "ScriptedSeq.Gman_Blur_B_Layer"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ScriptedSeq.Gman_Blur_B_Core = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.850000
-		use_hrtf = 1.000000
+		volume = 0.85
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5097,7 +4898,7 @@
 	ScriptedSeq.Gman_Blur_B_Layer = 
 	{
 		type = "src1_2d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5107,8 +4908,8 @@
 	ScriptedSeq.Gman_Blur_C = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.850000
-		use_hrtf = 1.000000
+		volume = 0.85
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5118,9 +4919,9 @@
 	ScriptedSeq.Gman_Blur_D = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		pitch = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.7
+		pitch = 0.9
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5130,8 +4931,8 @@
 	ScriptedSeq.Gman_Vault_Step_Shuffle_A = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.5
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5141,8 +4942,8 @@
 	ScriptedSeq.Gman_Vault_Step_Shuffle_B = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.5
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5152,8 +4953,8 @@
 	ScriptedSeq.Gman_Vault_Grab_Suitcase = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.5
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5163,8 +4964,8 @@
 	ScriptedSeq.Gman_Vault_Lift_Suitcase = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		use_hrtf = 1.000000
+		volume = 0.5
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5174,8 +4975,8 @@
 	ScriptedSeq.Gman_Vault_Step_Walk_A = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		use_hrtf = 1.000000
+		volume = 0.8
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5185,8 +4986,8 @@
 	ScriptedSeq.Gman_Vault_Step_Walk_B = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5196,8 +4997,8 @@
 	ScriptedSeq.Gman_Vault_Step_Walk_C = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.650000
-		use_hrtf = 1.000000
+		volume = 0.65
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5207,7 +5008,7 @@
 	ScriptedSeq.Gman_Vault_Turn = 
 	{
 		type = "src1_2d"
-		volume = 0.600000
+		volume = 0.6
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5217,7 +5018,7 @@
 	ScriptedSeq.Gman_Vault_Vanish = 
 	{
 		type = "src1_2d"
-		volume = 0.900000
+		volume = 0.9
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5227,7 +5028,7 @@
 	ScriptedSeq.Gman_Void_Release_Crowbar = 
 	{
 		type = "src1_2d"
-		volume = 0.650000
+		volume = 0.65
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5237,10 +5038,10 @@
 	ScriptedSeq.Gman_Void_Step_Walk = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 1000.000000
+		volume = 0.9
+		use_hrtf = 1.0
+		volume_falloff_min = 100.0
+		volume_falloff_max = 1000.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5260,7 +5061,7 @@
 	ScriptedSeq.Gman_Void_Step_Walk_Backwards = 
 	{
 		base = "ScriptedSeq.Gman_Void_Step_Walk"
-		volume = 0.650000
+		volume = 0.65
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/a5/ending/gman_steps/gman_step_backwards_01.vsnd",
@@ -5271,7 +5072,7 @@
 	ScriptedSeq.Gman_Void_Step_Tap = 
 	{
 		base = "ScriptedSeq.Gman_Void_Step_Walk"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5285,7 +5086,7 @@
 	ScriptedSeq.Gman_Void_Step_StopScuff = 
 	{
 		base = "ScriptedSeq.Gman_Void_Step_Walk"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5307,7 +5108,7 @@
 	ScriptedSeq.Ending_Gman_Whitedoor_Open = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
+		volume = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5317,7 +5118,7 @@
 	ScriptedSeq.Ending_Gman_Whitedoor_Close = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
+		volume = 0.9
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5327,7 +5128,7 @@
 	ScriptedSeq.Ending_Transition_Leave_Vault = 
 	{
 		type = "src1_2d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5337,7 +5138,7 @@
 	ScriptedSeq.Ending_Transition_Timelock = 
 	{
 		type = "src1_2d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5347,7 +5148,7 @@
 	ScriptedSeq.Ending_Transition_To_Planet = 
 	{
 		type = "src1_2d"
-		volume = 0.900000
+		volume = 0.9
 		mixgroup = "ScriptedSequence_Loud"
 		vsnd_files = 
 		[
@@ -5357,7 +5158,7 @@
 	ScriptedSeq.Ending_Transition_White_From_Suitcase = 
 	{
 		type = "src1_2d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5367,7 +5168,7 @@
 	ScriptedSeq.Ending_Transition_White_To_Kill_Advisor = 
 	{
 		type = "src1_2d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5377,7 +5178,7 @@
 	ScriptedSeq.Ending_Suit_Fade_In = 
 	{
 		type = "src1_2d"
-		volume = 1.100000
+		volume = 1.1
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5387,8 +5188,8 @@
 	ScriptedSeq.Ending_Advisor_Grunt_Alerted = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.900000
-		use_hrtf = 1.000000
+		volume = 0.9
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5398,8 +5199,8 @@
 	ScriptedSeq.Ending_Advisor_Death_Arm_Clatter = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		use_hrtf = 1.000000
+		volume = 0.7
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5411,15 +5212,15 @@
 		type = "hlvr_start_multi"
 		soundevent_01 = "ScriptedSeq.Ending_Advisor_Death_Impact_Core"
 		soundevent_02 = "ScriptedSeq.Ending_Advisor_Death_Impact_Layer"
-		use_01 = 1.000000
-		use_02 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
 	}
 	ScriptedSeq.Ending_Advisor_Death_Impact_Core = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.700000
-		volume_falloff_min = 500.000000
-		use_hrtf = 1.000000
+		volume = 0.7
+		volume_falloff_min = 500.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5429,9 +5230,9 @@
 	ScriptedSeq.Ending_Advisor_Death_Impact_Layer = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		volume_falloff_min = 500.000000
-		use_hrtf = 1.000000
+		volume = 0.8
+		volume_falloff_min = 500.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5441,7 +5242,7 @@
 	ScriptedSeq.Ending_Advisor_Death_Impact_Reverb = 
 	{
 		type = "src1_2d"
-		volume = 0.800000
+		volume = 0.8
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5451,9 +5252,9 @@
 	ScriptedSeq.Ending_Advisor_Scream_Death = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		volume_falloff_min = 500.000000
-		use_hrtf = 1.000000
+		volume = 0.8
+		volume_falloff_min = 500.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5463,7 +5264,7 @@
 	ScriptedSeq.Ending_Eli_Bodyfall_Impact = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
 		[
@@ -5473,9 +5274,9 @@
 	ScriptedSeq.Ending_Reversal_Eli = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		volume_falloff_min = 500.000000
-		use_hrtf = 1.000000
+		volume = 0.8
+		volume_falloff_min = 500.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		should_pause = true
 		vsnd_files = 
@@ -5490,9 +5291,9 @@
 	ScriptedSeq.Ending_Reversal_Alyx = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		volume_falloff_max = 300.000000
-		use_hrtf = 1.000000
+		volume = 0.5
+		volume_falloff_max = 300.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		should_pause = true
 		vsnd_files = 
@@ -5503,9 +5304,9 @@
 	ScriptedSeq.Ending_Reversal_Advisor = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		volume_falloff_min = 600.000000
-		use_hrtf = 1.000000
+		volume = 1.0
+		volume_falloff_min = 600.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 		should_pause = true
 		vsnd_files = 
@@ -5516,10 +5317,10 @@
 	ScriptedSeq.Ending_Foley_Alyx_Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 400.000000
-		use_hrtf = 1.000000
+		volume = 0.2
+		volume_falloff_min = 50.0
+		volume_falloff_max = 400.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 	}
 	ScriptedSeq.Ending_Foley_Alyx_Shake_Eli_Long = 
@@ -5573,10 +5374,10 @@
 	ScriptedSeq.Ending_Foley_Gordon_Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 400.000000
-		use_hrtf = 1.000000
+		volume = 0.2
+		volume_falloff_min = 50.0
+		volume_falloff_max = 400.0
+		use_hrtf = 1.0
 		mixgroup = "ScriptedSequence"
 	}
 	ScriptedSeq.Ending_Foley_Gordon_Bend = 
@@ -5654,19 +5455,19 @@
 	ScriptedSeq.Ending_Foley_Eli_Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.200000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 400.000000
+		volume = 0.2
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 400.0
 		mixgroup = "ScriptedSequence"
 	}
 	ScriptedSeq.Ending_Foley_Eli_Step_Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
+		volume = 0.3
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
 		mixgroup = "ScriptedSequence"
 	}
 	ScriptedSeq.Ending_Foley_Eli_OnGround_A = 
@@ -5840,19 +5641,19 @@
 	ScriptedSeq.Epilogue_Foley_Eli_Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.150000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 300.000000
+		volume = 0.15
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 300.0
 		mixgroup = "ScriptedSequence"
 	}
 	ScriptedSeq.Epilogue_Foley_Eli_Step_Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		use_hrtf = 1.000000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 500.000000
+		volume = 0.3
+		use_hrtf = 1.0
+		volume_falloff_min = 50.0
+		volume_falloff_max = 500.0
 		mixgroup = "ScriptedSequence"
 	}
 	ScriptedSeq.Epilogue_Foley_Eli_A = 
@@ -5906,7 +5707,7 @@
 	ScriptedSeq.Epilogue_Foley_Eli_F = 
 	{
 		base = "ScriptedSeq.Epilogue_Foley_Eli_Base"
-		volume = 0.950000
+		volume = 0.95
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/a5/ending/foley/eli_epilogue_foley_f_shake.vsnd",
@@ -6123,11 +5924,11 @@
 	ScriptedSeq.Epilogue_Heli_Rattle_Impact = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.400000
-		volume_falloff_min = 500.000000
-		volume_falloff_max = 3500.000000
-		use_hrtf = 1.000000
-		hrtf_mix = 0.500000
+		volume = 1.4
+		volume_falloff_min = 500.0
+		volume_falloff_max = 3500.0
+		use_hrtf = 1.0
+		hrtf_mix = 0.5
 		mixgroup = "ScriptedSequence_Loud"
 		vsnd_files = 
 		[
@@ -6137,11 +5938,11 @@
 	ScriptedSeq.Epilogue_Heli_Rattle_Jumpoff = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		volume_falloff_min = 500.000000
-		volume_falloff_max = 3500.000000
-		use_hrtf = 1.000000
-		hrtf_mix = 0.500000
+		volume = 1.2
+		volume_falloff_min = 500.0
+		volume_falloff_max = 3500.0
+		use_hrtf = 1.0
+		hrtf_mix = 0.5
 		mixgroup = "ScriptedSequence_Loud"
 		vsnd_files = 
 		[
@@ -6151,17 +5952,17 @@
 	VortMagic.EnvironEnergyLp = 
 	{
 		base = "VortMagic.Pull"
-		volume = 0.500000
-		volume_fade_in = 0.250000
-		volume_fade_out = 0.500000
-		fade_over_time_x1 = 0.000000
-		fade_over_time_y1 = 1.000000
-		fade_over_time_x2 = 0.000000
-		fade_over_time_y2 = 1.000000
-		fade_over_time_x3 = 3.000000
-		fade_over_time_y3 = 0.800000
-		fade_over_time_x4 = 10.000000
-		fade_over_time_y4 = 0.500000
+		volume = 0.5
+		volume_fade_in = 0.25
+		volume_fade_out = 0.5
+		fade_over_time_x1 = 0.0
+		fade_over_time_y1 = 1.0
+		fade_over_time_x2 = 0.0
+		fade_over_time_y2 = 1.0
+		fade_over_time_x3 = 3.0
+		fade_over_time_y3 = 0.8
+		fade_over_time_x4 = 10.0
+		fade_over_time_y4 = 0.5
 		soundname_string = "VortMagic"
 		vsnd_files = 
 		[
@@ -6171,26 +5972,26 @@
 	VortMagic.EnergyTokenLp = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
-		ambient_ducking_pct = 0.500000
-		volume_falloff_min = 300.000000
-		volume_falloff_max = 1200.000000
-		volume_fade_in = 0.250000
-		volume_fade_out = 0.500000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.030000
-		use_hrtf = 1.000000
-		fade_over_time_x1 = 0.000000
-		fade_over_time_y1 = 1.000000
-		fade_over_time_x2 = 0.000000
-		fade_over_time_y2 = 1.000000
-		fade_over_time_x3 = 3.000000
-		fade_over_time_y3 = 0.800000
-		fade_over_time_x4 = 10.000000
-		fade_over_time_y4 = 0.500000
-		use_doppler = 1.000000
-		doppler_factor = 2.000000
-		doppler_factor_receding = 2.000000
+		volume = 0.8
+		ambient_ducking_pct = 0.5
+		volume_falloff_min = 300.0
+		volume_falloff_max = 1200.0
+		volume_fade_in = 0.25
+		volume_fade_out = 0.5
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.03
+		use_hrtf = 1.0
+		fade_over_time_x1 = 0.0
+		fade_over_time_y1 = 1.0
+		fade_over_time_x2 = 0.0
+		fade_over_time_y2 = 1.0
+		fade_over_time_x3 = 3.0
+		fade_over_time_y3 = 0.8
+		fade_over_time_x4 = 10.0
+		fade_over_time_y4 = 0.5
+		use_doppler = 1.0
+		doppler_factor = 2.0
+		doppler_factor_receding = 2.0
 		soundname_string = "TokenLp"
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
@@ -6201,18 +6002,18 @@
 	VortMagic.RaiseEli = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		ambient_ducking_pct = 0.600000
-		volume_falloff_min = 300.000000
-		volume_falloff_max = 1200.000000
+		volume = 1.2
+		ambient_ducking_pct = 0.6
+		volume_falloff_min = 300.0
+		volume_falloff_max = 1200.0
 		spread_min = 120
 		spread_max = 360
-		volume_fade_in = 0.000000
-		volume_fade_out = 0.500000
-		use_hrtf = 1.000000
-		use_doppler = 1.000000
-		doppler_factor = 2.000000
-		doppler_factor_receding = 2.000000
+		volume_fade_in = 0.0
+		volume_fade_out = 0.5
+		use_hrtf = 1.0
+		use_doppler = 1.0
+		doppler_factor = 2.0
+		doppler_factor_receding = 2.0
 		soundname_string = "RaiseEli"
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
@@ -6231,19 +6032,19 @@
 	VortMagic.EnergyTokenSmLp = 
 	{
 		base = "VortMagic.EnergyTokenLp"
-		volume = 0.700000
-		pitch = 1.400000
+		volume = 0.7
+		pitch = 1.4
 		soundname_string = "TokenLpSm"
 	}
 	VortMagic.EnergyTokenImpulse = 
 	{
 		base = "VortMagic.EnergyTokenLp"
-		volume = 1.000000
-		ambient_ducking_pct = 0.200000
-		volume_fade_in = 0.200000
-		volume_fade_out = 3.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.050000
+		volume = 1.0
+		ambient_ducking_pct = 0.2
+		volume_fade_in = 0.2
+		volume_fade_out = 3.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.05
 		soundname_string = "TokenImpulse"
 		vsnd_files = 
 		[
@@ -6256,9 +6057,9 @@
 	VortMagic.EnvironEnergyThin = 
 	{
 		base = "VortMagic.Pull"
-		volume = 0.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 3.000000
+		volume = 0.0
+		volume_fade_in = 0.2
+		volume_fade_out = 3.0
 		soundname_string = "VortMagic"
 		vsnd_files = 
 		[
@@ -6276,15 +6077,15 @@
 	VortMagic.EnvironEnergyThinBox = 
 	{
 		type = "hlvr_default_3d_on_aabb"
-		volume = 0.150000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 650.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 3.000000
-		volume_filter_amount = 0.400000
-		cull_at_distance = 700.000000
+		volume = 0.15
+		volume_falloff_min = 100.0
+		volume_falloff_max = 650.0
+		volume_fade_in = 0.2
+		volume_fade_out = 3.0
+		volume_filter_amount = 0.4
+		cull_at_distance = 700.0
 		mixgroup = "ScriptedSequence"
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		vsnd_files = 
 		[
 			"sounds/weapons/vort_magic/vort_energy_environ_thin_const_lp_01.vsnd",
@@ -6293,9 +6094,9 @@
 	VortMagic.EnvironEnergy = 
 	{
 		base = "VortMagic.Pull"
-		volume = 0.500000
-		volume_fade_in = 0.200000
-		volume_fade_out = 3.000000
+		volume = 0.5
+		volume_fade_in = 0.2
+		volume_fade_out = 3.0
 		soundname_string = "VortMagic"
 		vsnd_files = 
 		[
@@ -6313,9 +6114,9 @@
 	VortMagic.EnergyCharge = 
 	{
 		base = "VortMagic.Pull"
-		volume = 1.000000
-		volume_fade_in = 0.200000
-		volume_fade_out = 3.000000
+		volume = 1.0
+		volume_fade_in = 0.2
+		volume_fade_out = 3.0
 		soundname_string = "VortMagic"
 		vsnd_files = 
 		[
@@ -6326,12 +6127,12 @@
 	ScriptedSeq.HideoutEyeMagicBurst01 = 
 	{
 		type = "hlvr_ambient_burst"
-		burst_length_min = 8.000000
-		burst_length_max = 8.000000
-		delay_timer_min = 2.000000
-		delay_timer_max = 3.000000
+		burst_length_min = 8.0
+		burst_length_max = 8.0
+		delay_timer_min = 2.0
+		delay_timer_max = 3.0
 		soundevent_name = "ScriptedSeq.HideoutEyeMagicAnim01"
-		set_position_target = 0.000000
+		set_position_target = 0.0
 	}
 	ScriptedSeq.HideoutEyeMagicBurst02 = 
 	{
@@ -6341,10 +6142,10 @@
 	ScriptedSeq.HideoutEyeMagicBurst03 = 
 	{
 		base = "ScriptedSeq.HideoutEyeMagicBurst01"
-		burst_length_min = 3.000000
-		burst_length_max = 3.000000
-		delay_timer_min = 0.500000
-		delay_timer_max = 0.700000
+		burst_length_min = 3.0
+		burst_length_max = 3.0
+		delay_timer_min = 0.5
+		delay_timer_max = 0.7
 		soundevent_name = "ScriptedSeq.HideoutEyeMagicAnim03"
 	}
 	ScriptedSeq.HideoutEyeMagicBurst04 = 
@@ -6355,10 +6156,10 @@
 	ScriptedSeq.HideoutEyeMagicBurst05 = 
 	{
 		base = "ScriptedSeq.HideoutEyeMagicBurst01"
-		burst_length_min = 25.000000
-		burst_length_max = 25.000000
-		delay_timer_min = 1.200000
-		delay_timer_max = 2.000000
+		burst_length_min = 25.0
+		burst_length_max = 25.0
+		delay_timer_min = 1.2
+		delay_timer_max = 2.0
 		soundevent_name = "ScriptedSeq.HideoutEyeMagicAnim05"
 	}
 	ScriptedSeq.HideoutEyeMagicBurst06 = 
@@ -6369,10 +6170,10 @@
 	ScriptedSeq.HideoutEyeMagicBurst07 = 
 	{
 		base = "ScriptedSeq.HideoutEyeMagicBurst01"
-		burst_length_min = 20.000000
-		burst_length_max = 20.000000
-		delay_timer_min = 1.000000
-		delay_timer_max = 1.800000
+		burst_length_min = 20.0
+		burst_length_max = 20.0
+		delay_timer_min = 1.0
+		delay_timer_max = 1.8
 		soundevent_name = "ScriptedSeq.HideoutEyeMagicAnim07"
 	}
 	ScriptedSeq.HideoutEyeMagicBurst08 = 
@@ -6383,28 +6184,18 @@
 	ScriptedSeq.HideoutEyeMagicAnim01 = 
 	{
 		type = "hlvr_animate_soundevent"
-		position_source = 2.000000
-		animated_source = 0.000000
-		animated_target = 2.000000
-		unconstrained_target = 1.000000
+		position_source = 2.0
+		animated_source = 0.0
+		animated_target = 2.0
+		unconstrained_target = 1.0
 		animation_type = "lerp"
-		animation_time_min = 5.000000
-		animation_time_max = 7.000000
-		volume_fade_out = 1.500000
-		use_public_position = 0.000000
-		use_calculated_stop_at_time = 1.000000
-		anim_position_start = 
-		[
-			1149.390747,
-			538.913330,
-			-100.000000,
-		]
-		position_target = 
-		[
-			561.892090,
-			540.761597,
-			-50.000000,
-		]
+		animation_time_min = 5.0
+		animation_time_max = 7.0
+		volume_fade_out = 1.5
+		use_public_position = 0.0
+		use_calculated_stop_at_time = 1.0
+		anim_position_start = [ 1149.390747, 538.91333, -100.0 ]
+		position_target = [ 561.89209, 540.761597, -50.0 ]
 		soundevents = 
 		[
 			"ScriptedSeq.HideoutEyeMagicChild",
@@ -6413,128 +6204,58 @@
 	ScriptedSeq.HideoutEyeMagicAnim02 = 
 	{
 		base = "ScriptedSeq.HideoutEyeMagicAnim01"
-		anim_position_start = 
-		[
-			1149.390747,
-			640.913330,
-			-100.000000,
-		]
-		position_target = 
-		[
-			561.892090,
-			640.761597,
-			-50.000000,
-		]
+		anim_position_start = [ 1149.390747, 640.91333, -100.0 ]
+		position_target = [ 561.89209, 640.761597, -50.0 ]
 	}
 	ScriptedSeq.HideoutEyeMagicAnim03 = 
 	{
 		base = "ScriptedSeq.HideoutEyeMagicAnim01"
-		anim_position_start = 
-		[
-			215.354767,
-			963.571228,
-			-169.594482,
-		]
-		position_target = 
-		[
-			121.174942,
-			1361.466675,
-			-73.690491,
-		]
+		anim_position_start = [ 215.354767, 963.571228, -169.594482 ]
+		position_target = [ 121.174942, 1361.466675, -73.690491 ]
 	}
 	ScriptedSeq.HideoutEyeMagicAnim04 = 
 	{
 		base = "ScriptedSeq.HideoutEyeMagicAnim01"
-		anim_position_start = 
-		[
-			363.917725,
-			1050.784058,
-			-179.920776,
-		]
-		position_target = 
-		[
-			290.856659,
-			1414.417114,
-			-77.634399,
-		]
+		anim_position_start = [ 363.917725, 1050.784058, -179.920776 ]
+		position_target = [ 290.856659, 1414.417114, -77.634399 ]
 	}
 	ScriptedSeq.HideoutEyeMagicAnim05 = 
 	{
 		base = "ScriptedSeq.HideoutEyeMagicAnim01"
-		anim_position_start = 
-		[
-			-572.833008,
-			-1545.410034,
-			-280.006989,
-		]
-		position_target = 
-		[
-			-758.219971,
-			-1551.420044,
-			-280.006989,
-		]
+		anim_position_start = [ -572.833008, -1545.410034, -280.006989 ]
+		position_target = [ -758.219971, -1551.420044, -280.006989 ]
 	}
 	ScriptedSeq.HideoutEyeMagicAnim06 = 
 	{
 		base = "ScriptedSeq.HideoutEyeMagicAnim01"
-		anim_position_start = 
-		[
-			-758.219971,
-			-1551.420044,
-			-280.006989,
-		]
-		position_target = 
-		[
-			-572.833008,
-			-1545.410034,
-			-280.006989,
-		]
+		anim_position_start = [ -758.219971, -1551.420044, -280.006989 ]
+		position_target = [ -572.833008, -1545.410034, -280.006989 ]
 	}
 	ScriptedSeq.HideoutEyeMagicAnim07 = 
 	{
 		base = "ScriptedSeq.HideoutEyeMagicAnim01"
-		anim_position_start = 
-		[
-			-664.000000,
-			-1585.250000,
-			-460.865997,
-		]
-		position_target = 
-		[
-			-668.000000,
-			-1568.410034,
-			-215.865997,
-		]
+		anim_position_start = [ -664.0, -1585.25, -460.865997 ]
+		position_target = [ -668.0, -1568.410034, -215.865997 ]
 	}
 	ScriptedSeq.HideoutEyeMagicAnim08 = 
 	{
 		base = "ScriptedSeq.HideoutEyeMagicAnim01"
-		anim_position_start = 
-		[
-			-706.000000,
-			-1579.079956,
-			-461.063995,
-		]
-		position_target = 
-		[
-			-706.000000,
-			-1579.079956,
-			-215.865997,
-		]
+		anim_position_start = [ -706.0, -1579.079956, -461.063995 ]
+		position_target = [ -706.0, -1579.079956, -215.865997 ]
 	}
 	ScriptedSeq.HideoutEyeMagicChild = 
 	{
 		type = "hlvr_default_3d"
-		volume_rand_min = -0.100000
-		volume_rand_max = 0.100000
-		use_doppler = 1.000000
-		doppler_factor = 2.000000
-		doppler_factor_receding = 2.000000
-		volume = 0.450000
-		volume_fade_in = 0.000000
-		volume_fade_out = 3.000000
-		use_hrtf = 1.000000
-		hrtf_mix = 1.000000
+		volume_rand_min = -0.1
+		volume_rand_max = 0.1
+		use_doppler = 1.0
+		doppler_factor = 2.0
+		doppler_factor_receding = 2.0
+		volume = 0.45
+		volume_fade_in = 0.0
+		volume_fade_out = 3.0
+		use_hrtf = 1.0
+		hrtf_mix = 1.0
 		soundname_string = "VortMagic"
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
@@ -6557,27 +6278,27 @@
 		soundevent_02 = "ScriptedSeq.HideoutEyeMagic01_R"
 		soundevent_03 = "ScriptedSeq.HideoutEyeMagic01_LS"
 		soundevent_04 = "ScriptedSeq.HideoutEyeMagic01_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	ScriptedSeq.HideoutEyeMagic01_L = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
 		mixgroup = "ScriptedSequence"
 		use_named_send = "main"
-		radius = 250.000000
-		volume_falloff_min = 500.000000
-		volume_falloff_max = 500.000000
-		rotation_angle = 225.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 2.000000
+		radius = 250.0
+		volume_falloff_min = 500.0
+		volume_falloff_max = 500.0
+		rotation_angle = 225.0
+		volume_fade_in = 0.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
-		use_hrtf = 1.000000
-		ambient_ducking_pct = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
+		ambient_ducking_pct = 1.0
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/a2/hideout/vort_magic_scripted_hideout_eye_01_l.vsnd",
@@ -6586,7 +6307,7 @@
 	ScriptedSeq.HideoutEyeMagic01_R = 
 	{
 		base = "ScriptedSeq.HideoutEyeMagic01_L"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 		soundname_string = "RIGHT"
 		vsnd_files = 
 		[
@@ -6596,7 +6317,7 @@
 	ScriptedSeq.HideoutEyeMagic01_LS = 
 	{
 		base = "ScriptedSeq.HideoutEyeMagic01_L"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 		soundname_string = "LS"
 		vsnd_files = 
 		[
@@ -6606,7 +6327,7 @@
 	ScriptedSeq.HideoutEyeMagic01_RS = 
 	{
 		base = "ScriptedSeq.HideoutEyeMagic01_L"
-		rotation_angle = 45.000000
+		rotation_angle = 45.0
 		soundname_string = "RS"
 		vsnd_files = 
 		[
@@ -6620,27 +6341,27 @@
 		soundevent_02 = "ScriptedSeq.HideoutEyeMagic02_R"
 		soundevent_03 = "ScriptedSeq.HideoutEyeMagic02_LS"
 		soundevent_04 = "ScriptedSeq.HideoutEyeMagic02_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	ScriptedSeq.HideoutEyeMagic02_L = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
 		mixgroup = "ScriptedSequence"
 		use_named_send = "main"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 135.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 2.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 135.0
+		volume_fade_in = 0.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
-		use_hrtf = 1.000000
-		ambient_ducking_pct = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
+		ambient_ducking_pct = 1.0
 		soundname_string = "LEFT"
 		vsnd_files = 
 		[
@@ -6650,7 +6371,7 @@
 	ScriptedSeq.HideoutEyeMagic02_R = 
 	{
 		base = "ScriptedSeq.HideoutEyeMagic02_L"
-		rotation_angle = 45.000000
+		rotation_angle = 45.0
 		soundname_string = "RIGHT"
 		vsnd_files = 
 		[
@@ -6660,7 +6381,7 @@
 	ScriptedSeq.HideoutEyeMagic02_LS = 
 	{
 		base = "ScriptedSeq.HideoutEyeMagic02_L"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 		soundname_string = "LS"
 		vsnd_files = 
 		[
@@ -6670,7 +6391,7 @@
 	ScriptedSeq.HideoutEyeMagic02_RS = 
 	{
 		base = "ScriptedSeq.HideoutEyeMagic02_L"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 		soundname_string = "RS"
 		vsnd_files = 
 		[
@@ -6684,27 +6405,27 @@
 		soundevent_02 = "ScriptedSeq.HideoutPodMagic_R"
 		soundevent_03 = "ScriptedSeq.HideoutPodMagic_LS"
 		soundevent_04 = "ScriptedSeq.HideoutPodMagic_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	ScriptedSeq.HideoutPodMagic_L = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
 		mixgroup = "ScriptedSequence"
 		use_named_send = "ScriptedSeqPriority2"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 315.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 2.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 315.0
+		volume_fade_in = 0.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.400000
-		use_hrtf = 1.000000
-		ambient_ducking_pct = 1.000000
+		volume = 0.4
+		use_hrtf = 1.0
+		ambient_ducking_pct = 1.0
 		soundname_string = "LEFT"
 		vsnd_files = 
 		[
@@ -6714,7 +6435,7 @@
 	ScriptedSeq.HideoutPodMagic_R = 
 	{
 		base = "ScriptedSeq.HideoutPodMagic_L"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 		soundname_string = "RIGHT"
 		vsnd_files = 
 		[
@@ -6724,7 +6445,7 @@
 	ScriptedSeq.HideoutPodMagic_LS = 
 	{
 		base = "ScriptedSeq.HideoutPodMagic_L"
-		rotation_angle = 45.000000
+		rotation_angle = 45.0
 		soundname_string = "LEFT_SUR"
 		vsnd_files = 
 		[
@@ -6734,7 +6455,7 @@
 	ScriptedSeq.HideoutPodMagic_RS = 
 	{
 		base = "ScriptedSeq.HideoutPodMagic_L"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 		soundname_string = "RIGHT_SUR"
 		vsnd_files = 
 		[
@@ -6744,19 +6465,19 @@
 	ScriptedSeq.HideoutPodMagicFront01 = 
 	{
 		type = "hlvr_default_3d"
-		use_doppler = 1.000000
-		doppler_factor = 2.000000
-		doppler_factor_receding = 2.000000
-		volume = 1.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 3.000000
-		spread_min = 60.000000
-		spread_max = 180.000000
-		use_hrtf = 1.000000
-		hrtf_mix = 1.000000
+		use_doppler = 1.0
+		doppler_factor = 2.0
+		doppler_factor_receding = 2.0
+		volume = 1.0
+		volume_fade_in = 0.0
+		volume_fade_out = 3.0
+		spread_min = 60.0
+		spread_max = 180.0
+		use_hrtf = 1.0
+		hrtf_mix = 1.0
 		soundname_string = "VortMagic"
 		mixgroup = "ScriptedSequence"
-		ambient_ducking_pct = 0.600000
+		ambient_ducking_pct = 0.6
 		use_named_send = "ScriptedSeqPriority2"
 		vsnd_files = 
 		[
@@ -6790,8 +6511,8 @@
 	ScriptedSeq.HideoutPodMagicImpact = 
 	{
 		base = "ScriptedSeq.HideoutPodMagicFront01"
-		spread_min = 60.000000
-		spread_max = 120.000000
+		spread_min = 60.0
+		spread_max = 120.0
 		use_named_send = "ScriptedSeqPriority1"
 		vsnd_files = 
 		[
@@ -6805,27 +6526,27 @@
 		soundevent_02 = "ScriptedSeq.HideoutStarMagic_R"
 		soundevent_03 = "ScriptedSeq.HideoutStarMagic_LS"
 		soundevent_04 = "ScriptedSeq.HideoutStarMagic_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	ScriptedSeq.HideoutStarMagic_L = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
 		mixgroup = "ScriptedSequence"
 		use_named_send = "main"
-		radius = 250.000000
-		volume_falloff_min = 250.000000
-		volume_falloff_max = 300.000000
-		rotation_angle = 45.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 2.000000
+		radius = 250.0
+		volume_falloff_min = 250.0
+		volume_falloff_max = 300.0
+		rotation_angle = 45.0
+		volume_fade_in = 0.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
-		use_hrtf = 1.000000
-		ambient_ducking_pct = 1.000000
+		volume = 1.0
+		use_hrtf = 1.0
+		ambient_ducking_pct = 1.0
 		soundname_string = "LEFT"
 		vsnd_files = 
 		[
@@ -6835,7 +6556,7 @@
 	ScriptedSeq.HideoutStarMagic_R = 
 	{
 		base = "ScriptedSeq.HideoutStarMagic_L"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 		soundname_string = "RIGHT"
 		vsnd_files = 
 		[
@@ -6845,7 +6566,7 @@
 	ScriptedSeq.HideoutStarMagic_LS = 
 	{
 		base = "ScriptedSeq.HideoutStarMagic_L"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 		soundname_string = "LEFT_SUR"
 		vsnd_files = 
 		[
@@ -6855,7 +6576,7 @@
 	ScriptedSeq.HideoutStarMagic_RS = 
 	{
 		base = "ScriptedSeq.HideoutStarMagic_L"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 		soundname_string = "RIGHT_SUR"
 		vsnd_files = 
 		[
@@ -6865,18 +6586,18 @@
 	ScriptedSeq.EyeMagicFall = 
 	{
 		type = "hlvr_default_3d_on_aabb"
-		volume = 1.300000
-		occlusion_scale = 0.000000
+		volume = 1.3
+		occlusion_scale = 0.0
 		volume_falloff_min = 800
 		volume_falloff_max = 2000
 		cull_at_distance = 2200
 		spread_min = 360
 		spread_max = 800
-		volume_filter_amount = 0.400000
+		volume_filter_amount = 0.4
 		mixgroup = "ScriptedSequence"
 		use_named_send = "main"
-		should_pause = 1.000000
-		use_hrtf = 1.000000
+		should_pause = 1.0
+		use_hrtf = 1.0
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/a2/hideout/vort_magic_scripted_hideout_eye_fall_01.vsnd",
@@ -6885,11 +6606,11 @@
 	A5Ending.GrabCrowbar = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.200000
-		ambient_ducking_pct = 0.800000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 650.000000
-		volume_fade_in = 0.000000
+		volume = 1.2
+		ambient_ducking_pct = 0.8
+		volume_falloff_min = 100.0
+		volume_falloff_max = 650.0
+		volume_fade_in = 0.0
 		soundname_string = "GrabCrowbar"
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
@@ -6900,11 +6621,11 @@
 	A5Ending.GrabBriefcase = 
 	{
 		base = "A5Ending.GrabCrowbar"
-		volume = 1.000000
-		ambient_ducking_pct = 0.800000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 650.000000
-		volume_fade_in = 0.000000
+		volume = 1.0
+		ambient_ducking_pct = 0.8
+		volume_falloff_min = 100.0
+		volume_falloff_max = 650.0
+		volume_fade_in = 0.0
 		soundname_string = "GrabBriefcase"
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
@@ -6919,31 +6640,31 @@
 		soundevent_02 = "ScriptedSeq.InnerVaultTimeExplosion01_R"
 		soundevent_03 = "ScriptedSeq.InnerVaultTimeExplosion01_LS"
 		soundevent_04 = "ScriptedSeq.InnerVaultTimeExplosion01_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	ScriptedSeq.InnerVaultTimeExplosion01_L = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
 		mixgroup = "ScriptedSequence"
 		use_named_send = "main"
-		radius = 250.000000
-		volume_falloff_min = 500.000000
-		volume_falloff_max = 500.000000
-		rotation_angle = 45.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 5.000000
+		radius = 250.0
+		volume_falloff_min = 500.0
+		volume_falloff_max = 500.0
+		rotation_angle = 45.0
+		volume_fade_in = 0.0
+		volume_fade_out = 5.0
 		spread_min = 0
 		spread_max = 300
-		volume = 2.000000
-		occlusion_scale = 0.000000
+		volume = 2.0
+		occlusion_scale = 0.0
 		reverb_use_curve = 0
 		reverb_xfade_value = 0
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		soundname_string = "LEFT"
-		ambient_ducking_pct = 1.000000
+		ambient_ducking_pct = 1.0
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/a5/ending/cage_destruction/inner_vault_glass_time_explo_01_l.vsnd",
@@ -6952,7 +6673,7 @@
 	ScriptedSeq.InnerVaultTimeExplosion01_R = 
 	{
 		base = "ScriptedSeq.InnerVaultTimeExplosion01_L"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 		soundname_string = "RIGHT"
 		vsnd_files = 
 		[
@@ -6962,7 +6683,7 @@
 	ScriptedSeq.InnerVaultTimeExplosion01_LS = 
 	{
 		base = "ScriptedSeq.InnerVaultTimeExplosion01_L"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 		soundname_string = "LS"
 		vsnd_files = 
 		[
@@ -6972,7 +6693,7 @@
 	ScriptedSeq.InnerVaultTimeExplosion01_RS = 
 	{
 		base = "ScriptedSeq.InnerVaultTimeExplosion01_L"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 		soundname_string = "RS"
 		vsnd_files = 
 		[
@@ -6982,11 +6703,11 @@
 	ScriptedSeq.InnerVaultBubbleExpand = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		ambient_ducking_pct = 0.800000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 650.000000
-		volume_fade_in = 0.000000
+		volume = 1.0
+		ambient_ducking_pct = 0.8
+		volume_falloff_min = 100.0
+		volume_falloff_max = 650.0
+		volume_fade_in = 0.0
 		soundname_string = "InnerVaultBubbleExpand"
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
@@ -6997,14 +6718,14 @@
 	ScriptedSeq.InnerVaultOverloadCage = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.800000
-		ambient_ducking_pct = 0.800000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 650.000000
-		occlusion_scale = 0.000000
+		volume = 1.8
+		ambient_ducking_pct = 0.8
+		volume_falloff_min = 100.0
+		volume_falloff_max = 650.0
+		occlusion_scale = 0.0
 		reverb_use_curve = 0
 		reverb_xfade_value = 0
-		volume_fade_in = 0.000000
+		volume_fade_in = 0.0
 		soundname_string = "InnerVaultBubbleExpand"
 		mixgroup = "ScriptedSequence"
 		vsnd_files = 
@@ -7015,24 +6736,24 @@
 	ScriptedSeq.InnerVaultVortBubbleChild = 
 	{
 		type = "hlvr_default_3d"
-		volume = 2.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 3.000000
-		use_hrtf = 1.000000
-		hrtf_mix = 0.900000
-		occlusion_scale = 0.000000
+		volume = 2.0
+		volume_fade_in = 0.0
+		volume_fade_out = 3.0
+		use_hrtf = 1.0
+		hrtf_mix = 0.9
+		occlusion_scale = 0.0
 		reverb_use_curve = 0
 		reverb_xfade_value = 0
 		volume_falloff_min = 745
 		volume_falloff_max = 2000
 		spread_min = 100
 		spread_max = 745
-		use_doppler = 1.000000
-		doppler_factor = 1.200000
+		use_doppler = 1.0
+		doppler_factor = 1.2
 		soundname_string = "BUBBLE"
-		ambient_ducking_pct = 0.800000
+		ambient_ducking_pct = 0.8
 		vsnd_selection_type = "forward"
-		use_world_position = 1.000000
+		use_world_position = 1.0
 		vsnd_files = 
 		[
 			"sounds/scripted_sequences/a5/ending/cage_destruction/inner_vault_charge_bubble_01.vsnd",
@@ -7049,24 +6770,14 @@
 		]
 		animation_time_min = 3
 		animation_time_max = 3
-		position_source = 2.000000
-		animated_source = 0.000000
-		animated_target = 2.000000
-		use_public_position = 1.000000
-		unconstrained_target = 1.000000
+		position_source = 2.0
+		animated_source = 0.0
+		animated_target = 2.0
+		use_public_position = 1.0
+		unconstrained_target = 1.0
 		animation_type = "lerp"
-		position = 
-		[
-			757.098389,
-			-138.875854,
-			-2380.656494,
-		]
-		position_target = 
-		[
-			0,
-			-138.875854,
-			-2380.656494,
-		]
+		position = [ 757.098389, -138.875854, -2380.656494 ]
+		position_target = [ 0, -138.875854, -2380.656494 ]
 	}
 	ScriptedSeq.ProcPlantSubstationRemoval = 
 	{
@@ -7075,10 +6786,10 @@
 		soundevent_02 = "ScriptedSeq.ProcPlantSubstationRemoval_R"
 		soundevent_03 = "ScriptedSeq.ProcPlantSubstationRemoval_LS"
 		soundevent_04 = "ScriptedSeq.ProcPlantSubstationRemoval_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	ScriptedSeq.ProcPlantSubstationRemoval_L = 
 	{
@@ -7089,25 +6800,25 @@
 		]
 		mixgroup = "ScriptedSeq"
 		use_named_send = "main"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 150.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 150.0
+		volume_fade_in = 0.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.200000
-		ambient_ducking_pct = 0.800000
+		volume = 1.2
+		ambient_ducking_pct = 0.8
 		soundname_string = "LEFT"
-		limiter_on = 1.000000
-		limiter_max = 0.000000
+		limiter_on = 1.0
+		limiter_max = 0.0
 		limiter_event_name = "TwangImpact"
-		limiter_match_substring = 1.000000
+		limiter_match_substring = 1.0
 		block_event_name = "TwangImpact"
-		block_match_substring = 1.000000
-		block_execute = 1.000000
-		block_is_untimed = 1.000000
+		block_match_substring = 1.0
+		block_execute = 1.0
+		block_is_untimed = 1.0
 	}
 	ScriptedSeq.ProcPlantSubstationRemoval_R = 
 	{
@@ -7116,7 +6827,7 @@
 		[
 			"sounds/scripted_sequences/a3/p_plant/scripted_sequence_proc_substation_removal_01_r.vsnd",
 		]
-		rotation_angle = 60.000000
+		rotation_angle = 60.0
 		soundname_string = "RIGHT"
 	}
 	ScriptedSeq.ProcPlantSubstationRemoval_LS = 
@@ -7126,7 +6837,7 @@
 		[
 			"sounds/scripted_sequences/a3/p_plant/scripted_sequence_proc_substation_removal_01_ls.vsnd",
 		]
-		rotation_angle = 240.000000
+		rotation_angle = 240.0
 		soundname_string = "LEFT_SURR"
 	}
 	ScriptedSeq.ProcPlantSubstationRemoval_RS = 
@@ -7136,7 +6847,7 @@
 		[
 			"sounds/scripted_sequences/a3/p_plant/scripted_sequence_proc_substation_removal_01_rs.vsnd",
 		]
-		rotation_angle = 330.000000
+		rotation_angle = 330.0
 		soundname_string = "RIGHT_SUR"
 	}
 }

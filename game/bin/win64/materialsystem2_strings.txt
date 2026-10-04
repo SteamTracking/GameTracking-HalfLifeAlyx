@@ -1,5 +1,4 @@
                      Cost
-                AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZ
       -XX: Shader program -vs -ps -gs -hs -ds -cs -psrs\n
       -show_used_combos: Verbosely spew a line for each program and the list of combos enabled\n
     %2d = "%s"\n
@@ -122,13 +121,13 @@
 -vulkan_use_android_vcs
 -vulkan_use_ios_vcs
 .?AUAsyncProcessResult@CBaseIntrospectedToKV3TypeManager@@
-.?AV<lambda_b941524bda65c007b960207a584dce78>@@
+.?AV<lambda_1>@?1??CompileAllShadersForStaticCombo@@YA_N_KAEAVCVfxStaticComboData@@AEAVCVfx@@W4VfxProgram_t@@PEAVIVfx@@@Z@
 .?AV?$CBaseAppSystem@VIFontManager@@@@
 .?AV?$CBaseAppSystem@VIMaterialSystem2@@@@
 .?AV?$CBaseAppSystem@VIMaterialSystem2Utils@@@@
 .?AV?$CBaseAppSystem@VIPostProcessingSystem@@@@
 .?AV?$CBaseAppSystem@VITextLayout@@@@
-.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_097631f6c3afa302f6a84e1c91d50335>@@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
+.?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_1>@?1??CompileComboAndGetVariables_DynamicShaderCompile@@YA_NAEAV?$CUtlVector@UDynamicShaderCompileTask_t@@V?$CUtlMemory@UDynamicShaderCompileTask_t@@H@@@@P6AXHH@Z@Z@@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CMemberFunctor1@PEAV?$CParallelProcessorAbstract@V?$CParallelProcessor@HV?$CLambdaJobItemProcessor@H@@$00@@@@P81@EAAXH@ZHV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CMemberFunctor7@PEAVCMaterial2@@P81@EAAXPEAVIAsyncResourceDataRequest@@PEAEHPEAUMaterialStaticComboLoadRequest_t@@HV?$CWeakHandle@UInfoForResourceTypeIMaterial2@@@@G@ZPEAV2@$$THPEAU3@HV4@GV?$CRefCounted1@VCFunctor@@V?$CRefCountServiceBase@$00VCRefMT@@@@@@VCFuncMemPolicyNone@@@@
 .?AV?$CRefCountServiceBase@$00VCRefMT@@@@
@@ -162,7 +161,7 @@
 .?AV?$IOpEvaluator@H@@
 .?AV?$ITSHashConstructor@PEAVCVfx@@@@
 .?AV?$_Func_base@XAEAH@std@@
-.?AV?$_Func_impl@V<lambda_b941524bda65c007b960207a584dce78>@@V?$allocator@H@std@@XAEAH@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??CompileAllShadersForStaticCombo@@YA_N_KAEAVCVfxStaticComboData@@AEAVCVfx@@W4VfxProgram_t@@PEAVIVfx@@@Z@XAEAH@std@@
 .?AVCAllocatorUtils@?1??AllocateAndLoad@?$CTypesafeIntrospectedToKV3TypeManager@$0HEGBGNHG@UMaterialResourceData_t@@@@UEAAPEAXAEAVCKV3TransferLoadContext@@PEBUResourceBindingBase_t@@PEAVIRD_RegisterResourceDataUtils@@@Z@
 .?AVCAllocatorUtils@?1??AllocateAndLoad@?$CTypesafeIntrospectedToKV3TypeManager@$0HEHDGPHAHG@UPostProcessingResource_t@@@@UEAAPEAXAEAVCKV3TransferLoadContext@@PEBUResourceBindingBase_t@@PEAVIRD_RegisterResourceDataUtils@@@Z@
 .?AVCBaseIntrospectedToKV3TypeManager@@
@@ -205,7 +204,8 @@
 .?AVCSchemaRegistration@@
 .?AVCSchemaRegistration_materialsystem2@@
 .?AVCShaderCreateCallbacks@@
-.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_097631f6c3afa302f6a84e1c91d50335>@@@@@@QEAAXXZ@
+.?AVCSimpleTextTextureStorage@@
+.?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CFunctorParallelController@V<lambda_1>@?1??CompileComboAndGetVariables_DynamicShaderCompile@@YA_NAEAV?$CUtlVector@UDynamicShaderCompileTask_t@@V?$CUtlMemory@UDynamicShaderCompileTask_t@@H@@@@P6AXHH@Z@Z@@@@@QEAAXXZ@
 .?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CParallelProcessor@HV?$CLambdaJobItemProcessor@H@@$00@@@@QEAAXXZ@
 .?AVCTextLayout@@
 .?AVCTextureDictionary@@
@@ -240,6 +240,7 @@
 .?AVISchemaCollectionManipulator@@
 .?AVITextLayout@@
 .?AVITextureDictionary@@
+.?AVIUITextTextureStorage@panorama@@
 .?AVtype_info@@
 .CRT$XCA
 .CRT$XCC
@@ -256,6 +257,7 @@
 .bss
 .data
 .data$r
+.data$rs
 .edata
 .idata$2
 .idata$3
@@ -267,6 +269,7 @@
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .text$di
 .text$mn
@@ -276,7 +279,6 @@
 .tls$
 .tls$ZZZ
 .vcs
-.vfont
 .vfx
 .vpk
 .vpk:
@@ -287,6 +289,7 @@
 // Reloading all shaders -----------------------------------------------------\n
 //---------------------------------------------------------------------------//\n
 //-----------------------------------\n
+/panorama/fonts/
 0.075 0.15 0.3
 00000000-0000-0000-0000-000000000000
 0123456789)"
@@ -296,7 +299,7 @@
 1DBlend
 2767
 2806
-2\r52t
+4\fu44
 : lexer error %d :\n\t%s at offset %d, 
 <!-- schema 
 <<unknown_mod>>\
@@ -315,8 +318,11 @@
 <unconnected>
 <unknown>
 =\t ();,\n\r<>
+?                AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZ
+?333?
+??0CThreadFastMutex@@QEAA@XZ
 ??0CThreadMutex@@QEAA@PEBD@Z
-??1CThreadMutex@@QEAA@XZ
+??0CThreadMutex@@QEAA@XZ
 ?AppendFormat@CBufferString@@QEAAHPEBDZZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
 ?ComposeFileName@CBufferString@@QEAAPEBDPEBD0D@Z
@@ -326,7 +332,7 @@
 ?FixSlashes@CBufferString@@QEAAPEBDD@Z
 ?FixupPathName@CBufferString@@QEAAPEBDD@Z
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LockForRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?LoggingSystem_IsChannelEnabled@@YA_NHW4LoggingVerbosity_t@@@Z
@@ -338,7 +344,6 @@
 ?Relinquish@CBufferString@@QEAAPEADW4EAllocationOption_t@1@@Z
 ?RemoveAt@CBufferString@@QEAAPEBDHH@Z
 ?Replace@CBufferString@@QEAAHPEBD0_N@Z
-?SSE and SSE2 are required.
 ?SeriousWarning@@YAXHPEBDZZ
 ?Set@CThreadMultiWaitEvent@@QEAAXXZ
 ?SetExtension@CBufferString@@QEAAPEBDPEBD@Z
@@ -349,6 +354,7 @@
 ?StartsWith@CBufferString@@QEAA_NPEBD@Z
 ?StripExtension@CBufferString@@QEAAPEBDXZ
 ?ToLowerFast@CBufferString@@QEAAXH@Z
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?UnlockWrite@CThreadSpinRWLock@@QEAAXPEBDH@Z
@@ -401,16 +407,15 @@ ATI_DST24
 AbsolutePoseControl
 AcquireSRWLockExclusive
 Actually dude, we didn't seem to be expecting anything here, or at least\n
-AddFontMemResourceEx
 AddLayer
-AddRenderStateValueLoadToCommandBuffer(1641): Invalid data type for render state variable %s in material "%s"!\n
-AddRenderStateValueLoadToCommandBuffer(1677): Invalid data type for render state variable %s in material "%s"!\n
-AddRenderStateValueLoadToCommandBuffer(1763): Invalid data type for render state variable %s in material "%s"!\n
-AddRenderStateValueLoadToCommandBuffer(1771): Invalid variable source type for render state variable %s in material "%s"!\n
-AddRenderStateVariableToCommandBuffer(1869): Unsupported render state type in material "%s"!\n
-AddRenderStateVariableToCommandBuffer(1956): Unsupported render state in material "%s"!\n
-AddSamplerStateVariableToCommandBuffer(2029): Unsupported sampler state type for "%s" in material "%s"!\n
-AddSamplerStateVariableToCommandBuffer(2051): Unsupported sampler state type for "%s" in material "%s"!\n
+AddRenderStateValueLoadToCommandBuffer(1645): Invalid data type for render state variable %s in material "%s"!\n
+AddRenderStateValueLoadToCommandBuffer(1681): Invalid data type for render state variable %s in material "%s"!\n
+AddRenderStateValueLoadToCommandBuffer(1767): Invalid data type for render state variable %s in material "%s"!\n
+AddRenderStateValueLoadToCommandBuffer(1775): Invalid variable source type for render state variable %s in material "%s"!\n
+AddRenderStateVariableToCommandBuffer(1873): Unsupported render state type in material "%s"!\n
+AddRenderStateVariableToCommandBuffer(1960): Unsupported render state in material "%s"!\n
+AddSamplerStateVariableToCommandBuffer(2037): Unsupported sampler state type for "%s" in material "%s"!\n
+AddSamplerStateVariableToCommandBuffer(2060): Unsupported sampler state type for "%s" in material "%s"!\n
 Align
 All Bad! Talk to Brian and Alex. g_pRenderHardwareConfig is NULL which means we won't load this material correctly: %s\n
 All static combo permutations currently loaded:\n
@@ -448,7 +453,7 @@ Animation
 AnimationList
 AnimationSystemUtils_001
 AnimationSystem_001
-ApplySamplerStateFromVariableDescriptionToSamplerStateDesc(3990): Unsupported sampler state type for "%s"!\n
+ApplySamplerStateFromVariableDescriptionToSamplerStateDesc(4000): Unsupported sampler state type for "%s"!\n
 Arial
 Assert on shader used based on substring of shader name
 AssertMsg_ConditionFailed
@@ -462,9 +467,11 @@ Attribute-based texture %s not bound for material "%s"! Missing render attribute
 Attribute-based texture %s not bound for material "%s"!\n
 AutoLayer
 BC6H
+BGR101111_UFLOAT
 BGR565
 BGR888
 BGR888_BLUESCREEN
+BGR999_E5
 BGRA1010102
 BGRA4444
 BGRA5551
@@ -546,7 +553,7 @@ CMaterial2::GetMode(529): Material "%s" is requesting a bad mode "%s"!\n
 CMaterial2::GetVertexShaderInputSignature(635): Error! Material "%s" doesn't have any valid layers to get the CVsInputSignatureVector from!\n
 CMaterial2::GetVertexShaderInputSignature(667): Error! Material "%s" doesn't have a CVsInputSignatureVector!\n
 CMaterial2::LoadShadersAndSetupModes(1184): Error creating shader %s for material %s!\n
-CMaterialLayer::ComputeWorkItemsToSetupStaticCombosForMode(2530): Failed call to FindOrLoadStaticComboData()!\n
+CMaterialLayer::ComputeWorkItemsToSetupStaticCombosForMode(2536): Failed call to FindOrLoadStaticComboData()!\n
 CMaterialSystem2::DynamicShaderCompile_UnloadAllMaterials(855): ERROR!!! Shaders not freed before shader reload! (See spew above)\n\n
 CMaterialSystem2::GetErrorMaterial(386): GetErrorMaterial() called when m_pMaterialTypeManager == NULL!\n
 CMaterialSystem2::Init
@@ -580,7 +587,6 @@ COMMENT
 COMMON
 COrderedConstructor_Create<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>,class CResolveOrderedFunc<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>,&void __cdecl _ORDERED_INIT_SHUTDOWN_WRAPPER_RESOLVEFUNC<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>(class COrderedConstructor_DependencyManagement<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)> > &)>,0>::AddRef
 CParticleSystemDefinition
-CPlatformFont::Create
 CPostProcessingState::ResetColorCorrectionLookupWeights
 CPostProcessingState::SetColorCorrectionLookupWeight
 CPostProcessingState::SetColorCorrectionResetable
@@ -617,6 +623,7 @@ CUtlLeanVectorFixedGrowableBase<class CMaterialMode,6,short>::EnsureCapacity
 CUtlLeanVectorFixedGrowableBase<int,3,short>::EnsureCapacity
 CUtlLeanVectorFixedGrowableBase<short,6,short>::EnsureCapacity
 CUtlLeanVectorFixedGrowableBase<struct RenderDescriptorBinding_t,16,short>::EnsureCapacity
+CUtlLeanVectorFixedGrowableBase<struct VfxVariableIndexData_t,2,int>::EnsureCapacity
 CUtlLeanVectorFixedGrowableBase<struct texture_use_info_t,16,short>::EnsureCapacity
 CUtlLeanVectorFixedGrowableBase<unsigned char,12,short>::EnsureCapacity
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<class CUtlVector<class CMaterialParam,class CUtlMemory<class CMaterialParam,int> >,short>,class CUtlVector<class CMaterialParam,class CUtlMemory<class CMaterialParam,int> >,short>::AddToTailGetPtr
@@ -639,11 +646,11 @@ CUtlNTree<struct CTexturePacker::TreeEntry_t,int>::AllocInternal
 CUtlRBTree overflow with %u elements!\n
 CUtlRBTree<struct CFontTextureCache::CacheEntry_t,unsigned short,bool (__cdecl*)(struct CFontTextureCache::CacheEntry_t const &,struct CFontTextureCache::CacheEntry_t const &),class CUtlBlockMemory<struct UtlRBTreeNode_t<struct CFontTextureCache::CacheEntry_t,unsigned short>,unsigned short> >::NewNode
 CUtlRBTree<struct CPlatformFont::abc_cache_t,unsigned short,bool (__cdecl*)(struct CPlatformFont::abc_cache_t const &,struct CPlatformFont::abc_cache_t const &),class CUtlMemory<struct UtlRBTreeNode_t<struct CPlatformFont::abc_cache_t,unsigned short>,unsigned short> >::NewNode
+CUtlRBTree<struct CPlatformFont::kerned_abc_cache_t,unsigned short,bool (__cdecl*)(struct CPlatformFont::kerned_abc_cache_t const &,struct CPlatformFont::kerned_abc_cache_t const &),class CUtlMemory<struct UtlRBTreeNode_t<struct CPlatformFont::kerned_abc_cache_t,unsigned short>,unsigned short> >::NewNode
 CUtlRBTree<struct CUtlMap<class CFontManager::CFontAttributes,class CFontManager::CFontInfo,int,bool (__cdecl*)(class CFontManager::CFontAttributes const &,class CFontManager::CFontAttributes const &)>::Node_t,int,class CUtlMap<class CFontManager::CFontAttributes,class CFontManager::CFontInfo,int,bool (__cdecl*)(class CFontManager::CFontAttributes const &,class CFontManager::CFontAttributes const &)>::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class CFontManager::CFontAttributes,class CFontManager::CFontInfo,int,bool (__cdecl*)(class CFontManager::CFontAttributes const &,class CFontManager::CFontAttributes const &)>::Node_t,int>,int> >::NewNode
 CUtlRBTree<struct CUtlMap<class CUtlStringToken,int,unsigned short,bool (__cdecl*)(class CUtlStringToken const &,class CUtlStringToken const &)>::Node_t,unsigned short,class CUtlMap<class CUtlStringToken,int,unsigned short,bool (__cdecl*)(class CUtlStringToken const &,class CUtlStringToken const &)>::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class CUtlStringToken,int,unsigned short,bool (__cdecl*)(class CUtlStringToken const &,class CUtlStringToken const &)>::Node_t,unsigned short>,unsigned short> >::NewNode
 CUtlRBTree<struct CUtlMap<unsigned __int64,bool,unsigned int,bool (__cdecl*)(unsigned __int64 const &,unsigned __int64 const &)>::Node_t,unsigned int,class CUtlMap<unsigned __int64,bool,unsigned int,bool (__cdecl*)(unsigned __int64 const &,unsigned __int64 const &)>::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<unsigned __int64,bool,unsigned int,bool (__cdecl*)(unsigned __int64 const &,unsigned __int64 const &)>::Node_t,unsigned int>,unsigned int> >::NewNode
 CUtlRBTree<struct CUtlMap<unsigned int,struct `public: void __cdecl CVfxStaticComboData::ComputeVariablesUsedInStaticCombo(class CVfxProgramData const *)'::`2'::BindInfo_t,int,bool (__cdecl*)(unsigned int const &,unsigned int const &)>::Node_t,int,class CUtlMap<unsigned int,struct `public: void __cdecl CVfxStaticComboData::ComputeVariablesUsedInStaticCombo(class CVfxProgramData const *)'::`2'::BindInfo_t,int,bool (__cdecl*)(unsigned int const &,unsigned int const &)>::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<unsigned int,struct `public: void __cdecl CVfxStaticComboData::ComputeVariablesUsedInStaticCombo(class CVfxProgramData const *)'::`2'::BindInfo_t,int,bool (__cdecl*)(unsigned int const &,unsigned int const &)>::Node_t,int>,int> >::NewNode
-CUtlRBTree<struct CUtlMap<unsigned short,class CFontManager::CFontDataFile,int,bool (__cdecl*)(unsigned short const &,unsigned short const &)>::Node_t,int,class CUtlMap<unsigned short,class CFontManager::CFontDataFile,int,bool (__cdecl*)(unsigned short const &,unsigned short const &)>::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<unsigned short,class CFontManager::CFontDataFile,int,bool (__cdecl*)(unsigned short const &,unsigned short const &)>::Node_t,int>,int> >::NewNode
 CUtlRBTree<void *,int,bool (__cdecl*)(void * const &,void * const &),class CUtlMemory<struct UtlRBTreeNode_t<void *,int>,int> >::NewNode
 CUtlStreamBuffer does not support TEXT_BUFFER's use CUtlBuffer\n
 CUtlString
@@ -779,15 +786,11 @@ ConfigurationSystem_001
 ConnectInterfaces
 Constant %s is marked dynamic in the .vmat file.\n
 Constant %s.\n
-Couldn't create windows font '%s'\n
 Courier
 Courier New
-CreateCompatibleDC
-CreateDIBSection
-CreateFontA
 CreateInterface
 Custom font '%s' is already registered, ignoring new registration '%s' range %d - %d\n
-Custom font file '%s' should be assocated with a font name, will be ignored on Linux and Mac\n
+Custom font file '%s' ignored because no font name was given\n
 Cycle or diamond double-reference to '%s'
 CycleOverride
 D15S1
@@ -809,8 +812,6 @@ Decompression failure
 Default
 DefaultFontAliasGroup
 DegreeEuler
-DeleteDC
-DeleteObject
 Description
 Dev Shader
 DevShader
@@ -865,7 +866,6 @@ Expected value or ']'
 Expecting %s
 Expecting compressed combo data\n
 Expression Parser - 
-ExtTextOutW
 ExternalDescSet
 Extraneous token
 FATAL ERROR: unable to register all schema data: %s\n
@@ -879,9 +879,6 @@ Failed to Allocate a Dynamic Vertex Buffer of size %u\n
 Failed to allocate an instance of a class
 Failed to assign bool literal value
 Failed to call CBaseIntrospectedToKV3TypeManager::Init
-Failed to load font file '%s'\n
-Failed to parse custom font file '%s'\n
-Failed to register custom font file '%s'\n
 Feature
 FeatureRule
 Features
@@ -895,7 +892,6 @@ GAME
 GAMEROOT
 GCTL
 GCUtlString::FormatV
-GDI32.dll
 GSFailure
 GameResourceServiceClientV001
 GameResourceServiceServerV001
@@ -904,13 +900,11 @@ GameUIService_001
 GenericGameData
 Geometry Shader
 GetCPUInformation
-GetCharABCWidthsW
 GetCurrentProcessId
 GetCurrentThreadId
 GetDefaultMiniDumpTypeFlags
 GetDefaultValueFromVariableDescription(371): Trying to set VFX_VARIABLE_TYPE_MATRIX_* but this isn't supported yet! In material "%s"\n
 GetDefaultValueFromVariableDescription(376): Bad VFX_VARIABlE type for VFX_VARIABLE_SOURCE_SET_BY_ARTIST %s in material "%s"!\n
-GetGlyphOutlineA
 GetRenderStateValue(1002): Invalid data type for render state variable %s in material "%s"!\n
 GetRenderStateValue(1009): Error evaluating expression for render state variable %s in material "%s"!\n
 GetRenderStateValue(1015): Invalid variable source type for render state variable %s in material "%s"!\n
@@ -918,13 +912,12 @@ GetRenderStateValue(960): Invalid data type for render state variable %s in mate
 GetResourceManifestCount
 GetResourceManifests
 GetSystemTimeAsFileTime
-GetTextMetricsA
 GetValueFromDynamicMaterialParam(513): Trying to set VFX_VARIABLE_TYPE_MATRIX_* but this isn't supported yet! In material "%s"\n
 GetValueFromDynamicMaterialParam(518): Bad VFX_VARIABlE type for VFX_VARIABLE_SOURCE_SET_BY_ARTIST %s in material "%s"!\n
 GetValueFromMaterialParam(431): Trying to set VFX_VARIABLE_TYPE_MATRIX_* but this isn't supported yet! In material "%s"\n
 GetValueFromMaterialParam(436): Bad VFX_VARIABlE type for VFX_VARIABLE_SOURCE_SET_BY_ARTIST %s in material "%s"!\n
-GetValueFromMaterialParamAsVector4D(1337): Trying to set VFX_VARIABLE_TYPE_MATRIX_* but this isn't supported yet! In material "%s"\n
-GetValueFromMaterialParamAsVector4D(1342): Bad VFX_VARIABlE type for VFX_VARIABLE_SOURCE_SET_BY_ARTIST %s in material "%s"!\n
+GetValueFromMaterialParamAsVector4D(1341): Trying to set VFX_VARIABLE_TYPE_MATRIX_* but this isn't supported yet! In material "%s"\n
+GetValueFromMaterialParamAsVector4D(1346): Bad VFX_VARIABlE type for VFX_VARIABLE_SOURCE_SET_BY_ARTIST %s in material "%s"!\n
 GetVariableTextureValue
 Glyph Miss: FontHandle_t:0x%8.8llx (%s), %s\n
 HEADER
@@ -1008,6 +1001,7 @@ LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
 LoggingSystem_RegisterLoggingChannel
 LrwcE
+Lucida Console
 MATCHFRAMEWORK_001
 MClassHasCustomAlignedNewDelete
 MD5 match on %s, loading from vcs\n
@@ -1019,7 +1013,6 @@ MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
 MODES
 MapListService_001
-Marlett
 MatPrintShaderInfo(3110): Error reading index!\n
 MatPrintShaders(2789): pVfx == NULL!\n
 MatPrintShaders(2838): pVfx == NULL!\n
@@ -1062,7 +1055,6 @@ Mobile SM 3.0 (GLES 3.1)
 ModelDocUtils001
 Modes
 More than 8 active color correction lookup textures!\n
-MoveToEx
 Must run with -shaderstats to use mat_shading_complexity!\n
 NAFixupResourceName: Illegal full path passed in ("%s")!\n
 NOTE: Each static combo creates multiple shader programs based on the dynamic combos available.\n\n
@@ -1159,6 +1151,7 @@ Plat_DebugString
 Plat_ExitProcess
 Plat_FloatTime
 Plat_GetEnv
+Plat_GetGameDirectory
 Plat_GetThreadIndex
 Plat_IsInDebugSession
 Plat_LoadInterface
@@ -1216,6 +1209,7 @@ RG1616
 RG1616F
 RG1616F_EXPAND
 RG3232F
+RG88
 RGB323232F
 RGB565
 RGB888
@@ -1236,7 +1230,6 @@ RGBX555
 RGBX8888
 RSDS
 RadianEuler
-RaiseException
 RandomFloat
 Recognition Exception
 RegisterConfigValue: Unknown error constructing config value "%s"!\n
@@ -1265,11 +1258,11 @@ ResourceCompilerSystem001
 ResourceHandleUtils001
 ResourceManifestRegistry001
 ResourceSystem013
-RtlPcToFileHeader
 RtlUnwindEx
 S+Ot
 SHADER_SOURCE
 SHADER_SOURCE_ROOT
+SSE and SSE2 are required.
 S_BINDLESS_RUNTIME
 S_MOBILE
 S_MOLTEN_VK
@@ -1283,23 +1276,17 @@ SceneUtils_001
 SchemaSystem_001
 SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
-SelectObject
 SequenceMarkup
 SequenceMarkupList
 SerializedEntitiesVersion001
 ServerUploadGameStats001
-SetBkColor
-SetBkMode
-SetMapMode
 SetRenderStateValueFromVariable(1086): Unsupported render state type in material "%s"!\n
 SetSamplerStateValueFromVariable(1104): Sampler index %d out of bounds for "%s" in material "%s"!\n
-SetSamplerStateValueFromVariable(1177): Unsupported sampler state type for "%s" in material "%s"!\n
+SetSamplerStateValueFromVariable(1181): Unsupported sampler state type for "%s" in material "%s"!\n
 SetSubTextureRGBA: Invalid texture id %i\n
-SetTextAlign
-SetTextColor
 SetTextureRGBA: Invalid texture id %i\n
-SetVariable(1260): Could not bind constant buffer "%s" because the constant buffer handle was invalid in material "%s"!\n
-SetVariable(1275): Error setting constant for REGISTER_FLOAT4 for "%s" in material "%s"! Talk to a programmer!\n
+SetVariable(1264): Could not bind constant buffer "%s" because the constant buffer handle was invalid in material "%s"!\n
+SetVariable(1279): Error setting constant for REGISTER_FLOAT4 for "%s" in material "%s"! Talk to a programmer!\n
 SetVariableValue(914): Unknown variable type for %s in material "%s"!\n
 Shader %s doesn't support compile target %s\n
 Shader attribute "%s" has inconsistent value or type across multiple shaders of a feature combo!\n
@@ -1356,6 +1343,7 @@ TextureDim
 TextureDimLog2
 TextureSheetData
 TextureSize
+ThreadAtomicNotifyAll
 ThreadInMainThread
 ThreadSleep
 Times New Roman
@@ -1409,7 +1397,6 @@ VERT_JUSTIFICATION_CENTER
 VERT_JUSTIFICATION_NONE
 VERT_JUSTIFICATION_TOP
 VEngineCvar007
-VFONT1
 VFX value %s out of range %d-%d: %d\n
 VFX_DLL_001
 VFX_PROGRAM_MAX
@@ -1612,12 +1599,12 @@ X360_DST24F
 \nCMaterial2::LoadShadersAndSetupModes(1276): Error creating shader %s for material %s!\n
 \nCMaterial2::LoadShadersAndSetupModes(1281): Error creating shader %s and cannot load error.vfx instead!\n
 \nCMaterial2::LoadShadersAndSetupModes(1289): Error creating static combos for shader %s and error.vfx instead!\n
-\nCMaterialLayer::CreateCommandBuffer(3496): Find a graphics programmer! Trying to bind a "%s" shader that doesn't exist! for %s\n
-\nCMaterialMode::ComputeRenderablePassesForContext(2741): Too many passes for caller! Ignoring layer %d pass %d\n
-\nCMaterialMode::ComputeRenderablePassesForContext(2826): All bad! The error material failed in dynamic shader compile!\n
+\nCMaterialLayer::CreateCommandBuffer(3502): Find a graphics programmer! Trying to bind a "%s" shader that doesn't exist! for %s\n
+\nCMaterialMode::ComputeRenderablePassesForContext(2747): Too many passes for caller! Ignoring layer %d pass %d\n
+\nCMaterialMode::ComputeRenderablePassesForContext(2832): All bad! The error material failed in dynamic shader compile!\n
 \nCompileComboAndGetVariables_DynamicShaderCompile(2153): Dynamic Combos should be assumed to be unique for dynamic shader compile! %d != %d\n
 \nCompileComboAndGetVariables_DynamicShaderCompile(2236): Dynamic shader compile failed for %s in material "%s"!\n
-\nCompileComboAndGetVariables_DynamicShaderCompile::<lambda_097631f6c3afa302f6a84e1c91d50335>::operator ()(2185): Dynamic shader compile failed for %s in material "%s"!\n
+\nCompileComboAndGetVariables_DynamicShaderCompile::<lambda_1>::operator ()(2185): Dynamic shader compile failed for %s in material "%s"!\n
 \nCwf\r
 \nInitDynamicShaderCompileDLL(113): ERROR! Can't load vfx_dx dll, dynamic shader compile unavailable!\n
 \nPS_RENDER_STATE
@@ -1745,7 +1732,6 @@ c:\buildslave\hlvr_rel_win64\build\src\kv3lib\kv3format_manager.cpp
 c:\buildslave\hlvr_rel_win64\build\src\materialsystem2\Retail\win64\materialsystem2.pdb
 c:\buildslave\hlvr_rel_win64\build\src\materialsystem2\fontmanager\fontmanager.cpp
 c:\buildslave\hlvr_rel_win64\build\src\materialsystem2\fontmanager\fonttexturecache.cpp
-c:\buildslave\hlvr_rel_win64\build\src\materialsystem2\fontmanager\win32font.cpp
 c:\buildslave\hlvr_rel_win64\build\src\materialsystem2\material2.cpp
 c:\buildslave\hlvr_rel_win64\build\src\materialsystem2\material_command_buffer.cpp
 c:\buildslave\hlvr_rel_win64\build\src\materialsystem2\material_shader_params.cpp
@@ -1887,7 +1873,6 @@ ikrig
 int2
 int3
 int4
-invalid_parameter
 invert_orientation
 is also the end of the line, so you must check your lexer rules\n
 is_debris
@@ -2182,7 +2167,7 @@ nBatchIndices <= nMaxIndexCountPerPass
 nCachePage >= 0 && nCachePage < m_PageList.Count()
 nCombos
 nTries < 10000000
-n\f"pA3Q`
+n\f"pA3Q
 name
 nav_attribute_avoid
 nav_data
@@ -2194,6 +2179,7 @@ null
 numsegments
 origin_max_delta
 origin_relative
+panorama_text_pango
 parent_bone
 particle
 particles/
@@ -2350,7 +2336,6 @@ vs_5_0
 vsnap
 vstdlib.dll
 width
-win98japanese
 yaw_end
 yaw_start
 z:KCAuthPhysBody

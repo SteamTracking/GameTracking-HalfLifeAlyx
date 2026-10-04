@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	vo.ending_alyx_dad = 
 	{
@@ -401,19 +402,19 @@
 	temp_soundevent_example_3d = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 2000.000000
+		volume = 1.0
+		pitch = 1.0
+		volume_falloff_min = 200.0
+		volume_falloff_max = 2000.0
 		vsnd_files = "sounds/test/null.vsnd"
 	}
 	temp_soundevent_example_3d_multiple = 
 	{
 		type = "hlvr_default_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		volume_falloff_min = 200.000000
-		volume_falloff_max = 2000.000000
+		volume = 1.0
+		pitch = 1.0
+		volume_falloff_min = 200.0
+		volume_falloff_max = 2000.0
 		vsnd_files = 
 		[
 			"sounds/test/null.vsnd",
@@ -424,16 +425,16 @@
 	temp_soundevent_example_2d = 
 	{
 		type = "core_simple_2d"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/npc/scanner/combat_scan2.vsnd"
 	}
 	PortalInhibitor.Whoosh = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		occlusion_scale = 0.700000
+		volume = 0.3
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		occlusion_scale = 0.7
 		vsnd_files = 
 		[
 			"sounds/ambient/whoosh_machine/amb_citadel_whoosh_impact_02.vsnd",
@@ -444,7 +445,7 @@
 	NoiseHazard.Step_Glass = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/footsteps/hazards/noisy_glass_01.vsnd",

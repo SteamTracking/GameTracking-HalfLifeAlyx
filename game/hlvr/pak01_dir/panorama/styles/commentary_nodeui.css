@@ -1,0 +1,143 @@
+/* styles for the UI attached to commentary nodes */
+
+.RootPanel {
+    width: 100%;
+    height: 100%;
+    font-family: Raju;
+    font-weight: semi-bold;
+}
+
+.CommentaryHUD {
+    width: 100%;
+    height: 100%;
+    background-color: #FFBE5566;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.CurrentNodeBox {
+    width: 100%;
+    height: 100%;
+    background-color: gradient( radial, 50% 50%, 0% 0%, 100% 100%, from( #553c18 ), color-stop( 0.97, #000000 ), to( #000000 ) );
+    box-shadow: inset #995e0011 2px 2px 4px 4px;
+    border-radius: 50%;
+}
+
+.CurrentNodeInternal {
+    width: 100%;
+    height: 100%;
+    horizontal-align: center;
+    vertical-align: middle;
+    flow-children: down;
+}
+
+.CurrentNodeTitleContainer {
+    width: 100%;
+    height: 100%;
+    padding-top: -12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.CurrentNodeTitleLine {
+    width: fit-children;
+    height: fit-children;
+    flow-children: right;
+    horizontal-align: center;
+    vertical-align: middle;
+    color: #FFBE55;
+}
+
+.CurrentNodeTitleText {
+    text-align: center;
+    font-size: 24px;
+    font-family: Raju;
+    line-height: 21px;
+}
+
+.CurrentNodeNodeCountLine {
+    width: 100%;
+    height: 36px;
+    flow-children: right;
+    horizontal-align: center;
+    vertical-align: top;
+    color: #553c18;
+    background-color: #FFBE55;
+}
+
+.CurrentNodeNodeCountText {
+    text-align: center;
+    horizontal-align: center;
+    font-size: 30px;
+    font-family: Raju;
+    font-weight: bold;
+    line-height: 24px;
+    padding-top: 4px;
+    visibility: visible;
+}
+
+#NodeCount {
+    font-size: 24px;
+}
+
+#NodeCountMax {
+    font-size: 24px;
+}
+
+#NodeSeparator {
+    font-size: 24px;
+    margin-left: 1px;
+}
+
+.Listened  .CommentaryHUD {
+    background-color: #7f7f7f66;
+}
+
+.Listened .CurrentNodeBox {
+    background-color: gradient( radial, 50% 50%, 0% 0%, 100% 100%, from( #444 ), color-stop( 0.97, #000000 ), to( #000000 ) );
+    box-shadow: inset #88888811 2px 2px 4px 4px;
+}
+
+.Listened.CommentaryHUD {
+    background-color: #FFFFFF66;
+}
+
+.Listened  .CurrentNodeTitleLine {
+    color: #7f7f7f;
+}
+
+.Listened  .CurrentNodeNodeCountLine {
+    color: #333;
+    background-color: #7f7f7f;
+}
+
+.TransitionedToThisLevel .CurrentNodeNodeCountText {
+    visibility: collapse;
+}
+
+
+.NewNode.RootPanel,
+.NewNode.CommentaryHUD,
+.NewNode.CurrentNodeBox,
+{
+    opacity: 1;
+
+    animation-name: FadeIn;
+    animation-duration: 0.25s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    transition-property: opacity;
+}
+
+@keyframes 'FadeIn'
+{
+    0%
+    {
+        opacity: 0;
+    }
+
+    100%
+    {
+        opacity: 1;
+    }
+}

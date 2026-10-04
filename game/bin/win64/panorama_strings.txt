@@ -53,7 +53,6 @@
  a protocol 
  args were given.  Full format string was: "
  but not used.
- but running with 
  bytes).  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
  characters
  conflicts with an existing enum type.
@@ -77,6 +76,7 @@
  name="%s"%s
  name="smime.p7s"%s
  new
+ noexcept
  not found
  of the Protocol Buffer runtime library, but the installed version is 
  of the Protocol Buffer runtime library, which is not compatible with the installed version (
@@ -86,7 +86,6 @@
  rkC
  smime-type=%s;
  thread=%lu, file=%s, line=%d, info="
- throw(
  type does not match\n
  unexpected for field 
  vJza\r
@@ -111,7 +110,6 @@
 !! Warning: Invalid 'type' param undefined to AsyncWebRequest, defaulting to GET
 !#QRFt
 !(meth->ext_flags & SSL_EXT_FLAG_SENT)
-!1AQaq
 !3mmXs
 !5!A!I!O!Y![!_!s!}!
 !9iV
@@ -181,7 +179,6 @@
 ". Value: "
 "/*" inside block comment.  Block comments cannot be nested.
 "0x" must be followed by hex digits.
-"2BRbr
 "2MR
 "; boundary="----%s"%s%s
 "DeleteMapValue"
@@ -206,7 +203,6 @@
 "qVS
 "zbe
 #%02X%02X%02X%02X
-#3CScs
 #GameUI_Language_Brazilian
 #GameUI_Language_Bulgarian
 #GameUI_Language_Czech
@@ -286,7 +282,6 @@ $0enum $1 {\n
 $0message $1
 $0oneof $1 {
 $0option $1;\n
-$4DTdt
 $4cC
 $>Mm/JhA
 $@D4Z
@@ -354,12 +349,12 @@ $hRh
 %1.1f
 %12sPublic Key Algorithm: 
 %12sUnable to load Public Key\n
-%5EUeu
 %5ld:
 %5lu file=%s, line=%d, 
 %8sIssuer Unique ID: 
 %8sSubject Unique ID: 
 %8sVersion: %lu (0x%lx)\n
+%?InternalFieldCount@Object@v8@@QEBAHXZ
 %E5u(
 %Gdnv
 %I64i
@@ -424,8 +419,8 @@ $hRh
 %sweb%s%s
 %sweb/shared/public/%s
 &'&)&5&;&?&K&S&Y&e&i&o&{&
-&6FVfv
 &8@Cb
+&?IsBoolean@Value@v8@@QEBA_NXZ
 &?PPPPPPP?
 &AK(h
 &Sgw
@@ -435,7 +430,7 @@ $hRh
 '()+,-./:=?
 '5'7'M'S'U'_'k'm's'w'
 '6J~U\fm
-'7GWgw
+'?IsFunction@Value@v8@@QEBA_NXZ
 'DAE
 'O6n
 'Z9t%
@@ -445,16 +440,15 @@ $hRh
 'pSN.F
 'prB2
 'sp3s
-( 8PX
 (!(1(=(?(I(Q([(](a(g(u(
-('8PW
 ((long)msg_hdr->msg_len) > 0
 (0'yX
+(4?NewFromUnsigned@Integer@v8@@SA?AV?$Local@VInteger@v8@@@2@PEAVIsolate@2@I@Z
 (5Me
 (5jP
-(8HXhx
 (BZq
 (D4D
+(I?Value@External@v8@@QEBAPEAXXZ
 (NONE)
 (U1h
 (ZdOt\n&
@@ -499,7 +493,7 @@ $hRh
 )", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
 ), this value label conflicts with 
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-)9IYiy
+)4?NewFromUtf8@String@v8@@SA?AV?$MaybeLocal@VString@v8@@@2@PEAVIsolate@2@PEBDW4NewStringType@2@H@Z
 )Ck?B
 )Fmk
 )J9o
@@ -527,7 +521,8 @@ $hRh
 *1~Pt
 *5KS
 *5pB
-*:JZjz
+*?IsNumber@Value@v8@@QEBA_NXZ
+*?IsObject@Value@v8@@QEBA_NXZ
 *StO9>T
 *UlS
 *Y$ve
@@ -556,6 +551,7 @@ $hRh
 ,<ellipsis>
 ,ARu@y6
 ,HR>O
+,I?Value@Number@v8@@QEBANXZ
 ,Reason=
 ,ShfPQ
 ,ZFDGn
@@ -578,6 +574,8 @@ $hRh
 --stack-size=384
 -5X5
 -;-C-I-M-a-e-q-
+-?IsolateFromNeverReadOnlySpaceObject@internal@v8@@YAPEAVIsolate@12@_K@Z
+-?Length@Array@v8@@QEBAIXZ
 -AvRJ
 -BH>t
 -D65K
@@ -592,12 +590,10 @@ $hRh
 -mB:t
 -noime
 -nojoy
+-novideo
 -panorama_nosinglecontext
 -panoramajoy
--pv8execspace
--pv8oldspace
 -pv8poolthreads
--pv8semispace
 -s2-mix-blend-mode
 -sse2
 -sse3
@@ -656,7 +652,7 @@ $hRh
 .?AV?$CUIEvent2@W4ESoundType@panorama@@M@panorama@@
 .?AV?$CUIEvent3@PEAVCVideoPlayerAudioRenderer@panorama@@HH@panorama@@
 .?AV?$CUIEvent4@VCPanoramaSymbol@panorama@@III@panorama@@
-.?AV?$CUIEvent5@V?$CPanelPtr@VIUIPanel@panorama@@@panorama@@PEAV?$Persistent@VFunction@v8@@V?$NonCopyablePersistentTraits@VFunction@v8@@@2@@v8@@VCPanoramaSymbol@2@HI@panorama@@
+.?AV?$CUIEvent5@V?$CPanelPtr@VIUIPanel@panorama@@@panorama@@PEAV?$Global@VFunction@v8@@@v8@@VCPanoramaSymbol@2@HI@panorama@@
 .?AV?$CUIPanelEvent1@H@panorama@@
 .?AV?$CUIPanelEvent1@PEAVIDragStartCallbacks@panorama@@@panorama@@
 .?AV?$CUIPanelEvent1@PEAVIImageSource@panorama@@@panorama@@
@@ -710,8 +706,6 @@ $hRh
 .?AV?$RepeatedPtrFieldWrapper@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@internal@protobuf@google@@
 .?AV?$RepeatedPtrFieldWrapper@VMessage@protobuf@google@@@internal@protobuf@google@@
 .?AV?$TypeDefinedMapFieldBase@VMapKey@protobuf@google@@VMapValueRef@23@@internal@protobuf@google@@
-.?AV?$_Ref_count_obj@V__ExceptionPtr@@@std@@
-.?AV?$_Ref_count_obj_alloc@V__ExceptionPtr@@U?$_StaticAllocator@H@@@std@@
 .?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
 .?AV?$function@$$A6AXXZ@std@@
 .?AVAggregateErrorCollector@?A0xc9545c76@protobuf@google@@
@@ -974,9 +968,9 @@ $hRh
 .?AVV8ArrayBufferAllocator@panorama@@
 .?AVZeroCopyInputStream@io@protobuf@google@@
 .?AVZeroCopyOutputStream@io@protobuf@google@@
-.?AV_Ref_count_base@std@@
 .?AV__non_rtti_object@std@@
 .?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
 .?AVbad_cast@std@@
 .?AVbad_exception@std@@
 .?AVbad_function_call@std@@
@@ -1006,7 +1000,6 @@ $hRh
 .CRT$XLA
 .CRT$XLZ
 .CRT$XPA
-.CRT$XPB
 .CRT$XPX
 .CRT$XPXA
 .CRT$XPZ
@@ -1014,7 +1007,7 @@ $hRh
 .CRT$XTZ
 .HCK\v
 .PEAUInputMessage_t@panorama@@
-.PEAV?$Persistent@VFunction@v8@@V?$NonCopyablePersistentTraits@VFunction@v8@@@2@@v8@@
+.PEAV?$Global@VFunction@v8@@@v8@@
 .PEAVCImageProxySource@panorama@@
 .PEAVCReloadStyleFile@panorama@@
 .PEAVCVideoPlayerAudioRenderer@panorama@@
@@ -1289,12 +1282,11 @@ $hRh
 .bss
 .data
 .data$r
+.data$rs
 .dummy
 .dx_LV9
 .edata
 .foo = value".
-.gfids$x
-.gfids$y
 .gif
 .google.protobuf.EnumOptions
 .google.protobuf.FieldOptions
@@ -1321,6 +1313,7 @@ $hRh
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .rsrc$01
 .rsrc$02
@@ -1377,12 +1370,11 @@ $hRh
 0.48f
 0.75
 0.8.3
-0000
-00003333
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+00:02:20
+00i4
 0123456789
 0123456789ABCDEF
-0123456789ABCDEFundefined
 0123456789abcdef
 0123456789abcdefghijklmnopqrstuvwxyz
 02V8[
@@ -1393,14 +1385,12 @@ $hRh
 0;Q5[
 0<cz
 0E>X
-0H@0
 0M2~@p
 0W/5
 0X8b?~
 0Z@q
 0\r0#0)070;0U0Y0[0g0q0y0}0
 0e\r8
-0hp0
 0iN>/
 0pp@5tqE?|sO541
 0tU+xc:
@@ -1411,16 +1401,13 @@ $hRh
 1#QNAN
 1#SNAN
 1.0f
-1.5.13
-1.5.2
+1.2.5
 10.0
 1000
 11Y@
 11nN
 12'0
 120.0f
-123456789
-12:47:12
 12v)
 14 (default)
 15\tr\
@@ -1434,7 +1421,6 @@ $hRh
 1L$1
 1\v5#d
 1b4Ef
-1eaB@
 1f\t3Qg^y
 1j!6
 1m2{
@@ -1460,6 +1446,7 @@ $hRh
 28Vm
 2:3maJ
 2:pS
+2?Message@TryCatch@v8@@QEBA?AV?$Local@VMessage@v8@@@2@XZ
 2I y)
 2Tm=#
 2Uiwp"9
@@ -1478,12 +1465,16 @@ $hRh
 3 FB
 3%3+3/353A3G3[3_3g3k3s3y3
 31tPR
-3333
 35-w
 37>k
 37LQ
 3>N;kU
 3>fvw
+3?New@Integer@v8@@SA?AV?$Local@VInteger@v8@@@2@PEAVIsolate@2@H@Z
+3?New@Isolate@v8@@SAPEAV12@AEBUCreateParams@12@@Z
+3?New@Number@v8@@SA?AV?$Local@VNumber@v8@@@2@PEAVIsolate@2@N@Z
+3?New@Object@v8@@SA?AV?$Local@VObject@v8@@@2@PEAVIsolate@2@@Z
+3?New@ObjectTemplate@v8@@SA?AV?$Local@VObjectTemplate@v8@@@2@PEAVIsolate@2@V?$Local@VFunctionTemplate@v8@@@2@@Z
 3?tr
 3DES
 3DES(168)
@@ -1569,11 +1560,10 @@ $hRh
 7*QR
 7,gm;
 7000
-700PP
-700WP
 71iB
 7>I0
 7?7E7I7O7]7a7u7
+7??SetInternalField@Object@v8@@QEAAXHV?$Local@VData@v8@@@2@@Z
 7?GX
 7?XEAVn
 7GK2
@@ -1600,6 +1590,7 @@ $hRh
 851Pe
 8<pl
 8= zp
+8??SetInternalFieldCount@ObjectTemplate@v8@@QEAAXH@Z
 8A6j
 8Csinf
 8GZS
@@ -1624,6 +1615,7 @@ $hRh
 9:dzGN
 9>70
 9>powf
+9?Reallocate@Allocator@ArrayBuffer@v8@@UEAAPEAXPEAX_K1@Z
 9@Xp&
 9IGv
 9J9;6
@@ -1663,7 +1655,9 @@ $hRh
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
 ;"lY7
+;#?Initialize@V8@v8@@CA_NH@Z
 ;1cb
+;4?NewInstance@ObjectTemplate@v8@@QEAA?AV?$MaybeLocal@VObject@v8@@@2@V?$Local@VContext@v8@@@2@@Z
 ;5jNf
 ;83\v\nHBJ7
 ;LGEW
@@ -1671,6 +1665,7 @@ $hRh
 ;`Fzc
 ;bwP*
 ;xsK
+;{}:fill-opacity
 <![CDATA[
 <)<5<C<O<S<[<e<k<q<
 </Panel></root>
@@ -1679,6 +1674,7 @@ $hRh
 <3AC|[sqb
 <4E87
 <<ERROR>>
+<?Reset@TryCatch@v8@@QEAAXXZ
 <ABSENT>\n
 <ASN1 %d>
 <ASN1 11>
@@ -1713,9 +1709,9 @@ $hRh
 === %s ===\n
 ===== Mem stats of all css properties =====\n
 ==========================================\n
+=?Run@Script@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@@Z
 =O?AqP
 =Q9M
-=aes(partial)
 =cQ6
 =cdE
 =e2m
@@ -1724,11 +1720,15 @@ $hRh
 >#>)>/>3>A>W>c>e>w>
 >4|6eXg_e
 >7^0g
+>?SetCallAsFunctionHandler@ObjectTemplate@v8@@QEAAXP6AXAEBV?$FunctionCallbackInfo@VValue@v8@@@2@@ZV?$Local@VValue@v8@@@2@@Z
+>?SetCaptureStackTraceForUncaughtExceptions@Isolate@v8@@QEAAX_NHW4StackTraceOptions@StackTrace@2@@Z
+>?SetFatalErrorHandler@Isolate@v8@@QEAAXP6AXPEBD0@Z@Z
 >Sem
 >VScript
 >WK6
 >\v?\r?7?;?=?A?Y?_?e?g?y?}?
 >cQ6
+>expf
 >fN46R^
 >jtm}S
 >l\rur
@@ -1745,99 +1745,88 @@ $hRh
 ?8bunz8
 ??0CThread@@QEAA@XZ
 ??0CThreadEvent@@QEAA@_N@Z
+??0CThreadFastMutex@@QEAA@XZ
 ??0CThreadFiber@@QEAA@_K@Z
-??0CThreadMutex@@QEAA@PEBD@Z
+??0CThreadMutex@@QEAA@XZ
 ??0CThreadSemaphore@@QEAA@HHPEBD_N@Z
 ??0CValidatableThread@@QEAA@XZ
+??0CreateParams@Isolate@v8@@QEAA@XZ
 ??0EscapableHandleScope@v8@@QEAA@PEAVIsolate@1@@Z
 ??0HandleScope@v8@@QEAA@PEAVIsolate@1@@Z
-??0ResourceConstraints@v8@@QEAA@XZ
-??0TryCatch@v8@@QEAA@XZ
-??0Utf8Value@String@v8@@QEAA@V?$Local@VValue@v8@@@2@@Z
+??0TryCatch@v8@@QEAA@PEAVIsolate@1@@Z
+??0Utf8Value@String@v8@@QEAA@PEAVIsolate@2@V?$Local@VValue@v8@@@2@@Z
 ??1CThread@@UEAA@XZ
 ??1CThreadEvent@@QEAA@XZ
-??1CThreadMutex@@QEAA@XZ
 ??1CThreadSemaphore@@QEAA@XZ
+??1CreateParams@Isolate@v8@@QEAA@XZ
 ??1HandleScope@v8@@QEAA@XZ
 ??1TryCatch@v8@@QEAA@XZ
 ??1Utf8Value@String@v8@@QEAA@XZ
+??SetHandler@ObjectTemplate@v8@@QEAAXAEBUNamedPropertyHandlerConfiguration@2@@Z
+??SetSecurityToken@Context@v8@@QEAAXV?$Local@VValue@v8@@@2@@Z
 ?@En[vP
 ?AppendFormat@CBufferString@@QEAAHPEBDZZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
 ?AssertOwnedByCurrentThread@CThreadMutex@@QEBA_NXZ
 ?BindToCurrentContext@UnboundScript@v8@@QEAA?AV?$Local@VScript@v8@@@2@XZ
-?BooleanValue@Value@v8@@QEBA_NXZ
-?Call@Function@v8@@QEAA?AV?$Local@VValue@v8@@@2@V32@HQEAV32@@Z
-?Compile@Script@v8@@SA?AV?$Local@VScript@v8@@@2@V?$Local@VString@v8@@@2@PEAVScriptOrigin@2@@Z
+?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
+?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
+?Compile@Script@v8@@SA?AV?$MaybeLocal@VScript@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VString@v8@@@2@PEAVScriptOrigin@2@@Z
 ?ComposeFileName@CBufferString@@QEAAPEBDPEBD0D@Z
 ?ConfigureDefaults@ResourceConstraints@v8@@QEAAX_K0@Z
 ?ContextDisposedNotification@Isolate@v8@@QEAAH_N@Z
-?CreateDefaultPlatform@platform@v8@@YAPEAVPlatform@2@H@Z
-?CreateHandle@HandleScope@v8@@CAPEAPEAVObject@internal@2@PEAVHeapObject@42@PEAV342@@Z
-?CreateHandle@HandleScope@v8@@KAPEAPEAVObject@internal@2@PEAVIsolate@42@PEAV342@@Z
+?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
 ?CurrentStackTrace@StackTrace@v8@@SA?AV?$Local@VStackTrace@v8@@@2@PEAVIsolate@2@HW4StackTraceOptions@12@@Z
+?Delete@Object@v8@@QEAA?AV?$Maybe@_N@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@@Z
 ?DevMsg@@YAXPEBDZZ
 ?DevWarning@@YAXPEBDZZ
+?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
 ?EndsWith_FastCaseInsensitive@CBufferString@@QEAA_NPEBD@Z
+?Enter@Context@v8@@QEAAXXZ
+?Enter@Isolate@v8@@QEAAXXZ
 ?EnterScope@CVProfile@@QEAAXPEBDH0_NH@Z
+?Escape@EscapableHandleScope@v8@@AEAAPEA_KPEA_K@Z
+?Exception@TryCatch@v8@@QEBA?AV?$Local@VValue@v8@@@2@XZ
+?Exit@Context@v8@@QEAAXXZ
+?Exit@Isolate@v8@@QEAAXXZ
 ?ExitScope@CVProfile@@QEAAXXZ
 ?ExtractFilePath@CBufferString@@QEAAPEBDPEBD_N@Z
 ?FixSlashes@CBufferString@@QEAAPEBDD@Z
 ?FixupPathName@CBufferString@@QEAAPEBDD@Z
 ?Format@CBufferString@@QEAAHPEBDZZ
-?GetFrame@StackTrace@v8@@QEBA?AV?$Local@VStackFrame@v8@@@2@I@Z
+?FromJustIsNothing@api_internal@v8@@YAXXZ
+?Get@Object@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@I@Z
+?Get@Object@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@@Z
+?GetCurrentContext@Isolate@v8@@QEAA?AV?$Local@VContext@v8@@@2@XZ
+?GetFrame@StackTrace@v8@@QEBA?AV?$Local@VStackFrame@v8@@@2@PEAVIsolate@2@I@Z
 ?GetFrameCount@StackTrace@v8@@QEBAHXZ
-?GetFunction@FunctionTemplate@v8@@QEAA?AV?$Local@VFunction@v8@@@2@XZ
+?GetFunction@FunctionTemplate@v8@@QEAA?AV?$MaybeLocal@VFunction@v8@@@2@V?$Local@VContext@v8@@@2@@Z
 ?GetFunctionName@StackFrame@v8@@QEBA?AV?$Local@VString@v8@@@2@XZ
-?GetLineNumber@Message@v8@@QEBAHXZ
-?GetLineNumber@StackFrame@v8@@QEBAHXZ
+?GetLineNumber@Message@v8@@QEBA?AV?$Maybe@H@2@V?$Local@VContext@v8@@@2@@Z
+?GetLocation@StackFrame@v8@@QEBA?AVLocation@2@XZ
 ?GetName@Function@v8@@QEBA?AV?$Local@VValue@v8@@@2@XZ
-?GetPropertyNames@Object@v8@@QEAA?AV?$Local@VArray@v8@@@2@XZ
+?GetPropertyNames@Object@v8@@QEAA?AV?$MaybeLocal@VArray@v8@@@2@V?$Local@VContext@v8@@@2@@Z
 ?GetScriptName@StackFrame@v8@@QEBA?AV?$Local@VString@v8@@@2@XZ
 ?GetScriptOrigin@Message@v8@@QEBA?AVScriptOrigin@2@XZ
 ?GetSecurityToken@Context@v8@@QEAA?AV?$Local@VValue@v8@@@2@XZ
-?GetStartColumn@Message@v8@@QEBAHXZ
+?GetStartColumn@Message@v8@@QEBA?AV?$Maybe@H@2@V?$Local@VContext@v8@@@2@@Z
 ?GetUnboundScript@Script@v8@@QEAA?AV?$Local@VUnboundScript@v8@@@2@XZ
 ?Global@Context@v8@@QEAA?AV?$Local@VObject@v8@@@2@XZ
-?GlobalizeReference@V8@v8@@CAPEAPEAVObject@internal@2@PEAVIsolate@42@PEAPEAV342@@Z
+?GlobalizeReference@api_internal@v8@@YAPEA_KPEAVIsolate@internal@2@_K@Z
 ?HAI\t81\t9dcG'
 ?HP4
 ?HasCaught@TryCatch@v8@@QEBA_NXZ
-?IdleNotification@Isolate@v8@@QEAA_NH@Z
 ?Init@CThread@@MEAA_NXZ
-?Initialize@V8@v8@@SA_NXZ
-?InitializeICU@V8@v8@@SA_NPEBD@Z
-?InitializePlatform@V8@v8@@SAXPEAVPlatform@2@@Z
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?InternalFieldCount@Object@v8@@QEAAHXZ
-?IsArray@Value@v8@@QEBA_NXZ
-?IsBoolean@Value@v8@@QEBA_NXZ
-?IsFunction@Value@v8@@QEBA_NXZ
-?IsNumber@Value@v8@@QEBA_NXZ
-?IsObject@Value@v8@@QEBA_NXZ
 ?IsThreadRunning@CThread@@MEAA_NXZ
+?JV8f
 ?Join@CThread@@QEAA_NI@Z
-?Length@Array@v8@@QEBAIXZ
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LockForRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@VColor@@PEBDZZ
-?Message@TryCatch@v8@@QEBA?AV?$Local@VMessage@v8@@@2@XZ
-?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-?New@Context@v8@@SA?AV?$Local@VContext@v8@@@2@PEAVIsolate@2@PEAVExtensionConfiguration@2@V?$MaybeLocal@VObjectTemplate@v8@@@2@V?$MaybeLocal@VValue@v8@@@2@@Z
-?New@External@v8@@SA?AV?$Local@VExternal@v8@@@2@PEAVIsolate@2@PEAX@Z
-?New@FunctionTemplate@v8@@SA?AV?$Local@VFunctionTemplate@v8@@@2@PEAVIsolate@2@P6AXAEBV?$FunctionCallbackInfo@VValue@v8@@@2@@ZV?$Local@VValue@v8@@@2@V?$Local@VSignature@v8@@@2@HW4ConstructorBehavior@2@@Z
-?New@Integer@v8@@SA?AV?$Local@VInteger@v8@@@2@PEAVIsolate@2@H@Z
-?New@Isolate@v8@@SAPEAV12@AEBUCreateParams@12@@Z
-?New@Number@v8@@SA?AV?$Local@VNumber@v8@@@2@PEAVIsolate@2@N@Z
-?New@Object@v8@@SA?AV?$Local@VObject@v8@@@2@PEAVIsolate@2@@Z
-?New@ObjectTemplate@v8@@SA?AV?$Local@VObjectTemplate@v8@@@2@PEAVIsolate@2@V?$Local@VFunctionTemplate@v8@@@2@@Z
-?NewFromUnsigned@Integer@v8@@SA?AV?$Local@VInteger@v8@@@2@PEAVIsolate@2@I@Z
-?NewFromUtf8@String@v8@@SA?AV?$Local@VString@v8@@@2@PEAVIsolate@2@PEBDW4NewStringType@12@H@Z
-?NewInstance@ObjectTemplate@v8@@QEAA?AV?$Local@VObject@v8@@@2@XZ
 ?OnExit@CThread@@MEAAXXZ
-?Parse@JSON@v8@@SA?AV?$Local@VValue@v8@@@2@V?$Local@VString@v8@@@2@@Z
 ?Purge@CBufferString@@QEAAXH@Z
 ?R0I?
 ?ReachedZeroReferences@CFiber@@AEAAXXZ
@@ -1845,45 +1834,25 @@ $hRh
 ?Relinquish@CBufferString@@QEAAPEADW4EAllocationOption_t@1@@Z
 ?RemoveAt@CBufferString@@QEAAPEBDHH@Z
 ?Reset@CThreadEvent@@QEAA_NXZ
-?Reset@TryCatch@v8@@QEAAXXZ
-?Run@Script@v8@@QEAA?AV?$Local@VValue@v8@@@2@XZ
 ?Set@CThreadEvent@@QEAA_NXZ
-?Set@Object@v8@@QEAA_NIV?$Local@VValue@v8@@@2@@Z
-?Set@Object@v8@@QEAA_NV?$Local@VValue@v8@@@2@0@Z
-?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
-?SetAccessor@ObjectTemplate@v8@@QEAAXV?$Local@VString@v8@@@2@P6AX0AEBV?$PropertyCallbackInfo@VValue@v8@@@2@@ZP6AX0V?$Local@VValue@v8@@@2@AEBV?$PropertyCallbackInfo@X@2@@Z3W4AccessControl@2@W4PropertyAttribute@2@V?$Local@VAccessorSignature@v8@@@2@@Z
-?SetCallAsFunctionHandler@ObjectTemplate@v8@@QEAAXP6AXAEBV?$FunctionCallbackInfo@VValue@v8@@@2@@ZV?$Local@VValue@v8@@@2@@Z
 ?SetExtension@CBufferString@@QEAAPEBDPEBD@Z
-?SetFatalErrorHandler@Isolate@v8@@QEAAXP6AXPEBD0@Z@Z
-?SetFlagsFromString@V8@v8@@SAXPEBDH@Z
-?SetInternalField@Object@v8@@QEAAXHV?$Local@VValue@v8@@@2@@Z
-?SetInternalFieldCount@ObjectTemplate@v8@@QEAAXH@Z
 ?SetLength@CBufferString@@QEAAPEADH_NPEAH@Z
 ?SetName@CThread@@QEAAXPEBD@Z
-?SetNamedPropertyHandler@ObjectTemplate@v8@@QEAAXP6AXV?$Local@VString@v8@@@2@AEBV?$PropertyCallbackInfo@VValue@v8@@@2@@ZP6AX0V?$Local@VValue@v8@@@2@1@ZP6AX0AEBV?$PropertyCallbackInfo@VInteger@v8@@@2@@ZP6AX0AEBV?$PropertyCallbackInfo@VBoolean@v8@@@2@@ZP6AXAEBV?$PropertyCallbackInfo@VArray@v8@@@2@@Z3@Z
 ?SetPtr@CBufferString@@QEAAXPEADHH_N1@Z
-?SetSecurityToken@Context@v8@@QEAAXV?$Local@VValue@v8@@@2@@Z
 ?ShortenPath@CBufferString@@QEAAPEBD_N@Z
-?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VValue@v8@@@2@H@Z
 ?SpinLockForWrite@CThreadSpinRWLock@@AEAAXPEBDHI@Z
 ?Start@CThread@@UEAA_NIW4ThreadPriorityEnum_t@@@Z
 ?StripExtension@CBufferString@@QEAAPEBDXZ
-?ThrowException@Isolate@v8@@QEAA?AV?$Local@VValue@v8@@@2@V32@@Z
-?ToBoolean@Value@v8@@QEBA?AV?$MaybeLocal@VBoolean@v8@@@2@V?$Local@VContext@v8@@@2@@Z
-?ToLocalEmpty@V8@v8@@CAXXZ
 ?ToLowerFast@CBufferString@@QEAAXH@Z
-?ToNumber@Value@v8@@QEBA?AV?$MaybeLocal@VNumber@v8@@@2@V?$Local@VContext@v8@@@2@@Z
-?ToObject@Value@v8@@QEBA?AV?$MaybeLocal@VObject@v8@@@2@V?$Local@VContext@v8@@@2@@Z
-?ToString@Value@v8@@QEBA?AV?$MaybeLocal@VString@v8@@@2@V?$Local@VContext@v8@@@2@@Z
-?ToUint32@Value@v8@@QEBA?AV?$MaybeLocal@VUint32@v8@@@2@V?$Local@VContext@v8@@@2@@Z
 ?TryLock@CThreadMutex@@QEAA_NPEBDH@Z
 ?UUUUUU
-?Uint32Value@Value@v8@@QEBAIXZ
 ?UnicodeCaseConvert@CBufferString@@QEAAHHW4EStringConvertErrorPolicy@@@Z
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?UnlockWrite@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?VBH;
+?V_NewDefaultPlatform@platform@v8@@YAPEAVPlatform@2@H@Z
 ?V_SplitString@@YAXPEBD0AEAV?$CUtlVector@PEADV?$CUtlMemory@PEADH@@@@@Z
 ?V_SplitString@@YAXPEBD0AEAV?$CUtlVector@VCUtlString@@V?$CUtlMemory@VCUtlString@@H@@@@_N@Z
 ?V_SplitStringInPlace@@YAXPEADPEBDAEAV?$CUtlVector@PEBDV?$CUtlMemory@PEBDH@@@@@Z
@@ -1894,12 +1863,8 @@ $hRh
 ?V_UnicodeLength@@YAHPEBI@Z
 ?V_UnicodeLength@@YAHPEB_W@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
-?Value@Boolean@v8@@QEBA_NXZ
-?Value@External@v8@@QEBAPEAXXZ
-?Value@Number@v8@@QEBANXZ
 ?Wait@CThreadSyncObject@@QEAA_NI@Z
 ?WaitForCreateComplete@CThread@@MEAA_NPEAVCThreadEvent@@@Z
-?\t?Dispose@Isolate@v8@@QEAAXXZ
 ?d86L
 ?dt]X
 ?f`Y4
@@ -1916,6 +1881,7 @@ $hRh
 ?ysB
 @!@%@+@1@?@C@E@]@a@g@m@
 @0pp
+@?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @MfKZ
 @Pgl
@@ -2020,7 +1986,6 @@ A!A3A5A;A?AYAeAkAwA{A
 A%N_A
 A,uw"
 A.00h
-A1.2.7
 A2VPD
 A4Wn>
 A9ur
@@ -2221,18 +2186,15 @@ ATTEMPTED TO DECOMMIT OWNED MEMORY STACK SPACE\n
 ATTLIST
 AUTHORITY_INFO_ACCESS
 AUTHORITY_KEYID
-AUUUUUU
 AW:S
 AWt.
 A\n\nannotation
 A\rjW
-A\t?DisposeGlobal@V8@v8@@CAXPEAPEAVObject@internal@2@@Z
 AbW_
 AcG\nt
 Acceptable OCSP Responses
 Accepted
 Access violation - no RTTI data!
-AcquireSRWLockExclusive
 ActivateMainWindow
 Activated
 ActiveControllerTypeChanged
@@ -2275,8 +2237,8 @@ AnimationSystem_001
 Any Extended Key Usage
 Any Purpose
 Any language
+AppPolicyGetProcessTerminationMethod
 AppendChildrenFromLayoutFileAsync
-Application built with libpng-
 Application transferred too few scanlines
 Application transferred too many scanlines
 Applies an image as an opacity mask that stretches to the panel bounds and fades out it's content based on the alpha channel. The second float value is an optional opacity value for the mask itself, the image won't interpolate/cross-fade, but you can animate the opacity to fade the mask in/out. The -scroll-up, -scroll-down, and -scroll-up-down varients override the mask and apply only when the various vertical scroll scenarios affect the panel based on the overflow property.<br><br><b>Examples:</b><pre>opacity-mask: url( "file://{images}/upper_row_mask.tga" );\nopacity-mask: url( "file://{images}/upper_row_mask.tga" ) 0.5;\nopacity-mask-scroll-up: url( "file://{images}/upper_row_mask_up.tga" ) 0.5;\nopacity-mask-scroll-down: url( "file://{images}/upper_row_mask_down.tga" ) 0.5;\nopacity-mask-scroll-up-down: url( "file://{images}/upper_row_mask_up_down.tga" ) 0.5;</pre>
@@ -2344,9 +2306,11 @@ BF-OFB
 BF>^G
 BFEo
 BFUa.X
+BGR101111_UFLOAT
 BGR565
 BGR888
 BGR888_BLUESCREEN
+BGR999_E5
 BGRA1010102
 BGRA4444
 BGRA5551
@@ -2450,6 +2414,7 @@ BUF_strndup
 BY_FILE_CTRL
 BY_Lq)
 BZZn\rN]#8f'
+B\np\t0
 B\vp\nP
 B`4I
 BackUp() can only be called after a successful Next().
@@ -2466,7 +2431,6 @@ BcT`
 Bd]U
 BeginDebuggerInspect
 BenchmarkService001
-Bgoogle.protobuf.Any
 Bh;+j
 Big Number part of OpenSSL 1.0.2j  26 Sep 2016
 BinaryProperties_GetValue
@@ -2489,7 +2453,6 @@ Brazilian
 BrowserGoToURL
 Bs'n
 Bu 5
-Buffer error in compressed datastream
 Buffer passed to JPEG library is too small
 Buffer too small
 Bulgarian
@@ -2802,7 +2765,6 @@ CPanelStyle::GetInterpolatedPosition
 CPanelStyle::SetPanelLayoutFlagsForTransitionAnimation()
 CProtobufLogHandler::LogHandler
 CR&C
-CRC error
 CRL Sign
 CRL has expired
 CRL is not yet valid
@@ -2935,7 +2897,7 @@ CUtlRBTree<struct CUtlMap<class CUtlString,class CUtlVector<class CUtlString,cla
 CUtlRBTree<struct CUtlMap<class CUtlString,class panorama::CLocalizationStringDialogVariables *,int,class CDefLess<class CUtlString> >::Node_t,int,class CUtlMap<class CUtlString,class panorama::CLocalizationStringDialogVariables *,int,class CDefLess<class CUtlString> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class CUtlString,class panorama::CLocalizationStringDialogVariables *,int,class CDefLess<class CUtlString> >::Node_t,int>,int> >::NewNode
 CUtlRBTree<struct CUtlMap<class CUtlString,class panorama::CPanoramaSymbol,int,class CDefLess<class CUtlString> >::Node_t,int,class CUtlMap<class CUtlString,class panorama::CPanoramaSymbol,int,class CDefLess<class CUtlString> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class CUtlString,class panorama::CPanoramaSymbol,int,class CDefLess<class CUtlString> >::Node_t,int>,int> >::NewNode
 CUtlRBTree<struct CUtlMap<class CUtlString,class panorama::ILocalizationString *,int,class CDefLess<class CUtlString> >::Node_t,int,class CUtlMap<class CUtlString,class panorama::ILocalizationString *,int,class CDefLess<class CUtlString> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class CUtlString,class panorama::ILocalizationString *,int,class CDefLess<class CUtlString> >::Node_t,int>,int> >::NewNode
-CUtlRBTree<struct CUtlMap<class CUtlString,class v8::Persistent<class v8::ObjectTemplate,class v8::NonCopyablePersistentTraits<class v8::ObjectTemplate> > *,int,class CDefLess<class CUtlString> >::Node_t,int,class CUtlMap<class CUtlString,class v8::Persistent<class v8::ObjectTemplate,class v8::NonCopyablePersistentTraits<class v8::ObjectTemplate> > *,int,class CDefLess<class CUtlString> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class CUtlString,class v8::Persistent<class v8::ObjectTemplate,class v8::NonCopyablePersistentTraits<class v8::ObjectTemplate> > *,int,class CDefLess<class CUtlString> >::Node_t,int>,int> >::NewNode
+CUtlRBTree<struct CUtlMap<class CUtlString,class v8::Global<class v8::ObjectTemplate> *,int,class CDefLess<class CUtlString> >::Node_t,int,class CUtlMap<class CUtlString,class v8::Global<class v8::ObjectTemplate> *,int,class CDefLess<class CUtlString> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class CUtlString,class v8::Global<class v8::ObjectTemplate> *,int,class CDefLess<class CUtlString> >::Node_t,int>,int> >::NewNode
 CUtlRBTree<struct CUtlMap<class CUtlString,short,int,class CDefCaselessCUtlStringLess>::Node_t,int,class CUtlMap<class CUtlString,short,int,class CDefCaselessCUtlStringLess>::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class CUtlString,short,int,class CDefCaselessCUtlStringLess>::Node_t,int>,int> >::NewNode
 CUtlRBTree<struct CUtlMap<class CUtlString,struct panorama::CUIEngine::NamedHost_t,int,class CDefLess<class CUtlString> >::Node_t,int,class CUtlMap<class CUtlString,struct panorama::CUIEngine::NamedHost_t,int,class CDefLess<class CUtlString> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class CUtlString,struct panorama::CUIEngine::NamedHost_t,int,class CDefLess<class CUtlString> >::Node_t,int>,int> >::NewNode
 CUtlRBTree<struct CUtlMap<class CUtlString,struct panorama::PanelDescription_t *,unsigned short,bool (__cdecl*)(class CUtlString const &,class CUtlString const &)>::Node_t,unsigned short,class CUtlMap<class CUtlString,struct panorama::PanelDescription_t *,unsigned short,bool (__cdecl*)(class CUtlString const &,class CUtlString const &)>::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class CUtlString,struct panorama::PanelDescription_t *,unsigned short,bool (__cdecl*)(class CUtlString const &,class CUtlString const &)>::Node_t,unsigned short>,unsigned short> >::NewNode
@@ -2950,7 +2912,7 @@ CUtlRBTree<struct CUtlMap<class panorama::CPanoramaSymbol,class CUtlString,short
 CUtlRBTree<struct CUtlMap<class panorama::CPanoramaSymbol,class panorama::CPanel2DFactory *,int,class CDefLess<class panorama::CPanoramaSymbol> >::Node_t,int,class CUtlMap<class panorama::CPanoramaSymbol,class panorama::CPanel2DFactory *,int,class CDefLess<class panorama::CPanoramaSymbol> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class panorama::CPanoramaSymbol,class panorama::CPanel2DFactory *,int,class CDefLess<class panorama::CPanoramaSymbol> >::Node_t,int>,int> >::NewNode
 CUtlRBTree<struct CUtlMap<class panorama::CPanoramaSymbol,class panorama::CStyleAnimation *,short,class CDefLess<class panorama::CPanoramaSymbol> >::Node_t,short,class CUtlMap<class panorama::CPanoramaSymbol,class panorama::CStyleAnimation *,short,class CDefLess<class panorama::CPanoramaSymbol> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class panorama::CPanoramaSymbol,class panorama::CStyleAnimation *,short,class CDefLess<class panorama::CPanoramaSymbol> >::Node_t,short>,short> >::NewNode
 CUtlRBTree<struct CUtlMap<class panorama::CPanoramaSymbol,class panorama::IUIPanel *,int,class CDefLess<class panorama::CPanoramaSymbol> >::Node_t,int,class CUtlMap<class panorama::CPanoramaSymbol,class panorama::IUIPanel *,int,class CDefLess<class panorama::CPanoramaSymbol> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class panorama::CPanoramaSymbol,class panorama::IUIPanel *,int,class CDefLess<class panorama::CPanoramaSymbol> >::Node_t,int>,int> >::NewNode
-CUtlRBTree<struct CUtlMap<class panorama::CPanoramaSymbol,class v8::Persistent<class v8::ObjectTemplate,class v8::NonCopyablePersistentTraits<class v8::ObjectTemplate> > *,int,class CDefLess<class panorama::CPanoramaSymbol> >::Node_t,int,class CUtlMap<class panorama::CPanoramaSymbol,class v8::Persistent<class v8::ObjectTemplate,class v8::NonCopyablePersistentTraits<class v8::ObjectTemplate> > *,int,class CDefLess<class panorama::CPanoramaSymbol> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class panorama::CPanoramaSymbol,class v8::Persistent<class v8::ObjectTemplate,class v8::NonCopyablePersistentTraits<class v8::ObjectTemplate> > *,int,class CDefLess<class panorama::CPanoramaSymbol> >::Node_t,int>,int> >::NewNode
+CUtlRBTree<struct CUtlMap<class panorama::CPanoramaSymbol,class v8::Global<class v8::ObjectTemplate> *,int,class CDefLess<class panorama::CPanoramaSymbol> >::Node_t,int,class CUtlMap<class panorama::CPanoramaSymbol,class v8::Global<class v8::ObjectTemplate> *,int,class CDefLess<class panorama::CPanoramaSymbol> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class panorama::CPanoramaSymbol,class v8::Global<class v8::ObjectTemplate> *,int,class CDefLess<class panorama::CPanoramaSymbol> >::Node_t,int>,int> >::NewNode
 CUtlRBTree<struct CUtlMap<class panorama::CPanoramaSymbol,int,unsigned short,bool (__cdecl*)(class panorama::CPanoramaSymbol const &,class panorama::CPanoramaSymbol const &)>::Node_t,unsigned short,class CUtlMap<class panorama::CPanoramaSymbol,int,unsigned short,bool (__cdecl*)(class panorama::CPanoramaSymbol const &,class panorama::CPanoramaSymbol const &)>::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class panorama::CPanoramaSymbol,int,unsigned short,bool (__cdecl*)(class panorama::CPanoramaSymbol const &,class panorama::CPanoramaSymbol const &)>::Node_t,unsigned short>,unsigned short> >::NewNode
 CUtlRBTree<struct CUtlMap<class panorama::CPanoramaSymbol,struct panorama::CLayoutManager::InMemoryFile_t,int,class CDefLess<class panorama::CPanoramaSymbol> >::Node_t,int,class CUtlMap<class panorama::CPanoramaSymbol,struct panorama::CLayoutManager::InMemoryFile_t,int,class CDefLess<class panorama::CPanoramaSymbol> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class panorama::CPanoramaSymbol,struct panorama::CLayoutManager::InMemoryFile_t,int,class CDefLess<class panorama::CPanoramaSymbol> >::Node_t,int>,int> >::NewNode
 CUtlRBTree<struct CUtlMap<class panorama::CPanoramaSymbol,struct panorama::PanelEvent_t,short,class CDefLess<class panorama::CPanoramaSymbol> >::Node_t,short,class CUtlMap<class panorama::CPanoramaSymbol,struct panorama::PanelEvent_t,short,class CDefLess<class panorama::CPanoramaSymbol> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class panorama::CPanoramaSymbol,struct panorama::PanelEvent_t,short,class CDefLess<class panorama::CPanoramaSymbol> >::Node_t,short>,short> >::NewNode
@@ -2962,13 +2924,13 @@ CUtlRBTree<struct CUtlMap<class panorama::IUIPanel *,class CUtlPtr<class CUtlVec
 CUtlRBTree<struct CUtlMap<class panorama::IUIPanel *,class CUtlString,int,class CDefLess<class panorama::IUIPanel *> >::Node_t,int,class CUtlMap<class panorama::IUIPanel *,class CUtlString,int,class CDefLess<class panorama::IUIPanel *> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class panorama::IUIPanel *,class CUtlString,int,class CDefLess<class panorama::IUIPanel *> >::Node_t,int>,int> >::NewNode
 CUtlRBTree<struct CUtlMap<class panorama::IUIPanel *,class CUtlVector<struct panorama::EventHandler_t,class CUtlMemory<struct panorama::EventHandler_t,int> > *,int,class CDefLess<class panorama::IUIPanel *> >::Node_t,int,class CUtlMap<class panorama::IUIPanel *,class CUtlVector<struct panorama::EventHandler_t,class CUtlMemory<struct panorama::EventHandler_t,int> > *,int,class CDefLess<class panorama::IUIPanel *> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class panorama::IUIPanel *,class CUtlVector<struct panorama::EventHandler_t,class CUtlMemory<struct panorama::EventHandler_t,int> > *,int,class CDefLess<class panorama::IUIPanel *> >::Node_t,int>,int> >::NewNode
 CUtlRBTree<struct CUtlMap<class panorama::IUIPanel *,class CUtlVector<struct panorama::JSGenericCallback_t *,class CUtlMemory<struct panorama::JSGenericCallback_t *,int> > *,int,class CDefLess<class panorama::IUIPanel *> >::Node_t,int,class CUtlMap<class panorama::IUIPanel *,class CUtlVector<struct panorama::JSGenericCallback_t *,class CUtlMemory<struct panorama::JSGenericCallback_t *,int> > *,int,class CDefLess<class panorama::IUIPanel *> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class panorama::IUIPanel *,class CUtlVector<struct panorama::JSGenericCallback_t *,class CUtlMemory<struct panorama::JSGenericCallback_t *,int> > *,int,class CDefLess<class panorama::IUIPanel *> >::Node_t,int>,int> >::NewNode
-CUtlRBTree<struct CUtlMap<class panorama::IUIPanel *,class v8::Persistent<class v8::Context,class v8::NonCopyablePersistentTraits<class v8::Context> > *,int,class CDefLess<class panorama::IUIPanel *> >::Node_t,int,class CUtlMap<class panorama::IUIPanel *,class v8::Persistent<class v8::Context,class v8::NonCopyablePersistentTraits<class v8::Context> > *,int,class CDefLess<class panorama::IUIPanel *> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class panorama::IUIPanel *,class v8::Persistent<class v8::Context,class v8::NonCopyablePersistentTraits<class v8::Context> > *,int,class CDefLess<class panorama::IUIPanel *> >::Node_t,int>,int> >::NewNode
-CUtlRBTree<struct CUtlMap<class panorama::IUIPanel *,class v8::Persistent<class v8::Object,class v8::NonCopyablePersistentTraits<class v8::Object> > *,int,class CDefLess<class panorama::IUIPanel *> >::Node_t,int,class CUtlMap<class panorama::IUIPanel *,class v8::Persistent<class v8::Object,class v8::NonCopyablePersistentTraits<class v8::Object> > *,int,class CDefLess<class panorama::IUIPanel *> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class panorama::IUIPanel *,class v8::Persistent<class v8::Object,class v8::NonCopyablePersistentTraits<class v8::Object> > *,int,class CDefLess<class panorama::IUIPanel *> >::Node_t,int>,int> >::NewNode
+CUtlRBTree<struct CUtlMap<class panorama::IUIPanel *,class v8::Global<class v8::Context> *,int,class CDefLess<class panorama::IUIPanel *> >::Node_t,int,class CUtlMap<class panorama::IUIPanel *,class v8::Global<class v8::Context> *,int,class CDefLess<class panorama::IUIPanel *> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class panorama::IUIPanel *,class v8::Global<class v8::Context> *,int,class CDefLess<class panorama::IUIPanel *> >::Node_t,int>,int> >::NewNode
+CUtlRBTree<struct CUtlMap<class panorama::IUIPanel *,class v8::Global<class v8::Object> *,int,class CDefLess<class panorama::IUIPanel *> >::Node_t,int,class CUtlMap<class panorama::IUIPanel *,class v8::Global<class v8::Object> *,int,class CDefLess<class panorama::IUIPanel *> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class panorama::IUIPanel *,class v8::Global<class v8::Object> *,int,class CDefLess<class panorama::IUIPanel *> >::Node_t,int>,int> >::NewNode
 CUtlRBTree<struct CUtlMap<class panorama::IUIPanel *,unsigned int,int,class CDefLess<class panorama::IUIPanel *> >::Node_t,int,class CUtlMap<class panorama::IUIPanel *,unsigned int,int,class CDefLess<class panorama::IUIPanel *> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class panorama::IUIPanel *,unsigned int,int,class CDefLess<class panorama::IUIPanel *> >::Node_t,int>,int> >::NewNode
 CUtlRBTree<struct CUtlMap<class panorama::IUIPanel const *,class CUtlVector<class panorama::CPanelKeyValue,class CUtlMemory<class panorama::CPanelKeyValue,int> >,int,class CDefLess<class panorama::IUIPanel const *> >::Node_t,int,class CUtlMap<class panorama::IUIPanel const *,class CUtlVector<class panorama::CPanelKeyValue,class CUtlMemory<class panorama::CPanelKeyValue,int> >,int,class CDefLess<class panorama::IUIPanel const *> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class panorama::IUIPanel const *,class CUtlVector<class panorama::CPanelKeyValue,class CUtlMemory<class panorama::CPanelKeyValue,int> >,int,class CDefLess<class panorama::IUIPanel const *> >::Node_t,int>,int> >::NewNode
 CUtlRBTree<struct CUtlMap<class panorama::IUIPanel const *,class CUtlVector<struct panorama::CLocalization::PanelLocEntry_t *,class CUtlMemory<struct panorama::CLocalization::PanelLocEntry_t *,int> >,int,class CDefLess<class panorama::IUIPanel const *> >::Node_t,int,class CUtlMap<class panorama::IUIPanel const *,class CUtlVector<struct panorama::CLocalization::PanelLocEntry_t *,class CUtlMemory<struct panorama::CLocalization::PanelLocEntry_t *,int> >,int,class CDefLess<class panorama::IUIPanel const *> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class panorama::IUIPanel const *,class CUtlVector<struct panorama::CLocalization::PanelLocEntry_t *,class CUtlMemory<struct panorama::CLocalization::PanelLocEntry_t *,int> >,int,class CDefLess<class panorama::IUIPanel const *> >::Node_t,int>,int> >::NewNode
 CUtlRBTree<struct CUtlMap<class panorama::IUIPanel const *,class panorama::CLocalizationStringSimple *,int,class CDefLess<class panorama::IUIPanel const *> >::Node_t,int,class CUtlMap<class panorama::IUIPanel const *,class panorama::CLocalizationStringSimple *,int,class CDefLess<class panorama::IUIPanel const *> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class panorama::IUIPanel const *,class panorama::CLocalizationStringSimple *,int,class CDefLess<class panorama::IUIPanel const *> >::Node_t,int>,int> >::NewNode
-CUtlRBTree<struct CUtlMap<class panorama::IUIWindow *,class v8::Persistent<class v8::Object,class v8::NonCopyablePersistentTraits<class v8::Object> > *,int,class CDefLess<class panorama::IUIWindow *> >::Node_t,int,class CUtlMap<class panorama::IUIWindow *,class v8::Persistent<class v8::Object,class v8::NonCopyablePersistentTraits<class v8::Object> > *,int,class CDefLess<class panorama::IUIWindow *> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class panorama::IUIWindow *,class v8::Persistent<class v8::Object,class v8::NonCopyablePersistentTraits<class v8::Object> > *,int,class CDefLess<class panorama::IUIWindow *> >::Node_t,int>,int> >::NewNode
+CUtlRBTree<struct CUtlMap<class panorama::IUIWindow *,class v8::Global<class v8::Object> *,int,class CDefLess<class panorama::IUIWindow *> >::Node_t,int,class CUtlMap<class panorama::IUIWindow *,class v8::Global<class v8::Object> *,int,class CDefLess<class panorama::IUIWindow *> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class panorama::IUIWindow *,class v8::Global<class v8::Object> *,int,class CDefLess<class panorama::IUIWindow *> >::Node_t,int>,int> >::NewNode
 CUtlRBTree<struct CUtlMap<enum panorama::KeyCode,int,int,class CDefLess<enum panorama::KeyCode> >::Node_t,int,class CUtlMap<enum panorama::KeyCode,int,int,class CDefLess<enum panorama::KeyCode> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<enum panorama::KeyCode,int,int,class CDefLess<enum panorama::KeyCode> >::Node_t,int>,int> >::NewNode
 CUtlRBTree<struct CUtlMap<int,struct panorama::CUIInputEngine::AnalogData_t,int,class CDefLess<int> >::Node_t,int,class CUtlMap<int,struct panorama::CUIInputEngine::AnalogData_t,int,class CDefLess<int> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<int,struct panorama::CUIInputEngine::AnalogData_t,int,class CDefLess<int> >::Node_t,int>,int> >::NewNode
 CUtlRBTree<struct CUtlMap<int,struct panorama::JSGenericCallback_t *,int,class CDefLess<int> >::Node_t,int,class CUtlMap<int,struct panorama::JSGenericCallback_t *,int,class CDefLess<int> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<int,struct panorama::JSGenericCallback_t *,int,class CDefLess<int> >::Node_t,int>,int> >::NewNode
@@ -2982,7 +2944,7 @@ CUtlRBTree<struct CUtlMap<unsigned __int64,struct panorama::CCompositionLayerCac
 CUtlRBTree<struct CUtlMap<unsigned __int64,struct panorama::CUIEngine::PanelPaintCount_t,int,class CDefLess<unsigned __int64> >::Node_t,int,class CUtlMap<unsigned __int64,struct panorama::CUIEngine::PanelPaintCount_t,int,class CDefLess<unsigned __int64> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<unsigned __int64,struct panorama::CUIEngine::PanelPaintCount_t,int,class CDefLess<unsigned __int64> >::Node_t,int>,int> >::NewNode
 CUtlRBTree<struct CUtlMap<unsigned int,struct panorama::CLoadLayoutFileAsync::IncludeRequestData_t *,int,class CDefLess<unsigned int> >::Node_t,int,class CUtlMap<unsigned int,struct panorama::CLoadLayoutFileAsync::IncludeRequestData_t *,int,class CDefLess<unsigned int> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<unsigned int,struct panorama::CLoadLayoutFileAsync::IncludeRequestData_t *,int,class CDefLess<unsigned int> >::Node_t,int>,int> >::NewNode
 CUtlRBTree<struct CUtlMap<unsigned int,struct panorama::CUIEngine::JSONWebAPIRequestInFlight_t,int,class CDefLess<unsigned int> >::Node_t,int,class CUtlMap<unsigned int,struct panorama::CUIEngine::JSONWebAPIRequestInFlight_t,int,class CDefLess<unsigned int> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<unsigned int,struct panorama::CUIEngine::JSONWebAPIRequestInFlight_t,int,class CDefLess<unsigned int> >::Node_t,int>,int> >::NewNode
-CUtlRBTree<struct CUtlMap<void *,class v8::Persistent<class v8::Object,class v8::NonCopyablePersistentTraits<class v8::Object> > *,int,class CDefLess<void *> >::Node_t,int,class CUtlMap<void *,class v8::Persistent<class v8::Object,class v8::NonCopyablePersistentTraits<class v8::Object> > *,int,class CDefLess<void *> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<void *,class v8::Persistent<class v8::Object,class v8::NonCopyablePersistentTraits<class v8::Object> > *,int,class CDefLess<void *> >::Node_t,int>,int> >::NewNode
+CUtlRBTree<struct CUtlMap<void *,class v8::Global<class v8::Object> *,int,class CDefLess<void *> >::Node_t,int,class CUtlMap<void *,class v8::Global<class v8::Object> *,int,class CDefLess<void *> >::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<void *,class v8::Global<class v8::Object> *,int,class CDefLess<void *> >::Node_t,int>,int> >::NewNode
 CUtlRBTree<struct panorama::PropertyInTransition_t *,unsigned char,class panorama::CStylePropertyInTransitionLess,class CUtlMemory<struct UtlRBTreeNode_t<struct panorama::PropertyInTransition_t *,unsigned char>,unsigned char> >::NewNode
 CUtlRBTree<unsigned __int64,int,class CDefLess<unsigned __int64>,class CUtlMemory<struct UtlRBTreeNode_t<unsigned __int64,int>,int> >::NewNode
 CUtlRBTree<unsigned __int64,unsigned short,bool (__cdecl*)(unsigned __int64 const &,unsigned __int64 const &),class CUtlMemory<struct UtlRBTreeNode_t<unsigned __int64,unsigned short>,unsigned short> >::NewNode
@@ -3004,14 +2966,12 @@ Cache-Control
 Call a function on each given item
 Call during JS startup code to check if script is being reloaded
 Call set methods to initialize MapKey.
-Call to NULL read function
 Cam\v;
 Camellia(128)
 Camellia(256)
 Can't 
 Can't get here.
 Can't get here: failed to get default value as string
-Can't set both read_data_fn and write_data_fn in the same structure
 CancelIo
 CancelScheduled
 CancelScheduled() must be called with 1 argument
@@ -3041,9 +3001,6 @@ Clip-path not supported unless element string table supplied\n
 CloseDebuggerWindow
 CloseHandle
 CloseModalDialog
-CloseThreadpoolTimer
-CloseThreadpoolWait
-CloseThreadpoolWork
 CloseToolhelp32Snapshot
 Closed temporary file %s
 Closing joystick %i\n
@@ -3070,8 +3027,6 @@ Content-Type: application/ocsp-request\r\nContent-Length: %d\r\n\r\n
 Content-Type: multipart/signed;
 Content-Type: text/plain\r\n\r\n
 ContextMenu
-ContextPriority
-ContextStackSize
 Continue
 Controls blending mode for the panel.  See CSS mix-blend-mode docs on web, except normal for us is with alpha blending.<br><br><b>Examples:</b><pre>-s2-mix-blend-mode: normal;\n-s2-mix-blend-mode: multiply;\n-s2-mix-blend-mode: screen;</pre>
 Controls if the background should be repeated in the horizontal and vertical directions.<br><br>Possible values per direction:<br>"repeat" - (default) Repeated in the specified direction until it fills the panel<br>"space" - Repeated as many times as required to fill the panel w/o being clipped. Space is added between images to to align first and last image with panel edges.<br>"round" - Repeated as many times as required to fill the panel w/o being clipped. The image is resized to align first and last image with panel edges.<br>"no-repeat" - Not repeated<br><br>Possible single values:<br>"repeat-x" - equals "repeat no-repeat"<br>"repeat-y" - equals "no-repeat repeat"<br><br><b>Examples:</b><pre>background-repeat: repeat; // equals "repeat repeat" (default)\nbackground-repeat: repeat space; // repeats horizontally, spaces vertically \nbackground-repeat: no-repeat round; // 1 column of images, scaled to fit evenly</pre>
@@ -3082,7 +3037,6 @@ Controls truncation of text that doesn't fit in a panel.  "clip" means to simply
 Controls white-space wrapping on rendered text.  "normal" means wrap on whitespace, "nowrap" means do no wrapping at all.<br><br><b>Examples:</b><pre>white-space: normal;\nwhite-space: nowrap;</pre>
 CopyStringToClipboard
 Copyright (C) 2010, Thomas G. Lane, Guido Vollbeding
-Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
 CorExitProcess
 Corrupt JPEG data: %u extraneous bytes before marker 0x%02x
 Corrupt JPEG data: bad Huffman code
@@ -3097,7 +3051,6 @@ Create a logging channel
 Create a new panel
 Create a new panel supplying a JS object as a fourth parameter containing properties to be applied to the panel
 CreateDebuggerWindow
-CreateEventExW
 CreateEventW
 CreateFileW
 CreateInterface
@@ -3119,12 +3072,6 @@ CreatePanelWithProperties second param (parent) must be a panel object
 CreatePanelWithProperties second param (parent) was not a valid panel object
 CreatePanelWithProperties third param (id) must be string or undefined
 CreatePanoramaUIEngineInternal
-CreateSemaphoreExW
-CreateSemaphoreW
-CreateSymbolicLinkW
-CreateThreadpoolTimer
-CreateThreadpoolWait
-CreateThreadpoolWork
 CreateToolhelp32Snapshot
 CreateVideoPlayer
 Created
@@ -3168,8 +3115,6 @@ DBDc
 DBF-
 DCT coefficient out of range
 DCT scaled block size %dx%d not supported
-DDDD
-DDDDUUUU
 DEFAULT
 DEF_ADD_INDEX
 DEF_GET_CLASS
@@ -3387,7 +3332,6 @@ DYNAMIC_SET_DATA_CTX
 Da\">c]$8c^
 Danish
 Data Encipherment
-Data error in compressed datastream
 DbgIsReloadingScript
 DcO/lcK+hSK
 Dd g4X3
@@ -3396,8 +3340,6 @@ December
 Decipher Only
 DeclareCurrentThreadIsMainThread
 DecodePointer
-Decompression Error
-Decompression error
 Default value for an enum field must be an identifier.
 Define Arithmetic Table 0x%02x: 0x%02x
 Define Huffman Table 0x%02x
@@ -3452,23 +3394,8 @@ DropdownMenuFocusChanged
 DsBV
 DummyWizardOpen
 DumpMemory
-Duplicate PLTE chunk
 Duplicate attribute '%s'
-Duplicate bKGD chunk
-Duplicate cHRM chunk
-Duplicate gAMA chunk
-Duplicate hIST chunk
-Duplicate iCCP chunk
-Duplicate oFFs chunk
-Duplicate pCAL chunk
-Duplicate pHYs chunk
-Duplicate sBIT chunk
-Duplicate sCAL chunk
-Duplicate sRGB chunk
-Duplicate tIME chunk
-Duplicate tRNS chunk
 Dutch
-DynamicProgressFeedback
 E"Y6
 E)2G\
 E+E1EAEIESEUEaEwE}E
@@ -3478,6 +3405,7 @@ E1t"
 E5tq
 E;5k
 E>nEA
+E?ThrowException@Isolate@v8@@QEAA?AV?$Local@VValue@v8@@@2@V32@@Z
 EA/c
 EC PARAMETERS
 EC PRIVATE KEY
@@ -3818,7 +3746,6 @@ Event arguments could not be parsed for %s of %s
 EventSystem001
 Ew`)9Q
 Exceeded maximum protobuf size of 2GB: 
-Exceeded size limit while expanding chunk
 Excluded
 ExecuteSteamURL
 ExitIfAddonHasLayoutOutisdeAllowedPath
@@ -3862,8 +3789,6 @@ ExtensionRangeOptions
 Extensions in proto3 are only allowed for defining options.
 Extensions of MessageSets must be optional messages.
 Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.
-Extra compressed data
-Extra compression data
 F#bgn?MwN|%
 F'pY
 F+Zb
@@ -3875,6 +3800,8 @@ F7!z
 F9q'
 F<mb
 F>qUxv
+F?ToString@Value@v8@@QEBA?AV?$MaybeLocal@VString@v8@@@2@V?$Local@VContext@v8@@@2@@Z
+F?ToUint32@Value@v8@@QEBA?AV?$MaybeLocal@VUint32@v8@@@2@V?$Local@VContext@v8@@@2@@Z
 FALSE
 FATAL
 FATAL ERROR: unable to register all schema data: %s\n
@@ -3958,8 +3885,8 @@ Find an element
 FindChildInContext
 FindChildInContext()/$() require an id selector (start with #) for now
 FindClose
-FindFirstFileExA
-FindNextFileA
+FindFirstFileExW
+FindNextFileW
 Finnish
 Fire another event after a delay (in seconds).
 Fire another event if currently hovering over a panel with the given ID.
@@ -3985,7 +3912,6 @@ FlsGetValue
 FlsSetValue
 FlushConsoleInputBuffer
 FlushFileBuffers
-FlushProcessWriteBuffers
 Fm{#t
 FontManager_001
 Fop]
@@ -4004,7 +3930,6 @@ Found unsupported CSS at-rule: %s
 Fractional sampling not implemented yet
 FreeEnvironmentStringsW
 FreeLibrary
-FreeLibraryWhenCallbackReturns
 Freed EMS handle %u
 Freed XMS handle %u
 French
@@ -4015,6 +3940,7 @@ G1b1
 G2bQ
 G2xVo\?
 G>US
+G?Uint32Value@Value@v8@@QEBA?AV?$Maybe@I@2@V?$Local@VContext@v8@@@2@@Z
 GAME
 GBd<}v
 GCTL
@@ -4099,13 +4025,11 @@ GetCommandLineA
 GetCommandLineW
 GetConsoleCP
 GetConsoleMode
+GetConsoleOutputCP
 GetContextPanel
 GetCurrentDirectoryW
-GetCurrentPackageId
 GetCurrentProcess
 GetCurrentProcessId
-GetCurrentProcessorNumber
-GetCurrentThread
 GetCurrentThreadId
 GetCursorInfo
 GetDefaultMiniDumpTypeFlags
@@ -4113,7 +4037,8 @@ GetDouble
 GetDriveTypeW
 GetEnumValue
 GetEnvironmentStringsW
-GetFileInformationByHandleEx
+GetFileInformationByHandle
+GetFileSizeEx
 GetFileType
 GetFloat
 GetForegroundWindow
@@ -4124,9 +4049,8 @@ GetInt64
 GetKeyState
 GetLastError
 GetLocalHostname
-GetLocaleInfoEx
 GetMessage
-GetModuleFileNameA
+GetModuleFileNameW
 GetModuleHandleExW
 GetModuleHandleW
 GetOEMCP
@@ -4156,10 +4080,7 @@ GetStringTypeW
 GetSystemInfo
 GetSystemTime
 GetSystemTimeAsFileTime
-GetSystemTimePreciseAsFileTime
-GetThreadTimes
 GetTickCount
-GetTickCount64
 GetTimeZoneInformation
 GetUInt32
 GetUInt64
@@ -4240,6 +4161,7 @@ Huffman table 0x%02x was not defined
 Hungarian
 H{1S
 I"9|OxTex
+I#?InitializeICU@V8@v8@@SA_NPEBD@Z
 I+8G
 I/O error
 I2B_PVK
@@ -4307,17 +4229,6 @@ IfHasClassEvent
 IfHoverOtherEvent
 IfNotHasClassEvent
 IfNotHoverOtherEvent
-Ignoring PLTE chunk in grayscale PNG
-Ignoring attempt to set cHRM RGB triangle with zero area
-Ignoring attempt to set negative chromaticity value
-Ignoring cHRM chunk with negative chromaticities
-Ignoring gAMA chunk with out of range gamma
-Ignoring iCCP chunk with declared size = @1 and actual length = @2
-Ignoring incorrect cHRM value when sRGB is also present
-Ignoring incorrect cHRM white(@1,@2) r(@3,@4)g(@5,@6)b(@7,@8) when sRGB is also present
-Ignoring incorrect gAMA value @1 when sRGB is also present
-Ignoring invalid time value
-Ignoring nonzero compression type in iCCP chunk
 IiGM>nw
 Ij)s
 Ik\f`dub`D
@@ -4325,11 +4236,7 @@ Il?333333c?
 Illegal character
 Illegal jstype for int64, uint64, sint64, fixed64 or sfixed64 field: 
 Image '%s' too large, %d x %d
-Image height exceeds user limit in IHDR
-Image height is zero in IHDR
 Image too wide for this implementation
-Image width exceeds user limit in IHDR
-Image width is zero in IHDR
 ImageFailedLoad
 ImageFormat
 ImageLoaded
@@ -4339,31 +4246,15 @@ Import "
 Improper call to JPEG library in state %d
 InMemoryFileUpdate
 InMemoryFilesSaved
-Incomplete compressed datastream
 Inconsistent progression sequence for component %d coefficient %d
-Incorrect IEND chunk length
-Incorrect bKGD chunk index value
-Incorrect bKGD chunk length
-Incorrect cHRM chunk length
-Incorrect gAMA chunk length
-Incorrect hIST chunk length
-Incorrect oFFs chunk length
-Incorrect pHYs chunk length
-Incorrect sBIT chunk length
-Incorrect sRGB chunk length
-Incorrect tIME chunk length
-Incorrect tRNS chunk length
 Independent
 Index out-of-bounds (field is empty).
 Inherit all
 Inhibit Policy Mapping
-InitOnceExecuteOnce
-InitializeConditionVariable
 InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
-InitializeSRWLock
 Inline scripts can't be included in partial layout files
 Inline scripts can't be included in snippets
 Input file read error
@@ -4375,19 +4266,8 @@ InputStackSystemVersion001
 InputSystemVersion001
 InstallSchemaBindings
 Insufficient memory (case %d)
-Insufficient memory for hIST chunk data
-Insufficient memory for pCAL parameter
-Insufficient memory for pCAL params
-Insufficient memory for pCAL purpose
-Insufficient memory for pCAL units
-Insufficient memory to process iCCP chunk
-Insufficient memory to process iCCP profile
-Insufficient memory to process text chunk
-Insufficient memory to store iTXt chunk
-Insufficient memory to store zTXt chunk
 Integer out of range (
 Intentionally vague touch behavior for %p\n
-Interlace handling should be turned on when using png_read_image
 InterlockedFlushSList
 InterlockedPushEntrySList
 Internal Server Error
@@ -4398,30 +4278,17 @@ Interpreting non ascii codepoint %d.
 Invalid
 Invalid %s declaration
 Invalid @keyframe name (missing quotes or empty)
-Invalid IHDR chunk
-Invalid IHDR data
 Invalid JPEG file structure: SOS before SOF
 Invalid JPEG file structure: missing SOS marker
 Invalid JPEG file structure: two SOF markers
 Invalid JPEG file structure: two SOI markers
 Invalid Key Bind
-Invalid PLTE after IDAT
 Invalid SOS parameters for sequential JPEG
 Invalid at the top level of the document
-Invalid attempt to read row data
-Invalid bKGD after IDAT
 Invalid basic quad material\n
-Invalid bit depth in IHDR
-Invalid cHRM after IDAT
-Invalid cHRM blue point
-Invalid cHRM green point
-Invalid cHRM red point
-Invalid cHRM white point
 Invalid certificate verification context
 Invalid clip-path %s, expecting url(#...)\n
 Invalid color quantization mode change
-Invalid color type in IHDR
-Invalid color type/bit depth combination in IHDR
 Invalid component ID %d in SOS
 Invalid content height (flChildHeight = %f) calculated during child panel "%s"; this panel "%s" (reverting to %f)
 Invalid content width (flChildWidth = %f) calculated during child panel "%s"; this panel "%s" (reverting to %f)
@@ -4435,51 +4302,22 @@ Invalid event name to %s
 Invalid event name to DispatchEvent ('%s')
 Invalid fancy quad material\n
 Invalid file descriptor data passed to EncodedDescriptorDatabase::Add().
-Invalid filter method in IHDR
 Invalid float number: 
-Invalid format for pCAL parameter
-Invalid gAMA after IDAT
-Invalid hIST after IDAT
-Invalid iCCP after IDAT
 Invalid image URL (unknown type) to LoadImageFromURL: %s\n
-Invalid image height in IHDR
-Invalid image width in IHDR
 Invalid key %s in binds file %s
 Invalid key for map field.
 Invalid memory pool code %d
 Invalid name
 Invalid number of arguments for event in %s for %s
-Invalid oFFs after IDAT
-Invalid pCAL after IDAT
-Invalid pCAL data
-Invalid pCAL equation type
-Invalid pCAL parameters for equation type
-Invalid pHYs after IDAT
-Invalid palette chunk
-Invalid palette length
-Invalid palette size, hIST allocation skipped
 Invalid panel target to %s of %s
 Invalid progressive parameters Ss=%d Se=%d Ah=%d Al=%d
 Invalid progressive parameters at scan script entry %d
 Invalid property name: %s
 Invalid proto descriptor for file "
 Invalid public dependency index.
-Invalid sBIT after IDAT
-Invalid sCAL after IDAT
-Invalid sCAL chunk ignored: bad height format
-Invalid sCAL chunk ignored: bad width format
-Invalid sCAL chunk ignored: non-positive height
-Invalid sCAL chunk ignored: non-positive width
-Invalid sCAL height
-Invalid sCAL ignored: invalid unit
-Invalid sCAL unit
-Invalid sCAL width
-Invalid sPLT after IDAT
-Invalid sRGB after IDAT
 Invalid scan script at entry %d
 Invalid strings::Substitute() format string: "
 Invalid symbol name: 
-Invalid tRNS after IDAT
 Invalid token
 Invalid transition time set for %s\n
 Invalid type %d on fillbrush\n
@@ -4526,6 +4364,7 @@ JPEG parameter struct mismatch: library thinks size is %u, caller expects %u
 JPEGMEM
 JPQv
 JS Assert (%s): %s
+JS events cannot occur globally outside a panel context...
 JS stack trace begin.\n
 JS stack trace end.
 JSConsoleOutput
@@ -4652,7 +4491,6 @@ LoadLayoutFromBase64XMLStringAsync
 LoadLayoutFromXMLStringAsync
 LoadLibraryExW
 LoadLibraryW
-LocalContextCacheSize
 LocalKeySet
 LocaleNameToLCID
 LocalizationChanged
@@ -4675,6 +4513,7 @@ LqH!)8
 LsiX
 Ltc$
 M'Ezb
+M(knN
 M-laO
 M0 E
 M8MF
@@ -4697,7 +4536,6 @@ MIC-ONLY
 MIME MHS
 MIME-Version: 1.0%s
 MM/dd/yy
-MNG features are not allowed in a PNG datastream
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
 MODULE_INIT
@@ -4710,8 +4548,6 @@ M\rLAI)haL<|p\t\t
 M\vOj
 Mail
 Make a web request
-Malformed iCCP chunk
-Malformed iTXt chunk
 Management
 MapKey::GetBoolValue
 MapKey::GetInt32Value
@@ -4736,10 +4572,7 @@ March
 Mask Algorithm: 
 MaterialUtils_001
 MathLib_Init
-MaxConcurrency
-MaxPolicyElementKey
 Maximum supported image dimension is %u pixels
-May 27 2020
 MbP?
 Mc]T=
 MediaNextTrack
@@ -4751,7 +4584,6 @@ MediaVolumeMute
 MediaVolumeUp
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
-Memory allocation failed while processing sCAL
 MeshSystem001
 MeshUtils001
 Message extensions cannot have required fields.
@@ -4776,7 +4608,6 @@ Microsoft Server Gated Crypto
 Microsoft Smartcardlogin
 Microsoft Trust List Signing
 Microsoft Universal Principal Name
-MinConcurrency
 MinghuaQu
 MinghuaQu)
 MinghuaQuS
@@ -4788,28 +4619,6 @@ Minimum time that the mouse button must be down before a move is treated as a dr
 Minimum time that the mouse button must be down before a move is treated as a drag scroll in VR
 Miscellaneous marker 0x%02x, length %u
 Missing Huffman code table entry
-Missing IHDR before IDAT
-Missing IHDR before PLTE
-Missing IHDR before bKGD
-Missing IHDR before cHRM
-Missing IHDR before gAMA
-Missing IHDR before hIST
-Missing IHDR before iCCP
-Missing IHDR before iTXt
-Missing IHDR before oFFs
-Missing IHDR before pCAL
-Missing IHDR before pHYs
-Missing IHDR before sBIT
-Missing IHDR before sCAL
-Missing IHDR before sPLT
-Missing IHDR before sRGB
-Missing IHDR before tEXt
-Missing IHDR before tRNS
-Missing IHDR before zTXt
-Missing PLTE before IDAT
-Missing PLTE before bKGD
-Missing PLTE before hIST
-Missing PLTE before tRNS
 Missing close bracket in transform %s
 Missing colon
 Missing field: FileDescriptorProto.name.
@@ -4862,7 +4671,6 @@ N>VF
 NAME_CONSTRAINTS
 NAN(IND)
 NAN(SNAN)
-NASSE and SSE2 are required.
 NCONF_dump_bio
 NCONF_dump_fp
 NCONF_get_number
@@ -4902,7 +4710,6 @@ NO_SIDE_EFFECTS
 NQ?s
 NREF_NOS
 NULL
-NULL row buffer
 NULL shared library method
 NULL-MD5
 NULL-SHA
@@ -4954,17 +4761,6 @@ NetworkSystemVersion001
 No Content
 No default value
 No field named "uninterpreted_option" in the Options proto.
-No image in file
-No memory for pCAL params
-No memory for pCAL purpose
-No memory for sPLT palettes
-No memory to process iTXt chunk
-No memory to process text chunk
-No space in chunk cache for iTXt
-No space in chunk cache for sPLT
-No space in chunk cache for tEXt
-No space in chunk cache for unknown chunk
-No space in chunk cache for zTXt
 NoName
 Non Critical
 Non Repudiation
@@ -4982,13 +4778,7 @@ Not Found
 Not Implemented
 Not Modified
 Not a JPEG file: starts with 0x%02x 0x%02x
-Not a PNG file
 Not enough arguments to %s
-Not enough image data
-Not enough memory to decompress chunk
-Not enough memory to process iTXt chunk
-Not enough memory to process text chunk
-Not enough memory to process zTXt chunk
 Not implemented field number 
 Not implemented yet
 Not implemented.
@@ -5120,20 +4910,7 @@ Options could not be fully parsed using the proto descriptors compiled into this
 Order: 
 Ordered constructor wrapped type has no default constructor.\n\tYou must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.\n
 OrqK
-Out of Memory
 Out of memory
-Out of memory processing zTXt chunk
-Out of memory while processing sCAL chunk
-Out of memory while processing sPLT chunk
-Out of memory while processing unknown chunk
-Out of place IHDR
-Out of place cHRM chunk
-Out of place gAMA chunk
-Out of place iCCP chunk
-Out of place sBIT chunk
-Out of place sRGB chunk
-Out of place tIME chunk
-Out of range gamma value ignored
 Output file write error --- out of disk space?
 OverlayGamepadInputMsg
 Ow!y
@@ -5144,6 +4921,7 @@ P-224
 P-256
 P-384
 P-521
+P0i4
 P1\t98"
 P5[1
 PAGN_4
@@ -5201,7 +4979,6 @@ PEM_read_bio_Parameters
 PEM_write
 PEM_write_bio
 PGr]
-PH@0
 PHAG2
 PHhn}Y
 PKCS #7 SIGNED DATA
@@ -5318,10 +5095,7 @@ PKEY_SET_TYPE
 PKEY_USAGE_PERIOD
 PKIX
 PLACEHOLDER_VALUE
-PNG file corrupted by ASCII conversion
-PNG fixed point integer out of range
-PNG load error %s\n
-PNG unsigned integer out of range
+PNG\r\n
 POLICYINFO
 POLICYQUALINFO
 POLICY_CONSTRAINTS
@@ -5393,7 +5167,6 @@ PeekNamedPipe
 Peer haven't sent GOST certificate, required for selected ciphersuite
 Permanent Identifier
 Permitted
-Php0
 Physics2 Interface Old v0.5
 PhysicsBuilderMgr001
 Plat_DebugPrint
@@ -5435,7 +5208,6 @@ PollingForSteamClientUpdate
 Polynomial:
 Portuguese
 PostProcessingSystem_001
-Potential overflow in png_zalloc()
 Pr"V
 Precondition Failed
 Premature end of JPEG file
@@ -5453,12 +5225,13 @@ Proc-Type:
 Proc-Type: 4,
 Process32First
 Process32Next
-Profile size field missing from iCCP chunk
 ProfileOff
 ProfileOn
 Property getter for CPanelStyle called on invalid object
+Property getter for CPanelStyle called with invalid css property name (%s)
 Property setter for CPanelStyle called on invalid object
 Property setter for CPanelStyle called with empty string as value for %s
+Property setter for CPanelStyle called with invalid css property name
 Property setter for CPanelStyle called with invalid css property name (%s)
 PropertyEditorSystem_001
 PropertyTransitionEnd
@@ -5565,6 +5338,7 @@ RG1616
 RG1616F
 RG1616F_EXPAND
 RG3232F
+RG88
 RGB323232F
 RGB565
 RGB888
@@ -5670,9 +5444,6 @@ RSA_verify_PKCS1_PSS_mgf1
 RSDS
 RST%d
 R\r1>Vp
-R\rp\f`\v0hp0
-R\vpH@0
-R\vphp0
 R]Di
 RaiseException
 RandomFloat
@@ -5680,12 +5451,10 @@ RandomInt
 Rbg.E
 Reached an unintended state: CPPTYPE_MESSAGE
 Reached impossible case in HasBit().
-Read Error
 Read failed on temporary file
 Read from EMS failed
 Read from XMS failed
-Read palette index exceeding num_palette
-ReadConsoleInputA
+ReadConsoleInputW
 ReadConsoleW
 ReadDirectoryChangesW
 ReadFile
@@ -5711,7 +5480,6 @@ Registered ID
 Release
 ReleaseLast
 ReleaseMessage
-ReleaseSRWLockExclusive
 ReloadChangedUIFiles
 ReloadStyleFile
 Remove From CRL
@@ -5762,13 +5530,13 @@ RestartMachine
 RetryStyleReload
 Rg4I
 Romanian
-Row has too many bytes to allocate in memory
 Rq[R
 RrBoN
 RtIF
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlPcToFileHeader
+RtlUnwind
 RtlUnwindEx
 RtlVirtualUnwind
 RunScriptInPanelContext
@@ -5892,6 +5660,7 @@ SQ8_d`\
 SRTP_AES128_CM_SHA1_32
 SRTP_AES128_CM_SHA1_80
 SRVR
+SSE and SSE2 are required.
 SSL CA
 SSL Client
 SSL SESSION PARAMETERS
@@ -5989,20 +5758,8 @@ SSL_write
 SSLv2
 SSLv3
 SSLv3 part of OpenSSL 1.0.2j  26 Sep 2016
-STEAMAPPLIST_INTERFACE_VERSION001
-STEAMAPPS_INTERFACE_VERSION008
 STEAMHTMLSURFACE_INTERFACE_VERSION_005
 STEAMHTTP_INTERFACE_VERSION003
-STEAMINVENTORY_INTERFACE_V003
-STEAMMUSICREMOTE_INTERFACE_VERSION001
-STEAMMUSIC_INTERFACE_VERSION001
-STEAMPARENTALSETTINGS_INTERFACE_VERSION001
-STEAMREMOTESTORAGE_INTERFACE_VERSION014
-STEAMSCREENSHOTS_INTERFACE_VERSION003
-STEAMTV_INTERFACE_V001
-STEAMUGC_INTERFACE_VERSION013
-STEAMUSERSTATS_INTERFACE_VERSION011
-STEAMVIDEO_INTERFACE_V002
 STRENGTH
 STRING
 STR_COPY
@@ -6029,8 +5786,6 @@ SceneUtils_001
 Schedule
 Schedule a function to be called later
 Schedule() must be called with at least 2 arguments
-SchedulerKind
-SchedulingProtocol
 SchemaSystem_001
 SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
@@ -6079,6 +5834,7 @@ Selected %d colors for quantization
 Selected Attribute Types
 Selector exceeds temp buffer size: %s
 SendInput
+Sep 17 2026
 September
 SerializedEntitiesVersion001
 ServerUploadGameStats001
@@ -6099,9 +5855,8 @@ SetEndOfFile
 SetEnum
 SetEnumValue
 SetEnumValue accepts only valid integer values: value 
-SetEnvironmentVariableA
+SetEnvironmentVariableW
 SetEvent
-SetFileInformationByHandle
 SetFilePointerEx
 SetFloat
 SetFocus
@@ -6128,8 +5883,6 @@ SetRepeatedUInt32
 SetRepeatedUInt64
 SetStdHandle
 SetString
-SetThreadpoolTimer
-SetThreadpoolWait
 SetUInt32
 SetUInt64
 SetUnhandledExceptionFilter
@@ -6174,7 +5927,6 @@ ShutdownMachine
 Simplified_Chinese
 Sleep
 SleepConditionVariableCS
-SleepConditionVariableSRW
 SleepEx
 Slow image load - %s (dimensions %dx%d, took %d msec)\n
 Smoothing not supported with nonstandard sampling ratios
@@ -6269,20 +6021,10 @@ SteamAPI_GetHSteamUser
 SteamAPI_RegisterCallResult
 SteamAPI_UnregisterCallResult
 SteamAudio001
-SteamClient019
-SteamController007
-SteamFriends017
-SteamInput001
 SteamInternal_ContextInit
-SteamInternal_CreateInterface
 SteamInternal_FindOrCreateUserInterface
-SteamMatchGameSearch001
-SteamMatchMaking009
-SteamMatchMakingServers002
-SteamNetworking005
 SteamUI
-SteamUser021
-SteamUtils009
+SteamUtils011
 SteampadGuideButton
 SteampadGuideButtonUp
 StopAudioSample
@@ -6300,7 +6042,6 @@ Styles can't be included in partial layout files
 Styles must be declared first before any child panels
 Styles must be declared in root
 Subject Information Access
-SubmitThreadpoolWork
 Suite B: cannot sign P-384 with P-256
 Suite B: certificate version invalid
 Suite B: curve not allowed for this LOS
@@ -6314,6 +6055,7 @@ SuspendMachine
 Suspension not allowed here
 Swap
 Swedish
+Switch from encoding '%s' to '%s' is not supported
 Switch which class the panel has for a given attribute slot. Allows easily changing between multiple states.
 SwitchStyle
 Switching Protocols
@@ -6398,7 +6140,6 @@ TYPE=
 TabBackward
 TabForward
 Tag '%s' was not closed
-TargetOversubscriptionFactor
 Temporary Redirect
 TerminateProcess
 TestScriptMgr001
@@ -6447,7 +6188,6 @@ ToggleFullscreen
 TogglePanelSelected
 ToggleStyle
 Too Many Requests
-Too many IDATs found
 Too many color components: %d, max %d
 ToolFramework2_002
 ToolSceneNodeFactory_001
@@ -6466,12 +6206,7 @@ Tried to merge messages of different types
 Trigger an assert
 TriggerStyle
 True
-Truncated iTXt chunk
-Truncated zTXt chunk
-Truncating incorrect info tRNS chunk length
-Truncating incorrect tRNS chunk length
 Trust Root
-TryAcquireSRWLockExclusive
 Trying to apply missing animation: %s
 Tu\t(OR
 Tuesday
@@ -6552,7 +6287,6 @@ UTF-8 data when
 UTF8
 UTF8STRING
 UTF8String
-UUUU
 UUUUUU
 UUUUUUUUUUUUUU<o(
 UUUUUUUUUUUa\f\v
@@ -6589,7 +6323,6 @@ Unexpected transform type
 UnhandledExceptionFilter
 Unimplemented Map Reflection API.
 Unimplemented type: 
-Uninitialized row
 UninterpretedOption
 Unknown
 Unknown APP0 marker (not JFIF), length %u
@@ -6599,24 +6332,15 @@ Unknown HTTP 4xx
 Unknown HTTP 5xx
 Unknown HTTP error
 Unknown SVG attribute type\n
-Unknown compression method in IHDR
-Unknown compression type @1
-Unknown compression type in zTXt chunk
 Unknown enumeration value of "
 Unknown exception
-Unknown filter method in IHDR
-Unknown iTXt compression type or method
-Unknown interlace method in IHDR
 Unknown panel type in style selector: %s
-Unknown sRGB intent
 Unknown transform type %s
 Unknown transform type\n
-Unknown zlib error
 Unknown(%d)
 Unprocessed type %d\n
 UnreadyForDisplay
 Unrecognized component IDs %d %d %d, assuming YCbCr
-Unrecognized equation type for pCAL chunk
 Unrecognized syntax: 
 UnregisterForUnhandledEvent
 Unspecified
@@ -6657,8 +6381,6 @@ V3 s
 V3_ADDR_VALIDATE_PATH_INTERNAL
 V3_GENERIC_EXTENSION
 V5u f
-V8 - Hint GC Full
-V8 - Hint GC Periodic
 V8FatalErrorHandler
 V8ParamToPanoramaType expected IUIPanel object to convert, but got some other invalid object
 V8ParamToPanoramaType expected IUIPanelStyle object to convert, but got some other invalid object
@@ -6735,6 +6457,7 @@ V_a|I
 V_fprintf
 V_isstrlower_fast
 V_localeconv
+V_pow
 V_powf
 V_qsort
 V_qsort_s
@@ -6833,9 +6556,7 @@ WZTR
 W\noB
 WaNd?
 WaitForSingleObjectEx
-WaitForThreadpoolTimerCallbacks
 WakeAllConditionVariable
-WakeConditionVariable
 Warning
 Warning parsing text-format 
 Warning:  %s = '%s' is infinite, clamping value.\n
@@ -6850,8 +6571,6 @@ When enum name is stripped and label is PascalCased (
 Whitespace not allowed here
 Whitespace required
 WideCharToMultiByte
-Width is too large for libpng to process pixels
-WinRTInitialization
 WindowCursorHidden
 WindowCursorShown
 WindowGotFocus
@@ -7098,7 +6817,6 @@ Ye\B
 YedcCH}
 Ykg"
 YnFpW
-You can set but not get style alias names, you must get on the base style property name
 You must turn on @panorama_track_render_commands to track command usage.\n
 You must type in 
 You need to read the OpenSSL FAQ, http://www.openssl.org/support/faq.html
@@ -7121,7 +6839,6 @@ ZXF,`i
 Z\>z8
 Zd[w
 Ze2Zh@
-Zero length tRNS chunk
 ZjLS
 Zjz\v
 Zod6
@@ -7168,9 +6885,6 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp\v`\nPhp0
-\fp\v`hp0
-\fphp0
 \ful2
 \fy&3Gl
 \game\
@@ -7196,6 +6910,7 @@ Z~wl
 \n%12s%s
 \n5a=Z
 \n:82H
+\nIHDRPLTEIDATIENDtRNScHRMgAMAiCCPsBITsRGBtEXtzTXtiTXtbKGDhISTpHYssPLTtIMEoFFseXIf
 \n\fFieldOptions
 \n\fLITE_RUNTIME
 \n\fSTRING_PIECE
@@ -7246,12 +6961,6 @@ Z~wl
 \nqYu
 \ntM(ie-V
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
-\r?Get@Object@v8@@QEAA?AV?$Local@VValue@v8@@@2@I@Z
-\r?Get@Object@v8@@QEAA?AV?$Local@VValue@v8@@@2@V32@@Z
-\r?Get@Object@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@@Z
-\r?GetColumn@StackFrame@v8@@QEBAHXZ
-\r?GetCurrent@Isolate@v8@@SAPEAV12@XZ
-\r?GetCurrentContext@Isolate@v8@@QEAA?AV?$Local@VContext@v8@@@2@XZ
 \r@h!Aq8
 \rB6uZ
 \rKT8v
@@ -7275,29 +6984,17 @@ Z~wl
 \rjwB\t
 \rmj>zjZ
 \roKK
-\rp\f`\v0hp0
-\rp\f`\vP\n0H@0
-\rp\f`hp0
-\rphp0
 \rrCj
 \sG7tPD
 \t#\t%\t+\t/\t5\tC\tI\tM\tO\tU\tY\t_\tk\tq\tw\t
 \t,L2y
 \t-f3F2
 \t6trF
-\t?Delete@Object@v8@@QEAA_NV?$Local@VValue@v8@@@2@@Z
-\t?Enter@Context@v8@@QEAAXXZ
-\t?Enter@Isolate@v8@@QEAAXXZ
-\t?Escape@EscapableHandleScope@v8@@AEAAPEAPEAVObject@internal@2@PEAPEAV342@@Z
-\t?Exception@TryCatch@v8@@QEBA?AV?$Local@VValue@v8@@@2@XZ
-\t?Exit@Context@v8@@QEAAXXZ
-\t?Exit@Isolate@v8@@QEAAXXZ
 \tBbj
 \tHAI8xpH\f
 \tJm_9
 \tLa0+
 \tN1a
-\tPH@0
 \tcQr
 \tkE>fvw
 \toRE
@@ -7305,6 +7002,7 @@ Z~wl
 \tvrpad_secondary_up
 \t}BzJ88
 \v#\v)\v-\v?\vG\vQ\vW\v]\ve\vo\v{\v
+\v??SetFlagsFromString@V8@v8@@SAXPEBD_K@Z
 \vA03>A|
 \vBCeA
 \vGt5
@@ -7314,9 +7012,7 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
-\vpH@0
-\vpXF0
-\vphp0
+\vppK4
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -7336,6 +7032,7 @@ _%s.vtex
 _Ek6b]
 _Lx6
 _OPENSSL_isservice
+_RDATA
 _V_ComposeFileName
 _V_MakeAbsolutePath
 _V_StringAfterPrefix
@@ -7358,6 +7055,8 @@ __pascal
 __ptr64
 __restrict
 __stdcall
+__swift_1
+__swift_2
 __thiscall
 __unaligned
 __vectorcall
@@ -7367,9 +7066,11 @@ _oD>Kg
 _xU`u
 _}eOk
 `28)fk
+`3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
 `:zQF
 `D$daM-l
 `DZG
+`F?ToLocalEmpty@api_internal@v8@@YAXXZ
 `H(hqA1p
 `ITS
 `RTTI
@@ -7388,9 +7089,8 @@ _}eOk
 `fPw.\vM
 `generic-class-parameter-
 `generic-method-parameter-
+`generic-type-
 `h9T~
-`h`hhh
-`hp0
 `local static destructor helper'
 `local static guard'
 `local static thread guard'
@@ -7409,6 +7109,7 @@ _}eOk
 `template static data member constructor helper'
 `template static data member destructor helper'
 `template-parameter
+`template-parameter-
 `template-type-parameter-
 `typeof'
 `udt returning'
@@ -7428,6 +7129,7 @@ _}eOk
 `vtordisp{
 `yNT
 a null shared library handle was used
+a#?InitializePlatform@V8@v8@@SAXPEAVPlatform@2@@Z
 a(hq
 a2d_ASN1_OBJECT
 a2i_ASN1_ENUMERATED
@@ -7487,6 +7189,7 @@ address not available
 address=
 aes iv setup failed
 aes key setup failed
+aes(partial)
 aes-128-cbc
 aes-128-cbc-hmac-sha1
 aes-128-cbc-hmac-sha256
@@ -7618,10 +7321,10 @@ bJ*h
 bN.l
 bPb:L7X)
 bSh&+
-bSwitch from encoding '%s' to '%s' is not supported
 bV}TS
 b\fp\v0
 b\fzUkm
+b\vP\n0
 b]jY
 background-blur
 background-color
@@ -7632,10 +7335,10 @@ background-repeat
 background-size
 background_texture
 backwards
-bad adaptive filter value
 bad address
 bad alert record
 bad allocation
+bad array new length
 bad asn1 object header
 bad authentication type
 bad base64 decode
@@ -8296,6 +7999,7 @@ char
 char 
 char16_t
 char32_t
+char8_t
 characteristic-two-field
 chartreuse
 childfocusonhover
@@ -8618,6 +8322,7 @@ de_DE
 debug_malloc
 debug_malloc2
 decipherOnly
+decltype(auto)
 decode error
 decoding error
 decrypt error
@@ -8800,6 +8505,7 @@ dynamic
 dynlock
 e+000
 e+3E
+e7?Parse@JSON@v8@@SA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VString@v8@@@2@@Z
 eBeL
 eC z
 eContent
@@ -8937,7 +8643,6 @@ error in extension
 error in nextupdate field
 error in received cipher list
 error in thisupdate field
-error in user chunk
 error initialising drbg
 error instantiating drbg
 error loading dso
@@ -8991,7 +8696,6 @@ expecting an rsa key
 expecting private key blob
 expecting public key blob
 experimental
-expf
 explicit
 explicit length mismatch
 explicit tag not constructed
@@ -9015,7 +8719,6 @@ extensions
 extern "C" 
 external
 extra data in message
-extreme cHRM chunk cannot be converted to tristimulus values
 eyBH_
 eyj5yR
 ezc&
@@ -9067,7 +8770,6 @@ filename too big
 filename too long
 fill
 fill 
-fill-opacity
 fill-parent-flow
 fill-parent-flow( %s )
 fill-rule
@@ -9130,6 +8832,7 @@ g4FA
 g5}6
 g9rB
 gB>d
+gF?ToNumber@Value@v8@@QEBA?AV?$MaybeLocal@VNumber@v8@@@2@V?$Local@VContext@v8@@@2@@Z
 gF{A
 gHAx
 gTH.M
@@ -9141,7 +8844,6 @@ g_iStylePropertyIndexNextFree < 255
 g_pMemAlloc
 gainsboro
 gamepad
-gamma table being rebuilt
 gaussian
 gaussian( 
 gb`X
@@ -9165,6 +8867,7 @@ gold
 goldenrod
 google.protobuf"G\n
 google.protobuf.
+google.protobuf.Any
 google.protobuf.Empty
 google.protobuf.EnumOptions
 google.protobuf.EnumValueOptions
@@ -9650,14 +9353,7 @@ integer not ascii format
 integer too large for long
 internal
 internal error
-internal error handling cHRM coefficients
-internal error handling cHRM->XYZ
-internal error in png_XYZ_from_xy
 internal list error
-internal row logic error
-internal row size calculation error
-internal row width error
-internal sequential row size calculation error
 international-organizations
 internationaliSDNNumber
 interrupted
@@ -9666,15 +9362,12 @@ invalid CA certificate
 invalid argument
 invalid asnumber
 invalid asrange
-invalid background gamma type
 invalid bit length repeat
 invalid bit string bits left
 invalid block type
 invalid bmpstring length
 invalid boolean string
 invalid challenge length
-invalid chunk type
-invalid chunklength
 invalid cmd name
 invalid cmd number
 invalid code -- missing end-of-block
@@ -9769,7 +9462,6 @@ invalid trailer
 invalid trinomial basis
 invalid trust
 invalid universalstring length
-invalid user transform pixel depth
 invalid utf8string
 invalid window size
 invalid x931 digest
@@ -9817,6 +9509,7 @@ j'Vlk
 j0ksJ
 j2ty
 j3kg
+j>?Set@Object@v8@@QEAA?AV?$Maybe@_N@2@V?$Local@VContext@v8@@@2@IV?$Local@VValue@v8@@@2@@Z
 jA(U
 jB#W
 jHLy
@@ -9861,6 +9554,7 @@ k8\vD
 k8fo
 k8xA
 k=yI
+k>?Set@Object@v8@@QEAA?AV?$Maybe@_N@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@1@Z
 kDHE
 kDHd
 kDHr
@@ -10119,9 +9813,6 @@ letter-spacing
 lhash part of OpenSSL 1.0.2j  26 Sep 2016
 lib(%lu)
 libdes part of OpenSSL 1.0.2j  26 Sep 2016
-libpng does not support gamma+background+rgb_to_gray
-libpng error: %s
-libpng warning: %s
 library bug
 library has no ciphers
 light
@@ -10193,7 +9884,6 @@ mac_size <= EVP_MAX_MD_SIZE
 magenta
 mail
 mailPreferenceOption
-malformed sPLT chunk
 malloc failure
 manager
 map/set<T> too long
@@ -10575,19 +10265,23 @@ null is wrong length
 null parameter
 null ssl ctx
 null ssl method passed
+nullptr
 number
 number=%d, address=%08lX\n
 nyYn
 o$g31\f
 o&1m&
+o&?IsArray@Value@v8@@QEBA_NXZ
 o)nV
 o1+v3
 o2i_ECPublicKey
+o3?New@Context@v8@@SA?AV?$Local@VContext@v8@@@2@PEAVIsolate@2@PEAVExtensionConfiguration@2@V?$MaybeLocal@VObjectTemplate@v8@@@2@V?$MaybeLocal@VValue@v8@@@2@UDeserializeInternalFieldsCallback@2@PEAVMicrotaskQueue@2@@Z
 o?GS
 oB4Do4
 oBFX}k6U
 oG)e5L
 oI>O7
+oI?VerifyHostDefinedOptions@ScriptOrigin@v8@@AEBAXXZ
 oMinghuaQu
 oN86
 oWnS
@@ -10671,6 +10365,8 @@ operation would block
 operaton not initialized
 operator
 operator "" 
+operator co_await
+operator<=>
 optional
 optionalSignature
 options
@@ -10726,10 +10422,10 @@ p4Z3
 p5Z3
 p5\nL,
 p618
+p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pD4t
 pG_*h
-pH@0
 pIp 
 pO0h
 pRTH
@@ -10737,7 +10433,6 @@ pSPo
 pSourceFunc
 pSpecified
 pU>\AL
-p\r`\f0\vPhp0
 p^i9
 package
 packed
@@ -10809,6 +10504,7 @@ panorama::CStylePropertyFactory::CStylePropertyFactory
 panorama::CStyleSymbol::CStyleSymbol
 panorama::CUIEngine::PushContextPanel
 panorama::CUIEngineSource2::StartupSubsystems
+panorama::CUIWindowInput::ActionEvent
 panorama::RequiredCallFailed
 panorama::UIImageLoadParams_t::ValidateMaxSize
 panorama_fancyquad_gradienttexture.vtex
@@ -10898,7 +10594,6 @@ perspective
 perspective-origin
 peru
 photo
-php0
 php_class_prefix
 php_generic_services
 phrase is too short, needs to be at least %d chars\n
@@ -10948,10 +10643,6 @@ pkix
 pkparameters2group failure
 pl_PL
 plum
-png_do_encode_alpha: unexpected call
-png_do_quantize returned rowbytes=0
-png_do_rgb_to_gray found nongray pixel
-png_inflate logic error
 point arithmetic failure
 point at infinity
 point is not on curve
@@ -11099,12 +10790,10 @@ rF6t
 rFC822localPart
 rFur`7\t
 rL[i+
-rLp>B
 rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\rp\f`\vPhp0
 r\tVr.>T
 r\vDi
 radial
@@ -11273,7 +10962,6 @@ s?uj
 s@'0q
 sAmTb
 sC3pcG'd
-sCAL chunk too short
 sD9>&
 sF29
 sHF'
@@ -11282,9 +10970,6 @@ sK2?
 sK;xPL
 sKu{~X
 sOARecord
-sPLT chunk has bad length
-sPLT chunk requires too much memory
-sPLT chunk too long
 sT5w!
 sV u\t
 s\tor
@@ -11381,7 +11066,6 @@ sendchildscrolledintoviewevents
 sequence length mismatch
 sequence not constructed
 sequence or set needs config
-sequential row overflow
 serial
 serialNumber
 serializing
@@ -11879,13 +11563,10 @@ tLY^m`6
 tLl 
 tLsq
 tNt5
-tRNS chunk has out-of-range samples for bit_depth
-tRNS chunk not allowed with alpha channel
 tabindex
 tag mismatch
 tag value too high
 tag=
-tanf
 targetInformation
 tbsRequest
 tbsResponseData
@@ -11899,7 +11580,6 @@ teletexTerminalIdentifier
 telexNumber
 template-parameter-
 texcoord
-text compression mode is out of range
 text file busy
 text format contains deprecated field "
 text-align
@@ -12035,6 +11715,7 @@ u%WX
 u%gc
 u)4A
 u0Az
+u3?New@External@v8@@SA?AV?$Local@VExternal@v8@@@2@PEAVIsolate@2@PEAX@Z
 u5bB
 u6Bm
 u;{Gk
@@ -12121,7 +11802,6 @@ unknown cipher type
 unknown cmd name
 unknown compression method
 unknown control command
-unknown critical chunk
 unknown digest
 unknown digest algorihm
 unknown digest algorithm
@@ -12280,6 +11960,7 @@ valveextensions.proto
 variable has no value
 vcss
 vcss_c
+vector too long
 vector<T> too long
 verification failure
 version
@@ -12324,7 +12005,6 @@ vv == NULL
 vxml
 vxml_c
 vzcrR
-w Ew
 w+Ce
 w+OQvr
 w-g2
@@ -12430,11 +12110,9 @@ xlink:href
 xmlns
 xp$=S
 xpH8
-xpxxxx
 xqI9
 xrJ:DCG
 xsK;
-xwpwpp
 xxH}
 xzxv
 y#y&Jb
@@ -12442,6 +12120,7 @@ y0JY
 y2Cu
 y9*O
 y;w9
+y>?SetAccessor@ObjectTemplate@v8@@QEAAXV?$Local@VString@v8@@@2@P6AX0AEBV?$PropertyCallbackInfo@VValue@v8@@@2@@ZP6AX0V?$Local@VValue@v8@@@2@AEBV?$PropertyCallbackInfo@X@2@@Z3W4AccessControl@2@W4PropertyAttribute@2@W4SideEffectType@2@8@Z
 y?iLa
 yG/9
 yH/Yy
@@ -12460,6 +12139,7 @@ yellow
 yellowgreen
 yf2)
 yyen
+z Ez
 z(ov
 z-index
 z/B,9d
@@ -12472,9 +12152,6 @@ zh_CN
 zh_TW
 zlVO
 zlib compression
-zlib memory error
-zlib stream error
-zlib version error
 zone
 zxNIjo
 zz2K
@@ -12497,11 +12174,13 @@ zz2K
 |11Jv
 |3ox
 |<C!FReQ
+|F?ToObject@Value@v8@@QEBA?AV?$MaybeLocal@VObject@v8@@@2@V?$Local@VContext@v8@@@2@@Z
 |InzT
 |XYl
 |hdX)
 |sG2
 |}Eq1
+}3?New@FunctionTemplate@v8@@SA?AV?$Local@VFunctionTemplate@v8@@@2@PEAVIsolate@2@P6AXAEBV?$FunctionCallbackInfo@VValue@v8@@@2@@ZV?$Local@VValue@v8@@@2@V?$Local@VSignature@v8@@@2@HW4ConstructorBehavior@2@W4SideEffectType@2@PEBVCFunction@2@GGG@Z
 }9]Jn+LhyK
 }CQBf
 }VKRZ

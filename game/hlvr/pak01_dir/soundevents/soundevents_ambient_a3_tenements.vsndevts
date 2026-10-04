@@ -1,30 +1,31 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	A3Tenements.RubbleFall = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "A3Tenements.RubbleFallChild"
-		random_soundevent_01_timer_min = 18.000000
-		random_soundevent_01_timer_max = 25.000000
+		random_soundevent_01_timer_min = 18.0
+		random_soundevent_01_timer_max = 25.0
 	}
 	A3Tenements.RubbleFallChild = 
 	{
 		type = "hlvr_ambient_rand_child"
 		mixgroup = "Ambient"
-		volume = 0.150000
-		volume_rand_min = -0.100000
-		volume_rand_max = 0.100000
-		pitch_rand_min = -0.150000
-		pitch_rand_max = 0.050000
-		animation_time = 4.500000
+		volume = 0.15
+		volume_rand_min = -0.1
+		volume_rand_max = 0.1
+		pitch_rand_min = -0.15
+		pitch_rand_max = 0.05
+		animation_time = 4.5
 		animation_type = "lerp"
-		position_source = 2.000000
-		animated_source = 0.000000
-		animated_target = 2.000000
+		position_source = 2.0
+		animated_source = 0.0
+		animated_target = 2.0
 		volume_falloff_min = 450
 		volume_falloff_max = 1500
 		distance_max = 2000
-		use_doppler = 1.000000
-		doppler_factor = 3.500000
+		use_doppler = 1.0
+		doppler_factor = 3.5
 		vsnd_files = 
 		[
 			"sounds/ambient/rocks/amb_tenement_rockfall_01.vsnd",
@@ -41,10 +42,10 @@
 		soundevent_02 = "A3Tenements.InteriorLp_R"
 		soundevent_03 = "A3Tenements.InteriorLp_LS"
 		soundevent_04 = "A3Tenements.InteriorLp_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	A3Tenements.InteriorLp_L = 
 	{
@@ -54,15 +55,15 @@
 			"sounds/ambient/interior/amb_tenement_interior_lp_01_l.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 250.000000
-		volume_falloff_min = 300.000000
+		radius = 250.0
+		volume_falloff_min = 300.0
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 	}
 	A3Tenements.InteriorLp_R = 
 	{
@@ -72,15 +73,15 @@
 			"sounds/ambient/interior/amb_tenement_interior_lp_01_r.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 250.000000
-		volume_falloff_min = 300.000000
+		radius = 250.0
+		volume_falloff_min = 300.0
 		volume_falloff_max = 300
-		rotation_angle = 315.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 315.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 	}
 	A3Tenements.InteriorLp_LS = 
 	{
@@ -90,15 +91,15 @@
 			"sounds/ambient/interior/amb_tenement_interior_lp_01_ls.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 250.000000
-		volume_falloff_min = 300.000000
+		radius = 250.0
+		volume_falloff_min = 300.0
 		volume_falloff_max = 300
-		rotation_angle = 135.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 135.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 	}
 	A3Tenements.InteriorLp_RS = 
 	{
@@ -108,15 +109,15 @@
 			"sounds/ambient/interior/amb_tenement_interior_lp_01_rs.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 250.000000
-		volume_falloff_min = 300.000000
+		radius = 250.0
+		volume_falloff_min = 300.0
 		volume_falloff_max = 300
-		rotation_angle = 225.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 225.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 	}
 	A3Tenements.TextureQuadAdd01 = 
 	{
@@ -125,64 +126,64 @@
 		soundevent_02 = "A3Tenements.TextureQuadAdd01_R"
 		soundevent_03 = "A3Tenements.TextureQuadAdd01_LS"
 		soundevent_04 = "A3Tenements.TextureQuadAdd01_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	A3Tenements.TextureQuadAdd01_L = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume = 0.600000
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		radius = 250.0
+		volume = 0.6
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		opvar_to_volume_multiplier = 0.700000
+		opvar_to_volume_multiplier = 0.7
 		mixgroup = "Ambient"
 		vsnd_files = "sounds/ambient/abstract/amb_tenement_lp_01_l.vsnd"
 	}
 	A3Tenements.TextureQuadAdd01_R = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume = 0.200000
-		rotation_angle = 315.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		radius = 250.0
+		volume = 0.2
+		rotation_angle = 315.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		opvar_to_volume_multiplier = 0.700000
+		opvar_to_volume_multiplier = 0.7
 		mixgroup = "Ambient"
 		vsnd_files = "sounds/ambient/abstract/amb_tenement_lp_01_r.vsnd"
 	}
 	A3Tenements.TextureQuadAdd01_LS = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume = 0.600000
-		rotation_angle = 135.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		radius = 250.0
+		volume = 0.6
+		rotation_angle = 135.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		opvar_to_volume_multiplier = 0.700000
+		opvar_to_volume_multiplier = 0.7
 		mixgroup = "Ambient"
 		vsnd_files = "sounds/ambient/abstract/amb_tenement_lp_01_ls.vsnd"
 	}
 	A3Tenements.TextureQuadAdd01_RS = 
 	{
 		type = "hlvr_ambient_fixed_rotation"
-		radius = 250.000000
-		volume = 0.200000
-		rotation_angle = 225.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		radius = 250.0
+		volume = 0.2
+		rotation_angle = 225.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		opvar_to_volume_multiplier = 0.700000
+		opvar_to_volume_multiplier = 0.7
 		mixgroup = "Ambient"
 		vsnd_files = "sounds/ambient/abstract/amb_tenement_lp_01_rs.vsnd"
 	}
@@ -190,26 +191,26 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "A3Tenements.StumbleWoodChild"
-		random_soundevent_01_timer_min = 5.000000
-		random_soundevent_01_timer_max = 8.500000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 5.0
+		random_soundevent_01_timer_max = 8.5
+		use_initial_random_offset = 1.0
 	}
 	A3Tenements.StumbleWoodChild = 
 	{
 		type = "hlvr_ambient_rand_child"
 		mixgroup = "Ambient"
-		volume = 0.800000
-		volume_rand_min = -0.050000
-		pitch_rand_min = -0.030000
-		pitch_rand_max = 0.020000
-		position_source = 2.000000
+		volume = 0.8
+		volume_rand_min = -0.05
+		pitch_rand_min = -0.03
+		pitch_rand_max = 0.02
+		position_source = 2.0
 		animation_type = "lerp"
-		animated_source = 0.000000
-		animated_target = 2.000000
-		animation_time = 10.000000
+		animated_source = 0.0
+		animated_target = 2.0
+		animation_time = 10.0
 		volume_falloff_min = 300
 		volume_falloff_max = 1000
-		use_hrtf = 1.000000
+		use_hrtf = 1.0
 		vsnd_files = 
 		[
 			"sounds/ambient/footsteps/amb_fs_stumble_wood_01.vsnd",
@@ -230,31 +231,31 @@
 			"sounds/ambient/footsteps/amb_fs_stumble_wood_16.vsnd",
 			"sounds/ambient/footsteps/amb_fs_stumble_wood_17.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		soundname_string = "A3Tenements.StumbleWoodChild"
 	}
 	A3Tenements.WoodCreakLow = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "A3Tenements.WoodCreakLowChild"
-		random_soundevent_01_timer_min = 12.000000
-		random_soundevent_01_timer_max = 20.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 12.0
+		random_soundevent_01_timer_max = 20.0
+		use_initial_random_offset = 1.0
 	}
 	A3Tenements.WoodCreakLowChild = 
 	{
 		type = "hlvr_ambient_rand_child"
 		mixgroup = "Ambient"
-		volume = 0.800000
-		volume_rand_min = -0.050000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.000000
-		position_source = 2.000000
+		volume = 0.8
+		volume_rand_min = -0.05
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.0
+		position_source = 2.0
 		animation_type = "lerp"
-		animated_source = 1.000000
-		animated_target = 1.000000
-		ortho_distance_min = 300.000000
-		ortho_distance_max = 550.000000
+		animated_source = 1.0
+		animated_target = 1.0
+		ortho_distance_min = 300.0
+		ortho_distance_max = 550.0
 		volume_falloff_min = 300
 		volume_falloff_max = 1800
 		rand_radius_min = 500
@@ -285,10 +286,10 @@
 		soundevent_02 = "A3Tenements.Quiet_InteriorLp_R"
 		soundevent_03 = "A3Tenements.Quiet_InteriorLp_LS"
 		soundevent_04 = "A3Tenements.Quiet_InteriorLp_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	A3Tenements.Quiet_InteriorLp_L = 
 	{
@@ -298,15 +299,15 @@
 			"sounds/ambient/interior/amb_tenement_interior_lp_01_l.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 250.000000
-		volume_falloff_min = 300.000000
+		radius = 250.0
+		volume_falloff_min = 300.0
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.100000
+		volume = 0.1
 	}
 	A3Tenements.Quiet_InteriorLp_R = 
 	{
@@ -316,15 +317,15 @@
 			"sounds/ambient/interior/amb_tenement_interior_lp_01_r.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 250.000000
-		volume_falloff_min = 300.000000
+		radius = 250.0
+		volume_falloff_min = 300.0
 		volume_falloff_max = 300
-		rotation_angle = 315.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 315.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.100000
+		volume = 0.1
 	}
 	A3Tenements.Quiet_InteriorLp_LS = 
 	{
@@ -334,15 +335,15 @@
 			"sounds/ambient/interior/amb_tenement_interior_lp_01_ls.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 250.000000
-		volume_falloff_min = 300.000000
+		radius = 250.0
+		volume_falloff_min = 300.0
 		volume_falloff_max = 300
-		rotation_angle = 135.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 135.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.100000
+		volume = 0.1
 	}
 	A3Tenements.Quiet_InteriorLp_RS = 
 	{
@@ -352,15 +353,15 @@
 			"sounds/ambient/interior/amb_tenement_interior_lp_01_rs.vsnd",
 		]
 		mixgroup = "Ambient"
-		radius = 250.000000
-		volume_falloff_min = 300.000000
+		radius = 250.0
+		volume_falloff_min = 300.0
 		volume_falloff_max = 300
-		rotation_angle = 225.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 225.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.100000
+		volume = 0.1
 	}
 	AmbientA3Tenements.WarehouseLp = 
 	{
@@ -389,28 +390,28 @@
 		vsnd_vol_06 = "0.00"
 		vsnd_vol_07 = "0.00"
 		vsnd_vol_08 = "0.00"
-		volume = 0.760000
+		volume = 0.76
 		global_opvar_name_02 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity_02 = 2.500000
-		remap_vol_opvar_02_x1 = 0.000000
-		remap_vol_opvar_02_y1 = 1.000000
-		remap_vol_opvar_02_x2 = 0.200000
-		remap_vol_opvar_02_y2 = 0.900000
-		remap_vol_opvar_02_x3 = 0.500000
-		remap_vol_opvar_02_y3 = 0.650000
-		remap_vol_opvar_02_x4 = 1.000000
-		remap_vol_opvar_02_y4 = 0.300000
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
-		filter_mix = 0.900000
-		remap_filter_freq_opvar_02_x1 = 0.000000
-		remap_filter_freq_opvar_02_y1 = 1.000000
-		remap_filter_freq_opvar_02_x2 = 0.000000
-		remap_filter_freq_opvar_02_y2 = 1.000000
-		remap_filter_freq_opvar_02_x3 = 0.500000
-		remap_filter_freq_opvar_02_y3 = 0.750000
-		remap_filter_freq_opvar_02_x4 = 1.000000
-		remap_filter_freq_opvar_02_y4 = 0.600000
+		global_opvar_filter_velocity_02 = 2.5
+		remap_vol_opvar_02_x1 = 0.0
+		remap_vol_opvar_02_y1 = 1.0
+		remap_vol_opvar_02_x2 = 0.2
+		remap_vol_opvar_02_y2 = 0.9
+		remap_vol_opvar_02_x3 = 0.5
+		remap_vol_opvar_02_y3 = 0.65
+		remap_vol_opvar_02_x4 = 1.0
+		remap_vol_opvar_02_y4 = 0.3
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
+		filter_mix = 0.9
+		remap_filter_freq_opvar_02_x1 = 0.0
+		remap_filter_freq_opvar_02_y1 = 1.0
+		remap_filter_freq_opvar_02_x2 = 0.0
+		remap_filter_freq_opvar_02_y2 = 1.0
+		remap_filter_freq_opvar_02_x3 = 0.5
+		remap_filter_freq_opvar_02_y3 = 0.75
+		remap_filter_freq_opvar_02_x4 = 1.0
+		remap_filter_freq_opvar_02_y4 = 0.6
 	}
 	AmbientA3Tenements.WarehouseLp_R = 
 	{
@@ -418,7 +419,7 @@
 		vsnd_file_01 = "sounds/ambient/interior/amb_tenement_warehouse_high_pitch_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_tenement_warehouse_room_tone_lp_01_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_proc_plant_hum_lp_03_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA3Tenements.WarehouseLp_LS = 
 	{
@@ -426,7 +427,7 @@
 		vsnd_file_01 = "sounds/ambient/interior/amb_tenement_warehouse_high_pitch_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_tenement_warehouse_room_tone_lp_01_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_proc_plant_hum_lp_03_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA3Tenements.WarehouseLp_RS = 
 	{
@@ -434,7 +435,7 @@
 		vsnd_file_01 = "sounds/ambient/interior/amb_tenement_warehouse_high_pitch_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/interior/amb_tenement_warehouse_room_tone_lp_01_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_proc_plant_hum_lp_03_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA3Tenements.WarehouseHallLp = 
 	{
@@ -458,7 +459,7 @@
 		vsnd_vol_01 = "0.56"
 		vsnd_vol_02 = "0.16"
 		vsnd_vol_03 = "0.40"
-		volume = 0.900000
+		volume = 0.9
 	}
 	AmbientA3Tenements.WarehouseHallLp_R = 
 	{
@@ -466,7 +467,7 @@
 		vsnd_file_01 = "sounds/ambient/interior/amb_proc_plant_hum_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/subway_station/amb_station_small_room_base_lp_01_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_tenement_interior_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA3Tenements.WarehouseHallLp_LS = 
 	{
@@ -474,7 +475,7 @@
 		vsnd_file_01 = "sounds/ambient/interior/amb_proc_plant_hum_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/subway_station/amb_station_small_room_base_lp_01_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_tenement_interior_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA3Tenements.WarehouseHallLp_RS = 
 	{
@@ -482,17 +483,17 @@
 		vsnd_file_01 = "sounds/ambient/interior/amb_proc_plant_hum_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/subway_station/amb_station_small_room_base_lp_01_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_tenement_interior_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA3Tenements.TankAbstrakt = 
 	{
 		base = "AmbProcPlant.TankAbstrakt"
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 1.000000
-		remap_global_opvar_01_to_vol_max = 0.000000
+		remap_global_opvar_01_to_vol_min = 1.0
+		remap_global_opvar_01_to_vol_max = 0.0
 		global_volume_opvar_02 = "hotel_small_room_proximity_beacon"
-		remap_global_opvar_02_to_vol_min = 1.000000
-		remap_global_opvar_02_to_vol_max = 0.000000
+		remap_global_opvar_02_to_vol_min = 1.0
+		remap_global_opvar_02_to_vol_max = 0.0
 	}
 	AmbientA3Tenements.OpenAirSkylightLp = 
 	{
@@ -501,44 +502,44 @@
 		soundevent_02 = "AmbientA3Tenements.OpenAirSkylightLp_R"
 		soundevent_03 = "AmbientA3Tenements.OpenAirSkylightLp_LS"
 		soundevent_04 = "AmbientA3Tenements.OpenAirSkylightLp_RS"
-		rand_delay_min = -5.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = -5.0
+		rand_delay_max = 0.0
 	}
 	AmbientA3Tenements.OpenAirSkylightLp_L = 
 	{
 		base = "AmbientBase.OpenAirSkylightLp_L"
-		volume = 0.500000
+		volume = 0.5
 		global_opvar_name_01 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity = 2.500000
-		filter_mix = 0.900000
-		remap_filter_freq_opvar_x1 = 0.000000
-		remap_filter_freq_opvar_y1 = 0.600000
-		remap_filter_freq_opvar_x2 = 0.000000
-		remap_filter_freq_opvar_y2 = 0.600000
-		remap_filter_freq_opvar_x3 = 0.500000
-		remap_filter_freq_opvar_y3 = 0.700000
-		remap_filter_freq_opvar_x4 = 1.000000
-		remap_filter_freq_opvar_y4 = 1.000000
+		global_opvar_filter_velocity = 2.5
+		filter_mix = 0.9
+		remap_filter_freq_opvar_x1 = 0.0
+		remap_filter_freq_opvar_y1 = 0.6
+		remap_filter_freq_opvar_x2 = 0.0
+		remap_filter_freq_opvar_y2 = 0.6
+		remap_filter_freq_opvar_x3 = 0.5
+		remap_filter_freq_opvar_y3 = 0.7
+		remap_filter_freq_opvar_x4 = 1.0
+		remap_filter_freq_opvar_y4 = 1.0
 	}
 	AmbientA3Tenements.OpenAirSkylightLp_R = 
 	{
 		base = "AmbientA3Tenements.OpenAirSkylightLp_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_tenement_open_air_quad_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/air/amb_a2_pistol_skylight_add_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA3Tenements.OpenAirSkylightLp_LS = 
 	{
 		base = "AmbientA3Tenements.OpenAirSkylightLp_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_tenement_open_air_quad_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/air/amb_a2_pistol_skylight_add_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA3Tenements.OpenAirSkylightLp_RS = 
 	{
 		base = "AmbientA3Tenements.OpenAirSkylightLp_L"
 		vsnd_file_01 = "sounds/ambient/city/amb_tenement_open_air_quad_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/air/amb_a2_pistol_skylight_add_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 }

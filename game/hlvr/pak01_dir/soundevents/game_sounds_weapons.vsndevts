@@ -1,11 +1,12 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Bullets.GunshipNearmiss = 
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 0.500000
-		soundlevel = 140.000000
-		limiter_on = 0.000000
+		pitch = 0.5
+		soundlevel = 140.0
+		limiter_on = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/fx/nearmiss/bulletltor03.vsnd",
@@ -20,9 +21,9 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 0.750000
-		soundlevel = 120.000000
-		limiter_on = 0.000000
+		pitch = 0.75
+		soundlevel = 120.0
+		limiter_on = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/fx/nearmiss/bulletltor11.vsnd",
@@ -36,21 +37,21 @@
 		volume_rand_min = -0.049988
 		volume_rand_max = 0.049988
 		volume = 0.549988
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		limiter_on = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.0
+		soundlevel = 80.0
+		limiter_on = 0.0
 	}
 	FuncTank.Fire = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.100000
-		soundlevel = 130.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.1
+		soundlevel = 130.0
+		limiter_on = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/ar1/ar1_1.vsnd",
@@ -61,14 +62,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/ar2/ar2_empty.vsnd",
@@ -78,14 +79,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/ar2/ar2_reload.vsnd",
@@ -95,14 +96,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.899902
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/ar2/ar2_reload_rotate.vsnd",
@@ -112,14 +113,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.899902
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/ar2/ar2_reload_push.vsnd",
@@ -129,16 +130,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.799805
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 0.900000
-		soundlevel = 140.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 0.9
+		soundlevel = 140.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/ar2/fire1.vsnd",
@@ -148,14 +149,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/sniper/sniper_zoomin.vsnd",
@@ -165,14 +166,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/sniper/sniper_zoomout.vsnd",
@@ -182,14 +183,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 140.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 140.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/ar2/ar2_altfire.vsnd",
@@ -199,14 +200,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/ar2/npc_ar2_reload.vsnd",
@@ -216,14 +217,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 140.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 140.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/ar2/npc_ar2_altfire.vsnd",
@@ -233,15 +234,15 @@
 	{
 		type = "hlvr_distance_xfade_3d"
 		volume = 0.699707
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 1.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 0.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 1.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 0.0
 		vsnd_files_near = 
 		[
 			"sounds/weapons/ar1/ar1_dist1.vsnd",
@@ -255,15 +256,15 @@
 	{
 		type = "hlvr_distance_xfade_3d"
 		volume = 0.699707
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 1.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 0.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 1.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 0.0
 		vsnd_files_near = 
 		[
 			"sounds/weapons/ar1/ar1_dist1.vsnd",
@@ -277,14 +278,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/binoculars/binoculars_zoomin.vsnd",
@@ -294,14 +295,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/binoculars/binoculars_zoomout.vsnd",
@@ -311,14 +312,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/binoculars/binoculars_zoommax.vsnd",
@@ -327,15 +328,15 @@
 	Weapon_Brickbat.Special1 = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 140.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 140.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/physics/wood/wood_box_impact_hard1.vsnd",
@@ -344,17 +345,17 @@
 	Weapon_Bugbait.Splat = 
 	{
 		type = "src1_3d"
-		volume = 0.750000
-		pitch_rand_min = -0.125000
-		pitch_rand_max = 0.125000
-		pitch = 1.025000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 0.75
+		pitch_rand_min = -0.125
+		pitch_rand_max = 0.125
+		pitch = 1.025
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/bugbait/bugbait_squeeze1.vsnd",
@@ -366,14 +367,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/cguard/charging.vsnd",
@@ -383,16 +384,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.549805
-		pitch_rand_min = -0.025000
-		pitch_rand_max = 0.025000
-		pitch = 0.975000
-		soundlevel = 105.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.025
+		pitch_rand_max = 0.025
+		pitch = 0.975
+		soundlevel = 105.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/iceaxe/iceaxe_swing1.vsnd",
@@ -401,17 +402,17 @@
 	Weapon_Crowbar.Melee_Hit = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.020000
-		pitch_rand_max = 0.020000
-		pitch = 1.000000
-		soundlevel = 105.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.02
+		pitch_rand_max = 0.02
+		pitch = 1.0
+		soundlevel = 105.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/physics/flesh/flesh_impact_bullet3.vsnd",
@@ -423,16 +424,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch_rand_min = -0.150000
-		pitch_rand_max = 0.150000
-		pitch = 1.050000
-		soundlevel = 90.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.15
+		pitch_rand_max = 0.15
+		pitch = 1.05
+		soundlevel = 90.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/crowbar/crowbar_impact1.vsnd",
@@ -443,14 +444,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/ar2/ar2_empty.vsnd",
@@ -460,14 +461,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/ar2/ar2_reload.vsnd",
@@ -477,14 +478,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.549805
-		pitch = 1.000000
-		soundlevel = 105.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 105.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/extinguisher/fire1.vsnd",
@@ -494,14 +495,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 105.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 105.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/extinguisher/release1.vsnd",
@@ -511,14 +512,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 105.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 105.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/ar2/ar2_altfire.vsnd",
@@ -528,16 +529,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 1.000000
-		soundlevel = 105.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 1.0
+		soundlevel = 105.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/ar2/npc_ar2_fire1.vsnd",
@@ -547,14 +548,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 105.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 105.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/ar2/npc_ar2_altfire.vsnd",
@@ -564,14 +565,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/ar2/npc_ar2_reload.vsnd",
@@ -581,14 +582,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.549805
-		pitch = 1.000000
-		soundlevel = 140.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 140.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/flaregun/fire.vsnd",
@@ -598,14 +599,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/flaregun/reload.vsnd",
@@ -615,14 +616,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.649902
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/flaregun/burn.vsnd",
@@ -631,10 +632,10 @@
 	Weapon_Gauss.ChargeLoop = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 75.000000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 75.0
+		limiter_on = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/gauss/chargeloop.vsnd",
@@ -644,14 +645,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/ar2/ar2_empty.vsnd",
@@ -661,14 +662,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.549805
-		pitch = 1.000000
-		soundlevel = 140.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 140.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/irifle/irifle_fire2.vsnd",
@@ -677,15 +678,15 @@
 	Weapon_PhysCannon.Launch = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.300000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 1.150000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
+		volume = 0.3
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 1.15
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
 		vsnd_files = 
 		[
 			"sounds/weapons/physcannon/superphys_launch1.vsnd",
@@ -697,16 +698,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.599609
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 1.350000
-		soundlevel = 140.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 1.35
+		soundlevel = 140.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/physcannon/superphys_launch1.vsnd",
@@ -719,14 +720,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.219971
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/physcannon/physcannon_charge.vsnd",
@@ -736,16 +737,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.419922
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 0.750000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 0.75
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/physcannon/physcannon_charge.vsnd",
@@ -755,14 +756,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.219971
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/physcannon/physcannon_dryfire.vsnd",
@@ -772,16 +773,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.419922
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 0.750000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 0.75
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/physcannon/physcannon_dryfire.vsnd",
@@ -791,14 +792,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.219971
-		pitch = 1.000000
-		soundlevel = 105.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 105.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/physcannon/physcannon_pickup.vsnd",
@@ -808,16 +809,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.419922
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 0.750000
-		soundlevel = 105.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 0.75
+		soundlevel = 105.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/physcannon/physcannon_pickup.vsnd",
@@ -827,14 +828,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.199951
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 2.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 2.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/physcannon/physcannon_claws_open.vsnd",
@@ -844,14 +845,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.199951
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 2.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 2.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/physcannon/physcannon_claws_close.vsnd",
@@ -861,14 +862,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.219971
-		pitch = 1.000000
-		soundlevel = 105.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 105.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/physcannon/physcannon_drop.vsnd",
@@ -878,16 +879,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.419922
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 0.550000
-		soundlevel = 105.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 0.55
+		soundlevel = 105.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/physcannon/physcannon_drop.vsnd",
@@ -896,9 +897,9 @@
 	Weapon_PhysCannon.HoldSound = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.500000
-		pitch = 1.000000
-		limiter_on = 0.000000
+		volume = 0.5
+		pitch = 1.0
+		limiter_on = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/physcannon/hold_loop.vsnd",
@@ -908,9 +909,9 @@
 	{
 		type = "src1_3d"
 		volume = 0.799805
-		pitch = 1.000000
-		soundlevel = 75.000000
-		limiter_on = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		limiter_on = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/physcannon/superphys_hold_loop.vsnd",
@@ -920,16 +921,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.099976
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 2.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 2.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/physcannon/superphys_small_zap1.vsnd",
@@ -942,14 +943,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.399902
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/physcannon/physcannon_tooheavy.vsnd",
@@ -959,14 +960,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.219971
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/physgun_on.vsnd",
@@ -976,14 +977,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.219971
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/physgun_off.vsnd",
@@ -993,14 +994,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.419922
-		pitch = 1.000000
-		soundlevel = 140.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 140.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/flaregun/impact.vsnd",
@@ -1009,10 +1010,10 @@
 	Weapon_Physgun.LockedOn = 
 	{
 		type = "src1_3d"
-		volume = 0.500000
-		pitch = 0.900000
-		soundlevel = 75.000000
-		limiter_on = 0.000000
+		volume = 0.5
+		pitch = 0.9
+		soundlevel = 75.0
+		limiter_on = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/physgun_loop1.vsnd",
@@ -1021,10 +1022,10 @@
 	Weapon_Physgun.Scanning = 
 	{
 		type = "src1_3d"
-		volume = 0.500000
-		pitch = 1.000000
-		soundlevel = 75.000000
-		limiter_on = 0.000000
+		volume = 0.5
+		pitch = 1.0
+		soundlevel = 75.0
+		limiter_on = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/physgun_loop2.vsnd",
@@ -1034,9 +1035,9 @@
 	{
 		type = "src1_3d"
 		volume = 0.099976
-		pitch = 1.000000
-		soundlevel = 75.000000
-		limiter_on = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		limiter_on = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/physgun_loop3.vsnd",
@@ -1046,9 +1047,9 @@
 	{
 		type = "src1_3d"
 		volume = 0.099976
-		pitch = 1.000000
-		soundlevel = 75.000000
-		limiter_on = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		limiter_on = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/physgun_loop4.vsnd",
@@ -1058,14 +1059,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/pistol/pistol_reload1.vsnd",
@@ -1075,14 +1076,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/smg1/smg1_reload.vsnd",
@@ -1092,14 +1093,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/pistol/pistol_empty.vsnd",
@@ -1109,16 +1110,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.549805
-		pitch_rand_min = -0.020000
-		pitch_rand_max = 0.020000
-		pitch = 1.000000
-		soundlevel = 140.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.02
+		pitch_rand_max = 0.02
+		pitch = 1.0
+		soundlevel = 140.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/pistol/pistol_fire2.vsnd",
@@ -1128,15 +1129,15 @@
 	{
 		type = "hlvr_distance_xfade_3d"
 		volume = 0.699707
-		pitch_rand_min = -0.150000
-		pitch_rand_max = 0.150000
-		pitch = 1.050000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 0.000000
+		pitch_rand_min = -0.15
+		pitch_rand_max = 0.15
+		pitch = 1.05
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 0.0
 		vsnd_files_near = 
 		[
 			"sounds/weapons/pistol/pistol_fire3.vsnd",
@@ -1150,14 +1151,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/smg1/switch_single.vsnd",
@@ -1167,14 +1168,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/smg1/switch_burst.vsnd",
@@ -1184,15 +1185,15 @@
 	{
 		type = "hlvr_distance_xfade_3d"
 		volume = 0.699707
-		pitch_rand_min = -0.035000
-		pitch_rand_max = 0.035000
-		pitch = 1.015000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 0.000000
+		pitch_rand_min = -0.035
+		pitch_rand_max = 0.035
+		pitch = 1.015
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 0.0
 		vsnd_files_near = 
 		[
 			"sounds/weapons/smg1/smg1_fireburst1.vsnd",
@@ -1206,14 +1207,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.549805
-		pitch = 1.000000
-		soundlevel = 140.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 140.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/rpg/rocketfire1.vsnd",
@@ -1223,14 +1224,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.549805
-		pitch = 1.000000
-		soundlevel = 140.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 140.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/rpg/rocketfire1.vsnd",
@@ -1240,14 +1241,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/sniper/sniper_zoomin.vsnd",
@@ -1257,14 +1258,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/sniper/sniper_zoomout.vsnd",
@@ -1274,16 +1275,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch_rand_min = -0.025000
-		pitch_rand_max = 0.025000
-		pitch = 0.975000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.025
+		pitch_rand_max = 0.025
+		pitch = 0.975
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/shotgun/shotgun_empty.vsnd",
@@ -1293,14 +1294,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/shotgun/shotgun_reload1.vsnd",
@@ -1312,14 +1313,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/shotgun/shotgun_cock.vsnd",
@@ -1329,16 +1330,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.859863
-		pitch_rand_min = -0.015000
-		pitch_rand_max = 0.015000
-		pitch = 0.995000
-		soundlevel = 140.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.015
+		pitch_rand_max = 0.015
+		pitch = 0.995
+		soundlevel = 140.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/shotgun/shotgun_fire7.vsnd",
@@ -1347,17 +1348,17 @@
 	Weapon_Shotgun.Double = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.025000
-		pitch_rand_max = 0.025000
-		pitch = 0.925000
-		soundlevel = 140.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.025
+		pitch_rand_max = 0.025
+		pitch = 0.925
+		soundlevel = 140.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/shotgun/shotgun_dbl_fire7.vsnd",
@@ -1367,14 +1368,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/shotgun/shotgun_reload1.vsnd",
@@ -1386,16 +1387,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.949707
-		pitch_rand_min = -0.015000
-		pitch_rand_max = 0.015000
-		pitch = 0.995000
-		soundlevel = 140.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.015
+		pitch_rand_max = 0.015
+		pitch = 0.995
+		soundlevel = 140.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/shotgun/shotgun_fire6.vsnd",
@@ -1405,14 +1406,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/smg1/smg1_reload.vsnd",
@@ -1422,14 +1423,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/smg1/smg1_reload.vsnd",
@@ -1439,14 +1440,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/pistol/pistol_empty.vsnd",
@@ -1456,15 +1457,15 @@
 	{
 		type = "hlvr_distance_xfade_3d"
 		volume = 0.549805
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 1.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 0.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 1.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 0.0
 		vsnd_files_near = 
 		[
 			"sounds/weapons/smg1/smg1_fire1.vsnd",
@@ -1478,14 +1479,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.609863
-		pitch = 1.000000
-		soundlevel = 140.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 140.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/ar2/ar2_altfire.vsnd",
@@ -1495,15 +1496,15 @@
 	{
 		type = "hlvr_distance_xfade_3d"
 		volume = 0.699707
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 1.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 0.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 1.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 0.0
 		vsnd_files_near = 
 		[
 			"sounds/weapons/smg1/npc_smg1_fire1.vsnd",
@@ -1517,14 +1518,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/smg1/switch_single.vsnd",
@@ -1534,14 +1535,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/smg1/switch_burst.vsnd",
@@ -1551,15 +1552,15 @@
 	{
 		type = "hlvr_distance_xfade_3d"
 		volume = 0.699707
-		pitch_rand_min = -0.035000
-		pitch_rand_max = 0.035000
-		pitch = 1.015000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 0.000000
+		pitch_rand_min = -0.035
+		pitch_rand_max = 0.035
+		pitch = 1.015
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 0.0
 		vsnd_files_near = 
 		[
 			"sounds/weapons/smg1/smg1_fire1.vsnd",
@@ -1573,14 +1574,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/sniper/sniper_zoomin.vsnd",
@@ -1590,14 +1591,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/sniper/sniper_zoomout.vsnd",
@@ -1607,14 +1608,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/sniper/sniper_reload.vsnd",
@@ -1624,14 +1625,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/sniper/sniper_reload.vsnd",
@@ -1641,16 +1642,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch_rand_min = -0.020000
-		pitch_rand_max = 0.020000
-		pitch = 1.000000
-		soundlevel = 140.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.02
+		pitch_rand_max = 0.02
+		pitch = 1.0
+		soundlevel = 140.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/sniper/sniper_fire.vsnd",
@@ -1660,16 +1661,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch_rand_min = -0.020000
-		pitch_rand_max = 0.020000
-		pitch = 1.000000
-		soundlevel = 140.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.02
+		pitch_rand_max = 0.02
+		pitch = 1.0
+		soundlevel = 140.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/sniper/sniper_fire.vsnd",
@@ -1679,16 +1680,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch_rand_min = -0.035000
-		pitch_rand_max = 0.035000
-		pitch = 0.985000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.035
+		pitch_rand_max = 0.035
+		pitch = 0.985
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/stunstick/stunstick_swing1.vsnd",
@@ -1699,14 +1700,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/stunstick/stunstick_swing1.vsnd",
@@ -1717,16 +1718,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch_rand_min = -0.020000
-		pitch_rand_max = 0.020000
-		pitch = 1.000000
-		soundlevel = 105.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.02
+		pitch_rand_max = 0.02
+		pitch = 1.0
+		soundlevel = 105.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/stunstick/stunstick_fleshhit1.vsnd",
@@ -1737,16 +1738,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch_rand_min = -0.020000
-		pitch_rand_max = 0.020000
-		pitch = 1.000000
-		soundlevel = 105.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.02
+		pitch_rand_max = 0.02
+		pitch = 1.0
+		soundlevel = 105.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/stunstick/stunstick_impact1.vsnd",
@@ -1757,16 +1758,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch_rand_min = -0.020000
-		pitch_rand_max = 0.020000
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.02
+		pitch_rand_max = 0.02
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/stunstick/spark1.vsnd",
@@ -1778,16 +1779,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch_rand_min = -0.020000
-		pitch_rand_max = 0.020000
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.02
+		pitch_rand_max = 0.02
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/stunstick/spark1.vsnd",
@@ -1799,14 +1800,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 2.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 2.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/slam/throw.vsnd",
@@ -1816,14 +1817,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 2.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 2.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/slam/throw.vsnd",
@@ -1832,16 +1833,16 @@
 	Weapon_Mortar.Single = 
 	{
 		type = "hlvr_distance_xfade_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 0.0
 		vsnd_files_near = 
 		[
 			"sounds/weapons/mortar/mortar_fire1.vsnd",
@@ -1855,16 +1856,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.000000
-		soundlevel = 120.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.0
+		soundlevel = 120.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/mortar/mortar_shell_incomming1.vsnd",
@@ -1873,15 +1874,15 @@
 	Weapon_Mortar.Impact = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 140.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 140.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/mortar/mortar_explode1.vsnd",
@@ -1893,14 +1894,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/shotgun/shotgun_cock.vsnd",
@@ -1910,16 +1911,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.929688
-		pitch_rand_min = -0.025000
-		pitch_rand_max = 0.025000
-		pitch = 0.905000
-		soundlevel = 140.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.025
+		pitch_rand_max = 0.025
+		pitch = 0.905
+		soundlevel = 140.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/357/357_fire2.vsnd",
@@ -1930,14 +1931,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/357/reload1.vsnd",
@@ -1947,14 +1948,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/357/357_reload1.vsnd",
@@ -1964,14 +1965,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/357/357_reload4.vsnd",
@@ -1981,14 +1982,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/357/357_reload3.vsnd",
@@ -1998,14 +1999,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/357/357_spin1.vsnd",
@@ -2015,16 +2016,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.609863
-		pitch_rand_min = -0.075000
-		pitch_rand_max = 0.075000
-		pitch = 1.005000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.075
+		pitch_rand_max = 0.075
+		pitch = 1.005
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/crossbow/fire1.vsnd",
@@ -2034,16 +2035,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch_rand_min = -0.075000
-		pitch_rand_max = 0.075000
-		pitch = 1.005000
-		soundlevel = 75.000000
-		event_type = 3.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.075
+		pitch_rand_max = 0.075
+		pitch = 1.005
+		soundlevel = 75.0
+		event_type = 3.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/crossbow/reload1.vsnd",
@@ -2053,16 +2054,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.599609
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 2.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 2.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/crossbow/bolt_fly4.vsnd",
@@ -2072,16 +2073,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.599609
-		pitch_rand_min = -0.075000
-		pitch_rand_max = 0.075000
-		pitch = 1.005000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.075
+		pitch_rand_max = 0.075
+		pitch = 1.005
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/crossbow/bolt_load1.vsnd",
@@ -2092,16 +2093,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch_rand_min = -0.075000
-		pitch_rand_max = 0.075000
-		pitch = 1.005000
-		soundlevel = 80.000000
-		event_type = 4.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.075
+		pitch_rand_max = 0.075
+		pitch = 1.005
+		soundlevel = 80.0
+		event_type = 4.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/crossbow/hitbod1.vsnd",
@@ -2114,16 +2115,16 @@
 		volume_rand_min = -0.024994
 		volume_rand_max = 0.024994
 		volume = 0.974701
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.200000
-		soundlevel = 80.000000
-		event_type = 4.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.2
+		soundlevel = 80.0
+		event_type = 4.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/crossbow/hit1.vsnd",
@@ -2133,11 +2134,11 @@
 	{
 		type = "src1_3d"
 		volume = 0.899902
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.000000
-		soundlevel = 90.000000
-		limiter_on = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.0
+		soundlevel = 90.0
+		limiter_on = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/crossbow/bolt_skewer1.vsnd",
@@ -2146,11 +2147,11 @@
 	WaterExplosionEffect.Sound = 
 	{
 		type = "hlvr_distance_xfade_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.250000
-		pitch_rand_max = 0.250000
-		pitch = 1.050000
-		limiter_on = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.25
+		pitch_rand_max = 0.25
+		pitch = 1.05
+		limiter_on = 0.0
 		vsnd_files_near = 
 		[
 			"sounds/weapons/underwater_explode3.vsnd",
@@ -2166,14 +2167,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.449951
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 2.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 2.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/debris1.vsnd",
@@ -2185,14 +2186,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/common/null.vsnd",
@@ -2202,14 +2203,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 2.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 2.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/slam/bounce1.vsnd",
@@ -2219,14 +2220,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 2.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 2.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/fx/rics/laser_ric1.vsnd",
@@ -2237,15 +2238,15 @@
 	GrenadeBottle.Detonate = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 2.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 2.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/physics/glass/glass_bottle_break2.vsnd",
@@ -2255,16 +2256,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.899902
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 1.000000
-		soundlevel = 80.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 1.0
+		soundlevel = 80.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/bugbait/bugbait_impact1.vsnd",
@@ -2275,14 +2276,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/common/null.vsnd",
@@ -2291,15 +2292,15 @@
 	Grenade_Molotov.Detonate = 
 	{
 		type = "src1_3d"
-		volume = 1.000000
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 2.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		volume = 1.0
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 2.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/physics/glass/glass_bottle_break2.vsnd",
@@ -2309,14 +2310,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/common/null.vsnd",
@@ -2326,14 +2327,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/common/null.vsnd",
@@ -2343,14 +2344,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.699707
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 4.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 4.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/tripwire/ropeshoot.vsnd",
@@ -2360,16 +2361,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.649902
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.100000
-		soundlevel = 90.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.1
+		soundlevel = 90.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/stunstick/alyx_stunner2.vsnd",
@@ -2379,16 +2380,16 @@
 	{
 		type = "src1_3d"
 		volume = 0.649902
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		pitch = 1.100000
-		soundlevel = 90.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		pitch = 1.1
+		soundlevel = 90.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/stunstick/alyx_stunner1.vsnd",
@@ -2399,14 +2400,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.799805
-		pitch = 1.000000
-		soundlevel = 75.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 75.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/common/null.vsnd",
@@ -2415,16 +2416,16 @@
 	GenericNPC.GunSound = 
 	{
 		type = "hlvr_distance_xfade_3d"
-		volume = 1.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = 0.050000
-		pitch = 1.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 0.000000
+		volume = 1.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		pitch = 1.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 0.0
 		vsnd_files_near = 
 		[
 			"sounds/weapons/ar1/ar1_dist1.vsnd",
@@ -2442,14 +2443,14 @@
 	{
 		type = "src1_3d"
 		volume = 0.949707
-		pitch = 1.000000
-		soundlevel = 70.000000
-		event_type = 1.000000
-		limiter_on = 1.000000
-		limiter_match_type = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_this = 0.000000
+		pitch = 1.0
+		soundlevel = 70.0
+		event_type = 1.0
+		limiter_on = 1.0
+		limiter_match_type = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_this = 0.0
 		vsnd_files = 
 		[
 			"sounds/weapons/grenade/tick1.vsnd",

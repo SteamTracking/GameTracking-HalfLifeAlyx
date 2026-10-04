@@ -21,7 +21,7 @@
 .CRT$XTZ
 .bss
 .data
-.data$r
+.data$rs
 .edata
 .idata$2
 .idata$3
@@ -32,6 +32,7 @@
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .text$di
 .text$mn
@@ -41,7 +42,6 @@
 .tls$
 .tls$ZZZ
 .xdata
-2\vpP>
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 AcquireSRWLockExclusive
 AnimGraphEditorUtils001
@@ -136,7 +136,6 @@ PropertyEditorSystem_001
 QueryPerformanceCounter
 QueuedLoaderVersion001
 RSDS
-R\vpP>
 Release
 ReleaseSRWLockExclusive
 RenderDevice003

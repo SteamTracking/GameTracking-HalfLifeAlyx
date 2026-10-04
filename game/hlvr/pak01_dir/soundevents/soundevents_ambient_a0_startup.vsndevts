@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	AmbientA0Startup.WindLp = 
 	{
@@ -6,8 +7,8 @@
 		soundevent_02 = "AmbientA0Startup.WindLp_R"
 		soundevent_03 = "AmbientA0Startup.WindLp_LS"
 		soundevent_04 = "AmbientA0Startup.WindLp_RS"
-		rand_delay_min = -5.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = -5.0
+		rand_delay_max = 0.0
 	}
 	AmbientA0Startup.WindLp_L = 
 	{
@@ -20,15 +21,15 @@
 		vsnd_vol_03 = "0.85"
 		should_pause = false
 		mixgroup = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 2.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 2.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
+		volume = 1.0
 	}
 	AmbientA0Startup.WindLp_R = 
 	{
@@ -36,7 +37,7 @@
 		vsnd_file_01 = "sounds/ambient/startup/amb_startup_wind_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/wind/wind_system/amb_windy_light_lp_01_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/wind/wind_system/amb_cavern_wind_light_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA0Startup.WindLp_LS = 
 	{
@@ -44,7 +45,7 @@
 		vsnd_file_01 = "sounds/ambient/startup/amb_startup_wind_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/wind/wind_system/amb_windy_light_lp_01_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/wind/wind_system/amb_cavern_wind_light_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA0Startup.WindLp_RS = 
 	{
@@ -52,7 +53,7 @@
 		vsnd_file_01 = "sounds/ambient/startup/amb_startup_wind_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/wind/wind_system/amb_windy_light_lp_01_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/wind/wind_system/amb_cavern_wind_light_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA0Startup.MetalQuad01 = 
 	{
@@ -61,10 +62,10 @@
 		soundevent_02 = "AmbientA0Startup.MetalQuad01_R"
 		soundevent_03 = "AmbientA0Startup.MetalQuad01_LS"
 		soundevent_04 = "AmbientA0Startup.MetalQuad01_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientA0Startup.MetalQuad01_L = 
 	{
@@ -74,17 +75,17 @@
 			"sounds/ambient/startup/amb_startup_metal_01_l.vsnd",
 		]
 		mixgroup = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 45.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 45.0
+		volume_fade_in = 0.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.450000
-		use_hrtf = 1.000000
-		enable_debug_radius = 0.000000
+		volume = 0.45
+		use_hrtf = 1.0
+		enable_debug_radius = 0.0
 		should_pause = false
 		soundname_string = "LEFT"
 	}
@@ -95,7 +96,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_01_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 		soundname_string = "RIGHT"
 	}
 	AmbientA0Startup.MetalQuad01_LS = 
@@ -105,7 +106,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_01_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 		soundname_string = "LEFT_SURR"
 	}
 	AmbientA0Startup.MetalQuad01_RS = 
@@ -115,7 +116,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_01_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 		soundname_string = "RIGHT_SURR"
 	}
 	AmbientA0Startup.MetalQuad02 = 
@@ -125,10 +126,10 @@
 		soundevent_02 = "AmbientA0Startup.MetalQuad02_R"
 		soundevent_03 = "AmbientA0Startup.MetalQuad02_LS"
 		soundevent_04 = "AmbientA0Startup.MetalQuad02_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientA0Startup.MetalQuad02_L = 
 	{
@@ -145,7 +146,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_02_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA0Startup.MetalQuad02_LS = 
 	{
@@ -154,7 +155,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_02_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA0Startup.MetalQuad02_RS = 
 	{
@@ -163,7 +164,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_02_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA0Startup.MetalQuad03 = 
 	{
@@ -172,10 +173,10 @@
 		soundevent_02 = "AmbientA0Startup.MetalQuad03_R"
 		soundevent_03 = "AmbientA0Startup.MetalQuad03_LS"
 		soundevent_04 = "AmbientA0Startup.MetalQuad03_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientA0Startup.MetalQuad03_L = 
 	{
@@ -192,7 +193,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_03_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA0Startup.MetalQuad03_LS = 
 	{
@@ -201,7 +202,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_03_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA0Startup.MetalQuad03_RS = 
 	{
@@ -210,7 +211,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_03_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA0Startup.MetalQuad04 = 
 	{
@@ -219,10 +220,10 @@
 		soundevent_02 = "AmbientA0Startup.MetalQuad04_R"
 		soundevent_03 = "AmbientA0Startup.MetalQuad04_LS"
 		soundevent_04 = "AmbientA0Startup.MetalQuad04_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientA0Startup.MetalQuad04_L = 
 	{
@@ -239,7 +240,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_04_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA0Startup.MetalQuad04_LS = 
 	{
@@ -248,7 +249,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_04_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA0Startup.MetalQuad04_RS = 
 	{
@@ -257,7 +258,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_04_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA0Startup.MetalQuad05 = 
 	{
@@ -266,10 +267,10 @@
 		soundevent_02 = "AmbientA0Startup.MetalQuad05_R"
 		soundevent_03 = "AmbientA0Startup.MetalQuad05_LS"
 		soundevent_04 = "AmbientA0Startup.MetalQuad05_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientA0Startup.MetalQuad05_L = 
 	{
@@ -286,7 +287,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_05_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA0Startup.MetalQuad05_LS = 
 	{
@@ -295,7 +296,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_05_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA0Startup.MetalQuad05_RS = 
 	{
@@ -304,7 +305,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_05_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA0Startup.MetalQuad06 = 
 	{
@@ -313,10 +314,10 @@
 		soundevent_02 = "AmbientA0Startup.MetalQuad06_R"
 		soundevent_03 = "AmbientA0Startup.MetalQuad06_LS"
 		soundevent_04 = "AmbientA0Startup.MetalQuad06_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientA0Startup.MetalQuad06_L = 
 	{
@@ -333,7 +334,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_06_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA0Startup.MetalQuad06_LS = 
 	{
@@ -342,7 +343,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_06_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA0Startup.MetalQuad06_RS = 
 	{
@@ -351,7 +352,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_06_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA0Startup.MetalQuad07 = 
 	{
@@ -360,10 +361,10 @@
 		soundevent_02 = "AmbientA0Startup.MetalQuad07_R"
 		soundevent_03 = "AmbientA0Startup.MetalQuad07_LS"
 		soundevent_04 = "AmbientA0Startup.MetalQuad07_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientA0Startup.MetalQuad07_L = 
 	{
@@ -380,7 +381,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_07_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA0Startup.MetalQuad07_LS = 
 	{
@@ -389,7 +390,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_07_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA0Startup.MetalQuad07_RS = 
 	{
@@ -398,7 +399,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_07_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA0Startup.MetalQuad08 = 
 	{
@@ -407,10 +408,10 @@
 		soundevent_02 = "AmbientA0Startup.MetalQuad08_R"
 		soundevent_03 = "AmbientA0Startup.MetalQuad08_LS"
 		soundevent_04 = "AmbientA0Startup.MetalQuad08_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientA0Startup.MetalQuad08_L = 
 	{
@@ -427,7 +428,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_08_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA0Startup.MetalQuad08_LS = 
 	{
@@ -436,7 +437,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_08_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA0Startup.MetalQuad08_RS = 
 	{
@@ -445,7 +446,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_08_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA0Startup.MetalQuad09 = 
 	{
@@ -454,10 +455,10 @@
 		soundevent_02 = "AmbientA0Startup.MetalQuad09_R"
 		soundevent_03 = "AmbientA0Startup.MetalQuad09_LS"
 		soundevent_04 = "AmbientA0Startup.MetalQuad09_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientA0Startup.MetalQuad09_L = 
 	{
@@ -474,7 +475,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_09_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA0Startup.MetalQuad09_LS = 
 	{
@@ -483,7 +484,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_09_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA0Startup.MetalQuad09_RS = 
 	{
@@ -492,7 +493,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_09_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA0Startup.MetalQuad10 = 
 	{
@@ -501,10 +502,10 @@
 		soundevent_02 = "AmbientA0Startup.MetalQuad10_R"
 		soundevent_03 = "AmbientA0Startup.MetalQuad10_LS"
 		soundevent_04 = "AmbientA0Startup.MetalQuad10_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientA0Startup.MetalQuad10_L = 
 	{
@@ -521,7 +522,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_10_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA0Startup.MetalQuad10_LS = 
 	{
@@ -530,7 +531,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_10_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA0Startup.MetalQuad10_RS = 
 	{
@@ -539,7 +540,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_10_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA0Startup.MetalQuad11 = 
 	{
@@ -548,10 +549,10 @@
 		soundevent_02 = "AmbientA0Startup.MetalQuad11_R"
 		soundevent_03 = "AmbientA0Startup.MetalQuad11_LS"
 		soundevent_04 = "AmbientA0Startup.MetalQuad11_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientA0Startup.MetalQuad11_L = 
 	{
@@ -568,7 +569,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_11_r.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA0Startup.MetalQuad11_LS = 
 	{
@@ -577,7 +578,7 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_11_ls.vsnd",
 		]
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientA0Startup.MetalQuad11_RS = 
 	{
@@ -586,12 +587,12 @@
 		[
 			"sounds/ambient/startup/amb_startup_metal_11_rs.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA0Startup.MetalQuad = 
 	{
 		type = "hlvr_start_soundevent"
-		restart_on_finish = 0.000000
+		restart_on_finish = 0.0
 		soundevents = 
 		[
 			"AmbientA0Startup.MetalQuad01",
@@ -609,57 +610,57 @@
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientA0Startup.MetalQuad"
-		random_soundevent_01_timer_min = 10.000000
-		random_soundevent_01_timer_max = 23.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 10.0
+		random_soundevent_01_timer_max = 23.0
+		use_initial_random_offset = 1.0
 	}
 	AmbientA0Startup.BoomLight = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientA0Startup.BoomLightBurst"
-		random_soundevent_01_timer_min = 7.000000
-		random_soundevent_01_timer_max = 15.000000
-		use_initial_random_offset = 1.000000
+		random_soundevent_01_timer_min = 7.0
+		random_soundevent_01_timer_max = 15.0
+		use_initial_random_offset = 1.0
 	}
 	AmbientA0Startup.BoomLightBurst = 
 	{
 		type = "hlvr_ambient_burst"
 		soundevent_name = "AmbientA0Startup.BoomLightChild"
-		burst_length_min = 3.000000
-		burst_length_max = 4.500000
-		delay_timer_min = 1.500000
-		delay_timer_max = 2.000000
+		burst_length_min = 3.0
+		burst_length_max = 4.5
+		delay_timer_min = 1.5
+		delay_timer_max = 2.0
 	}
 	AmbientA0Startup.BoomLightChild = 
 	{
 		type = "hlvr_ambient_rand_child_random_anim_time"
-		volume = 0.450000
-		volume_rand_min = -0.020000
-		volume_rand_max = 0.050000
-		volume_falloff_min = 75.000000
-		volume_falloff_max = 250.000000
-		pitch_rand_min = -0.100000
-		pitch_rand_max = 0.100000
-		animation_time_min = 6.000000
+		volume = 0.45
+		volume_rand_min = -0.02
+		volume_rand_max = 0.05
+		volume_falloff_min = 75.0
+		volume_falloff_max = 250.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		animation_time_min = 6.0
 		animation_time_max = 9
-		use_calculated_stop_at_time = 1.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 3.000000
-		position_source = 2.000000
-		animated_source = 1.000000
-		animated_target = 0.000000
-		unconstrained_target = 0.000000
+		use_calculated_stop_at_time = 1.0
+		volume_fade_in = 0.0
+		volume_fade_out = 3.0
+		position_source = 2.0
+		animated_source = 1.0
+		animated_target = 0.0
+		unconstrained_target = 0.0
 		animation_type = "slerp"
-		rand_radius_min = 35.000000
-		rand_radius_max = 105.000000
-		use_doppler = 1.000000
-		doppler_factor = 1.500000
+		rand_radius_min = 35.0
+		rand_radius_max = 105.0
+		use_doppler = 1.0
+		doppler_factor = 1.5
 		mixgroup = "ambient"
-		use_hrtf = 0.800000
-		drunk = 1.000000
-		drunk_range = 200.000000
-		drunk_velocity = 0.150000
-		should_pause = 0.000000
+		use_hrtf = 0.8
+		drunk = 1.0
+		drunk_range = 200.0
+		drunk_velocity = 0.15
+		should_pause = 0.0
 		vsnd_files = 
 		[
 			"sounds/ambient/startup/amb_startup_boomlight_01.vsnd",
@@ -674,7 +675,7 @@
 			"sounds/ambient/startup/amb_startup_boomlight_10.vsnd",
 			"sounds/ambient/startup/amb_startup_boomlight_11.vsnd",
 		]
-		enable_debug_radius = 0.000000
+		enable_debug_radius = 0.0
 		debug_radius_max = 5
 		soundname_string = "AmbProcPlant.WoodCreakChild"
 		voicegraph_name = "hlvr.hrtf_filter_dynamics"

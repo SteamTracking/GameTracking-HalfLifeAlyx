@@ -1,11 +1,5 @@
-VSoundStackScript_t
-{
-	Struct m_SoundStacks[4] =
-	[
-		VSoundStack_t
-		{
-			CResourceString m_StackName = "src1_2d"
-			CResourceString m_StackKV = ""src1_2d"
+// src1_2d
+"src1_2d"
 {
 	"_system_properties"
 	{
@@ -229,12 +223,9 @@ VSoundStackScript_t
 		"input_memory_type"		"@public.memory_type"
 	}
 }
-"
-		}
-		VSoundStack_t
-		{
-			CResourceString m_StackName = "src1_soundscape_2d"
-			CResourceString m_StackKV = ""src1_soundscape_2d"
+
+// src1_soundscape_2d
+"src1_soundscape_2d"
 {
 	"_system_properties"
 	{
@@ -458,12 +449,9 @@ VSoundStackScript_t
 		"input_memory_type"		"@public.memory_type"
 	}
 }
-"
-		}
-		VSoundStack_t
-		{
-			CResourceString m_StackName = "src1_3d"
-			CResourceString m_StackKV = ""src1_3d"
+
+// src1_3d
+"src1_3d"
 {
 	"_system_properties"
 	{
@@ -845,12 +833,9 @@ VSoundStackScript_t
 		"input_memory_type"		"@public.memory_type"
 	}
 }
-"
-		}
-		VSoundStack_t
-		{
-			CResourceString m_StackName = "src1_soundscape_3d"
-			CResourceString m_StackKV = ""src1_soundscape_3d"
+
+// src1_soundscape_3d
+"src1_soundscape_3d"
 {
 	"_system_properties"
 	{
@@ -1200,7 +1185,4 @@ VSoundStackScript_t
 		"input_memory_type"		"@public.memory_type"
 	}
 }
-"
-		}
-	]
-}
+

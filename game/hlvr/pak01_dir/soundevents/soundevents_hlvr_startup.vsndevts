@@ -1,8 +1,9 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Music.Loading = 
 	{
 		type = "hlvr_music_startup"
-		volume = 1.000000
+		volume = 1.0
 		volume_fade_out = 7
 		vsnd_files = 
 		[
@@ -16,11 +17,11 @@
 		soundevent_02 = "AmbientA0Startup.LoadingScreenLp_R"
 		soundevent_03 = "AmbientA0Startup.LoadingScreenLp_LS"
 		soundevent_04 = "AmbientA0Startup.LoadingScreenLp_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
-		fade_out_time = 2.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
+		fade_out_time = 2.0
 	}
 	AmbientA0Startup.LoadingScreenLp_L = 
 	{
@@ -30,27 +31,27 @@
 			"sounds/ambient/startup/amb_loading_screen_lp_01_l.vsnd",
 		]
 		mixgroup = "ambient"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
-		rotation_angle = 135.000000
-		volume_fade_in = 0.000000
-		volume_fade_out = 2.000000
+		rotation_angle = 135.0
+		volume_fade_in = 0.0
+		volume_fade_out = 2.0
 		spread_min = 0
 		spread_max = 300
-		volume = 0.400000
-		should_pause = 0.000000
-		fade_over_time_x1 = 0.000000
-		fade_over_time_y1 = 1.000000
-		fade_over_time_x2 = 8.000000
-		fade_over_time_y2 = 1.000000
+		volume = 0.4
+		should_pause = 0.0
+		fade_over_time_x1 = 0.0
+		fade_over_time_y1 = 1.0
+		fade_over_time_x2 = 8.0
+		fade_over_time_y2 = 1.0
 		fade_over_time_x3 = 20
-		fade_over_time_y3 = 0.500000
+		fade_over_time_y3 = 0.5
 		fade_over_time_x4 = 60
-		fade_over_time_y4 = 0.400000
-		enable_debug_radius = 0.000000
-		use_og_fadeout = 1.000000
-		use_hrtf = 1.000000
+		fade_over_time_y4 = 0.4
+		enable_debug_radius = 0.0
+		use_og_fadeout = 1.0
+		use_hrtf = 1.0
 		voice_layer = "async_load"
 	}
 	AmbientA0Startup.LoadingScreenLp_R = 
@@ -60,7 +61,7 @@
 		[
 			"sounds/ambient/startup/amb_loading_screen_lp_01_r.vsnd",
 		]
-		rotation_angle = 45.000000
+		rotation_angle = 45.0
 	}
 	AmbientA0Startup.LoadingScreenLp_LS = 
 	{
@@ -69,7 +70,7 @@
 		[
 			"sounds/ambient/startup/amb_loading_screen_lp_01_ls.vsnd",
 		]
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientA0Startup.LoadingScreenLp_RS = 
 	{
@@ -78,7 +79,7 @@
 		[
 			"sounds/ambient/startup/amb_loading_screen_lp_01_rs.vsnd",
 		]
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientA0Startup.LoadingScreenEnd = 
 	{
@@ -87,10 +88,10 @@
 		soundevent_02 = "AmbientA0Startup.LoadingScreenEnd_R"
 		soundevent_03 = "AmbientA0Startup.LoadingScreenEnd_LS"
 		soundevent_04 = "AmbientA0Startup.LoadingScreenEnd_RS"
-		use_01 = 1.000000
-		use_02 = 1.000000
-		use_03 = 1.000000
-		use_04 = 1.000000
+		use_01 = 1.0
+		use_02 = 1.0
+		use_03 = 1.0
+		use_04 = 1.0
 	}
 	AmbientA0Startup.LoadingScreenEnd_L = 
 	{
@@ -100,22 +101,22 @@
 			"sounds/ambient/startup/amb_loading_screen_end_impact_01_l.vsnd",
 		]
 		mixgroup = "LoudEvents"
-		radius = 250.000000
+		radius = 250.0
 		volume_falloff_min = 250
 		volume_falloff_max = 300
 		rotation_angle = 45
-		volume_fade_in = 1.000000
-		volume_fade_out = 0.000000
+		volume_fade_in = 1.0
+		volume_fade_out = 0.0
 		spread_min = 0
 		spread_max = 300
-		volume = 1.000000
-		limiter_on = 1.000000
+		volume = 1.0
+		limiter_on = 1.0
 		limiter_event_name = "AmbientA0Startup.LoadingScreenLp"
-		limiter_match_substring = 0.000000
+		limiter_match_substring = 0.0
 		limiter_max = 0
-		should_pause = 0.000000
-		enable_debug_radius = 0.000000
-		use_hrtf = 1.000000
+		should_pause = 0.0
+		enable_debug_radius = 0.0
+		use_hrtf = 1.0
 		voice_layer = "async_load"
 	}
 	AmbientA0Startup.LoadingScreenEnd_R = 

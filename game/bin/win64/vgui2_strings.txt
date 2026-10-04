@@ -28,7 +28,6 @@
 %s: string format requested %d chars\n
 &Sgw
 '"KEY_APOSTROPHE
-( 8PX
 (no name)
 (null)
 **KEY_PAD_MULTIPLY
@@ -101,6 +100,8 @@
 .?AVScalableImageBorder@@
 .?AVVPanel@vgui@@
 .?AVVPanelWrapper@@
+.?AVbad_exception@std@@
+.?AVexception@std@@
 .?AVtype_info@@
 .CRT$XCA
 .CRT$XCC
@@ -120,9 +121,8 @@
 .bss
 .data
 .data$r
+.data$rs
 .edata
-.gfids$x
-.gfids$y
 .idata$2
 .idata$3
 .idata$4
@@ -134,6 +134,7 @@
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .res
 .rtc$IAA
@@ -150,6 +151,7 @@
 .tls$ZZZ
 .xJ>Hf
 .xdata
+.xdata$x
 //KEY_PAD_DIVIDE
 /?KEY_SLASH
 0 0 0 0
@@ -175,7 +177,6 @@
 5%KEY_5
 6^KEY_6
 7&KEY_7
-700WP
 8*KEY_8
 9(KEY_9
 :active
@@ -197,17 +198,22 @@
 >cQ6
 >jtm}S
 ?7zQ6$
+??0CThreadFastMutex@@QEAA@XZ
+??0CThreadMutex@@QEAA@XZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
 ?DevMsg@@YAXPEBDZZ
 ?Format@CBufferString@@QEAAHPEBDZZ
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
+?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LockForRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?Purge@CBufferString@@QEAAXH@Z
 ?SetLength@CBufferString@@QEAAPEADH_NPEAH@Z
 ?SpinLockForWrite@CThreadSpinRWLock@@AEAAXPEBDHI@Z
 ?UUUUUU
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
+?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?UnlockWrite@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?V_SplitString@@YAXPEBD0AEAV?$CUtlVector@PEADV?$CUtlMemory@PEADH@@@@@Z
@@ -226,7 +232,9 @@ AddFontMemResourceEx
 AnimGraphEditorUtils001
 AnimationSystemUtils_001
 AnimationSystem_001
+AppPolicyGetProcessTerminationMethod
 April
+AreFileApisANSI
 AssetBrowserSystem_001
 AssetPreviewSystem_001
 AssetSystem001
@@ -298,6 +306,7 @@ CUtlRBTree<struct CUtlMap<char const *,class vgui::IImage *,unsigned short,bool 
 CUtlRBTree<struct CUtlMap<class HKeySymbol,class CUtlVector<struct style_t,class CUtlMemory<struct style_t,int> > *,int,bool (__cdecl*)(class HKeySymbol const &,class HKeySymbol const &)>::Node_t,int,class CUtlMap<class HKeySymbol,class CUtlVector<struct style_t,class CUtlMemory<struct style_t,int> > *,int,bool (__cdecl*)(class HKeySymbol const &,class HKeySymbol const &)>::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class HKeySymbol,class CUtlVector<struct style_t,class CUtlMemory<struct style_t,int> > *,int,bool (__cdecl*)(class HKeySymbol const &,class HKeySymbol const &)>::Node_t,int>,int> >::NewNode
 CUtlRBTree<struct CUtlMap<struct CLayoutFile::AppearanceKey_t,class CStyleAppearance *,int,bool (__cdecl*)(struct CLayoutFile::AppearanceKey_t const &,struct CLayoutFile::AppearanceKey_t const &)>::Node_t,int,class CUtlMap<struct CLayoutFile::AppearanceKey_t,class CStyleAppearance *,int,bool (__cdecl*)(struct CLayoutFile::AppearanceKey_t const &,struct CLayoutFile::AppearanceKey_t const &)>::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<struct CLayoutFile::AppearanceKey_t,class CStyleAppearance *,int,bool (__cdecl*)(struct CLayoutFile::AppearanceKey_t const &,struct CLayoutFile::AppearanceKey_t const &)>::Node_t,int>,int> >::NewNode
 CUtlRBTree<struct CWin32Surface::ContextAbsPos_t,unsigned short,bool (__cdecl*)(struct CWin32Surface::ContextAbsPos_t const &,struct CWin32Surface::ContextAbsPos_t const &),class CUtlMemory<struct UtlRBTreeNode_t<struct CWin32Surface::ContextAbsPos_t,unsigned short>,unsigned short> >::NewNode
+CUtlRBTree<void *,int,bool (__cdecl*)(void * const &,void * const &),class CUtlMemory<struct UtlRBTreeNode_t<void *,int>,int> >::NewNode
 CUtlString::FormatV
 CancelIo
 CheckBgColor
@@ -381,6 +390,7 @@ ET5>
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EconItemToolModel_001
 EmptyClipboard
+EncodePointer
 EndPaint
 EngineServiceMgr001
 EnterCriticalSection
@@ -399,8 +409,8 @@ February
 FgColor
 FgColorDim
 FindClose
-FindFirstFileExA
-FindNextFileA
+FindFirstFileExW
+FindNextFileW
 FlashWindow
 FlattenedSerializersVersion001
 FlsAlloc
@@ -449,9 +459,8 @@ GetCPInfo
 GetClipboardData
 GetCommandLineA
 GetCommandLineW
-GetConsoleCP
 GetConsoleMode
-GetCurrentPackageId
+GetConsoleOutputCP
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -472,7 +481,7 @@ GetLastError
 GetLocalTime
 GetLogicalDriveStringsA
 GetMessageA
-GetModuleFileNameA
+GetModuleFileNameW
 GetModuleHandleA
 GetModuleHandleExW
 GetModuleHandleW
@@ -525,7 +534,6 @@ ImmNotifyIME
 ImmReleaseContext
 ImmSetCandidateWindow
 ImmSetConversionStatus
-InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
@@ -743,7 +751,7 @@ PropertySheet.TextColor
 PropertySheet.TransitionEffectTime
 QueryPerformanceCounter
 QueuedLoaderVersion001
-RSDSG
+RSDSe
 RadioButton.SelectedTextColor
 RadioButton.TextColor
 RaiseException
@@ -793,6 +801,7 @@ RichText.TextColor
 Right
 RtlCaptureContext
 RtlLookupFunctionEntry
+RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
 S9>H
@@ -853,7 +862,7 @@ SetClipboardData
 SetCursor
 SetCursorPos
 SetCursorPosInternal
-SetEnvironmentVariableA
+SetEnvironmentVariableW
 SetEvent
 SetFilePointerEx
 SetFocus
@@ -954,6 +963,7 @@ USER32.dll
 UUUUUU
 UnhandledExceptionFilter
 UnhandledMouseClick
+Unknown exception
 Unknown key '%s' set in style '%s' in file '%s'\n
 UnregisterClassA
 UserConfigData
@@ -966,7 +976,6 @@ VBik001
 VConComm001
 VDebugService_001
 VEngineCvar007
-VFONT1
 VFileSystem017
 VGUI_Input005
 VGUI_InputInternal001
@@ -1057,6 +1066,7 @@ You need to name the scheme (%s)!
 \|KEY_BACKSLASH
 ]}KEY_RBRACKET
 ^<V7w
+_RDATA
 _V_ExtractFileExtension
 _V_MakeAbsolutePath
 _V_strncat
@@ -1074,11 +1084,14 @@ __pascal
 __ptr64
 __restrict
 __stdcall
+__swift_1
+__swift_2
 __thiscall
 __unaligned
 __vectorcall
 _minmode
 `RTTI
+`anonymous namespace'
 `copy constructor closure'
 `default constructor closure'
 `dynamic atexit destructor for '
@@ -1125,6 +1138,7 @@ alpha
 antialias
 bBKEY_B
 backgroundtype
+bad exception
 bgcolor
 bitmap
 blur
@@ -1264,6 +1278,8 @@ ole32.dll
 only
 operator
 operator "" 
+operator co_await
+operator<=>
 outline
 overflow
 owM&
@@ -1366,7 +1382,6 @@ weight
 width
 xXKEY_X
 xpos
-xpxxxx
 yYKEY_Y
 ypos
 yres

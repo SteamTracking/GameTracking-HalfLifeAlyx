@@ -1,15 +1,16 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Snark.Base = 
 	{
 		type = "hlvr_default_3d"
-		volume = 0.550000
-		volume_falloff_min = 50.000000
-		volume_falloff_max = 400.000000
-		distance_max = 401.000000
-		occlusion_scale = 0.800000
-		use_hrtf = 1.000000
-		pitch_rand_min = -0.050000
-		pitch_rand_max = -0.050000
+		volume = 0.55
+		volume_falloff_min = 50.0
+		volume_falloff_max = 400.0
+		distance_max = 401.0
+		occlusion_scale = 0.8
+		use_hrtf = 1.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = -0.05
 	}
 	Snark.Bodyfall = 
 	{
@@ -19,11 +20,11 @@
 	Snark.Step = 
 	{
 		base = "Snark.Base"
-		volume = 0.300000
-		limiter_on = 1.000000
-		limiter_max = 1.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 1.000000
+		volume = 0.3
+		limiter_on = 1.0
+		limiter_max = 1.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 1.0
 		vsnd_files = 
 		[
 			"sounds/creatures/snark/step_01.vsnd",
@@ -37,11 +38,11 @@
 	Snark.Sniff = 
 	{
 		base = "Snark.Base"
-		volume = 0.300000
-		limiter_on = 1.000000
-		limiter_max = 0.000000
-		limiter_match_entity = 1.000000
-		limiter_match_event = 1.000000
+		volume = 0.3
+		limiter_on = 1.0
+		limiter_max = 0.0
+		limiter_match_entity = 1.0
+		limiter_match_event = 1.0
 		vsnd_files = 
 		[
 			"sounds/creatures/snark/sniff_01.vsnd",
@@ -63,7 +64,7 @@
 	Snark.Jar_Tap = 
 	{
 		base = "Snark.Base"
-		volume = 0.350000
+		volume = 0.35
 		vsnd_files = 
 		[
 			"sounds/creatures/snark/jar_tap_01.vsnd",
@@ -75,7 +76,7 @@
 	Snark.Groom = 
 	{
 		base = "Snark.Base"
-		volume = 0.350000
+		volume = 0.35
 		vsnd_files = 
 		[
 			"sounds/creatures/snark/groom_01.vsnd",
@@ -87,7 +88,7 @@
 	Snark.Vox_Fall = 
 	{
 		base = "Snark.Base"
-		volume = 0.450000
+		volume = 0.45
 		vsnd_files = 
 		[
 			"sounds/creatures/snark/vox_fall_01.vsnd",
@@ -97,13 +98,13 @@
 	Snark.Vox_Hungry_Start = 
 	{
 		base = "Snark.Base"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = "sounds/creatures/snark/vox_hungry_start.vsnd"
 	}
 	Snark.Vox_Hungry_End = 
 	{
 		base = "Snark.Base"
-		volume = 0.450000
+		volume = 0.45
 		vsnd_files = 
 		[
 			"sounds/creatures/snark/vox_hungry_end_01.vsnd",
@@ -113,7 +114,7 @@
 	Snark.Vox_Hungry_Growl = 
 	{
 		base = "Snark.Base"
-		volume = 0.455000
+		volume = 0.455
 		vsnd_files = 
 		[
 			"sounds/creatures/snark/vox_hungry_growl_01.vsnd",
@@ -125,7 +126,7 @@
 	Snark.Vox_Idle = 
 	{
 		base = "Snark.Base"
-		volume = 0.450000
+		volume = 0.45
 		vsnd_files = 
 		[
 			"sounds/creatures/snark/vox_idle_01.vsnd",
@@ -139,7 +140,7 @@
 	Snark.Vox_Jump = 
 	{
 		base = "Snark.Base"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = 
 		[
 			"sounds/creatures/snark/vox_jump_01.vsnd",
@@ -149,7 +150,7 @@
 	Snark.Vox_Land = 
 	{
 		base = "Snark.Base"
-		volume = 0.450000
+		volume = 0.45
 		vsnd_files = 
 		[
 			"sounds/creatures/snark/vox_land_01.vsnd",
@@ -159,7 +160,7 @@
 	Snark.Vox_Hanging = 
 	{
 		base = "Snark.Base"
-		volume = 0.450000
+		volume = 0.45
 		vsnd_files = 
 		[
 			"sounds/creatures/snark/vox_hang_01.vsnd",
@@ -171,7 +172,7 @@
 	Snark.Vox_Twitch = 
 	{
 		base = "Snark.Base"
-		volume = 0.450000
+		volume = 0.45
 		vsnd_files = 
 		[
 			"sounds/creatures/snark/vox_twitch_01.vsnd",

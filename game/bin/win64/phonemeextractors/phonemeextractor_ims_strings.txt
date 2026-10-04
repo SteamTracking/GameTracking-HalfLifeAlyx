@@ -28,6 +28,8 @@
 .?AVCBlockingUDPSocket@@
 .?AVCPhonemeExtractorLipSinc@@
 .?AVIPhonemeExtractor@@
+.?AVbad_exception@std@@
+.?AVexception@std@@
 .?AVtype_info@@
 .CRT$XCA
 .CRT$XCC
@@ -47,9 +49,8 @@
 .bss
 .data
 .data$r
+.data$rs
 .edata
-.gfids$x
-.gfids$y
 .idata$2
 .idata$3
 .idata$4
@@ -59,6 +60,7 @@
 .rdata
 .rdata$T
 .rdata$r
+.rdata$voltmd
 .rdata$zzzdbg
 .rtc$IAA
 .rtc$IZZ
@@ -74,13 +76,17 @@
 .tls$ZZZ
 .xJ>Hf
 .xdata
+.xdata$x
 00000000-0000-0000-0000-000000000000
+0<&6N
 0iN>/
 11Y@
 1DBlend
+2\vph
 37>k
 3>N;kU
 3>fvw
+8x R
 <!-- kv3 encoding:%s:version{%s} format:%s:version{%s} -->\n
 <!-- schema 
 =cQ6
@@ -88,13 +94,15 @@
 >cQ6
 >jtm}S
 ?7zQ6$
+??0CThreadMutex@@QEAA@XZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
 ?CUtlString::FormatV
 ?Concat@CBufferString@@QEAAPEBDPEBD0ZZ
 ?ExtractFilePath@CBufferString@@QEAAPEBDPEBD_N@Z
 ?FixSlashes@CBufferString@@QEAAPEBDD@Z
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Lock@CThreadFastMutex@@AECAXPEBDHII@Z
+?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
+?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?Purge@CBufferString@@QEAAXH@Z
 ?Relinquish@CBufferString@@QEAAPEADW4EAllocationOption_t@1@@Z
@@ -106,6 +114,8 @@
 ?StartsWith@CBufferString@@QEAA_NPEBD@Z
 ?Truncated data
 ?UUUUUU
+?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
+?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
 ?f`Y4
 ?qBJ
@@ -173,6 +183,7 @@ AnimStartLoop
 AnimSubtract
 Animation
 AnimationList
+AppPolicyGetProcessTerminationMethod
 April
 AreFileApisANSI
 AssignProcessToJobObject
@@ -223,10 +234,14 @@ COLLISION_MODE_USE_NEAREST_TRACE
 COrderedConstructor_Create<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>,class CResolveOrderedFunc<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>,&void __cdecl _ORDERED_INIT_SHUTDOWN_WRAPPER_RESOLVEFUNC<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>(class COrderedConstructor_DependencyManagement<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)> > &)>,0>::AddRef
 CParticleSystemDefinition
 CSolveIKChainAnimNode
+CTSListBase: Misaligned list\n
+CTSListBase::CTSListBase
 CUtlBuffer::VaPrintf
 CUtlBuffer::VaPrintf: String overflowed buffer [%llu]\n
 CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
 CUtlMemoryPoolBase::CUtlMemoryPoolBase
+CUtlRBTree overflow with %u elements!\n
+CUtlRBTree<void *,int,bool (__cdecl*)(void * const &,void * const &),class CUtlMemory<struct UtlRBTreeNode_t<void *,int>,int> >::NewNode
 C_INIT_AddVectorToVector
 C_INIT_AgeNoise
 C_INIT_CreateFromCPs
@@ -344,6 +359,7 @@ DynamicConfigList
 ET5>
 EditorDynamicConfig
 EmptyAnim
+EncodePointer
 EnterCriticalSection
 ExitProcess
 ExpandEnvironmentStringsA
@@ -367,8 +383,8 @@ Failed to assign bool literal value
 February
 FileTimeToSystemTime
 FindClose
-FindFirstFileExA
-FindNextFileA
+FindFirstFileExW
+FindNextFileW
 FlsAlloc
 FlsFree
 FlsGetValue
@@ -385,10 +401,9 @@ GetCPUInformation
 GetCStringCharConversion
 GetCommandLineA
 GetCommandLineW
-GetConsoleCP
 GetConsoleMode
+GetConsoleOutputCP
 GetCurrentDirectoryW
-GetCurrentPackageId
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -397,11 +412,12 @@ GetDriveTypeW
 GetEnvironmentStringsW
 GetEnvironmentVariableA
 GetExitCodeProcess
-GetFileInformationByHandleEx
+GetFileInformationByHandle
 GetFileType
 GetFullPathNameW
 GetLastError
 GetModuleFileNameA
+GetModuleFileNameW
 GetModuleHandleExA
 GetModuleHandleExW
 GetModuleHandleW
@@ -424,7 +440,6 @@ IKRigBug
 IKRigSimple
 IMS (LipSinc)
 IkLockLocal
-InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
@@ -527,6 +542,7 @@ PreviewPresetList
 Process exited cleanly\n
 QueryPerformanceCounter
 RSDS
+R\fph
 RaiseException
 RegisterStringToken
 Release
@@ -535,6 +551,7 @@ RenderMeshFile
 ResumeThread
 RtlCaptureContext
 RtlLookupFunctionEntry
+RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
 S+Ot
@@ -545,6 +562,7 @@ September
 SequenceMarkup
 SequenceMarkupList
 SetEnvironmentVariableA
+SetEnvironmentVariableW
 SetFilePointerEx
 SetInformationJobObject
 SetLastError
@@ -581,6 +599,7 @@ UUUUUU
 Unable to determine buffer encoding.
 Unexpected end of file
 UnhandledExceptionFilter
+Unknown exception
 Unrecognized flag name '%s'
 Unrecognized type '%d'
 Unresolved object reference '%s'
@@ -613,6 +632,7 @@ WriteFile
 \ims_helper_process.exe
 \nCwf\r
 \tkE>fvw
+_RDATA
 _V_strncmp
 _V_strncpy
 __based(
@@ -625,6 +645,8 @@ __pascal
 __ptr64
 __restrict
 __stdcall
+__swift_1
+__swift_2
 __temp_unserialization_member__
 __thiscall
 __unaligned
@@ -632,6 +654,7 @@ __vectorcall
 _class
 _test_conversion_counter
 `RTTI
+`anonymous namespace'
 `copy constructor closure'
 `default constructor closure'
 `dynamic atexit destructor for '
@@ -684,6 +707,7 @@ attachment_offset
 attachment_type
 auto_unragdoll_duration
 bUpdate
+bad exception
 binary
 binary_auto
 binary_bc
@@ -706,6 +730,8 @@ burst_scale
 c:\buildslave\hlvr_rel_win64\build\src\kv3lib\kv3format_manager.cpp
 c:\buildslave\hlvr_rel_win64\build\src\mathlib\mathlib.cpp
 c:\buildslave\hlvr_rel_win64\build\src\public\ordered_constructor.h
+c:\buildslave\hlvr_rel_win64\build\src\public\tier0\tslist.h
+c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlrbtree.h
 c:\buildslave\hlvr_rel_win64\build\src\tier1\mempool.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\utlbuffer.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\utlstring.cpp
@@ -959,6 +985,8 @@ null
 numsegments
 operator
 operator "" 
+operator co_await
+operator<=>
 origin_max_delta
 origin_relative
 parent_bone
@@ -980,6 +1008,7 @@ preferred_carryangles
 prop_data
 purecall
 r\tVr.>T
+r\vph
 radius
 radius0
 radius1

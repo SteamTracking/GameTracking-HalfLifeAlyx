@@ -140,6 +140,9 @@
 "HLVR_Options_On"					"On"
 "HLVR_Options_Off"				"Off"
 
+"HLVR_Options_Commentary"					"Developer Commentary"
+"HLVR_Options_Commentary_desc"				"Enable developer commentary nodes while playing.\n\nWARNING : Commentary contains MAJOR SPOILERS.\n\nWe recommend you complete the game first."
+
 "HLVR_Options_Movement_Base"					"Movement"
 "HLVR_Options_Movement_Blink"					"Blink"
 "HLVR_Options_Movement_Shift"					"Shift"
@@ -313,6 +316,10 @@
 "HLVR_Options_Graphics_Reset_modal"				"Reset performance settings to recommended?"
 "HLVR_Options_Graphics_Base"					"Fidelity"
 "HLVR_Options_Graphics_desc"					 "The game’s performance settings are set automatically. Modifying these settings may impact framerate."
+
+"HLVR_Options_Graphics_Category"				"Graphics"
+"HLVR_Options_Graphics_Quality"					"Quality"
+"HLVR_Options_Graphics_Performance"				"Performance"
 
 "HLVR_Options_Graphics_Textures_Base"			"Textures"
 "HLVR_Options_Graphics_Textures_Desc"			"Set Texture Quality\n\nTexture Quality is configured independently of Performance Fidelity Setting"
@@ -539,7 +546,6 @@
 "HLVR_CraftingStation_ResinAmount"					"{i:CurrencyAmount}"
 "HLVR_CraftingStation_SelectObject"					"Select Object"
 "HLVR_CraftingStation_SelectedWeapon"				"{s:WeaponName}"
-"HLVR_CraftingStation_SelectUpgrade"				"Select {s:WeaponName} Upgrade"
 "HLVR_CraftingStation_Upgrades"						"Upgrades"
 "HLVR_CraftingStation_Cost"							"Cost"
 "HLVR_CraftingStation_Summary"						"Summary"
@@ -557,8 +563,6 @@
 "HLVR_CraftingStation_TakeObject"					"Take Item"
 "HLVR_CraftingStation_PrintObject"					"Print Object"
 "HLVR_CraftingStation_UpgradeOwned"					"Owned"
-"HLVR_CraftingStation_SelectedPrint"				"Selected: {s:SelectedPrintObject}"
-"HLVR_CraftingStation_SelectedUpgrade"				"Selected Upgrade: {s:SelectedUpgrade}"
 "HLVR_CraftingStation_Cancel"						"Cancel"
 "HLVR_CraftingStation_Back"							"Back"
 "HLVR_CraftingStation_SmallPrint"					"Civil Protection Annex 19-81572"
@@ -657,6 +661,203 @@
 
 "HLVR_Credits_ContractorsHeader"					"Additional Development"
 "HLVR_Credits_CastHeader"							"The Cast"
+
+
+
+// Commentary Titles
+
+// a1_intro_world
+"HLVR_Commentary_Intro1"							"Welcome"
+"HLVR_Commentary_Intro2"							"Introduction"
+"HLVR_Commentary_Citadel_Vista"						"Citadel Vista"
+"HLVR_Commentary_Greenhouse"						"Greenhouse"
+"HLVR_Commentary_Strider"							"Strider"
+"HLVR_Commentary_Refuge"							"Refuge"
+"HLVR_Commentary_Olga"								"Olga"
+"HLVR_Commentary_Music"								"Music"
+"HLVR_Commentary_Alley"								"Alley"
+
+// a1_intro_world_2
+"HLVR_Commentary_Van_Crash"							"Van Crash"
+"HLVR_Commentary_Pacing1"							"Pacing 1"
+"HLVR_Commentary_Pacing2"							"Pacing 2"
+"HLVR_Commentary_Pacing3"							"Pacing 3"
+"HLVR_Commentary_Russell_Typing"					"Russell Typing"
+"HLVR_Commentary_Russell_Choreo"					"Character Choreography"
+"HLVR_Commentary_GG_Training_1"						"Gravity Glove Training 1"
+"HLVR_Commentary_GG_Training_2"						"Gravity Glove Training 2"
+
+// a2_quarantine_entrance
+"HLVR_Commentary_Resin"								"Resin"
+"HLVR_Commentary_Toner_Intro"						"Toner Puzzles"
+"HLVR_Commentary_Lighting"							"Lighting"
+"HLVR_Commentary_Barnacles"							"Barnacles"
+"HLVR_Commentary_Pistol_Training1"					"Pistol Reloading"
+"HLVR_Commentary_Locker_Hacking"					"Hacking"
+
+// a2_pistol
+"HLVR_Commentary_Health_Injectors"					"Health Injectors"
+"HLVR_Commentary_Pistol_Training2"					"Pistol Training"
+"HLVR_Commentary_Train_Cars"						"Crouching"
+"HLVR_Commentary_Breakable_Glass"					"Breakable Glass"
+"HLVR_Commentary_Weapon_Upgrades"					"Weapon Upgrades"
+"HLVR_Commentary_Comfort_Pacing"					"Player Comfort & Pacing"
+"HLVR_Commentary_Art_Pacing"						"Art & Pacing"
+"HLVR_Commentary_Headcrab_Foreshadowing"			"Headcrab Foreshadowing"
+
+// a2_hideout
+"HLVR_Commentary_Mural"								"Half-Life Mural"
+"HLVR_Commentary_Mural_Music"						"Musical Motifs"
+"HLVR_Commentary_Alyx_Reacts"						"Alyx Reactions"
+"HLVR_Commentary_Hideout_Interactivity"				"Hideout Interactivity"
+"HLVR_Commentary_Hideout_Scene"						"Hideout Scene"
+
+// a2_headcrabs_tunnel
+"HLVR_Commentary_ArmoredHeadcrabs1"					"Armored Headcrabs 1"
+"HLVR_Commentary_ArmoredHeadcrabs2"					"Armored Headcrabs 2"
+"HLVR_Commentary_ArmoredHeadcrabs3"					"Armored Headcrabs 3"
+"HLVR_Commentary_ShotgunGate1"						"Shotgun Gate 1"
+"HLVR_Commentary_ShotgunGate2"						"Shotgun Gate 2"
+"HLVR_Commentary_ShotgunDesign1"					"Shotgun Design 1"
+"HLVR_Commentary_ShotgunDesign2"					"Shotgun Design 2"
+"HLVR_Commentary_DarknessGate"						"Darkness Gate"
+"HLVR_Commentary_TonerAirlock"						"Toner Airlock"
+"HLVR_Commentary_Flashlight1"						"Flashlight"
+"HLVR_Commentary_Flashlight2"						"Flashlight Articulation"
+"HLVR_Commentary_Sandwiches"						"Sandwiches"
+
+// a2_drainage
+"HLVR_Commentary_Budgeting"							"Budget"
+"HLVR_Commentary_Barnacle_Sounds"					"Barnacle Sounds"
+"HLVR_Commentary_Manhack_Introduction"				"Manhack Sounds"
+"HLVR_Commentary_Exterior_Pacing"					"Exterior Pacing"
+"HLVR_Commentary_Xen_Barrels"						"Xen Overgrowth"
+"HLVR_Commentary_Volumetric_Lighting"				"Volumetric Lighting"
+
+// a2_train_yard
+"HLVR_Commentary_Combine_Sighting"					"Combine Sighting"
+"HLVR_Commentary_Single_Combine"					"First Combine"
+"HLVR_Commentary_First_Combine_Skirmish"			"Fighting Combine"
+"HLVR_Commentary_Train_Crash"						"Train Crash"
+"HLVR_Commentary_Eli_Rescue"						"Eli Rescue"
+
+// a3_station_street
+"HLVR_Commentary_Melee"								"No Crowbar?"
+"HLVR_Commentary_Vault_View"						"Vault View"
+"HLVR_Commentary_Throwing"							"Throwing"
+"HLVR_Commentary_Optional_Toner"					"Toner Puzzle"
+"HLVR_Commentary_Substation_Music"					"Substation Sounds"
+
+// a3_hotel_lobby_basement
+"HLVR_Commentary_Physics_Sounds"					"Physics Sounds"
+"HLVR_Commentary_Liquid_Bottles"					"Liquid in Bottles"
+"HLVR_Commentary_Xen_Art"							"Xen Art"
+"HLVR_Commentary_Xen_Animation"						"Xen Flora Animation"
+"HLVR_Commentary_Reviver_Intro"						"Reviver Introduction"
+"HLVR_Commentary_Reviver_Animation"					"Reviver Animation"
+"HLVR_Commentary_HLPR"								"Game Trailer"
+
+// a3_hotel_underground_pit
+"HLVR_Commentary_Teleport_Immersion"				"Teleporting & Immersion"
+"HLVR_Commentary_Reviver_Foreshadowing"				"Reviver Foreshadowing"
+"HLVR_Commentary_Reviver_Training"					"Reviver Training"
+"HLVR_Commentary_Reviver_Ground_Attack"				"Reviver Ground Attack"
+"HLVR_Commentary_Elevator_Comfort"					"Elevator Comfort"
+"HLVR_Commentary_Substation_Design"					"Substation Design"
+
+// a3_hotel_interior_rooftop
+"HLVR_Commentary_Xen_Response"						"Xen Flora Response"
+"HLVR_Commentary_Particle_Effects"					"Particles in VR"
+"HLVR_Commentary_Darkness"							"Darkness"
+"HLVR_Commentary_Ammo_Balancing_1"					"Ammo Balancing 1"
+"HLVR_Commentary_Ammo_Balancing_2"					"Ammo Balancing 2"
+"HLVR_Commentary_Ammo_Balancing_3"					"Ammo Balancing 3"
+"HLVR_Commentary_Double_Reviver"					"Two Reviver Fight"
+
+// a3_hotel_street
+"HLVR_Commentary_Vort_Energy"						"Vortigaunt Energy"
+"HLVR_Commentary_Substation_Vort"					"Vortigaunt Animation"
+"HLVR_Commentary_Prefabs"							"Prefabs"
+"HLVR_Commentary_Procedural_Displacement"			"Procedural Displacement"
+"HLVR_Commentary_Character_Movement"				"Character Movement"
+"HLVR_Commentary_Trip_Mines"						"Trip Mines"
+"HLVR_Commentary_Combat_Pacing"						"Combat Pacing"
+"HLVR_Commentary_Xen_World_Building"				"Xen World Building"
+"HLVR_Commentary_Mannequin_Headcrab"				"Mannequin Headcrab"
+
+// a3_c17_processing_plant
+"HLVR_Commentary_Pistol_Hopper"						"Pistol Hopper Upgrade"
+"HLVR_Commentary_Soundscapes"						"Soundscapes"
+"HLVR_Commentary_Suppressor_Intro"					"Suppressor Introduction"
+"HLVR_Commentary_Environment_Art"					"Environment Art"
+"HLVR_Commentary_AI_In_VR"							"AI in VR"
+"HLVR_Commentary_Ladders"							"Ladders"
+
+// a3_distillery
+"HLVR_Commentary_Jeff"								"Jeff"
+"HLVR_Commentary_Xen_Ears"							"Xen Ears"
+"HLVR_Commentary_Xen_Clams"							"Xen Clams"
+"HLVR_Commentary_Larry"								"Larry"
+"HLVR_Commentary_Coughing"							"Coughing"
+"HLVR_Commentary_Single_Controller"					"Single Controller Mode"
+"HLVR_Commentary_Jeff_Attack"						"Jeff's Attack"
+"HLVR_Commentary_Training_Alcove"					"Training Alcove"
+"HLVR_Commentary_Jeff_Design"						"Jeff's Design"
+"HLVR_Commentary_Freezer_Toner_Puzzle"				"Freezer Toner Puzzle"
+"HLVR_Commentary_Elevator"							"Elevator"
+"HLVR_Commentary_Cheeky_Headcrab"					"Cheeky Headcrab's Escape"
+"HLVR_Commentary_Combine_Forcefields"				"Combine Forcefields"
+"HLVR_Commentary_Sounds"							"Sounds"
+"HLVR_Commentary_Jeff_Death"						"Jeff's Death"
+
+// a4_c17_zoo
+"HLVR_Commentary_Antlion_Combat"					"Antlion Combat"
+"HLVR_Commentary_Foliage"							"Foliage"
+"HLVR_Commentary_Antlion_Sounds"					"Antlion Sounds"
+"HLVR_Commentary_Anim_Interactables"				"Anim Interactables"
+"HLVR_Commentary_Toner_Puzzle1"						"Toner Puzzle"
+"HLVR_Commentary_Toner_Puzzle2"						"Critical Junction"
+
+// a4_c17_tanker_yard
+"HLVR_Commentary_Tractor_Beam"						"Tractor Beam"
+"HLVR_Commentary_Collaborator"						"Collaborator"
+"HLVR_Commentary_Scavenger_Hideout"					"Scavenger Hideout"
+"HLVR_Commentary_Spectator_HUD"						"Spectator HUD"
+"HLVR_Commentary_Tanker_Yard_Combat"				"Tanker Yard Combat"
+
+// a4_c17_water_tower
+"HLVR_Commentary_Chasm_Puzzle"						"Chasm Puzzle"
+"HLVR_Commentary_Combine_Combat"					"Combine Combat"
+"HLVR_Commentary_Vertical_Tower"					"Verticality"
+"HLVR_Commentary_Vault_Panel"						"Vault Panel"
+
+// a4_c17_parking_garage
+"HLVR_Commentary_Strider_Intro"						"Strider Introduction"
+"HLVR_Commentary_Lone_Combine"						"Lone Combine"
+"HLVR_Commentary_Disabled_Strider"					"Disabled Strider"
+"HLVR_Commentary_Lion_And_Mouse"					"The Lion and the Mouse"
+"HLVR_Commentary_AI_Animation"						"AI and Animation"
+"HLVR_Commentary_Elevator"							"Elevator Ride"
+"HLVR_Commentary_Destructible_Cover"				"Destructible Cover"
+"HLVR_Commentary_Minigun"							"Strider Mini-Gun"
+"HLVR_Commentary_Doorframe_Bash"					"Doorframe Bash"
+"HLVR_Commentary_Strider_Sounds"					"Strider Sounds"
+"HLVR_Commentary_Gauss_Cannon"						"Gauss Canon"
+"HLVR_Commentary_Destroy_Strider"					"Strider Destruction"
+"HLVR_Commentary_Mounted_Gun"						"Mounted Gun"
+
+// a5_vault
+"HLVR_Commentary_Broken_Vault_Music"				"Broken Vault Music"
+"HLVR_Commentary_Sideways_Music"					"Sideways Music"
+"HLVR_Commentary_Surreal_Vault"						"Surreal Vault"
+"HLVR_Commentary_Vort_Lightning"					"Vortigaunt Lightning"
+
+
+// a5_ending
+"HLVR_Commentary_Coetaneous"						"Coetaneous Entanglement"
+"HLVR_Commentary_GMan_Room"							"G-Man Room"
+
+
 
 // Game Tips
 "HLVR_LOADING_SCREEN_TIP_COUNT"				"22"
@@ -954,5 +1155,95 @@
 "HLVR_LOADING_SCREEN_TIP_MAP_18_COUNT"		"0"		// a4_c17_parking_garage
 "HLVR_LOADING_SCREEN_TIP_MAP_19_COUNT"		"0"		// a5_vault
 "HLVR_LOADING_SCREEN_TIP_MAP_20_COUNT"		"0"		// a5_ending
+
+"Workshop_Tag_Section"					"Workshop Tags"
+
+"Workshop_Tag_AddonType"				"Addon Type"
+"Workshop_Tag_AddonType_Maps"			"Maps"
+"Workshop_Tag_AddonType_Mods"			"Game Modifications & Replacements"
+"Workshop_Tag_AddonType_DevResources"	"Developer Resources"
+"Workshop_Tag_AddonType_Other"			"Other Addon Type"
+
+"Workshop_Tag_GameContent"				"Game Content"
+"Workshop_Tag_GameContent_AssetPacks"	"Asset Packs"
+"Workshop_Tag_GameContent_Prefabs"		"Prefabs"
+"Workshop_Tag_GameContent_NPCs"			"NPCs"
+"Workshop_Tag_GameContent_Weapons"		"Weapons"
+"Workshop_Tag_GameContent_Models"		"Models"
+"Workshop_Tag_GameContent_Textures"		"Textures"
+"Workshop_Tag_GameContent_Sounds"		"Sounds"
+"Workshop_Tag_GameContent_Particles"	"Particles"
+"Workshop_Tag_GameContent_QualityOfLife"	"Quality Of Life"
+"Workshop_Tag_GameContent_CustomMechanics"	"Custom Mechanics"
+"Workshop_Tag_GameContent_ScriptsAndAI"		"Scripts & AI"
+"Workshop_Tag_GameContent_Misc"				"Miscellaneous Content"
+
+"Workshop_Tag_GameplayGenre"			"Gameplay Genre"
+"Workshop_Tag_GameplayGenre_HLALike"	"HL:A Campaign-like"
+"Workshop_Tag_GameplayGenre_Action"		"Action"
+"Workshop_Tag_GameplayGenre_Puzzle"		"Puzzle"
+"Workshop_Tag_GameplayGenre_Showcase"	"Showcase & Scenic"
+"Workshop_Tag_GameplayGenre_Platforming"	"Platforming & Climb"
+"Workshop_Tag_GameplayGenre_Adventure" "Adventure"
+"Workshop_Tag_GameplayGenre_Stealth"	"Stealth"
+"Workshop_Tag_GameplayGenre_RPG"		"RPG"
+"Workshop_Tag_GameplayGenre_Arcade"		"Arcade & Minigames"
+"Workshop_Tag_GameplayGenre_Sandbox"	"Sandbox"
+"Workshop_Tag_GameplayGenre_Other"		"Other Genre"
+
+"Workshop_Tag_Environment"				"Environment"
+"Workshop_Tag_Environment_Urban"		"Urban"
+"Workshop_Tag_Environment_Xenfestation"	"Xenfestation"
+"Workshop_Tag_Environment_Combine"		"Combine Structures"
+"Workshop_Tag_Environment_Rural"		"Rural"
+"Workshop_Tag_Environment_Nature"		"Nature"
+"Workshop_Tag_Environment_Industrial"	"Industrial"
+"Workshop_Tag_Environment_Underground"	"Underground"
+"Workshop_Tag_Environment_Exotic"		"Exotic"
+"Workshop_Tag_Environment_Snow"			"Snow"
+"Workshop_Tag_Environment_Water"		"Water"
+"Workshop_Tag_Environment_Other"		"Other Environment"
+
+"Workshop_Tag_Theme"					"Theme"
+"Workshop_Tag_Theme_Valve"				"Valve Games"
+"Workshop_Tag_Theme_Recreations"		"Recreations & Remakes"
+"Workshop_Tag_Theme_Ports"				"Ported Content"
+"Workshop_Tag_Theme_OpenWorld"			"Open-World"
+"Workshop_Tag_Theme_Defense"			"Defense & Arenas"
+"Workshop_Tag_Theme_Vehicle"			"Vehicle"
+"Workshop_Tag_Theme_Horror"				"Horror"
+"Workshop_Tag_Theme_SciFi"				"Sci-fi"
+"Workshop_Tag_Theme_PopCulture"			"Pop Culture"
+"Workshop_Tag_Theme_Comedy"				"Comedy"
+"Workshop_Tag_Theme_Fantasy"			"Fantasy"
+"Workshop_Tag_Theme_Musical"			"Musical"
+"Workshop_Tag_Theme_Crime"				"Crime"
+"Workshop_Tag_Theme_Abstract"			"Abstract"
+"Workshop_Tag_Theme_Historical"			"Historical"
+"Workshop_Tag_Theme_Seasonal"			"Seasonal"
+"Workshop_Tag_Theme_Training"			"Training"
+"Workshop_Tag_Theme_Educational"		"Educational"
+"Workshop_Tag_Theme_Other"				"Other Theme"
+
+"Workshop_Tag_Enemies"					"Enemy and NPC Types"
+"Workshop_Tag_Enemies_Combine"			"Combine Soldiers"
+"Workshop_Tag_Enemies_Headcrabs"		"Headcrabs"
+"Workshop_Tag_Enemies_Zombies"			"Zombies"
+"Workshop_Tag_Enemies_Antlions"			"Antlions"
+"Workshop_Tag_Enemies_Jeff"				"Jeff"
+"Workshop_Tag_Enemies_Friendlies"		"Friendly Companions"
+"Workshop_Tag_Enemies_Other"			"Other Enemies"
+
+"Workshop_Tag_Length"					"Length"
+"Workshop_Tag_Length_Short"				"Short (less than 20m)"
+"Workshop_Tag_Length_Long"				"Long (an hour)"
+"Workshop_Tag_Length_Campaign"			"Campaign (2 hours or more)"
+"Workshop_Tag_Length_Infinite"			"Infinite / Looped"
+
+"Workshop_Tag_Difficulty"				"Difficulty"
+"Workshop_Tag_Difficulty_NoCombat"		"No Combat"
+"Workshop_Tag_Difficulty_Beginner"		"Beginner"
+"Workshop_Tag_Difficulty_Hardcore"		"Hardcore"
+
 } 
 }

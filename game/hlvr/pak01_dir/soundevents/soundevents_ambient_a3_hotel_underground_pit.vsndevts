@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	AmbientUndergroundPit.AbstractPitAddinLp = 
 	{
@@ -6,11 +7,11 @@
 		soundevent_02 = "AmbientUndergroundPit.AbstractPitAddinLp_R"
 		soundevent_03 = "AmbientUndergroundPit.AbstractPitAddinLp_LS"
 		soundevent_04 = "AmbientUndergroundPit.AbstractPitAddinLp_RS"
-		rand_delay_min = -5.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = -5.0
+		rand_delay_max = 0.0
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 1.000000
-		remap_global_opvar_01_to_vol_max = 0.000000
+		remap_global_opvar_01_to_vol_min = 1.0
+		remap_global_opvar_01_to_vol_max = 0.0
 	}
 	AmbientUndergroundPit.AbstractPitAddinLp_L = 
 	{
@@ -19,30 +20,30 @@
 		vsnd_file_02 = "sounds/ambient/abstract/amb_cave_snow_texture_quad_lp_01_l.vsnd"
 		vsnd_vol_01 = "0.75"
 		vsnd_vol_02 = "0.13"
-		volume = 0.950000
+		volume = 0.95
 		global_opvar_name_01 = "large_room_addin_beacon"
-		global_opvar_filter_velocity_02 = 2.000000
+		global_opvar_filter_velocity_02 = 2.0
 	}
 	AmbientUndergroundPit.AbstractPitAddinLp_R = 
 	{
 		base = "AmbientUndergroundPit.AbstractPitAddinLp_L"
 		vsnd_file_01 = "sounds/ambient/abstract/amb_abstract_underground_pit_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/abstract/amb_cave_snow_texture_quad_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientUndergroundPit.AbstractPitAddinLp_LS = 
 	{
 		base = "AmbientUndergroundPit.AbstractPitAddinLp_L"
 		vsnd_file_01 = "sounds/ambient/abstract/amb_abstract_underground_pit_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/abstract/amb_cave_snow_texture_quad_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientUndergroundPit.AbstractPitAddinLp_RS = 
 	{
 		base = "AmbientUndergroundPit.AbstractPitAddinLp_L"
 		vsnd_file_01 = "sounds/ambient/abstract/amb_abstract_underground_pit_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/abstract/amb_cave_snow_texture_quad_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientUndergroundPit.SubBasementLp01 = 
 	{
@@ -51,11 +52,11 @@
 		soundevent_02 = "AmbientUndergroundPit.SubBasementLp01_R"
 		soundevent_03 = "AmbientUndergroundPit.SubBasementLp01_LS"
 		soundevent_04 = "AmbientUndergroundPit.SubBasementLp01_RS"
-		rand_delay_min = -4.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = -4.0
+		rand_delay_max = 0.0
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 1.000000
-		remap_global_opvar_01_to_vol_max = 0.000000
+		remap_global_opvar_01_to_vol_min = 1.0
+		remap_global_opvar_01_to_vol_max = 0.0
 	}
 	AmbientUndergroundPit.SubBasementLp01_L = 
 	{
@@ -76,9 +77,9 @@
 		vsnd_vol_06 = "0.0"
 		vsnd_vol_07 = "0.00"
 		vsnd_vol_08 = "0.00"
-		volume = 0.900000
+		volume = 0.9
 		global_opvar_name_01 = "hotel_small_room_proximity_beacon"
-		global_opvar_filter_velocity = 2.500000
+		global_opvar_filter_velocity = 2.5
 	}
 	AmbientUndergroundPit.SubBasementLp01_R = 
 	{
@@ -91,7 +92,7 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientUndergroundPit.SubBasementLp01_LS = 
 	{
@@ -104,7 +105,7 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientUndergroundPit.SubBasementLp01_RS = 
 	{
@@ -117,7 +118,7 @@
 		vsnd_file_06 = ""
 		vsnd_file_07 = ""
 		vsnd_file_08 = ""
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientUndergroundPit.BasementLp01 = 
 	{
@@ -126,11 +127,11 @@
 		soundevent_02 = "AmbientUndergroundPit.BasementLp01_R"
 		soundevent_03 = "AmbientUndergroundPit.BasementLp01_LS"
 		soundevent_04 = "AmbientUndergroundPit.BasementLp01_RS"
-		rand_delay_min = -4.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = -4.0
+		rand_delay_max = 0.0
 		global_volume_opvar_01 = "skylight_proximity_beacon"
-		remap_global_opvar_01_to_vol_min = 1.000000
-		remap_global_opvar_01_to_vol_max = 0.000000
+		remap_global_opvar_01_to_vol_min = 1.0
+		remap_global_opvar_01_to_vol_max = 0.0
 	}
 	AmbientUndergroundPit.BasementLp01_L = 
 	{
@@ -147,7 +148,7 @@
 		vsnd_vol_02 = "0.15"
 		vsnd_vol_03 = "0.14"
 		vsnd_vol_04 = "0.42"
-		volume = 0.850000
+		volume = 0.85
 	}
 	AmbientUndergroundPit.BasementLp01_R = 
 	{
@@ -156,7 +157,7 @@
 		vsnd_file_02 = "sounds/ambient/interior/amb_hotel_basement_quad_lp_01_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_hotel_basement_quad_lp_03_r.vsnd"
 		vsnd_file_04 = "sounds/ambient/abstract/amb_pianagraph_subterranean_lp_01_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientUndergroundPit.BasementLp01_LS = 
 	{
@@ -165,7 +166,7 @@
 		vsnd_file_02 = "sounds/ambient/interior/amb_hotel_basement_quad_lp_01_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_hotel_basement_quad_lp_03_ls.vsnd"
 		vsnd_file_04 = "sounds/ambient/abstract/amb_pianagraph_subterranean_lp_01_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientUndergroundPit.BasementLp01_RS = 
 	{
@@ -174,7 +175,7 @@
 		vsnd_file_02 = "sounds/ambient/interior/amb_hotel_basement_quad_lp_01_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_hotel_basement_quad_lp_03_rs.vsnd"
 		vsnd_file_04 = "sounds/ambient/abstract/amb_pianagraph_subterranean_lp_01_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientUndergroundPit.BasementLp02 = 
 	{
@@ -183,8 +184,8 @@
 		soundevent_02 = "AmbientUndergroundPit.BasementLp02_R"
 		soundevent_03 = "AmbientUndergroundPit.BasementLp02_LS"
 		soundevent_04 = "AmbientUndergroundPit.BasementLp02_RS"
-		rand_delay_min = 0.000000
-		rand_delay_max = 0.000000
+		rand_delay_min = 0.0
+		rand_delay_max = 0.0
 	}
 	AmbientUndergroundPit.BasementLp02_L = 
 	{
@@ -195,19 +196,19 @@
 		vsnd_vol_01 = "0.64"
 		vsnd_vol_02 = "0.90"
 		vsnd_vol_03 = "0.15"
-		volume = 0.900000
+		volume = 0.9
 		global_opvar_name_02 = "skylight_proximity_beacon"
-		global_opvar_filter_velocity_02 = 2.500000
-		remap_vol_opvar_02_x1 = 0.000000
-		remap_vol_opvar_02_y1 = 1.000000
-		remap_vol_opvar_02_x2 = 0.200000
-		remap_vol_opvar_02_y2 = 0.900000
-		remap_vol_opvar_02_x3 = 0.500000
-		remap_vol_opvar_02_y3 = 0.650000
-		remap_vol_opvar_02_x4 = 1.000000
-		remap_vol_opvar_02_y4 = 0.000000
-		opvar_02_to_volume_multiplier_min = 0.000000
-		opvar_02_to_volume_multiplier = 1.000000
+		global_opvar_filter_velocity_02 = 2.5
+		remap_vol_opvar_02_x1 = 0.0
+		remap_vol_opvar_02_y1 = 1.0
+		remap_vol_opvar_02_x2 = 0.2
+		remap_vol_opvar_02_y2 = 0.9
+		remap_vol_opvar_02_x3 = 0.5
+		remap_vol_opvar_02_y3 = 0.65
+		remap_vol_opvar_02_x4 = 1.0
+		remap_vol_opvar_02_y4 = 0.0
+		opvar_02_to_volume_multiplier_min = 0.0
+		opvar_02_to_volume_multiplier = 1.0
 	}
 	AmbientUndergroundPit.BasementLp02_R = 
 	{
@@ -215,7 +216,7 @@
 		vsnd_file_01 = "sounds/ambient/abstract/amb_underground_pit_basement_lp_01_r.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/amb_underground_pit_big_lp_01_r.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_hotel_basement_quad_lp_03_r.vsnd"
-		rotation_angle = 315.000000
+		rotation_angle = 315.0
 	}
 	AmbientUndergroundPit.BasementLp02_LS = 
 	{
@@ -223,7 +224,7 @@
 		vsnd_file_01 = "sounds/ambient/abstract/amb_underground_pit_basement_lp_01_ls.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/amb_underground_pit_big_lp_01_ls.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_hotel_basement_quad_lp_03_ls.vsnd"
-		rotation_angle = 135.000000
+		rotation_angle = 135.0
 	}
 	AmbientUndergroundPit.BasementLp02_RS = 
 	{
@@ -231,47 +232,47 @@
 		vsnd_file_01 = "sounds/ambient/abstract/amb_underground_pit_basement_lp_01_rs.vsnd"
 		vsnd_file_02 = "sounds/ambient/city/amb_underground_pit_big_lp_01_rs.vsnd"
 		vsnd_file_03 = "sounds/ambient/interior/amb_hotel_basement_quad_lp_03_rs.vsnd"
-		rotation_angle = 225.000000
+		rotation_angle = 225.0
 	}
 	AmbientUndergroundPit.RandomMetallic = 
 	{
 		type = "hlvr_ambient_rand"
 		random_soundevent_01_name = "AmbientUndergroundPit.RandomMetallicChild"
-		random_soundevent_01_timer_min = 9.000000
-		random_soundevent_01_timer_max = 16.000000
-		position_random = 1.000000
+		random_soundevent_01_timer_min = 9.0
+		random_soundevent_01_timer_max = 16.0
+		position_random = 1.0
 	}
 	AmbientUndergroundPit.RandomMetallicChild = 
 	{
 		type = "hlvr_ambient_rand_child"
 		mixgroup = "Ambient"
-		volume = 1.000000
-		volume_rand_min = -0.050000
-		volume_rand_max = 0.050000
-		pitch_rand_min = -0.150000
-		pitch_rand_max = 0.050000
-		animation_time = 12.000000
-		position_source = 2.000000
+		volume = 1.0
+		volume_rand_min = -0.05
+		volume_rand_max = 0.05
+		pitch_rand_min = -0.15
+		pitch_rand_max = 0.05
+		animation_time = 12.0
+		position_source = 2.0
 		constrain_direction = "none"
 		make_ortho_vertical = false
-		ortho_distance_min = 150.000000
-		ortho_distance_max = 350.000000
-		animated_target = 0.000000
-		unconstrained_target = 1.000000
+		ortho_distance_min = 150.0
+		ortho_distance_max = 350.0
+		animated_target = 0.0
+		unconstrained_target = 1.0
 		animation_type = "slerp"
-		rand_radius_min = 150.000000
-		rand_radius_max = 175.000000
-		use_doppler = 1.000000
-		doppler_factor = 0.750000
-		pct_to_distance_x1 = 0.000000
-		pct_to_distance_y1 = 1.000000
-		pct_to_distance_x2 = 0.450000
-		pct_to_distance_y2 = 0.950000
-		pct_to_distance_x3 = 0.550000
-		pct_to_distance_y3 = 0.950000
-		pct_to_distance_x4 = 1.000000
-		pct_to_distance_y4 = 1.000000
-		enable_debug_radius = 0.000000
+		rand_radius_min = 150.0
+		rand_radius_max = 175.0
+		use_doppler = 1.0
+		doppler_factor = 0.75
+		pct_to_distance_x1 = 0.0
+		pct_to_distance_y1 = 1.0
+		pct_to_distance_x2 = 0.45
+		pct_to_distance_y2 = 0.95
+		pct_to_distance_x3 = 0.55
+		pct_to_distance_y3 = 0.95
+		pct_to_distance_x4 = 1.0
+		pct_to_distance_y4 = 1.0
+		enable_debug_radius = 0.0
 		soundname_string = "AmbientUndergroundPit.RandomMetallicChild"
 		vsnd_files = 
 		[

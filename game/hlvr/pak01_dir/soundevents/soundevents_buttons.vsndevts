@@ -1,9 +1,10 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Button_Base = 
 	{
 		type = "hlvr_default_3d"
-		use_hrtf = 1.000000
-		volume = 0.850000
+		use_hrtf = 1.0
+		volume = 0.85
 		mixgroup = "Buttons"
 	}
 	Button_Basic.Press = 
@@ -61,7 +62,7 @@
 	Button_VidLink.Answer = 
 	{
 		base = "Button_Base"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = 
 		[
 			"sounds/buttons/vidlink_button_answer.vsnd",
@@ -70,7 +71,7 @@
 	ButtonCombine.Success = 
 	{
 		base = "Button_Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/buttons/combine_button_success.vsnd",
@@ -79,7 +80,7 @@
 	ButtonCombine.Fail = 
 	{
 		base = "Button_Base"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = 
 		[
 			"sounds/buttons/combine_button_fail.vsnd",
@@ -88,7 +89,7 @@
 	Keycard.Success = 
 	{
 		base = "Button_Base"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/buttons/keycard_success.vsnd",
@@ -97,7 +98,7 @@
 	Keycard.Fail = 
 	{
 		base = "Button_Base"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = 
 		[
 			"sounds/buttons/keycard_fail.vsnd",
