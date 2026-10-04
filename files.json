@@ -1,0 +1,18 @@
+{
+	"546561": // hlvr content
+	[
+		"vpk:txt,lua,kv3,db,gameevents,res,cfg,vcss_c,vjs_c,vts_c,vxml_c,vsndevts_c,vsndstck_c,vpulse_c,vdata_c",
+		"regex:.+?\\.dll",
+		"regex:.+?\\.(vdf|kv3|txt|cfg|lst|db|jpg|png|gif|inf|gi|fgd|lua|json|vcfg|js|ts|html)",
+		"regex:.+?_dir\\.vpk",
+	],
+	"546563": // hlvr windows
+	[
+		"regex:.+?\\.dll",
+	],
+	"1295040": // hlvr workshop
+	[
+		"regex:.+?\\.(vdf|kv3|txt|cfg|lst|db|jpg|png|gif|inf|gi|fgd|lua|json|js|ts|html|dll)",
+		"regex:.+?asset_info\\.bin",
+	],
+}
