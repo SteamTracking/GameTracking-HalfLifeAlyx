@@ -2,32 +2,31 @@
      %-15s 
     Last message repeated %d times\n
     Last message repeated %d times\r
- !"#$%&'()*+,-./0123
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+  %s%-17s 
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  (default 
  (from 
- C>TQ
- iciNWq
  is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.\n
 !"valid element size"
 !c->plane && !c->step && !c->offset && !c->shift && !c->depth
-"e?<<<<<<l?
-#+3;$,4<*'- 735
-$Ib?s
 %-11s %7d %10d
+%-12s 
 %-6s   %2d 
 %02X
 %02lu:%02lu:%02lu%c%02lu
 %02u:%02u:%02u%c%02u
 %02x
+%H%M%S
+%M:%S
 %Y - %m - %d
+%Y%m%d
 %Y-%m-%dT%H:%M:%S
 %d channels
 %d%*1[:/]%d%c
 %d.%06d
+%d/%d
 %d:%02d.%06d
+%d:%d%c
 %d:%d:%d%c%d
 %dx%d
 %llX
@@ -36,25 +35,15 @@ $Ib?s
 %llu
 %s AVOptions:\n
 %s%02d:%02d:%02d%c%02d
-&?PPPPPPP?
-( 8PX
+%s%s
+%s%s%s%s
 ('8PW
-(UhP
 (d->nb_components==4 || d->nb_components==2) == !!(d->flags & (1 << 7))
 (null)
-(yaX
-)eyC
-)yIx
-*StO9>T
-+LVvuOx39]O#2
 +inf
 +infinity
 +nan
-,HR>O
 --prefix=/d/dev/steam/thirdpartycode/ffmpeg/dev/build_win64 --toolchain=msvc --enable-shared --disable-static --enable-runtime-cpudetect --disable-all --enable-avcodec --enable-avutil --enable-avresample --enable-avformat --enable-swscale --arch=x86_64 --enable-parser=h264 --enable-decoder='aac,h264,vp8,vp9,gif,vorbis,mp3,flac,alac,pcm*' --enable-demuxer='aac,matroska,gif,ogg,mov,mp3,flac,wav' --enable-hwaccels --enable-dxva2 --disable-decoder=mpeg1video --disable-decoder=mpeg2video --disable-decoder=vc1 --disable-decoder=h263 --enable-libvpx
--64OS
--7HD
--BH>t
 -DBL_MAX
 -DBL_MIN
 -FLT_MAX
@@ -63,50 +52,27 @@ $Ib?s
 -infinity
 -nan
 .%06dZ
-.97yY
-.>\rfJBGo
-.x7B
-.xJ>Hf
-/2GG>!B
 0000
-000000
-00006
 0000x
 000`
-00x\f|
 0123456789ABCDEFabcdef
-08bX
-0E>X
-0X8b?~
 0bgr
-0iN>/
 0p0000
 0rgb
 0x%02x%02x%02x%02x
 0x%08X
 0x%llx
 0xx00
-0|004
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-11UT
-11Y@
 16cif
-1d[O~
-27;C
-2\n0h
-2\vpDk
-2\vph
 2kdci
 2kflat
 2kscope
 3.0(back)
 3.3.4
-37>k
-3>N;kU
-3>fvw
 3dnow
 3dnowext
 3x3 displaymatrix
@@ -117,8 +83,6 @@ $Ib?s
 4kscope
 5.0(side)
 5.1(side)
-51>W
-6"8d
 6.0(front)
 6.1(back)
 6.1(front)
@@ -127,7 +91,6 @@ $Ib?s
 6666666
 66666666
 66666666666
-6666666666666
 666666666666666666666666
 666666666666666?
 666666666666670766666666
@@ -135,34 +98,14 @@ $Ib?s
 6666666?
 66666707666
 666676666670?
-6BJ^
-6NK>
-6\fXO>
-6\fXO>\ntA
-7,gm;
 7.0(front)
 7.1(wide)
 7.1(wide-side)
 700PP
 700WP
-7>I0
-7?GX
-7yp>
-7~xh
 8*c->step >= c->depth
-8Csinf
-8On\f
-8ke?;
-8l8v
 8ld`
 8ll8
-8ll8v
-9)PF
-9>70
-9>powf
-9g>@3
-;"lY7
-;1cb
 <00000000<
 <binary>
 <boolean>
@@ -172,7 +115,6 @@ $Ib?s
 <duration>
 <fBBf<
 <fff<
-<ffff<
 <flags>
 <float>
 <image_size>
@@ -184,42 +126,13 @@ $Ib?s
 <string>
 <uint64>
 <video_rate>
-=1cb
-=cQ6
-=e2m
-=imb;D
 >c8ll8
->cQ6
->jtm}S
 ?0766666
 ?076666666666666
-?1cb
 ?3?0000p
-?3?00p
-?456789:;<=
-?6666666
-?666666666666666
-?7zQ6$
-?8UUUUU
-?8bunz8
-?@En[vP
-?JV8f
-?N]TUUU
-?P?XC
-?R0I?
 ?UUUUUU
-?expf
-?f`Y4
-?qBJ
-?rAj
-?ysB
-@^8U)zj
-@n2w
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
-AJsN
-AK>(v
 ATSC A53 Part 4 Closed Captions
 AVHWDeviceContext
 AVHWFramesContext
@@ -228,9 +141,6 @@ AVOption type %d of option %s not implemented yet\n
 AVPanScan
 AVReplayGain
 AV_LOG_FORCE_NOCOLOR
-A`1w>
-Ab61
-AcG\nt
 Active format description
 AliceBlue
 AntiqueWhite
@@ -243,11 +153,6 @@ Audio service type
 August
 AuthenticAMD
 Azure
-B*k@5
-BC?>6t9^\tc:>
-BF>^G
-BFUa.X
-BN"r
 BSF_NOT_FOUND
 BUFFER_TOO_SMALL
 BUG2
@@ -255,7 +160,6 @@ BUG: Pixel format missing from size calculation.
 Bad address
 Bad file descriptor
 Beige
-Bh;+j
 Bisque
 Bitstream filter not found
 Black
@@ -266,12 +170,8 @@ Broken pipe
 Brown
 Buffer too small
 BurlyWood
-C5R?\t
-C?9z
-CL:>8
 CRC32
 CUDA
-CWD>~3
 CadetBlue
 Cannot allocate memory
 Cannot find color '%s'\n
@@ -298,9 +198,7 @@ CreateThreadpoolTimer
 CreateThreadpoolWait
 Crimson
 Cross-device link
-Cy2@K>
 Cyan
-D7q/;M
 D:\dev\steam\thirdpartycode\ffmpeg\dev\compat/cuda/dynlink_loader.h
 D:\dev\steam\thirdpartycode\ffmpeg\dev\compat/w32pthreads.h
 D:\dev\steam\thirdpartycode\ffmpeg\dev\libavutil\libavutil-55.pdb
@@ -308,7 +206,6 @@ DBL_MAX
 DBL_MIN
 DECODER_NOT_FOUND
 DEMUXER_NOT_FOUND
-DGt2
 DXVA2
 DXVA2CreateDirect3DDeviceManager9
 DarkBlue
@@ -341,7 +238,6 @@ Directory not empty
 DodgerBlue
 Drop frame is only allowed with 30000/1001 or 60000/1001 FPS\n
 E2BIG
-E>nEA
 EACCES
 EAGAIN
 EBADF
@@ -378,12 +274,10 @@ ERANGE
 EROFS
 ESPIPE
 ESRCH
-ET5>
 EXDEV
 EXIT
 EXPERIMENTAL
 EXTERNAL
-E[\rn?gc
 Encoder not found
 End of file
 EnumSystemLocalesEx
@@ -397,17 +291,14 @@ Error occurred in fstat(): %s\n
 Error setting current CUDA context\n
 Error setting option %s to value %s.\n
 Error transferring the data from the CUDA frame\n
-Eub'z
 Eval
 Exec format error
 Experimental feature
-F>qUxv
 FFmpeg version 3.3.4
 FILE
 FILTER_NOT_FOUND
 FLT_MAX
 FLT_MIN
-FS(l
 Failed to bind Direct3D device to device manager\n
 Failed to create Direct3D device manager\n
 Failed to create Direct3D device\n
@@ -420,7 +311,6 @@ Failed to locate Direct3DCreate9\n
 Failed to map frame into derived frame context: %d.\n
 Failed to open device handle\n
 February
-FfW?
 File exists
 File name too long
 File size for file '%s' is too big\n
@@ -439,7 +329,6 @@ FreeLibraryWhenCallbackReturns
 Friday
 Fuchsia
 Function not implemented
-G>US
 GOP timecode
 Gainsboro
 Generic error in an external library
@@ -457,32 +346,24 @@ GetTickCount64
 GetTimeFormatEx
 GetUserDefaultLocaleName
 GetUserObjectInformationW
-GfZ+?p
 GhostWhite
 Gold
 GoldenRod
-GrJoq>@
 Gray
 Green
 GreenYellow
-H>r1
 HH:mm:ss
-HJI\f
-HMXB
 HTTP_BAD_REQUEST
 HTTP_FORBIDDEN
 HTTP_NOT_FOUND
 HTTP_OTHER_4XX
 HTTP_SERVER_ERROR
 HTTP_UNAUTHORIZED
-HWyn
 HoneyDew
 HotPink
-H{1S
 I/O error
 I64_MAX
 I64_MIN
-I;u>A
 IMGUTILS
 INPUT_AND_OUTPUT_CHANGED
 INPUT_CHANGED
@@ -491,9 +372,7 @@ INT64_MIN
 INT_MAX
 INT_MIN
 INVALIDDATA
-IS\fgN
 If you want to help, upload a sample of this file to ftp://upload.ffmpeg.org/incoming/ and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)\n
-Il?333333c?
 Illegal byte sequence
 Illegal seek
 Immediate exit requested
@@ -526,12 +405,8 @@ July
 June
 Key '%s' not found.\n
 Khaki
-L>ev
-L?UUUUUUU?
 LCMapStringEx
 LFE2
-LWG>
-LWW>
 Lavender
 LavenderBlush
 LawnGreen
@@ -555,9 +430,6 @@ LimeGreen
 Linen
 Loaded lib: %s\n
 Loaded sym: %s\n
-LwH'
-M'y>0y
-MCi).
 MM/dd/yy
 MMX implied by specified flags\n
 MUXER_NOT_FOUND
@@ -565,7 +437,6 @@ Magenta
 March
 Maroon
 Mastering display metadata
-MbP?
 MediumAquaMarine
 MediumBlue
 MediumOrchid
@@ -587,12 +458,7 @@ Moccasin
 Monday
 Motion vectors
 Muxer not found
-N3`d?
-N>O=I9
-N>VF
-NKeb
 NO_COLOR
-NQ?s
 NV12
 NavajoWhite
 Navy
@@ -611,8 +477,6 @@ November
 Numerical argument out of domain
 OPTION_NOT_FOUND
 OUTPUT_CHANGED
-OZQ%
-O\fxW2
 October
 OldLace
 Olive
@@ -626,9 +490,7 @@ Orchid
 Output changed
 P010O
 PATCHWELCOME
-PIMAC
 PROTOCOL_NOT_FOUND
-PaH?
 PaleGoldenRod
 PaleGreen
 PaleTurquoise
@@ -645,30 +507,17 @@ Plum
 PowderBlue
 Protocol not found
 Purple
-Q5rHg,>
-QAf?
 QP2LAMBDA
-QVlM
-Qjh/T
 RIPEMD128
 RIPEMD160
 RIPEMD256
 RIPEMD320
-RSDS
-R\vph
 Read-only file system
 Resource deadlock avoided
 Resource temporarily unavailable
 Result too large
 RosyBrown
 RoyalBlue
-S2zw
-S4n)
-S9>H
-S9v.i
-S;uD
-S>$hkDh$h>[2
-SH6tc
 SHA160
 SHA224
 SHA256
@@ -676,9 +525,7 @@ SHA384
 SHA512
 SHA512/224
 SHA512/256
-SRqDIK
 STREAM_NOT_FOUND
-SU2`\t
 SaddleBrown
 Salmon
 SandyBrown
@@ -701,7 +548,6 @@ Setting '%s' to value '%s'\n
 Setting entry with key '%s' to value '%s'\n
 Sienna
 Silver
-Sj~=eI
 Skip samples
 SkyBlue
 SlateBlue
@@ -715,9 +561,7 @@ Stream not found
 SunMonTueWedThuFriSat
 Sunday
 SystemFunction036
-T0.S
 TEMPFILE
-TUUU
 TUUUU
 Teal
 The hardware pixel format '%s' is not supported by the device type '%s'\n
@@ -735,15 +579,10 @@ Tomato
 Too many links
 Too many open files
 Too many open files in system
-Ts\ne
 Tuesday
 Turquoise
-U$qk.
-UA>N0Wl
 UINT32_MAX
 UNKNOWN
-UUUU
-UUUUU
 UUUUUU
 Unable to lock DXVA2 surface\n
 Unable to parse '%s': %s\n
@@ -763,67 +602,29 @@ Unknown surface type: %lu\n
 Unsupported pixel format: %s\n
 Using D3D9Ex device.\n
 Using non-standard frame rate %d/%d\n
-VM\rf
 Value %d for parameter '%s' out of %s format range [%d - %d]\n
 Value %f for parameter '%s' is not a valid set of 32bit integer flags\n
 Value %f for parameter '%s' out of range [%g - %g]\n
 Violet
-W1O\tg_?
-WFgO
-WaNd?
 WaitForThreadpoolTimerCallbacks
-Wak>E
 WakeAllConditionVariable
 WakeConditionVariable
-Wcr"
 Wednesday
 Wheat
 White
 WhiteSmoke
-Y8a:
-Y>kX>M
 YCgCo
 Yellow
 YellowGreen
-YnFpW
-ZSq>
-Z\>z8
-Zbby
-Ze2Zh@
-[*ncd>0
-[*ncd>TQ
 [truncated strftime output]
 \f>ffff<
-\n6I*h<8
-\nIh8
-\nh?oT
-\nk>oB
-\r8STs\ne
-\t-f3F2
-\tJR>8o
-\tkE>fvw
-\vA03>A|
-\vh1\rHZ
-\vpDk
-^RfN>
-^axb
 _cabs
-_g@Cg
 _hypot
 _logb
-_maz
 _nextafter
-_oD>Kg
-_xU`u
 ``flxxlf
 ``lvffff
 ``xlffff|
-`flxl
-`h`hhh
-`lvff
-a.z9
-a3bt
-a6>r
 abcdefghijklmnopqrstuvwxyz
 abgr
 abs(dst_linesize) >= bytewidth
@@ -1364,7 +1165,6 @@ bayer_grbg8
 bayer_rggb16be
 bayer_rggb16le
 bayer_rggb8
-bcKU\r!
 between
 bgr0
 bgr24
@@ -1383,8 +1183,6 @@ bgr8
 bgra
 bgra64be
 bgra64le
-bhxh`
-bhxhb
 bikeshed
 bitand
 bitor
@@ -1402,9 +1200,6 @@ bt470bg
 bt470m
 bt709
 c->step >= c->depth
-c>F2
-c?FA@s}
-ccccg
 ceil
 center
 checkerboard
@@ -1439,10 +1234,6 @@ d3d11va_vld
 d3d9.dll
 d:\dev\steam\thirdpartycode\ffmpeg\dev\libavutil\mem.h
 d:\dev\steam\thirdpartycode\ffmpeg\dev\libavutil\mem_internal.h
-d?000000`?
-dRL>
-dU\t2
-d^AE
 data
 dblp
 dddd, MMMM dd, yyyy
@@ -1454,17 +1245,12 @@ downmix
 downmix left
 downmix right
 duration >= 0
-dv&4
 dxva2.dll
 dxva2_vld
 e+000
-eF>t
 equirectangular
 error
-fC\tc
-fD>b
-fGa>
-fWi?
+expf
 fabs
 false
 false,n,no,disable,disabled,off
@@ -1484,13 +1270,10 @@ fff|ffff
 fff|lfff
 fflxxlff
 ff|bfofff
-ff|ff
-ff|lf
 film
 flags
 floor
 fltp
-flxlf
 fma3
 fma4
 fmod
@@ -1502,8 +1285,6 @@ front left-of-center
 front right
 front right-of-center
 fwqvga
-gC_7
-gTzu
 gauss
 gbrap
 gbrap10be
@@ -1532,8 +1313,6 @@ gray16be
 gray16le
 gray8,y8
 gray8a
-h,DUu
-h>1my
 hd1080
 hd480
 hd720
@@ -1543,11 +1322,9 @@ hqvga
 hsxga
 hvga
 hypot
-i>VF
 iec61966-2-1
 iec61966-2-4
 ifnot
-ilRdV
 in_ts != ((int64_t)(0x8000000000000000ULL))
 infinity
 info
@@ -1556,23 +1333,14 @@ interleaved lines
 invalid
 isinf
 isnan
-j Bz
 january
-jeTb
 jedec-p22
 july
 june
-k>4\tF
-kMxn
-kU'9
 kernel32.dll
-l88l
-lCu7&
-lbfL
 ldexp
 left
 lffffffl
-lfffl
 libavutil license: LGPL version 2.1 or later
 libavutil-55.dll
 libavutil/aes.c
@@ -1620,7 +1388,6 @@ libavutil/twofish.c
 libavutil/utils.c
 libavutil/xtea.c
 linear
-llll
 lllll
 lllllll
 log10
@@ -1630,28 +1397,18 @@ log316
 logf
 low frequency
 low frequency 2
-m?H7
-mG4>
-mK1f
-mO-B
 march
 mediacodec
 mmal
 mmx2
 mmxext
-mn`I:T`H
 modf
 mono
 monob
 monow
 murmur3
-n03>Pu
-n6j/
-n:2C[
-n]?iJ
 name   depth
 name nb_components nb_bits
-no:7
 none
 november
 ntsc
@@ -1662,8 +1419,6 @@ nv20be
 nv20le
 nv21
 nvcuda.dll
-o?GS
-oI>O7
 octagonal
 october
 p00000x
@@ -1672,8 +1427,6 @@ p010be
 p010le
 p016be
 p016le
-p>.G1
-p>Y3
 pal8
 panic
 pentium2
@@ -1682,12 +1435,8 @@ pentium4
 pixel
 pixel format
 pixelutils support is required but libavutil is not compiled with it\n
-pqT3^-ZI
+powf
 print
-pzKD)
-q>F,3
-qS>g?h3
-qUN1
 qcif
 qntsc
 qpal
@@ -1698,9 +1447,6 @@ quad(side)
 quiet
 qvga
 qxga
-r3A~
-rNm>)
-r\tVr.>T
 random
 reserved
 rgb0
@@ -1720,13 +1466,10 @@ rgb8
 rgba
 rgba64be
 rgba64le
-rm{nm\t
 root
-s%iH
 s16p
 s32p
 s64p
-sHF'
 sample
 sample format
 september
@@ -1734,6 +1477,7 @@ side by side
 side by side (quincunx subsampling)
 side left
 side right
+sinf
 sinh
 size >= 25
 sizeof(tmp) >= av_sha_size
@@ -1762,8 +1506,6 @@ surround direct left
 surround direct right
 svga
 sxga
-t6Q8
-tT0~
 tail_len <= 5
 tanf
 tanh
@@ -1783,7 +1525,6 @@ topleft
 true
 true,y,yes,enable,enabled,on
 trunc
-uU~b
 uhd2160
 uhd4320
 unknown
@@ -1791,10 +1532,6 @@ unspecified
 uxga
 uyvy422
 uyyvyy411
-uzKs@>
-vOB9`
-vRQ>
-v^FES
 vaapi
 vaapi_idct
 vaapi_moco
@@ -1811,14 +1548,12 @@ vdpau_wmv3
 verbose
 video
 videotoolbox_vld
-w?6r
 warning
 while
 whsxga
 whuxga
 wide left
 wide right
-wj-K
 woxga
 wqsxga
 wquxga
@@ -1829,24 +1564,17 @@ wvga
 wxga
 x00000x
 x00x
-x<fff<
-xT?V
 xllll
-xppwpp
-xpxxxx
 xvmcidct
 xvmcmc
 xyz12be
 xyz12le
-xzdD]
 y10be
 y10le
 y12be
 y12le
 y16be
 y16le
-y7bT
-yU\n2`
 ya16be
 ya16le
 ycgco
@@ -1919,10 +1647,3 @@ yuvj440p
 yuvj444p
 yuyv422
 yvyu422
-z>h4
-z?aUY
-zc%C1
-{OJW
-|sG2
-}oaO
-~8lI

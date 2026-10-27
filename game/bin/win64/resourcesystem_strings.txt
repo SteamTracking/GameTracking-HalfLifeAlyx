@@ -8,9 +8,11 @@
 %d Strong handle references (Still holding onto a CStrongHandle somewhere)\n
 %i %i %i %i
 %lld
+%lld, 
 %llu
 %s$Fence%d
 %s%s%s%s\nFinal operation count %llu
+%s.%s
 %s: string format requested %d chars\n
 %sResource System profile stats unavailable. Compile with RESOURCE_SYSTEM_GATHER_STATS as 1 to gather stats.\n
 (None)
@@ -177,7 +179,6 @@
 ?StartsWith@CBufferString@@QEAA_NPEBD@Z
 ?StripExtension@CBufferString@@QEAAPEBDXZ
 ?ToLowerFast@CBufferString@@QEAAXH@Z
-?Truncated data
 ?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
@@ -260,7 +261,6 @@ AssetSystemTest001
 Attempted to register duplicate manifest name %s!\n
 AutoLayer
 Available resource leak tracking configuration aliases:\n
-B\np\t0
 Bad header (unrecognized encoding specifier)
 Bad header format (expected ':'
 Bad header format (expected '<!--'
@@ -297,6 +297,7 @@ BreakPieceExternal
 CAnimMotorList
 CAnimMovementManager
 CAsyncResourceDataRequest
+CAuthPhysBody
 CAuthPhysJoint
 CEntityIndex
 CGlobalConfigValueRegistry::HookUpConfigValue
@@ -348,6 +349,7 @@ CUtlBlockMemory<struct UtlLinkedListElem_t<class CLoadingResource *,unsigned sho
 CUtlBlockMemory<struct UtlLinkedListElem_t<class CStreamingResourceData *,unsigned short>,unsigned short>::ChangeSize
 CUtlBlockMemory<struct UtlLinkedListElem_t<struct ExtRefList_t *,unsigned int>,unsigned int>::ChangeSize
 CUtlBuffer::VaPrintf
+CUtlBuffer::VaPrintf: String overflowed buffer [%llu]\n
 CUtlLinkedList overflow! (exhausted index range)\n
 CUtlLinkedList overflow! (exhausted memory allocator)\n
 CUtlLinkedList<class CLoadingResource *,unsigned short,1,unsigned short,class CUtlBlockMemory<struct UtlLinkedListElem_t<class CLoadingResource *,unsigned short>,unsigned short> >::AllocInternal
@@ -531,7 +533,6 @@ FourQuaternions
 FourVectors
 GAME
 GCTL
-GCUtlBuffer::VaPrintf: String overflowed buffer [%llu]\n
 GSFailure
 GameResourceServiceClientV001
 GameResourceServiceServerV001
@@ -631,7 +632,6 @@ LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
 LoggingSystem_RegisterLoggingChannel
 LoggingSystem_SetChannelVerbosity
-LrwcE
 MATCHFRAMEWORK_001
 MATERIAL_LIGHT_DIRECTIONAL
 MATERIAL_LIGHT_DISABLE
@@ -710,7 +710,6 @@ Plat_TickDiffMilliSecF
 Plat_USTime
 Plat_UUIDFromString
 Plat_UUIDToString
-Po5H
 PostProcessingSystem_001
 PreviewAttachmentModel
 PreviewBoneAttachedModel
@@ -729,7 +728,6 @@ RKS_DEFAULT
 RKS_DISABLE_GROUP_CLEARING
 RKS_KEEP_ALL_RECORDS
 RKS_REQUIRE_EXACT_PAIRINGS
-RSDS}
 RSProfilerTool
 RadianEuler
 Re-entrant calls to CResourceSystem::PreShutdown()\n
@@ -764,7 +762,6 @@ ResourceSystem/SpewBlockingLoads
 ResourceSystem013
 ResourceSystemWaitingForFutureWork
 RtlUnwindEx
-S+Ot
 SSE and SSE2 are required.
 SceneSystem_002
 SceneUtils_001
@@ -821,6 +818,7 @@ Tried to install a NULL resource manager for resource type "%lld"!\n
 Tried to install a placeholder resource manager for an existing resource type "%lld"!\n
 Tried to install two resource managers for the same resource type "%lld"!\n
 Tried to release UGC that hasn't been referenced: %lld\n
+Truncated data
 Two Bone
 Two KV3 format GUIDs with the same human-friendly name ('%s')
 UPDATE_STRING_TOKEN_DATABASE
@@ -912,7 +910,6 @@ WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
 [refcount % 4d] 
-\nCwf\r
 \tIndividual reference records '%s'\n
 \tRKS_DEFAULT = 
 \tRKS_DISABLE_GROUP_CLEARING = 
@@ -976,7 +973,6 @@ break_uniform_burst
 breakable_count
 breakable_model
 breakable_skin
-bt3V
 burst_randomize
 burst_scale
 c:\buildslave\hlvr_rel_win64\build\src\interfaces\interfaces.cpp
@@ -1080,7 +1076,6 @@ item
 keep_all_records
 keepall
 last_sniff
-lcQe
 length
 lightcookie
 lightsourceshape
@@ -1091,7 +1086,6 @@ loop_break_on_damage
 loop_break_on_flashlight
 loop_in_action
 looping
-mXr4
 m_Attenuation0
 m_Attenuation1
 m_Attenuation2
@@ -1295,7 +1289,6 @@ modeldoc8
 modeldoc9
 multiplayer_break
 nTries < 10000000
-n\f"pA3Q
 name
 nav_attribute_avoid
 nav_data
@@ -1452,7 +1445,5 @@ vwrld
 width
 yaw_end
 yaw_start
-z:KCAuthPhysBody
-{YIN?
 {}[]()=&, \t\n'"*;
 {}[]=, \t\n'":|;

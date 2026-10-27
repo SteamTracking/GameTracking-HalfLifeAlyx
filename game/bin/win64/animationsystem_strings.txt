@@ -19,6 +19,7 @@
  \t\n\r@()[]{}=&,:*|;'!
 "%s" has mismatched retarget rule counts, disabling.\n
 "%s" has mismatched retarget types, disabling.\n
+"%s" unable to find retargeted bone "%s", disabling.\n
 #Angle
 #Position
 #base
@@ -29,6 +30,7 @@
 %-40.40s %10.10s %10.10s
 %-40.40s %10.2f %10.2f
 %.15lf
+%.2f
 %.2f degrees, %.2f ratio
 %02X
 %d %d %d %d
@@ -57,23 +59,34 @@
 %d.Transform( %s, Vector( %.2f, %.2f, %.2f ), DegreeEuler( %.2f %.2f %.2f ) )\n
 %d.Worldspace( %s, %d, %.2f )
 %d.Worldspace( %s, %d, %.2f )\n
+%g %g
+%g %g %g
 %g %g %g %g
 %i %i %i %i
 %lld
 %llu
+%s %.2f
+%s %.3f
+%s %f %f
+%s %s
+%s %s %s
+%s (%.2f)
 %s (%.2f, %.2f, %.2f)
+%s (%g)
 %s : param %s %s : %f\n
 %s = "%s" failed on sequence "%s", unknown pose parameter "%s" on model: %s\n
 %s = "%s" ignored on sequence "%s", %s = "%s" already specified on model: %s\n
 %s = %d failed on sequence "%s", unknown pose parameter "%d" on model: %s\n
 %s = %d failed on sequence "%s", unknown pose parameter %d on model: %s\n
 %s Target
+%s [%s]
 %s allocation count overflow
 %s allocation count overflow( %llu > %llu )\n
 %s allocation count overflow( %llu >= %llu )\n
 %s failed: expected an array of floats for pose parameters\n
 %s failure, expected int or string as argument\n
 %s trace
+%s#%d
 %s(%s): %s\n
 %s: "%s" failed ignoring activity %d, expected float for parameter "%s" on model: %s\n
 %s: "%s" failed ignoring ikLock %d, expected float for parameter "%s" on model: %s\n
@@ -110,6 +123,7 @@
 %s: %s, invalid sequence specified already specified\n
 %s: %s="%s" failed, unknown %s="%s"\n
 %s: %s="%s", %s="%s" failed\n
+%s: %s\n
 %s: Bad %s, couldn't compute nodeId for "%s" on model: %s\n
 %s: Invalid pose parameter index specified %d, valid range is [0, %d] on model: %s\n
 %s: Invalid sequence handle %d on model: %s\n
@@ -173,7 +187,6 @@
 ***\nShared activity collision! %s<->%s\n***\n
 ***\nShared<->Private Activity collision!\n***\n
 ***\nShared<->Private Event collision!\n***\n
-*Cm_EndEffectorFixedOffsetAttachment
 +Retargetting
 +Stopping:Arrival Damping
 +inf
@@ -1077,7 +1090,6 @@
 .data
 .data$r
 .data$rs
-.eBik_debug_perlin_solver
 .edata
 .idata$2
 .idata$3
@@ -1110,11 +1122,8 @@
 180_recovery
 1DBlend
 20.0
-2\rE2h
 2dtri
 50.0
-6>0W!
-75P=
 ::embedded_animation
 <!-- kv3 encoding:%s:version{%s} format:%s:version{%s} -->\n
 <!-- schema 
@@ -1133,7 +1142,6 @@
 <null>
 <unconnected>
 <unknown>
-?"%s" unable to find retargeted bone "%s", disabling.\n
 ??0CThreadFastMutex@@QEAA@PEBD@Z
 ??0CThreadFastMutex@@QEAA@XZ
 ??0CThreadMutex@@QEAA@PEBD@Z
@@ -1166,9 +1174,6 @@
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?V_SplitString@@YAXPEBD0AEAV?$CUtlVector@PEADV?$CUtlMemory@PEADH@@@@@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
-?XZa
-?labelled_debug_helper_show_text
-?vmdlkeys0
 A master convar that effectively disables the entire footlock node.
 ACT_INVALID
 ACT_NEUTRAL_REF_POSE
@@ -1445,14 +1450,10 @@ Audio Tag
 Auto Reset
 Auto-Calculate target speed
 AutoLayer
-B0.9
 BLEND_PREALIGNED|
 BREAK: distance to target.
 BREAK: hyperextension. (%.2f degrees vs max of %.2f)
 BREAK: rotated over maximum of %.2f.
-B\vP\n0
-B\vp\n0
-B\vp\nP
 Bad %s on sequence %s couldn't compute nodeId for "%s" on model: %s\n\tSyntax: %s\n
 Bad %s on sequence %s expected a string as the parameter on model: %s\n\tSyntax: %s\n
 Bad %s on sequence %s failed on model: %s\n\t%s\n\t%s\n\tSyntax: %s\n
@@ -1657,6 +1658,7 @@ CAnimationGroup
 CAnimationLayer
 CAttribute
 CAudioAnimTag
+CAuthPhysBody
 CAuthPhysJoint
 CBaseAnimMotor
 CBaseAnimMotorInstance
@@ -2438,7 +2440,6 @@ FOOTLOCKSUBVISUALIZATION_ReachabilityAnalysis
 FOOTSOUND_Left
 FOOTSOUND_Right
 FOOTSOUND_UseOverrideSound
-F_K@a
 Face Direction
 Facing
 Facing Condition
@@ -2552,7 +2553,6 @@ GAME
 GAMECONSOLE
 GCTL
 GSFailure
-GUPDATE_STRING_TOKEN_DATABASE
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameUIService_001
@@ -2800,9 +2800,7 @@ Jiggle Bone node (%s): No items defined; node will do nothing
 Jiggle Bones
 JiggleBone:m_resetCount
 JiggleBoneSimSpace
-K1?U20
 KERNEL32.dll
-KL2H
 KV Conditional Evaluation Error
 KV3 save transfer failed: %s
 KeyValueCache001
@@ -2874,7 +2872,6 @@ LookupPoseSetting
 LookupSequence
 LookupWeightlist
 Loop
-LrwcE
 MATCHFRAMEWORK_001
 MClassHasCustomAlignedNewDelete
 MNetworkSerializeAs
@@ -2923,7 +2920,6 @@ MaxMoveSpeed
 Maximum Speed Scale
 Maximum Tension
 Maximum Tracked Distance
-MbP?fff?w
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 MeshSystem001
@@ -3071,7 +3067,6 @@ Override Sound
 Override Target Settings
 Override Tilt Root
 Override Tilt Spring Strength
-P4l!
 PARTICLE_DEPTH_FEATHERING_OFF
 PARTICLE_DEPTH_FEATHERING_ON_OPTIONAL
 PARTICLE_SET_REPLACE_VALUE
@@ -3161,7 +3156,6 @@ PlayerInputMotorInstanceData_t
 PlayerMotor:m_bStopping
 PlayerMotor:m_vAcceleration
 PlayerMotor:m_vVelocity
-Po5H
 Pole vector (raw dir: {%.2f, %.2f, %.2f})
 Pose Control
 Position
@@ -3187,12 +3181,10 @@ QAngle
 Quaternion
 QueryPerformanceCounter
 QueuedLoaderVersion001
-R5P=
 RESOURCE_TYPE_ANIMATION_GROUP_INTERNAL
 RESOURCE_TYPE_ANIMATION_INTERNAL
 RESOURCE_TYPE_ANIMGRAPH
 RESOURCE_TYPE_SEQUENCE_GROUP_INTERNAL
-RSDS
 RadianEuler
 Ragdoll Tag
 RaiseException
@@ -3299,7 +3291,6 @@ RootMotionTurnSpeed
 RootMotionVelocity
 RtlPcToFileHeader
 RtlUnwindEx
-S+Ot
 SEQ_POSE_SETTING_CONSTANT
 SEQ_POSE_SETTING_POSITION
 SEQ_POSE_SETTING_ROTATION
@@ -3599,7 +3590,7 @@ TwoBoneIK does not have a valid end effector attachment.\n
 TwoBoneIK does not have a valid target attachment.\n
 TwoBoneIK node has invalid IK chain.\n
 TypeManager
-U20>3
+UPDATE_STRING_TOKEN_DATABASE
 UWs Collision position
 Unable to allocate %d bytes for the animation decode cache\n
 Unable to determine buffer encoding.
@@ -3762,7 +3753,6 @@ WorldRendererBuilderMgr001
 WorldRendererMgr001
 X360
 Yaw Limit
-\nCwf\r
 \t%d (%d) : %s %s %s %s\n
 \t%d:%d - %s (agrp vs agrp flag mismatch) %s:%s (promoted to match existing) %s:%s\n
 \t%d:%d - %s (match)\n
@@ -3831,7 +3821,6 @@ auto_unragdoll_duration
 autocycle
 autoplay
 bUpdate
-b\fp\v0
 binary
 binary_auto
 binary_bc
@@ -3855,7 +3844,6 @@ break_uniform_burst
 breakable_count
 breakable_model
 breakable_skin
-bt3V
 burst_randomize
 burst_scale
 c:\buildslave\hlvr_rel_win64\build\src\animationsystem\Retail\win64\unity\animationsystem.pdb
@@ -4101,7 +4089,6 @@ dmg.explosive
 dmg.fire
 duration
 dynamic_interaction
-eTx.
 ehandle
 elems
 embedded_animation
@@ -4117,7 +4104,6 @@ event
 event_class
 event_keys
 eventindex
-ex,l!
 exit
 explosion_behavior
 explosion_buildup
@@ -4195,6 +4181,7 @@ ik_debug_hyperextension
 ik_debug_lock_force_lock_rotation_alpha
 ik_debug_locks
 ik_debug_locks_breaks
+ik_debug_perlin_solver
 ik_debug_planetilt
 ik_debug_planetilt_axis_length
 ik_debug_soften
@@ -4244,8 +4231,6 @@ integer
 invalid
 invalid index %d
 invert_orientation
-ioV@
-ioV@[
 is active
 is not active
 is_debris
@@ -4259,10 +4244,10 @@ labelled_debug_helper_arc_segments
 labelled_debug_helper_enabled
 labelled_debug_helper_scale
 labelled_debug_helper_show_position
+labelled_debug_helper_show_text
 labelled_debug_helper_skeleton_show_bone_names
 last_sniff
 layersaffectingmovementandduration
-lcQe
 length
 lineNumber
 lineardelta
@@ -4275,7 +4260,6 @@ loop_break_on_flashlight
 loop_in_action
 looping
 mWsEndEffectorInitial
-mXr4
 m_AnimOverlay
 m_AnimgraphParameterNamePosition
 m_Bone
@@ -4300,6 +4284,7 @@ m_DefaultSolverSettings
 m_DefaultTargetSettings
 m_Emitters
 m_EndEffectorBone
+m_EndEffectorFixedOffsetAttachment
 m_EndEffectorTargetBone
 m_EventData
 m_FootstepType
@@ -5246,7 +5231,6 @@ modeldoc8
 modeldoc9
 motionflags
 multiplayer_break
-n\f"pA3Q
 name
 nav_attribute_avoid
 nav_data
@@ -5393,6 +5377,7 @@ vector2d
 vector4d
 version
 vmdl
+vmdlkeys0
 vmdlkeys1
 vmdlkeys2
 vmdlkeys3
@@ -5429,7 +5414,6 @@ vscript
 vscript_sequence_%d
 vsnap
 vstdlib.dll
-w8#_p
 weaponType
 weight
 weightlist
@@ -5440,8 +5424,6 @@ xWsTarget
 xfade
 yaw_end
 yaw_start
-z:KCAuthPhysBody
 zero dir
-{YIN?
 {}[]()=&, \t\n'"*;
 {}[]=, \t\n'":|;

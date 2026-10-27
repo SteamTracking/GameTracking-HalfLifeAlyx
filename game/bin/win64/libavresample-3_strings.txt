@@ -1,11 +1,9 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+  %0.3f 
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
 %d samples - audio_convert: %s to %s (%s)\n
 %d samples - audio_convert: %s to %s (dithered)\n
 --prefix=/d/dev/steam/thirdpartycode/ffmpeg/dev/build_win64 --toolchain=msvc --enable-shared --disable-static --enable-runtime-cpudetect --disable-all --enable-avcodec --enable-avutil --enable-avresample --enable-avformat --enable-swscale --arch=x86_64 --enable-parser=h264 --enable-decoder='aac,h264,vp8,vp9,gif,vorbis,mp3,flac,alac,pcm*' --enable-demuxer='aac,matroska,gif,ogg,mov,mp3,flac,wav' --enable-hwaccels --enable-dxva2 --disable-decoder=mpeg1video --disable-decoder=mpeg2video --disable-decoder=vc1 --disable-decoder=h263 --enable-libvpx
--64OS
 1#IND
 1#INF
 1#QNAN
@@ -18,16 +16,11 @@
 32-bit float planar
 32-bit signed integer
 32-bit signed integer planar
-5`UF
 64-bit double
 64-bit double planar
 8-bit unsigned integer
 8-bit unsigned integer planar
-8Csinf
-;1cb
-=1cb
 ?UUUUUU
-@^8U)zj
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 AVAudioResampleContext
 April
@@ -79,7 +72,6 @@ GetTimeFormatEx
 GetUserDefaultLocaleName
 GetUserObjectInformationW
 HH:mm:ss
-HMXB
 InitializeCriticalSectionEx
 Input Channel Layout
 Input Sample Format
@@ -106,7 +98,6 @@ Matrixed Stereo Encoding
 MessageBoxW
 Mixing Coefficient Type
 Monday
-NKeb
 No Dithering
 None
 Normalize Mix Level
@@ -115,11 +106,9 @@ October
 Output Channel Layout
 Output Sample Format
 Output Sample Rate
-RSDSb@%
 Rectangular Dither
 Resampling Filter Size
 Resampling Phase Shift
-S;uD
 SSE2
 SSE2SLOW
 SSE4
@@ -240,7 +229,6 @@ internal_sample_fmt
 invalid NULL pointer for src[%d]\n
 invalid channel count: %d\n
 invalid sample format\n
-kU'9
 kaiser
 kaiser_beta
 ldexp
@@ -283,9 +271,9 @@ resample_out_buffer
 resampled %d in + %d leftover to %d out + %d leftover\n
 s16p
 s32p
-sHF'
 sample format mismatch\n
 sample rate must be 48000 or 44100 Hz for triangular_ns dither. using triangular_hp instead.\n
+sinf
 sinh
 sqrt
 surround_mix_level
@@ -294,6 +282,4 @@ tanh
 triangular
 triangular_hp
 triangular_ns
-z?aUY
-zc%C1
 {no name}

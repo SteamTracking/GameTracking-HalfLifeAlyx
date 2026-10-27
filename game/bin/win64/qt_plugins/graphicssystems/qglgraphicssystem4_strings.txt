@@ -1,7 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -12,8 +10,6 @@
  new
  throw(
  volatile
-!?platformExtension@QGraphicsSystem@@UEAAPEAVQGraphicsSystemEx@@XZ
-#?qt_metacast@QGraphicsSystemPlugin@@UEAAPEAXPEBD@Z
 ,<ellipsis>
 .?AUQFactoryInterface@@
 .?AUQGraphicsSystemFactoryInterface@@
@@ -53,6 +49,10 @@
 ?free@QString@@CAXPEAUData@1@@Z
 ?fromLatin1_helper@QString@@CAPEAUData@1@PEBDH@Z
 ?metaObject@QGraphicsSystemPlugin@@UEBAPEBUQMetaObject@@XZ
+?platformExtension@QGraphicsSystem@@UEAAPEAVQGraphicsSystemEx@@XZ
+?qFree@@YAXPEAX@Z
+?qt_metacall@QGraphicsSystemPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacast@QGraphicsSystemPlugin@@UEAAPEAXPEBD@Z
 ?removeGuard@QMetaObject@@SAXPEAPEAVQObject@@@Z
 ?setPreferredPaintEngine@QGL@@YAXW4Type@QPaintEngine@@@Z
 ?shared_null@QListData@@2UData@1@A
@@ -151,7 +151,6 @@ QtGui4.dll
 QtOpenGL4.dll
 Qt_GetCustomAllocators
 QueryPerformanceCounter
-RSDS
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -176,9 +175,7 @@ Unknown exception
 Wednesday
 WideCharToMultiByte
 WriteFile
-Y"?qt_metacall@QGraphicsSystemPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 [thunk]:
-\f?qFree@@YAXPEAX@Z
 __based(
 __cdecl
 __clrcall

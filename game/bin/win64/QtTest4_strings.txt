@@ -1,9 +1,7 @@
                           
     <DataTag><![CDATA[%s]]></DataTag>\n
     <Description><![CDATA[%s]]></Description>\n
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  (total: %s, iterations: %d)
  Base Class Array'
  Base Class Descriptor at (
@@ -21,15 +19,21 @@
 !QTest::stream
 !QTest::testLogger
 !currentTestObject
-#\f?number@QString@@SA?AV1@NDH@Z
 %I64d
 %I64u
+%s %s
 %s %s %s __global__ %s\n
+%s %s %s\n
 %s %s __global__ %s\n
+%s %s\n
+%s%s%s
 %s%s%s%s%s%s\n
+%s%s%s%s\n
 %s.log
+%s: %s::%s
 %s: %s::%s(%s%s%s)%s%s\n
 %s: %s::%s(%s%s%s)%s%s\n%s(%d) : failure location\n
+%s<%s
 %s="%s" %s="%s"
 %s\n   Actual (%s): %s\n   Expected (%s): %s
 %s_data()
@@ -38,15 +42,12 @@
 &apos;
 &quot;
 '%s' returned FALSE. (%s)
-( 8PX
 ('8PW
 (null)
 ********* Start testing of %s *********\nConfig: Using QTest library 4.8.3, Qt %s, Random seed %d\n
 ********* Start testing of %s *********\nConfig: Using QTest library 4.8.3, Qt %s\n
-+\f?objectName@QObject@@QEBA?AVQString@@XZ
 ,<ellipsis>
 --help
--64OS
 -chart
 -datatags
 -eventcounter
@@ -121,15 +122,10 @@
 1#INF
 1#QNAN
 1#SNAN
-2\n0l
-2\vpTA
-2\vpl
 4.8.3
-6\r?qgetenv@@YA?AVQByteArray@@PEBD@Z
 700PP
 700WP
-9\r?qrand@@YAHXZ
-;\r?qsrand@@YAXI@Z
+:\n%%%ds
 <![CDATA[
 </Environment>\n
 </Incident>\n</TestFunction>\n
@@ -162,8 +158,6 @@
 <ellipsis>
 <null>
 <unknown>
->\r?qstrcmp@@YAHPEBD0@Z
->\t?grow@QVectorData@@SAHHHH_N@Z
 ??$qCompare@M@QTest@@YA_NAEBM0PEBD11H@Z
 ??$qCompare@N@QTest@@YA_NAEBN0PEBD11H@Z
 ??$toString@D@QTest@@YAPEADAEBD@Z
@@ -221,8 +215,6 @@
 ??_B?1??instance@QTestEventLoop@@SAAEAV1@XZ@51
 ??_FQTestData@@QEAAXXZ
 ??_FQTestEventLoop@@QEAAXXZ
-?Events
-?\r?qstrcpy@@YAPEADPEADPEBD@Z
 ?access@QMetaMethod@@QEBA?AW4Access@1@XZ
 ?addBenchmarkResult@QTestLog@@SAXAEBVQBenchmarkResult@@@Z
 ?addColumn@QTestTable@@QEAAXHPEBD@Z
@@ -315,44 +307,84 @@
 ?fromLatin1@QString@@SA?AV1@PEBDH@Z
 ?fromLatin1_helper@QString@@CAPEAUData@1@PEBDH@Z
 ?globalTestTable@QTestTable@@SAPEAV1@XZ
+?grow@QVectorData@@SAHHHH_N@Z
 ?ignoreMessage@QTest@@YAXW4QtMsgType@@PEBD@Z
 ?ignoreMessage@QTestResult@@SAXW4QtMsgType@@PEBD@Z
+?indexOf@QByteArray@@QEBAHDH@Z
 ?indexOf@QTestTable@@QEBAHPEBD@Z
+?indexOfMethod@QMetaObject@@QEBAHPEBD@Z
 ?info@QTestLog@@SAXPEBD0H@Z
+?insert@QString@@QEAAAEAV1@HVQChar@@@Z
+?instance@QAbstractEventDispatcher@@SAPEAV1@PEAVQThread@@@Z
 ?instance@QTestEventLoop@@SAAEAV1@XZ
+?invoke@QMetaMethod@@QEBA_NPEAVQObject@@W4ConnectionType@Qt@@VQGenericReturnArgument@@VQGenericArgument@@333333333@Z
+?invokeMethod@QMetaObject@@SA_NPEAVQObject@@PEBDW4ConnectionType@Qt@@VQGenericReturnArgument@@VQGenericArgument@@444444444@Z
 ?isBenchmark@QBenchmarkTestMethodData@@QEBA_NXZ
 ?isDone@QBenchmarkIterationController@QTest@@QEAA_NXZ
 ?isEmpty@QTestTable@@QEBA_NXZ
 ?keyToAscii@QTest@@YADW4Key@Qt@@@Z
+?killTimer@QObject@@QEAAXH@Z
 ?leaveTestFunction@QTestLog@@SAXXZ
+?left@QByteArray@@QEBA?AV1@H@Z
 ?logMode@QTestLog@@SA?AW4LogMode@1@XZ
+?maybeSpace@QDebug@@QEAAAEAV1@XZ
 ?metaObject@QTestEventLoop@@UEBAPEBUQMetaObject@@XZ
+?method@QMetaObject@@QEBA?AVQMetaMethod@@H@Z
+?methodCount@QMetaObject@@QEBAHXZ
+?methodType@QMetaMethod@@QEBA?AW4MethodType@1@XZ
 ?mode@QBenchmarkGlobalData@@QEBA?AW4Mode@1@XZ
+?msecsSinceReference@QElapsedTimer@@QEBA_JXZ
 ?newData@QTestTable@@QEAAPEAVQTestData@@PEBD@Z
 ?newRow@QTest@@YAAEAVQTestData@@PEBD@Z
 ?next@QBenchmarkIterationController@QTest@@QEAAXXZ
+?number@QByteArray@@SA?AV1@NDH@Z
+?number@QByteArray@@SA?AV1@_KH@Z
+?number@QString@@SA?AV1@NDH@Z
+?objectName@QObject@@QEBA?AVQString@@XZ
 ?outputFileName@QTestLog@@SAPEBDXZ
+?parameterTypes@QMetaMethod@@QEBA?AV?$QList@VQByteArray@@@@XZ
 ?parent@QTestData@@QEBAPEAVQTestTable@@XZ
 ?passCount@QTestResult@@SAHXZ
 ?printAvailableFunctions@QTest@@3_NA
 ?printAvailableTags@QTest@@3_NA
 ?printUnhandledIgnoreMessages@QTestLog@@SAXXZ
 ?qData@QTest@@YAPEAXPEBDH@Z
+?qDebug@@YA?AVQDebug@@XZ
+?qDebug@@YAXPEBDZZ
 ?qElementData@QTest@@YAPEAXPEBDH@Z
 ?qExec@QTest@@YAHPEAVQObject@@AEBVQStringList@@@Z
 ?qExec@QTest@@YAHPEAVQObject@@HPEAPEAD@Z
 ?qExpectFail@QTest@@YA_NPEBD0W4TestFailMode@1@0H@Z
 ?qFail@QTest@@YAXPEBD0H@Z
+?qFatal@@YAXPEBDZZ
+?qFree@@YAXPEAX@Z
 ?qGlobalData@QTest@@YAPEAXPEBDH@Z
+?qInstallMsgHandler@@YAP6AXW4QtMsgType@@PEBD@ZP6AX01@Z@Z
+?qMalloc@@YAPEAX_K@Z
+?qRealloc@@YAPEAXPEAX_K@Z
 ?qSkip@QTest@@YAXPEBDW4SkipMode@1@0H@Z
 ?qSleep@QTest@@YAXH@Z
 ?qVerify@QTest@@YA_N_NPEBD11H@Z
+?qVersion@@YAPEBDXZ
 ?qWarn@QTest@@YAXPEBD@Z
+?qgetenv@@YA?AVQByteArray@@PEBD@Z
+?qrand@@YAHXZ
+?qsrand@@YAXI@Z
+?qstrcmp@@YAHPEBD0@Z
+?qstrcpy@@YAPEADPEADPEBD@Z
+?qstrdup@@YAPEADPEBD@Z
+?qstrncpy@@YAPEADPEADPEBDI@Z
+?qt_assert@@YAXPEBD0H@Z
+?qt_assert_x@@YAXPEBD00H@Z
+?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QTestEventLoop@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacast@QObject@@UEAAPEAXPEBD@Z
 ?qt_metacast@QTestEventLoop@@UEAAPEAXPEBD@Z
+?qt_register_signal_spy_callbacks@@YAXAEBUQSignalSpyCallbackSet@@@Z
 ?qt_snprintf@QTest@@YAHPEADHPEBDZZ
 ?qt_static_metacall@QTestEventLoop@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z
 ?qtest_qParseArgs@QTest@@YAXHQEAPEAD_N@Z
+?qvsnprintf@@YAHPEAD_KPEBD0@Z
 ?reallocate@QVectorData@@SAPEAU1@PEAU1@HHH@Z
 ?redirectOutput@QTestLog@@SAXPEBD@Z
 ?remove@QString@@QEAAAEAV1@HH@Z
@@ -419,15 +451,12 @@
 ?verboseLevel@QTestLog@@SAHXZ
 ?verify@QTestResult@@SA_N_NPEBD11H@Z
 ?warn@QTestLog@@SAXPEBD@Z
-@\r?qstrdup@@YAPEADPEBD@Z
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 Already expecting a fail
 April
 August
 Available testdata:\n
 Available testfunctions:\n
-B\fp\v0
-B\r?qstrncpy@@YAPEADPEADPEBDI@Z
 BitsPerSecond
 BytesPerSecond
 C:\Valve\ThirdPartyCode\lgpl\qt\qt_valve_win64\lib\QtTest4.pdb
@@ -450,9 +479,9 @@ EncodePointer
 EnterCriticalSection
 Entered test-function: %s\n
 EnumSystemLocalesA
+Events
 ExitProcess
 FAIL!  
-F\r?qt_assert@@YAXPEBD0H@Z
 FatalAppExitA
 February
 FlsAlloc
@@ -465,7 +494,6 @@ FreeEnvironmentStringsW
 FreeLibrary
 Friday
 Function has no testdata.\n
-G\r?qt_assert_x@@YAXPEBD00H@Z
 GetACP
 GetActiveWindow
 GetCPInfo
@@ -500,7 +528,6 @@ GetUserDefaultLCID
 GetUserObjectInformationW
 GetVersion
 HH:mm:ss
-HMXB
 HeapAlloc
 HeapCreate
 HeapDestroy
@@ -535,7 +562,6 @@ Maximum amount of warnings exceeded. Use -maxwarnings to override.
 MessageBoxW
 Monday
 MultiByteToWideChar
-NKeb
 NULL
 Norwegian-Nynorsk
 Not all expected messages were received
@@ -567,9 +593,6 @@ QtVersion
 Qt_GetCustomAllocators
 QueryPerformanceCounter
 RESULT 
-RSDSl
-R\np 1
-R\vpl
 RaiseException
 RandomSeed
 ReadFile
@@ -580,7 +603,6 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S;uD
 SKIP   
 Saturday
 September
@@ -628,34 +650,7 @@ WriteConsoleW
 WriteFile
 XFAIL  
 XPASS  
-X\f?parameterTypes@QMetaMethod@@QEBA?AV?$QList@VQByteArray@@@@XZ
 [thunk]:
-\f?number@QByteArray@@SA?AV1@NDH@Z
-\f?number@QByteArray@@SA?AV1@_KH@Z
-\f?qDebug@@YA?AVQDebug@@XZ
-\f?qDebug@@YAXPEBDZZ
-\f?qFatal@@YAXPEBDZZ
-\f?qFree@@YAXPEAX@Z
-\n?killTimer@QObject@@QEAAXH@Z
-\n\r?qMalloc@@YAPEAX_K@Z
-\r?qInstallMsgHandler@@YAP6AXW4QtMsgType@@PEBD@ZP6AX01@Z@Z
-\r?qRealloc@@YAPEAXPEAX_K@Z
-\r?qVersion@@YAPEBDXZ
-\r?qt_metacast@QObject@@UEAAPEAXPEBD@Z
-\r?qt_register_signal_spy_callbacks@@YAXAEBUQSignalSpyCallbackSet@@@Z
-\r?qvsnprintf@@YAHPEAD_KPEBD0@Z
-\t?indexOf@QByteArray@@QEBAHDH@Z
-\t?indexOfMethod@QMetaObject@@QEBAHPEBD@Z
-\t?insert@QString@@QEAAAEAV1@HVQChar@@@Z
-\t?instance@QAbstractEventDispatcher@@SAPEAV1@PEAVQThread@@@Z
-\t?invoke@QMetaMethod@@QEBA_NPEAVQObject@@W4ConnectionType@Qt@@VQGenericReturnArgument@@VQGenericArgument@@333333333@Z
-\t?invokeMethod@QMetaObject@@SA_NPEAVQObject@@PEBDW4ConnectionType@Qt@@VQGenericReturnArgument@@VQGenericArgument@@444444444@Z
-\v?left@QByteArray@@QEBA?AV1@H@Z
-\v?method@QMetaObject@@QEBA?AVQMetaMethod@@H@Z
-\v?methodCount@QMetaObject@@QEBAHXZ
-\v?methodType@QMetaMethod@@QEBA?AW4MethodType@1@XZ
-\v?msecsSinceReference@QElapsedTimer@@QEBA_JXZ
-\vPTA
 ]]]><![CDATA[]>
 __based(
 __cdecl
@@ -686,7 +681,6 @@ _data()
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static destructor helper'
 `local static guard'
 `local static thread guard'
@@ -807,7 +801,6 @@ german-lichtenstein
 german-luxembourg
 german-swiss
 great britain
-h\r?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 holland
 hong-kong
 index < d->parent->elementCount()
@@ -822,7 +815,6 @@ int
 irish-english
 italian-swiss
 iterations
-kU'9
 line
 long
 long 
@@ -836,7 +828,6 @@ new-zealand
 norwegian
 norwegian-bokmal
 norwegian-nynorsk
-o\v?maybeSpace@QDebug@@QEAAAEAV1@XZ
 operator
 parent
 pass
@@ -916,9 +907,5 @@ warn
 wchar_t
 xfail
 xpass
-xppwpp
-xpxxxx
-z?aUY
-zc%C1
 {flat}
 {for 

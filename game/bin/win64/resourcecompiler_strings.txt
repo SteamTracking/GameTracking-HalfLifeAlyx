@@ -63,9 +63,7 @@
   String: '%s'\n
   UserData: %d\n
   frame %d display time = %f imagecount=%d\n
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (Start: 
@@ -93,10 +91,8 @@
  : unexpected input...\n  expected one of : 
  <- %4.1fMB %s\n
  <- [FAIL] %s - Code %d \n
- BCMapPathNode CUtlMemoryPool
  Base Class Array'
  Base Class Descriptor at (
- C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
  Done.\n
@@ -127,7 +123,6 @@
  receiver regenerated
  uncorrected errors
 != (or missing)
-!AxU
 "%s" "%.10f"\n
 "%s" "[ %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f ]"\n
 "%s" "[ %f %f %f %f ]"\n
@@ -148,7 +143,6 @@
 "compression" attribute not found in the header.
 "dataWindow" attribute not found in the header or invalid.
 "displayWindow" attribute not found in the header.
-"e?<<<<<<l?
 "file://%s"
 "id" "elementid" 
 "lineOrder" attribute not found in the header.
@@ -157,7 +151,6 @@
 "screenWindowWidth" attribute not found in the header.
 # of channels is zero.\n
 #%s_Title
-#9fm
 #AppFramework_InvalidLocalFiles
 #AppFramework_OutOfMemory
 #General_UnableToStartGame
@@ -165,15 +158,14 @@
 #RenderSystemChange_Text
 #RenderSystemChange_Title
 #RenderSystemChange_Yes
-#bML"
 #base
 #base is NULL 
 #include
 #include is NULL 
 #line
-$Ib?s
 $prefix_attribute$
 $prefix_element$
+% 76s\n
 %-40s\t%6d\t%9d\t\t%5.2f
 %.04f
 %.100s: Can not read TIFF directory
@@ -191,6 +183,8 @@ $prefix_element$
 %08x
 %2d:%02d
 %30s\t\t%5d\t\t%5d\n
+%c%d
+%d %d %d
 %d %d %d %d
 %d (s/n %d)
 %d components
@@ -202,23 +196,33 @@ $prefix_element$
 %d objects
 %d tiles
 %d vertices
+%d,%d
+%d,%d,%d
 %d,%d,%d,%d
+%d..%d
 %d:%02d:%02d
 %d_%lld_%x.dmx
 %d_%lld_%x_in.dmx
 %dm:%02ds\n
 %dx%d
+%f %f
+%f %f %f
 %f %f %f %f
 %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f
 %f %f %f, %f %f %f
+%f,%f
 %f,%f,%f,%f
+%g %g
+%g %g %g
 %g %g %g %g
 %g %g %g, %g %g %g
+%i %i %i
 %i %i %i %i
 %i compiled, 
 %i failed, 
 %i skipped, 
 %i.txt
+%i: %s;
 %ld%c
 %lld
 %lldms\n
@@ -231,6 +235,7 @@ $prefix_element$
 %s %s encoding is not implemented
 %s (%s -> %s)
 %s (%s) = remove( pos %i, count %i )
+%s - %s
 %s AllViewsDirectLight
 %s AllViewsIndirectLight
 %s AllViewsParticles
@@ -244,6 +249,14 @@ $prefix_element$
 %s compression support is not configured
 %s encoding %s %d format %s %d %s\n
 %s restored from text format, should be converted to keyvalues3 text format using sceneimagebuilder -kv3convert -game <dota, etc.>\n
+%s#%d
+%s#%i
+%s#%s
+%s#%s#%s
+%s$%i
+%s%d
+%s%i
+%s%s
 %s%s%s crc=0x%x metadatasz=%d
 %s%s.vmat
 %s%s.vtex_c
@@ -254,9 +267,11 @@ $prefix_element$
 %s(%d): Invalid specified name "%s"\n
 %s(%d): No patch note specified!\n
 %s(%d): Unmatch HTML tag "%s"\n
+%s(%s)
 %s(%s) = %s
 %s() isn't a known function.
 %s(): Trying to add an empty VS input signature\n
+%s.%u
 %s.vsvg
 %s/content/%s
 %s/content/%s/%s
@@ -264,7 +279,9 @@ $prefix_element$
 %s/valve/rc_vpk_%d/game
 %s2-d encoding
 %s: %f %f %f %f %f %f %f;
+%s: %s
 %s: %s at line %u of %s %u (got %u, expected %u)
+%s: %s\n
 %s: Bad code word at line %u of %s %u (x %u)
 %s: Bad field type %d for "%s"
 %s: Bad value %d for "%s" tag
@@ -319,6 +336,8 @@ $prefix_element$
 %s: unknown field with tag %d (0x%x) encountered
 %s: wrong data type %d for "%s"; tag ignored
 %s: zlib error: %s
+%s:%i
+%s:%s
 %sEOL padding
 %sEdgeActive
 %sEdgeCurveType
@@ -331,23 +350,25 @@ $prefix_element$
 %s[line %d:%d] 
 %s\nUnable to find running VWatch service. Client expected version %lu. Running without VWatch performance benefits.\n\tYou can install the VWatch service by installing/updating VMPI from \\fileserver\vmpi\n
 %s_%03d.vpk
+%s_%s.%s
 %s_%s.vtex
+%s_%x.%s
 %s_Title
 %s_tempcontent
 %ssdktools\bin\kubejobsc.exe
 %ssdktools\bin\kubejobsw.exe
 %suncompressed data
-&?PPPPPPP?
-&Sgw
-&\nFx+\n;h,\n)
+%u (0x%x)\n
 '%s' is not a valid variable type
 'OverrideClass' was specified but class '%s' has not been previously defined.\n
-'\nQx,\nFh-\n)
 'exists'
 'return'
 ($key_name)
 ($key_value)
+(%d) %s
 (%d)pin: %s
+(%d,%d
+(%d,%d,%d
 (%d,%d,%d,%d
 (None)
 (On the line reading %s):\n
@@ -356,7 +377,6 @@ $prefix_element$
 (channel = 
 (end of input).\n\t This indicates a poorly specified lexer RULE\n\t or unterminated input element such as: "STRING["]\n
 (null)
-)yIx
 * - Match Any
 *** ASSERT DURING RESOURCE COMPILE ***\n%s\n
 *** CVfx::StartupSanityCheck(6167): Programmer Error! The order of VfxVariableSourceType_t does not match s_shaderVariableSource!\n
@@ -396,16 +416,13 @@ $prefix_element$
 */image_inventory_overlay
 */visuals/*/
 */visuals/alternate_icons/*/icon_path
-*5KS
 *LANGUAGE*
-*StO9>T
 *extraFilterString=tileset
 +inf
 , at offset %d
 , channels = 
 , height = 
 , near %s
-,HR>O
 --  Increase the size of the resource stream   --\n
 --  Need %d bytes, but only have %d bytes\n
 ---- dmxconvert cmdline ----\n
@@ -420,9 +437,7 @@ $prefix_element$
 -1600
 -480
 -720
--9D\t/9a
 -AssetTargetGameRoot
--BH>t
 -ParallelHammerRenderables
 -Stop: 
 -adapter
@@ -537,10 +552,10 @@ $prefix_element$
 -vwatch_disabled
 -vwatch_locking
 -width
+.%s%s
 ..\content
 ..\src\shaders\
 .00cfg
-.>\rfJBGo
 .?AU?$This_T_Decorator@VCTrajectoryPathNode@@@@
 .?AUICompressCoder@@
 .?AUICompressSetCoderProperties@@
@@ -1844,7 +1859,6 @@ $prefix_element$
 .vrmap
 .vtex
 .vtex files not yet supported as an input texture type. Found "%s" in %s!\n
-.xJ>Hf
 .xdata
 .xdata$x
 // "act busy name"\t\tThis is the name that a mapmaker must specify in the hint node.\n
@@ -1862,26 +1876,17 @@ $prefix_element$
 // \t\t\t\t\t\t"BA_INT_DANGER"\t\tbreak out of this anim only if threatened\n
 // \t\t\t\t\t\t"BA_INT_NONE"\t\tbreak out only when time runs out. No external influence will break me out.\n
 // \t\t\t\t\t\t"BA_INT_PLAYER"\t\tbreak out of this anim if I can see the player, or I'm threatened\n
-/2GG>!B
-/P8i
 /TF<)VGy#WH
 /content/
 /game/
 /maps/
 /particle_snapshots/mesh_%s.vsnap
-/yQA
 0 0 -386.089
 0 0 0
 0.25
 00000000-0000-0000-0000-000000000000
-00:01:51
 0123456789)"
 0123456789abcdefghijklmnopqrstuvwxyz
-0E>X
-0X8b?~
-0\f504T
-0\r50t
-0iN>/
 0x%016llX
 0x%llx
 0x%p
@@ -1897,60 +1902,25 @@ $prefix_element$
 1#QNAN
 1#SNAN
 1.2.5
-11Y@
 1280x720
+12:20:37
 16-byte data pool
 1:1: Tokens : ( T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | BOOLLITERAL | ID | INTEGERLITERAL | HEXINTEGERLITERAL | FLOATLITERAL | COMMENT | WS );
-1A26b
 1DBlend
-1sAL"
-1wsHp
 255 255 255 255
 2D Views
 2DARRAY
-2\rE2h
-2\rU2h
-2\vP!5
-3 FB
-3+5<t
-37>k
-3>N;kU
-3>fvw
-3?tr
 3D Skybox
 3D Views
-3\f53d
 3dcameras
 4-byte data pool
-4CUnspecified
-4\r%4t
-51>W
-52F*
-5sfm_v8
-5t`Op
 64 283 0
-6>Pzh
 6FaceSkyBox
-6NK>
-6\fXO>\ntA
-7>I0
-7?GX
-7h>?8
-7~8A
-7~xh
-8&Kx
 8-byte data pool
-8Csinf
-8\r58h\f
 8b  16-May-2010
-8ke?;
-9>70
-9a&g
 : lexer error %d :\n\t%s at offset %d, 
-;1cb
 <!-- DMXVersion
 <!-- kv3 encoding:%s:version{%s} format:%s:version{%s} -->\n
-<"HWp
 </font>
 <<error in CDmAttribute::GetValueAsString()>>
 <DOWN>
@@ -1965,31 +1935,14 @@ $prefix_element$
 <no failure reason set>
 <no text for the token>
 <null>
-<position
 <unconnected>
 <unknown hash %u>
 <unknown>
 <unnamed>
-=1cb
-=87M
 == (or missing)
 ============================ logicalCRCDebugSpew =============================\n
 =========================================================\n
 =\t ();,\n\r<>
-=cQ6
-=e2m
-=imb;D
->cQ6
->jtm}S
->logf
-?!5WOo
-?1cb
-?3Fx
-?49HoKC
-?7zQ6$
-?7{KV\nU
-?8UUUUU
-?8bunz8
 ??0CThreadEvent@@QEAA@_N@Z
 ??0CThreadFastMutex@@QEAA@PEBD@Z
 ??0CThreadFastMutex@@QEAA@XZ
@@ -2001,8 +1954,6 @@ $prefix_element$
 ??1CThreadMultiWaitEvent@@QEAA@XZ
 ??1CThreadSemaphore@@QEAA@XZ
 ??1CThreadSyncObject@@QEAA@XZ
-?@En[vP
-?AVOID
 ?AppendConcat@CBufferString@@QEAAPEBDHPEBQEBDPEBH_N@Z
 ?AppendFormat@CBufferString@@QEAAHPEBDZZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
@@ -2031,8 +1982,6 @@ $prefix_element$
 ?HandleFirstWriteLockTransition@CThreadRWLock_FastRead@@IEAAXXZ
 ?HideBudgetGroup@CVProfile@@QEAAXPEBD_N@Z
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?JV8f
-?Ji@9
 ?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LockForRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
@@ -2045,10 +1994,7 @@ $prefix_element$
 ?MakeRelativePath@CBufferString@@QEAAPEBDPEBD0@Z
 ?MarkFrame@CVProfile@@QEAAXXZ
 ?OutputReport@CVProfile@@QEAAXAEBUVProfReportSettings_t@@PEBDH@Z
-?POp
-?Print model load-time conversion info
 ?Purge@CBufferString@@QEAAXH@Z
-?R0I?
 ?RandomFloat@CUniformRandomStream@@UEAAMMM@Z
 ?Relinquish@CBufferString@@QEAAPEADW4EAllocationOption_t@1@@Z
 ?RemoveAt@CBufferString@@QEAAPEBDHH@Z
@@ -2077,7 +2023,6 @@ $prefix_element$
 ?TruncateAt@CBufferString@@QEAAPEBDH_N@Z
 ?TruncateAt@CBufferString@@QEAAPEBDPEBD_N@Z
 ?TryLock@CThreadMutex@@QEAA_NPEBDH@Z
-?UNKNOWN
 ?UUUUUU
 ?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
@@ -2091,24 +2036,8 @@ $prefix_element$
 ?V_stristr_fast@@YAPEBDPEBD0@Z
 ?Wait@CThreadSyncObject@@QEAA_NI@Z
 ?WaitForRead@CThreadRWLock@@AEAAXXZ
-?\rz0w
-?\vxMW
-?f`Y4
-?id7
-?kxG2)
-?lZE
-?qBJ
-?rAj
-?ysB
-@CDependencyGraph::Reset
-@Integer overflow in %s
-@^8U)zj
-@line
-@population
 @spawn
 A game file appears to be missing or corrupted.  In the Steam client go to the game's properties.  In the 'Local Files' tab select 'Verify Integrity of Game Cache' to have Steam double-check the game's installation.
-A!;I2
-A>pP&
 AABB_t
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABGR8888
@@ -2148,7 +2077,6 @@ AE_VORTIGAUNT_ZAP_SHOOT
 AE_ZOMBIE_POPHEADCRAB
 AE_ZOMBIE_TOGGLE_HEAD
 AIWalkable
-AK>(v
 ALIGN_TYPE is wrong, please fix
 ANDROID_VULKAN
 ANDROID_VULKAN_4_0
@@ -2177,6 +2105,7 @@ ATI_TC_CalculateBufferSize_Wrapper
 ATI_TC_ConvertTexture_Wrapper
 ATTR_NAME__ADD_CUSTOM_TAG
 AUUUUUU
+AVOID
 Ability%d
 AbsTagType(unknown)
 AbsolutePoseControl
@@ -2342,12 +2271,8 @@ Automatically generated 'dota_minimap_boundary' entities:\n
 Automatically generated 'world_bounds':\n
 B channel not found!\n
 B-Spline
-B.f?y
 BA_INT_NONE
-BC1%M
 BC6H
-BC?>6t9^\tc:>
-BF>^G
 BGR101111_UFLOAT
 BGR565
 BGR888
@@ -2361,13 +2286,10 @@ BGRA8888_LINEAR
 BGRX5551
 BGRX8888
 BGRX8888_LINEAR
-BKbhTb~XBK!;
 BLOOM_BLEND_ADD
 BLOOM_BLEND_BLUR
 BLOOM_BLEND_SCREEN
 BOOLLITERAL
-B\vP\n0
-B\vp\nP
 BackPlane
 Background
 Backing store not supported
@@ -2497,7 +2419,6 @@ BreakpadAppId
 BreakpadAppId_Tools
 Brightness/Contrast %d
 BrowInV
-Bskybox
 Buffer passed to JPEG library is too small
 Build physics world
 BuildBakedLighting
@@ -2529,8 +2450,6 @@ BuildSteamAudio
 BuildUseMPI
 Building force dirty file list...\n
 Building map "%s"...\n
-C-Yn
-C5R?\t
 CAnimMotorList
 CAnimMovementManager
 CAppLaunchableDLL::main
@@ -2547,6 +2466,7 @@ CAppSystemDict:Unable to load module %s (Dependency of %s), error %d\n
 CAssetInfoFilterParams
 CAssetTypeConfig
 CAudioSourceWave::ParseDataChunk
+CAuthPhysBody
 CAuthPhysJoint
 CBaseFile::MustRead
 CBaseModelRaytracingEnvironment::Init
@@ -2581,6 +2501,7 @@ CDataModel::FindAndDeleteOrphanedElements() took %llums \n
 CDatamodelAssetTypeInfo
 CDependencyGraph::Cleanup
 CDependencyGraph::FindAttrNode
+CDependencyGraph::Reset
 CDmAttribute pool
 CDmElement CUtlMemoryPool
 CDmExtraVertexData
@@ -2838,7 +2759,6 @@ CImagePlaneNode
 CImagePlaneNode CUtlMemoryPool
 CImagePlaneNode::RebuildRenderBuffers(315): 
 CKV3FormatManager::RegisterFormatConversion
-CL:>8
 CLOSECAPTION
 CLayerMask
 CLevelsColorCorrectionLayer
@@ -2901,6 +2821,7 @@ CMapNode::RestoreTransformationBaseline - invalid baseline!
 CMapPath
 CMapPath CUtlMemoryPool
 CMapPathNode
+CMapPathNode CUtlMemoryPool
 CMapPhysicsPin
 CMapPhysicsPin CUtlMemoryPool
 CMapPoint CUtlMemoryPool
@@ -3001,6 +2922,7 @@ CPolygonMeshRenderData::BuildVertexAndIndexBuffers(1133):
 CPolygonMeshRenderData::BuildVertexAndIndexBuffersForFaces(346): 
 CPolygonMeshRenderData_Model
 CPostProcessData
+CRC = %x\n
 CRenderBufferBinding
 CResourceAssetTypeInfo
 CResourceCompilerContext::GenerateResourceFileBuffer
@@ -3339,7 +3261,6 @@ CVignetteLayer
 CVisibilityMgr
 CVisibilityMgr CUtlMemoryPool
 CVoxelVisibility
-CWD>~3
 C_INIT_AddVectorToVector
 C_INIT_AgeNoise
 C_INIT_CreateFromCPs
@@ -3471,7 +3392,6 @@ Catmull-Rom (Norm X)
 Catmull-Rom (Norm)
 Catmull-Rom (Tangent)
 Caution: quantization tables are too coarse for baseline JPEG
-Cbakelightimportancevolume
 CellLength
 CellWidth
 Center Position: %f, %f, %f\n
@@ -4011,9 +3931,6 @@ DynamicComboFromFeature
 DynamicComboRule
 DynamicConfigList
 DynamicImages
-E8tN
-E>nEA
-EFxo
 ELEM_NAME__ENT_ATTR_TYPES
 EMPHASIS
 EMPHASIS\r\n
@@ -4030,7 +3947,6 @@ ENTITY_IO_TARGET_SPECIAL_CALLER
 ENTITY_LUMP_NONE
 ENTITY_NOT_DORMANT
 ENTITY_SUSPENDED
-EOxV
 ERROR calling AddSystem( "vr" )! SteamVR not loaded!\n
 ERROR loading vr.dll!\n
 ERROR!
@@ -4060,8 +3976,6 @@ ERROR: Unconnected ladder top at ( %g, %g, %g )\n
 ERROR: You are trying to mount addon '%s' but SetAllowAddonChanges is false which probably means you shouldn't be calling this directly.\n
 ERROR: You are trying to unmount addon '%s', but SetAllowAddonChanges is false which probably means you should be using calling this directly.\n
 ESC_SEQ
-ESho
-ET5>
 EXECUTABLE_PATH
 EXIFIFDOffset
 EXPONENT
@@ -4070,7 +3984,6 @@ EXRHeader variable is not initialized.
 EXRReadFile() - B channel not found!\n
 EXRReadFile() - G channel not found!\n
 EXRReadFile() - R channel not found!\n
-E[\rn?gc
 Early exit
 EarlyRetireParticleSystems
 Ease In
@@ -4089,7 +4002,6 @@ EdgeSelectionPreviewEdgeLength
 EditGameClassProps
 Editor Only
 EditorDynamicConfig
-EiUL
 Element uses unknown element type %s\n
 EmbeddedProperty.angles
 EmbeddedProperty.editor_only
@@ -4350,12 +4262,10 @@ ExtraVertexStreamOverride_t
 ExtractSheetDataFromBuffer(2017): Encountered an error calling CAmalgamatedTexture->LoadFromFile on buffer-arg "%s"!\n
 ExtractSheetDataFromFile(2003): Encountered an error (see above) loading MKS: %s\n
 Extraneous token
-F>qUxv
 FATAL ERROR: unable to register all schema data: %s\n
 FBXSystem001
 FCVAR_NEVER_AS_STRING
 FEATURES
-FEMh\f
 FIELD_BOOLEAN
 FIELD_CHARACTER
 FIELD_CLASSPTR
@@ -4475,6 +4385,7 @@ Failed to load vpost file: '%s'\n
 Failed to parse channel info.\n
 Failed to read %d bytes\n
 Failed to read attribute.\n
+Failed to save unsupported class
 Failed to serialize KV3 block: %s\n
 Failed to write nav dbg file "%s"!\n
 Failed to write temporary vpk output file "%s"!\n
@@ -4498,7 +4409,6 @@ Feature
 Feature combo %s referenced in expression doesn't exist.
 FeatureRule
 February
-FfW?
 FieldOfViewCotangent
 File "%s" doesn't exist!\n
 File has not been opened!\n
@@ -4589,11 +4499,8 @@ FreeOffsets
 Freed EMS handle %u
 Freed XMS handle %u
 Friday
-Fsfm_v3
 Function %s() expects %d arguments. Found %d.
 G channel not found!\n
-G0zh
-G>US
 GAME
 GAMEBIN
 GAMECONSOLE
@@ -4745,9 +4652,6 @@ Group Proxy
 Group3Options
 Group4Options
 GroupCarve
-H$6t
-H' Wp
-H*0"ZOW
 HDRColorScale
 HEADER
 HEXINTEGERLITERAL
@@ -4795,7 +4699,6 @@ Hue/Saturation %d
 Huffman code size table overflow
 Huffman table 0x%02x was not defined
 I could not work out what I was expecting, like so many of us these days!\n
-I?ff
 IA88
 ICC Profile
 IHandleEntity
@@ -4816,9 +4719,7 @@ IParticleEffect
 IQuickTime001
 ISO JBIG
 IS_SM_
-IiGM>nw
 IkLockLocal
-Il?333333c?
 Image
 Image Too Large
 Image data size is zero or too large: width = 
@@ -4898,6 +4799,7 @@ Insufficient data size.\n
 Insufficient header/data size.\n
 Insufficient memory (case %d)
 IntArg
+Integer overflow in %s
 Intentionally vague touch behavior for %p\n
 InteractiveRelightingMemoryBudget
 InterlockedFlushSList
@@ -4979,7 +4881,6 @@ JawV
 July
 June
 KERNEL32.dll
-KL2H
 KNQ\rMO
 KV Conditional Evaluation Error
 KV3 Compiler Version
@@ -5000,8 +4901,6 @@ KeyValuesSystem
 Kochanek-Bartels
 Kochanek-Bartels Early
 Kochanek-Bartels Late
-L>ev
-L?UUUUUUU?
 LAYEREDGAMEROOT
 LAYER_MASK_COLOR_RANGE
 LAYER_MASK_LUMINOSITY
@@ -5035,8 +4934,6 @@ LINEAR_RGBA8888
 LINUX
 LOG_GENERAL
 LOWVIOLENCE
-LWG>
-LWW>
 LZWDecode: Bogus encoding, loop in the code table; scanline %d
 LZWDecode: Corrupted LZW table at scanline %d
 LZWDecode: Not enough data at scanline %d (short %ld bytes)
@@ -5152,8 +5049,6 @@ Logic
 Look At
 Lookup Table %d
 Loop Point
-LrwcE
-M8MF
 MAPCLASS_ERROR
 MATCHFRAMEWORK_001
 MAX_ALLOC_CHUNK is wrong, please fix
@@ -5163,7 +5058,6 @@ MClassIsParticleFloat
 MD5 match on %s, loading from vcs\n
 MD5 mismatch on %s, will load from vfx instead.\n
 MDefaultString
-MGiI
 MINIDUMP_WRAP_MAIN: Entering [%s(%u):%s:]\n
 MINIDUMP_WRAP_MAIN: In __except block\n
 MINIDUMP_WRAP_MAIN: Wrapped execution\n
@@ -5245,7 +5139,6 @@ MaxSampleValue
 Maximum Size Scale
 Maximum supported image dimension is %u pixels
 MbP?
-MbP?8
 MemAlloc_AllocFunc
 MemAlloc_CallocFunc
 MemAlloc_FreeFunc
@@ -5332,17 +5225,12 @@ Multiple Convex Hulls
 MultiplyBox
 MultiplyNoMip
 Must specify both a 'min' and 'max' value.
-N3`d?
-N>O=I9
-N>VF
 NAN(IND)
 NAN(SNAN)
 NAV AREA\n
-NJ2"v
 NOEXECHECK
 NPC Clip
 NPCs
-NQ?s
 NULL
 NV_DST16
 NV_DST24
@@ -5461,7 +5349,6 @@ November
 Nudge
 Number of sides
 NumberOfInks
-O*9y]
 OBJECT_TYPE_BLOCK_LIGHT
 OBJECT_TYPE_DECAL
 OBJECT_TYPE_DISABLED_IN_LOW_QUALITY
@@ -5477,13 +5364,12 @@ OBJECT_TYPE_WORLDSPACE_TEXURE_BLEND
 OCTAL_ESC
 OPTIONS
 OPTIONS\r\n
-OZQ%
-OZw3(?
 ObjectTypeFlags_t
 Objects
 Obtained EMS handle %u
 Obtained XMS handle %u
 Occluder
+Oct 13 2026
 October
 Offset
 OffsetFacesAlongNormal
@@ -5523,7 +5409,6 @@ OverlayBoxSize
 OverlaySurface
 OverlaySurfaceIndices
 OverlaySurfaceVertices
-P8Wp
 PARALLEL_PROCESS CParticleMgr::SimulateParticles(), c:\buildslave\hlvr_rel_win64\build\src\particleslib\particlemgr.cpp:1013
 PARTICLE_DEPTH_FEATHERING_OFF
 PARTICLE_DEPTH_FEATHERING_ON_OPTIONAL
@@ -5618,7 +5503,6 @@ Path Type
 Path: %s
 PathEntity
 Pause Game On Activate
-Pe6^
 Per-Edge
 Per-Tile
 PerVertexLighting
@@ -5733,7 +5617,6 @@ Plat_WindowToOsSpecificHandle
 Play Subscene
 Player Clip
 Please make sure you deleted history on the mesh before exporting.\nThe mesh apparently has %d vertices, but %d blendWeights in field %s, while having %d weights per vertex\n
-Po5H
 PointEntity
 Polygon Mesh Data Pool - level 1
 Polygon Mesh Data Pool - level 2
@@ -5794,6 +5677,7 @@ PreviewModelFade
 PreviewPreset
 PreviewPresetList
 PrimaryChromaticities
+Print model load-time conversion info
 Probability
 Probability Weight
 Probe Boxes
@@ -5823,10 +5707,7 @@ Proxy
 Proxy Instance
 Proxy Name
 Q2XXR
-Q5rHg,>
-QAf?
 QAngle
-Qkkbal
 Quantization table 0x%02x was not defined
 Quantizing to %d = %d*%d*%d colors
 Quantizing to %d colors
@@ -5838,11 +5719,11 @@ R channel not found!\n
 R11_EAC
 R16F
 R16F_EXPAND
-R1h58
 R32F
 R32_UINT
 R8G8B8A8_ETC2_EAC
 R8G8B8_ETC2
+R8_UINT
 RESOURCE_ENCODING_COMPRESSED_BYTES
 RESOURCE_ENCODING_COUNT
 RESOURCE_ENCODING_INTROSPECTED
@@ -5877,7 +5758,6 @@ RGBM
 RGBX555
 RGBX8888
 RPCRT4.dll
-RSDSrs&
 RST%d
 RadianEuler
 Radius
@@ -6030,9 +5910,6 @@ RtlPcToFileHeader
 RtlUnwind
 RtlUnwindEx
 RtlVirtualUnwind
-S+Ot
-S9>H
-S>$hkDh$h>[2
 SDL_WINDOW_FRAME_USABLE_WHILE_CURSOR_HIDDEN
 SFM Session
 SFM Settings
@@ -6046,7 +5923,6 @@ SGILogEncode
 SHADER_SOURCE
 SHADER_SOURCE_MOD
 SHADER_SOURCE_ROOT
-SKyu
 SMaxSampleValue
 SMinSampleValue
 SNAN)
@@ -6120,8 +5996,6 @@ SelectionOverlayAlpha
 SelectionRemove
 SelectionSet
 SelectionWireframe
-Sep 16 2026
-Sep 17 2026
 September
 Sequence
 Sequence %d clamp = %d nframes=%d\n
@@ -6553,15 +6427,12 @@ Trying to find a flex controller (%s) that doesn't actually exist in the model.\
 Tuesday
 Two Bone
 Two KV3 format GUIDs with the same human-friendly name ('%s')
-U1h\n
-U4tT
-UA>N0Wl
 UI Background
 UNICODE_ESC
+UNKNOWN
 USER32.dll
 UTF-16LEUNICODE
 UTF-8
-UUUU
 UUUUUU
 UV88
 UVLX8888
@@ -6649,6 +6520,7 @@ Unserialize: Unable to open dmxconvert temp file "%s"\n
 Unserialize: Unable to start dmxconvert process\n
 Unserialize: Unexpected encoding name '%s' reading file '%s' - expected encoding '%s'\n
 Unserialize: Unexpected format '%s' reading file '%s' - expected format '%s'\n
+Unspecified
 Unsupported JPEG data precision %d
 Unsupported JPEG process: SOF type 0x%02x
 Unsupported attribute type found!\n
@@ -6850,7 +6722,6 @@ Valve Map File
 Valve Material File
 Valve Texture Configuration File
 Variation Id
-Vc0a
 VeaFOfb
 Vector
 Vector Graphic Version
@@ -6898,8 +6769,6 @@ Visibility Data
 Visible Map Errors
 VolumetricFog
 Vwatch Retrieval of synchronization handle through app signal pipe failed with error code %d\n
-W 7x
-W=vmdlkeys0
 WARNING: Could not fit padded images for "%s" - alpha crop forced on - dual sequences will not work\n
 WARNING: Could not fit padded images for "%s" - sequence images may experience color bleeding\n
 WARNING: Failed to parse class '%s'.\n
@@ -6915,7 +6784,6 @@ WORD
 WORDS
 WORDS\r\n
 WS2_32.dll
-WaNd?
 WaitForMultipleObjects
 WaitForSingleObject
 WaitForSingleObjectEx
@@ -6985,7 +6853,6 @@ Writing...
 Wrong JPEG library version: library is %d, caller expects %d
 Wrong alignment %d\n
 Wrote symbol stats to file: %s
-X/4B
 X360
 X360_DST16
 X360_DST24
@@ -6995,9 +6862,6 @@ XMLPacket
 XPosition
 XResolution
 XYZ, Luv
-XsBI
-Y8a:
-Y>kX>M
 YCbCrCoefficients
 YCbCrPositioning
 YCbCrSubsampling
@@ -7005,7 +6869,6 @@ YClipPathUnits
 YPosition
 YResolution
 YpU_Z
-Z@&LHA'\r:C(
 ZFP compression is not supported.
 ZIPDecode
 ZIPEncode
@@ -7013,8 +6876,6 @@ ZIPPostEncode
 ZIPSetupDecode
 ZIPSetupEncode
 ZIPVSetField
-Z\>z8
-Zjz\v
 ZoomSensitivityMouseMove
 ZoomSensitivityMouseWheel
 Zpm"U
@@ -7022,12 +6883,10 @@ Zpm"U
 [%d] Popping undo '%s'\n
 [%d] Pushing undo '%s'\n
 [%f %f %f %f]
-[*ncd>0
+[%f %f %f]
 [FAIL]
 [Index: 
 [SKIP]\n
-[aOni*{
-[h1R
 \%lld.vpk
 \\.\pipe\vwatch_appsignal
 \lightmaps\
@@ -7097,44 +6956,26 @@ Zpm"U
 \n*** Unknown text found in FEATURES section in %s: "%s"\n\n
 \n*** VfxGetCompileTargetsFromVfxFile(1299): Error opening file "%s"!\n\n
 \n*** VfxGetUsedShaderProgramsFromVfxFile(1376): Error opening file "%s"!\n\n
-\nCwf\r
 \nIHDRPLTEIDATIENDtRNScHRMgAMAiCCPsBITsRGBtEXtzTXtiTXtbKGDhISTpHYssPLTtIMEoFFseXIf
 \nPS_RENDER_STATE
 \nVCS file format is "%c%c%c%c" instead of "%c%c%c%c" for %s\n
 \nVCS file version is %d instead of %d for %s\n
 \nWrite %s Failed!\n
 \n\n... Building '%s'\n
-\nati_compress_wrapper.dll
-\nh?oT
-\nk>oB
-\rEOp
-\r\f\v\v\n\n\t\t\t\t\t
-\rmj>zjZ
-\rpzh
 \t The lexer was matching from line %d, offset %d, which\n\t 
-\t9sv
-\tN1a
+\t%.*s\n
+\t%8d
 \tNAN encountered in element '%s' guid %s attribute '%s'!\n
 \tWORD %s %.3f %.3f\r\n
 \t\t%i %s %.3f %.3f 1\r\n
 \t\t[ FAIL ] - Manifest contains an illegal resource name "%s"!\n
-\t\t\n\n\v\v\f\f\f\f\r\r\r\r
-\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUnsupported PSD color mode!\n
 \t\t\t\t\t\t\t\v\v\v\v\v
 \tbody_groups = %s\n
-\tcQr
-\tkE>fvw
 \tmaterial_group = "%s"\n
 \ttools_no_extraction %d\r\n
 \tvoice_duck %d\r\n
 \u must be followed by exactly 4 hex digits
-\vA03>A|
-]u9g
-^<V7w
-^L7B
-^RfN>
-^oEZ_
 _Description
 _FarPlane
 _Lore
@@ -7158,7 +6999,6 @@ _V_strncmp
 _V_strncpy
 _V_strnicmp_fast
 _V_strnistr_fast
-_XWp
 __Attribute__
 __Expression__
 __FROM_ATTRIBUTE_OR_FEATURE__
@@ -7224,7 +7064,6 @@ _linked_type_
 _logb
 _name
 _nextafter
-_oD>Kg
 _prefab_interface
 _psrs
 _root_keyname
@@ -7270,8 +7109,6 @@ _visxxx_%dx%dx%d.tga
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
-a6>r
-a`zh
 aaaaaaaazzzzzzzz
 abcdefghijklmnopqrrqponmlkjihgfedcba
 abcdefghijklmnopqrstuvwxyz
@@ -7411,6 +7248,7 @@ assettypes.txt
 associated_key
 atan
 atan2
+ati_compress_wrapper.dll
 attach
 attach_point
 attachment
@@ -7434,7 +7272,6 @@ bShowSelectionModeChangeNotificationIcons
 bShowToolChangeNotificationIcons
 bUpdate
 bViewFocusStealing
-b\v5bd
 background
 backgroundColor
 backgroundFXClip
@@ -7456,6 +7293,7 @@ baked_light_index_min
 baked_light_indexing
 bakedlighting
 bakedlodbuilder
+bakelightimportancevolume
 bakelightindex
 bakelightindexscale
 bakelighting
@@ -7575,7 +7413,6 @@ brightness
 brightness_offset
 broken pipe
 bspline
-bt3V
 buffer
 buffer error
 burst_randomize
@@ -7693,8 +7530,6 @@ c:\buildslave\hlvr_rel_win64\build\src\vfx\compiletargetexpr.g
 c:\buildslave\hlvr_rel_win64\build\src\vfx\vfx_common.cpp
 c:\buildslave\hlvr_rel_win64\build\src\vfx\vfxexpr.g
 c:\buildslave\hlvr_rel_win64\build\src\vpklib\packedstore.cpp
-c?FA@s}
-cNDS
 cable
 cable_dynamic
 cable_static
@@ -7903,11 +7738,6 @@ custom
 custom%s
 customPath
 customPathType
-d8-t
-d8L2
-d?000000`?
-dQy/
-dRL>
 damage
 data
 data error
@@ -8027,8 +7857,6 @@ dynamicProxyPoint
 dynamic_interaction
 dynamicparams
 e+000
-eF>t
-eLK(w
 easeIn
 easeOut
 easein
@@ -8108,14 +7936,13 @@ env_sky
 env_volumetric_fog_volume
 error
 error %s:  %s\n
+event
 eventID
 event_class
 event_keys
 event_ramp
 eventindex
 events
-ewh/?y
-ex0Wp
 exclude
 executable format error
 exit_anim
@@ -8153,9 +7980,6 @@ extracted_motion
 eyeOffset
 eyelid
 eyes
-fD>b
-fP~V
-fWi?
 f\fn\nr\rt\t<!-- schema 
 fabs
 face
@@ -8287,7 +8111,6 @@ fromAttribute
 fromElement
 fromIndex
 frustum
-fu`z
 fully_occluded_fraction
 func_distance_occluder
 func_ladder
@@ -8333,7 +8156,6 @@ gesture
 ggx_cubemap_blur_accumulation_pass_count
 global
 glow
-gqr<
 graphCurve
 grassMaterialNames0
 grassMaterialNames1
@@ -8359,9 +8181,6 @@ groupColor
 gs_4_0
 gs_4_1
 gs_5_0
-h0'D
-h>1my
-hPU3
 halfgridsnap
 hammer
 hammerClipboard
@@ -8432,9 +8251,7 @@ hscript
 hscript_lightbinding
 hurt_me
 hurt_them
-i91k
 iOS SM 4.0 (VULKAN)
-i]Wb
 icon_replacement_hero
 iconsprite
 identifier removed
@@ -8561,7 +8378,6 @@ js_array
 js_object
 js_raw_args
 js_value
-k=yI
 kernel32.dll
 key_name_strip_prefix
 key_path
@@ -8591,10 +8407,6 @@ kochanek
 kochanek_early
 kochanek_late
 kv 0x%p Release refcount == %d\n
-l6qnk
-l=!hWp
-lDa>
-lWi]
 ladder
 lame_enc.dll
 lang
@@ -8609,7 +8421,6 @@ layerData2
 layerData3
 layerName
 layers
-lcQe
 ldexp
 leansphere
 left
@@ -8661,6 +8472,7 @@ lighttype
 limiterAttackMS
 limiterLookaheadMS
 limiterReleaseMS
+line
 lineOrder
 linear
 linearAttenuation
@@ -8685,6 +8497,7 @@ lodhint
 lodlevel
 log10
 log2
+logf
 lookat
 looks like this:\n\t\t%.*s\n
 loop
@@ -8703,10 +8516,6 @@ lowprecisionuv
 lowprecisionuv1
 luminance
 m%d%d
-m?H7
-mG4>
-mXr4
-m\nXo
 m_ActiveValue
 m_AdditionalExtensions
 m_AssetTypes
@@ -9589,13 +9398,9 @@ multilevelchannel
 multiplayer_break
 must be either LogLUV or LogL
 mute
-n$Kx
-n03>Pu
 nCombos
 nLayoffState
 nTries < 10000000
-n\f"pA3Q
-n]?iJ
 name
 names
 nan(ind)
@@ -9692,10 +9497,6 @@ num_values
 numcascades
 numchannels
 numsegments
-o9sp
-o?GS
-oBtranslucent
-oI>O7
 oOffset
 objectConfiguration
 objectConfigurationByName
@@ -9708,7 +9509,6 @@ objectsTileSet
 objectsTreeSize
 objectsTreeType
 objectsVariationId
-obwQ4
 occluder
 occlusion_exponent
 offset
@@ -9757,16 +9557,11 @@ overrideRot
 overrideTint: <%s> %d %d %d %d
 override_compiler
 overrideclass
-owM&
 owner dead
 ownerlog
 p4client
 p4lib
 p4port
-p?event
-p@tile
-p\r0\fP
-p\rP!E
 packmode
 panorama/images/vpdi_sentinel.png
 panorama/panorama_config.txt
@@ -9851,6 +9646,7 @@ pointclass
 pointentityclass
 pointsample
 poleVector
+population
 posTolerance
 posable
 pose_control
@@ -9928,7 +9724,6 @@ publish_data
 publish_data.txt
 purecall
 pvTarget
-qS>g?h3
 qangle
 qangle log
 qangle_array
@@ -9937,7 +9732,6 @@ quality
 quaternion
 quaternion log
 quaternion_array
-r\tVr.>T
 r_freezeparticles
 r_particle_timescale
 r_threaded_particles
@@ -10082,7 +9876,6 @@ rotation_spin
 rotation_spin yaw
 rotations
 rsqrt
-ru&o
 rwbuffer
 rwbyteaddressbuffer
 rwstructuredbuffer
@@ -10092,11 +9885,8 @@ rwtexture1darray
 rwtexture2d
 rwtexture2darray
 rwtexture3d
-sAmTb
-sHF'
 sRGB
 s_EntComponentInfo
-s`"DH
 sampler1D
 sampler1DARRAY
 sampler2D
@@ -10215,10 +10005,12 @@ sfm_v
 sfm_v1
 sfm_v10
 sfm_v2
+sfm_v3
 sfm_v4
 sfm_v5
 sfm_v6
 sfm_v7
+sfm_v8
 sfm_v9
 shader
 shaders\vfx
@@ -10263,6 +10055,7 @@ simulating
 simulationMode
 simulationTime
 simulationTimeScale
+sinf
 singleSelect
 sinh
 size
@@ -10564,6 +10357,7 @@ trail_length_random
 transform
 transformLocked
 transforms
+translucent
 transparency
 treeColor
 treeTypes
@@ -10611,9 +10405,6 @@ useedgeinfo
 user
 usesLaggedValues
 utlstringtoken
-uzKs@>
-v2!L.2
-vQO+t
 validGrassTile
 value
 value too large
@@ -10698,6 +10489,7 @@ vmatrix
 vmatrix log
 vmdl
 vmdl_c
+vmdlkeys0
 vmdlkeys1
 vmdlkeys2
 vmdlkeys3
@@ -10777,10 +10569,6 @@ vtex_c
 vvtx
 vwnod
 vwrld
-w+OQvr
-w3Xc
-w8#_p
-wXR\r
 warning:  unable to read .vcd file '%s'\n
 warning:  unable to restore .vcd file '%s' from disk\n
 water
@@ -10798,7 +10586,6 @@ width
 window
 wirebox
 wirebox_local
-wn>Jj
 world
 world.vrman
 world.vwrld
@@ -10823,21 +10610,16 @@ wrinkleScales
 write
 wrong protocol type
 xMSAA\n
-xT?V
 xcoord
-y9*O
 yaw_end
 yaw_start
 ycoord
-z:KCAuthPhysBody
-z>Failed to save unsupported class
 zero
 zero_value
 zfar
 zip_line_node
 znear
 {Hammer node %d} 
-{YIN?
 {images}/($key_value)
 {images}/($key_value).png
 {images}/($key_value).tga
@@ -10846,7 +10628,6 @@ znear
 {images}/items/($key_value).png
 {images}/spellicons/($key_value).png
 {images}/spellicons/empty.png
-{kHw
 {}[]()=&, \t\n'"*;
 {}[]=, \t\n'":|;
 ~CMapDoc destructor: Leaking physics world because there are still ModelInstances that use it.\n

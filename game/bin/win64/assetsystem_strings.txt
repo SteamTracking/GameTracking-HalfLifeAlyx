@@ -24,9 +24,7 @@
   Predictor: 
   REASON: %s\n
   Ss=%d, Se=%d, Ah=%d, Al=%d
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (%u assets, %u with overrides)\n
@@ -47,7 +45,6 @@
  -testmode
  Base Class Array'
  Base Class Descriptor at (
- C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
  LZWSetupDecode
@@ -62,7 +59,6 @@
  receiver regenerated
  uncorrected errors
 != (or missing)
-!AxU
 !V_strcmp( m_NextExpectedRecompileReason.Get(), GetCompileStateReason_Transient() )
 !V_strcmp( pBaseWavThenLeafMP3->GetAbsolutePath_Transient( ASSET_LOCATION_CONTENT ), "t:/content/base/base_wav_then_leaf_mp3.wav" )
 !V_strcmp( pBaseWavThenLeafMP3_Second->GetAbsolutePath_Transient( ASSET_LOCATION_CONTENT ), "t:/content/leaf/base_wav_then_leaf_mp3.mp3" )
@@ -101,31 +97,34 @@
 "compression" attribute not found in the header.
 "dataWindow" attribute not found in the header or invalid.
 "displayWindow" attribute not found in the header.
-"e?<<<<<<l?
 "id" "elementid" 
 "lineOrder" attribute not found in the header.
 "pixelAspectRatio" attribute not found in the header.
 "screenWindowCenter" attribute not found in the header.
 "screenWindowWidth" attribute not found in the header.
 # of channels is zero.\n
-#bML"
 #base
 #base is NULL 
 #include
 #include is NULL 
-$Ib?s
 $prefix_attribute$
 $prefix_element$
 %-40s\t%6d\t%9d\t\t%5.2f
+%.04f
 %.100s: Can not read TIFF directory
 %.10f
 %.15lf
 %02X
 %05d,     0x%p,     %5d,      '%s'\n
+%d %d %d
 %d %d %d %d
+%d,%d
+%d,%d,%d
 %d,%d,%d,%d
 %d_%lld_%x.dmx
 %d_%lld_%x_in.dmx
+%f %f
+%f %f %f
 %f %f %f %f
 %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f
 %i %i %i %i
@@ -138,8 +137,10 @@ $prefix_element$
 %lu: Sample out of range, max %lu
 %s %s decoding is not implemented
 %s %s encoding is not implemented
+%s (%d)
 %s (%s -> %s)
 %s (%s) = remove( pos %i, count %i )
+%s - %s
 %s allocation count overflow
 %s allocation count overflow( %llu > %llu )\n
 %s allocation count overflow( %llu >= %llu )\n
@@ -148,13 +149,20 @@ $prefix_element$
 %s compression support is not configured
 %s encoding %s %d format %s %d %s\n
 %s failure\n
+%s#%d
+%s%s
 %s%s%s crc=0x%x metadatasz=%d
+%s%s/%s
+%s%s/%s_c
 %s(%d) : %s\n
+%s(%s)
 %s(%s) = %s
 %s--> NO ASSET FOUND: %s\n
 %s--> NO FILE(s): %s\n
 %s2-d encoding
+%s: %s
 %s: %s at line %u of %s %u (got %u, expected %u)
+%s: %s\n
 %s: Bad code word at line %u of %s %u (x %u)
 %s: Bad field type %d for "%s"
 %s: Bad value %d for "%s" tag
@@ -203,22 +211,27 @@ $prefix_element$
 %s: unknown field with tag %d (0x%x) encountered
 %s: wrong data type %d for "%s"; tag ignored
 %s: zlib error: %s
+%s:%s
 %sEOL padding
 %sScanning for Asset Files (%d/%d): '%s' = %s, previously scanned %u directories and %u files\n
+%s\%s
 %s\nUnable to find running VWatch service. Client expected version %lu. Running without VWatch performance benefits.\n\tYou can install the VWatch service by installing/updating VMPI from \\fileserver\vmpi\n
+%s\t%s
 %s_%03d.vpk
+%s_c
 %suncompressed data
-&?PPPPPPP?
-&Sgw
+%u (0x%x)\n
 '%s' has %s '%s' in unrecognized mod '%s'.\n
 '%s' has %s '%s' with invalid mod index %d.\n
 '%s' has %s '%s' without a mod.\n
 ( nMissedPoints == 0 )
+(%d,%d
+(%d,%d,%d
 (%d,%d,%d,%d
 (Dev command - regenerate the asset sort indicies)
+(None)
 (async) 
 (null)
-)yIx
 * %d asset types:\n
 * %d assets in database, size per CAsset %u\n
 * %d mods (%d unrecognized):\n
@@ -247,18 +260,14 @@ $prefix_element$
 *** line error: 'rgb+a' packing cannot pack image '%s' belonging to sequences %d and %d!\n
 *** line error: incompatible packmode change when %d sequences already defined!\n
 *** line error: invalid sequence type '%s', packing 'flat' allows only 'sequence-rgba'!\n
-*5KS
-*StO9>T
 +inf
 , channels = 
 , height = 
-,HR>O
 ---- dmxconvert cmdline ----\n
 ---- dmxconvert output ----\n
 ---------------------------\n
 -> Discarding child %d replacement '%s'\n
 -AssetTargetGameRoot
--BH>t
 -allowasyncfilescan
 -allreadonlyassets
 -asyncassetscan
@@ -290,7 +299,6 @@ $prefix_element$
 -vwatch_locking
 -vwatch_not_required
 .00cfg
-.>\rfJBGo
 .?AU_Crt_new_delete@std@@
 .?AUctype_base@std@@
 .?AV<lambda_1>@?1???$ConvertFromBC6h@UBGRA8888_t@@$00@ImageLoader@@YA_NPEBEPEAUBGRA8888_t@@HH@Z@
@@ -752,7 +760,6 @@ $prefix_element$
 .tls$ZZZ
 .vmat
 .vpk
-.xJ>Hf
 .xdata
 .xdata$x
 // "act busy name"\t\tThis is the name that a mapmaker must specify in the hint node.\n
@@ -770,17 +777,11 @@ $prefix_element$
 // \t\t\t\t\t\t"BA_INT_DANGER"\t\tbreak out of this anim only if threatened\n
 // \t\t\t\t\t\t"BA_INT_NONE"\t\tbreak out only when time runs out. No external influence will break me out.\n
 // \t\t\t\t\t\t"BA_INT_PLAYER"\t\tbreak out of this anim if I can see the player, or I'm threatened\n
-/2GG>!B
 /AssetSystemSuspendFileChanges
-/P8i
 /TF<)VGy#WH
-/yQA
 0 0 0
 00000000-0000-0000-0000-000000000000
 0123456789abcdefghijklmnopqrstuvwxyz
-0E>X
-0X8b?~
-0iN>/
 0x%llx
 1#IND
 1#INF
@@ -788,38 +789,12 @@ $prefix_element$
 1#SNAN
 1.2.5
 1000
-11Y@
 16-byte data pool
-1A26b
 1DBlend
-1wsHp
-2\rU2h
-2\vp0
-2\vp4
-3 FB
-37>k
-3>N;kU
-3>fvw
-3?tr
 4-byte data pool
-51>W
-52F*
-58t*
-5sfm_v8
 64 283 0
-6NK>
-6\fXO>\ntA
-7>I0
-7?GX
-7~8A
-7~xh
-8&Kx
 8-byte data pool
 8b  16-May-2010
-8ke?;
-9>70
-9>powf
-9a&g
 :readonly_
 <!-- DMXVersion
 <!-- kv3 encoding:%s:version{%s} format:%s:version{%s} -->\n
@@ -830,20 +805,8 @@ $prefix_element$
 <no failure reason set>
 <null>
 <unconnected>
-=87M
 == (or missing)
 ==== AssetSystemTest Complete! ====\n
-=cQ6
-=e2m
-=imb;D
->Failed to save unsupported class
->cQ6
->jtm}S
-?!5WOo
-?49HoKC
-?7zQ6$
-?7{KV\nU
-?8bunz8
 ??0CThreadEvent@@QEAA@_N@Z
 ??0CThreadFastMutex@@QEAA@PEBD@Z
 ??0CThreadFastMutex@@QEAA@XZ
@@ -853,7 +816,6 @@ $prefix_element$
 ??1CThreadFullMutex@@QEAA@XZ
 ??1CThreadSemaphore@@QEAA@XZ
 ??1CThreadSyncObject@@QEAA@XZ
-?@En[vP
 ?AppendConcat@CBufferString@@QEAAPEBDHPEBQEBDPEBH_N@Z
 ?AppendFormat@CBufferString@@QEAAHPEBDZZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
@@ -885,7 +847,6 @@ $prefix_element$
 ?MakeAbsolutePath@CBufferString@@QEAAPEBDPEBD0@Z
 ?MakeRelativePath@CBufferString@@QEAAPEBDPEBD0@Z
 ?Purge@CBufferString@@QEAAXH@Z
-?R0I?
 ?Relinquish@CBufferString@@QEAAPEADW4EAllocationOption_t@1@@Z
 ?RemoveAt@CBufferString@@QEAAPEBDHH@Z
 ?RemoveDotSlashes@CBufferString@@QEAAPEBDD@Z
@@ -903,7 +864,6 @@ $prefix_element$
 ?Swap@CBufferString@@QEAAXAEAV1@@Z
 ?ToLowerFast@CBufferString@@QEAAXH@Z
 ?TruncateAt@CBufferString@@QEAAPEBDH_N@Z
-?UUUUUU
 ?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadFullMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
@@ -916,22 +876,12 @@ $prefix_element$
 ?V_stristr_fast@@YAPEBDPEBD0@Z
 ?Wait@CThreadSyncObject@@QEAA_NI@Z
 ?WaitForRead@CThreadRWLock@@AEAAXXZ
-?f`Y4
-?kxG2)
-?lZE
-?qBJ
-?rAj
-?ysB
-@Integer overflow in %s
-@Tools
 @child_asset
 @inherited_asset
 @no_content_asset
 @overridden_asset
 @readonly_asset
 @unreferenced_by_content_asset
-A!;I2
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABGR8888
 AE_ACTION_SET_TURN_RATE_SCALE
@@ -966,7 +916,6 @@ AE_VORTIGAUNT_ZAP_SHOOT
 AE_ZOMBIE_POPHEADCRAB
 AE_ZOMBIE_TOGGLE_HEAD
 AIWalkable
-AK>(v
 ALIGN_TYPE is wrong, please fix
 ANIMATION_TYPE_FIT_LIFETIME
 ANIMATION_TYPE_FIXED_RATE
@@ -1144,11 +1093,8 @@ Attempting to set %s when there is no current sequence!\n
 Attempting to set name when there is no current sequence!\n
 August
 AutoLayer
-B.f?y
 BA_INT_NONE
 BC6H
-BC?>6t9^\tc:>
-BF>^G
 BGR101111_UFLOAT
 BGR565
 BGR888
@@ -1162,7 +1108,6 @@ BGRA8888_LINEAR
 BGRX5551
 BGRX8888
 BGRX8888_LINEAR
-BKbhTb~XBK!;
 Backing store not supported
 Bad dynamic_cast!
 Bad expression operator: '%c%c', expected C style boolean expression operator.
@@ -1236,9 +1181,6 @@ BreakPieceEmbedded
 BreakPieceExternal
 BrowInV
 Buffer passed to JPEG library is too small
-C(None)
-C-Yn
-C5R?\t
 CAnimMotorList
 CAnimMovementManager
 CAsset::EnsureFileWritable( %s, %d ) -> %s\n
@@ -1252,6 +1194,7 @@ CAssetSystem::InitializeAssetSystem
 CAssetSystem::NotifyResourceStatusChange( %s ) - %s\n
 CAssetSystemTest::RunTests
 CAssetTypeConfig
+CAuthPhysBody
 CAuthPhysJoint
 CBaseFile::MustRead
 CBaseToolInfo
@@ -1308,7 +1251,6 @@ CInMemoryFilesystem::SetFileContentToString
 CInMemoryFilesystem::SetFileWritable
 CInMemoryFilesystem::TouchFileModifiedTime
 CKV3FormatManager::RegisterFormatConversion
-CL:>8
 CManifestInstance
 CMapAssetTypeInfo
 CMapCordon
@@ -1443,6 +1385,7 @@ CUtlRBTree<struct CUtlMap<int,class CUtlSymbolLarge,int,bool (__cdecl*)(int cons
 CUtlRBTree<void *,int,bool (__cdecl*)(void * const &,void * const &),class CUtlMemory<struct UtlRBTreeNode_t<void *,int>,int> >::NewNode
 CUtlStreamBuffer does not support TEXT_BUFFER's use CUtlBuffer\n
 CUtlString
+CUtlString::FormatV
 CUtlStringToken
 CUtlSymbol
 CUtlSymbolLarge
@@ -1455,7 +1398,6 @@ CVWatchClient::IsFileIgnoredByVWatchService()
 CVWatchClient::IsWatchingDir()
 CVWatchClient::UpdateLinkedWatchedDirectories()
 CVisibilityMgr
-CWD>~3
 C_INIT_AddVectorToVector
 C_INIT_AgeNoise
 C_INIT_CreateFromCPs
@@ -1720,6 +1662,7 @@ Dm Memory usage: type\t\t\t\tcount\ttotalsize\twastage %%\touter\t\tinner\t\tdat
 Dm Unserialize: Attempted to read an attribute ("%s") of an inappropriate type!\n
 DmAttributeAddedListenerInfo_t CUtlMemoryPool
 DmAttributeChangedListenerInfo_t CUtlMemoryPool
+DmAttributeList_t CUtlMemoryPool
 DmAttributeRemovedListenerInfo_t CUtlMemoryPool
 DmElement
 DmElementChangedListenerInfo_t CUtlMemoryPool
@@ -1823,7 +1766,6 @@ Double-register of KV3 conversion (from '%s' to '%s')
 Double-save to Member '%s'
 DumpModeDecode: Not enough data for scanline %d
 DynamicConfigList
-E>nEA
 ERROR recompiling: '%s'\n
 ERROR: Assetsystem cannot start: %s\n
 ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!\n
@@ -1833,7 +1775,6 @@ ERROR: Sequence number %d is too big!\n
 ERROR: Specified full path %s does not lie under the mod search path!)\n
 ERROR: Specified path %s could not be made content-relative\n
 ERROR: Unable to create an attribute handle! Save, quit, restart and clean up your file to have fewer elements!\n
-ET5>
 EXECUTABLE_PATH
 EXIFIFDOffset
 EXPORTSYSTEM_INTERFACE_VERSION_001
@@ -1841,11 +1782,9 @@ EXRHeader variable is not initialized.
 EXRReadFile() - B channel not found!\n
 EXRReadFile() - G channel not found!\n
 EXRReadFile() - R channel not found!\n
-E[\rn?gc
 EconItemToolModel_001
 EditGameClassProps
 EditorDynamicConfig
-EiUL
 Element uses unknown element type %s\n
 Empty JPEG image (DNL not supported)
 Empty input file
@@ -1920,10 +1859,8 @@ Expecting element type name, didn't find it!
 Expecting element type, didn't find it!
 Expecting quoted attribute value for attribute "%s", didn't find one!
 ExtraSamples
-F>qUxv
 FATAL ERROR: unable to register all schema data: %s\n
 FCVAR_NEVER_AS_STRING
-FEMh\f
 Facial Animation File
 Factory for element type '%s' already exists (Check your IMPLEMENT_ELEMENT_FACTORY macros for duplicate lookupNames)\n
 Failed to allocate an instance of a class
@@ -1939,6 +1876,7 @@ Failed to parse channel info.\n
 Failed to read %d bytes\n
 Failed to read attribute.\n
 Failed to remove expected relevant file '%s' for asset '%s' (can happen due to delays in processing file changes)\n
+Failed to save unsupported class
 Fax3Decode1D
 Fax3Decode2D
 Fax3DecodeRLE
@@ -1951,7 +1889,6 @@ FaxRecvParams
 FaxRecvTime
 FaxSubAddress
 February
-FfW?
 FieldOfViewCotangent
 File has not been opened!\n
 File not open for reading
@@ -2003,14 +1940,11 @@ FreeOffsets
 Freed EMS handle %u
 Freed XMS handle %u
 Friday
-Fsfm_v3
 FullDependencyList:\n
-G>US
 GAME
 GAMECONSOLE
 GAMEROOT
 GCTL
-GCUtlString::FormatV
 GPSIFDOffset
 Game
 Game (%s)
@@ -2097,8 +2031,6 @@ GrayResponseCurve
 GrayResponseUnit
 Group3Options
 Group4Options
-H$6t
-H*0"ZOW
 HH:mm:ss
 HIGHDPI
 HalftoneHints
@@ -2135,9 +2067,7 @@ Ignoring file change for file that is being written ( %s ) [retry %u]\n
 Ignoring file change for malformed path ( %s )\n
 Ignoring file change for non-asset file ( %s )\n
 Ignoring file change from unknown path ( %s )\n
-IiGM>nw
 IkLockLocal
-Il?333333c?
 Image data size is zero or too large: width = 
 Image packing validation failed!
 Image too wide for this implementation
@@ -2179,6 +2109,7 @@ Insufficient data size in offset table.
 Insufficient data size.\n
 Insufficient header/data size.\n
 Insufficient memory (case %d)
+Integer overflow in %s
 Intentionally vague touch behavior for %p\n
 InterlockedFlushSList
 Internal error, unknown tag 0x%x
@@ -2253,8 +2184,6 @@ KeyValues: Can't serialize attribute of type %s into KeyValues files!\n
 KeyValues: Element uses unknown element type %s\n
 KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s\n
 KeyValuesSystem
-L>ev
-L?UUUUUUU?
 LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
@@ -2274,8 +2203,6 @@ LINEAR_RGBA8888
 LINUX
 LOG_GENERAL
 LOWVIOLENCE
-LWG>
-LWW>
 LZWDecode: Bogus encoding, loop in the code table; scanline %d
 LZWDecode: Corrupted LZW table at scanline %d
 LZWDecode: Not enough data at scanline %d (short %ld bytes)
@@ -2339,13 +2266,10 @@ LoggingSystem_RegisterLoggingChannel
 LoggingSystem_RegisterLoggingListener
 LoggingSystem_SetChannelVerbosity
 LoggingSystem_SetLoggingResponsePolicy
-LrwcE
-M8MF
 MATCHFRAMEWORK_001
 MAX_ALLOC_CHUNK is wrong, please fix
 MClassHasCustomAlignedNewDelete
 MDefaultString
-MGiI
 MM/dd/yy
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
@@ -2401,14 +2325,9 @@ Movement Max Velocity
 MovieSettings
 MultiByteToWideChar
 N/A (No recompile expected)
-N3`d?
-N>O=I9
-N>VF
 NAN(IND)
 NAN(SNAN)
 NEW_DATA
-NJ2"v
-NQ?s
 NULL
 NULL != pFile
 NULL == FindFile( pFileName, NULL )
@@ -2462,10 +2381,7 @@ Not loaded.
 Not safe to 'new' this class due to alignment requirements
 November
 NumberOfInks
-O*9y]
 ORPHAN
-OZQ%
-OZw3(?
 Obtained EMS handle %u
 Obtained XMS handle %u
 October
@@ -2524,7 +2440,6 @@ Parent with missing children. (eg. '%s')
 ParseEXRHeaderFromMemory() failed! Error message: %s\n
 Particle Configuration File
 ParticleSystemMgr003
-Pe6^
 PeekNamedPipe
 Perform a detailed check of an asset's compile state
 Photometric tag is missing, assuming data is YCbCr
@@ -2570,7 +2485,6 @@ Plat_TickDiffMilliSecF
 Plat_TickDiffSecF
 Plat_UUIDFromString
 Plat_UUIDToString
-Po5H
 Position Along Path Random
 Position Along Path Sequential
 Position From Parent Particles
@@ -2601,10 +2515,7 @@ Procedural
 PropertyEditorSystem_001
 Proxies
 Q2XXR
-Q5rHg,>
-QAf?
 QAngle
-Qkkbal
 Quantization table 0x%02x was not defined
 Quantizing to %d = %d*%d*%d colors
 Quantizing to %d colors
@@ -2614,11 +2525,11 @@ QueuedLoaderVersion001
 R11_EAC
 R16F
 R16F_EXPAND
-R1h58
 R32F
 R32_UINT
 R8G8B8A8_ETC2_EAC
 R8G8B8_ETC2
+R8_UINT
 RESOURCE_ENCODING_COMPRESSED_BYTES
 RESOURCE_ENCODING_COUNT
 RESOURCE_ENCODING_INTROSPECTED
@@ -2655,10 +2566,7 @@ RGBA8888_LINEAR
 RGBX555
 RGBX8888
 RPCRT4.dll
-RSDS
 RST%d
-R\fp4
-R\vp0
 RadianEuler
 Radius Random
 Radius Scale
@@ -2750,9 +2658,6 @@ RtlPcToFileHeader
 RtlUnwind
 RtlUnwindEx
 RtlVirtualUnwind
-S+Ot
-S9>H
-S>$hkDh$h>[2
 SFM Session
 SFM Settings
 SFM TrackGroup
@@ -2762,7 +2667,6 @@ SGILog compression supported only for %s, or raw data
 SGILog24
 SGILogDataFmt
 SGILogEncode
-SKyu
 SMaxSampleValue
 SMinSampleValue
 SNAN)
@@ -2939,6 +2843,7 @@ ToolFramework2_002
 ToolSceneNodeFactory_001
 ToolScriptManager001
 ToolService_001
+Tools
 Tools Auto-Checkout
 Toolutils
 Totals
@@ -2953,8 +2858,6 @@ Trying to add a frame when there is no current sequence.\n
 Tuesday
 Two Bone
 Two KV3 format GUIDs with the same human-friendly name ('%s')
-U4tT
-UA>N0Wl
 UNKNOWN
 UNKNOWN ERROR
 UPDATE_STRING_TOKEN_DATABASE
@@ -3150,7 +3053,6 @@ Valve Make Sheet File
 Valve Map File
 Valve Material File
 Valve Texture Configuration File
-Vc0a
 VeaFOfb
 Vector
 Vector2D
@@ -3168,7 +3070,6 @@ VirtualAlloc
 Virual volume texture file
 VisBuilder_001
 Vwatch Retrieval of synchronization handle through app signal pipe failed with error code %d\n
-W=vmdlkeys0
 WARNING: Asset '%s' refers to dependency '%s' from nonexistent mod '%s' (file '%s')\n
 WARNING: Asset database '%s' corrupted (%d bytes) - forcing a full rescan.\n
 WARNING: Asset database '%s' has bad format signature (0x%X) - forcing a full rescan.\n
@@ -3193,7 +3094,6 @@ WARNING: Suppressing on-demand recompile of asset %s - already tried with this f
 WIN32
 WINDOWS
 WINXP
-WaNd?
 WaitForMultipleObjects
 WaitForSingleObject
 WaitForSingleObjectEx
@@ -3230,7 +3130,6 @@ WriteConsoleW
 WriteFile
 Wrong JPEG library version: library is %d, caller expects %d
 Wrote symbol stats to file: %s
-X/4B
 X360
 X360_DST16
 X360_DST24
@@ -3240,9 +3139,6 @@ XMLPacket
 XPosition
 XResolution
 XYZ, Luv
-XsBI
-Y8a:
-Y>kX>M
 YCbCrCoefficients
 YCbCrPositioning
 YCbCrSubsampling
@@ -3253,7 +3149,6 @@ Your VWatch installation is out of date<br><br>Install the newest VMPI from \\fi
 Your VWatch service is in an error state.<br><br>Please right click the VMPI Icon (green dot) in your system tray, click "VWatch...", then click "Restart"<br>If this happens frequently, please report it to <a href="mailto:dave@valvesoftware.com?subject=VWATCHCONNECTIONFAILURE_SERVICEINERRORSTATE">Dave K</a>, preferably before you've restarted the service<br><br><br>If all else fails, you can run with "-vwatch_not_required" to bypass this fatal error
 Your VWatch service is too busy for a connection attempt.<br><br>If you're doing something disk intensive, then this is expected.<br>You can try restarting in a moment, or reporting the failure to <a href="mailto:dave@valvesoftware.com?subject=VWATCHCONNECTIONFAILURE_TIMEDOUT">Dave K</a><br>Please include notes on what else you were doing at the time. Especially syncing and/or rebuilding content.<br><br><br>If all else fails, you can run with "-vwatch_not_required" to bypass this fatal error
 YpU_Z
-Z@&LHA'\r:C(
 ZFP compression is not supported.
 ZIPDecode
 ZIPEncode
@@ -3261,39 +3156,19 @@ ZIPPostEncode
 ZIPSetupDecode
 ZIPSetupEncode
 ZIPVSetField
-Z\>z8
-Zjz\v
 Zpm"U
 [%d] Aborting undo '%s'\n
 [%d] Popping undo '%s'\n
 [%d] Pushing undo '%s'\n
-[*ncd>0
 [Not a resource]
 [Unknown]
-[aOni*{
 [cached: %d][%d req]%s
-[h1R
 [manifest: %s]
 [no manifest]
 \\.\pipe\vwatch_appsignal
-\nCwf\r
 \nIHDRPLTEIDATIENDtRNScHRMgAMAiCCPsBITsRGBtEXtzTXtiTXtbKGDhISTpHYssPLTtIMEoFFseXIf
-\nati_compress_wrapper.dll
-\nh?oT
-\nk>oB
-\r\f\v\v\n\n\t\t\t\t\t
-\rmj>zjZ
-\tN1a
+\t%8d
 \tNAN encountered in element '%s' guid %s attribute '%s'!\n
-\t\t\n\n\v\v\f\f\f\f\r\r\r\r
-\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\tcQr
-\tkE>fvw
-\vA03>A|
-^<V7w
-^RfN>
-^oEZ_
 _RDATA
 _TIFFMergeFieldInfo
 _TIFFSetupFieldInfo
@@ -3344,7 +3219,6 @@ _linked_type_
 _logb
 _name
 _nextafter
-_oD>Kg
 _root_keyname
 _test_conversion_counter
 _toolsettings\asset_settings\
@@ -3385,7 +3259,6 @@ _user.txt
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
-a6>r
 abcdefghijklmnopqrstuvwxyz
 acos
 actBusy
@@ -3466,6 +3339,7 @@ assetsystem_test_resort
 assettypes.txt
 atan
 atan2
+ati_compress_wrapper.dll
 attach
 attach_point
 attachment
@@ -3547,7 +3421,6 @@ breakable_model
 breakable_skin
 brightness
 broken pipe
-bt3V
 buffer error
 burst_randomize
 burst_scale
@@ -3587,7 +3460,6 @@ c:\buildslave\hlvr_rel_win64\build\src\tier1\utlstring.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier2\schemabindings.cpp
 c:\buildslave\hlvr_rel_win64\build\src\utils\vwatch\vwatchlib\vwatch_internal.cpp
 c:\buildslave\hlvr_rel_win64\build\src\vpklib\packedstore.cpp
-c?FA@s}
 cable
 cannot read TIFF_ANY type %d for field "%s"
 cantdie
@@ -3687,10 +3559,6 @@ cubemap
 curve info
 curvetypes
 custom
-d8L2
-d?000000`?
-dQy/
-dRL>
 damage
 data
 data error
@@ -3753,8 +3621,6 @@ durationTime
 dxt5
 dynamic_interaction
 e+000
-eF>t
-eLK(w
 editorType
 element
 elementList
@@ -3782,7 +3648,6 @@ error
 event_class
 event_keys
 eventindex
-ewh/?y
 executable format error
 exit_anim
 exit_sequence
@@ -3795,9 +3660,6 @@ explosive_radius
 exportTags
 exporttags
 eyes
-fD>b
-fP~V
-fWi?
 fabs
 faceMergeAngle
 facial_animation
@@ -3852,7 +3714,6 @@ frexp
 friction
 fromAttribute
 fromElement
-fu`z
 function not supported
 functionName
 g_Cov_DetermineCompileState
@@ -3874,14 +3735,10 @@ gameitemclass
 gameunitclass
 generic
 glow
-gqr<
 gravity
 green
 gridspacing
 groupColor
-h0'D
-h>1my
-hPU3
 hammer
 handindex
 hcrop
@@ -3901,8 +3758,6 @@ host unreachable
 houdini
 hurt_me
 hurt_them
-i91k
-i]Wb
 icon
 identifier removed
 ikdata
@@ -3966,7 +3821,6 @@ jointList
 jointTransforms
 jointWeights
 jointWeightsIndices
-k=yI
 keyvalues
 keyvalues file
 keyvalues2
@@ -3974,11 +3828,8 @@ keyvalues2_flat
 keyvalues2_flat_v
 keyvalues2_noids
 keyvalues2_v
-l6qnk
-lDa>
 last_sniff
 layers
-lcQe
 ldexp
 leaf
 left
@@ -4015,10 +3866,6 @@ loop_break_on_flashlight
 loop_in_action
 looping
 lower_hemisphere_is_black
-m?H7
-mG4>
-mXr4
-m\nXo
 m_AdditionalExtensions
 m_AssetTypes
 m_AutoTags
@@ -4288,13 +4135,9 @@ multilevel
 multilevelchannel
 multiplayer_break
 must be either LogLUV or LogL
-n$Kx
-n03>Pu
 nCoverageHitPoints > 0
 nLayoffState
 nTries < 10000000
-n\f"pA3Q
-n]?iJ
 name
 nan(ind)
 nan(snan)
@@ -4352,9 +4195,6 @@ npcclass
 null
 numchannels
 numsegments
-o?GS
-oI>O7
-obwQ4
 offset
 offsetTime
 operation canceled
@@ -4373,10 +4213,8 @@ origin_max_delta
 origin_relative
 oscillate_scalar
 oscillate_vector
-owM&
 owner dead
 ownerlog
-p?DmAttributeList_t CUtlMemoryPool
 pAsset->CompileState() == ASSET_FILE_COMPILED
 pAsset->Test_GetRecompileCount() == 1
 pAsset->Test_GetRecompileCount() == 2
@@ -4458,6 +4296,7 @@ positionsIndices
 posterSettings
 postion_lock_to_controlpoint
 postprocessing
+powf
 preferred_carryangles
 preset
 presetGroups
@@ -4474,14 +4313,11 @@ proxyType
 pseudo-
 publiccontent_
 purecall
-qS>g?h3
 qangle
 qangle_array
 quaternion
 quaternion_array
 r.vres
-r\tVr.>T
-r\vp4
 radius
 radius0
 radius1
@@ -4534,8 +4370,6 @@ rotation_random
 rotation_speed_random
 rotation_spin
 rotation_spin yaw
-ru&o
-sAmTb
 saturation
 scale
 scaleColor
@@ -4569,10 +4403,12 @@ sfm_v
 sfm_v1
 sfm_v10
 sfm_v2
+sfm_v3
 sfm_v4
 sfm_v5
 sfm_v6
 sfm_v7
+sfm_v8
 sfm_v9
 shader
 shadow_color_day
@@ -4765,9 +4601,6 @@ useEdgeInfo
 use_additional_offset
 usecurvetypes
 useedgeinfo
-uzKs@>
-v2!L.2
-vQO+t
 value
 value too large
 valueDeltaRotation
@@ -4807,6 +4640,7 @@ visible
 vmap
 vmat
 vmdl
+vmdlkeys0
 vmdlkeys1
 vmdlkeys2
 vmdlkeys3
@@ -4862,10 +4696,6 @@ vtex
 vvtx
 vwnod
 vwrld
-w+OQvr
-w3Xc
-w8#5
-wXR\r
 wav_content_1
 wav_content_2
 wav_content_3
@@ -4873,7 +4703,6 @@ wav_content_4
 weightweight$0
 weightweight$0Indices
 width
-wn>Jj
 working_sets
 world
 world_point
@@ -4883,15 +4712,10 @@ wrinkle$0
 wrinkle$0Indices
 wrinkleIndices
 wrong protocol type
-xT?V
 xcoord
-y9*O
 yaw_end
 yaw_start
 ycoord
-z:KCAuthPhysBody
 zero
-{YIN?
-{kHw
 {}[]()=&, \t\n'"*;
 {}[]=, \t\n'":|;

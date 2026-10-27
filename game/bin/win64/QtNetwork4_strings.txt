@@ -1,7 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -10,15 +8,11 @@
  HTTP/%3.%4\r\n%5\r\n
  HTTP/1.1\r\n
  Type Descriptor'
- \f?number@QString@@SA?AV1@IH@Z
  delete
  delete[]
  new
  throw(
  volatile
-$\f?number@QString@@SA?AV1@_JH@Z
-$\n?isEmpty@QString@@QEBA_NXZ
-$\t?get@QThreadStorageData@@QEBAPEAPEAXXZ
 %*3s, %d %3s %d %d:%d:%d 'GMT'
 %02hX
 %1: Access denied
@@ -26,12 +20,7 @@ $\t?get@QThreadStorageData@@QEBAPEAPEAXXZ
 %1: Invalid name
 %1: Name error
 %1: Unknown error %2
-%\n?isEmpty@QStringRef@@QEBA_NXZ
 %d.%d.%d.%d
-&\t?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
-&\v?load@QSystemLibrary@@SAPEAUHINSTANCE__@@PEBG_N@Z
-'\n?isEmpty@QUrl@@QEBA_NXZ
-( 8PX
 ('8PW
 ()<>@,;:\"/[]?={}
 (\d+),(\d+),(\d+),(\d+),(\d+),(\d+)
@@ -184,7 +173,6 @@ $\t?get@QThreadStorageData@@QEBAPEAPEAXXZ
 .lnk
 /bearer
 0.0.0.0
-0J\td
 1.2.5
 100-continue
 127.0.0.1
@@ -357,23 +345,16 @@ $\t?get@QThreadStorageData@@QEBAPEAPEAXXZ
 2wantData(qint64)
 700PP
 700WP
-9\f?open@QBuffer@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
-9\r?qrand@@YAHXZ
-:\v?lock@QMutex@@QEAAXXZ
 ; HttpOnly
 ; boundary="
 ; domain=
 ; expires=
 ; path=
 ; secure
-;\r?qsrand@@YAXI@Z
 <DIR>
 <ellipsis>
 <local>
 <unknown>
-=\r?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
->\r?qstrcmp@@YAHPEBD0@Z
->\t?grow@QVectorData@@SAHHHH_N@Z
 ??0QAbstractNetworkCache@@IEAA@AEAVQAbstractNetworkCachePrivate@@PEAVQObject@@@Z
 ??0QAbstractNetworkCache@@IEAA@PEAVQObject@@@Z
 ??0QAbstractSocket@@IEAA@W4SocketType@0@AEAVQAbstractSocketPrivate@@PEAVQObject@@@Z
@@ -1120,28 +1101,42 @@ $\t?get@QThreadStorageData@@QEBAPEAPEAXXZ
 ?fromName@QHostInfo@@SA?AV1@AEBVQString@@@Z
 ?fromPercentEncoding@QUrl@@SA?AVQString@@AEBVQByteArray@@@Z
 ?fromRawData@QByteArray@@SA?AV1@PEBDH@Z
+?fromString@QDateTime@@SA?AV1@AEBVQString@@0@Z
+?fromString@QDateTime@@SA?AV1@AEBVQString@@W4DateFormat@Qt@@@Z
+?fromUtf8@QString@@SA?AV1@PEBDH@Z
+?fromWCharArray@QString@@SA?AV1@PEBGH@Z
 ?fullServerName@QLocalServer@@QEBA?AVQString@@XZ
 ?fullServerName@QLocalSocket@@QEBA?AVQString@@XZ
 ?get@QFtp@@QEAAHAEBVQString@@PEAVQIODevice@@W4TransferType@1@@Z
 ?get@QHttp@@QEAAHAEBVQString@@PEAVQIODevice@@@Z
 ?get@QNetworkAccessManager@@QEAAPEAVQNetworkReply@@AEBVQNetworkRequest@@@Z
+?get@QThreadStorageData@@QEBAPEAPEAXXZ
+?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
 ?greaterThan@QUrlInfo@@SA_NAEBV1@0H@Z
 ?group@QUrlInfo@@QEBA?AVQString@@XZ
+?grow@QVectorData@@SAHHHH_N@Z
+?handler@QVariant@@1PEBUHandler@1@EB
 ?hardwareAddress@QNetworkInterface@@QEBA?AVQString@@XZ
 ?hasContentLength@QHttpHeader@@QEBA_NXZ
 ?hasContentType@QHttpHeader@@QEBA_NXZ
+?hasExpired@QElapsedTimer@@QEBA_N_J@Z
 ?hasKey@QHttpHeader@@QEBA_NAEBVQString@@@Z
+?hasNext@QDirIterator@@QEBA_NXZ
 ?hasPendingCommands@QFtp@@QEBA_NXZ
 ?hasPendingConnections@QLocalServer@@UEBA_NXZ
 ?hasPendingConnections@QTcpServer@@UEBA_NXZ
 ?hasPendingDatagrams@QUdpSocket@@QEBA_NXZ
 ?hasPendingRequests@QHttp@@QEBA_NXZ
+?hasQuery@QUrl@@QEBA_NXZ
 ?hasRawHeader@QNetworkReply@@QEBA_NAEBVQByteArray@@@Z
 ?hasRawHeader@QNetworkRequest@@QEBA_NAEBVQByteArray@@@Z
+?hasShrunk@QHashData@@QEAAXXZ
+?hash@QCryptographicHash@@SA?AVQByteArray@@AEBV2@W4Algorithm@1@@Z
 ?head@QHttp@@QEAAHAEBVQString@@@Z
 ?head@QNetworkAccessManager@@QEAAPEAVQNetworkReply@@AEBVQNetworkRequest@@@Z
 ?header@QNetworkReply@@QEBA?AVQVariant@@W4KnownHeaders@QNetworkRequest@@@Z
 ?header@QNetworkRequest@@QEBA?AVQVariant@@W4KnownHeaders@1@@Z
+?host@QUrl@@QEBA?AVQString@@XZ
 ?hostFound@QAbstractSocket@@IEAAXXZ
 ?hostName@QHostInfo@@QEBA?AVQString@@XZ
 ?hostName@QNetworkProxy@@QEBA?AVQString@@XZ
@@ -1152,72 +1147,121 @@ $\t?get@QThreadStorageData@@QEBAPEAPEAXXZ
 ?incomingConnection@QLocalServer@@MEAAX_K@Z
 ?incomingConnection@QTcpServer@@MEAAXH@Z
 ?index@QNetworkInterface@@QEBAHXZ
+?indexIn@QByteArrayMatcher@@QEBAHAEBVQByteArray@@H@Z
+?indexIn@QRegExp@@QEBAHAEBVQString@@HW4CaretMode@1@@Z
+?indexOf@QByteArray@@QEBAHDH@Z
+?indexOf@QString@@QEBAHAEBVQLatin1String@@HW4CaseSensitivity@Qt@@@Z
+?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
 ?initialize@QNetworkConfigurationManagerPrivate@@QEAAXXZ
+?insert@QListData@@QEAAPEAPEAXH@Z
 ?insert@QNetworkDiskCache@@UEAAXPEAVQIODevice@@@Z
+?instance@QAbstractEventDispatcher@@SAPEAV1@PEAVQThread@@@Z
+?instance@QCoreApplication@@SAPEAV1@XZ
+?instance@QFactoryLoader@@QEBAPEAVQObject@@AEBVQString@@@Z
 ?interface@QNetworkSession@@QEBA?AVQNetworkInterface@@XZ
 ?interfaceFromIndex@QNetworkInterface@@SA?AV1@H@Z
 ?interfaceFromName@QNetworkInterface@@SA?AV1@AEBVQString@@@Z
+?invokeMethod@QMetaObject@@SA_NPEAVQObject@@PEBDVQGenericArgument@@222222222@Z
+?invokeMethod@QMetaObject@@SA_NPEAVQObject@@PEBDW4ConnectionType@Qt@@VQGenericArgument@@333333333@Z
 ?ip@QNetworkAddressEntry@@QEBA?AVQHostAddress@@XZ
 ?isCachingProxy@QNetworkProxy@@QEBA_NXZ
+?isDigit@QCharRef@@QEBA_NXZ
+?isDir@QFileInfo@@QEBA_NXZ
 ?isDir@QUrlInfo@@QEBA_NXZ
+?isEmpty@QByteArray@@QEBA_NXZ
+?isEmpty@QListData@@QEBA_NXZ
+?isEmpty@QString@@QEBA_NXZ
+?isEmpty@QStringRef@@QEBA_NXZ
+?isEmpty@QUrl@@QEBA_NXZ
 ?isExecutable@QUrlInfo@@QEBA_NXZ
 ?isFile@QUrlInfo@@QEBA_NXZ
 ?isFinished@QNetworkReply@@QEBA_NXZ
 ?isHttpOnly@QNetworkCookie@@QEBA_NXZ
 ?isInSubnet@QHostAddress@@QEBA_NAEBU?$QPair@VQHostAddress@@H@@@Z
 ?isInSubnet@QHostAddress@@QEBA_NAEBV1@H@Z
+?isLeapYear@QDate@@SA_NH@Z
 ?isListening@QLocalServer@@QEBA_NXZ
 ?isListening@QTcpServer@@QEBA_NXZ
+?isLocalFile@QUrl@@QEBA_NXZ
 ?isNull@QAuthenticator@@QEBA_NXZ
+?isNull@QByteArray@@QEBA_NXZ
 ?isNull@QHostAddress@@QEBA_NXZ
+?isNull@QString@@QEBA_NXZ
+?isNull@QVariant@@QEBA_NXZ
 ?isOnline@QNetworkConfigurationManager@@QEBA_NXZ
 ?isOnline@QNetworkConfigurationManagerPrivate@@QEBA_NXZ
+?isOpen@QIODevice@@QEBA_NXZ
 ?isOpen@QNetworkSession@@QEBA_NXZ
+?isReadable@QIODevice@@QEBA_NXZ
 ?isReadable@QUrlInfo@@QEBA_NXZ
 ?isRoamingAvailable@QNetworkConfiguration@@QEBA_NXZ
 ?isRunning@QNetworkReply@@QEBA_NXZ
 ?isSecure@QNetworkCookie@@QEBA_NXZ
 ?isSequential@QAbstractSocket@@UEBA_NXZ
+?isSequential@QFile@@UEBA_NXZ
+?isSequential@QIODevice@@UEBA_NXZ
 ?isSequential@QLocalSocket@@UEBA_NXZ
 ?isSequential@QNetworkReply@@UEBA_NXZ
 ?isSessionCookie@QNetworkCookie@@QEBA_NXZ
+?isSpace@QCharRef@@QEBA_NXZ
 ?isSymLink@QUrlInfo@@QEBA_NXZ
 ?isTransparentProxy@QNetworkProxy@@QEBA_NXZ
 ?isValid@QAbstractSocket@@QEBA_NXZ
+?isValid@QDate@@QEBA_NXZ
+?isValid@QDateTime@@QEBA_NXZ
 ?isValid@QHttpHeader@@QEBA_NXZ
 ?isValid@QLocalSocket@@QEBA_NXZ
 ?isValid@QNetworkCacheMetaData@@QEBA_NXZ
 ?isValid@QNetworkConfiguration@@QEBA_NXZ
 ?isValid@QNetworkInterface@@QEBA_NXZ
+?isValid@QUrl@@QEBA_NXZ
 ?isValid@QUrlInfo@@QEBA_NXZ
+?isValid@QVariant@@QEBA_NXZ
 ?isWritable@QUrlInfo@@QEBA_NXZ
 ?joinMulticastGroup@QUdpSocket@@QEAA_NAEBVQHostAddress@@@Z
 ?joinMulticastGroup@QUdpSocket@@QEAA_NAEBVQHostAddress@@AEBVQNetworkInterface@@@Z
+?keys@QFactoryLoader@@QEBA?AVQStringList@@XZ
 ?keys@QHttpHeader@@QEBA?AVQStringList@@XZ
+?killTimer@QObject@@QEAAXH@Z
+?lastIndexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
+?lastModified@QFileInfo@@QEBA?AVQDateTime@@XZ
 ?lastModified@QNetworkCacheMetaData@@QEBA?AVQDateTime@@XZ
 ?lastModified@QUrlInfo@@QEBA?AVQDateTime@@XZ
 ?lastRead@QUrlInfo@@QEBA?AVQDateTime@@XZ
 ?lastResponse@QHttp@@QEBA?AVQHttpResponseHeader@@XZ
+?latin1@QLatin1String@@QEBAPEBDXZ
 ?leaveMulticastGroup@QUdpSocket@@QEAA_NAEBVQHostAddress@@@Z
 ?leaveMulticastGroup@QUdpSocket@@QEAA_NAEBVQHostAddress@@AEBVQNetworkInterface@@@Z
+?left@QByteArray@@QEBA?AV1@H@Z
+?left@QString@@QEBA?AV1@H@Z
+?leftJustified@QByteArray@@QEBA?AV1@HD_N@Z
+?leftRef@QString@@QEBA?AVQStringRef@@H@Z
+?length@QByteArray@@QEBAHXZ
+?length@QString@@QEBAHXZ
 ?lessThan@QUrlInfo@@SA_NAEBV1@0H@Z
 ?list@QFtp@@QEAAHAEBVQString@@@Z
 ?listInfo@QFtp@@IEAAXAEBVQUrlInfo@@@Z
 ?listen@QLocalServer@@QEAA_NAEBVQString@@@Z
 ?listen@QTcpServer@@QEAA_NAEBVQHostAddress@@G@Z
+?load@QSystemLibrary@@SAPEAUHINSTANCE__@@PEBG_N@Z
 ?localAddress@QAbstractSocket@@QEBA?AVQHostAddress@@XZ
 ?localDomainName@QHostInfo@@SA?AVQString@@XZ
 ?localHostName@QHostInfo@@SA?AVQString@@XZ
 ?localPort@QAbstractSocket@@QEBAGXZ
 ?localPort@QNetworkProxyQuery@@QEBAHXZ
+?lock@QMutex@@QEAAXXZ
 ?login@QFtp@@QEAAHAEBVQString@@0@Z
 ?lookupHost@QHostInfo@@SAHAEBVQString@@PEAVQObject@@PEBD@Z
 ?lookupId@QHostInfo@@QEBAHXZ
+?mainThread@QCoreApplicationPrivate@@SAPEAVQThread@@XZ
 ?majorVersion@QHttpRequestHeader@@UEBAHXZ
 ?majorVersion@QHttpResponseHeader@@UEBAHXZ
 ?manager@QNetworkReply@@QEBAPEAVQNetworkAccessManager@@XZ
+?map@QFile@@QEAAPEAE_J0W4MemoryMapFlags@1@@Z
+?matchedLength@QRegExp@@QEBAHXZ
 ?maxPendingConnections@QLocalServer@@QEBAHXZ
 ?maxPendingConnections@QTcpServer@@QEBAHXZ
+?maxThreadCount@QThreadPool@@QEBAHXZ
 ?maximumCacheSize@QNetworkDiskCache@@QEBA_JXZ
 ?metaData@QNetworkDiskCache@@UEAA?AVQNetworkCacheMetaData@@AEBVQUrl@@@Z
 ?metaDataChanged@QNetworkReply@@IEAAXXZ
@@ -1225,9 +1269,13 @@ $\t?get@QThreadStorageData@@QEBAPEAPEAXXZ
 ?metaObject@QAbstractSocket@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QBearerEngine@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QBearerEnginePlugin@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QBuffer@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QFactoryLoader@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QFile@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QFtp@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QHttp@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QHttpMultiPart@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QIODevice@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QLocalServer@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QLocalSocket@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QNetworkAccessManager@@UEBAPEBUQMetaObject@@XZ
@@ -1238,15 +1286,31 @@ $\t?get@QThreadStorageData@@QEBAPEAPEAXXZ
 ?metaObject@QNetworkReply@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QNetworkSession@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QNetworkSessionPrivate@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QObject@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QSocketNotifier@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QTcpServer@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QTcpSocket@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QTemporaryFile@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QThread@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QTimer@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QUdpSocket@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QWinEventNotifier@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QWindowsPipeWriter@@UEBAPEBUQMetaObject@@XZ
 ?method@QHttpRequestHeader@@QEBA?AVQString@@XZ
+?mid@QByteArray@@QEBA?AV1@HH@Z
+?mid@QString@@QEBA?AV1@HH@Z
+?midRef@QString@@QEBA?AVQStringRef@@HH@Z
 ?migrate@QNetworkSession@@QEAAXXZ
 ?minorVersion@QHttpRequestHeader@@UEBAHXZ
 ?minorVersion@QHttpResponseHeader@@UEBAHXZ
+?mkdir@QDir@@QEBA_NAEBVQString@@@Z
 ?mkdir@QFtp@@QEAAHAEBVQString@@@Z
+?mkpath@QDir@@QEBA_NAEBVQString@@@Z
+?month@QDate@@QEBAHXZ
+?moveToThread@QObject@@QEAAXPEAVQThread@@@Z
+?msecsTo@QTime@@QEBAHAEBV1@@Z
 ?multicastInterface@QUdpSocket@@QEBA?AVQNetworkInterface@@XZ
+?name@QLocale@@QEBA?AVQString@@XZ
 ?name@QNetworkConfiguration@@QEBA?AVQString@@XZ
 ?name@QNetworkCookie@@QEBA?AVQByteArray@@XZ
 ?name@QNetworkInterface@@QEBA?AVQString@@XZ
@@ -1260,17 +1324,34 @@ $\t?get@QThreadStorageData@@QEBAPEAPEAXXZ
 ?newConfigurationActivated@QNetworkSessionPrivate@@IEAAXXZ
 ?newConnection@QLocalServer@@IEAAXXZ
 ?newConnection@QTcpServer@@IEAAXXZ
+?next@QDirIterator@@QEAA?AVQString@@XZ
+?nextNode@QHashData@@SAPEAUNode@1@PEAU21@@Z
 ?nextPendingConnection@QLocalServer@@UEAAPEAVQLocalSocket@@XZ
 ?nextPendingConnection@QTcpServer@@UEAAPEAVQTcpSocket@@XZ
+?node_create@QMapData@@QEAAPEAUNode@1@QEAPEAU21@HH@Z
+?node_delete@QMapData@@QEAAXQEAPEAUNode@1@HPEAU21@@Z
+?number@QByteArray@@SA?AV1@HH@Z
+?number@QByteArray@@SA?AV1@_JH@Z
+?number@QByteArray@@SA?AV1@_KH@Z
+?number@QString@@SA?AV1@HH@Z
+?number@QString@@SA?AV1@IH@Z
+?number@QString@@SA?AV1@_JH@Z
 ?onlineStateChanged@QNetworkConfigurationManager@@IEAAX_N@Z
 ?onlineStateChanged@QNetworkConfigurationManagerPrivate@@IEAAX_N@Z
+?open@QBuffer@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
+?open@QFile@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
+?open@QIODevice@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
 ?open@QNetworkSession@@QEAAXXZ
+?open@QTemporaryFile@@MEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
+?open@QTemporaryFile@@QEAA_NXZ
+?openMode@QIODevice@@QEBA?AV?$QFlags@W4OpenModeFlag@QIODevice@@@@XZ
 ?opened@QNetworkSession@@IEAAXXZ
 ?operation@QNetworkReply@@QEBA?AW4Operation@QNetworkAccessManager@@XZ
 ?option@QAuthenticator@@QEBA?AVQVariant@@AEBVQString@@@Z
 ?options@QAuthenticator@@QEBA?AV?$QHash@VQString@@VQVariant@@@@XZ
 ?originatingObject@QNetworkRequest@@QEBAPEAVQObject@@XZ
 ?owner@QUrlInfo@@QEBA?AVQString@@XZ
+?parent@QObject@@QEBAPEAV1@XZ
 ?parse@QHttpHeader@@IEAA_NAEBVQString@@@Z
 ?parseCookies@QNetworkCookie@@SA?AV?$QList@VQNetworkCookie@@@@AEBVQByteArray@@@Z
 ?parseLine@QHttpHeader@@MEAA_NAEBVQString@@H@Z
@@ -1279,8 +1360,13 @@ $\t?get@QThreadStorageData@@QEBAPEAPEAXXZ
 ?parseSubnet@QHostAddress@@SA?AU?$QPair@VQHostAddress@@H@@AEBVQString@@@Z
 ?password@QAuthenticator@@QEBA?AVQString@@XZ
 ?password@QNetworkProxy@@QEBA?AVQString@@XZ
+?password@QUrl@@QEBA?AVQString@@XZ
 ?path@QHttpRequestHeader@@QEBA?AVQString@@XZ
 ?path@QNetworkCookie@@QEBA?AVQString@@XZ
+?path@QUrl@@QEBA?AVQString@@XZ
+?peek@QIODevice@@QEAA_JPEAD_J@Z
+?peek@QIODevicePrivate@@UEAA?AVQByteArray@@_J@Z
+?peek@QIODevicePrivate@@UEAA_JPEAD_J@Z
 ?peerAddress@QAbstractSocket@@QEBA?AVQHostAddress@@XZ
 ?peerHostName@QNetworkProxyQuery@@QEBA?AVQString@@XZ
 ?peerName@QAbstractSocket@@QEBA?AVQString@@XZ
@@ -1291,17 +1377,28 @@ $\t?get@QThreadStorageData@@QEBAPEAPEAXXZ
 ?permissions@QUrlInfo@@QEBAHXZ
 ?pollEngines@QNetworkConfigurationManagerPrivate@@AEAAXXZ
 ?port@QNetworkProxy@@QEBAGXZ
+?port@QUrl@@QEBAHH@Z
+?port@QUrl@@QEBAHXZ
+?pos@QBuffer@@UEBA_JXZ
+?pos@QFile@@UEBA_JXZ
+?pos@QIODevice@@UEBA_JXZ
 ?post@QHttp@@QEAAHAEBVQString@@AEBVQByteArray@@PEAVQIODevice@@@Z
 ?post@QHttp@@QEAAHAEBVQString@@PEAVQIODevice@@1@Z
 ?post@QNetworkAccessManager@@QEAAPEAVQNetworkReply@@AEBVQNetworkRequest@@AEBVQByteArray@@@Z
 ?post@QNetworkAccessManager@@QEAAPEAVQNetworkReply@@AEBVQNetworkRequest@@PEAVQHttpMultiPart@@@Z
 ?post@QNetworkAccessManager@@QEAAPEAVQNetworkReply@@AEBVQNetworkRequest@@PEAVQIODevice@@@Z
+?postEvent@QCoreApplication@@SAXPEAVQObject@@PEAVQEvent@@@Z
 ?preferredConfigurationChanged@QNetworkSession@@IEAAXAEBVQNetworkConfiguration@@_N@Z
 ?preferredConfigurationChanged@QNetworkSessionPrivate@@IEAAXAEBVQNetworkConfiguration@@_N@Z
 ?prefixLength@QNetworkAddressEntry@@QEBAHXZ
 ?prepare@QNetworkDiskCache@@UEAAPEAVQIODevice@@AEBVQNetworkCacheMetaData@@@Z
+?prepend@QByteArray@@QEAAAEAV1@D@Z
+?prepend@QListData@@QEAAPEAPEAXXZ
+?prepend@QString@@QEAAAEAV1@AEBVQLatin1String@@@Z
+?previousNode@QHashData@@SAPEAUNode@1@PEAU21@@Z
 ?priority@QNetworkRequest@@QEBA?AW4Priority@1@XZ
 ?privateConfiguration@QNetworkSessionPrivate@@IEBA?AV?$QExplicitlySharedDataPointer@VQNetworkConfigurationPrivate@@@@AEBVQNetworkConfiguration@@@Z
+?property@QObject@@QEBA?AVQVariant@@PEBD@Z
 ?protocol@QHostAddress@@QEBA?AW4NetworkLayerProtocol@QAbstractSocket@@XZ
 ?protocolTag@QNetworkProxyQuery@@QEBA?AVQString@@XZ
 ?proxy@QAbstractSocket@@QEBA?AVQNetworkProxy@@XZ
@@ -1318,15 +1415,44 @@ $\t?get@QThreadStorageData@@QEBAPEAPEAXXZ
 ?put@QNetworkAccessManager@@QEAAPEAVQNetworkReply@@AEBVQNetworkRequest@@AEBVQByteArray@@@Z
 ?put@QNetworkAccessManager@@QEAAPEAVQNetworkReply@@AEBVQNetworkRequest@@PEAVQHttpMultiPart@@@Z
 ?put@QNetworkAccessManager@@QEAAPEAVQNetworkReply@@AEBVQNetworkRequest@@PEAVQIODevice@@@Z
+?putCharHelper@QIODevicePrivate@@UEAA_ND@Z
+?qAddPostRoutine@@YAXP6AXXZ@Z
+?qCompress@@YA?AVQByteArray@@PEBEHH@Z
+?qCritical@@YAXPEBDZZ
+?qDebug@@YA?AVQDebug@@XZ
+?qDebug@@YAXPEBDZZ
+?qDecodeDataUrl@@YA?AU?$QPair@VQString@@VQByteArray@@@@AEBVQUrl@@@Z
+?qDeleteInEventHandler@@YAXPEAVQObject@@@Z
+?qFatal@@YAXPEBDZZ
+?qFree@@YAXPEAX@Z
+?qHash@@YAIAEBVQByteArray@@@Z
 ?qHash@@YAIAEBVQHostAddress@@@Z
+?qHash@@YAIAEBVQString@@@Z
+?qIsEffectiveTLD@@YA_NAEBVQString@@@Z
+?qMalloc@@YAPEAX_K@Z
+?qMemCopy@@YAPEAXPEAXPEBX_K@Z
 ?qNetworkConfigurationManagerPrivate@@YAPEAVQNetworkConfigurationManagerPrivate@@XZ
+?qUncompress@@YA?AVQByteArray@@PEBEH@Z
+?qWarning@@YA?AVQDebug@@XZ
+?qWarning@@YAXPEBDZZ
+?qrand@@YAHXZ
+?qsrand@@YAXI@Z
+?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
+?qstrcmp@@YAHPEBD0@Z
+?qstricmp@@YAHPEBD0@Z
+?qstrncpy@@YAPEADPEADPEBDI@Z
+?qt_error_string@@YA?AVQString@@H@Z
 ?qt_metacall@QAbstractNetworkCache@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QAbstractSocket@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QBearerEngine@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QBearerEnginePlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QBuffer@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QFactoryLoader@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QFile@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QFtp@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QHttp@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QHttpMultiPart@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QIODevice@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QLocalServer@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QLocalSocket@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QNetworkAccessManager@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
@@ -1337,16 +1463,28 @@ $\t?get@QThreadStorageData@@QEBAPEAPEAXXZ
 ?qt_metacall@QNetworkReply@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QNetworkSession@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QNetworkSessionPrivate@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QNonContiguousByteDevice@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QSocketNotifier@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QTcpServer@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QTcpSocket@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QTemporaryFile@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QThread@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QTimer@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QUdpSocket@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QWinEventNotifier@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QWindowsPipeWriter@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacast@QAbstractNetworkCache@@UEAAPEAXPEBD@Z
 ?qt_metacast@QAbstractSocket@@UEAAPEAXPEBD@Z
 ?qt_metacast@QBearerEngine@@UEAAPEAXPEBD@Z
 ?qt_metacast@QBearerEnginePlugin@@UEAAPEAXPEBD@Z
+?qt_metacast@QBuffer@@UEAAPEAXPEBD@Z
+?qt_metacast@QFactoryLoader@@UEAAPEAXPEBD@Z
+?qt_metacast@QFile@@UEAAPEAXPEBD@Z
 ?qt_metacast@QFtp@@UEAAPEAXPEBD@Z
 ?qt_metacast@QHttp@@UEAAPEAXPEBD@Z
 ?qt_metacast@QHttpMultiPart@@UEAAPEAXPEBD@Z
+?qt_metacast@QIODevice@@UEAAPEAXPEBD@Z
 ?qt_metacast@QLocalServer@@UEAAPEAXPEBD@Z
 ?qt_metacast@QLocalSocket@@UEAAPEAXPEBD@Z
 ?qt_metacast@QNetworkAccessManager@@UEAAPEAXPEBD@Z
@@ -1357,9 +1495,18 @@ $\t?get@QThreadStorageData@@QEBAPEAPEAXXZ
 ?qt_metacast@QNetworkReply@@UEAAPEAXPEBD@Z
 ?qt_metacast@QNetworkSession@@UEAAPEAXPEBD@Z
 ?qt_metacast@QNetworkSessionPrivate@@UEAAPEAXPEBD@Z
+?qt_metacast@QNonContiguousByteDevice@@UEAAPEAXPEBD@Z
+?qt_metacast@QObject@@UEAAPEAXPEBD@Z
+?qt_metacast@QSocketNotifier@@UEAAPEAXPEBD@Z
 ?qt_metacast@QTcpServer@@UEAAPEAXPEBD@Z
 ?qt_metacast@QTcpSocket@@UEAAPEAXPEBD@Z
+?qt_metacast@QTemporaryFile@@UEAAPEAXPEBD@Z
+?qt_metacast@QThread@@UEAAPEAXPEBD@Z
+?qt_metacast@QTimer@@UEAAPEAXPEBD@Z
 ?qt_metacast@QUdpSocket@@UEAAPEAXPEBD@Z
+?qt_metacast@QWinEventNotifier@@UEAAPEAXPEBD@Z
+?qt_metacast@QWindowsPipeWriter@@UEAAPEAXPEBD@Z
+?qt_qFindChildren_helper@@YAXPEBVQObject@@AEBVQString@@PEBVQRegExp@@AEBUQMetaObject@@PEAV?$QList@PEAX@@@Z
 ?qt_qhostinfo_lookup@@YA?AVQHostInfo@@AEBVQString@@PEAVQObject@@PEBDPEA_NPEAH@Z
 ?qt_static_metacall@QAbstractNetworkCache@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_static_metacall@QAbstractSocket@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z
@@ -1382,6 +1529,7 @@ $\t?get@QThreadStorageData@@QEBAPEAPEAXXZ
 ?qt_static_metacall@QTcpSocket@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_static_metacall@QUdpSocket@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z
 ?queryType@QNetworkProxyQuery@@QEBA?AW4QueryType@1@XZ
+?quit@QThread@@QEAAXXZ
 ?quitPendingWaitsForOpened@QNetworkSessionPrivate@@IEAAXXZ
 ?rawCommand@QFtp@@QEAAHAEBVQString@@@Z
 ?rawCommandReply@QFtp@@IEAAXHAEBVQString@@@Z
@@ -1393,6 +1541,8 @@ $\t?get@QThreadStorageData@@QEBAPEAPEAXXZ
 ?rawHeaders@QNetworkCacheMetaData@@QEBA?AV?$QList@U?$QPair@VQByteArray@@V1@@@@@XZ
 ?read@QFtp@@QEAA_JPEAD_J@Z
 ?read@QHttp@@QEAA_JPEAD_J@Z
+?read@QIODevice@@QEAA?AVQByteArray@@_J@Z
+?read@QIODevice@@QEAA_JPEAD_J@Z
 ?readAll@QFtp@@QEAA?AVQByteArray@@XZ
 ?readAll@QHttp@@QEAA?AVQByteArray@@XZ
 ?readAll@QIODevice@@QEAA?AVQByteArray@@XZ
@@ -1928,7 +2078,6 @@ $\t?get@QThreadStorageData@@QEBAPEAPEAXXZ
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABOR\r\n
 ALLO 
-A\r?qstricmp@@YAHPEBD0@Z
 Accept-Encoding
 Accept-Language
 Accept-Ranges
@@ -1942,7 +2091,6 @@ August
 Authentication required
 AuthenticationRequiredError
 Authorization
-B\r?qstrncpy@@YAPEADPEADPEBDI@Z
 Backend is waiting for QNetworkSession to connect, but there is none!
 Basic 
 Bluetooth
@@ -1952,7 +2100,6 @@ CDMA2000
 CONNECT
 CONNECT 
 CWD 
-C\f?open@QFile@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
 Cache-Control
 Called with unknown socket object.
 Can not access socks5 bind data from different thread
@@ -2000,7 +2147,6 @@ CreateNamedPipeW
 Creating directory failed:\n%1
 DELE 
 DELETE
-D\f?open@QIODevice@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
 Data corrupted
 Datagram was too large to send
 DatagramTooLargeError
@@ -2015,8 +2161,6 @@ EPRT
 EPRT |
 EPSV
 EPSV\r\n
-E\f?open@QTemporaryFile@@MEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
-E\n?isLeapYear@QDate@@SA_NH@Z
 EncodePointer
 EnterCriticalSection
 EnumServicesStatusExW
@@ -2031,7 +2175,6 @@ Error while uploading %1: %2
 Error writing response to device
 Ethernet
 ExitProcess
-F\f?open@QTemporaryFile@@QEAA_NXZ
 FatalAppExitA
 Feb 29
 February
@@ -2043,8 +2186,6 @@ FlushFileBuffers
 FreeEnvironmentStringsW
 FreeLibrary
 Friday
-G\f?openMode@QIODevice@@QEBA?AV?$QFlags@W4OpenModeFlag@QIODevice@@@@XZ
-G\t?handler@QVariant@@1PEBUHandler@1@EB
 General SOCKSv5 server failure
 GetACP
 GetActiveWindow
@@ -2125,7 +2266,6 @@ IsRunning
 IsUp 
 IsValidCodePage
 IsValidLocale
-J\r?qt_error_string@@YA?AVQString@@H@Z
 January
 July
 June
@@ -2174,8 +2314,6 @@ MulticastTtlOption
 NTLM 
 NTLMSSP
 NULL
-N\n?isLocalFile@QUrl@@QEBA_NXZ
-N\v?mainThread@QCoreApplicationPrivate@@SAPEAVQThread@@XZ
 Netscape-Enterprise/3.
 Network access is disabled.
 Network error
@@ -2202,7 +2340,6 @@ Operation on non-socket
 Operation on socket is not supported
 OperationCanceledError
 Out of resources
-P0\td
 PASS 
 PASV
 PASV\r\n
@@ -2210,7 +2347,6 @@ PORT
 PORT 
 PORT\r\n
 POST
-PY\td
 PeekNamedPipe
 Permission denied
 Pragma
@@ -2469,8 +2605,6 @@ RETR
 RMD 
 RNFR 
 RNTO 
-RSDSK
-R\t?hasExpired@QElapsedTimer@@QEBA_N_J@Z
 RaiseException
 Range
 Read error reading from %1: %2
@@ -2603,128 +2737,9 @@ WriteConsoleW
 WriteFile
 Wrong content length
 XXXXXX
-Y\r?qt_metacall@QBuffer@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-[\n?isNull@QByteArray@@QEBA_NXZ
 [thunk]:
-\\f?parent@QObject@@QEBAPEAV1@XZ
-\\t?hasNext@QDirIterator@@QEBA_NXZ
-\\v?map@QFile@@QEAAPEAE_J0W4MemoryMapFlags@1@@Z
-\f?nextNode@QHashData@@SAPEAUNode@1@PEAU21@@Z
-\f?node_create@QMapData@@QEAAPEAUNode@1@QEAPEAU21@HH@Z
-\f?node_delete@QMapData@@QEAAXQEAPEAUNode@1@HPEAU21@@Z
-\f?number@QByteArray@@SA?AV1@HH@Z
-\f?number@QByteArray@@SA?AV1@_JH@Z
-\f?number@QByteArray@@SA?AV1@_KH@Z
-\f?number@QString@@SA?AV1@HH@Z
-\f?port@QUrl@@QEBAHH@Z
-\f?port@QUrl@@QEBAHXZ
-\f?pos@QBuffer@@UEBA_JXZ
-\f?pos@QFile@@UEBA_JXZ
-\f?pos@QIODevice@@UEBA_JXZ
-\f?postEvent@QCoreApplication@@SAXPEAVQObject@@PEAVQEvent@@@Z
-\f?prepend@QByteArray@@QEAAAEAV1@D@Z
-\f?prepend@QListData@@QEAAPEAPEAXXZ
-\f?prepend@QString@@QEAAAEAV1@AEBVQLatin1String@@@Z
-\f?previousNode@QHashData@@SAPEAUNode@1@PEAU21@@Z
-\f?property@QObject@@QEBA?AVQVariant@@PEBD@Z
-\f?putCharHelper@QIODevicePrivate@@UEAA_ND@Z
-\f?qAddPostRoutine@@YAXP6AXXZ@Z
-\f?qCompress@@YA?AVQByteArray@@PEBEHH@Z
-\f?qCritical@@YAXPEBDZZ
-\f?qDebug@@YA?AVQDebug@@XZ
-\f?qDebug@@YAXPEBDZZ
-\f?qDecodeDataUrl@@YA?AU?$QPair@VQString@@VQByteArray@@@@AEBVQUrl@@@Z
-\f?qDeleteInEventHandler@@YAXPEAVQObject@@@Z
-\f?qFatal@@YAXPEBDZZ
-\f?qFree@@YAXPEAX@Z
-\f?qHash@@YAIAEBVQByteArray@@@Z
-\f?qHash@@YAIAEBVQString@@@Z
-\f\r?qMemCopy@@YAPEAXPEAXPEBX_K@Z
-\n?isDigit@QCharRef@@QEBA_NXZ
-\n?isDir@QFileInfo@@QEBA_NXZ
-\n?isEmpty@QByteArray@@QEBA_NXZ
-\n?isEmpty@QListData@@QEBA_NXZ
-\n?isReadable@QIODevice@@QEBA_NXZ
-\n?isSequential@QFile@@UEBA_NXZ
-\n?isSequential@QIODevice@@UEBA_NXZ
-\n?isSpace@QCharRef@@QEBA_NXZ
-\n?isValid@QDate@@QEBA_NXZ
-\n?isValid@QDateTime@@QEBA_NXZ
-\n?isValid@QUrl@@QEBA_NXZ
-\n?isValid@QVariant@@QEBA_NXZ
-\n?keys@QFactoryLoader@@QEBA?AVQStringList@@XZ
-\n?killTimer@QObject@@QEAAXH@Z
-\n\r?qMalloc@@YAPEAX_K@Z
-\n\t?fromString@QDateTime@@SA?AV1@AEBVQString@@W4DateFormat@Qt@@@Z
-\n\v?latin1@QLatin1String@@QEBAPEBDXZ
-\r?qIsEffectiveTLD@@YA_NAEBVQString@@@Z
-\r?qUncompress@@YA?AVQByteArray@@PEBEH@Z
-\r?qWarning@@YA?AVQDebug@@XZ
-\r?qWarning@@YAXPEBDZZ
-\r?qt_metacall@QWinEventNotifier@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-\r?qt_metacall@QWindowsPipeWriter@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-\r?qt_metacast@QBuffer@@UEAAPEAXPEBD@Z
-\r?qt_metacast@QFactoryLoader@@UEAAPEAXPEBD@Z
-\r?qt_metacast@QFile@@UEAAPEAXPEBD@Z
-\r?qt_metacast@QIODevice@@UEAAPEAXPEBD@Z
-\r?qt_metacast@QNonContiguousByteDevice@@UEAAPEAXPEBD@Z
-\r?qt_metacast@QObject@@UEAAPEAXPEBD@Z
-\r?qt_metacast@QSocketNotifier@@UEAAPEAXPEBD@Z
-\r?qt_metacast@QTemporaryFile@@UEAAPEAXPEBD@Z
-\r?qt_metacast@QThread@@UEAAPEAXPEBD@Z
-\r?qt_metacast@QTimer@@UEAAPEAXPEBD@Z
-\r?qt_metacast@QWinEventNotifier@@UEAAPEAXPEBD@Z
-\r?qt_metacast@QWindowsPipeWriter@@UEAAPEAXPEBD@Z
-\r?qt_qFindChildren_helper@@YAXPEBVQObject@@AEBVQString@@PEBVQRegExp@@AEBUQMetaObject@@PEAV?$QList@PEAX@@@Z
-\r?quit@QThread@@QEAAXXZ
-\r?read@QIODevice@@QEAA?AVQByteArray@@_J@Z
-\r?read@QIODevice@@QEAA_JPEAD_J@Z
-\t?fromUtf8@QString@@SA?AV1@PEBDH@Z
-\t?fromWCharArray@QString@@SA?AV1@PEBGH@Z
-\t?indexIn@QByteArrayMatcher@@QEBAHAEBVQByteArray@@H@Z
-\t?indexIn@QRegExp@@QEBAHAEBVQString@@HW4CaretMode@1@@Z
-\t?indexOf@QByteArray@@QEBAHDH@Z
-\t?indexOf@QString@@QEBAHAEBVQLatin1String@@HW4CaseSensitivity@Qt@@@Z
-\t?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
-\t?insert@QListData@@QEAAPEAPEAXH@Z
-\t?instance@QAbstractEventDispatcher@@SAPEAV1@PEAVQThread@@@Z
-\t?instance@QCoreApplication@@SAPEAV1@XZ
-\t?instance@QFactoryLoader@@QEBAPEAVQObject@@AEBVQString@@@Z
-\t?invokeMethod@QMetaObject@@SA_NPEAVQObject@@PEBDVQGenericArgument@@222222222@Z
-\t?invokeMethod@QMetaObject@@SA_NPEAVQObject@@PEBDW4ConnectionType@Qt@@VQGenericArgument@@333333333@Z
-\t\t?fromString@QDateTime@@SA?AV1@AEBVQString@@0@Z
-\v?lastIndexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
-\v?lastModified@QFileInfo@@QEBA?AVQDateTime@@XZ
-\v?left@QByteArray@@QEBA?AV1@H@Z
-\v?left@QString@@QEBA?AV1@H@Z
-\v?leftJustified@QByteArray@@QEBA?AV1@HD_N@Z
-\v?leftRef@QString@@QEBA?AVQStringRef@@H@Z
-\v?length@QByteArray@@QEBAHXZ
-\v?length@QString@@QEBAHXZ
-\v?metaObject@QFactoryLoader@@UEBAPEBUQMetaObject@@XZ
-\v?metaObject@QFile@@UEBAPEBUQMetaObject@@XZ
-\v?metaObject@QIODevice@@UEBAPEBUQMetaObject@@XZ
-\v?metaObject@QObject@@UEBAPEBUQMetaObject@@XZ
-\v?metaObject@QSocketNotifier@@UEBAPEBUQMetaObject@@XZ
-\v?metaObject@QTemporaryFile@@UEBAPEBUQMetaObject@@XZ
-\v?metaObject@QThread@@UEBAPEBUQMetaObject@@XZ
-\v?metaObject@QTimer@@UEBAPEBUQMetaObject@@XZ
-\v?metaObject@QWinEventNotifier@@UEBAPEBUQMetaObject@@XZ
-\v?metaObject@QWindowsPipeWriter@@UEBAPEBUQMetaObject@@XZ
-\v?mid@QByteArray@@QEBA?AV1@HH@Z
-\v?mid@QString@@QEBA?AV1@HH@Z
-\v?midRef@QString@@QEBA?AVQStringRef@@HH@Z
-\v?mkdir@QDir@@QEBA_NAEBVQString@@@Z
-\v?mkpath@QDir@@QEBA_NAEBVQString@@@Z
-\v?month@QDate@@QEBAHXZ
-\v?moveToThread@QObject@@QEAAXPEAVQThread@@@Z
-\v?msecsTo@QTime@@QEBAHAEBV1@@Z
-\v?name@QLocale@@QEBA?AVQString@@XZ
-\v?next@QDirIterator@@QEAA?AVQString@@XZ
 ^([\-dl])([a-zA-Z\-]{9,9})\s+\d+\s+(\S*)\s+(\S*)\s+(\d+)\s+(\S+\s+\S+\s+\S+)\s+(\S.*)
 ^(\d\d-\d\d-\d\d\ \ \d\d:\d\d[AP]M)\s+(<DIR>|\d+)\s+(\S.*)$
-^\r?qt_metacall@QFactoryLoader@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-_\r?qt_metacall@QFile@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 __based(
 __cdecl
 __clrcall
@@ -2822,7 +2837,6 @@ _q_user-agent
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static destructor helper'
 `local static guard'
 `local static thread guard'
@@ -2856,7 +2870,6 @@ _q_user-agent
 `virtual displacement map'
 `vtordispex{
 `vtordisp{
-a\t?hasQuery@QUrl@@QEBA_NXZ
 abcdefghijklmnopqrstuvwxyz
 abort()
 abortHttpRequest()
@@ -2894,7 +2907,6 @@ bytes on socket.
 bytes=
 bytesReceived,bytesTotal
 bytesSent,bytesTotal
-c\f?password@QUrl@@QEBA?AVQString@@XZ
 cache-control
 cacheCredentials(QHttpNetworkRequest,QAuthenticator*)
 cacheCredentialsSlot(QHttpNetworkRequest,QAuthenticator*)
@@ -2952,8 +2964,6 @@ content-type missing in HTTP POST, defaulting to application/x-www-form-urlencod
 cookie
 could not open device for reading
 czech
-d\r?qt_metacall@QIODevice@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-d\t?hasShrunk@QHashData@@QEAAXXZ
 data
 dataArray,dataAtEnd,dataSize
 dataReadProgress(int,int)
@@ -3049,7 +3059,6 @@ ftpConnectionReady(QNetworkAccessCache::CacheableObject*)
 ftpDone()
 ftpRawCommandReply(int,QString)
 ftpReadyRead()
-g\r?qt_metacall@QNonContiguousByteDevice@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 generic
 generic-type-
 german-austrian
@@ -3060,10 +3069,6 @@ getaddrinfo
 getnameinfo
 great britain
 gzip
-h\f?path@QUrl@@QEBA?AVQString@@XZ
-h\n?isNull@QString@@QEBA_NXZ
-h\r?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-h\t?hash@QCryptographicHash@@SA?AVQByteArray@@AEBV2@W4Algorithm@1@@Z
 haveDataSlot(QByteArray,bool,qint64)
 haveUploadData(QByteArray,bool,qint64)
 headerChanged()
@@ -3094,10 +3099,8 @@ iphlpapi
 irish-english
 isOnline
 italian-swiss
-j\v?matchedLength@QRegExp@@QEBAHXZ
 javascript
 keep-alive
-l\n?isNull@QVariant@@QEBA_NXZ
 last-modified
 listInfo(QUrlInfo)
 localhost
@@ -3105,7 +3108,6 @@ localhost.
 location
 long
 long 
-m\v?maxThreadCount@QThreadPool@@QEBAHXZ
 max-age
 md5-sess
 metaData
@@ -3132,7 +3134,6 @@ norwegian-bokmal
 norwegian-nynorsk
 ntlm
 numBytes
-o\n?isOpen@QIODevice@@QEBA_NXZ
 object
 onlineStateChanged(bool)
 opaque
@@ -3140,9 +3141,7 @@ opaque="
 open()
 opened()
 operator
-pA\td
 path
-pc\td
 pollEngines()
 portuguese-brazilian
 pr china
@@ -3165,12 +3164,10 @@ proxy-socks5
 proxyAuthenticationRequired(QNetworkProxy,QAuthenticator*)
 public: 
 puerto-rico
-q\f?peek@QIODevice@@QEAA_JPEAD_J@Z
 qint64
 quint16
 quit
 quitPendingWaitsForOpened()
-r\f?peek@QIODevicePrivate@@UEAA?AVQByteArray@@_J@Z
 rawCommandReply(int,QString)
 rawFtpReply(int,QString)
 readBufferFreed(qint64)
@@ -3204,7 +3201,6 @@ resp
 response="
 responseHeaderReceived(QHttpResponseHeader)
 resultsReady(QHostInfo)
-s\f?peek@QIODevicePrivate@@UEAA_JPEAD_J@Z
 secure
 sendCacheContents(QNetworkCacheMetaData)
 sentUploadDataSlot(qint64)
@@ -3280,7 +3276,6 @@ synchronousFinishedWithErrorSlot(QNetworkReply::NetworkError)
 synchronousFinishedWithErrorSlot(QNetworkReply::NetworkError,QString)
 synchronousHeaderChangedSlot()
 synchronousProxyAuthenticationRequiredSlot(QNetworkProxy,QAuthenticator*)
-t\r?qt_metacall@QSocketNotifier@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 template-parameter-
 text/
 tier0.dll
@@ -3288,7 +3283,6 @@ trailers
 transfer-encoding
 trinidad & tobago
 true
-u\t?host@QUrl@@QEBA?AVQString@@XZ
 union 
 united-kingdom
 united-states
@@ -3308,7 +3302,6 @@ void
 void 
 volatile
 volatile 
-w\r?qt_metacall@QTemporaryFile@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 waitForThreadPoolDone()
 wantData(qint64)
 wantUploadDataSlot(qint64)
@@ -3320,11 +3313,6 @@ writeNotification
 writeNotification()
 ws2_32
 www-authenticate
-xppwpp
-xpxxxx
-y\r?qt_metacall@QThread@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 yyyyMMddHHmmss
 {flat}
 {for 
-|\r?qt_metacall@QTimer@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-|\v?metaObject@QBuffer@@UEBAPEBUQMetaObject@@XZ

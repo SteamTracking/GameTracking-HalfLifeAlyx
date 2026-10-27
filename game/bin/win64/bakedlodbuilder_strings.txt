@@ -1,12 +1,9 @@
                           
                 AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZUPDATE_STRING_TOKEN_DATABASE
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  * Requested DmAttribute of value of type "%s" From DmAttribute "%s" which is type "%s"\n
  -testmode
  Base Class Array'
  Base Class Descriptor at (
- C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
  Type Descriptor'
@@ -24,14 +21,11 @@
 "%s" "{ %d %d %d }"\n
 "ActBusy.txt"\n
 "Proxies"\n
-"e?<<<<<<l?
 "id" "elementid" 
-#<default
 #base
 #base is NULL 
 #include
 #include is NULL 
-$Ib?s
 $prefix_attribute$
 $prefix_element$
 %-40s\t%6d\t%9d\t\t%5.2f
@@ -39,12 +33,18 @@ $prefix_element$
 %.10f
 %05d,     0x%p,     %5d,      '%s'\n
 %08x
+%d %d %d
 %d %d %d %d
+%d,%d
+%d,%d,%d
 %d,%d,%d,%d
 %d_%lld_%x.dmx
 %d_%lld_%x_in.dmx
+%f %f
+%f %f %f
 %f %f %f %f
 %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f
+%f,%f
 %f,%f,%f,%f
 %i %i %i %i
 %i.txt
@@ -53,22 +53,26 @@ $prefix_element$
 %llx
 %s (%s -> %s)
 %s (%s) = remove( pos %i, count %i )
+%s - %s
 %s channel
 %s encoding %s %d format %s %d %s\n
+%s%s
 %s(%d) : %s\n
+%s(%s)
 %s(%s) = %s
 %s: Element uses unknown element type %s\n
 %s: string format requested %d chars\n
+%s:%s
 %sEdgeActive
 %sEdgeCurveType
 %sEdgeValue
 %sIndices
+%s\%s
 %s\Settings
-&?PPPPPPP?
-&Sgw
+(%d,%d
+(%d,%d,%d
 (%d,%d,%d,%d
 (null)
-)yIx
 *** Converter error - element "%s" already has a non-int attribute "%s"!\n
 *** Element "%s" has attribute "%s" with an unexpected type!\n
 *** Log "%s" has attribute "%s" with an unexpected type (expected int array)!\n
@@ -85,13 +89,10 @@ $prefix_element$
 *** line error: 'rgb+a' packing cannot pack image '%s' belonging to sequences %d and %d!\n
 *** line error: incompatible packmode change when %d sequences already defined!\n
 *** line error: invalid sequence type '%s', packing 'flat' allows only 'sequence-rgba'!\n
-*StO9>T
 +inf
-,HR>O
 ---- dmxconvert cmdline ----\n
 ---- dmxconvert output ----\n
 ---------------------------\n
--BH>t
 -avx
 -enable_2gb_morphs
 -inf
@@ -102,7 +103,6 @@ $prefix_element$
 -sse3
 -sse4
 .00cfg
-.>\rfJBGo
 .?AV?$CBaseAppSystem@VIAppSystem@@@@
 .?AV?$CBaseAppSystem@VIDataModel@@@@
 .?AV?$CBaseAppSystem@VIDmElementFramework@@@@
@@ -685,7 +685,6 @@ $prefix_element$
 .tls$
 .tls$ZZZ
 .vmat
-.xJ>Hf
 .xdata
 .xdata$x
 // "act busy name"\t\tThis is the name that a mapmaker must specify in the hint node.\n
@@ -703,61 +702,24 @@ $prefix_element$
 // \t\t\t\t\t\t"BA_INT_DANGER"\t\tbreak out of this anim only if threatened\n
 // \t\t\t\t\t\t"BA_INT_NONE"\t\tbreak out only when time runs out. No external influence will break me out.\n
 // \t\t\t\t\t\t"BA_INT_PLAYER"\t\tbreak out of this anim if I can see the player, or I'm threatened\n
-/2GG>!B
 0 0 0
 0123456789abcdefghijklmnopqrstuvwxyz
-0E>X
-0X8b?~
-0iN>/
 0x%llx
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-11Y@
 16-byte data pool
 1DBlend
-1sAL"
-2\vp(B
-3 FB
-37>k
-3>N;kU
-3>fvw
-3?tr
 4-byte data pool
-51>W
-5sfm_v8
 64 283 0
-6NK>
-6\fXO>\ntA
-7>I0
-7?GX
-7~xh
 8-byte data pool
-8ClipBoard
-8ke?;
-9>70
-9>powf
 <!-- DMXVersion
 <NULL>
 <no failure reason set>
-=87M
-=cQ6
-=e2m
-=imb;D
->FixupResourceName: Illegal full path passed in ("%s")!\n
->cQ6
->jtm}S
-?!5WOo
-?49HoKC
-?7zQ6$
-?7{KV\nU
-?8bunz8
 ??0CThreadMutex@@QEAA@XZ
-?@En[vP
 ?AppendFormat@CBufferString@@QEAAHPEBDZZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
-?CDmeShape CUtlMemoryPool
 ?ComposeFileName@CBufferString@@QEAAPEBDPEBD0D@Z
 ?ConColorMsg@@YAXAEBVColor@@PEBDZZ
 ?ConMsg@@YAXPEBDZZ
@@ -775,7 +737,6 @@ $prefix_element$
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?MakeAbsolutePath@CBufferString@@QEAAPEBDPEBD0@Z
 ?Purge@CBufferString@@QEAAXH@Z
-?R0I?
 ?RemoveAt@CBufferString@@QEAAPEBDHH@Z
 ?RemoveDotSlashes@CBufferString@@QEAAPEBDD@Z
 ?SetExtension@CBufferString@@QEAAPEBDPEBD@Z
@@ -785,17 +746,9 @@ $prefix_element$
 ?StartsWith@CBufferString@@QEAA_NPEBD@Z
 ?ToLowerFast@CBufferString@@QEAAXH@Z
 ?TruncateAt@CBufferString@@QEAAPEBDH_N@Z
-?UUUUUU
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?V_SplitString@@YAXPEBD0AEAV?$CUtlVector@PEADV?$CUtlMemory@PEADH@@@@@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
-?f`Y4
-?kxG2)
-?lZE
-?qBJ
-?rAj
-?ysB
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.dll
 AE_ACTION_SET_TURN_RATE_SCALE
@@ -830,7 +783,6 @@ AE_VORTIGAUNT_ZAP_SHOOT
 AE_ZOMBIE_POPHEADCRAB
 AE_ZOMBIE_TOGGLE_HEAD
 AIWalkable
-AK>(v
 ANIMATION_TYPE_FIT_LIFETIME
 ANIMATION_TYPE_FIXED_RATE
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
@@ -897,8 +849,6 @@ August
 AutoLayer
 B-Spline
 BA_INT_NONE
-BC?>6t9^\tc:>
-BF>^G
 Bad expression operator: '%c%c', expected C style boolean expression operator.
 Bad expression syntax: '%s', expected a single matching pair of enclosing braces.
 Bad expression token: %c
@@ -926,7 +876,6 @@ BreakCommand
 BreakPieceEmbedded
 BreakPieceExternal
 BrowInV
-C5R?\t
 CAnimMotorList
 CAnimMovementManager
 CDataModel:  %i elements left in memory!!!\n
@@ -1035,6 +984,7 @@ CDmeRigSplineConstraintOperator::Operate
 CDmeRigTwistConstraintOperator CUtlMemoryPool
 CDmeRigTwistConstraintOperator::Operate
 CDmeRigTwistSlave CUtlMemoryPool
+CDmeShape CUtlMemoryPool
 CDmeSheetImage
 CDmeSheetSequence
 CDmeSheetSequenceFrame
@@ -1081,7 +1031,6 @@ CDmeVertexDataBase CUtlMemoryPool
 CDmeVertexDeltaData CUtlMemoryPool
 CHammerMesh
 CImagePlaneNode
-CL:>8
 CManifestInstance
 CMapCordon
 CMapDotaTileGrid
@@ -1131,6 +1080,7 @@ CUndoManager::Undo
 CUtlBlockMemory overflow!\n
 CUtlBlockMemory<struct UtlRBTreeNode_t<struct CDmElementSerializationDictionary::ElementInfo_t,int>,int>::ChangeSize
 CUtlBuffer::VaPrintf
+CUtlBuffer::VaPrintf: String overflowed buffer [%llu]\n
 CUtlFixedMemory overflow!\n
 CUtlFixedMemory<struct UtlLinkedListElem_t<struct CUtlHashFast<enum DmElementHandle_t,class CUtlHashFastNoHash>::HashFastData_t_<enum DmElementHandle_t>,__int64> >::Grow
 CUtlLinkedList overflow! (exhausted index range)\n
@@ -1182,7 +1132,6 @@ CUtlRBTree<void *,int,bool (__cdecl*)(void * const &,void * const &),class CUtlM
 CUtlStreamBuffer does not support TEXT_BUFFER's use CUtlBuffer\n
 CUtlString::FormatV
 CVisibilityMgr
-CWD>~3
 C_INIT_AddVectorToVector
 C_INIT_AgeNoise
 C_INIT_CreateFromCPs
@@ -1275,6 +1224,7 @@ Catmull-Rom (Norm X)
 Catmull-Rom (Norm)
 Catmull-Rom (Tangent)
 CheekH
+ClipBoard
 CloseClipboard
 CloseHandle
 CloseLid
@@ -1474,22 +1424,17 @@ DmeVertexDeltaData
 Done (%.2f seconds)                    \n
 DotaCardGameClient_001
 DynamicConfigList
-E>nEA
-E?WIN32
 ERROR: Sequence %d already specified!\n
 ERROR: Sequence %d is missing, total of %d sequences!\n
 ERROR: Sequence number %d is too big!\n
 ERROR: Unable to create an attribute handle! Save, quit, restart and clean up your file to have fewer elements!\n
-ET5>
 EXPORTSYSTEM_INTERFACE_VERSION_001
-E[\rn?gc
 Ease In
 Ease In/Out
 Ease Out
 EconItemToolModel_001
 EditGameClassProps
 EditorDynamicConfig
-EiUL
 Element uses unknown element type %s\n
 EmptyAnim
 EmptyClipboard
@@ -1524,13 +1469,10 @@ Expecting element type name, didn't find it!
 Expecting element type, didn't find it!
 Expecting quoted attribute value for attribute "%s", didn't find one!
 Exponential Decay
-F>qUxv
 FATAL ERROR: unable to register all schema data: %s\n
-FEMh\f
 Facial Animation File
 Factory for element type '%s' already exists (Check your IMPLEMENT_ELEMENT_FACTORY macros for duplicate lookupNames)\n
 February
-FfW?
 File has not been opened!\n
 Film
 FindClose
@@ -1539,6 +1481,7 @@ FindNextFileW
 Fingers
 Fingers_L
 Fingers_R
+FixupResourceName: Illegal full path passed in ("%s")!\n
 FixupResourceName: Illegal path, missing extension passed in ("%s")!\n
 FlattenLayers
 FlattenedSerializersVersion001
@@ -1553,14 +1496,10 @@ FontManager_001
 FreeEnvironmentStringsW
 FreeLibrary
 Friday
-Fsfm_v3
-G>US
 GAMECONSOLE
 GBuffer
 GBufferNormalSpecExp
 GCTL
-GCUtlBuffer::VaPrintf: String overflowed buffer [%llu]\n
-Ga=UU
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameUIService_001
@@ -1624,7 +1563,6 @@ IND)ind)INF
 INITY
 IQuickTime001
 IkLockLocal
-Il?333333c?
 Image packing validation failed!
 Improper number of values for crop coordinates. Need 4 in the format of ( xstart, ystart, xend, yend )!
 Index      Address       References   String\n
@@ -1671,15 +1609,11 @@ KeyValuesSystem
 Kochanek-Bartels
 Kochanek-Bartels Early
 Kochanek-Bartels Late
-L>ev
-L?UUUUUUU?
 LCMapStringEx
 LCMapStringW
 LINUX
 LOG_GENERAL
 LOWVIOLENCE
-LWG>
-LWW>
 Last two rows as percentage of total size %f %%:\n
 Layer %d:  adding key at time %d [%d -> %d], value 
 Leaking %i elements\n
@@ -1710,7 +1644,6 @@ LoggingSystem_PushLoggingState
 LoggingSystem_RegisterLoggingChannel
 LoggingSystem_RegisterLoggingListener
 LoggingSystem_SetLoggingResponsePolicy
-LrwcE
 MATCHFRAMEWORK_001
 MM/dd/yy
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
@@ -1725,7 +1658,6 @@ Match Particle Velocities
 MaterialUtils_001
 MathLib_Init
 Max Velocity
-MbP?
 MeshSystem001
 MeshUtils001
 ModelDocUtils001
@@ -1739,12 +1671,8 @@ Movement Match Particle Velocities
 Movement Max Velocity
 MovieSettings
 MultiByteToWideChar
-N3`d?
-N>O=I9
-N>VF
 NAN(IND)
 NAN(SNAN)
-NQ?s
 NULL
 NavSystem001
 NetworkClientService_001
@@ -1760,7 +1688,6 @@ Noise Vector
 NoseV
 NostrilFlare
 November
-OZQ%
 October
 Offset
 OpenClipboard
@@ -1820,7 +1747,6 @@ Plat_MessageBox
 Plat_NeedsLowFragmentation
 Plat_SetDenormalsAreZero
 Plat_ShouldCollectMiniDumpsForFatalErrors
-Po5H
 Position Along Path Random
 Position Along Path Sequential
 Position From Parent Particles
@@ -1843,13 +1769,9 @@ PreviewPresetList
 Procedural
 PropertyEditorSystem_001
 Proxies
-Q5rHg,>
-QAf?
 QueryPerformanceCounter
 QueuedLoaderVersion001
 RPCRT4.dll
-RSDS
-R\fp(B
 Radius Random
 Radius Scale
 RaiseException
@@ -1911,9 +1833,6 @@ RtlPcToFileHeader
 RtlUnwind
 RtlUnwindEx
 RtlVirtualUnwind
-S+Ot
-S9>H
-S>$hkDh$h>[2
 SFM Session
 SFM Settings
 SFM TrackGroup
@@ -2008,8 +1927,6 @@ Tried to rename from '%s' to '%s', but '%s' already exists\n
 Trying to add a frame when there is no current sequence.\n
 Tuesday
 Two Bone
-U4tT
-UA>N0Wl
 USER32.dll
 UUUUUU
 Unable to create new frame.\n
@@ -2128,10 +2045,9 @@ VertexPaintTintColor
 Vgui editor file
 Virual volume texture file
 VisBuilder_001
-W=vmdlkeys0
+WIN32
 WINDOWS
 WINXP
-WaNd?
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning
@@ -2151,27 +2067,14 @@ WorldRendererMgr001
 WriteConsoleW
 WriteFile
 Wrote symbol stats to file: %s
-X/4B
 X360
-Y8a:
-Y>kX>M
-Z\>z8
 [%d] Aborting undo '%s'\n
 [%d] Popping undo '%s'\n
 [%d] Pushing undo '%s'\n
 [%f %f %f %f]
-[*ncd>0
-[aOni*{
-\nCwf\r
-\nh?oT
-\nk>oB
-\r\f\v\v\n\n\t\t\t\t\t
+[%f %f %f]
+\t%8d
 \tNAN encountered in element '%s' guid %s attribute '%s'!\n
-\tcQr
-\tkE>fvw
-\vA03>A|
-^<V7w
-^RfN>
 _RDATA
 _V_StringAfterPrefix
 _V_StringAfterPrefixCaseSensitive
@@ -2200,7 +2103,6 @@ _class
 _light
 _linked_type_
 _name
-_oD>Kg
 _test_conversion_counter
 `RTTI
 `anonymous namespace'
@@ -2238,7 +2140,6 @@ _test_conversion_counter
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
-a6>r
 abcdefghijklmnopqrstuvwxyz
 actBusy
 actBusyList
@@ -2381,7 +2282,6 @@ breakable_skin
 brightness
 broken pipe
 bspline
-bt3V
 burst_randomize
 burst_scale
 busy_anim
@@ -2401,8 +2301,6 @@ c:\buildslave\hlvr_rel_win64\build\src\tier1\utlbuffer.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\utlstring.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier2\schemabindings.cpp
 c:\buildslave\hlvr_rel_win64\build\src\utils\bakedlodbuilder\Retail\win64\bakedlodbuilder.pdb
-c?FA@s}
-cNDS
 cable
 camera
 cantdie
@@ -2495,9 +2393,6 @@ curve_%s_to_curve_%s
 curveinfo
 curvetypes
 custom
-d8L2
-d?000000`?
-dRL>
 damage
 data
 dddd, MMMM dd, yyyy
@@ -2508,6 +2403,7 @@ decalModulate
 decalScale
 decalScaleVariation
 decalStartFadeTime
+default
 default set
 defaultBalance
 defaultCurveType
@@ -2557,8 +2453,6 @@ durationTime
 dxt5
 dynamic_interaction
 e+000
-eF>t
-eLK(w
 easein
 easeinout
 easeout
@@ -2608,8 +2502,6 @@ expr
 eyeOffset
 eyelid
 eyes
-fD>b
-fWi?
 faceMergeAngle
 faceSets
 faces
@@ -2676,8 +2568,6 @@ green
 gridSize
 gridspacing
 groupColor
-h0'D
-h>1my
 hammer
 handindex
 hcrop
@@ -2742,7 +2632,6 @@ jointList
 jointTransforms
 jointWeights
 jointWeightsIndices
-k=yI
 keysInTime_0
 keysInTime_1
 keysInTime_2
@@ -2767,7 +2656,6 @@ kochanek_early
 kochanek_late
 last_sniff
 layers
-lcQe
 left
 leftEdgeActive
 leftEdgeCurveType
@@ -2806,10 +2694,6 @@ loop_break_on_flashlight
 loop_in_action
 looping
 lower_hemisphere_is_black
-m?H7
-mG4>
-mXr4
-m\nXo
 m_Attenuation0
 m_Attenuation1
 m_Attenuation2
@@ -3063,10 +2947,7 @@ multilevel
 multilevelchannel
 multiplayer_break
 mute
-n03>Pu
 nLayoffState
-n\f"pA3Q
-n]?iJ
 name
 nan(ind)
 nan(snan)
@@ -3119,10 +3000,7 @@ note
 npcclass
 numchannels
 numsegments
-o?GS
-oI>O7
 oOffset
-obwQ4
 offset
 offsetTime
 operation canceled
@@ -3149,7 +3027,6 @@ outputs
 overrideParent
 overridePos
 overrideRot
-owM&
 owner dead
 ownerlog
 packmode
@@ -3194,6 +3071,7 @@ positionsIndices
 posterSettings
 postion_lock_to_controlpoint
 postprocessing
+powf
 precomputedmaxrange
 preferred_carryangles
 preset
@@ -3211,15 +3089,12 @@ proxies
 proxyType
 purecall
 pvTarget
-qS>g?h3
 qangle
 qangle log
 qangle_array
 quaternion
 quaternion log
 quaternion_array
-r\tVr.>T
-r\vp(B
 radius
 radius0
 radius1
@@ -3314,10 +3189,12 @@ sfm_v
 sfm_v1
 sfm_v10
 sfm_v2
+sfm_v3
 sfm_v4
 sfm_v5
 sfm_v6
 sfm_v7
+sfm_v8
 sfm_v9
 shader
 shadow_color_day
@@ -3489,8 +3366,6 @@ usecurvetypes
 usedefaultvalue
 useedgeinfo
 usesLaggedValues
-uzKs@>
-v2!L.2
 value
 value too large
 valueDeltaRotation
@@ -3532,6 +3407,7 @@ vmap
 vmat
 vmatrix log
 vmdl
+vmdlkeys0
 vmdlkeys1
 vmdlkeys2
 vmdlkeys3
@@ -3602,7 +3478,6 @@ wrinkleIndices
 wrinkleScales
 wrong protocol type
 wsprintfA
-xT?V
 xcoord
 yaw_end
 yaw_start
@@ -3610,4 +3485,3 @@ ycoord
 zero
 zfar
 znear
-{YIN?

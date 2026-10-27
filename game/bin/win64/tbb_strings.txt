@@ -1,6 +1,7 @@
 !my_scheduler
 !thread_stack_size
 %d: size %d
+%s: %s
 ----- Group
 ../../src/tbb/governor.cpp
 ../../src/tbb/tbb_main.cpp
@@ -311,7 +312,6 @@
 ?set_end_of_input@filter@tbb@@IEAAXXZ
 ?set_priority@task_group_context@tbb@@QEAAXW4priority_t@2@@Z
 ?spawn_and_wait_for_all@task@tbb@@QEAAXAEAVtask_list@2@@Z
-?tbb_thread::join
 ?terminate@task_scheduler_init@tbb@@QEAAXXZ
 ?thread_get_id_v3@internal@tbb@@YA?AVid@tbb_thread_v3@12@XZ
 ?thread_sleep_v3@internal@tbb@@YAXAEBVinterval_t@tick_count@2@@Z
@@ -382,7 +382,6 @@ GetProcessAffinityMask
 GetStartupInfoW
 GetSystemTimeAsFileTime
 GetThreadGroupAffinity
-H\r5Hd\v
 INTEL_ITTNOTIFY_GROUPS
 INTEL_LIBITTNOTIFY64
 ITT-API-Version 0.0.0 (20111111)
@@ -416,7 +415,6 @@ QueryPerformanceFrequency
 RDRND
 RDSEED
 RML might limit the number of workers to %u while %u is requested.\n
-RSDSO6
 ReleaseSemaphore
 ResetEvent
 Resource deadlock would occur
@@ -701,7 +699,6 @@ frame
 free
 fsync
 function_node
-gb[TMF?81*#
 getenv
 graph
 heap
@@ -792,6 +789,7 @@ tbb_parallel_reduce
 tbb_parallel_scan
 tbb_parallel_sort
 tbb_thread::detach
+tbb_thread::join
 tbbmalloc.dll
 terminate
 thread
@@ -799,4 +797,3 @@ thread_monitor::launch: _beginthreadex failed\n
 wait() was not called on the structured_task_group
 wcscmp
 write_once_node
-xl`TH<-

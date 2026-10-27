@@ -9,7 +9,9 @@
 %s allocation count overflow( %llu > %llu )\n
 %s allocation count overflow( %llu >= %llu )\n
 %s%20s : %40s %5.3f\n
+%s%s
 %s(token %i) : %s
+%s,%s
 %s/%s:  discarded rule because of invalid criterion %i:  %s\n
 '%20s' vs. '%20s' = 
 , score %4.2f\n
@@ -305,7 +307,6 @@ RESPONSE_SCENE
 RESPONSE_SCRIPT
 RESPONSE_SENTENCE
 RESPONSE_SPEAK
-RSDS
 RULE MATCHED!\n
 RadianEuler
 RandomInt
@@ -469,6 +470,7 @@ WorkshopSetup001
 World contexts: '%s', 
 WorldRendererBuilderMgr001
 WorldRendererMgr001
+[%s%03i]
 _V_strncat
 _V_strncmp
 _V_strncpy

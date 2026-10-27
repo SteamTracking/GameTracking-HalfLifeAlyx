@@ -1,8 +1,6 @@
                           
     <ui language="c++">        <widget class="QWebView" name="webView">            <property name="url">                <url>                    <string>about:blank</string>                </url>            </property>            <property name="geometry">                <rect>                    <x>0</x>                    <y>0</y>                    <width>300</width>                    <height>200</height>                </rect>            </property>        </widget>    </ui>
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -11,9 +9,6 @@
  delete
  delete[]
  new
-"?releaseDC@QWidget@@UBEXPAUHDC__@@@Z
-,?setVisible@QWidget@@UAEX_N@Z
-,?showEvent@QWidget@@MAEXPAVQShowEvent@@@Z
 .?AVQDesignerCustomWidgetInterface@@
 .?AVQObject@@
 .?AVQPaintDevice@@
@@ -21,13 +16,8 @@
 .?AVQWebViewPlugin@@
 .?AVQWidget@@
 .?AVtype_info@@
-.?styleChange@QWidget@@MAEXAAVQStyle@@@Z
 .mixcrt
-0u\rCi(M
-3yK1Q
-5?windowActivationChange@QWidget@@MAEX_N@Z
 :/trolltech/qwebview/images/qwebview.png
-:mR4
 <program name unknown>
 <widget class="%1" name="%2"/>
 ??0QChar@@QAE@UQLatin1Char@@@Z
@@ -36,10 +26,12 @@
 ??0QWebView@@QAE@PAVQWidget@@@Z
 ??1QObject@@UAE@XZ
 ??1QWebView@@UAE@XZ
+?actionEvent@QWidget@@MAEXPAVQActionEvent@@@Z
 ?arg@QString@@QBE?AV1@ABV1@HABVQChar@@@Z
 ?changeEvent@QWebView@@MAEXPAVQEvent@@@Z
 ?changeGuard@QMetaObject@@SAXPAPAVQObject@@PAV2@@Z
 ?childEvent@QObject@@MAEXPAVQChildEvent@@@Z
+?closeEvent@QWidget@@MAEXPAVQCloseEvent@@@Z
 ?connectNotify@QObject@@MAEXPBD@Z
 ?contextMenuEvent@QWebView@@MAEXPAVQContextMenuEvent@@@Z
 ?createWindow@QWebView@@MAEPAV1@W4WebWindowType@QWebPage@@@Z
@@ -82,20 +74,31 @@
 ?paintEngine@QWidget@@UBEPAVQPaintEngine@@XZ
 ?paintEvent@QWebView@@MAEXPAVQPaintEvent@@@Z
 ?paletteChange@QWidget@@MAEXABVQPalette@@@Z
+?qRegisterResourceData@@YA_NHPBE00@Z
+?qUnregisterResourceData@@YA_NHPBE00@Z
+?qt_metacall@QObject@@UAEHW4Call@QMetaObject@@HPAPAX@Z
 ?qt_metacall@QWebView@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+?qt_metacast@QObject@@UAEPAXPBD@Z
 ?qt_metacast@QWebView@@UAEPAXPBD@Z
+?releaseDC@QWidget@@UBEXPAUHDC__@@@Z
+?removeGuard@QMetaObject@@SAXPAPAVQObject@@@Z
 ?resizeEvent@QWebView@@MAEXPAVQResizeEvent@@@Z
+?setVisible@QWidget@@UAEX_N@Z
 ?shared_null@QString@@0UData@1@A
+?showEvent@QWidget@@MAEXPAVQShowEvent@@@Z
 ?sizeHint@QWebView@@UBE?AVQSize@@XZ
 ?staticMetaObject@QObject@@2UQMetaObject@@B
+?styleChange@QWidget@@MAEXAAVQStyle@@@Z
+?tabletEvent@QWidget@@MAEXPAVQTabletEvent@@@Z
 ?timerEvent@QObject@@MAEXPAVQTimerEvent@@@Z
 ?toLower@QString@@QBE?AV1@XZ
 ?tr@QMetaObject@@QBE?AVQString@@PBD0@Z
 ?wheelEvent@QWebView@@MAEXPAVQWheelEvent@@@Z
+?winEvent@QWidget@@MAE_NPAUtagMSG@@PAJ@Z
+?windowActivationChange@QWidget@@MAEX_N@Z
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 April
 August
-CFSnc
 CorExitProcess
 DOMAIN error\r\n
 December
@@ -147,7 +150,6 @@ HeapDestroy
 HeapFree
 HeapReAlloc
 HeapSize
-IDAT8
 IEND
 InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
@@ -173,11 +175,9 @@ Monday
 MultiByteToWideChar
 November
 October
-PNG\r\n
 QDesignerCustomWidgetInterface
 QWebView
 QWebViewPlugin
-Q\n?actionEvent@QWidget@@MAEXPAVQActionEvent@@@Z
 QtCore4.dll
 QtGui4.dll
 QtWebKit Web widget
@@ -229,15 +229,8 @@ Wednesday
 WideCharToMultiByte
 WriteFile
 Zw ce
-\f?qRegisterResourceData@@YA_NHPBE00@Z
-\f?qUnregisterResourceData@@YA_NHPBE00@Z
-\f?qt_metacall@QObject@@UAEHW4Call@QMetaObject@@HPAPAX@Z
-\r?closeEvent@QWidget@@MAEXPAVQCloseEvent@@@Z
-\r?qt_metacast@QObject@@UAEPAXPBD@Z
-\r?removeGuard@QMetaObject@@SAXPAPAVQObject@@@Z
 \rIHDR
 \r\nThis application has requested the Runtime to terminate it in an unusual way.\nPlease contact the application's support team for more information.\r\n
-\v&hz6
 __based(
 __cdecl
 __clrcall
@@ -287,9 +280,7 @@ abcdefghijklmnopqrstuvwxyz
 bad allocation
 com.trolltech.Qt.Designer.CustomWidget
 dddd, MMMM dd, yyyy
-gDd)~
 kernel32.dll
-lYP/Jnl$|
 mscoree.dll
 operator
 pattern=QT_PLUGIN_VERIFICATION_DATA\nversion=4.7.1\ndebug=false\nbuildkey=Windows msvc release full-config
@@ -297,7 +288,4 @@ qt_plugin_instance
 qt_plugin_query_verification_data
 qwebview.dll
 runtime error 
-t5?winEvent@QWidget@@MAE_NPAUtagMSG@@PAJ@Z
 tier0.dll
-w4f0
-{/?tabletEvent@QWidget@@MAEXPAVQTabletEvent@@@Z

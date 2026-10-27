@@ -53,7 +53,6 @@
 .tls$ZZZ
 .vtex
 .xdata
-2\vp0n
 <deferred>
 <no failure reason set>
 <null>
@@ -157,7 +156,6 @@ FixupResourceName: Illegal path, missing extension passed in ("%s")!\n
 FlattenedSerializersVersion001
 FontManager_001
 GCTL
-GRegisterConfigValue: Unknown error constructing config value "%s"!\n
 GSFailure
 GameResourceServiceClientV001
 GameResourceServiceServerV001
@@ -245,6 +243,7 @@ R32F
 R32_UINT
 R8G8B8A8_ETC2_EAC
 R8G8B8_ETC2
+R8_UINT
 RG11_EAC
 RG1616
 RG1616F
@@ -269,8 +268,7 @@ RGBA8888
 RGBA8888_LINEAR
 RGBX555
 RGBX8888
-RSDS
-R\vp0n
+RegisterConfigValue: Unknown error constructing config value "%s"!\n
 Release
 ReleaseSRWLockExclusive
 RenderDevice003

@@ -1,7 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -10,7 +8,6 @@
  Type Descriptor'
  delete
  delete[]
- h7y
  new
  throw(
  volatile
@@ -18,24 +15,18 @@
 !!ARBfp1.0PARAM c[5] = { program.local[0..1],{ 1.164, 0, 1.596, 0.5 },{ 0.0625, 1.164, -0.391, -0.81300002 },{ 1.164, 2.0179999, 0 } };TEMP R0;TEX R0.x, fragment.texcoord[0], texture[1], 2D;ADD R0.y, R0.x, -c[2].w;TEX R0.x, fragment.texcoord[0], texture[2], 2D;ADD R0.x, R0, -c[2].w;MUL R0.z, R0.y, c[0].w;MAD R0.z, R0.x, c[0], R0;MUL R0.w, R0.x, c[0];MUL R0.z, R0, c[0].y;TEX R0.x, fragment.texcoord[0], texture[0], 2D;MAD R0.y, R0, c[0].z, R0.w;ADD R0.x, R0, -c[3];MUL R0.y, R0, c[0];MUL R0.z, R0, c[1].x;MAD R0.x, R0, c[0].y, c[0];MUL R0.y, R0, c[1].x;DP3 result.color.x, R0, c[2];DP3 result.color.y, R0, c[3].yzww;DP3 result.color.z, R0, c[4];MOV result.color.w, c[1].y;END
 !isEmpty()
 !m_mutex.tryLock()
-#3:O4j
 #File Error#(%d) : 
+%.2X 
 %Id bytes in %Id %hs Blocks.\n
 %hs located at 0x%p is %Iu bytes long.\n
 %hs located at 0x%p is %Iu bytes long.\n\nMemory allocated at %hs(%d).\n
 %s(%d) : %s
-'1nD
-( 8PX
 ('8PW
 (null)
-*68C
 *node == e || (*node)->next
 , Line 
 ,<ellipsis>
 ,eventCode,param1
--64OS
--np1A
--qZ~C
 ..\..\..\3rdparty\phonon\ds9\backendnode.cpp
 ..\..\..\3rdparty\phonon\ds9\backendnode.cpp:84
 ..\..\..\3rdparty\phonon\ds9\backendnode.cpp:87
@@ -55,6 +46,7 @@
 ..\..\..\3rdparty\phonon\ds9\qasyncreader.cpp
 ..\..\..\3rdparty\phonon\ds9\qmeminputpin.cpp
 ..\..\..\3rdparty\phonon\ds9\qpin.cpp
+..\..\..\3rdparty\phonon\ds9\videorenderer_evr.cpp
 ..\..\..\3rdparty\phonon\ds9\videorenderer_vmr9.cpp
 .?AUIAsyncReader@@
 .?AUIBaseFilter@@
@@ -119,13 +111,10 @@
 .?AVbad_typeid@std@@
 .?AVexception@std@@
 .?AVtype_info@@
-0$7M
-1"EYg-
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-1\Q4
 1finishLoading(quint16,HRESULT,Graph)
 1finishSeeking(quint16,qint64)
 1handleEvents(Graph,long,long)
@@ -137,35 +126,24 @@
 2destroyed()
 2eventReady(Graph,long,long)
 2stateReady(Graph,Phonon::State)
-3!XI-X
-4aw\vSx
-4t\vSx
-64,F
-6Q(M
 700PP
 700WP
-70q)
 7A15
 7A44
 7A88
 7R16
 7R32
-7d<Z
-7eXl
 9A15
 9A44
 9A88
 9R16
 9R32
 9XVnT
-9Z!jj%
 ;Pb69
 <ellipsis>
 <file unknown>
 <program name unknown>
 <unknown>
-<wt2
->R0b
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 AI44
 AMGetErrorTextW
@@ -178,7 +156,6 @@ Assertion failed!
 Assertion failed: 
 AudioOutputInterface2.phonon.kde.org
 August
-BI* V
 BackendInterface3.phonon.kde.org
 Bad memory block found at 0x%p.\n
 Bad memory block found at 0x%p.\n\nMemory allocated at %hs(%d).\n
@@ -211,16 +188,12 @@ Detected memory leaks!\n
 DirectSound
 Dumping objects ->\n
 Dw=I
-E"n\nB
 EffectInterface0.phonon.kde.org
 Error
 Error: memory allocation: bad memory block type.\n
 Error: memory allocation: bad memory block type.\n\nMemory allocated at %hs(%d).\n
 Error: possible heap corruption at or near 0x%p
 Expression: 
-F0:s
-F0:s\f
-FU\r8r+
 February
 Free
 Friday
@@ -240,7 +213,6 @@ HEAP CORRUPTION DETECTED: on top of Free block at 0x%p.\nCRT detected that the a
 HH:mm:ss
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Multimedia\mplayer2\mime types
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Multimedia\wmplayer\mime types
-HMXB
 HRESULT
 IA44
 IF09
@@ -256,7 +228,6 @@ Invalid allocation size: %Iu bytes.\n\nMemory allocated at %hs(%d).\n
 January
 July
 June
-K$ZQH
 LC_ALL
 LC_COLLATE
 LC_CTYPE
@@ -274,12 +245,10 @@ MessageBoxA
 MessageBoxW
 Microsoft Visual C++ Debug Library
 Monday
-NKeb
 NULL
 NV11
 NV12
 NV24
-NZ)G
 Normal
 Norwegian-Nynorsk
 November
@@ -291,7 +260,6 @@ P208
 P210
 P216
 P408
-P69!FW
 Phonon::AddonInterface
 Phonon::AudioOutputInterface
 Phonon::BackendInterface
@@ -308,20 +276,14 @@ Phonon::MediaObjectInterface
 Phonon::VideoWidgetInterface
 Phonon::VolumeFaderInterface
 Plum
-Q2ST
 QList<T>::at
 QList<T>::operator[]
 QVector<T>::at
 QVector<T>::operator[]
-QeHM
 Qt_GetCustomAllocators
-RB\np~
-REiB
 RIFF
-RSDS
 S340
 S342
-S;uD
 SUCCEEDED(hr)
 Saturday
 Second Chance Assertion Failed: File 
@@ -337,30 +299,22 @@ The block at 0x%p was not allocated by _aligned routines, use realloc()
 Thursday
 Total allocations: %Id bytes.\n
 Tuesday
-U.AM
-U9SD
 UNKNOWN
 UUUUUU
 UYVY
 Unknown error
 Unknown exception
-V..\..\..\3rdparty\phonon\ds9\videorenderer_evr.cpp
-V>u`B
 VDEST
 VideoWidgetInterface3.phonon.kde.org
 VolumeFaderInterface4.phonon.kde.org
 W50en
-W50en {L
 WAKE
 WAVE
 Warning
 Wednesday
-X=lh)
-Y1%a
 Y210
 Y211
 Y216
-Y3@(G
 Y411
 Y41P
 YUY2
@@ -368,24 +322,12 @@ YUYV
 YV12
 YVU9
 YVYU
-Ygu<
-YpQC
-ZfOgH
-Zo&J
-Zr|F
 [thunk]:
-\R\nKp
 \\.\Cdrom0
-\fCPf
-\nCPf
 \nFile: 
 \nLine: 
 \nModule: 
 \n\nFor information on how your program can cause an assertion\nfailure, see the Visual C++ documentation on asserts.
-\r4VQ
-\rCPf
-\tCPf
-\vCPf
 _CrtDbgReport: String too long or IO Error
 _CrtDbgReport: String too long or Invalid characters in String
 __based(
@@ -413,8 +355,6 @@ _heapchk fails with unknown return value!\n
 _hypot
 _logb
 _nextafter
-`*7YF
-`BoT>
 `RTTI
 `adjustor{
 `anonymous namespace'
@@ -427,7 +367,6 @@ _nextafter
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static destructor helper'
 `local static guard'
 `local static thread guard'
@@ -482,11 +421,8 @@ australian
 availableAnglesChanged(int)
 availableChaptersChanged(int)
 availableTitlesChanged(int)
-b[98Bp
-b`NO
 bad exception
 belgian
-be~`D
 bool
 britain
 bufferStatus(int)
@@ -494,7 +430,6 @@ c:\valve\thirdpartycode\lgpl\qt\qt_valve_win64\include\qtcore\../../src/corelib/
 c:\valve\thirdpartycode\lgpl\qt\qt_valve_win64\include\qtcore\../../src/corelib/tools/qlist.h
 c:\valve\thirdpartycode\lgpl\qt\qt_valve_win64\include\qtcore\../../src/corelib/tools/qscopedpointer.h
 c:\valve\thirdpartycode\lgpl\qt\qt_valve_win64\include\qtcore\../../src/corelib/tools/qvector.h
-cY?>p
 canadian
 ceil
 chapterChanged(int)
@@ -531,9 +466,7 @@ dvh1
 dvhd
 dvsd
 dvsl
-e O*c
 e+000
-e4GL
 england
 english-american
 english-aus
@@ -574,7 +507,6 @@ f:\dd\vctools\crt_bld\self_64_amd64\crt\src\stdargv.c
 f:\dd\vctools\crt_bld\self_64_amd64\crt\src\stdenvp.c
 f:\dd\vctools\crt_bld\self_64_amd64\crt\src\tidtable.c
 f:\dd\vctools\crt_bld\self_64_amd64\crt\src\winsig.c
-fX]r
 fabs
 file
 filter
@@ -603,22 +535,17 @@ glGenProgramsARB
 glProgramLocalParameter4fARB
 glProgramStringARB
 great britain
-h\vSx
 handleEvents(Graph,long,long)
 hasVideoChanged(bool)
 holland
 hong-kong
-i(Lc
 iavs
 index != -1
 index out of range
 int 
 irish-english
-it5E
 italian-swiss
 jpeg
-kU'9
-k\ftS
 ldexp
 length
 log10
@@ -626,8 +553,6 @@ log10f
 logf
 long
 long 
-lw#G
-m ly
 m_mediaControl
 m_mediaSeeking
 m_parent
@@ -638,9 +563,6 @@ mids
 mixer
 mlrt
 modf
-myOE
-n&cl
-nCO&BB
 name
 new-zealand
 newVolume
@@ -651,7 +573,6 @@ norwegian-bokmal
 norwegian-nynorsk
 objectDescriptionChanged(ObjectDescriptionType)
 operator
-pUx{
 params
 pattern=QT_PLUGIN_VERIFICATION_DATA\nversion=4.8.3\ndebug=true\nbuildkey=Windows x64 msvc debug full-config
 phonon_ds9d4.dll
@@ -665,19 +586,12 @@ processor
 protected: 
 public: 
 puerto-rico
-q+MD
-q3l\rC
-qUx{
 qoE`
 qt_plugin_instance
 qt_plugin_query_verification_data
 quartz
-rQ*M
-rUx{
 rle 
 rpza
-r}WF
-sUx{
 seekableChanged(bool)
 short
 short 
@@ -720,7 +634,6 @@ struct
 swedish-finland
 swiss
 switchToNextSource()
-tUx{
 tanh
 template-parameter-
 tick(qint64)
@@ -730,15 +643,12 @@ titleChanged(int)
 totalTimeChanged(qint64)
 trinidad & tobago
 txts
-u\vSx
-ud3*
 unable to load the TOC from the CD
 union 
 united-kingdom
 united-states
 unsigned 
 urls
-vU\vF.
 vids
 virtual 
 void
@@ -750,14 +660,6 @@ wchar_t
 workId,hr,
 workId,time
 wrapper
-x\vSx
-xppwpp
-xpxxxx
-y\vSx
-z?aUY
-z\vSx
-zc%C1
 {flat}
 {for 
 ~Clft
-~iGt

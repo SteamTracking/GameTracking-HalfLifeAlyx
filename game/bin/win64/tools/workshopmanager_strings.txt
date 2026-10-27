@@ -16,15 +16,12 @@
   Group 4 Options:
   Predictor: 
   Ss=%d, Se=%d, Ah=%d, Al=%d
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  &Color
  &Colors
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (*.png *.jpg *.bmp)
- (?setColumnWidth@QTableView@@QEAAXHH@Z
  (Expand)
  (Scale)
  (repeat)
@@ -37,20 +34,10 @@
  - pass to parent
  - reindexing from 
  -testmode
- ?palette@QWidget@@QEBAAEBVQPalette@@XZ
- ?paletteChange@QWidget@@MEAAXAEBVQPalette@@@Z
- ?parent@QItemSelectionRange@@QEBA?AVQModelIndex@@XZ
- ?parent@QSortFilterProxyModel@@UEBA?AVQModelIndex@@AEBV2@@Z
- ?parent@QStandardItemModel@@UEBA?AVQModelIndex@@AEBV2@@Z
- ?parentWidget@QAction@@QEBAPEAVQWidget@@XZ
- ?parentWidget@QWidget@@QEBAPEAV1@XZ
- ?pathFromIndex@QCompleter@@UEBA?AVQString@@AEBVQModelIndex@@@Z
- ?pixel@QImage@@QEBAIHH@Z
  Base Class Array'
  Base Class Descriptor at (
  Bottom: 
  Bytes
- C>TQ
  CQSliderPlural::ScaleValuesToMax scale( 
  CQSliderPluralOLD::scaleValuesToMin scale( 
  Class Hierarchy Descriptor'
@@ -83,15 +70,6 @@
  uncorrected errors
  vColSetOut: 
  values>... (Collapse)
-!#?qt_metacast@QIntValidator@@UEAAPEAXPEBD@Z
-!*?setHsl@QColor@@QEAAXHHHH@Z
-!,?setRange@QAbstractSlider@@QEAAXHH@Z
-!?pixmap@QCursor@@QEBA?AVQPixmap@@XZ
-!?primaryScreen@QDesktopWidget@@QEBAHXZ
-!?qGray@@YAHI@Z
-!\n?isEmpty@QRegExp@@QEBA_NXZ
-!\r?canFetchMore@QSortFilterProxyModel@@UEBA_NAEBVQModelIndex@@@Z
-!\v?addItem@QStackedLayout@@UEAAXPEAVQLayoutItem@@@Z
 "%s" "%.10f"\n
 "%s" "[ %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f ]"\n
 "%s" "[ %f %f %f %f ]"\n
@@ -100,69 +78,21 @@
 "%s" "{ %d %d %d }"\n
 "%s": Bad mode
 "%s": Information lost writing value (%g) as (unsigned) RATIONAL
-"&?save@QPixmap@@QEBA_NAEBVQString@@PEBDH@Z
-")?setExclusive@QButtonGroup@@QEAAX_N@Z
-"*?setHslF@QColor@@QEAAXNNNN@Z
-"-?setStatusTip@QAction@@QEAAXAEBVQString@@@Z
-"?qt_metacall@QPlainTextEdit@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacall@QProgressDialog@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacall@QPushButton@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacall@QRadioButton@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacall@QScrollArea@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacall@QSlider@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacall@QSortFilterProxyModel@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacall@QSplitter@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacall@QStackedLayout@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacall@QStandardItemModel@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacall@QTableView@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacall@QTableWidget@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacall@QTextEdit@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacall@QToolBar@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacall@QToolButton@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacall@QTreeView@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacall@QTreeWidget@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacall@QVBoxLayout@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacall@QWidget@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacall@QWidgetAction@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacast@QAction@@UEAAPEAXPEBD@Z
-"?qt_metacast@QActionGroup@@UEAAPEAXPEBD@Z
-"?qt_metacast@QButtonGroup@@UEAAPEAXPEBD@Z
-"?qt_metacast@QCheckBox@@UEAAPEAXPEBD@Z
-"?qt_metacast@QColorDialog@@UEAAPEAXPEBD@Z
-"?qt_metacast@QComboBox@@UEAAPEAXPEBD@Z
-"?qt_metacast@QCompleter@@UEAAPEAXPEBD@Z
-"?qt_metacast@QDialog@@UEAAPEAXPEBD@Z
-"?qt_metacast@QDialogButtonBox@@UEAAPEAXPEBD@Z
-"?qt_metacast@QDoubleSpinBox@@UEAAPEAXPEBD@Z
-"?qt_metacast@QDoubleValidator@@UEAAPEAXPEBD@Z
-"?qt_metacast@QDrag@@UEAAPEAXPEBD@Z
 "ActBusy.txt"\n
 "LightRigs"\n{\n\tDefault\n\t{\n  \t\tSun\n\t\t{\n  \t\t\tPos "300 0 0"\n\t\t\tDir "1 0 0"\n \t\t\tColor "255 255 255"\n\t\t\tBrightness 0.5\n\t\t\tShadows 1\n\t\t\tAxisScale 2\n \t\t}\n\t\tPointLight\n\t\t{\n\t\t\tBrightness 0.025\n\t\t\tPos "0 200 0"\n\t\t\tRadius 10000\n\t\t}\n\t\tPointLight\n\t\t{\n\t\t\tBrightness 0.025\n\t\t\tPos "0 0 200"\n\t\t\tRadius 10000\n\t\t}\n\t}\n}\n
 "Predictor" value %d not supported
 "Proxies"\n
-"\r?canInsertFromMimeData@QPlainTextEdit@@MEBA_NPEBVQMimeData@@@Z
 "\tFileID: 
 "channels" attribute not found in the header.
 "compression" attribute not found in the header.
 "dataWindow" attribute not found in the header or invalid.
 "displayWindow" attribute not found in the header.
-"e?<<<<<<l?
 "id" "elementid" 
 "lineOrder" attribute not found in the header.
 "pixelAspectRatio" attribute not found in the header.
 "screenWindowCenter" attribute not found in the header.
 "screenWindowWidth" attribute not found in the header.
 # of channels is zero.\n
-#*?setHsv@QColor@@QEAAXHHHH@Z
-#+?setModel@QListWidget@@EEAAXPEAVQAbstractItemModel@@@Z
-#,?setRange@QDoubleValidator@@UEAAXNNH@Z
-#9fm
-#?qt_metacast@QFrame@@UEAAPEAXPEBD@Z
-#?qt_metacast@QGridLayout@@UEAAPEAXPEBD@Z
-#?qt_metacast@QGroupBox@@UEAAPEAXPEBD@Z
-#?qt_metacast@QHBoxLayout@@UEAAPEAXPEBD@Z
-#?qt_metacast@QWidget@@UEAAPEAXPEBD@Z
-#?qt_metacast@QWidgetAction@@UEAAPEAXPEBD@Z
 #DOTA
 #DOTA_Add
 #DOTA_Ok
@@ -235,6 +165,7 @@
 #DOTA_Workshop_EditOrigin
 #DOTA_Workshop_EditPortrait
 #DOTA_Workshop_EditScale
+#DOTA_Workshop_EditTarget
 #DOTA_Workshop_EffectsModel_Desc
 #DOTA_Workshop_EffectsModel_Title
 #DOTA_Workshop_EntityShadowScale
@@ -608,38 +539,16 @@
 #Workshop_UploadProgress_PreparingContent
 #Workshop_UploadProgress_UploadingContent
 #Workshop_UploadProgress_UploadingPreview
-#\f?number@QString@@SA?AV1@NDH@Z
 #base
 #base is NULL 
 #include
 #include is NULL 
-$&?saveGeometry@QWidget@@QEBA?AVQByteArray@@XZ
 $(model_wearable:game_lod_mesh)
 $(model_wearable:portrait_lod_mesh)
 $(model_wearable:vmdl_name)
 $(particle_snapshot:psf_name)
-$*?setHsvF@QColor@@QEAAXNNNN@Z
-$,?setRange@QIntValidator@@UEAAXHH@Z
-$?rect@QPixmap@@QEBA?AVQRect@@XZ
-$?rect@QWidget@@QEBA?AVQRect@@XZ
-$?red@QColor@@QEBAHXZ
-$?redF@QColor@@QEBANXZ
-$?reject@QDialog@@UEAAXXZ
-$?releaseDC@QPaintDevice@@UEBAXPEAUHDC__@@@Z
-$?releaseDC@QWidget@@UEBAXPEAUHDC__@@@Z
-$?releaseKeyboard@QWidget@@QEAAXXZ
-$?releaseMouse@QWidget@@QEAAXXZ
-$?removeAction@QWidget@@QEAAXPEAVQAction@@@Z
-$?removeColumns@QSortFilterProxyModel@@UEAA_NHHAEBVQModelIndex@@@Z
-$?removeColumns@QStandardItemModel@@UEAA_NHHAEBVQModelIndex@@@Z
-$Ib?s
-$\f?number@QString@@SA?AV1@_JH@Z
-$\r?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
-$\v?addItems@QComboBox@@QEAAXAEBVQStringList@@@Z
 $prefix_attribute$
 $prefix_element$
-%%?repaint@QWidget@@QEAAXXZ
-%+?setModel@QTableView@@UEAAXPEAVQAbstractItemModel@@@Z
 %-40s\t%6d\t%9d\t\t%5.2f
 %.04f
 %.100s: Can not read TIFF directory
@@ -647,7 +556,6 @@ $prefix_element$
 %.15lf
 %.2f FPS (%.2fms%s)
 %.3f %.3f %.3f
-%/?size@QWidget@@QEBA?AVQSize@@XZ
 %0.2f
 %01d
 %02X
@@ -665,32 +573,25 @@ $prefix_element$
 %10.10s:  UpdateItemDefinitionList( %d : %s : %.3f ms )\n
 %10.10s:  UpdateItemDefinitionList(skipped)\n
 %30s\t\t%5d\t\t%5d\n
-%?removeRows@QSortFilterProxyModel@@UEAA_NHHAEBVQModelIndex@@@Z
-%?removeRows@QStandardItemModel@@UEAA_NHHAEBVQModelIndex@@@Z
-%?removeWidget@QLayout@@QEAAXPEAVQWidget@@@Z
-%?resizeEvent@QTextEdit@@MEAAXPEAVQResizeEvent@@@Z
-%?resizeEvent@QToolBar@@MEAAXPEAVQResizeEvent@@@Z
-%?resizeEvent@QWidget@@MEAAXPEAVQResizeEvent@@@Z
-%?resizeSection@QHeaderView@@QEAAXHH@Z
-%?restoreGeometry@QWidget@@QEAA_NAEBVQByteArray@@@Z
-%?restoreOverrideCursor@QApplication@@SAXXZ
-%?restoreState@QMainWindow@@QEAA_NAEBVQByteArray@@H@Z
-%?revert@QAbstractProxyModel@@UEAAXXZ
-%?rgb@QColor@@QEBAIXZ
-%?rowCount@QGridLayout@@QEBAHXZ
-%?rowCount@QSortFilterProxyModel@@UEBAHAEBVQModelIndex@@@Z
-%?rowCount@QStandardItemModel@@UEBAHAEBVQModelIndex@@@Z
-%\f?number@QString@@SA?AV1@_KH@Z
+%d %d %d
 %d %d %d %d
 %d (s/n %d)
 %d trace results\n
+%d,%d
+%d,%d,%d
 %d,%d,%d,%d
 %d_%d_%d_%d_%d.tmp
 %d_%lld_%x.dmx
 %d_%lld_%x_in.dmx
+%f %f
+%f %f %f
 %f %f %f %f
 %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f
+%f%c%f
+%f,%f
 %f,%f,%f,%f
+%g %g
+%g %g %g
 %g %g %g %g
 %i %i %i %i
 %i Item Definitions
@@ -698,6 +599,7 @@ $prefix_element$
 %i.txt
 %ix%i
 %ld%c
+%lld
 %llu
 %llx
 %ls [wstring, len = %d]
@@ -707,6 +609,7 @@ $prefix_element$
 %s %s encoding is not implemented
 %s (%s -> %s)
 %s (%s) = remove( pos %i, count %i )
+%s - %s
 %s AllViewsDirectLight
 %s AllViewsIndirectLight
 %s AllViewsParticles
@@ -721,11 +624,18 @@ $prefix_element$
 %s channel
 %s compression support is not configured
 %s encoding %s %d format %s %d %s\n
+%s#%d
+%s%s
+%s%s.%s
 %s%s.tga
 %s(%d) : %s\n
+%s(%s)
 %s(%s) = %s
+%s.%s
+%s.%s.%s
 %s.bmp
 %s.png
+%s/%s
 %s/%s%s.tga
 %s/%s.bmp
 %s/cursor.res
@@ -733,7 +643,9 @@ $prefix_element$
 %s/workshopupload_%llu/preview_%llx.jpg
 %s/workshopupload_%llu/upload_%llx/
 %s2-d encoding
+%s: %s
 %s: %s at line %u of %s %u (got %u, expected %u)
+%s: %s\n
 %s: Bad code word at line %u of %s %u (x %u)
 %s: Bad field type %d for "%s"
 %s: Bad value %d for "%s" tag
@@ -784,6 +696,7 @@ $prefix_element$
 %s: unknown field with tag %d (0x%x) encountered
 %s: wrong data type %d for "%s"; tag ignored
 %s: zlib error: %s
+%s:%s
 %sEOL padding
 %sEdgeActive
 %sEdgeCurveType
@@ -791,6 +704,7 @@ $prefix_element$
 %sIndices
 %s\publish_data.txt
 %s_%d.png
+%s_%s.%s
 %s_Desc
 %s_s2.tga
 %s_s2_color.tga
@@ -799,42 +713,7 @@ $prefix_element$
 %suncompressed data
 %svpks\%llu\
 %svpks\%llu\%llu.vpk
-&"?qt_metacall@QAction@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-&+?setModel@QTableWidget@@EEAAXPEAVQAbstractItemModel@@@Z
-&?PPPPPPP?
-&?rowsAboutToBeRemoved@QListView@@MEAAXAEBVQModelIndex@@HH@Z
-&?rowsAboutToBeRemoved@QTreeView@@MEAAXAEBVQModelIndex@@HH@Z
-&?rowsInserted@QAbstractItemView@@MEAAXAEBVQModelIndex@@HH@Z
-&?rowsInserted@QListView@@MEAAXAEBVQModelIndex@@HH@Z
-&?rowsInserted@QTreeView@@MEAAXAEBVQModelIndex@@HH@Z
-&?saturationF@QColor@@QEBANXZ
-&?save@QImage@@QEBA_NAEBVQString@@PEBDH@Z
-&?scrollContentsBy@QListView@@MEAAXHH@Z
-&?scrollContentsBy@QPlainTextEdit@@MEAAXHH@Z
-&?scrollContentsBy@QScrollArea@@MEAAXHH@Z
-&?scrollContentsBy@QTableView@@MEAAXHH@Z
-&?scrollContentsBy@QTextEdit@@MEAAXHH@Z
-&?scrollContentsBy@QTreeView@@MEAAXHH@Z
-&?scrollTo@QListView@@UEAAXAEBVQModelIndex@@W4ScrollHint@QAbstractItemView@@@Z
-&?scrollTo@QTableView@@UEAAXAEBVQModelIndex@@W4ScrollHint@QAbstractItemView@@@Z
-&?scrollTo@QTreeView@@UEAAXAEBVQModelIndex@@W4ScrollHint@QAbstractItemView@@@Z
-&?scrollToTop@QAbstractItemView@@QEAAXXZ
-&?selectAll@QAbstractItemView@@UEAAXXZ
-&?selectAll@QAbstractSpinBox@@QEAAXXZ
-&?selectAll@QLineEdit@@QEAAXXZ
-&?selectAll@QTreeView@@UEAAXXZ
-&?selectRow@QTableView@@QEAAXH@Z
-&?selectedIndexes@QListView@@MEBA?AV?$QList@VQModelIndex@@@@XZ
-&?selectedIndexes@QTableView@@MEBA?AV?$QList@VQModelIndex@@@@XZ
-&?selectedIndexes@QTreeView@@MEBA?AV?$QList@VQModelIndex@@@@XZ
-&?selectedRows@QItemSelectionModel@@QEBA?AV?$QList@VQModelIndex@@@@H@Z
-&?selection@QItemSelectionModel@@QEBA?BVQItemSelection@@XZ
-&?selectionChanged@QListView@@MEAAXAEBVQItemSelection@@0@Z
-&?selectionChanged@QTableView@@MEAAXAEBVQItemSelection@@0@Z
-&?selectionChanged@QTreeView@@MEAAXAEBVQItemSelection@@0@Z
-&?selectionCommand@QAbstractItemView@@MEBA?AV?$QFlags@W4SelectionFlag@QItemSelectionModel@@@@AEBVQModelIndex@@PEBVQEvent@@@Z
-&?selectionModel@QAbstractItemView@@QEBAPEAVQItemSelectionModel@@XZ
-&?selectionStart@QLineEdit@@QEBAHXZ
+%u (0x%x)\n
 &About
 &Accept
 &All
@@ -918,7 +797,6 @@ $prefix_element$
 &Scroll...
 &Select By
 &Set Curve...
-&Sgw
 &Show Accurate Hue/Sat
 &Show Alpha
 &Show Background
@@ -935,105 +813,22 @@ $prefix_element$
 &View
 &View in Workshop
 &Wells
-&\f?availableGeometry@QDesktopWidget@@QEBA?BVQRect@@H@Z
-&\nFx+\n;h,\n)
-&\v?addLayout@QBoxLayout@@QEAAXPEAVQLayout@@H@Z
 &percent
-'"?qt_metacall@QActionGroup@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-'#?qt_metacast@QLabel@@UEAAPEAXPEBD@Z
 '%1' Template Error: Models must have unique values for model_name_suffix: '%1'
-'+?setModel@QTreeView@@UEAAXPEAVQAbstractItemModel@@@Z
-'-?setStatusTip@QWidget@@QEAAXAEBVQString@@@Z
-'?setAcceptDrops@QWidget@@QEAAX_N@Z
-'?setAcceptRichText@QTextEdit@@QEAAX_N@Z
-'?setBackgroundMode@QPainter@@QEAAXW4BGMode@Qt@@@Z
-'?setBackgroundRole@QWidget@@QEAAXW4ColorRole@QPalette@@@Z
-'?setBaseSize@QWidget@@QEAAXHH@Z
-'?setBlue@QColor@@QEAAXH@Z
-'?setBlueF@QColor@@QEAAXN@Z
-'?setBrush@QPainter@@QEAAXAEBVQBrush@@@Z
-'?setBrush@QPainter@@QEAAXW4BrushStyle@Qt@@@Z
-'?setBrush@QPalette@@QEAAXW4ColorGroup@1@W4ColorRole@1@AEBVQBrush@@@Z
-'?setBrush@QPen@@QEAAXAEBVQBrush@@@Z
-'?setButtonSymbols@QAbstractSpinBox@@QEAAXW4ButtonSymbols@1@@Z
-'?setCaseSensitivity@QCompleter@@QEAAXW4CaseSensitivity@Qt@@@Z
-'?setCentralWidget@QMainWindow@@QEAAXPEAVQWidget@@@Z
-'?setCheckable@QAbstractButton@@QEAAX_N@Z
-'?setCheckable@QAction@@QEAAX_N@Z
-'?setCheckable@QGroupBox@@QEAAX_N@Z
-'?setChecked@QAbstractButton@@QEAAX_N@Z
-'?setChecked@QAction@@QEAAX_N@Z
-'?setChecked@QGroupBox@@QEAAX_N@Z
-'\nQx,\nFh-\n)
-'\v?addLayout@QGridLayout@@QEAAXPEAVQLayout@@HHHHV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
 ( %1, %2, %3, %4% )
-(#?qt_metacast@QLayout@@UEAAPEAXPEBD@Z
+(%d,%d
+(%d,%d,%d
 (%d,%d,%d,%d
 (*.fbx *.dmx)
 (*.tga *.png *.psd)
 (*.txt *.zip)
-(*?setHtml@QTextEdit@@QEAAXAEBVQString@@@Z
-(+?setModel@QTreeWidget@@EEAAXPEAVQAbstractItemModel@@@Z
-(0?staticMetaObject@QColorDialog@@2UQMetaObject@@B
-(8?visualRect@QListView@@UEBA?AVQRect@@AEBVQModelIndex@@@Z
-(?setColor@QPalette@@QEAAXW4ColorRole@1@AEBVQColor@@@Z
-(?setColor@QPen@@QEAAXAEBVQColor@@@Z
-(?setColorAt@QGradient@@QEAAXNAEBVQColor@@@Z
-(?setColumnCount@QStandardItemModel@@QEAAXH@Z
-(?setColumnCount@QTableWidget@@QEAAXH@Z
-(?setColumnCount@QTreeWidget@@QEAAXH@Z
-(?setColumnMinimumWidth@QGridLayout@@QEAAXHH@Z
-(?setColumnStretch@QGridLayout@@QEAAXHH@Z
-(?setData@QSortFilterProxyModel@@UEAA_NAEBVQModelIndex@@AEBVQVariant@@H@Z
-(?setData@QStandardItem@@UEAAXAEBVQVariant@@H@Z
-(?setData@QStandardItemModel@@UEAA_NAEBVQModelIndex@@AEBVQVariant@@H@Z
-(?setData@QTableWidgetItem@@UEAAXHAEBVQVariant@@@Z
-(?setData@QTreeWidgetItem@@UEAAXHHAEBVQVariant@@@Z
-(?setDecimals@QDoubleSpinBox@@QEAAXH@Z
-(?setDecimals@QDoubleValidator@@QEAAXH@Z
-(?setDefault@QPushButton@@QEAAX_N@Z
-(?setDefaultButton@QMessageBox@@QEAAXW4StandardButton@1@@Z
-(?setDefaultSectionSize@QHeaderView@@QEAAXH@Z
-(?setDefaultWidget@QWidgetAction@@QEAAXPEAVQWidget@@@Z
-(?setDetailedText@QMessageBox@@QEAAXAEBVQString@@@Z
-(?setDisabled@QWidget@@QEAAX_N@Z
-(?setDropAction@QDropEvent@@QEAAXW4DropAction@Qt@@@Z
 (Base)
 (Custom Colors Disabled)
 (Edit w/ Spinbox)
 (None)
-(\r?canRead@QImageReader@@QEBA_NXZ
-(\v?addLayout@QGridLayout@@QEAAXPEAVQLayout@@HHV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
 (null)
-)&?saveState@QMainWindow@@QEBA?AVQByteArray@@H@Z
-)(?setCompleter@QComboBox@@QEAAXPEAVQCompleter@@@Z
-)?setEditTriggers@QAbstractItemView@@QEAAXV?$QFlags@W4EditTrigger@QAbstractItemView@@@@@Z
-)?setEditable@QComboBox@@QEAAX_N@Z
-)?setEnabled@QAction@@QEAAX_N@Z
-)?setEnabled@QWidget@@QEAAX_N@Z
-)?setFont@QPainter@@QEAAXAEBVQFont@@@Z
-)?setFont@QTableWidgetItem@@QEAAXAEBVQFont@@@Z
-)?setFont@QWidget@@QEAAXAEBVQFont@@@Z
-)?setFontFamily@QTextEdit@@QEAAXAEBVQString@@@Z
-)?setFrame@QAbstractSpinBox@@QEAAX_N@Z
-)?setFrameStyle@QFrame@@QEAAXH@Z
-)?setGeometry@QBoxLayout@@UEAAXAEBVQRect@@@Z
-)?setGeometry@QGridLayout@@UEAAXAEBVQRect@@@Z
-)?setGeometry@QLayout@@UEAAXAEBVQRect@@@Z
-)?setGeometry@QSpacerItem@@UEAAXAEBVQRect@@@Z
-)?setGeometry@QStackedLayout@@UEAAXAEBVQRect@@@Z
-)?setGeometry@QWidget@@QEAAXAEBVQRect@@@Z
-)?setGreen@QColor@@QEAAXH@Z
-)?setGreenF@QColor@@QEAAXN@Z
-)?setHeaderData@QSortFilterProxyModel@@UEAA_NHW4Orientation@Qt@@AEBVQVariant@@H@Z
-)?setHeaderData@QStandardItemModel@@UEAA_NHW4Orientation@Qt@@AEBVQVariant@@H@Z
-)?setHeaderLabels@QTreeWidget@@QEAAXAEBVQStringList@@@Z
-)yIx
 * Rehandling active codes
 * { font-size: 10px }
-*"?qt_metacall@QButtonGroup@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-*#?qt_metacast@QLineEdit@@UEAAPEAXPEBD@Z
-*'?setActiveAction@QMenu@@QEAAXPEAVQAction@@@Z
 *** Converter error - element "%s" already has a non-int attribute "%s"!\n
 *** Element "%s" has attribute "%s" with an unexpected type!\n
 *** Log "%s" has attribute "%s" with an unexpected type (expected int array)!\n
@@ -1050,106 +845,23 @@ $prefix_element$
 *** line error: 'rgb+a' packing cannot pack image '%s' belonging to sequences %d and %d!\n
 *** line error: incompatible packmode change when %d sequences already defined!\n
 *** line error: invalid sequence type '%s', packing 'flat' allows only 'sequence-rgba'!\n
-**?setIcon@QAbstractButton@@QEAAXAEBVQIcon@@@Z
-*0?staticMetaObject@QComboBox@@2UQMetaObject@@B
-*8?visualRect@QTableView@@UEBA?AVQRect@@AEBVQModelIndex@@@Z
-*?setHorizontalHeaderLabels@QStandardItemModel@@QEAAXAEBVQStringList@@@Z
-*?setHorizontalHeaderLabels@QTableWidget@@QEAAXAEBVQStringList@@@Z
-*?setHorizontalPolicy@QSizePolicy@@QEAAXW4Policy@1@@Z
-*?setHorizontalScrollBarPolicy@QAbstractScrollArea@@QEAAXW4ScrollBarPolicy@Qt@@@Z
-*?setHorizontalSpacing@QGridLayout@@QEAAXH@Z
-*?setHotSpot@QDrag@@QEAAXAEBVQPoint@@@Z
-*?setItemWidget@QListWidget@@QEAAXPEAVQListWidgetItem@@PEAVQWidget@@@Z
-*?setKeyboardTracking@QAbstractSpinBox@@QEAAX_N@Z
-*?setLabelText@QProgressDialog@@QEAAXAEBVQString@@@Z
-*?setLayout@QWidget@@QEAAXPEAVQLayout@@@Z
-*?setLineEdit@QComboBox@@QEAAXPEAVQLineEdit@@@Z
-*?setLineWrapMode@QTextEdit@@QEAAXW4LineWrapMode@1@@Z
-*?setMargin@QLayout@@QEAAXH@Z
-*?setMask@QWidget@@QEAAXAEBVQRegion@@@Z
-*?setMaxLength@QLineEdit@@QEAAXH@Z
-*?setMaxVisibleItems@QComboBox@@QEAAXH@Z
-*?setMaximum@QDoubleSpinBox@@QEAAXN@Z
-*?setMaximum@QProgressDialog@@QEAAXH@Z
-*?setMaximumHeight@QWidget@@QEAAXH@Z
-*?setMaximumSize@QWidget@@QEAAXHH@Z
-*?setMaximumWidth@QWidget@@QEAAXH@Z
-*?setMenu@QPushButton@@QEAAXPEAVQMenu@@@Z
-*?setMimeData@QClipboard@@QEAAXPEAVQMimeData@@W4Mode@1@@Z
-*?setMimeData@QDrag@@QEAAXPEAVQMimeData@@@Z
-*StO9>T
-+*?setIcon@QAction@@QEAAXAEBVQIcon@@@Z
-+8?visualRect@QTreeView@@UEBA?AVQRect@@AEBVQModelIndex@@@Z
-+?setMinimum@QDoubleSpinBox@@QEAAXN@Z
-+?setMinimum@QProgressDialog@@QEAAXH@Z
-+?setMinimumSize@QWidget@@QEAAXHH@Z
-+?setMinimumWidth@QWidget@@QEAAXH@Z
-+?setModal@QDialog@@QEAAX_N@Z
-+?setOption@QColorDialog@@QEAAXW4ColorDialogOption@1@_N@Z
-+?setOrientation@QDialogButtonBox@@QEAAXW4Orientation@Qt@@@Z
-+?setOrientation@QSplitter@@QEAAXW4Orientation@Qt@@@Z
-+?setOverrideCursor@QApplication@@SAXAEBVQCursor@@@Z
-+?setPalette@QWidget@@QEAAXAEBVQPalette@@@Z
-+?setPen@QPainter@@QEAAXAEBVQColor@@@Z
-+?setPen@QPainter@@QEAAXAEBVQPen@@@Z
-+?setPen@QPainter@@QEAAXW4PenStyle@Qt@@@Z
-+?setPixel@QImage@@QEAAXHHI@Z
-+?setPixelSize@QFont@@QEAAXH@Z
-+?setPixmap@QDrag@@QEAAXAEBVQPixmap@@@Z
-+?setPixmap@QLabel@@QEAAXAEBVQPixmap@@@Z
-+?setPlaceholderText@QLineEdit@@QEAAXAEBVQString@@@Z
-+?setPlainText@QPlainTextEdit@@QEAAXAEBVQString@@@Z
-+?setPointSize@QFont@@QEAAXH@Z
-+?setPointSizeF@QFont@@QEAAXN@Z
-+?setPopupMode@QToolButton@@QEAAXW4ToolButtonPopupMode@1@@Z
-+?setPos@QCursor@@SAXHH@Z
 +Bounds
 +Constraints
 +Frames
 +Offset
 +Options
 +Single-Bone Options
-+\f?objectName@QObject@@QEBA?AVQString@@XZ
 +inf
 , HDRmultiplier: 
 , alpha: 
 , channels = 
 , height = 
-,#?qt_metacast@QListWidget@@UEAAPEAXPEBD@Z
-,?setScaledContents@QLabel@@QEAAX_N@Z
-,?setSelection@QLineEdit@@QEAAXHH@Z
-,?setSelection@QListView@@MEAAXAEBVQRect@@V?$QFlags@W4SelectionFlag@QItemSelectionModel@@@@@Z
-,?setSelection@QTableView@@MEAAXAEBVQRect@@V?$QFlags@W4SelectionFlag@QItemSelectionModel@@@@@Z
-,?setSelection@QTreeView@@MEAAXAEBVQRect@@V?$QFlags@W4SelectionFlag@QItemSelectionModel@@@@@Z
-,?setSelectionBehavior@QAbstractItemView@@QEAAXW4SelectionBehavior@1@@Z
-,?setSelectionMode@QAbstractItemView@@QEAAXW4SelectionMode@1@@Z
-,?setSelectionModel@QAbstractItemView@@UEAAXPEAVQItemSelectionModel@@@Z
-,?setSelectionModel@QTableView@@UEAAXPEAVQItemSelectionModel@@@Z
-,?setSelectionModel@QTreeView@@UEAAXPEAVQItemSelectionModel@@@Z
-,?setSelectionModel@QTreeWidget@@UEAAXPEAVQItemSelectionModel@@@Z
-,?setShortcut@QAction@@QEAAXAEBVQKeySequence@@@Z
-,?setShortcuts@QAction@@QEAAXW4StandardKey@QKeySequence@@@Z
-,?setShowGrid@QTableView@@QEAAX_N@Z
-,?setSizeConstraint@QLayout@@QEAAXW4SizeConstraint@1@@Z
-,?setSizeGripEnabled@QDialog@@QEAAX_N@Z
-,?setSizePolicy@QWidget@@QEAAXVQSizePolicy@@@Z
-,?setSizePolicy@QWidget@@QEAAXW4Policy@QSizePolicy@@0@Z
-,?setSliderPosition@QAbstractSlider@@QEAAXH@Z
-,?setSortIndicator@QHeaderView@@QEAAXHW4SortOrder@Qt@@@Z
-,?setSortingEnabled@QTableView@@QEAAX_N@Z
-,?setSourceModel@QSortFilterProxyModel@@UEAAXPEAVQAbstractItemModel@@@Z
-,?setSpacing@QBoxLayout@@QEAAXH@Z
-,HR>O
 ,\n\t\t\t\t{ name = "%s", weight = %d }
 - Add Active Code: %s
 - Add the template to scripts/workshop_import_templates/templates.txt\n
 - Remove Active Code: %s
 - Restart\n
 - Set 'no_import' flag for this slot in npc_heroes.txt (%s.%s)\n
--"?qt_metacall@QCheckBox@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
--#?qt_metacast@QMainWindow@@UEAAPEAXPEBD@Z
--(?setCompletionMode@QCompleter@@QEAAXW4CompletionMode@1@@Z
--*?setIcon@QMenu@@QEAAXAEBVQIcon@@@Z
 -- Workshop Importer [%s]: Delta Animation (Subtraction)\nmodel:CreateSequence(\n\t{\n\t\tname = "%s",\n\t\tdelta = true,\n\t\tfadeInTime = 0,\n\t\tfadeOutTime = 0,\n\t\tfps = 30,\n\t\tframerangesequence = "%s",\n\t\tcmds = {\n\t\t\t { cmd = "sequence", sequence = "%s", dst = 1 },\n\t\t\t { cmd = "fetchframe", sequence = "%s", frame = 0, dst = 2 },\n\t\t\t { cmd = "subtract", dst = 1, src = 2 },\n\t\t\t { cmd = "add", dst = 0, src = 1 },\n\t\t},\n%s\t}\n)\n
 -- Workshop Importer [%s]: Multiblend sequence\nmodel:CreateSequence(\n\t{\n\t\tname = "%s",\n%s\t\tposeParamX = model:CreatePoseParameter( "%s", -1, 1, 0, false ),\n\t\tsequences = {\n\t\t\t{ %s }\n\t\t},\n\t\tactivities = {\n\t\t\t{ name = "%s", weight = 1 }\n\t\t}\n\t}\n)\n
 -- Workshop Importer [%s]: Pose sequence\nmodel:CreateSequence(\n\t\t  {\n\t\t\t\tname = "%s",\n\t\t\t\tdelta = true,\n\t\t\t\tfadeInTime = 0,\n\t\t\t\tfadeOutTime = 0,\n\t\t\t\tfps = 30,\n\t\t\t\tframerangesequence = "%s",\n\t\t\t\tcmds = {\n\t\t\t\t\t { cmd = "sequence", sequence = "%s", dst = 1 },\n\t\t\t\t\t { cmd = "fetchframe", sequence = "%s", frame = 0, dst = 2 },\n\t\t\t\t\t { cmd = "subtract", dst = 1, src = 2 },\n\t\t\t\t\t { cmd = "slerp", dst = 0, src = 1 }\n\t\t\t\t}\n\t\t  }\n)\n
@@ -1160,30 +872,7 @@ $prefix_element$
 ---- dmxconvert output ----\n
 ------------------------------------ FINAL KEY VALUES ------------------------------------\n
 ---------------------------\n
---?setStretch@QBoxLayout@@QEAAXHH@Z
 -400.0 400.0 50.0
--9D\t/9a
--?setSpacing@QGridLayout@@QEAAXH@Z
--?setStandardButtons@QMessageBox@@QEAAXV?$QFlags@W4StandardButton@QMessageBox@@@@@Z
--?setStart@QLinearGradient@@QEAAXAEBVQPointF@@@Z
--?setText@QClipboard@@QEAAXAEBVQString@@W4Mode@1@@Z
--?setText@QLabel@@QEAAXAEBVQString@@@Z
--?setText@QLineEdit@@QEAAXAEBVQString@@@Z
--?setText@QMessageBox@@QEAAXAEBVQString@@@Z
--?setText@QTableWidgetItem@@QEAAXAEBVQString@@@Z
--?setText@QTextEdit@@QEAAXAEBVQString@@@Z
--?setText@QTreeWidgetItem@@QEAAXHAEBVQString@@@Z
--?setTextFormat@QLabel@@QEAAXW4TextFormat@Qt@@@Z
--?setTextInteractionFlags@QLabel@@QEAAXV?$QFlags@W4TextInteractionFlag@Qt@@@@@Z
--?setTexture@QBrush@@QEAAXAEBVQPixmap@@@Z
--?setTitle@QGroupBox@@QEAAXAEBVQString@@@Z
--?setTitle@QMenu@@QEAAXAEBVQString@@@Z
--?setToolButtonStyle@QToolBar@@QEAAXW4ToolButtonStyle@Qt@@@Z
--?setToolTip@QAction@@QEAAXAEBVQString@@@Z
--?setToolTip@QTableWidgetItem@@QEAAXAEBVQString@@@Z
--?setToolTip@QWidget@@QEAAXAEBVQString@@@Z
--?setUniformRowHeights@QTreeView@@QEAAX_N@Z
--BH>t
 -addon
 -avx
 -destinations_workshop
@@ -1200,10 +889,7 @@ $prefix_element$
 -sse4
 -vsync
 -workshop_items
-.*?setIcon@QMessageBox@@QEAAXW4Icon@1@@Z
 .00cfg
-.8?visualRegionForSelection@QListView@@MEBA?AVQRegion@@AEBVQItemSelection@@@Z
-.>\rfJBGo
 .?AU_Crt_new_delete@std@@
 .?AUctype_base@std@@
 .?AV<lambda_1>@?1???$ConvertFromBC6h@UBGRA8888_t@@$00@ImageLoader@@YA_NPEBEPEAUBGRA8888_t@@HH@Z@
@@ -2368,25 +2054,6 @@ $prefix_element$
 .?AVruntime_error@std@@
 .?AVsystem_error@std@@
 .?AVtype_info@@
-.?setValidator@QLineEdit@@QEAAXPEBVQValidator@@@Z
-.?setValue@QAbstractSlider@@QEAAXH@Z
-.?setVerticalPolicy@QSizePolicy@@QEAAXW4Policy@1@@Z
-.?setVerticalScrollBarPolicy@QAbstractScrollArea@@QEAAXW4ScrollBarPolicy@Qt@@@Z
-.?setVerticalSpacing@QGridLayout@@QEAAXH@Z
-.?setWindowTitle@QWidget@@QEAAXAEBVQString@@@Z
-.?setWordWrap@QLabel@@QEAAX_N@Z
-.?setWordWrap@QTableView@@QEAAX_N@Z
-.?show@QWidget@@QEAAXXZ
-.?showEvent@QAbstractSpinBox@@MEAAXPEAVQShowEvent@@@Z
-.?showEvent@QComboBox@@MEAAXPEAVQShowEvent@@@Z
-.?showEvent@QDialog@@MEAAXPEAVQShowEvent@@@Z
-.?showEvent@QMessageBox@@MEAAXPEAVQShowEvent@@@Z
-.?showEvent@QPlainTextEdit@@MEAAXPEAVQShowEvent@@@Z
-.?showEvent@QProgressDialog@@MEAAXPEAVQShowEvent@@@Z
-.?showEvent@QTextEdit@@MEAAXPEAVQShowEvent@@@Z
-.?showEvent@QWidget@@MEAAXPEAVQShowEvent@@@Z
-.?showMessage@QStatusBar@@QEAAXAEBVQString@@H@Z
-.?showPopup@QComboBox@@UEAAXXZ
 .CRT$XCA
 .CRT$XCC
 .CRT$XCL
@@ -2445,7 +2112,6 @@ $prefix_element$
 .vmesh
 .vpk
 .vsky
-.xJ>Hf
 .xdata
 .xdata$x
 .zip
@@ -2464,33 +2130,12 @@ $prefix_element$
 // \t\t\t\t\t\t"BA_INT_DANGER"\t\tbreak out of this anim only if threatened\n
 // \t\t\t\t\t\t"BA_INT_NONE"\t\tbreak out only when time runs out. No external influence will break me out.\n
 // \t\t\t\t\t\t"BA_INT_PLAYER"\t\tbreak out of this anim if I can see the player, or I'm threatened\n
-/2GG>!B
-/5?tr@QWidget@@SA?AVQString@@PEBD0@Z
-/8?visualRegionForSelection@QTableView@@MEBA?AVQRegion@@AEBVQItemSelection@@@Z
-/?showText@QToolTip@@SAXAEBVQPoint@@AEBVQString@@PEAVQWidget@@@Z
-/?size@QImage@@QEBA?AVQSize@@XZ
-/?sort@QSortFilterProxyModel@@UEAAXHW4SortOrder@Qt@@@Z
-/?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
-/?sortByColumn@QTableView@@QEAAXHW4SortOrder@Qt@@@Z
-/?sourceModel@QAbstractProxyModel@@QEBAPEAVQAbstractItemModel@@XZ
-/?spacerItem@QLayoutItem@@UEAAPEAVQSpacerItem@@XZ
-/?spacerItem@QSpacerItem@@UEAAPEAV1@XZ
-/?span@QSortFilterProxyModel@@UEBA?AVQSize@@AEBVQModelIndex@@@Z
-/?splitPath@QCompleter@@UEBA?AVQStringList@@AEBVQString@@@Z
-/?standardIconImplementation@QWindowsXPStyle@@IEBA?AVQIcon@@W4StandardPixmap@QStyle@@PEBVQStyleOption@@PEBVQWidget@@@Z
-/?startDrag@QAbstractItemView@@MEAAXV?$QFlags@W4DropAction@Qt@@@@@Z
-/?startDrag@QListView@@MEAAXV?$QFlags@W4DropAction@Qt@@@@@Z
-/?startDragDistance@QApplication@@SAHXZ
 /TF<)VGy#WH
-/\v?addMenu@QMenu@@QEAAPEAVQAction@@PEAV1@@Z
 /content
 /content/
 /game/
 /select,
 0 0 0
-0 z5
-0"?qt_metacall@QColorDialog@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-0#?qt_metacast@QMenu@@UEAAPEAXPEBD@Z
 0-1.0 (&float)
 0-255 (&integer)
 0.0 0.0 -1.0
@@ -2503,18 +2148,6 @@ $prefix_element$
 0.96862745 0.066666670 0.086274512
 00000000-0000-0000-0000-000000000000
 0123456789abcdefghijklmnopqrstuvwxyz
-08?visualRegionForSelection@QTreeView@@MEBA?AVQRegion@@AEBVQItemSelection@@@Z
-0?staticMetaObject@QAction@@2UQMetaObject@@B
-0?staticMetaObject@QPushButton@@2UQMetaObject@@B
-0?staticMetaObject@QSortFilterProxyModel@@2UQMetaObject@@B
-0?staticMetaObject@QTableView@@2UQMetaObject@@B
-0?staticMetaObject@QTextEdit@@2UQMetaObject@@B
-0?staticMetaObject@QWidget@@2UQMetaObject@@B
-0?staticMetaObject@QWindowsXPStyle@@2UQMetaObject@@B
-0E>X
-0X8b?~
-0\f50t\f
-0iN>/
 0x%016llX
 0x%08x
 0x%llx
@@ -2524,22 +2157,11 @@ $prefix_element$
 1#INF
 1#QNAN
 1#SNAN
-1*?setIcon@QTableWidgetItem@@QEAAXAEBVQIcon@@@Z
 1.0 1.0 1.0
 1.2.5
-1.?setVisible@QColorDialog@@UEAAX_N@Z
-1/?sizeHint@QAbstractScrollArea@@UEBA?AVQSize@@XZ
 1000
-11Y@
 123 168 168
 16-byte data pool
-1?statusBar@QMainWindow@@QEBAPEAVQStatusBar@@XZ
-1?statusTip@QAction@@QEBA?AVQString@@XZ
-1?stepBy@QAbstractSpinBox@@UEAAXH@Z
-1?stepEnabled@QAbstractSpinBox@@MEBA?AV?$QFlags@W4StepEnabledFlag@QAbstractSpinBox@@@@XZ
-1?styleChange@QWidget@@MEAAXAEAVQStyle@@@Z
-1?styleSheet@QWidget@@QEBA?AVQString@@XZ
-1?submit@QAbstractProxyModel@@UEAA_NXZ
 1AboutSlot()
 1AcceptAndClose()
 1AcceptColorInternal(FatColor_t)
@@ -2945,7 +2567,6 @@ $prefix_element$
 1reject()
 1revertToOriginal()
 1revertToOriginalColor()
-1sAL"
 1scaleValuesBySetMaxBound(double)
 1scaleValuesBySetMinBound(double)
 1setAlpha( int )
@@ -2983,23 +2604,9 @@ $prefix_element$
 1togglePlural_debug()
 1update()
 1updateButtons()
-2"?qt_metacall@QComboBox@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-2#?qt_metacast@QMessageBox@@UEAAPEAXPEBD@Z
-2.?setVisible@QDialog@@UEAAX_N@Z
-2/?sizeHint@QAbstractSpinBox@@UEBA?AVQSize@@XZ
 243 237 230
 251 74 84
 255 255 255
-2?suffix@QDoubleSpinBox@@QEBA?AVQString@@XZ
-2?supportedDropActions@QListWidget@@MEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
-2?supportedDropActions@QTreeWidget@@MEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
-2?supportedImageFormats@QImageReader@@SA?AV?$QList@VQByteArray@@@@XZ
-2?takeAt@QBoxLayout@@UEAAPEAVQLayoutItem@@H@Z
-2?takeAt@QGridLayout@@UEAAPEAVQLayoutItem@@H@Z
-2?takeAt@QStackedLayout@@UEAAPEAVQLayoutItem@@H@Z
-2?text@QAction@@QEBA?AVQString@@XZ
-2?text@QClipboard@@QEBA?AVQString@@W4Mode@1@@Z
-2?text@QLineEdit@@QEBA?AVQString@@XZ
 2BackgroundColorChanged( const QColor & )
 2BlendFactorChanged(double)
 2BroadcastColorSet(QVector<QColor>)
@@ -3064,10 +2671,6 @@ $prefix_element$
 2ValueSetChanged(QVector<double>)
 2ValueSetXChanged(QVector<double>)
 2ValueSetYChanged(QVector<double>)
-2\fp\vP\n0!3
-2\rE2h
-2\rU2h
-2\v?addMenu@QMenuBar@@QEAAPEAVQMenu@@AEBVQString@@@Z
 2aboutToShow()
 2accepted()
 2boo(bool)
@@ -3123,122 +2726,20 @@ $prefix_element$
 2valueChanged( int )
 2valueChanged(double)
 2valueChanged(int)
-3 FB
-3*?setIconPixmap@QMessageBox@@QEAAXAEBVQPixmap@@@Z
-3+5<t
-3,?setReadOnly@QPlainTextEdit@@QEAAX_N@Z
-3-?setStretchLastSection@QHeaderView@@QEAAX_N@Z
-3/?sizeHint@QBoxLayout@@UEBA?AVQSize@@XZ
-30?staticMetaObject@QDialog@@2UQMetaObject@@B
-333333
-33s?
-37>k
-38?warning@QMessageBox@@SA?AW4StandardButton@1@PEAVQWidget@@AEBVQString@@1V?$QFlags@W4StandardButton@QMessageBox@@@@W421@@Z
-3>N;kU
-3>fvw
-3?textFromValue@QDoubleSpinBox@@UEBA?AVQString@@N@Z
-3?toRgb@QColor@@QEBA?AV1@XZ
-3?toolTip@QAction@@QEBA?AVQString@@XZ
-3?top@QItemSelectionRange@@QEBAHXZ
-3?tr
-4,?setReadOnly@QTextEdit@@QEAAX_N@Z
 4-byte data pool
 400.0 -400.0 -50.0
-5"?qt_metacall@QCompleter@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-5/?sizeHint@QCheckBox@@UEBA?AVQSize@@XZ
-51>W
-5?tr@QTextEdit@@SA?AVQString@@PEBD0@Z
-5\r55t
-5sfm_v8
-63?timerEvent@QAbstractButton@@MEAAXPEAVQTimerEvent@@@Z
 64 283 0
-68?warning@QMessageBox@@SAHPEAVQWidget@@AEBVQString@@1W4StandardButton@1@2@Z
-6NK>
-6\fXO>\ntA
-7%?reset@QAbstractItemView@@UEAAXXZ
-7)?setFamily@QFont@@QEAAXAEBVQString@@@Z
-7*?setIconSize@QAbstractButton@@QEAAXAEBVQSize@@@Z
-7/?sizeHint@QComboBox@@UEBA?AVQSize@@XZ
-78?wasCanceled@QProgressDialog@@QEBA_NXZ
-7>I0
-7?GX
-7?type@QStandardItem@@UEBAHXZ
-7?updateGeometries@QListView@@MEAAXXZ
-7?updateGeometries@QTableView@@MEAAXXZ
-7?updateGeometries@QTreeView@@MEAAXXZ
-7?updateGeometry@QWidget@@QEAAXXZ
-7?validate@QDoubleSpinBox@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
-7?validate@QDoubleValidator@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
-7?validate@QIntValidator@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
-7?value@QAbstractSlider@@QEBAHXZ
-7?value@QColor@@QEBAHXZ
-7?value@QDoubleSpinBox@@QEBANXZ
-7?value@QProgressDialog@@QEBAHXZ
-7?valueF@QColor@@QEBANXZ
-7?valueFromText@QDoubleSpinBox@@UEBANAEBVQString@@@Z
-7?verticalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ
-7?verticalOffset@QListView@@MEBAHXZ
-7?verticalOffset@QTableView@@MEBAHXZ
-7?verticalOffset@QTreeView@@MEBAHXZ
-7?verticalScrollBar@QAbstractScrollArea@@QEBAPEAVQScrollBar@@XZ
-7?verticalScrollbarAction@QAbstractItemView@@MEAAXH@Z
-7?verticalScrollbarAction@QTableView@@MEAAXH@Z
-7?verticalScrollbarValueChanged@QAbstractItemView@@MEAAXH@Z
-7h>?8
-7~xh
-8&Kx
-8'?setAlignment@QLabel@@QEAAXV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
-8(?setContentsMargins@QLayout@@QEAAXHHHH@Z
 8-byte data pool
-80?staticMetaObject@QDoubleSpinBox@@2UQMetaObject@@B
-83?timerEvent@QAbstractSlider@@MEAAXPEAVQTimerEvent@@@Z
 85744691
 89 89 89
-8?viewOptions@QAbstractItemView@@MEBA?AVQStyleOptionViewItem@@XZ
-8?viewOptions@QListView@@MEBA?AVQStyleOptionViewItem@@XZ
-8?viewOptions@QTableView@@MEBA?AVQStyleOptionViewItem@@XZ
-8?viewport@QAbstractScrollArea@@QEBAPEAVQWidget@@XZ
-8?viewportEvent@QAbstractItemView@@MEAA_NPEAVQEvent@@@Z
-8?viewportEvent@QAbstractScrollArea@@MEAA_NPEAVQEvent@@@Z
-8?width@QPixmap@@QEBAHXZ
-8?winEvent@QWidget@@MEAA_NPEAUtagMSG@@PEAJ@Z
-8?winId@QWidget@@QEBAPEAUHWND__@@XZ
-8?windowActivationChange@QWidget@@MEAAX_N@Z
-8?windowModality@QWidget@@QEBA?AW4WindowModality@Qt@@XZ
-8?windowTitle@QWidget@@QEBA?AVQString@@XZ
-8?write@QStandardItem@@UEBAXAEAVQDataStream@@@Z
-8?write@QTableWidgetItem@@UEBAXAEAVQDataStream@@@Z
-8?write@QTreeWidgetItem@@UEBAXAEAVQDataStream@@@Z
-8ClipBoard
 8b  16-May-2010
-8ke?;
-9(?setContentsMargins@QWidget@@QEAAXAEBVQMargins@@@Z
-93?timerEvent@QAbstractSpinBox@@MEAAXPEAVQTimerEvent@@@Z
-9>70
-9\f?background@QPainter@@QEBAAEBVQBrush@@XZ
-9\r?qrand@@YAHXZ
-9\v?addPixmap@QIcon@@QEAAXAEBVQPixmap@@W4Mode@1@W4State@1@@Z
-9a&g
 : Add
-:(?setContentsMargins@QWidget@@QEAAXHHHH@Z
-;"?qt_metacall@QDialog@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-;&?scaled@QImage@@QEBA?AV1@AEBVQSize@@W4AspectRatioMode@Qt@@W4TransformationMode@4@@Z
-;'?setAlignment@QLayoutItem@@QEAAXV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
-;-?setStyle@QBrush@@QEAAXW4BrushStyle@Qt@@@Z
-;/?sizeHint@QDialog@@UEBA?AVQSize@@XZ
-;1cb
-;\r?qsrand@@YAXI@Z
 ;fff?
 <!-- DMXVersion
 <!-- dmx encoding keyvalues2_noids 1 format vtex 1 -->\n"CDmeVtex"\n{\n\t"m_inputTextureArray" "element_array" \n\t[\n\t\t"CDmeInputTexture"\n\t\t{\n\t\t\t"m_name" "string" "0"\n\t\t\t"m_fileName" "string" "%s"\n\t\t\t"m_colorSpace" "string" "linear"\n\t\t\t"m_typeString" "string" "2D"\n\t\t\t"m_imageProcessorArray" "element_array"\n\t\t\t[\n\t\t\t\t"CDmeImageProcessor"\n\t\t\t\t{\n\t\t\t\t\t"m_algorithm" "string" "ConvertToYCoCg"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t]\n\t"m_outputTypeString" "string" "2D"\n\t"m_outputFormat" "string" "DXT5"\n\t"m_textureOutputChannelArray" "element_array"\n\t[\n\t\t"CDmeTextureOutputChannel"\n\t\t{\n\t\t\t"m_inputTextureArray" "string_array"\n\t\t\t\t[\n\t\t\t\t\t"0"\n\t\t\t\t]\n\t\t\t"m_srcChannels" "string" "rgba"\n\t\t\t"m_dstChannels" "string" "rgba"\n\t\t\t"m_mipAlgorithm" "CDmeImageProcessor"\n\t\t\t{\n\t\t\t\t"m_algorithm" "string" "None"\n\t\t\t}\n\t\t\t"m_outputColorSpace" "string" "linear"\n\t\t}\n\t]\n}\n
 <!-- kv3 encoding:%s:version{%s} format:%s:version{%s} -->\n
 <!-- schema 
-<"?qt_metacall@QDialogButtonBox@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-<%?reset@QListView@@UEAAXXZ
-<,?setRed@QColor@@QEAAXH@Z
-<-?setStyle@QFont@@QEAAXW4Style@1@@Z
 </font>
-<3?timerEvent@QListView@@MEAAXPEAVQTimerEvent@@@Z
 << NULL >>\n
 <Bad value> : 
 <NONE>
@@ -3251,38 +2752,6 @@ $prefix_element$
 <null>
 <unconnected>
 <unknown>
-=&?scaled@QPixmap@@QEBA?AV1@AEBVQSize@@W4AspectRatioMode@Qt@@W4TransformationMode@4@@Z
-=(?setContextMenuPolicy@QWidget@@QEAAXW4ContextMenuPolicy@Qt@@@Z
-=*?setIconSize@QToolBar@@QEAAXAEBVQSize@@@Z
-=,?setRedF@QColor@@QEAAXN@Z
-=1cb
-=333?333?333?333?
-=87M
-=Player
-=cQ6
-=e2m
-=imb;D
->%lld
->Node
->\t?grow@QVectorData@@SAHHHH_N@Z
->cQ6
->ffffff
->jtm}S
->logf
-?!5WOo
-?#DOTA_Workshop_EditTarget
-?*?setIconVisibleInMenu@QAction@@QEAAX_N@Z
-?.?setVisible@QWidget@@UEAAX_N@Z
-?/?sizeHint@QFrame@@UEBA?AVQSize@@XZ
-?1cb
-?333333
-?3?timerEvent@QMenu@@MEAAXPEAVQTimerEvent@@@Z
-?3Fx
-?49HoKC
-?7zQ6$
-?7{KV\nU
-?8UUUUU
-?8bunz8
 ??0CThreadFastMutex@@QEAA@XZ
 ??0CThreadMultiWaitEvent@@QEAA@_N@Z
 ??0CThreadMutex@@QEAA@XZ
@@ -3572,7 +3041,6 @@ $prefix_element$
 ??MQTreeWidgetItem@@UEBA_NAEBV0@@Z
 ??YQString@@QEAAAEAV0@AEBV0@@Z
 ??YQString@@QEAAAEAV0@PEBD@Z
-?@En[vP
 ?AppendFormat@CBufferString@@QEAAHPEBDZZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
 ?ComposeFileName@CBufferString@@QEAAPEBDPEBD0D@Z
@@ -3589,10 +3057,7 @@ $prefix_element$
 ?FixSlashes@CBufferString@@QEAAPEBDD@Z
 ?FixupPathName@CBufferString@@QEAAPEBDD@Z
 ?Format@CBufferString@@QEAAHPEBDZZ
-?GetProfile_ultrafast
-?InputBindSystem
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?Ji@9
 ?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LockForRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
@@ -3600,7 +3065,6 @@ $prefix_element$
 ?MakeAbsolutePath@CBufferString@@QEAAPEBDPEBD0@Z
 ?Purge@CBufferString@@QEAAXH@Z
 ?QStringList_join@QtPrivate@@YA?AVQString@@PEBVQStringList@@AEBV2@@Z
-?R0I?
 ?Relinquish@CBufferString@@QEAAPEADW4EAllocationOption_t@1@@Z
 ?RemoveAt@CBufferString@@QEAAPEBDHH@Z
 ?RemoveDotSlashes@CBufferString@@QEAAPEBDD@Z
@@ -3625,20 +3089,64 @@ $prefix_element$
 ?V_SplitString@@YAXPEBD0AEAV?$CUtlVector@PEADV?$CUtlMemory@PEADH@@@@@Z
 ?V_UnicodeLength@@YAHPEBD@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
-?\rz0w
-?\vxMW
+?about@QMessageBox@@SAXPEAVQWidget@@AEBVQString@@1@Z
 ?absoluteDir@QFileInfo@@QEBA?AVQDir@@XZ
 ?absoluteFilePath@QDir@@QEBA?AVQString@@AEBV2@@Z
 ?absolutePath@QDir@@QEBA?AVQString@@XZ
 ?absolutePath@QFileInfo@@QEBA?AVQString@@XZ
+?accept@QDialog@@UEAAXXZ
+?actionEvent@QMenu@@MEAAXPEAVQActionEvent@@@Z
+?actionEvent@QToolBar@@MEAAXPEAVQActionEvent@@@Z
+?actionEvent@QToolButton@@MEAAXPEAVQActionEvent@@@Z
+?actionEvent@QWidget@@MEAAXPEAVQActionEvent@@@Z
+?actions@QWidget@@QEBA?AV?$QList@PEAVQAction@@@@XZ
 ?activate@QMetaObject@@SAXPEAVQObject@@PEBU1@HPEAPEAX@Z
+?activeModalWidget@QApplication@@SAPEAVQWidget@@XZ
+?activePopupWidget@QApplication@@SAPEAVQWidget@@XZ
+?activeWindow@QApplication@@SAPEAVQWidget@@XZ
+?addAction@QActionGroup@@QEAAPEAVQAction@@PEAV2@@Z
+?addAction@QMenu@@QEAAPEAVQAction@@AEBVQString@@@Z
+?addAction@QMenu@@QEAAPEAVQAction@@AEBVQString@@PEBVQObject@@PEBDAEBVQKeySequence@@@Z
+?addAction@QToolBar@@QEAAPEAVQAction@@AEBVQIcon@@AEBVQString@@PEBVQObject@@PEBD@Z
+?addAction@QWidget@@QEAAXPEAVQAction@@@Z
+?addButton@QButtonGroup@@QEAAXPEAVQAbstractButton@@@Z
+?addButton@QMessageBox@@QEAAPEAVQPushButton@@AEBVQString@@W4ButtonRole@1@@Z
+?addFile@QIcon@@QEAAXAEBVQString@@AEBVQSize@@W4Mode@1@W4State@1@@Z
 ?addGuard@QMetaObject@@SAXPEAPEAVQObject@@@Z
+?addItem@QBoxLayout@@UEAAXPEAVQLayoutItem@@@Z
+?addItem@QComboBox@@QEAAXAEBVQString@@AEBVQVariant@@@Z
+?addItem@QGridLayout@@MEAAXPEAVQLayoutItem@@@Z
+?addItem@QStackedLayout@@UEAAXPEAVQLayoutItem@@@Z
+?addItems@QComboBox@@QEAAXAEBVQStringList@@@Z
+?addLayout@QBoxLayout@@QEAAXPEAVQLayout@@H@Z
+?addLayout@QGridLayout@@QEAAXPEAVQLayout@@HHHHV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
+?addLayout@QGridLayout@@QEAAXPEAVQLayout@@HHV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
+?addMenu@QMenu@@QEAAPEAVQAction@@PEAV1@@Z
+?addMenu@QMenuBar@@QEAAPEAVQMenu@@AEBVQString@@@Z
+?addPixmap@QIcon@@QEAAXAEBVQPixmap@@W4Mode@1@W4State@1@@Z
+?addSeparator@QMenu@@QEAAPEAVQAction@@XZ
+?addSeparator@QToolBar@@QEAAPEAVQAction@@XZ
+?addSpacerItem@QBoxLayout@@QEAAXPEAVQSpacerItem@@@Z
+?addSpacing@QBoxLayout@@QEAAXH@Z
+?addStretch@QBoxLayout@@QEAAXH@Z
+?addToolBar@QMainWindow@@QEAAPEAVQToolBar@@AEBVQString@@@Z
+?addWidget@QBoxLayout@@QEAAXPEAVQWidget@@HV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
+?addWidget@QGridLayout@@QEAAXPEAVQWidget@@HHHHV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
+?addWidget@QGridLayout@@QEAAXPEAVQWidget@@HHV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
+?addWidget@QLayout@@QEAAXPEAVQWidget@@@Z
+?addWidget@QSplitter@@QEAAXPEAVQWidget@@@Z
+?addWidget@QStackedLayout@@QEAAHPEAVQWidget@@@Z
+?addWidget@QToolBar@@QEAAPEAVQAction@@PEAVQWidget@@@Z
+?adjustSize@QWidget@@QEAAXXZ
 ?adjusted@QRect@@QEBA?AV1@HHHH@Z
 ?allocate@QVectorData@@SAPEAU1@HH@Z
+?alpha@QColor@@QEBAHXZ
+?alphaF@QColor@@QEBANXZ
 ?append2@QListData@@QEAAPEAPEAXAEBU1@@Z
 ?append@?$QVector@VQPoint@@@@QEAAXAEBVQPoint@@@Z
 ?append@QListData@@QEAAPEAPEAXXZ
 ?append@QString@@QEAAAEAV1@AEBV1@@Z
+?appendRow@QStandardItemModel@@QEAAXAEBV?$QList@PEAVQStandardItem@@@@@Z
 ?arg@QString@@QEBA?AV1@AEBV1@HAEBVQChar@@@Z
 ?arg@QString@@QEBA?AV1@HHHAEBVQChar@@@Z
 ?arg@QString@@QEBA?AV1@IHHAEBVQChar@@@Z
@@ -3647,23 +3155,72 @@ $prefix_element$
 ?arg@QString@@QEBA?AV1@_KHHAEBVQChar@@@Z
 ?at@QString@@QEBA?BVQChar@@H@Z
 ?atEnd@QProcess@@UEBA_NXZ
+?availableGeometry@QDesktopWidget@@QEBA?BVQRect@@H@Z
+?background@QPainter@@QEBAAEBVQBrush@@XZ
+?beep@QApplication@@SAXXZ
 ?begin@QListData@@QEBAPEAPEAXXZ
 ?beginInsertRows@QAbstractItemModel@@IEAAXAEBVQModelIndex@@HH@Z
 ?beginRemoveRows@QAbstractItemModel@@IEAAXAEBVQModelIndex@@HH@Z
 ?beginResetModel@QAbstractItemModel@@IEAAXXZ
+?bits@QImage@@QEAAPEAEXZ
 ?blockSignals@QObject@@QEAA_N_N@Z
+?blue@QColor@@QEBAHXZ
+?blueF@QColor@@QEBANXZ
+?bottom@QItemSelectionRange@@QEBAHXZ
+?brush@QPalette@@QEBAAEBVQBrush@@W4ColorGroup@1@W4ColorRole@1@@Z
 ?buddy@QAbstractItemModel@@UEBA?AVQModelIndex@@AEBV2@@Z
+?buddy@QSortFilterProxyModel@@UEBA?AVQModelIndex@@AEBV2@@Z
+?button@QDialogButtonBox@@QEBAPEAVQPushButton@@W4StandardButton@1@@Z
+?buttons@QButtonGroup@@QEBA?AV?$QList@PEAVQAbstractButton@@@@XZ
+?buttons@QMouseEvent@@QEBA?AV?$QFlags@W4MouseButton@Qt@@@@XZ
+?byteCount@QImage@@QEBAHXZ
 ?bytesAvailable@QProcess@@UEBA_JXZ
 ?bytesToWrite@QProcess@@UEBA_JXZ
 ?canFetchMore@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
+?canFetchMore@QSortFilterProxyModel@@UEBA_NAEBVQModelIndex@@@Z
+?canInsertFromMimeData@QPlainTextEdit@@MEBA_NPEBVQMimeData@@@Z
+?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z
+?canRead@QImageReader@@QEBA_NXZ
 ?canReadLine@QProcess@@UEBA_NXZ
 ?cast@QMetaObject@@QEBAPEAVQObject@@PEAV2@@Z
 ?cd@QDir@@QEAA_NAEBVQString@@@Z
 ?cdUp@QDir@@QEAA_NXZ
+?changeEvent@QAbstractButton@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QAbstractSlider@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QAbstractSpinBox@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QColorDialog@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QComboBox@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QDialogButtonBox@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QFrame@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QGroupBox@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QLabel@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QLineEdit@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QMenu@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QMessageBox@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QPlainTextEdit@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QProgressDialog@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QSplitter@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QTextEdit@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QToolBar@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QToolButton@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QWidget@@MEAAXPEAVQEvent@@@Z
 ?changeGuard@QMetaObject@@SAXPEAPEAVQObject@@PEAV2@@Z
+?checkStateSet@QAbstractButton@@MEAAXXZ
+?checkStateSet@QCheckBox@@MEAAXXZ
+?childEvent@QGroupBox@@MEAAXPEAVQChildEvent@@@Z
+?childEvent@QLayout@@MEAAXPEAVQChildEvent@@@Z
 ?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
+?childEvent@QSplitter@@MEAAXPEAVQChildEvent@@@Z
+?childEvent@QToolBar@@MEAAXPEAVQChildEvent@@@Z
 ?children@QObject@@QEBAAEBV?$QList@PEAVQObject@@@@XZ
+?clear@QAbstractSpinBox@@UEAAXXZ
+?clear@QComboBox@@QEAAXXZ
+?clear@QListWidget@@QEAAXXZ
+?clear@QMenu@@QEAAXXZ
+?clear@QStandardItemModel@@QEAAXXZ
 ?clear@QString@@QEAAXXZ
+?clear@QTextEdit@@QEAAXXZ
+?clearFocus@QWidget@@QEAAXXZ
 ?clearSelection@QAbstractItemView@@QEAAXXZ
 ?clickedButton@QMessageBox@@QEBAPEAVQAbstractButton@@XZ
 ?clipboard@QApplication@@SAPEAVQClipboard@@XZ
@@ -3892,11 +3449,9 @@ $prefix_element$
 ?expandingDirections@QGridLayout@@UEBA?AV?$QFlags@W4Orientation@Qt@@@@XZ
 ?expandingDirections@QLayout@@UEBA?AV?$QFlags@W4Orientation@Qt@@@@XZ
 ?expandingDirections@QSpacerItem@@UEBA?AV?$QFlags@W4Orientation@Qt@@@@XZ
-?f`Y4
 ?fetchMore@QAbstractItemModel@@UEAAXAEBVQModelIndex@@@Z
 ?fetchMore@QSortFilterProxyModel@@UEAAXAEBVQModelIndex@@@Z
 ?fff?fff?fff?fff?c:\buildslave\hlvr_rel_win64\build\src\tier1\mempool.cpp
-?ffffff
 ?fileInfo@QDirIterator@@QEBA?AVQFileInfo@@XZ
 ?fileName@QFileInfo@@QEBA?AVQString@@XZ
 ?filePath@QDirIterator@@QEBA?AVQString@@XZ
@@ -3913,7 +3468,6 @@ $prefix_element$
 ?fixup@QValidator@@UEBAXAEAVQString@@@Z
 ?flags@QSortFilterProxyModel@@UEBA?AV?$QFlags@W4ItemFlag@Qt@@@@AEBVQModelIndex@@@Z
 ?flags@QStandardItemModel@@UEBA?AV?$QFlags@W4ItemFlag@Qt@@@@AEBVQModelIndex@@@Z
-?fmodf
 ?focusInEvent@QAbstractButton@@MEAAXPEAVQFocusEvent@@@Z
 ?focusInEvent@QAbstractItemView@@MEAAXPEAVQFocusEvent@@@Z
 ?focusInEvent@QAbstractSpinBox@@MEAAXPEAVQFocusEvent@@@Z
@@ -3958,6 +3512,8 @@ $prefix_element$
 ?fromBase64@QByteArray@@SA?AV1@AEBV1@@Z
 ?fromImage@QPixmap@@SA?AV1@AEBVQImage@@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
 ?fromLocalFile@QUrl@@SA?AV1@AEBVQString@@@Z
+?fromTime_t@QDateTime@@SA?AV1@I@Z
+?fromUtf8@QString@@SA?AV1@PEBDH@Z
 ?geometry@QLayout@@UEBA?AVQRect@@XZ
 ?geometry@QSpacerItem@@UEBA?AVQRect@@XZ
 ?getColor@QColorDialog@@SA?AVQColor@@AEBV2@PEAVQWidget@@@Z
@@ -3976,16 +3532,26 @@ $prefix_element$
 ?grabWindow@QPixmap@@SA?AV1@PEAUHWND__@@HHHH@Z
 ?green@QColor@@QEBAHXZ
 ?greenF@QColor@@QEBANXZ
+?grow@QVectorData@@SAHHHH_N@Z
+?handler@QVariant@@1PEBUHandler@1@EB
+?hasChildren@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
+?hasChildren@QAbstractTableModel@@EEBA_NAEBVQModelIndex@@@Z
 ?hasChildren@QSortFilterProxyModel@@UEBA_NAEBVQModelIndex@@@Z
 ?hasChildren@QStandardItemModel@@UEBA_NAEBVQModelIndex@@@Z
+?hasColor@QMimeData@@QEBA_NXZ
 ?hasFocus@QWidget@@QEBA_NXZ
+?hasFormat@QMimeData@@UEBA_NAEBVQString@@@Z
 ?hasHeightForWidth@QBoxLayout@@UEBA_NXZ
 ?hasHeightForWidth@QGridLayout@@UEBA_NXZ
 ?hasHeightForWidth@QLayoutItem@@UEBA_NXZ
+?hasNext@QDirIterator@@QEBA_NXZ
 ?hasSelectedText@QLineEdit@@QEBA_NXZ
+?hasText@QMimeData@@QEBA_NXZ
+?hasUrls@QMimeData@@QEBA_NXZ
 ?header@QTreeView@@QEBAPEAVQHeaderView@@XZ
 ?headerData@QSortFilterProxyModel@@UEBA?AVQVariant@@HW4Orientation@Qt@@H@Z
 ?headerData@QStandardItemModel@@UEBA?AVQVariant@@HW4Orientation@Qt@@H@Z
+?headerDataChanged@QAbstractItemModel@@IEAAXW4Orientation@Qt@@HH@Z
 ?height@QImage@@QEBAHXZ
 ?height@QPixmap@@QEBAHXZ
 ?heightForWidth@QBoxLayout@@UEBAHH@Z
@@ -4003,6 +3569,7 @@ $prefix_element$
 ?hitButton@QCheckBox@@MEBA_NAEBVQPoint@@@Z
 ?hitButton@QRadioButton@@MEBA_NAEBVQPoint@@@Z
 ?hitButton@QToolButton@@MEBA_NAEBVQPoint@@@Z
+?homePath@QDir@@SA?AVQString@@XZ
 ?horizontalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ
 ?horizontalOffset@QListView@@MEBAHXZ
 ?horizontalOffset@QTableView@@MEBAHXZ
@@ -4020,7 +3587,7 @@ $prefix_element$
 ?hsvSaturation@QColor@@QEBAHXZ
 ?hsvSaturationF@QColor@@QEBANXZ
 ?icon@QAction@@QEBA?AVQIcon@@XZ
-?id7
+?index@QAbstractTableModel@@UEBA?AVQModelIndex@@HHAEBV2@@Z
 ?index@QSortFilterProxyModel@@UEBA?AVQModelIndex@@HHAEBV2@@Z
 ?index@QStandardItemModel@@UEBA?AVQModelIndex@@HHAEBV2@@Z
 ?indexAt@QListView@@UEBA?AVQModelIndex@@AEBVQPoint@@@Z
@@ -4041,6 +3608,8 @@ $prefix_element$
 ?inputMethodQuery@QPlainTextEdit@@MEBA?AVQVariant@@W4InputMethodQuery@Qt@@@Z
 ?inputMethodQuery@QTextEdit@@MEBA?AVQVariant@@W4InputMethodQuery@Qt@@@Z
 ?inputMethodQuery@QWidget@@UEBA?AVQVariant@@W4InputMethodQuery@Qt@@@Z
+?insert@QListData@@QEAAPEAPEAXH@Z
+?insertColumns@QAbstractItemModel@@UEAA_NHHAEBVQModelIndex@@@Z
 ?insertColumns@QSortFilterProxyModel@@UEAA_NHHAEBVQModelIndex@@@Z
 ?insertColumns@QStandardItemModel@@UEAA_NHHAEBVQModelIndex@@@Z
 ?insertFromMimeData@QPlainTextEdit@@MEAAXPEBVQMimeData@@@Z
@@ -4048,9 +3617,12 @@ $prefix_element$
 ?insertItem@QComboBox@@QEAAXHAEBVQIcon@@AEBVQString@@AEBVQVariant@@@Z
 ?insertItem@QListWidget@@QEAAXHAEBVQString@@@Z
 ?insertItems@QComboBox@@QEAAXHAEBVQStringList@@@Z
+?insertRows@QAbstractItemModel@@UEAA_NHHAEBVQModelIndex@@@Z
 ?insertRows@QSortFilterProxyModel@@UEAA_NHHAEBVQModelIndex@@@Z
 ?insertRows@QStandardItemModel@@UEAA_NHHAEBVQModelIndex@@@Z
 ?insertWidget@QBoxLayout@@QEAAXHPEAVQWidget@@HV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
+?installEventFilter@QObject@@QEAAXPEAV1@@Z
+?instance@QCoreApplication@@SAPEAV1@XZ
 ?invalidate@QBoxLayout@@UEAAXXZ
 ?invalidate@QColor@@AEAAXXZ
 ?invalidate@QGridLayout@@UEAAXXZ
@@ -4058,20 +3630,27 @@ $prefix_element$
 ?invalidate@QLayoutItem@@UEAAXXZ
 ?invisibleRootItem@QTreeWidget@@QEBAPEAVQTreeWidgetItem@@XZ
 ?isChecked@QAbstractButton@@QEBA_NXZ
+?isDir@QFileInfo@@QEBA_NXZ
 ?isEmpty@QLayout@@UEBA_NXZ
+?isEmpty@QRegExp@@QEBA_NXZ
 ?isEmpty@QSpacerItem@@UEBA_NXZ
 ?isEnabled@QAction@@QEBA_NXZ
 ?isEnabled@QWidget@@QEBA_NXZ
 ?isIndexHidden@QListView@@MEBA_NAEBVQModelIndex@@@Z
 ?isIndexHidden@QTableView@@MEBA_NAEBVQModelIndex@@@Z
 ?isIndexHidden@QTreeView@@MEBA_NAEBVQModelIndex@@@Z
+?isLocalFile@QUrl@@QEBA_NXZ
 ?isNull@QPixmap@@QEBA_NXZ
+?isSequential@QProcess@@UEBA_NXZ
 ?isValid@QColor@@QEBA_NXZ
+?isValid@QTime@@QEBA_NXZ
 ?isVisible@QWidget@@QEBA_NXZ
+?isWidgetType@QObject@@QEBA_NXZ
 ?item@QListWidget@@QEBAPEAVQListWidgetItem@@H@Z
 ?itemAt@QBoxLayout@@UEBAPEAVQLayoutItem@@H@Z
 ?itemAt@QGridLayout@@UEBAPEAVQLayoutItem@@H@Z
 ?itemAt@QStackedLayout@@UEBAPEAVQLayoutItem@@H@Z
+?itemData@QAbstractItemModel@@UEBA?AV?$QMap@HVQVariant@@@@AEBVQModelIndex@@@Z
 ?itemData@QAbstractProxyModel@@UEBA?AV?$QMap@HVQVariant@@@@AEBVQModelIndex@@@Z
 ?itemData@QComboBox@@QEBA?AVQVariant@@HH@Z
 ?itemData@QStandardItemModel@@UEBA?AV?$QMap@HVQVariant@@@@AEBVQModelIndex@@@Z
@@ -4102,8 +3681,7 @@ $prefix_element$
 ?keyboardModifiers@QDropEvent@@QEBA?AV?$QFlags@W4KeyboardModifier@Qt@@@@XZ
 ?keyboardSearch@QAbstractItemView@@UEAAXAEBVQString@@@Z
 ?keyboardSearch@QTreeView@@UEAAXAEBVQString@@@Z
-?kxG2)
-?lZE
+?killTimer@QObject@@QEAAXH@Z
 ?languageChange@QWidget@@MEAAXXZ
 ?layout@QLayout@@UEAAPEAV1@XZ
 ?layout@QLayoutItem@@UEAAPEAVQLayout@@XZ
@@ -4121,6 +3699,8 @@ $prefix_element$
 ?load@QImage@@QEAA_NAEBVQString@@PEBD@Z
 ?loadResource@QPlainTextEdit@@UEAA?AVQVariant@@HAEBVQUrl@@@Z
 ?loadResource@QTextEdit@@UEAA?AVQVariant@@HAEBVQUrl@@@Z
+?makeAbsolute@QFileInfo@@QEAA_NXZ
+?manhattanLength@QPoint@@QEBAHXZ
 ?mapFromGlobal@QWidget@@QEBA?AVQPoint@@AEBV2@@Z
 ?mapFromSource@QSortFilterProxyModel@@UEBA?AVQModelIndex@@AEBV2@@Z
 ?mapSelectionFromSource@QSortFilterProxyModel@@UEBA?AVQItemSelection@@AEBV2@@Z
@@ -4128,6 +3708,7 @@ $prefix_element$
 ?mapToGlobal@QWidget@@QEBA?AVQPoint@@AEBV2@@Z
 ?mapToParent@QWidget@@QEBA?AVQPoint@@AEBV2@@Z
 ?mapToSource@QSortFilterProxyModel@@UEBA?AVQModelIndex@@AEBV2@@Z
+?match@QAbstractItemModel@@UEBA?AV?$QList@VQModelIndex@@@@AEBVQModelIndex@@HAEBVQVariant@@HV?$QFlags@W4MatchFlag@Qt@@@@@Z
 ?match@QSortFilterProxyModel@@UEBA?AV?$QList@VQModelIndex@@@@AEBVQModelIndex@@HAEBVQVariant@@HV?$QFlags@W4MatchFlag@Qt@@@@@Z
 ?matches@QKeyEvent@@QEBA_NW4StandardKey@QKeySequence@@@Z
 ?maximumSize@QBoxLayout@@UEBA?AVQSize@@XZ
@@ -4156,11 +3737,14 @@ $prefix_element$
 ?metaObject@QListWidget@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QMenu@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QMessageBox@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QMimeData@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QPlainTextEdit@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QProcess@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QProgressDialog@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QPushButton@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QRadioButton@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QScrollArea@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QSignalMapper@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QSlider@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QSortFilterProxyModel@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QSplitter@@UEBAPEBUQMetaObject@@XZ
@@ -4169,6 +3753,7 @@ $prefix_element$
 ?metaObject@QTableView@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QTableWidget@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QTextEdit@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QTimer@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QToolBar@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QToolButton@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QTreeView@@UEBAPEBUQMetaObject@@XZ
@@ -4178,12 +3763,14 @@ $prefix_element$
 ?metaObject@QWidgetAction@@UEBAPEBUQMetaObject@@XZ
 ?metric@QPixmap@@MEBAHW4PaintDeviceMetric@QPaintDevice@@@Z
 ?metric@QWidget@@MEBAHW4PaintDeviceMetric@QPaintDevice@@@Z
+?mimeData@QAbstractItemModel@@UEBAPEAVQMimeData@@AEBV?$QList@VQModelIndex@@@@@Z
 ?mimeData@QClipboard@@QEBAPEBVQMimeData@@W4Mode@1@@Z
 ?mimeData@QListWidget@@MEBAPEAVQMimeData@@V?$QList@PEAVQListWidgetItem@@@@@Z
 ?mimeData@QSortFilterProxyModel@@UEBAPEAVQMimeData@@AEBV?$QList@VQModelIndex@@@@@Z
 ?mimeData@QStandardItemModel@@UEBAPEAVQMimeData@@AEBV?$QList@VQModelIndex@@@@@Z
 ?mimeData@QTableWidget@@MEBAPEAVQMimeData@@V?$QList@PEAVQTableWidgetItem@@@@@Z
 ?mimeData@QTreeWidget@@MEBAPEAVQMimeData@@V?$QList@PEAVQTreeWidgetItem@@@@@Z
+?mimeTypes@QAbstractItemModel@@UEBA?AVQStringList@@XZ
 ?mimeTypes@QListWidget@@MEBA?AVQStringList@@XZ
 ?mimeTypes@QSortFilterProxyModel@@UEBA?AVQStringList@@XZ
 ?mimeTypes@QStandardItemModel@@UEBA?AVQStringList@@XZ
@@ -4216,6 +3803,7 @@ $prefix_element$
 ?model@QComboBox@@QEBAPEAVQAbstractItemModel@@XZ
 ?modifiers@QInputEvent@@QEBA?AV?$QFlags@W4KeyboardModifier@Qt@@@@XZ
 ?modifiers@QKeyEvent@@QEBA?AV?$QFlags@W4KeyboardModifier@Qt@@@@XZ
+?month@QDate@@QEBAHXZ
 ?mouseButtons@QDropEvent@@QEBA?AV?$QFlags@W4MouseButton@Qt@@@@XZ
 ?mouseDoubleClickEvent@QAbstractItemView@@MEAAXPEAVQMouseEvent@@@Z
 ?mouseDoubleClickEvent@QAbstractScrollArea@@MEAAXPEAVQMouseEvent@@@Z
@@ -4277,127 +3865,827 @@ $prefix_element$
 ?moveCursor@QTableView@@MEAA?AVQModelIndex@@W4CursorAction@QAbstractItemView@@V?$QFlags@W4KeyboardModifier@Qt@@@@@Z
 ?moveCursor@QTreeView@@MEAA?AVQModelIndex@@W4CursorAction@QAbstractItemView@@V?$QFlags@W4KeyboardModifier@Qt@@@@@Z
 ?moveEvent@QWidget@@MEAAXPEAVQMoveEvent@@@Z
+?msec@QTime@@QEBAHXZ
+?msecsTo@QTime@@QEBAHAEBV1@@Z
 ?name@QColor@@QEBA?AVQString@@XZ
+?next@QDirIterator@@QEAA?AVQString@@XZ
 ?nextCheckState@QAbstractButton@@MEAAXXZ
 ?nextCheckState@QCheckBox@@MEAAXXZ
 ?nextCheckState@QToolButton@@MEAAXXZ
 ?nextInFocusChain@QWidget@@QEBAPEAV1@XZ
+?node_create@QMapData@@QEAAPEAUNode@1@QEAPEAU21@HH@Z
 ?numScreens@QDesktopWidget@@QEBAHXZ
+?number@QByteArray@@SA?AV1@HH@Z
+?number@QString@@SA?AV1@HH@Z
+?number@QString@@SA?AV1@NDH@Z
+?number@QString@@SA?AV1@_JH@Z
+?number@QString@@SA?AV1@_KH@Z
+?objectName@QObject@@QEBA?AVQString@@XZ
 ?open@QDialog@@QEAAXXZ
+?open@QFile@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
+?open@QIODevice@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
 ?openUrl@QDesktopServices@@SA_NAEBVQUrl@@@Z
-?qBJ
-?rAj
+?paintEngine@QPixmap@@UEBAPEAVQPaintEngine@@XZ
+?paintEngine@QWidget@@UEBAPEAVQPaintEngine@@XZ
+?paintEvent@QAbstractScrollArea@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QAbstractSpinBox@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QCheckBox@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QComboBox@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QFrame@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QGroupBox@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QLabel@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QLineEdit@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QListView@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QMenu@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QPlainTextEdit@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QPushButton@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QRadioButton@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QSlider@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QTableView@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QTextEdit@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QToolBar@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QToolButton@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QTreeView@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QWidget@@MEAAXPEAVQPaintEvent@@@Z
+?palette@QWidget@@QEBAAEBVQPalette@@XZ
+?paletteChange@QWidget@@MEAAXAEBVQPalette@@@Z
+?parent@QAbstractTableModel@@EEBA?AVQModelIndex@@AEBV2@@Z
+?parent@QItemSelectionRange@@QEBA?AVQModelIndex@@XZ
+?parent@QObject@@QEBAPEAV1@XZ
+?parent@QSortFilterProxyModel@@UEBA?AVQModelIndex@@AEBV2@@Z
+?parent@QStandardItemModel@@UEBA?AVQModelIndex@@AEBV2@@Z
+?parentWidget@QAction@@QEBAPEAVQWidget@@XZ
+?parentWidget@QWidget@@QEBAPEAV1@XZ
+?path@QDir@@QEBA?AVQString@@XZ
+?path@QFileInfo@@QEBA?AVQString@@XZ
+?path@QUrl@@QEBA?AVQString@@XZ
+?pathFromIndex@QCompleter@@UEBA?AVQString@@AEBVQModelIndex@@@Z
+?pattern@QRegExp@@QEBA?AVQString@@XZ
+?pixel@QImage@@QEBAIHH@Z
+?pixmap@QCursor@@QEBA?AVQPixmap@@XZ
+?pixmap@QLabel@@QEBAPEBVQPixmap@@XZ
+?pos@QCursor@@SA?AVQPoint@@XZ
+?pos@QIODevice@@UEBA_JXZ
+?pos@QWidget@@QEBA?AVQPoint@@XZ
+?prefix@QDoubleSpinBox@@QEBA?AVQString@@XZ
+?primaryScreen@QDesktopWidget@@QEBAHXZ
+?property@QObject@@QEBA?AVQVariant@@PEBD@Z
+?qDebug@@YA?AVQDebug@@XZ
+?qFree@@YAXPEAX@Z
+?qGray@@YAHI@Z
+?qMemSet@@YAPEAXPEAXH_K@Z
+?qWarning@@YAXPEBDZZ
+?qrand@@YAHXZ
+?qsrand@@YAXI@Z
+?qt_metacall@QAbstractItemModel@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QAbstractTableModel@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QAction@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QActionGroup@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QButtonGroup@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QCheckBox@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QColorDialog@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QComboBox@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QCompleter@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QDialog@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QDialogButtonBox@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QDoubleSpinBox@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QDoubleValidator@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QDrag@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QFrame@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QGridLayout@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QGroupBox@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QHBoxLayout@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QIntValidator@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QLabel@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QLayout@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QLineEdit@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QListWidget@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QMainWindow@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QMenu@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QMessageBox@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QMimeData@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QPlainTextEdit@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QProcess@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QProgressDialog@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QPushButton@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QRadioButton@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QScrollArea@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QSignalMapper@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QSlider@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QSortFilterProxyModel@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QSplitter@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QStackedLayout@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QStandardItemModel@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QTableView@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QTableWidget@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QTextEdit@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QTimer@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QToolBar@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QToolButton@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QTreeView@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QTreeWidget@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QVBoxLayout@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QWidget@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QWidgetAction@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacast@QAbstractItemModel@@UEAAPEAXPEBD@Z
+?qt_metacast@QAbstractTableModel@@UEAAPEAXPEBD@Z
+?qt_metacast@QAction@@UEAAPEAXPEBD@Z
+?qt_metacast@QActionGroup@@UEAAPEAXPEBD@Z
+?qt_metacast@QButtonGroup@@UEAAPEAXPEBD@Z
+?qt_metacast@QCheckBox@@UEAAPEAXPEBD@Z
+?qt_metacast@QColorDialog@@UEAAPEAXPEBD@Z
+?qt_metacast@QComboBox@@UEAAPEAXPEBD@Z
+?qt_metacast@QCompleter@@UEAAPEAXPEBD@Z
+?qt_metacast@QDialog@@UEAAPEAXPEBD@Z
+?qt_metacast@QDialogButtonBox@@UEAAPEAXPEBD@Z
+?qt_metacast@QDoubleSpinBox@@UEAAPEAXPEBD@Z
+?qt_metacast@QDoubleValidator@@UEAAPEAXPEBD@Z
+?qt_metacast@QDrag@@UEAAPEAXPEBD@Z
+?qt_metacast@QFrame@@UEAAPEAXPEBD@Z
+?qt_metacast@QGridLayout@@UEAAPEAXPEBD@Z
+?qt_metacast@QGroupBox@@UEAAPEAXPEBD@Z
+?qt_metacast@QHBoxLayout@@UEAAPEAXPEBD@Z
+?qt_metacast@QIntValidator@@UEAAPEAXPEBD@Z
+?qt_metacast@QLabel@@UEAAPEAXPEBD@Z
+?qt_metacast@QLayout@@UEAAPEAXPEBD@Z
+?qt_metacast@QLineEdit@@UEAAPEAXPEBD@Z
+?qt_metacast@QListWidget@@UEAAPEAXPEBD@Z
+?qt_metacast@QMainWindow@@UEAAPEAXPEBD@Z
+?qt_metacast@QMenu@@UEAAPEAXPEBD@Z
+?qt_metacast@QMessageBox@@UEAAPEAXPEBD@Z
+?qt_metacast@QMimeData@@UEAAPEAXPEBD@Z
+?qt_metacast@QObject@@UEAAPEAXPEBD@Z
+?qt_metacast@QPlainTextEdit@@UEAAPEAXPEBD@Z
+?qt_metacast@QProcess@@UEAAPEAXPEBD@Z
+?qt_metacast@QProgressDialog@@UEAAPEAXPEBD@Z
+?qt_metacast@QPushButton@@UEAAPEAXPEBD@Z
+?qt_metacast@QRadioButton@@UEAAPEAXPEBD@Z
+?qt_metacast@QScrollArea@@UEAAPEAXPEBD@Z
+?qt_metacast@QSignalMapper@@UEAAPEAXPEBD@Z
+?qt_metacast@QSlider@@UEAAPEAXPEBD@Z
+?qt_metacast@QSortFilterProxyModel@@UEAAPEAXPEBD@Z
+?qt_metacast@QSplitter@@UEAAPEAXPEBD@Z
+?qt_metacast@QStackedLayout@@UEAAPEAXPEBD@Z
+?qt_metacast@QStandardItemModel@@UEAAPEAXPEBD@Z
+?qt_metacast@QTableView@@UEAAPEAXPEBD@Z
+?qt_metacast@QTableWidget@@UEAAPEAXPEBD@Z
+?qt_metacast@QTextEdit@@UEAAPEAXPEBD@Z
+?qt_metacast@QTimer@@UEAAPEAXPEBD@Z
+?qt_metacast@QToolBar@@UEAAPEAXPEBD@Z
+?qt_metacast@QToolButton@@UEAAPEAXPEBD@Z
+?qt_metacast@QTreeView@@UEAAPEAXPEBD@Z
+?qt_metacast@QTreeWidget@@UEAAPEAXPEBD@Z
+?qt_metacast@QVBoxLayout@@UEAAPEAXPEBD@Z
+?qt_metacast@QWidget@@UEAAPEAXPEBD@Z
+?qt_metacast@QWidgetAction@@UEAAPEAXPEBD@Z
+?qt_qFindChildren_helper@@YAXPEBVQObject@@AEBVQString@@PEBVQRegExp@@AEBUQMetaObject@@PEAV?$QList@PEAX@@@Z
+?question@QMessageBox@@SA?AW4StandardButton@1@PEAVQWidget@@AEBVQString@@1V?$QFlags@W4StandardButton@QMessageBox@@@@W421@@Z
+?question@QMessageBox@@SAHPEAVQWidget@@AEBVQString@@1W4StandardButton@1@2@Z
+?raise@QWidget@@QEAAXXZ
+?read@QImageReader@@QEAA?AVQImage@@XZ
+?read@QStandardItem@@UEAAXAEAVQDataStream@@@Z
+?read@QTableWidgetItem@@UEAAXAEAVQDataStream@@@Z
+?read@QTreeWidgetItem@@UEAAXAEAVQDataStream@@@Z
 ?readAllStandardError@QProcess@@QEAA?AVQByteArray@@XZ
 ?readAllStandardOutput@QProcess@@QEAA?AVQByteArray@@XZ
 ?readData@QProcess@@MEAA_JPEAD_J@Z
 ?readLineData@QIODevice@@MEAA_JPEAD_J@Z
 ?realloc@QListData@@QEAAXH@Z
 ?reallocate@QVectorData@@SAPEAU1@PEAU1@HHH@Z
+?reason@QFocusEvent@@QEAA?AW4FocusReason@Qt@@XZ
+?rect@QPixmap@@QEBA?AVQRect@@XZ
+?rect@QWidget@@QEBA?AVQRect@@XZ
+?red@QColor@@QEBAHXZ
+?redF@QColor@@QEBANXZ
 ?registerType@QMetaType@@SAHPEBDP6AXPEAX@ZP6APEAXPEBX@Z@Z
+?reject@QDialog@@UEAAXXZ
+?releaseDC@QPaintDevice@@UEBAXPEAUHDC__@@@Z
+?releaseDC@QWidget@@UEBAXPEAUHDC__@@@Z
+?releaseKeyboard@QWidget@@QEAAXXZ
+?releaseMouse@QWidget@@QEAAXXZ
 ?remove@QFile@@SA_NAEBVQString@@@Z
 ?remove@QListData@@QEAAXH@Z
 ?remove@QSettings@@QEAAXAEBVQString@@@Z
 ?remove@QString@@QEAAAEAV1@HH@Z
+?removeAction@QWidget@@QEAAXPEAVQAction@@@Z
 ?removeColumns@QAbstractItemModel@@UEAA_NHHAEBVQModelIndex@@@Z
+?removeColumns@QSortFilterProxyModel@@UEAA_NHHAEBVQModelIndex@@@Z
+?removeColumns@QStandardItemModel@@UEAA_NHHAEBVQModelIndex@@@Z
 ?removeGuard@QMetaObject@@SAXPEAPEAVQObject@@@Z
 ?removeRows@QAbstractItemModel@@UEAA_NHHAEBVQModelIndex@@@Z
+?removeRows@QSortFilterProxyModel@@UEAA_NHHAEBVQModelIndex@@@Z
+?removeRows@QStandardItemModel@@UEAA_NHHAEBVQModelIndex@@@Z
+?removeWidget@QLayout@@QEAAXPEAVQWidget@@@Z
+?repaint@QWidget@@QEAAXXZ
 ?replace@QString@@QEAAAEAV1@AEBV1@0W4CaseSensitivity@Qt@@@Z
+?reset@QAbstractItemView@@UEAAXXZ
 ?reset@QIODevice@@UEAA_NXZ
+?reset@QListView@@UEAAXXZ
+?reset@QTreeView@@UEAAXXZ
+?resize@QWidget@@QEAAXAEBVQSize@@@Z
+?resize@QWidget@@QEAAXHH@Z
+?resizeColumnToContents@QTreeView@@QEAAXH@Z
+?resizeColumnsToContents@QTableView@@QEAAXXZ
+?resizeEvent@QAbstractItemView@@MEAAXPEAVQResizeEvent@@@Z
+?resizeEvent@QAbstractSpinBox@@MEAAXPEAVQResizeEvent@@@Z
+?resizeEvent@QComboBox@@MEAAXPEAVQResizeEvent@@@Z
+?resizeEvent@QDialog@@MEAAXPEAVQResizeEvent@@@Z
+?resizeEvent@QGroupBox@@MEAAXPEAVQResizeEvent@@@Z
+?resizeEvent@QListView@@MEAAXPEAVQResizeEvent@@@Z
+?resizeEvent@QMessageBox@@MEAAXPEAVQResizeEvent@@@Z
+?resizeEvent@QPlainTextEdit@@MEAAXPEAVQResizeEvent@@@Z
+?resizeEvent@QProgressDialog@@MEAAXPEAVQResizeEvent@@@Z
+?resizeEvent@QScrollArea@@MEAAXPEAVQResizeEvent@@@Z
+?resizeEvent@QSplitter@@MEAAXPEAVQResizeEvent@@@Z
+?resizeEvent@QTextEdit@@MEAAXPEAVQResizeEvent@@@Z
+?resizeEvent@QToolBar@@MEAAXPEAVQResizeEvent@@@Z
+?resizeEvent@QWidget@@MEAAXPEAVQResizeEvent@@@Z
+?resizeSection@QHeaderView@@QEAAXHH@Z
+?restoreGeometry@QWidget@@QEAA_NAEBVQByteArray@@@Z
+?restoreOverrideCursor@QApplication@@SAXXZ
+?restoreState@QMainWindow@@QEAA_NAEBVQByteArray@@H@Z
 ?retrieveData@QMimeData@@MEBA?AVQVariant@@AEBVQString@@W4Type@2@@Z
 ?revert@QAbstractItemModel@@UEAAXXZ
+?revert@QAbstractProxyModel@@UEAAXXZ
+?rgb@QColor@@QEBAIXZ
+?rowCount@QGridLayout@@QEBAHXZ
+?rowCount@QSortFilterProxyModel@@UEBAHAEBVQModelIndex@@@Z
+?rowCount@QStandardItemModel@@UEBAHAEBVQModelIndex@@@Z
+?rowsAboutToBeRemoved@QAbstractItemView@@MEAAXAEBVQModelIndex@@HH@Z
+?rowsAboutToBeRemoved@QListView@@MEAAXAEBVQModelIndex@@HH@Z
+?rowsAboutToBeRemoved@QTreeView@@MEAAXAEBVQModelIndex@@HH@Z
+?rowsInserted@QAbstractItemView@@MEAAXAEBVQModelIndex@@HH@Z
+?rowsInserted@QListView@@MEAAXAEBVQModelIndex@@HH@Z
+?rowsInserted@QTreeView@@MEAAXAEBVQModelIndex@@HH@Z
+?saturationF@QColor@@QEBANXZ
+?save@QImage@@QEBA_NAEBVQString@@PEBDH@Z
+?save@QPixmap@@QEBA_NAEBVQString@@PEBDH@Z
+?saveGeometry@QWidget@@QEBA?AVQByteArray@@XZ
+?saveState@QMainWindow@@QEBA?AVQByteArray@@H@Z
+?scaled@QImage@@QEBA?AV1@AEBVQSize@@W4AspectRatioMode@Qt@@W4TransformationMode@4@@Z
+?scaled@QPixmap@@QEBA?AV1@AEBVQSize@@W4AspectRatioMode@Qt@@W4TransformationMode@4@@Z
+?screenGeometry@QDesktopWidget@@QEBA?BVQRect@@H@Z
+?screenGeometry@QDesktopWidget@@QEBA?BVQRect@@PEBVQWidget@@@Z
+?screenNumber@QDesktopWidget@@QEBAHAEBVQPoint@@@Z
+?scroll@QPixmap@@QEAAXHHAEBVQRect@@PEAVQRegion@@@Z
+?scrollContentsBy@QListView@@MEAAXHH@Z
+?scrollContentsBy@QPlainTextEdit@@MEAAXHH@Z
+?scrollContentsBy@QScrollArea@@MEAAXHH@Z
+?scrollContentsBy@QTableView@@MEAAXHH@Z
+?scrollContentsBy@QTextEdit@@MEAAXHH@Z
+?scrollContentsBy@QTreeView@@MEAAXHH@Z
+?scrollTo@QListView@@UEAAXAEBVQModelIndex@@W4ScrollHint@QAbstractItemView@@@Z
+?scrollTo@QTableView@@UEAAXAEBVQModelIndex@@W4ScrollHint@QAbstractItemView@@@Z
+?scrollTo@QTreeView@@UEAAXAEBVQModelIndex@@W4ScrollHint@QAbstractItemView@@@Z
+?scrollToTop@QAbstractItemView@@QEAAXXZ
 ?seek@QIODevice@@UEAA_N_J@Z
+?selectAll@QAbstractItemView@@UEAAXXZ
+?selectAll@QAbstractSpinBox@@QEAAXXZ
+?selectAll@QLineEdit@@QEAAXXZ
+?selectAll@QTreeView@@UEAAXXZ
+?selectRow@QTableView@@QEAAXH@Z
+?selectedIndexes@QListView@@MEBA?AV?$QList@VQModelIndex@@@@XZ
+?selectedIndexes@QTableView@@MEBA?AV?$QList@VQModelIndex@@@@XZ
+?selectedIndexes@QTreeView@@MEBA?AV?$QList@VQModelIndex@@@@XZ
+?selectedRows@QItemSelectionModel@@QEBA?AV?$QList@VQModelIndex@@@@H@Z
+?selection@QItemSelectionModel@@QEBA?BVQItemSelection@@XZ
+?selectionChanged@QListView@@MEAAXAEBVQItemSelection@@0@Z
+?selectionChanged@QTableView@@MEAAXAEBVQItemSelection@@0@Z
+?selectionChanged@QTreeView@@MEAAXAEBVQItemSelection@@0@Z
+?selectionCommand@QAbstractItemView@@MEBA?AV?$QFlags@W4SelectionFlag@QItemSelectionModel@@@@AEBVQModelIndex@@PEBVQEvent@@@Z
+?selectionModel@QAbstractItemView@@QEBAPEAVQItemSelectionModel@@XZ
+?selectionStart@QLineEdit@@QEBAHXZ
 ?self@QCoreApplication@@0PEAV1@EA
 ?sendEvent@QCoreApplication@@SA_NPEAVQObject@@PEAVQEvent@@@Z
 ?sender@QObject@@IEBAPEAV1@XZ
+?setAcceptDrops@QWidget@@QEAAX_N@Z
+?setAcceptRichText@QTextEdit@@QEAAX_N@Z
+?setActiveAction@QMenu@@QEAAXPEAVQAction@@@Z
+?setAlignment@QLabel@@QEAAXV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
+?setAlignment@QLayoutItem@@QEAAXV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
+?setAlignment@QTextOption@@QEAAXV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
+?setAlpha@QColor@@QEAAXH@Z
+?setAlphaF@QColor@@QEAAXN@Z
+?setAlternatingRowColors@QAbstractItemView@@QEAAX_N@Z
+?setAttribute@QWidget@@QEAAXW4WidgetAttribute@Qt@@_N@Z
+?setAutoDefault@QPushButton@@QEAAX_N@Z
+?setAutoFillBackground@QWidget@@QEAAX_N@Z
+?setAutoRaise@QToolButton@@QEAAX_N@Z
+?setBackground@QPainter@@QEAAXAEBVQBrush@@@Z
+?setBackgroundMode@QPainter@@QEAAXW4BGMode@Qt@@@Z
+?setBackgroundRole@QWidget@@QEAAXW4ColorRole@QPalette@@@Z
+?setBaseSize@QWidget@@QEAAXHH@Z
+?setBlue@QColor@@QEAAXH@Z
+?setBlueF@QColor@@QEAAXN@Z
+?setBrush@QPainter@@QEAAXAEBVQBrush@@@Z
+?setBrush@QPainter@@QEAAXW4BrushStyle@Qt@@@Z
+?setBrush@QPalette@@QEAAXW4ColorGroup@1@W4ColorRole@1@AEBVQBrush@@@Z
+?setBrush@QPen@@QEAAXAEBVQBrush@@@Z
+?setButtonSymbols@QAbstractSpinBox@@QEAAXW4ButtonSymbols@1@@Z
+?setCaseSensitivity@QCompleter@@QEAAXW4CaseSensitivity@Qt@@@Z
 ?setCaseSensitivity@QRegExp@@QEAAXW4CaseSensitivity@Qt@@@Z
+?setCentralWidget@QMainWindow@@QEAAXPEAVQWidget@@@Z
+?setCheckable@QAbstractButton@@QEAAX_N@Z
+?setCheckable@QAction@@QEAAX_N@Z
+?setCheckable@QGroupBox@@QEAAX_N@Z
+?setChecked@QAbstractButton@@QEAAX_N@Z
+?setChecked@QAction@@QEAAX_N@Z
+?setChecked@QGroupBox@@QEAAX_N@Z
+?setColor@QPalette@@QEAAXW4ColorRole@1@AEBVQColor@@@Z
+?setColor@QPen@@QEAAXAEBVQColor@@@Z
+?setColorAt@QGradient@@QEAAXNAEBVQColor@@@Z
+?setColumnCount@QStandardItemModel@@QEAAXH@Z
+?setColumnCount@QTableWidget@@QEAAXH@Z
+?setColumnCount@QTreeWidget@@QEAAXH@Z
+?setColumnMinimumWidth@QGridLayout@@QEAAXHH@Z
+?setColumnStretch@QGridLayout@@QEAAXHH@Z
+?setColumnWidth@QTableView@@QEAAXHH@Z
+?setCompleter@QComboBox@@QEAAXPEAVQCompleter@@@Z
+?setCompletionMode@QCompleter@@QEAAXW4CompletionMode@1@@Z
+?setContentsMargins@QLayout@@QEAAXHHHH@Z
+?setContentsMargins@QWidget@@QEAAXAEBVQMargins@@@Z
+?setContentsMargins@QWidget@@QEAAXHHHH@Z
+?setContextMenuPolicy@QWidget@@QEAAXW4ContextMenuPolicy@Qt@@@Z
+?setCurrentIndex@QAbstractItemView@@QEAAXAEBVQModelIndex@@@Z
+?setCurrentIndex@QComboBox@@QEAAXH@Z
+?setCurrentWidget@QStackedLayout@@QEAAXPEAVQWidget@@@Z
+?setCursor@QWidget@@QEAAXAEBVQCursor@@@Z
+?setCursorPosition@QLineEdit@@QEAAXH@Z
 ?setData@QAbstractItemModel@@UEAA_NAEBVQModelIndex@@AEBVQVariant@@H@Z
+?setData@QSortFilterProxyModel@@UEAA_NAEBVQModelIndex@@AEBVQVariant@@H@Z
+?setData@QStandardItem@@UEAAXAEBVQVariant@@H@Z
+?setData@QStandardItemModel@@UEAA_NAEBVQModelIndex@@AEBVQVariant@@H@Z
+?setData@QTableWidgetItem@@UEAAXHAEBVQVariant@@@Z
+?setData@QTreeWidgetItem@@UEAAXHHAEBVQVariant@@@Z
+?setDecimals@QDoubleSpinBox@@QEAAXH@Z
+?setDecimals@QDoubleValidator@@QEAAXH@Z
+?setDefault@QPushButton@@QEAAX_N@Z
+?setDefaultButton@QMessageBox@@QEAAXW4StandardButton@1@@Z
+?setDefaultSectionSize@QHeaderView@@QEAAXH@Z
+?setDefaultWidget@QWidgetAction@@QEAAXPEAVQWidget@@@Z
+?setDetailedText@QMessageBox@@QEAAXAEBVQString@@@Z
+?setDisabled@QWidget@@QEAAX_N@Z
+?setDropAction@QDropEvent@@QEAAXW4DropAction@Qt@@@Z
+?setEditTriggers@QAbstractItemView@@QEAAXV?$QFlags@W4EditTrigger@QAbstractItemView@@@@@Z
+?setEditable@QComboBox@@QEAAX_N@Z
+?setEnabled@QAction@@QEAAX_N@Z
+?setEnabled@QWidget@@QEAAX_N@Z
+?setExclusive@QButtonGroup@@QEAAX_N@Z
+?setFamily@QFont@@QEAAXAEBVQString@@@Z
+?setFilterCaseSensitivity@QSortFilterProxyModel@@QEAAXW4CaseSensitivity@Qt@@@Z
+?setFilterKeyColumn@QSortFilterProxyModel@@QEAAXH@Z
+?setFilterWildcard@QSortFilterProxyModel@@QEAAXAEBVQString@@@Z
+?setFinalStop@QLinearGradient@@QEAAXAEBVQPointF@@@Z
+?setFixedHeight@QWidget@@QEAAXH@Z
+?setFixedSize@QWidget@@QEAAXAEBVQSize@@@Z
+?setFixedSize@QWidget@@QEAAXHH@Z
+?setFixedWidth@QWidget@@QEAAXH@Z
+?setFlat@QGroupBox@@QEAAX_N@Z
+?setFlat@QPushButton@@QEAAX_N@Z
+?setFocus@QWidget@@QEAAXW4FocusReason@Qt@@@Z
+?setFocus@QWidget@@QEAAXXZ
+?setFocusPolicy@QWidget@@QEAAXW4FocusPolicy@Qt@@@Z
+?setFont@QPainter@@QEAAXAEBVQFont@@@Z
+?setFont@QTableWidgetItem@@QEAAXAEBVQFont@@@Z
+?setFont@QWidget@@QEAAXAEBVQFont@@@Z
+?setFontFamily@QTextEdit@@QEAAXAEBVQString@@@Z
+?setFrame@QAbstractSpinBox@@QEAAX_N@Z
+?setFrameStyle@QFrame@@QEAAXH@Z
+?setGeometry@QBoxLayout@@UEAAXAEBVQRect@@@Z
+?setGeometry@QGridLayout@@UEAAXAEBVQRect@@@Z
+?setGeometry@QLayout@@UEAAXAEBVQRect@@@Z
+?setGeometry@QSpacerItem@@UEAAXAEBVQRect@@@Z
+?setGeometry@QStackedLayout@@UEAAXAEBVQRect@@@Z
+?setGeometry@QWidget@@QEAAXAEBVQRect@@@Z
+?setGreen@QColor@@QEAAXH@Z
+?setGreenF@QColor@@QEAAXN@Z
 ?setHMS@QTime@@QEAA_NHHHH@Z
 ?setHeaderData@QAbstractItemModel@@UEAA_NHW4Orientation@Qt@@AEBVQVariant@@H@Z
+?setHeaderData@QSortFilterProxyModel@@UEAA_NHW4Orientation@Qt@@AEBVQVariant@@H@Z
+?setHeaderData@QStandardItemModel@@UEAA_NHW4Orientation@Qt@@AEBVQVariant@@H@Z
+?setHeaderLabels@QTreeWidget@@QEAAXAEBVQStringList@@@Z
+?setHidden@QWidget@@QEAAX_N@Z
+?setHorizontalHeaderLabels@QStandardItemModel@@QEAAXAEBVQStringList@@@Z
+?setHorizontalHeaderLabels@QTableWidget@@QEAAXAEBVQStringList@@@Z
+?setHorizontalPolicy@QSizePolicy@@QEAAXW4Policy@1@@Z
+?setHorizontalScrollBarPolicy@QAbstractScrollArea@@QEAAXW4ScrollBarPolicy@Qt@@@Z
+?setHorizontalSpacing@QGridLayout@@QEAAXH@Z
+?setHotSpot@QDrag@@QEAAXAEBVQPoint@@@Z
+?setHsl@QColor@@QEAAXHHHH@Z
+?setHslF@QColor@@QEAAXNNNN@Z
+?setHsv@QColor@@QEAAXHHHH@Z
+?setHsvF@QColor@@QEAAXNNNN@Z
+?setHtml@QTextEdit@@QEAAXAEBVQString@@@Z
+?setIcon@QAbstractButton@@QEAAXAEBVQIcon@@@Z
+?setIcon@QAction@@QEAAXAEBVQIcon@@@Z
+?setIcon@QMenu@@QEAAXAEBVQIcon@@@Z
+?setIcon@QMessageBox@@QEAAXW4Icon@1@@Z
+?setIcon@QTableWidgetItem@@QEAAXAEBVQIcon@@@Z
+?setIconPixmap@QMessageBox@@QEAAXAEBVQPixmap@@@Z
+?setIconSize@QAbstractButton@@QEAAXAEBVQSize@@@Z
+?setIconSize@QToolBar@@QEAAXAEBVQSize@@@Z
+?setIconVisibleInMenu@QAction@@QEAAX_N@Z
+?setInformativeText@QMessageBox@@QEAAXAEBVQString@@@Z
+?setInsertPolicy@QComboBox@@QEAAXW4InsertPolicy@1@@Z
 ?setInterval@QTimer@@QEAAXH@Z
+?setItem@QTableWidget@@QEAAXHHPEAVQTableWidgetItem@@@Z
 ?setItemData@QAbstractItemModel@@UEAA_NAEBVQModelIndex@@AEBV?$QMap@HVQVariant@@@@@Z
+?setItemData@QAbstractProxyModel@@UEAA_NAEBVQModelIndex@@AEBV?$QMap@HVQVariant@@@@@Z
+?setItemData@QStandardItemModel@@UEAA_NAEBVQModelIndex@@AEBV?$QMap@HVQVariant@@@@@Z
+?setItemExpanded@QTreeWidget@@QEAAXPEBVQTreeWidgetItem@@_N@Z
+?setItemWidget@QListWidget@@QEAAXPEAVQListWidgetItem@@PEAVQWidget@@@Z
+?setKeyboardTracking@QAbstractSpinBox@@QEAAX_N@Z
+?setLabelText@QProgressDialog@@QEAAXAEBVQString@@@Z
+?setLayout@QWidget@@QEAAXPEAVQLayout@@@Z
+?setLineEdit@QComboBox@@QEAAXPEAVQLineEdit@@@Z
+?setLineWrapMode@QTextEdit@@QEAAXW4LineWrapMode@1@@Z
 ?setMapping@QSignalMapper@@QEAAXPEAVQObject@@AEBVQString@@@Z
+?setMargin@QLayout@@QEAAXH@Z
+?setMask@QWidget@@QEAAXAEBVQRegion@@@Z
+?setMaxLength@QLineEdit@@QEAAXH@Z
+?setMaxVisibleItems@QComboBox@@QEAAXH@Z
+?setMaximum@QDoubleSpinBox@@QEAAXN@Z
+?setMaximum@QProgressDialog@@QEAAXH@Z
+?setMaximumHeight@QWidget@@QEAAXH@Z
+?setMaximumSize@QWidget@@QEAAXHH@Z
+?setMaximumWidth@QWidget@@QEAAXH@Z
+?setMenu@QPushButton@@QEAAXPEAVQMenu@@@Z
+?setMimeData@QClipboard@@QEAAXPEAVQMimeData@@W4Mode@1@@Z
+?setMimeData@QDrag@@QEAAXPEAVQMimeData@@@Z
+?setMinimum@QDoubleSpinBox@@QEAAXN@Z
+?setMinimum@QProgressDialog@@QEAAXH@Z
+?setMinimumHeight@QWidget@@QEAAXH@Z
+?setMinimumSize@QWidget@@QEAAXHH@Z
+?setMinimumWidth@QWidget@@QEAAXH@Z
+?setModal@QDialog@@QEAAX_N@Z
+?setModel@QListWidget@@EEAAXPEAVQAbstractItemModel@@@Z
+?setModel@QTableView@@UEAAXPEAVQAbstractItemModel@@@Z
+?setModel@QTableWidget@@EEAAXPEAVQAbstractItemModel@@@Z
+?setModel@QTreeView@@UEAAXPEAVQAbstractItemModel@@@Z
+?setModel@QTreeWidget@@EEAAXPEAVQAbstractItemModel@@@Z
 ?setNum@QString@@QEAAAEAV1@NDH@Z
 ?setObjectName@QObject@@QEAAXAEBVQString@@@Z
+?setOpacity@QPainter@@QEAAXN@Z
+?setOpenExternalLinks@QLabel@@QEAAX_N@Z
+?setOption@QColorDialog@@QEAAXW4ColorDialogOption@1@_N@Z
+?setOrientation@QDialogButtonBox@@QEAAXW4Orientation@Qt@@@Z
+?setOrientation@QSplitter@@QEAAXW4Orientation@Qt@@@Z
+?setOverrideCursor@QApplication@@SAXAEBVQCursor@@@Z
+?setPalette@QWidget@@QEAAXAEBVQPalette@@@Z
 ?setPattern@QRegExp@@QEAAXAEBVQString@@@Z
+?setPen@QPainter@@QEAAXAEBVQColor@@@Z
+?setPen@QPainter@@QEAAXAEBVQPen@@@Z
+?setPen@QPainter@@QEAAXW4PenStyle@Qt@@@Z
+?setPixel@QImage@@QEAAXHHI@Z
+?setPixelSize@QFont@@QEAAXH@Z
+?setPixmap@QDrag@@QEAAXAEBVQPixmap@@@Z
+?setPixmap@QLabel@@QEAAXAEBVQPixmap@@@Z
+?setPlaceholderText@QLineEdit@@QEAAXAEBVQString@@@Z
+?setPlainText@QPlainTextEdit@@QEAAXAEBVQString@@@Z
+?setPointSize@QFont@@QEAAXH@Z
+?setPointSizeF@QFont@@QEAAXN@Z
+?setPopupMode@QToolButton@@QEAAXW4ToolButtonPopupMode@1@@Z
+?setPos@QCursor@@SAXHH@Z
+?setPrefix@QDoubleSpinBox@@QEAAXAEBVQString@@@Z
 ?setProperty@QObject@@QEAA_NPEBDAEBVQVariant@@@Z
+?setRange@QAbstractSlider@@QEAAXHH@Z
+?setRange@QDoubleValidator@@UEAAXNNH@Z
+?setRange@QIntValidator@@UEAAXHH@Z
+?setReadOnly@QPlainTextEdit@@QEAAX_N@Z
+?setReadOnly@QTextEdit@@QEAAX_N@Z
+?setRed@QColor@@QEAAXH@Z
+?setRedF@QColor@@QEAAXN@Z
+?setRenderHint@QPainter@@QEAAXW4RenderHint@1@_N@Z
+?setResizeMode@QHeaderView@@QEAAXHW4ResizeMode@1@@Z
+?setRgb@QColor@@QEAAXHHHH@Z
+?setRgbF@QColor@@QEAAXNNNN@Z
+?setRootIndex@QListView@@UEAAXAEBVQModelIndex@@@Z
+?setRootIndex@QTableView@@UEAAXAEBVQModelIndex@@@Z
+?setRootIndex@QTreeView@@UEAAXAEBVQModelIndex@@@Z
+?setRowCount@QTableWidget@@QEAAXH@Z
+?setRowHeight@QTableView@@QEAAXHH@Z
+?setRowMinimumHeight@QGridLayout@@QEAAXHH@Z
+?setRowStretch@QGridLayout@@QEAAXHH@Z
+?setScaledContents@QLabel@@QEAAX_N@Z
+?setSelection@QLineEdit@@QEAAXHH@Z
+?setSelection@QListView@@MEAAXAEBVQRect@@V?$QFlags@W4SelectionFlag@QItemSelectionModel@@@@@Z
+?setSelection@QTableView@@MEAAXAEBVQRect@@V?$QFlags@W4SelectionFlag@QItemSelectionModel@@@@@Z
+?setSelection@QTreeView@@MEAAXAEBVQRect@@V?$QFlags@W4SelectionFlag@QItemSelectionModel@@@@@Z
+?setSelectionBehavior@QAbstractItemView@@QEAAXW4SelectionBehavior@1@@Z
+?setSelectionMode@QAbstractItemView@@QEAAXW4SelectionMode@1@@Z
+?setSelectionModel@QAbstractItemView@@UEAAXPEAVQItemSelectionModel@@@Z
+?setSelectionModel@QTableView@@UEAAXPEAVQItemSelectionModel@@@Z
+?setSelectionModel@QTreeView@@UEAAXPEAVQItemSelectionModel@@@Z
+?setSelectionModel@QTreeWidget@@UEAAXPEAVQItemSelectionModel@@@Z
+?setShortcut@QAction@@QEAAXAEBVQKeySequence@@@Z
+?setShortcuts@QAction@@QEAAXW4StandardKey@QKeySequence@@@Z
+?setShowGrid@QTableView@@QEAAX_N@Z
+?setSizeConstraint@QLayout@@QEAAXW4SizeConstraint@1@@Z
+?setSizeGripEnabled@QDialog@@QEAAX_N@Z
+?setSizePolicy@QWidget@@QEAAXVQSizePolicy@@@Z
+?setSizePolicy@QWidget@@QEAAXW4Policy@QSizePolicy@@0@Z
+?setSliderPosition@QAbstractSlider@@QEAAXH@Z
+?setSortIndicator@QHeaderView@@QEAAXHW4SortOrder@Qt@@@Z
+?setSortingEnabled@QTableView@@QEAAX_N@Z
+?setSourceModel@QSortFilterProxyModel@@UEAAXPEAVQAbstractItemModel@@@Z
+?setSpacing@QBoxLayout@@QEAAXH@Z
+?setSpacing@QGridLayout@@QEAAXH@Z
+?setStandardButtons@QDialogButtonBox@@QEAAXV?$QFlags@W4StandardButton@QDialogButtonBox@@@@@Z
+?setStandardButtons@QMessageBox@@QEAAXV?$QFlags@W4StandardButton@QMessageBox@@@@@Z
+?setStart@QLinearGradient@@QEAAXAEBVQPointF@@@Z
+?setStatusTip@QAction@@QEAAXAEBVQString@@@Z
+?setStatusTip@QWidget@@QEAAXAEBVQString@@@Z
+?setStretch@QBoxLayout@@QEAAXHH@Z
+?setStretchLastSection@QHeaderView@@QEAAX_N@Z
+?setStyle@QBrush@@QEAAXW4BrushStyle@Qt@@@Z
+?setStyle@QFont@@QEAAXW4Style@1@@Z
+?setStyleSheet@QWidget@@QEAAXAEBVQString@@@Z
+?setSuffix@QDoubleSpinBox@@QEAAXAEBVQString@@@Z
+?setText@QAbstractButton@@QEAAXAEBVQString@@@Z
+?setText@QAction@@QEAAXAEBVQString@@@Z
+?setText@QClipboard@@QEAAXAEBVQString@@W4Mode@1@@Z
+?setText@QLabel@@QEAAXAEBVQString@@@Z
+?setText@QLineEdit@@QEAAXAEBVQString@@@Z
+?setText@QMessageBox@@QEAAXAEBVQString@@@Z
 ?setText@QMimeData@@QEAAXAEBVQString@@@Z
+?setText@QTableWidgetItem@@QEAAXAEBVQString@@@Z
+?setText@QTextEdit@@QEAAXAEBVQString@@@Z
+?setText@QTreeWidgetItem@@QEAAXHAEBVQString@@@Z
+?setTextFormat@QLabel@@QEAAXW4TextFormat@Qt@@@Z
+?setTextInteractionFlags@QLabel@@QEAAXV?$QFlags@W4TextInteractionFlag@Qt@@@@@Z
+?setTexture@QBrush@@QEAAXAEBVQPixmap@@@Z
+?setTitle@QGroupBox@@QEAAXAEBVQString@@@Z
+?setTitle@QMenu@@QEAAXAEBVQString@@@Z
+?setToolButtonStyle@QToolBar@@QEAAXW4ToolButtonStyle@Qt@@@Z
+?setToolTip@QAction@@QEAAXAEBVQString@@@Z
+?setToolTip@QTableWidgetItem@@QEAAXAEBVQString@@@Z
+?setToolTip@QWidget@@QEAAXAEBVQString@@@Z
+?setUniformRowHeights@QTreeView@@QEAAX_N@Z
+?setValidator@QLineEdit@@QEAAXPEBVQValidator@@@Z
+?setValue@QAbstractSlider@@QEAAXH@Z
+?setValue@QDoubleSpinBox@@QEAAXN@Z
+?setValue@QProgressDialog@@QEAAXH@Z
 ?setValue@QSettings@@QEAAXAEBVQString@@AEBVQVariant@@@Z
+?setVerticalPolicy@QSizePolicy@@QEAAXW4Policy@1@@Z
+?setVerticalScrollBarPolicy@QAbstractScrollArea@@QEAAXW4ScrollBarPolicy@Qt@@@Z
+?setVerticalSpacing@QGridLayout@@QEAAXH@Z
+?setVisible@QColorDialog@@UEAAX_N@Z
+?setVisible@QDialog@@UEAAX_N@Z
+?setVisible@QWidget@@UEAAX_N@Z
+?setWeight@QFont@@QEAAXH@Z
+?setWidget@QScrollArea@@QEAAXPEAVQWidget@@@Z
+?setWidgetResizable@QScrollArea@@QEAAX_N@Z
+?setWidth@QPen@@QEAAXH@Z
+?setWindowFlags@QWidget@@QEAAXV?$QFlags@W4WindowType@Qt@@@@@Z
+?setWindowIcon@QWidget@@QEAAXAEBVQIcon@@@Z
+?setWindowModality@QWidget@@QEAAXW4WindowModality@Qt@@@Z
+?setWindowOpacity@QWidget@@QEAAXN@Z
+?setWindowTitle@QMessageBox@@QEAAXAEBVQString@@@Z
+?setWindowTitle@QWidget@@QEAAXAEBVQString@@@Z
+?setWordWrap@QLabel@@QEAAX_N@Z
+?setWordWrap@QTableView@@QEAAX_N@Z
 ?setupChildProcess@QProcess@@MEAAXXZ
 ?shared_null@QListData@@2UData@1@A
 ?shared_null@QMapData@@2U1@A
 ?shared_null@QString@@0UData@1@A
 ?shared_null@QVectorData@@2U1@A
+?show@QWidget@@QEAAXXZ
+?showEvent@QAbstractSpinBox@@MEAAXPEAVQShowEvent@@@Z
+?showEvent@QComboBox@@MEAAXPEAVQShowEvent@@@Z
+?showEvent@QDialog@@MEAAXPEAVQShowEvent@@@Z
+?showEvent@QMessageBox@@MEAAXPEAVQShowEvent@@@Z
+?showEvent@QPlainTextEdit@@MEAAXPEAVQShowEvent@@@Z
+?showEvent@QProgressDialog@@MEAAXPEAVQShowEvent@@@Z
+?showEvent@QTextEdit@@MEAAXPEAVQShowEvent@@@Z
+?showEvent@QWidget@@MEAAXPEAVQShowEvent@@@Z
+?showMessage@QStatusBar@@QEAAXAEBVQString@@H@Z
+?showPopup@QComboBox@@UEAAXXZ
+?showText@QToolTip@@SAXAEBVQPoint@@AEBVQString@@PEAVQWidget@@@Z
 ?singleShot@QTimer@@SAXHPEAVQObject@@PEBD@Z
 ?size@QFileInfo@@QEBA_JXZ
 ?size@QIODevice@@UEBA_JXZ
+?size@QImage@@QEBA?AVQSize@@XZ
 ?size@QListData@@QEBAHXZ
 ?size@QRect@@QEBA?AVQSize@@XZ
+?size@QWidget@@QEBA?AVQSize@@XZ
+?sizeHint@QAbstractScrollArea@@UEBA?AVQSize@@XZ
+?sizeHint@QAbstractSpinBox@@UEBA?AVQSize@@XZ
+?sizeHint@QBoxLayout@@UEBA?AVQSize@@XZ
+?sizeHint@QCheckBox@@UEBA?AVQSize@@XZ
+?sizeHint@QComboBox@@UEBA?AVQSize@@XZ
+?sizeHint@QDialog@@UEBA?AVQSize@@XZ
+?sizeHint@QFrame@@UEBA?AVQSize@@XZ
+?sizeHint@QGridLayout@@UEBA?AVQSize@@XZ
+?sizeHint@QLabel@@UEBA?AVQSize@@XZ
+?sizeHint@QLineEdit@@UEBA?AVQSize@@XZ
+?sizeHint@QMenu@@UEBA?AVQSize@@XZ
+?sizeHint@QMessageBox@@UEBA?AVQSize@@XZ
+?sizeHint@QProgressDialog@@UEBA?AVQSize@@XZ
+?sizeHint@QPushButton@@UEBA?AVQSize@@XZ
+?sizeHint@QRadioButton@@UEBA?AVQSize@@XZ
+?sizeHint@QScrollArea@@UEBA?AVQSize@@XZ
+?sizeHint@QSlider@@UEBA?AVQSize@@XZ
+?sizeHint@QSpacerItem@@UEBA?AVQSize@@XZ
+?sizeHint@QSplitter@@UEBA?AVQSize@@XZ
+?sizeHint@QStackedLayout@@UEBA?AVQSize@@XZ
+?sizeHint@QToolButton@@UEBA?AVQSize@@XZ
+?sizeHint@QWidget@@UEBA?AVQSize@@XZ
+?sizeHintForColumn@QAbstractItemView@@UEBAHH@Z
+?sizeHintForColumn@QTableView@@MEBAHH@Z
+?sizeHintForColumn@QTreeView@@MEBAHH@Z
+?sizeHintForRow@QAbstractItemView@@UEBAHH@Z
+?sizeHintForRow@QTableView@@MEBAHH@Z
+?sizePolicy@QWidget@@QEBA?AVQSizePolicy@@XZ
+?sliderChange@QAbstractSlider@@MEAAXW4SliderChange@1@@Z
 ?sort@QAbstractItemModel@@UEAAXHW4SortOrder@Qt@@@Z
+?sort@QSortFilterProxyModel@@UEAAXHW4SortOrder@Qt@@@Z
+?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
+?sortByColumn@QTableView@@QEAAXHW4SortOrder@Qt@@@Z
+?sourceModel@QAbstractProxyModel@@QEBAPEAVQAbstractItemModel@@XZ
+?spacerItem@QLayoutItem@@UEAAPEAVQSpacerItem@@XZ
+?spacerItem@QSpacerItem@@UEAAPEAV1@XZ
 ?span@QAbstractItemModel@@UEBA?AVQSize@@AEBVQModelIndex@@@Z
+?span@QSortFilterProxyModel@@UEBA?AVQSize@@AEBVQModelIndex@@@Z
 ?split@QString@@QEBA?AVQStringList@@AEBV1@W4SplitBehavior@1@W4CaseSensitivity@Qt@@@Z
 ?split@QString@@QEBA?AVQStringList@@AEBVQChar@@W4SplitBehavior@1@W4CaseSensitivity@Qt@@@Z
 ?split@QString@@QEBA?AVQStringList@@AEBVQRegExp@@W4SplitBehavior@1@@Z
+?splitPath@QCompleter@@UEBA?AVQStringList@@AEBVQString@@@Z
+?standardIconImplementation@QWindowsXPStyle@@IEBA?AVQIcon@@W4StandardPixmap@QStyle@@PEBVQStyleOption@@PEBVQWidget@@@Z
 ?start@QElapsedTimer@@QEAAXXZ
 ?start@QProcess@@QEAAXAEBVQString@@AEBVQStringList@@V?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
 ?start@QTime@@QEAAXXZ
 ?start@QTimer@@QEAAXH@Z
 ?start@QTimer@@QEAAXXZ
 ?startDetached@QProcess@@SA_NAEBVQString@@AEBVQStringList@@@Z
+?startDrag@QAbstractItemView@@MEAAXV?$QFlags@W4DropAction@Qt@@@@@Z
+?startDrag@QListView@@MEAAXV?$QFlags@W4DropAction@Qt@@@@@Z
+?startDragDistance@QApplication@@SAHXZ
 ?startTimer@QObject@@QEAAHH@Z
 ?startsWith@QString@@QEBA_NAEBV1@W4CaseSensitivity@Qt@@@Z
 ?staticMetaObject@QAbstractItemModel@@2UQMetaObject@@B
 ?staticMetaObject@QAbstractTableModel@@2UQMetaObject@@B
+?staticMetaObject@QAction@@2UQMetaObject@@B
+?staticMetaObject@QColorDialog@@2UQMetaObject@@B
+?staticMetaObject@QComboBox@@2UQMetaObject@@B
+?staticMetaObject@QDialog@@2UQMetaObject@@B
+?staticMetaObject@QDoubleSpinBox@@2UQMetaObject@@B
+?staticMetaObject@QFrame@@2UQMetaObject@@B
+?staticMetaObject@QGroupBox@@2UQMetaObject@@B
+?staticMetaObject@QLayout@@2UQMetaObject@@B
+?staticMetaObject@QLineEdit@@2UQMetaObject@@B
+?staticMetaObject@QMainWindow@@2UQMetaObject@@B
+?staticMetaObject@QMenu@@2UQMetaObject@@B
 ?staticMetaObject@QObject@@2UQMetaObject@@B
+?staticMetaObject@QPushButton@@2UQMetaObject@@B
+?staticMetaObject@QSortFilterProxyModel@@2UQMetaObject@@B
+?staticMetaObject@QTableView@@2UQMetaObject@@B
+?staticMetaObject@QTextEdit@@2UQMetaObject@@B
+?staticMetaObject@QWidget@@2UQMetaObject@@B
+?staticMetaObject@QWindowsXPStyle@@2UQMetaObject@@B
+?statusBar@QMainWindow@@QEBAPEAVQStatusBar@@XZ
+?statusTip@QAction@@QEBA?AVQString@@XZ
+?stepBy@QAbstractSpinBox@@UEAAXH@Z
+?stepEnabled@QAbstractSpinBox@@MEBA?AV?$QFlags@W4StepEnabledFlag@QAbstractSpinBox@@@@XZ
 ?stop@QTimer@@QEAAXXZ
+?styleChange@QWidget@@MEAAXAEAVQStyle@@@Z
+?styleSheet@QWidget@@QEBA?AVQString@@XZ
 ?submit@QAbstractItemModel@@UEAA_NXZ
+?submit@QAbstractProxyModel@@UEAA_NXZ
+?suffix@QDoubleSpinBox@@QEBA?AVQString@@XZ
 ?suffix@QFileInfo@@QEBA?AVQString@@XZ
 ?supportedDropActions@QAbstractItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
+?supportedDropActions@QListWidget@@MEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
+?supportedDropActions@QSortFilterProxyModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
+?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
+?supportedDropActions@QTableWidget@@MEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
+?supportedDropActions@QTreeWidget@@MEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
+?supportedImageFormats@QImageReader@@SA?AV?$QList@VQByteArray@@@@XZ
+?tabletEvent@QWidget@@MEAAXPEAVQTabletEvent@@@Z
+?takeAt@QBoxLayout@@UEAAPEAVQLayoutItem@@H@Z
+?takeAt@QGridLayout@@UEAAPEAVQLayoutItem@@H@Z
+?takeAt@QStackedLayout@@UEAAPEAVQLayoutItem@@H@Z
 ?tempPath@QDir@@SA?AVQString@@XZ
+?text@QAction@@QEBA?AVQString@@XZ
+?text@QClipboard@@QEBA?AVQString@@W4Mode@1@@Z
+?text@QLineEdit@@QEBA?AVQString@@XZ
 ?text@QMimeData@@QEBA?AVQString@@XZ
+?textFromValue@QDoubleSpinBox@@UEBA?AVQString@@N@Z
+?timerEvent@QAbstractButton@@MEAAXPEAVQTimerEvent@@@Z
+?timerEvent@QAbstractSlider@@MEAAXPEAVQTimerEvent@@@Z
+?timerEvent@QAbstractSpinBox@@MEAAXPEAVQTimerEvent@@@Z
+?timerEvent@QListView@@MEAAXPEAVQTimerEvent@@@Z
+?timerEvent@QMenu@@MEAAXPEAVQTimerEvent@@@Z
 ?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
+?timerEvent@QPlainTextEdit@@MEAAXPEAVQTimerEvent@@@Z
+?timerEvent@QTableView@@MEAAXPEAVQTimerEvent@@@Z
+?timerEvent@QTextEdit@@MEAAXPEAVQTimerEvent@@@Z
 ?timerEvent@QTimer@@MEAAXPEAVQTimerEvent@@@Z
+?timerEvent@QToolButton@@MEAAXPEAVQTimerEvent@@@Z
+?timerEvent@QTreeView@@MEAAXPEAVQTimerEvent@@@Z
 ?toAscii@QString@@QEBA?AVQByteArray@@XZ
 ?toBase64@QByteArray@@QEBA?AV1@XZ
 ?toBool@QVariant@@QEBA_NXZ
 ?toDouble@QString@@QEBANPEA_N@Z
 ?toFloat@QString@@QEBAMPEA_N@Z
+?toHsl@QColor@@QEBA?AV1@XZ
+?toHsv@QColor@@QEBA?AV1@XZ
+?toImage@QPixmap@@QEBA?AVQImage@@XZ
 ?toInt@QString@@QEBAHPEA_NH@Z
 ?toInt@QVariant@@QEBAHPEA_N@Z
 ?toLocalFile@QUrl@@QEBA?AVQString@@XZ
 ?toLower@QString@@QEBA?AV1@XZ
 ?toNativeSeparators@QDir@@SA?AVQString@@AEBV2@@Z
+?toPlainText@QTextDocument@@QEBA?AVQString@@XZ
+?toPlainText@QTextEdit@@QEBA?AVQString@@XZ
+?toRgb@QColor@@QEBA?AV1@XZ
 ?toString@QDateTime@@QEBA?AVQString@@AEBV2@@Z
 ?toString@QVariant@@QEBA?AVQString@@XZ
 ?toUInt@QVariant@@QEBAIPEA_N@Z
 ?toUtf8@QString@@QEBA?AVQByteArray@@XZ
+?toolTip@QAction@@QEBA?AVQString@@XZ
+?top@QItemSelectionRange@@QEBAHXZ
+?tr@QLabel@@SA?AVQString@@PEBD0@Z
 ?tr@QMetaObject@@QEBA?AVQString@@PEBD0@Z
+?tr@QTextEdit@@SA?AVQString@@PEBD0@Z
+?tr@QWidget@@SA?AVQString@@PEBD0@Z
 ?trUtf8@QMetaObject@@QEBA?AVQString@@PEBD0@Z
 ?trUtf8@QObject@@SA?AVQString@@PEBD0@Z
 ?translate@QCoreApplication@@SA?AVQString@@PEBD00W4Encoding@1@@Z
 ?trimmed@QString@@QEBA?AV1@XZ
 ?truncate@QString@@QEAAXH@Z
+?type@QStandardItem@@UEBAHXZ
+?update@QWidget@@QEAAXXZ
+?updateEditorData@QAbstractItemView@@MEAAXXZ
+?updateEditorGeometries@QAbstractItemView@@MEAAXXZ
+?updateGeometries@QListView@@MEAAXXZ
+?updateGeometries@QTableView@@MEAAXXZ
+?updateGeometries@QTreeView@@MEAAXXZ
+?updateGeometry@QWidget@@QEAAXXZ
 ?urls@QMimeData@@QEBA?AV?$QList@VQUrl@@@@XZ
 ?userType@QVariant@@QEBAHXZ
+?validate@QDoubleSpinBox@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
+?validate@QDoubleValidator@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
+?validate@QIntValidator@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
+?value@QAbstractSlider@@QEBAHXZ
+?value@QColor@@QEBAHXZ
+?value@QDoubleSpinBox@@QEBANXZ
+?value@QProgressDialog@@QEBAHXZ
 ?value@QSettings@@QEBA?AVQVariant@@AEBVQString@@AEBV2@@Z
+?valueF@QColor@@QEBANXZ
+?valueFromText@QDoubleSpinBox@@UEBANAEBVQString@@@Z
+?verticalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ
+?verticalOffset@QListView@@MEBAHXZ
+?verticalOffset@QTableView@@MEBAHXZ
+?verticalOffset@QTreeView@@MEBAHXZ
+?verticalScrollBar@QAbstractScrollArea@@QEBAPEAVQScrollBar@@XZ
+?verticalScrollbarAction@QAbstractItemView@@MEAAXH@Z
+?verticalScrollbarAction@QTableView@@MEAAXH@Z
+?verticalScrollbarValueChanged@QAbstractItemView@@MEAAXH@Z
+?viewOptions@QAbstractItemView@@MEBA?AVQStyleOptionViewItem@@XZ
+?viewOptions@QListView@@MEBA?AVQStyleOptionViewItem@@XZ
+?viewOptions@QTableView@@MEBA?AVQStyleOptionViewItem@@XZ
+?viewport@QAbstractScrollArea@@QEBAPEAVQWidget@@XZ
+?viewportEvent@QAbstractItemView@@MEAA_NPEAVQEvent@@@Z
+?viewportEvent@QAbstractScrollArea@@MEAA_NPEAVQEvent@@@Z
+?viewportEvent@QTreeView@@MEAA_NPEAVQEvent@@@Z
+?visualRect@QListView@@UEBA?AVQRect@@AEBVQModelIndex@@@Z
+?visualRect@QTableView@@UEBA?AVQRect@@AEBVQModelIndex@@@Z
+?visualRect@QTreeView@@UEBA?AVQRect@@AEBVQModelIndex@@@Z
+?visualRegionForSelection@QListView@@MEBA?AVQRegion@@AEBVQItemSelection@@@Z
+?visualRegionForSelection@QTableView@@MEBA?AVQRegion@@AEBVQItemSelection@@@Z
+?visualRegionForSelection@QTreeView@@MEBA?AVQRegion@@AEBVQItemSelection@@@Z
 ?waitForBytesWritten@QProcess@@UEAA_NH@Z
 ?waitForReadyRead@QProcess@@UEAA_NH@Z
-?weight
+?warning@QMessageBox@@SA?AW4StandardButton@1@PEAVQWidget@@AEBVQString@@1V?$QFlags@W4StandardButton@QMessageBox@@@@W421@@Z
+?warning@QMessageBox@@SAHPEAVQWidget@@AEBVQString@@1W4StandardButton@1@2@Z
+?wasCanceled@QProgressDialog@@QEBA_NXZ
+?wheelEvent@QAbstractScrollArea@@MEAAXPEAVQWheelEvent@@@Z
+?wheelEvent@QAbstractSlider@@MEAAXPEAVQWheelEvent@@@Z
+?wheelEvent@QAbstractSpinBox@@MEAAXPEAVQWheelEvent@@@Z
+?wheelEvent@QComboBox@@MEAAXPEAVQWheelEvent@@@Z
+?wheelEvent@QMenu@@MEAAXPEAVQWheelEvent@@@Z
+?wheelEvent@QPlainTextEdit@@MEAAXPEAVQWheelEvent@@@Z
+?wheelEvent@QTextEdit@@MEAAXPEAVQWheelEvent@@@Z
+?wheelEvent@QWidget@@MEAAXPEAVQWheelEvent@@@Z
+?widget@QLayoutItem@@UEAAPEAVQWidget@@XZ
+?widgetAt@QApplication@@SAPEAVQWidget@@AEBVQPoint@@@Z
+?width@QFontMetrics@@QEBAHAEBVQString@@H@Z
+?width@QImage@@QEBAHXZ
+?width@QPixmap@@QEBAHXZ
+?winEvent@QWidget@@MEAA_NPEAUtagMSG@@PEAJ@Z
+?winId@QWidget@@QEBAPEAUHWND__@@XZ
+?windowActivationChange@QWidget@@MEAAX_N@Z
+?windowModality@QWidget@@QEBA?AW4WindowModality@Qt@@XZ
+?windowTitle@QWidget@@QEBA?AVQString@@XZ
 ?write@QIODevice@@QEAA_JPEBD@Z
+?write@QStandardItem@@UEBAXAEAVQDataStream@@@Z
+?write@QTableWidgetItem@@UEBAXAEAVQDataStream@@@Z
+?write@QTreeWidgetItem@@UEBAXAEAVQDataStream@@@Z
 ?writeData@QProcess@@MEAA_JPEBD_J@Z
 ?year@QDate@@QEBAHXZ
-?ysB
-@"?qt_metacall@QDoubleSpinBox@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-@@desc
-@Integer overflow in %s
-@Tools
-@^8U)zj
 @spawn
 A VPK file with the specified name already exists, do you want to overwrite the file?
-A!;I2
-A"?qt_metacall@QDoubleValidator@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-A%?reset@QTreeView@@UEAAXXZ
-A'?setAlignment@QTextOption@@QEAAXV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
-A>pP&
 AABB_t
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABGR8888
@@ -4447,7 +4735,6 @@ AE_ZOMBIE_POPHEADCRAB
 AE_ZOMBIE_TOGGLE_HEAD
 AI Walkable
 AIWalkable
-AK>(v
 ALIGN_TYPE is wrong, please fix
 ANIMATION_TYPE_FIT_LIFETIME
 ANIMATION_TYPE_FIXED_RATE
@@ -4695,17 +4982,9 @@ AutoLayer
 Autoplay
 AxisScale
 B channel not found!\n
-B"?qt_metacall@QDrag@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-B#?qt_metacast@QPlainTextEdit@@UEAAPEAXPEBD@Z
-B,?setRenderHint@QPainter@@QEAAXW4RenderHint@1@_N@Z
 B-Spline
-B.f?y
-B3?timerEvent@QPlainTextEdit@@MEAAXPEAVQTimerEvent@@@Z
 BA_INT_NONE
-BC1%M
 BC6H
-BC?>6t9^\tc:>
-BF>^G
 BGR101111_UFLOAT
 BGR565
 BGR888
@@ -4719,7 +4998,6 @@ BGRA8888_LINEAR
 BGRX5551
 BGRX8888
 BGRX8888_LINEAR
-BKbhTb~XBK!;
 BREAKABLE_CONCRETE_CHUNKS
 BREAKABLE_GLASS_CHUNKS
 BREAKABLE_METAL_CHUNKS
@@ -4861,7 +5139,6 @@ Burst Randomize
 Burst Scale
 Button_AcceptAndCLose
 Button_Reset
-C5R?\t
 CActivity
 CAdjustAnimation
 CAlignAnimation
@@ -4875,6 +5152,7 @@ CAnimationPoseSetting::Constant
 CAnimationPoseSetting::Position
 CAnimationPoseSetting::Rotation
 CAnimationPoseSetting::Velocity
+CAuthPhysBody
 CAuthPhysCollisionAttributes
 CAuthPhysCollisionAttributesOverride
 CAuthPhysFx
@@ -4890,6 +5168,7 @@ CAuthPhysFx::CRod
 CAuthPhysFx::CSpring
 CAuthPhysJoint
 CAuthPhysJointRange
+CAuthPhysModel
 CAuthPhysShape
 CAuthPhysShapeBox
 CAuthPhysShapeCapsule
@@ -4898,7 +5177,6 @@ CAuthPhysShapeMesh
 CAuthPhysShapeSphere
 CBaseEconItemTool
 CBindableCamera
-CCAuthPhysModel
 CCIR601 sampling not implemented yet
 CCITT Group 3
 CCITT Group 4
@@ -5095,7 +5373,6 @@ CImagePlaneNode
 CInputBindManager::HandleInputCode recursion depth got too deep.\n
 CItemEditorGC
 CKV3FormatManager::RegisterFormatConversion
-CL:>8
 CLightingControlRig
 CLightingPreviewPopupUI
 CMainWindow
@@ -5137,6 +5414,7 @@ CONSTRAINT_TX
 CONSTRAINT_TY
 CONSTRAINT_TZ
 CONTENT
+CONTENTROOT
 COrderedConstructor_Create<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>,class CResolveOrderedFunc<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>,&void __cdecl _ORDERED_INIT_SHUTDOWN_WRAPPER_RESOLVEFUNC<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>(class COrderedConstructor_DependencyManagement<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)> > &)>,0>::AddRef
 CParticleProperty::AddControlPoint
 CParticleProperty::SetControlPoint
@@ -5630,6 +5908,7 @@ CVhitBoxSetListReference
 CVisibilityMgr
 CVmesh
 CVmeshList
+CVmodelInfo
 CVmorphInfo
 CVphysgunInteractions
 CVphysicsMesh
@@ -5642,10 +5921,8 @@ CVpropDataListReference
 CVseqGroup
 CVseqGroupReference
 CVworldInteractions
-CWD>~3
 CWorkshopCfg_DotaItemDef::UpdatePaymentRules:  can't update workshop_revenue_share because item has complex payment rules (multiple targets, etc.)\n
 CWorkshopCfg_DotaItemDef::UpdatePaymentRules:  not changing payment rule for %llu, it's up to date\n
-C\f?open@QFile@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
 C_INIT_AddVectorToVector
 C_INIT_AgeNoise
 C_INIT_CreateFromCPs
@@ -5795,6 +6072,7 @@ Clear History
 ClearInputHistory()
 ClearWell()
 ClimbVersus
+ClipBoard
 ClipPath
 CloneCameraToggled(bool)
 Close
@@ -5952,7 +6230,6 @@ Custom games not supported.
 CustomGameFolderChanged(int)
 Cycle or diamond double-reference to '%s'
 CycleOverride
-D0?staticMetaObject@QFrame@@2UQMetaObject@@B
 D15S1
 D16_SHADOW
 D24FS8
@@ -5960,8 +6237,6 @@ D24S8
 D24X4S4
 D24X8
 D24X8_SHADOW
-D3?timerEvent@QTableView@@MEAAXPEAVQTimerEvent@@@Z
-D8?wheelEvent@QAbstractScrollArea@@MEAAXPEAVQWheelEvent@@@Z
 DCT coefficient out of range
 DCT scaled block size %dx%d not supported
 DEFAULT_WRITE_PATH
@@ -5991,7 +6266,6 @@ DXT3
 DXT5
 DXT5_NM
 DYNAMIC
-D\f?open@QIODevice@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
 Da\">c]$8c^
 Damage
 Damage Bullets
@@ -6264,9 +6538,6 @@ Dynamic
 Dynamic Increment
 DynamicConfigList
 E&xit
-E-?setStyleSheet@QWidget@@QEAAXAEBVQString@@@Z
-E8?wheelEvent@QAbstractSlider@@MEAAXPEAVQWheelEvent@@@Z
-E>nEA
 ECON_MODEL_CHANGE_EVENT_ABILITIES
 ECON_MODEL_CHANGE_EVENT_ATTRIBUTES
 ECON_MODEL_CHANGE_EVENT_COLORS
@@ -6299,7 +6570,6 @@ ENTITY_IO_TARGET_SPECIAL_ACTIVATOR
 ENTITY_IO_TARGET_SPECIAL_CALLER
 ENTITY_NOT_DORMANT
 ENTITY_SUSPENDED
-EOxV
 ERROR! LoadFromJPG( %s ) failed!\n
 ERROR! LoadFromPNG( %s ) failed!\n
 ERROR! TiffReadFile( %s ) failed!\n
@@ -6313,7 +6583,6 @@ ERROR: Sequence %d already specified!\n
 ERROR: Sequence %d is missing, total of %d sequences!\n
 ERROR: Sequence number %d is too big!\n
 ERROR: Unable to create an attribute handle! Save, quit, restart and clean up your file to have fewer elements!\n
-ET5>
 EXEC-BEGIN (UNSUPRESSED): %s
 EXEC-BEGIN-MODIFIER: %s
 EXEC-BEGIN: %s
@@ -6333,7 +6602,6 @@ EXRHeader variable is not initialized.
 EXRReadFile() - B channel not found!\n
 EXRReadFile() - G channel not found!\n
 EXRReadFile() - R channel not found!\n
-E[\rn?gc
 EarlyRetireParticleSystems
 Ease In
 Ease In/Out
@@ -6365,7 +6633,6 @@ EffigyBaseOffset
 EffigyCameraOffset
 EffigyGroundOffset
 EffigyZoomOut
-EiUL
 Element uses unknown element type %s\n
 Embed Anims In Anim Group
 Emit EditingFinished
@@ -6505,15 +6772,9 @@ Extract TY
 Extract TZ
 Eye Position
 Eyes
-F.?setWeight@QFont@@QEAAXH@Z
-F/?sizeHint@QGridLayout@@UEBA?AVQSize@@XZ
-F3?timerEvent@QTextEdit@@MEAAXPEAVQTimerEvent@@@Z
-F8?wheelEvent@QAbstractSpinBox@@MEAAXPEAVQWheelEvent@@@Z
-F>qUxv
 FATAL ERROR: unable to register all schema data: %s\n
 FBX Scale
 FCVAR_NEVER_AS_STRING
-FEMh\f
 FX Mesh
 F_ALPHA_TEST
 F_MASKS_1
@@ -6586,7 +6847,6 @@ FeNodeIntegrator_t
 FeSoftParent_t
 FeSourceEdge_t
 February
-FfW?
 FieldOfViewCotangent
 File Folder
 File Path
@@ -6669,17 +6929,11 @@ Friday
 Friendly Companions
 Frostivus 2017
 Frostivus 2017 Hero Items
-Fsfm_v3
 G channel not found!\n
-G'?setAlpha@QColor@@QEAAXH@Z
-G3?timerEvent@QToolButton@@MEAAXPEAVQTimerEvent@@@Z
-G8?wheelEvent@QComboBox@@MEAAXPEAVQWheelEvent@@@Z
-G>US
 GAME
 GAMECONSOLE
 GCTL
 GPSIFDOffset
-G\t?handler@QVariant@@1PEBUHandler@1@EB
 Game
 Game Interactions
 Game Modifications & Replacements
@@ -6687,7 +6941,6 @@ GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameStartup
 GameUIService_001
-Gcurve_%s_to_curve_%s
 Gem Unlock
 GeneratesUnits
 Generic DMX
@@ -6742,6 +6995,7 @@ GetProfile_bc6h_veryfast
 GetProfile_bc6h_veryslow
 GetProfile_fast
 GetProfile_slow
+GetProfile_ultrafast
 GetProfile_veryfast
 GetResourceManifestCount
 GetResourceManifests
@@ -6768,10 +7022,6 @@ Group ID
 Group Name
 Group3Options
 Group4Options
-H#?qt_metacast@QProgressDialog@@UEAAPEAXPEBD@Z
-H)?setFilterCaseSensitivity@QSortFilterProxyModel@@QEAAXW4CaseSensitivity@Qt@@@Z
-H,?setResizeMode@QHeaderView@@QEAAXHW4ResizeMode@1@@Z
-H3?timerEvent@QTreeView@@MEAAXPEAVQTimerEvent@@@Z
 HDR Multiplier
 HDRmultiplierSetChanged(QVector<double>)
 HDRsupport
@@ -6836,7 +7086,6 @@ HueLightness
 HueRing
 Huffman code size table overflow
 Huffman table 0x%02x was not defined
-I!?pos@QCursor@@SA?AVQPoint@@XZ
 IA88
 IAssetSelectionListener
 IBindTarget
@@ -6846,6 +7095,7 @@ IDotaPortraitEditorListener
 IDotaPreviewModelSetListener
 IEconItemToolModelChanged
 IGizmoListener
+IHDRPLTEIDATIENDtRNScHRMgAMAiCCPsBITsRGBtEXtzTXtiTXtbKGDhISTpHYssPLTtIMEoFFseXIf
 IHandleEntity
 IHelpChangeListener
 IKChain
@@ -6872,7 +7122,6 @@ IgnoreGhosts
 Ignored
 Ik Rules
 IkLockLocal
-Il?333333c?
 Image
 Image data size is zero or too large: width = 
 Image packing validation failed!
@@ -6924,6 +7173,7 @@ Input Binding Error
 Input Debugger [%1]
 Input Sequence
 Input file read error
+InputBindSystem
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
@@ -6936,6 +7186,7 @@ Insufficient data size.\n
 Insufficient header/data size.\n
 Insufficient memory (case %d)
 Integer
+Integer overflow in %s
 Intentionally vague touch behavior for %p\n
 Interact As
 Interact Exclude
@@ -7027,8 +7278,6 @@ ItemSlots
 Item_
 Item_Desc_
 ItemsGameFile
-J"?qt_metacall@QFrame@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-J)?setFilterKeyColumn@QSortFilterProxyModel@@QEAAXH@Z
 JFIF APP0 marker: version %d.%02d, density %dx%d  %d
 JFIF extension marker: JPEG-compressed thumbnail image, length %u
 JFIF extension marker: RGB thumbnail image, length %u
@@ -7047,16 +7296,12 @@ Jiggle
 Joint Type
 July
 June
-K#?qt_metacast@QPushButton@@UEAAPEAXPEBD@Z
-K*?setInformativeText@QMessageBox@@QEAAXAEBVQString@@@Z
-K/?sizeHint@QLabel@@UEBA?AVQSize@@XZ
 KERNEL32.dll
 KEYFRAMED
 KL2H
 KNQ\rMO
 KV Conditional Evaluation Error
 KV3 save transfer failed: %s
-K\t?hasChildren@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
 Key Bindings
 Key Words
 KeyState
@@ -7080,11 +7325,6 @@ Keywords
 Kochanek-Bartels
 Kochanek-Bartels Early
 Kochanek-Bartels Late
-L#?qt_metacast@QRadioButton@@UEAAPEAXPEBD@Z
-L-?setSuffix@QDoubleSpinBox@@QEAAXAEBVQString@@@Z
-L/?sizeHint@QLineEdit@@UEBA?AVQSize@@XZ
-L>ev
-L?UUUUUUU?
 LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
@@ -7110,8 +7350,6 @@ LODGroupList_t
 LODGroup_t
 LOG_GENERAL
 LOWVIOLENCE
-LWG>
-LWW>
 LZWDecode: Bogus encoding, loop in the code table; scanline %d
 LZWDecode: Corrupted LZW table at scanline %d
 LZWDecode: Not enough data at scanline %d (short %ld bytes)
@@ -7223,13 +7461,10 @@ Loop
 Loop Restart
 Looping
 Lost handle to async handle for downloaded file write!
-LrwcE
-M8?wheelEvent@QMenu@@MEAAXPEAVQWheelEvent@@@Z
 MATCHFRAMEWORK_001
 MAX_ALLOC_CHUNK is wrong, please fix
 MClassHasCustomAlignedNewDelete
 MDefaultString
-MGiI
 MM/dd/yy
 MM/dd/yyyy hh:mm:ss AP
 MMouse
@@ -7267,7 +7502,6 @@ MWheelDn
 MWheelLeft
 MWheelRight
 MWheelUp
-M\t?hasChildren@QAbstractTableModel@@EEBA_NAEBVQModelIndex@@@Z
 Make
 Make Unique Vmeshes
 Make sheet file
@@ -7313,7 +7547,6 @@ MaxPolygonsLOD1
 MaxSampleValue
 Maximum
 Maximum supported image dimension is %u pixels
-MbP?
 Melee Immune
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
@@ -7398,26 +7631,16 @@ MultiByteToWideChar
 Multiple selected
 MultiplySetBy(double)
 Musical
-N ?paintEngine@QPixmap@@UEBAPEAVQPaintEngine@@XZ
-N'?setAlphaF@QColor@@QEAAXN@Z
-N)?setFilterWildcard@QSortFilterProxyModel@@QEAAXAEBVQString@@@Z
-N3`d?
-N8?wheelEvent@QPlainTextEdit@@MEAAXPEAVQWheelEvent@@@Z
-N>O=I9
-N>VF
 NAN(IND)
 NAN(SNAN)
 NPCs
 NP_Treant
-NQ?s
 NULL
 NV_DST16
 NV_DST24
 NV_INTZ
 NV_NULL
 NV_RAWZ
-N\n?isLocalFile@QUrl@@QEBA_NXZ
-N\t?hasColor@QMimeData@@QEBA_NXZ
 Name
 Name of the VPK file to save
 Name\t\t\t\t\tCount\t\tParticle Count\n
@@ -7472,6 +7695,7 @@ No support for converting user data format to LogL
 No support for converting user data format to LogLuv
 No valid format conversion from '%s' to '%s'
 NoPoseControl
+Node
 NodeMaterialGroupList_t
 NodeMaterialGroup_t
 Noise Scalar
@@ -7509,10 +7733,7 @@ NumMul
 NumSub
 NumToggle
 NumberOfInks
-O#?qt_metacast@QScrollArea@@UEAAPEAXPEBD@Z
-O'?setAlternatingRowColors@QAbstractItemView@@QEAAX_N@Z
 OKandClose()
-OZQ%
 Obtained EMS handle %u
 Obtained XMS handle %u
 October
@@ -7707,9 +7928,6 @@ Output unserialization of entities on map load. 0 - off, 1 - client/server, 2 - 
 Override
 Overwrite With Current
 Owner
-P z5
-P/?sizeHint@QMenu@@UEBA?AVQSize@@XZ
-P8?wheelEvent@QTextEdit@@MEAAXPEAVQWheelEvent@@@Z
 PARALLEL_PROCESS CParticleMgr::SimulateParticles(), c:\buildslave\hlvr_rel_win64\build\src\particleslib\particlemgr.cpp:1013
 PARTICLE_DEPTH_FEATHERING_OFF
 PARTICLE_DEPTH_FEATHERING_ON_OPTIONAL
@@ -7729,7 +7947,6 @@ PNG\r\n
 POSIX
 PVEC_TYPE_LITERAL
 PVEC_TYPE_LITERAL_COLOR
-P\v?makeAbsolute@QFileInfo@@QEAA_NXZ
 PackBits
 PackBitsDecode: Not enough data for scanline %ld
 PackBitsDecode: discarding %ld bytes to avoid buffer overrun
@@ -7836,11 +8053,11 @@ Plat_UUIDToString
 Platforming & Climb
 Play
 PlaybackSpeedChanged(float)
+Player
 Player Branding
 PlayerPickup
 Please enter a name for the VPK file.
 Please select at least 1 file to add to the VPK.
-Po5H
 PointLight
 Pop Culture
 Pop Out...
@@ -7944,7 +8161,6 @@ PropData
 Properties
 PropertyEditorSystem_001
 Proxies
-Ptype
 Publish a new workshop submission
 PublishDialogAcceptedSlot()
 PublishDialogRejectedSlot()
@@ -7954,9 +8170,6 @@ PublishedFileSelectionChangedSlot(QItemSelection,QItemSelection)
 Pushbar
 Puzzle
 Q2XXR
-Q5rHg,>
-Q8?wheelEvent@QWidget@@MEAAXPEAVQWheelEvent@@@Z
-QAf?
 QAngle
 QC Scale
 QColor
@@ -7980,7 +8193,6 @@ QVector
 QVector<double>
 QVector<float>
 QVector<int>
-Qkkbal
 QtCore4.dll
 QtGui4.dll
 Quality Of Life
@@ -7994,8 +8206,6 @@ QueryTimedOut()
 QueueRefreshView()
 QueuedLoaderVersion001
 R channel not found!\n
-R)?setFinalStop@QLinearGradient@@QEAAXAEBVQPointF@@@Z
-R/?sizeHint@QMessageBox@@UEBA?AVQSize@@XZ
 R11_EAC
 R16F
 R16F_EXPAND
@@ -8003,6 +8213,7 @@ R32F
 R32_UINT
 R8G8B8A8_ETC2_EAC
 R8G8B8_ETC2
+R8_UINT
 RG11_EAC
 RG1616
 RG1616F
@@ -8040,9 +8251,7 @@ RGB_RedGreen
 RMouse
 RMouseDoubleClick
 RPCRT4.dll
-RSDS\t
 RST%d
-R\r?qt_metacall@QAbstractItemModel@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 RadianEuler
 Radius
 Radius Random
@@ -8179,12 +8388,6 @@ RtlUnwindEx
 RtlVirtualUnwind
 Running '%s'\n
 Rural
-S ?paintEngine@QWidget@@UEBAPEAVQPaintEngine@@XZ
-S*?setInsertPolicy@QComboBox@@QEAAXW4InsertPolicy@1@@Z
-S+Ot
-S,?setRgb@QColor@@QEAAXHHHH@Z
-S9>H
-S>$hkDh$h>[2
 SDL2.dll
 SDL_CreateRGBSurface
 SDL_FreeSurface
@@ -8244,7 +8447,6 @@ STEAMSCREENSHOTS_INTERFACE_VERSION003
 STEAMUGC_INTERFACE_VERSION021
 STEAMUSERSTATS_INTERFACE_VERSION013
 STEAMVIDEO_INTERFACE_V007
-S\v?addSeparator@QMenu@@QEAAPEAVQAction@@XZ
 Sample Pixel Color
 SampleFormat
 SamplesPerPixel
@@ -8709,9 +8911,6 @@ Switch Distance
 SwitchToEngineWindow
 Symbol table:  %d entries %llu bytes\n
 SystemTimeToFileTime
-T ?paintEvent@QAbstractScrollArea@@MEAAXPEAVQPaintEvent@@@Z
-T#?qt_metacast@QSlider@@UEAAPEAXPEBD@Z
-T/?sizeHint@QProgressDialog@@UEBA?AVQSize@@XZ
 T0d/
 TIFFAppendToStrip
 TIFFClientOpen
@@ -8837,6 +9036,7 @@ ToolScriptManager001
 ToolService_001
 ToolSystem2_001
 ToolWindowGrid
+Tools
 ToolsStartup
 ToolsUploadImage.vtex
 ToolsVis Modes
@@ -8872,22 +9072,12 @@ Tuesday
 Two Bone
 Two KV3 format GUIDs with the same human-friendly name ('%s')
 Type
-U ?paintEvent@QAbstractSpinBox@@MEAAXPEAVQPaintEvent@@@Z
-U#?qt_metacast@QSortFilterProxyModel@@UEAAPEAXPEBD@Z
-U,?setRgbF@QColor@@QEAAXNNNN@Z
-U/?sizeHint@QPushButton@@UEBA?AVQSize@@XZ
-U4tT
-UA>N0Wl
 UNKNOWN
 USER32.dll
-UUUU
 UUUUUU
 UV88
 UVLX8888
 UVWQ8888
-U\r?qt_metacall@QAbstractTableModel@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-U\t?hasFormat@QMimeData@@UEBA_NAEBVQString@@@Z
-U\v?addSeparator@QToolBar@@QEAAPEAVQAction@@XZ
 Unable find required entry points in %s\n
 Unable to GetEngineToolByID 'item_editor' tool!\n
 Unable to create new frame.\n
@@ -8980,8 +9170,6 @@ UserInfoChangeService_001
 UuidCreate
 UuidFromStringA
 UuidToStringA
-V ?paintEvent@QCheckBox@@MEAAXPEAVQPaintEvent@@@Z
-V/?sizeHint@QRadioButton@@UEBA?AVQSize@@XZ
 VApplication001
 VAvi001
 VBAllocTracker001
@@ -9153,12 +9341,6 @@ Vis:1
 VisBuilder_001
 VisibilityChanged()
 Visit Developer Help URL
-W 7x
-W ?paintEvent@QComboBox@@MEAAXPEAVQPaintEvent@@@Z
-W!?pos@QWidget@@QEBA?AVQPoint@@XZ
-W.?setWidget@QScrollArea@@QEAAXPEAVQWidget@@@Z
-W/?sizeHint@QScrollArea@@UEBA?AVQSize@@XZ
-W=vmdlkeys0
 WARNING: This item has unresolved errors - are you sure you want to create an item?
 WARNING: Trying to create a CRenderContextPtr without a valid context.\n
 WIN32
@@ -9166,9 +9348,6 @@ WINDOWS
 WINXP
 WORKSHOPCONTENT
 WORKSHOPGAME
-W\f?beep@QApplication@@SAXXZ
-W\v?addSpacerItem@QBoxLayout@@QEAAXPEAVQSpacerItem@@@Z
-WaNd?
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Ward
@@ -9229,41 +9408,26 @@ Writing png: %s\n
 Writing vtex: %s\n
 Wrong JPEG library version: library is %d, caller expects %d
 Wrote symbol stats to file: %s
-X(?setCurrentIndex@QAbstractItemView@@QEAAXAEBVQModelIndex@@@Z
-X)?setFixedHeight@QWidget@@QEAAXH@Z
-X/4B
 X360
 X360_DST16
 X360_DST24
 X360_DST24F
 XClipPathUnits
 XMLPacket
-XPnJ
 XPosition
 XResolution
 XYZ, Luv
 XZP%c %d
-X\v?addSpacing@QBoxLayout@@QEAAXH@Z
 Xenfestation
-Y#?qt_metacast@QSplitter@@UEAAPEAXPEBD@Z
-Y(?setCurrentIndex@QComboBox@@QEAAXH@Z
-Y8a:
-Y>kX>M
 YCbCrCoefficients
 YCbCrPositioning
 YCbCrSubsampling
 YClipPathUnits
 YPosition
 YResolution
-Y\v?manhattanLength@QPoint@@QEBAHXZ
 YawCameraLeft
 YawCameraRight
 YpU_Z
-Z)?setFixedSize@QWidget@@QEAAXAEBVQSize@@@Z
-Z.?setWidgetResizable@QScrollArea@@QEAAX_N@Z
-Z/?sizeHint@QSlider@@UEBA?AVQSize@@XZ
-Z0?staticMetaObject@QGroupBox@@2UQMetaObject@@B
-Z@&LHA'\r:C(
 ZFP compression is not supported.
 ZIPDecode
 ZIPEncode
@@ -9276,10 +9440,6 @@ ZIP_FileHeader
 ZIP_LocalFileHeader
 ZIP_PreloadDirectoryEntry
 ZIP_PreloadHeader
-Z\>z8
-Z\f?parent@QAbstractTableModel@@EEBA?AVQModelIndex@@AEBV2@@Z
-Z\v?addStretch@QBoxLayout@@QEAAXH@Z
-Zjz\v
 Zombies
 ZoomAllCamerasIn
 ZoomAllCamerasOut
@@ -9288,167 +9448,42 @@ ZoomCameraOut
 ZoomForwardBack2D
 ZoomForwardBack3D
 Zpm"U
-[#?qt_metacast@QStackedLayout@@UEAAPEAXPEBD@Z
 [%d] Aborting undo '%s'\n
 [%d] Popping undo '%s'\n
 [%d] Pushing undo '%s'\n
 [%f %f %f %f]
-['?setAttribute@QWidget@@QEAAXW4WidgetAttribute@Qt@@_N@Z
-[)?setFixedSize@QWidget@@QEAAXHH@Z
-[*ncd>0
-[/?sizeHint@QSpacerItem@@UEBA?AVQSize@@XZ
+[%f %f %f]
 [0.000000 0.000000 0.000000 0.000000]
 [1.000000 1.000000 1.000000 0.000000]
 [A:%u:%u:%u]
+[C:%u:%u]
+[G:%u:%u]
+[I:%u:%u]
 [Inactive]
+[L:%u:%u]
 [M:%u:%u:%u]
 [NoWidget]
+[P:%u:%u]
+[T:%u:%u]
 [U:%u:%u:%u]
+[U:%u:%u]
 [UGC] Failed call to UGCRead on cloud file %s (%llu)\n
-[aOni*{
+[a:%u:%u]
+[c:%u:%u]
+[g:%u:%u]
+[i:%u:%u]
 [import_session_file_id = %llu CHANGED: this item targets %llu]
 [import_session_file_id = %llu OK]
 [import_session_file_id = %llu but existing item has multiple targets already]
 [import_session_file_id = %llu but existing item has no targets]
 [import_session_file_id = %llu]
-\$?question@QMessageBox@@SA?AW4StandardButton@1@PEAVQWidget@@AEBVQString@@1V?$QFlags@W4StandardButton@QMessageBox@@@@W421@@Z
-\%?resize@QWidget@@QEAAXAEBVQSize@@@Z
-\)?setFixedWidth@QWidget@@QEAAXH@Z
-\/?sizeHint@QSplitter@@UEBA?AVQSize@@XZ
-\\f?parent@QObject@@QEBAPEAV1@XZ
-\\t?hasNext@QDirIterator@@QEBA_NXZ
-\f+?setMinimumHeight@QWidget@@QEAAXH@Z
-\f,?setPrefix@QDoubleSpinBox@@QEAAXAEBVQString@@@Z
-\f.?setValue@QProgressDialog@@QEAAXH@Z
-\f?blue@QColor@@QEBAHXZ
-\f?blueF@QColor@@QEBANXZ
-\f?bottom@QItemSelectionRange@@QEBAHXZ
-\f?brush@QPalette@@QEBAAEBVQBrush@@W4ColorGroup@1@W4ColorRole@1@@Z
-\f?buddy@QSortFilterProxyModel@@UEBA?AVQModelIndex@@AEBV2@@Z
-\f?button@QDialogButtonBox@@QEBAPEAVQPushButton@@W4StandardButton@1@@Z
-\f?node_create@QMapData@@QEAAPEAUNode@1@QEAPEAU21@HH@Z
-\f?number@QByteArray@@SA?AV1@HH@Z
-\f?number@QString@@SA?AV1@HH@Z
-\f?pos@QIODevice@@UEBA_JXZ
-\f?property@QObject@@QEBA?AVQVariant@@PEBD@Z
-\f?qDebug@@YA?AVQDebug@@XZ
-\f?qFree@@YAXPEAX@Z
-\n*?setHidden@QWidget@@QEAAX_N@Z
-\n.?setValue@QDoubleSpinBox@@QEAAXN@Z
-\n2?supportedDropActions@QSortFilterProxyModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
-\n?actionEvent@QMenu@@MEAAXPEAVQActionEvent@@@Z
-\n?actionEvent@QToolBar@@MEAAXPEAVQActionEvent@@@Z
-\n?actionEvent@QToolButton@@MEAAXPEAVQActionEvent@@@Z
-\n?actionEvent@QWidget@@MEAAXPEAVQActionEvent@@@Z
-\n?actions@QWidget@@QEBA?AV?$QList@PEAVQAction@@@@XZ
-\n?activeModalWidget@QApplication@@SAPEAVQWidget@@XZ
-\n?activePopupWidget@QApplication@@SAPEAVQWidget@@XZ
-\n?activeWindow@QApplication@@SAPEAVQWidget@@XZ
-\n?addAction@QActionGroup@@QEAAPEAVQAction@@PEAV2@@Z
-\n?addAction@QMenu@@QEAAPEAVQAction@@AEBVQString@@@Z
-\n?addAction@QMenu@@QEAAPEAVQAction@@AEBVQString@@PEBVQObject@@PEBDAEBVQKeySequence@@@Z
-\n?addAction@QToolBar@@QEAAPEAVQAction@@AEBVQIcon@@AEBVQString@@PEBVQObject@@PEBD@Z
-\n?addAction@QWidget@@QEAAXPEAVQAction@@@Z
-\n?addButton@QButtonGroup@@QEAAXPEAVQAbstractButton@@@Z
-\n?addButton@QMessageBox@@QEAAPEAVQPushButton@@AEBVQString@@W4ButtonRole@1@@Z
-\n?isDir@QFileInfo@@QEBA_NXZ
-\n?isSequential@QProcess@@UEBA_NXZ
-\n?isValid@QTime@@QEBA_NXZ
-\n?isWidgetType@QObject@@QEBA_NXZ
-\n?itemData@QAbstractItemModel@@UEBA?AV?$QMap@HVQVariant@@@@AEBVQModelIndex@@@Z
-\n?killTimer@QObject@@QEAAXH@Z
-\nCwf\r
-\nIHDRPLTEIDATIENDtRNScHRMgAMAiCCPsBITsRGBtEXtzTXtiTXtbKGDhISTpHYssPLTtIMEoFFseXIf
-\nh?oT
-\nk>oB
-\r&?rowsAboutToBeRemoved@QAbstractItemView@@MEAAXAEBVQModelIndex@@HH@Z
-\r-?setStandardButtons@QDialogButtonBox@@QEAAXV?$QFlags@W4StandardButton@QDialogButtonBox@@@@@Z
-\r2?supportedDropActions@QTableWidget@@MEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
-\r8?viewportEvent@QTreeView@@MEAA_NPEAVQEvent@@@Z
-\r?buttons@QButtonGroup@@QEBA?AV?$QList@PEAVQAbstractButton@@@@XZ
-\r?buttons@QMouseEvent@@QEBA?AV?$QFlags@W4MouseButton@Qt@@@@XZ
-\r?checkStateSet@QAbstractButton@@MEAAXXZ
-\r?checkStateSet@QCheckBox@@MEAAXXZ
-\r?childEvent@QGroupBox@@MEAAXPEAVQChildEvent@@@Z
-\r?childEvent@QLayout@@MEAAXPEAVQChildEvent@@@Z
-\r?childEvent@QSplitter@@MEAAXPEAVQChildEvent@@@Z
-\r?childEvent@QToolBar@@MEAAXPEAVQChildEvent@@@Z
-\r?clear@QAbstractSpinBox@@UEAAXXZ
-\r?clear@QComboBox@@QEAAXXZ
-\r?clear@QListWidget@@QEAAXXZ
-\r?clear@QMenu@@QEAAXXZ
-\r?clear@QStandardItemModel@@QEAAXXZ
-\r?clear@QTextEdit@@QEAAXXZ
-\r?clearFocus@QWidget@@QEAAXXZ
-\r?qWarning@@YAXPEBDZZ
-\r?qt_metacast@QAbstractItemModel@@UEAAPEAXPEBD@Z
-\r?qt_metacast@QAbstractTableModel@@UEAAPEAXPEBD@Z
-\r?qt_metacast@QMimeData@@UEAAPEAXPEBD@Z
-\r?qt_metacast@QObject@@UEAAPEAXPEBD@Z
-\r?qt_metacast@QProcess@@UEAAPEAXPEBD@Z
-\r?qt_metacast@QSignalMapper@@UEAAPEAXPEBD@Z
-\r?qt_metacast@QTimer@@UEAAPEAXPEBD@Z
-\r?qt_qFindChildren_helper@@YAXPEBVQObject@@AEBVQString@@PEBVQRegExp@@AEBUQMetaObject@@PEAV?$QList@PEAX@@@Z
-\r\f\v\v\n\n\t\t\t\t\t
-\r\r?qMemSet@@YAPEAXPEAXH_K@Z
-\r\v?addFile@QIcon@@QEAAXAEBVQString@@AEBVQSize@@W4Mode@1@W4State@1@@Z
-\t!?pixmap@QLabel@@QEBAPEBVQPixmap@@XZ
-\t9sv
-\t?fromTime_t@QDateTime@@SA?AV1@I@Z
-\t?fromUtf8@QString@@SA?AV1@PEBDH@Z
-\t?insert@QListData@@QEAAPEAPEAXH@Z
-\t?insertColumns@QAbstractItemModel@@UEAA_NHHAEBVQModelIndex@@@Z
-\t?insertRows@QAbstractItemModel@@UEAA_NHHAEBVQModelIndex@@@Z
-\t?installEventFilter@QObject@@QEAAXPEAV1@@Z
-\t?instance@QCoreApplication@@SAPEAV1@XZ
-\tN1a
+\t%8d
 \tNAN encountered in element '%s' guid %s attribute '%s'!\n
-\t\r?byteCount@QImage@@QEBAHXZ
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \t\t\t\t{ name = "%s", weight = 1 }
 \t\tactivities = {\n
 \t\tlooping = true,\n
 \t\t{ "%s", %g }
-\tcQr
-\tkE>fvw
-\v2?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
-\v?addItem@QBoxLayout@@UEAAXPEAVQLayoutItem@@@Z
-\v?addItem@QComboBox@@QEAAXAEBVQString@@AEBVQVariant@@@Z
-\v?addItem@QGridLayout@@MEAAXPEAVQLayoutItem@@@Z
-\v?adjustSize@QWidget@@QEAAXXZ
-\v?alpha@QColor@@QEBAHXZ
-\v?alphaF@QColor@@QEBANXZ
-\v?appendRow@QStandardItemModel@@QEAAXAEBV?$QList@PEAVQStandardItem@@@@@Z
-\v?metaObject@QMimeData@@UEBAPEBUQMetaObject@@XZ
-\v?metaObject@QProcess@@UEBAPEBUQMetaObject@@XZ
-\v?metaObject@QSignalMapper@@UEBAPEBUQMetaObject@@XZ
-\v?metaObject@QTimer@@UEBAPEBUQMetaObject@@XZ
-\v?mimeData@QAbstractItemModel@@UEBAPEAVQMimeData@@AEBV?$QList@VQModelIndex@@@@@Z
-\v?mimeTypes@QAbstractItemModel@@UEBA?AVQStringList@@XZ
-\v?month@QDate@@QEBAHXZ
-\v?msec@QTime@@QEBAHXZ
-\v?msecsTo@QTime@@QEBAHAEBV1@@Z
-\v?next@QDirIterator@@QEAA?AVQString@@XZ
-\vA03>A|
-] ?paintEvent@QFrame@@MEAAXPEAVQPaintEvent@@@Z
-]#?qt_metacast@QStandardItemModel@@UEAAPEAXPEBD@Z
-]%?resize@QWidget@@QEAAXHH@Z
-],?setRootIndex@QListView@@UEAAXAEBVQModelIndex@@@Z
-].?setWidth@QPen@@QEAAXH@Z
-]u9g
-^"?qt_metacall@QGridLayout@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-^,?setRootIndex@QTableView@@UEAAXAEBVQModelIndex@@@Z
-^/?sizeHint@QStackedLayout@@UEBA?AVQSize@@XZ
-^8?widget@QLayoutItem@@UEAAPEAVQWidget@@XZ
-^<V7w
-^L7B
-^RfN>
-_ ?paintEvent@QGroupBox@@MEAAXPEAVQPaintEvent@@@Z
-_"?qt_metacall@QGroupBox@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-_$?question@QMessageBox@@SAHPEAVQWidget@@AEBVQString@@1W4StandardButton@1@2@Z
 _%s.tmp
-_,?setRootIndex@QTreeView@@UEAAXAEBVQModelIndex@@@Z
-_3?toHsl@QColor@@QEBA?AV1@XZ
 _RDATA
 _TIFFMergeFieldInfo
 _TIFFSetupFieldInfo
@@ -9466,7 +9501,6 @@ _V_strncmp
 _V_strncpy
 _V_strnicmp_fast
 _V_strnistr_fast
-_\r?changeEvent@QAbstractButton@@MEAAXPEAVQEvent@@@Z
 __UNKNOWN__
 __based(
 __cdecl
@@ -9505,7 +9539,6 @@ _metalnessmask
 _name
 _nextafter
 _normal
-_oD>Kg
 _rimmask
 _root_keyname
 _selfillummask
@@ -9514,10 +9547,7 @@ _specmask
 _test_conversion_counter
 _trans
 _variant_
-`'?setAutoDefault@QPushButton@@QEAAX_N@Z
-`3?toHsv@QColor@@QEBA?AV1@XZ
 `RTTI
-`\r?changeEvent@QAbstractSlider@@MEAAXPEAVQEvent@@@Z
 `anonymous namespace'
 `copy constructor closure'
 `default constructor closure'
@@ -9553,10 +9583,6 @@ _variant_
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
-a"?qt_metacall@QHBoxLayout@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-a%?resizeColumnToContents@QTreeView@@QEAAXH@Z
-a6>r
-a\r?changeEvent@QAbstractSpinBox@@MEAAXPEAVQEvent@@@Z
 abcdefghijklmnopqrstuvwxyz
 ability.beastmaster.boar
 ability.beastmaster.hawk
@@ -9694,6 +9720,7 @@ asset_modifier
 asset_pack
 atan
 atan2
+ati_compress_wrapper.dll
 attach
 attach_joint
 attach_list
@@ -9722,8 +9749,6 @@ automation
 axies
 axis
 axisSystem
-b ?paintEvent@QLabel@@MEAAXPEAVQPaintEvent@@@Z
-b%?resizeColumnsToContents@QTableView@@QEAAXXZ
 bClone
 bCloneCameraToPortrait
 bEnable
@@ -9736,7 +9761,6 @@ bState
 bTakesFocusOnHover
 bUpdate
 bWrapValueIn
-b\r?changeEvent@QColorDialog@@MEAAXPEAVQEvent@@@Z
 back
 back_persona_1
 background
@@ -9848,7 +9872,6 @@ brightness
 broadcastColor(QColor)
 broken pipe
 bspline
-bt3V
 bundle
 bundleSpeed
 bundleWrinkle
@@ -9859,8 +9882,6 @@ busy_anim
 busy_sequence
 button_h_Layout
 buttons
-c ?paintEvent@QLineEdit@@MEAAXPEAVQPaintEvent@@@Z
-c&?screenGeometry@QDesktopWidget@@QEBA?BVQRect@@H@Z
 c:/temp_workshop_submissions_s2/
 c:\buildslave\hlvr_rel_win64\build\src\bitmap\ati_compress_loader.cpp
 c:\buildslave\hlvr_rel_win64\build\src\bitmap\floatbitmap.cpp
@@ -9909,10 +9930,7 @@ c:\buildslave\hlvr_rel_win64\build\src\tools\workshoptoolutils\qimportpreviewedi
 c:\buildslave\hlvr_rel_win64\build\src\tools\workshoptoolutils\qportraiteditorscene.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tools\workshoptoolutils\qportraitviewer.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tools\workshoptoolutils\qworkshopitemidwidget.cpp
-c?FA@s}
-cNDS
 cRow,cCol,pRow,pCol
-c\r?changeEvent@QComboBox@@MEAAXPEAVQEvent@@@Z
 cable
 camera
 cameras
@@ -10085,21 +10103,12 @@ cursorPowerDragEnabled
 cursor_output_dir
 cursor_pack
 curve info
+curve_%s_to_curve_%s
 curveinfo
 curvetypes
 custom
 custom_colors
 custom_wearable.%s.%s
-d ?paintEvent@QListView@@MEAAXPEAVQPaintEvent@@@Z
-d$?raise@QWidget@@QEAAXXZ
-d%?resizeEvent@QAbstractItemView@@MEAAXPEAVQResizeEvent@@@Z
-d&?screenGeometry@QDesktopWidget@@QEBA?BVQRect@@PEBVQWidget@@@Z
-d/?sizeHint@QToolButton@@UEBA?AVQSize@@XZ
-d8-t
-d8L2
-d?000000`?
-dRL>
-d\r?changeEvent@QDialogButtonBox@@MEAAXPEAVQEvent@@@Z
 damage
 darkColors
 data
@@ -10158,6 +10167,7 @@ deltaStateWeightsLagged
 deltaStates
 delta_animation
 depthOfFieldSamples
+desc
 description
 destination address required
 detailmask
@@ -10214,13 +10224,7 @@ durationTime
 dxt5
 dynamic_interaction
 dynamic_recipe
-e)?setFlat@QGroupBox@@QEAAX_N@Z
-e*?setItem@QTableWidget@@QEAAXHHPEAVQTableWidgetItem@@@Z
 e+000
-eCONTENTROOT
-eF>t
-eLK(w
-e\f?path@QDir@@QEBA?AVQString@@XZ
 easein
 easeinout
 easeout
@@ -10316,20 +10320,10 @@ extra_workshop_tag
 eyeOffset
 eyelid
 eyes
-f%?resizeEvent@QAbstractSpinBox@@MEAAXPEAVQResizeEvent@@@Z
-f&?screenNumber@QDesktopWidget@@QEBAHAEBVQPoint@@@Z
-f'?setAutoFillBackground@QWidget@@QEAAX_N@Z
-f)?setFlat@QPushButton@@QEAAX_N@Z
-f*?setItemData@QAbstractProxyModel@@UEAA_NAEBVQModelIndex@@AEBV?$QMap@HVQVariant@@@@@Z
-f/?sizeHint@QWidget@@UEBA?AVQSize@@XZ
-fD>b
 fNewDefaultValueIn
 fValueChanged(float)
 fValueIn
 fValueSetChanged(QVector<float>)
-fWi?
-f\r?qt_metacall@QMimeData@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-f\t?hasText@QMimeData@@QEBA_NXZ
 fabs
 faceMergeAngle
 faceSets
@@ -10399,6 +10393,7 @@ floating point predictor
 floor
 fltx4
 fmod
+fmodf
 focalDistance
 fog_lighting
 fogcontributionstrength
@@ -10428,10 +10423,6 @@ fromElement
 fromIndex
 function not supported
 functionName
-g ?paintEvent@QMenu@@MEAAXPEAVQPaintEvent@@@Z
-g\f?path@QFileInfo@@QEBA?AVQString@@XZ
-g\t?hasUrls@QMimeData@@QEBA_NXZ
-g\v?match@QAbstractItemModel@@UEBA?AV?$QList@VQModelIndex@@@@AEBVQModelIndex@@HAEBVQVariant@@HV?$QFlags@W4MatchFlag@Qt@@@@@Z
 g_Mathlib_GammaToLinearByteTable
 g_Tier1_CRC32Table
 g_Tier1_CRC64Table
@@ -10476,15 +10467,6 @@ green
 gridSize
 gridspacing
 groupColor
-h#?qt_metacast@QTableView@@UEAAPEAXPEBD@Z
-h'?setAutoRaise@QToolButton@@QEAAX_N@Z
-h*?setItemData@QStandardItemModel@@UEAA_NAEBVQModelIndex@@AEBV?$QMap@HVQVariant@@@@@Z
-h0'D
-h3?toImage@QPixmap@@QEBA?AVQImage@@XZ
-h8?widgetAt@QApplication@@SAPEAVQWidget@@AEBVQPoint@@@Z
-h>1my
-h\f?path@QUrl@@QEBA?AVQString@@XZ
-h\r?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 hammer
 hammer_gizmo_2dscale
 hammer_gizmo_axis_length
@@ -10539,17 +10521,11 @@ hullivr_faceisland_merge_tan
 hullivr_version
 hurt_me
 hurt_them
-i ?paintEvent@QPlainTextEdit@@MEAAXPEAVQPaintEvent@@@Z
-i#?qt_metacast@QTableWidget@@UEAAPEAXPEBD@Z
-i%?resizeEvent@QComboBox@@MEAAXPEAVQResizeEvent@@@Z
 iNewValueIn
 iSetSizeIn
 iValueChanged(int)
 iValueIn
 iValueIn,userEdit
-i\r?changeEvent@QFrame@@MEAAXPEAVQEvent@@@Z
-i\v?addToolBar@QMainWindow@@QEAAPEAVQToolBar@@AEBVQString@@@Z
-i]Wb
 identifier removed
 idle
 ikdata
@@ -10662,10 +10638,7 @@ items
 items/%s/%s
 items/%s/%s/%s
 itemtest_manifest
-j"?qt_metacall@QIntValidator@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 j'Vlk
-j\f?pattern@QRegExp@@QEBA?AVQString@@XZ
-j\t?headerDataChanged@QAbstractItemModel@@IEAAXW4Orientation@Qt@@HH@Z
 jitteriterations
 jitterscale
 jitterscale_vector
@@ -10681,11 +10654,6 @@ js_object
 js_raw_args
 js_value
 jugg_ward
-k ?paintEvent@QPushButton@@MEAAXPEAVQPaintEvent@@@Z
-k,?setRowCount@QTableWidget@@QEAAXH@Z
-k7?update@QWidget@@QEAAXXZ
-k=yI
-k\r?changeEvent@QGroupBox@@MEAAXPEAVQEvent@@@Z
 keyRelease RETURN/ENTER:
 key_expr
 keysInTime_0
@@ -10711,13 +10679,6 @@ keyword
 kochanek
 kochanek_early
 kochanek_late
-l ?paintEvent@QRadioButton@@MEAAXPEAVQPaintEvent@@@Z
-l%?resizeEvent@QDialog@@MEAAXPEAVQResizeEvent@@@Z
-l.?setWindowFlags@QWidget@@QEAAXV?$QFlags@W4WindowType@Qt@@@@@Z
-l/?sizeHintForColumn@QAbstractItemView@@UEBAHH@Z
-l0?staticMetaObject@QLayout@@2UQMetaObject@@B
-lWi]
-l\r?changeEvent@QLabel@@MEAAXPEAVQEvent@@@Z
 labelPos
 labelText
 ladder
@@ -10725,7 +10686,6 @@ lastModifiedDate
 lastModifiedTime
 last_sniff
 layers
-lcQe
 ldexp
 league
 left
@@ -10777,6 +10737,7 @@ lod0
 lod1
 lod_list
 log10
+logf
 lookupType
 loop
 loop_and_rare
@@ -10787,15 +10748,6 @@ looping
 loopstart (%d) out of range for animation %s (%d)
 lower_hemisphere_is_black
 lycan_ult
-m$?read@QImageReader@@QEAA?AVQImage@@XZ
-m,?setRowHeight@QTableView@@QEAAXHH@Z
-m/?sizeHintForColumn@QTableView@@MEBAHH@Z
-m?H7
-mG4>
-mXr4
-m\nXo
-m\r?changeEvent@QLineEdit@@MEAAXPEAVQEvent@@@Z
-m\r?qt_metacall@QProcess@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 m_Activities
 m_Anchor
 m_AngularLimits
@@ -11846,10 +11798,6 @@ music
 music_pack
 must be either LogLUV or LogL
 mute
-n$Kx
-n/?sizeHintForColumn@QTreeView@@MEBAHH@Z
-n03>Pu
-n0?staticMetaObject@QLineEdit@@2UQMetaObject@@B
 nAlpha
 nCentralDirectoryEntries_ThisDisk
 nCentralDirectoryEntries_Total
@@ -11864,8 +11812,6 @@ nRow
 nSelection
 nTries < 10000000
 nValue
-n\f"pA3Q
-n]?iJ
 name
 nan(ind)
 nan(snan)
@@ -11993,14 +11939,7 @@ numberOfTheDiskWithStartOfCentralDirectory
 numberOfThisDisk
 numchannels
 numsegments
-o.?setWindowIcon@QWidget@@QEAAXAEBVQIcon@@@Z
-o9sp
-o?GS
-oI>O7
 oOffset
-o\r?changeEvent@QMenu@@MEAAXPEAVQEvent@@@Z
-o\v?addWidget@QBoxLayout@@QEAAXPEAVQWidget@@HV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
-obwQ4
 offhand_weapon
 offhand_weapon2
 offhand_weapon2_persona_1
@@ -12045,18 +11984,8 @@ overrideRot
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
-owM&
 owner dead
 ownerlog
-p ?paintEvent@QSlider@@MEAAXPEAVQPaintEvent@@@Z
-p z5
-p"?qt_metacall@QLabel@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-p#?qt_metacast@QTextEdit@@UEAAPEAXPEBD@Z
-p%?resizeEvent@QGroupBox@@MEAAXPEAVQResizeEvent@@@Z
-p(?setCurrentWidget@QStackedLayout@@QEAAXPEAVQWidget@@@Z
-p)?setFocus@QWidget@@QEAAXW4FocusReason@Qt@@@Z
-p/?sizeHintForRow@QAbstractItemView@@UEBAHH@Z
-p?ati_compress_wrapper.dll
 pEvent
 pLightRigButton
 pPrevFocusWidget,pCurrentFocusWidget
@@ -12208,28 +12137,13 @@ pushButton_3
 pushaway
 pvTarget
 pz_clip
-q"?qt_metacall@QLayout@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-q$?read@QStandardItem@@UEAAXAEAVQDataStream@@@Z
-q%?resizeEvent@QListView@@MEAAXPEAVQResizeEvent@@@Z
-q&?scroll@QPixmap@@QEAAXHHAEBVQRect@@PEAVQRegion@@@Z
-q)?setFocus@QWidget@@QEAAXXZ
-q/?sizeHintForRow@QTableView@@MEBAHH@Z
-q0?staticMetaObject@QMainWindow@@2UQMetaObject@@B
 qColor
-qS>g?h3
-q\r?changeEvent@QMessageBox@@MEAAXPEAVQEvent@@@Z
 qangle
 qangle log
 qangle_array
 quaternion
 quaternion log
 quaternion_array
-r$?read@QTableWidgetItem@@UEAAXAEAVQDataStream@@@Z
-r*?setItemExpanded@QTreeWidget@@QEAAXPEBVQTreeWidgetItem@@_N@Z
-r\r?changeEvent@QPlainTextEdit@@MEAAXPEAVQEvent@@@Z
-r\r?qt_metacall@QSignalMapper@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-r\tVr.>T
-r\v?addWidget@QGridLayout@@QEAAXPEAVQWidget@@HHHHV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
 r_freezeparticles
 r_particle_timescale
 r_ssao_bias
@@ -12340,16 +12254,7 @@ run_anim_bundle
 run_anim_turnpose_center
 run_anim_turnpose_left
 run_anim_turnpose_right
-s!?prefix@QDoubleSpinBox@@QEBA?AVQString@@XZ
-s"?qt_metacall@QLineEdit@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-s$?read@QTreeWidgetItem@@UEAAXAEAVQDataStream@@@Z
-s,?setRowMinimumHeight@QGridLayout@@QEAAXHH@Z
 s1_legacy_name
-sAmTb
-sHF'
-s\r?changeEvent@QProgressDialog@@MEAAXPEAVQEvent@@@Z
-s\t?homePath@QDir@@SA?AVQString@@XZ
-s\v?addWidget@QGridLayout@@QEAAXPEAVQWidget@@HHV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
 s_EntComponentInfo
 s_activity_t
 s_autolayer_t
@@ -12357,7 +12262,6 @@ s_hColoredVertexLayout
 s_iklock_t
 s_sequence_flags_t
 s_sequence_t
-s`"DH
 saturation
 scale
 scaleColor
@@ -12507,10 +12411,12 @@ sfm_v
 sfm_v1
 sfm_v10
 sfm_v2
+sfm_v3
 sfm_v4
 sfm_v5
 sfm_v6
 sfm_v7
+sfm_v8
 sfm_v9
 shader
 shadow_color_day
@@ -12712,11 +12618,6 @@ suppressed
 surface_prop
 syncEngineFramerate
 synched
-t0?staticMetaObject@QMenu@@2UQMetaObject@@B
-t8?width@QFontMetrics@@QEBAHAEBVQString@@H@Z
-t\f?bits@QImage@@QEAAPEAEXZ
-t\n?about@QMessageBox@@SAXPEAVQWidget@@AEBVQString@@1@Z
-t\v?addWidget@QLayout@@QEAAXPEAVQWidget@@@Z
 tabStyle
 tag_list
 tag_list_dynamic
@@ -12948,16 +12849,8 @@ turn
 turn_rate
 tusk_sigil
 twistJoints
-u ?paintEvent@QTableView@@MEAAXPEAVQPaintEvent@@@Z
-u"?qt_metacall@QListWidget@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-u%?resizeEvent@QMessageBox@@MEAAXPEAVQResizeEvent@@@Z
-u(?setCursor@QWidget@@QEAAXAEBVQCursor@@@Z
-u)?setFocusPolicy@QWidget@@QEAAXW4FocusPolicy@Qt@@@Z
-u+?setOpacity@QPainter@@QEAAXN@Z
-u/?sizePolicy@QWidget@@QEBA?AVQSizePolicy@@XZ
+type
 u64( %lld = 0x%llX )
-u\r?changeEvent@QSplitter@@MEAAXPEAVQEvent@@@Z
-u\v?addWidget@QSplitter@@QEAAXPEAVQWidget@@@Z
 uigroup
 uint32
 uint64
@@ -13005,19 +12898,9 @@ userResizable
 usesLaggedValues
 utlstringtoken
 uuid
-uzKs@>
-v"?qt_metacall@QMainWindow@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-v#?qt_metacast@QToolBar@@UEAAPEAXPEBD@Z
-v$?reason@QFocusEvent@@QEAA?AW4FocusReason@Qt@@XZ
-v%?resizeEvent@QPlainTextEdit@@MEAAXPEAVQResizeEvent@@@Z
-v'?setBackground@QPainter@@QEAAXAEBVQBrush@@@Z
-v,?setRowStretch@QGridLayout@@QEAAXHH@Z
-v.?setWindowModality@QWidget@@QEAAXW4WindowModality@Qt@@@Z
-v2!L.2
 vColorSetIn
 vColorSetOut
 vMulSetOut
-v\v?addWidget@QStackedLayout@@QEAAHPEAVQWidget@@@Z
 value
 value too large
 valueAdd
@@ -13112,6 +12995,7 @@ vmatrix log
 vmdl
 vmdl_name
 vmdl_name_or_empty
+vmdlkeys0
 vmdlkeys1
 vmdlkeys2
 vmdlkeys3
@@ -13170,11 +13054,6 @@ vtex
 vvtx
 vwnod
 vwrld
-w ?paintEvent@QTextEdit@@MEAAXPEAVQPaintEvent@@@Z
-w%?resizeEvent@QProgressDialog@@MEAAXPEAVQResizeEvent@@@Z
-w3?toPlainText@QTextDocument@@QEBA?AVQString@@XZ
-w7?updateEditorData@QAbstractItemView@@MEAAXXZ
-w8#_p
 ward
 water
 wd_ward
@@ -13184,6 +13063,7 @@ weapon2_persona_1
 weapon_persona_1
 wearable
 weather
+weight
 weight$0
 weightlist_
 weights
@@ -13203,7 +13083,6 @@ width
 widthTarget
 window
 with
-wn>Jj
 wolves
 workshop
 workshop_import_dialog
@@ -13226,50 +13105,13 @@ wrinkleIndices
 wrinkleScales
 writeAtlas
 wrong protocol type
-x ?paintEvent@QToolBar@@MEAAXPEAVQPaintEvent@@@Z
-x#?qt_metacast@QToolButton@@UEAAPEAXPEBD@Z
-x.?setWindowOpacity@QWidget@@QEAAXN@Z
-x7?updateEditorGeometries@QAbstractItemView@@MEAAXXZ
-xT?V
-x\r?changeEvent@QTextEdit@@MEAAXPEAVQEvent@@@Z
 xcoord
-xddd
-y ?paintEvent@QToolButton@@MEAAXPEAVQPaintEvent@@@Z
-y"?qt_metacall@QMenu@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-y#?qt_metacast@QTreeView@@UEAAPEAXPEBD@Z
-y%?resizeEvent@QScrollArea@@MEAAXPEAVQResizeEvent@@@Z
-y/?sliderChange@QAbstractSlider@@MEAAXW4SliderChange@1@@Z
-y3?toPlainText@QTextEdit@@QEBA?AVQString@@XZ
-y\r?changeEvent@QToolBar@@MEAAXPEAVQEvent@@@Z
-y\v?addWidget@QToolBar@@QEAAPEAVQAction@@PEAVQWidget@@@Z
 yaw_end
 yaw_start
 ycoord
-z ?paintEvent@QTreeView@@MEAAXPEAVQPaintEvent@@@Z
-z#?qt_metacast@QTreeWidget@@UEAAPEAXPEBD@Z
-z%?resizeEvent@QSplitter@@MEAAXPEAVQResizeEvent@@@Z
-z+?setOpenExternalLinks@QLabel@@QEAAX_N@Z
-z:KCAuthPhysBody
-zDCVmodelInfo
 zero
 zfar
 znear
-{ ?paintEvent@QWidget@@MEAAXPEAVQPaintEvent@@@Z
-{"?qt_metacall@QMessageBox@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-{-?setText@QAbstractButton@@QEAAXAEBVQString@@@Z
-{8?width@QImage@@QEBAHXZ
-{YIN?
-{\r?changeEvent@QToolButton@@MEAAXPEAVQEvent@@@Z
 {}[]()=&, \t\n'"*;
 {}[]=, \t\n'":|;
-|2?tabletEvent@QWidget@@MEAAXPEAVQTabletEvent@@@Z
-|\r?changeEvent@QWidget@@MEAAXPEAVQEvent@@@Z
-|\r?qt_metacall@QTimer@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-}(?setCursorPosition@QLineEdit@@QEAAXH@Z
-}4?tr@QLabel@@SA?AVQString@@PEBD0@Z
-~#?qt_metacast@QVBoxLayout@@UEAAPEAXPEBD@Z
-~-?setText@QAction@@QEAAXAEBVQString@@@Z
-~.?setWindowTitle@QMessageBox@@QEAAXAEBVQString@@@Z
 ~CModelInstance destructor: leaking softbody because physics world disappeared\n
-~\n?accept@QDialog@@UEAAXXZ
-~\t?index@QAbstractTableModel@@UEBA?AVQModelIndex@@HHAEBV2@@Z

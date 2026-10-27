@@ -81,7 +81,6 @@
 /cursor.res
 0 => Cross-shaped deadzone (default), 1 => Square deadzone.
 00000409
-2\vpp
 <NULL>
 <deferred>
 <no failure reason set>
@@ -257,7 +256,6 @@ FontManager_001
 GAMECONSOLE
 GCTL
 GREATER
-GRegisterConfigValue: Unknown error constructing config value "%s"!\n
 GSFailure
 GameResourceServiceClientV001
 GameResourceServiceServerV001
@@ -597,10 +595,8 @@ RIGHTARROW
 RIGHTPAREN
 RIGHT_CURLY_BRACKET
 RIGHT_POINTING_DOUBLE_ANGLE_QUOTATION_MARK
-RSDS
 RSHIFT
 RWIN
-R\vpp
 R_AXIS
 R_AXIS_NEG
 R_AXIS_POS
@@ -613,6 +609,7 @@ RecursiveLoadFromBuffer:  got empty keyname
 RecursiveLoadFromBuffer:  got } in key
 RecursiveLoadFromBuffer:  recursion overflow
 RegisterClassExA
+RegisterConfigValue: Unknown error constructing config value "%s"!\n
 RegisterStringToken
 RegisterWindowMessageA
 Release
@@ -922,7 +919,6 @@ inactive
 initializing SDL joystick %d %s\n
 inputsystem
 inputsystem.dll
-jTw@
 joy_axisbutton_threshold
 joy_deadzone_mode
 joy_wingmanwarrior_centerhack

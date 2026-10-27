@@ -1,10 +1,13 @@
                 AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZUPDATE_STRING_TOKEN_DATABASE
 %02X
+%f %f %f
 %i %i %i %i
 %lld
 %llu
 %s (Color)
 %s (Material)
+%s#%d
+%s: %s\n
 %s: string format requested %d chars\n
 %s_color
 %s_matgrp
@@ -222,11 +225,7 @@
 00000000-0000-0000-0000-000000000000
 1 1 1
 1DBlend
-2\vpp
 2_BONE_IK
-3\fU348
-3\r%3t
-5tHN\v
 <!-- schema 
 <no failure reason set>
 <unknown>
@@ -257,13 +256,11 @@
 ?StartsWith@CBufferString@@QEAA_NPEBD@Z
 ?ToLowerFast@CBufferString@@QEAAXH@Z
 ?TruncateAt@CBufferString@@QEAAPEBDPEBD_N@Z
-?Truncated data
 ?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?UnlockWrite@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
-?blendweights
 AE_ACTION_SET_TURN_RATE_SCALE
 AE_BLIND_ZOMBIE_SNIFF
 AE_CL_ADD_PARTICLE_EFFECT_CP
@@ -308,7 +305,6 @@ AllocateAndLoad failed for '%s' (%s)\n
 AllocateAndLoad failed for '%s'\n
 AllocateResource: Error creating data for %s!\n
 AllocateResource: Error loading async data for %s
-Am_bUseShadowFastPath
 Anim
 AnimAddLayer
 AnimAlign
@@ -412,6 +408,7 @@ CAnimCycle
 CAnimMotorList
 CAnimMovementManager
 CAttachment
+CAuthPhysBody
 CAuthPhysJoint
 CBaseConstraint
 CBaseIntrospectedToKV3TypeManager::AllocateResourceFromAsyncResult
@@ -514,6 +511,7 @@ CUtlRBTree<struct CUtlMap<class CRenderMesh const *,class CMeshRayTrace *,unsign
 CUtlRBTree<struct CUtlMap<class ISceneWorld *,class CPerSceneWorldDecalInfo *,unsigned short,bool (__cdecl*)(class ISceneWorld * const &,class ISceneWorld * const &)>::Node_t,unsigned short,class CUtlMap<class ISceneWorld *,class CPerSceneWorldDecalInfo *,unsigned short,bool (__cdecl*)(class ISceneWorld * const &,class ISceneWorld * const &)>::CKeyLess,class CUtlMemory<struct UtlRBTreeNode_t<struct CUtlMap<class ISceneWorld *,class CPerSceneWorldDecalInfo *,unsigned short,bool (__cdecl*)(class ISceneWorld * const &,class ISceneWorld * const &)>::Node_t,unsigned short>,unsigned short> >::NewNode
 CUtlRBTree<void *,int,bool (__cdecl*)(void * const &,void * const &),class CUtlMemory<struct UtlRBTreeNode_t<void *,int>,int> >::NewNode
 CUtlString
+CUtlString::FormatV
 CUtlStringToken
 CUtlSymbol
 CUtlSymbolLarge
@@ -775,7 +773,6 @@ FlattenedSerializersVersion001
 FlexOpCode_t
 FontManager_001
 GCTL
-GCUtlString::FormatV
 GSFailure
 GameResourceServiceClientV001
 GameResourceServiceServerV001
@@ -857,7 +854,6 @@ Localize_001
 LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
 LoggingSystem_RegisterLoggingChannel
-LrwcE
 MATCHFRAMEWORK_001
 MClassHasCustomAlignedNewDelete
 MDefaultString
@@ -899,7 +895,6 @@ MapListService_001
 MaterialGroup_t
 MaterialUtils_001
 MathLib_Init
-MbP?
 Mesh needs recompiling: '%s' (invalid version: %d)\nBrowse to the corresponding model in asset browser, right click and select Full Recompile.
 MeshDrawPrimitiveFlags_t
 MeshSystem
@@ -1041,7 +1036,6 @@ Plat_SetDenormalsAreZero
 Plat_ShouldCollectMiniDumpsForFatalErrors
 Plat_UUIDFromString
 Plat_UUIDToString
-Po5H
 PostProcessingSystem_001
 PreviewAttachmentModel
 PreviewBoneAttachedModel
@@ -1061,8 +1055,6 @@ RESOURCE_TYPE_MODEL
 RESOURCE_TYPE_MORPHSET_INTERNAL
 RESOURCE_TYPE_RENDERMESH_INTERNAL
 ROTATION
-RSDS
-R\vpp
 RadianEuler
 RandomFloat
 RandomInt
@@ -1095,7 +1087,6 @@ RnSoftbodyParticle_t
 RnSoftbodySpring_t
 RnSphereDesc_t
 RtlUnwindEx
-S+Ot
 SSE and SSE2 are required.
 SceneSystem_002
 SceneUtils_001
@@ -1150,6 +1141,7 @@ ToolService_001
 Trailing Data
 Tried to load a polymorphic pointer with no '%s' key
 Tried to load resource reference '%s' from a value without a resource reference flag.
+Truncated data
 Trying to override the same draw call with two different materials!\nOnly the last override will be set!\n
 Two Bone
 Two KV3 format GUIDs with the same human-friendly name ('%s')
@@ -1283,7 +1275,6 @@ WeightList
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
-\nCwf\r
 _V_strncat
 _V_strncmp
 _V_strncpy
@@ -1328,6 +1319,7 @@ binary_lz4
 blendamount
 blendindices
 blendweight
+blendweights
 blockLOS
 body_type
 bodygroup_choice
@@ -1345,7 +1337,6 @@ break_uniform_burst
 breakable_count
 breakable_model
 breakable_skin
-bt3V
 burst
 burstRandomize
 burst_randomize
@@ -1461,7 +1452,6 @@ interactive
 invert_orientation
 is_debris
 last_sniff
-lcQe
 length
 lightcookie
 lightsourceshape
@@ -1474,7 +1464,6 @@ loop_in_action
 looping
 lowprecisionuv
 lowprecisionuv1
-mXr4
 m_Args
 m_AttachmentName
 m_AttachmentType
@@ -1627,6 +1616,7 @@ m_bTrailBias
 m_bTranslationOnly
 m_bUseCompressedNormalTangent
 m_bUseHighestEndCP
+m_bUseShadowFastPath
 m_bUserSpecifiedColor
 m_bUserSpecifiedMaterialGroup
 m_bUsesIndexedBakedLighting
@@ -2080,7 +2070,6 @@ morph_texture
 motiondisabled
 multiplayer_break
 nTries < 10000000
-n\f"pA3Qp
 name
 nav_attribute_avoid
 nav_data
@@ -2207,7 +2196,5 @@ vstdlib.dll
 width
 yaw_end
 yaw_start
-z:KCAuthPhysBody
-{YIN?
 {}[]()=&, \t\n'"*;
 {}[]=, \t\n'":|;

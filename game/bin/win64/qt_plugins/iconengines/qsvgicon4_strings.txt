@@ -1,9 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- /?size@QPixmap@@QEBA?AVQSize@@XZ
- ?palette@QApplication@@SA?AVQPalette@@XZ
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -14,10 +10,8 @@
  new
  throw(
  volatile
-#?qt_metacast@QIconEnginePluginV2@@UEAAPEAXPEBD@Z
 $qt_svgicon_
 ,<ellipsis>
--64OS
 .?AUQFactoryInterface@@
 .?AUQIconEngineFactoryInterfaceV2@@
 .?AVQIconEngine@@
@@ -39,8 +33,6 @@ $qt_svgicon_
 1#INF
 1#QNAN
 1#SNAN
-1?style@QApplication@@SAPEAVQStyle@@XZ
-8?virtual_hook@QIconEngineV2@@UEAAXHPEAX@Z
 <ellipsis>
 <unknown>
 ??0QChar@@QEAA@UQLatin1Char@@@Z
@@ -118,6 +110,16 @@ $qt_svgicon_
 ?load@QSvgRenderer@@QEAA_NAEBVQByteArray@@@Z
 ?load@QSvgRenderer@@QEAA_NAEBVQString@@@Z
 ?metaObject@QIconEnginePluginV2@@UEBAPEBUQMetaObject@@XZ
+?nextNode@QHashData@@SAPEAUNode@1@PEAU21@@Z
+?number@QString@@SA?AV1@HH@Z
+?open@QFile@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
+?palette@QApplication@@SA?AVQPalette@@XZ
+?previousNode@QHashData@@SAPEAUNode@1@PEAU21@@Z
+?qCompress@@YA?AVQByteArray@@PEBEHH@Z
+?qFree@@YAXPEAX@Z
+?qUncompress@@YA?AVQByteArray@@PEBEH@Z
+?qt_metacall@QIconEnginePluginV2@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacast@QIconEnginePluginV2@@UEAAPEAXPEBD@Z
 ?readAll@QIODevice@@QEAA?AVQByteArray@@XZ
 ?realloc@QListData@@QEAAXH@Z
 ?rehash@QHashData@@QEAAXH@Z
@@ -130,14 +132,16 @@ $qt_svgicon_
 ?shared_null@QHashData@@2U1@A
 ?shared_null@QListData@@2UData@1@A
 ?shared_null@QString@@0UData@1@A
+?size@QPixmap@@QEBA?AVQSize@@XZ
 ?status@QDataStream@@QEBA?AW4Status@1@XZ
+?style@QApplication@@SAPEAVQStyle@@XZ
 ?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
+?virtual_hook@QIconEngineV2@@UEAAXHPEAX@Z
 ?willGrow@QHashData@@QEAA_NXZ
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 April
 August
 C:\Valve\ThirdPartyCode\lgpl\qt\qt_valve_win64\plugins\iconengines\qsvgicon4.pdb
-C\f?open@QFile@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
 CorExitProcess
 December
 DecodePointer
@@ -186,7 +190,6 @@ GetUserDefaultLCID
 GetUserObjectInformationW
 GetVersion
 HH:mm:ss
-HMXB
 HeapAlloc
 HeapCreate
 HeapDestroy
@@ -216,7 +219,6 @@ March
 MessageBoxW
 Monday
 MultiByteToWideChar
-NKeb
 NULL
 Norwegian-Nynorsk
 November
@@ -226,14 +228,12 @@ QtGui4.dll
 QtSvg4.dll
 Qt_GetCustomAllocators
 QueryPerformanceCounter
-RSDSt
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S;uD
 Saturday
 September
 SetConsoleCtrlHandler
@@ -253,12 +253,6 @@ Wednesday
 WideCharToMultiByte
 WriteFile
 [thunk]:
-\f?nextNode@QHashData@@SAPEAUNode@1@PEAU21@@Z
-\f?number@QString@@SA?AV1@HH@Z
-\f?previousNode@QHashData@@SAPEAUNode@1@PEAU21@@Z
-\f?qCompress@@YA?AVQByteArray@@PEBEHH@Z
-\f?qFree@@YAXPEAX@Z
-\r?qUncompress@@YA?AVQByteArray@@PEBEH@Z
 __based(
 __cdecl
 __clrcall
@@ -347,7 +341,6 @@ cointerface
 const
 const 
 czech
-d"?qt_metacall@QIconEnginePluginV2@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 dddd, MMMM dd, yyyy
 double
 dutch-belgian
@@ -384,7 +377,6 @@ hong-kong
 int 
 irish-english
 italian-swiss
-kU'9
 long
 long 
 new-zealand
@@ -450,7 +442,5 @@ void
 volatile
 volatile 
 wchar_t
-z?aUY
-zc%C1
 {flat}
 {for 

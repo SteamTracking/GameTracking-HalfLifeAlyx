@@ -181,7 +181,6 @@ FlattenedSerializersVersion001
 FontManager_001
 GCTL
 GDI32.dll
-GRegisterConfigValue: Unknown error constructing config value "%s"!\n
 GSFailure
 GameResourceServiceClientV001
 GameResourceServiceServerV001
@@ -273,6 +272,7 @@ R32F
 R32_UINT
 R8G8B8A8_ETC2_EAC
 R8G8B8_ETC2
+R8_UINT
 REGDB_E_CLASSNOTREG: file type not recognised
 RG11_EAC
 RG1616
@@ -298,7 +298,7 @@ RGBA8888
 RGBA8888_LINEAR
 RGBX555
 RGBX8888
-RSDSF*\t*Y
+RegisterConfigValue: Unknown error constructing config value "%s"!\n
 Release
 ReleaseDC
 ReleaseSRWLockExclusive

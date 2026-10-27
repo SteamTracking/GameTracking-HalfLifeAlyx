@@ -6,8 +6,6 @@
     Component %d: dc=%d ac=%d
     with %d x %d thumbnail image
   Ss=%d, Se=%d, Ah=%d, Al=%d
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  * Requested DmAttribute of value of type "%s" From DmAttribute "%s" which is type "%s"\n
  + ConvertToPNG
  + DecodeHemiOctahedronNormal
@@ -18,7 +16,6 @@
  -testmode
  Base Class Array'
  Base Class Descriptor at (
- C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
  PathId :: "
@@ -29,13 +26,7 @@
  delete
  delete[]
  new
-!&?SetGlobalTimeMode@FbxTime@fbxsdk@@SAXW4EMode@12@N@Z
 != (or missing)
-!?MayaYUp@FbxAxisSystem@fbxsdk@@2V12@B
-!?ModifyFlag@FbxProperty@fbxsdk@@QEAAXW4EFlags@FbxPropertyFlags@2@_N@Z
-!?MultT@FbxAMatrix@fbxsdk@@QEBA?AVFbxVector4@2@AEBV32@@Z
-!?Normalize@FbxVector4@fbxsdk@@QEAAXXZ
-!AxU
 "%s" "%.10f"\n
 "%s" "[ %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f ]"\n
 "%s" "[ %f %f %f %f ]"\n
@@ -44,31 +35,22 @@
 "%s" "{ %d %d %d }"\n
 "ActBusy.txt"\n
 "Proxies"\n
-"e?<<<<<<l?
 "id" "elementid" 
-#?RemovePose@FbxScene@fbxsdk@@QEAA_NPEAVFbxPose@2@@Z
-#bML"
 #base
 #base is NULL 
 #include
 #include is NULL 
-$3br
-$?Set@FbxMatrix@fbxsdk@@QEAAXHHN@Z
-$?Set@FbxProperty@fbxsdk@@IEAA_NPEBXAEBW4EFbxType@2@_N@Z
-$Ib?s
-$\f?Add@FbxLayerElementArray@fbxsdk@@QEAAHPEBXW4EFbxType@2@@Z
 $prefix_attribute$
 $prefix_element$
-%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %-40s\t%6d\t%9d\t\t%5.2f
 %.04f
 %.10f
 %05d,     0x%p,     %5d,      '%s'\n
 %08x
-%?SetAt@FbxLayerElementArray@fbxsdk@@QEAAXHPEBXW4EFbxType@2@@Z
-%?SetAxisSystem@FbxGlobalSettings@fbxsdk@@QEAAXAEBVFbxAxisSystem@2@@Z
-%?SetFileName@FbxFileTexture@fbxsdk@@QEAA_NPEBD@Z
+%d %d %d
 %d %d %d %d
+%d,%d
+%d,%d,%d
 %d,%d,%d,%d
 %d.Add( %s, %d, %.2f )
 %d.Add( %s, %d, %.2f )\n
@@ -97,8 +79,11 @@ $prefix_element$
 %d.Worldspace( %s, %d, %.2f )\n
 %d_%lld_%x.dmx
 %d_%lld_%x_in.dmx
+%f %f
+%f %f %f
 %f %f %f %f
 %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f
+%f,%f
 %f,%f,%f,%f
 %i %i %i %i
 %i.txt
@@ -106,40 +91,33 @@ $prefix_element$
 %lld
 %llu
 %llx
+%s %.2f
+%s %.3f
+%s (%.2f)
 %s (%.2f, %.2f, %.2f)
 %s (%s -> %s)
 %s (%s) = remove( pos %i, count %i )
+%s - %s
 %s channel
 %s encoding %s %d format %s %d %s\n
+%s#%d
+%s%s
 %s(%d) : %s\n
+%s(%s)
 %s(%s) = %s
 %s: Element uses unknown element type %s\n
 %s: string format requested %d chars\n
+%s:%s
 %sEdgeActive
 %sEdgeCurveType
 %sEdgeValue
 %sIndices
 %sMaterial.vmat
 %s_layer0
-&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-&?PPPPPPP?
-&?SetMappingType@FbxTexture@fbxsdk@@QEAAXW4EMappingType@12@@Z
-&?SetMaterialUse@FbxFileTexture@fbxsdk@@QEAAXW4EMaterialUse@12@@Z
-&?SetMaterials@FbxLayer@fbxsdk@@QEAAXPEAVFbxLayerElementMaterial@2@@Z
-&?SetName@FbxObject@fbxsdk@@QEAAXPEBD@Z
-&?SetNodeAttribute@FbxNode@fbxsdk@@QEAAPEAVFbxNodeAttribute@2@PEAV32@@Z
-&Sgw
-'?SetSwapUV@FbxTexture@fbxsdk@@QEAAX_N@Z
-'?SetTRS@FbxAMatrix@fbxsdk@@QEAAXAEBVFbxVector4@2@00@Z
-'?SetTextureUse@FbxTexture@fbxsdk@@QEAAXW4ETextureUse@12@@Z
-'?SetTransformLinkMatrix@FbxCluster@fbxsdk@@QEAAXAEBVFbxAMatrix@2@@Z
-'?SetTransformMatrix@FbxCluster@fbxsdk@@QEAAXAEBVFbxAMatrix@2@@Z
-'?SetTransformationInheritType@FbxNode@fbxsdk@@QEAAXW4EInheritType@FbxTransform@2@@Z
-'?SetTranslation@FbxTexture@fbxsdk@@QEAAXNN@Z
+(%d,%d
+(%d,%d,%d
 (%d,%d,%d,%d
-(?Transpose@FbxAMatrix@fbxsdk@@QEBA?AV12@XZ
 (null)
-)yIx
 *** Converter error - element "%s" already has a non-int attribute "%s"!\n
 *** Element "%s" has attribute "%s" with an unexpected type!\n
 *** Log "%s" has attribute "%s" with an unexpected type (expected int array)!\n
@@ -156,16 +134,9 @@ $prefix_element$
 *** line error: 'rgb+a' packing cannot pack image '%s' belonging to sequences %d and %d!\n
 *** line error: incompatible packmode change when %d sequences already defined!\n
 *** line error: invalid sequence type '%s', packing 'flat' allows only 'sequence-rgba'!\n
-*5KS
-*StO9>T
-+&?SetIdentity@FbxAMatrix@fbxsdk@@QEAAXXZ
-+'?SetRotation@FbxTexture@fbxsdk@@QEAAXNNN@Z
-+\f?Add@FbxPose@fbxsdk@@QEAAHPEAVFbxNode@2@AEBVFbxMatrix@2@_N2@Z
-,HR>O
 ---- dmxconvert cmdline ----\n
 ---- dmxconvert output ----\n
 ---------------------------\n
--BH>t
 -animdecodecachemem
 -avx
 -enable_2gb_morphs
@@ -177,7 +148,6 @@ $prefix_element$
 -sse3
 -sse4
 .00cfg
-.>\rfJBGo
 .?AV<lambda_1>@?1???$ConvertFromBC6h@UBGRA8888_t@@$00@ImageLoader@@YA_NPEBEPEAUBGRA8888_t@@HH@Z@
 .?AV<lambda_1>@?1???$ConvertFromBC6h@URGBA32323232F_t@@$0A@@ImageLoader@@YA_NPEBEPEAURGBA32323232F_t@@HH@Z@
 .?AV<lambda_1>@?1???$ConvertFromBC6h@URGBA8888_t@@$00@ImageLoader@@YA_NPEBEPEAURGBA8888_t@@HH@Z@
@@ -993,7 +963,6 @@ $prefix_element$
 .tls$
 .tls$ZZZ
 .vmat
-.xJ>Hf
 .xdata
 .xdata$x
 // "act busy name"\t\tThis is the name that a mapmaker must specify in the hint node.\n
@@ -1011,55 +980,21 @@ $prefix_element$
 // \t\t\t\t\t\t"BA_INT_DANGER"\t\tbreak out of this anim only if threatened\n
 // \t\t\t\t\t\t"BA_INT_NONE"\t\tbreak out only when time runs out. No external influence will break me out.\n
 // \t\t\t\t\t\t"BA_INT_PLAYER"\t\tbreak out of this anim if I can see the player, or I'm threatened\n
-/2GG>!B
-/P8i
 /TF<)VGy#WH
-/yQA
 0 0 0
 0123456789abcdefghijklmnopqrstuvwxyz
-0E>X
-0X8b?~
-0iN>/
 0x%llx
 1#IND
 1#INF
 1#QNAN
 1#SNAN
 1.2.5
-11Y@
 16-byte data pool
-1A26b
 1DBlend
-1sAL"
-1wsHp
-2%?SetBoolProp@FbxIOSettings@fbxsdk@@QEAAXPEBD_N@Z
-2\rU2h
-2\v%24
-2\vpp
-3 FB
-37>k
-3>N;kU
-3>fvw
-3?tr
 4-byte data pool
-4CCUtlRBTree overflow with %u elements!\n
-51>W
-52F*
-5sfm_v8
 64 283 0
-6NK>
-6\fXO>\ntA
-7>I0
-7?GX
-7~8A
-7~xh
 8-byte data pool
 8b  16-May-2010
-8ke?;
-9)?WriterIsFBX@FbxIOPluginRegistry@fbxsdk@@QEBA_NH@Z
-9>70
-9>powf
-9a&g
 <!-- DMXVersion
 <NO_MAT>
 <NULL>
@@ -1068,20 +1003,7 @@ $prefix_element$
 <no failure reason set>
 <null>
 <unconnected>
-=87M
 == (or missing)
-=ValveBiped.
-=cQ6
-=e2m
-=imb;D
->Physics
->cQ6
->jtm}S
-?!5WOo
-?49HoKC
-?7zQ6$
-?7{KV\nU
-?8bunz8
 ??0CThreadFastMutex@@QEAA@PEBD@Z
 ??0CThreadMutex@@QEAA@XZ
 ??0FbxAMatrix@fbxsdk@@QEAA@AEBV01@@Z
@@ -1102,15 +1024,28 @@ $prefix_element$
 ??4FbxAMatrix@fbxsdk@@QEAAAEAV01@AEBV01@@Z
 ??4FbxString@fbxsdk@@QEAAAEBV01@AEBV01@@Z
 ??4FbxVector4@fbxsdk@@QEAAAEAV01@AEBV01@@Z
-?@En[vP
+??BFbxString@fbxsdk@@QEBAPEBDXZ
+??DFbxAMatrix@fbxsdk@@QEBA?AV01@AEBV01@@Z
+??Hfbxsdk@@YA?AVFbxString@0@AEBV10@PEBD@Z
+?Add@FbxLayerElementArray@fbxsdk@@QEAAHPEBXW4EFbxType@2@@Z
+?Add@FbxPose@fbxsdk@@QEAAHPEAVFbxNode@2@AEBVFbxMatrix@2@_N2@Z
+?AddChild@FbxNode@fbxsdk@@QEAA_NPEAV12@@Z
+?AddCluster@FbxSkin@fbxsdk@@QEAA_NPEAVFbxCluster@2@@Z
+?AddControlPointIndex@FbxCluster@fbxsdk@@QEAAXHN@Z
+?AddDeformer@FbxGeometry@fbxsdk@@QEAAHPEAVFbxDeformer@2@@Z
+?AddMaterial@FbxNode@fbxsdk@@QEAAHPEAVFbxSurfaceMaterial@2@@Z
+?AddNodeAttribute@FbxNode@fbxsdk@@QEAA_NPEAVFbxNodeAttribute@2@PEAVFbxStatus@2@@Z
+?AddPolygon@FbxMesh@fbxsdk@@QEAAXHH@Z
+?AddPose@FbxScene@fbxsdk@@QEAA_NPEAVFbxPose@2@@Z
 ?AppendConcat@CBufferString@@QEAAPEBDHPEBQEBDPEBH_N@Z
 ?AppendFormat@CBufferString@@QEAAHPEBDZZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
+?Apply@FbxAnimCurveFilterGimbleKiller@fbxsdk@@UEAA_NPEAPEAVFbxAnimCurve@2@HPEAVFbxStatus@2@@Z
+?Apply@FbxAnimCurveFilterUnroll@fbxsdk@@UEAA_NPEAPEAVFbxAnimCurve@2@HPEAVFbxStatus@2@@Z
 ?BeginPolygon@FbxMesh@fbxsdk@@QEAAXHHH_N@Z
 ?Bind@FbxPathUtils@fbxsdk@@SA?AVFbxString@2@PEBD0_N@Z
 ?Buffer@FbxString@fbxsdk@@QEAAPEADXZ
 ?Buffer@FbxString@fbxsdk@@QEBAPEBDXZ
-?CDmePreset CUtlMemoryPool
 ?ChangeExtension@FbxPathUtils@fbxsdk@@SA?AVFbxString@2@PEBD0@Z
 ?ClassId@FbxFileTexture@fbxsdk@@2VFbxClassId@2@A
 ?ComposeFileName@CBufferString@@QEAAPEBDPEBD0D@Z
@@ -1199,44 +1134,70 @@ $prefix_element$
 ?Inverse@FbxAMatrix@fbxsdk@@QEBA?AV12@XZ
 ?Is@FbxClassId@fbxsdk@@QEBA_NAEBV12@@Z
 ?IsEmpty@FbxString@fbxsdk@@QEBA_NXZ
+?IsValid@FbxProperty@fbxsdk@@QEBA_NXZ
 ?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?MakeAbsolutePath@CBufferString@@QEAAPEBDPEBD0@Z
 ?MakeRelativePath@CBufferString@@QEAAPEBDPEBD0@Z
+?MayaYUp@FbxAxisSystem@fbxsdk@@2V12@B
+?ModifyFlag@FbxProperty@fbxsdk@@QEAAXW4EFlags@FbxPropertyFlags@2@_N@Z
+?MultT@FbxAMatrix@fbxsdk@@QEBA?AVFbxVector4@2@AEBV32@@Z
+?Normalize@FbxVector4@fbxsdk@@QEAAXXZ
 ?Purge@CBufferString@@QEAAXH@Z
-?R0I?
 ?Relinquish@CBufferString@@QEAAPEADW4EAllocationOption_t@1@@Z
 ?RemoveAt@CBufferString@@QEAAPEBDHH@Z
 ?RemoveDotSlashes@CBufferString@@QEAAPEBDD@Z
 ?RemoveFirstDir@CBufferString@@QEAAPEBDPEAV1@@Z
+?RemovePose@FbxScene@fbxsdk@@QEAA_NPEAVFbxPose@2@@Z
 ?Replace@CBufferString@@QEAAHPEBD0_N@Z
 ?Set@CThreadMultiWaitEvent@@QEAAXXZ
+?Set@FbxMatrix@fbxsdk@@QEAAXHHN@Z
+?Set@FbxProperty@fbxsdk@@IEAA_NPEBXAEBW4EFbxType@2@_N@Z
+?SetAt@FbxLayerElementArray@fbxsdk@@QEAAXHPEBXW4EFbxType@2@@Z
+?SetAxisSystem@FbxGlobalSettings@fbxsdk@@QEAAXAEBVFbxAxisSystem@2@@Z
+?SetBoolProp@FbxIOSettings@fbxsdk@@QEAAXPEBD_N@Z
+?SetCount@FbxLayerElementArray@fbxsdk@@QEAAXH@Z
 ?SetExtension@CBufferString@@QEAAPEBDPEBD@Z
+?SetFileName@FbxFileTexture@fbxsdk@@QEAA_NPEBD@Z
+?SetGlobalTimeMode@FbxTime@fbxsdk@@SAXW4EMode@12@N@Z
+?SetIdentity@FbxAMatrix@fbxsdk@@QEAAXXZ
+?SetIsBindPose@FbxPose@fbxsdk@@QEAAX_N@Z
 ?SetLength@CBufferString@@QEAAPEADH_NPEAH@Z
+?SetLink@FbxCluster@fbxsdk@@QEAAXPEBVFbxNode@2@@Z
+?SetLinkMode@FbxCluster@fbxsdk@@QEAAXW4ELinkMode@12@@Z
+?SetMappingType@FbxTexture@fbxsdk@@QEAAXW4EMappingType@12@@Z
+?SetMaterialUse@FbxFileTexture@fbxsdk@@QEAAXW4EMaterialUse@12@@Z
+?SetMaterials@FbxLayer@fbxsdk@@QEAAXPEAVFbxLayerElementMaterial@2@@Z
+?SetName@FbxObject@fbxsdk@@QEAAXPEBD@Z
+?SetNodeAttribute@FbxNode@fbxsdk@@QEAAPEAVFbxNodeAttribute@2@PEAV32@@Z
 ?SetPtr@CBufferString@@QEAAXPEADHH_N1@Z
+?SetRotation@FbxTexture@fbxsdk@@QEAAXNNN@Z
+?SetRow@FbxAMatrix@fbxsdk@@QEAAXHAEBVFbxVector4@2@@Z
+?SetScale@FbxTexture@fbxsdk@@QEAAXNN@Z
+?SetSecondDouble@FbxTime@fbxsdk@@QEAAXN@Z
+?SetShadingMode@FbxNode@fbxsdk@@QEAAXW4EShadingMode@12@@Z
+?SetSkeletonType@FbxSkeleton@fbxsdk@@QEAAXW4EType@12@@Z
+?SetSwapUV@FbxTexture@fbxsdk@@QEAAX_N@Z
+?SetTRS@FbxAMatrix@fbxsdk@@QEAAXAEBVFbxVector4@2@00@Z
+?SetTextureUse@FbxTexture@fbxsdk@@QEAAXW4ETextureUse@12@@Z
+?SetTransformLinkMatrix@FbxCluster@fbxsdk@@QEAAXAEBVFbxAMatrix@2@@Z
+?SetTransformMatrix@FbxCluster@fbxsdk@@QEAAXAEBVFbxAMatrix@2@@Z
+?SetTransformationInheritType@FbxNode@fbxsdk@@QEAAXW4EInheritType@FbxTransform@2@@Z
+?SetTranslation@FbxTexture@fbxsdk@@QEAAXNN@Z
 ?ShortenPath@CBufferString@@QEAAPEBD_N@Z
 ?StartsWith@CBufferString@@QEAA_NPEBD@Z
 ?StripExtension@CBufferString@@QEAAPEBDXZ
 ?Swap@CBufferString@@QEAAXAEAV1@@Z
 ?ToLowerFast@CBufferString@@QEAAXH@Z
+?Transpose@FbxAMatrix@fbxsdk@@QEBA?AV12@XZ
 ?TruncateAt@CBufferString@@QEAAPEBDH_N@Z
 ?UUUUUU
 ?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?V_SplitString@@YAXPEBD0AEAV?$CUtlVector@PEADV?$CUtlMemory@PEADH@@@@@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
-?ati_compress_wrapper.dll
-?f`Y4
-?kxG2)
-?lZE
-?qBJ
-?rAj
-?ysB
-@&?SetIsBindPose@FbxPose@fbxsdk@@QEAAX_N@Z
-@Tools
-A!;I2
-A>pP&
+?WriterIsFBX@FbxIOPluginRegistry@fbxsdk@@QEBA_NH@Z
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABGR8888
 AE_ACTION_SET_TURN_RATE_SCALE
@@ -1271,7 +1232,6 @@ AE_VORTIGAUNT_ZAP_SHOOT
 AE_ZOMBIE_POPHEADCRAB
 AE_ZOMBIE_TOGGLE_HEAD
 AIWalkable
-AK>(v
 ALIGN_TYPE is wrong, please fix
 ANIMATION_TYPE_FIT_LIFETIME
 ANIMATION_TYPE_FIXED_RATE
@@ -1371,8 +1331,6 @@ AutoLayer
 B-Spline
 BA_INT_NONE
 BC6H
-BC?>6t9^\tc:>
-BF>^G
 BGR101111_UFLOAT
 BGR565
 BGR888
@@ -1386,7 +1344,6 @@ BGRA8888_LINEAR
 BGRX5551
 BGRX8888
 BGRX8888_LINEAR
-BKbhTb~XBK!;
 Backing store not supported
 Bad expression operator: '%c%c', expected C style boolean expression operator.
 Bad expression syntax: '%s', expected a single matching pair of enclosing braces.
@@ -1430,8 +1387,6 @@ BreakPieceEmbedded
 BreakPieceExternal
 BrowInV
 Buffer passed to JPEG library is too small
-C-Yn
-C5R?\t
 CAnimMotorList
 CAnimMovementManager
 CAnimationDecodeCache
@@ -1575,6 +1530,7 @@ CDmePackVector4Operator CUtlMemoryPool
 CDmePhonemeMapping CUtlMemoryPool
 CDmePointLight CUtlMemoryPool
 CDmePolygonMeshDataStream
+CDmePreset CUtlMemoryPool
 CDmePresetGroup CUtlMemoryPool
 CDmePresetGroupInfo CUtlMemoryPool
 CDmeProceduralPresetSettings CUtlMemoryPool
@@ -1673,10 +1629,8 @@ CEntityIndex
 CExternalToolInfo
 CFbxSystem::GetFbxManager
 CGlobalConfigValueRegistry::HookUpConfigValue
-CH6*
 CHammerMesh
 CImagePlaneNode
-CL:>8
 CManifestInstance
 CMapAssetTypeInfo
 CMapCordon
@@ -1712,6 +1666,7 @@ CSchemaRegistration::RegisterAllModuleData
 CSimpleAssetTypeInfo
 CSolveIKChainAnimNode
 CStrongHandle
+CTSListBase: Misaligned list\n
 CTSListBase::CTSListBase
 CTSQueue corruption
 CTSQueue: Misaligned queue\n
@@ -1746,6 +1701,7 @@ CUtlLinkedList overflow! (exhausted memory allocator)\n
 CUtlLinkedList<struct CUtlHashFast<enum DmElementHandle_t,class CUtlHashFastNoHash>::HashFastData_t_<enum DmElementHandle_t>,__int64,1,__int64,class CUtlFixedMemory<struct UtlLinkedListElem_t<struct CUtlHashFast<enum DmElementHandle_t,class CUtlHashFastNoHash>::HashFastData_t_<enum DmElementHandle_t>,__int64> > >::AllocInternal
 CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
 CUtlMemoryPoolBase::CUtlMemoryPoolBase
+CUtlRBTree overflow with %u elements!\n
 CUtlRBTree<class CDmAttribute *,unsigned short,bool (__cdecl*)(class CDmAttribute * const &,class CDmAttribute * const &),class CUtlMemory<struct UtlRBTreeNode_t<class CDmAttribute *,unsigned short>,unsigned short> >::NewNode
 CUtlRBTree<class CDmElement *,int,bool (__cdecl*)(class CDmElement * const &,class CDmElement * const &),class CUtlMemory<struct UtlRBTreeNode_t<class CDmElement *,int>,int> >::NewNode
 CUtlRBTree<class IDmeOperator *,unsigned short,bool (__cdecl*)(class IDmeOperator * const &,class IDmeOperator * const &),class CUtlMemory<struct UtlRBTreeNode_t<class IDmeOperator *,unsigned short>,unsigned short> >::NewNode
@@ -1794,7 +1750,6 @@ CUtlSymbol
 CUtlSymbolLarge
 CUtlVector
 CVisibilityMgr
-CWD>~3
 C_INIT_AddVectorToVector
 C_INIT_AgeNoise
 C_INIT_CreateFromCPs
@@ -1880,7 +1835,6 @@ C_OP_SetSingleControlPointPosition
 C_OP_StopAfterCPDuration
 C_OP_TwistAroundAxis
 C_OP_WorldTraceConstraint
-C_class
 Cannot quantize more than %d color components
 Cannot quantize to fewer than %d colors
 Cannot quantize to more than %d colors
@@ -2173,10 +2127,6 @@ DmeXSIMakefile
 DotaCardGameClient_001
 Double-save to Member '%s'
 DynamicConfigList
-E'?SetRow@FbxAMatrix@fbxsdk@@QEAAXHAEBVFbxVector4@2@@Z
-E3t/'
-E>nEA
-E?WIN32
 ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!\n
 ERROR: Sequence %d already specified!\n
 ERROR: Sequence %d is missing, total of %d sequences!\n
@@ -2184,16 +2134,13 @@ ERROR: Sequence number %d is too big!\n
 ERROR: Specified full path %s does not lie under the mod search path!)\n
 ERROR: Specified path %s could not be made content-relative\n
 ERROR: Unable to create an attribute handle! Save, quit, restart and clean up your file to have fewer elements!\n
-ET5>
 EXPORTSYSTEM_INTERFACE_VERSION_001
-E[\rn?gc
 Ease In
 Ease In/Out
 Ease Out
 EconItemToolModel_001
 EditGameClassProps
 EditorDynamicConfig
-EiUL
 Element uses unknown element type %s\n
 Empty JPEG image (DNL not supported)
 Empty filename specified
@@ -2248,12 +2195,10 @@ Export|AdvOptGrp|Fbx|Gobo
 Export|AdvOptGrp|Fbx|Material
 Export|AdvOptGrp|Fbx|Shape
 Export|AdvOptGrp|Fbx|Texture
-F>qUxv
 FATAL ERROR: unable to register all schema data: %s\n
 FBX export failed: %s\n
 FBXSystem001
 FBX_vmatPath
-FEMh\f
 Facial Animation File
 Factory for element type '%s' already exists (Check your IMPLEMENT_ELEMENT_FACTORY macros for duplicate lookupNames)\n
 Failed to create temporary file %s
@@ -2263,7 +2208,6 @@ Fbx2Material :: Color Texture Replacment :: %s :: %s\n
 Fbx2Material::FbxProperty::Invalid :: "%s"\n
 FbxSystem
 February
-FfW?
 File has not been opened!\n
 FillAttr
 Film
@@ -2301,8 +2245,6 @@ FreeLibrary
 Freed EMS handle %u
 Freed XMS handle %u
 Friday
-Fsfm_v3
-G>US
 GAME
 GAMECONSOLE
 GCTL
@@ -2365,8 +2307,6 @@ GlobalAlloc
 GlobalLock
 GlobalSize
 GlobalUnlock
-H$6t
-H*0"ZOW
 HH:mm:ss
 HIGHDPI
 Hammer temp export
@@ -2382,6 +2322,7 @@ HostStateMgr001
 Huffman code size table overflow
 Huffman table 0x%02x was not defined
 IA88
+IHDRPLTEIDATIENDtRNScHRMgAMAiCCPsBITsRGBtEXtzTXtiTXtbKGDhISTpHYssPLTtIMEoFFseXIf
 IKChain
 IKChainOld
 IKData
@@ -2394,9 +2335,7 @@ IND)ind)INF
 INITY
 IOSRoot
 IQuickTime001
-IiGM>nw
 IkLockLocal
-Il?333333c?
 Image packing validation failed!
 Image too wide for this implementation
 Improper call to JPEG library in state %d
@@ -2449,7 +2388,6 @@ JFIF extension marker: type 0x%02x, length %u
 JPEG datastream contains no image
 JPEG parameter struct mismatch: library thinks size is %u, caller expects %u
 JPEGMEM
-J\n??Hfbxsdk@@YA?AVFbxString@0@AEBV10@PEBD@Z
 January
 JawD
 JawH
@@ -2474,8 +2412,6 @@ KeyValuesSystem
 Kochanek-Bartels
 Kochanek-Bartels Early
 Kochanek-Bartels Late
-L>ev
-L?UUUUUUU?
 LCMapStringEx
 LCMapStringW
 LE_BGRA8888
@@ -2495,8 +2431,6 @@ LINUX
 LOCAL
 LOG_GENERAL
 LOWVIOLENCE
-LWG>
-LWW>
 Lambert
 Last two rows as percentage of total size %f %%:\n
 Layer %d:  adding key at time %d [%d -> %d], value 
@@ -2529,12 +2463,9 @@ LoggingSystem_PushLoggingState
 LoggingSystem_RegisterLoggingChannel
 LoggingSystem_RegisterLoggingListener
 LoggingSystem_SetLoggingResponsePolicy
-LrwcE
-M8MF
 MATCHFRAMEWORK_001
 MAX_ALLOC_CHUNK is wrong, please fix
 MDefaultString
-MGiI
 MM/dd/yy
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
@@ -2560,7 +2491,6 @@ MaterialUtils_001
 MathLib_Init
 Max Velocity
 Maximum supported image dimension is %u pixels
-MbP?
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 Mesh
@@ -2584,14 +2514,8 @@ Movement Match Particle Velocities
 Movement Max Velocity
 MovieSettings
 MultiByteToWideChar
-N'?SetScale@FbxTexture@fbxsdk@@QEAAXNN@Z
-N3`d?
-N>O=I9
-N>VF
 NAN(IND)
 NAN(SNAN)
-NJ2"v
-NQ?s
 NULL
 NULL HModel
 NULL HModel passed
@@ -2625,9 +2549,6 @@ NostrilFlare
 Not a JPEG file: starts with 0x%02x 0x%02x
 Not implemented yet
 November
-O*9y]
-OZQ%
-OZw3(?
 Obtained EMS handle %u
 Obtained XMS handle %u
 October
@@ -2671,9 +2592,9 @@ PanoramaUIClient001
 PanoramaUIEngine001
 Particle Configuration File
 ParticleSystemMgr003
-Pe6^
 Pf\n%d %d\n-1.000000\n
 Phong
+Physics
 Physics2 Interface Old v0.5
 PhysicsBodyMarkup
 PhysicsBoneMarkup
@@ -2705,7 +2626,6 @@ Plat_SetDenormalsAreZero
 Plat_ShouldCollectMiniDumpsForFatalErrors
 Plat_VirtualAlloc
 Plat_VirtualFree
-Po5H
 Pole vector (raw dir: {%.2f, %.2f, %.2f})
 Position Along Path Random
 Position Along Path Sequential
@@ -2732,10 +2652,7 @@ Procedural
 PropertyEditorSystem_001
 Proxies
 Q2XXR
-Q5rHg,>
-QAf?
 QAngle
-Qkkbal
 Quantization table 0x%02x was not defined
 Quantizing to %d = %d*%d*%d colors
 Quantizing to %d colors
@@ -2745,11 +2662,11 @@ QueuedLoaderVersion001
 R11_EAC
 R16F
 R16F_EXPAND
-R1h58
 R32F
 R32_UINT
 R8G8B8A8_ETC2_EAC
 R8G8B8_ETC2
+R8_UINT
 RESOURCE_ENCODING_COMPRESSED_BYTES
 RESOURCE_ENCODING_COUNT
 RESOURCE_ENCODING_INTROSPECTED
@@ -2783,7 +2700,6 @@ RGBA8888_LINEAR
 RGBX555
 RGBX8888
 RPCRT4.dll
-RSDS
 RST%d
 RadianEuler
 Radius Random
@@ -2850,13 +2766,9 @@ RtlPcToFileHeader
 RtlUnwind
 RtlUnwindEx
 RtlVirtualUnwind
-S+Ot
-S9>H
-S>$hkDh$h>[2
 SFM Session
 SFM Settings
 SFM TrackGroup
-SKyu
 SNAN)
 SSAOBias
 SSAORadius
@@ -2962,6 +2874,7 @@ ToolFramework2_002
 ToolSceneNodeFactory_001
 ToolScriptManager001
 ToolService_001
+Tools
 Totals
 Trail Length Random
 TransparentColor
@@ -2969,8 +2882,6 @@ Tried to rename from '%s' to '%s', but '%s' already exists\n
 Trying to add a frame when there is no current sequence.\n
 Tuesday
 Two Bone
-U4tT
-UA>N0Wl
 UNKNOWN
 UPDATE_STRING_TOKEN_DATABASE
 USER32.dll
@@ -3105,8 +3016,8 @@ Valve Make Sheet File
 Valve Map File
 Valve Material File
 Valve Texture Configuration File
+ValveBiped.
 ValveBiped_
-Vc0a
 VeaFOfb
 Vector
 Vector2D
@@ -3122,10 +3033,9 @@ Vgui editor file
 Virtual array controller messed up
 Virual volume texture file
 VisBuilder_001
-W=vmdlkeys0
+WIN32
 WINDOWS
 WINXP
-WaNd?
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning
@@ -3151,59 +3061,22 @@ WriteConsoleW
 WriteFile
 Wrong JPEG library version: library is %d, caller expects %d
 Wrote symbol stats to file: %s
-X ?IsValid@FbxProperty@fbxsdk@@QEBA_NXZ
-X/4B
 X360
 X360_DST16
 X360_DST24
 X360_DST24F
-XsBI
-Y8a:
-Y>kX>M
 YpU_Z
-Z@&LHA'\r:C(
 ZFP compression is not supported in this build
-Z\>z8
-Zjz\v
 Zpm"U
 [%d] Aborting undo '%s'\n
 [%d] Popping undo '%s'\n
 [%d] Pushing undo '%s'\n
 [%f %f %f %f]
-[*ncd>0
-[aOni*{
-[h1R
-\'?SetSecondDouble@FbxTime@fbxsdk@@QEAAXN@Z
-\f?AddControlPointIndex@FbxCluster@fbxsdk@@QEAAXHN@Z
-\f?AddDeformer@FbxGeometry@fbxsdk@@QEAAHPEAVFbxDeformer@2@@Z
-\f?AddMaterial@FbxNode@fbxsdk@@QEAAHPEAVFbxSurfaceMaterial@2@@Z
-\f?AddNodeAttribute@FbxNode@fbxsdk@@QEAA_NPEAVFbxNodeAttribute@2@PEAVFbxStatus@2@@Z
-\f?AddPolygon@FbxMesh@fbxsdk@@QEAAXHH@Z
-\f?AddPose@FbxScene@fbxsdk@@QEAA_NPEAVFbxPose@2@@Z
-\n??BFbxString@fbxsdk@@QEBAPEBDXZ
-\n??DFbxAMatrix@fbxsdk@@QEBA?AV01@AEBV01@@Z
-\nCwf\r
-\nIHDRPLTEIDATIENDtRNScHRMgAMAiCCPsBITsRGBtEXtzTXtiTXtbKGDhISTpHYssPLTtIMEoFFseXIf
-\nh?oT
-\nk>oB
-\r?Apply@FbxAnimCurveFilterGimbleKiller@fbxsdk@@UEAA_NPEAPEAVFbxAnimCurve@2@HPEAVFbxStatus@2@@Z
-\r?Apply@FbxAnimCurveFilterUnroll@fbxsdk@@UEAA_NPEAPEAVFbxAnimCurve@2@HPEAVFbxStatus@2@@Z
-\r\f\v\v\n\n\t\t\t\t\t
-\rmj>zjZ
-\t58o
+[%f %f %f]
+\t%8d
 \tError\n
-\tN1a
 \tNAN encountered in element '%s' guid %s attribute '%s'!\n
-\t\t\n\n\v\v\f\f\f\f\r\r\r\r
 \t\t\t\t\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\tcQr
-\tkE>fvw
-\vA03>A|
-^<V7w
-^RfN>
-^oEZ_
 _RDATA
 _V_ExtractFileExtension
 _V_SetExtension
@@ -3231,10 +3104,10 @@ __unaligned
 __unspecified_texture
 __vectorcall
 _addons
+_class
 _light
 _linked_type_
 _name
-_oD>Kg
 _root_keyname
 _test_conversion_counter
 `RTTI
@@ -3273,7 +3146,6 @@ _test_conversion_counter
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
-a6>r
 abcdefghijklmnopqrstuvwxyz
 actBusy
 actBusyList
@@ -3333,6 +3205,7 @@ argument list too long
 argument out of domain
 arrayEntries
 ascii
+ati_compress_wrapper.dll
 attach
 attach_point
 attachment
@@ -3344,7 +3217,6 @@ auto_unragdoll_duration
 axies
 axis
 axisSystem
-b'?SetShadingMode@FbxNode@fbxsdk@@QEAAXW4EShadingMode@12@@Z
 bUpdate
 background
 backgroundColor
@@ -3419,7 +3291,6 @@ breakable_skin
 brightness
 broken pipe
 bspline
-bt3V
 buffer error
 burst_randomize
 burst_scale
@@ -3448,8 +3319,6 @@ c:\buildslave\hlvr_rel_win64\build\src\tier1\utlbuffer.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\utlstring.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier2\schemabindings.cpp
 c:\buildslave\hlvr_rel_win64\build\src\utils\exportsystem\Retail\win64\exportsystem.pdb
-c?FA@s}
-cNDS
 cable
 camera
 cantdie
@@ -3549,10 +3418,6 @@ curve_%s_to_curve_%s
 curveinfo
 curvetypes
 custom
-d8L2
-d?000000`?
-dQy/
-dRL>
 damage
 data
 data error
@@ -3615,8 +3480,6 @@ durationTime
 dxt5
 dynamic_interaction
 e+000
-eF>t
-eLK(w
 easein
 easeinout
 easeout
@@ -3650,7 +3513,6 @@ error
 event_class
 event_keys
 eventindex
-ewh/?y
 executable format error
 exit_anim
 exit_sequence
@@ -3670,9 +3532,6 @@ expr
 eyeOffset
 eyelid
 eyes
-fD>b
-fP~V
-fWi?
 faceMergeAngle
 faceSets
 faces
@@ -3719,7 +3578,6 @@ friction
 fromAttribute
 fromElement
 fromIndex
-fu`z
 function not supported
 functionName
 g_Mathlib_GammaToLinearByteTable
@@ -3736,16 +3594,12 @@ gameitemclass
 gameunitclass
 generic
 glow
-gqr<
 graphCurve
 gravity
 green
 gridSize
 gridspacing
 groupColor
-h0'D
-h>1my
-hPU3
 hammer
 handindex
 hcrop
@@ -3768,8 +3622,6 @@ host unreachable
 houdini
 hurt_me
 hurt_them
-i91k
-i]Wb
 identifier removed
 ik_debug_perlin_solver
 ikdata
@@ -3829,7 +3681,6 @@ isVisible
 isWorldAligned
 is_debris
 ispc_texcomp.dll
-j'?SetSkeletonType@FbxSkeleton@fbxsdk@@QEAAXW4EType@12@@Z
 j'Vlk
 jitteriterations
 jitterscale
@@ -3841,8 +3692,6 @@ jointList
 jointTransforms
 jointWeights
 jointWeightsIndices
-k=yI
-k\f?AddChild@FbxNode@fbxsdk@@QEAA_NPEAV12@@Z
 keysInTime_0
 keysInTime_1
 keysInTime_2
@@ -3865,8 +3714,6 @@ keyvalues2_v
 kochanek
 kochanek_early
 kochanek_late
-l6qnk
-lDa>
 labelled_debug_helper_arc_segments
 labelled_debug_helper_enabled
 labelled_debug_helper_scale
@@ -3875,7 +3722,6 @@ labelled_debug_helper_show_text
 labelled_debug_helper_skeleton_show_bone_names
 last_sniff
 layers
-lcQe
 left
 leftEdgeActive
 leftEdgeCurveType
@@ -3914,11 +3760,6 @@ loop_in_action
 looping
 lower_hemisphere_is_black
 m%d%d
-m?H7
-mG4>
-mXr4
-m\f?AddCluster@FbxSkin@fbxsdk@@QEAA_NPEAVFbxCluster@2@@Z
-m\nXo
 m_AdditionalExtensions
 m_AssetTypes
 m_AutoTags
@@ -4227,11 +4068,8 @@ multilevel
 multilevelchannel
 multiplayer_break
 mute
-n03>Pu
 nLayoffState
 nTries < 10000000
-n\f"pA3Q
-n]?iJ
 name
 nan(ind)
 nan(snan)
@@ -4285,10 +4123,7 @@ note
 npcclass
 numchannels
 numsegments
-o?GS
-oI>O7
 oOffset
-obwQ4
 offset
 offsetTime
 operation canceled
@@ -4316,10 +4151,8 @@ outputs
 overrideParent
 overridePos
 overrideRot
-owM&
 owner dead
 ownerlog
-p?CTSListBase: Misaligned list\n
 packmode
 parameter %s has no value
 parentBindRotation
@@ -4366,6 +4199,7 @@ positionsIndices
 posterSettings
 postion_lock_to_controlpoint
 postprocessing
+powf
 preferred_carryangles
 preset
 presetGroups
@@ -4381,7 +4215,6 @@ proxies
 proxyType
 purecall
 pvTarget
-qS>g?h3
 qangle
 qangle log
 qangle_array
@@ -4389,7 +4222,6 @@ quadraticAttenuation
 quaternion
 quaternion log
 quaternion_array
-r\tVr.>T
 radius
 radius0
 radius1
@@ -4452,9 +4284,6 @@ rotation_speed_random
 rotation_spin
 rotation_spin yaw
 rotations
-ru&o
-s%?SetCount@FbxLayerElementArray@fbxsdk@@QEAAXH@Z
-sAmTb
 saturation
 scale
 scaleColor
@@ -4487,10 +4316,12 @@ sfm_v
 sfm_v1
 sfm_v10
 sfm_v2
+sfm_v3
 sfm_v4
 sfm_v5
 sfm_v6
 sfm_v7
+sfm_v8
 sfm_v9
 shader
 shadow_color_day
@@ -4646,7 +4477,6 @@ trilinear
 true
 turn_rate
 twistJoints
-u&?SetLink@FbxCluster@fbxsdk@@QEAAXPEBVFbxNode@2@@Z
 uint64
 uint64 log
 uint64_array
@@ -4671,10 +4501,6 @@ usedefaultvalue
 useedgeinfo
 user
 usesLaggedValues
-uzKs@>
-v&?SetLinkMode@FbxCluster@fbxsdk@@QEAAXW4ELinkMode@12@@Z
-v2!L.2
-vQO+t
 value
 value too large
 valueDeltaRotation
@@ -4721,6 +4547,7 @@ vmat
 vmatrix
 vmatrix log
 vmdl
+vmdlkeys0
 vmdlkeys1
 vmdlkeys2
 vmdlkeys3
@@ -4773,9 +4600,6 @@ vtex
 vvtx
 vwnod
 vwrld
-w+OQvr
-w3Xc
-wXR\r
 weight
 weight$0
 weights
@@ -4783,7 +4607,6 @@ weightweight$0
 weightweight$0Indices
 widget
 width
-wn>Jj
 world
 world_point
 worldnode
@@ -4793,14 +4616,10 @@ wrinkle$0Indices
 wrinkleIndices
 wrinkleScales
 wrong protocol type
-xT?V
 xcoord
-y9*O
 yaw_end
 yaw_start
 ycoord
 zero
 zfar
 znear
-{YIN?
-{kHw

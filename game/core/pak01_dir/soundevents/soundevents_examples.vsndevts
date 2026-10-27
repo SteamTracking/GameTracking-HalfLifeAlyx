@@ -3,9 +3,9 @@
 	m_SoundEvents = 
 	[
 		{
-			m_SoundName = resource:"Example.start_oneshot_import_test"
-			m_GameData = resource:""
-			m_OperatorsKV = resource:"""
+			m_SoundName = "Example.start_oneshot_import_test"
+			m_GameData = ""
+			m_OperatorsKV = """
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	type = "example_start_oneshot_import_test"
@@ -18,9 +18,9 @@
 """
 		},
 		{
-			m_SoundName = resource:"Example.core_start_simple_oneshot"
-			m_GameData = resource:""
-			m_OperatorsKV = resource:"""
+			m_SoundName = "Example.core_start_simple_oneshot"
+			m_GameData = ""
+			m_OperatorsKV = """
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	type = "core_start_simple_oneshot"
@@ -30,9 +30,9 @@
 """
 		},
 		{
-			m_SoundName = resource:"Example.core_start_oneshot"
-			m_GameData = resource:""
-			m_OperatorsKV = resource:"""
+			m_SoundName = "Example.core_start_oneshot"
+			m_GameData = ""
+			m_OperatorsKV = """
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	type = "core_start_oneshot"
@@ -45,9 +45,9 @@
 """
 		},
 		{
-			m_SoundName = resource:"Example.src1_3d"
-			m_GameData = resource:""
-			m_OperatorsKV = resource:"""
+			m_SoundName = "Example.src1_3d"
+			m_GameData = ""
+			m_OperatorsKV = """
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	type = "src1_3d"
@@ -56,9 +56,9 @@
 """
 		},
 		{
-			m_SoundName = resource:"Example.play_sequence4"
-			m_GameData = resource:""
-			m_OperatorsKV = resource:"""
+			m_SoundName = "Example.play_sequence4"
+			m_GameData = ""
+			m_OperatorsKV = """
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	type = "example_play_sequence4"

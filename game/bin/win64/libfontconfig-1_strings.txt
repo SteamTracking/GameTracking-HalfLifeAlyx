@@ -1,9 +1,5 @@
                           
- !"#$%&'()*+,-./01234
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#%'()*+.01234569;<=8>?@ABCDEFGHIJLMPQSVTUXYZ[\]_`bdefghiklnpqrtuwx{|}~
  %04x
  %08x
  [marker]
@@ -17,13 +13,15 @@
 "%s": not a valid double
 "%s": not a valid integer
 "%{file|basename|cescape}" %{index} "%{-file{%{=unparse|cescape}}}"
-$&-/7:KNORW^acjmosyz
 %04x:
+%d(i)
 %g %g %g %g
+%g(f)
 %lg %lg %lg %lg
 %s charset
 %s list after 
 %s list before 
+%s(%u) 
 %s: %s: missing directory: %s \n
 %s: cleaning cache directory\n
 %s: invalid cache file: %s\n
@@ -32,16 +30,12 @@ $&-/7:KNORW^acjmosyz
 %{[]family{font(%{family|downcase|delete( )})\n}}%{[]lang{font(:lang=%{lang|downcase|translate(_,-)})\n}}
 %{file:-<unknown filename>|basename}: "%{family[0]:-<unknown family>}" "%{style[0]:-<unknown style>}"
 &amp;
-( 8PX
 ('8PW
 ()/<>[]{}\t\f\r\n 
 (font) 
 (ignore blanks)
 (null)
 (pattern) 
-,D0j
--./123456789:;<=
--64OS
 -le64.cache-4
 .LCK
 .NEW
@@ -54,20 +48,14 @@ $&-/7:KNORW^acjmosyz
 1#INF
 1#QNAN
 1#SNAN
-2*E{1
-2Jq]\nU
 700PP
 700WP
-789:;<=>?@ABCDEFGHIJKLMNOPQRST
-7HMz
 8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
 8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888file
-9`B\fY
 <match target="scan"> cannot edit user-defined object "%s"
 <ultra
 <unknown>
 <void>
-@1PD
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADBE
 AGFA
@@ -90,14 +78,10 @@ Arg list too long
 Assign
 AssignReplace
 August
-Az@{EG
-BDEC
 BIG-5
 BITS
-B\nU0
 Bad address
 Bad file descriptor
-BcSX
 Best score
 Bigelow
 Bitstream
@@ -105,7 +89,6 @@ Bool
 Broken pipe
 CACHEDIR.TAG
 CANO
-CB$F
 CDATA
 CDATA[
 CUSTOMFONTDIR
@@ -136,7 +119,6 @@ CreateThreadpoolTimer
 CreateThreadpoolWait
 Created CACHEDIR.TAG at %s\n
 DOCTYPE
-DRW+
 DYNA
 December
 DecodePointer
@@ -153,7 +135,6 @@ EMPTY
 ENTITIES
 ENTITY
 EPSN
-E\f\nBP
 Edit %s 
 EncodePointer
 EnterCriticalSection
@@ -165,7 +146,6 @@ Expression doesn't take any effects for delete and delete_all
 FC_DEBUG
 FC_DEBUG=%s\n
 FC_LANG
-FGHIJK
 FIXED
 FONTCONFIG_FILE
 FONTCONFIG_PATH
@@ -494,7 +474,6 @@ GetUserObjectInformationW
 GetWindowsDirectoryA
 Gnat
 HH:mm:ss
-HMXB
 HOME
 HanYang System
 Having multiple <family> in <alias> isn't supported and may not work as expected
@@ -554,7 +533,6 @@ Linotype
 Listing
 LoadLibraryA
 LoadLibraryExW
-LwH'
 MACINTOSH
 MACR
 MM/dd/yy
@@ -573,7 +551,6 @@ MoreEqual
 MoveFileExW
 MultiByteToWideChar
 NDATA
-NKeb
 NMTOKEN
 NMTOKENS
 NOTATION
@@ -596,7 +573,6 @@ NotContains
 NotEqual
 November
 Null pattern\n
-OPQRST
 October
 Omega
 Operation not permitted
@@ -615,11 +591,9 @@ PrependFirst
 QMSI
 QueryPerformanceCounter
 Quest
-R@\tScanning file %s...
 RELATIVE_SETWIDTH
 REQUIRED
 RICO
-RSDS
 Range
 Raw pattern:\n
 Read-only file system
@@ -636,8 +610,6 @@ RtlCaptureContext
 RtlLookupFunctionEntry
 RtlUnwindEx
 RtlVirtualUnwind
-S5|D~
-S;uD
 SETWIDTH_NAME
 SHGetFolderPathA
 SHGetFolderPathA failed
@@ -668,7 +640,6 @@ Substitute
 SunMonTueWedThuFriSat
 Sunday
 SystemTimeToTzSpecificLocalTime
-TMu,
 TerminateProcess
 Thursday
 Times
@@ -714,7 +685,6 @@ XML or text declaration not at start of entity
 XML_CONTEXT_BYTES
 XML_DTD
 XML_NS
-XP@n2
 Xorg
 [%g %g; %g %g]
 [edit]\n
@@ -726,7 +696,6 @@ Xorg
 \f0fr
 \f4fr
 \f8fr
-\fdUy
 \fontconfig
 \fontconfig\cache
 \fonts
@@ -740,8 +709,6 @@ Xorg
 \nPes
 \nTes
 \ncharsets %d -> %d leaves %d -> %d\n
-\r8STs\ne
-\t0PP
 \t0en
 \t4en
 \tDen
@@ -751,6 +718,7 @@ Xorg
 \tMissing string %s\n
 \tScanning config dir %s\n
 \tScanning dir %s\n
+\tScanning file %s...
 \tStyle %s maps to decorative %d\n
 \tStyle %s maps to slant %d\n
 \tStyle %s maps to weight %d\n
@@ -759,9 +727,6 @@ Xorg
 \tos2 weight class %d maps to weight %d\n
 \tos2 width class %d maps to width %d\n
 \tsetwidth %s maps to %d\n
-\vD]GW
-\vpXs
-`h`hhh
 a100
 a101
 a102
@@ -889,7 +854,6 @@ asynchronous entity
 autohint
 az-az
 az-ir
-b%DD
 bad alias
 bad font selector
 basename
@@ -915,7 +879,6 @@ cannot get parse buffer
 cannot suspend in external parameter entity
 capability
 caps
-cdefgh
 ceil
 cescape
 charcell
@@ -1054,10 +1017,7 @@ invalid test ignore-blanks "%s"
 invalid test qual "%s"
 invalid test target "%s"
 italic
-j02^
 junk after document element
-k(I\tAB
-kU'9
 kernel32.dll
 ku-am
 ku-iq
@@ -1104,7 +1064,6 @@ monotype
 more
 more_eq
 must not undeclare prefix
-nJ,pf
 name
 namelang
 nil\n
@@ -1235,8 +1194,6 @@ unwritable
 using FreeType family "%s"\n
 using FreeType style "%s"\n
 using filename for family %s\n
-uvwxy
-vRQ>
 vbgr
 version
 verticallayout
@@ -1252,10 +1209,6 @@ xfree86
 xml=http://www.w3.org/XML/1998/namespace
 xmlescape
 xorg
-xppwpp
-xpxxxx
-z?aUY
-zc%C1
 zh-cn
 zh-hk
 zh-mo

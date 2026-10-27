@@ -1,16 +1,10 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- %O>Ixt
- ?palette@QWidget@@QEBAAEBVQPalette@@XZ
- ?paletteChange@QWidget@@MEAAXAEBVQPalette@@@Z
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
  Complete Object Locator'
  Type Descriptor'
- \f?number@QString@@SA?AV1@IH@Z
  delete
  delete[]
  new
@@ -18,29 +12,8 @@
  volatile
 !!ARBfp1.0PARAM c[5] = { program.local[0..1],{ 0.5, 2, 1, 0.0625 },{ 1.164, 0, 1.596, 2.0179999 },{ 1.164, -0.391, -0.81300002 } };TEMP R0;TEMP R1;TEMP R2;FLR R1.z, fragment.texcoord[0].x;ADD R0.x, R1.z, c[2];ADD R1.z, fragment.texcoord[0].x, -R1;MUL R1.x, fragment.texcoord[0].z, R0;MOV R1.y, fragment.texcoord[0];TEX R0, R1, texture[0], 2D;ADD R1.y, R0.z, -R0.x;MUL R2.x, R1.z, R1.y;MAD R0.x, R2, c[2].y, R0;MOV R1.y, fragment.texcoord[0];ADD R1.x, fragment.texcoord[0].z, R1;TEX R1.xyw, R1, texture[0], 2D;ADD R2.x, R1, -R0.z;MAD R1.x, R1.z, c[2].y, -c[2].z;MAD R0.z, R1.x, R2.x, R0;ADD R1.xy, R1.ywzw, -R0.ywzw;ADD R0.z, R0, -R0.x;SGE R1.w, R1.z, c[2].x;MAD R0.x, R1.w, R0.z, R0;MAD R0.yz, R1.z, R1.xxyw, R0.xyww;ADD R0.xyz, R0, -c[2].wxxw;MUL R0.w, R0.y, c[0];MAD R0.w, R0.z, c[0].z, R0;MUL R0.z, R0, c[0].w;MAD R0.y, R0, c[0].z, R0.z;MUL R0.w, R0, c[0].y;MUL R0.y, R0, c[0];MUL R0.z, R0.w, c[1].x;MAD R0.x, R0, c[0].y, c[0];MUL R0.y, R0, c[1].x;DP3 result.color.x, R0, c[3];DP3 result.color.y, R0, c[4];DP3 result.color.z, R0, c[3].xwyw;MOV result.color.w, c[1].y;END
 !!ARBfp1.0PARAM c[5] = { program.local[0..1],{ 1.164, 0, 1.596, 0.5 },{ 0.0625, 1.164, -0.391, -0.81300002 },{ 1.164, 2.0179999, 0 } };TEMP R0;TEX R0.x, fragment.texcoord[0], texture[1], 2D;ADD R0.y, R0.x, -c[2].w;TEX R0.x, fragment.texcoord[0], texture[2], 2D;ADD R0.x, R0, -c[2].w;MUL R0.z, R0.y, c[0].w;MAD R0.z, R0.x, c[0], R0;MUL R0.w, R0.x, c[0];MUL R0.z, R0, c[0].y;TEX R0.x, fragment.texcoord[0], texture[0], 2D;MAD R0.y, R0, c[0].z, R0.w;ADD R0.x, R0, -c[3];MUL R0.y, R0, c[0];MUL R0.z, R0, c[1].x;MAD R0.x, R0, c[0].y, c[0];MUL R0.y, R0, c[1].x;DP3 result.color.x, R0, c[2];DP3 result.color.y, R0, c[3].yzww;DP3 result.color.z, R0, c[4];MOV result.color.w, c[1].y;END
-"?qt_metacall@QWidget@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"E7*v
-#3:O4j
-#?qt_metacast@QWidget@@UEAAPEAXPEBD@Z
-$?rect@QWidget@@QEBA?AVQRect@@XZ
-$?rects@QRegion@@QEBA?AV?$QVector@VQRect@@@@XZ
-$?red@QColor@@QEBAHXZ
-$?redirected@QPainter@@SAPEAVQPaintDevice@@PEBV2@PEAVQPoint@@@Z
-$?releaseDC@QWidget@@UEBAXPEAUHDC__@@@Z
-%?resizeEvent@QWidget@@MEAAXPEAVQResizeEvent@@@Z
-&\f?availableGeometry@QDesktopWidget@@QEBA?BVQRect@@H@Z
-'1nD
-'?setBrush@QPainter@@QEAAXAEBVQBrush@@@Z
-*68C
-+?setPalette@QWidget@@QEAAXAEBVQPalette@@@Z
-+?setPen@QPainter@@QEAAXW4PenStyle@Qt@@@Z
 ,<ellipsis>
 ,eventCode,param1
--64OS
--?setTransform@QPainter@@QEAAXAEBVQTransform@@_N@Z
--?setUpdatesEnabled@QWidget@@QEAAX_N@Z
--np1A
--qZ~C
 .?AUIAsyncReader@@
 .?AUIBaseFilter@@
 .?AUIDispatch@@
@@ -104,55 +77,25 @@ $?releaseDC@QWidget@@UEBAXPEAUHDC__@@@Z
 .?AVbad_typeid@std@@
 .?AVexception@std@@
 .?AVtype_info@@
-.?showEvent@QWidget@@MEAAXPEAVQShowEvent@@@Z
-/?size@QImage@@QEBA?AVQSize@@XZ
-0$7M
-1"EYg-
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-1?styleChange@QWidget@@MEAAXAEAVQStyle@@@Z
-1\Q4
 1finishLoading(quint16,HRESULT,Graph)
 1finishSeeking(quint16,qint64)
 1handleEvents(Graph,long,long)
 1mediaObjectDestroyed()
 1slotStateReady(Graph,Phonon::State)
 1switchToNextSource()
-2?testAttribute_helper@QWidget@@AEBA_NW4WidgetAttribute@Qt@@@Z
 2asyncRenderFinished(quint16,HRESULT,Graph)
 2asyncSeekingFinished(quint16,qint64)
 2destroyed()
 2eventReady(Graph,long,long)
 2stateReady(Graph,Phonon::State)
-3!XI-X
-4aw\vSx
-4t\vSx
-4uD'
 5t9R
-6&?scale@QTransform@@QEAAAEAV1@NN@Z
-64,F
-6?translate@QTransform@@QEAAAEAV1@NN@Z
-6Q(M
-70q)
-7?updateGeometry@QWidget@@QEAAXXZ
-7?updatesEnabled@QWidget@@QEBA_NXZ
-7d<Z
-7eXl
-8?winEvent@QWidget@@MEAA_NPEAUtagMSG@@PEAJ@Z
-8?winId@QWidget@@QEBAPEAUHWND__@@XZ
-8?window@QWidget@@QEBAPEAV1@XZ
-8?windowActivationChange@QWidget@@MEAAX_N@Z
-9XVnTm
-9Z!jj%
 ;Pb69
 <ellipsis>
 <unknown>
-<wt2
->R0b
->\t?grow@QVectorData@@SAHHHH_N@Z
-?.?setVisible@QWidget@@UEAAX_N@Z
 ??0EffectParameter@Phonon@@QEAA@AEBV01@@Z
 ??0EffectParameter@Phonon@@QEAA@HAEBVQString@@V?$QFlags@W4Hint@EffectParameter@Phonon@@@@AEBVQVariant@@22AEBV?$QList@VQVariant@@@@0@Z
 ??0MediaSource@Phonon@@QEAA@AEBV01@@Z
@@ -220,6 +163,7 @@ $?releaseDC@QWidget@@UEBAXPEAUHDC__@@@Z
 ?QStringList_removeDuplicates@QtPrivate@@YAHPEAVQStringList@@@Z
 ?QStringList_replaceInStrings@QtPrivate@@YAXPEAVQStringList@@AEBVQString@@1W4CaseSensitivity@Qt@@@Z
 ?WindowsVersion@QSysInfo@@2W4WinVersion@1@B
+?actionEvent@QWidget@@MEAAXPEAVQActionEvent@@@Z
 ?activate@QMetaObject@@SAXPEAVQObject@@PEBU1@HPEAPEAX@Z
 ?allocate@QVectorData@@SAPEAU1@HH@Z
 ?allocateNode@QHashData@@QEAAPEAXH@Z
@@ -230,9 +174,15 @@ $?releaseDC@QWidget@@UEBAXPEAUHDC__@@@Z
 ?arg@QString@@QEBA?AV1@AEBV1@HAEBVQChar@@@Z
 ?arg@QString@@QEBA?AV1@VQChar@@HAEBV2@@Z
 ?at@QListData@@QEBAPEAPEAXH@Z
+?availableGeometry@QDesktopWidget@@QEBA?BVQRect@@H@Z
+?backgroundRole@QWidget@@QEBA?AW4ColorRole@QPalette@@XZ
 ?begin@QListData@@QEBAPEAPEAXXZ
+?beginNativePainting@QPainter@@QEAAXXZ
+?bits@QImage@@QEAAPEAEXZ
+?blue@QColor@@QEBAHXZ
 ?boundedTo@QSize@@QEBA?AV1@AEBV1@@Z
 ?cast@QMetaObject@@QEBAPEAVQObject@@PEAV2@@Z
+?changeEvent@QWidget@@MEAAXPEAVQEvent@@@Z
 ?changeGuard@QMetaObject@@SAXPEAPEAVQObject@@PEAV2@@Z
 ?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
 ?childGroups@QSettings@@QEBA?AVQStringList@@XZ
@@ -287,22 +237,32 @@ $?releaseDC@QWidget@@UEBAXPEAUHDC__@@@Z
 ?fromAscii_helper@QString@@CAPEAUData@1@PEBDH@Z
 ?fromLatin1@QString@@SA?AV1@PEBDH@Z
 ?fromLatin1_helper@QString@@CAPEAUData@1@PEBDH@Z
+?fromWCharArray@QString@@SA?AV1@PEBGH@Z
 ?getDC@QWidget@@UEBAPEAUHDC__@@XZ
 ?green@QColor@@QEBAHXZ
+?grow@QVectorData@@SAHHHH_N@Z
+?hasShrunk@QHashData@@QEAAXXZ
 ?heightForWidth@QWidget@@UEBAHH@Z
 ?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z
 ?id@EffectParameter@Phonon@@QEBAHXZ
 ?index@ObjectDescriptionData@Phonon@@QEBAHXZ
+?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
 ?inputMethodEvent@QWidget@@MEAAXPEAVQInputMethodEvent@@@Z
 ?inputMethodQuery@QWidget@@UEBA?AVQVariant@@W4InputMethodQuery@Qt@@@Z
+?insert@QListData@@QEAAPEAPEAXH@Z
 ?isNull@QImage@@QEBA_NXZ
+?isNull@QVariant@@QEBA_NXZ
+?isWidgetType@QObject@@QEBA_NXZ
 ?keyPressEvent@QWidget@@MEAAXPEAVQKeyEvent@@@Z
 ?keyReleaseEvent@QWidget@@MEAAXPEAVQKeyEvent@@@Z
 ?languageChange@QWidget@@MEAAXXZ
 ?leaveEvent@QWidget@@MEAAXPEAVQEvent@@@Z
 ?mapRect@QTransform@@QEBA?AVQRect@@AEBV2@@Z
+?metaObject@QObject@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QWidget@@UEBAPEBUQMetaObject@@XZ
 ?metric@QWidget@@MEBAHW4PaintDeviceMetric@QPaintDevice@@@Z
+?mid@QByteArray@@QEBA?AV1@HH@Z
+?mid@QString@@QEBA?AV1@HH@Z
 ?minimumSizeHint@QWidget@@UEBA?AVQSize@@XZ
 ?mouseDoubleClickEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z
 ?mouseMoveEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z
@@ -310,43 +270,94 @@ $?releaseDC@QWidget@@UEBAXPEAUHDC__@@@Z
 ?mouseReleaseEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z
 ?moveEvent@QWidget@@MEAAXPEAVQMoveEvent@@@Z
 ?needData@StreamInterface@Phonon@@QEAAXXZ
+?nextNode@QHashData@@SAPEAUNode@1@PEAU21@@Z
+?node_create@QMapData@@QEAAPEAUNode@1@QEAPEAU21@HH@Z
+?number@QString@@SA?AV1@IH@Z
 ?opacity@QPainter@@QEBANXZ
+?paintEngine@QPainter@@QEBAPEAVQPaintEngine@@XZ
+?palette@QWidget@@QEBAAEBVQPalette@@XZ
+?paletteChange@QWidget@@MEAAXAEBVQPalette@@@Z
+?postEvent@QCoreApplication@@SAXPEAVQObject@@PEAVQEvent@@@Z
+?qFree@@YAXPEAX@Z
+?qHash@@YAIAEBVQByteArray@@@Z
+?qMemCopy@@YAPEAXPEAXPEBX_K@Z
+?qMemSet@@YAPEAXPEAXH_K@Z
+?qWarning@@YAXPEBDZZ
+?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QThread@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QWidget@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacast@QObject@@UEAAPEAXPEBD@Z
+?qt_metacast@QThread@@UEAAPEAXPEBD@Z
+?qt_metacast@QWidget@@UEAAPEAXPEBD@Z
 ?realloc@QString@@AEAAXXZ
+?rect@QWidget@@QEBA?AVQRect@@XZ
+?rects@QRegion@@QEBA?AV?$QVector@VQRect@@@@XZ
+?red@QColor@@QEBAHXZ
+?redirected@QPainter@@SAPEAVQPaintDevice@@PEBV2@PEAVQPoint@@@Z
 ?registerType@QMetaType@@SAHPEBDP6AXPEAX@ZP6APEAXPEBX@Z@Z
 ?registerTypedef@QMetaType@@SAHPEBDH@Z
 ?rehash@QHashData@@QEAAXH@Z
+?releaseDC@QWidget@@UEBAXPEAUHDC__@@@Z
 ?remove@QListData@@QEAAXH@Z
 ?removeGuard@QMetaObject@@SAXPEAPEAVQObject@@@Z
+?reset@QTransform@@QEAAXXZ
+?resizeEvent@QWidget@@MEAAXPEAVQResizeEvent@@@Z
 ?resolve@QLibrary@@SAPEAXAEBVQString@@PEBD@Z
+?scale@QTransform@@QEAAAEAV1@NN@Z
+?scanLine@QImage@@QEAAPEAEH@Z
 ?seekStream@StreamInterface@Phonon@@QEAAX_J@Z
+?setAttribute@QWidget@@QEAAXW4WidgetAttribute@Qt@@_N@Z
+?setAutoFillBackground@QWidget@@QEAAX_N@Z
+?setBrush@QPainter@@QEAAXAEBVQBrush@@@Z
+?setPalette@QWidget@@QEAAXAEBVQPalette@@@Z
+?setPen@QPainter@@QEAAXW4PenStyle@Qt@@@Z
+?setRenderHint@QPainter@@QEAAXW4RenderHint@1@_N@Z
+?setTransform@QPainter@@QEAAXAEBVQTransform@@_N@Z
+?setUpdatesEnabled@QWidget@@QEAAX_N@Z
+?setVisible@QWidget@@UEAAX_N@Z
 ?shared_null@QByteArray@@0UData@1@A
 ?shared_null@QHashData@@2U1@A
 ?shared_null@QListData@@2UData@1@A
 ?shared_null@QMapData@@2U1@A
 ?shared_null@QString@@0UData@1@A
 ?shared_null@QVectorData@@2U1@A
+?showEvent@QWidget@@MEAAXPEAVQShowEvent@@@Z
 ?singleShot@QTimer@@SAXHPEAVQObject@@PEBD@Z
+?size@QImage@@QEBA?AVQSize@@XZ
 ?size@QListData@@QEBAHXZ
+?sizeHint@QWidget@@UEBA?AVQSize@@XZ
 ?start@QBasicTimer@@QEAAXHPEAVQObject@@@Z
 ?start@QThread@@QEAAXW4Priority@1@@Z
 ?staticMetaObject@QObject@@2UQMetaObject@@B
 ?staticMetaObject@QThread@@2UQMetaObject@@B
 ?stop@QBasicTimer@@QEAAXXZ
+?styleChange@QWidget@@MEAAXAEAVQStyle@@@Z
+?tabletEvent@QWidget@@MEAAXPEAVQTabletEvent@@@Z
+?testAttribute_helper@QWidget@@AEBA_NW4WidgetAttribute@Qt@@@Z
 ?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
 ?toBool@QVariant@@QEBA_NXZ
 ?toFloat@QVariant@@QEBAMPEA_N@Z
 ?toInt@QVariant@@QEBAHPEA_N@Z
 ?toLower@QString@@QEBA?AV1@XZ
 ?toString@QUrl@@QEBA?AVQString@@V?$QFlags@W4FormattingOption@QUrl@@@@@Z
+?translate@QTransform@@QEAAAEAV1@NN@Z
 ?type@MediaSource@Phonon@@QEBA?AW4Type@12@XZ
 ?unlock@QMutexLocker@@QEAAXXZ
 ?unlockInline@QMutex@@QEAAXXZ
+?update@QWidget@@QEAAXAEBVQRect@@@Z
+?update@QWidget@@QEAAXXZ
+?updateGeometry@QWidget@@QEAAXXZ
+?updatesEnabled@QWidget@@QEBA_NXZ
 ?url@MediaSource@Phonon@@QEBA?AVQUrl@@XZ
 ?utf16@QString@@QEBAPEBGXZ
 ?wait@QThread@@QEAA_NK@Z
 ?wait@QWaitCondition@@QEAA_NPEAVQMutex@@K@Z
 ?wakeOne@QWaitCondition@@QEAAXXZ
-@%?reset@QTransform@@QEAAXXZ
+?wheelEvent@QWidget@@MEAAXPEAVQWheelEvent@@@Z
+?winEvent@QWidget@@MEAA_NPEAUtagMSG@@PEAJ@Z
+?winId@QWidget@@QEBAPEAUHWND__@@XZ
+?window@QWidget@@QEBAPEAV1@XZ
+?windowActivationChange@QWidget@@MEAAX_N@Z
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 AMGetErrorTextW
 ARTIST
@@ -354,8 +365,6 @@ AddonInterface0.2.phonon.kde.org
 April
 AudioOutputInterface2.phonon.kde.org
 August
-B,?setRenderHint@QPainter@@QEAAXW4RenderHint@1@_N@Z
-BI* V
 BackendInterface3.phonon.kde.org
 C:\Valve\ThirdPartyCode\lgpl\qt\qt_valve_win64\plugins\phonon_backend\phonon_ds94.pdb
 COPYRIGHT
@@ -382,17 +391,12 @@ DeleteObject
 DeviceIoControl
 DirectSound
 Dw=I
-E"n\nB
 EffectInterface0.phonon.kde.org
 EgAYUV
 EncodePointer
 EnterCriticalSection
 EnumSystemLocalesA
 ExitProcess
-F&?scanLine@QImage@@QEAAPEAEH@Z
-F0:s
-F0:s\f
-FU\r8r+
 FatalAppExitA
 February
 FlsAlloc
@@ -437,7 +441,6 @@ Graph
 HH:mm:ss
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Multimedia\mplayer2\mime types
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Multimedia\wmplayer\mime types
-HMXB
 HRESULT
 HeapAlloc
 HeapCreate
@@ -451,13 +454,9 @@ IsDebuggerPresent
 IsValidCodePage
 IsValidLocale
 January
-Jg3}hD6zF
 July
 June
-K$ZQH
 KERNEL32.dll
-K\f?backgroundRole@QWidget@@QEBA?AW4ColorRole@QPalette@@XZ
-L ?paintEngine@QPainter@@QEBAPEAVQPaintEngine@@XZ
 LCMapStringW
 LC_ALL
 LC_COLLATE
@@ -474,15 +473,12 @@ MediaObjectInterface3.phonon.kde.org
 MessageBoxW
 Monday
 MultiByteToWideChar
-NKeb
 NULL
-NZ)G
 Norwegian-Nynorsk
 November
 OLEAUT32.dll
 OPENGL32.dll
 October
-P69!FW
 Phonon::AddonInterface
 Phonon::AudioOutputInterface
 Phonon::BackendInterface
@@ -498,17 +494,11 @@ Phonon::EffectInterface
 Phonon::MediaObjectInterface
 Phonon::VideoWidgetInterface
 Phonon::VolumeFaderInterface
-Q2ST
-Q8?wheelEvent@QWidget@@MEAAXPEAVQWheelEvent@@@Z
-QeHM
 QtCore4.dll
 QtGui4.dll
 Qt_GetCustomAllocators
 QueryPerformanceCounter
-RB\np~
-REiB
 RIFF
-RSDS
 RaiseException
 Rectangle
 ResetEvent
@@ -517,7 +507,6 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S;uD
 Saturday
 SelectObject
 September
@@ -533,67 +522,23 @@ TITLE
 TerminateProcess
 Thursday
 Tuesday
-U.AM
-U9SD
 UNKNOWN
 UUUUUU
-UYZ h7y
-UYZM
-UYZp
 UnhandledExceptionFilter
 Unknown error
 Unknown exception
-V>u`B
 VDEST
 VideoWidgetInterface3.phonon.kde.org
 VolumeFaderInterface4.phonon.kde.org
-W50en
-W50en {L
 WAVE
 WaitForMultipleObjects
 WaitForSingleObject
 Wednesday
-WfJ 
 WideCharToMultiByte
 WriteFile
-X=lh)
-Y1%a
-Y3@(G
-Ygu<
-YpQC
-ZfOgH
-Zo&J
-Zr|F
-['?setAttribute@QWidget@@QEAAXW4WidgetAttribute@Qt@@_N@Z
-[0r7
+YV12
 [thunk]:
-\R\nKp
 \\.\Cdrom0
-\f?blue@QColor@@QEBAHXZ
-\f?nextNode@QHashData@@SAPEAUNode@1@PEAU21@@Z
-\f?node_create@QMapData@@QEAAPEAUNode@1@QEAPEAU21@HH@Z
-\f?postEvent@QCoreApplication@@SAXPEAVQObject@@PEAVQEvent@@@Z
-\f?qFree@@YAXPEAX@Z
-\f?qHash@@YAIAEBVQByteArray@@@Z
-\fCPf
-\f\r?qMemCopy@@YAPEAXPEAXPEBX_K@Z
-\n?actionEvent@QWidget@@MEAAXPEAVQActionEvent@@@Z
-\n?isWidgetType@QObject@@QEBA_NXZ
-\nCPf
-\r4VQ
-\r?qWarning@@YAXPEBDZZ
-\r?qt_metacast@QObject@@UEAAPEAXPEBD@Z
-\r?qt_metacast@QThread@@UEAAPEAXPEBD@Z
-\rCPf
-\r\r?qMemSet@@YAPEAXPEAXH_K@Z
-\t?fromWCharArray@QString@@SA?AV1@PEBGH@Z
-\t?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
-\t?insert@QListData@@QEAAPEAPEAXH@Z
-\tCPf
-\v?metaObject@QObject@@UEBAPEBUQMetaObject@@XZ
-\v?mid@QByteArray@@QEBA?AV1@HH@Z
-\v?mid@QString@@QEBA?AV1@HH@Z
-\vCPf
 __based(
 __cdecl
 __clrcall
@@ -614,7 +559,6 @@ _cabs
 _hypot
 _logb
 _nextafter
-`*7YF
 `RTTI
 `adjustor{
 `anonymous namespace'
@@ -675,21 +619,16 @@ asyncSeekingFinished(quint16,qint64)
 atan
 atan2
 audioDeviceFailed()
+auds
 australian
 availableAnglesChanged(int)
 availableChaptersChanged(int)
 availableTitlesChanged(int)
-b[98Bp
-b\vp\nP
-b`NO
 bad exception
 belgian
-be~`D
 bool
 britain
 bufferStatus(int)
-cC?xM
-cY?>p
 canadian
 ceil
 chapterChanged(int)
@@ -712,13 +651,11 @@ cosf
 cosh
 currentSourceChanged(MediaSource)
 czech
-d\t?hasShrunk@QHashData@@QEAAXXZ
+data
 dddd, MMMM dd, yyyy
 double
 dutch-belgian
-e O*c
 e+000
-e4GL
 emlrt
 england
 english-american
@@ -737,10 +674,6 @@ english-usa
 enum 
 eventReady(Graph,long,long)
 extern "C" 
-f'8V
-f'?setAutoFillBackground@QWidget@@QEAAX_N@Z
-f/?sizeHint@QWidget@@UEBA?AVQSize@@XZ
-fX]r
 fabs
 finishLoading(quint16,HRESULT,Graph)
 finishSeeking(quint16,qint64)
@@ -779,25 +712,13 @@ glTexImage2D
 glTexParameterf
 glVertexPointer
 great britain
-h1kN
-h7?update@QWidget@@QEAAXAEBVQRect@@@Z
-h\r?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-h\vSx
 handleEvents(Graph,long,long)
 hasVideoChanged(bool)
 holland
 hong-kong
-i(Lc
-iekg
 int 
 irish-english
-it5E
 italian-swiss
-j\f?beginNativePainting@QPainter@@QEAAXXZ
-k7?update@QWidget@@QEAAXXZ
-kU'9
-k\ftS
-l\n?isNull@QVariant@@QEBA_NXZ
 ldexp
 length
 log10
@@ -805,16 +726,10 @@ log10f
 logf
 long
 long 
-lw#G
-m ly
 mediaObjectDestroyed()
 metaDataChanged(QMultiMap<QString,QString>)
 modf
 msdmo.dll
-myOE
-n&cl
-nCO&BB
-nL=S"
 name
 new-zealand
 newVolume
@@ -825,7 +740,6 @@ norwegian-nynorsk
 objectDescriptionChanged(ObjectDescriptionType)
 ole32.dll
 operator
-pUx{
 pattern=QT_PLUGIN_VERIFICATION_DATA\nversion=4.8.3\ndebug=false\nbuildkey=Windows x64 msvc release full-config
 pdvsd
 phonon4.dll
@@ -841,9 +755,6 @@ protected:
 prpza
 public: 
 puerto-rico
-pvids
-q+MD
-q3l\rC
 q7A15
 q7A44
 q7A88
@@ -886,7 +797,6 @@ qS340
 qS342
 qTVMJ
 qUYVY
-qUx{
 qWAKE
 qY210
 qY211
@@ -895,10 +805,8 @@ qY411
 qY41P
 qYUY2
 qYUYV
-qYV12
 qYVU9
 qYVYU
-qauds
 qdmcs
 qdv25
 qdv50
@@ -908,7 +816,6 @@ qdvsl
 qfile
 qjpeg
 qmids
-qoE`b
 qrle 
 qsmc 
 qt_plugin_instance
@@ -916,10 +823,6 @@ qt_plugin_query_verification_data
 qtxts
 quartz
 qurls
-rQ*M
-rUx{
-r}WF
-sUx{
 seekableChanged(bool)
 short
 short 
@@ -960,8 +863,6 @@ struct
 swedish-finland
 swiss
 switchToNextSource()
-tUx{
-t\f?bits@QImage@@QEAAPEAEXZ
 tanh
 template-parameter-
 tick(qint64)
@@ -970,14 +871,12 @@ time
 titleChanged(int)
 totalTimeChanged(qint64)
 trinidad & tobago
-u\vSx
-ud3*
 unable to load the TOC from the CD
 union 
 united-kingdom
 united-states
 unsigned 
-vU\vF.
+vids
 virtual 
 void
 void 
@@ -988,19 +887,5 @@ wchar_t
 wglGetProcAddress
 workId,hr,
 workId,time
-x$data
-x\vSx
-y\r?qt_metacall@QThread@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-y\vSx
-z?aUY
-zBP6
-zB`BoT>
-z\vSx
-zc%C1
 {flat}
 {for 
-|2?tabletEvent@QWidget@@MEAAXPEAVQTabletEvent@@@Z
-|\r?changeEvent@QWidget@@MEAAXPEAVQEvent@@@Z
-~Clft
-~RRk
-~iGt

@@ -1,11 +1,4 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- 2?supportsExtension@QGraphicsRectItem@@MBE_NW4Extension@QGraphicsItem@@@Z
- ?palette@QWidget@@QBEABVQPalette@@XZ
- ?parentItem@QGraphicsItem@@QBEPAV1@XZ
- ?pixel@QImage@@QBEIHH@Z
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -16,31 +9,7 @@
  new
  throw(
  volatile
-"?qt_metacast@QAction@@UAEPAXPBD@Z
-$?rect@QGraphicsRectItem@@QBE?AVQRectF@@XZ
-$?rect@QWidget@@QBE?AVQRect@@XZ
-$?rects@QRegion@@QBE?AV?$QVector@VQRect@@@@XZ
-$?removeItem@QGraphicsScene@@QAEXPAVQGraphicsItem@@@Z
-%?render@QGraphicsView@@QAEXPAVQPainter@@ABVQRectF@@ABVQRect@@W4AspectRatioMode@Qt@@@Z
-%?rgb@QColor@@QBEIXZ
-&"?qt_metacall@QAction@@UAEHW4Call@QMetaObject@@HPAPAX@Z
-&\t?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPAU12@PBVQObject@@@Z
-'?setBrush@QAbstractGraphicsShapeItem@@QAEXABVQBrush@@@Z
-(?setColor@QPen@@QAEXABVQColor@@@Z
-(?setData@QAction@@QAEXABVQVariant@@@Z
-(?setData@QGraphicsItem@@QAEXHABVQVariant@@@Z
-))?setExtension@QGraphicsItem@@MAEXW4Extension@1@ABVQVariant@@@Z
-+?setPen@QAbstractGraphicsShapeItem@@QAEXABVQPen@@@Z
-+?setPolygon@QGraphicsPolygonItem@@QAEXABVQPolygonF@@@Z
-+\f?objectName@QObject@@QBE?AVQString@@XZ
 ,<ellipsis>
-,?setSceneRect@QGraphicsView@@QAEXABVQRectF@@@Z
-,?setShortcut@QAction@@QAEXABVQKeySequence@@@Z
--)?setExtension@QGraphicsPolygonItem@@MAEXW4Extension@QGraphicsItem@@ABVQVariant@@@Z
--64OS
--?setToolTip@QWidget@@QAEXABVQString@@@Z
--?setTransform@QGraphicsView@@QAEXABVQTransform@@_N@Z
-.)?setExtension@QGraphicsRectItem@@MAEXW4Extension@QGraphicsItem@@ABVQVariant@@@Z
 .?AVAbstractLiveEditTool@QmlJSDebugger@@
 .?AVAbstractTool@QmlJSDebugger@@
 .?AVAbstractViewInspector@QmlJSDebugger@@
@@ -70,16 +39,10 @@ $?removeItem@QGraphicsScene@@QAEXPAVQGraphicsItem@@@Z
 .?AVbad_typeid@std@@
 .?AVexception@std@@
 .?AVtype_info@@
-.?setZValue@QGraphicsItem@@QAEXN@Z
-.?shape@QGraphicsItem@@UBE?AVQPainterPath@@XZ
-.?shape@QGraphicsPolygonItem@@UBE?AVQPainterPath@@XZ
-.?shape@QGraphicsRectItem@@UBE?AVQPainterPath@@XZ
-.?show@QWidget@@QAEXXZ
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-1?style@QBrush@@QBE?AW4BrushStyle@Qt@@XZ
 1_q_onStatusChanged(QDeclarativeView::Status)
 1_q_removeFromSelection(QObject*)
 1contextMenuElementHovered(QAction*)
@@ -90,10 +53,8 @@ $?removeItem@QGraphicsScene@@QAEXPAVQGraphicsItem@@@Z
 1repaintBoundingRects()
 1sendColorChanged(QColor)
 1zoomIn()
+1zoomOut()
 1zoomTo100()
-2?subtracted@QRegion@@QBE?AV1@ABV1@@Z
-2?supportsExtension@QGraphicsItem@@MBE_NW4Extension@1@@Z
-2?supportsExtension@QGraphicsPolygonItem@@MBE_NW4Extension@QGraphicsItem@@@Z
 2destroyed(QObject*)
 2gotMessage(QByteArray)
 2heightChanged()
@@ -105,18 +66,8 @@ $?removeItem@QGraphicsScene@@QAEXPAVQGraphicsItem@@@Z
 2widthChanged()
 2xChanged()
 2yChanged()
-5.?setVisible@QGraphicsItem@@QAEX_N@Z
-6&?scale@QTransform@@QAEAAV1@NN@Z
-6?type@QGraphicsRectItem@@UBEHXZ
-8,?setRect@QGraphicsRectItem@@QAEXABVQRectF@@@Z
-8?viewport@QAbstractScrollArea@@QBEPAVQWidget@@XZ
-8?window@QWidget@@QBEPAV1@XZ
-8?windowFlags@QWidget@@QBE?AV?$QFlags@W4WindowType@Qt@@@@XZ
-9 ?paint@QGraphicsPolygonItem@@UAEXPAVQPainter@@PBVQStyleOptionGraphicsItem@@PAVQWidget@@@Z
-; ?paint@QGraphicsRectItem@@UAEXPAVQPainter@@PBVQStyleOptionGraphicsItem@@PAVQWidget@@@Z
 <ellipsis>
 <unknown>
-?1zoomOut()
 ??0QAction@@QAE@ABVQString@@PAVQObject@@@Z
 ??0QBrush@@QAE@ABVQColor@@W4BrushStyle@Qt@@@Z
 ??0QChar@@QAE@UQLatin1Char@@@Z
@@ -189,18 +140,31 @@ $?removeItem@QGraphicsScene@@QAEXPAVQGraphicsItem@@@Z
 ??UQRectF@@QBE?AV0@ABV0@@Z
 ??YQString@@QAEAAV0@VQChar@@@Z
 ??_7QDeclarativeInspectorInterface@@6B@
-?Warning: Not handling message:
 ?activate@QMetaObject@@SAXPAVQObject@@PBU1@HPAPAX@Z
+?addAction@QMenu@@QAEPAVQAction@@ABVQString@@@Z
+?addAction@QMenu@@QAEPAVQAction@@ABVQString@@PBVQObject@@PBDABVQKeySequence@@@Z
+?addAction@QWidget@@QAEXPAVQAction@@@Z
 ?addGuard@QMetaObject@@SAXPAPAVQObject@@@Z
+?addItem@QGraphicsScene@@QAEXPAVQGraphicsItem@@@Z
+?addRect@QPainterPath@@QAEXABVQRectF@@@Z
+?addSeparator@QMenu@@QAEPAVQAction@@XZ
+?advance@QGraphicsItem@@UAEXH@Z
 ?allocate@QVectorData@@SAPAU1@HH@Z
 ?allocateNode@QHashData@@QAEPAXH@Z
 ?append2@QListData@@QAEPAPAXABU1@@Z
 ?append@QListData@@QAEPAPAXXZ
 ?append@QString@@QAEAAV1@ABV1@@Z
 ?atEnd@QDataStream@@QBE_NXZ
+?backgroundBrush@QGraphicsView@@QBE?AVQBrush@@XZ
+?boundingRect@QGraphicsPolygonItem@@UBE?AVQRectF@@XZ
+?boundingRect@QGraphicsRectItem@@UBE?AVQRectF@@XZ
+?boundingRect@QPolygonF@@QBE?AVQRectF@@XZ
+?buttons@QMouseEvent@@QBE?AV?$QFlags@W4MouseButton@Qt@@@@XZ
 ?cast@QMetaObject@@QBEPAVQObject@@PAV2@@Z
 ?changeGuard@QMetaObject@@SAXPAPAVQObject@@PAV2@@Z
 ?childEvent@QObject@@MAEXPAVQChildEvent@@@Z
+?childItems@QGraphicsItem@@QBE?AV?$QList@PAVQGraphicsItem@@@@XZ
+?childrenBoundingRect@QGraphicsItem@@QBE?AVQRectF@@XZ
 ?clearComponentCache@QDeclarativeEngine@@QAEXXZ
 ?collidesWithItem@QGraphicsItem@@UBE_NPBV1@W4ItemSelectionMode@Qt@@@Z
 ?collidesWithPath@QGraphicsItem@@UBE_NABVQPainterPath@@W4ItemSelectionMode@Qt@@@Z
@@ -252,12 +216,15 @@ $?removeItem@QGraphicsScene@@QAEXPAVQGraphicsItem@@@Z
 ?fromLatin1_helper@QString@@CAPAUData@1@PBDH@Z
 ?fromLocalFile@QUrl@@SA?AV1@ABVQString@@@Z
 ?fromRgb@QColor@@SA?AV1@I@Z
+?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPAU12@PBVQObject@@@Z
+?hasShrunk@QHashData@@QAEXXZ
 ?hoverEnterEvent@QGraphicsItem@@MAEXPAVQGraphicsSceneHoverEvent@@@Z
 ?hoverLeaveEvent@QGraphicsItem@@MAEXPAVQGraphicsSceneHoverEvent@@@Z
 ?hoverMoveEvent@QGraphicsItem@@MAEXPAVQGraphicsSceneHoverEvent@@@Z
 ?idForObject@QDeclarativeDebugService@@SAHPAVQObject@@@Z
 ?inputMethodEvent@QGraphicsItem@@MAEXPAVQInputMethodEvent@@@Z
 ?inputMethodQuery@QGraphicsItem@@MBE?AVQVariant@@W4InputMethodQuery@Qt@@@Z
+?installEventFilter@QObject@@QAEXPAV1@@Z
 ?instance@QDeclarativeInspectorService@@SAPAV1@XZ
 ?invalidate@QColor@@AAEXXZ
 ?isObscuredBy@QGraphicsItem@@UBE_NPBV1@@Z
@@ -269,6 +236,8 @@ $?removeItem@QGraphicsScene@@QAEXPAVQGraphicsItem@@@Z
 ?items@QGraphicsView@@QBE?AV?$QList@PAVQGraphicsItem@@@@ABVQPoint@@@Z
 ?keyPressEvent@QGraphicsItem@@MAEXPAVQKeyEvent@@@Z
 ?keyReleaseEvent@QGraphicsItem@@MAEXPAVQKeyEvent@@@Z
+?manhattanLength@QPoint@@QBEHXZ
+?manhattanLength@QPointF@@QBENXZ
 ?mapFromScene@QGraphicsItem@@QBE?AVQPolygonF@@ABVQRectF@@@Z
 ?mapRectFromScene@QGraphicsItem@@QBE?AVQRectF@@ABV2@@Z
 ?mapRectToScene@QGraphicsItem@@QBE?AVQRectF@@ABV2@@Z
@@ -282,44 +251,110 @@ $?removeItem@QGraphicsScene@@QAEXPAVQGraphicsItem@@@Z
 ?mouseMoveEvent@QGraphicsItem@@MAEXPAVQGraphicsSceneMouseEvent@@@Z
 ?mousePressEvent@QGraphicsItem@@MAEXPAVQGraphicsSceneMouseEvent@@@Z
 ?mouseReleaseEvent@QGraphicsItem@@MAEXPAVQGraphicsSceneMouseEvent@@@Z
+?nextNode@QHashData@@SAPAUNode@1@PAU21@@Z
 ?objectForId@QDeclarativeDebugService@@SAPAVQObject@@H@Z
+?objectName@QObject@@QBE?AVQString@@XZ
 ?opaqueArea@QGraphicsItem@@UBE?AVQPainterPath@@XZ
 ?opaqueArea@QGraphicsPolygonItem@@UBE?AVQPainterPath@@XZ
 ?opaqueArea@QGraphicsRectItem@@UBE?AVQPainterPath@@XZ
+?paint@QGraphicsPolygonItem@@UAEXPAVQPainter@@PBVQStyleOptionGraphicsItem@@PAVQWidget@@@Z
+?paint@QGraphicsRectItem@@UAEXPAVQPainter@@PBVQStyleOptionGraphicsItem@@PAVQWidget@@@Z
+?palette@QWidget@@QBEABVQPalette@@XZ
+?parentItem@QGraphicsItem@@QBEPAV1@XZ
+?pixel@QImage@@QBEIHH@Z
+?previousNode@QHashData@@SAPAUNode@1@PAU21@@Z
+?qFree@@YAXPAX@Z
+?qWarning@@YA?AVQDebug@@XZ
+?qt_metacall@QAction@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+?qt_metacall@QGraphicsObject@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+?qt_metacall@QObject@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+?qt_metacast@QAction@@UAEPAXPBD@Z
+?qt_metacast@QGraphicsObject@@UAEPAXPBD@Z
+?qt_metacast@QObject@@UAEPAXPBD@Z
 ?realloc@QListData@@QAEXH@Z
 ?reallocate@QVectorData@@SAPAU1@PAU1@HHH@Z
+?rect@QGraphicsRectItem@@QBE?AVQRectF@@XZ
+?rect@QWidget@@QBE?AVQRect@@XZ
+?rects@QRegion@@QBE?AV?$QVector@VQRect@@@@XZ
 ?rehash@QHashData@@QAEXH@Z
 ?remove@QListData@@QAEXH@Z
 ?remove@QString@@QAEAAV1@ABV1@W4CaseSensitivity@Qt@@@Z
 ?remove@QString@@QAEAAV1@ABVQRegExp@@@Z
 ?removeEventFilter@QObject@@QAEXPAV1@@Z
 ?removeGuard@QMetaObject@@SAXPAPAVQObject@@@Z
+?removeItem@QGraphicsScene@@QAEXPAVQGraphicsItem@@@Z
+?render@QGraphicsView@@QAEXPAVQPainter@@ABVQRectF@@ABVQRect@@W4AspectRatioMode@Qt@@@Z
+?rgb@QColor@@QBEIXZ
+?scale@QTransform@@QAEAAV1@NN@Z
+?scene@QGraphicsItem@@QBEPAVQGraphicsScene@@XZ
+?scene@QGraphicsView@@QBEPAVQGraphicsScene@@XZ
+?sceneEvent@QGraphicsItem@@MAE_NPAVQEvent@@@Z
+?sceneEventFilter@QGraphicsItem@@MAE_NPAV1@PAVQEvent@@@Z
 ?sendMessage@QDeclarativeInspectorService@@QAEXABVQByteArray@@@Z
 ?sender@QObject@@IBEPAV1@XZ
 ?setAnimationSlowDownFactor@QDeclarativeDebugHelper@@SAXN@Z
+?setAttribute@QWidget@@QAEXW4WidgetAttribute@Qt@@_N@Z
+?setBrush@QAbstractGraphicsShapeItem@@QAEXABVQBrush@@@Z
+?setColor@QPen@@QAEXABVQColor@@@Z
+?setCursor@QWidget@@QAEXABVQCursor@@@Z
+?setData@QAction@@QAEXABVQVariant@@@Z
 ?setData@QDeclarativeComponent@@QAEXABVQByteArray@@ABVQUrl@@@Z
+?setData@QGraphicsItem@@QAEXHABVQVariant@@@Z
+?setExtension@QGraphicsItem@@MAEXW4Extension@1@ABVQVariant@@@Z
+?setExtension@QGraphicsPolygonItem@@MAEXW4Extension@QGraphicsItem@@ABVQVariant@@@Z
+?setExtension@QGraphicsRectItem@@MAEXW4Extension@QGraphicsItem@@ABVQVariant@@@Z
+?setFlag@QGraphicsItem@@QAEXW4GraphicsItemFlag@1@_N@Z
+?setFont@QAction@@QAEXABVQFont@@@Z
 ?setParent@QObject@@QAEXPAV1@@Z
 ?setParentItem@QDeclarativeItem@@QAEXPAV1@@Z
+?setPen@QAbstractGraphicsShapeItem@@QAEXABVQPen@@@Z
+?setPolygon@QGraphicsPolygonItem@@QAEXABVQPolygonF@@@Z
+?setRect@QGraphicsRectItem@@QAEXABVQRectF@@@Z
+?setRgb@QColor@@QAEXHHHH@Z
+?setSceneRect@QGraphicsView@@QAEXABVQRectF@@@Z
+?setShortcut@QAction@@QAEXABVQKeySequence@@@Z
+?setToolTip@QWidget@@QAEXABVQString@@@Z
+?setTransform@QGraphicsView@@QAEXABVQTransform@@_N@Z
+?setVisible@QGraphicsItem@@QAEX_N@Z
+?setWeight@QFont@@QAEXH@Z
+?setWidth@QPen@@QAEXH@Z
+?setWindowFlags@QWidget@@QAEXV?$QFlags@W4WindowType@Qt@@@@@Z
+?setZValue@QGraphicsItem@@QAEXN@Z
+?shape@QGraphicsItem@@UBE?AVQPainterPath@@XZ
+?shape@QGraphicsPolygonItem@@UBE?AVQPainterPath@@XZ
+?shape@QGraphicsRectItem@@UBE?AVQPainterPath@@XZ
 ?shared_null@QByteArray@@0UData@1@A
 ?shared_null@QHashData@@2U1@A
 ?shared_null@QListData@@2UData@1@A
 ?shared_null@QString@@0UData@1@A
+?show@QWidget@@QAEXXZ
 ?start@QTime@@QAEXXZ
 ?startsWith@QString@@QBE_NABVQLatin1String@@W4CaseSensitivity@Qt@@@Z
 ?staticMetaObject@QDeclarativeItem@@2UQMetaObject@@B
+?staticMetaObject@QGraphicsObject@@2UQMetaObject@@B
 ?staticMetaObject@QObject@@2UQMetaObject@@B
+?style@QBrush@@QBE?AW4BrushStyle@Qt@@XZ
+?subtracted@QRegion@@QBE?AV1@ABV1@@Z
+?supportsExtension@QGraphicsItem@@MBE_NW4Extension@1@@Z
+?supportsExtension@QGraphicsPolygonItem@@MBE_NW4Extension@QGraphicsItem@@@Z
+?supportsExtension@QGraphicsRectItem@@MBE_NW4Extension@QGraphicsItem@@@Z
 ?timerEvent@QObject@@MAEXPAVQTimerEvent@@@Z
 ?toBool@QVariant@@QBE_NXZ
+?toFillPolygon@QPainterPath@@QBE?AVQPolygonF@@ABVQMatrix@@@Z
+?toGraphicsObject@QGraphicsItem@@QAEPAVQGraphicsObject@@XZ
 ?toInt@QVariant@@QBEHPA_N@Z
 ?toLatin1@QString@@QBE?AVQByteArray@@XZ
 ?toPoint@QPointF@@QBE?AVQPoint@@XZ
 ?toRect@QRectF@@QBE?AVQRect@@XZ
 ?tr@QMetaObject@@QBE?AVQString@@PBD0@Z
+?type@QGraphicsRectItem@@UBEHXZ
 ?valueToKey@QMetaEnum@@QBEPBDH@Z
+?viewport@QAbstractScrollArea@@QBEPAVQWidget@@XZ
 ?views@QDeclarativeInspectorService@@QBE?AV?$QList@PAVQDeclarativeView@@@@XZ
+?wheelEvent@QGraphicsItem@@MAEXPAVQGraphicsSceneWheelEvent@@@Z
+?window@QWidget@@QBEPAV1@XZ
+?windowFlags@QWidget@@QBE?AV?$QFlags@W4WindowType@Qt@@@@XZ
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
-A\f?backgroundBrush@QGraphicsView@@QBE?AVQBrush@@XZ
-A\v?addRect@QPainterPath@@QAEXABVQRectF@@@Z
 AnimationPausedChanged
 AnimationSpeedChanged
 April
@@ -339,7 +374,6 @@ EncodePointer
 EnterCriticalSection
 EnumSystemLocalesA
 ExitProcess
-F.?setWeight@QFont@@QAEXH@Z
 FatalAppExitA
 February
 FlsAlloc
@@ -378,17 +412,13 @@ GetSystemTimeAsFileTime
 GetTickCount
 GetUserDefaultLCID
 GetUserObjectInformationW
-H&?scene@QGraphicsItem@@QBEPAVQGraphicsScene@@XZ
 HH:mm:ss
-HMXB
 HeapAlloc
 HeapCreate
 HeapDestroy
 HeapFree
 HeapReAlloc
 HeapSize
-I&?scene@QGraphicsView@@QBEPAVQGraphicsScene@@XZ
-I8?wheelEvent@QGraphicsItem@@MAEXPAVQGraphicsSceneWheelEvent@@@Z
 InitializeCriticalSectionAndSpinCount
 InterlockedDecrement
 InterlockedExchange
@@ -402,7 +432,6 @@ January
 July
 June
 KERNEL32.dll
-L&?sceneEvent@QGraphicsItem@@MAE_NPAVQEvent@@@Z
 LCMapStringW
 LC_ALL
 LC_COLLATE
@@ -419,12 +448,9 @@ MessageBoxW
 Monday
 MoveObject
 MultiByteToWideChar
-N0?staticMetaObject@QGraphicsObject@@2UQMetaObject@@B
-NKeb
 NULL
 Norwegian-Nynorsk
 November
-O&?sceneEventFilter@QGraphicsItem@@MAE_NPAV1@PAVQEvent@@@Z
 ObjectIdList
 October
 QDeclarative
@@ -447,15 +473,10 @@ QtDeclarative4.dll
 QtGui4.dll
 Qt_GetCustomAllocators
 QueryPerformanceCounter
-RSDSN?8ItHyI
 RaiseException
 Reload
 Reloaded
 RtlUnwind
-S"?qt_metacall@QGraphicsObject@@UAEHW4Call@QMetaObject@@HPAPAX@Z
-S,?setRgb@QColor@@QAEXHHHH@Z
-S;uD
-S\v?addSeparator@QMenu@@QAEPAVQAction@@XZ
 Saturday
 SelectMarqueeTool
 SelectTool
@@ -484,39 +505,15 @@ Tuesday
 UNKNOWN
 UnhandledExceptionFilter
 Unknown exception
-W3?toFillPolygon@QPainterPath@@QBE?AVQPolygonF@@ABVQMatrix@@@Z
+Warning: Not handling message:
 Wednesday
 WideCharToMultiByte
 WriteFile
-Y\v?manhattanLength@QPoint@@QBEHXZ
-Z\v?manhattanLength@QPointF@@QBENXZ
 Zoom In
 Zoom Out
 Zoom to &100%
 ZoomTool
-['?setAttribute@QWidget@@QAEXW4WidgetAttribute@Qt@@_N@Z
 [thunk]:
-\f?boundingRect@QGraphicsPolygonItem@@UBE?AVQRectF@@XZ
-\f?boundingRect@QGraphicsRectItem@@UBE?AVQRectF@@XZ
-\f?boundingRect@QPolygonF@@QBE?AVQRectF@@XZ
-\f?nextNode@QHashData@@SAPAUNode@1@PAU21@@Z
-\f?previousNode@QHashData@@SAPAUNode@1@PAU21@@Z
-\f?qFree@@YAXPAX@Z
-\n#?qt_metacast@QGraphicsObject@@UAEPAXPBD@Z
-\n?addAction@QMenu@@QAEPAVQAction@@ABVQString@@@Z
-\n?addAction@QMenu@@QAEPAVQAction@@ABVQString@@PBVQObject@@PBDABVQKeySequence@@@Z
-\n?addAction@QWidget@@QAEXPAVQAction@@@Z
-\r?buttons@QMouseEvent@@QBE?AV?$QFlags@W4MouseButton@Qt@@@@XZ
-\r?childItems@QGraphicsItem@@QBE?AV?$QList@PAVQGraphicsItem@@@@XZ
-\r?childrenBoundingRect@QGraphicsItem@@QBE?AVQRectF@@XZ
-\r?qWarning@@YA?AVQDebug@@XZ
-\r?qt_metacast@QObject@@UAEPAXPBD@Z
-\t?installEventFilter@QObject@@QAEXPAV1@@Z
-\v?addItem@QGraphicsScene@@QAEXPAVQGraphicsItem@@@Z
-\v?advance@QGraphicsItem@@UAEXH@Z
-])?setFlag@QGraphicsItem@@QAEXW4GraphicsItemFlag@1@_N@Z
-].?setWidth@QPen@@QAEXH@Z
-]3?toGraphicsObject@QGraphicsItem@@QAEPAVQGraphicsObject@@XZ
 _QMLTYPE_\d+
 __based(
 __cdecl
@@ -632,7 +629,6 @@ contextMenuElementHovered(QAction*)
 contextMenuElementSelected()
 cosh
 czech
-d\t?hasShrunk@QHashData@@QAEXXZ
 dddd, MMMM dd, yyyy
 designModeBehaviorChanged(bool)
 double
@@ -671,7 +667,6 @@ german-lichtenstein
 german-luxembourg
 german-swiss
 great britain
-h\r?qt_metacall@QObject@@UAEHW4Call@QMetaObject@@HPAPAX@Z
 handleMessage(QByteArray)
 holland
 hong-kong
@@ -680,8 +675,6 @@ int
 irish-english
 italian-swiss
 itemDestroyed(QObject*)
-kU'9
-l.?setWindowFlags@QWidget@@QAEXV?$QFlags@W4WindowType@Qt@@@@@Z
 ldexp
 log10
 long
@@ -758,7 +751,6 @@ tanh
 template-parameter-
 tier0.dll
 trinidad & tobago
-u(?setCursor@QWidget@@QAEXABVQCursor@@@Z
 union 
 united-kingdom
 united-states
@@ -770,12 +762,9 @@ void
 volatile
 volatile 
 wchar_t
-z?aUY
-zc%C1
 zoomIn()
 zoomOut()
 zoomTo100()
 zoomToolActivated()
 {flat}
 {for 
-})?setFont@QAction@@QAEXABVQFont@@@Z

@@ -1,7 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -12,15 +10,6 @@
  new
  throw(
  volatile
-#?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
-$?releaseDC@QPaintDevice@@UEBAXPEAUHDC__@@@Z
-(?setColor@QImage@@QEAAXHI@Z
-(?setColorCount@QImage@@QEAAXH@Z
-(?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
-)?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
-)?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
-+?setOption@QImageIOHandler@@UEAAXW4ImageOption@1@AEBVQVariant@@@Z
-+?setPixel@QImage@@QEAAXHHI@Z
 ,<ellipsis>
 .?AUQFactoryInterface@@
 .?AUQImageIOHandlerFactoryInterface@@
@@ -37,11 +26,8 @@ $?releaseDC@QPaintDevice@@UEBAXPEAUHDC__@@@Z
 .?AVbad_typeid@std@@
 .?AVexception@std@@
 .?AVtype_info@@
-9\f?open@QBuffer@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
-<&?scaled@QImage@@QEBA?AV1@HHW4AspectRatioMode@Qt@@W4TransformationMode@3@@Z
 <ellipsis>
 <unknown>
-=\r?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
 ??0QBuffer@@QEAA@PEAVQByteArray@@PEAVQObject@@@Z
 ??0QByteArray@@QEAA@PEBD@Z
 ??0QByteArray@@QEAA@XZ
@@ -62,6 +48,7 @@ $?releaseDC@QPaintDevice@@UEBAXPEAUHDC__@@@Z
 ??4QImage@@QEAAAEAV0@$$QEAV0@@Z
 ??4QImage@@QEAAAEAV0@AEBV0@@Z
 ?append@QListData@@QEAAPEAPEAXXZ
+?bytesPerLine@QImage@@QEBAHXZ
 ?changeGuard@QMetaObject@@SAXPEAPEAVQObject@@PEAV2@@Z
 ?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
 ?connectNotify@QObject@@MEAAXPEBD@Z
@@ -87,14 +74,39 @@ $?releaseDC@QPaintDevice@@UEBAXPEAUHDC__@@@Z
 ?height@QImage@@QEBAHXZ
 ?invertPixels@QImage@@QEAAXW4InvertMode@1@@Z
 ?isNull@QImage@@QEBA_NXZ
+?isOpen@QIODevice@@QEBA_NXZ
+?isReadable@QIODevice@@QEBA_NXZ
+?isWritable@QIODevice@@QEBA_NXZ
 ?loopCount@QImageIOHandler@@UEBAHXZ
 ?metaObject@QImageIOPlugin@@UEBAPEBUQMetaObject@@XZ
 ?metric@QImage@@MEBAHW4PaintDeviceMetric@QPaintDevice@@@Z
 ?nextImageDelay@QImageIOHandler@@UEBAHXZ
+?open@QBuffer@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
+?paintEngine@QImage@@UEBAPEAVQPaintEngine@@XZ
+?qFree@@YAXPEAX@Z
+?qMemCopy@@YAPEAXPEAXPEBX_K@Z
+?qWarning@@YAXPEBDZZ
+?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
+?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
+?read@QIODevice@@QEAA?AVQByteArray@@_J@Z
+?read@QIODevice@@QEAA_JPEAD_J@Z
+?releaseDC@QPaintDevice@@UEBAXPEAUHDC__@@@Z
 ?removeGuard@QMetaObject@@SAXPEAPEAVQObject@@@Z
+?scaled@QImage@@QEBA?AV1@HHW4AspectRatioMode@Qt@@W4TransformationMode@3@@Z
+?scanLine@QImage@@QEAAPEAEH@Z
+?setAlphaChannel@QImage@@QEAAXAEBV1@@Z
+?setColor@QImage@@QEAAXHI@Z
+?setColorCount@QImage@@QEAAXH@Z
+?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
+?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
+?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
+?setOption@QImageIOHandler@@UEAAXW4ImageOption@1@AEBVQVariant@@@Z
+?setPixel@QImage@@QEAAXHHI@Z
 ?shared_null@QListData@@2UData@1@A
 ?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
 ?ungetChar@QIODevice@@QEAAXD@Z
+?width@QImage@@QEBAHXZ
 ?write@QIODevice@@QEAA_JPEBD_J@Z
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 April
@@ -108,7 +120,6 @@ EncodePointer
 EnterCriticalSection
 EnumSystemLocalesA
 ExitProcess
-F&?scanLine@QImage@@QEAAPEAEH@Z
 FatalAppExitA
 February
 FlsAlloc
@@ -148,7 +159,6 @@ GetTickCount
 GetUserDefaultLCID
 GetUserObjectInformationW
 GetVersion
-H'?setAlphaChannel@QImage@@QEAAXAEBV1@@Z
 HH:mm:ss
 HeapAlloc
 HeapCreate
@@ -161,7 +171,6 @@ InitializeCriticalSectionAndSpinCount
 IsDebuggerPresent
 IsValidCodePage
 IsValidLocale
-J ?paintEngine@QImage@@UEBAPEAVQPaintEngine@@XZ
 January
 July
 June
@@ -184,13 +193,11 @@ NULL
 Norwegian-Nynorsk
 November
 October
-PNG\r\n
 QtCore4.dll
 QtGui4.dll
 QtIcoHandler::canRead() called with no device
 Qt_GetCustomAllocators
 QueryPerformanceCounter
-RSDSg
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -216,14 +223,6 @@ Wednesday
 WideCharToMultiByte
 WriteFile
 [thunk]:
-\f?qFree@@YAXPEAX@Z
-\f\r?qMemCopy@@YAPEAXPEAXPEBX_K@Z
-\n?isReadable@QIODevice@@QEBA_NXZ
-\n?isWritable@QIODevice@@QEBA_NXZ
-\r?qWarning@@YAXPEBDZZ
-\r?read@QIODevice@@QEAA?AVQByteArray@@_J@Z
-\r?read@QIODevice@@QEAA_JPEAD_J@Z
-\v\r?bytesPerLine@QImage@@QEBAHXZ
 __based(
 __cdecl
 __clrcall
@@ -331,7 +330,6 @@ english-us
 english-usa
 enum 
 extern "C" 
-f"?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 float
 french-belgian
 french-canadian
@@ -354,7 +352,6 @@ new-zealand
 norwegian
 norwegian-bokmal
 norwegian-nynorsk
-o\n?isOpen@QIODevice@@QEBA_NXZ
 operator
 pattern=QT_PLUGIN_VERIFICATION_DATA\nversion=4.8.3\ndebug=false\nbuildkey=Windows x64 msvc release full-config
 portuguese-brazilian
@@ -412,6 +409,5 @@ void
 volatile
 volatile 
 wchar_t
-{8?width@QImage@@QEBAHXZ
 {flat}
 {for 

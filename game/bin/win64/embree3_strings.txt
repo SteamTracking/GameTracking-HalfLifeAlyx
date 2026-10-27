@@ -109,17 +109,6 @@
  line 
  per traversal
 !avx2::BVH4Triangle4iIntersector1Pluecker
-!avx2::BVH4Triangle4iMBIntersector4HybridPluecker
-!avx2::BVH4Triangle4iMBIntersector8HybridPluecker
-!avx2::BVH8Triangle4iIntersector1Pluecker
-!avx2::BVH8Triangle4iMBIntersector4HybridPluecker
-!avx2::BVH8Triangle4iMBIntersector8HybridPluecker
-!avx::BVH4Quad4vIntersector4HybridMoellerNoFilter
-!avx::BVH4Quad4vIntersector8HybridMoellerNoFilter
-!avx::BVH4Triangle4vMBIntersector1Pluecker
-!avx::BVH8Quad4vIntersector4HybridMoellerNoFilter
-!avx::BVH8Quad4vIntersector8HybridMoellerNoFilter
-!avx::BVH8Triangle4vMBIntersector1Pluecker
 "SHARED TESSELLATION CACHE"
 #bytes = 
 #bytes/prim = 
@@ -130,38 +119,6 @@
 #user7/user3 
 % active
 % filled), 
-%t$\t%d#\t%4"\t%
-%t0\t%d/\t%4.\t%
-%tR\v%dQ\v%4P\v%
-%tV\v%dU\v%4T\v%
-%t`\v%d_\v%4^\v%
-%td\v%dc\v%4b\v%
-*t%\v*d$\v*4#\v*
-*t)\f*d(\f*4&\f*
-*t-\v*d,\v*4+\v*
-*t1\v*d0\v*4/\v*
-*t5\n*d4\n*42\n*
-*t5\t*d4\t*42\t*
-*t5\v*d4\v*43\v*
-*t9\v*d8\v*47\v*
-*t;\t*d:\t*48\t*
-*t?\t*d>\t*4<\t*
-*tA\n*d@\n*4>\n*
-*tE\f*dD\f*4B\f*
-*tE\v*dD\v*4C\v*
-*tM\f*dL\f*4J\f*
-*tQ\f*dP\f*4N\f*
-*tQ\v*dP\v*4O\v*
-*tU\v*dT\v*4S\v*
-*tY\v*dX\v*4W\v*
-*t\r\v*d\f\v*4\v\v*
-*t]\v*d\\v*4[\v*
-*ta\v*d`\v*4_\v*
-*te\t*dd\t*4b\t*
-*te\v*dd\v*4c\v*
-*tm\v*dl\v*4k\v*
-*tq\t*dp\t*4n\t*
-*tq\v*dp\v*4o\v*
 +inf
 , defaultBlockSize = 
 , maxGrowSize = 
@@ -1133,11 +1090,9 @@
 .xdata
 .xdata$x
 0123456789
-0\rP!1
 100.0f * cache_hits / cache_accesses
 3.6.1
 333?
-9avx::BVH4Triangle4vIntersector4HybridPluecker
 : float expected
 : identifier expected
 : integer expected
@@ -1193,7 +1148,6 @@
 ?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
 ?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
 ?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
-?sse2::BVH4Triangle4Intersector4HybridMoellerNoFilter
 ?startThreads@TaskScheduler@embree@@CAXXZ
 ?startThreads@ThreadPool@TaskScheduler@embree@@QEAAXXZ
 ?swapThread@TaskScheduler@embree@@CAPEAUThread@12@PEAU312@@Z
@@ -1263,7 +1217,6 @@ EnterCriticalSection
 F16C 
 FMA3 
 FTZ=
-G, depth = 
 GenuineIntel
 GetActiveProcessorCount
 GetActiveProcessorGroupCount
@@ -1369,7 +1322,6 @@ YMM
 ZMM 
 [END]
 _CxxThrowException
-_\n4x`\n+ha\n"
 __C_specific_handler
 __CxxFrameHandler3
 __std_exception_copy
@@ -1486,7 +1438,9 @@ avx2::BVH4Triangle4iIntersectorStreamPluecker
 avx2::BVH4Triangle4iMBIntersector1Moeller
 avx2::BVH4Triangle4iMBIntersector1Pluecker
 avx2::BVH4Triangle4iMBIntersector4HybridMoeller
+avx2::BVH4Triangle4iMBIntersector4HybridPluecker
 avx2::BVH4Triangle4iMBIntersector8HybridMoeller
+avx2::BVH4Triangle4iMBIntersector8HybridPluecker
 avx2::BVH4Triangle4vIntersector1Pluecker
 avx2::BVH4Triangle4vIntersector4HybridPluecker
 avx2::BVH4Triangle4vIntersector8HybridPluecker
@@ -1558,6 +1512,7 @@ avx2::BVH8Triangle4Intersector8HybridMoellerNoFilter
 avx2::BVH8Triangle4IntersectorStreamMoeller
 avx2::BVH8Triangle4IntersectorStreamMoellerNoFilter
 avx2::BVH8Triangle4iIntersector1Moeller
+avx2::BVH8Triangle4iIntersector1Pluecker
 avx2::BVH8Triangle4iIntersector4HybridMoeller
 avx2::BVH8Triangle4iIntersector4HybridPluecker
 avx2::BVH8Triangle4iIntersector8HybridMoeller
@@ -1567,7 +1522,9 @@ avx2::BVH8Triangle4iIntersectorStreamPluecker
 avx2::BVH8Triangle4iMBIntersector1Moeller
 avx2::BVH8Triangle4iMBIntersector1Pluecker
 avx2::BVH8Triangle4iMBIntersector4HybridMoeller
+avx2::BVH8Triangle4iMBIntersector4HybridPluecker
 avx2::BVH8Triangle4iMBIntersector8HybridMoeller
+avx2::BVH8Triangle4iMBIntersector8HybridPluecker
 avx2::BVH8Triangle4vIntersector1Pluecker
 avx2::BVH8Triangle4vIntersector1Woop
 avx2::BVH8Triangle4vIntersector4HybridPluecker
@@ -1634,8 +1591,10 @@ avx::BVH4Quad4iMBIntersector8HybridPluecker
 avx::BVH4Quad4vIntersector1Moeller
 avx::BVH4Quad4vIntersector1Pluecker
 avx::BVH4Quad4vIntersector4HybridMoeller
+avx::BVH4Quad4vIntersector4HybridMoellerNoFilter
 avx::BVH4Quad4vIntersector4HybridPluecker
 avx::BVH4Quad4vIntersector8HybridMoeller
+avx::BVH4Quad4vIntersector8HybridMoellerNoFilter
 avx::BVH4Quad4vIntersector8HybridPluecker
 avx::BVH4Quad4vIntersectorStreamMoeller
 avx::BVH4Quad4vIntersectorStreamMoellerNoFilter
@@ -1668,9 +1627,11 @@ avx::BVH4Triangle4iMBIntersector4HybridPluecker
 avx::BVH4Triangle4iMBIntersector8HybridMoeller
 avx::BVH4Triangle4iMBIntersector8HybridPluecker
 avx::BVH4Triangle4vIntersector1Pluecker
+avx::BVH4Triangle4vIntersector4HybridPluecker
 avx::BVH4Triangle4vIntersector8HybridPluecker
 avx::BVH4Triangle4vIntersectorStreamPluecker
 avx::BVH4Triangle4vMBIntersector1Moeller
+avx::BVH4Triangle4vMBIntersector1Pluecker
 avx::BVH4Triangle4vMBIntersector4HybridMoeller
 avx::BVH4Triangle4vMBIntersector4HybridPluecker
 avx::BVH4Triangle4vMBIntersector8HybridMoeller
@@ -1720,8 +1681,10 @@ avx::BVH8Quad4iMBIntersector8HybridPluecker
 avx::BVH8Quad4vIntersector1Moeller
 avx::BVH8Quad4vIntersector1Pluecker
 avx::BVH8Quad4vIntersector4HybridMoeller
+avx::BVH8Quad4vIntersector4HybridMoellerNoFilter
 avx::BVH8Quad4vIntersector4HybridPluecker
 avx::BVH8Quad4vIntersector8HybridMoeller
+avx::BVH8Quad4vIntersector8HybridMoellerNoFilter
 avx::BVH8Quad4vIntersector8HybridPluecker
 avx::BVH8Quad4vIntersectorStreamMoeller
 avx::BVH8Quad4vIntersectorStreamMoellerNoFilter
@@ -1753,6 +1716,7 @@ avx::BVH8Triangle4vIntersector4HybridPluecker
 avx::BVH8Triangle4vIntersector8HybridPluecker
 avx::BVH8Triangle4vIntersectorStreamPluecker
 avx::BVH8Triangle4vMBIntersector1Moeller
+avx::BVH8Triangle4vMBIntersector1Pluecker
 avx::BVH8Triangle4vMBIntersector4HybridMoeller
 avx::BVH8Triangle4vMBIntersector4HybridPluecker
 avx::BVH8Triangle4vMBIntersector8HybridMoeller
@@ -2462,6 +2426,7 @@ sse2::BVH4SubdivPatch1MBIntersector1
 sse2::BVH4SubdivPatch1MBIntersector4
 sse2::BVH4Triangle4Intersector1Moeller
 sse2::BVH4Triangle4Intersector4HybridMoeller
+sse2::BVH4Triangle4Intersector4HybridMoellerNoFilter
 sse2::BVH4Triangle4IntersectorStreamMoeller
 sse2::BVH4Triangle4IntersectorStreamMoellerNoFilter
 sse2::BVH4Triangle4iIntersector1Moeller
@@ -2576,7 +2541,6 @@ subdivision surfaces:
 subdivpatch1
 subdivs
 subgrid
-t@BuilderTwoLevel
 task cancelled
 task stack overflow
 terminate

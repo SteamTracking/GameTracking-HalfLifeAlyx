@@ -9,9 +9,8 @@
   int bitCount(  int);ivec2 bitCount(ivec2);ivec3 bitCount(ivec3);ivec4 bitCount(ivec4);  int bitCount( uint);ivec2 bitCount(uvec2);ivec3 bitCount(uvec3);ivec4 bitCount(uvec4);  int findMSB(highp   int);ivec2 findMSB(highp ivec2);ivec3 findMSB(highp ivec3);ivec4 findMSB(highp ivec4);  int findMSB(highp  uint);ivec2 findMSB(highp uvec2);ivec3 findMSB(highp uvec3);ivec4 findMSB(highp uvec4);\n
   int bitfieldExtract(  int, int, int);ivec2 bitfieldExtract(ivec2, int, int);ivec3 bitfieldExtract(ivec3, int, int);ivec4 bitfieldExtract(ivec4, int, int); uint bitfieldExtract( uint, int, int);uvec2 bitfieldExtract(uvec2, int, int);uvec3 bitfieldExtract(uvec3, int, int);uvec4 bitfieldExtract(uvec4, int, int);  int bitfieldInsert(  int base,   int, int, int);ivec2 bitfieldInsert(ivec2 base, ivec2, int, int);ivec3 bitfieldInsert(ivec3 base, ivec3, int, int);ivec4 bitfieldInsert(ivec4 base, ivec4, int, int); uint bitfieldInsert( uint base,  uint, int, int);uvec2 bitfieldInsert(uvec2 base, uvec2, int, int);uvec3 bitfieldInsert(uvec3 base, uvec3, int, int);uvec4 bitfieldInsert(uvec4 base, uvec4, int, int);\n
   int findLSB(  int);ivec2 findLSB(ivec2);ivec3 findLSB(ivec3);ivec4 findLSB(ivec4);  int findLSB( uint);ivec2 findLSB(uvec2);ivec3 findLSB(uvec3);ivec4 findLSB(uvec4);\n
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ %s_%s
  && !defined( FORCE_MEDIUM_PRECISION )
  && defined( FORCE_MEDIUM_PRECISION )
  (Start: 
@@ -43,7 +42,6 @@
  B type <id> 
  Base Class Array'
  Base Class Descriptor at (
- C>TQ
  ClampMode <id> 
  Class Hierarchy Descriptor'
  Complete Object Locator'
@@ -65,7 +63,6 @@
  Pointer <id> 
  Profile specification
  Result Type <id> 
- T"T$l&l(l*l,l.l0l2l4l6l8l:l<l>l@lBlDlFlHlJlLlNlPlRlTlVlXlZl\l^l`lbldlflhljlllnlplrltlvlxlzl|l~l
  TaskEXT execution model. 
  TensorLayout <id> 
  TensorView <id> 
@@ -576,14 +573,11 @@
 ")" expected to end 'optimize' pragma
 "defined" can't be (un)defined:
 "defined" is (un)defined:
-"e?<<<<<<l?
 "end of file"
 "invalid token"
 "offset" on block member
 "on" or "off" expected after '(' for 'debug' pragma
 "on" or "off" expected after '(' for 'optimize' pragma
-#4o>w
-#Ib?AG
 #define
 #define %s (%s.%s)\n
 #define GL_ANY_HIT_SHADER_EXT 1 \n
@@ -667,18 +661,20 @@
 #version: versions 300, 310, and 320 require specifying the 'es' profile
 #version: versions 300, 310, and 320 support only the es profile
 #version: versions before 150 do not allow a profile token
-$4\f>\fL\fN\fT\f`\fb\fT\f
 $Global
 $Globals
-$Ib?s
 $accept
+%-.13e
 %@,S,V,,,,,S
 %@,S,V,S,V,,,
 %@,S,V,S,V,,,,S
 %@,S,V,S,V,,V,S
 %@,S,V,S,V,>S
+%d (%s)
 %d must be the same basic type and interpolation qualification
+%lld (%s)
 %llu
+%llu (%s)
 %s     subgroupAdd(%s);\n
 %s     subgroupAnd(%s);\n
 %s     subgroupBroadcast(%s, uint);\n
@@ -740,8 +736,11 @@ $accept
 %s     subgroupShuffleUp(%s, uint delta);\n
 %s     subgroupShuffleXor(%s, uint);\n
 %s     subgroupXor(%s);\n
+%s %s (
 %s %s%s : register( c%d );\n
+%s %s;\n
 %s %s[ %d ];\n
+%s (%d)
 %s = %s( %s.%s );\n
 %s = %s.%s;\n
 %s allocation count overflow
@@ -752,6 +751,8 @@ $accept
 %s patchOut;\n
 %s profile; removed in version %d
 %s with storage tileImageEXT
+%s%d
+%s%s
 %s() isn't a known function.
 %s.%s = %s;\n
 %s.%s = %s[%d];\n
@@ -759,19 +760,21 @@ $accept
 %s.%s = %s_%s[%d];\n
 %s.%s.%s = gl_in[%d].gl_ClipDistance[%d];\n
 %s.%s[%d] = %s[%d];\n
+%s: %s
 %s: string format requested %d chars\n
 %s[%d] = %s.%s;\n
 %s[%d] = %s.%s[%d];\n
 %s[line %d:%d] 
 %s\%s%s_%08X%08X%08X%08X.vshadercache
+%s_%d
 %s_%s = %s.%s;\n
 %s_%s = streamName.%s; \\n
 %s_%s[gl_InvocationID] = %s.%s;\n
+%s_%s_%s
+%s_0
 %s_gl
 %s_gl_builtin
-&*ZV2X&d
-&?PPPPPPP?
-&Sgw
+%u (%s)
 ' could not be inlined because the return instruction is not at the end of the function. This could be fixed by running merge-return before inlining.
 ' decorated with 
 ' decorated with both 
@@ -1143,75 +1146,18 @@ $accept
 ()$^.*+?[]|\-{},:=!\n\r
 (..., float bias)
 (..., float lod)
-(08@H
-(13V
-(1IV
-(1JV
-(1NV
-(1bV
-(53W
-(5PU
-(9WW
-(9sV
-(A7W
-(AEV
-(AOV
 (Did you mean gl_InstanceIndex?)
 (Did you mean gl_VertexIndex?)
-(E5V
-(E8V
-(EeV
-(ITV
-(IXU
-(IbU
-(IiV
-(ItU
-(MCW
-(MGV
-(MNU
-(MPW
-(MSW
-(MjV
-(QnU
-(U2V
-(URU
-(UUU
-(Y9W
-(YNW
-(YVU
-(aLV
 (channel = 
 (decoration=%u)
-(e0W
-(eSU
 (end of input).\n\t This indicates a poorly specified lexer RULE\n\t or unterminated input element such as: "STRING["]\n
-(epV
 (except for OpLine, which can be mixed with OpPhi).
-(iEW
-(iJV
-(iVV
-(iYU
-(ixU
 (layout offset = %d | member alignment = %d)
-(m8W
-(mMV
-(mcV
-(mfU
 (null)
-(q2W
-(qOW
-(qaU
-(qjU
-(qtV
 (set)
 (u)int16 types can only be in uniform block or buffer storage
 (u)int8 types can only be in uniform block or buffer storage
-(uQV
 (using array)
-(uuU
-(uvV
-(yaV
-(yeU
 ) can only be formed between a block and a loop header.
 ) cannot be applied to function id 
 ) cannot have any Location or Component decorations
@@ -1234,8 +1180,6 @@ $accept
 ), while in source code it is (
 ), words(
 ): error at column 
-)yIx
-*"Z6,82:&<!
 *** ERROR! VS input struct member "%s" is missing semantic annotation!\n
 *** Error compiling expression for attribute "%s": %s\n
 *** Error compiling expression for attribute "%s": Expressions on attributes can't use 'this'\n
@@ -1307,12 +1251,7 @@ $accept
 *** VfxReadAndPrepForDynamicShaderCompileMaterialEditor(1021): Error opening file "%s"!\n\n
 *** VfxReadAndPrepForDynamicShaderCompileMaterialEditor(1031): Error masking unused parts for "%s"!\n\n
 ***Error! Variable %s is not an input texture\n
-**Z,,.20&2!
 *.vshadercache
-*0,b.v002b4v608b:v<0>zB\DzBVF
-*StO9>T
-*V\nR"r\nN"r\nR"z\nR"*\nP 6\n$"^\nR"r\nN"t\nN"t\nH"*\nR
-*Vc>L
 +1.#INF
 += and -= on a buffer reference
 , HLSL parsing failed.\n
@@ -1358,9 +1297,6 @@ $accept
 , which cannot be used with the current execution modes:\n
 , xfb_stride 
 , zero found
-,HR><y5
-,HR>O
-,J.T0
 ,f16vec
 ,f16vec4
 ,float
@@ -1375,7 +1311,6 @@ $accept
 ,vec4
 -%02X
 -1.#INF
--BH>t
 -Stop: 
 -avx
 -bit integer for the addressing model used in the module)
@@ -1405,19 +1340,6 @@ $accept
 . This structure has 
 . Using the field of a named struct as an interpolant argument is not allowed (ES-only).
 .00cfg
-.079
-.0A9
-.0B9
-.0E9
-.0F9
-.0G9
-.0H9
-.0I9
-.0R9
-.0U9
-.0X9
-.<0P266Z8D6
-.>\rfJBGo
 .?AUID3DInclude@@
 .?AU_Crt_new_delete@std@@
 .?AUctype_base@std@@
@@ -2017,25 +1939,17 @@ $accept
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.P09
 .P6APEBVConstant@analysis@opt@spvtools@@PEAVIRContext@23@PEAVInstruction@23@AEBV?$vector@PEBVConstant@analysis@opt@spvtools@@V?$allocator@PEBVConstant@analysis@opt@spvtools@@@std@@@std@@@Z
 .P6APEBVConstant@analysis@opt@spvtools@@PEBVType@123@PEBV0123@1PEAVConstantManager@123@@Z
 .P6APEBVConstant@analysis@opt@spvtools@@PEBVType@123@PEBV0123@PEAVConstantManager@123@@Z
 .P6AXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
 .P6AXW4spv_message_level_t@@PEBDAEBUspv_position_t@@1@Z
 .P6A_NPEAVIRContext@opt@spvtools@@PEAVInstruction@12@AEBV?$vector@PEBVConstant@analysis@opt@spvtools@@V?$allocator@PEBVConstant@analysis@opt@spvtools@@@std@@@std@@@Z
-.P79
-.PB9
-.PG9
-.PH9
-.PM9
-.PR9
 .bss
 .data
 .data$r
 .data$rs
 .edata
-.h0p2
 .idata$2
 .idata$3
 .idata$4
@@ -2044,13 +1958,6 @@ $accept
 .length
 .length()
 .length() on vectors and matrices
-.pA9
-.pE9
-.pH9
-.pM9
-.pQ9
-.pR9
-.pW9
 .pdata
 .rdata
 .rdata$T
@@ -2069,34 +1976,21 @@ $accept
 .tls
 .tls$
 .tls$ZZZ
-.xJ>Hf
 .xdata
 .xdata$x
 /*BEGIN_UNIFORMBINDINGS\n
 // OpModuleProcessed 
 //ATTRIBMAP
-/2GG>!B
 /tmp/hlvr_broken_shader_%d.glsl
 /tmp/hlvr_broken_shader_%d.log
-0(\f*\f,\f.\f0\f2\f
 0123456789
 0123456789abcdefghijklmnopqrstuvwxyz
-08@HPX`$^
-08@HR
-0<4H6Q
-0E>X
-0X8b?~
-0b\fT\f
-0iN>/
-0n2,4
 1#IND
 1#INF
 1#QNAN
 1#SNAN
 1.#IND
 1/4 stride is too large:
-11UT
-11Y@
 16-bit  literal
 16-bit arrays not supported
 16-bit binary literal
@@ -2113,37 +2007,16 @@ $accept
 16-bit vectors only take vector types
 1:1: Tokens : ( T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | BOOLLITERAL | ID | INTEGERLITERAL | HEXINTEGERLITERAL | FLOATLITERAL | COMMENT | WS );
 1:1: Tokens : ( T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | T__42 | T__43 | T__44 | T__45 | T__46 | T__47 | T__48 | T__49 | T__50 | T__51 | T__52 | T__53 | T__54 | T__55 | T__56 | T__57 | T__58 | T__59 | T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | T__89 | T__90 | T__91 | T__92 | T__93 | T__94 | T__95 | T__96 | T__97 | T__98 | T__99 | T__100 | T__101 | T__102 | T__103 | T__104 | T__105 | T__106 | T__107 | T__108 | T__109 | T__110 | T__111 | T__112 | T__113 | T__114 | T__115 | T__116 | T__117 | T__118 | T__119 | T__120 | T__121 | T__122 | T__123 | T__124 | CONSTANT_REGISTER | PACK_OFFSET | VECTOR_TYPE | MATRIX_TYPE | STATIC | ID | INTEGERLITERAL | FLOATLITERAL | STRINGLITERAL | WS | LINE | PRAGMA | UNKNOWN );
-1\nT5\n
 2 Entry points cannot share the same name and ExecutionMode.
-2.N0|
-20J'
-28Z:
-2@ZB2D0FpH J)
 2DMS
 2DRect
-2PK*
-2\vpt
-3 FB
 32-bit 
 32-bit signed integer
 32-bit signed integer vector
 32-bit signed literal
 32-bit unsigned integer
 32-bit unsigned integer vector
-37>k
-3>N;kU
-3>fvw
-3?tr
 4.60 glslang Khronos. 15.3.0
-40J'
-482:
-4FlH>F~
-4N6f4
-4X2J
-51>W
-5\tV9\t
-5\vH9\v
-6$8d6f
 64-bit binary literal
 64-bit hexadecimal literal
 64-bit integer
@@ -2155,17 +2028,7 @@ $accept
 64-bit unsigned integer literal
 64-bit unsigned integer vector
 64-bits unsigned integer scalar type
-6@M9
-6J8T:
-6NK>
-6PQ9
-6\fXO>\ntA
-6p@9
 79:1: element : ( struct_decl | function_definition | variable_definition[ false ] | constant_buffer | type_def | bindless_constant_def | auto_bindless_texture2d_binding | semicolon= ';' );
-7>I0
-7?GX
-7yp>
-7~xh
 8- or 16-bit loads must be a scalar, vector or matrix type
 8- or 16-bit stores must be a scalar, vector or matrix type
 8- or 16-bit types can only be used with width-only conversions
@@ -2175,19 +2038,6 @@ $accept
 8-bit unsigned integer
 8-bit unsigned integer vector
 8-bit vectors only take vector types
-8:0J'
-8:0R:
-8@B0J'
-8@HPXf
-8@HPZ
-8@HP^
-8@HV
-8@J`1
-8@vp
-8ke?;
-9>70
-9a>d
-9g>@3
 : 64-bit atomics require the Int64Atomics capability
 : Component Count must be 
 : Component Count must be 32-bit integer OpConstant
@@ -2266,7 +2116,7 @@ $accept
 : storage class forbidden by universal validation rules.
 : storage class must be Function, Workgroup, CrossWorkGroup or Generic in the OpenCL environment.
 : truncated 
-:<4@628
+:%d:%d
 ; Annotations
 ; Bound: 
 ; Debug Information
@@ -2279,12 +2129,10 @@ $accept
 ; Types, variables and constants
 ; Version: 
 ; may be removed in future release
-;1cb
 ;BIb?
 <DOWN>
 <EOF>
 <EOR>
-<\f>\f@\fB\fD\fF\fH\fJ\fL
 <bad token>
 <float
 <instruction>
@@ -2294,36 +2142,14 @@ $accept
 <no text for the token>
 <uint
 <unknown op>
-=1cb
-=87M
 =\t ();,\n\r<>
-=cQ6
-=e2m
-=imb;D
 > contains a PhysicalStorageBuffer pointer, which is not allowed. If you want to interface shader stages with a PhysicalStorageBuffer, cast to a uint64 or uvec2 instead.
 > is later referenced by 
 > is used by entry point '
 > which is called with execution model 
-> x$>&x*>,x0.2H4R6
->*ZV,X*Zv\&^A
 >, but is not listed as an interface
->039
->0Av
->PO9
->PP9
->SSE and SSE2 are required.
->cQ6
->jtm}S
-?!5WOo
-?1cb
-?49HoKC
-?7zQ6$
-?7{KV\nU
-?8UUUUU
-?8bunz8
 ??0CThreadFastMutex@@QEAA@XZ
 ??0CThreadMutex@@QEAA@XZ
-?@En[vP
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
 ?ComposeFileName@CBufferString@@QEAAPEBDPEBD0D@Z
 ?ExtendPath@CBufferString@@QEAAPEBDPEBDD@Z
@@ -2331,40 +2157,21 @@ $accept
 ?FixupPathName@CBufferString@@QEAAPEBDD@Z
 ?Format@CBufferString@@QEAAHPEBDZZ
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?JV8f
 ?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@PEBULoggingMetaData_t@@VColor@@PEBDZZ
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@VColor@@PEBDZZ
 ?Purge@CBufferString@@QEAAXH@Z
-?R0I?
 ?SetLength@CBufferString@@QEAAPEADH_NPEAH@Z
 ?SetPtr@CBufferString@@QEAAXPEADHH_N1@Z
 ?ShortenPath@CBufferString@@QEAAPEBD_N@Z
 ?StripTrailingSlash@CBufferString@@QEAAPEBDXZ
-?TBD
 ?UUUUUU
 ?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?V_SplitString2@@YAXPEBDPEAPEBDHAEAV?$CUtlVector@PEADV?$CUtlMemory@PEADH@@@@@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
-?WUUUUU
-?f`Y4
-?kxG2)
-?lZE
-?qBJ
-?rAj
-?ysB
-@08N
-@20J'
-@40J'
-@60M9
-@6@09
-@8@HPX`hp
-@8@HV
-@JBTD
-@^8U)zj
 @count
 @data
 @entryPointOutput
@@ -2372,10 +2179,8 @@ $accept
 @fragcoord
 @gl_SubgroupInvocationID
 @gl_SubgroupSize
-@hpx
 @patchConstantOutput
 @patchConstantResult
-@pn>6
 @position
 @sampleCount
 @sampleResultShadow
@@ -2390,14 +2195,12 @@ A module-scope OpVariable with initialization value cannot be marked with the Im
 A per vertex structure containing an array is not allowed as input in ES
 A structure containing an array is not allowed as input in ES
 A structure containing an struct is not allowed as input in ES
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABGR
 ABGR8888
 ACCSTRUCTEXT
 ACCSTRUCTNV
 ADD_ASSIGN
-AK>(v
 ALWAYS
 AMPERSAND
 ANDROID_VULKAN
@@ -2420,9 +2223,6 @@ ATI_DST24
 ATOMIC_UINT
 ATTACHMENTEXT
 ATTRIBUTE
-A\nB 2
-A\nPE\n
-A`1w>
 AbsISubINTEL
 AbsUSubINTEL
 Absolute value
@@ -2640,15 +2440,12 @@ Attributes must be an OpString
 August
 AutoINTEL
 Auxiliary qualifiers (centroid, patch, and sample) must appear before storage and precision qualifiers
-B0J'
 BACK
 BANG
 BC6H
-BC?>6t9^\tc:>
 BF16VEC2
 BF16VEC3
 BF16VEC4
-BF>^G
 BFIU
 BFLOAT16_T
 BFloat16ConversionINTEL
@@ -2802,7 +2599,6 @@ BuiltinSymbolTable {\n
 BurstCoalesceINTEL
 ByVal
 ByteAddressBuffer
-C5R?\t
 CALLDATAEXT
 CALLDATAINEXT
 CALLDATAINNV
@@ -2810,7 +2606,6 @@ CALLDATANV
 CARET
 CASE
 CENTROID
-CL:>8
 CLAMP
 CMemAllocSystemInitialize
 COHERENT
@@ -2871,7 +2666,6 @@ CVfxGL::Init
 CVfxGL::Init() - fsFactory can't get '%s' interface.
 CVfxShaderFile::Unserialize
 CVfxShaderValidatorGLslang::GetBinaryShader::<lambda_1>::operator ()
-CWD>~3
 CacheControlLoadINTEL
 CacheControlStoreINTEL
 CacheControlsINTEL
@@ -3333,8 +3127,6 @@ CullPrimitiveEXT
 Current FPEncoding only supports BFloat16KHR.
 Current Times must be a 32-bit float scalar type
 CurrentRayTimeNV
-Cy2@K>
-D0J'
 D15S1
 D16_SHADOW
 D24FS8
@@ -3351,7 +3143,6 @@ D3DReflect
 D3DStripShader
 D3DXPreprocess() failed with no error message! CVfxGL::CompileShaderAndGetVariables(2756): \n
 DASH
-DB$DdBx
 DCE Vars: 
 DEBUG
 DECR
@@ -3401,8 +3192,6 @@ DXT5_NM
 Data must be an OpString
 Data type must be a type instruction
 Data type must be specified for Function, Private, and Workgroup storage classes
-Db$ddbH
-DbFA
 Debug info extension instruction found inside function but outside block
 Debug info extension instruction other than DebugScope, DebugNoScope, DebugDeclare, and DebugValue found inside function
 Debug info extension instruction other than DebugScope, DebugNoScope, DebugFunctionDefinition, DebugDeclare, and DebugValue found inside function
@@ -3573,7 +3362,6 @@ DstBlend
 DstBlendAlpha
 Duplicate non-aggregate type declarations are not allowed. Opcode: 
 Dynamic combo %s referenced in expression doesn't exist.
-E>nEA
 ELSE
 END_UNIFORMBINDINGS*/\n
 EQUAL
@@ -3585,16 +3373,11 @@ ERROR_not_op_extension
 ES Profile
 ESC_SEQ
 ESSL
-ET5>
 EXPLICITINTERPAMD
 EXPONENT
-E[\rn?gc
-E\vTI\v
 Early exit
 EarlyAndLateFragmentTestsAMD
 EarlyFragmentTests
-EiU>
-EiUL
 ElemSize must be a 32-bit unsigned integer OpConstant
 Element type is not defined.
 EliminateDeadIOComponentsPass only valid for input and output variables.
@@ -3992,7 +3775,6 @@ F64MAT4X4
 F64VEC2
 F64VEC3
 F64VEC4
-F>qUxv
 FATAL
 FAbs
 FAdd
@@ -4001,7 +3783,6 @@ FClamp
 FConvert
 FDiv
 FEATURES
-FEMh\f
 FIU,
 FIU,F
 FIU,F,
@@ -4111,7 +3892,6 @@ FUnordGreaterThanEqual
 FUnordLessThan
 FUnordLessThanEqual
 FUnordNotEqual
-F`Q9
 Face
 FaceForward
 Failed to add global variable, see previous warning.\n
@@ -4127,7 +3907,6 @@ Fetch
 Fetch4
 FetchMicroTriangleVertexBarycentricNV
 FetchMicroTriangleVertexPositionNV
-FfW?
 File
 File has not been opened!\n
 FillMode
@@ -4286,7 +4065,6 @@ FuseLoopsInFunctionINTEL
 Fwidth
 FwidthCoarse
 FwidthFine
-G>US
 GCTL
 GE_OP
 GLCompute
@@ -4597,7 +4375,6 @@ Google Skia SkSL
 Google Tint Compiler
 Google rspirv
 Google spiregg
-GrJoq>@
 Grad
 Group Count X must be a 32-bit unsigned int scalar
 Group Count Y must be a 32-bit unsigned int scalar
@@ -4699,8 +4476,6 @@ HITOBJECTNV
 HLSL
 HLSL lexer encountered %d %s\n
 HLSL parser encountered %d %s\n
-HXFpJ
-HZ$\dZX
 HalfFloat
 HangWatchdogInternal_BeginScope
 HangWatchdogInternal_EndScope
@@ -4782,13 +4557,11 @@ HitTNV
 HitTriangleVertexPositionsKHR
 HlslCounterBufferGOOGLE
 HlslSemanticGOOGLE
-Hn$pdnR
 Horizontal2Pixels
 Horizontal4Pixels
 HostAccessINTEL
 HostOnlyINTEL
 Hull Shader
-H|LDN
 I could not work out what I was expecting, like so many of us these days!\n
 I16VEC2
 I16VEC3
@@ -4813,7 +4586,6 @@ I64VEC4
 I8VEC2
 I8VEC3
 I8VEC4
-I;u>A
 IA88
 IATTACHMENTEXT
 IAdd
@@ -4861,7 +4633,6 @@ IMul32x16INTEL
 INCR
 INCR_SAT
 INC_OP
-IND)ind)
 INFO
 INITY
 INOUT
@@ -4921,7 +4692,6 @@ IVEC3
 IVEC4
 IVfxShaderValidator::GetActiveUniforms failed.\n
 IVfxShaderValidator::GetActiveUniformsBlocks failed.\n
-I\nJM\n
 Id is 0
 Id must be an unsigned integer scalar
 Identifier
@@ -4932,7 +4702,6 @@ If you want to interface shader stages with a buffer_reference cast to a uint64 
 IgnoreIntersectionKHR
 IgnoreIntersectionNV
 Ignoring initializer for uniform
-Il?333333c?
 Illegal number of components (
 Illegal to have non-comment, non-whitespace tokens before #version
 Illegal use of QCOM image processing decorated texture
@@ -5235,9 +5004,6 @@ IsValidReserveId
 Isolines
 IterationMultiple
 IterationMultiple loop control operand must be greater than zero
-J*L`N*X
-J*LdN*R
-J\nx\fT
 January
 July
 June
@@ -5257,9 +5023,6 @@ Kill
 Kitsunebi Games
 Kitsunebi Games Nuvk SPIR-V Emitter and DLSL compiler
 Kongruent
-L-n>4
-L>ev
-L?UUUUUUU?
 LAYOUT
 LCIDToLocaleName
 LCMapStringEx
@@ -5295,8 +5058,6 @@ LLVM SPIR-V Backend
 LLVM/SPIR-V Translator
 LOG_GENERAL
 LOW_PRECISION
-LWG>
-LWW>
 Label
 Label instructions must be in a function body
 Language
@@ -5387,7 +5148,6 @@ LoopFuseINTEL
 LoopMerge
 Luminance
 LunarG
-M'y>0y
 MAT2
 MAT2X2
 MAT2X3
@@ -5629,9 +5389,6 @@ Multiple case constructs have branches to the case construct that targets
 Multiple function bodies in multiple compilation units for the same signature in the same stage:
 MultisampleEnable
 Must be only one constituent
-N3`d?
-N>O=I9
-N>VF
 NAN(IND)
 NAN(SNAN)
 NClamp
@@ -5648,8 +5405,6 @@ NOPERSPECTIVE
 NORMAL
 NOTE: 
 NOT_EQUAL
-NQ?s
-NT*V
 NVIDIA
 NV_DST16
 NV_DST24
@@ -5657,7 +5412,6 @@ NV_INTZ
 NV_NULL
 NV_RAWZ
 NZSL
-N\nx\fX
 Naga
 Name
 Name must be an OpString
@@ -5675,7 +5429,6 @@ Netease Games
 Netease Games Messiah Shader Compiler
 Next token is
 Nintendo
-Nm\t$q\tdm\t
 No OpEntryPoint instruction was found. This is only allowed if the Linkage capability is being used.
 No errors.  No code generation or linking was requested.
 No function definition (body) found: 
@@ -5761,7 +5514,6 @@ OCTAL_ESC
 OPENGL32.dll
 OR_ASSIGN
 OR_OP
-OZQ%
 ObjectOffset must be a 32-bit unsigned integer OpConstant
 ObjectRayDirectionKHR
 ObjectRayDirectionNV
@@ -6467,16 +6219,6 @@ OutputTrianglesEXT
 OutputTrianglesNV
 OutputVertices
 OverrideCoverageNV
-P08@HPX`hpx
-P08@HR
-P0<0J'
-P2 2
-P20J'
-P2`1
-P2p"-
-P40!-
-P40J'
-P4Jp
 PACKED
 PACK_OFFSET
 PATCH
@@ -6681,12 +6423,8 @@ PushConstantNumWorkgroups
 PushConstantRegionGroupOffset
 PushConstantRegionOffset
 PushConstants
-Pv$x
-Q5rHg,>
-QAf?
 QUESTION
 QUEUEFAMILYCOHERENT
-Q\nTU\n
 QuadControlKHR
 QuadDerivativesKHR
 QuadReadAcrossDiagonal
@@ -6700,8 +6438,6 @@ QueryPerformanceCounter
 Queue
 QueueFamily
 QueueFamilyKHR
-R p"Q
-R0J'
 R11_EAC
 R11fG11fB10f
 R16F
@@ -6710,7 +6446,6 @@ R16Snorm
 R16f
 R16i
 R16ui
-R2 4F
 R32F
 R32_UINT
 R32f
@@ -6721,6 +6456,7 @@ R64ui
 R8G8B8A8_ETC2_EAC
 R8G8B8_ETC2
 R8Snorm
+R8_UINT
 R8ui
 RAYQUERYEXT
 READONLY
@@ -6766,7 +6502,6 @@ RND_CONV_ODD
 RND_INF
 RND_MIN_INF
 RND_ZERO
-RSDS
 RWBuffer
 RWByteAddressBuffer
 RWStructuredBuffer
@@ -6776,8 +6511,6 @@ RWTexture1DArray
 RWTexture2D
 RWTexture2DArray
 RWTexture3D
-R\fpt
-R\vpt
 Radians
 RaiseException
 RandomFloat
@@ -7020,8 +6753,6 @@ Rust GPU Compiler Backend
 S,S,V1,
 S,V2,V4
 S,V4
-S9>H
-S>$hkDh$h>[2
 SAMPLE
 SAMPLER
 SAMPLER1D
@@ -7305,6 +7036,7 @@ SRC_ALPHA
 SRC_ALPHA_SAT
 SRC_COLOR
 SRem
+SSE and SSE2 are required.
 SSign
 STAR
 STATIC
@@ -7889,14 +7621,10 @@ TEXTURECUBE
 TEXTURECUBEARRAY
 TILDE
 TILEIMAGEEXT
-TR$T V8X>V
-TR$T V8X>VE
 TRILINEAR
 TRN_ZERO
 TUUUU
-TXV~X
 TYPE_NAME
-T\V~T\X
 Taichi
 Taichi Graphics
 Taichi Graphics Taichi
@@ -8150,7 +7878,6 @@ U64VEC4
 U8VEC2
 U8VEC3
 U8VEC4
-UA>N0Wl
 UATTACHMENTEXT
 UAddSatINTEL
 UAverageINTEL
@@ -8234,7 +7961,6 @@ UTEXTURECUBE
 UTEXTURECUBEARRAY
 UTF-16LEUNICODE
 UTF-8
-UUUU
 UUUUUU
 UV88
 UVEC2
@@ -8242,7 +7968,6 @@ UVEC3
 UVEC4
 UVLX8888
 UVWQ8888
-U\tTY\tb
 Unable to determine source language
 Unable to parse built-ins
 Unable to parse built-ins\n%s\n
@@ -8543,12 +8268,10 @@ WIREFRAME
 WORKGROUPCOHERENT
 WRAP
 WRITEONLY
-WaNd?
 WaitForSingleObjectEx
 WaitForThreadpoolTimerCallbacks
 WaitKernel
 WaitWorkGroup
-Wak>E
 WakeAllConditionVariable
 WakeConditionVariable
 Warning
@@ -8628,11 +8351,9 @@ Wrong number of items in value for annotation %s. Ignoring annotation.\n
 X must be a 32-bit unsigned integer OpConstant
 X-LEGEND
 X-LEGEND Mesa-IR/SPIR-V Translator
-X/4B
 X360_DST16
 X360_DST24
 X360_DST24F
-X>0S
 XOR_ASSIGN
 XOR_OP
 Xderef
@@ -8642,23 +8363,13 @@ Xenia Xenia Emulator Microcode Translator
 XfbBuffer
 XfbStride
 Y must be a 32-bit unsigned integer OpConstant
-Y8a:
-Y>kX>
-Y>kX>M
 Z must be a 32-bit unsigned integer OpConstant
-Z0J'
-Z>w_F
-Z@2P&R
-Z@2P&R\t
 ZERO
-ZSq>
-Z\>z8
 ZeroExtend
 Zext
 Zig Compiler
 Zig Software Foundation
 Zig Software Foundation Zig Compiler
-[*ncd>0
 [1;30m
 [31m
 [32m
@@ -9003,13 +8714,8 @@ Zig Software Foundation Zig Compiler
 [] buf, uint offset);\n
 [] buf, uint offset, uint stride, int matrixLayout, int matrixInterpretation);\n
 [] matrix, 
-[aOni*{
 [gl_MinProgramTexelOffset, gl_MaxProgramTexelOffset]
-\f \f"\f$\f&\f(\f*\f,\f.\f
-\f%\f*\f/\f4\f:\f?\fD\fI\fO\fT\fY\f^\fd\fi\fn\fs\fy\f~\f
-\fp2\4X
 \n    near %s\n    
-\n#\n(\n-\n2\n7\n<\nA\nF\nK\nQ\nW\n]\nc\ni\no\nu\n{\n
 \n#if defined( GL_FRAGMENT_PRECISION_HIGH )
 \n%s( mainIn , mainOut );\n\n}\n
 \n*** Error masking unused parts! Unknown text found. This is usually caused by a '{' or '}' not tabbed properly or an invalid declaration at the global scope. (line %d):\n%s\n\n
@@ -9017,32 +8723,18 @@ Zig Software Foundation Zig Compiler
 \nCVfxGL::CompileShaderAndGetVariables(3137): ERROR! Can't load vfx_dx9 dll!\n
 \nCVfxGL::CompileShaderAndGetVariables(3208): ERROR! Failed to convert GLSL to SPIRV!\n
 \nLinked 
-\nPa0
-\nh?oT
-\nk>oB
 \nmainOut = %s( mainIn );\n\n
 \nmainOut = %s( mainIn, uint( gl_InvocationID ) );\n\n
 \nmainOut = %s( patchIn, mainIn, gl_TessCoord );\n\n
 \nvoid main()\n{\n%s mainIn;\n%s mainOut;\n\n
 \nvoid main()\n{\n%s mainIn[%d];\n%s mainOut;\n\n
-\r \r%\r*\r/\r4\r9\r>\rC\rH\rM\rR\rW\r\\ra\rf\rk\rp\ru\rz\r
-\r&^$R&:6$&J8
-\r\f\v\v\n\n\t\t\t\t\t
 \src\shaders\
 \t The lexer was matching from line %d, offset %d, which\n\t 
-\t!\t'\t-\t3\t9\t?\tE\tK\tQ\tW\t]\tc\ti\to\tu\t{\t
-\tJR>8o
-\tcQr
-\tkE>fvw
+\t%.*s\n
 \tprecision highp float;\n
 \tprecision mediump float;\n
-\v \v%\v*\v/\v4\v9\v>\vD\vJ\vO\vT\vY\v_\vd\vi\vn\vt\vy\v~\v
-\vA03>A|
-^<V7w
-^RfN>
 ^\s*layout\s*\(\s*binding\s*=\s*[0-9]+\s*\)\s*uniform\s+sampler
 ^\s*uniform\s+sampler
-^p69
 _AssociatedSampler
 _BoundTexture%d
 _BoundTextureSrgb%d
@@ -9130,20 +8822,14 @@ __unaligned
 __vectorcall
 _arr_
 _cabs
-_f>PH
 _hypot
 _logb
 _nextafter
-_oD>Kg
 _payloadarr_
 _ptr_
 _runtimearr_
 _sampler
 _struct_
-`08F
-`20J'
-`40J'
-`6P79
 `RTTI
 `anonymous namespace'
 `copy constructor closure'
@@ -9155,8 +8841,6 @@ _struct_
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`hpx
-`hz0a0
 `local static guard'
 `local static thread guard'
 `local vftable constructor closure'
@@ -9183,9 +8867,6 @@ _struct_
 `vftable'
 `virtual displacement map'
 a storage class of PhysicalStorageBuffer.
-a6>r
-a\nPe\n
-a\vDe\v
 abcdefghijklmnopqrstuvwxyz
 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_0123456789
 abort
@@ -9414,7 +9095,6 @@ auto
 auto-map-bindings
 average
 averageRounded
-b0J'
 back-edge block
 bad address
 bad allocation
@@ -9592,9 +9272,6 @@ c:\buildslave\hlvr_rel_win64\build\src\vfx\vfx_gl\vfx_gl.cpp
 c:\buildslave\hlvr_rel_win64\build\src\vfx\vfx_gl\vfx_shader_validator_glslang.cpp
 c:\buildslave\hlvr_rel_win64\build\src\vfx\vfx_shader_file.cpp
 c:\buildslave\hlvr_rel_win64\build\src\vfx\vfxexpr.g
-c>F2
-c>v\tk
-c?FA@s}
 c[subcomponent][.component]
 call
 call argument
@@ -10110,8 +9787,6 @@ cubeFaceCoordAMD
 cubeFaceIndex
 cubeFaceIndexAMD
 d3dcompiler_43.dll
-d8L2
-d?000000`?
 dFdx
 dFdxCoarse
 dFdxFine
@@ -10124,7 +9799,6 @@ dPdxFine
 dPdy
 dPdyCoarse
 dPdyFine
-dRL>
 dddd, MMMM dd, yyyy
 ddx_coarse
 ddx_fine
@@ -10274,10 +9948,6 @@ dvec3
 dvec4
 dword
 e+000
-e>US
-eF>t
-eLK(w
-e\tTi\tb
 early_and_late_fragment_tests_amd
 early_fragment_tests
 either the block needs a location, or all members need a location, or no members have a location
@@ -10615,11 +10285,6 @@ f64mat4x4
 f64vec2
 f64vec3
 f64vec4
-f@h>j
-fD>b
-fGa>
-fVh>~
-fWi?
 fabs
 face-forward
 faceforward
@@ -10854,7 +10519,6 @@ g_pMemAlloc
 g_renderState_
 g_texAttr_
 g_vShared
-gd>Z
 generic
 geometry
 geometry shader passthrough
@@ -11193,8 +10857,6 @@ groupshared
 gs_4_0
 gs_4_1
 gs_5_0
-h0'D
-h>1my
 half
 half float image
 half float literal
@@ -11313,8 +10975,6 @@ hitObjectTraceRayNV
 hitobject shader record NV
 hitobjectattribute number
 hitobjectshaderrecordnv
-hj0J'
-hj>>d
 hlsl-iomap
 hlsl-offsets
 hlslvariablesLexerNew
@@ -11331,7 +10991,6 @@ hyp. cosine
 hyp. sine
 hyp. tangent
 hypot
-h}NU
 i16vec2
 i16vec3
 i16vec4
@@ -11357,8 +11016,6 @@ i8vec3
 i8vec4
 iMulExtended
 iOS SM 4.0 (VULKAN)
-i\nZm\n
-i\vDm\v
 iattachmentEXT
 icoopmatNV
 identical
@@ -11688,12 +11345,7 @@ ivec2
 ivec2/uvec2 convert to texture handle
 ivec3
 ivec4
-j0J'
-jeTb
 jump_statement
-k=yI
-k>4\tF
-k>RU
 keep-uncalled
 kernel enqeue flags
 kernel profiling info
@@ -11794,10 +11446,6 @@ lowp   int bitCount(  int);lowp ivec2 bitCount(ivec2);lowp ivec3 bitCount(ivec3)
 lowp   int findLSB(  int);lowp ivec2 findLSB(ivec2);lowp ivec3 findLSB(ivec3);lowp ivec4 findLSB(ivec4);lowp   int findLSB( uint);lowp ivec2 findLSB(uvec2);lowp ivec3 findLSB(uvec3);lowp ivec4 findLSB(uvec4);\n
 lowp precision qualifier
 lowp uint stencilAttachmentReadEXT();lowp uint stencilAttachmentReadEXT(int);highp float depthAttachmentReadEXT();highp float depthAttachmentReadEXT(int);\n
-m?H7
-mG4>
-mO-B
-m\nXo
 macro expansion
 mageSampleFootprintGradClampNV
 main
@@ -12089,8 +11737,6 @@ must have two parameters
 must occur first in shader
 must specify 'location' to use 'component'
 mutable
-n03>Pu
-n]?iJ
 name already defined
 name too long
 named maximum number of registers
@@ -12221,10 +11867,6 @@ number of invocations must match between compilation units
 number of parameters must match call to coopMatPerElementNV
 numeric literal too big
 numeric literal too long
-o?GS
-oI>O7
-oI>b
-obwQ4
 octal and hex sequences not supported
 octal literal digit too large
 octal literal too big
@@ -12326,24 +11968,7 @@ overloaded functions must have the same parameter precision qualifiers for argum
 overloaded functions must have the same parameter storage qualifiers for argument
 overloaded functions must have the same qualifiers
 overloaded functions must have the same return type
-owM&
 owner dead
-p08F
-p08v
-p0:0J'
-p0:`1
-p0<0J'
-p2 2
-p20J'
-p2`1
-p40J'
-p6@R9
-p6pO9
-p8:0J'
-p8@B`1
-p>.G1
-p>Y3
-pJ*L`N*Z
 pack16
 pack32
 pack64
@@ -12397,7 +12022,6 @@ pipe_storage
 pixel_center_integer
 pixel_interlock_ordered
 pixel_interlock_unordered
-pm>6/
 point
 point_mode
 pointer definition.
@@ -12458,9 +12082,6 @@ public
 punct
 purecall
 push_constant
-q>F,3
-qS>g?h3
-q\nNu\n
 quad_derivatives
 quad_derivatives qualifier
 quads
@@ -12469,7 +12090,6 @@ qualifier has no effect on non-output parameters
 quantization mode
 queue
 queuefamilycoherent
-r0J'
 r11f_g11f_b10f
 r16_snorm
 r16f
@@ -12482,9 +12102,6 @@ r64i
 r64ui
 r8_snorm
 r8ui
-rNm>)
-r\tVr.>T
-r\vpt
 radians
 random
 range%d
@@ -12689,7 +12306,6 @@ s vector component count.
 s vector element type.
 s%lld
 sBGRA
-sHF'
 sRGB
 sRGBA
 sRGBx
@@ -13398,7 +13014,6 @@ too many files open in system
 too many links
 too many storage qualifiers
 too many symbolic link levels
-tr$tdrF
 traceNV
 traceRayEXT
 traceRayKHR
@@ -13746,9 +13361,6 @@ uvec2 conversion to reference
 uvec3
 uvec4
 uvec4  subgroupPartitionNV(%s);\n
-uzKs@>
-v0>2b
-v2!L.2
 validating: 
 value
 value is out of range:
@@ -13930,9 +13542,7 @@ wrong number of matrix columns:
 wrong number of structure members
 wrong protocol type
 wrong vector size (or rows in a matrix column):
-xT?V
 xdigit
-xf$h*~Z
 xfb layout qualifier
 xfb_
 xfb_buffer
@@ -13945,12 +13555,7 @@ xfb_stride must be multiple of 2 for buffer holding a half float or 16-bit integ
 xfb_stride must be multiple of 4:
 xfb_stride must be multiple of 8 for buffer holding a double or 64-bit integer:
 xyzw
-yE>cb
-z0J'
-z>h4
-zp~5
 { } style initializers
-|\6^N`6bNd<fXh<jXl<nNp<rTt<vNx6
 } gl_in[];in int gl_PrimitiveIDIn;out gl_PerVertex {vec4 gl_Position;float gl_PointSize;float gl_ClipDistance[];\n
 } gl_in[gl_MaxPatchVertices];\n
 } gl_out[];patch out float gl_TessLevelOuter[4];patch out float gl_TessLevelInner[2];\n
@@ -13958,7 +13563,3 @@ zp~5
 };out int gl_PrimitiveID;out int gl_Layer;
 };uniform gl_DepthRangeParameters gl_DepthRange;\n
 ~!%^&*()-+=|,.<>/?;:[]{}#\
-~0C9
-~PE9
-~pD9
-~pG9

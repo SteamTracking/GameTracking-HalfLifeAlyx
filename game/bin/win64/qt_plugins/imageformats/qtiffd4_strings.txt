@@ -50,10 +50,9 @@
   XMLPacket (XMP Metadata):\n
   YCbCr Positioning: 
   YCbCr Subsampling: %u, %u\n
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  %5lu
+ %5u
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (unit %u = 0x%x)
@@ -82,6 +81,7 @@
 "Predictor" value %d not supported
 #File Error#(%d) : 
 %.100s: Can not read TIFF directory
+%.2X 
 %Id bytes in %Id %hs Blocks.\n
 %S: Cannot open
 %d bit input not supported in PixarLog
@@ -98,12 +98,14 @@
 %lu: Sample out of range, max %lu
 %lu: Strip out of range, max %lu
 %lu: Tile out of range, max %lu
+%lu\n
 %s %s decoding is not implemented
 %s %s encoding is not implemented
 %s compression support is not configured
 %s%u (0x%x)
 %s(%d) : %s
 %s2-d encoding
+%s: %s
 %s: %s at line %u of %s %u (got %u, expected %u)
 %s: Bad code word at line %u of %s %u (x %u)
 %s: Bad field type %d for "%s"
@@ -175,14 +177,13 @@
 %sunassoc-alpha
 %suncompressed data
 %sunspecified
-( 8PX
+%u (0x%x)\n
 ('8PW
 (infinite)\n
 (null)
 (present)\n
 , Line 
 ,<ellipsis>
--64OS
 ..\..\..\gui\image\qtiffhandler.cpp
 .?AUQFactoryInterface@@
 .?AUQImageIOHandlerFactoryInterface@@
@@ -204,25 +205,16 @@
 1#INF
 1#QNAN
 1#SNAN
-1(RJ
 1.2.5
-11UT
 7 (0x7)
 700PP
 700WP
-7yp>
-8&Kx
-9g>@3
 <ellipsis>
 <file unknown>
 <program name unknown>
 <unknown>
 <unsupported data type in TIFFPrint>
->8UUUUU
-@_TIFFVSetField
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
-APredictorSetup
-A`1w>
 ActiveArea
 AdobeDeflate
 AnalogBalance
@@ -318,7 +310,6 @@ CorExitProcess
 CurrentICCProfile
 CurrentPreProfileMatrix
 CustomRendered
-Cy2@K>
 DAMAGED
 DNGBackwardVersion
 DNGPrivateData
@@ -407,7 +398,6 @@ GetLastActivePopup
 GetProcessWindowStation
 GetUserObjectInformationA
 GetUserObjectInformationW
-GrJoq>@
 GrayResponseCurve
 GrayResponseUnit
 Group3Options
@@ -419,11 +409,9 @@ HEAP CORRUPTION DETECTED: before %hs block (#%d) at 0x%p.\nCRT detected that the
 HEAP CORRUPTION DETECTED: on top of Free block at 0x%p.\nCRT detected that the application wrote to a heap buffer that was freed.\n
 HEAP CORRUPTION DETECTED: on top of Free block at 0x%p.\nCRT detected that the application wrote to a heap buffer that was freed.\n\nMemory allocated at %hs(%d).\n
 HH:mm:ss
-HMXB
 HalftoneHints
 Horizontal differencing "Predictor" not supported with %d-bit samples
 HostComputer
-I;u>A
 ICC Profile
 IEEE floating point\n
 ISO JBIG
@@ -480,7 +468,6 @@ LogL16InitState
 LogLuvDecode24: Not enough data at row %d (short %d pixels)
 LogLuvDecode32: Not enough data at row %d (short %d pixels)
 LogLuvInitState
-M'y>0y
 MM/dd/yy
 Make
 MakerNote
@@ -510,7 +497,6 @@ Missing required "Colormap" tag
 MissingRequired
 Model
 Monday
-NKeb
 NULL
 NeXT
 NeXTDecode: Not enough data for scanline %ld
@@ -585,6 +571,7 @@ Planarconfig tag value assumed incorrect, assuming data is contig instead of chu
 Planarconfiguration
 Predictor
 PredictorEncodeTile
+PredictorSetup
 Premature EOL
 PrimaryChromaticities
 QTiffHandler::canRead() called with no device
@@ -592,7 +579,6 @@ QVector<T>::at
 QVector<T>::operator[]
 Qt_GetCustomAllocators
 RGB color
-RSDS
 RawDataUniqueID
 ReductionMatrix1
 ReductionMatrix2
@@ -604,7 +590,6 @@ RichTIFFIPTC
 Row passed to TIFFReadRGBAStrip() must be first in a strip.
 Row/col passed to TIFFReadRGBATile() must be topleft corner of a tile.
 RowsPerStrip
-S;uD
 SGILog
 SGILog compression cannot handle non-contiguous data
 SGILog compression supported only for %s, or raw data
@@ -728,14 +713,12 @@ Total allocations: %Id bytes.\n
 TransferFunction
 Tuesday
 UNKNOWN
-UUUU
 UniqueCameraModel
 Unknown
 Unknown data format %d for LogLuv compression
 Unknown encoding %d for LogLuv compression
 Unknown exception
 UserComment
-Wak>E
 Warning
 Warning, 
 Wednesday
@@ -761,19 +744,18 @@ ZIPPostEncode
 ZIPSetupDecode
 ZIPSetupEncode
 ZIPVSetField
-ZSq>
 [thunk]:
 \%03o
 \nFile: 
 \nLine: 
 \nModule: 
 \n\nFor information on how your program can cause an assertion\nfailure, see the Visual C++ documentation on asserts.
-\tJR>8o
 _CrtDbgReport: String too long or IO Error
 _CrtDbgReport: String too long or Invalid characters in String
 _TIFFMergeFieldInfo
 _TIFFSetupFieldInfo
 _TIFFVGetField
+_TIFFVSetField
 __based(
 __cdecl
 __clrcall
@@ -811,7 +793,6 @@ _nextafter
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static destructor helper'
 `local static guard'
 `local static thread guard'
@@ -864,7 +845,6 @@ bilevel art scan\n
 bool
 britain
 c:\valve\thirdpartycode\lgpl\qt\qt_valve_win64\include\qtcore\../../src/corelib/tools/qvector.h
-c>F2
 canadian
 cannot read TIFF_ANY type %d for field "%s"
 ceil
@@ -936,7 +916,6 @@ f:\dd\vctools\crt_bld\self_64_amd64\crt\src\stdargv.c
 f:\dd\vctools\crt_bld\self_64_amd64\crt\src\stdenvp.c
 f:\dd\vctools\crt_bld\self_64_amd64\crt\src\tidtable.c
 f:\dd\vctools\crt_bld\self_64_amd64\crt\src\winsig.c
-fGa>
 fabs
 field[%2d] %5lu, %2d, %2d, %d, %2d, %5s, %5s, %s\n
 float
@@ -974,9 +953,6 @@ initYCbCrConversion
 int 
 irish-english
 italian-swiss
-jeTb
-k>4\tF
-kU'9
 ldexp
 log10
 log10f
@@ -984,13 +960,11 @@ logf
 long
 long 
 lsb-to-msb\n
-mO-B
 min-is-black
 min-is-white
 modf
 msb-to-lsb\n
 must be either LogLUV or LogL
-n$Kx
 new-zealand
 none 
 normal block at 0x%p, %Iu bytes long.\n
@@ -998,8 +972,6 @@ norwegian
 norwegian-bokmal
 norwegian-nynorsk
 operator
-p>.G1
-p>Y3
 palette color (RGB from colormap)
 pattern=QT_PLUGIN_VERIFICATION_DATA\nversion=4.8.3\ndebug=true\nbuildkey=Windows x64 msvc debug full-config
 portuguese-brazilian
@@ -1011,11 +983,9 @@ protected:
 pseudo-
 public: 
 puerto-rico
-q>F,3
 qt_plugin_instance
 qt_plugin_query_verification_data
 qtiffd4.dll
-rNm>)
 row 0 bottom, col 0 lhs
 row 0 bottom, col 0 rhs
 row 0 lhs, col 0 bottom
@@ -1093,11 +1063,5 @@ void\n
 volatile
 volatile 
 wchar_t
-xppwpp
-xpxxxx
-yE>w
-z>h4
-z?aUY
-zc%C1
 {flat}
 {for 

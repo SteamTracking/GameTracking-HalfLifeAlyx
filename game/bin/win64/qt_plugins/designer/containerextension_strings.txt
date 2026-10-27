@@ -1,8 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- ?paletteChange@QWidget@@MEAAXAEBVQPalette@@@Z
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -13,18 +10,6 @@
  new
  throw(
  volatile
-"?qt_metacall@QStackedWidget@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacall@QVBoxLayout@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacall@QWidget@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacast@QComboBox@@UEAAPEAXPEBD@Z
-#?qt_metacast@QWidget@@UEAAPEAXPEBD@Z
-$?releaseDC@QWidget@@UEBAXPEAUHDC__@@@Z
-$?removeItem@QComboBox@@QEAAXH@Z
-%?removeWidget@QStackedWidget@@QEAAXPEAVQWidget@@@Z
-%?resizeEvent@QWidget@@MEAAXPEAVQResizeEvent@@@Z
-)?setGeometry@QBoxLayout@@UEAAXAEBVQRect@@@Z
-*?setLayout@QWidget@@QEAAXPEAVQLayout@@@Z
-+?setParent@QWidget@@QEAAXPEAV1@@Z
 ,<ellipsis>
 .?AVMultiPageWidget@@
 .?AVMultiPageWidgetContainerExtension@@
@@ -50,33 +35,17 @@ $?removeItem@QComboBox@@QEAAXH@Z
 .?AVbad_typeid@std@@
 .?AVexception@std@@
 .?AVtype_info@@
-.?setWindowTitle@QWidget@@QEAAXAEBVQString@@@Z
-.?showEvent@QComboBox@@MEAAXPEAVQShowEvent@@@Z
-.?showEvent@QWidget@@MEAAXPEAVQShowEvent@@@Z
-.?showPopup@QComboBox@@UEAAXXZ
-/?spacerItem@QLayoutItem@@UEAAPEAVQSpacerItem@@XZ
-0?staticMetaObject@QWidget@@2UQMetaObject@@B
-1?styleChange@QWidget@@MEAAXAEAVQStyle@@@Z
 1currentIndexChanged(int)
 1pageTitleChanged(QString)
 1setCurrentIndex(int)
-2"?qt_metacall@QComboBox@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-2?takeAt@QBoxLayout@@UEAAPEAVQLayoutItem@@H@Z
 2activated(int)
 2currentIndexChanged(int)
 2pageTitleChanged(QString)
-3/?sizeHint@QBoxLayout@@UEBA?AVQSize@@XZ
 3M.Q
-7/?sizeHint@QComboBox@@UEBA?AVQSize@@XZ
-8?winEvent@QWidget@@MEAA_NPEAUtagMSG@@PEAJ@Z
-8?windowActivationChange@QWidget@@MEAAX_N@Z
-8?windowTitle@QWidget@@QEBA?AVQString@@XZ
 <ellipsis>
 <ui language="c++">    <widget class="MultiPageWidget" name="multipagewidget">        <widget class="QWidget" name="page" />    </widget>    <customwidgets>        <customwidget>            <class>MultiPageWidget</class>            <extends>QWidget</extends>            <addpagemethod>addPage</addpagemethod>        </customwidget>    </customwidgets></ui>
 <unknown>
 <widget class="%1" name="%2"/>
-?.?setVisible@QWidget@@UEAAX_N@Z
-?/?sizeHint@QFrame@@UEBA?AVQSize@@XZ
 ??0QChar@@QEAA@UQLatin1Char@@@Z
 ??0QComboBox@@QEAA@PEAVQWidget@@@Z
 ??0QExtensionFactory@@QEAA@PEAVQExtensionManager@@@Z
@@ -97,11 +66,18 @@ $?removeItem@QComboBox@@QEAAXH@Z
 ??1QWidget@@UEAA@XZ
 ??4QString@@QEAAAEAV0@$$QEAV0@@Z
 ??8QString@@QEBA_NAEBVQLatin1String@@@Z
+?actionEvent@QWidget@@MEAAXPEAVQActionEvent@@@Z
 ?activate@QMetaObject@@SAXPEAVQObject@@PEBU1@HPEAPEAX@Z
+?addItem@QBoxLayout@@UEAAXPEAVQLayoutItem@@@Z
+?addWidget@QBoxLayout@@QEAAXPEAVQWidget@@HV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
 ?arg@QString@@QEBA?AV1@AEBV1@HAEBVQChar@@@Z
 ?arg@QString@@QEBA?AV1@HHHAEBVQChar@@@Z
 ?cast@QMetaObject@@QEBAPEAVQObject@@PEAV2@@Z
+?changeEvent@QComboBox@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QFrame@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QWidget@@MEAAXPEAVQEvent@@@Z
 ?changeGuard@QMetaObject@@SAXPEAPEAVQObject@@PEAV2@@Z
+?childEvent@QLayout@@MEAAXPEAVQChildEvent@@@Z
 ?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
 ?closeEvent@QWidget@@MEAAXPEAVQCloseEvent@@@Z
 ?connect@QObject@@SA_NPEBV1@PEBD01W4ConnectionType@Qt@@@Z
@@ -140,6 +116,7 @@ $?removeItem@QComboBox@@QEAAXH@Z
 ?free@QString@@CAXPEAUData@1@@Z
 ?fromAscii_helper@QString@@CAPEAUData@1@PEBDH@Z
 ?fromLatin1_helper@QString@@CAPEAUData@1@PEBDH@Z
+?fromUtf8@QString@@SA?AV1@PEBDH@Z
 ?geometry@QLayout@@UEBA?AVQRect@@XZ
 ?getDC@QWidget@@UEBAPEAUHDC__@@XZ
 ?hasHeightForWidth@QBoxLayout@@UEBA_NXZ
@@ -181,15 +158,63 @@ $?removeItem@QComboBox@@QEAAXH@Z
 ?mouseReleaseEvent@QComboBox@@MEAAXPEAVQMouseEvent@@@Z
 ?mouseReleaseEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z
 ?moveEvent@QWidget@@MEAAXPEAVQMoveEvent@@@Z
+?paintEngine@QWidget@@UEBAPEAVQPaintEngine@@XZ
+?paintEvent@QComboBox@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QFrame@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QWidget@@MEAAXPEAVQPaintEvent@@@Z
+?paletteChange@QWidget@@MEAAXAEBVQPalette@@@Z
+?qt_metacall@QComboBox@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QExtensionFactory@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QStackedWidget@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QVBoxLayout@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QWidget@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacast@QComboBox@@UEAAPEAXPEBD@Z
+?qt_metacast@QExtensionFactory@@UEAAPEAXPEBD@Z
+?qt_metacast@QObject@@UEAAPEAXPEBD@Z
+?qt_metacast@QStackedWidget@@UEAAPEAXPEBD@Z
+?qt_metacast@QVBoxLayout@@UEAAPEAXPEBD@Z
+?qt_metacast@QWidget@@UEAAPEAXPEBD@Z
+?releaseDC@QWidget@@UEBAXPEAUHDC__@@@Z
 ?removeGuard@QMetaObject@@SAXPEAPEAVQObject@@@Z
+?removeItem@QComboBox@@QEAAXH@Z
+?removeWidget@QStackedWidget@@QEAAXPEAVQWidget@@@Z
+?resizeEvent@QComboBox@@MEAAXPEAVQResizeEvent@@@Z
+?resizeEvent@QWidget@@MEAAXPEAVQResizeEvent@@@Z
 ?sender@QObject@@IEBAPEAV1@XZ
+?setCurrentIndex@QComboBox@@QEAAXH@Z
+?setCurrentIndex@QStackedWidget@@QEAAXH@Z
+?setGeometry@QBoxLayout@@UEAAXAEBVQRect@@@Z
+?setItemText@QComboBox@@QEAAXHAEBVQString@@@Z
+?setLayout@QWidget@@QEAAXPEAVQLayout@@@Z
 ?setObjectName@QObject@@QEAAXAEBVQString@@@Z
+?setParent@QWidget@@QEAAXPEAV1@@Z
+?setVisible@QWidget@@UEAAX_N@Z
+?setWindowTitle@QWidget@@QEAAXAEBVQString@@@Z
 ?shared_null@QString@@0UData@1@A
+?showEvent@QComboBox@@MEAAXPEAVQShowEvent@@@Z
+?showEvent@QWidget@@MEAAXPEAVQShowEvent@@@Z
+?showPopup@QComboBox@@UEAAXXZ
+?sizeHint@QBoxLayout@@UEBA?AVQSize@@XZ
+?sizeHint@QComboBox@@UEBA?AVQSize@@XZ
+?sizeHint@QFrame@@UEBA?AVQSize@@XZ
+?spacerItem@QLayoutItem@@UEAAPEAVQSpacerItem@@XZ
 ?staticMetaObject@QExtensionFactory@@2UQMetaObject@@B
 ?staticMetaObject@QObject@@2UQMetaObject@@B
+?staticMetaObject@QWidget@@2UQMetaObject@@B
+?styleChange@QWidget@@MEAAXAEAVQStyle@@@Z
+?tabletEvent@QWidget@@MEAAXPEAVQTabletEvent@@@Z
+?takeAt@QBoxLayout@@UEAAPEAVQLayoutItem@@H@Z
 ?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
 ?toLower@QString@@QEBA?AV1@XZ
 ?tr@QMetaObject@@QEBA?AVQString@@PEBD0@Z
+?wheelEvent@QComboBox@@MEAAXPEAVQWheelEvent@@@Z
+?wheelEvent@QWidget@@MEAAXPEAVQWheelEvent@@@Z
+?widget@QLayoutItem@@UEAAPEAVQWidget@@XZ
+?widget@QStackedWidget@@QEBAPEAVQWidget@@H@Z
+?winEvent@QWidget@@MEAA_NPEAUtagMSG@@PEAJ@Z
+?windowActivationChange@QWidget@@MEAAX_N@Z
+?windowTitle@QWidget@@QEBA?AVQString@@XZ
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 April
 August
@@ -212,7 +237,6 @@ FlsSetValue
 FreeEnvironmentStringsW
 FreeLibrary
 Friday
-G8?wheelEvent@QComboBox@@MEAAXPEAVQWheelEvent@@@Z
 GetACP
 GetActiveWindow
 GetCPInfo
@@ -282,7 +306,6 @@ Norwegian-Nynorsk
 November
 October
 Page %1
-Q8?wheelEvent@QWidget@@MEAAXPEAVQWheelEvent@@@Z
 QDesignerContainerExtension
 QDesignerCustomWidgetInterface
 QString
@@ -291,14 +314,12 @@ QtDesigner4.dll
 QtGui4.dll
 Qt_GetCustomAllocators
 QueryPerformanceCounter
-RSDSU
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S ?paintEngine@QWidget@@UEBAPEAVQPaintEngine@@XZ
 Saturday
 September
 SetConsoleCtrlHandler
@@ -314,23 +335,10 @@ Tuesday
 UNKNOWN
 UnhandledExceptionFilter
 Unknown exception
-W ?paintEvent@QComboBox@@MEAAXPEAVQPaintEvent@@@Z
 Wednesday
 WideCharToMultiByte
 WriteFile
-Y(?setCurrentIndex@QComboBox@@QEAAXH@Z
 [thunk]:
-\#?qt_metacast@QStackedWidget@@UEAAPEAXPEBD@Z
-\n?actionEvent@QWidget@@MEAAXPEAVQActionEvent@@@Z
-\r?childEvent@QLayout@@MEAAXPEAVQChildEvent@@@Z
-\r?qt_metacast@QObject@@UEAAPEAXPEBD@Z
-\t?fromUtf8@QString@@SA?AV1@PEBDH@Z
-\v?addItem@QBoxLayout@@UEAAXPEAVQLayoutItem@@@Z
-\v?qt_metacall@QExtensionFactory@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-\v?qt_metacast@QExtensionFactory@@UEAAPEAXPEBD@Z
-] ?paintEvent@QFrame@@MEAAXPEAVQPaintEvent@@@Z
-](?setCurrentIndex@QStackedWidget@@QEAAXH@Z
-^8?widget@QLayoutItem@@UEAAPEAVQWidget@@XZ
 __based(
 __cdecl
 __clrcall
@@ -404,8 +412,6 @@ bad exception
 belgian
 bool
 britain
-c8?widget@QStackedWidget@@QEBAPEAVQWidget@@H@Z
-c\r?changeEvent@QComboBox@@MEAAXPEAVQEvent@@@Z
 canadian
 char
 char 
@@ -459,11 +465,8 @@ german-lichtenstein
 german-luxembourg
 german-swiss
 great britain
-h\r?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 holland
 hong-kong
-i%?resizeEvent@QComboBox@@MEAAXPEAVQResizeEvent@@@Z
-i\r?changeEvent@QFrame@@MEAAXPEAVQEvent@@@Z
 index
 index,page
 insertPage(int,QWidget*)
@@ -478,7 +481,6 @@ newTitle
 norwegian
 norwegian-bokmal
 norwegian-nynorsk
-o\v?addWidget@QBoxLayout@@QEAAXPEAVQWidget@@HV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
 operator
 page
 pageTitle
@@ -543,10 +545,5 @@ volatile
 volatile 
 wchar_t
 windowTitle
-{ ?paintEvent@QWidget@@MEAAXPEAVQPaintEvent@@@Z
 {flat}
 {for 
-|2?tabletEvent@QWidget@@MEAAXPEAVQTabletEvent@@@Z
-|\r?changeEvent@QWidget@@MEAAXPEAVQEvent@@@Z
-~#?qt_metacast@QVBoxLayout@@UEAAPEAXPEBD@Z
-~*?setItemText@QComboBox@@QEAAXHAEBVQString@@@Z

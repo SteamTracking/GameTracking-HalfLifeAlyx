@@ -1,9 +1,11 @@
   (%s, v. %3d) '%s'\n
  -enable_qaccessible
+ -pid %d
  -retail
  open 
 %f %f %f %f
 %i %i %i %i
+%lld
 -consoleapp
 -enable_qaccessible
 -nofocus
@@ -192,7 +194,6 @@ FATAL ERROR: unable to register all schema data: %s\n
 FindWindowA
 FlattenedSerializersVersion001
 FontManager_001
-G%lld
 GCTL
 GSFailure
 GameResourceServiceClientV001
@@ -279,7 +280,6 @@ PropertyEditorSystem_001
 QWidget
 QueryPerformanceCounter
 QueuedLoaderVersion001
-RSDS
 RegisterConfigValue: Unknown error constructing config value "%s"!\n
 Rejecting registering message '%s'. Already registered to an alternate handler.\n
 Release

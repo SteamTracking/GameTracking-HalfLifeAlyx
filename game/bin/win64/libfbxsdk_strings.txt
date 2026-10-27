@@ -12,7 +12,6 @@
       %i, /* map.maptype */\n
       MEMORY ALLOCATED : %lu, MAX was %lu\n
       { /* map.matrix[12] */
-   ! " # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~ 
    "%s", /* procname */\n
    %i, /* meshcolor */\n
    %i, /* nfaces */\n
@@ -35,7 +34,6 @@
    %u, /* isvislofter */\n
    %u, /* useboxmap */\n
    %u, /* usemapinfo */\n
-   ' 0 8 ; > A C G Q S S W W 
    ((byte3ds *)intel)[%i] = ((byte3ds *)native)[%i];\n
    ((byte3ds *)native)[%i] = ((byte3ds *)intel)[%i];\n
    *((double *)(intel)) = *((double *)(native));\n
@@ -97,15 +95,14 @@
   trans: 
   type: '%s' 
   value: '%s'\n
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz{\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  #FIXED
  #IMPLIED
  #REQUIRED
+ %.10g
+ %02d 
  %d: min %d max %d\n
- ' 0 C E Q S T W W } ~ 
+ %lld@
  (Shape)
  (global)
  * . ` c j o 
@@ -115,7 +112,6 @@
  All rights reserved.
  Base Class Array'
  Base Class Descriptor at (
- C>TQ
  CDATA
  Camera type will be set to Perspective.
  Class Hierarchy Descriptor'
@@ -166,7 +162,6 @@
  [First Frame Only]
  [Flat Mirror]
  \n ( ) / / _ _ 
- \t \n \v \f \r 
  and a foc of %f\n
  assertion failed (
  atom: 
@@ -184,8 +179,11 @@
  is invalid
  is not supported in this product
  less than
+ max: %d
  max: unbounded
+ min: %d
  mode=%d
+ name="%s"
  new
  newer than supported format 1.4.*. Might be weakly supported.
  not supported in vertices element
@@ -206,16 +204,9 @@
  wildcard
  will not be imported.
  xmlns="http://relaxng.org/ns/structure/1.0"
-! !!!"!#!$!%!&!'!(!)!*!+!,!-!.!/!0!1!2!3!4!5!6!7!8!9!:!;!<!=!>!?!@!A!B!C!D!E!F!G!H!I!J!K!L!M!N!O!P!Q!R!S!T!U!V!W!X!Y!Z![!\!]!^!_!`!a!b!c!d!e!f!g!h!i!j!k!l!m!n!o!p!q!r!s!t!u!v!w!x!y!z!{!|!}!~!
 !#!%!%!'!'!)!)!.!.!2!2!:!;!@!D!J!K!
-!#!%!%!'!'!)!)!.!.!2!2!:!;!J!J!
-!$!$!&!&!(!(!*!-!/!1!3!9!=!?!E!I!
-!$!$!&!&!(!(!*!-!0!1!3!3!>!?!E!E!!
 !/!/!4!4!9!9!=!=!F!I!
-!AxU
-!\t!\n!\v!\f!\r!
 !fInGroup
-" "!"""#"$"%"&"'"(")"*"+","-"."/"0"1"2"3"4"5"6"7"8"9":";"<"=">"?"@"A"B"C"D"E"F"G"H"I"J"K"L"M"N"O"P"Q"R"S"T"U"V"W"X"Y"Z"["\"]"^"_"`"a"b"c"d"e"f"g"h"i"j"k"l"m"n"o"p"q"r"s"t"u"v"w"x"y"z"{"|"}"~"
 " exists.
 " in .mtl file\n
 " in material "
@@ -226,51 +217,48 @@
 " is not compatible with FBX, so it is baked into TRS.
 " is too long.\nTexture filename changed to: "
 " not found as <
-"\t"\n"\v"\f"\r"
-"e?<<<<<<l?
-# #!#"###$#%#&#'#(#)#*#+#,#-#.#/#0#1#2#3#4#5#6#7#8#9#:#;#<#=#>#?#@#A#B#C#D#E#F#G#H#I#J#K#L#M#N#O#P#Q#R#S#T#U#V#W#X#Y#Z#[#\#]#^#_#`#a#b#c#d#e#f#g#h#i#j#k#l#m#n#o#p#q#r#s#t#u#v#w#x#y#z#{#|#}#~#
 # Created with Kaydara FBX\n
 # Wavefront OBJ file\n
 # Wavefront material file\n
-#"#(#+#{#}#
 ##any
 ##local
 ##other
 ##targetNamespace
 #PCDATA
-#\t#\n#\v#\f#\r#
-#\v# #!#|#|#
 #all
 #any
-#bML"
 #cdata-section
 #comment
 #document
 #document-fragment
-#h'h'j'j'l'l'n'n'p'p'r'r't't'
-#i'i'k'k'm'm'o'o'q'q's's'u'u'
 #include
 #include "
 #include <fbxfilesdk/3dsftk_nsend.h>\n
 #text
-$ $!$"$#$$$%$&$'$($)$*$+$,$-$.$/$0$1$2$3$4$5$6$7$8$9$:$;$<$=$>$?$@$A$B$C$D$E$F$G$H$I$J$K$L$M$N$O$P$Q$R$S$T$U$V$W$X$Y$Z$[$\$]$^$_$`$a$b$c$d$e$f$g$h$i$j$k$l$m$n$o$p$q$r$s$t$u$v$w$x$y$z${$|$}$~$
+#x%X
 $$$DUMMY
 $$$DUMMY.
 $ACADVER\n
 $AMBIENT$
-$Ib?s
 $TILEMODE\n
 $UCSORG\n
 $UCSXDIR\n
 $UCSYDIR\n
-$\t$\n$\v$\f$\r$
-% %!%"%#%$%%%&%'%(%)%*%+%,%-%.%/%0%1%2%3%4%5%6%7%8%9%:%;%<%=%>%?%@%A%B%C%D%E%F%G%H%I%J%K%L%M%N%O%P%Q%R%S%T%U%V%W%X%Y%Z%[%\%]%^%_%`%a%b%c%d%e%f%g%h%i%j%k%l%m%n%o%p%q%r%s%t%u%v%w%x%y%z%{%|%}%~%
+%%%ld%s
 %%%s; is not a parameter entity\n
+%%.%df
 %%s%%0%dd%%s
+%*.*e
 %.15g
 %.20s
 %.20s%d
 %.2f\t%.2f\t%d\t%d\tmm\t%.2f\t%d\t%d\t\n
+%.30s_%d
+%.3u
+%.4f
+%.5X
+%.7g
+%0.*f
 %01.14e
 %02d
 %02d%02d%02d%02d%02d%04d%02d
@@ -300,7 +288,6 @@ $\t$\n$\v$\f$\r$
 %I64d*
 %I64u
 %Y-%m-%d %H:%M:%S
-%\t%\n%\v%\f%\r%
 %c %s %d%c%d %s %s
 %c %s %d%c%d%c%d %s %s
 %c%02d
@@ -310,16 +297,25 @@ $\t$\n$\v$\f$\r$
 %d counters:\n
 %d entries\n
 %d states:
+%d%d
+%d%n
 %d, %d transitions:\n
 %d-%02d-%02dT%02d:%02d:%02dZ
+%d-%d
+%d-%d 
 %d-%d-%d %d:%d:%d:%d
 %d:%d:%d:%d
 %d\t%.10g\t%.10g\t%.10g\t%.10g\t%.10g\t%.10g\t1.0\n
+%d\t%.3f
+%g %g %g 
 %g %g %g %g %g %g 
+%g %g %g\n
 %lf %lf %lf%n
+%lf (%d)
 %lf%lf%lf
 %lf%lf%lf%lf
 %lf%n
+%lf\n
 %lld
 %lu%lu
 %lu%lu%lu
@@ -327,8 +323,13 @@ $\t$\n$\v$\f$\r$
 %p : Malloc(%ld) Ok\n
 %p : Realloced(%ld -> %ld) Ok\n
 %p : Strdup() Ok\n
+%s %d-%d\n
+%s %d\n
 %s %g %g %g %s\n
 %s %g %g %g\n
+%s %g\n
+%s %s\n
+%s 1.10\n
 %s 3 %s %s %s\n
 %s 6 %s %s %s %s %s %s\n
 %s : (%d) %s\n
@@ -342,12 +343,22 @@ $\t$\n$\v$\f$\r$
 %s read error (line %d): 
 %s read warning (line %d): 
 %s%02d
+%s%f%s
+%s%i
+%s%s
+%s%s %s %s
+%s%s%s
+%s%s[%d]%s
+%s%s\n
 %s%u Faces\n
 %s%u Flags\n
 %s%u Keys, %x Flags.\n
 %s%u Vertices\n
+%s(%02d)
 %s, attribute '%s': %s.\n
 %s, attribute '%s': The QName value '%s' does not resolve to a(n) %s.\n
+%s.%s
+%s/%d.%d
 %s: The attribute '%s' is required but missing.\n
 %s: The attributes '%s' and '%s' are mutually exclusive.\n
 %s: The content is not valid. Expected is %s.\n
@@ -355,6 +366,8 @@ $\t$\n$\v$\f$\r$
 %s: The facet '%s' is not allowed on types derived from the type %s.\n
 %s: The facet '%s' is not allowed.\n
 %s: out of memory\n
+%s:%d: 
+%s:%s
 %s:external-linkset
 %sATKEY1\n
 %sATKEY2\n
@@ -503,15 +516,14 @@ $\t$\n$\v$\f$\r$
 %sY Tiling of %f\n
 %sZoom Factor of %f\n
 %s[%i] %f [%i] %f [%i] %f\n
+%s\%s
 %s\t%.10g\t%.10g\t%.10g\t%.10g\t%.10g\t%.10g\t%.10g\n
+%s\t%d\n
+%s\t%g\n
+%s\t%s\n
 %sfal%i}\n
-& &!&"&#&$&%&&&'&(&)&*&+&,&-&.&/&0&1&2&3&4&5&6&7&8&9&:&;&<&=&>&?&@&A&B&C&D&E&F&G&H&I&J&K&L&M&N&O&P&Q&R&S&T&U&V&W&X&Y&Z&[&\&]&^&_&`&a&b&c&d&e&f&g&h&i&j&k&l&m&n&o&p&q&r&s&t&u&v&w&x&y&z&{&|&}&~&
-&!&!*!+!.!.!
-&?PPPPPPP?
-&\t&\n&\v&\f&\r&
 &amp;
 &quot;
-' '!'"'#'$'%'&'''(')'*'+','-'.'/'0'1'2'3'4'5'6'7'8'9':';'<'='>'?'@'A'B'C'D'E'F'G'H'I'J'K'L'M'N'O'P'Q'R'S'T'U'V'W'X'Y'Z'['\']'^'_'`'a'b'c'd'e'f'g'h'i'j'k'l'm'n'o'p'q'r's't'u'v'w'x'y'z'{'|'}'~'
 ' has to be
 ' of the base type
 ' will be saved.
@@ -526,10 +538,7 @@ $\t$\n$\v$\f$\r$
 'Marker' type not supported by COLLADA. 
 'Null' type not supported by COLLADA. 
 '\t'\f''')'K'M'M'O'R'V'V'X'^'a'g'
-'\t'\n'\v'\f'\r'
 's mode is not supported. It will be treated as mode eTotalOne.
-( (!("(#($(%(&('((()(*(+(,(-(.(/(0(1(2(3(4(5(6(7(8(9(:(;(<(=(>(?(@(A(B(C(D(E(F(G(H(I(J(K(L(M(N(O(P(Q(R(S(T(U(V(W(X(Y(Z([(\(](^(_(`(a(b(c(d(e(f(g(h(i(j(k(l(m(n(o(p(q(r(s(t(u(v(w(x(y(z({(|(}(~(
-( 8PX
 (#all | List of (extension | restriction | list | union))
 (#all | List of (extension | restriction | substitution))
 (#all | List of (extension | restriction))
@@ -540,7 +549,6 @@ $\t$\n$\v$\f$\r$
 ((##any | ##other) | List of (xs:anyURI | (##targetNamespace | ##local)))
 ((include | import | redefine | annotation)*, (((simpleType | complexType | group | attributeGroup) | element | attribute | notation), annotation*)*)
 (NULL)
-(\t(\n(\v(\f(\r(
 (annotation | (simpleType | complexType | group | attributeGroup))*
 (annotation?)
 (annotation?, ((attribute | attributeGroup)*, anyAttribute?))
@@ -566,21 +574,9 @@ $\t$\n$\v$\f$\r$
 (strict | skip | lax)
 (unknown)
 (xs:nonNegativeInteger | unbounded)
-) )!)")#)$)%)&)')()))*)+),)-).)/)0)1)2)3)4)5)6)7)8)9):);)<)=)>)?)@)A)B)C)D)E)F)G)H)I)J)K)L)M)N)O)P)Q)R)S)T)U)V)W)X)Y)Z)[)\)])^)_)`)a)b)c)d)e)f)g)h)i)j)k)l)m)n)o)p)q)r)s)t)u)v)w)x)y)z){)|)})~)
-)3M3
-)\t)\n)\v)\f)\r)
-)\t0\t0\v0\v0\r0\r0
-)yIx
-* *!*"*#*$*%*&*'*(*)***+*,*-*.*/*0*1*2*3*4*5*6*7*8*9*:*;*<*=*>*?*@*A*B*C*D*E*F*G*H*I*J*K*L*M*N*O*P*Q*R*S*T*U*V*W*X*Y*Z*[*\*]*^*_*`*a*b*c*d*e*f*g*h*i*j*k*l*m*n*o*p*q*r*s*t*u*v*w*x*y*z*{*|*}*~*
+*%d {%s
 *** Welcome! ***
-*5KS
-*StO9>T
 *Unnamed_
-*\t*\n*\v*\f*\r*
-+ +!+"+#+$+%+&+'+(+)+*+++,+-+.+/+0+1+2+3+4+5+6+7+8+9+:+;+<+=+>+?+@+A+B+C+D+E+F+G+H+I+J+K+L+M+N+O+P+Q+R+S+T+U+V+W+X+Y+Z+[+\+]+^+_+`+a+b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+r+s+t+u+v+w+x+y+z+{+|+}+~+
-+\t+\n+\v+\f+\r+
-+i9O
-, ,!,",#,$,%,&,',(,),*,+,,,-,.,/,0,1,2,3,4,5,6,7,8,9,:,;,<,=,>,?,@,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,[,\,],^,_,`,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,{,|,},~,
 , Bias %.2f
 , Cont %.2f
 , Ease from %.2f
@@ -596,17 +592,19 @@ $\t$\n$\v$\f$\r$
 , Tens %.2f
 , attribute '
 , file 
-,HR>O
-,\t,\n,\v,\f,\r,
+,%.15g
 - %I64d
 - %I64d (%02d)
-- -!-"-#-$-%-&-'-(-)-*-+-,---.-/-0-1-2-3-4-5-6-7-8-9-:-;-<-=->-?-@-A-B-C-D-E-F-G-H-I-J-K-L-M-N-O-P-Q-R-S-T-U-V-W-X-Y-Z-[-\-]-^-_-`-a-b-c-d-e-f-g-h-i-j-k-l-m-n-o-p-q-r-s-t-u-v-w-x-y-z-{-|-}-~-
+- %I64d*
 - ---:--:--%c--
 - ---:--:--%c-- (--)
 -%04ld-%02u
+-%lu
 -%lu%lu
 -%lu%lu%lu
+--%02u
 --%02u-%02u
+---%02u
 ----------------------------------------------------
 ------------------------------------------------------------------
 ---:--:--%c--
@@ -614,9 +612,6 @@ $\t$\n$\v$\f$\r$
 -//W3C//DTD XHTML 1.0 Frameset//EN
 -//W3C//DTD XHTML 1.0 Strict//EN
 -//W3C//DTD XHTML 1.0 Transitional//EN
--64OS
--9D\t/9a
--BH>t
 -BindPos
 -Infinity
 -Interpolations
@@ -633,7 +628,6 @@ $\t$\n$\v$\f$\r$
 -VERTEX
 -VERTEX_COLOR
 -Weights
--\t-\n-\v-\f-\r-
 -accessor
 -anim
 -animation
@@ -659,8 +653,6 @@ $\t$\n$\v$\f$\r$
 -targets
 -weights
 . %s/.flib/%s %s/.psoft/%s %s/flib/%s %s/psoft/%s %s/%s %s/%s /usr/lib/flib/%s /usr/lib/psoft/%s /usr/local/psoft/lib/%s /usr/local/spi/lib/%s
-. .!.".#.$.%.&.'.(.).*.+.,.-.../.0.1.2.3.4.5.6.7.8.9.:.;.<.=.>.?.@.A.B.C.D.E.F.G.H.I.J.K.L.M.N.O.P.Q.R.S.T.U.V.W.X.Y.Z.[.\.].^._.`.a.b.c.d.e.f.g.h.i.j.k.l.m.n.o.p.q.r.s.t.u.v.w.x.y.z.{.|.}.~.
-.>\rfJBGo
 .?AUctype_base@std@@
 .?AV?$_Iosb@H@std@@
 .?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
@@ -697,10 +689,8 @@ $\t$\n$\v$\f$\r$
 .Offset T
 .Target
 .Weight
-.\t.\n.\v.\f.\r.
 .abc
 .bin
-.eBFbxBindingsEntry
 .fbd
 .fbm
 .fbx
@@ -714,7 +704,6 @@ $\t$\n$\v$\f$\r$
 .tif
 .tmp
 .txt
-.xJ>Hf
 .xml
 / /!/"/#/$/%/&/'/(/)/*/+/,/-/.///0/1/2/3/4/5/6/7/8/9/:/;/</=/>/?/@/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O/P/Q/R/S/T/U/V/W/X/Y/Z/[/\/]/^/_/`/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/{/libfbxsdk.dll
 /* End Private */
@@ -729,50 +718,28 @@ $\t$\n$\v$\f$\r$
 /* Public Prototypes */
 /* Public Typedefs */
 /* this source was algorythmically generated by makeswap.cxx */\n\n#include "3dstype.h"\n#include "swapbyte.h"\n#include <fbxfilesdk/3dsftk_nsbegin.h>\n
-/2GG>!B
-/P8i
 /\t/\n/\v/\f/\r/
+/c %s
 /usr/tmp
-/yQA
-0 0 06070>0?0
-0 HA
 0!0)0
-0!0)080:0
-00000
-00000=0=0
-01050
-01050;0;0
-01050;0<0A0
 0123456789abcdefABCDEF
 0123456789abcdefghijklmnopqrstuvwxyz
-0<0<0A0
-0=0=00
-0E>X
-0X8b?~
-0\n0\n0\f0\f0
-0iN>/
+0:0:0:%d:0
 0x%02X 0x%02X 0x%02X 0x%02X
 0x%x
-1 2)2Q2_2
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-1,111
 1.2.1
 1.4.1
 100 fps
 1000
 1000 fps
-11UT
-11Y@
 120 fps
 128 x 128
 128x128
 16mm Theatrical
-1A26b
-1wsHp
-2*2C2P2P2`2}2
 20150910
 2016.1.2
 2016.1.2 Release (238216)
@@ -786,8 +753,6 @@ $\t$\n$\v$\f$\r$
 2D Magnifier X
 2D Magnifier Y
 2D Magnifier Zoom
-2\n0!p
-2\vp HA
 30 fps
 320 x 200
 320 x 240
@@ -799,9 +764,6 @@ $\t$\n$\v$\f$\r$
 35mm Anamorphic
 35mm Full Aperture
 35mm TV Projection
-37>k
-3>N;kU
-3>fvw
 3D Curve
 3D Studio 3DS (*.3ds)
 3DFACE
@@ -809,38 +771,18 @@ $\t$\n$\v$\f$\r$
 48 fps
 4ROFMROF8ROF4TAC TAC8TAC4SILTSIL8SIL4ORPPORP8ORPDNEGHTAPLCNI
 50 fps
-51>W
-52F*
 59.94
 59.94 fps
-5m8>8=t
 60 fps
 640 x 480
 640x480
-6BJ^
-6NK>
-6\fXO>\ntA
 700PP
 700WP
 70mm Projection
 72 fps
-7>I0
-7?GX
-7h>?8
-7yp>
-7~8A
-7~xh
-82Pa8
-8ke?;
 9 curves required
 96 fps
 999\n
-99jd9
-9>70
-9>logf
-9Z=K7
-9a&g
-9g>@3
 :ASF-FILE
 :ASF-PATH
 :DEGREES
@@ -882,8 +824,6 @@ $\t$\n$\v$\f$\r$
 </start>\n
 </zeroOrMore>\n
 <?xml version=
-<acos
-<acosf
 <attribute>\n
 <blob>
 <choice>\n
@@ -892,6 +832,7 @@ $\t$\n$\v$\f$\r$
 <element>\n
 <empty/>\n
 <externalRef>
+<fd:%d>
 <grammar
 <group>\n
 <interleave>\n
@@ -906,30 +847,13 @@ $\t$\n$\v$\f$\r$
 <start> uses unknown combine value '%s''\n
 <start>\n
 <zeroOrMore>\n
-=1cb
 =>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\
-=cQ6
-=e2m
-=imb;D
 > element with ID "
 > for <input>
 > is not supported.
 > on light "
 > on light element "
 >%s</name>\n
->HIERARCHY
->HandMiddleToWrist
->atan2
->cQ6
->jtm}S
-?!5WOo
-?$$$DUMMY
-?1cb
-?33333
-?333333
-?7zQ6$
-?8UUUUU
-?8bunz8
 ?? Unknown error ??\n
 ??$EvaluateValue@C@FbxProperty@fbxsdk@@QEAACAEBVFbxTime@1@_N@Z
 ??$EvaluateValue@E@FbxProperty@fbxsdk@@QEAAEAEBVFbxTime@1@_N@Z
@@ -3999,7 +3923,6 @@ $\t$\n$\v$\f$\r$
 ??_FFbxRotationOrder@fbxsdk@@QEAAXXZ
 ??_FFbxTime@fbxsdk@@QEAAXXZ
 ??_FFbxUniqueNameObjectList@fbxsdk@@QEAAXXZ
-?@En[vP
 ?AM@FbxLayerContainer@fbxsdk@@QEAAHPEAXI0_N@Z
 ?ASCIIReadHeader@FbxIO@fbxsdk@@AEAA_NXZ
 ?ASCIIReadSectionPosition@FbxIO@fbxsdk@@AEAA_NXZ
@@ -6105,14 +6028,12 @@ $\t$\n$\v$\f$\r$
 ?ExtractTransforms@FbxAnimCurveFilterMatrixConverter@fbxsdk@@AEAAXAEAVFbxVector4@2@00AEAVFbxAMatrix@2@AEAVCell@12@@Z
 ?ExtractTransforms@KFCurveFilterMatrixConverter@fbxsdk@@AEAAXAEAVFbxVector4@2@00AEAVFbxAMatrix@2@AEAUCell@12@@Z
 ?ExtrapolationSyncCallback@FbxAnimCurveKFCurve@fbxsdk@@UEAAXXZ
-?FCurve Resample
 ?FCurveCreated@KFCurveNode@fbxsdk@@QEAA_NXZ
 ?FCurveGet@KFCurveNode@fbxsdk@@QEBAPEAVKFCurve@2@XZ
 ?FCurveNodeCreateFromDataType@fbxsdk@@YAPEAVKFCurveNode@1@PEAVKDataType@1@PEAD@Z
 ?FCurveReplace@KFCurveNode@fbxsdk@@QEAAXPEAVKFCurve@2@@Z
 ?FCurveSet@KFCurveNode@fbxsdk@@QEAAPEAVKFCurve@2@PEAV32@_N@Z
 ?FGets@FbxFileUtils@fbxsdk@@SAPEADPEADHPEAU_iobuf@@@Z
-?FUUUUU
 ?FastFind@FbxPropertyPage@fbxsdk@@QEAAHHPEBDPEAV12@_N@Z
 ?Fbx7Support@FbxIO@fbxsdk@@QEAAX_N@Z
 ?Fbx7Support@FbxIO@fbxsdk@@QEBA_NXZ
@@ -9237,7 +9158,6 @@ $\t$\n$\v$\f$\r$
 ?IsWriteLocked@FbxLayerElementArray@fbxsdk@@QEBA_NXZ
 ?IsZero@FbxVector2@fbxsdk@@QEBA_NH@Z
 ?IsZero@FbxVector4@fbxsdk@@QEBA_NH@Z
-?JV8f
 ?Join@FbxThread@fbxsdk@@QEAA_NXZ
 ?KDataTypeGet@fbxsdk@@YAPEAVKDataType@1@H@Z
 ?KDataTypeGet@fbxsdk@@YAPEAVKDataType@1@PEBD@Z
@@ -9481,7 +9401,6 @@ $\t$\n$\v$\f$\r$
 ?LT2DoF@FbxTransform@fbxsdk@@QEAAXAEAVFbxVector4@2@AEBV32@AEBVFbxAMatrix@2@2@Z
 ?LUDecomposition@FbxMatrix@fbxsdk@@QEAANAEAVFbxVector4@2@@Z
 ?LUMult@FbxMatrix@fbxsdk@@QEBA?AV12@V12@AEBVFbxVector4@2@@Z
-?Lambert
 ?LayerCopyFromRecursive@KFCurveNode@fbxsdk@@QEAAXPEAV12@_N@Z
 ?LayerCreate@KFCurveNode@fbxsdk@@AEAAPEAV12@H_N@Z
 ?LayerGet@KFCurveNode@fbxsdk@@QEAAPEAV12@H@Z
@@ -9514,7 +9433,6 @@ $\t$\n$\v$\f$\r$
 ?Lower@FbxString@fbxsdk@@QEBA?AV12@XZ
 ?M2V@FbxRotationOrder@fbxsdk@@QEAAXAEAVFbxVector4@2@AEBVFbxAMatrix@2@@Z
 ?MAX_SUBDIV_LEVEL@FbxSubDiv@fbxsdk@@2HB
-?MGI
 ?Make4Quaternions@KFCurveNode@fbxsdk@@AEAAXHHVFbxTime@2@000AEAVFbxQuaternion@2@111AEAVFbxAMatrix@2@@Z
 ?MakeCrcTable@FbxCRCFile@fbxsdk@@AEAAXXZ
 ?MakeFilenameAbsolute@FbxExternalDocRefListener@fbxsdk@@MEBA?AVFbxString@2@AEBV32@@Z
@@ -9662,7 +9580,6 @@ $\t$\n$\v$\f$\r$
 ?OpenLibrary@FbxReaderObj@fbxsdk@@AEAA_NPEAD@Z
 ?Or@FbxAtomOp@fbxsdk@@SA_NPEC_J_J@Z
 ?OrAndFetch@FbxAtomOp@fbxsdk@@SA_JPEC_J_J@Z
-?OuterBoundary
 ?Output@FbxUserNotification@fbxsdk@@QEAA_NAEAVFbxUserNotificationFilteredIterator@2@_N@Z
 ?Output@FbxUserNotification@fbxsdk@@QEAA_NAEBVFbxString@2@0W4EClass@FbxAccumulatorEntry@2@_N@Z
 ?Output@FbxUserNotification@fbxsdk@@QEAA_NW4EOutputSource@12@H_N@Z
@@ -9680,7 +9597,6 @@ $\t$\n$\v$\f$\r$
 ?ParseVertexGroup@FbxReaderObj@fbxsdk@@AEAA_NAEAVFbxObjIndexGroup@2@PEAD@Z
 ?PeakChar@FbxTextFile@fbxsdk@@QEAA_NAEAD@Z
 ?PeakFieldName@FbxIOFieldList@fbxsdk@@AEBAHPEBDH@Z
-?Phong
 ?PivotSetToMBTransform@FbxNode@fbxsdk@@QEAAXW4EPivotSet@12@@Z
 ?PluginReadParameters@FbxReader@fbxsdk@@UEAAXAEAVFbxObject@2@@Z
 ?PluginWriteParameters@FbxWriter@fbxsdk@@UEAAXAEAVFbxObject@2@@Z
@@ -9784,7 +9700,6 @@ $\t$\n$\v$\f$\r$
 ?QuatEvaluateCubic@KFCurveNode@fbxsdk@@AEAAXPEANNHHVFbxTime@2@111_N2@Z
 ?QuatEvaluateSlerp@KFCurveNode@fbxsdk@@AEAAXPEANNHHVFbxTime@2@111_N2@Z
 ?QuatEvaluateTangentDependent@KFCurveNode@fbxsdk@@AEAAXPEANVFbxTime@2@PEAH_NNHHNHHNHH33PEAV12@44@Z
-?R0I?
 ?ReAssignLayerElements@FbxCloneManager@fbxsdk@@AEBA_NPEAVRecordType@?$FbxRedBlackTree@VKeyValuePair@?$FbxMap@PEAVFbxObject@fbxsdk@@UCloneSetElement@FbxCloneManager@2@U?$FbxLessCompare@PEAVFbxObject@fbxsdk@@@2@VFbxBaseAllocator@2@@fbxsdk@@U?$FbxLessCompare@PEAVFbxObject@fbxsdk@@@3@VFbxBaseAllocator@3@@2@AEBV?$FbxMap@PEAVFbxObject@fbxsdk@@UCloneSetElement@FbxCloneManager@2@U?$FbxLessCompare@PEAVFbxObject@fbxsdk@@@2@VFbxBaseAllocator@2@@2@@Z
 ?Read3DFace@FbxReaderDxf@fbxsdk@@AEAAPEAVFbxMesh@2@PEAVFbxNode@2@@Z
 ?Read3DFaceByLayer@FbxReaderDxf@fbxsdk@@AEAAXAEAVFbxCharPtrSet@2@0@Z
@@ -11395,7 +11310,6 @@ $\t$\n$\v$\f$\r$
 ?Unserialize@FbxMessage@fbxsdk@@IEBAXPEBDAEA_N@Z
 ?UnsetBit@FbxBitSet@fbxsdk@@QEAAXI@Z
 ?UnsetMask@FbxPropertyFlags@fbxsdk@@QEAA_NW4EFlags@12@@Z
-?UpAxis
 ?Update@FbxCameraManipulator@fbxsdk@@QEAAXAEBVFbxTime@2@@Z
 ?Update@FbxProgress@fbxsdk@@QEAAXMPEBD@Z
 ?UpdateAutomatic@FbxLimitsUtilities@fbxsdk@@QEAAXPEAVFbxNode@2@@Z
@@ -11532,20 +11446,13 @@ $\t$\n$\v$\f$\r$
 ?__xmlStructuredErrorContext@fbxsdk@@YAPEAPEAXXZ
 ?__xmlSubstituteEntitiesDefaultValue@fbxsdk@@YAPEAHXZ
 ?__xmlTreeIndentString@fbxsdk@@YAPEAPEBDXZ
-?asin
-?asinf
 ?cm@FbxSystemUnit@fbxsdk@@2V12@B
-?const
 ?currentDateTimeGMT@FbxDateTime@fbxsdk@@SA?AV12@XZ
 ?dm@FbxSystemUnit@fbxsdk@@2V12@B
-?expf
-?f`Y4
-?ffffff
 ?fromString@FbxDateTime@fbxsdk@@QEAA_NPEBD@Z
 ?gsGlobalTimeMode@FbxTime@fbxsdk@@0W4EMode@12@A
 ?gsGlobalTimeProtocol@FbxTime@fbxsdk@@0W4EProtocol@12@A
 ?gsTimeObject@FbxTime@fbxsdk@@0PEAVFbxTimeModeObject@2@EA
-?hFZ
 ?initGenericErrorDefaultFunc@fbxsdk@@YAXPEAP6AXPEAXPEBDZZ@Z
 ?inputPop@fbxsdk@@YAPEAU_xmlParserInput@1@PEAU_xmlParserCtxt@1@@Z
 ?inputPush@fbxsdk@@YAHPEAU_xmlParserCtxt@1@PEAU_xmlParserInput@1@@Z
@@ -11563,8 +11470,6 @@ $\t$\n$\v$\f$\r$
 ?isValid@FbxDateTime@fbxsdk@@QEBA_NXZ
 ?isolat1ToUTF8@fbxsdk@@YAHPEAEPEAHPEBE1@Z
 ?km@FbxSystemUnit@fbxsdk@@2V12@B
-?kxG2)
-?lZE
 ?m@FbxSystemUnit@fbxsdk@@2V12@B
 ?mAllocatorFct@FbxAnimCurveKey@fbxsdk@@0P6APEAVFbxAnimCurveKey_Impl@2@XZEA
 ?mCopyAllocatorFct@FbxAnimCurveKey@fbxsdk@@0P6APEAVFbxAnimCurveKey_Impl@2@PEAV32@@ZEA
@@ -11577,8 +11482,6 @@ $\t$\n$\v$\f$\r$
 ?namePush@fbxsdk@@YAHPEAU_xmlParserCtxt@1@PEBE@Z
 ?nodePop@fbxsdk@@YAPEAU_xmlNode@1@PEAU_xmlParserCtxt@1@@Z
 ?nodePush@fbxsdk@@YAHPEAU_xmlParserCtxt@1@PEAU_xmlNode@1@@Z
-?qBJ
-?rAj
 ?sAmbient@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
 ?sAmbientDefault@FbxSurfaceLambert@fbxsdk@@2V?$FbxVectorTemplate3@N@2@B
 ?sAmbientFactor@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
@@ -11744,7 +11647,6 @@ $\t$\n$\v$\f$\r$
 ?setDate@FbxDateTime@fbxsdk@@QEAAXHHH@Z
 ?setTime@FbxDateTime@fbxsdk@@QEAAXHHHH@Z
 ?sgFbxStatusGlobal@FbxStatusGlobal@fbxsdk@@0V12@A
-?sinf
 ?smAngle@FbxFileAcclaimAsf@fbxsdk@@0PAVKToken@2@A
 ?smAxis@FbxFileAcclaimAsf@fbxsdk@@0PAVKToken@2@A
 ?smBoneData@FbxFileAcclaimAsf@fbxsdk@@0PAVKToken@2@A
@@ -11791,7 +11693,6 @@ $\t$\n$\v$\f$\r$
 ?smTypeId@?$FbxEvent@VFbxEventUpdateSystemLibrary@fbxsdk@@@fbxsdk@@0HA
 ?smTypeId@?$FbxEvent@VFbxEventWriteLocalization@fbxsdk@@@fbxsdk@@0HA
 ?smUnits@FbxFileAcclaimAsf@fbxsdk@@0PAVKToken@2@A
-?tanf
 ?toString@FbxDateTime@fbxsdk@@QEBA?AVFbxString@2@XZ
 ?unit@FbxDistance@fbxsdk@@QEBA?BVFbxSystemUnit@2@XZ
 ?unitName@FbxDistance@fbxsdk@@QEBA?BVFbxString@2@XZ
@@ -13112,9 +13013,6 @@ $\t$\n$\v$\f$\r$
 ?xmlXPtrNewRangePoints@fbxsdk@@YAPEAU_xmlXPathObject@1@PEAU21@0@Z
 ?xmlXPtrRangeToFunction@fbxsdk@@YAXPEAU_xmlXPathParserContext@1@H@Z
 ?xmlXPtrWrapLocationSet@fbxsdk@@YAPEAU_xmlXPathObject@1@PEAU_xmlLocationSet@1@@Z
-?ysB
-@Category
-@hcjz
 A <material> element with type "
 A <simpleType> is expected among the children of <restriction>, if <simpleContent> is used and the base type '%s' is a complex type
 A child element is missing
@@ -13123,7 +13021,6 @@ A matching attribute use for the 'required' %s of the %s %s is missing
 A model group definition is referenced, but it contains an 'all' model group, which cannot be contained by model groups
 A type cannot be derived by extension from a type which has an 'all' model group in its {content type}, since this would produce a 'sequence' model group containing the 'all' model group; 'all' model groups are not allowed to appear inside other model groups
 A type, derived by list or union, must have the simple ur-type definition as base type, not '%s'
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/0123456789ABCDEF
 AC1008\n
@@ -13137,7 +13034,6 @@ ADSKSurfaceMaterialDefinition
 ADSKSwatchSceneDefinition
 ADSKTextureDefinition
 ADVAPI32.dll
-AK>(v
 AMBIENT_LIGHT
 AMBIENT_NODE_TAG
 ANGLE
@@ -13150,7 +13046,6 @@ AUXILIARY
 AXISLEN
 A_ONE
 A_ZERO
-A`1w>
 Absolute
 Absolute From Camera
 AccessMode
@@ -13331,10 +13226,8 @@ AxisLen
 BASE
 BBoxMax
 BBoxMin
-BC?>6t9^\tc:>
 BEGIN-OP
 BEZIER
-BF>^G
 BIT_MAP
 BLOCK
 BLOCK 
@@ -13344,7 +13237,6 @@ BOTTOM
 BOUNDBOX
 BSpline
 BVH:reference
-B\fp\v0
 BackGroundColor
 BackPlaneDistance
 BackPlaneDistanceMode
@@ -13464,10 +13356,8 @@ ByVertice
 Byte
 Bytes: 0x%02X 0x%02X 0x%02X 0x%02X\n
 ByzantineMusicalSymbols
-C-Yn
 C14N 
 C3d Real Format
-C5R?\t
 CAMERA_NODE_TAG
 CAM_RANGES
 CAM_SEE_CONE
@@ -13490,7 +13380,6 @@ CJKSymbolsandPunctuation
 CJKUnifiedIdeographs
 CJKUnifiedIdeographsExtensionA
 CJKUnifiedIdeographsExtensionB
-CL:>8
 CMAGIC
 COLLADA
 COLLADA_ID
@@ -13506,7 +13395,6 @@ CONSTRAINT
 CONTINUOUS\n
 CONTROLSET
 CRC check failed
-CWD>~3
 C_ALL_LINES
 C_ALPHA_SPLIT
 C_ANG_THRESH
@@ -13874,8 +13762,8 @@ CastLightOnObject
 CastShadows
 Casts Shadows
 Catalog 
+Category
 Centimeters
-Cfmod
 Channel
 ChannelInterpretation
 ChannelName
@@ -14133,13 +14021,11 @@ Custom unit
 CustomFrameRate
 CustomHeight
 CustomWidth
-Cy2@K>
 Cylinder Icon Height of %f\n
 Cylindrical
 CypriotSyllabary
 Cyrillic
 CyrillicSupplement
-D D R R z | 
 D1 NTSC
 D1 PAL
 DATA_START
@@ -14301,7 +14187,6 @@ E:\BF\FBX_PRJ_Win8.1\Win\2016.1.2\src\components\libxml2-2.7.8\xmlschemas.cxx
 E:\BF\FBX_PRJ_Win8.1\Win\2016.1.2\src\components\libxml2-2.7.8\xmlschemastypes.cxx
 E:\BF\FBX_PRJ_Win8.1\Win\2016.1.2\src\components\libxml2-2.7.8\xpath.cxx
 E:\BF\FBX_PRJ_Win8.1\Win\2016.1.2\src\components\libxml2-2.7.8\xpointer.cxx
-E>nEA
 EBCDIC
 EBCDIC-US
 EFFECTOR
@@ -14349,15 +14234,12 @@ ERR_WRITING_DATABASE: Error occurred while writing database
 ERR_WRITING_FILE: Error occurred while writing file
 ERR_WRONG_DATABASE: The database passed as an argument is the wrong kind of database for this function.
 ERR_WRONG_OBJECT: The name passed to the functions exists, but is not the type of object asked for.  For example, asking for a mesh object with the GetCameraByName3ds function.
-ET5>
 EUC-JP
-E[\rn?gc
 Edge
 EdgeCrease
 EdgeIndexArray
 Edges
 Effector
-EiUL
 Either the attribute 'base' or a <simpleType> child must be present
 Either the attribute 'itemType' or the <simpleType> child must be present
 Either the attribute 'memberTypes' or at least one <simpleType> child must be present
@@ -14570,7 +14452,6 @@ ExtraGrp
 Extract Folder
 ExtractEmbeddedData
 ExtractFolder
-F>qUxv
 FACE_ARRAY
 FACE_ARRAY_ENTRY
 FALL_TRACK_TAG
@@ -14694,6 +14575,7 @@ FbxAnimStack
 FbxBindingOperator
 FbxBindingTable
 FbxBindingTableBase
+FbxBindingsEntry
 FbxBlendShape
 FbxBlendShapeChannel
 FbxBoundary
@@ -14821,7 +14703,6 @@ Fbx_Roo
 Fbx_Root
 February
 Feet
-FfW?
 FieldOfView
 FieldOfViewX
 FieldOfViewXProperty
@@ -14893,7 +14774,6 @@ Fixed Height
 Fixed Ratio
 Fixed Resolution
 Fixed Width
-FlR!<B
 FlagIOPlugin
 FlagPLE
 Flags
@@ -15038,7 +14918,6 @@ FullOdd
 FullWeights
 Function not implemented
 FunctionName
-G>US
 GAMEMODEPARENT
 GLOBAL
 GRAPH
@@ -15151,15 +15030,12 @@ GoboPath
 Got NULL parser context\n
 Gothic
 Gouraud
-GrJoq>@
 Greek
 GreekExtended
 GreekandCoptic
 Group
 Gujarati
 Gurmukhi
-H$6t
-H*0"ZOW
 HEADER\n
 HERMITE
 HH:mm:ss
@@ -15167,7 +15043,6 @@ HIDE_TRACK_TAG
 HIERARCHY
 HI_SHADOW_BIAS
 HLSL
-HMXB
 HOME
 HOT_TRACK_TAG
 HOT_TRACK_TAG_KEY
@@ -15236,8 +15111,6 @@ Horizontal And Vertical
 Horizontal Fit
 HotSpot
 Hour
-I:!A9
-I;u>A
 ID %s redefined\n
 ID:%d\tName:%s.%s\tParent:%d\n
 ID:%d\tName:%s\tParent:%d\n
@@ -15299,8 +15172,6 @@ If the content type is 'mixed', then the content type of the base type must also
 If using <complexContent>, the base type is expected to be a complex type. The base type '%s' is a simple type
 If using <simpleContent> and <restriction>, the base type must be a complex type. The base type '%s' is a simple type
 Ignoring unknown keyword (:%s)\n
-IiGM>nw
-Il?333333c?
 Illegal byte sequence
 Illegal escape of character '%c'
 Illumination map contents:\n
@@ -15532,7 +15403,6 @@ IsValidLocaleName
 IsXXXX expected
 It is an error for both '%s' and '%s' to be specified on the same type definition
 It is an error for both 'length' and either of 'minLength' or 'maxLength' to be specified on the same type definition
-JIE]0\
 JOINT
 JOURNAL
 JanFebMarAprMayJunJulAugSepOctNovDec
@@ -15580,9 +15450,6 @@ KnotVector
 KnotVectorU
 KnotVectorV
 Ks %lf %lf %lf\n
-L>ev
-L?UUUUUUU?
-L@technique
 LABELS
 LAYER
 LAYER\n
@@ -15612,8 +15479,6 @@ LOCK_XFORM
 LODBox
 LO_SHADOW_BIAS
 LTYPE\n
-LWG>
-LWW>
 L_TARGET_NODE_TAG
 Label
 Labels
@@ -15878,11 +15743,9 @@ LookupAccountSidA
 Loop
 LowSurrogates
 Luminosity
-M'y>0y
 M3DMAGIC
 M3D_KFVERSION
 M3D_VERSION
-M8MF
 MARK 
 MARK_ENCLOSING 
 MARK_NONSPACING 
@@ -15967,13 +15830,11 @@ MAX3D
 MAX_ENCODING_HANDLERS
 MAYA
 MB_CONTROLSET
-MCi).
 MDATA
 MESH_COLOR
 MESH_MATRIX
 MESH_TEXTURE_INFO
 MESH_VERSION
-MGiI
 MISSING particle term\n
 MLIBMAGIC
 MM/dd/yy
@@ -16033,7 +15894,6 @@ MaxDampStrengthZ
 MaxDistance
 Max_3ds
 MbP?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
-Mbp?
 Media
 Media Count
 Media_Count
@@ -16147,17 +16007,11 @@ MultiplyOp
 MusicalSymbols
 Mute
 Myanmar
-N3`d?
-N>O=I9
-N>VF
 NAME
 NAMED_OBJECT
 NCName
 NECK
 NETWORK_VIEW
-NJ2"v
-NK?Bezier Fit/Key Reducer
-NKeb
 NMTOKEN
 NMTOKENS
 NODE_HDR
@@ -16168,7 +16022,6 @@ NOTATION
 NOTATION %s is not declared\n
 NOTATION: Name expected here\n
 NO_FTK_ERRORS: No errors are pending
-NQ?s
 NTSC
 NTSC Drop
 NTSC Full
@@ -16326,8 +16179,6 @@ NurbsCurveVersion
 NurbsSurface
 NurbsSurfaceOrder
 NurbsSurfaceVersion
-O"AStereo
-O*9y]
 OBJECT_NODE_TAG
 OBJ_DOESNT_CAST
 OBJ_DONT_RCVSHADOW
@@ -16340,7 +16191,6 @@ OBJ_VIS_LOFTER
 OFFSET
 OLD_MAT_GROUP
 ORDER
-ORP0
 OTHER 
 OTHER_CONTROL 
 OTHER_FORMAT 
@@ -16348,8 +16198,6 @@ OTHER_NA
 OTHER_PRIVATE 
 OUTPUT
 OUT_TANGENT
-OZQ%
-OZw3(?
 O_CONSTS
 Object
 Object Derivation
@@ -16419,6 +16267,7 @@ Other Precision
 OtherFlags
 Out of disk space
 OuterAngle
+OuterBoundary
 OutputDebugStringA
 OutputDebugStringW
 OutputDirectory
@@ -16554,7 +16403,6 @@ PathFileType\t4\t(X/Y/Z)\tKaydara\t\n
 Pattern has no rule element
 Pattern: %s\n
 Pbm popping %d NS\n
-Pe6^
 Pedagogical C code
 PeekNamedPipe
 Periodic
@@ -16667,18 +16515,14 @@ ProxyManagerName
 ProxyTag
 PullIterationCount
 Pushing input %d : %.30s\n
-Q5rHg,>
-QAf?
 QName
 QName split
-Qkkbal
 Quadratic
 Quadruped
 Quaternion
 QuaternionInterpolate
 QueryPerformanceCounter
 QueryPerformanceFrequency
-R1h58
 RACTIVE
 RATE
 RAY_BIAS
@@ -16727,11 +16571,6 @@ RZAxis
 RZDefault
 RZMax
 RZMin
-R\n0!F
-R\n0!N
-R\np!O
-R\np!S
-R\vp HA
 Radians
 RaiseException
 Range
@@ -17020,9 +16859,6 @@ RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
 Runic
-S9>H
-S;uD
-S>$hkDh$h>[2
 SAX compatibility mode document
 SAX.startDocument(): out of memory\n
 SAX.xmlSAX2AttributeDecl(%s) called while not in subset\n
@@ -17057,7 +16893,6 @@ SHIFT-JIS
 SHIFT_JIS
 SHOW
 SI_Visibility
-SKyu
 SMAGIC
 SMOOTH_GROUP
 SMOOTH_GROUP_ENTRY
@@ -17336,6 +17171,7 @@ StartTime
 Statistics
 StatisticsGrp
 Step
+Stereo
 Stick
 Sticky
 Sticky & Spread
@@ -17386,7 +17222,6 @@ System Clock
 SystemLibrary
 SystemLiteral " or ' expected\n
 SystemTimeToFileTime
-T9K<
 TABLE
 TABLES
 TABLES\n
@@ -17738,7 +17573,6 @@ Type: NULL\n
 TypeFlags
 TypedIndex
 U knot vector definition error (wrong number of data)
-UA>N0Wl
 UByte
 UCS-2
 UCS-4
@@ -17781,7 +17615,6 @@ UTF-16LE
 UTF-8
 UTF16
 UTF8
-UUUU
 UUUUUU
 UVChannel_
 UVCount
@@ -17893,6 +17726,7 @@ Unsupported opaque mode for transparent texture: "
 Unsupported version '%s'\n
 Unterminated quantifier
 Untitled
+UpAxis
 UpAxisSign
 UpTargetRotation
 UpVector
@@ -17970,7 +17804,6 @@ Value constraints are not allowed if the type definition is or is derived from x
 Value element %s has child elements\n
 VariationSelectors
 VariationSelectorsSupplement
-Vc0a
 Vector
 Vector2
 Vector2D
@@ -18028,12 +17861,10 @@ Volume Light
 W4vC
 WARNING
 WEIGHT
-WaNd?
 WaitForMultipleObjects
 WaitForSingleObject
 WaitForSingleObjectEx
 WaitForThreadpoolTimerCallbacks
-Wak>E
 Warning
 Warning: 
 Warning: No precomputed value available, the value was either invalid or something strange happend
@@ -18084,7 +17915,6 @@ WriteFile
 WriteReference
 Wrong escape sequence, misuse of character '\'
 Wrong password
-X 843"8
 X Tiling of %f\n
 X%d\tY%d\tZ%d\t
 XDATA_APPNAME
@@ -18125,10 +17955,7 @@ X_SCREEN
 X_UP
 Xposition
 Xrotation
-XsBI
 Y Tiling of %f\n
-Y8a:
-Y>kX>M
 YMAXENABLE
 YMINENABLE
 YZ_CURVE
@@ -18144,15 +17971,11 @@ Yposition
 Yrotation
 ZMAXENABLE
 ZMINENABLE
-ZSq>
-Z\>z8
 Z_UP
 ZeroParallax
-Zjz\v
 Zposition
 Zrotation
 [%i] %f [%i] %f [%i] %f\n
-[*ncd>0
 [BasePosition]
 [BasePosition]\n
 [EndOfFile]
@@ -18170,7 +17993,6 @@ Zrotation
 [empty] 
 [extension] 
 [fixed] 
-[h1R
 [helper component] QName reference
 [helper component] attribute use prohibition
 [mixed] 
@@ -18187,55 +18009,9 @@ Zrotation
 \MAX-1:411
 \MAX-1:412
 \MAX-1:804
-\f \f!\f"\f#\f$\f%\f&\f'\f(\f)\f*\f+\f,\f-\f.\f/\f0\f1\f2\f3\f4\f5\f6\f7\f8\f9\f:\f;\f<\f=\f>\f?\f@\fA\fB\fC\fD\fE\fF\fG\fH\fI\fJ\fK\fL\fM\fN\fO\fP\fQ\fR\fS\fT\fU\fV\fW\fX\fY\fZ\f[\f\\f]\f^\f_\f`\fa\fb\fc\fd\fe\ff\fg\fh\fi\fj\fk\fl\fm\fn\fo\fp\fq\fr\fs\ft\fu\fv\fw\fx\fy\fz\f{\f|\f}\f~\f
-\f(\f*\f3\f5\f9\f`\fa\f
-\f>\fD\fF\fH\fJ\fM\fU\fV\f
-\f\t\f\n\f\v\f\f\f\r\f
-\n \n!\n"\n#\n$\n%\n&\n'\n(\n)\n*\n+\n,\n-\n.\n/\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n:\n;\n<\n=\n>\n?\n@\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nM\nN\nO\nP\nQ\nR\nS\nT\nU\nV\nW\nX\nY\nZ\n[\n\\n]\n^\n_\n`\na\nb\nc\nd\ne\nf\ng\nh\ni\nj\nk\nl\nm\nn\no\np\nq\nr\ns\nt\nu\nv\nw\nx\ny\nz\n{\n|\n}\n~\n
 \n%sChunk %s (%04xH) \n%sLength is %d (%08xH) \n
-\n(\n*\n0\n2\n3\n5\n6\n8\n9\nY\n\\n^\n^\nr\nt\n
-\n<\n<\n>\n>\n?\n?\n@\nB\nG\nH\nK\nM\np\nq\n
-\n<\n<\n>\nB\nG\nH\nK\nM\np\nq\n
-\n<\n<\nA\nB\nG\nH\nK\nM\np\nq\n
-\nSUUU
-\n\t\n\n\n\v\n\f\n\r\n
-\nh?oT
-\nk>oB
-\r \r!\r"\r#\r$\r%\r&\r'\r(\r)\r*\r+\r,\r-\r.\r/\r0\r1\r2\r3\r4\r5\r6\r7\r8\r9\r:\r;\r<\r=\r>\r?\r@\rA\rB\rC\rD\rE\rF\rG\rH\rI\rJ\rK\rL\rM\rN\rO\rP\rQ\rR\rS\rT\rU\rV\rW\rX\rY\rZ\r[\r\\r]\r^\r_\r`\ra\rb\rc\rd\re\rf\rg\rh\ri\rj\rk\rl\rm\rn\ro\rp\rq\rr\rs\rt\ru\rv\rw\rx\ry\rz\r{\r|\r}\r~\r
-\r(\r*\r9\r`\ra\r
-\r>\r@\rF\rH\rJ\rL\rW\rW\r
-\r>\rC\rF\rH\rJ\rM\rW\rW\r
-\r>\rC\rF\rH\rJ\rM\rW\rW\r1
-\r\f\v\v\n\n\t\t\t\t\t
-\r\t\r\n\r\v\r\f\r\r\r
-\rmj>zjZ
-\t \t!\t"\t#\t$\t%\t&\t'\t(\t)\t*\t+\t,\t-\t.\t/\t0\t1\t2\t3\t4\t5\t6\t7\t8\t9\t:\t;\t<\t=\t>\t?\t@\tA\tB\tC\tD\tE\tF\tG\tH\tI\tJ\tK\tL\tM\tN\tO\tP\tQ\tR\tS\tT\tU\tV\tW\tX\tY\tZ\t[\t\\t]\t^\t_\t`\ta\tb\tc\td\te\tf\tg\th\ti\tj\tk\tl\tm\tn\to\tp\tq\tr\ts\tt\tu\tv\tw\tx\ty\tz\t{\t|\t}\t~\t
 \t%.5f\t%.5f\t%.5f
-\t9\t=\t=\tP\tP\tX\ta\t
-\t9\t=\t=\tX\ta\t
-\t9sv
-\t<\t<\t>\tL\tM\tM\tQ\tT\tb\tc\t
-\t<\t<\t>\tM\tQ\tT\tb\tc\t
-\t<\t<\tA\tH\tM\tM\tQ\tT\tb\tc\t
-\tJR>8o
-\t\t\n\n\v\v\f\f\f\f\r\r\r\r
-\t\t\t\n\t\v\t\f\t\r\t
-\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\tkE>fvw
-\v \v!\v"\v#\v$\v%\v&\v'\v(\v)\v*\v+\v,\v-\v.\v/\v0\v1\v2\v3\v4\v5\v6\v7\v8\v9\v:\v;\v<\v=\v>\v?\v@\vA\vB\vC\vD\vE\vF\vG\vH\vI\vJ\vK\vL\vM\vN\vO\vP\vQ\vR\vS\vT\vU\vV\vW\vX\vY\vZ\v[\v\\v]\v^\v_\v`\va\vb\vc\vd\ve\vf\vg\vh\vi\vj\vk\vl\vm\vn\vo\vp\vq\vr\vs\vt\vu\vv\vw\vx\vy\vz\v{\v|\v}\v~\v
-\v(\v*\v0\v2\v3\v5\v9\v=\v=\v\\v]\v_\va\vq\vq\v
-\v(\v*\v0\v2\v3\v6\v9\v=\v=\v\\v]\v_\va\v
-\v<\v<\v>\vC\vG\vH\vK\vM\vV\vW\v
-\v<\v<\v?\v?\vA\vC\vM\vM\vV\vV\v
-\v>\f@\fF\fH\fJ\fM\fU\fV\f
-\v>\v>\v@\v@\vG\vH\vK\vL\vW\vW\v
-\vA03>A|
-\v\t\v\n\v\v\v\f\v\r\v
-\vp HA
-]u9g
-^RfN>
 ^_`abcdefghijklmnopqrstuvwxyz{|}~
-^oEZ_
 _Ctrl
 _End
 _Implementation
@@ -18261,7 +18037,6 @@ _logb
 _ncl1_
 _ncl2_
 _nextafter
-_oD>Kg
 _root
 `RTTI
 `copy constructor closure'
@@ -18273,7 +18048,6 @@ _root
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static guard'
 `local static thread guard'
 `local vftable constructor closure'
@@ -18301,12 +18075,12 @@ _root
 `virtual displacement map'
 a schema is needed on the validation context
 a type user derived type has no base type
-a6>r
 abcdefghijklmnopqrstuvwxyz
 abort signal
 abstract
 accessor
 acos
+acosf
 add annotation
 add range: atom is NULL
 add range: atom is not ranges
@@ -18431,6 +18205,7 @@ argument list too long
 argument out of domain
 array
 asin
+asinf
 aspect_ratio
 assembling schemata
 assert
@@ -18439,6 +18214,7 @@ assert has no test attribute
 asset
 assignment to a constant symbol
 atan
+atan2
 atanf
 atom %d, to %d\n
 atom push: atom is NULL
@@ -18463,8 +18239,6 @@ authoring_tool
 awIffBuffer::fsIndex == -1
 awIffBuffer::fsIndex >= -1
 axis
-b\fp\v0
-b\vp\n0
 back
 background read from control terminal
 background write to control terminal
@@ -18545,8 +18319,6 @@ building reference
 building text
 bus error
 byte
-c>F2
-c?FA@s}
 cacheBuffer %d%% full\n
 cacheTimePerFrame
 cacheType
@@ -18640,6 +18412,7 @@ connection_aborted
 connection_already_in_progress
 connection_refused
 connection_reset
+const
 constant
 constant name expected after const specifier
 constants
@@ -18706,10 +18479,6 @@ curve
 custom unit
 cylinder_axis
 cylinder_radius
-d8-t
-d?000000`?
-dQy/
-dRL>
 data
 data error
 data has no type\n
@@ -18765,7 +18534,6 @@ dummyL
 duplicating namespace\n
 duration
 e+000
-eF>t
 ebcdic
 echo
 edge not linked to vertex
@@ -18810,7 +18578,6 @@ error parsing attribute name\n
 error: 
 escape-uri
 event
-ewh/?y
 except
 except has no content\n
 exceptNameClass allows only a single except node\n
@@ -18819,6 +18586,7 @@ executable format error
 expected '='\n
 expected '>'\n
 expecting name, anyName, nsName or choice : got %s\n
+expf
 extended
 extends
 extension
@@ -18827,11 +18595,7 @@ external parsed entities cannot be standalone\n
 externalRef
 extra
 extra content at the end of well balanced chunk\n
-fD>b
-fGa>
 fInGroup
-fP~V
-fWi?
 fabs
 face3ds %sface[%i] = {
 facet '
@@ -18865,7 +18629,6 @@ fbx.shader.temp.
 fclose()
 fd:%d
 feet
-ffffff9@
 ffffffI@Camera Index
 fflush()
 field
@@ -18901,6 +18664,7 @@ floorf
 flow
 flrcp
 flush error
+fmod
 following
 following-sibling
 font converter not found
@@ -18918,12 +18682,11 @@ frames = %d markers = %d Hz = %g\n
 fread()
 frexp
 front
-fu`z
 function
 function not supported
 function not yet implemented
 fwrite()
-g9@x!8
+g %s\n
 gDay
 gMonth
 gMonthDay
@@ -18937,7 +18700,6 @@ getting namespace list
 getting node path
 given type is not a user-derived simpleType
 gobo-
-gqr<
 grammar
 grammar has no children\n
 grammar has unexpected child %s\n
@@ -18949,8 +18711,6 @@ growing buffer
 growing input buffer
 growing item list
 growing nodeset\n
-h>1my
-hPU3
 hangup
 head
 header already written
@@ -18986,8 +18746,6 @@ http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd
 http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd
 http://www.w3.org/XML/1998/namespace
 hypertext converter not found
-i91k
-i]Wb
 identifier removed
 ifFalse
 ifTrue
@@ -19091,14 +18849,10 @@ ismatte
 isnocast 
 isnorcvshad 
 itemType
-jeTb
 jointOrientX
 jointOrientY
 jointOrientZ
 joints
-k>4\tF
-kNB'
-kU'9
 key '
 key identity-constraint
 keyRef '
@@ -19111,9 +18865,6 @@ kilometer
 kilometers
 kilometre
 kilometres
-l6qnk
-lCu7&
-lDa>
 lambert
 lang
 language
@@ -19157,9 +18908,9 @@ local-name
 location
 log10
 log10f
+logf
 long
 lookat
-m?H7
 mApertureProperty
 mBackColorProperty
 mCameraIndexProperty
@@ -19167,10 +18918,8 @@ mConeAngle
 mFieldOfViewXProperty
 mFieldOfViewYProperty
 mFog
-mG4>
 mIntensity
 mLightColor
-mO-B
 mOpticalCenterXProperty
 mOpticalCenterYProperty
 mRollProperty
@@ -19252,8 +19001,6 @@ morph
 morph-weights
 mtllib
 mtllib %s\n\n
-n03>Pu
-n]?iJ
 name
 name '%s' is not an NCName\n
 namechar 
@@ -19357,6 +19104,7 @@ notinitname
 notnamechar 
 notrealchar 
 notspace 
+ns '%s'
 ns element has no prefix
 ns element has no uri
 nsName
@@ -19364,9 +19112,6 @@ nsName has no ns attribute\n
 ns_%d
 null
 number
-o9sp
-o?GS
-oI>O7
 object
 objects have different number of child
 objects have incompatible topologies
@@ -19398,9 +19143,6 @@ output
 output conversion failed due to conv error, bytes %s\n
 overflow
 owner dead
-p HA
-p>.G1
-p>Y3
 param
 param has no name\n
 parent
@@ -19465,15 +19207,10 @@ pseudoroot
 pushing atom
 pushing error\n
 pushing input string
-q>F,3
-qS>g?h3
 qualified
 quit
 quitting
 quot
-r9T6
-rNm>)
-r\tVr.>T
 raB3G0.1
 rand
 range
@@ -19545,7 +19282,6 @@ rotation_x
 rotation_y
 rotation_z
 round
-ru&o
 rule
 rule has an empty context attribute
 rule has no assert nor report element
@@ -19583,6 +19319,7 @@ simple type definition
 simpleContent
 simpleType
 sinc
+sinf
 sinh
 skew
 skin
@@ -19645,7 +19382,7 @@ switching encoding: encoder error\n
 symbol
 syntax error
 system
-t6Q8
+tanf
 tangent
 tanh
 target
@@ -19722,8 +19459,6 @@ type
 type definition
 type has elem content but no content model
 type has no base-type assigned
-ub8c@
-ujGs?
 ulong3ds %ssmooth[%i] = {
 unbalanced '(' : %s\n
 unbalanced parenthesis
@@ -19779,10 +19514,8 @@ user defined signal 1
 user defined signal 2
 ushort3ds %sfal%i[%i] = {
 utf-8
-uzKs@>
 v %lf %lf %lf\n
 vH7B
-vQO+t
 valB
 valG
 valR
@@ -19829,9 +19562,6 @@ void N2ILong3ds(void *native, void *intel)
 void N2IShort3ds(void *native, void *intel)
 vsnprintf failed !\n
 vt %lf %lf\n
-w+OQvr
-w3Xc
-wXR\r
 warning : 
 warning: 
 warning: ChildSeq not starting by /1\n
@@ -19841,7 +19571,6 @@ widget converter not found
 widget parent undefined
 wildcard (any)
 window size changes
-wn>Jj
 wrapU
 wrapV
 write
@@ -19850,8 +19579,6 @@ write on a pipe with no one to read it
 write()
 wrong protocol type
 wrong_protocol_type
-x8}0\t9
-xT?V
 xfov
 xliff
 xlink:external-linkset
@@ -20102,18 +19829,11 @@ xmlns:%s: Empty XML namespace is not allowed\n
 xmlns:%s: URI %s is not absolute\n
 xpath
 xpointer
-xppwpp
-xpxxxx
 xs:nonNegativeInteger
-y9*O
 yard
 yards
 yfov
 ymag
-z>h4
-z?aUY
-z\r8Pf
-zc%C1
 zcat
 zeroOrMore
 zfar
@@ -20121,11 +19841,10 @@ znear
 {##other:
 {%%.%df,%%.%df,%%.%df,%%.%df}
 {%%.%df,%%.%df,%%.%df}
+{%d,%d}
+{%d,inf}
 {%f, %f, %f}
 {%i, %i, %i, 0x%x}
-{9tan
-{DA5
-{kHw
 {object}.{property}: Unable to copy copy "{source}" to "{dest}".
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  
 |scal <%s

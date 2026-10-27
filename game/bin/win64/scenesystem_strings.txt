@@ -6,18 +6,7 @@
   Actual   : 
   Comment started here.
   Expected : 
- !"#$%&'()*+,-./0123
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- #GameUI_Disconnect_ExitingEngine
- #GameUI_Disconnect_InternalError
- #GameUI_Disconnect_SnapshotError
- #GameUI_Disconnect_SoundsMessage
- #GameUI_Disconnect_SteamIDBanned
- #GameUI_ServerRejectBadChallenge
- #Valve_Reject_Connect_From_Lobby
- #Valve_Reject_Reserved_For_Lobby
  *** Skip layer '%s' 
  -shadowTargetSize Adjusting shadow target size to %d from %d
  -shadowTargetSize psys jba Adjusting nMaxShadowBufferSize size to %d from %d
@@ -26,7 +15,6 @@
  Base Class Descriptor at (
  BreakOnDelete: 
  BreakOnDraw: 
- C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
  DebugLevel:
@@ -51,8 +39,6 @@
  contains invalid 
  delete
  delete[]
- google/protobuf/descriptor.proto*
- google/protobuf/descriptor.proto:9\n\tmap_field
  message of type "
  new
  not found
@@ -65,17 +51,6 @@
  unexpected for field 
  was modified concurrently during serialization.
  with type 
-!#GameUI_Disconnect_ConnectionLost
-!#GameUI_Disconnect_HLTVRestricted
-!#GameUI_Disconnect_LoopDeactivate
-!#GameUI_Disconnect_RejectedByGame
-!#GameUI_Disconnect_Request_HSIdle
-!#GameUI_Disconnect_ServerShutdown
-!#GameUI_Disconnect_SteamDeny_Misc
-!#GameUI_Disconnect_SteamOwnership
-!#GameUI_Disconnect_TempEntMessage
-!#GameUI_ServerRejectFailedChannel
-!.google.protobuf.EnumValueOptions
 !pObj->HasFlags( SCENEOBJECTFLAG_DELETED )
 !pObj->IsDeleted()
 " (mixed)
@@ -121,12 +96,7 @@
 " was not found or had errors.
 " which is a proto3 message type.
 " which is.
-"#GameUI_Disconnect_DeltaEntMessage
-"#GameUI_Disconnect_HLTVUnavailable
-"#GameUI_ServerRejectInvalidCertLen
-"#\n\nCEntityMsg
 "$0" does not declare $1 as an extension number.
-"$\n\fCMsgVector2D
 ") is not compatible with this reflection object (which is for type "
 ") to start from the outermost scope.
 ").  Note that the exact same class is required; not just the same descriptor.
@@ -135,7 +105,6 @@
 ", field number 
 ", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., ".
 ", which is not imported by "
-"-\n\nCMsgQAngle
 ".  To use it here, please add the necessary import.
 ". If this is intended, set 'option allow_alias = true;' to the enum definition.
 ". This appears to be a value from a sibling type.
@@ -143,7 +112,6 @@
 ". Value: "
 "/*" inside block comment.  Block comments cannot be nested.
 "0x" must be followed by hex digits.
-"<\n CNETMsg_SpawnGroup_LoadCompleted
 "DeleteMapValue"
 "GetMapData"
 "GetRawRepeatedField"
@@ -153,16 +121,10 @@
 "MapEnd"
 "MapSize"
 "MutableRawRepeatedField"
-"^\n\fOneofOptions
 "e" must be followed by exponent.
-"e?<<<<<<l?
-"k\n"CNETMsg_SpawnGroup_SetCreationTick
-"u\n!CNETMsg_SpawnGroup_ManifestUpdate
 # objects moves for partition optimization: %d\n
-##GameUI_Disconnect_BadRelayPassword
-##GameUI_Disconnect_ReliableOverflow
-##GameUI_Disconnect_SnapshotOverflow
 #%d: %s 0x%p @ (%g,%g,%g)
+#%s/%s/%s
 #%s/%s/+MultiGpu-Mutex( %d -> %d )
 #%s/%s/+MultiGpu-ResetMask( 0x%x )
 #%s/%s/+MultiGpu-SetCBuffer
@@ -185,56 +147,10 @@
 #%s/UpdatePerViewConstantBuffers%d
 #%s/VolumetricFog/SetupConstantBuffer
 #%s/VolumetricFog/SetupConstantBuffer%s
-#GameUI_ClientConsistencyFail
-#GameUI_ClientDifferentMap
-#GameUI_ClientNoMap
-#GameUI_ClientUnableToCRCMap
-#GameUI_Disconnect_BanAdded
-#GameUI_Disconnect_Disconnected
-#GameUI_Disconnect_HLTVDirect
-#GameUI_Disconnect_HLTVStop
-#GameUI_Disconnect_Host_EndGame
-#GameUI_Disconnect_KickBanAdded
-#GameUI_Disconnect_Kicked
-#GameUI_Disconnect_LeavingSplit
-#GameUI_Disconnect_LoopShutdown
-#GameUI_Disconnect_NoMoreSplits
-#GameUI_Disconnect_NoSpectators
-#GameUI_Disconnect_Server
-#GameUI_Disconnect_SteamDropped
-#GameUI_Disconnect_SteamIDInUse
-#GameUI_Disconnect_SteamInUse
-#GameUI_Disconnect_SteamLogon
-#GameUI_Disconnect_SteamTicket
-#GameUI_Disconnect_SteamTimeOut
-#GameUI_Disconnect_SteamVAC
-#GameUI_Disconnect_TickMessage
-#GameUI_Disconnect_TimedOut
-#GameUI_Disconnect_Unusual
-#GameUI_Disconnect_User
-#GameUI_Disconnect_UserCmd
-#GameUI_ServerAuthDisabled
-#GameUI_ServerCDKeyAuthInvalid
-#GameUI_ServerNoLobby
-#GameUI_ServerRejectBadPassword
-#GameUI_ServerRejectBanned:E\n
-#GameUI_ServerRejectLANRestrict
-#GameUI_ServerRejectNewProtocol
-#GameUI_ServerRejectOldProtocol
-#GameUI_ServerRejectServerFull
-#GameUI_ServerRejectSteam
-#GameUI_ServerRequireSteams
-#Valve_Reject_Background_Map
-#Valve_Reject_Hidden_Game
-#Valve_Reject_Single_Player
 #base
 #base is NULL 
 #include
 #include is NULL 
-$#GameUI_Disconnect_BadServerPassword
-$#GameUI_Disconnect_ConnectionFailure
-$#GameUI_Disconnect_MessageParseError
-$#GameUI_Disconnect_Request_HLTVRelay
 $0  extend .$1 {\n
 $0  extensions $1 to $2;\n
 $0  reserved 
@@ -243,87 +159,40 @@ $0enum $1 {\n
 $0message $1
 $0oneof $1 {
 $0option $1;\n
-$Ib?s
-$tIP
-%#GameUI_Disconnect_BadClientDeltaTick
-%#GameUI_Disconnect_ConnectionOverflow
-%#GameUI_Disconnect_ConnectionTimedout
-%#GameUI_Disconnect_CreateServerFailed
-%#GameUI_Disconnect_LocalProblem_Other
-%#GameUI_Disconnect_ReplayIncompatible
-%#GameUI_Disconnect_ServerIncompatible
-%#GameUI_Disconnect_ServerInfoOverflow
-%#GameUI_Disconnect_StringTableMessage
-%#GameUI_ServerRejectInvalidConnection
-%#GameUI_ServerReject_InvalidKeyLength
+%-16s 
+%.*g
 %.15lf
+%.1f
+%.2f ms\n
 %02X
 %08dx.geo
-%Dtx
+%6d 
 %I64u
 %d (%d depth-only, %d depth-only alpha-tested)\n
 %d (target %d per view, originally %d with cost per job %d)\n
 %d draw calls for particles\n
+%d kb\n
 %d material binds for particles\n
 %d particle systems rendered\n
 %d primary, %d secondary\n
+%d.%d.%d
 %dx%dTriStrippedVB
+%f %f %f
 %i %i %i %i
 %lld
 %llu
+%p::%p:%d
 %s allocation count overflow
 %s allocation count overflow( %llu > %llu )\n
 %s allocation count overflow( %llu >= %llu )\n
 %s/%s's viewport (%d,%d - %d,%d) extends outside of the framebuffer (%d,%d)
 %s: string format requested %d chars\n
 %s\nLOD Level: %d Draw Calls: %d Triangles: %d
-&#GameUI_Disconnect_InvalidMessageError
-&#GameUI_Disconnect_NoPeerGroupHandlers
-&#GameUI_Disconnect_PureServer_Mismatch
-&#GameUI_Disconnect_RemoteProblem_Other
-&#GameUI_ServerRejectInvalidReservation
-&?PPPPPPP?
-&Sgw
-&\n"SPAWN_GROUP_IS_INITIAL_SPAWN_GROUP
-'#GameUI_Disconnect_BadSpectatorPassword
-'#GameUI_Disconnect_DifferentClassTables
-'#GameUI_ServerRejectInvalidSteamCertLen
-'\n"SPAWN_GROUP_CREATE_NEW_SCENE_WORLD
-'\n#SPAWN_GROUP_LOAD_ENTITIES_FROM_SAVE
 'out_location' must not be NULL
-(#GameUI_Disconnect_LoopLevelLoadActivate
-(#GameUI_Disconnect_RemoteProblem_BadCert
-(#GameUI_Disconnect_RemoteProblem_Timeout
 (%3.3f - %3.3f)\n(%3.3f - %3.3f)\n(%3.3f - %3.3f)\n%3.3f x %3.3f
 (MSAA)
 (No MSAA)
 (SceneWorld 3D Dump contains %d large objects - they are scaled down and will render red.)\n
-(\r"R\n\nCMsg_CVars
-(\t"\r\n\vCNETMsg_NOP"'\n
-(\v2 .google.protobuf.DescriptorProto
-(\v2!.google.protobuf.EnumValueOptions"
-(\v2#.CSVCMsgList_UserMessages.usermsg_t
-(\v2$.google.protobuf.EnumDescriptorProto
-(\v2$.google.protobuf.FileDescriptorProto"
-(\v2$.google.protobuf.UninterpretedOption"/\n
-(\v2$.google.protobuf.UninterpretedOption":\n\fOptimizeMode
-(\v2$.google.protobuf.UninterpretedOption"P\n
-(\v2$.google.protobuf.UninterpretedOption*\t
-(\v2%.google.protobuf.FieldDescriptorProto
-(\v2%.google.protobuf.OneofDescriptorProto
-(\v2&.google.protobuf.ExtensionRangeOptions
-(\v2&.google.protobuf.MethodDescriptorProto
-(\v2'.google.protobuf.ServiceDescriptorProto
-(\v2(.google.protobuf.SourceCodeInfo.Location
-(\v2).google.protobuf.EnumValueDescriptorProto
-(\v2-.google.protobuf.GeneratedCodeInfo.Annotation
-(\v2-.google.protobuf.UninterpretedOption.NamePart
-(\v2..google.protobuf.DescriptorProto.ReservedRange
-(\v2/.google.protobuf.DescriptorProto.ExtensionRange
-(\v26.google.protobuf.EnumDescriptorProto.EnumReservedRange
-(\v2\v.CMsgQAngle
-(\v2\v.CMsgVector
-(\v2\v.CMsg_CVars"
 (cannot determine missing fields for lite message)
 (discarded renderbatch = 
 (dump)
@@ -333,29 +202,15 @@ $tIP
 (null)
 (unnamed light)
 )", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
-)#GameUI_Disconnect_PureServer_ClientExtra
-)#GameUI_Disconnect_RemoteProblem_BadCrypt
-)#GameUI_Disconnect_SteamDeny_BadAntiCheat
 ), this value label conflicts with 
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-)\n!host_framestarttime_std_deviation
-)yIx
-*#GameUI_Disconnect_LocalProblem_ManyRelays
-*StO9>T
-*\n"host_computationtime_std_deviation
-+\n'SPAWN_GROUP_CREATE_CLIENT_ONLY_ENTITIES
-+\n\rReservedRange
 +inf
 +x east
 +y north
 +z up
 , not just within "
-,#GameUI_Disconnect_Splitpacket_Send_Overflow
-,HR>O
--#GameUI_Disconnect_LocalProblem_NetworkConfig
 -- %d Scene Worlds: --\n
 -- Dumping Scene World %d: 0x%p '%s': %d objects --\n
--BH>t
 -avx
 -enable_2gb_morphs
 -inf
@@ -376,7 +231,6 @@ $tIP
 . This will make the proto fail to compile for some languages, such as C#.
 ...<truncated>...
 .00cfg
-.>\rfJBGo
 .?AUContainer@?$InternalMetadataWithArenaBase@VUnknownFieldSet@protobuf@google@@VInternalMetadataWithArena@internal@23@@internal@protobuf@google@@
 .?AU_Crt_new_delete@std@@
 .?AUctype_base@std@@
@@ -726,7 +580,6 @@ $tIP
 .?AVruntime_error@std@@
 .?AVsystem_error@std@@
 .?AVtype_info@@
-.CMsg_CVars.CVar
 .CRT$XCA
 .CRT$XCC
 .CRT$XCL
@@ -743,11 +596,6 @@ $tIP
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.CSVCMsgList_GameEvents.event_t
-.CSVCMsg_GameEvent"9\n
-.CSVCMsg_GameEvent.key_t
-.CSVCMsg_UserMessage"
-.ENetworkDisconnectionReason"
 .P6AXPEAVCSceneObject@@@Z
 .PLACEHOLDER_VALUE
 .bss
@@ -757,15 +605,6 @@ $tIP
 .dummy
 .edata
 .foo = value".
-.google.protobuf.EnumOptions
-.google.protobuf.FieldOptions
-.google.protobuf.FieldOptions"
-.google.protobuf.FileOptions
-.google.protobuf.MessageOptions
-.google.protobuf.MethodOptions
-.google.protobuf.OneofOptions"
-.google.protobuf.ServiceOptions"
-.google.protobuf.SourceCodeInfo
 .idata$2
 .idata$3
 .idata$4
@@ -791,22 +630,14 @@ $tIP
 .tls$
 .tls$ZZZ
 .vtex
-.xJ>Hf
 .xdata
 .xdata$x
-/2GG>!B
 0.25
 0.85
 00000000-0000-0000-0000-000000000000
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789abcdef
 0123456789abcdefghijklmnopqrstuvwxyz
-0:<\n\fdelta_ignore
-0Dw 
-0E>X
-0X8b?~
-0\rP!U
-0iN>/
 1 = visualize bounds, 2 = visualize sceneobject mesh materials, 3 = required texture size, 4 = bounds group
 1#IND
 1#INF
@@ -815,57 +646,22 @@ $tIP
 1052
 1072
 1156
-11Y@
 125 130 135
 1DBlend
-1\n-NETWORK_DISCONNECT_DIRECT_CONNECT_RESERVATION
-2#.google.protobuf.FieldOptions.CType:
-2#GameUI_Disconnect_RemoteProblem_TimeoutConnecting
-2$.google.protobuf.FieldOptions.JSType:\tJS_NORMAL
-2).google.protobuf.FileOptions.OptimizeMode:
-2*.google.protobuf.FieldDescriptorProto.Type
-2+.google.protobuf.FieldDescriptorProto.Label
 2.13
-2/.google.protobuf.MethodOptions.IdempotencyLevel:
-3 FB
 32.0
-37>k
-3>N;kU
-3>fvw
-3?tr
-3\f%34
 4096.0f
-456789:;<=
-51>W
-5\n\vnested_type
-5t(h&
-6NK>
-6\fXO>\ntA
-6\n\fmessage_type
 7583
 7590
 7591
-7>I0
-7?GX
-7\n\tenum_type
-7~xh
-8#GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay
-8C3F
-8\n\textension
-8ke?;
-9>70
-9>powf
-9\n\noneof_decl
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
 : Tried to copy from a message with a different type. to: 
 : Tried to merge from a message with a different type.  to: 
 : failed to parse contents
-;1cb
 <!-- kv3 encoding:%s:version{%s} format:%s:version{%s} -->\n
 </table>
 <NULL>
 <UNKNOWN ID: %d>
-<\n\tusermsg_t
 <b>Viewport X</b>=%d <b>Y</b>=%d <b>Width</b>=%d <b>Height</b>=%d  <b>MinZ</b>=%.3f <b>MaxZ</b>=%.3f
 <deferred>
 <font color="red">Display lists discarded</font>
@@ -905,6 +701,7 @@ $tIP
 <td>IS_LIGHT_VOLUME</td>
 <td>IS_LOADED</td>
 <td>IS_OCCLUDER</td>
+<td>IS_OPAQUE</td>
 <td>IS_SUN_LIGHT</td>
 <td>IS_TRANSLUCENT</td>
 <td>LAYERFLAGS_DEBUGDRAW</td>
@@ -981,25 +778,6 @@ $tIP
 <tr><td><b>m_viewConstantBufferData.m_vInvProjRow3</b></td><td>[%.3f %.3f %.3f %.3f]</td></tr>
 <unconnected>
 <unknown>
-=1cb
-=87M
-=\n NETWORK_DISCONNECT_CLIENT_NO_MAP
-=cQ6
-=e2m
-=imb;D
->Physics
->cQ6
->expf
->jtm}S
->mesh_calculate_curvature_smooth_pass_count
-?!5WOo
-?1cb
-?456789:;<=
-?49HoKC
-?7zQ6$
-?7{KV\nU
-?8bunz8
-?<td>IS_OPAQUE</td>
 ??0CThreadEvent@@QEAA@_N@Z
 ??0CThreadFastMutex@@QEAA@PEBD@Z
 ??0CThreadFastMutex@@QEAA@XZ
@@ -1011,7 +789,6 @@ $tIP
 ??1CThreadEvent@@QEAA@XZ
 ??1CThreadMultiWaitEvent@@QEAA@XZ
 ??1CThreadSemaphore@@QEAA@XZ
-?@En[vP
 ?AppendConcat@CBufferString@@QEAAPEBDHPEBQEBDPEBH_N@Z
 ?AppendFormat@CBufferString@@QEAAHPEBDZZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
@@ -1035,7 +812,6 @@ $tIP
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@PEBULoggingMetaData_t@@VColor@@PEBDZZ
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@VColor@@PEBDZZ
 ?Purge@CBufferString@@QEAAXH@Z
-?R0I?
 ?RandomFloat@CUniformRandomStream@@UEAAMMM@Z
 ?RemoveAt@CBufferString@@QEAAPEBDHH@Z
 ?Reset@CThreadMultiWaitEvent@@QEAAXXZ
@@ -1048,7 +824,6 @@ $tIP
 ?SpinLockForWrite@CThreadSpinRWLock@@AEAAXPEBDHI@Z
 ?StartsWith@CBufferString@@QEAA_NPEBD@Z
 ?ToLowerFast@CBufferString@@QEAAXH@Z
-?UUUUUU
 ?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockRead@CThreadFastMutex@@QEAAXPEBDH@Z
@@ -1061,18 +836,10 @@ $tIP
 ?V_stristr_fast@@YAPEBDPEBD0@Z
 ?Wait@CThreadSyncObject@@QEAA_NI@Z
 ?WaitForRead@CThreadRWLock@@AEAAXXZ
-?\tHx@\t=hA\t+
-?f`Y4
-?kxG2)
-?lZE
-?qBJ
-?rAj
-?ysB
 @fff>fff>fff>fff>
 A file with this name is already in the pool.
 A protocol message was rejected because it was too big (more than 
 A sceneobject (perhaps a decal) is still in the world that needs to be deleted before deleting the world.\n
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_
@@ -1109,7 +876,6 @@ AE_VORTIGAUNT_ZAP_SHOOT
 AE_ZOMBIE_POPHEADCRAB
 AE_ZOMBIE_TOGGLE_HEAD
 AIWalkable
-AK>(v
 ANIMATION_PROCESSING_CLIENT_INTERPOLATION
 ANIMATION_PROCESSING_CLIENT_PREDICTION
 ANIMATION_PROCESSING_CLIENT_RENDER
@@ -1135,8 +901,6 @@ ATI_DST16
 ATI_DST24
 ATTEMPTED TO DECOMMIT OWNED MEMORY STACK SPACE\n
 AUUUUUU
-A\n!NETWORK_DISCONNECT_REJECT_NOLOBBY
-A\n\nannotation
 AbsolutePoseControl
 Access violation - no RTTI data!
 AddAllocatedMessage
@@ -1213,8 +977,6 @@ August
 AutoLayer
 Available
 BC6H
-BC?>6t9^\tc:>
-BF>^G
 BGR101111_UFLOAT
 BGR565
 BGR888
@@ -1228,7 +990,6 @@ BGRA8888_LINEAR
 BGRX5551
 BGRX8888
 BGRX8888_LINEAR
-B\vp\nP
 BackUp() can only be called after a successful Next().
 Bad dynamic_cast!
 Bad expression operator: '%c%c', expected C style boolean expression operator.
@@ -1238,7 +999,6 @@ BakedLODBuilderMgr001
 BaseIKRig
 BasePhysicsShape
 BaseSceneObjectDesc
-Bc:\buildslave\hlvr_rel_win64\build\src\public\tier1\memstack.h
 Begin has already been called without an intervening render
 Begin to finish rendering views : %f\n
 BenchmarkService001
@@ -1260,7 +1020,6 @@ BreakCommand
 BreakPieceEmbedded
 BreakPieceExternal
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of 
-C5R?\t
 C6FaceSkyboxObjectDesc
 CAmbientOcclusionProxySceneObjectDesc
 CAnimMotorList
@@ -1347,7 +1106,6 @@ CHECK failed: target_ != NULL:
 CHECK failed: this == other_mutator: 
 CHECK failed: trees: 
 CHECK failed: uninterpreted_options_field != NULL: 
-CL:>8
 CLightBinner::UpdateBinTexture
 CLightBinnerVr: Unsupported NumBakedLights %d
 CLightBinnerVr: Unsupported VrMaxLights %d
@@ -1361,22 +1119,12 @@ CMTatlastexture_.vtex
 CMemAllocSystemInitialize
 CMeshBuilderSceneObjectDesc
 CMonitorObjectDesc
-CMsgPlayerInfo
-CMsgRGBA
-CNETMsg_Disconnect
-CNETMsg_SetConVar
-CNETMsg_SignonState
-CNETMsg_SpawnGroup_Load
-CNETMsg_SpawnGroup_Unload
-CNETMsg_SplitScreenUser
-CNETMsg_StringCmd
 COLLISION_MODE_INITIAL_TRACE_DOWN
 COLLISION_MODE_PER_FRAME_PLANESET
 COLLISION_MODE_PER_PARTICLE_TRACE
 COLLISION_MODE_USE_NEAREST_TRACE
 COLOR RESOLVE: After layer %s, resolve rt to %s %d %d, %dx%d\n
 COLORCORRECTION_VERSION_1
-CORD
 COccluderSceneObject::EnableDebugVisualization(92): 
 COccluderSceneObjectDesc
 COrderedConstructor_Create<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>,class CResolveOrderedFunc<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>,&void __cdecl _ORDERED_INIT_SHUTDOWN_WRAPPER_RESOLVEFUNC<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>(class COrderedConstructor_DependencyManagement<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)> > &)>,0>::AddRef
@@ -1407,10 +1155,6 @@ CSSDSMsg_PreLayer
 CSSDSMsg_ViewRender
 CSSDSMsg_ViewTarget
 CSSDSMsg_ViewTargetList
-CSVCMsgList_GameEvents
-CSVCMsgList_UserMessages
-CSVCMsg_GameEvent
-CSVCMsg_UserMessage
 CSceneLayer::AddToRenderPassDesc
 CSceneObject
 CSceneObjectExtraData_t
@@ -1479,7 +1223,6 @@ CTonemapRenderer needs to use a layer which has LAYERFLAGS_NEEDS_LOCAL_READ_COLO
 CTonemapRenderer needs to use a layer which has had a render attribute called "ColorBuffer" set!\n
 CTonemapSystem::GenerateRendererData ran out of buckets!!\n
 CTransform
-CType
 CUtlBlockMemory overflow!\n
 CUtlBlockMemory<class CPackNode,int>::ChangeSize
 CUtlBuffer::VaPrintf
@@ -1531,10 +1274,8 @@ CUtlSymbolLarge
 CUtlSymbolTableLargeBase
 CUtlVector
 CVConCommandMessageScene::MessageData
-CVar
 CVolumetricFog::SetupConstantBuffer
 CVolumetricFogClipmapRenderer::Render
-CWD>~3
 C_INIT_AddVectorToVector
 C_INIT_AgeNoise
 C_INIT_CreateFromCPs
@@ -1620,7 +1361,6 @@ C_OP_SetSingleControlPointPosition
 C_OP_StopAfterCPDuration
 C_OP_TwistAroundAxis
 C_OP_WorldTraceConstraint
-C_class
 Call set methods to initialize MapKey.
 Can't 
 Can't bake cube maps unless you use -tools or -dev\n
@@ -1707,8 +1447,6 @@ Default value for an enum field must be an identifier.
 DegreeEuler
 DeleteCriticalSection
 DepthBufferRasterizerSSE
-DescriptorProto
-DescriptorProtosH
 DevMsg
 Directional lights are not supported by the LightBinner\n
 DirectionalLight
@@ -1729,17 +1467,10 @@ Dump a list of the objects in a sceneworld (Usage: sc_dumpworld <world_index>)
 Dump debug info
 Dump the objects in a sceneworld into a 3d geoview buffer (Usage: sc_dumpworld3d <world_index>)
 DynamicConfigList
-E>nEA
-ENetworkDisconnectionReason
 ERROR
-ET5>
 EXPORTSYSTEM_INTERFACE_VERSION_001
-E[\rn?gc
-E\fEE4
-E\n NETWORK_DISCONNECT_REJECT_BANNED
 EconItemToolModel_001
 EditorDynamicConfig
-EiUL
 EmptyAnim
 Enable display of console messages on screen. 1 = Enabled, 0 = Disabled, -1 = Enabled if vgui is not present
 EncodePointer
@@ -1756,12 +1487,9 @@ Enum value "$0" is reserved multiple times.
 Enum value "$0" is reserved.
 Enum value "$0" uses reserved number $1.
 Enum value in map must define 0 as the first value.
-EnumDescriptorProto
 EnumOptions
-EnumReservedRange
 EnumSystemLocalesEx
 EnumSystemLocalesW
-EnumValueDescriptorProto
 EnumValueOptions
 Enums must contain at least one value.
 EnvMap
@@ -1817,23 +1545,16 @@ Extension range $0 to $1 overlaps with already-defined range $2 to $3.
 Extension range $0 to $1 overlaps with reserved range $2 to $3.
 Extension range end number must be greater than start number.
 Extension ranges are not allowed in proto3.
-ExtensionRange
-ExtensionRangeOptions
 Extensions in proto3 are only allowed for defining options.
 Extensions of MessageSets must be optional messages.
 Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.
-F>qUxv
 FATAL
 FATAL ERROR: unable to register all schema data: %s\n
 FCVAR_NEVER_AS_STRING
-FEMh\f
-F\n%NETWORK_DISCONNECT_DISCONNECT_BY_USER
-F\n\foptimize_for
 Failed to allocate space for morph!\n
 Failed to save unsupported class
 False
 February
-FfW?
 Field "
 Field "$0" uses reserved number $1.
 Field does not match message type.
@@ -1848,7 +1569,6 @@ Field numbers cannot be greater than $0.
 Field numbers must be positive integers.
 Field with message or enum type missing type_name.
 Field with primitive type has type_name.
-FieldDescriptorProto
 FieldDescriptorProto.extendee not set for extension field.
 FieldDescriptorProto.extendee set for non-extension field.
 FieldDescriptorProto.oneof_index $0 is out of range for type "$1".
@@ -1861,8 +1581,6 @@ File already exists in database:
 File appears to be in generated pool but wasn't registered: 
 File is already registered: 
 File recursively imports itself: 
-FileDescriptorProto
-FileDescriptorSet
 FileOptions
 Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports "
 Files with optimize_for = LITE_RUNTIME cannot define services unless you set both options cc_generic_services and java_generic_sevices to false.
@@ -1898,11 +1616,9 @@ Found invalid proto option data for:
 FreeEnvironmentStringsW
 FreeLibrary
 Friday
-G>US
 GAME
 GAMECONSOLE
 GCTL
-GDB3
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameStartup
@@ -1910,7 +1626,6 @@ GameStartup_SM40
 GameUIService_001
 GenerateCompositeMorphTextureAtlas
 GenerateDecalNormals
-GeneratedCodeInfo
 GenericGameData
 GetACP
 GetBool
@@ -1971,7 +1686,6 @@ GetUInt32
 GetUInt64
 GetUserDefaultLCID
 GetUserDefaultLocaleName
-Google.Protobuf.Reflection
 Got request to send CSceneSystemStats to vconsole\n
 Groups are not supported in proto3 syntax.
 HH:mm:ss
@@ -1986,7 +1700,6 @@ Hex and octal numbers must be integers.
 Hide
 HostStateMgr001
 IA88
-IDEMPOTENCY_UNKNOWN
 IKChain
 IKChainOld
 IKData
@@ -2001,13 +1714,8 @@ INITY
 INVALID_CPPTYPE
 IQuickTime001
 ISceneObjectDesc
-I\n NETWORK_DISCONNECT_STEAM_DROPPED
-I\n$NETWORK_DISCONNECT_STEAM_VACBANSTATE
-I\n%NETWORK_DISCONNECT_REJECT_HIDDEN_GAME
-IdempotencyLevel
 If enabled, the camera's translation will be included in the projection matrix.
 IkLockLocal
-Il?333333c?
 Illegal jstype for int64, uint64, sint64, fixed64 or sfixed64 field: 
 Import 
 Import "
@@ -2048,9 +1756,6 @@ IsProcessorFeaturePresent
 IsValidCodePage
 IsValidLocale
 IsValidLocaleName
-JSType
-J\n NETWORK_DISCONNECT_SNAPSHOTERROR
-J\n'NETWORK_DISCONNECT_DISCONNECT_BY_SERVER
 January
 July
 June
@@ -2058,21 +1763,12 @@ KERNEL32.dll
 KL2H
 KV Conditional Evaluation Error
 KV3 save transfer failed: %s
-K\n!NETWORK_DISCONNECT_INTERNAL_ERROR
-K\n#NETWORK_DISCONNECT_TICKMSG_OVERFLOW
-K\n$NETWORK_DISCONNECT_STEAM_AUTHINVALID
-K\n'NETWORK_DISCONNECT_CLIENT_DIFFERENT_MAP
 Key in map fields cannot be enum types.
 Key in map fields cannot be float/double, bytes or message types.
 KeyValueCache001
 KeyValues Error: %s in file %s\n
 KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s\n
 KeyValuesSystem
-L>ev
-L?UUUUUUU?
-LABEL_OPTIONAL
-LABEL_REPEATED
-LABEL_REQUIRED
 LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
@@ -2092,11 +1788,6 @@ LINEAR_RGBA8888
 LINUX
 LOG_GENERAL
 LOWVIOLENCE
-LWG>
-LWW>
-L\n!NETWORK_DISCONNECT_HLTVRESTRICTED
-L\n!NETWORK_DISCONNECT_LOOPDEACTIVATE
-Label
 Layer: %s
 Leaked drawlists : %d!!!!!\n
 LeaveCriticalSection
@@ -2117,7 +1808,6 @@ LoadFromBuffer: expected '{', found '%s'
 LoadLibraryExW
 LocaleNameToLCID
 Localize_001
-Location
 LockDynamicConstantBuffer failed in CAmbientOcclusionProxySceneObjectDesc::DrawArray!!!\n
 LockDynamicConstantBuffer failed in CSceneUtils::FilterTexture!!!\n
 LockDynamicConstantBuffer failed in CSkyBoxObjectDesc::DrawArray!!!\n
@@ -2126,18 +1816,10 @@ LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
 LoggingSystem_RegisterLoggingChannel
 Low level command to set the flags byte associated with an object class. sc_SetClassFlags <classname> <value>\n
-LrwcE
 MATCHFRAMEWORK_001
 MM/dd/yy
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
-M\n"NETWORK_DISCONNECT_SERVER_SHUTDOWN
-M\n"NETWORK_DISCONNECT_STEAM_DENY_MISC
-M\n"NETWORK_DISCONNECT_STEAM_OWNERSHIP
-M\n$NETWORK_DISCONNECT_REJECT_SERVERFULL
-M\n&NETWORK_DISCONNECT_STEAM_AUTHCANCELLED
-M\n'NETWORK_DISCONNECT_REJECT_SINGLE_PLAYER
-M\n(NETWORK_DISCONNECT_SERVER_REQUIRES_STEAM
 MakeFramebufferCopy
 MapKey::GetBoolValue
 MapKey::GetInt32Value
@@ -2163,7 +1845,6 @@ MarkBindlessLightingTexturesUsed
 Material changes: 
 MaterialUtils_001
 MathLib_Init
-MbP?
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 MeshBuilderObject
@@ -2180,7 +1861,6 @@ MessageSet is not supported in proto3.
 MessageSets cannot have fields, only extensions.
 Messages can't have default values!
 Messages can't have default values.
-MethodDescriptorProto
 MethodOptions
 Missing field: FileDescriptorProto.name.
 Missing name.
@@ -2195,49 +1875,14 @@ Multithreaded translucent\n
 MutableMessage
 MutableRawRepeatedField
 MutableRepeatedMessage
-N3`d?
-N>O=I9
-N>VF
 NAN(IND)
 NAN(SNAN)
-NETWORK_DISCONNECT_BADDELTATICK
-NETWORK_DISCONNECT_BANADDED
-NETWORK_DISCONNECT_DISCONNECTED
-NETWORK_DISCONNECT_EXITING
-NETWORK_DISCONNECT_HLTVDIRECT
-NETWORK_DISCONNECT_HLTVSTOP
-NETWORK_DISCONNECT_HOST_ENDGAME
-NETWORK_DISCONNECT_INVALID
-NETWORK_DISCONNECT_KICKBANADDED
-NETWORK_DISCONNECT_KICKED
-NETWORK_DISCONNECT_LEAVINGSPLIT
-NETWORK_DISCONNECT_LOOPSHUTDOWN
-NETWORK_DISCONNECT_LOST
-NETWORK_DISCONNECT_NOMORESPLITS
-NETWORK_DISCONNECT_NOSPECTATORS
-NETWORK_DISCONNECT_OVERFLOW
-NETWORK_DISCONNECT_RECONNECTION
-NETWORK_DISCONNECT_REJECT_STEAM
-NETWORK_DISCONNECT_REMOTE_OTHER
-NETWORK_DISCONNECT_SHUTDOWN
-NETWORK_DISCONNECT_STEAM_BANNED
-NETWORK_DISCONNECT_STEAM_INUSE
-NETWORK_DISCONNECT_STEAM_LOGON
-NETWORK_DISCONNECT_STEAM_TICKET
-NETWORK_DISCONNECT_TIMEDOUT
-NETWORK_DISCONNECT_UNUSUAL
-NETWORK_DISCONNECT_USERCMD
-NO_SIDE_EFFECTS
-NQ?s
 NULL
 NV_DST16
 NV_DST24
 NV_INTZ
 NV_NULL
 NV_RAWZ
-N\n"NETWORK_DISCONNECT_HLTVUNAVAILABLE
-N\n#NETWORK_DISCONNECT_REJECTED_BY_GAME
-NamePart
 NavSystem001
 Need space between identifier and decimal point.
 Need space between number and identifier.
@@ -2293,15 +1938,6 @@ Number of views allocated : %d\n
 Number of views rendered: 
 Number of world traversals: 
 Numbers starting with leading zero must be in octal.
-OZQ%
-O\n%NETWORK_DISCONNECT_REJECT_BADPASSWORD
-O\n%NETWORK_DISCONNECT_REJECT_LANRESTRICT
-O\n%NETWORK_DISCONNECT_REJECT_NEWPROTOCOL
-O\n%NETWORK_DISCONNECT_REJECT_OLDPROTOCOL
-O\n%NETWORK_DISCONNECT_SOUNDSMSG_OVERFLOW
-O\n(NETWORK_DISCONNECT_REJECT_BACKGROUND_MAP
-O\n(NETWORK_DISCONNECT_STEAM_AUTHALREADYUSED
-O\n\nAnnotation
 Object %4d: 0x%p, class=%20s, origin=(%13g,%13g,%13g), bounds=(%13g,%13g,%13g):(%13g,%13g,%13g), desc=0x%p, flags=0x%016llX\n
 OccluderOverlay
 OccluderVisualization
@@ -2312,7 +1948,6 @@ October
 Offset
 OmniLight
 Oneof must have at least one field.
-OneofDescriptorProto
 OneofOptions
 Opaque
 Optimize the partition assignment of objects based on the next frame's render
@@ -2334,7 +1969,6 @@ PARTICLE_DEPTH_FEATHERING_ON_OPTIONAL
 PARTICLE_SET_REPLACE_VALUE
 PARTICLE_SET_SCALE_CURRENT_VALUE
 PARTICLE_SET_SCALE_INITIAL_VALUE
-PDw 
 PF\n%d %d\n-1.000000\n
 PF_BIAS_TYPE_EXPONENTIAL
 PF_MAP_TYPE_MULT
@@ -2349,9 +1983,6 @@ PLACEHOLDER_VALUE
 POSIX
 PVEC_TYPE_LITERAL
 PVEC_TYPE_LITERAL_COLOR
-P\n#NETWORK_DISCONNECT_BADRELAYPASSWORD
-P\n#NETWORK_DISCONNECT_RELIABLEOVERFLOW
-P\n#NETWORK_DISCONNECT_SNAPSHOTOVERFLOW
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
@@ -2359,6 +1990,7 @@ ParseRenderTargetTokens
 ParticleSystemMgr003
 Partition optimization time: %f secs\n
 Pf\n%d %d\n-1.000000\n
+Physics
 Physics2 Interface Old v0.5
 PhysicsBodyMarkup
 PhysicsBoneMarkup
@@ -2394,7 +2026,6 @@ Plat_ShouldCollectMiniDumpsForFatalErrors
 Plat_UUIDToString
 Plat_VirtualAlloc
 Plat_VirtualFree
-Po5H
 Pos: %2.3f, %2.3f, %2.3f\nRange: %2.3f, Falloff: %2.3f\nAtten0: %2.3f Atten1: %2.3f Atten2: %2.3f\nColor: %1.3f, %1.3f, %1.3f
 Pos: %2.3f, %2.3f, %2.3f\nRange: %2.3f, Falloff: %2.3f\nAtten0: %2.3f Atten1: %2.3f Atten2: %2.3f\nColor: %1.3f, %1.3f, %1.3f\nTheta: %3.1f Phi: %3.1f
 PosColorUVNormalTangentVertexLayout
@@ -2420,16 +2051,7 @@ Protocol Buffer map usage error:\n
 Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Reflection::
 Protocol message could not be serialized.
 Protocol message serialized itself in invalid fashion.
-PtT%
-Q5rHg,>
-Q?33s?w
-QAf?
 QAngle
-Q\n&NETWORK_DISCONNECT_REJECT_BADCHALLENGE
-Q\n&NETWORK_DISCONNECT_TEMPENTMSG_OVERFLOW
-Q\n*NETWORK_DISCONNECT_CLIENT_CONSISTENCY_FAIL
-Q\n+NETWORK_DISCONNECT_CLIENT_UNABLE_TO_CRC_MAP
-Q\n,NETWORK_DISCONNECT_REJECT_SERVERAUTHDISABLED
 Quaternion
 QueryPerformanceCounter
 QueryPerformanceFrequency
@@ -2441,6 +2063,7 @@ R32F
 R32_UINT
 R8G8B8A8_ETC2_EAC
 R8G8B8_ETC2
+R8_UINT
 RG11_EAC
 RG1616
 RG1616F
@@ -2465,8 +2088,6 @@ RGBA8888
 RGBA8888_LINEAR
 RGBX555
 RGBX8888
-RSDS
-R\vpDw 
 RadianEuler
 RaiseException
 RandomFloat
@@ -2530,25 +2151,12 @@ RtlPcToFileHeader
 RtlUnwind
 RtlUnwindEx
 RtlVirtualUnwind
-S+Ot
-S9>H
-S>$hkDh$h>[2
+S: %7.3f\n
 SCENESYSTEMMAT_OCCLUSION_PROXY material has pass count %d, expected 1!\n
 SCENESYSTEMMAT_OCCLUSION_PROXY_COUNT_DRAW material has pass count %d, expected 1!\n
 SNAN)
-SPAWN_GROUP_BLOCK_UNTIL_LOADED
-SPAWN_GROUP_DONT_SPAWN_ENTITIES
-SPAWN_GROUP_LOAD_STREAMING_DATA
-SPAWN_GROUP_SYNCHRONOUS_SPAWN
-SPEED
 SSAOManifest
 SSE and SSE2 are required.
-STRING
-S\n!NETWORK_DISCONNECT_REMOTE_TIMEOUT
-S\n%NETWORK_DISCONNECT_CONNECTION_FAILURE
-S\n'NETWORK_DISCONNECT_DELTAENTMSG_OVERFLOW
-S\n'NETWORK_DISCONNECT_REJECT_FAILEDCHANNEL
-S\n,NETWORK_DISCONNECT_STEAM_LOGGED_IN_ELSEWHERE
 S_BINDLESS_RUNTIME
 Saturday
 Scale factor for requested texture size (texture streaming)
@@ -2608,7 +2216,6 @@ SequenceMarkup
 SequenceMarkupList
 SerializedEntitiesVersion001
 ServerUploadGameStats001
-ServiceDescriptorProto
 ServiceOptions
 Set a float attribute which will be visible to all rendering (Usage: sc_setfloatattr <attrname> <value>)
 Set an integer attribute which will be visible to all rendering (Usage: sc_setintattr <attrname> <value>)
@@ -2686,9 +2293,7 @@ Source2GameEntities001
 Source2Host001
 Source2Server001
 Source2ServerSerializers002
-SourceCodeInfo
 Spatial partitions: %d\n
-SpawnGroupFlags_t
 Spherical %s\nStrength %.2f\nExponent %.2f
 SpotLight
 SpotShadowColor
@@ -2719,14 +2324,10 @@ SunShadowClear
 Sunday
 Swap
 Symbol name "
+T: %7.3f\n
 TINTRGBA32
 TINTRGBA8_ENVMAPIDX
 TUUUU
-T\n%NETWORK_DISCONNECT_LOCALPROBLEM_OTHER
-T\n&NETWORK_DISCONNECT_BAD_SERVER_PASSWORD
-T\n&NETWORK_DISCONNECT_MESSAGE_PARSE_ERROR
-T\n)NETWORK_DISCONNECT_REQUEST_HOSTSTATE_IDLE
-T\n+NETWORK_DISCONNECT_STEAM_VAC_CHECK_TIMEDOUT
 Tell debugoverlay to not draw any entries that have aged out by the time of rendering. Useful if sim runs more often than rendering.
 Template view factory "%s" was registered twice!\n
 TerminateProcess
@@ -2779,7 +2380,6 @@ Tried to move layer to be after non-existant label
 True
 Tuesday
 Two Bone
-Type
 Type appears to be in generated pool but wasn't 
 Type is already registered: 
 U:\dev\source2\main\src\thirdparty\protobuf-3.5.1\src\google/protobuf/dynamic_message.h
@@ -2811,7 +2411,6 @@ U:\dev\source2\main\src\thirdparty\protobuf-3.5.1\src\google\protobuf\stubs\subs
 U:\dev\source2\main\src\thirdparty\protobuf-3.5.1\src\google\protobuf\text_format.cc
 U:\dev\source2\main\src\thirdparty\protobuf-3.5.1\src\google\protobuf\wire_format.cc
 U:\dev\source2\main\src\thirdparty\protobuf-3.5.1\src\google\protobuf\wire_format_lite.cc
-UA>N0Wl
 UNKNOWN
 UNKNOWN_ENUM_VALUE_%s_%d
 UPDATE_STRING_TOKEN_DATABASE
@@ -2821,18 +2420,12 @@ UV88
 UVLX8888
 UVTestLayout
 UVWQ8888
-U\n"NETWORK_DISCONNECT_REMOTE_BADCRYPT
-U\n&NETWORK_DISCONNECT_REPLAY_INCOMPATIBLE
-U\n&NETWORK_DISCONNECT_SERVERINFO_OVERFLOW
-U\n&NETWORK_DISCONNECT_SERVER_INCOMPATIBLE
-U\n(NETWORK_DISCONNECT_REJECT_INVALIDCERTLEN
 Unbatchable material draws: 
 Unexpected end of string.
 Unexpected failure while serializing option submessage 
 UnhandledExceptionFilter
 Unimplemented Map Reflection API.
 Unimplemented type: 
-UninterpretedOption
 Unknown Transform Texture Format: %i
 Unknown enumeration value of "
 Unknown exception
@@ -2856,7 +2449,6 @@ Use multiview instancing for stereo rendering.
 Use to set a single indexed light to black
 Use true multiview for stereo rendering.
 UserInfoChangeService_001
-V4T%
 VApplication001
 VAvi001
 VBAllocTracker001
@@ -2890,8 +2482,6 @@ VScript
 VScriptDbg
 VScriptManager010
 VStringTokenSystem001
-V\n&NETWORK_DISCONNECT_PURESERVER_MISMATCH
-V\n'NETWORK_DISCONNECT_CREATE_SERVER_FAILED
 V_GetErrno
 V_GetFileExtension
 V_IsAbsolutePath
@@ -2962,15 +2552,11 @@ VisBuilder_001
 VolumetricFog
 VolumetricFogManifest
 VrLightCookieSettings
-W=vmdlkeys0
 WARNING
 WARNING: Trying to create a CRenderContextPtr without a valid context.\n
 WIN32
 WINDOWS
 WINXP
-W\n,NETWORK_DISCONNECT_REJECT_CONNECT_FROM_LOBBY
-W\n,NETWORK_DISCONNECT_REJECT_RESERVED_FOR_LOBBY
-WaNd?
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning
@@ -2994,36 +2580,15 @@ WorldRendererBuilderMgr001
 WorldRendererMgr001
 WriteConsoleW
 WriteFile
-X/4B
 X360
 X360_DST16
 X360_DST24
 X360_DST24F
-X\n'NETWORK_DISCONNECT_BADSPECTATORPASSWORD
-X\n'NETWORK_DISCONNECT_DIFFERENTCLASSTABLES
-X\n(NETWORK_DISCONNECT_INVALID_MESSAGE_ERROR
-Y8a:
-Y>kX>M
-Y\n)NETWORK_DISCONNECT_NO_PEER_GROUP_HANDLERS
-Y\n*NETWORK_DISCONNECT_STRINGTABLEMSG_OVERFLOW
-Y\n0NETWORK_DISCONNECT_REJECT_SERVERCDKEYAUTHINVALID
-Z>github.com/golang/protobuf/protoc-gen-go/descriptor;descriptor
-Z\>z8
-Z\n(NETWORK_DISCONNECT_REMOTE_CERTNOTTRUSTED
-Z\n*NETWORK_DISCONNECT_REJECT_INVALIDKEYLENGTH
-Z\n+NETWORK_DISCONNECT_CONNECT_REQUEST_TIMEDOUT
-[*ncd>0
 [DUMP: Scene World %d: 0x%p '%s': %d objects]\n
-[\n+NETWORK_DISCONNECT_REJECT_INVALIDCONNECTION
-[aOni*{
 [lazy = true] can only be specified for submessage fields.
 [libprotobuf %s %s:%d] %s\n
 [packed = true] can only be specified for repeated primitive fields.
 \U%08x
-\\n)NETWORK_DISCONNECT_PURESERVER_CLIENTEXTRA
-\\n*NETWORK_DISCONNECT_LOOP_LEVELLOAD_ACTIVATE
-\\n.NETWORK_DISCONNECT_REQUEST_HOSTSTATE_HLTVRELAY
-\fp\vPDw 
 \n    Actual    : 
 \n    Field type: 
 \n  Field       : 
@@ -3031,96 +2596,14 @@ Z\n+NETWORK_DISCONNECT_CONNECT_REQUEST_TIMEDOUT
 \n  Problem     : 
 \n  Problem     : Enum value did not match field type:\n    Expected  : 
 \n  Problem     : Field is not the right type for this message:\n    Expected  : 
-\n CSVCMsg_GameSessionConfiguration
 \n Render %d specific objects
 \n Render world : %s\n
-\n google/protobuf/descriptor.proto
 \n<i>Display lists discarded because of unmet stencil bit dependency</i>
 \n<i>Not using PerViewConstantBuffer_t</i>
 \n<i>PerViewConstantBuffer_t</i>
 \n<i>Procedural Layer</i>
-\nCwf\r
 \nStencil bit dependency satisfied (bit %d)
 \nStencil dependency layer : %s
-\n\fCNETMsg_Tick
-\n\fFieldOptions
-\n\fLITE_RUNTIME
-\n\fNET_Messages
-\n\fSTRING_PIECE
-\n\fTYPE_FIXED32
-\n\fTYPE_FIXED64
-\n\fTYPE_MESSAGE
-\n\fdouble_value
-\n\fis_extension
-\n\fis_localonly
-\n\fjava_package
-\n\flandmarkname
-\n\fsavegamename
-\n\fsignon_state
-\n\fstring_value
-\n\fswift_prefix
-\n\fworldgroupid
-\n\nIDEMPOTENT
-\n\nTYPE_BYTES
-\n\nTYPE_FLOAT
-\n\nTYPE_GROUP
-\n\nTYPE_INT32
-\n\nTYPE_INT64
-\n\ndependency
-\n\ndeprecated
-\n\nevent_name
-\n\nfakeplayer
-\n\ngo_package
-\n\ninput_type
-\n\ns1_mapname
-\n\nval_string
-\n\nval_uint64
-\n\rMethodOptions
-\n\rTYPE_SFIXED32
-\n\rTYPE_SFIXED64
-\n\rdefault_value
-\n\ris_transition
-\n\rnet_SetConVar
-\n\rnet_StringCmd
-\n\rphp_namespace
-\n\rpreviouslevel
-\n\rreserved_name
-\n\rtarget_entity
-\n\rtick_interval
-\n\thost_loss
-\n\tjson_name
-\n\tmap_entry
-\n\tname_part
-\n\ttickcount
-\n\ttype_name
-\n\tval_float
-\n\tval_short
-\n\tworldname
-\n\vEnumOptions
-\n\vFileOptions
-\n\vTYPE_DOUBLE
-\n\vTYPE_SINT32
-\n\vTYPE_SINT64
-\n\vTYPE_STRING
-\n\vTYPE_UINT32
-\n\vTYPE_UINT64
-\n\vallow_alias
-\n\vis_headless
-\n\vmax_clients
-\n\voneof_index
-\n\voutput_type
-\n\vsource_file
-\n\vspawn_count
-\nh?oT
-\nk>oB
-\r\f\v\v\n\n\t\t\t\t\t
-\r\n\tCODE_SIZE
-\r\n\tJS_NORMAL
-\r\n\tJS_NUMBER
-\r\n\tJS_STRING
-\r\n\tTYPE_BOOL
-\r\n\tTYPE_ENUM
-\rp\f`\vP\n0Dw 
 \tLayer %d "%s": %d inputs, %d outputs\n
 \tLayer %d "%s"\n
 \tTarget %d "%s": [MSAA-> %s] [%s size : %d %d]\n
@@ -3140,13 +2623,6 @@ Z\n+NETWORK_DISCONNECT_CONNECT_REQUEST_TIMEDOUT
 \t\t\tResolve Target: HRT = %llX, MSAA = %s, Width = %d, Height = %d\n
 \t\t\t\t[%d -> %d]
 \t\tviewport TopLeftX: %d TopLeftY: %d Width: %d Height: %d\n
-\tcQr
-\tkE>fvw
-\vA03>A|
-]\n,NETWORK_DISCONNECT_REJECT_INVALIDRESERVATION
-^<V7w
-^RfN>
-^\n*NETWORK_DISCONNECT_LOCALPROBLEM_MANYRELAYS
 _BoundTexture%d
 _BoundTextureSrgb%d
 _Dup
@@ -3155,8 +2631,6 @@ _V_strncat
 _V_strncmp
 _V_strncpy
 _V_strnicmp_fast
-_\n,NETWORK_DISCONNECT_STEAM_DENY_BAD_ANTI_CHEAT
-_\n-NETWORK_DISCONNECT_REJECT_INVALIDSTEAMCERTLEN
 __based(
 __cdecl
 __clrcall
@@ -3172,10 +2646,10 @@ __thiscall
 __unaligned
 __vectorcall
 _cabs
+_class
 _hypot
 _logb
 _nextafter
-_oD>Kg
 _test_conversion_counter
 `RTTI
 `anonymous namespace'
@@ -3213,15 +2687,12 @@ _test_conversion_counter
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
-a6>r
 abcdefghijklmnopqrstuvwxyz
 acos
-addons
 address family not supported
 address in use
 address not available
 after sort\n
-aggregate_value
 ai_model_info
 allowed in proto3.
 allowstatic
@@ -3253,8 +2724,6 @@ attenuation1
 attenuation2
 auto_unragdoll_duration
 bUpdate
-b\fp\v0
-b\n,NETWORK_DISCONNECT_SPLITPACKET_SEND_OVERFLOW
 bad address
 bad allocation
 bad array new length
@@ -3268,7 +2737,6 @@ baked_light_indexing
 bakelightindex
 bakelightindexscale
 because aux mask=
-begin
 best wh=%d %d info w h=%d %d testinf wh=%d %d\n
 binary
 binary_auto
@@ -3294,7 +2762,6 @@ breakable_count
 breakable_model
 breakable_skin
 broken pipe
-bt3V
 buffer. Use the 'bytes' type if you intend to send raw 
 burst_randomize
 burst_scale
@@ -3308,6 +2775,7 @@ c:\buildslave\hlvr_rel_win64\build\src\public\ordered_constructor.h
 c:\buildslave\hlvr_rel_win64\build\src\public\scenesystem\skybox.h
 c:\buildslave\hlvr_rel_win64\build\src\public\scenesystem\vertexformat.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier0\tslist.h
+c:\buildslave\hlvr_rel_win64\build\src\public\tier1\memstack.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utl3dallocator.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlblockmemory.h
 c:\buildslave\hlvr_rel_win64\build\src\public\tier1\utlhashdict.h
@@ -3354,19 +2822,15 @@ c:\buildslave\hlvr_rel_win64\build\src\tier1\mempool.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\utlbuffer.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\utlstring.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier2\schemabindings.cpp
-c?FA@s}
 cable
 can't reach here.
 cannot allocate transform texture\n
 cantdie
 carry_type
 castshadows
-cc_enable_arenas
-cc_generic_services
 ceil
 center
 children
-client_streaming
 cloth_collide
 cloth_collision_layer0
 cloth_collision_layer1
@@ -3377,22 +2841,17 @@ collision_prop
 color
 color per batch
 colorTarget
-com.google.protobufB
-command
 composite
 connection aborted
 connection already in progress
 connection refused
 connection reset
 control_point
-convars
 copy
 cosf
 cosh
 create_particle
-creationsequence
 cross device link
-csharp_namespace
 csm_bias_override_0
 csm_bias_override_1
 csm_bias_override_2
@@ -3411,15 +2870,8 @@ csm_res_override_3
 csm_slope_scale_db_override
 csm_split_log_scalar
 csm_viewdir_shadow_bias
-ctype
 cube.pfm
-cvars
-d8L2
-d?000000`?
-dRL>
-d\n-NETWORK_DISCONNECT_LOCALPROBLEM_NETWORKCONFIG
 damage
-data
 dddd, MMMM dd, yyyy
 debris
 debugoverlay_draw_current
@@ -3431,7 +2883,6 @@ delta
 depthTarget
 destination address required
 device or resource busy
-diff_encode_field
 dimension0
 dimension1
 dimensions
@@ -3447,26 +2898,18 @@ drawspotlights
 duration
 dynamic_interaction
 e+000
-eF>t
-eLK(w
 elements\n
 emitFromWorld
 enable_limit
-entityfiltername
-entitylumpname
 enum
 envMapLayout
 envMapQuadLayout
 error
-event
 event_class
 event_keys
-event_t
-eventid
 eventindex
-events
 executable format error
-exlT%
+expf
 explosion_behavior
 explosion_buildup
 explosion_delay
@@ -3474,27 +2917,16 @@ explosion_type
 explosive_damage
 explosive_radius
 extend .$0 {\n
-extendee
-extension_range
-fD>b
-fWi?
 fabs
 faceMergeAngle
 falloff
 false
-false"
-false:7\n
-false:=\n
-falseB
 fastshadowlayout
-field
-file
 file exists
 file too large
 filename too long
 fixed32
 fixed64
-flags
 float
 floor
 fltx4
@@ -3519,10 +2951,8 @@ g_pThreadPool
 game
 game_class
 game_keys
-gamemode
 generic
 glow
-google.protobuf"G\n
 google.protobuf.
 google.protobuf.Any
 google.protobuf.Empty
@@ -3537,23 +2967,14 @@ google.protobuf.StreamOptions
 google/protobuf/descriptor.proto
 gravity
 group
-h0'D
-h>1my
-h\n,NETWORK_DISCONNECT_REMOTE_TIMEOUT_CONNECTING
 handindex
 headtype
 health
 health_override
 host unreachable
-host_computationtime
-host_frametime
-host_frametime_std_deviation
-hostname
 hurt_me
 hurt_them
-idempotency_level
 identifier removed
-identifier_value
 ikdata
 ikrig
 illegal byte sequence
@@ -3581,31 +3002,12 @@ iostream
 iostream stream error
 irradvolumescreenquad
 is a directory
-is_background_map
 is_debris
-is_loadsavegame
-is_multiplayer
-ishltv
-java_generate_equals_and_hash
-java_generic_services
-java_multiple_files
-java_outer_classname
-java_string_check_utf8
 json_name = "
-jstype
 jstype is only allowed on int64, uint64, sint64, fixed64 or sfixed64 fields.
-k=yI
-key_t
-keys
-label
 last_sniff
-lazy
-lcQe
 ldexp
-leading_comments
-leading_detached_comments
 length
-leveltransition
 lightbinner_total_data_%d.vtex
 lightcookie
 lighting_array_fog_RT1.vtex
@@ -3614,8 +3016,6 @@ lightsourceshape
 lighttype
 linear
 list<T> too long
-localnamefixup
-location
 lockRotationAlpha
 log10
 loop
@@ -3623,10 +3023,6 @@ loop_break_on_damage
 loop_break_on_flashlight
 loop_in_action
 looping
-m?H7
-mG4>
-mXr4
-m\nXo
 m_Attenuation0
 m_Attenuation1
 m_Attenuation2
@@ -3865,14 +3261,10 @@ m_vecAABBMins
 m_vecColorScale
 m_vecTailColorScale
 m_viewId
-manifestincomplete
-manifestloadpriority
 manyquads
 map/set<T> too long
 map<$0, $1>
 map_entry should not be set explicitly. Use map<KeyType, ValueType> instead.
-map_key
-map_name
 master_morph_weight
 mat_fullbright
 mat_tonemap_bloom_scale
@@ -3937,18 +3329,15 @@ mattestquad
 maxHullVertices
 maxVerticesPerHull
 max_angle
-max_client_limit
 mesh
 mesh_calculate_curvature_smooth_invert
+mesh_calculate_curvature_smooth_pass_count
 mesh_calculate_curvature_smooth_weight
 meshes
 meshsystem
 message
 message size
-message_set_wire_format
-method
 min_angle
-min_client_limit
 model_default_preview_sequence_name
 model_name
 modeldoc0
@@ -3983,40 +3372,22 @@ modeldoc9
 modf
 morphcomposite
 msaa copy
-msg_data
-msg_type
 multiplayer_break
-n03>Pu
 nDispatchX <= c_nClipmapDimension
 nDispatchY <= c_nClipmapDimension
 nDispatchZ <= c_nClipmapDimension
 nIndex < m_RenderTargets.Count()
 nIndex == pList->m_nNumObjects - 1
 nTries < 10000000
-n\f"pA3Q
-n]?iJ
 name
 nan(ind)
 nan(snan)
 nav_attribute_avoid
 nav_data
-negative_int_value
-net_Disconnect
-net_NOP
-net_SignonState
-net_SpawnGroup_Load
-net_SpawnGroup_LoadCompleted
-net_SpawnGroup_ManifestUpdate
-net_SpawnGroup_SetCreationTick
-net_SpawnGroup_Unload
-net_SplitScreenUser
-net_Tick
 network down
 network reset
 network unreachable
 network_connection.proto
-network_connection.proto"-\n\nCMsgVector
-network_connection_token
 networkbasetypes.proto
 no buffer space
 no child process
@@ -4031,8 +3402,6 @@ no such device
 no such device or address
 no such file or directory
 no such process
-no_standard_descriptor_accessor
-no_steam_server
 nomsaa + msaa copies
 nomsaa copy
 none
@@ -4045,14 +3414,8 @@ not enough memory
 not supported
 null
 null material\n
-num_server_players
-number
 numsegments
 nxnstripped
-o?GS
-oI>O7
-objc_class_prefix
-obwQ4
 occluder
 occluder_depth_%dx%d_%p.vtex
 occlusionproxyvb
@@ -4068,7 +3431,6 @@ operator ""
 operator co_await
 operator<=>
 optional
-options
 origin_max_delta
 origin_relative
 original
@@ -4076,24 +3438,16 @@ outerconeangle
 outputcolor
 outputdepth
 overlay
-owM&
 owner dead
 pChunk
 pChunk == pList
-pDw 
 pObj->GetRefDataPtr() == nullptr
-package
-packed
 parent_bone
-parentnamefixup
 parse
 parsing
 particle
 particles/
-path
 permission denied
-php_class_prefix
-php_generic_services
 physgun_interactions
 physicsmode
 pixelvis_debug
@@ -4101,7 +3455,6 @@ placement_attach
 placement_bone
 placement_mode
 play_endcap
-players_networkids
 point0
 point1
 pointLightLayout
@@ -4110,8 +3463,8 @@ pos2Dtex2D
 pose_control
 pose_control_type
 position
-positive_int_value
 postprocess
+powf
 precomputedmaxrange
 preferred_carryangles
 prev layer not found
@@ -4123,11 +3476,7 @@ proto2
 proto3
 protocol error
 protocol not supported
-public_dependency
 purecall
-py_generic_services
-qS>g?h3
-r\tVr.>T
 r_allow_morph_batching_on_base
 r_aoproxy_cull_dist
 r_aoproxy_min_dist
@@ -4165,7 +3514,6 @@ radius0
 radius1
 range
 read only file system
-reason
 recenter_on_parent_bone
 registered: 
 relative_angles
@@ -4183,7 +3531,6 @@ rendertargets
 rendertransmissive
 repeated
 required
-reserved_range
 resource
 resource deadlock would occur
 resource unavailable try again
@@ -4192,9 +3539,7 @@ result out of range
 rootNode
 rt_bakecubemap.vtex
 rt_bakecubemap_depthstencil.vtex
-sHF'
 s_flSizeCullBloatScale
-savegamefilename
 sc_allow_dynamic_constant_batching
 sc_allow_secondary_contexts
 sc_allow_shadow_only_draws
@@ -4296,9 +3641,6 @@ secondary
 sequence_name
 sequence_number
 serializing
-server_ip_address
-server_streaming
-service
 sfixed32
 sfixed64
 shader_roughness_cone
@@ -4320,25 +3662,16 @@ sint64
 size
 size0
 size1
-slot
 sm_hLayout
 snan)
-source_code_info
 source_filename
-span
 spawn_motion_disabled
-spawngrouphandle
-spawngroupmanifest
-spawngroupownerhandle
-spawngroupparenthandle
 speed
 spotLightLayout
 spotLightQuadLayout
 sqrt
 srgb
-start
 state not recoverable
-steamid
 stop_immediately
 stop_instantly
 stop_on_seq_change
@@ -4354,7 +3687,6 @@ sunshadowdummy
 sunshadows
 suppress
 surface_prop
-syntax
 tanf
 tangent
 tanh
@@ -4371,7 +3703,6 @@ texturescale
 the actual field type (for enums T should be the generated enum 
 the global scope
 threaded_occluder_rasterization
-tick
 tier0.dll
 timed out
 tonemap.cpp: g_pRenderDevice->CreateQueryObject( RENDER_QUERY_OCCLUSION ) failed!\n
@@ -4379,11 +3710,9 @@ too many files open
 too many files open in system
 too many links
 too many symbolic link levels
-trailing_comments
 transformtexture_.vtex
 true
 turn_rate
-type
 type or int32).
 type.googleapis.com/
 type.googleprod.com/
@@ -4396,14 +3725,7 @@ unknown error
 unknown exception
 unrecognized string in token spec %s\n
 use_additional_offset
-userid
-usermsgs
 uvtangent
-uzKs@>
-v2!L.2
-val_bool
-val_byte
-val_long
 value
 value 
 value too large
@@ -4413,6 +3735,7 @@ vector too long
 vector<T> too long
 vertexbuffer
 vmdl
+vmdlkeys0
 vmdlkeys1
 vmdlkeys2
 vmdlkeys3
@@ -4486,8 +3809,6 @@ vr_spectator_remove_roll_halflife
 vr_unlit_shadow_color
 vsnap
 vstdlib.dll
-weak
-weak_dependency
 wellknown_black_1x1
 wellknown_black_2x2x2
 wellknown_black_cube_1x1
@@ -4501,13 +3822,7 @@ wellknown_transparent_black_array_1x1
 wellknown_white_1x1
 wellknown_white_array_1x1x1
 width
-world_offset_angle
-world_offset_pos
 wrong protocol type
 wrong submessage type
-xT?V
-xuid
 yaw_end
 yaw_start
-z\n8NETWORK_DISCONNECT_LOCALPROBLEM_HOSTEDSERVERPRIMARYRELAY
-{YIN?

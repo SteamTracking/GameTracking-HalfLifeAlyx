@@ -13,49 +13,26 @@
   green_metadata_type: %d\n
   xsd_metric_type: %d\n
   xsd_metric_value: %f\n
- ! 1 A Q a q 
  !"##$%&&'(())**+++,,,----
- !"#$%%&'()*+,-../0123456789:;<=>?@ABCDEFGHIJKLLMNOPQRSTUVWXY[]_`bdefhjlnprtvz|~
  !"#$%&'())*+,,-..//001112223333
  !"#$%&'()*+,-.//012234455667778889999
  !"#$%&'()*+,-./012345567889::;;<<===>>>????
  !"#$%&'()*+,-./0123456789:;;<=>>?@@AABBCCCDDDEEEE
- !"#$%&'()*+,-./0123456789:;<=>?
  !"#$%&'()*+,-./0123456789:;<=>?@AABCDDEFFGGHHIIIJJJKKKK
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#0123$%&'4567()*+89:;,-./<=>?
- " 2 B R b r 
  "$&(*,.02468:<>@
- # 3 C S c s 
- $ 4 D T d t 
- $(+.0368:<>@BDFHJLMOPRTUWXZ[\^_`bcdfghiklmnoprstuvwxyz{|}~
- $(-28?GPZeq
- % 5 E U e u 
  %u. Codebook has too many entries (%u).\n
  %u. Codebook setup data corrupt.\n
  %u. Codebook's dimension is invalid (%d).\n
- & 6 F V f v 
- &.4<D:6\f\f\f\f\f\f
- ' 7 G W g w 
- ( 8 H X h x 
+ (%d bit)
+ (%dx%d)
  (%s / 0x%04X)
- (08@LZ
- ) 9 I Y i y 
- * : J Z j z 
- + ; K [ k { 
- , < L \ l | 
- - = M ] m } 
- . > N ^ n ~ 
- / ? O _ o 
- C>TQ
  Error generating vlc tables. \n
  IDR
  Invalid code lengths while generating vlcs. \n
  Invalid residue type while residue decode?! \n
- L?G8L?
  More codelengths than codes in codebook. \n
  Vorbis id header packet corrupt (framing flag not set). \n
  Vorbis id header packet corrupt (illegal blocksize). \n
@@ -69,20 +46,12 @@
  Vorbis setup header packet corrupt (residues). \n
  Vorbis setup header packet corrupt (time domain transforms). \n
  [SAR %d:%d DAR %d:%d]
- aKM
- d?nAd? bd?
  fix
-! !0!@!P!`!p!
 !!&((())%%%""
-!'-6BN*fBNZfr~Z
 !(s->sps_list[id] && s->sps == (HEVCSPS*)s->sps_list[id]->data)
-!P?8Ki?h"|?
-!Zig{
-!_?1F_?Xj_?f
 !avctx->internal->buffer_frame->buf[0]
 !avctx->internal->buffer_pkt->data || avctx->internal->buffer_pkt->buf
 !avpkt->data || avpkt->data != avctx->internal->byte_buffer
-!b?<2b?TCb?eTb?qeb?wvb?w
 !dst->f->buf[0]
 !dst->progress
 !f->hwaccel_picture_private
@@ -94,69 +63,38 @@
 !pic->f->data[0]
 !pic->hwaccel_picture_private
 !picture->extended_data || picture->extended_data == picture->data
-!y?w.y?C;y?
 "(*3..***''
-"*26L
-"b@ZF
-#%*,!"$('+-.
-#14H
-#9fm
-#@?}=@?vW@?jq@?Z
-#CfU7
-#_8M.F8
-$/AXs
-$3zZ
 $ZYX<
-$n0G
 %02hhx
-%?e\t&?H'&?(E&?
-%CPZ
+%2X 
+%d %d %p\n
 %d CUDA capable devices found\n
+%d Hz, 
+%d bpc, 
 %d modes (either a false positive or a sample from an unknown encoder)
 %d:%02d:%02d.%02d,
 %dx%d
 %dx%dx%dx%d
-%l?C2l?y?l?
 %lu fn:%d poc:%d %p\n
 %p finished %d field %d\n
 %s failed
 %s is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.\n
+%s/%s/%s, 
+%s: %s
 %s: %s (%d)\n
 %u. mapping setup data invalid.\n
-%w?u4w?
-%|?qG|?lh|?
 &'45<=67>?DELMFGNO\]de^_fglmtunovw
-&.8DTf
-&57{15
-&A?Z@A?!ZA?
-&IZU=
-&RX6
-&`?b8`?(J`?
-&p3x&,:`&l?H&3C0&
-'B?AAB?
-'bmX
-'fOgOaOGO
-'hb7=
 ((current - dxva_data) & 127) == 0
-(H?QYH?
 (autodetected if FOURCC == UMP4)
 (dsc11->DataSize & 127) == 0
 (dsc2->DataSize & 127) == 0
 (index & 0x7f) == index && (flag & 0x01) == flag
 (unsigned)pkt->size <= 2147483647 - 32
 ))/113//+++((
-)6FX
-)h?EGh?
-)o?jAo?
 *(const AVClass **)avctx->priv_data == codec->priv_class
-*095
-*9?9F9?ra9?
-*z?q0z?+6z?
-+9FPWZZRC.
-+Lnz
-+PZF
-+_?$=_?=O_?Pa_?]s_?e
 , %d reference frame%s
+, %d/%d
+, %dx%d
 , %lld kb/s
 , Closed Captions
 , delay %d
@@ -165,73 +103,22 @@ $n0G
 , padding %d
 , pass 1
 , pass 2
-,Xt3
+, q=%d-%d
 --prefix=/d/dev/steam/thirdpartycode/ffmpeg/dev/build_win64 --toolchain=msvc --enable-shared --disable-static --enable-runtime-cpudetect --disable-all --enable-avcodec --enable-avutil --enable-avresample --enable-avformat --enable-swscale --arch=x86_64 --enable-parser=h264 --enable-decoder='aac,h264,vp8,vp9,gif,vorbis,mp3,flac,alac,pcm*' --enable-demuxer='aac,matroska,gif,ogg,mov,mp3,flac,wav' --enable-hwaccels --enable-dxva2 --disable-decoder=mpeg1video --disable-decoder=mpeg2video --disable-decoder=vc1 --disable-decoder=h263 --enable-libvpx
--64OS
--WnfnJn
--v?Hov?
--{?\n2{?\v7{?
-.1/y0
-.87x
-.?g1.?KN.?+k.?
-.NZR6\r
-.Zwx
-.xIH&xe
-.}?f5}?*<}?
-/#PdJ
-/J?hGJ?H_J?"wJ?
-/o?};o?UGo?)So?
-0"Ve\
 012v
 08491<5="*&+#.'/2:6;3>7?
-0>r\r4>-"7>X<:>
-0?3b2?
-0?HF1?\n
 0BGRY
-0DaS
 0RGBD
-0\r9P.
-0h`K
-0q?m;q?QFq?/Qq?
-0w?H8w?
-0{?bV{?\f|{?
-0|IL
 1#IND
 1#INF
 1#QNAN
 1#SNAN
 10 bit encode not supported\n
-14P;=4p
-1>1T2>
-1O?}HO?+_O?
-1T?.GT?
-1brz!b~U
-1v7dl
-1v?":v?\Bv?
-1x?FUx?
-22k\-f
 24BG
-2@exp
-2@s03
-2KYXC
-2KYYK2
 2Vu1
 2Vuy
-2\n0|IL
-2\vph`K
-2\vp|IL
-2e<\n2
 2vuy
-2x?'9x?-@x?.Gx?,Nx?$Ux?
-3 FB
-3'?pQ'?.o'?
-3+5<t
 32f5h290g53047gv5034nbvt923b
-34?%O4?)k4?)
-3>+z3>U
-3?cpQ
-3?tr
-3Fo}
 411P
 422P!
 422P\r
@@ -239,171 +126,29 @@ $n0G
 440P"
 444P
 444P\t
+45<=67>?DELMFGNO\]de^_fglmtunovw
 4:2:2
-4=;SZ
-4?Z-3?(V2?n
-4?zt5?
 4GV (Fourth Generation Vocoder)
-4H?'MH?yeH?
-4MI6
-4T>y
 4X Movie
-4k?O
-4y?UNy?
-5$9l5Y
-58?mP8?
-5?L?4?kv3?
-5@Kn5
-5@XJ5@
-5@Y4
-5Dx,6
-5E?2
-5P?kbP?4
-5bA/
-63?BR3?ln3?
-66?ln6?
-6=*r7=xD8=:
-6=G01=/o,=^
-6\fXO>\ntA
-6i~9(i 
-6nz\t61
-6v?xFv?
-7*yK
-72?\nT2?Zp2?
-74S:2
-76=C
-7>Lu9>
-7?mK7?
-7Dp/
-7Z?fKZ?
-7d=T"j=
-7f<8
-7n?!Pn?
-7t?^Jt?
-7ull-u
-7|7y
-8"3hrf
-8-9M:m;
 8088flex TMV
-84U$8(
-8696B6
-89?\ro9?l
-8>SR6>
-8?$N1
-8@X$8
-8Csinf
-8Lz.
 8SVX exponential
 8SVX fibonacci
-8\vI\nC
 8bps
-8d83Lm8U^v8
-8d9@
-8l??Sl?
 8svx_exp
 8svx_fib
 8x8DCT
-8y?t>y?
-8}?|S}?sm}?
 960/120 MDCT window
-99l*
 9:59:59.99,
-9>expf
 9@D19
-9FV\t9
-9R<4
-9TCr9
-9X?~bX?
-9\r?pY\r?By\r?
-9ay8':
-9f?&If?
-9hLN
-9k?4pk?5
-9o,S-o
-9x>p
-9z?iDz?
-9{?|C{?`M{?5W{?
-9|7z
-:?a*:?Mw9?O
-:u?SCu?
-:|me3om
-:~?{?~?ND~?
-;1\UF1J
-;1cb
-;92g
-;>Nr9>l
-;?x-;?^H;??c;?
-;JJ9'
-;PL7
-;r?gEr?
-<>q4A>BZF>4
-<A-sv
-<Wfg"Hf"
-<|?*A|?ZE|?
-=1cb
-=5^LI5;aV5
-=7?4Y7?
-=D?KVD?toD?
-=nNR
-=pqMU
-=s?JQs?
-=vJC
->Je4
->gXl
->rQ23r
-?!5WOo
-?1cb
-?3Fx
-?49HoKC
-?7zQ6$
-?7{KV\nU
-?8UUUUU
-?8bunz8
-??qd@?t3A?7
-?@En[vP
-?Al\t?Yi\r?t`
-?CreateFile2
-?FxS
-?JV8f
-?Ji@9
-?P?XC
 ?UUUUUU
-?VAO
-?\rz0w
-?\vxMW
-?atan2f
-?f`Y4
-?id7
-?kxG2)
-?lZE
-?mU2?
-?qBJ
-?sqrtf
-?x3b
-?yk\v?bY
-?ysB
-@4333
-@=OEI=m
-@?>=<;:98765443210//.-,,+*))('&&%$$##"!!  
 @?fff?H
-@?zJ@?c~@?8
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ZZXURNIC=6.&
 @BRA
-@P?5WP?
 @RBAu
-@Yh5
-@^8U)zj
-@`0Pp
-@g?@Og?v^g?
-@k?DNk?
 @r1RA
-A Is
 A frame threaded decoder did not free the frame on failure. This is a bug, please report it.\n
 A non-NULL packet sent after an EOF.\n
 A non-intra slice in an IDR NAL unit.\n
 A rangebits value of 0 is not compliant with the Vorbis I specification.\n
-A7>O;
-A?u4B?
 AAC (Advanced Audio Coding)
 AAC LATM (Advanced Audio Coding LATM syntax)
 AAC LD is only defined for ONLY_LONG_SEQUENCE but window sequence %d found.\n
@@ -524,15 +269,11 @@ Autodesk RLE
 Avid 1:1 10-bit RGB Packer
 Avid AVI Codec
 Avid Meridien Uncompressed
-Az??Gz?
-AzBS
 B sub_mb_type %u out of range at %d %d\n
 B0W1
 B1W0\n
 B4BY
 B565
-B>bvD>
-BC1%M
 BGR/
 BGR0C
 BGR1
@@ -555,10 +296,8 @@ BT.2020 NCL
 BT.470 BG
 BT.470 M
 BT.709
-BW.W0W
 Baseline
 Basic Animated Texture Profile
-Be?z
 Beam Software VB
 Bethesda VID video
 Binary text
@@ -573,25 +312,15 @@ Bottom
 Bottom-left
 Broken frame packetizing\n
 Brute Force & Ignorance
-Bs?^Ls?5Vs?
-Bt\f4^
 Buffer for type %u was too small\n
 Buffer returned by get_buffer2() did not zero unused plane pointers\n
 Buffer size %d is too small, needed : %d\n
 Bug in codevector vector building code. \n
-C)EpF
-C,?!a,?B~,?_
-C0;g
-C7$3(
-C=pOT=
-C>9xC>
-C>HI
 CABAC
 CABAC_MAX_BIN : %d\n
 CAVLC
 CAVLC 4:4:4
 CD Graphics video
-CD>G
 CONSTR
 CPiA video format
 CRA_NUT
@@ -629,7 +358,6 @@ Chronomaster DFA
 Cineform HD
 Cinepak
 Cirrus Logic AccuPak
-Cl\n6V
 Clipping illegal num_reorder_frames %d\n
 CloseThreadpoolTimer
 CloseThreadpoolWait
@@ -661,6 +389,7 @@ Could not update timestamps for discarded samples.\n
 Could not update timestamps for skipped samples.\n
 CreateBitstreamBuffer failed
 CreateEventExW
+CreateFile2
 CreateInputBuffer failed
 CreateSemaphoreExW
 CreateSymbolicLinkW
@@ -668,18 +397,13 @@ CreateThreadpoolTimer
 CreateThreadpoolWait
 Creative YUV (CYUV)
 Crop (top)x(bottom)x(left)x(right)
-Ct=Y4u=
 Current profile doesn't provide more RBSP data in PPS, skipping\n
 D:\dev\steam\thirdpartycode\ffmpeg\dev\compat/cuda/dynlink_loader.h
 D:\dev\steam\thirdpartycode\ffmpeg\dev\compat/w32pthreads.h
 D:\dev\steam\thirdpartycode\ffmpeg\dev\libavcodec\libavcodec-57.pdb
 D:\dev\steam\thirdpartycode\ffmpeg\dev\libavutil/mem_internal.h
-D?\fVF?w
-D?iI
 DCA (DTS Coherent Acoustics)
 DCT algorithm
-DE;N
-DE?nvE?D
 DNXHD
 DNXHR 444
 DNXHR HQ
@@ -692,7 +416,6 @@ DPCM Squareroot-Delta-Exact
 DPCM Xan
 DPCM id RoQ
 DPX (Digital Picture Exchange) image
-DS?yZS?
 DSD (Direct Stream Digital), least significant bit first
 DSD (Direct Stream Digital), least significant bit first, planar
 DSD (Direct Stream Digital), most significant bit first
@@ -711,10 +434,8 @@ DVB teletext
 DVD Nav packet
 DVD subtitles
 DVOO.
-DX?_XX?
 Daala
 Data packet before valid headers\n
-Dc9h\tr9
 December
 Decoded frame with POC %d.\n
 Decoding PPS\n
@@ -754,12 +475,7 @@ Duck TrueMotion 2.0 Real Time
 Duplicate POC in a sequence: %d.\n
 Duplicate value found in floor 1 X coordinates\n
 Duplicating field %d to fill missing\n
-Dv?9
 Dxtory
-Dy?*Ky?
-E0R?
-E>*AF>W
-E?AYF?W'G?
 EIA-608 closed captions
 EOB_NUT
 EOS_NUT
@@ -768,7 +484,6 @@ ERROR : no subband found for frequency %d\n
 EVRC (Enhanced Variable Rate Codec)
 EZIS
 Effects
-EiUL
 Electronic Arts CMV video
 Electronic Arts Madcow Video
 Electronic Arts TGQ video
@@ -780,7 +495,6 @@ Enable error resilience on damaged frames (unsafe)
 EncodePicture failed!
 Encoding to a planar sample format, with more than %d channels, but extended_data is not set.\n
 EnumSystemLocalesEx
-Ep9& U
 Error : %d bits left\n
 Error allocating buffers\n
 Error allocating frame, DPB full.\n
@@ -794,7 +508,6 @@ Error registering an input resource
 Error resilience with slice threads is enabled. It is unsafe and unsupported and may crash. Use it at your own risk\n
 Error splitting the input into NAL units.\n
 Error while decoding MPEG audio frame.\n
-Es?.cs?
 Escape 124
 Escape 130
 Exceeded next NALFF position, re-syncing.\n
@@ -803,7 +516,6 @@ Expected to read %d SBR bytes actually read %d.\n
 Extended
 Extradata corrupt.\n
 Extradata missing.\n
-F(huFNk`F
 FD_NUT
 FFmpeg version 3.3.4
 FFmpeg video codec #1
@@ -814,9 +526,6 @@ FLAC decoder
 FLV / Sorenson Spark / Sorenson H.263 (Flash Video)
 FM Screen Capture Codec
 FMO not supported\n
-FZP+
-F]a7
-Fad?
 Failed creating CUDA context for NVENC: 0x%x\n
 Failed loading nvcuvid.\n
 Failed locking bitstream buffer
@@ -875,17 +584,11 @@ Frame num gap %d %d\n
 Fraps
 FreeLibraryWhenCallbackReturns
 Friday
-G+?"R,?%[-?
 G.722 ADPCM
 G.723.1
 G.726 ADPCM
 G.726 ADPCM little-endian
 G.729
-G7e8Q7
-G:v|E:n
-G;Z{r)Z
-G>uAI>
-GB>B
 GIF (Graphics Interchange Format)
 GIF87a
 GIF89a
@@ -907,14 +610,10 @@ GetTickCount64
 GetTimeFormatEx
 GetUserDefaultLocaleName
 GetUserObjectInformationW
-Gf95)1}b*XhUu
-Gf?j
 Go2Meeting
 Google VP9
 Gray
 Green Metadata Info SEI message\n
-Gu?;Yu?
-Gw?'Ow?
 H.261
 H.263 / H.263-1996, H.263+ / H.263-1998 / H.263 version 2
 H.263 advanced intra coding / MPEG-4 AC prediction
@@ -923,10 +622,6 @@ H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10
 H.265 / HEVC (High Efficiency Video Coding)
 H263 MB Info
 H264 Decoder
-H8\t\rR8
-H<gNJ<
-H?S3I?
-H?UzI?
 HDMV Presentation Graphic Stream subtitles
 HDMV Text subtitle
 HDYC
@@ -935,7 +630,6 @@ HE-AACv2
 HEVC (High Efficiency Video Coding)
 HEVC decoder
 HH:mm:ss
-HMXB
 HNM 4 video
 Header missing\n
 Header size larger than data provided\n
@@ -951,8 +645,6 @@ High 4:4:4 Intra
 High 4:4:4 Predictive
 HuffYUV
 Huffyuv FFmpeg variant
-Hv<_5x<"$z<
-Hx)3@x+
 Hybrid Profile
 I09BP
 I09LE
@@ -977,24 +669,16 @@ I4AB:
 I4ALM
 I4FB,
 I4FL;
-I6e"V6
-I;\fHR;Z
-I?YSJ?
-I?rKI?
 IAC (Indeo Audio Coder)
 IBM UltiMotion
 IDR_N_LP
 IDR_W_RADL
 IEC 61966-2-1
 IEC 61966-2-4
-IF?lbF?({F?
 IFF ACBM/ANIM/DEEP/ILBM/PBM/RGB8/RGBN
 IMC (Intel Music Coder)
-IP)56P
-IW\)SRc25''
 IYUV
 IYUV\f
-IZC\r
 Id header corrupt.\n
 Id header is too short\n
 If you heard an audible artifact, there may be a bug in the decoder. Clipped intensity stereo position (%d -> %d)
@@ -1010,7 +694,6 @@ Image too wide by %d, truncating.\n
 Implicit SBR was found with a first occurrence after the first frame.\n
 Impossible initial tile.\n
 Impossible slice segment.\n
-In?EVn?
 Inconsistent channel configuration.\n
 Inconsistent input frame sizes %d %d\n
 Increasing reorder buffer to %d\n
@@ -1122,16 +805,13 @@ Invalid visible frame dimensions: %dx%d.\n
 Invalid vlc code decoding %d channel.
 Invalid zero-sized VCL NAL unit\n
 IsValidLocaleName
-IscvI3
 Iterated Systems ClearVideo
 J420\r
 J422"
 J440
 J444Z
-J5BDT5/
 JACOsub subtitle
 JEDEC P22
-JL?Qw,?B
 JP Dual Mono
 JPEG (2^n-1)
 JPEG 2000
@@ -1141,44 +821,26 @@ JPEG 2000 digital cinema 2K
 JPEG 2000 digital cinema 4K
 JPEG 2000 no codestream restrictions
 JPEG-LS
-JZdI 
 January
-Jn4@>
-Jr?I_r?
 July
 June
 Junk frame till offset %i\n
-K>IFL>
-K?15K?
-K?MpK?
-K@ouK
 Karaoke
 Karl Morton's video codec
 Kega Game Video
-Kq?raq?
-Kr?3er?y
-Kz2Uo
-K|Rn
-L-b|L
 L555,
 L565+
-L=VaM=h?N=
-L?1SK?
-L?YDM?
 LCL (LossLess Codec Library) MSZH
 LCL (LossLess Codec Library) ZLIB
 LCMapStringEx
-LK?~dK?
 LOCO
 LOOB
 LPAR
 LTP in ER AAC LD not yet implemented.\n
-LV?$vV?
 LZW decode failed\n
 LZW init failed\n
 Lagarith lossless
 Left
-Lh8w
 Linear
 List of decoders that are allowed to be used
 Loaded Nvenc version %d.%d\n
@@ -1193,16 +855,11 @@ Low Delay SBR
 LucasArts SANM/SMUSH video
 LucasArts VIMA audio
 Luma bit depth (%d) is different from chroma bit depth (%d), this is unsupported.\n
-M7@#r7@
-M9?cB:?U5;?
-M9\tQ>9
 MACE (Macintosh Audio Compression/Expansion) 3:1
 MACE (Macintosh Audio Compression/Expansion) 6:1
 MB-AFF
-MB9H_59
 MLP (Meridian Lossless Packing)
 MM/dd/yy
-MN?vdN?]{N?>
 MOV text
 MP1 (MPEG audio layer 1)
 MP2 (MPEG audio layer 2)
@@ -1244,7 +901,6 @@ Maximum number of pixels
 Maximum surfaces to be used for decoding
 MessageBoxW
 Metadata Update
-Mh*D
 MicroDVD subtitle
 Microsoft RLE
 Microsoft Video 1
@@ -1254,7 +910,6 @@ Miro VideoXL
 Mismatching AVCodecContext.pix_fmt and AVHWFramesContext.format\n
 Mismatching AVCodecContext.sw_pix_fmt (%s) and AVHWFramesContext.sw_format (%s)\n
 Missing reference picture, default is %d\n
-MnZ/r9
 Mobotix MxPEG video
 Monday
 Monkey's Audio
@@ -1270,21 +925,11 @@ Multiple programs
 Multiview High
 Musepack SV7
 Musepack SV8
-Mw?omw?
-M{?ANF
 N-bit Profile
-N>VF
-N?7-N?|vM?p
-N?OzP
 NALFF: Consumed only %d bytes instead of %d\n
-NCw;&Spg
-NFO`O
-NKeb
-NNe?
 NULL
 NV12
 NV21.
-N_U9203+a
 Nellymoser Asao
 New Extradata
 NewTek SpeedHQ
@@ -1309,7 +954,6 @@ November
 Number of bands (%d) exceeds limit (%d).\n
 Number of scalefactor bands in group (%d) exceeds limit (%d).\n
 NuppelVideo/RTJPEG
-Nv?Z
 NvEncodeAPICreateInstance
 NvEncodeAPIGetMaxSupportedVersion
 Nvenc initialized successfully\n
@@ -1323,15 +967,7 @@ Nvidia CUVID MPEG4 decoder
 Nvidia CUVID VC1 decoder
 Nvidia CUVID VP8 decoder
 Nvidia CUVID VP9 decoder
-Ny;4+
-O=1LQ=
-O>JXQ>B
-O?aRN?
-OJO 
-OXzG
-OZQ%
 October
-Om?w\m?*im?
 On2 Audio for Video Codec
 On2 VP3
 On2 VP5
@@ -1344,7 +980,6 @@ OpenEXR image
 OpenEncodeSessionEx failed
 OpenType font
 Opus (Opus Interactive Audio Codec)
-Ot?TXt?
 Other mappings than type 0 are not compliant with the Vorbis I specification. \n
 Out of memory\n
 Out of range weight\n
@@ -1359,8 +994,6 @@ Overread in VUI, retrying from timing information...\n
 Overread slice header by %d bits\n
 P sub_mb_type %u out of range at %d %d\n
 P422
-P;0sT;V\fX;5
-P?ber
 PAM (Portable AnyMap) image
 PARAM_CHANGE side data too small.\n
 PBM (Portable BitMap) image
@@ -1414,16 +1047,13 @@ PPS changed between slices.\n
 PPS changed between slices\n
 PPS id out of range: %d\n
 PPS not present in the stream, nor in AVCC, stream may be unreadable\n
-PRN12#
 PTL information for sublayer %i too short\n
 PTL information too short\n
-PURH
 Packet header is not contained in global extradata, corrupted stream or invalid MP4/AVCC bitstream\n
 Palette
 Param Change
 Parametric Stereo signaled to be not-present but was found in the bitstream.\n
 Parsed SPS: id %d; coded wxh: %dx%d; cropped wxh: %dx%d; pix_fmt: %s.\n
-Ph`K
 Photoshop PSD file
 Pictor/PC Paint
 Picture changed from size:%dx%d fmt:%s to size:%dx%d fmt:%s in reget buffer()\n
@@ -1443,11 +1073,8 @@ Provided packet is too small, needs to be %d\n
 Psygnosis YOP Video
 Pulse data corrupt or invalid.\n
 Pulse tool not allowed in eight short sequence.\n
-P}R7,D
 Q-team QPEG
 Q264
-Q>ptO>
-Q?wAQ?
 QCELP / PureVoice
 QDesign Music
 QDesign Music Codec 2
@@ -1456,29 +1083,14 @@ QP factor between P- and B-frames
 QP factor between P- and I-frames
 QP offset between P- and B-frames
 QP offset between P- and I-frames
-QQ?e
-Q\txn8\t
-Qa?Mca?
-Qc?Sbc?
-Qp?8]p?
-Qr?F
-Qt?qSx?
 QuickTime 8BPS video
 QuickTime Animation (RLE) video
 QuickTime Graphics (SMC)
 QuickTime video (RPZA)
-Qw,?B
-Qz?0vz?Z
-Q}?!U}?hX}?
-R(s3
 R3?@L<?@IE?@IN?
 R411
 R420
 R4BY*
-R=E}S=}^T=(@U=E"V=
-R?C)R?5?R?"UR?\tkR?
-R?KeS?
-RA?Z
 RADL_N
 RADL_R
 RASL_N
@@ -1496,14 +1108,11 @@ RGBA
 RGBA(
 RGB\f@
 RL2 video
-RSDS.
 RTP payload size in bytes
 RV15,
 RV16
 RV24*
 RV32
-R\vp|IL
-Ra=X#c=
 Ran out of free frames!\n
 Ran out of memory during range coder init\n
 Range Extension profile bitstream\n
@@ -1538,16 +1147,8 @@ Resize (width)x(height)
 Resolume DXV
 Retry got %lu/%lu fps\n
 Rext
+RoInitialize
 RoUninitialize
-Rt8+
-Rt?\qt?4
-Rt?pot?W
-Rz?0Xz?
-S0?Mp0?
-S;uD
-S>$hkDh$h>[2
-S??gT?g
-S?SWR?u
 SAMI subtitle
 SBR Extension over read.\n
 SBR reset failed. Switching SBR to pure upsampling mode.\n
@@ -1581,7 +1182,6 @@ SPS decoding failure, trying again with the complete NAL\n
 SPS id out of range: %d\n
 SPS not present in the stream, nor in AVCC, stream may be unreadable\n
 SPS unavailable in decode_picture_timing\n
-SP]C
 SSA (SubStation Alpha) subtitle
 STEAMVIDEOTOKEN
 STSA_N
@@ -1663,19 +1263,13 @@ Subtitle Position
 Sun Rasterfile image
 Sunday
 Sunplus JPEG (SP5X)
-Sx?Ytx?
-Sx\n1=U
 Syntax element %d
 SystemFunction036
-S|?'\|?Xd|?|l|?
 TAK (Tom's lossless Audio Kompressor)
 TDSC
 TEMP
 TEMPFILE
 TIFF image
-TMFP
-TMFS
-TMU{V
 TNS filter order %d is greater than maximum %d.\n
 TOP Field\n
 TRAIL_N
@@ -1683,7 +1277,6 @@ TRAIL_R
 TSA_N
 TSA_R
 TTA (True Audio)
-TUUUU
 TYPE_FIL: Input buffer exhausted before END element found\n
 TechSmith Screen Capture Codec
 TechSmith Screen Codec 2
@@ -1709,7 +1302,6 @@ This stream seems to incorrectly report its last channel as %s[%d], mapping to S
 This stream was generated by a broken encoder, invalid 8x8 inference\n
 Thursday
 Tiertex Limited SEQ video
-Tn2?:W2
 Too big extradata size, corrupted stream or invalid MP4/AVCC bitstream\n
 Too large remapped id
 Too long VLC (%d) in init_vlc\n
@@ -1735,22 +1327,10 @@ Truncating likely oversized SPS (%Id > %Iu)\n
 Truncating likely oversized SPS\n
 Truncating likely oversized VPS (%Id > %Iu)\n
 Tuesday
-Tv#KKv=
-Txg5
-Ty?Bay?
-U7&F|If
-U7>Ff=G%"5
-U=7=Y=s
-U?%1U?GFU?c[U?ypU?
-U?KGV?^3
-U?VaV?
-UA>N0Wl
-UUUU
 UUUUUU
 UYNV
 UYNY
 UYVY
-Ui?Udi?
 Unable to get pixel format descriptor for format %s\n
 Uncompressed 4:2:2 10-bit
 Uncompressed 4:4:4 10-bit
@@ -1784,8 +1364,6 @@ Using global_quality with nvenc is deprecated. Use qp instead.\n
 Ut Video
 V.Flash PTX image
 V422
-V=VG
-V?S0W?y
 VBLE Lossless Codec
 VC3/DNxHD
 VDPAU decoding does not support video colorspace.\n
@@ -1794,14 +1372,10 @@ VMware Screen Codec / VMware Video
 VPS %d does not exist\n
 VPS id out of range: %d\n
 VPlayer subtitle
-VQ<g
 VQF TwinVQ
-VTY=
 VUUU
 VYUY
 Verifying checksum for frame with POC %d: 
-Vg?;ug?
-Vh?1
 Vidvox Hap
 Visually Impaired
 Voice Over
@@ -1810,15 +1384,7 @@ Vorbis parser
 Vorbis time domain transform data nonzero. \n
 Voxware MetaSound
 Voxware RT29 Metasound
-Vp?^ip?C
-Vv?(gv?dwv?
-Vw?O^w?
-W 7x
-W6@r)6
-W?H0W?
-WDG,r3
 WPP ctb addresses are wrong (%d %d %d %d)\n
-WQ?h
 WUPo
 WaitForThreadpoolTimerCallbacks
 WakeAllConditionVariable
@@ -1859,28 +1425,17 @@ Windows Media Video 9 Image v2
 Wing Commander III / Xan
 Wing Commander IV / Xxan
 Winnov WNV1
-Wn<\t;b<[QV<w
-Wp?.np?
 Wrong packet type in Id header\n
 Wrong packet type in Setup header\n
 X-face image
 X1 motion estimation
-X1veA1
-X5?Q
-X7{KB7
 XBM (X BitMap) image
-XG?ZqG?
-XMa]
 XPM (X PixMap) image
 XSUB
 XWD (X Window Dump) image
 XYZ$o
-XbiyX
 Xbox Media Audio 1
 Xbox Media Audio 2
-Xf?Uhf?
-Xp9^
-Xp?d
 Xvid interlacing bug (autodetected if FOURCC == XVIX)
 Y3\n\nI
 Y3\n\tO
@@ -1906,163 +1461,37 @@ YUYVw
 YV12
 YV12\r
 YV16\f
-YV24
 YVU9
 YVYU
-YX=Z!Z=
-Y]dn
-Yc?S{c?
-Yd?Hjd?
-Yld`
-Yx;cQx
-Z"uwC
-ZB?ftB?
-ZI:i/K:
-ZWPF9+
-Za?Z}a?
 Zero refs for a frame with P or B slices.\n
 Zero refs in the frame RPS.\n
 ZeroCodec Lossless Video
 Zip Motion Blocks Video
-Zo?j
-Zr?sdr?
-Zz?3fz?Vqz?j|z?o
-Z|?4^|?Mb|?bf|?tj|?
 [ GPU #%d - < %s > has Compute SM %d.%d ]\n
-[*ncd>0
-[/\H]]^n_{`
-[YM"TEMKI1Mz;
-[k?mik?
-\\fFkR
 \fBGRA
 \fRGBt
-\f\n3Y4
-\f\n\n\n\n\n\n\v\v\v\v\v\v\v\v
-\f\v3Y0
-\f\v\v\t\f\f\f\v\f\f\f\v\r\r\r\f\r\r\r\r\r
-\fa>2id>I
-\fp\vPh`K
-\fx76
-\fx82
-\n3Y6
 \n4Yl
 \n\n3YN
 \n\n4Yf
-\n\n\n\n\v\v\v\f\f\r\r\r\r
-\n\n\t\n\n\v\v\v\f\f\r\r\r\r
-\n\n\t\t\n\v\v\v\v\f\f\f\f\r\r
 \n\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\n\t\n\n\v\v\v\r\f\r\r
-\n\t\n\v\v\v\f\f\f\f\r\r\r
-\n\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n
-\n\t\t\t\t\t\t\n\n\n\n\n\v\v\v
-\n\t\t\t\t\t\t\t\n\n\n\n\n\n\v\v
-\n\t\t\t\t\t\t\t\t\n\n\n\n\v\v
 \n\v3YJ
 \n\v4Yd
-\n\v\n\n\v\v\f\f\r\r\r\r
-\nk>oB
-\o?Jnw?
-\r&=NXZUI6
-\r.1@bb1@P
-\r8Ac
-\rV?rYW?
-\rY0a
-\r\f\v\v\n\v\v\f\r\f\v\n\t
-\r\r\f\f\f\f\v\v\v\v\n\n\n\n\t\t\t\t
-\r\r\f\f\f\f\v\v\v\v\n\n\t\t
-\r\r\f\f\f\f\v\v\v\v\n\n\t\t\t\t\t\t
-\r\r\f\f\f\v\f\v\n\n\n\t\t
-\r\r\r\r\f\f\f\f\v\v\v\v\n\n\n\n\n\t\t\t\t\t
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\v
-\r\r\r\r\v\v\v\v\v\v\v\v\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\r\v\v\v\n\v\f\f\f\f\r
-\t"?\r("?YF"?
-\t4?"A4?*y4?!
-\t9WU.
-\t?D<\t?B\\t?@|\t?<
-\tQ?& Q?]6Q?
 \t\n3YL
-\t\n\n\n\n\n\t\t\n\n\v\v\n\v
-\t\n\n\n\v\v\f\v\f\f\n
-\t\n\n\n\v\v\v\v\f\v\r\r
-\t\n\n\v\v\f\f\f\f\r\r
 \t\n\t\v\v\n\f\n\t\v\v\n\v
 \t\n\v\f\r\f\f\v\n\n\v\f\r
-\t\t\n\n\n\n\v\v\v\v\f\r\r
-\t\t\n\n\n\v\v\f\f\f\r\r\n\t
 \t\t\n\n\n\v\v\n\t\t\t\t\t\t\n\n\n\v\v\f\n\t\t\t\t\n\n\n\n\v\v\v\f\v\n\t\n\n\n\n\n\v\v\v\v\f\v\n\n\n\n\n\n\v\v\f\f\f\f
-\t\t\n\n\n\v\v\v\v\f\f\r\r\r
-\t\t\n\n\n\v\v\v\v\v\v\v
-\t\t\n\n\t\n\n\v\v\f\r\r
-\t\t\n\n\v\n\v\v\v\f\f\t
-\t\t\n\n\v\v\n\t\t\n\n\v\f\f\v\n\n\n\v\v\f\f
-\t\t\n\n\v\v\n\v\v\f\f\r\r
-\t\t\n\n\v\v\v\f\f\f\r\n\t\t\n\v\v\v\f\v\f\f\r\r\v\t\n\v\v\v\f\f\f\f\r\r\r\v\n\n\v\v\f\f\r\r\r\r\r\r\v\n\n\v\v\v\f\f\r\r
-\t\t\n\n\v\v\v\f\f\f\r\r\r\t\t
-\t\t\n\n\v\v\v\f\f\f\r\t
-\t\t\n\n\v\v\v\f\f\r\t
-\t\t\n\n\v\v\v\v\v\f\f\f\r\r
-\t\t\n\n\v\v\v\v\v\f\t
-\t\t\n\t\n\v\v\f\f\r\r
-\t\t\n\v\v\f\v\f\f\r\r\r
-\t\t\t\n\t\n\r\t\t\v\v\n\f
-\t\t\t\t\n\n\n\n\n\v\v
-\t\t\t\t\n\n\n\n\n\v\v\v\f\t
-\t\t\t\t\n\n\n\n\v\v\f\f\f\t
-\t\t\t\t\n\n\n\n\v\v\v\v\f\f\f\f\r\r\r\r
-\t\t\t\t\n\n\n\v\v\f\f\t
-\t\t\t\t\n\n\n\v\v\v\v\f\f\f\n\t\t\t\n\n\n\n\n\v\v\v\v\f\r\f\n\t\t\t\n\n\n\n\v\v\v\v\f\f\f\r\v\n\t\n\n\n\v\v\v\v\v\v\f\f\r\r\v\n\n\n\n\v\v\v\v\f\f\f\f\f\r\r\f\v\v\v\v\v\v\v\f\f\f\f\r\r\f\r\f\v\v\v\v\v\v\f\f\f\f\f\r\r\r\r
-\t\t\t\t\n\n\v\v\v\f\t
-\t\t\t\t\t\n\n\n\n\n\n\v
 \t\t\t\t\t\t\n\n\n\n\n\n\v\v\v\v\v\v\f\f
-\t\t\t\t\t\t\n\n\n\n\n\n\v\v\v\v\v\v\f\f\f\f\f\f\r\r\r\r\r\r
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\v3YP
-\tu?L-u?{Pu?\su?
-\v3Y2
 \v3Y8
 \v4Yj
-\vJ?v;J?6kJ?
-\vO?sVP?M
-\v\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\t\v\n\t\t\n\n\n\n\n\n\v\v\v\v\v\v\t\v\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\t\f\n\n\n\n\n\n\n\v\v\v\v\v\v\f\f\t\t
-\v\n\n\n\n\n\n\n\n\n\v\v\v\v\v
-\v\n\n\n\n\n\n\n\v\v\v\v\v\v\v
-\v\n\n\v\f\f\f\f\r\r\r
-\v\n\t\t\n\t\n\n\n\n\n\v\v\v\v\v
-\v\n\t\t\t\n\n\n\n\n\n\v\v\v\v
-\v\n\t\t\t\t\t\n\v\n\t
-\v\t\t\t\t\n\n\n\n\n\n\v\v\v\v
-\v\t\t\t\t\t\t\n\n\n\n\n\v\n\v\v
-\vpJ!\f0Qn\fP
-\vph`K
-\vp|IL
-]5ctg5
-]MXX
-]O6Q
-]h?Nlh?
 ]i?@kr?@{{?
-]u?Qfu?
-]z?gcz?
-^y?edy?
-^{?kc{?Gh{?
-^}?.b}?je}?
-_0*5j0G
-_9CzI9
-_T5Y
 _cabs
 _hypot
 _logb
 _nextafter
-_tF$Ut?
-`H9SfU9
 a64_multi
 a64_multi5
-a8wxx8
-a<jpc<DJe<
-a?3Ia?
-a?a!a?Go`?m
-aZ>bN_>
 aac_eld
 aac_he
 aac_he_v2
@@ -2073,7 +1502,6 @@ aac_ltp
 aac_main
 aac_ssr
 aasc
-ab?m
 abcdefghijklmnopqrstuvwxyz
 abort decoding on minor error detection
 abs_diff_pic_num overflow\n
@@ -2143,7 +1571,6 @@ application/vnd.ms-opentype
 application/x-font
 application/x-truetype-font
 apply_defdispwin
-ar=6Rs=
 arib-std-b67
 arithmetic coder
 asin
@@ -2154,6 +1581,7 @@ asv1
 asv2
 atan
 atan2
+atan2f
 atanf
 atrac1
 atrac3
@@ -2416,24 +1844,13 @@ avrp
 avsubtitle_free
 avui
 ayuv
-b!?~U"?dG#?
-b.?6X/?sL0?T?1?
-b0?E
 b16g)
 b48rs
 b64a
-b>SQp>
-b?FIc?G
-b?`xe
-bJ@Ba
-bJ@R
-bN9UQW9w>`96*i9
-bT?e
 b_qfactor
 b_qoffset
 b_sensitivity
 b_strategy
-b`9A!i9*
 backward predicted MVs of B-frames
 best_effort_timestamp
 bethsoftvid
@@ -2505,16 +1922,6 @@ bxbg
 bxrg
 bxyv
 bytestream overread %Id\n
-b}tz]}MeX}PKS}
-c3@i
-c8nPr8
-c;0yj;
-c>I3d> 
-c?\r1d?ord?r
-cI?6
-cM:w1M:
-cUw,>;C
-cW?:xW?
 cabac decode of qscale diff failed at %d %d\n
 cabac_bypass_alignment_enabled_flag not yet implemented\n
 cabac_init_idc %u overflow\n
@@ -2527,7 +1934,6 @@ cdgraphics
 cdxl
 ceil
 celt
-cemfTe_\tEek
 center
 cfhd
 cgop
@@ -2554,7 +1960,6 @@ cljr
 cllc
 closed GOP
 cmp_func
-cn>9
 co located POCs unavailable\n
 code=%02x '%c'\n
 codec ids mismatch\n
@@ -2600,7 +2005,6 @@ couldn't reallocate buffer of size %Id\n
 couldn't reallocate wrap buffer of size %d
 cpb_count %d invalid\n
 cpia
-cq?L
 crc check failed from offset %i (frame %lld) to %i (frame %lld)\n
 crccheck
 crop
@@ -2665,10 +2069,7 @@ cuvidUnmapVideoFrame64
 cuvid_decode_frame\n
 cuvid_decode_packet\n
 cuvid_output_frame\n
-cv?9kv?Vsv?p{v?
 cyuv
-c~?)f~?lh~?
-d4Ums4
 d:\dev\steam\thirdpartycode\ffmpeg\dev\libavcodec\aacdec_template.c
 d:\dev\steam\thirdpartycode\ffmpeg\dev\libavcodec\aacsbr_template.c
 d:\dev\steam\thirdpartycode\ffmpeg\dev\libavcodec\bytestream.h
@@ -2676,14 +2077,9 @@ d:\dev\steam\thirdpartycode\ffmpeg\dev\libavcodec\fft_template.c
 d:\dev\steam\thirdpartycode\ffmpeg\dev\libavcodec\mpegaudiodec_template.c
 d:\dev\steam\thirdpartycode\ffmpeg\dev\libavcodec\put_bits.h
 d:\dev\steam\thirdpartycode\ffmpeg\dev\libavutil\mem.h
-d?XTe?d
-d?Z4e??te?
-dBEHOB
-dC<H
 daala
 dark_mask
 data partitioning
-dc_5(7
 dc_clip
 dct_coeff
 dctmax
@@ -2715,7 +2111,6 @@ dest->subtitle_header_size == src->subtitle_header_size
 detect bitstream specification deviations
 detect improper bitstream length
 device does not exist
-dh?t
 dia_size
 diamond motion estimation (alias for EPZS)
 diamond type & size for motion estimation
@@ -2739,19 +2134,15 @@ discarding sps conformance window, original values are l:%u r:%u t:%u b:%u\n
 discarding sps cropping, original values are l:%d r:%d t:%d b:%d\n
 discarding vui default display window, original values are l:%u r:%u t:%u b:%u\n
 dnxhd
-dnz\r\rgz
 do not draw edges
 do not reset ASS ReadOrder field on flush
 do not skip samples and export skip information as frame side data
 do_nothing
 does not support NVENC\n
 downscale frames for dynamic B-frame decision
-dqe-?;Z
-dqtkXq
 dquant out of range (%d) at %d %d\n
 drop_second_field
 dropping low score %i frame header from offset %i to %i\n
-ds?}xs?
 dsd_lsbf
 dsd_lsbf_planar
 dsd_msbf
@@ -2773,13 +2164,7 @@ dvd_nav_packet
 dvd_subtitle
 dvvideo
 dxtory
-d{emf[gCh'i
 e+000
-e5>o
-e>;Of>q
-e?R$e?\De?Nde?)
-e?V,e?[<e?[Le?T\e?Gle?5|e?
-eD~PPD!
 eXtended BINary text
 eac3
 edge
@@ -2810,9 +2195,9 @@ escape124
 escape130
 event not registered
 evrc
-ew?emw?
 experimental
 experimental / for debugging
+expf
 explode
 export motion vectors through frame side data
 export_mvs
@@ -2824,10 +2209,6 @@ extradata NULL or too small.\n
 extradata contains %d bytes too many.\n
 extradata is too small\n
 extradata too small.\n
-f5?f
-f>Uqc>
-fQcP
-fT4@
 faan
 faani
 fabs
@@ -2890,16 +2271,8 @@ frwu
 full
 full motion estimation (slowest)
 full-pel ME compare function
-fx?Mtx?\n
-g69Pq6
 g723_1
 g729
-g9<T
-g>\f0k>l
-g?e8g?
-g?k8h?
-gDD\vgoY
-gY?5
 gamma22
 gamma28
 generic error
@@ -2913,11 +2286,9 @@ gray
 gray chroma\n
 gray decoding requested but not enabled at configuration time\n
 green_metadata
-gryTujy
 gsm_ms
 guess_dc() is out of memory\n
 guess_mvs
-gy?x
 h->block_offset[15] == (4 * ((scan8[15] - scan8[0]) & 7) << h->pixel_shift) + 4 * sl->linesize * ((scan8[15] - scan8[0]) >> 3)
 h->cur_pic_ptr
 h->cur_pic_ptr->f->buf[0]
@@ -2932,13 +2303,8 @@ h264_dxva2
 h264_mp4toannexb
 h264_slice_header_init() failed
 h264_slice_header_init() failed\n
-h=Nxj=
-h>,Vj>6\nl>f
-h>1my
-h?5wg?
 hardware accelerator failed to decode picture\n
 has_b_frames
-hd5W
 hdmv_pgs_subtitle
 hdmv_text_subtitle
 header crc mismatch\n
@@ -2958,12 +2324,9 @@ how strictly to follow the standards
 hpel_chroma
 hq_hqa
 huffyuv
-hv@u^vy
 hw_frames_ctx must be set when using GPU frames as input\n
-i.v1
 iCEDraw text
 iLBC (Internet Low Bitrate Codec)
-iX?j\nY?
 i_count
 i_qfactor
 i_qoffset
@@ -3079,38 +2442,21 @@ invalid subframe padding\n
 invalid sync code\n
 invalid version
 invalid zero block size of %d %d %d\n
-ir?j
 is avc
 is_avc
 iter
 iter motion estimation
 iterative motion vector (MV) search (slow)
-iw?T
-i~?\nn~?~r~?
-j8<Q
 jacosub
 jedec-p22
 jpeg
 jpeg2000
 jpegls
-k+c?sjP
-k0>n
-k>gwl>
-k?0,k?vGk?
-k?qHk?
-kKFxi6F}d!F
-kU'9
 kernel32.dll
 keyint_min
 kgv1
 kmvc
 kx != f_table{high,low}[0]. Derived frequency tables were not regenerated.\n
-k}?\fo}?=r}?ju}?
-l0q?\r9
-l?fHm?
-lQS?
-lWi]
-lZ?l
 lagarith
 last_pred
 ldexp
@@ -3203,14 +2549,7 @@ lowres
 luma_log2_weight_denom %d is invalid\n
 luma_log2_weight_denom %d is out of range\n
 lumi_mask
-l~?(o~?bq~?
 m101
-m57_
-m?0+n?D
-mIA*C
-mLl]
-mWZ?Nq
-mX7gY
 mace3
 mace6
 macroblock (MB) type
@@ -3267,7 +2606,6 @@ missing picture in access unit with size %d\n
 mjpeg
 mjpeg_cuvid
 mjpegb
-ml?K
 mmco
 mmco: cannot assign current picture to 2 long term references\n
 mmco: cannot assign current picture to short and long at the same time\n
@@ -3326,13 +2664,8 @@ mv_bits
 mvc1
 mvc2
 mxpeg
-my?Bzy?
 n <= 1024
 n <= s->buf_end - s->buf_ptr
-n4?rk5?nf6?
-n?Cwn?
-n?a|o?v5p?
-nF?7
 nal->skipped_bytes_pos_size >= nal->skipped_bytes
 nal_length_size
 nal_unit_type: %d(%s), nuh_layer_id: %d, temporal_id: %d\n
@@ -3369,7 +2702,6 @@ noref
 normal
 normalize adaptive quantization
 not enough buffer
-nr?\vyr?O
 nsse
 nsse weight
 nssew
@@ -3389,26 +2721,13 @@ nvEncodeAPI64.dll
 nval <= max_nval
 nvcuda.dll
 nvcuvid.dll
-nz_O?
-o KP
-o'7cd
-o14.z1B
-o756\rA5
-o88 W8
-oI!e*1!
-oOl{?nn|}
-oU>k
-oY.odP
-o\vPP
 offset == (sizeof(coeff_token_vlc_tables) / sizeof((coeff_token_vlc_tables)[0]))
 offset == (sizeof(huff_quad_vlc_tables) / sizeof((huff_quad_vlc_tables)[0]))
 offset == (sizeof(huff_vlc_tables) / sizeof((huff_vlc_tables)[0]))
 offset_len %d is invalid\n
-oiejaiB$Si
 old standard qpel (autodetected per FOURCC/version)
 old_msmpeg4
 only decode/encode grayscale
-oo}nn^|l|k}
 opus
 out of memory
 out of range intra chroma pred mode\n
@@ -3419,11 +2738,6 @@ overread: %d\n
 p->avctx->codec_type == AVMEDIA_TYPE_VIDEO || p->avctx->codec_type == AVMEDIA_TYPE_AUDIO
 p->thread_count == avctx->thread_count
 p-pkt->data == pkt->size
-p1?i
-p>7dq>K
-p?6Lp?uyp?]
-pQ?>1R?
-p\rP\f0
 p_count
 p_mask
 p_tex_bits
@@ -3475,7 +2789,6 @@ per-block quantization parameter (QP)
 pfnDecodePicture\n
 pfnSequenceCallback, progressive_sequence=%d\n
 pgmyuv
-ph`K
 phods
 phods motion estimation
 pic->data[*]!=NULL in avcodec_default_get_buffer\n
@@ -3497,7 +2810,6 @@ place global headers at every keyframe instead of in extradata
 place global headers in extradata instead of every keyframe
 plane
 plane %d - correct 
-pn>a
 poc_cycle_length overflow %d\n
 pocdiff overflow\n
 pocdiff0 overflow\n
@@ -3524,14 +2836,7 @@ prores
 ps extension overflow %d\n
 psnr
 pthread_once has failed.
-py?&wy?]}y?
-p|IL
 q-index
-q.AO
-q?Clq?\n
-q?W3q?
-qNt?GA0?
-qT?C
 qblur
 qcelp
 qcomp
@@ -3546,18 +2851,12 @@ qpeg
 qpel
 qpel_chroma
 qpel_chroma2
-qq?r|q?6
-qs?z
 qscale
 qsquish
 qtrle
 r(%5.4f,%5.4f) g(%5.4f,%5.4f) b(%5.4f %5.4f) wp(%5.4f, %5.4f)\n
 r10k
 r210
-rByac:y
-rC?E
-rZ?O
-r\vPh`K
 ra_144
 ra_288
 ralf
@@ -3607,7 +2906,6 @@ resource register failed
 ret <= avpkt->size
 ret <= tmp.size
 right_left
-rm{nm\t
 roq_dpcm
 row_interleaved_lr
 row_interleaved_rl
@@ -3618,17 +2916,12 @@ rv10
 rv20
 rv30
 rv40
-rv?Z
 s->avctx->codec_id != AV_CODEC_ID_H264
 s->buf_ptr < s->buf_end
 s->flac_stream_info.max_blocksize
 s->frame
 s->quarter_sample
 s302m
-s?qGs?
-sARoInitialize
-sHF'
-sI"usqFjs&f_sh
 sami
 sample aspect ratio
 sample count mismatch: %lu != %d\n
@@ -3688,6 +2981,7 @@ simplearmv6
 simpleauto
 simplemmx
 simpleneon
+sinf
 sinh
 sipr
 size<=2147483647 - 5 && p - pkt->data >= size
@@ -3715,7 +3009,6 @@ skip_top
 skipcmp
 skipping flac header packet 1\n
 skipping vorbis comment\n
-skkSfk
 sl == h->slice_ctx
 slice
 slice type %d too large at %d\n
@@ -3751,7 +3044,7 @@ sps_max_dec_pic_buffering_minus1 out of range: %d\n
 sps_max_num_reorder_pics out of range: %d\n
 sps_max_sub_layers out of range: %d\n
 sqrt
-sr?p
+sqrtf
 src->f->buf[0]
 src->tf.f == src->f
 start_display_time must be 0.\n
@@ -3797,11 +3090,6 @@ sw_format: %s <-> %s\n
 switch point in 8khz
 switching bps mid-stream is not supported\n
 symbols_size <= 2 || !symbols
-t3<A
-t7?C
-t8@XH8
-t>ZZv>K
-t>sEu>(
 tanf
 tanh
 targa
@@ -3831,8 +3119,6 @@ time_scale/num_units_in_tick invalid or unsupported (%u/%u)\n
 timecode_frame_start
 timed ID3 metadata
 timed_id3
-tl?0
-tl\v0gl
 tmpoutsurf->lockCount
 too many layer_id_included_flags\n
 too many reference frames %d\n
@@ -3855,16 +3141,8 @@ truncated
 truncated frames
 tscc
 tscc2
-tt?W}t?
-tw?i|w?
 twinvq
-ty?G
 type
-u&62G16t
-u=pE{=ga
-u?pn
-uO?w
-ujGs?
 ulti
 umh motion estimation
 ump4
@@ -3883,7 +3161,6 @@ unsupported bit depth: %d\n
 unsupported device
 unsupported param
 unsupported sample depth (%d)\n
-uo>3-q>
 use 1/4-pel motion compensation
 use MPEG quantizers instead of H.263
 use best rate distortion
@@ -3902,22 +3179,11 @@ use_buggy_lpc
 user data:"%s"\n
 utvideo
 uyv1
-v.F_KO{/3
 v210
 v210x
 v308
 v408
 v410
-v;Qv
-v?Jfw?M
-v?Z0v?
-v?Z0v?tOv?
-v?ZKw?
-v?hmx?
-v?pk
-vL:w1M:wdM:
-vX?e
-v\vjJa
 val || !min_size
 valve_h264
 variable length coder / Huffman coder
@@ -3959,8 +3225,6 @@ vsad
 vsse
 vyhr
 w > 0 && h > 0
-w>FP
-wa=8
 wavesynth
 wavpack
 weave
@@ -3968,7 +3232,6 @@ webp
 webvtt
 weighted
 westwood_snd1
-wf?l
 width
 width: %d <-> %d\n
 wmalossless
@@ -3985,71 +3248,29 @@ work around not autodetected encoder bugs
 work around various bugs in Microsoft's broken decoders
 wrapped_avframe
 ws_vqa
-w{I\nq{'bj{C
-x0Ysqx
 x264 - core %d
 x264 - core 0000
-x6\n|x
-x;mC
-x?CVx?s
-xP?8
-x\tyny
 xan_dpcm
 xan_wc3
 xan_wc4
 xbin
 xface
-xk?SB*?
-xkpUr_pqgSp9XGp
 xma1
 xma2
 xsub
-xt?w
 xvid
 xvid_ilace
 xvidmmx
 xvmc_acceleration
-xx?o
-x~?3z~?b|~?
-y(E<G&Iw
-y3u?
 y41p
-y?1,y?rPy?
-y?N>y?X`y?y
-y?O3z?
-yZ78
-y[mYh[
 ycgco
 ycocg
 yuv2
 yuv4
 yuvs
 yv12
-z%~xU
-z?aUY
-zB>sEC>
-zc%C1
 zero
 zero motion estimation (fastest)
 zerocodec
 zlib
 zmbv
-zyzy
-zzttnnhhcc^^YYUUPPLLHHEEAA>>;;88552200--++))''%%##!!
-{70b
-{?G\ro?9u5
-{{kyky
-{{ttooiidd__ZZUUQQMMIIEEBB>>;;88553300..++))''%%##!!  
-{{uuooiidd__ZZVVQQMMIIEEBB??;;88663300..++))''%%##!!  
-|9Nxp9
-|9gN
-}1syx\f 
-}?%9}?2]}?M
-}?:F}?)z}?>
-}j;REn;
-}n^n_O}onNnoo_^l{l}n^n_O}onNnoo_^l{ly
-}n|n_^}ooO}~ooOl{]}n|n_^}ooO}~ooOl{]y
-~?B$~?,8~?xK~?+^~?Fp~?
-~?K)~?@3~?\r=~?
-~MLMLKJKJKJIHIHIHGFGFGFEDEDCBCBCBA@A@?>=<=<=<;:;:9876765454321010/.-,-,+*+*'&'&%$%$! ! 
-~W>AQX>

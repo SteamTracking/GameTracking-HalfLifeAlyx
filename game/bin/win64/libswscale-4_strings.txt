@@ -1,13 +1,9 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- C>TQ
 !(dstStride[0] % 2 || dstStride[1] % 2)
 !(srcStride[0] % 2 || srcStride[1] % 2 || srcStride[2] % 2 || dstStride[0] % 2 || dstStride[1] % 2)
-"e?<<<<<<l?
 $D<\"B:Z@@@@@@@@
-$Ib?s
+%1.3f 
 %dx%d -> %dx%d is invalid scaling dimension\n
 %dx%d -> %dx%d\n
 %ibpp not supported by yuv2rgb\n
@@ -15,59 +11,25 @@ $Ib?s
 %s is not supported as output pixel format\n
 %s output is not supported with half chroma resolution, switching to full\n
 %s scaler, from %s to %s%s 
-&?PPPPPPP?
 (*filterPos)[i] + j < srcW || !filter[i * filterSize + j]
 (*filterPos)[i] < srcW
 (*filterPos)[i] >= 0
 (lastChrSrcY - firstChrSrcY + 1) <= hout_slice->plane[1].available_lines
 (lastLumSrcY - firstLumSrcY + 1) <= hout_slice->plane[0].available_lines
-)yIx
-,HR>O
 --prefix=/d/dev/steam/thirdpartycode/ffmpeg/dev/build_win64 --toolchain=msvc --enable-shared --disable-static --enable-runtime-cpudetect --disable-all --enable-avcodec --enable-avutil --enable-avresample --enable-avformat --enable-swscale --arch=x86_64 --enable-parser=h264 --enable-decoder='aac,h264,vp8,vp9,gif,vorbis,mp3,flac,alac,pcm*' --enable-demuxer='aac,matroska,gif,ogg,mov,mp3,flac,wav' --enable-hwaccels --enable-dxva2 --disable-decoder=mpeg1video --disable-decoder=mpeg2video --disable-decoder=vc1 --disable-decoder=h263 --enable-libvpx
--64OS
--BH>t
-.>\rfJBGo
-/2GG>!B
-0E>X
 0P(H6V.Np
-0X8b?~
 1#IND
 1#INF
 1#QNAN
 1#SNAN
 2@UUUUUU
-2\n0h
-2\vph
 333333
 4T,L2R*Jt
-51>W
-6NK>
-6\fXO>\ntA
-7>I0
-7?GX
-7~xh
-8Csinf
-8ke?;
-9>70
-9>expf
-;1cb
-=1cb
-=e2m
-?8bunz8
-?@En[vP
-?P?XC
-?R0I?
 ?UUUUUU
-?rAj
-@^8U)zj
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
-AK>(v
 April
 Assertion %s failed at %s:%d\n
 August
-C5R?\t
-CL:>8
-CWD>~3
 Cannot allocate memory.\n
 CloseThreadpoolTimer
 CloseThreadpoolWait
@@ -82,13 +44,9 @@ D:\dev\steam\thirdpartycode\ffmpeg\dev\libswscale/swscale_internal.h
 D:\dev\steam\thirdpartycode\ffmpeg\dev\libswscale\libswscale-4.pdb
 December
 Desired dithering only supported in full chroma interpolation for destination format '%s'\n
-E>nEA
-E[\rn?gc
 EnumSystemLocalesEx
 Exactly one scaler algorithm must be chosen, got %X\n
-F>qUxv
 February
-FfW?
 FlsAlloc
 FlsFree
 FlsGetValue
@@ -98,7 +56,6 @@ Forcing full internal H chroma due to input having non subsampled chroma\n
 Forcing full internal H chroma due to odd output size\n
 FreeLibraryWhenCallbackReturns
 Friday
-G>US
 Gaussian
 GetActiveWindow
 GetCurrentPackageId
@@ -114,40 +71,24 @@ GetTimeFormatEx
 GetUserDefaultLocaleName
 GetUserObjectInformationW
 HH:mm:ss
-HMXB
-Il?333333c?
 InitializeCriticalSectionEx
 IsValidLocaleName
 January
 July
 June
-L?UUUUUUU?
 LCMapStringEx
 LOOB
-LWG>
-LWW>
 Lanczos
 MM/dd/yy
 March
 MessageBoxW
 Monday
-N3`d?
-N>O=I9
-N>VF
-NKeb
-NQ?s
 No accelerated colorspace conversion found from %s to %s.\n
 November
 October
 One of the input parameters to sws_scale() is NULL, please check the calling code\n
 Optimized 2 tap filter code cannot be used\n
 Ordered dither is not supported in full chroma interpolation for destination format '%s'\n
-Q5rHg,>
-QAf?
-RSDS1
-R\vph
-S;uD
-S>$hkDh$h>[2
 SWScaler
 Saturday
 September
@@ -165,28 +106,16 @@ SystemFunction036
 TMFP
 Thursday
 Tuesday
-UA>N0Wl
 UUUUUU
-WaNd?
 WaitForThreadpoolTimerCallbacks
 Warning: data is not aligned! This can lead to a speedloss\n
 Warning: dstStride is not aligned!\n         ->cannot do aligned memory accesses anymore\n
 Wednesday
-Y8a:
-Y>kX>M
 YUV color matrix differs for YUV->YUV, using intermediate RGB to convert\n
-Z\>z8
-[*ncd>0
-\nh?oT
-\nk>oB
-\vA03>A|
-^RfN>
 _cabs
 _hypot
 _logb
 _nextafter
-_oD>Kg
-a6>r
 a_dither
 abcdefghijklmnopqrstuvwxyz
 accurate rounding
@@ -217,7 +146,6 @@ c->chrDstH <= dstH
 c->dstBpc>8
 c->dstH >= dstY
 c->srcBpc == 16
-c?FA@s}
 ceil
 checkerboard
 chr srcW=%d srcH=%d dstW=%d dstH=%d xInc=%d yInc=%d\n
@@ -225,8 +153,6 @@ cosf
 cosh
 d:\dev\steam\thirdpartycode\ffmpeg\dev\libavutil\mem.h
 d:\dev\steam\thirdpartycode\ffmpeg\dev\libswscale\swscale_internal.h
-d?000000`?
-dRL>
 dddd, MMMM dd, yyyy
 deprecated pixel format used, make sure you did set range correctly\n
 desc
@@ -250,8 +176,7 @@ error diffusion
 error diffusion dither
 error_diffusion
 experimental
-fD>b
-fWi?
+expf
 fabs
 fast bilinear
 fast_bilinear
@@ -268,11 +193,9 @@ full_chroma_int
 gamma
 gamma correct scaling
 gauss
-h>1my
 ignore alpha
 internal error %s -> %s converter\n
 j\n @8X&F>^`
-kU'9
 lanczos
 ldexp
 leave choice to sws
@@ -293,19 +216,15 @@ log10
 lum srcW=%d srcH=%d dstW=%d dstH=%d xInc=%d yInc=%d\n
 luma bicubic / chroma bilinear
 luma bicubic, chroma bilinear
-m?H7
 minFilterSize > 0
 mode for alpha -> non alpha
 modf
 n == s->plane[ii].available_lines
-n]?iJ
 natural bicubic spline
 nearest neighbor
 nearest neighbor / point
 neighbor
 none
-o?GS
-oI>O7
 output_bits == 16
 param0
 param1
@@ -313,13 +232,12 @@ plane_count == nb_components - 1
 powf
 print info
 print_info
-qS>g?h3
-sHF'
 scaler flags
 scaler param 0
 scaler param 1
 set dithering algorithm
 sinc
+sinf
 sinh
 sizeFactor > 0
 source format
@@ -384,7 +302,4 @@ unsupported planar RGB conversion %s -> %s\n
 using %s\n
 using alpha blendaway %s -> %s special converter\n
 using unscaled %s -> %s special converter\n
-xT?V
 x_dither
-z?aUY
-zc%C1

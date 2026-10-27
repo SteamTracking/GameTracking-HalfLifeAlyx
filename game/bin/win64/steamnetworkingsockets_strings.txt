@@ -11,7 +11,6 @@
     Remote host is in data center '%s'\n
     Signature Algorithm: 
    Cannot communicate with relays without network config.
-  ##%%&&))**,,//1122447788;;==>>@@CCEEFFIIJJLLOOQQRRTTWWXX[[]]^^aabbddgghhkkmmnnppssuuvvyyzz||
   +%d load balance penalty.
   +%d route penalty.
   Comment started here.
@@ -23,38 +22,30 @@
   Ping = %d+%d=%d (front+back=total)\n
   Ping to relay = %d\n
   Requested migration.
- !"#$%&'()*+,-./0123
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'()*+,-./0123NULL output buffer with non-zero size passed to Base64Decode
  %4[^ =\t] =%d
- %4hf
+ %d%n %n
  %s%lu (%s0x%lx)\n
- ' ) - 3 G M Q _ c e i w } 
+ %s-%s:%d
+ %s:%d
+ %s=%lld
+ %s=%llu
+ %s=%s
  (%ld unused bits)\n
  (INVALID PSS PARAMETERS)\n
  (Negative)
- 8f\ff
  = { <proto text format> }". To set fields within it, use syntax like "
  Base Class Array'
  Base Class Descriptor at (
- C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
- FLK
- FWa
  GMT
- Jtl
  Outdent() without matching Indent().
- T;6P/Arc
  Tokenizer::ParseFloat() passed text that could not have been tokenized as a float: 
  Tokenizer::ParseInteger() passed text that could not have been tokenized as an integer: 
  Tokenizer::ParseStringAppend() passed text that could not have been tokenized as a string: 
  Type Descriptor'
- Xia
  [default = $0
- ^LXjt
- _GDK\tZ
  ack_relay
  ack_relay_fwd_target(%d)
  ack_routes(%d)
@@ -92,25 +83,13 @@
  request_ack_e2e
  request_ack_immediate
  request_ack_relay
- rkC
  routes
  smime-type=%s;
  stats.life
  stats.rate
  thread=%lu, file=%s, line=%d, info="
- vJza\r
  with 
  } routes:{
-!#QRFt
-!,wze
-!3mmXs
-!5!A!I!O!Y![!_!s!}!
-!9iV
-!AECO
-!HRN
-!\fmHs8
-!fUY\n
-!s8p
 " because it is missing required fields: 
 " conflicts with the existing symbol "
 " for field "
@@ -149,7 +128,6 @@
 " was not found or had errors.
 " which is not used.
 " which is.
-"!"%"+"1"9"K"O"c"g"s"u"
 "$0" does not declare $1 as an extension number.
 ") is not compatible with this reflection object (which is for type "
 ") to start from the outermost scope.
@@ -164,40 +142,15 @@
 ". Value: "
 "/*" inside block comment.  Block comments cannot be nested.
 "0x" must be followed by hex digits.
-"2MR
-"6.Bl
 "; boundary="----%s"%s%s
-"A\n(CMsgSteamDatagramClientPingSampleRequest
-"IYW
-"J\n'CMsgSteamDatagramSessionCryptInfoSigned
 "MutableRawRepeatedField"
-"Wlw
-"YEu
-"Y\n*CMsgSteamDatagramLegacyGameserverPingReply
-"_\n*CMsgSteamDatagramP2PBadRouteRouterToRouter
-"cs73KI
 "e" must be followed by exponent.
-"e?<<<<<<l?
-"l7ql`R2lWf
-"qVS
 "type mismatch! call is<type>() before get<type>()" && is<array>()
 "type mismatch! call is<type>() before get<type>()" && is<double>()
 "type mismatch! call is<type>() before get<type>()" && is<object>()
 "type mismatch! call is<type>() before get<type>()" && is<std::string>()
-"u\n"CMsgSteamDatagramCertificateSigned
-"x\n"CMsgSteamDatagramP2PSessionRequest
-"x\n&CMsgSteamDatagramSignedRelayAuthTicket
-"z\n\rMethodOptions
-"zbe
+#%u %s
 #%u %s '%s'
-#P0_?G0
-#Q7z
-#\t#\v#'#)#/#3#5#E#Q#S#Y#c#k#
-#]hK Ed
-#k+ka\T
-#lyj
-#y"jl
-$)$=$A$C$M$_$g$k$y$}$
 $0  extend .$1 {\n
 $0  extensions $1 to $2;\n
 $0  message $1
@@ -205,24 +158,13 @@ $0 oneof $1 {\n
 $0$1$2 $3 = $4
 $0enum $1 {\n
 $0option $1;\n
-$4cC
-$>Mm/JhA
-$@D4Z
 $@RSA part of OpenSSL 1.0.2s  28 May 2019
-$Cw!R
-$F09Y
-$GIRu
-$HypYkf
-$Ib?s
-$J6"t
-$JXsZ
-$XI(6
-$\n k_ESteamDatagramMsg_NoConnection
-$f;Zv9l\r
-$g#8lu#
-$hRh 
-%'%1%=%C%K%O%s%
+%%%d
+%*s%s
 %*s%s OF %s {\n
+%*s%s:\n
+%*s%s:\n%*s
+%*s%s\n
 %*s<EMPTY>\n
 %*s<Not Supported>
 %*s<Parse Error>
@@ -256,8 +198,14 @@ $hRh
 %*scrlNum: 
 %*scrlTime: 
 %*scrlUrl: 
+%*s}\n
 %-18s
+%-8d
+%.*g
+%.0f
 %.14s.%03dZ
+%.1f
+%.2f
 %019llu
 %02X
 %02X%02X
@@ -267,35 +215,32 @@ $hRh
 %02x%c
 %02x%s
 %04d%02d%02d%02d%02d%02dZ
-%0nP
-%0nV4
+%04x - 
 %12sPublic Key Algorithm: 
 %12sUnable to load Public Key\n
+%5d%%
 %5dms
 %5ld:
 %5lu file=%s, line=%d, 
 %8sIssuer Unique ID: 
 %8sSubject Unique ID: 
 %8sVersion: %lu (0x%lx)\n
-%ATP
-%E5u(
-%Gdnv
 %I64i
 %[0-9]-%[0-9]
-%\n!k_ESteamDatagramMsg_P2PStatsRelay
-%aIwV
-%bw+s
 %d byte buffer not big enough; %d bytes required
 %d byte packet is too small
 %d consecutive session request timeouts at %s; marking address as failed.
+%d%+d
 %d%+d/%d%+d
+%d%n
+%d.%d.%d
 %d.%d.%d.%d
 %d.%d.%d.%d/%d.%d.%d.%d
 %d.%d.%d.%d:%d
-%eyu~
 %i.%i.%i.%i
 %i.%i.%i.%i:%i
 %ld bytes leaked in %d chunks\n
+%ld\n
 %lld
 %llu
 %lu:%s:%s:%d:%s\n
@@ -319,17 +264,25 @@ $hRh
 %s %2d %02d:%02d:%02d%.*s %d%s
 %s %s HTTP/1.0\r\n
 %s %s%lu (%s0x%lx)\n
+%s (%s)
+%s 0\n
 %s algorithm "%s" unsupported\n
 %s appears to be SDR public address.\n
 %s downtime warning expired; assumed back online.
 %s isn't valid SteamID for identity.
 %s sent routing secret in msg 0x%02x.  Marking as fully trusted.  (Previous trust was %d)\n
+%s#%d (%s)
 %s%02X
+%s%s
+%s%s\n
 %s(%d): OpenSSL internal error, assertion failed: %s\n
 %s------%s%s
 %s------%s--%s%s
+%s/%u
 %s/ISteamApps/GetSDRConfig/v1?appid=%u&partner=%s
 %s: (%d bit)\n
+%s:%s
+%s=%s
 %sBytes buffered: %s\n
 %sConnection quality distribution:\n
 %sConnection quality histogram: (%d measurement intervals)\n
@@ -351,202 +304,40 @@ $hRh
 %sRecv:%6.1f pkts/sec%6.1f K/sec\n
 %sSent:%6.1f pkts/sec%6.1f K/sec\n
 %sTotals\n
-%steamnetworkingsockets_messages.proto"
-%steamnetworkingsockets_messages.proto"n\n%CMsgSteamSockets_UDP_ChallengeRequest
 %u.%u.%u.%u
 %u.%u.%u.%u:%u
-&'&)&5&;&?&K&S&Y&e&i&o&{&
-&1j@U
-&8@Cb
-&?PPPPPPP?
-&AK(h
-&OzJ
-&Sgw
-&V6J
-&Ylb
-&\n"k_ESteamDatagramMsg_ConnectRequest
-&\n"k_ESteamDatagramMsg_P2PStatsClient
-&\n"k_ESteamNetworkingUDPMsg_ConnectOK
-&ut8
 '()+,-./:=?
-'5'7'M'S'U'_'k'm's'w'
-'6J~U\fm
-'O6n
-'Z9t%
-'\n#k_ESteamDatagramMsg_RouterPingReply
-'g0dW
-'pSN.F
-'sp3s
-'s~h9g
-( 8PX
-(!(1(=(?(I(Q([(](a(g(u(
 ('8PW
-(0'yX
-(5Me
-(5jP
-(BZq
-(D4D
-(U1h
-(ZdOt\n&
-(\f"R\n#CMsgSteamDatagramCertificateRequest
-(\f"d\n(CMsgSteamDatagramCachedCredentialsForApp
-(\f"q\n-CMsgSteamDatagramHostedServerAddressPlaintext
-(\n$k_ESteamDatagramMsg_ConnectionClosed
-(\n$k_ESteamNetworkingSocketsCipher_NULL
-(\r"?\n!CMsgSteamDatagramGameServerSample
-(\r"Y\n!CMsgSteamSockets_UDP_NoConnection
-(\r"y\n+CMsgSteamDatagramGameServerSampleDataCenter
-(\v2 .google.protobuf.DescriptorProto
-(\v2!.CMsgSteamDatagramP2PRoutes.Route
-(\v2!.google.protobuf.EnumValueOptions"
-(\v2".CMsgSteamDatagramGameServerSample"
-(\v2#.CMsgSteamDatagramCertificateSigned
-(\v2#.CMsgSteamDatagramCertificateSigned"
-(\v2#.CMsgSteamDatagramConnectionQuality
-(\v2#.CMsgSteamDatagramConnectionQuality"6\n\nERelayMode
-(\v2#.CMsgSteamDatagramLinkLifetimeStats"
-(\v2$.google.protobuf.EnumDescriptorProto
-(\v2$.google.protobuf.FileDescriptorProto"
-(\v2$.google.protobuf.UninterpretedOption"/\n
-(\v2$.google.protobuf.UninterpretedOption":\n\fOptimizeMode
-(\v2$.google.protobuf.UninterpretedOption*\t
-(\v2%.google.protobuf.FieldDescriptorProto
-(\v2%.google.protobuf.OneofDescriptorProto
-(\v2&.google.protobuf.MethodDescriptorProto
-(\v2'.google.protobuf.ServiceDescriptorProto
-(\v2(.CMsgSteamDatagramDataCenterState.Server
-(\v2(.CMsgSteamDatagramDataCenterState.Server"
-(\v2(.CMsgSteamDatagramLinkInstantaneousStats
-(\v2(.CMsgSteamDatagramP2PRoutes.RelayCluster
-(\v2(.CMsgSteamDatagramSessionCryptInfoSigned
-(\v2(.CMsgSteamNetworkingIdentityLegacyBinary
-(\v2(.CMsgSteamNetworkingIdentityLegacyBinary"
-(\v2(.google.protobuf.SourceCodeInfo.Location
-(\v2).CMsgSteamDatagramRouterHealth.DataCenter
-(\v2).google.protobuf.EnumValueDescriptorProto
-(\v2+.CMsgSteamNetworkingP2PRendezvous.ConnectOK
-(\v2,.CMsgSteamDatagramDataCenterState.DataCenter
-(\v2,.CMsgSteamDatagramGameServerSampleDataCenter"
-(\v2,.CMsgSteamDatagramRelayAuthTicket.ExtraField
-(\v2-.google.protobuf.UninterpretedOption.NamePart
-(\v2/.google.protobuf.DescriptorProto.ExtensionRange
-(\v20.CMsgSteamDatagramRouterPingReply.RouteException
-(\v20.CMsgSteamNetworkingP2PRendezvous.ConnectRequest
-(\v22.CMsgSteamDatagramClientPingSampleReply.DataCenter
-(\v22.CMsgSteamNetworkingP2PRendezvous.ConnectionClosed
-(\v25.CMsgSteamDatagramClientSwitchedPrimary.RouterQuality
-(\v26.CMsgSteamDatagramClientPingSampleReply.RoutingCluster
 (cannot determine missing fields for lite message)
-(d4t8
-(fS{ggRcjh
-(i/Al
-(jvg;
 (merge 
 (null)
 (unknown)
-(vQF
-(wMww
-)!)#)?)G)])e)i)o)u)
+(x%d)
 )", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-)Ck?B
-)Fmk
-)J9o
-)TpH
-)Urz
-)\n!authorized_client_identity_string
-)\n!legacy_gameserver_identity_binary
-)\n%k_ESteamDatagramMsg_P2PSessionRequest
-)\n%k_ESteamDatagramMsg_RouterPingRequest
-)\n%k_ESteamNetworkingUDPMsg_NoConnection
-)fuG
-)yIx
-*%*/*O*U*_*e*k*m*s*
-**qXU
-*,vJEd
-*0fT
-*1~Pt
-*5pB
-*DQW%
-*StO9>T
-*UlS
-*Y$ve
-*\fhsD
-*\n"forward_target_relay_routing_token
-*\n"legacy_gameserver_relay_session_id
-*\n&k_ESteamDatagramMsg_DataClientToRouter
-*\n&k_ESteamDatagramMsg_DataRouterToClient
-*\n&k_ESteamDatagramMsg_DataRouterToServer
-*\n&k_ESteamDatagramMsg_DataServerToRouter
-*gFBk
-*it%2
-*kf[R
-*vPP
-+'+1+3+=+?+K+O+U+i+m+o+{+
-+D5X
-+Sgs
-+\n'k_ESteamDatagramMsg_GameserverPingReply
-+\n'k_ESteamNetworkingSocketsCipher_INVALID
-+\n'k_ESteamNetworkingUDPMsg_ChallengeReply
-+\n'k_ESteamNetworkingUDPMsg_ConnectRequest
-+gC&s
-+steamnetworkingsockets_messages_certs.proto
-+steamnetworkingsockets_messages_certs.proto"
-+v30Y
 , Type=
 , from:
 , not just within "
 , path=
 , retcode=
 , value=
-,#,/,5,9,A,W,Y,i,w,
-,3g4
 ,7~5d
-,ARu@y6
 ,AckPeerRoutes 
 ,AlsoSentViaRelay
-,CBKE
-,HR>O
 ,Reason=
 ,RoutesChanged
-,ShfPQ
-,ZFDGn
 ,fQM(
-,h11]
-,hmQ#
-,kXKlQT
-,kj8\te
 ,name:
-,oYR
 ,section=
 ,value:
--"ke6
--+ziV
 -----BEGIN 
 -----BEGIN %s-----\n
 -----BEGIN OPENSSH PRIVATE KEY-----
 -----END %s-----\n
 -----END OPENSSH PRIVATE KEY-----
--5X5
--;-C-I-M-a-e-q-
--AvRJ
--BH>t
--D65K
--U`5K
--\6G5
--\n)k_ESteamDatagramMsg_ClientPingSampleReply
--\n)k_ESteamDatagramMsg_GameserverPingRequest
--\n)k_ESteamDatagramMsg_P2PSessionEstablished
--\n)k_ESteamDatagramMsg_RelayToRelayPingReply
--\n)k_ESteamNetworkingUDPMsg_ChallengeRequest
--\n)k_ESteamNetworkingUDPMsg_ConnectionClosed
--\t47Cd1z
 -inf
--l34
--mB:t
--~T\viMOb
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-.%.-.3.7.9.?.W.[.o.y.
+.%lu
 ....................
 ..\src\google\protobuf\descriptor.cc
 ..\src\google\protobuf\descriptor.pb.cc
@@ -568,11 +359,7 @@ $hRh
 ..\src\google\protobuf\text_format.cc
 ..\src\google\protobuf\wire_format.cc
 ..\src\google\protobuf\wire_format_lite.cc
-..uR5&m
 .00cfg
-.4bb
-.5P<e
-.>\rfJBGo
 .?AU?$LinkStatsTracker@ULinkStatsTrackerClientRelaySession@SteamNetworkingSocketsLib@@@SteamNetworkingSocketsLib@@
 .?AU?$LinkStatsTracker@ULinkStatsTrackerEndToEnd@SteamNetworkingSocketsLib@@@SteamNetworkingSocketsLib@@
 .?AU?$LinkStatsTracker@ULinkStatsTrackerRelayOutside@SteamNetworkingSocketsLib@@@SteamNetworkingSocketsLib@@
@@ -872,9 +659,6 @@ $hRh
 .?AVsystem_error@std@@
 .?AVtype_info@@
 .?AVunsupported_os@Concurrency@@
-.CMsgSteamDatagramCertificateB
-.CMsgWebRTCRendezvous
-.CMsgWebRTCRendezvous.Candidate
 .CRT$XCA
 .CRT$XCC
 .CRT$XCL
@@ -892,9 +676,7 @@ $hRh
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.ESteamNetworkingSocketsCipher"'\n
 .PLACEHOLDER_VALUE
-.Q.Ol
 .\crypto\asn1\a_bitstr.c
 .\crypto\asn1\a_bool.c
 .\crypto\asn1\a_bytes.c
@@ -1116,22 +898,12 @@ $hRh
 .\crypto\x509v3\v3_skey.c
 .\crypto\x509v3\v3_sxnet.c
 .\crypto\x509v3\v3_utl.c
-.\n*k_ESteamDatagramMsg_GameserverRegistration
-.bmxz
 .bss
 .data
 .data$r
 .dummy
-.dx_LV9
 .edata
 .foo = value".
-.google.protobuf.EnumOptions"l\n
-.google.protobuf.FieldOptions"
-.google.protobuf.FileOptions
-.google.protobuf.MessageOptions
-.google.protobuf.MethodOptions"
-.google.protobuf.ServiceOptions"
-.google.protobuf.SourceCodeInfo"
 .idata$2
 .idata$3
 .idata$4
@@ -1156,315 +928,37 @@ $hRh
 .tls
 .tls$
 .tls$ZZZ
-.xJ>Hf
 .xdata
 .xdata$x
-.yAu[7
-/'/)/A/E/K/M/Q/W/o/u/}/
-/)IMT
-/2GG>!B
-/2x1
-/5dJ
-/OTN
-/RIv
-/\n+k_ESteamDatagramMsg_ClientPingSampleRequest
-/\n+k_ESteamDatagramMsg_RelayToRelayPingRequest
-/\n+k_ESteamNetworkingSocketsCipher_AES_256_GCM
+/%d%+d
 /usr/local/ssl
 /usr/local/ssl/cert.pem
 /usr/local/ssl/certs
 /usr/local/ssl/lib/engines
 /usr/local/ssl/private
-/wo4:
-/zt1
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
 0123456789
 0123456789ABCDEF
 0123456789abcdef
 0123456789abcdefghijklmnopqrstuvwxyz
-02V8[
-05=k
-09,h
-0;Q5[
-0<cz
-0?0L
-0E>X
-0M2~@p
-0Ntl
-0W/5
-0X8b?~
-0Z@q
-0\n(legacy_authorized_client_identity_binary
-0\n,k_ESteamDatagramMsg_GameserverSessionRequest
-0\r0#0)070;0U0Y0[0g0q0y0}0
-0\r8np
-0e\r8
-0iN>/
-0tU+xc:
-0}dV
-1!1'1-191C1E1K1]1a1g1m1s1
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-11Y@
-11nN
-12'0
-12v)
 14 (default)
-15\tr\
-1:uV+T
-1=fI
-1Ag a
-1FV\
-1GNK
-1L$1
-1\n-k_ESteamDatagramMsg_LegacyGameserverPingReply
-1\v5#d
-1b4Ef
-1eaB@
-1f\t3Qg^y
-1j!6
-1m2{
-1nds
-1t;K
-1u+@A
-1xT$
-1}oP
-2#.google.protobuf.FieldOptions.CType:
-2&.CMsgSteamDatagramCertificate.EKeyType
-2).google.protobuf.FileOptions.OptimizeMode:
-2)252Y2]2c2k2o2u2w2{2
-2)Ab`
-2*.google.protobuf.FieldDescriptorProto.Type
-2+.CMsgSteamDatagramSessionCryptInfo.EKeyType
-2+.google.protobuf.FieldDescriptorProto.Label
-2+~,@\r;Zj09
-2-.CMsgSteamDatagramConnectionClosed.ERelayMode
-20t\f
-24U\n
 25th
-27d7
-28Vm
-2:3maJ
-2:pS
-2GJH
-2I y)
-2T26
-2Tm=#
-2Uiwp"9
-2Zq)
-2\fWQx
-2\rlhp
-2^pV
-2a"l
-2bT~
-2cb:RO
-2d\v
-2f)l=
-2nIg
-2p"6
-3 FB
-3%3+3/353A3G3[3_3g3k3s3y3
-3,IE),W
-3-WH
-31tPR
-35-w
-37>k
-37LQ
-3>N;kU
-3>fvw
-3?tr
-3Cn(
-3Ej%Tb
-3HLhx 
-3M5cWAK
-3Wk1^
-3YH_!
-3\n\ncandidates
-3icq
-3ja~
-3ki\rgz
-3rUZ
-3w2URu
-3wQ]
-3x&>Z
-4)#bH
-4)m1
-46$a
-474E4U4W4c4i4m4
-4<Td
-4Ch;
-4F0I
-4Mv8
-4Zis
-4\fPl
-4\n0k_ESteamDatagramMsg_GameserverSessionEstablished
-4f h
-4f$H
-4zj@1;IJ
-5'0v2ZP
-5-535;5A5Q5e5o5q5w5{5}5
-5-\rGw
-50Q5
 50th
-51>W
-52pk
-5A10K
-5EwO
-5Itc
-5N{j
-5\f55
-5\n1k_ESteamDatagramMsg_ClientToRouterSwitchedPrimary
-5\n\vnested_type
-5\vFuo
-5b!g
-5ceTk
-5dO7
-5giP
-5hcr
-5s\nl
-5t?F
-5~EW
-6#6165676;6M6O6S6Y6a6k6m6
-6#RDP#
-6%vi
-6*Fc7
-6,2K
-6-zeZ
-62$|S)6f
-67-s
-6H,N
-6NK>
-6O|T%
-6PNi&\f
-6Qd=
-6\fXO>\ntA
-6\n\fmessage_type
-6_wEX
-6afD
-6bX+
-6c&0|vvX
-6cot
-6i$R\nQ
-6l13
-6lkc
-6myY;
-6qo~
-6r-m_v
-6r1ij
-6ynV\f8%
-7$U8[
-7%Ot\f
-7*QR
-700PP
 700WP
-71iB
 75th
-7>I0
-7?7E7I7O7]7a7u7
-7?GX
-7?XEAVn
-7E\vy
-7GK2
-7OsR
-7W}2
-7\n\tenum_type
-7\rayf+
-7\tFq?
-7gS_
-7i@X
-7m:e
-7o4H
 7qp9
-7q|Q@
-7sAP'
-7wKR
-7zRQ
-7~xh
-8+Qw
-8.K%G
-80F2<
-851Pe
-88n|
-8<pl
-8= zp
-8A6j
-8GZS
-8IaiS/8,
-8SIffK5W
-8TZvrv<
-8\n\textension
-8\n\vquality_e2e
-8\v8!83858A8G8K8S8W8_8e8o8q8}8
-8]Vc2
-8ca1
-8dS2
-8ke?;
-8pe7?
-8q-S*]X
-8sOy
-9#9%9)9/9=9A9M9[9k9y9}9
-9)jx
-9*VU
-95\r9{
 95th
 98th
-9966
-9:dzGN
-9>70
-9>powf
-9@Xp&
-9IGv
-9J9;6
-9N1=@
-9PE,$
-9QTA
-9Y@nJM
-9Zr4
-9\n\noneof_decl
-9\not
-9\tiI
-9]ZV
-9aDW
-9c,Y0x
-9dYeiJ
-9fkj
-9g3|3\rX
-9kQp
 9o!5
-9oB#
-9q6\r#m
-9r#xV
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
 : Tried to copy from a message with a different type. to: 
 : Tried to merge from a message with a different type.  to: 
-:':+:1:K:Q:[:c:g:m:y:
-:.JlN
-:5ptI.T(
 :BAD OBJECT
 :EXTERNAL TYPE %s\n
-:NAy
-:QYJ
-:Vlq
-:\n\rquality_relay
-:cwd|
-:eaI
-:gN(dq
-:mIR
-:w4v
-; zp%Jj
-;!;#;-;9;E;S;Y;_;q;{;
-;4hP
-;5jNf
-;K+PW
-;LGEW
-;Qo0
-;`Fzc
-;bwP*
-<)<5<C<O<S<[<e<k<q<
-<3AC|[sqb
-<4E87
 <<ERROR>>
 <ABSENT>\n
 <ASN1 %d>
@@ -1473,122 +967,26 @@ $hRh
 <ASN1 14>
 <ASN1 15>
 <ASN1 29>
-<BWK
 <EMPTY>\n
-<Hs2)
 <INVALID>
-<K4Q
 <NULL>
-<SVX
-<YGr+
-<YVtV&
 <invalid>
-<sqrt
 <unsupported>
-=!=-=3=7=?=C=o=s=u=y={=
-=&sf9
-=87M
-=O?AqP
-=Q9M
-=Tie
-=VX7
-=asyv
-=cQ6
-=cdE
-=e2m
-=imb;D
->#>)>/>3>A>W>c>e>w>
->0PFJ
->4|6eXg_e
->7^0g
->I{TrEX
->Sem
->WK6
->\n\frelay_sample
->\v?\r?7?;?=?A?Y?_?e?g?y?}?
->cQ6
->fN46R^
->jtm}S
->l\rur
->p00<
->w^23
->yhP
->ztq
-?!5WOo
-?456789:;<=
-?49HoKC
-?7zQ6$
-?7{KV\nU
-?8bunz8
-?@En[vP
-?HP4
-?QfZ
-?R0I?
 ?UUUUUU
-?VBH;
-?\n\fdata_centers
-?\n\nconnect_ok
-?\n\rinstantaneous
-?\n\rserver_sample
-?c:\buildslave\sdr_public_win64\build\src\tier1\utlmemory.cpp
-?d86L
-?dt]X
-?f`Y4
-?fuP=
-?gwL
-?jOb
-?kxG2)
-?lZE
-?qBJ
-?rAj
-?srJO
-?tr#6
-?tya
-?uWS
 ?w8'g
-?x29
-?ysB
-@!@%@+@1@?@C@E@]@a@g@m@
 @%04x
 @(none)
 @?33s?H
-@BH]f
-@MfKZ
-@Pgl
-@Pu\rm
-@WE]X
-@X!pf
-@Zs3
-@\f1OJ
-@c5U
-@dKb]
-@i1V
 A connection with that ID already exists.
 A file with this name is already in the pool.
 A listen socket handle was used where a poll group handle was expected
 A poll group handle was used where a listen socket handle was expected
 A protocol message was rejected because it was too big (more than 
-A!A3A5A;A?AYAeAkAwA{A
-A%N_A
-A,uw"
-A.00h
-A2VPD
-A4Wn>
-A9ue_
-A9ur
-A;DC04
-A<fP
-A>pP&
-A>x8
 AA Compromise
 AACompromise
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
-AC2,h
 ACCESS_DESCRIPTION
-ACK_REQUEST_E2E
-ACK_REQUEST_IMMEDIATE
-ACK_REQUEST_RELAY
 AD Time Stamping
 ADVAPI32.dll
 AD_DVCS
@@ -1622,11 +1020,8 @@ AES-256-CTR
 AES-256-ECB
 AES-256-OFB
 AES-256-XTS
-AGgV
-AK>(v
 ANSI X9.62
 ANY PRIVATE KEY
-AOZs\!yA*
 APISendMessageToConnection failed with result code %d
 ASCII
 ASN.1 part of OpenSSL 1.0.2s  28 May 2019
@@ -1661,11 +1056,6 @@ ASN1_UTF8STRING
 ASN1_VISIBLESTRING
 AUTHORITY_INFO_ACCESS
 AUTHORITY_KEYID
-AW:S
-AWt.
-A\n\nrelay_mode
-A\rjW
-AbW_
 Abandoning migration to %s.  We obtained a session on this relay, but decided to use %s as the primary instead.
 AcceptConnection
 AcceptSessionWithUser
@@ -1690,7 +1080,6 @@ Adding SDR ticket for server %s vport %d to cache.  Expiry=%u\n
 Address mismatch in shared cluster data and global network config?
 Address too small!
 Affiliation Changed
-Ag*g*
 All apps excluded by auth chain!
 All pops excluded by auth chain!
 Already have a listen socket on P2P virtual port %d
@@ -2295,34 +1684,23 @@ Auth ticket failed to parse.  %s\n
 AuthStatus (%s interface):  %s  (%s)
 AuthStatus (%s):  %s  (%s)
 Authority Information Access
-Av $1
-B!rA
-B#B)B/BCBSBUB[BaBsB}B
-B+N3
-B+Uk=
 B-163
 B-233
 B-283
 B-409
 B-571
-B.z\85p
-B8Z"h
-B>J7I
 BAD ENUMERATED
 BAD INTEGER
 BAD RECURSION DEPTH\n
 BAD-TYPE
 BASIC_CONSTRAINTS
 BC (default)
-BC?>6t9^\tc:>
 BCheckInitHostedDedicatedServer
 BEGIN
 BF-CBC
 BF-CFB
 BF-ECB
 BF-OFB
-BF>^G
-BFEo
 BIGNUM
 BIO lib
 BIO routines
@@ -2331,7 +1709,6 @@ BITLIST
 BITSTR
 BITSTRING
 BITWRAP
-BK+O
 BMPSTRING
 BN lib
 BOOL
@@ -2343,19 +1720,11 @@ BRecvCryptoHandshake failed creating loopback pipe socket pair
 BSteamNetworkingIdentityToProtobufInternal failed?  %s
 BSteamNetworkingIdentityToProtobufInternal failed??  %s
 BSteamNetworkingSocketsLowLevelAddRef
-BT5f
-BT]Q@
 BUF lib
 BUG!
 BUG: Duplicate connection ID!
 BUG_network_config_mismatch
 BUG_no_ping_data
-BY_Lq)
-BZZn\rN]#8f'
-B\nYY
-B\n\fdata_centers
-B\n\fextra_fields
-B`4I
 BackUp() can only be called after a successful Next().
 Backup router %s going offline in %d seconds; seeking replacement
 Backup router: %s  Ping = %d+%d=%d (front+back=total)\n
@@ -2378,34 +1747,17 @@ Bad tag size
 Bad time value
 Basic OCSP Response
 Basis Type: %s\n
-BcT`
-Bd]U
 BeginFetchNetworkConfig
 Big Number part of OpenSSL 1.0.2s  28 May 2019
 Biometric Info
-Bnl1l
-BoX5
 Bogus cipher %d
 Bookkeeping bug!
 Bookkeeping bug: Can't remove logical socket from physical socket's table, it isn't there
 Boolean default must be true or false.
-Bs'n
-Bt-N
-Bu 5
 Buffer isn't big enough to hold padded+encrypted data and tag
 Buffer might not be big enough to hold decrypted data
 But we still have a valid cert, continuing with that one\n
-BvVlZ\
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
-B{Y.w
-C q'O
-C!OFtq74
-C%C'C3C7C9COCWCiC
-C-gr
-C5R?\t
-C6DN
-C6pH[
-C7HSY
 CA Compromise
 CA Issuers
 CA Repository
@@ -2414,7 +1766,6 @@ CA key %llu is not known
 CA key %llu is not known to us
 CA key %llu is not trusted.  %s
 CA key %llu not trusted.  
-CAAz
 CACompromise
 CAMELLIA-128-CBC
 CAMELLIA-128-CFB
@@ -2438,14 +1789,10 @@ CAST5-CBC
 CAST5-CFB
 CAST5-ECB
 CAST5-OFB
-CB4cJQlAc
-CBI]6
 CCrypto::Base64Decode: insufficient output buffer (up to n*3/4+2 bytes required)
-CD1mB"
 CERTIFICATE
 CERTIFICATE REQUEST
 CERTIFICATEPOLICIES
-CGP%AI
 CHECK failed: !coded_out.HadError(): 
 CHECK failed: !out.HadError(): 
 CHECK failed: (&from) != (this): 
@@ -2488,10 +1835,7 @@ CHECK failed: trees:
 CHECK failed: uninterpreted_options_field != NULL: 
 CHECK failed: value.size() <= kint32max: 
 CHTTPRequest to %s being destructed, but we never executed the callback or canceled it
-CKh/Q
-CL:>8
 CMAC
-CMB!
 CMS routines
 CMS_ATTRIBUTES
 CMS_Attributes_Sign
@@ -2530,7 +1874,6 @@ CMS_SharedInfo
 CMS_SignedData
 CMS_SignerIdentifier
 CMS_SignerInfo
-CMsgSteamDatagramCertificate
 CMsgSteamDatagramCertificateSigned failed protobuf parse
 CMsgSteamDatagramClientPingSampleRequest
 CMsgSteamDatagramConnectOK
@@ -2542,16 +1885,13 @@ CMsgSteamDatagramConnectionStatsRouterToClient
 CMsgSteamDatagramConnectionStatsRouterToClient from %s missing seq_num_r2c
 CMsgSteamDatagramConnectionStatsRouterToServer
 CMsgSteamDatagramConnectionStatsRouterToServer with missing / invalid envelope fields.  [ %s ]\n
-CMsgSteamDatagramDiagnostic
 CMsgSteamDatagramGameserverPingRequest
 CMsgSteamDatagramGameserverSessionEstablished
 CMsgSteamDatagramNoConnection
 CMsgSteamDatagramNoSessionRelayToClient
 CMsgSteamDatagramNoSessionRelayToPeer
 CMsgSteamDatagramP2PBadRouteRouterToClient
-CMsgSteamDatagramP2PRoutes
 CMsgSteamDatagramP2PSessionEstablished
-CMsgSteamDatagramRouterHealth
 CMsgSteamDatagramSignedRelayAuthTicket protobuf parse failed
 CMsgSteamDatagramSignedRelayAuthTicket.ticket protobuf parse failed
 CMsgSteamSockets_UDP_ChallengeReply
@@ -2560,13 +1900,9 @@ CMsgSteamSockets_UDP_ConnectOK
 CMsgSteamSockets_UDP_ConnectRequest
 CMsgSteamSockets_UDP_ConnectionClosed
 CMsgSteamSockets_UDP_NoConnection
-CMsgSteamSockets_UDP_Stats
-CMsgWebRTCRendezvous
 CONF lib
 CONF part of OpenSSL 1.0.2s  28 May 2019
 CONF_def part of OpenSSL 1.0.2s  28 May 2019
-CORD
-CPBQ
 CPPTYPE_BOOL
 CPPTYPE_DOUBLE
 CPPTYPE_ENUM
@@ -2577,7 +1913,6 @@ CPPTYPE_MESSAGE
 CPPTYPE_STRING
 CPPTYPE_UINT32
 CPPTYPE_UINT64
-CR&C
 CRL Sign
 CRL signing
 CRLDistributionPoints
@@ -2609,20 +1944,11 @@ CT Certificate SCTs
 CT Precertificate Poison
 CT Precertificate SCTs
 CT Precertificate Signer
-CType
-CUcR1
 CUtlLinkedList overflow!\n
-CVcn
-CWD>~3
-C[L6
-C\lVQ
-C\tD\vD
-C\tr9rW
 Cache-Control
 Callback doesn't fit!
 Callbacks backing up and not being checked.  Need to check them more frequently!
 Called SteamDatagramClient_SetLauncher called after library already initialized!
-Cam\v;
 Can's serialize gameserver identity '%s' for unsigned ticket.  %s\n
 Can's serialize local identity '%s' for unsigned ticket.  %s\n
 Can't 
@@ -2659,7 +1985,6 @@ Cannot request a cert; we don't know our SteamID (yet?).
 Cannot set cert.  No private key?
 Cannot talk to any relays. Check Internet connection
 Cannot use specific IP address.
-Cc:\buildslave\sdr_public_win64\build\src\vstdlib\strtools.cpp
 Cert allows POPID %s, but CA trust chain does not
 Cert allows appid %u, but CA trust chain does not
 Cert does not authorize us for App %u
@@ -2699,13 +2024,11 @@ Certificate Sign
 Certificate:\n
 Certs with no identity can only by anonymous gameservers, not %s
 Cessation Of Operation
-ChGg
 Challenge too old.
 ChallengeReply
 ChallengeRequest
 ChangeTimerQueueTimer
 Char=
-ClQ(|
 Claiming protocol V%u now, but earlier was using V%u
 ClearField
 Client message using SessionID 0x%x, without a client identity or connection ID.  We don't recognize that address+SessionID.  Why does the relay think we know the connection info?
@@ -2804,19 +2127,7 @@ CryptGenRandom
 CryptReleaseContext
 Crypto handshake missing cert or session data
 Current primary relay '%s' is no longer eligible for selection.  Deselecting\n
-Cw!K
 Cycle detected in trust chain!  (Cert for key %llu, signed by CA key %llu)
-D"bu
-D#D)D;D?DEDKDQDSDYDeDoD
-D(n%6
-D*64
-D.Hog^
-D.]ppM
-D2Lb!
-D514p
-DBDc
-DD5z
-DDli
 DEK-Info: 
 DER:
 DES-CBC
@@ -2848,9 +2159,7 @@ DIR_LOAD
 DISPLAYTEXT
 DIST_POINT
 DIST_POINT_NAME
-DIq*\tW
 DNS:%s
-DNkv
 DSA lib
 DSA part of OpenSSL 1.0.2s  28 May 2019
 DSA-Parameters
@@ -2869,7 +2178,6 @@ Data has success=false. message=%s
 Data has success=false. message=document is not an object
 DataPacket
 DataRouterToClient
-Dd g4X3
 December
 Decipher Only
 DecodePointer
@@ -2883,11 +2191,8 @@ DeleteUmsThreadContext
 Dependency unavailable
 DequeueUmsCompletionListItems
 DeregisterEventSource
-DescriptorProto
-DescriptorProtosH
 Destroy() not used properly
 DestroyPollGroup
-Dhq0\ri
 Didn't find quality metrics for old primary?
 Didn't send valid connection ID
 Diffie-Hellman based MAC
@@ -2903,39 +2208,25 @@ Discarding invalid CMsgSteamNetworkingP2PRendezvous from %s, messages has invali
 Discarding invalid CMsgSteamNetworkingP2PRendezvous from %s.  Must specify exactly one of connect_request or to_connection_id
 Discarding invalid SteamNetworkingSocketsRecvP2PRendezvous_t - invalid SteamID or ConnectionID
 Discarding oldest SDR ticket for server %s.  Expiry=%u\n
-DnRv
 Domain
 Don't have network config. Check Internet connection
 Don't know Steam universe.  Order of init bug?
 Don't know identity of gameserver; not logged on?
 Don't know our AppID.  Order of init bug?
 DowntimeWarningChanged
-Dq;n
 Dropping connect request from %s.  Existing connection on virtual port %d, now they are asking for virtual port %d!?
-DsBV
 Duplicate P2P connection %s %u!
 Duplicate child connection!  %s %u
 Duplicate relay session key!
 DuplicateHandle
-DwWzO
 DynamicProgressFeedback
-Dyp~B\n1
-E"Y6
-E)2G\
-E+E1EAEIESEUEaEwE}E
-E,v\nX
 E-mail Protection
-E0123456789ABCDEF
-E1t$
 E2EAllStats
 E2EInstantaneousStats
 E2EKeepalive
 E2ELifetimeStats
 E2ETimingOutKeepalive
 E2EUrgentPing
-E;5k
-E>nEA
-EA/c
 EC lib
 EC part of OpenSSL 1.0.2s  28 May 2019
 ECDH part of OpenSSL 1.0.2s  28 May 2019
@@ -2945,26 +2236,14 @@ ECDSA_SIG
 ECPARAMETERS
 ECPKPARAMETERS
 EC_PRIVATEKEY
-ED25519
 EDIPARTYNAME
-EG{M
-EKeyType
-ELF0
-EN2 s/
 ENCRYPTED
 ENCRYPTED PRIVATE KEY
 ENGINE lib
 ENUM
 ENUMERATED
-EQuM}
 ERROR
 ERROR: selector [%d] invalid\n
-ESteamDatagramMsgID
-ESteamNetworkingSocketsCipher
-ESteamNetworkingUDPMsgID
-ET5>
-ET`K\
-ETh7
 EVP lib
 EVP part of OpenSSL 1.0.2s  28 May 2019
 EVP_CIPHER_CTX_iv_length(ctx) <= (int)sizeof(ctx->iv)
@@ -2974,17 +2253,9 @@ EVP_DecryptUpdate failed?
 EXPLICIT
 EXTENDED_KEY_USAGE
 EXTERNAL
-E[3M
-E[\rn?gc
-E\nQc
-EcxmV4
 Ed25519 key public doesn't match private!
 EdiPartyName
 EdiPartyName:<unsupported>
-Ee{5
-EhQ,[3
-EiUL
-EjNG
 Empty POP entry '%s'
 Empty identity msg
 Encipher Only
@@ -3006,13 +2277,8 @@ EnterCriticalSection
 EnterUmsSchedulingMode
 Enterprises
 Enum type "
-EnumDescriptorProto
-EnumValueDescriptorProto
-EnumValueOptions
 EnumerateDevVars
 Enums must contain at least one value.
-EovVY
-Ep0u
 Eric Young's PKCS#1 RSA
 Error in encoding\n
 Error initializing crypto
@@ -3020,9 +2286,6 @@ Error parsing text-format
 Error setting option %d
 Error while parsing option value for "
 Error with crypto.  %s
-EtL?
-EvLa
-Ew`)9Q
 Excluded
 ExecuteUmsThread
 ExitProcess
@@ -3055,35 +2318,14 @@ Extension numbers must be positive integers.
 Extension range $0 to $1 includes field "$2" ($3).
 Extension range $0 to $1 overlaps with already-defined range $2 to $3.
 Extension range end number must be greater than start number.
-ExtensionRange
 Extensions of MessageSets must be optional messages.
 Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.
-F#bgn?MwN|%
-F'pY
-F+Zb
-F,mZq
-F/o4
-F2M+
-F7!z
-F9q'
-F<mb
-F>qUxv
 FALSE
 FATAL
-FCtD}
-FDA~i
-FEMh\f
-FF!w
 FILE pointer
 FIPS routines
-FN|p
-FOC+
 FORM
 FORMAT
-FU\n-XP
-FV|FgUV
-F\n\foptimize_for
-F\rH'4
 Failed
 Failed crypto init in ConnectOK packet.  %s
 Failed crypto init.  %s
@@ -3155,10 +2397,6 @@ Fatal Assertion Failed: pPrivateKey->SetRawDataAndWipeInput( rgubSecretData, 32 
 Fatal Assertion Failed: s_pfnRtlGenRandom && s_pfnRtlGenRandom( buf, num )
 Fatal Assertion Failed: x.GetRawData( tmp ) == cbData
 February
-Ff,n
-FfW?
-Fgi?)
-Fi:je
 Field "
 Field Type: %s\n
 Field does not match message type.
@@ -3171,7 +2409,6 @@ Field numbers must be positive integers.
 Field with message or enum type missing type_name.
 Field with primitive type has type_name.
 Field=
-FieldDescriptorProto
 FieldDescriptorProto.extendee not set for extension field.
 FieldDescriptorProto.extendee set for non-extension field.
 FieldDescriptorProto.oneof_index $0 is out of range for type "$1".
@@ -3182,8 +2419,6 @@ File already exists in database:
 File appears to be in generated pool but wasn't registered: 
 File is already registered: 
 File recursively imports itself: 
-FileDescriptorProto
-FileDescriptorSet
 Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports "
 Files with optimize_for = LITE_RUNTIME cannot define services unless you set both options cc_generic_services and java_generic_sevices to false.
 FindClose
@@ -3191,7 +2426,6 @@ FindFirstFileExA
 FindNextFileA
 First argument to Swap() (of type "
 First argument to SwapFields() (of type "
-Flags
 FlsAlloc
 FlsFree
 FlsGetValue
@@ -3200,23 +2434,12 @@ FlushConsoleInputBuffer
 FlushFileBuffers
 FlushMessagesOnConnection
 FlushProcessWriteBuffers
-Fm{#t
-Fop]
 For best results, you can download the nework config ahead of time and set SDR_NETWORK_CONFIG to the full path to that file.
 FreeEnvironmentStringsW
 FreeLibrary
 FreeLibraryAndExitThread
 FreeLibraryWhenCallbackReturns
 Friday
-F{e6
-F|w)a]c
-G0Tv~:
-G1b1
-G2bQ
-G2xVo\?
-G3oML
-G>US
-GBd<}v
 GENERALIZEDTIME
 GENERALSTRING
 GENERAL_NAME
@@ -3224,8 +2447,6 @@ GENERAL_NAMES
 GENERAL_SUBTREE
 GENSTR
 GENTIME
-GL.n
-GNNw
 GOST 28147-89
 GOST 28147-89 Cryptocom ParamSet
 GOST 28147-89 MAC
@@ -3243,9 +2464,6 @@ GOST R 34.11-94 with GOST R 34.10-94
 GOST R 34.11-94 with GOST R 34.10-94 Cryptocom
 GOST R 3410-2001 Parameter Set Cryptocom
 GRAPHICSTRING
-GTsW
-GXqN
-GXy{
 Gameserver logged on to Steam, assigned identity %s\n
 GameserverSessionEstablished
 GeneralNames
@@ -3342,45 +2560,22 @@ GetUInt64
 GetUmsCompletionListEvent
 GetUserObjectInformationW
 GetVersionExW
-Gew}
 GlobalMemoryStatus
-GoJJw
-GoXis
-Go^ldg
 Got CMsgSteamDatagramGameserverPingRequest from %s with your_public_ip=%s.  But we put %s in our routing blob!
 Got SDR network config.  %s
 Got callback for wrong request?
 Got cert for %s from Steam\n
 Got incoming Messages session connection request when we already had a connection.  This could happen legit, but we aren't handling it right now.
-Gz,J
-GzV%E$;
-G{Ol
-H.aR
-H0+G+R
-H3wQ
-H5gRR-
-H7_Ya
-H8,2
-H=`HY
-HH&a
 HH:mm:ss
 HMAC
 HMAC GOST 34.11-94
 HMAC routines
 HMAC-MD5
 HMAC-SHA1
-HO8?
 HTTP %d.  %s
 HTTPRequestCompleted_t
-HU>mA$_E*
-H\n\fdata_centers
-H\n\tCandidate
 HasField
 Hash Algorithm: 
-HbAta
-Hc S
-Hc8a"
-HdEu
 Heap32First
 Heap32ListFirst
 Heap32ListNext
@@ -3390,10 +2585,6 @@ HeapFree
 HeapReAlloc
 HeapSize
 Hex and octal numbers must be integers.
-Hf-2
-Hg>?S
-Hhr+g
-Hofw
 Hold Instruction Call Issuer
 Hold Instruction Code
 Hold Instruction None
@@ -3402,29 +2593,14 @@ Host is configured with multiple public IPs.  Using %s; ignoring %s\n
 How did we already get connected?  We should be finding route?
 How do we have an active SDR client connection with no sessions?
 How do we not have a parent listen socket?
-Hp)X?
-Hq,r/f
-Ht4qw
-Hw~J
-I"9|OxTex
-I+8G
-I/t1
-I2nC
-I5=T
-I;b_b
 IA5STRING
 IANA
-IC'W
 ICC or token signature
-IC\n4]
-IChq
 ID%llu
 IDEA-CBC
 IDEA-CFB
 IDEA-ECB
 IDEA-OFB
-IEN$
-IEw!
 IMPLICIT
 IND)ind)
 IND)ind)INF
@@ -3433,7 +2609,6 @@ INITY
 INTEGER
 INVALID
 INVALID_CPPTYPE
-INdK
 IP Address
 IP Address:%d.%d.%d.%d
 IP Address:<invalid>
@@ -3451,7 +2626,6 @@ ISteamHTTP::SendHTTPRequest failed
 ISteamHTTP::SetHTTPRequestHeaderValue failed
 ISteamNetworkingSocketsSerialized::GetCertAsync failed
 ITU-T
-ITc[
 Identity %s isn't valid for Messages sessions.  (Only SteamIDs currently supported).
 Identity is blank
 Ignored bad %s from %s.  %s\n
@@ -3475,9 +2649,6 @@ Ignoring stray packet from %s received on port %d.  Should only be talking to %s
 Ignoring unsolicited/spoofed/late packet from %s.
 Ignoring weird timestamp %llu in ChallengeReply, current time is %llu.\n
 Ignoring weird timestamp %llu in ConnectOK, current time is %llu, remote delay was %lld.\n
-Ij)s
-Ik\f`dub`D
-Il?333333c?
 Import "
 Incorrect challenge.  Could be spoofed.
 Incorrect client challenge / connection ID %x in RouterPingReply from %s.  Reply could be spoofed, ignoring.
@@ -3562,57 +2733,18 @@ IquO
 IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidCodePage
-Iw,e=2-b[
-IytF
-I{i3|G
-J#}QU^u
-J0X|
-J5W\ne
-J>D2\r
-JAohR
-JD<t
-JM0L
 JOINT-ISO-ITU-T
-JPQv
 JSON file is empty
-JS_!0
-JZIX
-J\rS%H
-J`KL
 January
-JpL9=
-Jq;v
-Jq?a
-Jr\tA
 July
 June
-Jvp)
-Jy).A
-Jy;B`]A
-K(\f]C15
 K-163
 K-233
 K-283
 K-409
 K-571
-K/VTR
-K1m;
-K4K 
-K5!n^n
-K8uH
-KCsJ
 KERNEL32.dll
-KFz"
 KISA
-KMBo8[
-KNx[
-KQSlB
-KRB8+
-KSV<
-KV;-W
-KWjI
-K[C7W+
-Kbf}
 Key %llu not trusted: %s
 Key Agreement
 Key Compromise
@@ -3622,39 +2754,13 @@ Key exchange failed
 Key not initialized, cannot generate signature
 Key not initialized, cannot verify signature
 Key type %d doesn't know how to load from buffer
-KhSK
-KlD#
-KsF8
-Ksg4X
-KuBEN
-K{"Kb,p
-K|oT
-L+5d
-L0fO*'
-L4Eud
-L4uGv~;6
-L5^x|S
-L>ev
-L?UUUUUUU?
-L@4T
-LABEL_OPTIONAL
-LABEL_REPEATED
-LABEL_REQUIRED
 LCMapStringEx
 LCMapStringW
-LG.HK
 LIST_ADD
 LOAD
 LONG
-LT[N
-LWG>
-LWW>
-LXKQ
-LY\r5
-Label
 LagPacket
 Lagged packet remains in queue after socket destroyed or queued for destruction!
-LbWf
 Lead byte %d invalid for ticket blob
 Lead byte 0x%02x not a known message ID
 LeaveCriticalSection
@@ -3674,7 +2780,6 @@ Local identity established from certificate.  We are '%s'\n
 LocalContextCacheSize
 LocalKeySet
 LocaleNameToLCID
-Location
 Lock already taken
 Lock not held.  %s
 LogLevel_AckRTT
@@ -3687,31 +2792,19 @@ Lost
 Lost connection to all relays. Check Internet connection
 Lost connection to steam
 Lost connectivity to ALL %d Steam Datagram routing clusters.  Possible problem with local internet connection?
-LqH!)8
-LsiX
-Ltc$
-M%J3\nUc7
-M'Ezb
-M*jg7
-M0 E
 MASK:
-MBb!\v
 MD5 part of OpenSSL 1.0.2s  28 May 2019
 MD5-SHA1
 MDC2
 MGF1
-MGrB
 MIC-CLEAR
 MIC-ONLY
 MIME MHS
 MIME-Version: 1.0%s
 MM/dd/yy
-MS[;6
 MTU / header size problem!
 MTU_DataSize is readonly
 MTU_PacketSize
-MZL}
-M\vOj
 Mail
 Malformed CMsgSteamDatagramConnectRequest.  Missing / invalid envelope fields.  [ %s ]
 Malformed CMsgSteamDatagramConnectionClosed.  Bad identity.  %s
@@ -3734,15 +2827,12 @@ Mask Algorithm:
 MaxConcurrency
 MaxPolicyElementKey
 MbP? 
-Mbp?333333
-Mc]T=
 Message class "
 Message extensions cannot have required fields.
 Message missing required fields: 
 Message size %d is too big.  Max is %d
 Message type "
 MessageBoxW
-MessageOptions
 MessageSets cannot have fields, only extensions.
 Messages can't have default values!
 Messages can't have default values.
@@ -3757,7 +2847,6 @@ Messages session %s: connection [%s] is idle timing out.  But we still have unac
 Messages session %s: created\n
 Messages session %s: idle timed out.  Destroying\n
 Messages session %s: idle timing out.  Closing connection [%s] and destroying session\n
-MethodDescriptorProto
 Microsoft CSP Name
 Microsoft Commercial Code Signing
 Microsoft Encrypted File System
@@ -3769,10 +2858,6 @@ Microsoft Smartcardlogin
 Microsoft Trust List Signing
 Microsoft Universal Principal Name
 MinConcurrency
-MinghuaQu
-MinghuaQu)
-MinghuaQuS
-MinghuaQuw
 Missing / incorrect routing secret
 Missing CA Key ID
 Missing Steam interfaces, cannot tell what universe we're running in
@@ -3781,16 +2866,11 @@ Missing connection_id.
 Missing field: FileDescriptorProto.name.
 Missing name.
 Missing required 'pops' list.
-MlT8
-Mlt(J
 Module32First
 Module32Next
 Modulus:
 Monday
-Mq~h
-MrFW
 Msg type %d is %d bytes, larger than MTU of %d bytes
-Mtb\t4
 MultiByteToWideChar
 Multiple sessions on %s with the same connection ID %u?
 Must be called through a gameserver ISteamSocketNetworking
@@ -3798,18 +2878,6 @@ Must init either user or gameserver interface before accessing SDR network.
 Must specify local port.
 MutableRawRepeatedField
 MutableRepeatedMessage
-M}8vhJ
-N!vh
-N#ih
-N'L&R/l
-N.8U}
-N1e\n*
-N3`d?
-N5dIn9
-N7CJ'
-N=Knn
-N>O=I9
-N>VF
 NACK
 NAME_CONSTRAINTS
 NAN(IND)
@@ -3817,6 +2885,7 @@ NAN(SNAN)
 NETSCAPE_SPKAC
 NETSCAPE_SPKI
 NEW CERTIFICATE REQUEST
+NEW: %s\n
 NIST CURVE: %s\n
 NIST/SECG curve over a 163 bit binary field
 NIST/SECG curve over a 224 bit prime field
@@ -3830,24 +2899,15 @@ NIST/SECG/WTLS curve over a 233 bit binary field
 NIST/X9.62/SECG curve over a 192 bit prime field
 NO X509_NAME
 NOTICEREF
-NOT_PRIMARY_SESSION
-NQ?s
 NULL
 NULL shared library method
 NULL\n
 NUMERIC
 NUMERICSTRING
-NWzl\n\
-NXfT>o
-N[Ox
-N[iY 
-N\v7e_
-N`UaK
 Nack count of %llu<<3 is crazy
 Nack range underflow, end=%lld, num=%lld
 NagleTime
 Name
-NamePart
 Need space between identifier and decimal point.
 Need space between number and identifier.
 NetApiBufferFree
@@ -3872,7 +2932,6 @@ Network config router list/map mismatch!
 Network configuration: %s\n
 NetworkRevisionChanged
 NewRelaySession
-Ni.f
 No ClientNetworkingUtils, cannot init SDR support
 No ISteamHTTP.
 No ISteamNetworkingSocketsSerialized
@@ -3904,7 +2963,6 @@ Non Repudiation
 Non-primitive types can't be packed.
 Non-repeated field "
 Nonce
-None
 None of %d certs trusted.  (E.g.: 
 Not After: 
 Not Attempted
@@ -3916,20 +2974,7 @@ Not initialized
 Not initialized!
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
 November
-NrPn
-Nu6Q
 Numbers starting with leading zero must be in octal.
-Nw!qB
-NwJ\rH
-Nz3I#B
-N|rO
-O!YNO
-O#wjk
-O05"
-O1NzNfj'fGv
-O7v%
-O?#7n
-O@RJ
 OBJ lib
 OBJECT
 OBJECT DESCRIPTOR
@@ -3964,7 +3009,7 @@ OCSP_SINGLERESP
 OCTET STRING
 OCTETSTRING
 OCTWRAP
-OHVO
+OLD: %s\n
 OPENSSH PRIVATE KEY
 OPENSSL_ALLOW_PROXY_CERTS
 OPENSSL_CONF
@@ -3973,22 +3018,15 @@ OPENSSL_finish
 OPENSSL_ia32cap
 OPENSSL_init
 OTHERNAME
-OZQ%
-O\n\nDataCenter
-O\r5x
-O_yG|
 Oakley-EC2N-3
 Oakley-EC2N-4
 Object Signer
 Object Signing
 Object Signing CA
 October
-Oh%u'
-Oh7{j
 Old/incorrect connection ID.  Message is for a stale connection, or is spoofed.  Ignoring.
 OnNetworkConfigFetchCompleted
 Oneof must have at least one field.
-OneofDescriptorProto
 Only ED25519 public key supported
 Only Some Reasons
 OpenRawUDPSocketInternal
@@ -4011,12 +3049,8 @@ Option must have a name.
 Option must not use reserved name "uninterpreted_option".
 Options list is NULL, but nOptions != 0?
 Order: 
-OrqK
 Overflow serializing packet ack varint count
 Overflow serializing packet nack varint count
-Ow!y
-P!bxo
-P(UH 
 P-192
 P-224
 P-256
@@ -4029,8 +3063,6 @@ P2PBadRoute
 P2PFailure via Steam from %s, connection %u.  Reason: %d %d %s\n
 P2PSession destroyed
 P2PSessionEstablished
-P5[1
-PAGN_4
 PARAMETERS
 PBE-MD2-DES
 PBE-MD2-RC2-64
@@ -4050,13 +3082,9 @@ PBES2
 PBKDF2
 PBKDF2PARAM
 PBMAC1
-PEIF
 PEM lib
 PEM part of OpenSSL 1.0.2s  28 May 2019
 PEM routines
-PGr]
-PHAG2
-PHhn}Y
 PKCS #7 SIGNED DATA
 PKCS12
 PKCS12 lib
@@ -4085,7 +3113,6 @@ PKCS8_PRIV_KEY_INFO
 PKEY_USAGE_PERIOD
 PKIX
 PLACEHOLDER_VALUE
-PL^m
 POLICYINFO
 POLICYQUALINFO
 POLICY_CONSTRAINTS
@@ -4096,7 +3123,6 @@ POP %s has invalid relay ipv4 address '%s'
 POP %s router %s has missing/invalid port range
 POP '%s' lists invalid alias '%s'
 POST
-PPz\v=
 PRINTABLE
 PRINTABLESTRING
 PRIVATE KEY
@@ -4109,7 +3135,6 @@ Packet of size %d is too small.
 Parameters
 Parse failure.  Length=%d, data begins %s
 Payload exceeded max size of %d\n
-Pb1m
 Peer is running old software and needs to be udpated
 Peer is running old software and needs to be updated.  (V%u, >=V%u is required)
 Peer isn't logged in
@@ -4124,7 +3149,6 @@ Pending ping measurement until network config is obtained.
 Performing ping measurement
 Permanent Identifier
 Permitted
-PiI\r
 Ping = %d+%d=%d (front+back=total).
 Ping data good enough to make routing decisions.  First ping received %.1fs ago, great=%d, good+=%d, ok+=%d, valid=%d\n
 Ping failure to cluster %s was %.1fs ago.  Discarding record of failure, might try again.
@@ -4136,15 +3160,12 @@ PingDataGoodEnoughForRouting
 PingMeasurementCompleted
 Pinging %s (%s).
 Pkt number lurch by %lld; %04x->%04x
-Pm8A?
-PmR"H?
 Policy Qualifier CPS
 Policy Qualifier User Notice
 Poll group handle bookkeeping bug!
 Polynomial:
 Pop ID '%s' appears more than once in the config.  (Possibly as an alias.)
 Port failure on %s was %.1fs ago.  Discarding record of failure on that port, might try again.
-Pr"V
 PrepareSessionRequest
 PrepareSessionRequest_ConfirmOK
 PrepareSessionRequest_ConfirmRecent
@@ -4175,34 +3196,11 @@ Proxy Certificate Information
 Public Key
 Public-Key
 Public-Key: (%d bit)\n
-P|iC\r
 Q$By5
-Q*hd
-Q/xtJ2
-Q4EX
-Q5rHg,>
-Q6p]
-Q9gZ
-QAf?
-QTk$
-QXzc
-Q`uV
-Qdsma
-Qg$ZO4Z
-Qj{Jd
-Qm_:R
-QoOG
-Qpr2
-Qs(8%
-QtJ\f?
 QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
-Q{qk
-R/Qs
-R5=D
-R=1C&b
 RAND lib
 RAND part of OpenSSL 1.0.2s  28 May 2019
 RC2-40-CBC
@@ -4217,10 +3215,7 @@ RC5-CBC
 RC5-CFB
 RC5-ECB
 RC5-OFB
-RD6O
 RDNS
-RE!r
-RE4\t
 REAL
 RELIABLE
 RFC 5639 curve over a 160 bit prime field
@@ -4230,12 +3225,7 @@ RFC 5639 curve over a 256 bit prime field
 RFC 5639 curve over a 320 bit prime field
 RFC 5639 curve over a 384 bit prime field
 RFC 5639 curve over a 512 bit prime field
-RFCY
-RH/Y
 RIPEMD160
-RM~]qY
-RO%s.
-RP;e!
 RSA Data Security, Inc.
 RSA Data Security, Inc. PKCS
 RSA lib
@@ -4257,13 +3247,8 @@ RSASSA-PSS
 RSA_OAEP_PARAMS
 RSA_PSS_PARAMS
 RSA_blinding
-RSDS
-RX\r
-R\r1>Vp
-R]Di
 RaiseException
 Ranges should not overlap in this map!
-Rbg.E
 Reached an unintended state: CPPTYPE_MESSAGE
 ReadConsoleInputA
 ReadConsoleW
@@ -4348,49 +3333,26 @@ Retrying
 Retrying cert request
 Retrying ping measurements
 Revoked
-Rg4I
-RgD/X
 RoInitialize
 RoUninitialize
-RoVZcz
-Route
 RouteCheck
-RouteException
 Router network: %s\n
 RouterPingReply
 RouterPingReply from %s latency lists not the same length.  %d vs %d.  Ignoring message
 RouterPingReply from %s, %dms
 RouterPingReply from %s; dropping due to override
-RoutingCluster
-Rq[R
-RrBoN
-Rs$c~B
-RtIF
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
 Running in anonymous mode, can't get cert from Steam.
-RxT\f0<1
-Rxy3
-RzQU
-S#FI
-S&x0
-S+Re
 S/MIME
 S/MIME CA
 S/MIME Capabilities
 S/MIME email
 S/MIME encryption
 S/MIME signing
-S0F_
-S8#w
-S9>H
-S<Fb
-S<hN-AO
-S>$hkDh$h>[2
-SDQn]
 SDR client %s
 SDR network config fetch attempt #%d failed.  %s.  But we do have a valid config, so SDR functionality is available.
 SDR network config fetch attempt #%d failed.  %s.  Giving up.  SDR functionality will not be available!
@@ -4444,9 +3406,7 @@ SEED-ECB
 SEED-OFB
 SEQUENCE
 SEQWRAP
-SER<
 SETWRAP
-SEqS
 SHA-256 part of OpenSSL 1.0.2s  28 May 2019
 SHA-512 part of OpenSSL 1.0.2s  28 May 2019
 SHA1
@@ -4470,10 +3430,6 @@ SNP expiring unreliable segments for msg %lld, while receiving unreliable segmen
 SNP next think time must be in in the future.  It's %lldusec in the past
 SNP stop waiting reduced %lld (pkt %lld) -> %lld (pkt %lld)
 SNPFlushAcks
-SNtu
-SO~c
-SPEED
-SQ8_d`\
 SSL CA
 SSL Client
 SSL Server
@@ -4485,20 +3441,14 @@ SSL_CERT_DIR
 SSL_CERT_FILE
 STEAMDATAGRAM CERT
 STEAMHTTP_INTERFACE_VERSION003
-STRING
-SUWs
 SXNET
 SXNETID
 SXNetID
-S[TR
-S\vQN
-S_gO
 Salt Length: 0x
 Saturday
 Scheduled next think time must be in in the future.  It's %lldusec in the past
 SchedulerKind
 SchedulingProtocol
-Sd:z
 Second argument to Swap() (of type "
 Second argument to SwapFields() (of type "
 Secure Electronic Transactions
@@ -4521,14 +3471,11 @@ Sending ping probe to %s in %s\n
 September
 Serialized inline stats message (%s) is %d bytes, still won't fit, ever after clearing connection quality stats?  %s
 Serialized stats message still won't fit, ever after clearing everything?
-Server
 Server must select exactly only one cipher!
 Service thread exiting.\n
 Service thread is not running, and manual poll mode was turned off, starting service thread.\n
 Service thread is running, and manual poll mode actiavted.  Stopping service thread.\n
 Service thread running.\n
-ServiceDescriptorProto
-ServiceOptions
 ServiceThread
 Session Idle Timeout
 SessionDestroyed
@@ -4586,12 +3533,9 @@ Size mismatch after serializing inline stats blob
 Sleep
 SleepConditionVariableCS
 SleepConditionVariableSRW
-Sn^G
 Socket was left open!
 Something wrong with m_nTotalPorts!
-SourceCodeInfo
 Specified only one of SDR_PRIVATE_KEY and SDR_CERT
-Sr89[
 Stack part of OpenSSL 1.0.2s  28 May 2019
 Stats
 StatsP2PRouterToClient
@@ -4754,24 +3698,15 @@ SwitchConfirm
 SwitchToThread
 Symbol name "
 SystemFunction036
-T*8U
-T5w?30d
 T61STRING
-T72[t
-TB)I
-TC\tf\
 TELETEXSTRING
 TLS Web Client Authentication
 TLS Web Server Authentication
-TM=U*
-TPS'
-TPk+L
 TRUE
 TRUSTED CERTIFICATE
 TS lib
 TSA server
 TUUUU
-TXJw^{
 TYPE=
 TargetOversubscriptionFactor
 TerminateProcess
@@ -4790,7 +3725,6 @@ Ticket has %d extra fields.  Only retaining the first %d
 Ticket has no routing information
 Ticket is missing AppID
 Ticket we're about to send to request session fails to parse back.  %s
-Tiid
 Time Stamp signing
 Time Stamping
 TimeWhenFlushAcks - we're shut down!
@@ -4834,28 +3768,13 @@ Trying to accept when we already have transport?
 Trying to close low level socket support, but we still have sockets open!
 Trying to connect when we already have a socket?
 Trying to send a very large (%d bytes) unreliable message.  Sending as reliable instead.\n
-Tu\t(OR
 Tuesday
-Type
 Type appears to be in generated pool but wasn't 
 Type is already registered: 
 Type=
-Tz$o
-T~a@E
-U RDn
-U).ovc
-U)l:T^8rv\n
-U0Es
-U13\v9}
-U79Pc
-U7{8+S
 U:\p4clients\thirdpartycode\nonredist\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h
-U?Y5qX}\tf
-UA>N0Wl
 UDP %s
 UDP %s@%s
-UEax
-UFJ\ns
 UNDEF
 UNIV
 UNIVERSALSTRING
@@ -4870,12 +3789,6 @@ UTF8
 UTF8STRING
 UTF8String
 UUUUUU
-UUUUUUUUUUUUUU<o(
-UUUUUUUUUUUa\f\v
-U^Pg
-U`2d
-Ugi<
-UiCL
 UmsThreadYield
 Unable to accept connection from %s.  %s
 Unable to communicate with ANY of %d Steam Datagram routing cluster.  Possible problem with local internet connection?
@@ -4896,7 +3809,6 @@ Unexpected valid ping count %d
 Unexpected value for 'Unencrypted' config value
 UnhandledExceptionFilter
 Unimplemented type: 
-UninterpretedOption
 Universe changing %d -> %d?
 Unknown callback type %d!
 Unknown control message
@@ -4918,26 +3830,9 @@ Unsupported key type %d
 Unused
 UpdateProcThreadAttribute
 Using cert from SDR_PRIVATE_KEY and SDR_CERT environment vars\n
-Ut]<E
-Uv1t
-Uz_G3=
-U|Ei
-V07;m
-V3 s
-V5u f
-V8zc5\e
-VDPr
-VF+c
-VGG@
 VIDEOTEXSTRING
 VISIBLE
 VISIBLESTRING
-VIgq qC:
-VM%G]f
-VRa\r
-VY5[;o
-V\rKk
-V_a|I
 Value 
 Value must be "true" or "false" for boolean option "
 Value must be identifier for boolean option "
@@ -4952,41 +3847,18 @@ Value must be quoted string for string option "
 Value out of range for int32 option "
 Value out of range for int64 option "
 Value out of range for uint32 option "
-VbfOc,p
-Vcsc 
-Vemn\t
 Verify failure\n
 Verifying - %s
-Vg3LE
-VggjeK uO5n
 Virtual port number must be a small, positive number
 Virtual port number should be a small, non-negative number\n
 Virtual port number should be a small, positive number
 VirtualAlloc
 VirtualFree
 VirtualProtect
-Vp>u
-Vql4
-Vt_9
-V~~Vq
-W!Uf
-W"Fe~
-W%0Qv4AV
-W'6S`
-W2Q=
-W3fp
-W3i+,
-W>peSp>9
 WARNING
 WARNING: Hardcoded trust key is in revocation list.  We won't be able to trust anything, ever!
 WARNING: Relay at %s is only trusted because of whitelist from network config!  Msg 0x%02x.  If this was a newly deployed relay, we would have dropped this!
-WD%g"0Q-)
 WIN32
-WL6e}:
-WLs6
-WOCR
-WP4$!
-WRw[
 WS2_32.dll
 WSACloseEvent
 WSACreateEvent
@@ -5001,9 +3873,6 @@ WTLS curve over a 112 bit prime field
 WTLS curve over a 113 bit binary field
 WTLS curve over a 160 bit prime field
 WTLS curvs over a 224 bit prime field
-WZTR
-W\noB
-WaNd?
 WaitForMultipleObjects
 WaitForSingleObjectEx
 WaitForThreadpoolTimerCallbacks
@@ -5035,20 +3904,14 @@ We shouldn't be asking about sending packets when not fully connected
 We shouldn't be trying to think SNP when not fully connected
 We shouldn't get this callback after being canceled!
 We're not logged into Steam
-We_A0
 Wednesday
 Weird RouterPingReply timestamps from %s.  Reply contained %u, current is %u (elapsed %d)
-WfMD{
 Why are making API calls on this connection?
 WideCharToMultiByte
 WinRTInitialization
-Wmn|CH
-Wn4'
-WrgoI
 WriteConsoleW
 WriteFile
 X.509 part of OpenSSL 1.0.2s  28 May 2019
-X/4B
 X400Name
 X400Name:<unsupported>
 X500
@@ -5126,78 +3989,11 @@ X9_62_CURVE
 X9_62_FIELDID
 X9_62_PENTANOMIAL
 X9cm
-X:vS
-XBB0a
-XB`i|
-XD{p7
-XFle
-XG[r
-XH1l
-XLuC'4
-XMM{*
-XMd~w
-XNU`{3
-XWY]
-XYD%
-X\tQo
-Xd3h
-Xe7H&e
-XfJ7
-XjfR
-XqgA+
-Xuub
-Xw:vP
-XwA0
-Xz"7
-Y-Ny
-Y1qh
-Y4i%
-Y8a:
-Y93a=7c@
-Y;C;8V
-Y>kX>M
-YGi\n
-YH%c
-YMI( 
-YS1n
-YU=E
-YWQa:B
-Y\f\vtw
-Y\vQlJ
-Y`\fpV
-Yb6N4
-YbKh
-Ydh-
-Ye80D=
-YeKlt
-Ye\B
-YedcCH}
-Ykg"
 You must type in 
 You need to read the OpenSSL FAQ, http://www.openssl.org/support/faq.html
 Your ping location string buffer is too small, truncation is possible
-Ys/MA
-YsRX
-Z"T-47\f8
-Z#Pe
-Z+5AS
-Z0zd
-Z7"c
-Z72\v
-Z:hluv
-ZF]:Ba?
-ZH^r
-ZL9L
 ZLIB
 ZLONG
-ZSz@
-ZXF,`i
-Z\>z8
-Zd[w
-ZjLS
-Zod6
-Zpwz
-Z~wl
 [%02d:%02d:%02d] 
 [%s]   decode pkt %lld ack last block ack begin %lld\n
 [%s]   decode pkt %lld latest recv %lld\n
@@ -5216,6 +4012,7 @@ Z~wl
 [%s]   encode pkt %lld unreliable msg %lld offset %d+%d=%d\n
 [%s]   updating min_waiting_on_ack %lld -> %lld\n
 [%s] %d reply timeouts, last recv %.1fms ago.  Sending keepalive.\n
+[%s] %s
 [%s] %s (%s) appears preferable to current primary %s (%s), but we aren't sure.  Pinging current primary.
 [%s] %s (%s) appears preferable to current primary %s (%s), but we aren't sure.  Pinging new proposed primary.
 [%s] %s=%s\n
@@ -5331,54 +4128,32 @@ Z~wl
 [%s] received data packet from relay %s while in the 'FindingRoute' state.  Marking connection as connected\n
 [%s] received e2e stats while in Connecting state.  Resending ConnectRequest.\n
 [%s] stats passive, but in state %d?
-[*ncd>0
+[%s]:%u
 [A:%u:%u:%u]
-[D55
+[C:%u:%u]
+[G:%u:%u]
 [HEX DUMP]:
-[HTiW
+[I:%u:%u]
+[L:%u:%u]
 [M:%u:%u:%u]
-[OdP
-[S2k
+[P:%u:%u]
+[T:%u:%u]
 [TRACE %s] Recv %s (0x%02x):\n%s\n
 [TRACE %s] Send %s (0x%02x):\n%s\n
 [U:%u:%u:%u]
-[\nr5Z
-[aOni*{
-[f7@7F
-[fo@e
+[U:%u:%u]
+[a:%u:%u]
+[c:%u:%u]
+[g:%u:%u]
+[i:%u:%u]
 [lazy = true] can only be specified for submessage fields.
 [libprotobuf %s %s:%d] %s\n
 [packed = true] can only be specified for repeated primitive fields.
-[ucS
-[ve,P
-[y_GE
 \%02X
 \%03o
-\1kYL\r
-\43n7
-\5Ok\n
-\6Sp
-\Nbl
 \U%04lX
 \U%08x
 \W%08lX
-\Y|W2
-\\MVT
-\\n\nExtraField
-\f"ICEqn.s
-\f%\f/\f1\fA\f[\f_\fa\fm\fs\fw\f
-\f1 VC
-\f7ig
-\fGB z
-\fKS1
-\fW9c
-\fXu"L
-\f]ne3
-\fdhWTh
-\fiaR
-\ful2
-\fy&3Gl
-\l:ArR
 \n            Not After : 
 \n        Public key OCSP hash: 
 \n    Actual    : 
@@ -5388,22 +4163,7 @@ Z~wl
 \n  Problem     : 
 \n  Problem     : Enum value did not match field type:\n    Expected  : 
 \n  Problem     : Field is not the right type for this message:\n    Expected  : 
-\n CMsgSteamDatagramDataCenterState
-\n CMsgSteamDatagramRelayAuthTicket
-\n CMsgSteamDatagramRouterPingReply
-\n CMsgSteamNetworkingP2PRendezvous
-\n google/protobuf/descriptor.proto
-\n steamdatagram_messages_sdr.proto
-\n!CMsgSteamDatagramConnectionClosed
-\n!CMsgSteamDatagramRelayToRelayPing
-\n!CMsgSteamDatagramSessionCryptInfo
-\n!\n1\n9\n=\nI\nW\na\nc\ng\no\nu\n{\n
-\n!steamdatagram_messages_auth.proto
-\n"CMsgSteamDatagramConnectionQuality
-\n"CMsgSteamDatagramLinkLifetimeStats
-\n#CMsgSteamSockets_UDP_ChallengeReply
-\n#CMsgSteamSockets_UDP_ConnectRequest
-\n$CMsgSteamDatagramGameserverPingReply
+\n%*s
 \n%*s            
 \n%*sExtensions: 
 \n%*sLog ID    : 
@@ -5412,194 +4172,12 @@ Z~wl
 \n%*sVersion   : 
 \n%*sZone: %s, User: 
 \n%12s%s
-\n%CMsgSteamDatagramNoSessionRelayToPeer
-\n%CMsgSteamSockets_UDP_ConnectionClosed
-\n%steamnetworkingsockets_messages.proto
-\n&CMsgSteamDatagramClientPingSampleReply
-\n&CMsgSteamDatagramClientSwitchedPrimary
-\n&CMsgSteamDatagramGameserverPingRequest
-\n&CMsgSteamDatagramP2PSessionEstablished
-\n&CMsgSteamDatagramP2PSessionRequestBody
-\n'CMsgSteamDatagramLinkInstantaneousStats
-\n'CMsgSteamDatagramNoSessionRelayToClient
-\n'CMsgSteamNetworkingIdentityLegacyBinary
-\n)CMsgSteamDatagramGameserverSessionRequest
-\n)steamnetworkingsockets_messages_udp.proto
-\n*CMsgSteamDatagramP2PBadRouteRouterToClient
-\n+CMsgSteamDatagramGameCoordinatorServerLogin
-\n+steamnetworkingsockets_messages_certs.proto"
-\n-CMsgSteamDatagramGameserverSessionEstablished
-\n.CMsgSteamDatagramConnectionStatsClientToRouter
-\n.CMsgSteamDatagramConnectionStatsRouterToClient
-\n.CMsgSteamDatagramConnectionStatsRouterToServer
-\n.CMsgSteamDatagramConnectionStatsServerToRouter
-\n1CMsgSteamDatagramConnectionStatsP2PClientToRouter
-\n1CMsgSteamDatagramConnectionStatsP2PRouterToClient
-\n1CMsgSteamDatagramConnectionStatsP2PRouterToRouter
-\n1CMsgSteamDatagramSignedGameCoordinatorServerLogin
-\n5a=Z
-\nO1Ie
-\n\fClosedByPeer
-\n\fFieldOptions
-\n\fLITE_RUNTIME
-\n\fSTRING_PIECE
-\n\fTYPE_FIXED32
-\n\fTYPE_FIXED64
-\n\fTYPE_MESSAGE
-\n\fca_signature
-\n\fcpu_load_raw
-\n\fdouble_value
-\n\fis_extension
-\n\fjava_package
-\n\fmy_timestamp
-\n\fpackets_recv
-\n\fpackets_sent
-\n\frequest_date
-\n\fstring_value
-\n\ftime_created
-\n\fvia_relay_id
-\n\fvirtual_port
-\n\nCURVE25519
-\n\nDataCenter
-\n\nTYPE_BYTES
-\n\nTYPE_FLOAT
-\n\nTYPE_GROUP
-\n\nTYPE_INT32
-\n\nTYPE_INT64
-\n\ndependency
-\n\ndeprecated
-\n\nend_to_end
-\n\nfront_ping
-\n\ngo_package
-\n\ninput_type
-\n\nkludge_pad
-\n\nsdr_routes
-\n\rTYPE_SFIXED32
-\n\rTYPE_SFIXED64
-\n\rclient_cookie
-\n\rconnection_id
-\n\rdata_pkts_sec
-\n\rdatacenter_id
-\n\rdefault_value
-\n\rfixed64_value
-\n\rfrom_identity
-\n\rfront_ping_ms
-\n\rgeneric_bytes
-\n\ripv6_and_port
-\n\rrelay_tickets
-\n\rscore_penalty
 \n\tIPSec/IKE/Oakley curve #3 over a 155 bit binary field.\n\tNot suitable for ECDSA.\n\tQuestionable extension field!
 \n\tIPSec/IKE/Oakley curve #4 over a 185 bit binary field.\n\tNot suitable for ECDSA.\n\tQuestionable extension field!
-\n\tack_relay
-\n\tback_ping
-\n\tca_key_id
-\n\tcandidate
-\n\tchallenge
-\n\tdummy_pad
-\n\tfrom_port
-\n\tmy_pop_id
-\n\tname_part
-\n\tpublic_ip
-\n\tsignature
-\n\ttype_name
-\n\vEnumOptions
-\n\vFileOptions
-\n\vTYPE_DOUBLE
-\n\vTYPE_SINT32
-\n\vTYPE_SINT64
-\n\vTYPE_STRING
-\n\vTYPE_UINT32
-\n\vTYPE_UINT64
-\n\vallow_alias
-\n\ve2e_ping_ms
-\n\vint64_value
-\n\voneof_index
-\n\voutput_type
-\n\vping_est_ms
-\n\vprivate_key
-\n\vreason_code
-\n\vrxspeed_max
-\n\vseq_num_c2r
-\n\vseq_num_e2e
-\n\vseq_num_r2c
-\n\vseq_num_r2r
-\n\vseq_num_r2s
-\n\vseq_num_s2r
-\n\vserver_time
-\n\vsigned_data
-\n\vtime_expiry
-\n\vto_identity
-\n\vtxspeed_max
-\n\vyour_pop_id
-\nh?oT
-\nk>oB
-\nqYu
-\ntM(ie-V
-\r!\r+\r-\r=\r?\rO\rU\ri\ry\r
-\r@h!Aq8
-\rB6uZ
-\rEuR 
-\rKT8v
-\rMinghuaQu\f
-\rTxL
-\rUHz4Z}\r
-\rWhO
-\rY=QX
-\rYYHl
-\r\f\v\v\n\n\t\t\t\t\t
-\r\n\tCODE_SIZE
-\r\n\tTYPE_BOOL
-\r\n\tTYPE_ENUM
-\r\vpL1
-\r^mX
-\ri1I
-\rjwB\t
-\roKK
-\rrCj
 \src\
-\t#\t%\t+\t/\t5\tC\tI\tM\tO\tU\tY\t_\tk\tq\tw\t
-\t,L2y
-\tBbj
-\tJm_9
-\tLa0+
-\tP4w
-\tcQr
-\tkE>fvw
-\toRE
-\t}BzJ88
-\v#\v)\v-\v?\vG\vQ\vW\v]\ve\vo\v{\v
-\vA03>A|
-\vBCeA
-\vGt5
-\vNCE\v
-\vUY6[E
-\vj0k
-\vjC7
-\vp4w
 \vssh-ed25519
 \x%02x
-]1h=bfz
-]FhSD}
-]GT7]
-]G\nY1
-]MSd
-][LK~lO
-]gy73
-^.om5r
-^<V7w
-^CuY
-^DQQI
-^DnJ
-^DqPt
-^J_spY
-^Nij
-^QyY
-^RB!r
-^RfN>
-_Ek6b]
-_Lx6
 _OPENSSL_isservice
-_YWL
 __based(
 __cdecl
 __clrcall
@@ -5613,18 +4191,7 @@ __swift
 __thiscall
 __unaligned
 __vectorcall
-_a7C
-_jPo
-_oD>Kg
-_rDd
-_}eOk
-`28)fk
-`:zQF
-`DZG
-`ITS
 `RTTI
-`URp
-`VX:H
 `copy constructor closure'
 `default constructor closure'
 `dynamic atexit destructor for '
@@ -5634,9 +4201,6 @@ _}eOk
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`fPw.\vM
-`h9T~
-`h`hhh
 `local static guard'
 `local static thread guard'
 `local vftable constructor closure'
@@ -5644,7 +4208,6 @@ _}eOk
 `managed vector constructor iterator'
 `managed vector copy constructor iterator'
 `managed vector destructor iterator'
-`o_je
 `omni callsig'
 `placement delete closure'
 `placement delete[] closure'
@@ -5663,26 +4226,7 @@ _}eOk
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
-`yNT
-a(hq
-a4H>
-a5<p
-a6>r
-a;Tg
-a@XZ
-aA0k
-aD/x
-aF<7u
-aGw\t4*
-aMo^
-aPw0
-aRWZ5
-aRe.
 aRecord
-aXvC
-a\n\rRouterQuality
-a\v3rB
-a]?xG
 aaControls
 abcdefghijklmnopqrstuvwxyz
 ac-auditEntity
@@ -5696,14 +4240,9 @@ ack count upper bits
 ack delay
 ack latest pktnum
 ack num blocks
-ack_candidates_revision
-ack_forward_target_revision
-ack_peer_routes_revision
-active_sessions
 ad dvcs
 ad_timestamping
 additional verification
-address
 address family not supported
 address in use
 address not available
@@ -5745,10 +4284,7 @@ aes-256-ecb
 aes-256-gcm
 aes-256-ofb
 aes-256-xts
-aevF~
 affiliationChanged
-aggregate_value
-ai`UJ4\f
 algor
 algorithm
 algorithms
@@ -5758,13 +4294,8 @@ already connected
 alse
 always
 ansi-X9-62
-answer
 anyExtendedKeyUsage
 anyPolicy
-app_id
-app_ids
-appdata
-appid
 appl [ %d ]
 application/pkcs7-
 application/pkcs7-mime
@@ -5772,8 +4303,6 @@ application/pkcs7-signature
 application/x-pkcs7-
 application/x-pkcs7-mime
 application/x-pkcs7-signature
-aql*
-arPf
 archiveCutoff
 argument list too long
 argument out of domain
@@ -5791,24 +4320,9 @@ auth_attr
 authorityInfoAccess
 authorityKeyIdentifier
 authorityRevocationList
-authorized_public_ip
 authsafes
-awO8
-axfb5
-aybSr
-a|gj(
-a|w9i
 b <= sizeof(ctx->buf)
 b <= sizeof(ctx->final)
-b0M%
-b5o-
-b=G3
-bGu\r
-bPb:L7X)
-bSh&+
-bV}TS
-b\fzUkm
-b]jY
 backup 
 bad address
 bad allocation
@@ -5828,19 +4342,13 @@ bf-cbc
 bf-cfb
 bf-ecb
 bf-ofb
-bgD$
-bh.b|C
-bie.+
 bignum routines
 bind
 biometricInfo
 bl <= (int)sizeof(ctx->buf)
-bmMV
-bmNP
-body
+bn(%d,%d)
 bool
 boundary
-bpFh
 brainpoolP160r1
 brainpoolP160t1
 brainpoolP192r1
@@ -5857,14 +4365,10 @@ brainpoolP512r1
 brainpoolP512t1
 broadcast
 broken pipe
-bt1+
-bu\N
 buffer
 buildingName
 businessCategory
-bvVd
 bytes
-c2\f?C\t
 c2onb191v4
 c2onb191v5
 c2onb239v4
@@ -5885,8 +4389,6 @@ c2tnb239v2
 c2tnb239v3
 c2tnb359v1
 c2tnb431r1
-c51.l
-c5@O
 c:\buildslave\sdr_public_win64\build\obj\2017\steamnetworkingsockets_Release_x64\steamnetworkingsockets.pdb
 c:\buildslave\sdr_public_win64\build\src\common\crypto_25519_donna.cpp
 c:\buildslave\sdr_public_win64\build\src\common\crypto_openssl.cpp
@@ -5945,15 +4447,11 @@ c:\buildslave\sdr_public_win64\build\src\steamnetworkingsockets\steamnetworkings
 c:\buildslave\sdr_public_win64\build\src\tier1\bitstring.cpp
 c:\buildslave\sdr_public_win64\build\src\tier1\netadr.cpp
 c:\buildslave\sdr_public_win64\build\src\tier1\utlbuffer.cpp
-c?FA@s}
+c:\buildslave\sdr_public_win64\build\src\tier1\utlmemory.cpp
+c:\buildslave\sdr_public_win64\build\src\vstdlib\strtools.cpp
 cACertificate
-cL;p
 cNAMERecord
-cNUGK
-cO!r
 cRLSign
-c\r1m
-c`FE%
 caIssuers
 caRepository
 called a function that was disabled at compile-time
@@ -5981,8 +4479,6 @@ cast5-cbc
 cast5-cfb
 cast5-ecb
 cast5-ofb
-cc_generic_services
-cdP%
 cert
 certBag
 certId
@@ -6000,21 +4496,12 @@ certs-only
 cessationOfOperation
 challenge
 challengePassword
-challenge_time
 characteristic-two-field
-chc1
-checksum
-ci;e*
-ciO"A
 cipher
-ciphers
 clearance
 cleartext track 2
 client
 clientAuth
-client_connection_id
-client_identity_string
-client_timestamp
 closed by peer
 cluster %s comms_disrupted
 cluster %s comms_failed
@@ -6026,12 +4513,9 @@ cluster %s restored
 cluster_data_rebuild
 clusters:{
 cmac
-co7S
-code
 codeSigning
 coefficient:
 cofactor
-com.google.protobufB
 common libcrypto routines
 commonName
 comp
@@ -6040,12 +4524,10 @@ compressed-data
 compressionAlgorithm
 configuration file routines
 connect
-connect_request
 connection aborted
 connection already in progress
 connection refused
 connection reset
-connection_closed
 cons: 
 consecutive_ping_timeout
 cont [ %d ]
@@ -6061,11 +4543,6 @@ counter
 counter:
 countersignature
 countryName
-cpLm
-cpu_cost_per_packet
-cpu_cost_per_user
-cpu_load
-cq#p
 critical
 critical,
 crlBag
@@ -6078,7 +4555,6 @@ crls
 crlsign
 cross device link
 crossCertificatePair
-crypt
 cryptocom
 cryptopro
 ct_cert_scts
@@ -6095,10 +4571,7 @@ ctx->cipher->block_size == 1 || ctx->cipher->block_size == 8 || ctx->cipher->blo
 ctx->digest->md_size <= EVP_MAX_MD_SIZE
 ctx->length <= (int)sizeof(ctx->enc_data)
 ctx->tmp_len <= 3
-ctype
 curve
-cuxG
-cz>Sp
 d.allOrFirstTier
 d.authenticatedData
 d.certificate
@@ -6139,41 +4612,22 @@ d.usernotice
 d.v1AttrCert
 d.v2AttrCert
 d.x400Address
-d/rRw
-d35P
-d4\tp
-d8L2
 d=%-2d hl=%ld l=%4ld 
 d=%-2d hl=%ld l=inf  
-d?000000`?
-dAN"
-dDV8
-dHHp
 dITRedirect
 dNSDomain
-dOj\f,
-dPH/
-dRL>
 dSAQuality
 dWry
-dZ!2.
-dZK<),F8
-d[kHy 
-d_r_0
 data
 dataEncipherment
-data_center_id
 date
-db("0
 dcObject
 dcobject
 dddd, MMMM dd, yyyy
-debug
 debug_malloc
 debug_malloc2
 decipherOnly
 default
-delay_time_usec
 deltaCRL
 deltaRevocationList
 des-cbc
@@ -6198,7 +4652,6 @@ destination address required
 destinationIndicator
 desx-cbc
 device or resource busy
-df)r
 dh-cofactor-kdf
 dh-std-kdf
 dhKeyAgreement
@@ -6212,7 +4665,6 @@ dhSinglePass-stdDH-sha224kdf-scheme
 dhSinglePass-stdDH-sha256kdf-scheme
 dhSinglePass-stdDH-sha384kdf-scheme
 dhSinglePass-stdDH-sha512kdf-scheme
-dh\tI
 dh_paramgen_generator
 dh_paramgen_prime_len
 dh_paramgen_subprime_len
@@ -6237,7 +4689,6 @@ distpoint
 dmdName
 dmp1
 dmq1
-dn3@
 dnQualifier
 doapr()
 document
@@ -6264,28 +4715,13 @@ dsa_paramgen_md
 dsa_paramgen_q_bits
 dsa_with_SHA224
 dsa_with_SHA256
-dummy_legacy_identity_binary
-dummy_steam_id
 dumy
 dvcs
 dynamic
 dynlock
 e+000
-e+3E
-e+ZQT
-eBeL
-eC z
 eContent
 eContentType
-eF>t
-eLK(w
-eN.d\tA
-eODj
-ePts
-eTU\n
-eXQd
-e\Gg77
-e\tcCPtH
 ec_param_enc
 ec_paramgen_curve
 ec_pre_comp
@@ -6300,7 +4736,6 @@ ecdsa-with-SHA256
 ecdsa-with-SHA384
 ecdsa-with-SHA512
 ecdsa-with-Specified
-egUkr
 elliptic curve routines
 email
 email:%s
@@ -6328,14 +4763,12 @@ enveloped-data
 error:%08lX:%s:%s:%s
 eventObject
 evp_pkey
-ex"y
 ex_data
 excluded
 excludedSubtrees
 executable format error
 expecting an asn1 sequence
 experimental
-experimental_map_key
 explicit
 explicitText
 exponent1:
@@ -6346,38 +4779,15 @@ extend .$0 {\n
 extendedCertificateAttributes
 extendedKeyUsage
 extendedStatus
-extendee
-extension_range
 extensions
-eyBH_
-eyj5yR
-f#9i\n
-f%wyLmX:
-f&dy
-f1cK%
-f45\r
-f;\fu8
-fBB\fy
-fD>b
-fG;P^
-fL\ri
-fP;y
-fUnh\
-fWi?
-f\trixZ
 facsimileTelephoneNumber
-failed_relay_routing_token
 false
 fatal
 favouriteDrink
-fdxfv%
-feop(
 fflush
 fflush()
-field
 fieldID
 fieldType
-file
 file exists
 file too large
 file:
@@ -6385,69 +4795,31 @@ filename too long
 fips
 fips2
 first reliable streampos
-first_candidate_revision
 fixed32
 fixed64
-fjW>J
-flags
 float
 fopen
 fopen('
 forward
-forward_target_revision
-fpnS
 fread
 freeaddrinfo
 freshestCRL
 friendlyCountry
 friendlyCountryName
 friendlyName
-from_active_packets_recv
-from_active_time
-from_connection_id
-from_dropped_reason
-from_identity_string
-from_ip
-from_quality_now
-from_quality_then
-from_relay_session_id
-from_router_cluster
-fsSWR
 fullname
 func(%lu)
 function not supported
-fxv^
-g u}DE
-g'L0X7b
-g4FA
-g5}6
-g9rB
-gB>d
-gF{A
-gHAx
-gTH.M
-gXC.nT\v
-gZFySTa(
-g\n\nDataCenter
-g]i/H
 g_eAvailNetworkConfig is Current, but failed to select random relay to probe?
 g_mapConnections corruption!
 g_mapIncomingP2PConnections bookkeeping mismatch
 gameserver
-gameserver_address
-gameserver_datacenter_ids
-gameserver_identity_string
-gameserver_relay_session_id
-gap_ms
-gb`X
-gdPI
 gen:
 generate cryptogram
 generationQualifier
 generator:
 generic
 generic cryptogram
-generic_string
 getaddrinfo
 getaddrinfo(%s) failed, returned %d
 gethostbyname
@@ -6456,10 +4828,7 @@ getservbyname
 getsockname failed.  Error code 0x%08X.
 getsockname returned address with unexpected family %d
 ggen
-gi%3e
 givenName
-gj8(
-google.protobuf"G\n
 google.protobuf.Empty
 google.protobuf.EnumOptions
 google.protobuf.EnumValueOptions
@@ -6478,45 +4847,13 @@ gost89-cnt
 gost94
 gost94cc
 gostr3411-94
-gp\r3
 group
 group=
-gxv>
-g{syW*
-g|FeW\v
-g|MT
-h&eC
-h*Ax
-h0'D
-h0XB
-h2Wl
-h2n_\
-h5N.
-h>1my
-hEM&!
-hF\rDz
-hFcg
-hJxRX@_
-hN2D
-hRB.
-hR}S
-hW*m
-hW1M
-hW_z
-hX@e
-h`Zr
 hash
 hashAlgorithm
 hashFunc
-hb`V
-hbvc
-hc[N
-hc\raF
 hex:
 hexkey
-hhwi
-hl5v
-hloav\\t
 hmac
 hmac-md5
 hmac-sha1
@@ -6536,29 +4873,13 @@ homeTelephoneNumber
 host
 host unreachable
 houseIdentifier
-hr_H
 http://10.1.1.18:8282
 http://steam-api.8686c.com
 https://127.0.0.1:8283
 https://api.beta.steampowered.com
 https://api.steampowered.com
-hvL&
-h|gg
-h~0Q.
-i%YR
-i%|kB
-i4a."
-i5BH
 iA5StringSyntax
-iC!l
-iFFp}A
-iFjt
-iILV]
-iSXc
-iU[&l
-iVY2L
 ia5org
-ia7@\t H9
 iana
 id-DHBasedMac
 id-Gost28147-89-CryptoPro-A-ParamSet
@@ -6802,15 +5123,7 @@ idea-ecb
 idea-ofb
 identified-organization
 identifier removed
-identifier_value
-identity_string
-if.F<h
-ifTK
-ihD5
-ik.R
 illegal byte sequence
-in_bytes_per_sec
-in_packets_per_sec_x10
 inappropriate io control operation
 indirectCRL
 infinite
@@ -6846,9 +5159,7 @@ ipsecEndSystem
 ipsecTunnel
 ipsecUser
 ipv4
-ipv6
 iqmp
-ir@r`
 is a directory
 issuer
 issuer capabilities
@@ -6861,85 +5172,18 @@ issuer_and_serial
 issuingDistributionPoint
 iter
 itu-t
-i~wKVA\
 j <= (int)sizeof(ctx->key)
 j <= sizeof(c->iv)
-j"MRX
-j&LQ
-j0ksJ
-j2ty
-j3kg
-jA(U
-jB#W
-jHLy
-jL?1]
-jLTKTz
-jNXcA
-jOJw"
-jTuf
-jV*d9O
-jZ=F
-j[6Z
-j\vIP{s
 janetMailbox
-java_generate_equals_and_hash
-java_generic_services
-java_multiple_files
-java_outer_classname
-java_string_check_utf8
-jb:5
-jcn,T,>
-jfz1
-jitter_histogram_1
-jitter_histogram_10
-jitter_histogram_2
-jitter_histogram_20
-jitter_histogram_5
-jitter_histogram_negligible
 joint-iso-itu-t
-jt(@L
-jtv2@
 jurisdictionC
 jurisdictionCountryName
 jurisdictionL
 jurisdictionLocalityName
 jurisdictionST
 jurisdictionStateOrProvinceName
-j|Ym
-k"5d
-k%bf
-k'h\rD
-k+Aq
-k/sn
-k0>Z,
-k26C*
-k53i
-k8\vD
-k8fo
-k8xA
-k=yI
-kIoQ
-kL+v<
-kLg\t
-kR;X
-kSN6'
-kV!DA
-kV'0
 kVV\t/
-k\n\fRelayCluster
-k\r"pbA
-k^ZP
-k_ESteamDatagramMsg_ConnectOK
-k_ESteamDatagramMsg_Diagnostic
-k_ESteamDatagramMsg_Invalid
-k_ESteamDatagramMsg_NoSession
-k_ESteamDatagramMsg_P2PBadRoute
-k_ESteamDatagramMsg_RelayHealth
-k_ESteamDatagramMsg_Stats
 k_cbMaxSteamDatagramGameCoordinatorServerLoginSerialized set too small, we are close to overflowing!
-ka`O
-kb_recv
-kb_sent
 kekid
 keyAgreement
 keyAttr
@@ -6953,60 +5197,21 @@ keyEncryptionAlgorithm
 keyIdentifier
 keyInfo
 keyUsage
-key_data
 key_enc_algor
-key_id
-key_type
 keyfunc
 keyid
 keylen <= sizeof(key)
 keylength
 kisa
-kjy\v
-kp3/y*U
-kpEKI
-kte'
-kw.6#
-k|9R
-k~Rz
 l <= sizeof(c->iv)
-l&rB6
-l4Ot
-l7@J
-lC57
-lDcW
-lEsim
-lM2p
-label
 language
 lastModifiedBy
 lastModifiedTime
 lastUpdate
-latency_datacenter_ids
-latency_ping_ms
-lazy
-leading_comments
-legacy_ack_e2e
-legacy_authorized_steam_id
-legacy_client_steam_id
-legacy_from_identity_binary
-legacy_from_steam_id
-legacy_gameserver_net_id
-legacy_gameserver_pop_id
-legacy_gameserver_steam_id
-legacy_gameserver_steamid
-legacy_identity_binary
-legacy_peer_steam_id
-legacy_protocol_version
-legacy_relay_session_id
-legacy_server_steam_id
-legacy_steam_id
-lei5:
 length
 length is greater than %ld\n
 lhash part of OpenSSL 1.0.2s  28 May 2019
 lib(%lu)
-lifetime
 line 
 list<T> too long
 listen
@@ -7015,29 +5220,9 @@ localityName
 location
 locator
 log10
-login
 loopback
-lvs&4
-m&9W
-m*Zu
-m4}O
-m>FC*a7H
-m>gh
-m?H7
-mAFr
-mDJe
-mG4>
-mK<v
-mOD:V
-mS'7
 mXRecord
-mZKB
-mZzW\v
-m\nXo
-m\ta=\ruWb
-ma\v\r01!
 macAlgorithm
-magic
 mail
 mailPreferenceOption
 malloc failure
@@ -7070,25 +5255,20 @@ message digest
 message extensions
 message size
 messageDigest
-message_set_wire_format
 method
 mgf1
 mgf1 with sha1 (default)
 mgmt
-migrate_request_ip
-migrate_request_port
 mime-mhs
 mime-mhs-bodies
 mime-mhs-headings
 minimum
 minsize=
 missing asn1 eos
-mllt!
 mobileTelephoneNumber
 module=
 modulus:
 move
-mpkQ
 msCTLSign
 msCodeCom
 msCodeInd
@@ -7098,24 +5278,10 @@ msSGC
 msSmartcardLogin
 msUPN
 multipart/signed
-mzP"T
 n < (int)sizeof(ctx->enc_data)
-n)M5
-n03>Pu
-n0?X
-n1Z 
-n5cM
-n<!TH+9
-n@PK
 nBytesItem is %d in UtlMemory_CalcNewAllocationCount
-nCRD
 nSRecord
-nStf,a
-nSw}Z\tu
-n\nNKF
 n\r2S
-n]?iJ
-n`3i
 nack count upper bits
 name
 name.fullname
@@ -7126,8 +5292,6 @@ nameConstraints
 named_curve
 nan(ind)
 nan(snan)
-ne[9
-negative_int_value
 nested asn1 error
 netadr_t::GetIP called on IPv6 address
 network down
@@ -7135,14 +5299,10 @@ network reset
 network unreachable
 network_config_changed_different_cluster
 network_config_changed_removed
-network_config_version
 new CSteamNetworkConnectionPipe failed
 nextUpdate
-nhsR
 niv <= EVP_MAX_IV_LENGTH
 nkey <= EVP_MAX_KEY_LENGTH
-nmI\n8
-nmvos^\n
 no buffer space
 no child process
 no link
@@ -7158,10 +5318,8 @@ no such file or directory
 no such process
 noCheck
 noRevAvail
-no_standard_descriptor_accessor
 nombstr
 nonRepudiation
-nonce
 none
 not a directory
 not a socket
@@ -7171,7 +5329,6 @@ not enough memory
 not supported
 notAfter
 notBefore
-not_primary_session
 noticeNumbers
 noticenos
 noticeref
@@ -7188,39 +5345,14 @@ nsRevocationUrl
 nsSGC
 nsSslServerName
 nssslserver
-number
 number=%d, address=%08lX\n
-nyYn
-o$g31\f
-o&1m&
-o)nV
-o-\vBs
-o1+v3
-o=*oh
-o?GS
-oB4Do4
-oBFX}k6U
-oE"z
-oG)e5L
-oI>O7
-oMinghuaQu
-oN86
-oWnS
-oXHT
-oad2:,
 oaep
-ob4\vo
 objCA
 object
 object identifier routines
 objsign
-obwQ4
 ocsphelper
-od?;7y
-odMsh
 oeap
-offer
-oi3o
 onBasis
 only-if-cached, max-stale=2678400
 onlyAA
@@ -7242,8 +5374,6 @@ operator ""
 operator co_await
 optional
 optionalSignature
-options
-orOF
 order
 organization
 organizationName
@@ -7254,8 +5384,6 @@ oriValue
 originator
 originatorInfo
 originatorSignatureValue
-osM@\vQ}
-otT)
 other
 otherCert
 otherCertFormat
@@ -7263,55 +5391,25 @@ otherMailbox
 otherName
 otherRevInfo
 otherRevInfoFormat
-other_pkts_sec
 othername
 othername:<unsupported>
 out of memory
-out_bytes_per_sec
-out_packets_per_sec_x10
-owM&
 owner
 owner dead
-p!PcA1|
-p)ou}
-p+"\tHr9
 p.char_two
 p.onBasis
 p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p2{l
-p4Z3
-p5Z3
-p5\nL,
-p618
 pContext
 pEvents
 pExecutionResource
-pG_*h
-pIp 
-pO0h
-pP@fJ
-pRTH
-pSPo
 pScheduler
 pSourceFunc
 pSpecified
-pT6w.
 pThreadProxy
-pU>\AL
-p^i9
-package
-packed
 packet
-packets_dropped_pct
-packets_recv_dropped
-packets_recv_duplicate
-packets_recv_lurch
-packets_recv_out_of_order
-packets_recv_sequenced
-packets_weird_sequence_pct
 pagerTelephoneNumber
 parameter
 parameters
@@ -7336,10 +5434,6 @@ pbeWithSHA1And40BitRC4
 pbeWithSHA1AndDES-CBC
 pbeWithSHA1AndRC2-CBC
 pcPathLengthConstraint
-peak_jitter_usec
-peer_connection_id
-peer_identity_string
-penalty
 perfectworld
 permission denied
 permitted
@@ -7358,24 +5452,8 @@ pilotObject
 pilotObjectClass
 pilotOrganization
 pilotPerson
-ping_histogram_100
-ping_histogram_125
-ping_histogram_150
-ping_histogram_200
-ping_histogram_25
-ping_histogram_300
-ping_histogram_50
-ping_histogram_75
-ping_histogram_max
-ping_ms
-ping_ntile_50th
-ping_ntile_5th
-ping_ntile_75th
-ping_ntile_95th
-ping_ntile_98th
 ping_only
 pipe
-pkL'
 pkcs
 pkcs1
 pkcs3
@@ -7399,23 +5477,20 @@ policyIdentifier
 policyLanguage
 policyMappings
 policyid
-pop_id
 pops
 port
 port_range
-positive_int_value
 postOfficeBox
 postalAddress
 postalCode
+powf
 pp == NULL || *pp != NULL
-pp&c
 ppBasis
 ppVirtualProcessorRoots
 pqualid
 preferredDeliveryMethod
 presentationAddress
 prf-gostr3411-94
-prh[
 prim: 
 primary 
 prime-field
@@ -7437,7 +5512,6 @@ private-key:
 privateExponent:
 privateKey
 privateKeyUsagePeriod
-private_key_data
 privilegeWithdrawn
 problem detected locally
 proc
@@ -7447,10 +5521,8 @@ protobuf serialization failed?
 protocol error
 protocol not supported
 protocolInformation
-protocol_version
 proxyCertInfo
 proxyPolicy
-ps(crh
 pseudonym
 pub: 
 pub_key
@@ -7458,63 +5530,11 @@ pubkey
 public-key:
 publicExponent:
 publicKey
-public_dependency
 public_key
-pv!K
-py_generic_services
-q&A\nn
-q/\rg2
-q2'<Kv
-q27_A
-q6Kl
-qCJ.
-qDGqT
-qE7\t8
-qF{qc\t
-qIRH
-qOy*o
-qPq2k
-qS>g?h3
-qTm_fC=
 qcStatements
-qeei
-qf`ny
 qualifiers
 qualityLabelledData
-quality_histogram_1
-quality_histogram_100
-quality_histogram_50
-quality_histogram_75
-quality_histogram_90
-quality_histogram_95
-quality_histogram_97
-quality_histogram_99
-quality_histogram_dead
-quality_ntile_25th
-quality_ntile_2nd
-quality_ntile_50th
-quality_ntile_5th
-qx(q
-r$0I
-r-IE
-r184
-r<\rND
-rAGW
-rC3rp
-rD B
-rF6?
 rFC822localPart
-rFur`7\t
-rKE\t
-rL[i+
-rLp>B
-rRfKR
-rX&O0
-rZ$2
-rZ1VwGf5
-rZPM
-r\tVr.>T
-r\vDi
 rand
 rand2
 random number generator
@@ -7545,10 +5565,7 @@ registered:
 registeredAddress
 reject
 relativename
-relay_clusters
 relay_ping_only
-relay_routing_token
-relay_session_id
 relays
 reliable
 reliable size lower bits
@@ -7559,12 +5576,10 @@ reqCert
 req_info
 requestExtensions
 requestList
-request_timestamp
 requestorName
 requireExplicitPolicy
 required
 reserved
-reserved_do_not_use
 resource deadlock would occur
 resource unavailable try again
 responderId
@@ -7584,23 +5599,13 @@ revocationTime
 revoked
 revoked_keys
 rfc822Mailbox
-rg#E
 ripemd160
 ripemd160WithRSA
-rjg\v
-rkqg
-rmhD
 role
 roleOccupant
 room
 roomNumber
-route_exceptions
 router_ping_reply %s
-router_timestamp
-routes
-routing
-routing_clusters
-routing_secret
 rsa routines
 rsaEncryption
 rsaOAEPEncryptionSET
@@ -7615,58 +5620,18 @@ rsa_pss_saltlen
 rsadsi
 rsaesOaep
 rsassaPss
-rtE1
 run length compression
-rw4rs
-rxspeed_histogram_1024
-rxspeed_histogram_128
-rxspeed_histogram_16
-rxspeed_histogram_256
-rxspeed_histogram_32
-rxspeed_histogram_512
-rxspeed_histogram_64
-rxspeed_histogram_max
-rxspeed_ntile_50th
-rxspeed_ntile_5th
-rxspeed_ntile_75th
-rxspeed_ntile_95th
-rxspeed_ntile_98th
-r~s-v7
-s%95
-s(Fdi
-s-}24
-s6!TYK
-s=%(nh0
-s=QT
-s?uj
-s@'0q
-sD9>&
-sF29
-sJfw>7G9@>
-sK2?
-sKu{~X
 sOARecord
-sT5w!
-sV u\t
-s\tor
-saJ!
 safeContentsBag
 salt
 saltLength
-sao5
 sbgp-autonomousSysNum
 sbgp-ipAddrBlock
 sbgp-routerIdentifier
-score
-scoring_penalty_relay_cluster
 sdgsrg
 sdping
-sdpm_id
-sdpm_line_index
 sdsiCertificate
 searchGuide
-seconds_until_down
-seconds_until_shutdown
 secp112r1
 secp112r2
 secp128r1
@@ -7716,13 +5681,9 @@ serial
 serialNumber
 server
 serverAuth
-server_connection_id
 server_steam_id doesn't match who we expect to be connecting to!
-servers
-service
 serviceLocator
 session_inactivity_timeout
-session_relay_routing_token
 session_request_timeout
 set-addPolicy
 set-attr
@@ -7854,10 +5815,8 @@ setext-miAuth
 setext-pinAny
 setext-pinSecure
 setext-track2
-severity
 sfixed32
 sfixed64
-sh;7
 sha-256
 sha-384
 sha-512
@@ -7897,17 +5856,12 @@ smime.p7z
 smime_sign
 smimeencrypt
 smimesign
-sm{c
-sn_d.
 snan)
 snmpv2
-so=H*m
 socket
 socket() call failed.  Error code 0x%08x.
-source_code_info
-span
 spkac
-ss3Y!
+sqrt
 ssh-ed25519 %nAAAA%*s%n
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJrsoE4XUc5iaNVpACyh4fobLbwm02tOo6AIOtNygpuE ID18220590129359924542
 sslCA
@@ -7921,15 +5875,10 @@ ssl_session
 sslclient
 sslserver
 sslv23
-stLDp
 standalone
-start
-state
 state not recoverable
 stateOrProvinceName
-stats
 stats message size doesn't make sense.  Stats message size %d, packet size %d
-steam_id
 steamdatagram_client_debugticket_address value '%s' isn't a valid address\n
 steamdatagram_messages_auth.proto
 steamdatagram_messages_sdr.proto
@@ -7973,106 +5922,43 @@ switchState
 syntax error at line %d near: 
 system lib
 system library
-s{5F
-t(1pC
-t(ydU
-t+RW
-t0;?ZlP*m
-t2U 
-t4O_
-t80z
-tA`KO/3G!\n7h=
-tDwg
-tGTS
-tLY^m`6
-tLl 
-tLsq
-tNt5
 tag=
 targetInformation
 tbsRequest
 tbsResponseData
-td5)
-tdAW
-tdXn
-tdYv
 telephoneNumber
 teletexTerminalIdentifier
 telexNumber
 test
-text
 text file busy
 text format contains deprecated field "
 text/plain
 text:
 textEncodedORAddress
 textNotice
-tfjgvmfv
 the global scope
 thisUpdate
 thread=%lu, 
-ticket
 time stamp routines
 timeStamping
-time_generated
 timed out
 timestampsign
 title
-to_connection_id
-to_quality_now
-to_quality_then
-to_relay_session_id
 too many files open
 too many files open in system
 too many links
 too many symbolic link levels
 tpBasis
-tq}a
 trailerField
-trailing_comments
 tried to send packet to server, but socket not opened
 true
 trust
 trustRoot
-txspeed_histogram_1024
-txspeed_histogram_128
-txspeed_histogram_16
-txspeed_histogram_256
-txspeed_histogram_32
-txspeed_histogram_512
-txspeed_histogram_64
-txspeed_histogram_max
-txspeed_ntile_50th
-txspeed_ntile_5th
-txspeed_ntile_75th
-txspeed_ntile_95th
-txspeed_ntile_98th
 type
 type: 
 type_id
-u#A\rlG
-u%WX
-u%gc
-u)4A
-u0Az
-u1\m
-u5bB
-u6Bm
-u;{Gk
-uBY+
-uC<[rR
-uD>\nh
-uE]*P
-uJ4CA2
-uQ'ZH
-uQbK!
-u\vMW
-uaqf
-ub=A
-ug>c
 uint32
 uint64
-ujR\f
 unauthAttrs
 unauth_attr
 undefined
@@ -8100,23 +5986,7 @@ userId
 userNotice
 userPassword
 utf8only
-uxX/
-uzKs@>
-v'A>M6
-v)56
-v0o/5
 v1(0)
-v1GZ
-v2!L.2
-v3\vt
-v<d2}
-v>XB
-vAj}
-vAr>
-vAu&
-vF'l
-vW3N&
-v\v$m8
 valid
 validity
 value
@@ -8143,27 +6013,8 @@ value=
 valve
 vector<T> too long
 version
-vm:u
 vparams
-vqw0\nU
 vv == NULL
-vzcrR
-w"ZXb
-w+Ce
-w-g2
-w0A4k
-w8i_q
-w=Zk
-w>mMS
-wE2C
-wI-S
-wOUigi<
-wQ0"
-wR\fe3c
-wRlb.
-wY[K,
-w\n\tConnectOK
-w_5&#R4
 wap-wsg
 wap-wsg-idm-ecid-wtls1
 wap-wsg-idm-ecid-wtls10
@@ -8176,27 +6027,9 @@ wap-wsg-idm-ecid-wtls6
 wap-wsg-idm-ecid-wtls7
 wap-wsg-idm-ecid-wtls8
 wap-wsg-idm-ecid-wtls9
-wap}Q\n
-wbW_0O#
-wci.
-we?0
-weak
-weak_dependency
-webrtc
-wfA'@7
-wfDJ@
-wge6
 whirlpool
-wlLYP
-wm"h
-wn)*T$4?5z
 wrong protocol type
 wrong submessage type
-wxT%
-w{Z0
-x#Nb
-x,5J
-x/OA
 x121Address
 x500UniqueIdentifier
 x509
@@ -8209,91 +6042,11 @@ x509_pkey
 x509_req
 x509_store
 x931
-xFKF
-xOu\vsF
-xQfF
-xT?V
-xUN'
-x\n\nSignedData
-x\v6V
-xbox_pairwise_id
 xboxpwid:
 xboxpwid:%s
-xg-9Ja
-xp$=S
-xpxxxx
-xwpwpp
-xxH}
-xzxv
-y#y&Jb
-y0JY
-y2Cu
-y;w9
-y?iLa
-yG/9
-yH/Yy
-yH3f
-yHs8=
-yJ;Bf
-yRnkB\t
 yS/h
-yWTb?
-y\teE
-y_jO
-ya<O
-yb_A
-ye"Y
-yf2)
-your_public_ip
-your_timestamp
-yu]4if
-yyX\f
-yyen
-z(ov
-z/B,9d
-z4BP
-z4Hg
-z<d2
-z>Hz
-zF):O4
-zG2m8
-zRXU 
 zlVO
 zlib compression
 zone
-zxNIjo
-zz2K
-{5`q@roz?
-{8w1
-{9d:c
-{H}yq
-{OYK
-{ghz6
-{ry\W
-{zFd
-{ziv
-|11Jv
-|3ox
 |<C!FReQ
-|InzT
-|XYl
-|hdX)
 |}Eq1
-}5bIqLk
-}9]Jn+LhyK
-}CQBf
-}VKRZ
-}W70d
-}Xee+
-}gE3
-}n2W
-}o]9s
-~2sP
-~9ob
-~If D
-~P2T
-~R65Fu
-~TD7(
-~jLRG
-~w]UG
-~yhZ

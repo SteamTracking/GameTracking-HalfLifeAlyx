@@ -1,7 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -12,13 +10,6 @@
  new
  throw(
  volatile
-#?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
-%4oW
-'\t?getChar@QIODevice@@QEAA_NPEAD@Z
-(?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
-)?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
-)?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
-+?setPixel@QImage@@QEAAXHHI@Z
 ,<ellipsis>
 .?AUQFactoryInterface@@
 .?AUQImageIOHandlerFactoryInterface@@
@@ -37,12 +28,8 @@
 .?AVbad_typeid@std@@
 .?AVexception@std@@
 .?AVtype_info@@
-2\n0l]
-2\vpl]
-8?write@QImageIOHandler@@UEAA_NAEBVQImage@@@Z
 <ellipsis>
 <unknown>
-=\r?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
 ??0QByteArray@@QEAA@PEBD@Z
 ??0QImage@@QEAA@AEBV0@@Z
 ??0QImage@@QEAA@HHW4Format@0@@Z
@@ -75,18 +62,32 @@
 ?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
 ?free@QString@@CAXPEAUData@1@@Z
 ?fromLatin1_helper@QString@@CAPEAUData@1@PEBDH@Z
+?getChar@QIODevice@@QEAA_NPEAD@Z
 ?imageCount@QImageIOHandler@@UEBAHXZ
 ?isNull@QImage@@QEBA_NXZ
+?isOpen@QIODevice@@QEBA_NXZ
+?isReadable@QIODevice@@QEBA_NXZ
 ?jumpToImage@QImageIOHandler@@UEAA_NH@Z
 ?jumpToNextImage@QImageIOHandler@@UEAA_NXZ
 ?loopCount@QImageIOHandler@@UEBAHXZ
 ?metaObject@QImageIOPlugin@@UEBAPEBUQMetaObject@@XZ
 ?nextImageDelay@QImageIOHandler@@UEBAHXZ
+?qFree@@YAXPEAX@Z
+?qWarning@@YAXPEBDZZ
+?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
+?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
+?read@QIODevice@@QEAA_JPEAD_J@Z
 ?removeGuard@QMetaObject@@SAXPEAPEAVQObject@@@Z
+?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
+?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
+?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
+?setPixel@QImage@@QEAAXHHI@Z
 ?shared_null@QListData@@2UData@1@A
 ?shared_null@QString@@0UData@1@A
 ?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
 ?tr@QObject@@SA?AVQString@@PEBD0@Z
+?write@QImageIOHandler@@UEAA_NAEBVQImage@@@Z
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 April
 August
@@ -169,7 +170,6 @@ LC_CTYPE
 LC_MONETARY
 LC_NUMERIC
 LC_TIME
-LDk$p:H
 LeaveCriticalSection
 LoadLibraryW
 MM/dd/yy
@@ -186,7 +186,6 @@ QtCore4.dll
 QtGui4.dll
 Qt_GetCustomAllocators
 QueryPerformanceCounter
-RSDS
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -215,10 +214,6 @@ Wednesday
 WideCharToMultiByte
 WriteFile
 [thunk]:
-\f?qFree@@YAXPEAX@Z
-\n?isReadable@QIODevice@@QEBA_NXZ
-\r?qWarning@@YAXPEBDZZ
-\r?read@QIODevice@@QEAA_JPEAD_J@Z
 __based(
 __cdecl
 __clrcall
@@ -326,7 +321,6 @@ english-us
 english-usa
 enum 
 extern "C" 
-f"?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 float
 french-belgian
 french-canadian
@@ -349,7 +343,6 @@ new-zealand
 norwegian
 norwegian-bokmal
 norwegian-nynorsk
-o\n?isOpen@QIODevice@@QEBA_NXZ
 operator
 pattern=QT_PLUGIN_VERIFICATION_DATA\nversion=4.8.3\ndebug=false\nbuildkey=Windows x64 msvc release full-config
 portuguese-brazilian

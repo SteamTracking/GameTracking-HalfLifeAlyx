@@ -23,16 +23,13 @@
   TEX: %u textures, %.2f MB\n
   TOTAL: %.2f MB\n
   VB: %d buffers, %.2f MB\n
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  %d x %d m%d - Count: %d Size: %.2fMB\n
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  -shadowTargetSize forcing nPoolSizeInMb size to %d from %d, bLarge %d, avail %lld\n
  Base Class Array'
  Base Class Descriptor at (
- C>TQ
  Can't specify initial state of dynamic constant buffers at creation time!\n
  Class Hierarchy Descriptor'
  Complete Object Locator'
@@ -44,7 +41,6 @@
  new
  receiver regenerated
  uncorrected errors
-!AxU
 "%s": Bad mode
 "%s": Information lost writing value (%g) as (unsigned) RATIONAL
 "Predictor" value %d not supported
@@ -52,7 +48,6 @@
 "compression" attribute not found in the header.
 "dataWindow" attribute not found in the header or invalid.
 "displayWindow" attribute not found in the header.
-"e?<<<<<<l?
 "lineOrder" attribute not found in the header.
 "pixelAspectRatio" attribute not found in the header.
 "screenWindowCenter" attribute not found in the header.
@@ -61,12 +56,10 @@
 #RenderSystem_BadVersionOfFraps
 #RenderSystem_CannotCreateDevice
 #RenderSystem_UnableToStartGame
-#bML"
 #base
 #base is NULL 
 #include
 #include is NULL 
-$Ib?s
 %.100s: Can not read TIFF directory
 %f %f %f %f
 %i %i %i %i
@@ -74,12 +67,15 @@ $Ib?s
 %lld
 %lu: Row out of range, max %lu
 %lu: Sample out of range, max %lu
+%p::%p:%d
 %s %s decoding is not implemented
 %s %s encoding is not implemented
 %s called on an immutable constant buffer\n
 %s compression support is not configured
 %s failed to map texture for async readback: %x\n
+%s%s [%s]\n
 %s2-d encoding
+%s: %s
 %s: %s at line %u of %s %u (got %u, expected %u)
 %s: Bad code word at line %u of %s %u (x %u)
 %s: Bad field type %d for "%s"
@@ -135,13 +131,11 @@ $Ib?s
 %s: zlib error: %s
 %sEOL padding
 %suncompressed data
-&?PPPPPPP?
-&Sgw
+%u (0x%x)\n
 (%s): ADD %s = %s\n
 (%s): Setting %s to %s\n
 (Repeated %dx) 
 (null)
-)yIx
 *** Buffer "%s": Failed to create shader resource view!\n
 *** Buffer "%s": Failed to create unordered access view!\n
 *** IB "%s": Failed to allocate!\n
@@ -162,16 +156,11 @@ $Ib?s
 *** VB "%s": Tried to lock too much memory (%d>%d)!\n
 *** VB "%s": Tried to lock too much memory for subregion (%d>%d)!\n
 *** VB "%s": Tried to lock twice without an unlock!\n
-*5KS
-*StO9>T
 +r_texture_pool_size
 +r_texture_pool_size %d overriding the default texture pool size of %d MB\n
 , channels = 
 , height = 
-,HR>O
 -4gpu
--9D\t/9a
--BH>t
 -adapter
 -autoconfig
 -autoconfig_level
@@ -214,7 +203,6 @@ $Ib?s
 -swap_chain_as_is
 -vulkan
 .00cfg
-.>\rfJBGo
 .?AUID3DInclude@@
 .?AU_Crt_new_delete@std@@
 .?AUctype_base@std@@
@@ -314,6 +302,7 @@ $Ib?s
 .?AVCSchemaRegistration@@
 .?AVCSchemaRegistration_rendersystemdx11@@
 .?AVCSheetHashConstructor@@
+.?AVCSingletonCriticalSection@@
 .?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CParallelProcessor@HV?$CLambdaJobItemProcessor@H@@$00@@@@QEAAXXZ@
 .?AVCStackFunctor@?1??Run@?$CParallelProcessorAbstract@V?$CParallelProcessor@HV?$CMemberFuncJobItemProcessor@HV?$CCallQueueT@V?$CTSQueue@PEAVCFunctor@@$0A@@@@@V1@@@$00@@@@QEAAXXZ@
 .?AVCSwapChainBase@@
@@ -417,20 +406,13 @@ $Ib?s
 .tls$
 .tls$ZZZ
 .txt
-.xJ>Hf
 .xdata
 .xdata$x
-/2GG>!B
-/P8i
 /TF<)VGy#WH
-/yQA
 0.05
 0.90
 0123456789abcdefghijklmnopqrstuvwxyz
 0: Bilinear, 1: Trilinear, 2: Aniso 2x, 3: Aniso 4x, 4: Aniso 8x, 5: Aniso 16x
-0E>X
-0X8b?~
-0iN>/
 0x%016llX
 1#IND
 1#INF
@@ -439,39 +421,12 @@ $Ib?s
 1.2.5
 10_0
 10_1
-11Y@
 11_0
 11_1
 1600
-1A26b
-1wsHp
 256.0
-2\rU2h
-2\vp0f
-3 FB
-338v
-37>k
-3>N;kU
-3>fvw
-3?tr
-3\f534+
-51>W
-52F*
 64.0
-6NK>
-6\fXO>\ntA
-7#\n`9xE
-7>I0
-7?GX
-7h>?8
-7~8A
-7~xh
-8&Kx
 8b  16-May-2010
-8ke?;
-9>70
-9>powf
-9a&g
 <Invalid>
 <NULL>
 <No D3D11>
@@ -488,19 +443,6 @@ $Ib?s
 <unknown multisample type
 <unknown>
 <x360>
-=87M
-=cQ6
-=e2m
-=imb;D
->WIN32
->cQ6
->jtm}S
->logf
-?!5WOo
-?49HoKC
-?7zQ6$
-?7{KV\nU
-?8bunz8
 ??0CThreadEvent@@QEAA@_N@Z
 ??0CThreadFastMutex@@QEAA@PEBD@Z
 ??0CThreadFastMutex@@QEAA@XZ
@@ -510,7 +452,6 @@ $Ib?s
 ??0CThreadSemaphore@@QEAA@HHPEBD_N@Z
 ??1CThreadEvent@@QEAA@XZ
 ??1CThreadSemaphore@@QEAA@XZ
-?@En[vP
 ?Allocate@COneTimeEvent@@SAPEAV1@XZ
 ?AppendFormat@CBufferString@@QEAAHPEBDZZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
@@ -530,7 +471,6 @@ $Ib?s
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@VColor@@PEBDZZ
 ?Purge@CBufferString@@QEAAXH@Z
-?R0I?
 ?Release@CThreadSemaphore@@QEAA_NHPEAH@Z
 ?RemoveAt@CBufferString@@QEAAPEBDHH@Z
 ?Set@CThreadEvent@@QEAA_NXZ
@@ -539,7 +479,6 @@ $Ib?s
 ?SetLength@CBufferString@@QEAAPEADH_NPEAH@Z
 ?SpinLockForWrite@CThreadSpinRWLock@@AEAAXPEBDHI@Z
 ?ToLowerFast@CBufferString@@QEAAXH@Z
-?UUUUUU
 ?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
@@ -551,19 +490,8 @@ $Ib?s
 ?UnlockWrite_LockForRead@CThreadRWLock_FastRead@@QEAA?AW4RWLockTranstionResult_t@@PEBDH@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
 ?Wait@CThreadSyncObject@@QEAA_NI@Z
-?f`Y4
-?kxG2)
-?lZE
-?qBJ
-?rAj
-?sequence number %d too low in sheet file!!!\n
-?ysB
-@Integer overflow in %s
-A!;I2
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABGR8888
-AK>(v
 ALIGN_TYPE is wrong, please fix
 ALVRInit
 AMD LiquidVR MultiGPU Rendering - Disabled\n
@@ -617,10 +545,7 @@ AsyncTextureHookup
 At marker 0x%02x, recovery action %d
 Attempting to render without calling BindRenderTargets!\n
 August
-B.f?y
 BC6H
-BC?>6t9^\tc:>
-BF>^G
 BGR101111_UFLOAT
 BGR565
 BGR888
@@ -634,7 +559,6 @@ BGRA8888_LINEAR
 BGRX5551
 BGRX8888
 BGRX8888_LINEAR
-BKbhTb~XBK!;
 Backing store not supported
 Bad VTEX data for '%s'\n
 Bad expression operator: '%c%c', expected C style boolean expression operator.
@@ -674,22 +598,19 @@ Bogus message code %d
 Bogus sampling factors
 Bogus virtual array access
 Buffer passed to JPEG library is too small
-C-Yn
-C5R?\t
 CCIR601 sampling not implemented yet
 CCITT Group 3
 CCITT Group 4
 CCITT RLE
 CCITT RLE/W
 CCommandBufferChunk CUtlMemoryPoolMT
-CDeviceFenceDx11::CDeviceFenceDx11(4427): 
+CDeviceFenceDx11::CDeviceFenceDx11(4435): 
 CEntityIndex
 CFALayout
 CFAPlaneColor
 CGlobalConfigValueRegistry::HookUpConfigValue
 CInputLayoutDict<class CInputLayoutDx11>::ConcatentateInputLayouts
 CInputLayoutDx11::DoesSemanticExist
-CL:>8
 CLEANUP
 CLargeCommandBufferChunk CUtlMemoryPoolMT
 CMediumCommandBufferChunk CUtlMemoryPoolMT
@@ -719,29 +640,29 @@ CRenderContextDx11_SoftwareCommandLists::BeginQuery - Issued a Begin on a non-oc
 CRenderContextDx11_SoftwareCommandLists::BeginQuery - Issued on an in-progress query!\n
 CRenderContextDx11_SoftwareCommandLists::CopyTextureUsingShaders
 CRenderContextDx11_SoftwareCommandLists::EndQuery - Bad query or D3D device\n
-CRenderContextDx11_SoftwareCommandLists::ForceFlushGPU(2411): 
+CRenderContextDx11_SoftwareCommandLists::ForceFlushGPU(2413): 
 CRenderContextDx11_SoftwareCommandLists::ResolveUsingShaders
 CRenderContextDx11_SoftwareCommandLists::SetConstantBufferDataInternal
-CRenderDeviceBase::AsyncSetTextureData(3277): 
-CRenderDeviceBase::CreateConstantBuffer(1547): 
-CRenderDeviceBase::FindOrCreateTexture(1720): 
+CRenderDeviceBase::AsyncSetTextureData(3279): 
+CRenderDeviceBase::CreateConstantBuffer(1549): 
+CRenderDeviceBase::FindOrCreateTexture(1722): 
 CRenderDeviceBase::FindOrCreateTexture: Trying to load multiple mipmaps into 3d or array texture: %s\n
-CRenderDeviceBase::Flush(958): 
-CRenderDeviceBase::ForceFlushGPU(975): 
+CRenderDeviceBase::Flush(960): 
+CRenderDeviceBase::ForceFlushGPU(977): 
 CRenderDeviceBase::InitPerFrameMemoryStack
-CRenderDeviceBase::Present(681): 
-CRenderDeviceBase::ProcessPendingAsyncTextureUpdates(3410): 
+CRenderDeviceBase::Present(683): 
+CRenderDeviceBase::ProcessPendingAsyncTextureUpdates(3412): 
 CRenderDeviceDx11::CreateDefaultShaders
-CRenderDeviceDx11::DeleteQueryObject(3699): 
-CRenderDeviceDx11::DestroyIndexBuffer(3374): 
-CRenderDeviceDx11::DestroyVertexBuffer(3283): 
+CRenderDeviceDx11::DeleteQueryObject(3707): 
+CRenderDeviceDx11::DestroyIndexBuffer(3382): 
+CRenderDeviceDx11::DestroyVertexBuffer(3291): 
 CRenderDeviceDx11::EndQuery - Issued on an in-progress query!\n
 CRenderDeviceDx11::GetCopyWithFlipPixelShader
 CRenderDeviceDx11::GetResolvePixelShader
 CRenderDeviceDx11::ProcessCompileShaderJob
-CRenderDeviceDx11::QueueReleaseShader(2621): 
-CRenderDeviceDx11::ReadTexturePixels(1653): 
-CRenderDeviceDx11::ResizeEngineWindow(4087): 
+CRenderDeviceDx11::QueueReleaseShader(2629): 
+CRenderDeviceDx11::ReadTexturePixels(1661): 
+CRenderDeviceDx11::ResizeEngineWindow(4095): 
 CRenderDeviceDx11::SetHardwareGammaRamp: Unable to set gamma controls!\n
 CRenderDeviceDx11::SetMode: Previous mode has not been shut down!\n
 CRenderDeviceMgrDx11::Init
@@ -774,7 +695,7 @@ CTSQueue<struct DynamicVertexBufferHandle_t__ *,0>::CTSQueue
 CTSQueue<struct DynamicVertexBufferHandle_t__ *,0>::Push
 CTSQueue<struct QueuedDisplayListItem_t,0>::CTSQueue
 CTSQueue<struct QueuedDisplayListItem_t,0>::Push
-CTextureDx11::ReleaseD3DTexture(940): 
+CTextureDx11::ReleaseD3DTexture(962): 
 CTextureManagerBase::AllocTextureSlot
 CTextureManagerBase::AsyncHookUpTextureBits
 CTextureManagerBase::MN_BuildRequestedResourcesList
@@ -785,7 +706,7 @@ CTextureManagerBase::MarkAsyncUpdatedThisFrame - Invalid texture handle.\n
 CTextureManagerBase::PreloadTextureBits
 CTextureManagerBase::RemoveTextureFromAnyQueues
 CTextureManagerBase::WasAsyncUpdatedThisFrame - Invalid texture handle.\n
-CTextureManagerDx11::ComputeTextureObject(1479): 
+CTextureManagerDx11::ComputeTextureObject(1502): 
 CTextureManagerDx11::ComputeTextureObject: Tried to create a depth-stencil texture which is *not* a render target!\n
 CTextureStreamingHelper::LoadExplicitlyRequestedTextures
 CTextureStreamingHelper::RemoveMipLevelsForTextures
@@ -829,7 +750,6 @@ CUtlStringToken
 CUtlSymbol
 CUtlSymbolLarge
 CUtlVector
-CWD>~3
 CalibrationIlluminant1
 CalibrationIlluminant2
 CameraCalibration1
@@ -857,6 +777,7 @@ ClearLayout
 Clearing TEXTURE_WAITING_FOR_IO flag because it's has no streaming request id anymore\n
 ClipPath
 CloseHandle
+CloseServiceHandle
 Closed temporary file %s
 Color
 ColorMap
@@ -964,6 +885,9 @@ D3DERR_UNSUPPORTEDFACTORVALUE
 D3DERR_UNSUPPORTEDTEXTUREFILTER
 D3DERR_WRONGTEXTUREFORMAT
 D3DGetInputSignatureBlob
+D3DKMTEnumAdapters2
+D3DKMTEnumAdapters3
+D3DKMTQueryAdapterInfo
 D3DKMTQueryStatistics
 D3DOK_NOAUTOGEN
 D3DPERF_BeginEvent
@@ -1024,11 +948,9 @@ DrawIndexedInstancedIndirect failed - invalid drawarg buffer\n.
 DumpModeDecode: Not enough data for scanline %d
 Dx10 Driver!\n
 Dynamically adjust texture streaming budget based on GPU memory usage.
-E>nEA
 ERROR! D3D call failed! hr = %s ( %s )\n
 ERROR!!! 
 ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!\n
-ET5>
 EXECUTABLE_PATH
 EXECUTION
 EXIFIFDOffset
@@ -1037,12 +959,10 @@ EXRHeader variable is not initialized.
 EXRReadFile() - B channel not found!\n
 EXRReadFile() - G channel not found!\n
 EXRReadFile() - R channel not found!\n
-E[\rn?gc
 E_FAIL
 E_INVALIDARG
 E_OUTOFMEMORY
 EconItemToolModel_001
-EiUL
 Empty
 Empty JPEG image (DNL not supported)
 Empty input file
@@ -1079,10 +999,7 @@ Experimental: Set to 1 to enable full GPU pipeline flushing after each command l
 Experimental: Set to 1 to enable full GPU pipeline flushing after each present.
 Experimental: Set to 1 to use the ID3D11DeviceContext11::Flush() to flush the GPU pipeline instead of queries.
 ExtraSamples
-F>qUxv
 FATAL ERROR: unable to register all schema data: %s\n
-FEMh\f
-F\frp
 Failed AllocateTexture for '%s'\n
 Failed to allocate field info array
 Failed to allocate memory for %s (%ld elements of %ld bytes each)
@@ -1117,7 +1034,6 @@ FaxRecvParams
 FaxRecvTime
 FaxSubAddress
 February
-FfW?
 FieldOfViewCotangent
 File not open for reading
 FileKeys
@@ -1162,7 +1078,6 @@ FreeOffsets
 Freed EMS handle %u
 Freed XMS handle %u
 Friday
-G>US
 GAME
 GAMECONSOLE
 GCTL
@@ -1173,7 +1088,6 @@ GPU reports %dMB available memory which is too low, using %d MB\n
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameUIService_001
-Gc:\buildslave\hlvr_rel_win64\build\src\tier1\mempool.cpp
 GetACP
 GetCPInfo
 GetCPUInformation
@@ -1187,10 +1101,13 @@ GetCurrentThreadId
 GetDateFormatEx
 GetDefaultMiniDumpTypeFlags
 GetEnvironmentStringsW
+GetFileAttributesW
 GetFileType
+GetFullPathNameW
 GetLastError
 GetLocaleInfoEx
 GetLocaleInfoW
+GetModuleFileNameA
 GetModuleFileNameExA
 GetModuleFileNameW
 GetModuleHandleExW
@@ -1228,8 +1145,6 @@ GrayResponseCurve
 GrayResponseUnit
 Group3Options
 Group4Options
-H$6t
-H*0"ZOW
 HH:mm:ss
 HIGHDPI
 HRESULT from ID3D11DeviceContext::Map = %x\n
@@ -1260,8 +1175,6 @@ INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID_MORPH_VERT_ID
 INPUT_LAYOUT_VARIATION_STREAM1_MAT3X4
 IQuickTime001
 ISO JBIG
-IiGM>nw
-Il?333333c?
 Image data size is zero or too large: width = 
 Image too wide for this implementation
 ImageDepth
@@ -1294,6 +1207,7 @@ Insufficient data size in offset table.
 Insufficient data size.\n
 Insufficient header/data size.\n
 Insufficient memory (case %d)
+Integer overflow in %s
 Intentionally vague touch behavior for %p\n
 InterlockedFlushSList
 Internal error, unknown tag 0x%x
@@ -1350,8 +1264,6 @@ KeyValueCache001
 KeyValues Error: %s in file %s\n
 KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s\n
 KeyValuesSystem
-L>ev
-L?UUUUUUU?
 LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
@@ -1371,8 +1283,6 @@ LINEAR_RGBA8888
 LINUX
 LOG_GENERAL
 LOWVIOLENCE
-LWG>
-LWW>
 LZWDecode: Bogus encoding, loop in the code table; scanline %d
 LZWDecode: Corrupted LZW table at scanline %d
 LZWDecode: Not enough data at scanline %d (short %ld bytes)
@@ -1410,10 +1320,8 @@ LogLuvInitState
 LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
 LoggingSystem_RegisterLoggingChannel
-M8MF
 MATCHFRAMEWORK_001
 MAX_ALLOC_CHUNK is wrong, please fix
-MGiI
 MISCELLANEOUS
 MM/dd/yy
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
@@ -1435,7 +1343,6 @@ MaxSampleValue
 Maximum device access threads: %u\n
 Maximum resolution for top mip level in streaming textures. -1 = ignored.
 Maximum supported image dimension is %u pixels
-MbP?{
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 Merging CCITT Fax 3 codec-specific tags failed
@@ -1455,15 +1362,10 @@ Model
 ModelDocUtils001
 Monday
 MultiByteToWideChar
-N3`d?
-N>O=I9
-N>VF
 NAN(IND)
 NAN(SNAN)
-NJ2"v
 NO COMMAND!
 NOT 
-NQ?s
 NULL
 NUM_SAMPLES
 NVIDIA MultiGPU Rendering - Device created\n
@@ -1473,6 +1375,7 @@ NVIDIA MultiGPU Rendering - Found %d GPUs, using %d GPUs\n
 NVIDIA MultiGPU Rendering - Found support, but not enabled yet\n
 NVIDIA MultiGPU Rendering - MultiGPUDevice version %d != %d\n
 NVIDIA MultiGPU Rendering - NvAPI_D3D11_CreateMultiGPUDevice() failed with error %s\n
+NVIDIA VRWorks - NvAPI_D3D_RegisterDevice() failed with error %s\n
 NV_DST16
 NV_DST24
 NV_INTZ
@@ -1510,11 +1413,9 @@ Not enough
 Not implemented yet
 November
 NumberOfInks
-O*9y]
+NvAPI_D3D11_CreateShadingRateResourceView( D3D11Device(), pTextureDx11, &srrvDesc, &m_pShadingRateResourceView )
 OUTSTANDING_HOOKUP_REQUEST 
 OVER_BUDGET
-OZQ%
-OZw3(?
 Obtained EMS handle %u
 Obtained XMS handle %u
 October
@@ -1525,6 +1426,8 @@ One of the client procedures is NULL pointer.
 Only DXT1/DXT5 online texture compression supported.\n
 OpenGL
 OpenProcess
+OpenSCManagerW
+OpenServiceW
 OpenSharedResource failed with error 0x%08X\n
 Opened temporary file %s
 Ordered constructor wrapped type has no default constructor.\n\tYou must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.\n
@@ -1533,6 +1436,7 @@ OriginalRawFileData
 OriginalRawFileName
 Out of memory allocating %d byte temp buffer.
 Output file write error --- out of disk space?
+OutputDebugStringW
 Overall System GPU memory use:\n
 Overflow of the sheet cache texture. Releasing and starting over. This is ok in asset browser, not so ok if the game is triggering this!\n
 Overflow of the sheet cache texture: Try increasing SheetCacheTextureRows in gameinfo.gi (current value %d)!\n
@@ -1553,7 +1457,6 @@ PanoramaUIClient001
 PanoramaUIEngine001
 ParseEXRHeaderFromMemory() failed! Error message: %s\n
 ParticleSystemMgr003
-Pe6^
 Photometric tag is missing, assuming data is YCbCr
 Photometric tag value assumed incorrect, assuming data is YCbCr instead of RGB
 PhotometricInterpretation
@@ -1611,24 +1514,22 @@ Prints out live D3D11 objects (requires -dx11debug)
 Prints out stats for the DX11 Texture Object Pool
 PropertyEditorSystem_001
 Q2XXR
-Q5rHg,>
-QAf?
 QAngle
-Qkkbal
 Quantization table 0x%02x was not defined
 Quantizing to %d = %d*%d*%d colors
 Quantizing to %d colors
 Quaternion
 QueryPerformanceCounter
+QueryServiceConfigW
 QueuedLoaderVersion001
 R11_EAC
 R16F
 R16F_EXPAND
-R1h58
 R32F
 R32_UINT
 R8G8B8A8_ETC2_EAC
 R8G8B8_ETC2
+R8_UINT
 RENDER_BUFFER_APPEND_CONSUME_BUFFER
 RENDER_BUFFER_BYTEADDRESS_BUFFER
 RENDER_BUFFER_STRUCTURED_BUFFER
@@ -1720,7 +1621,6 @@ RGBA8888
 RGBA8888_LINEAR
 RGBX555
 RGBX8888
-RSDS
 RST%d
 RadianEuler
 RaiseException
@@ -1740,6 +1640,10 @@ Reduce texture memory pool size when this percentage of the budget is full.
 ReductionMatrix1
 ReductionMatrix2
 ReferenceBlackWhite
+RegCloseKey
+RegEnumValueW
+RegOpenKeyExW
+RegQueryValueExW
 RegisterConfigValue: Unknown error constructing config value "%s"!\n
 RegisterStringToken
 Registering anonymous field with tag %d (0x%x) failed
@@ -1792,8 +1696,6 @@ RtlPcToFileHeader
 RtlUnwind
 RtlUnwindEx
 RtlVirtualUnwind
-S9>H
-S>$hkDh$h>[2
 SGILog
 SGILog compression cannot handle non-contiguous data
 SGILog compression supported only for %s, or raw data
@@ -1801,7 +1703,7 @@ SGILog24
 SGILogDataFmt
 SGILogEncode
 SHADER_MODEL_4
-SKyu
+SHGetFolderPathW
 SMaxSampleValue
 SMinSampleValue
 SSE and SSE2 are required.
@@ -1841,6 +1743,13 @@ SetUnhandledExceptionFilter
 Setting max texture resolution to: %dx%d\n
 Setting texture pool size from available GPU memory: %.2f GB
 Setting up field info failed
+SetupDiDestroyDeviceInfoList
+SetupDiEnumDeviceInfo
+SetupDiGetClassDevsW
+SetupDiGetDeviceInterfaceDetailW
+SetupDiGetDevicePropertyW
+SetupDiGetDeviceRegistryPropertyW
+SetupGetInfDriverStoreLocationW
 Shader compilation failed! Reported no errors.\n
 Shader compilation failed! Reported the following errors:\n%s\n
 ShadowScale
@@ -1923,6 +1832,7 @@ TSPEC_CUBE_CAN_SAMPLE_AS_ARRAY
 TSPEC_CUBE_TEXTURE
 TSPEC_FLAGS
 TSPEC_FRAGMENT_DENSITY_MAP
+TSPEC_FRAGMENT_SHADING_RATE
 TSPEC_INPUT_ATTACHMENT
 TSPEC_LINEAR_ADDRESSING_360
 TSPEC_LINEAR_COLOR_SPACE
@@ -2000,7 +1910,6 @@ Trying to create a render target with invalid image format %s\n
 Trying to set dxlevel (%d) which is higher than the card can support (%d)!\n
 Trying to set dxlevel (%d) which is lower than the card can support (%d)!\n
 Tuesday
-UA>N0Wl
 UNKNOWN
 UPDATE_STRING_TOKEN_DATABASE
 UUUUUU
@@ -2117,13 +2026,14 @@ V_vsnprintf
 V_vsnprintfSize
 V_wcstod
 V_wcstoi64
-Vc0a
 VeaFOfb
 Vector
 Vector2D
 Vector4D
 VectorAligned
 VendorID
+VerSetConditionMask
+VerifyVersionInfoW
 Version
 VertexShader_t::CreateVertexShaderInputParameters
 Video Card %s (%04x : %04x)\n
@@ -2136,10 +2046,10 @@ Vulkan
 WAITING_FOR_HOOKUP_JOB 
 WAITING_FOR_IO 
 WARNING: Trying to create a CRenderContextPtr without a valid context.\n
+WIN32
 WINDOWS
 WINXP
 WITHIN_BUDGET
-WaNd?
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning
@@ -2164,7 +2074,6 @@ Write to XMS failed
 WriteConsoleW
 WriteFile
 Wrong JPEG library version: library is %d, caller expects %d
-X/4B
 X360
 X360_DST16
 X360_DST24
@@ -2175,9 +2084,6 @@ XPosition
 XResolution
 XYZ, Luv
 Xbox 360
-XsBI
-Y8a:
-Y>kX>M
 YCbCrCoefficients
 YCbCrPositioning
 YCbCrSubsampling
@@ -2185,7 +2091,6 @@ YClipPathUnits
 YPosition
 YResolution
 YpU_Z
-Z@&LHA'\r:C(
 ZFP compression is not supported.
 ZIPDecode
 ZIPEncode
@@ -2193,31 +2098,12 @@ ZIPPostEncode
 ZIPSetupDecode
 ZIPSetupEncode
 ZIPVSetField
-Z\>z8
-Zjz\v
 Zpm"U
-[*ncd>0
-[aOni*{
-[h1R
+\mfpmp.exe
 \nIHDRPLTEIDATIENDtRNScHRMgAMAiCCPsBITsRGBtEXtzTXtiTXtbKGDhISTpHYssPLTtIMEoFFseXIf
-\nh?oT
-\nk>oB
-\r\f\v\v\n\n\t\t\t\t\t
-\rmj>zjZ
-\t9sv
-\tN1a
-\t\t\n\n\v\v\f\f\f\f\r\r\r\r
-\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tGetProfile_ultrafast
-\tcQr
-\tkE>fvw
 \tpSubResource[ array %d mip %d ]: pSysMem = %p sysMemPitch = %d SysMemSlicePitch = %d\n
 \tpTextureBitsData = %p\n
-\vA03>A|
-]u9g
-^<V7w
-^RfN>
-^oEZ_
 _DOD3D
 _RDATA
 _TIFFMergeFieldInfo
@@ -2247,7 +2133,6 @@ _cabs
 _hypot
 _logb
 _nextafter
-_oD>Kg
 _tools.txt
 `RTTI
 `anonymous namespace'
@@ -2285,7 +2170,6 @@ _tools.txt
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
-a6>r
 abcdefghijklmnopqrstuvwxyz
 acos
 address family not supported
@@ -2300,6 +2184,7 @@ argument out of domain
 asin
 atan
 atan2
+ati_compress_wrapper.dll
 bad address
 bad allocation
 bad array new length
@@ -2356,11 +2241,11 @@ c:\buildslave\hlvr_rel_win64\build\src\rendersystem\texturebase.cpp(2938):Resour
 c:\buildslave\hlvr_rel_win64\build\src\rendersystem\texturebase.cpp(2949):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
 c:\buildslave\hlvr_rel_win64\build\src\rendersystem\texturestreaminghelper.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\configvalue.cpp
+c:\buildslave\hlvr_rel_win64\build\src\tier1\mempool.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\stringpool.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\utlbuffer.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\utlstring.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier2\schemabindings.cpp
-c?FA@s}
 cannot read TIFF_ANY type %d for field "%s"
 ceil
 cfg/video_version.txt
@@ -2384,11 +2269,6 @@ cross device link
 d3d11.dll
 d3d9.dll
 d3d_max_feature_level
-d8-t
-d8L2
-d?000000`?
-dQy/
-dRL>
 data error
 data height too large.
 data width or data height is negative.
@@ -2406,16 +2286,10 @@ dxgi.dll
 dxsupport
 dxsupport.cfg
 e+000
-eF>t
-eLK(w
 error
 error creating copy/flip shader
 error creating resolve shader for %d sampels
-ewh/?y
 executable format error
-fD>b
-fP~V
-fWi?
 fabs
 failed to convert pixels in readtexturepixels, fmt=%d\n
 false
@@ -2438,22 +2312,15 @@ for field info array
 for strip array
 fraps64.dll
 frexp
-fu`z
 function not supported
 g_Mathlib_GammaToLinearByteTable
 g_VProfCurrentProfile
 g_pMemAlloc
 g_pThreadPool
 gdi32.dll
-gqr<
-h0'D
-h>1my
-hPU3
 header crc mismatch
 horizontal differencing 
 host unreachable
-i91k
-i]Wb
 identifier removed
 illegal byte sequence
 immediate
@@ -2492,17 +2359,12 @@ iostream stream error
 is a directory
 ispc_texcomp.dll
 j'Vlk
-k=yI
 kernel32.dll
-l6qnk
-lDa>
 ldexp
 lineOrder
 localize
 log10
-m?H7
-mG4>
-m\nXo
+logf
 m_Format
 m_Frames
 m_Images
@@ -2544,10 +2406,7 @@ min megatexels
 min_processor_count
 modf
 must be either LogLUV or LogL
-n$Kx
-n03>Pu
 nTries < 10000000
-n]?iJ
 name
 nan(ind)
 nan(snan)
@@ -2575,12 +2434,8 @@ not a stream
 not connected
 not enough memory
 not supported
+nvapi_Direct_GetMethod
 nvapi_QueryInterface
-nvapi_pepQueryInterface
-o9sp
-o?GS
-oI>O7
-obwQ4
 operation canceled
 operation in progress
 operation not permitted
@@ -2590,9 +2445,7 @@ operator
 operator "" 
 operator co_await
 operator<=>
-owM&
 owner dead
-p?ati_compress_wrapper.dll
 pDevice->CreateBuffer( &desc, NULL, &pD3dBuf )
 pDevice->CreateDepthStencilView( m_pDepthStencilTexture, &descDSV, &pView )
 pOutput->GetDesc( &desc )
@@ -2600,15 +2453,15 @@ permission denied
 pixelAspectRatio
 png/jpg
 position
+powf
 protocol error
 protocol not supported
+ps_%d_%d
 ps_4_0
 psapi.dll
 pseudo-
 psize
 purecall
-qS>g?h3
-r\tVr.>T
 r_defer_async_texture_updates
 r_draw_first_tri_only
 r_draw_instances
@@ -2671,11 +2524,10 @@ resourcesystem
 restrict(
 result out of range
 rs_submit_twice
-ru&o
-sAmTb
 scanline
 screenWindowCenter
 screenWindowWidth
+sequence number %d too low in sheet file!!!\n
 setting.
 setting.CentroidHack
 setting.DXLevel
@@ -2756,9 +2608,6 @@ unknown header flags set
 unrec stream cmd %d %x\n
 uvCropped
 uvUncropped
-uzKs@>
-v2!L.2
-vQO+t
 value too large
 vb_created_input_layout
 vector too long
@@ -2767,15 +2616,9 @@ video.cfg
 video_version
 vr_multigpu_skip_semaphores
 vr_multigpu_skip_transfers
+vs_%d_%d
 vs_4_0
 vstdlib
 vstdlib.dll
-w+OQvr
-w3Xc
-wXR\r
-wn>Jj
+wine_get_version
 wrong protocol type
-xT?V
-y6uHI
-y9*O
-{kHw

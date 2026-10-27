@@ -1,8 +1,6 @@
                           
     <ui language="c++">        <widget class="QDeclarativeView" name="declarativeView">            <property name="geometry">                <rect>                    <x>0</x>                    <y>0</y>                    <width>300</width>                    <height>200</height>                </rect>            </property>        </widget>    </ui>
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -13,10 +11,7 @@
  new
  throw(
  volatile
-$?scrollContentsBy@QGraphicsView@@MEAAXHH@Z
-(/?styleChange@QWidget@@MEAAXAEAVQStyle@@@Z
 ,<ellipsis>
--?showEvent@QGraphicsView@@MEAAXPEAVQShowEvent@@@Z
 .?AVDNameNode@@
 .?AVDNameStatusNode@@
 .?AVQAbstractScrollArea@@
@@ -33,11 +28,6 @@ $?scrollContentsBy@QGraphicsView@@MEAAXHH@Z
 .?AVpcharNode@@
 .?AVtype_info@@
 .mixcrt
-/?tabletEvent@QWidget@@MEAAXPEAVQTabletEvent@@@Z
-1\r5#t
-5?wheelEvent@QGraphicsView@@MEAAXPEAVQWheelEvent@@@Z
-5?winEvent@QWidget@@MEAA_NPEAUtagMSG@@PEAJ@Z
-5?windowActivationChange@QWidget@@MEAAX_N@Z
 <ellipsis>
 <program name unknown>
 <widget class="%1" name="%2"/>
@@ -47,9 +37,12 @@ $?scrollContentsBy@QGraphicsView@@MEAAXHH@Z
 ??0QObject@@QEAA@PEAV0@@Z
 ??1QDeclarativeView@@UEAA@XZ
 ??1QObject@@UEAA@XZ
+?actionEvent@QWidget@@MEAAXPEAVQActionEvent@@@Z
 ?arg@QString@@QEBA?AV1@AEBV1@HAEBVQChar@@@Z
+?changeEvent@QFrame@@MEAAXPEAVQEvent@@@Z
 ?changeGuard@QMetaObject@@SAXPEAPEAVQObject@@PEAV2@@Z
 ?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
+?closeEvent@QWidget@@MEAAXPEAVQCloseEvent@@@Z
 ?connectNotify@QObject@@MEAAXPEBD@Z
 ?contextMenuEvent@QGraphicsView@@MEAAXPEAVQContextMenuEvent@@@Z
 ?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
@@ -96,16 +89,29 @@ $?scrollContentsBy@QGraphicsView@@MEAAXHH@Z
 ?paintEvent@QDeclarativeView@@MEAAXPEAVQPaintEvent@@@Z
 ?paletteChange@QWidget@@MEAAXAEBVQPalette@@@Z
 ?qt_metacall@QDeclarativeView@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacast@QDeclarativeView@@UEAAPEAXPEBD@Z
+?qt_metacast@QObject@@UEAAPEAXPEBD@Z
+?releaseDC@QWidget@@UEBAXPEAUHDC__@@@Z
+?removeGuard@QMetaObject@@SAXPEAPEAVQObject@@@Z
 ?resizeEvent@QDeclarativeView@@MEAAXPEAVQResizeEvent@@@Z
+?scrollContentsBy@QGraphicsView@@MEAAXHH@Z
 ?setRootObject@QDeclarativeView@@MEAAXPEAVQObject@@@Z
+?setVisible@QWidget@@UEAAX_N@Z
 ?shared_null@QString@@0UData@1@A
+?showEvent@QGraphicsView@@MEAAXPEAVQShowEvent@@@Z
 ?sizeHint@QDeclarativeView@@UEBA?AVQSize@@XZ
 ?staticMetaObject@QObject@@2UQMetaObject@@B
+?styleChange@QWidget@@MEAAXAEAVQStyle@@@Z
+?tabletEvent@QWidget@@MEAAXPEAVQTabletEvent@@@Z
 ?timerEvent@QDeclarativeView@@MEAAXPEAVQTimerEvent@@@Z
 ?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
 ?toLower@QString@@QEBA?AV1@XZ
 ?tr@QMetaObject@@QEBA?AVQString@@PEBD0@Z
+?viewportEvent@QGraphicsView@@MEAA_NPEAVQEvent@@@Z
+?wheelEvent@QGraphicsView@@MEAAXPEAVQWheelEvent@@@Z
+?winEvent@QWidget@@MEAA_NPEAUtagMSG@@PEAJ@Z
+?windowActivationChange@QWidget@@MEAAX_N@Z
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.DLL
 April
@@ -133,7 +139,6 @@ FreeEnvironmentStringsA
 FreeEnvironmentStringsW
 FreeLibrary
 Friday
-G5?viewportEvent@QGraphicsView@@MEAA_NPEAVQEvent@@@Z
 GetACP
 GetActiveWindow
 GetCPInfo
@@ -233,7 +238,6 @@ R6031\r\n- Attempt to initialize the CRT more than once.\nThis indicates a bug i
 R6032\r\n- not enough space for locale information\r\n
 R6033\r\n- Attempt to use MSIL code from this assembly during native code initialization\nThis indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.\r\n
 R6034\r\nAn application has made an attempt to load the C runtime library incorrectly.\nPlease contact the application's support team for more information.\r\n
-RSDS
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlUnwindEx
@@ -265,14 +269,7 @@ Wednesday
 WideCharToMultiByte
 WriteFile
 [thunk]:
-\\n?actionEvent@QWidget@@MEAAXPEAVQActionEvent@@@Z
-\f?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-\r?changeEvent@QFrame@@MEAAXPEAVQEvent@@@Z
-\r?closeEvent@QWidget@@MEAAXPEAVQCloseEvent@@@Z
-\r?qt_metacast@QObject@@UEAAPEAXPEBD@Z
-\r?removeGuard@QMetaObject@@SAXPEAPEAVQObject@@@Z
 \r\nThis application has requested the Runtime to terminate it in an unusual way.\nPlease contact the application's support team for more information.\r\n
-\t#?releaseDC@QWidget@@UEBAXPEAUHDC__@@@Z
 __based(
 __cdecl
 __clrcall
@@ -365,7 +362,6 @@ czech
 dddd, MMMM dd, yyyy
 double
 dutch-belgian
-e,?setVisible@QWidget@@UEAAX_N@Z
 england
 english-american
 english-aus

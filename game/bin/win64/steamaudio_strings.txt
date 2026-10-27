@@ -1,4 +1,5 @@
                 AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZ
+%.3f, 
 %i %i %i %i
 %lld
 %llu
@@ -11,7 +12,6 @@
 -sse2
 -sse3
 -sse4
-.0-G/0]T30
 .?AV?$CBaseAppSystem@VISteamAudio@@@@
 .?AV?$CSurfacePropDataTable@VCSteamAudioMaterial@@@@
 .?AV?$CTier0AppSystem@VISteamAudio@@@@
@@ -89,12 +89,9 @@
 /game/
 00000000-0000-0000-0000-000000000000
 1DBlend
-1Pl\v1
 2048
-2RD\n2
 30.0
 65536
-8P0`
 <!-- schema 
 <deferred>
 <no failure reason set>
@@ -119,14 +116,11 @@
 ?Set@CThreadEvent@@QEAA_NXZ
 ?SetExtension@CBufferString@@QEAAPEBDPEBD@Z
 ?StartsWith@CBufferString@@QEAA_NPEBD@Z
-?Truncated data
 ?TryLock@CThreadMutex@@QEAA_NPEBDH@Z
 ?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
 ?Wait@CThreadSyncObject@@QEAA_NI@Z
-?invalid_hitbox
-?vmdlkeys0
 AE_ACTION_SET_TURN_RATE_SCALE
 AE_BLIND_ZOMBIE_SNIFF
 AE_CL_ADD_PARTICLE_EFFECT_CP
@@ -199,7 +193,6 @@ AssetPreviewSystem_001
 AssetSystem001
 AssetSystemTest001
 AutoLayer
-B?33
 Bad header (unrecognized encoding specifier)
 Bad header format (expected ':'
 Bad header format (expected '<!--'
@@ -236,6 +229,7 @@ BreakPieceEmbedded
 BreakPieceExternal
 CAnimMotorList
 CAnimMovementManager
+CAuthPhysBody
 CAuthPhysJoint
 CGlobalConfigValueRegistry::HookUpConfigValue
 CKV3FormatManager::RegisterFormatConversion
@@ -359,7 +353,6 @@ Controls what phase is used when mix = 0. 0 = no phase, 1 = sphere ITD, 2 = full
 CreateInterface
 Cycle or diamond double-reference to '%s'
 CycleOverride
-D40K
 DebugTextureInfo001
 Decompression failure
 Default
@@ -368,7 +361,6 @@ Distance (in meters) that the listener must move before reverb is updated, if ca
 DotaCardGameClient_001
 Double-register of KV3 conversion (from '%s' to '%s')
 DynamicConfigList
-EV?V
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EconItemToolModel_001
 EditorDynamicConfig
@@ -402,7 +394,6 @@ FlattenedSerializersVersion001
 FontManager_001
 GAME
 GCTL
-GRegisterConfigValue: Unknown error constructing config value "%s"!\n
 GSFailure
 GameResourceServiceClientV001
 GameResourceServiceServerV001
@@ -470,7 +461,6 @@ Localize_001
 LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
 LoggingSystem_RegisterLoggingChannel
-LrwcE
 MATCHFRAMEWORK_001
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
@@ -543,7 +533,6 @@ Plat_SetDenormalsAreZero
 Plat_ShouldCollectMiniDumpsForFatalErrors
 Plat_UUIDFromString
 Plat_UUIDToString
-Po5H
 PostProcessingSystem_001
 PreviewAttachmentModel
 PreviewBoneAttachedModel
@@ -554,11 +543,10 @@ Probes: Filesystem not initialized.\n
 Probes: Mising baked reverb data - %s.\n
 Probes: Reverb needs to be baked before Path baking.\n
 PropertyEditorSystem_001
-Q8??5
 QueryPerformanceCounter
 QueuedLoaderVersion001
-RSDSE4
 RaiseException
+RegisterConfigValue: Unknown error constructing config value "%s"!\n
 RegisterStringToken
 Release
 ReleaseSRWLockExclusive
@@ -596,7 +584,6 @@ Reverb: Unable to load baked data file (%s).\n
 Reverb: Unavailable, reverb is not baked for this map.\n
 RtlPcToFileHeader
 RtlUnwindEx
-S+Ot
 SSE and SSE2 are required.
 SceneSystem_002
 SceneUtils_001
@@ -660,6 +647,7 @@ ToolSceneNodeFactory_001
 ToolScriptManager001
 ToolService_001
 Trailing Data
+Truncated data
 Two Bone
 Two KV3 format GUIDs with the same human-friendly name ('%s')
 UPDATE_STRING_TOKEN_DATABASE
@@ -686,7 +674,6 @@ Usage: snd_steamaudio_pathing_simplifypaths <0|1>.\n
 Usage: snd_steamaudio_reconstruction_method <0|1|2>.\n
 Usage: snd_steamaudio_use_hybrid_reverb <0|1>.\n
 UserInfoChangeService_001
-V2t<f2
 VApplication001
 VAvi001
 VBAllocTracker001
@@ -742,7 +729,6 @@ V_vsnprintfSize
 V_wcstod
 V_wcstoi64
 VisBuilder_001
-W1-x]1
 WakeAllConditionVariable
 Warning
 Warning:  %s = '%s' is infinite, clamping value.\n
@@ -752,7 +738,6 @@ WorldRendererBuilderMgr001
 WorldRendererMgr001
 \content\
 \game\
-\nCwf\r
 _V_strncmp
 _V_strncpy
 __oldschema_object_name
@@ -793,7 +778,6 @@ break_uniform_burst
 breakable_count
 breakable_model
 breakable_skin
-bt3V
 burst_randomize
 burst_scale
 c:\buildslave\hlvr_rel_win64\build\src\interfaces\interfaces.cpp
@@ -824,7 +808,6 @@ collision_prop
 composite
 control_point
 create_particle
-d0\f$f0
 damage
 debris
 default
@@ -889,6 +872,7 @@ hurt_them
 ikdata
 ikrig
 invalid_bone
+invalid_hitbox
 invalid_parameter
 invert_orientation
 iplAddProbeBatch
@@ -946,12 +930,9 @@ iplSetReverbTimeOverridesForConvolutionEffect
 iplSetValue
 iplSimulatePaths
 is_debris
-l0+!n0Z
 last_sniff
-lcQe
 length
 length_error
-lg?o
 lockRotationAlpha
 loop
 loop_break_on_damage
@@ -960,7 +941,6 @@ loop_in_action
 looping
 lowFreqAbsorption
 lowFreqTransmission
-mXr4
 m_Bone
 m_ChainData
 m_Children
@@ -1124,7 +1104,6 @@ modeldoc7
 modeldoc8
 modeldoc9
 multiplayer_break
-n\f"pA3Q
 name
 nav_attribute_avoid
 nav_data
@@ -1227,6 +1206,7 @@ vanmgrph
 vector too long
 version
 vmdl
+vmdlkeys0
 vmdlkeys1
 vmdlkeys2
 vmdlkeys3
@@ -1263,9 +1243,5 @@ vstdlib.dll
 width
 yaw_end
 yaw_start
-z:KCAuthPhysBody
-{2R7
-{YIN?
 {}[]()=&, \t\n'"*;
 {}[]=, \t\n'":|;
-}G1rGP1

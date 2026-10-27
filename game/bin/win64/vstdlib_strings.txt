@@ -1,7 +1,4 @@
                           
-                r
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  ( def. "%s" )
  Base Class Array'
  Base Class Descriptor at (
@@ -11,6 +8,8 @@
  [%.3f server clamped to %.3f]
  delete
  delete[]
+ max. %f
+ min. %f
  new
 "%s" = "%s"
 "%s","%s",%s,"%s"\n
@@ -18,24 +17,34 @@
 #base is NULL 
 #include
 #include is NULL 
+%%-%ds 
 %-120s - %s\n
 %-120s\n
+%-32s    
+%-32s\n
 %-4d    %-32s    %-10s    
 %-4s    %-32s    %-10s    %-10s    %-32s    %-32s\n
+%-8.3f
 %-80s : %-16s : %-32s : %s\n
+%-8i
 %f %f %f %f
 %i %i %i %i
 %lld
 %llu
+%p::%p:%d
+%s %c%s
+%s %d
+%s %s
 %s %s %s %s\n
 %s %s -nominidumps
 %s not implemented right now\n
+%s%d
+%s%s
 %s%s_%d_%02d%02d_%02d%02d%02d_%d.mdmp
 %s: string format requested %d chars\n
 (main)
 (no name set)
 (none)
-*StO9>T
 ----------------------------------------------------------------------------------------------------------------------------------------------------\n
 --------------\n%3i convars/concommands for [%s]\n
 --------------\n%3i total convars/concommands\n
@@ -180,20 +189,12 @@
 .tls
 .tls$
 .tls$ZZZ
-.xJ>Hf
 .xdata
 .xdata$x
 0123456789abcdef
-0iN>/
 0x%016llX
-11Y@
-2\vpl?
-37>k
-3>N;kU
-3>fvw
-5\fU54d
+0x%08X    
 </script>
-<333?
 <NULL>
 <deferred>
 <invalid handle>
@@ -201,11 +202,6 @@
 <unconnected>
 <unknown>
 <unspecified>
-=cQ6
-=imb;D
->cQ6
->jtm}S
-?7zQ6$
 ??0CGaussianRandomStream@@QEAA@PEAVIUniformRandomStream@@@Z
 ??0CThreadEvent@@QEAA@PEBD_N1@Z
 ??0CThreadEvent@@QEAA@_N@Z
@@ -284,7 +280,6 @@
 ?ThreadMultiWaitObjectSetCreate@@YAPEAUThreadMultiWaitObjectSet_t@@PEBQEAXPEBUThreadMultiWaitExtra_t@@H@Z
 ?TryLock@CThreadFastMutex@@QEAA_NPEBDH@Z
 ?TryLock@CThreadMutex@@QEAA_NPEBDH@Z
-?UUUUUU
 ?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadFullMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
@@ -303,10 +298,6 @@
 ?V_wcsistr@@YAPEB_WPEB_W0@Z
 ?Wait@CThreadSyncObject@@QEAA_NI@Z
 ?WaitForCreateComplete@CThread@@MEAA_NPEAVCThreadEvent@@@Z
-?f`Y4
-?qBJ
-?ysB
-A>pP&
 AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZ
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ACCESSIBLE_FROM_THREADS
@@ -339,8 +330,6 @@ Attempted to set unknown configuration value %s!\n
 Attempted to set unknown configuration value!\n
 August
 Available flags to search for: \n
-BC?>6t9^\tc:>
-BF>^G
 Bad expression operator: '%c%c', expected C style boolean expression operator.
 Bad expression syntax: '%s', expected a single matching pair of enclosing braces.
 Bad expression token: %c
@@ -495,7 +484,6 @@ ENGLISH
 ERROR: EnsureChildProcessKillOnParentEnd() - Failed to assign child process to shared job object. OS error message:\n\t"%s"\n
 ERROR: EnsureChildProcessKillOnParentEnd() - Failed to create shared job object. OS error message:\n\t"%s"\n
 ERROR: EnsureChildProcessKillOnParentEnd() - Failed to set flags on shared job object. OS error message:\n\t"%s"\n
-ET5>
 EXECUTE_PER_TICK
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EconItemToolModel_001
@@ -634,7 +622,6 @@ KeyValueCache001
 KeyValues Error: %s in file %s\n
 KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s\n
 KeyValuesSystem
-L>ev
 LCMapStringEx
 LCMapStringW
 LINKED_CONCOMMAND
@@ -693,7 +680,6 @@ NetworkSystemUtilsVersion001
 NetworkSystemVersion001
 Not continuing coroutine due to g_bPreventCoroutineContinue, %s\n
 November
-OZQ%
 October
 Ordered constructor wrapped type has no default constructor.\n\tYou must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.\n
 Out of keyvalue string space
@@ -744,9 +730,7 @@ RELEASE
 RELOAD_MATERIALS
 RELOAD_TEXTURES
 REPLICATED
-RSDS
 RUSSIAN
-R\fpl?
 RaiseException
 RandomFloat
 RandomFloatExp
@@ -793,7 +777,6 @@ RtlVirtualUnwind
 RunTSListTests
 RunTSQueueTests
 RunThreadPoolTests
-S9>H
 SCHINESE
 SERVER_CANNOT_QUERY
 SERVER_CAN_EXECUTE
@@ -1058,9 +1041,10 @@ X360LODEF
 X360SPLITSCREEN
 X360WIDE
 [%f %f %f %f]
+[%f %f %f]
+[%f %f]
 [ConsoleOnly]
 [DoNotEcho]
-\tkE>fvw
 _RDATA
 _V_MakeAbsolutePath
 _V_strncat
@@ -1183,7 +1167,6 @@ differences
 disconnected
 donotecho
 dupe
-eF>t
 english
 error
 essential
@@ -1221,9 +1204,7 @@ log_flags
 log_level
 log_level is deprecated, please use log_verbosity. Severity '%s' translates to verbosity '%s'.\n
 log_verbosity
-mG4>
 machine
-n03>Pu
 nTries < 10000000
 name
 no results\n
@@ -1245,10 +1226,7 @@ per-user
 print
 prot
 purecall
-p}?fff?
 qangle
-r\tVr.>T
-r\vpl?
 release
 reload_materials
 reload_textures
@@ -1274,7 +1252,6 @@ uint64
 unit test
 unknown
 user
-uzKs@>
 value
 vconsole_fuzzy
 vconsole_set_focus

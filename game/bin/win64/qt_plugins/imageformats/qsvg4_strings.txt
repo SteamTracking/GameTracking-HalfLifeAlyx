@@ -1,7 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -12,13 +10,7 @@
  new
  throw(
  volatile
-#?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
-%?rgba@QColor@@QEBAIXZ
-(?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
-)?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
-)?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
 ,<ellipsis>
--64OS
 .?AUQFactoryInterface@@
 .?AUQImageIOHandlerFactoryInterface@@
 .?AVQImageIOHandler@@
@@ -36,14 +28,10 @@
 1#INF
 1#QNAN
 1#SNAN
-6&?scale@QTransform@@QEAAAEAV1@NN@Z
-6?translate@QTransform@@QEAAAEAV1@NN@Z
-8?write@QImageIOHandler@@UEAA_NAEBVQImage@@@Z
 <?xml
 <ellipsis>
 <svg
 <unknown>
-=\r?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
 ??0QByteArray@@QEAA@PEBD@Z
 ??0QColor@@QEAA@W4GlobalColor@Qt@@@Z
 ??0QImage@@QEAA@AEBVQSize@@W4Format@0@@Z
@@ -94,8 +82,10 @@
 ?free@QString@@CAXPEAUData@1@@Z
 ?fromLatin1_helper@QString@@CAPEAUData@1@PEBDH@Z
 ?fromRawData@QByteArray@@SA?AV1@PEBDH@Z
+?handler@QVariant@@1PEBUHandler@1@EB
 ?imageCount@QImageIOHandler@@UEBAHXZ
 ?invalidate@QColor@@AEAAXXZ
+?isReadable@QIODevice@@QEBA_NXZ
 ?jumpToImage@QImageIOHandler@@UEAA_NH@Z
 ?jumpToNextImage@QImageIOHandler@@UEAA_NXZ
 ?load@QSvgRenderer@@QEAA_NAEBVQByteArray@@@Z
@@ -104,18 +94,30 @@
 ?mapRect@QTransform@@QEBA?AVQRectF@@AEBV2@@Z
 ?metaObject@QImageIOPlugin@@UEBAPEBUQMetaObject@@XZ
 ?nextImageDelay@QImageIOHandler@@UEBAHXZ
+?peek@QIODevice@@QEAA?AVQByteArray@@_J@Z
+?qFree@@YAXPEAX@Z
+?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
+?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
 ?readAll@QIODevice@@QEAA?AVQByteArray@@XZ
 ?removeGuard@QMetaObject@@SAXPEAPEAVQObject@@@Z
 ?render@QSvgRenderer@@QEAAXPEAVQPainter@@AEBVQRectF@@@Z
+?rgba@QColor@@QEBAIXZ
+?scale@QTransform@@QEAAAEAV1@NN@Z
+?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
 ?setDevice@QXmlStreamReader@@QEAAXPEAVQIODevice@@@Z
+?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
+?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
 ?shared_null@QListData@@2UData@1@A
 ?startsWith@QByteArray@@QEBA_NPEBD@Z
 ?staticMetaObject@QBuffer@@2UQMetaObject@@B
 ?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
 ?toRect@QVariant@@QEBA?AVQRect@@XZ
 ?toSize@QVariant@@QEBA?AVQSize@@XZ
+?translate@QTransform@@QEAAAEAV1@NN@Z
 ?userType@QVariant@@QEBAHXZ
 ?viewBox@QSvgRenderer@@QEBA?AVQRect@@XZ
+?write@QImageIOHandler@@UEAA_NAEBVQImage@@@Z
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 April
 August
@@ -137,7 +139,6 @@ FlsSetValue
 FreeEnvironmentStringsW
 FreeLibrary
 Friday
-G\t?handler@QVariant@@1PEBUHandler@1@EB
 GetACP
 GetActiveWindow
 GetCPInfo
@@ -169,7 +170,6 @@ GetUserDefaultLCID
 GetUserObjectInformationW
 GetVersion
 HH:mm:ss
-HMXB
 HeapAlloc
 HeapCreate
 HeapDestroy
@@ -199,7 +199,6 @@ March
 MessageBoxW
 Monday
 MultiByteToWideChar
-NKeb
 NULL
 Norwegian-Nynorsk
 November
@@ -210,14 +209,12 @@ QtSvg4.dll
 QtXml4.dll
 Qt_GetCustomAllocators
 QueryPerformanceCounter
-RSDS
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S;uD
 Saturday
 September
 SetConsoleCtrlHandler
@@ -237,8 +234,6 @@ Wednesday
 WideCharToMultiByte
 WriteFile
 [thunk]:
-\f?qFree@@YAXPEAX@Z
-\n?isReadable@QIODevice@@QEBA_NXZ
 __based(
 __cdecl
 __clrcall
@@ -347,7 +342,6 @@ english-us
 english-usa
 enum 
 extern "C" 
-f"?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 float
 french-belgian
 french-canadian
@@ -364,7 +358,6 @@ hong-kong
 int 
 irish-english
 italian-swiss
-kU'9
 long
 long 
 new-zealand
@@ -372,7 +365,6 @@ norwegian
 norwegian-bokmal
 norwegian-nynorsk
 operator
-p\f?peek@QIODevice@@QEAA?AVQByteArray@@_J@Z
 pattern=QT_PLUGIN_VERIFICATION_DATA\nversion=4.8.3\ndebug=false\nbuildkey=Windows x64 msvc release full-config
 portuguese-brazilian
 pr china
@@ -430,7 +422,5 @@ void
 volatile
 volatile 
 wchar_t
-z?aUY
-zc%C1
 {flat}
 {for 

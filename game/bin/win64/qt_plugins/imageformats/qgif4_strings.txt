@@ -1,7 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -12,10 +10,6 @@
  new
  throw(
  volatile
-#?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
-(?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
-)?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
-)?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
 ,<ellipsis>
 .?AUQFactoryInterface@@
 .?AUQImageIOHandlerFactoryInterface@@
@@ -30,12 +24,8 @@
 .?AVbad_typeid@std@@
 .?AVexception@std@@
 .?AVtype_info@@
-2\n0xy
-2\vpxy
 <ellipsis>
 <unknown>
-=\r?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
->\t?grow@QVectorData@@SAHHHH_N@Z
 ??0QByteArray@@QEAA@PEBD@Z
 ??0QImage@@QEAA@HHW4Format@0@@Z
 ??0QImage@@QEAA@XZ
@@ -58,6 +48,9 @@
 ?allocate@QVectorData@@SAPEAU1@HH@Z
 ?append@QByteArray@@QEAAAEAV1@AEBV1@@Z
 ?append@QListData@@QEAAPEAPEAXXZ
+?bits@QImage@@QEAAPEAEXZ
+?byteCount@QImage@@QEBAHXZ
+?bytesPerLine@QImage@@QEBAHXZ
 ?changeGuard@QMetaObject@@SAXPEAPEAVQObject@@PEAV2@@Z
 ?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
 ?connectNotify@QObject@@MEAAXPEBD@Z
@@ -73,19 +66,33 @@
 ?free@QString@@CAXPEAUData@1@@Z
 ?free@QVectorData@@SAXPEAU1@H@Z
 ?fromLatin1_helper@QString@@CAPEAUData@1@PEBDH@Z
+?grow@QVectorData@@SAHHHH_N@Z
 ?height@QImage@@QEBAHXZ
 ?isNull@QImage@@QEBA_NXZ
+?isReadable@QIODevice@@QEBA_NXZ
 ?jumpToImage@QImageIOHandler@@UEAA_NH@Z
 ?jumpToNextImage@QImageIOHandler@@UEAA_NXZ
 ?metaObject@QImageIOPlugin@@UEBAPEBUQMetaObject@@XZ
+?peek@QIODevice@@QEAA_JPEAD_J@Z
+?qFree@@YAXPEAX@Z
+?qWarning@@YAXPEBDZZ
+?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
+?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
+?read@QIODevice@@QEAA?AVQByteArray@@_J@Z
 ?reallocate@QVectorData@@SAPEAU1@PEAU1@HHH@Z
 ?remove@QByteArray@@QEAAAEAV1@HH@Z
 ?removeGuard@QMetaObject@@SAXPEAPEAVQObject@@@Z
+?scanLine@QImage@@QEAAPEAEH@Z
+?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
+?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
+?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
 ?shared_null@QByteArray@@0UData@1@A
 ?shared_null@QListData@@2UData@1@A
 ?shared_null@QString@@0UData@1@A
 ?shared_null@QVectorData@@2U1@A
 ?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
+?width@QImage@@QEBAHXZ
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 April
 August
@@ -98,7 +105,6 @@ EncodePointer
 EnterCriticalSection
 EnumSystemLocalesA
 ExitProcess
-F&?scanLine@QImage@@QEAAPEAEH@Z
 FatalAppExitA
 February
 FlsAlloc
@@ -180,7 +186,6 @@ QtCore4.dll
 QtGui4.dll
 Qt_GetCustomAllocators
 QueryPerformanceCounter
-RSDS4`
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -206,13 +211,6 @@ Wednesday
 WideCharToMultiByte
 WriteFile
 [thunk]:
-\f?qFree@@YAXPEAX@Z
-\n?isReadable@QIODevice@@QEBA_NXZ
-\r?qWarning@@YAXPEBDZZ
-\r?read@QIODevice@@QEAA?AVQByteArray@@_J@Z
-\t\r?byteCount@QImage@@QEBAHXZ
-\v\r?bytesPerLine@QImage@@QEBAHXZ
-\vpxy
 __based(
 __cdecl
 __clrcall
@@ -280,7 +278,6 @@ american
 american english
 american-english
 australian
-b\vp\n0
 bad exception
 belgian
 bool
@@ -321,7 +318,6 @@ english-us
 english-usa
 enum 
 extern "C" 
-f"?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 float
 french-belgian
 french-canadian
@@ -354,7 +350,6 @@ protected:
 public: 
 puerto-rico
 qI-Q
-q\f?peek@QIODevice@@QEAA_JPEAD_J@Z
 qgif4.dll
 qt_plugin_instance
 qt_plugin_query_verification_data
@@ -391,7 +386,6 @@ std::nullptr_t
 struct 
 swedish-finland
 swiss
-t\f?bits@QImage@@QEAAPEAEXZ
 template-parameter-
 tier0.dll
 trinidad & tobago
@@ -405,6 +399,5 @@ void
 volatile
 volatile 
 wchar_t
-{8?width@QImage@@QEBAHXZ
 {flat}
 {for 

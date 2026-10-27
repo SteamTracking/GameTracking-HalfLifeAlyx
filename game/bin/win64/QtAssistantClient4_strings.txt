@@ -1,7 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -10,7 +8,6 @@
  delete
  delete[]
  new
-+\n?isSequential@QProcess@@UBE_NXZ
 -file
 -server
 .?AVQAbstractSocket@@
@@ -27,15 +24,12 @@
 1socketConnected()
 1socketConnectionClosed()
 1socketError()
-2\r?readAllStandardError@QProcess@@QAE?AVQByteArray@@XZ
 2connected()
 2disconnected()
 2error(QAbstractSocket::SocketError)
 2error(QProcess::ProcessError)
 2readyReadStandardError()
 2readyReadStandardOutput()
-3\r?readAllStandardOutput@QProcess@@QAE?AVQByteArray@@XZ
-:\r?readData@QProcess@@MAE_JPAD_J@Z
 <program name unknown>
 ??0QAssistantClient@@QAE@ABVQString@@PAVQObject@@@Z
 ??0QFileInfo@@QAE@ABVQString@@@Z
@@ -89,20 +83,38 @@
 ?free@QString@@CAXPAUData@1@@Z
 ?fromLatin1@QString@@SA?AV1@PBDH@Z
 ?fromLatin1_helper@QString@@CAPAUData@1@PBDH@Z
+?isDir@QFileInfo@@QBE_NXZ
 ?isOpen@QAssistantClient@@QBE_NXZ
 ?isSequential@QAbstractSocket@@UBE_NXZ
+?isSequential@QProcess@@UBE_NXZ
+?kill@QProcess@@QAEXXZ
 ?metaObject@QAssistantClient@@UBEPBUQMetaObject@@XZ
+?metaObject@QProcess@@UBEPBUQMetaObject@@XZ
 ?metaObject@QTcpSocket@@UBEPBUQMetaObject@@XZ
+?node_create@QMapData@@QAEPAUNode@1@QAPAU21@HH@Z
+?node_delete@QMapData@@QAEXQAPAUNode@1@HPAU21@@Z
+?open@QIODevice@@UAE_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
 ?openAssistant@QAssistantClient@@UAEXXZ
+?pos@QIODevice@@UBE_JXZ
 ?procError@QAssistantClient@@AAEXW4ProcessError@QProcess@@@Z
+?qFree@@YAXPAX@Z
 ?qt_metacall@QAssistantClient@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+?qt_metacall@QObject@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+?qt_metacall@QProcess@@UAEHW4Call@QMetaObject@@HPAPAX@Z
 ?qt_metacall@QTcpSocket@@UAEHW4Call@QMetaObject@@HPAPAX@Z
 ?qt_metacast@QAssistantClient@@UAEPAXPBD@Z
+?qt_metacast@QObject@@UAEPAXPBD@Z
+?qt_metacast@QProcess@@UAEPAXPBD@Z
 ?qt_metacast@QTcpSocket@@UAEPAXPBD@Z
+?readAllStandardError@QProcess@@QAE?AVQByteArray@@XZ
+?readAllStandardOutput@QProcess@@QAE?AVQByteArray@@XZ
 ?readData@QAbstractSocket@@MAE_JPAD_J@Z
+?readData@QProcess@@MAE_JPAD_J@Z
 ?readLineData@QAbstractSocket@@MAE_JPAD_J@Z
+?readLineData@QIODevice@@MAE_JPAD_J@Z
 ?readPort@QAssistantClient@@AAEXXZ
 ?readStdError@QAssistantClient@@AAEXXZ
+?reset@QIODevice@@UAE_NXZ
 ?seek@QIODevice@@UAE_N_J@Z
 ?setArguments@QAssistantClient@@QAEXABVQStringList@@@Z
 ?setupChildProcess@QProcess@@MAEXXZ
@@ -140,7 +152,6 @@
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 April
 August
-C\r?readLineData@QIODevice@@MAE_JPAD_J@Z
 Cannot connect to Qt Assistant.
 Communication error
 CorExitProcess
@@ -271,17 +282,7 @@ VirtualFree
 Wednesday
 WideCharToMultiByte
 WriteFile
-[\f?qFree@@YAXPAX@Z
-\f?qt_metacall@QObject@@UAEHW4Call@QMetaObject@@HPAPAX@Z
-\f?qt_metacall@QProcess@@UAEHW4Call@QMetaObject@@HPAPAX@Z
-\f?qt_metacast@QObject@@UAEPAXPBD@Z
-\f?qt_metacast@QProcess@@UAEPAXPBD@Z
-\r?reset@QIODevice@@UAE_NXZ
 \r\nThis application has requested the Runtime to terminate it in an unusual way.\nPlease contact the application's support team for more information.\r\n
-\t?isDir@QFileInfo@@QBE_NXZ
-\v?metaObject@QProcess@@UBEPBUQMetaObject@@XZ
-\v?open@QIODevice@@UAE_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
-\v?pos@QIODevice@@UBE_JXZ
 __based(
 __cdecl
 __clrcall
@@ -342,16 +343,13 @@ mscoree.dll
 open
 openAssistant()
 operator
-p\n?kill@QProcess@@QAEXXZ
 page
 procError(QProcess::ProcessError)
 readPort()
 readStdError()
 runtime error 
-s\v?node_create@QMapData@@QAEPAUNode@1@QAPAU21@HH@Z
 showPage(QString)
 socketConnected()
 socketConnectionClosed()
 socketError()
-t\v?node_delete@QMapData@@QAEXQAPAUNode@1@HPAU21@@Z
 tier0.dll

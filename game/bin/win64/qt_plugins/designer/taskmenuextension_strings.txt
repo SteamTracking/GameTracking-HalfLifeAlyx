@@ -1,8 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- ?paletteChange@QWidget@@MEAAXAEBVQPalette@@@Z
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -13,21 +10,7 @@
  new
  throw(
  volatile
-"?qt_metacall@QVBoxLayout@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacall@QWidget@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacast@QAction@@UEAAPEAXPEBD@Z
-"?qt_metacast@QDialog@@UEAAPEAXPEBD@Z
-"?qt_metacast@QDialogButtonBox@@UEAAPEAXPEBD@Z
-#?qt_metacast@QWidget@@UEAAPEAXPEBD@Z
-$?reject@QDialog@@UEAAXXZ
-$?releaseDC@QWidget@@UEBAXPEAUHDC__@@@Z
-%?resizeEvent@QWidget@@MEAAXPEAVQResizeEvent@@@Z
-&"?qt_metacall@QAction@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-)?setGeometry@QBoxLayout@@UEAAXAEBVQRect@@@Z
-*?setLayout@QWidget@@QEAAXPEAVQLayout@@@Z
-+?setPen@QPainter@@QEAAXAEBVQPen@@@Z
 ,<ellipsis>
--64OS
 .?AVQAbstractExtensionFactory@@
 .?AVQAction@@
 .?AVQBoxLayout@@
@@ -53,40 +36,22 @@ $?releaseDC@QWidget@@UEBAXPEAUHDC__@@@Z
 .?AVbad_typeid@std@@
 .?AVexception@std@@
 .?AVtype_info@@
-.?setWindowTitle@QWidget@@QEAAXAEBVQString@@@Z
-.?showEvent@QDialog@@MEAAXPEAVQShowEvent@@@Z
-.?showEvent@QWidget@@MEAAXPEAVQShowEvent@@@Z
-/?spacerItem@QLayoutItem@@UEAAPEAVQSpacerItem@@XZ
-0?staticMetaObject@QWidget@@2UQMetaObject@@B
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-1?styleChange@QWidget@@MEAAXAEAVQStyle@@@Z
 1editState()
 1reject()
 1resetState()
 1saveState()
-2.?setVisible@QDialog@@UEAAX_N@Z
-2?takeAt@QBoxLayout@@UEAAPEAVQLayoutItem@@H@Z
-2\n0`r
-2\vpPu
-2\vp`r
 2accepted()
 2clicked()
 2rejected()
 2triggered()
-3/?sizeHint@QBoxLayout@@UEBA?AVQSize@@XZ
-30?staticMetaObject@QDialog@@2UQMetaObject@@B
-8?winEvent@QWidget@@MEAA_NPEAUtagMSG@@PEAJ@Z
-8?windowActivationChange@QWidget@@MEAAX_N@Z
-;"?qt_metacall@QDialog@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-<"?qt_metacall@QDialogButtonBox@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 <ellipsis>
 <ui language="c++">    <widget class="TicTacToe" name="ticTacToe"/>    <customwidgets>        <customwidget>            <class>TicTacToe</class>            <propertyspecifications>            <stringpropertyspecification name="state" notr="true" type="singleline"/>            </propertyspecifications>        </customwidget>    </customwidgets></ui>
 <unknown>
 <widget class="%1" name="%2"/>
-?.?setVisible@QWidget@@UEAAX_N@Z
 ??0QAction@@QEAA@AEBVQString@@PEAVQObject@@@Z
 ??0QBrush@@QEAA@W4GlobalColor@Qt@@W4BrushStyle@2@@Z
 ??0QChar@@QEAA@UQLatin1Char@@@Z
@@ -118,15 +83,22 @@ $?releaseDC@QWidget@@UEBAXPEAUHDC__@@@Z
 ??4QString@@QEAAAEAV0@$$QEAV0@@Z
 ??4QString@@QEAAAEAV0@PEBD@Z
 ??8QString@@QEBA_NAEBVQLatin1String@@@Z
+?accept@QDialog@@UEAAXXZ
+?actionEvent@QWidget@@MEAAXPEAVQActionEvent@@@Z
+?addItem@QBoxLayout@@UEAAXPEAVQLayoutItem@@@Z
+?addWidget@QBoxLayout@@QEAAXPEAVQWidget@@HV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
 ?append@QListData@@QEAAPEAPEAXXZ
 ?arg@QString@@QEBA?AV1@AEBV1@HAEBVQChar@@@Z
 ?at@QString@@QEBA?BVQChar@@H@Z
+?button@QDialogButtonBox@@QEBAPEAVQPushButton@@W4StandardButton@1@@Z
 ?cast@QMetaObject@@QEBAPEAVQObject@@PEAV2@@Z
+?changeEvent@QDialogButtonBox@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QWidget@@MEAAXPEAVQEvent@@@Z
 ?changeGuard@QMetaObject@@SAXPEAPEAVQObject@@PEAV2@@Z
+?childEvent@QLayout@@MEAAXPEAVQChildEvent@@@Z
 ?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
 ?closeEvent@QDialog@@MEAAXPEAVQCloseEvent@@@Z
 ?closeEvent@QWidget@@MEAAXPEAVQCloseEvent@@@Z
-?com.trolltech.Qt.Designer.TaskMenu
 ?connect@QObject@@SA_NPEBV1@PEBD01W4ConnectionType@Qt@@@Z
 ?connectNotify@QObject@@MEAAXPEBD@Z
 ?contains@QRect@@QEBA_NAEBVQPoint@@_N@Z
@@ -165,6 +137,7 @@ $?releaseDC@QWidget@@UEBAXPEAUHDC__@@@Z
 ?free@QString@@CAXPEAUData@1@@Z
 ?fromAscii_helper@QString@@CAPEAUData@1@PEBDH@Z
 ?fromLatin1_helper@QString@@CAPEAUData@1@PEBDH@Z
+?fromUtf8@QString@@SA?AV1@PEBDH@Z
 ?geometry@QLayout@@UEBA?AVQRect@@XZ
 ?getDC@QWidget@@UEBAPEAUHDC__@@XZ
 ?hasHeightForWidth@QBoxLayout@@UEBA_NXZ
@@ -197,19 +170,62 @@ $?releaseDC@QWidget@@UEBAXPEAUHDC__@@@Z
 ?mousePressEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z
 ?mouseReleaseEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z
 ?moveEvent@QWidget@@MEAAXPEAVQMoveEvent@@@Z
+?paintEngine@QWidget@@UEBAPEAVQPaintEngine@@XZ
+?paintEvent@QWidget@@MEAAXPEAVQPaintEvent@@@Z
+?paletteChange@QWidget@@MEAAXAEBVQPalette@@@Z
+?qFree@@YAXPEAX@Z
+?qt_metacall@QAction@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QDialog@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QDialogButtonBox@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QExtensionFactory@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QVBoxLayout@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QWidget@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacast@QAction@@UEAAPEAXPEBD@Z
+?qt_metacast@QDialog@@UEAAPEAXPEBD@Z
+?qt_metacast@QDialogButtonBox@@UEAAPEAXPEBD@Z
+?qt_metacast@QExtensionFactory@@UEAAPEAXPEBD@Z
+?qt_metacast@QObject@@UEAAPEAXPEBD@Z
+?qt_metacast@QVBoxLayout@@UEAAPEAXPEBD@Z
+?qt_metacast@QWidget@@UEAAPEAXPEBD@Z
+?reject@QDialog@@UEAAXXZ
+?releaseDC@QWidget@@UEBAXPEAUHDC__@@@Z
 ?removeGuard@QMetaObject@@SAXPEAPEAVQObject@@@Z
 ?replace@QString@@QEAAAEAV1@HHVQChar@@@Z
+?resizeEvent@QDialog@@MEAAXPEAVQResizeEvent@@@Z
+?resizeEvent@QWidget@@MEAAXPEAVQResizeEvent@@@Z
+?setGeometry@QBoxLayout@@UEAAXAEBVQRect@@@Z
+?setLayout@QWidget@@QEAAXPEAVQLayout@@@Z
+?setPen@QPainter@@QEAAXAEBVQPen@@@Z
+?setRenderHint@QPainter@@QEAAXW4RenderHint@1@_N@Z
+?setVisible@QDialog@@UEAAX_N@Z
+?setVisible@QWidget@@UEAAX_N@Z
+?setWindowTitle@QWidget@@QEAAXAEBVQString@@@Z
 ?shared_null@QListData@@2UData@1@A
 ?shared_null@QString@@0UData@1@A
+?showEvent@QDialog@@MEAAXPEAVQShowEvent@@@Z
+?showEvent@QWidget@@MEAAXPEAVQShowEvent@@@Z
+?sizeHint@QBoxLayout@@UEBA?AVQSize@@XZ
+?sizeHint@QWidget@@UEBA?AVQSize@@XZ
+?spacerItem@QLayoutItem@@UEAAPEAVQSpacerItem@@XZ
+?staticMetaObject@QDialog@@2UQMetaObject@@B
 ?staticMetaObject@QExtensionFactory@@2UQMetaObject@@B
 ?staticMetaObject@QObject@@2UQMetaObject@@B
+?staticMetaObject@QWidget@@2UQMetaObject@@B
+?styleChange@QWidget@@MEAAXAEAVQStyle@@@Z
+?tabletEvent@QWidget@@MEAAXPEAVQTabletEvent@@@Z
+?takeAt@QBoxLayout@@UEAAPEAVQLayoutItem@@H@Z
 ?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
 ?toLower@QString@@QEBA?AV1@XZ
 ?tr@QMetaObject@@QEBA?AVQString@@PEBD0@Z
+?update@QWidget@@QEAAXXZ
+?wheelEvent@QWidget@@MEAAXPEAVQWheelEvent@@@Z
+?widget@QLayoutItem@@UEAAPEAVQWidget@@XZ
+?winEvent@QWidget@@MEAA_NPEAUtagMSG@@PEAJ@Z
+?windowActivationChange@QWidget@@MEAAX_N@Z
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 April
 August
-B,?setRenderHint@QPainter@@QEAAXW4RenderHint@1@_N@Z
 C:\Valve\ThirdPartyCode\lgpl\qt\qt_valve_win64\plugins\designer\taskmenuextension.pdb
 CorExitProcess
 December
@@ -262,7 +278,6 @@ GetUserDefaultLCID
 GetUserObjectInformationW
 GetVersion
 HH:mm:ss
-HMXB
 HeapAlloc
 HeapCreate
 HeapDestroy
@@ -292,13 +307,11 @@ March
 MessageBoxW
 Monday
 MultiByteToWideChar
-NKeb
 NULL
 Norwegian-Nynorsk
 November
 OM.Q
 October
-Q8?wheelEvent@QWidget@@MEAAXPEAVQWheelEvent@@@Z
 QDesignerCustomWidgetInterface
 QDesignerTaskMenuExtension
 QString
@@ -307,15 +320,12 @@ QtDesigner4.dll
 QtGui4.dll
 Qt_GetCustomAllocators
 QueryPerformanceCounter
-RSDS15^3
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S ?paintEngine@QWidget@@UEBAPEAVQPaintEngine@@XZ
-S;uD
 Saturday
 September
 SetConsoleCtrlHandler
@@ -340,17 +350,6 @@ Wednesday
 WideCharToMultiByte
 WriteFile
 [thunk]:
-\f?button@QDialogButtonBox@@QEBAPEAVQPushButton@@W4StandardButton@1@@Z
-\f?qFree@@YAXPEAX@Z
-\n?actionEvent@QWidget@@MEAAXPEAVQActionEvent@@@Z
-\r?childEvent@QLayout@@MEAAXPEAVQChildEvent@@@Z
-\r?qt_metacast@QObject@@UEAAPEAXPEBD@Z
-\t?fromUtf8@QString@@SA?AV1@PEBDH@Z
-\v?addItem@QBoxLayout@@UEAAXPEAVQLayoutItem@@@Z
-\v?qt_metacall@QExtensionFactory@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-\v?qt_metacast@QExtensionFactory@@UEAAPEAXPEBD@Z
-\vPPu
-^8?widget@QLayoutItem@@UEAAPEAVQWidget@@XZ
 __based(
 __cdecl
 __clrcall
@@ -444,10 +443,10 @@ com.trolltech.Qt.Designer.Language.3
 com.trolltech.Qt.Designer.LayoutDecoration
 com.trolltech.Qt.Designer.MemberSheet
 com.trolltech.Qt.Designer.PropertySheet
+com.trolltech.Qt.Designer.TaskMenu
 const
 const 
 czech
-d\r?changeEvent@QDialogButtonBox@@MEAAXPEAVQEvent@@@Z
 dddd, MMMM dd, yyyy
 double
 dutch-belgian
@@ -469,7 +468,6 @@ english-us
 english-usa
 enum 
 extern "C" 
-f/?sizeHint@QWidget@@UEBA?AVQSize@@XZ
 float
 french-belgian
 french-canadian
@@ -481,22 +479,17 @@ german-lichtenstein
 german-luxembourg
 german-swiss
 great britain
-h\r?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 holland
 hong-kong
 int 
 irish-english
 italian-swiss
-k7?update@QWidget@@QEAAXXZ
-kU'9
-l%?resizeEvent@QDialog@@MEAAXPEAVQResizeEvent@@@Z
 long
 long 
 new-zealand
 norwegian
 norwegian-bokmal
 norwegian-nynorsk
-o\v?addWidget@QBoxLayout@@QEAAXPEAVQWidget@@HV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
 operator
 pattern=QT_PLUGIN_VERIFICATION_DATA\nversion=4.8.3\ndebug=false\nbuildkey=Windows x64 msvc release full-config
 portuguese-brazilian
@@ -558,12 +551,5 @@ void
 volatile
 volatile 
 wchar_t
-z?aUY
-zc%C1
-{ ?paintEvent@QWidget@@MEAAXPEAVQPaintEvent@@@Z
 {flat}
 {for 
-|2?tabletEvent@QWidget@@MEAAXPEAVQTabletEvent@@@Z
-|\r?changeEvent@QWidget@@MEAAXPEAVQEvent@@@Z
-~#?qt_metacast@QVBoxLayout@@UEAAPEAXPEBD@Z
-~\n?accept@QDialog@@UEAAXXZ

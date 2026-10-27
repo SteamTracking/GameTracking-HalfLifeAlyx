@@ -1,6 +1,4 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -12,10 +10,10 @@
 %02d:%02d:%02d
 %04d%02d%02d%02d%02d%02d
 %llu
+%s%c%s
+%s\%s
 %u.%u.%u.%u:%i
-&Sgw
 (null)
-*StO9>T
 .00cfg
 .?AV?$CCallback@VCCallbackMgr@@USteamAPICallCompleted_t@@$00@@
 .?AV?$CCallback@VCCallbackMgr@@USteamAPICallCompleted_t@@$0A@@@
@@ -79,33 +77,13 @@
 .tls
 .tls$
 .tls$ZZZ
-.xJ>Hf
 .xdata
 .xdata$x
 0123456789ABCDEF
-07C;
-0iN>/
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-11Y@
-37>k
-3>N;kU
-3>fvw
-88C;
-89C;
-=87M
-=cQ6
-=imb;D
->cQ6
->jtm}S
-?7zQ6$
-?UUUUUU
-?f`Y4
-?qBJ
-?ysB
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.dll
 AcquireSRWLockExclusive
@@ -113,8 +91,6 @@ AppPolicyGetProcessTerminationMethod
 April
 AreFileApisANSI
 August
-BC?>6t9^\tc:>
-BF>^G
 Breakpad_SteamMiniDumpInit
 Breakpad_SteamSendMiniDump
 Breakpad_SteamSetAppID
@@ -134,11 +110,9 @@ CreateInterface
 CreateLocalUser failed
 December
 DeleteCriticalSection
-ET5>
 EncodePointer
 EnterCriticalSection
 ExitProcess
-FEMh\f
 Failed to load module '%s'
 February
 FindClose
@@ -185,8 +159,6 @@ GetStartupInfoW
 GetStdHandle
 GetStringTypeW
 GetSystemTimeAsFileTime
-H8C;
-H9C;
 HH:mm:ss
 HeapAlloc
 HeapFree
@@ -206,7 +178,6 @@ January
 July
 June
 KERNEL32.dll
-L>ev
 LCMapStringEx
 LCMapStringW
 LauncherPath
@@ -224,13 +195,10 @@ NAN(SNAN)
 No %s
 No appID found.  Either launch the game from Steam, or put the file steam_appid.txt containing the correct appID in your game folder.
 November
-OZQ%
 October
 OpenProcess
 OutputDebugStringA
-P7C;
 QueryPerformanceCounter
-RSDS
 RaiseException
 ReadConsoleW
 ReadFile
@@ -243,7 +211,6 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S9>H
 SHELL32.dll
 SNAN)
 STEAMAPPS_INTERFACE_VERSION009
@@ -1376,9 +1343,6 @@ Wednesday
 WideCharToMultiByte
 WriteConsoleW
 WriteFile
-X/4B
-X8C;
-X9C;
 [S_API FAIL] Standard callback dispatch cannot be used; manual dispatch has already been selected.\n
 [S_API FAIL] SteamAPI_ManualDispatch_GetNextCallback() Cannot be used, must call SteamAPI_ManualDispatch_Init first.\n
 [S_API FAIL] SteamAPI_ManualDispatch_Init() Cannot be used yet, must init library first.\n
@@ -1392,11 +1356,7 @@ X9C;
 [S_API] SteamAPI_Init(): Loaded '%s' OK.\n
 [S_API] SteamAPI_Init(): Loaded local '%s' OK.\n
 [S_API] SteamAPI_Init(): SteamAPI_IsSteamRunning() did not locate a running instance of Steam.\n
-[aOni*{
 \steam.exe
-\tcQr
-\tkE>fvw
-^<V7w
 __based(
 __cdecl
 __clrcall
@@ -1455,35 +1415,19 @@ bad array new length
 bad exception
 bin\audio64.dll
 bin\clientui.dll
-d8L2
 dddd, MMMM dd, yyyy
 e+000
-eF>t
-eLK(w
 g_pSteamClientGameServer
 gameoverlayrenderer64.dll
-h0'D
-h8C;
-h9C;
-hbC;
 inity
-k=yI
 log10
-mG4>
-m\nXo
 map/set too long
-n03>Pu
 nan(ind)
 nan(snan)
-obwQ4
 operator
 operator "" 
 operator co_await
 operator<=>
-owM&
-p6C;
-p7C;
-r\tVr.>T
 restrict(
 snan)
 steam2.dll
@@ -1495,9 +1439,3 @@ steamclient.dll
 steamclient64.dll
 steamconsole64.dll
 steamui.dll
-tfC;
-uzKs@>
-v2!L.2
-x8C;
-x9C;
-xdC;

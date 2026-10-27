@@ -5,6 +5,7 @@
 %-10s%-10u %-8u %-40s %-40s %-40s
 %-10s[ Inline %s ]\n
 %-40s = 0x%016llX (%lld)\n
+%-60s 
 %-60s %-25s %-25s 
 %-60s %-25s %-25s %s\n
 %5s: %s (%.3f%% of all %s bindings)\n
@@ -20,12 +21,15 @@
 %s bytes in static binding info\n
 %s registrations; %s were redundant; %s were ignored (%s bytes of ignored data)\n
 %s schema bindings in %u modules (%s classes, %s enums)\n
+%s%s%s
 %s+-- Schema Class: %s\n
 %s: %d != %d
 %s: '%s' != '%s'
 %s: string format requested %d chars\n
+%s:%s
 %s:%s needs base %s:%s to be registered\n
 %s< %s, %s >
+%s[%d]
 %s\r\n\tMismatch - %s\r\n\tModule 1 - %s\r\n\tModule 2 - %s\r\n\r\n
 %s|  % 2d: %s [Offset: %d]\n
 %s|  % 2d: [% 3d] %-12s %s\n
@@ -132,7 +136,6 @@
 .tls$ZZZ
 .xdata
 1DBlend
-5tp)
 <No schema binary for binding>
 <No schemasystem>
 <deferred>
@@ -484,7 +487,6 @@ FlattenedSerializersVersion001
 FontManager_001
 FourVectors
 GCTL
-GRegisterConfigValue: Unknown error constructing config value "%s"!\n
 GSFailure
 GameResourceServiceClientV001
 GameResourceServiceServerV001
@@ -539,7 +541,6 @@ Localize_001
 LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
 LoggingSystem_RegisterLoggingChannel
-LrwcE
 MATCHFRAMEWORK_001
 MFieldVerificationName
 MNetworkSerializeAs
@@ -616,7 +617,6 @@ Plat_LoadModule
 Plat_SetDenormalsAreZero
 Plat_ShouldCollectMiniDumpsForFatalErrors
 Plat_UnloadModule
-Po5H
 Pointer
 PostProcessingResource_t
 PostProcessingSystem_001
@@ -633,9 +633,9 @@ QAngle
 Quaternion
 QueryPerformanceCounter
 QueuedLoaderVersion001
-RSDS(
 RadianEuler
 Reference
+RegisterConfigValue: Unknown error constructing config value "%s"!\n
 RegisterStringToken
 Registered binary: %s (project '%s')\n
 Release
@@ -655,7 +655,6 @@ ResourceId_t
 ResourceManifestRegistry001
 ResourceSystem013
 RtlUnwindEx
-S+Ot
 SOURCE2_NO_BUNDLES
 SOURCE2_USE_BUNDLES
 SSE and SSE2 are required.
@@ -796,7 +795,6 @@ WeightList
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
-\nCwf\r
 _V_strncmp
 _V_strncpy
 _V_strnicmp_fast
@@ -835,7 +833,6 @@ break_uniform_burst
 breakable_count
 breakable_model
 breakable_skin
-bt3V
 burst_randomize
 burst_scale
 c:\buildslave\hlvr_rel_win64\build\src\interfaces\interfaces.cpp
@@ -931,7 +928,6 @@ int8
 invert_orientation
 is_debris
 last_sniff
-lcQe
 length
 localize
 lockRotationAlpha
@@ -940,7 +936,6 @@ loop_break_on_damage
 loop_break_on_flashlight
 loop_in_action
 looping
-mXr4
 m_Bone
 m_CTransform
 m_CUtlBinaryBlock
@@ -1127,7 +1122,6 @@ modeldoc9
 multiplayer_break
 nNode
 nSide
-n\f"pA3QP
 name
 nav_attribute_avoid
 nav_data
@@ -1253,4 +1247,3 @@ width
 worldrenderer
 yaw_end
 yaw_start
-{YIN?

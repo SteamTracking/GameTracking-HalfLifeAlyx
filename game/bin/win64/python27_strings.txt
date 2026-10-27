@@ -2,15 +2,9 @@
     csv_reader = reader(iterable [, dialect='excel']\n                        [optional keyword args])\n    for row in csv_reader:\n        process(row)\n\nThe "iterable" argument can be any object that returns a line\nof input for each iteration, such as a file object or a list.  The\noptional "dialect" parameter is discussed below.  The function\nalso accepts optional keyword arguments which override settings\nprovided by the dialect.\n\nThe returned object is an iterator.  Each iteration returns a row\nof the CSV file (which can span multiple input lines):\n
     csv_writer = csv.writer(fileobj [, dialect='excel']\n                            [optional keyword args])\n    for row in sequence:\n        csv_writer.writerow(row)\n\n    [or]\n\n    csv_writer = csv.writer(fileobj [, dialect='excel']\n                            [optional keyword args])\n    csv_writer.writerows(rows)\n\nThe "fileobj" argument can be any object that supports the file API.\n
   File "%.500s", line %d, in %.500s\n
- !""#$%&'"""()*+,-./0123456789:;<=>?@@@ABC@@@DEF@@@@@@G
- !"#$%&'()*+,-./0123
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$}%&'()*+},-./}}}}0123456}789:;<}}=>?}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}!"#$%&'()*+,-012345689@ABCDEFGHIJKLMNPQRSTUVXYZ[`abcdefhijklmpqr
  %.256s
- 2!2"2#2$2%2&2'2(2)2
- A0B0C0D0E0F0G0H0I0J0K0L0M0N0O0P0Q0R0S0T0U0V0W0X0Y0Z0[0\0]0^0_0`0a0b0c0d0e0f0g0h0i0j0k0l0m0n0o0p0q0r0s0t0u0v0w0x0y0z0{0|0}0~0
- RV1
+ %Id
  SRE 2.2.2 Copyright (c) 1997-2002 by Secret Labs AB 
  after coercion
  but garbage data will also be written\nto the file. The object will not be properly read back by load()\n\nNew in version 2.4: The version argument indicates the data format that\ndump should use.
@@ -23,9 +17,7 @@
  in cmp
  inflate 1.2.3 Copyright 1995-2005 Mark Adler 
  instance
- k=kFk8Tp`=m
  object
- p!q!r!s!t!u!v!w!x!y!5
  package
  while calling a Python object
  while decoding a JSON array from a byte string
@@ -37,92 +29,13 @@
  while getting the repr of a tuple
  while getting the str of an object
  while pickling an object
-!#"###g!%#&#'#(#)#*#+#,#-#.#/#0#1#2#3#4#5#6#7#8#9#:#;#<#=#>#?#@#A#B#C#D#E#F#G#H#I#J#K#L#M#N#O#P#Q#R#S#T#U#V#W#X#Y#Z#[#\#]#^#_#`#a#b#c#d#e#f#g#h#i#j#k#l#m#n#o#p#q#r#s#t#u#v#w#x#y#z#{#|#}#+!
-!$"$#$$$%$&$'$($)$*$+$,$-$.$/$0$1$2$3$4$5$6$7$8$9$:$;$<$=$>$?$@$A$B$C$D$E$F$G$H$I$J$K$L$M$N$O$P$Q$R$S$T$U$V$W$X$Y$Z$[$\$]$^$_$`$a$b$c$d$e$f$g$h$i$j$k$l$m$n$o$p$q$r$s$
-!%"%#%$%%%&%'%(%)%*%
-!%"%#%$%%%&%'%(%)%*%+%,%-%.%/%0%1%2%3%4%5%6%7%8%9%:%;%<%=%>%?%@%A%B%C%D%E%F%G%H%I%J%K%L%M%N%O%P%Q%R%S%T%U%V%W%X%Y%Z%[%\%]%^%_%`%a%b%c%d%e%f%g%h%i%j%k%l%m%n%o%p%q%r%s%t%u%v%
-!&"&#&$&%&&&'&(&)&*&+&,&-&.&/&0&1&
-!'"'#'$'%'&'(')'*'+','-'.'/'0'1'2'3'4'5'6'7'8'9':';'<'='>'?'@'A'Q'R'S'T'U'V'X'Y'Z'['\']'^'_'`'a'b'c'd'e'f'g'h'i'j'k'l'm'n'o'p'q'
-!*"*#*$*%*&*'*(*)***+*,*-*.*/*0*1*2*3*4*5*6*7*8*9*:*;*<*=*>*?*@*A*B*C*D*E*F*G*H*I*J*K*L*M*N*O*P*Q*R*S*T*U*V*W*X*Y*Z*[*\*]*^*_*`*a*b*c*d*e*f*g*h*i*j*k*l*m*n*o*p*q*r*s*
-!+"+#+$+%+&+'+(+)+*+++,+-+.+/+0+1+2+3+4+5+6+7+8+9+:+;+<+=+>+?+@+A+B+C+D+E+F+G+H+I+J+K+L+M+N+O+P+Q+R+S+T+U+V+W+X+Y+Z+[+\+]+^+_+`+a+b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+r+s+t+u+v+!$"$#$$$%$&$'$($)$*$+$,$-$.$/$0$1$2$3$4$5$6$7$8$9$:$;$<$=$>$?$@$A$B$C$D$E$F$G$H$I$J$K$L$M$N$O$P$Q$R$S$T$U$V$W$X$Y$Z$[$\$]$^$_$`$a$b$c$d$e$f$g$h$i$j$k$l$m$n$o$p$q$r$s$t$u$v$w$x$y$z${$|$}$~$1)2)3)4)5)6)7)8)9):);)<)=)>)?)@)A)B)C)D)E)F)G)H)I)J)K)L)_"
-!,",#,$,%,&,',(,),*,.#/#
-!,",#,$,%,&,(,),*,+,,,-,.,/,0,1,2,3,4,5,6,7,8,9,:,;,<,=,>,?,@,A,Q,R,S,T,U,V,X,Y,Z,[,\,],^,_,`,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,
-!-"-#-$-%-&-'-(-)-*-+-,---.-/-0-1-2-3-4-
-!0"0#0$0%0&0'0(0)0
-!16^B
-!32:1r0r%L
-!5ybL
-!6"6Y
-!84d
-!=14hCjD8095uJ
-!>)RgJ-Rp
-!AR7
-!Akpnpk
-!AxU
-!D"Do
-!E"ES
-!F6I2@u_
-!H\Jd1pP
-!HbQaE0
-!I0N+4
-!LRDS
-!M-VsG
-!Q(pbr
-!Q7QMe
-!S{R1
-!T2NJh
-!W/W3W4WpWwW|W
-!WhK
-!aZan~
-!caK
-!e1U
-!j"j#jx7-<d
-!raN
-!ta1sJ*
-!v%4n
-"""""""""""
-""""""""""""""""""""""""""""""""
-""""""""""""""""""""""""""""""""""
-""""""""""""""""""""""""""""""""""""""""""""""""
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"""""""""""""""W
 "%s" %s%s%s
 "%s" must be an 1-character string
 "%s" must be an integer
 "%s" must be an string
 "+"."a"L"H"="
-"0SMu
-"2aZ
-"3nZoZUH@
-"6A2
-":OBO
-"AA51
-"CJPh
-"KHGc5
-"Lyhxh
-"MVm|
-"O!Gx
-"P%Q%R%S%T%U%V%W%X%Y%Z%[%\%]%^%_%`%a%b%c%d%e%f%g%h%i%j%k%l%m%n%o%p%q%r%s%
-"TvO
-"U!G^HQL
-"V8S7>,H\
-"Y\Y`S}Xp7wW~XzX!YcD
-"_i1fAF
 "`"n"o"d"e"
-"aFi
-"ay7
-"b>bCbVbZbob
-"e#e$e&e'e(e)e*e,e-e0e1e2e3e7e:e<e=e@eAeBeCeDeFeGeJeKeMeNePeReSeTeWeXeZe\e_e`eaedeeegeheiejemeneoeqeseuevexeyeze{e|e}e~e
-"f#f$fs
-"gYd
-"h!hcCo
-"n@DE
-"oZb|v
-"r#rG
-"u!u(:~tVKN
-"vta
-"yVp
+#   <float at %p, refcnt=%ld, val=%s>\n
 #   <int at %p, refcnt=%ld, val=%ld>\n
 #   clear[1] %s\n
 #   clear[2] %s\n
@@ -151,70 +64,11 @@
 # wrote %s\n
 # zipimport: found %ld names in %s\n
 # zipimport: zlib %s\n
-#&H&G&.&$&B&A&/&&&F&E&1&%&D&C&0&'&<&I&J&7&K&L&2&)&>&M&N&9&O&P&4&(&Q&R&8&=&S&T&3&*&U&V&:&?&W&X&5&+&Y&Z&;&[&\&@&]&^&_&`&a&b&c&d&6&
-#6$6%6Z
-#8$8U
-#83`e
-#Cg2z\
-#F;iy
-#IEcFcUC2
-#J'LIj
-#Q2R2S2T2U2V2W2X2Y2Z2[2\2]2^2_2
-#QVa
-#S7nOx
-#SzR-
-#Txp(W
-#X$Xu
-#bML"
-#cAw
-#fq{0K.r
-#lD5Afy>
-#o&k#Kic
-#zwb
-$0%0&0'0E
-$0KBS
-$4#au
-$7p?~V2MU
-$9@39T
-$9sWIG^>.9|
-$:uQ102k4k
-$=mPD
-$AX=t
-$C%CT
-$D%D&Ds
-$G4VP
-$JFG*k$
-$NMH
-$RBW
-$ROV
 $Revision$
-$S?ftICfP
-$VFu
-$W%WX
 $WCRANGE$$WCMODS?M:$
-$WEN
-$XNO
-$Xs3E
-$ZSU
-$`$a$b$c$d$e$f$g$h$i$
 $`$a$b$c$d$e$f$g$h$i$j$k$l$m$n$
-$b)bf
-$dVt
-$efL
-$gP9SO
-$k7k9kCkFkYk
-$m^:w6!c26qL'9w
-$p!q!r!s!t!u!v!w!x!y!z!{!
-$pDD[
-$plagOKs)m>J
-$rCR5FH
-$t$u$v$w$x$y$z${$|$}$~$
-$uR@Q
-% %!%"%#%$%%%&%'%(%)%*%+%,%-%.%/%0%1%2%3%4%5%6%7%8%9%:%;%<%=%>%?%@%A%B%C%D%E%F%G%H%I%J%K%JU?
-%!%"%&%'%)%*%-%.%1%2%5%6%9%:%=%>%@%A%C%D%E%F%G%H%I%J%
-%!?!0#1#2#3#4#5#6#7#8#9#'!(!c!a!d!)!w!A#B#C#D#E#F#G#H#I#J#K#L#M#N#O#P#Q#R#S#T#U#V#W#X#Y#Z#N!
-%#%3%+%;%K% %/%(%7%?%
 %%%c format: a number is required, not %.200s
+%+.02d
 %.100s.__format__ must return string or unicode, not %.100s
 %.150s%s takes %s %d argument%s (%ld given)
 %.200s attribute must be str
@@ -227,6 +81,7 @@ $uR@Q
 %.200s%s got multiple values for keyword argument '%.200s'
 %.200s%s takes at least one argument
 %.200s%s takes no arguments
+%.200s() 
 %.200s() got an unexpected keyword argument '%.400s'
 %.200s() got multiple values for keyword argument '%.400s'
 %.200s() keywords must be strings
@@ -251,48 +106,19 @@ $uR@Q
 %02x
 %04d-%02d-%02d
 %06d
-%0JI"S
-%5&5G
-%5tBODg
-%7&7I
-%7`mambm,
-%8k:v
-%=Edk
-%?6Ade
-%?kfoFlfmfW
-%B&BA
-%CxF-kJD
-%ECE>
-%FxG=R\
-%I-XL
 %I64d
 %I64u
-%NqF
-%P4q1|xL
-%Pz6
-%SWps
-%Sv0$S8
-%VVF"
-%Yg{K]TP
-%ZF<)6<8OH%<&Z'ZVLCH(Z}F
-%\t%\n%\v%\f%\r%
-%b9MrjGK
+%Id\n
 %c arg not in range(0x10000) (narrow Python build)
 %c requires int or char
 %c%02d%s%02d
 %c%c%c%c%c%c%c%c%c%c
-%d&`&a&e&g&c&
-%d'd(d)d+d.d/d0d1d2d3d5d6d7d8d9d;d<d>d@dBdCdIdKdLdMdNdOdPdQdSdUdVdWdYdZd[d\d]d_d`dadbdcdddedfdhdjdkdldndodpdqdrdsdtdudvdwd{d|d}d~d
+%d day%s, 
 %d:%02d:%02d
-%f&ft
-%f?iCt
-%h$hn
-%l[FH
-%mrn
-%m~bQJ_
-%n:X#n&nW
+%ld\n
 %r is not in list
 %s %s %2d %02d:%02d:%02d %04d
+%s (%s)
 %s (%s, line %ld)
 %s (line %ld)
 %s arg must be None, str or unicode
@@ -308,14 +134,19 @@ $uR@Q
 %s should return bool or int, returned %s
 %s value is negative or nul
 %s%%%s.%dl%c
+%s%c%s%s
 %s%s takes at most %d argument%s (%d given)
+%s%s%s
 %s%s%s, %.20s, %.9s
 %s%s%sj%s
+%s(%d)
+%s(%d, %d)
 %s(%d, %d, %d)
 %s(%d, %d, %d, %d)
 %s(%d, %d, %d, %d, %d)
 %s(%d, %d, %d, %d, %d, %d)
 %s(%d, %d, %d, %d, %d, %d, %d)
+%s(%s)
 %s() arg is an empty sequence
 %s() got an unexpected keyword argument
 %s() requires a code object with %zd free vars, not %zd
@@ -332,41 +163,7 @@ $uR@Q
 %s: can't open file '%s': [Errno %d] %s\n
 %s: inconsistent use of tabs and spaces in indentation\n
 %s:%d: bad argument to internal function
-%v(v<v3v
-%x'y3y4y7y8y9y;y?y@yMyQydy.zP
-&!<!3!4!l0zC!
-&6'6(6e
-&8.pB1g
-&9TU>
-&:gQ|OR<q
-&;L3W]2
-&BeDv6
-&E#g_O$g%g&g7AiWpI8O/VUV'gm0(g)g\IoR->*gs0^Ha=+gFH
-&F'FD
-&HyE
-&I{qyq
-&J;wjrH^Si
-&NVNsN
-&P8R
-&Q%Q"Q$Q Q)Q
-&Q5^U
-&Y'YWB
-&\X05
-&^6=oHt
-&`AV\acpdqq\'V
-&a14
-&b*E6
-&cZQ%r
-&d$y3p
-&eP7b
-&irK
-&m#mo
-&n7M?1]
-&qUK
-&r'rUQn6(r)r_5*r+rK
-&t(t*t+t,t.t/t0tDtFtGtKtWtbtktmt
-&u'upDW
-&w'w(wn1)w*w+w
+%s=%s
 '%.100s' object has no attribute '%.200s'
 '%.100s' object has no attributes (%s .%.100s)
 '%.100s' object has only read-only attributes (%s .%.100s)
@@ -395,73 +192,27 @@ $uR@Q
 '%c' format requires %zd <= number <= %zd
 '%c' format requires 0 <= number <= %zu
 '%s' is an invalid keyword argument for this function
-'1i<B0J
-'3D9'b
-'7(7)7J
-'7s8R:McNcDTOc^
-'8(8g
-'8WEi
-'9Pa
 '=' alignment flag is not allowed in complex format specifier
 '=' alignment not allowed in string format specifier
-'CR6$
-'D(Dy
-'Fxly
-'Ipfqfrf9esftfbBufvfhVwfZ
-'PMt
-'T|hRz
-'XpD{Wq
-'aSnCP
 'alpha', 'beta', 'candidate', or 'release'
 'break' outside loop
-'cDG
 'continue' not properly in loop
 'continue' not supported inside 'finally' clause
-'dRl
-'e*eH
-'eRU
-'e_NY:Z
 'finally' pops bad exception
-'hw:xg$h
 'in <string>' requires string as left operand, not %.200s
-'l*PQ
-'n$n9O`
 'registry' must be a dict
 'return' outside function
 'return' with argument inside generator
-'s)s$sE
-'xug
 'yield' outside function
-'{o{y{/|0|8|=|i
 ((Olldd))
 ((OllddO))
 ((iiiiiiiii))
 () -> dict. Returns numeric and monetary locale-specific parameters.
-(0)0*0+0,0-0.0/0J
-(4]Vx
-(4w6fU
-(5I8WUX3
-(:82mWxWwW36
 (;L4B
-(BQ5qM
-(C)Cf
-(GXS}
-(H)HJ
-(HqV>JrV
-(J}L!^#<B>x]~]h1
-(Md9A
 (ONN)
 (OOO)
 (OOnN)
 (OnN)
-(Q*QD
-(R(t)tb
-(R*43L
-(U)U+U-U2U4U5U6U8U9U:U;U=U@UBUEUGUHUKULUMUNUOUQURUSUTUWUXUYUZU[U]U^U_U`UbUcUhUiUkUoUpUqUrUsUtUyUzU}U
-(WRG'X@JF
-(Z3Z
-(^dtBl
-(_+_,_._0_2_3_4_5_6_7_8_;_=_>_?_A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_Q_T_Y_Z_[_\_^___`_c_e_g_h_k_n_o_r_t_u_v_x_z_}_~_
 (ascii) -> bin. Decode a line of base64 data
 (ascii) -> bin. Decode a line of uuencoded data
 (bin) -> ascii. Base64-code line of data
@@ -469,9 +220,7 @@ $uR@Q
 (buffer is NULL)
 (buffer overflow)
 (buffer_len is NULL)
-(b~2"ba
 (cleanup problem)
-(d.deB
 (data, oldcrc = 0) -> newcrc. Compute CRC-32 incrementally
 (data, oldcrc) -> newcrc. Compute hqx CRC incrementally
 (encoder failed to return a string)
@@ -480,11 +229,9 @@ $uR@Q
 (iiiiiiiii)
 (integer,string=None) -> string. Activates/queries locale processing.
 (isO)
-(mB^bv\mu\9`
 (memory error)
 (nnO)
 (nnn)
-(nwBb
 (sss)
 (ssz)
 (szz)
@@ -496,174 +243,27 @@ $uR@Q
 (ziOO)
 (ziiz)
 (zlOO)
-)"A%B%C%D%E%F%G%H%I%J%K%L%M%N%O%P%Q%
-)*5*+*8***7*
-)0-qG
-)1*1U
-)320A
-)48q;M
-)4dQ
-)5*5S
-)98:*9p5!
-)@Q^(IoQ$Eg063EHQ
-)@~:t7kQI;o9=
-)Bf3j
-)E*Ey
-)JrKW
-)P5G1
-)S*SS]tOxHc
-)SbE
-)T50_:2
-)U_KoU.Z_VJ40Z/Z
-)Ubz
-)Y6V
-)ev`3v~a
-)f0f
-)j:d"sRM
-)l*l+lt
-)n*nn
-)p'pd7g
-)q(qE
-)r*r+r,r1
-)rDp
-)uM=8Ca?aK*uT
 * wants int
-*5HBhG
-*5KS
-*7+7P
-*8+8i
-*8CKq
-*=>8HA%e+e`
-*@*RP6q
-*B0D5=x
-*C+C,Cg
-*H42x
-*Jya
-*Kgiq
-*M%u#u4=(uS
-*SQS&T
-*TVPd3WU
-*[GT?2U
-*\cr4i\R
-*f+fy
-*i';E?07tLt
-*j|zvu<pT};`CN
-*m9cbR
-*o+o4A,ozOxK.o-oz3x9/o0obP1o2of7?P3o4o5oqH`L6o7o8o9o:o`U;om4*C<o
-*o/o3oQoYo^oaobo~o
-*o9x
-*pPy
-*qQN
-*tK>_Sc
-*vpU,v9C
-*zCf2a+J
-+!0 o&m&j&  ! 
-+,,,-,.,/,0,1,2,3,4,Z&[&\&]&^&_&`&a&b&c&m&
-+1,1a
-+1Wv
-+2$4r
-+5,5-5T
-+6,6q
-+9,9-9K
-+:8h9h:hB>
-+;3Tv
-+;RYr
-+@WcXcYc`
-+B,BK
-+DU6
-+I^QueE
-+Kpj
-+R+4r
-+RO@S
-+T3J&M
-+Us1
-+VBP
-+Y9J
-+[q=bAm
-+aZ8-a.a0a:51a
-+bhs
-+c77
-+d,d1
-+e-eq
-+j2v
-+p,p-p.p/p0p1p2p3p4p6p7p8p:p;p<p=p>p?p@pApBpCpDpEpFpGpHpIpJpKpMpNpPpQpRpSpTpUpVpWpXpYpZp[p\p]p_p`papbpcpdpepfpgphpipjpnpqprpsptpwpypzp{p}p
-+p.nm
-+r4r8r9r,NBrSrWrcr
-+tt3U
-+x,x-xo
 , %.4fs elapsed
 , item %d
 , tzinfo=
-,8-8k
-,8jkV9<
-,944vV88DM)Mv4xVB
-,:}LT?1KtF
-,;dkeri
-,?1i:iQ
-,Cfq
-,Ff0
-,J|R_3jeaD!>2NrDV>(Fc2
-,M{Cs:t@BMrO8_EO
-,PSSDU|W
-,S0a
-,Seru2_
-,TGq
-,XLs
-,Z0j
-,gf;x8$Q-ggBx>J=3M.g/gn>eP
-,gvN
-,mNj
-,p~LaM
-,qNU)q
-,tFP\
-,w.w0w1w2w3w4w9w;w=w>w?wBwDwEwFwHwIwJwKwLwMwNwOwRwSwTwUwVwWwXwYw\w]w^w_w`wdwgwiwjwmwnwowpwqwrwswtwuwvwwwxwzw{w|w
-,wDkam+`G]
-,zQu3g
--*202
 --help
 --version
 -0x%sp%c%d
 -0x0.0p+0
--1!s"st
 -3     : warn about Python 3.x incompatibilities that 2to3 cannot trivially fix\nfile   : program read from script file\n-      : program read from stdin (default; interactive mode if a tty)\narg ...: arguments passed to program in sys.argv[1:]\n\nOther environment variables:\nPYTHONSTARTUP: file executed on interactive startup (no default)\nPYTHONPATH   : '%c'-separated list of directories prefixed to the\n               default module search path.  The result is sys.path.\n
--3gD
--6.6/6r
--64u
--7mRP
--8NlMl
 -> (cls, state)
--B.B/BL
--H.HQ
 -Infinity
 -J is reserved for Jython\n
--JcR_Rc8
--Lzv2VXR
--NB\k
 -O or -OO
 -Q option should be `-Qold', `-Qwarn', `-Qwarnall', or `-Qnew' only\n
 -Qnew
--SahlN
--TQv
--W*FA
--WExR_
 -X is reserved for implementation-specific arguments\n
--XZWL
--ZcRQO
--b2a_hex(data) -> s; Hexadecimal representation of binary data.\n\nThis function is also available as "hexlify()".
--cLV4Y
--h.hD
--i0ia
 -inf + inf in fsum
 -j_6id!
--mjz
 -t or -tt
--t.t/tt
 -u     : unbuffered binary stdout and stderr; also PYTHONUNBUFFERED=x\n         see man page for details on internal buffering relating to '-u'\n-v     : verbose (trace import statements); also PYTHONVERBOSE=x\n         can be supplied multiple times to increase verbosity\n-V     : print the Python version number and exit (also --version)\n-W arg : warning control; arg is action:message:category:module:lineno\n         also PYTHONWARNINGS=arg\n-x     : skip first line of source, allowing use of non-Unix forms of #!cmd\n
--u/uQPa
--y-idX3zEb=|
--zYvtz
 .%06d
-.)/)0)1)2)3)4)5)6)7)8)9):);)<)=)>)?)@)A)B)C)D)E)F)G)H)I)J)K)L)M)
 ... truncated
 ..\..\Modules\arraymodule.c
 ..\..\Objects\bytearrayobject.c
@@ -689,45 +289,15 @@ $uR@Q
 ..\..\Python\getargs.c
 ..\..\Python\pystrtod.c
 ..\..\Python\traceback.c
-.28h!
-.3/30313
-.7.Rx
-.AH@C
-.A|O:now
-.Dh26a-
-.E+Ec
-.F-l.lw
-.F/Fj
-.GIzI}I
-.Hka
-.Qm\Nh
-.QqP8j9j:j5:@
-.RonWUdj"xkM?W1{
-.V0V
-.VZN'Uu:&7V@Z
-.Y1YtYvYU[
-.ZnJ
 .\DLLs;.\lib;.\lib\plat-win;.\lib\lib-tk
-.a0a/a
 .bat
 .cmd
-.cmgA}bZ
 .com
-.e2ek7c
 .exe
-.f,f-fa:S7
-.g?g6gAg8g7gFg^g`gYgcgdg
-.k/k0kU7
-.mmp
-.o/oCD
-.p,p-pp
 .pyc
 .pyd
 .pyo
 .pyw
-.r";2B0EGB
-.s4G4
-.tNu
 ////////////
 /////////////
 //////////////
@@ -748,18 +318,14 @@ $uR@Q
 //////////////////////////////////
 ///////////////////////////////////
 ////////////////////////////////////
-/////////////////////////////////////
 ////////////////////////////////////////
 /////////////////////////////////////////
-//////////////////////////////////////////
 ///////////////////////////////////////////
 ////////////////////////////////////////////
-/////////////////////////////////////////////
 //////////////////////////////////////////////
 ///////////////////////////////////////////////
 ////////////////////////////////////////////////
 /////////////////////////////////////////////////
-//////////////////////////////////////////////////
 ///////////////////////////////////////////////////
 ////////////////////////////////////////////////////
 /////////////////////////////////////////////////////
@@ -783,7 +349,6 @@ $uR@Q
 //////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -812,582 +377,38 @@ $uR@Q
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/101m
-/20212
-/30f0
-/4h7fpep#FapbpC4T
-/6zV,EY=>[?[
-/707
-/8-8K
-/9091929N
-/?7N0
-/@lr^rE
-/B64
-/BZP
-/D0D
-/E50
-/HPE$brG4I
-/J0R:q
-/K!n=6D
-/M5qt
-/NB9
-/OeRZS
-/Oo0
-/OpO
-/P8i
-/QcW
-/TIi
-/UQO*Q
-/V1V_4
 /__init__.py
 /__init__.pyc
 /__init__.pyo
-/`RJGH
-/l9EN6
-/qn20qT
-/w6Z
-/x0x
-/xvo
-/yQA
-0%1%2%3%4%5%6%7%8%9%
 0.0 cannot be raised to a negative power
 0.0 to a negative or complex power
-0////123123123
-0010203040K
 0123456789ABCDEF
 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz
 0123456789abcdef
-01dW?Wf
-05 2 
-0616
-07v5MnOn
-0<uF6W
-0?1?2?3?4?5?
-0@0x0.0p+0
-0@8RgkH
-0A0B0C0D0E0F0G0H0I0J0K0L0M0N0O0P0Q0R0S0T0U0V0W0X0Y0Z0[0\0]0^0_0`0a0b0c0d0e0f0g0h0i0j0k0l0m0n0o0p0q0r0s0t0u0v0w0x0y0z0{0|0}0~0
-0B1BR
-0Bb^
-0E1EP
-0Fj0?H
-0G1G
-0Hl0&9S<qN=[SA
 0K0w$
-0L"j
 0M0x$
-0MvhN
-0M~q#P/a#x
 0O0y$
-0OYwfs
-0OZ39\T
 0Q0z$
-0R1R[<
 0S0{$
-0TZDE
-0TeU?
-0VJx
-0WIqS
-0WhX=K
-0W{F[J\
-0X/;11D
-0Y7Y6>
-0\t0\n0\v0\f0\r0
-0]NFd
-0`WG
-0cDA-cV
-0d&`&b&f&a&e&g&c&
-0e-VJ\
-0f2f
-0g,gG
-0h0tjsnZ
-0h|G3
-0iNV6
-0j"k"
-0kct
-0kwM
-0n7Nw
-0plN1p2pq
-0u1un
-0vOoOi
-0w1w
 0x%sp%c%d
+0x0.0p+0
 1 1!1"1#1$1%1&1'1(1)1
 1 if summer time is in effect, 0 if not, and -1 if unknown
-1(2(3(4(5(6(7(8(9(:(;(<(=(>(?(@(A(B(C(D(E(F(G(H(I(J(K(L(
 1.2.3
 1.71
-112131415161718191:1;1<1=1>1?1@1A1B1C1D1E1F1G1H1I1J1K1L1M1N1O1P1Q1R1S1T1U1V1W1X1Y1Z1[1\1]1^1_1`1a1b1c1d1e1f1g1h1i1j1k1l1m1n1o1p1q1r1s1t1u1v1w1x1y1z1{1|1}1~1
-12345679:;<=>?@A
-124789ABCEFGHIJKLMN
-1525q
 16:59:14
-19F2pTMO\0KUu;JV770L6Fa1:9|Va9!7z<Zj[jyLs9\j{43CQ7X:]jtT^jV<_;_j^A8B_TJW`jajdjbjcj^I38D6ejjJMIM4P
-1:IN
-1;wH{P%
-1<qbTP9TubV9vbO
-1@G1"
-1A26b
-1A2A
-1Ay`cV/2DV[5
-1E]pqQM
-1E{Yx
-1F2Fn
-1Hzqs
-1Ju?D
-1KDL
-1Kfu
-1LXw
-1M2M
-1N=a;a\C&@8
-1NyX
-1OW\X
-1Q-Q.Q
-1SE?bLJ
-1V2^
-1W.O
-1W>8hBl
-1X4CeRY
-1YDG
-1ZGXb\Nstu
-1[Hp
-1\t1\n1\v1\f1\r1
-1^3^A
-1`g2W
 1aes)
-1ck|(M
-1g*s
-1jtZp
-1k?m
-1kbG
-1ng=v
-1p!q!r!s!t!u!v!w!x!y!
-1p2p3p4p5p<Q^
-1s,sZ
-1t"=U2z
-1wsHp
-2&3&4&5&6&7&8&
-2&3&4&5&6&7&8&e
 2.7.5
-2122292~3}3|3
-2122292~3}3|3R"a"+"."
-2232
-2333D
-23c1,>H2X
-24Qb
-2838
-2:?0H
-2;TR
-2=d;)Z*ZHQ+ZmPo6[B
-2?kU!;d
-2D"J#A
-2El4
-2KBq
-2NE9
-2OH:
-2Q(g
-2Q1Q0QS
-2Q23z
-2T5T
-2ToL
-2V5W
-2W@J5W!P1P`
-2XkQ;:
-2Y)A3Yg
-2Y5>;5
-2\lP}Npn
-2\t2\n2\v2\f2\r2
-2c5c;c<cAcDcNc
-2e~D]
-2j1jS
-2j3j4j?jFjIjzjNjRjdj
-2m/t
-2m1m
-2m1mA
 2nd arg must be a tuple
-2o3o6oG
-2rvs[v
-2s8s8
-2w3w
-3"3M3
-3+"."5"4"@&B&A&\t&
-304050;0<0
-31Rk%Lc
-32d[
-34?J/GtVuV
-35Vq<
-363Q3W3\r3&3#3+3J3;3
-36~Y}Y
-3747
-37UIGlb;H
-3949S
-3=o?I
-3A4A
-3BPv
-3C4CE
-3D4D
-3F4m0H4r4
-3H4Hm
-3P4P5P4K6P
-3QbJP2
-3R%6jG|qnO3KkPoggMK9Y6}qd0LK~q$T-BlADF1>!rU<F
-3R?R
-3T9S^j
-3WCc}sZ^
-3\URI
-3]lT
-3a8@$
-3a8a
-3b!L
 3bBc:dEhiJm:OQ:RsStuUvVW:xX?
-3bVG
-3cIcX6
-3d/d;
-3dCd
-3gfgGgHg{g
-3h;h>hDhEhIhLhUhWhw;khnhzh|h
-3i(i
-3kQ4/
-3l_0
-3mfc^
-3oMb
-3q4qZ
-3r4r2r
-3sXdyOZO
-3u4u5uv
-3yRr
-3z:zDzXzt
-3|jjkjzP
-4!5!6!7!8!9!:!;!<!=!
-4!5!6!7!8!9!:!;!>!?!
-4(N/N0N
-40i[
-41jU:8O
-424O[
-42d4
-4353637383E
-4656
-47;n
-48DsY
-49pNHT
-4<4HQBq
-4=l;N
-4>F1"
-4A@QAQ,Hx8;OBQ
-4B5Bd
-4C>YEY@YGYCY
-4E5Eb
-4Ejn[
-4F'W0JCD
-4F5Ft
-4N)D>1}TX
-4O$RJS
-4OJS
-4Q5Q
-4QacjH/9-=X3[NB
-4S#M
-4TGd
-4U,O
-4W3W
-4WnaoaLS
-4X.C!S#Np
-4Z*ni{
-4\,05\K
-4\6\3\R
-4\9zOJ
-4]5d0X
-4^mJ9^c
-4`dL
-4eHMHn
-4g3g
-4hCk
-4k!j
-4law
-4m3m
-4nDn\n^n
-4ps;6p3p
-4u5u
-4u8{
-4vdA5v6v7v8v9v:v#H;v
-4{FK
-4|Bu
-5,6,7,8,9,:,;,<,=,>,?,@,
-5-6-7-8-9-:-;-<-=->-?-W-
-52?B`f;JafbfT>cf$WUMef]<dfffgfnBS
-52F*
-53~Tl9yPa
-54)O
-5565
-576777
-58;7<={C$6h@w8f
-59d?f1<AXYE51
-5;6;Y
-5;zY
-5=J?W
-5=V?V@VGV^V`VmV
-5@6-I
-5B-0iKF
-5BWj9
-5DN@
-5GUJU
-5H~c^C{E
-5JlAG9
-5KQX
-5Lrpq
-5Nmc
-5ObG!
-5Q8Q7Q
-5QiR6QG<
-5S9@!E&2qT
-5S;S`
-5U3y
-5X6X5
-5XywL
-5\r632
-5\x`1g
-5]/r3
-5_7_q
-5`UaUdU
-5bpE
-5cdq
-5h2h3hb
-5iBiWicidihi
-5kUp5
-5m7mF
-5mca
-5n4ni
-5q7q8q9q:q;q<q=q>q?q@qAqBqCqDqFqGqHqIqKqMqOqPqQqRqSqTqUqVqWqXqYqZq[q]q_q`qaqbqcqeqiqjqkqlqmqoqpqqqtquqvqwqyq{q|q~q
-5s3s6
-5v6v_
-5v[W
-5ws|sp/N5qRoHhqk
-5y6y
-6676
-6878
-68NRK
-6:0?H
-6A7A
-6B7B8Be
-6IhP
-6KLmMm|
-6L13
-6M669?[Uh
-6Q7Q3r
-6StX]Y
-6W5O
-6Zq>4
-6\fZ\rZ
-6\id
-6]/nxM
-6_5_;VP=YUH0#6I?(L3_7JRS
-6a5akAA
-6b4Kr
-6c_7
-6d9u
-6eKb
-6eos
-6gGe,V
-6i8i
-6jzyLfXv
-6k7k
-6l)J
-6lCl?l;l
-6m+m=m8m
-6n7n9n;n<n=n>n?n@nAnBnEnFnGnHnInJnKnLnOnPnQnRnUnWnYnZn\n]n^n`nanbncndnenfngnhninjnlnmnonpnqnrnsntnunvnwnxnynzn{n|n}n
-6oso
-6q2q[
-6t7tf602OO4t,4{
-6t~l
-6x7xz
-6|-rao.sF\kY
-6}1Z5{
-7080W
-75.Q/QI
-777kkkkkkkkkkkkkkkk
-78bZb
-79`Zv
-7>AYRG
-7BiY6
-7C8CQ
-7Cp0Y
-7D8DG
-7E@BWIoTpT{1l
-7GN46;@P#l
-7KSh
-7K^kJ
-7L8[
-7O;m<
-7Q8Q
-7R6R"
-7S8S]
-7SLz
-7T[\_\&Lf\m
-7U8U
-7V3MUxXe
-7X%=8
-7X1NBJ
-7Xcqo
-7Y#1aS9Yb
-7\sSR
-7_p54_
-7`lWlq/eaUmWQQ
-7a]j]
-7bALQ
-7e]Hr
-7h%m
-7i5i
-7j6kUJ
-7k=0
-7kxo\uLmU[Oq
-7p!n
-7p6p'T`
-7qxn
-7tB}0|
-7u6uz
-7up`
-7x3u{T8O
-7zFP
-7~8A
-8!@PBPG
-8"n&o&p&q&r&s&t&
-8.I.P.c.h.n.,///6/Z/^/aObOPt\t^tat(u+uCueuivwv%wUw)
-80qhph
-81/4E
-8191
 82160
-8494
-8595
-8696:6
-86:6
-86:T
-87%Bd28
-8797:7
-87la
-8999Y
-8;9;c
-8<27F
-8Dunrn
-8E9Ej
-8E;Q]
-8Fpc
-8H9H
-8HcQd
-8JSR
-8J]UF@X
-8Lb5ezk5l:llp+r,N
-8MpVOe]5
-8N+T
-8NSXV0UXV
-8O[i,Q
-8R=2LK$
-8RqM
-8SVr
-8T>ko]
-8UDa
-8VT=
-8V|j40
-8Wgj,W|HSXMX^TS
-8Xsz
-8Y9YIo
-8ZpY@
-8\K\N\>\R7E0G\>PA\(;_
-8^'||w1w;N!t
-8b+k
-8bOw
-8cn3
-8d9diL
-8eoLISW<jIh
-8f7f
-8g9g[W@U:gLB:W;g<g=gj<eCB@>g?g)<
-8j<j7jn
-8jyQ
-8k4>
-8l?I9l|
-8nU0G
-8qu}y`
-8rHv
-8r}v
-8|PQ
-8}0P
-8}hc
-8~*~I~@~G~)~L~0~;~6~D~:~E
-9!:!;!R!S!T!U!V!W!X!Y!Z![!)"."L!M!
-90:0;0X
-90H8?
-91+cQ2,5_9h6
-93K1
-96G6
-96xtM
-98:8;8<8=8
-98YOeDokpkZLHMr0d
-9;bU
-9?9M9
-9C:C;CR
-9D:D;DH
-9FREGG[
-9Gc7
-9IJ1
-9I~OJjNTMjOj~
-9J]fd
-9KBP
-9M<0v3w;J[/:T
-9NXS
-9Oxi.
-9PrT
-9PvGu
-9Q:Qt0e
-9QaQGX}
-9S0S
-9V}UK4=2dNgFh
-9Y49[@U
-9[+B:[r>]L<[=[hM!
-9a&g
-9b7b
-9cEk)t6MyR
-9dmv
-9iEz
-9iXq
-9k:k
-9l8lCB7l
-9mEq
-9mH?;mN
-9o-E
-9p:p<pCpGpKp
-9p@pBp
-9p~dId
-9q:q
 9r:m6t:M;
-9t6q
-9z]zmzU
-9|BnuJ
 : %d unfreed float%s\n
 : %d unfreed int%s\n
-:&=&;&@&9&>&<&?&l&}"
-:';'\']'^'6'7'8'T'U'V'W'X'!'"'#'%'+','-'.'/'0'1'2'3'4'''(')'*'='>'e'f'g'h'a'b'c'?'@'A'B'C'D'E'F'G'H'N'O'P'Q'R'S'Z'['c"l'&'`'o'a"<'m'5'
-:0>jL
-:3;3<3G
-:3wd
-:4;4F
-:<QRHKM0
-:<qTn
-:>9>BUq
-:@RE5D
-:AMT
 :Close
 :Detach
-:GXN
 :GetCurrentProcess
 :GetVersion
-:JAFle<P
-:L}["?GDs[8
-:Mm28=[8
-:P:wsXMw
-:Q9Q
-:T3d
-:UMsaK
-:VAu
-:a60G
-:a9aBZ&38a4
-:f27
 :getch
 :getche
 :getstate
@@ -1396,51 +417,8 @@ $uR@Q
 :heapmin
 :isexpr
 :issuite
-:j;je
 :kbhit
-:p1n
-:r+J8r]
-:r}iJP
 :tabstop=
-:u9B~
-:uke
-:xPh
-:~<~=~>~?~@~B~C~D~E~F~H~I~J~K~L~M~N~O~P~Q~R~S~T~U~V~W~X~Y~Z~[~\~]~^~_~`~a~b~c~d~e~f~g~h~i~j~k~l~m~n~o~p~q~r~s~t~u~v~w~x~y~z~{~|~}~~~
-;2<2b
-;6GDGGL@L
-;;0d9d4d:
-;=%:`Rz2`:6D
-;Ad44
-;Bxl
-;Cdb:6I
-;E<Eo
-;Fiiilirizi
-;I"at
-;JKPv
-;NM5!WtWSS
-;NOO
-;P:P)JD
-;RtS
-;SlJ
-;U2Ip
-;Y!2jCO
-;[XXZ
-;c<cs
-;eHA
-;ejtjqj
-;iq0f
-;j>jEjPjVj[jkjsj
-;leW
-;m=m>m6m
-;n4M
-;nVUoWL
-;o5oL
-;r6r?r=rd
-;skBm:
-;tUZ
-;uqQ=0
-;w:wb
-;zjWk
 <%s '%s.%s'>
 <%s buffer for %p, size %zd, offset %zd at %p>
 <%s buffer ptr %p, size %zd at %p>
@@ -1450,49 +428,20 @@ $uR@Q
 <%s object at %p>
 <%s.%s instance at %p>
 <%s.%s object at %p>
-<0=0d
-<1H^1=WLJ^M
-<4K5\
-<5VVY
-<61[d
-<6H@FO.LwfT@)
-<<xDg
+<%s.%s>
 <> not supported in 3.x; use !=
-<?#k_UHjT
 <?.%s instance at %p>
-<B=BF
-<Bhegeie
-<C=CX
-<Crcn
-<D=DN
-<E5M
 <ERRORTOKEN>
-<J6Bq65E
-<KbV
-<Kj=(Y3
-<Ljw
-<M03
 <NULL>
 <N_TOKENS>
 <PyHKEY at %p (%p)>
 <PyHKEY:%p>
-<Py[1W
-<U@j9W@^A
-<VeS
-<WcL
-<X0r
-<Y}2:Yq5sB6YS
-<\6RUu
-<_=_>_;E?_B_1TC_
 <_io.FileIO [closed]>
 <_io.FileIO fd=%d mode='%s'>
 <_io.FileIO name=%s mode='%s'>
 <_io.TextIOWrapper encoding=%s>
 <_io.TextIOWrapper name=%s encoding=%s>
-<`A6C
 <attribute '%s' of '%s' objects>
-<b=b>b?b@bAb97{R$=NJ%1GK
-<bFi
 <bound method %s.%s of %s>
 <built-in function %s>
 <built-in method %s of %s object at %p>
@@ -1505,15 +454,13 @@ $uR@Q
 <code object %.100s at %p, file "%.300s", line %d>
 <dictcomp>
 <dummy key>
+<fd:%d>
 <fdopen>
-<frame
 <frozen>
 <function %s at %p>
 <generator object %.200s at %p>
 <genexpr>
-<i%Up
 <lambda>
-<long int too large to convert to float
 <member '%s' of '%s' objects>
 <memory at %p>
 <method '%s' of '%s' objects>
@@ -1521,13 +468,10 @@ $uR@Q
 <module '%s' (built-in)>
 <module '%s' from '%s'>
 <module>
-<mxEY
 <nil>
 <non-string-path-entry>
 <prefix>\lib
-<rcl
 <refcnt %ld at %p>
-<riTb
 <setcomp>
 <slot wrapper '%s' of '%s' objects>
 <stderr>
@@ -1539,177 +483,15 @@ $uR@Q
 <symtable entry %.100s(%ld), line %d>
 <syntax-tree>
 <tmpfile>
-<u$rNXOX
 <unbound method %s.%s>
 <uninitialized file>
 <unknown>
-<w=wJ
 <weakproxy at %p to %.100s at %p>
 <weakref at %p; dead>
 <weakref at %p; to '%.50s' at %p (%s)>
 <weakref at %p; to '%.50s' at %p>
-<y=yAy
-<zbf
 <zipimporter object "%.300s">
 <zipimporter object "%.300s%c%.150s">
-='A0B0C0D0E0F0G0H0I0J0K0L0M0N0O0P0Q0R0S0T0U0V0W0X0Y0Z0[0\0]0^0_0`0a0b0c0d0e0f0g0h0i0j0k0l0m0n0o0p0q0r0s0t0u0v0w0x0y0z0{0|0}0~0
-=/q1qPqJqSq^q
-=2n<nHnInKnLnOnQnSnTnWncn
-=3hHr
-=4>4S
-=8J<=B$BB3jZw
-=:3tc00ty
-=<fYgX
-=AOQK
-=E>Eu
-=HLJ
-=L83
-=MBx
-=MhA/Pv;sF=
-=O5A
-=OsOGP
-=PX5
-=PpTpop
-=Q5x]
-=TOTAT(T$TGT
-=Tpepiplpnpvp~p
-=TwGl
-=XoYvM:?
-=Z>Z@Z?ZAZ~2G
-=a?aMBj
-=cifju
-=h7h
-=hxJ\8uLt
-=iBitA~
-=jCh}
-=llF
-=npJQ
-=pPWPT
-=u>u@uHuNuPuRuluruquzu}u~u
-=v;a?MTtMf
-=zHLMoUU
-={'{*{.{/{1{
-=|ii:enable
->*M*?*N*Z*`*
->69XH1O1Q1~E
->6w[D
->9s,s1s3s=sRs
->:BBHk^
->;opm
->=hffB':ifT
->@math.fsum partials
->BO.PlP
->EDm
->Gz]|]~]"^*0N1k
->Jjlq@i
->MEPGPn:HP$Up
->NpW
->R$Ih6e03
->TDu
->Uy7
->X?XU0<
->YAY@Y
->ZMd
->_6JJ
->a?Mf
->aVHAa
->can't unpack IEEE 754 special value on non-IEEE platform
->eti:access
->h<Ih
->i-7{_\vR&R<R
->j1Y
->kPAuArTU844_
->ksls
->p?pi>@pl6ApBpCpDp5HEpFpd
->q@qAq
->q@qF
->rwCz
-?1@1A1
-?3333
-?333333
-?3@3S
-?4"g4IY8ID
-?456789:;<=
-?6xj
-?>nG6q7qU?
-??RCfCr
-?@ABC
-?C#   <float at %p, refcnt=%ld, val=%s>\n
-?D"6Y
-?E@EAEv
-?FI4B
-?J0U
-?JIH
-?Q]C3<p
-?S?Bumuru
-?T@T>Tk
-?UUUUUU
-?VNB
-?XE>rF2R0OgO_
-?\OcB
-?_random.Random
-?a,NM7@a
-?aCoc
-?dSJJ
-?e85cuhu#L
-?e=0JL
-?imageop.error
-?ipojW
-?k&3I9+VQ
-?kwB-5
-?lAl
-?lMl[lml
-?math range error
-?q1x
-?qBqm
-?tob
-?xbXhS
-?y/VFU
-?zJT
-?zv\O
-@0At
-@4A4b
-@5'5c;Q
-@6A6
-@6AO(JvaxU|Sxa|ayaK
-@92O
-@9xGxQxfxH
-@;Klh
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@A@B@C@D@E@F@G@
-@@integer division or modulo by zero
-@B9_pB
-@BABR
-@CACj
-@Cw9@agE@
-@FAFF
-@FQWPW
-@ID3u
-@MEB
-@NTcOQuq
-@SWc
-@UA9@
-@Upczm
-@YoV
-@Z4xrk
-@aAa
-@bLX
-@c@ypi
-@ez<]0;eCeGeK9VL%
-@gAg6gP6Bg
-@hAh
-@jOa
-@m9J
-@m=mX
-@qHmCo
-@rn3
-@sAs
-@sAsW
-@uAu
-@unicode
-@vAvQDc
-@wAw
-@year >= 1900 required
 A buffer for a writeable sequential RawIO object.\n\nThe constructor creates a BufferedWriter for the given writeable raw\nstream. If the buffer_size is not given, it defaults to\nDEFAULT_BUFFER_SIZE. max_buffer_size isn't used anymore.\n
 A buffered interface to random access streams.\n\nThe constructor creates a reader and writer for a seekable stream,\nraw, given in the first argument. If the buffer_size is omitted it\ndefaults to DEFAULT_BUFFER_SIZE. max_buffer_size isn't used anymore.\n
 A buffered reader and writer object together.\n\nA buffered reader object and buffered writer object put together to\nform a sequential IO object that can read and write. This is typically\nused with a socket or two-way pipe.\n\nreader and writer are RawIOBase objects that are readable and\nwriteable respectively. If the buffer_size is omitted it defaults to\nDEFAULT_BUFFER_SIZE.\n
@@ -1717,91 +499,42 @@ A handle must be a HKEY object or an integer
 A load persistent id instruction was encountered,\nbut no persistent_load function was specified.
 A lock object is a synchronization primitive.  To create a lock,\ncall the PyThread_allocate_lock() function.  Methods are:\n\nacquire() -- lock the lock, possibly blocking until it can be obtained\nrelease() -- unlock of the lock\nlocked() -- test whether the lock is currently locked\n\nA lock is not owned by the thread that locked it; another thread may\nunlock it.  A thread attempting to lock a lock that it has already locked\nwill block until another thread unlocks it.  Deadlocks may ensue.
 A simple fast partial StringIO replacement.\n\nThis module provides a simple useful replacement for\nthe StringIO module that is written in C.  It does not provide the\nfull generality of StringIO, but it provides enough for most\napplications and is especially useful in conjunction with the\npickle module.\n\nUsage:\n\n  from cStringIO import StringIO\n\n  an_output_stream=StringIO()\n  an_output_stream.write(some_stuff)\n  ...\n  value=an_output_stream.getvalue()\n\n  an_input_stream=StringIO(a_string)\n  spam=an_input_stream.readline()\n  spam=an_input_stream.read(5)\n  an_input_stream.seek(0)           # OK, start over\n  spam=an_input_stream.read()       # and read it all\n  \nIf someone else wants to provide a more complete implementation,\ngo for it. :-)  \n\ncStringIO.c,v 1.29 1999/06/15 14:10:27 jim Exp\n
-A&B&C&D&E&F&G&H&I&J&K&L&M&N&O&P&Q&
-A&B&C&D&E&F&G&H&I&J&K&L&M&N&O&P&Q&x
-A(B(C(D(E(F(G(H(I(J(K(L(M(N(O(
-A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,
-A0B0C0D0E0F0G0H0I0J0K0L0M0N0O0P0Q0R0S0T0U0V0W0X0Y0Z0[0\0]0^0_0`0a0b0c0d0e0f0g0h0i0j0k0l0m0n0o0p0q0r0s0t0u0v0w0x0y0z0{0|0}0~0
-A1(hy
-A3B3C3T
-A4w4
-A4zN
-A6GJ:D":
-A7B7
-A7|e}e#f
-A8B8
-A;S5
-A?Y\p
-A@R4Zk
-AABACA
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ACCESS_COPY
 ACCESS_READ
 ACCESS_WRITE
-ACrWb
 ADVAPI32.dll
-AD_`m
-AF'D
-AIsD9
-AJYh
-AKXUD
 ALLOCATIONGRANULARITY
 AMPER
 AMPEREQUAL
-AN$q
-AP>2K
-AQ:r]
-AQkY9\
-AQpS
-AR@R#>a8CR>H8
-ASFS
-ASMp
 AST identifier must be of type str
 AST string must be of type str or unicode
 ASTType
-ATDT!
 ATOM
-AT`V
-AU{y{d{f{i{s{
-AVBVZ
-AWBWy
-AZUL
-A__members__ and __methods__ not supported in 3.x
-A_uB%
 Abstract base class for time zone info objects.
 Abstract classes can override this to customize issubclass().\n\nThis is invoked early on by abc.ABCMeta.__subclasscheck__().\nIt should return True, False or NotImplemented.  If it returns\nNotImplemented, the normal algorithm is used.  Otherwise, it\noverrides the normal algorithm (and the outcome is cached).\n
 Accessing non-existent array segment
 Accessing non-existent mmap segment
 ActivateActCtx
-Ad:sleep
-Adatetime_CAPI
 Add an element to a set.\n\nThis has no effect if the element is already present.
 Add an element to the left side of the deque.
 Add an element to the right side of the deque.
 AddRefActCtx
 Adding FIRST sets ...\n
-Adkx
-AeS@N
-Agyry
-AlKN
-Along() arg 2 must be >= 2 and <= 36
 Alternate form (#) not allowed in complex format specifier
 Alternate form (#) not allowed in float format specifier
 Alternate form (#) not allowed in string format specifier
 Always return None
 An md5 represents the object used to calculate the MD5 checksum of a\nstring of information.\n\nMethods:\n\nupdate() -- updates the current digest with an additional string\ndigest() -- return the current digest value\nhexdigest() -- return the current digest as a string of hexadecimal digits\ncopy() -- return a copy of the current md5 object
-An;05UNQ`<P:E
 Argument expected for the -%c option\n
 Argument given by name ('%s') and position (%d)
 ArithmeticError
 ArrayType
-As+P
 Assert
 Assertion failed.
 AssertionError
 Assign
 Assign field "targets" must be a list, not a %.200s
-Astate vector is the wrong size
 At most 45 bytes at once
 Attempt to getvalue() a non-list-based pickler
 Attempted relative import beyond toplevel package
@@ -1809,14 +542,9 @@ Attempted relative import in non-package
 Attribute
 Attribute not found.
 AttributeError
-AuD\
 AugAssign
 AugLoad
 AugStore
-B c0
-B$G(G
-B'C'D'E'F'G'H'I'J'K'L'M'N'O'P'
-B,qZD'J"J
 B.__alloc__() -> int\n\nReturns the number of bytes actually allocated.
 B.__sizeof__() -> int\n \nReturns the size of B in memory, in bytes
 B.append(int) -> None\n\nAppend a single item to the end of B.
@@ -1861,34 +589,9 @@ B.title() -> copy of B\n\nReturn a titlecased version of B, i.e. ASCII words sta
 B.translate(table[, deletechars]) -> bytearray\n\nReturn a copy of B, where all characters occurring in the\noptional argument deletechars are removed, and the remaining\ncharacters have been mapped through the given translation\ntable, which must be a bytes object of length 256.
 B.upper() -> copy of B\n\nReturn a copy of B with all ASCII characters converted to uppercase.
 B.zfill(width) -> copy of B\n\nPad a numeric string B with zeros on the left, to fill a field\nof the specified width.  B is never truncated.
-B6C6D6
-B8EXE
-B<C<D<S
-B?MhyV
-B@wm.B$Bum)0"O
-BAAAE
 BACKQUOTE
-BBCBDBS
-BDCD
-BDEFGHJKLMN
-BECE
-BELT
-BHkE
 BINSTRING pickle has negative byte count
 BINUNICODE pickle has negative byte count
-BJ~6!XZSw?
-BL~mqmrmI
-BMZg
-BN*P
-BNGV
-BTPSCksED
-BW/C67QG)Cb\X\k\T\
-BYoGR
-BY}Z}j}p}
-B\rC;@4C
-B\vp\n0
-B]7oTg
-B]HC<F.NL]S
 Bad code object in .pyc file
 Bad compression level
 Bad magic number in %.200s
@@ -1913,15 +616,6 @@ Base class for warnings about probable mistakes in module imports
 Base class for warnings generated by user code.
 BaseException
 BaseException.message has been deprecated as of Python 2.6
-BbDbEb
-BbF"G
-Bb|6DHCb
-BciG#
-BdURIdCd
-Be57Ce
-Be<e
-BfCf
-Bfcc
 BinOp
 Binhex RLE-code binary data
 Bisection algorithms.\n\nThis module provides support for maintaining a list in sorted order without\nhaving to sort the list after each insertion. For long lists of items with\nexpensive comparison operations, this can be an improvement over the more\ncommon approach.\n
@@ -1929,15 +623,9 @@ Bit mask identifying available product suites
 BitAnd
 BitOr
 BitXor
-BjAjZi
-Bjfr6p
-BkDkvIWVMU2POk8NPk]
-Bl6Ac3
 BlockingIOError
-BnZ+Z
 BoolOp
 BoolOp field "values" must be a list, not a %.200s
-BrCv
 Break
 Buffer error.
 BufferError
@@ -1947,69 +635,32 @@ BufferedReader
 BufferedWriter
 Build number
 Built-in functions, exceptions, and other objects.\n\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.
-BwAwDwk
 BytesIO
 BytesIO([buffer]) -> object\n\nCreate a buffered I/O implementation using an in-memory bytes\nbuffer, ready for reading and writing.
 BytesWarning
-Bza{mz"pqL
 C implementation and optimization of the Python pickle module.
 C objects to be exported from one extension module to another\n\nC objects are used for communication between extension modules.  They\nprovide a way for an extension module to export a C interface to other\nextension modules, so that extension modules can use the Python import\nmechanism to link to one another.
-C"G"H"K"J"I"L"
-C*G{G
-C*S*++*+9*H*
-C-Yn
-C0.m
-C0n=/9GM
-C14mqcrc
-C1D1
-C1QA}8E8g6a
-C2QAQ
-C4D4E4g
-C5GEca
-C6cq
-C=soL6+0C
-CC(o
 CELL
 CHAR_MAX
-CI/O operation on closed file.
 CIRCUMFLEX
 CIRCUMFLEXEQUAL
-CKM`F`B`
-CL>wK|
-CMZM
-CMnYpY
-CN8rv07rQ
 CODESIZE
 COLON
 COMMA
 COMSPEC
 CObject type is not supported in 3.x. Please use capsule objects instead.
-COzO
 CP0Xf_\tq
 CPython
 CREATE_NEW_CONSOLE
 CREATE_NEW_PROCESS_GROUP
-CS&Kf
-CS<S-4
 CSV dialect\n\nThe Dialect type records CSV parsing and generation options.\n
 CSV parsing and writing.\n\nThis module provides classes that assist in the reading and writing\nof Comma Separated Value (CSV) files, and implements the interface\ndescribed by PEP 305.  Although many CSV files are simple to parse,\nthe format is not formally defined by a stable specification and\nis subtle enough that parsing lines of a CSV file with something\nlike line.split(",") is bound to fail.  The module supports three\nbasic APIs: reading, writing, and registration of dialects.\n\n\nDIALECT REGISTRATION:\n\nReaders and writers support a dialect argument, which is a convenient\nhandle on a group of settings.  When the dialect argument is a string,\nit identifies one of the dialects previously registered with the module.\nIf it is a class or instance, the attributes of the argument are used as\nthe settings for the reader or writer:\n\n    class excel:\n        delimiter = ','\n        quotechar = '"'\n        escapechar = None\n        doublequote = True\n        skipinitialspace = False\n        lineterminator = '\r\n'\n        quoting = QUOTE_MINIMAL\n\nSETTINGS:\n\n    * quotechar - specifies a one-character string to use as the \n        quoting character.  It defaults to '"'.\n    * delimiter - specifies a one-character string to use as the \n        field separator.  It defaults to ','.\n    * skipinitialspace - specifies how to interpret whitespace which\n        immediately follows a delimiter.  It defaults to False, which\n        means that whitespace immediately following a delimiter is part\n        of the following field.\n    * lineterminator -  specifies the character sequence which should \n        terminate rows.\n    * quoting - controls when quotes should be generated by the writer.\n        It can take on any of the following module constants:\n\n        csv.QUOTE_MINIMAL means only when required, for example, when a\n            field contains either the quotechar or the delimiter\n        csv.QUOTE_ALL means that quotes are always placed around fields.\n        csv.QUOTE_NONNUMERIC means that quotes are always placed around\n            fields which do not parse as integers or floating point\n            numbers.\n        csv.QUOTE_NONE means that quotes are never placed around fields.\n    * escapechar - specifies a one-character string used to escape \n        the delimiter when quoting is set to QUOTE_NONE.\n    * doublequote - controls the handling of quotes inside fields.  When\n        True, two consecutive quotes are interpreted as one during read,\n        and when writing, each quote character embedded in the data is\n        written as two quotes\n
 CSV reader\n\nReader objects are responsible for reading and parsing tabular data\nin CSV format.\n
 CSV writer\n\nWriter objects are responsible for generating tabular data\nin CSV format from sequence input.\n
 CTRL_BREAK_EVENT
 CTRL_C_EVENT
-CU0S
-CV=V33>VGVFVEVAV
-CVtV
-CXBX
-CYhP
-C\53
-C\H\I\T2Q\UKl
-C\fjVB
-C^%X*?M[lRzF*Ek
 C_BUILTIN
 C_EXTENSION
-C`6J`
-CaBa
 Calculate FIRST set for '%s'\n
 Call
 Call field "args" must be a list, not a %.200s
@@ -2100,18 +751,12 @@ Cannot specify ',' with '\x%x'.
 Cannot use closefd=False with file name
 Cannot use string as modifiable buffer
 Capsule objects let you wrap a C "void *" pointer in a Python\nobject.  They're a way of passing data through the Python interpreter\nwithout creating your own custom type.\n\nCapsules are used for communication between extension modules.\nThey provide a way for an extension module to export a C interface\nto other extension modules, so that extension modules can use the\nPython import mechanism to link to one another.\n
-Cb??2L
-Cdm5
 Cell is empty
-CgDg:;^5FB`1Eg5TFg?8HgGgl7
 Change stream position.\n\nChange the stream position to the given byte offset. The offset is\ninterpreted relative to the position indicated by whence.  Values\nfor whence are:\n\n* 0 -- start of stream (the default); offset should be zero or positive\n* 1 -- current stream position; offset may be negative\n* 2 -- end of stream; offset is usually negative\n\nReturn the new absolute position.
 Change stream position.\n\nSeek to character offset pos relative to position indicated by whence:\n    0  Start of stream (the default).  pos should be >= 0;\n    1  Current position - pos must be 0;\n    2  End of stream - pos must be 0.\nReturns the new absolute position.\n
 CharPrevA
 Character and line based layer over a BufferedIOBase object, buffer.\n\nencoding gives the name of the encoding that the stream will be\ndecoded or encoded with. It defaults to locale.getpreferredencoding.\n\nerrors determines the strictness of encoding and decoding (see the\ncodecs.register) and defaults to "strict".\n\nnewline controls how line endings are handled. It can be None, '',\n'\n', '\r', and '\r\n'.  It works as follows:\n\n* On input, if newline is None, universal newlines mode is\n  enabled. Lines in the input can end in '\n', '\r', or '\r\n', and\n  these are translated into '\n' before being returned to the\n  caller. If it is '', universal newline mode is enabled, but line\n  endings are returned to the caller untranslated. If it has any of\n  the other legal values, input lines are only terminated by the given\n  string, and the line ending is returned to the caller untranslated.\n\n* On output, if newline is None, any '\n' characters written are\n  translated to the system default line separator, os.linesep. If\n  newline is '', no translation takes place. If newline is any of the\n  other legal values, any '\n' characters written are translated to\n  the given string.\n\nIf line_buffering is True, a call to flush is implied when a call to\nwrite contains a newline character.
-CiIA
 Circular reference detected
-Cl!Ya7+
-Cl8KC@~L
 ClassDef
 ClassDef field "bases" must be a list, not a %.200s
 ClassDef field "body" must be a list, not a %.200s
@@ -2122,9 +767,6 @@ Close the IO object. Attempting any further operation after the\nobject is close
 CloseHandle
 CloseKey
 CloseKey(hkey) - Closes a previously opened registry key.\n\nThe hkey argument specifies a previously opened key.\n\nNote that if the key is not closed using this method, it will be\nclosed when the hkey object is destroyed by Python.
-Cl~O
-Cm2P
-CoDoEoHoIoJoLoNoOoPoQoRoSoToUoVoWoYoZo[o]o_o`oaocodoeogohoiojokolooopoqosouovowoyo{o}o~o
 Codec used when reading a file in universal newlines mode.  It wraps\nanother incremental decoder, translating \r\n and \r into \n.  It also\nrecords the types of newlines encountered.  When used with\ntranslate=False, it ensures that the newline sequence is returned in\none piece. When used with decoder=None, it expects unicode strings as\ndecode input and translates newlines without first invoking an external\ndecoder.\n
 Common base class for all exceptions
 Common base class for all non-exit exceptions.
@@ -2151,9 +793,6 @@ Could not set __package__
 Couldn't create autoTLSkey mapping
 Couldn't create thread-state for new thread
 Couldn't get thread-state dictionary
-CpVL
-Cq_n
-CrIrPrVrx
 Create a mapping from a string name to a dialect class.\n    dialect = csv.register_dialect(name, dialect)
 Create a new buffered reader using the given readable raw IO object.
 CreateDirectoryA
@@ -2178,16 +817,7 @@ Creates an ST object from a tree representation.
 Creates an ST object from an expression.
 CryptAcquireContextA
 CryptGenRandom
-Ct9H_
-CtT`
-CuXi
 Current date or datetime:  same as self.__class__.fromtimestamp(time.time()).
-CxDx
-CzWe
-D"hPn<
-D&mQm
-D*T*%*0*]*c*'*3*&*2*G*W*(*4*
-D,7{K
 D.__contains__(k) -> True if D has a key k, else False
 D.__reversed__() -- return a reverse iterator over the deque
 D.__sizeof__() -- size of D in memory, in bytes
@@ -2214,17 +844,9 @@ D.values() -> list of D's values
 D.viewitems() -> a set-like object providing a view on D's items
 D.viewkeys() -> a set-like object providing a view on D's keys
 D.viewvalues() -> an object providing a view on D's values
-D2E2
-D3E3Z
-D3jRj
-D8E8F8
-D9;V
 D:isnan
 D:phase
 D:polar
-D<zR\C\?x
-D=lU`2HGk?-YA
-DA{A0Vwqw
 DBL_DIG -- digits
 DBL_EPSILON -- Difference between 1 and the next representable float
 DBL_MANT_DIG -- mantissa digits
@@ -2234,10 +856,6 @@ DBL_MAX_EXP -- maximum int e such that radix**(e-1) is representable
 DBL_MIN -- Minimum positive normalizer float
 DBL_MIN_10_EXP -- minimum int e such that 10**e is a normalized
 DBL_MIN_EXP -- minimum int e such that radix**(e-1) is a normalized float
-DBpe
-DCBfo
-DDED
-DE3MC9=?
 DEBUG_COLLECTABLE
 DEBUG_INSTANCES
 DEBUG_LEAK
@@ -2256,40 +874,14 @@ DEF_IMPORT
 DEF_LOCAL
 DEF_MEM_LEVEL
 DEF_PARAM
-DFEFFFN
-DGEGT
-DHEHV
-DJ[o+3$
-DK7g
-DKFYAMF`F
 DLL load failed with error code %d
 DLL load failed: 
-DMOd
 DOUBLESLASH
 DOUBLESLASHEQUAL
 DOUBLESTAR
 DOUBLESTAREQUAL
-DPK0V
-DP`bX1dR
-DRd?P<a6
-DU@w|pJmyQ
 DUPLICATE_SAME_ACCESS
-DWA7|
-DWmO~gp
-DXVB292X5?
-DXeH
-DXy_vD
-DY61
-DY|i
-D\7\N
-D\V\tH`?r
-D`aP
-DaFLFC
-DamFCa=
 Data container common to multiple tee objects.
-DcG@
-Dd-5M
-DeIeKe
 DeactivateActCtx
 Decode a string of qp-encoded data
 Decode hexbin RLE-coded string
@@ -2314,9 +906,6 @@ Determines if an ST object was created from a suite.
 Determines if an ST object was created from an expression.
 Determines if this ST object was created from a suite.
 Determines if this ST object was created from an expression.
-DgCgFg]
-Dh:F
-DiFi
 Dialect
 Dict
 Dict field "keys" must be a list, not a %.200s
@@ -2328,34 +917,11 @@ Difference between two datetime values.
 DisableReflectionKey
 Disables registry reflection for 32-bit processes running on a 64-bit\nOperating System.  Will generally raise NotImplemented if executed on\na 32-bit Operating System.\nIf the key is not on the reflection list, the function succeeds but has no effect.\nDisabling reflection for a key does not affect reflection of any subkeys.
 Disconnect this buffer from its underlying raw stream and return it.\n\nAfter the raw stream has been detached, the buffer is in an unusable\nstate.\n
-DjGjFjj
-Dl(Uc5
-Dl1X
-DmStS
-DnEnFnkU$6HnGnInJn%GKnLn
-DoBo
-Do\oN=top
 Don't know how to import %.200s (type code %d)
-DqMqZqOr
-DrK`
-Ds\top
 DuplicateHandle
 DuplicateHandle(source_proc_handle, source_handle,\n                 target_proc_handle, target_handle, access,\n                 inherit[, options]) -> handle\n\nReturn a duplicate handle object.\n\nThe duplicate handle refers to the same object as the original\nhandle. Therefore, any changes to the object are reflected\nthrough both handles.
-Dw-u
-E"F"G"H"I"J"K"L"M"N"O"P"Q"R"S"T"U"V"W"X"1"2"3"4"5"6"7"8"9":";"<"=">"?"@"A"B"C"D"$)%)&)')()))*)+),)-).)/)0)1)2)3)4)5)6)7)8)9):);)<)=)>)?)@)A)B)C)D)E)F)G)H)I)J)K)L)M)N)O)P)Q)R)S)T)U)V)W)X)Y)Z)[)\)])^)_)`)a)b)c)d)e)f)g)h)i)j)k)l)m)n)o)
-E(F(G(H(I(J(K(L(M(N(O(P(Q(R(S(T(U(V(W(X(Y(Z([(\(](^(_(`(a(b(c(d(e(f(g(h(i(e"f"g"h"i"j"k"l"m"n"
-E0F0
-E1F1
 E2BIG
-E3vH
-E5d2
-E743
-E7F7
-E7~U
-E:CM
 E:\dev\python\2.7\src\cpython_2.7.5\PC\VS8.0\amd64\python27.pdb
-E<F<Y
-E@m@L
 EACCES
 EADDRINUSE
 EADDRNOTAVAIL
@@ -2365,7 +931,6 @@ EALREADY
 EBADF
 EBADMSG
 EBUSY
-ECEcAIFc\
 ECHILD
 ECONNABORTED
 ECONNREFUSED
@@ -2375,7 +940,6 @@ EDEADLOCK
 EDESTADDRREQ
 EDOM
 EDQUOT
-EDn]}
 EEXIST
 EFAULT
 EFBIG
@@ -2386,18 +950,9 @@ EILSEQ
 EINPROGRESS
 EINTR
 EINVAL
-EIQI
 EISCONN
 EISDIR
-EJQ3YKlTRej7B
-EJkL
-EJ}o!p~o"p
-EK4j
-EKZ1b0
-EL$D%Ox
-EL1I
 ELOOP
-ELPl;K
 EMFILE
 EMLINK
 EMPTY
@@ -2429,7 +984,6 @@ ENOTSOCK
 ENOTSUP
 ENOTTY
 ENXIO
-ENxp]NR
 EOF read where object expected
 EOF when reading a line
 EOF while scanning triple-quoted string literal
@@ -2437,7 +991,6 @@ EOFError
 EOL while scanning string literal
 EOPNOTSUPP
 EOVERFLOW
-EP.t
 EPERM
 EPFNOSUPPORT
 EPIPE
@@ -2449,39 +1002,20 @@ EQUAL
 ERANGE
 EREMOTE
 EROFS
-ERQ{@g%k
-ER\eb
 ESHUTDOWN
 ESOCKTNOSUPPORT
 ESPIPE
 ESRCH
 ESTALE
-ESl|[RkT
 ETIME
 ETIMEDOUT
 ETOOMANYREFS
 ETXTBSY
-EUBU
 EUSERS
-EWFWLWMW
 EWOULDBLOCK
-EWbk
-EWvU
 EXDEV
 EXT specifies code <= 0
-EYk>
-EZDZTGGZ56
-E\XL
-EaFa
-Ecxk
-EfUo
-Eg@gX
-EhGh
-Ejsj
-Ek}SW
-Elf>?LZE<>
 Ellipsis
-EmVs
 Empty attribute in format string
 Empty module name
 EnableReflectionKey
@@ -2492,8 +1026,6 @@ EncodingMap
 EnumKey
 EnumValue
 EnvironmentError
-EpAcL|M|
-Eq@tFq
 Error
 Error %d %s
 Error %d %s: %.200s
@@ -2501,11 +1033,6 @@ Error Parsing encoding_decl
 Error in sys.excepthook:\n
 Error in sys.exitfunc:\n
 Error when calling the metaclass bases\n    %s
-Ets=d
-EuFuA
-Eu`n
-EwFwr
-ExEgrwM
 ExceptHandler
 ExceptHandler field "body" must be a list, not a %.200s
 Exception
@@ -2532,48 +1059,11 @@ ExtSlice
 ExtSlice field "dims" must be a list, not a %.200s
 Extend the left side of the deque with elements from the iterable
 Extend the right side of the deque with elements from the iterable
-EyFyN
-E{I|I
-E|BK
-F#k%rTZc
 F.__sizeof__() -> size of F in memory, in bytes
-F2kT
-F4:SBv{3i
-F4G4l
-F4VL
-F4WH9bR
-F5R;
-F8PnQnRn[6.3SVFD51V8SnTn?TUG{>YN39VnUnXnWn%EYnZn.G[n/G\n'2]n^n_n`nanjWbncnX<dnKSzL,2eAen&G-C
-F8`H
-F;E;>B?PUIg@E
-F?kCo
-F@Eib
-FA4G
-FB=X3
-FDGDHD
-FE9k
-FEGE
-FFEdDd
-FFl|A
 FIRST set for '%s': {
-FIrC
-FK$Y
-FK>l?l
 FLT_RADIX -- radix of exponent
 FLT_ROUNDS -- addition rounds
-FM6r
-FQF:s
 FREE
-FT%;AXeN.>
-FUGU
-FV"K/H2IL4L?o
-FXIXAXEX
-FY4H
-FY;Y_D
-FZ4xD
-F[qP
-F]Qz
-F^ozac
 F_OK
 Factory for default value called by __missing__().
 Failed to import %.200s because the import lockis held by another thread.
@@ -2583,10 +1073,6 @@ False
 Fast implementation of the datetime type.
 Fast profiler
 Fatal Python error: %s\n
-FbZO]9Gb!@
-FeDeHe
-FfEf
-Fh(KLh`0H
 Fifth element of tuple returned by %s must be an iterator, not %s
 File not open for %s
 File or stream is not readable.
@@ -2604,76 +1090,29 @@ First sample should be longer
 Floating point operation failed.
 FloatingPointError
 FloorDiv
-Flt|nQ
 Flush and close the IO object.\n\nThis method has no effect if the file is already closed.\n
 Flush write buffers, if applicable.\n\nThis is not implemented for read-only and non-blocking streams.\n
 FlushKey
 FlushKey(key) - Writes all the attributes of a key to the registry.\n\nkey is an already open key, or any one of the predefined HKEY_* constants.\n\nIt is not necessary to call RegFlushKey to change a key.\nRegistry changes are flushed to disk by the registry using its lazy flusher.\nRegistry changes are also flushed to disk at system shutdown.\nUnlike CloseKey(), the FlushKey() method returns only when all the data has\nbeen written to the registry.\nAn application should only call FlushKey() if it requires absolute certainty that registry changes are on disk.\nIf you don't know whether a FlushKey() call is required, it probably isn't.
 FlushViewOfFile
-FmEmZ7Hme
-FmNmhUb
 For field "body" must be a list, not a %.200s
 For field "orelse" must be a list, not a %.200s
 Format specifier missing precision
 FormatMessageA
 Formats self with strftime.
 Fourth element of tuple returned by %s must be an iterator, not %s
-FrGr
 FreeLibrary
-FsGs
-Fs[M
-Ft_PGtr
 FunctionDef
 FunctionDef field "body" must be a list, not a %.200s
 FunctionDef field "decorator_list" must be a list, not a %.200s
 Functional tools for creating and using iterators.\n\nInfinite iterators:\ncount([n]) --> n, n+1, n+2, ...\ncycle(p) --> p0, p1, ... plast, p0, p1, ...\nrepeat(elem [,n]) --> elem, elem, elem, ... endlessly or up to n times\n\nIterators terminating on the shortest input sequence:\nchain(p, q, ...) --> p0, p1, ... plast, q0, q1, ... \ncompress(data, selectors) --> (d[0] if s[0]), (d[1] if s[1]), ...\ndropwhile(pred, seq) --> seq[n], seq[n+1], starting when pred fails\ngroupby(iterable[, keyfunc]) --> sub-iterators grouped by value of keyfunc(v)\nifilter(pred, seq) --> elements of seq where pred(elem) is True\nifilterfalse(pred, seq) --> elements of seq where pred(elem) is False\nislice(seq, [start,] stop [, step]) --> elements from\n       seq[start:stop:step]\nimap(fun, p, q, ...) --> fun(p0, q0), fun(p1, q1), ...\nstarmap(fun, seq) --> fun(*seq[0]), fun(*seq[1]), ...\ntee(it, n=2) --> (it1, it2 , ... itn) splits one iterator into n\ntakewhile(pred, seq) --> seq[0], seq[1], until pred fails\nizip(p, q, ...) --> (p[0], q[0]), (p[1], q[1]), ... \nizip_longest(p, q, ...) --> (p[0], q[0]), (p[1], q[1]), ... \n\nCombinatoric generators:\nproduct(p, q, ... [repeat=1]) --> cartesian product\npermutations(p[, r])\ncombinations(p, r)\ncombinations_with_replacement(p, r)\n
 Functions to convert between Python values and C structs represented\nas Python strings. It uses format strings (explained below) as compact\ndescriptions of the lay-out of the C structs and the intended conversion\nto/from Python values.\n\nThe optional first format char indicates byte order, size and alignment:\n  @: native order, size & alignment (default)\n  =: native order, std. size & alignment\n  <: little-endian, std. size & alignment\n  >: big-endian, std. size & alignment\n  !: same as >\n\nThe remaining chars indicate types of args and must match exactly;\nthese can be preceded by a decimal repeat count:\n  x: pad byte (no data); c:char; b:signed byte; B:unsigned byte;\n  ?: _Bool (requires C99; if not available, char is used instead)\n  h:short; H:unsigned short; i:int; I:unsigned int;\n  l:long; L:unsigned long; f:float; d:double.\nSpecial cases (preceding decimal count indicates length):\n  s:string (array of char); p: pascal string (with count byte).\nSpecial case (only available in native format):\n  P:an integer type that is wide enough to hold a pointer.\nSpecial case (not in native mode unless 'long long' in platform C):\n  q:long long; Q:unsigned long long\nWhitespace between formats is ignored.\n\nThe variable struct.error is an exception raised on errors.\n
 FutureWarning
-Fv[r|d
-FxGx
-FyZ|
-F{3O}n
-G%GyQ
-G2?U
-G2H2I2
-G3o[
-G4)8
-G4Y1f
-G6H6Q
-G6X8@kN8P
-G7H7I7
-G8A5LEG
-G?pCZ>U
-GABKw:V
 GC object already tracked
-GFI\nDHIyI
-GFZ]fH
-GGHG
-GHJP
-GKl2Ll(OBDEO,
 GLOBAL_EXPLICIT
 GLOBAL_IMPLICIT
-GM%rI
-GNp:
-GOCoAoBoDo'6|<b>LCEoFoA
-GONO2Q
-GP3S]
-GP<z
-GPEd
-GQ)P
-GQ.i
-GQ}:r
 GREATER
 GREATEREQUAL
-GRoXGC
-GS1A
-GWNW>WPWOW;W
-GWb2
-G^pkVq
-Gag3
-GbHbm
-GbUfU
-GdAdL
 GenerateConsoleCtrlEvent
 Generator expression must be parenthesized if not sole argument
 GeneratorExit
@@ -2720,37 +1159,10 @@ GetTickCount
 GetVersion
 GetVersion() -> version\n\nReturn the version number of the current operating system.
 GetVersionExA
-Gf1O
-GgHg`
-Gi*f
-Gk90O?V
-GkCkIkPkYkTk[k_kakxkyk
-GlHl.5
 Global
 Global and instance pickles are not supported.
 Global field "names" must be a list, not a %.200s
-Gm,n
-Gm>me
-GoOoHoIoJoBGqoM6KoB
-GptEe
-GrDrFrg
-GuKuC
-G{HU
-H$6t
-H*0"ZOW
-H0I0
-H2YWs
-H4sc
-H?T_E
-HCE0xZR
-HEIEJE
-HEXd
-HF96
 HIGHEST_PROTOCOL
-HIJKLM@NOPQRST@@UV""""""W"""""X""""""""""""""""""""""""""""""""""""YZ[\"""]"""^_"""""`"""a""""""""""bcd""""""ef""""""""g""""""""""""""h""""""""i""""e""""""""""""""""""""h""""""j""""""""""""""""kl"""""""""""""""""mn"""""""""""""""""o"""""""""p""qrstuvwxyz
-HIhlil
-HJC`
-HJnyl[
 HKEYType
 HKEY_CLASSES_ROOT
 HKEY_CURRENT_CONFIG
@@ -2759,104 +1171,30 @@ HKEY_DYN_DATA
 HKEY_LOCAL_MACHINE
 HKEY_PERFORMANCE_DATA
 HKEY_USERS
-HLr:PR
-HM94=
-HN7j
-HOF[u?
-HOb9
-HQIQ
-HQkZl&
-HQnfIQAKJQ
-HR,1u0m4@
-HSM^
-HT$X
-HYWS7u
-H]hd
-Ha7[c_
-Hbv2@
-HcGc4
 Heap queue algorithm (a.k.a. priority queue).\n\nHeaps are arrays for which a[k] <= a[2*k+1] and a[k] <= a[2*k+2] for\nall k, counting elements from 0.  For the sake of comparison,\nnon-existing elements are considered to be infinite.  The interesting\nproperty of a heap is that a[0] is always its smallest element.\n\nUsage:\n\nheap = []            # creates an empty heap\nheappush(heap, item) # pushes a new item on the heap\nitem = heappop(heap) # pops the smallest item from the heap\nitem = heap[0]       # smallest item on the heap without popping it\nheapify(x)           # transforms list into a heap, in-place, in linear time\nitem = heapreplace(heap, item) # pops and returns smallest item, and adds\n                               # new item; the heap size is unchanged\n\nOur API differs from textbook heap algorithms as follows:\n\n- We use 0-based indexing.  This makes the relationship between the\n  index for a node and the indexes for its children slightly less\n  obvious, but is more suitable since Python uses 0-based indexing.\n\n- Our heappop() method returns the smallest item, not the largest.\n\nThese two make it possible to view the heap as a regular Python list\nwithout surprises: heap[0] is the smallest item, and heap.sort()\nmaintains the heap invariant!\n
-Heap queues\n\n[explanation by Fran
 HeapAlloc
 HeapFree
 Hello world...N(
-HiW8
 High performance data structures.\n- deque:        ordered collection accessible from endpoints only\n- defaultdict:  dict subclass with a default value factory\n
 High-performance profiler object.\n\nMethods:\n\nclose():      Stop the profiler and close the log files.\nfileno():     Returns the file descriptor of the log file.\nruncall():    Run a single function call with profiling enabled.\nruncode():    Execute a code object with profiling enabled.\nstart():      Install the profiler and return.\nstop():       Remove the profiler.\n\nAttributes (read-only):\n\nclosed:       True if the profiler has already been closed.\nframetimings: True if ENTER/EXIT events collect timing information.\nlineevents:   True if line events are reported to the profiler.\nlinetimings:  True if line events collect timing information.
-Hj8n,q%qNi
-Hp!Q"Q
-HrF905v
-HsIs
-Htjhsu
-HxFN
-HzWV
 I.decode(string[, errors]) -> (unicodeobject, length consumed)\n\nDecodes `string' using I, an MultibyteCodec instance. errors may be given\nto set a different error handling scheme. Default is 'strict' meaning\nthat encoding errors raise a UnicodeDecodeError. Other possible values\nare 'ignore' and 'replace' as well as any other name registered with\ncodecs.register_error that is able to handle UnicodeDecodeErrors.
 I.encode(unicode[, errors]) -> (string, length consumed)\n\nReturn an encoded string version of `unicode'. errors may be given to\nset a different error handling scheme. Default is 'strict' meaning that\nencoding errors raise a UnicodeEncodeError. Other possible values are\n'ignore', 'replace' and 'xmlcharrefreplace' as well as any other name\nregistered with codecs.register_error that can handle UnicodeEncodeErrors.
 I/O operation failed.
 I/O operation on closed file
+I/O operation on closed file.
 I/O operation on uninitialized object
 I00\n
 I01\n
-I05s
-I1J1
-I2jU
-I4J4n
-I5F3
-I73Jz
-I8=FjD
-I8J8
-I<J<k
-I<LH
-I?cm-
-IAJAW
-IAo4{
-IBJBU
-IBuG?8Wg%Az
-IDJDA
 IEEE, big-endian
 IEEE, little-endian
-IEdE9HMD
-IHCQJ
-IHc`
-II s!
-II[rs0`r7
-IJir
-IKe0
-ILUz
-ILw[}4}
-IM7yhqrYu[5JFY
 IMP_HOOK
-IMlY
 INDENT
 INFINITE
 IOError
-IO|bzo
-IP'olb
-IPmV(C,bk
-IQ8:`
-IRH=?BlTkLg
-IRZpG
 ITEM
-IU,xYg
-IUHU
-IXLXgX
-IZHZP
-I[WPS
-I_Z_6N
-IaHa%I
-IazJ
-Ic>d@w
-IdxIn
-Ieq1>\U
 If field "body" must be a list, not a %.200s
 If field "orelse" must be a list, not a %.200s
 IfExp
-IgWN
-Igq\ R}qk
-Igx2JgKgLgMgNgOgPg'SuKQgRgSgTgIIUgVgWgXgYgI=Zg>s
-Ih~t
-Ii*Ph>+P524
-IiGM>nw
 Illegal char
 Illegal compound statement type: %d.
 Illegal node construct.
@@ -2896,7 +1234,6 @@ IndexError
 Indices for islice() must be None or an integer: 0 <= x <= maxint.
 Infinity
 Initialization arguments are not supported
-InoM
 Input sample should be longer
 InputType
 Interactive
@@ -2915,79 +1252,13 @@ Invalid mode ('%.50s')
 Invalid syntax.
 Invalid whence (%i, should be 0, 1 or 2)
 Invert
-IpJp
 IsDBCSLeadByte
-IsJsKsLsNsOsQsSsTsUsVsXsYsZs[s\s]s^s_sasbscsdsesfsgshsisjsksnspsqsrssstsusvswsxsyszs{s|s}s
 IsNot
-IsqK
 Issue a warning, or maybe ignore it or raise an exception.
-ItJt~
 Item in ``from list'' not a string
 Iterator wrapped to make it copyable
-IuJu
-IvL)FxL
-IvUv
-J"K"A"@"i"j"
-J1Hs
-J2CI
-J2K2
-J2k1
-J3K3
-J3O:
-J4Q4K4
-J5K5
-J6H199*[
-J6K<s
-J80_uI\
-J8aV&LCGbV
-J<UeF
-JCKCJ
-JFKFX
-JI9D
-JL(s
-JM'Z
-JM]q
-JOQa
 JSON scanner object
-JUbW/b
-JVYK
-JW}1,@IWHWB7TB
-JXCO
-J[yKTT
-J^Fr
-Jack
-JbKb
-JbMbz
-Jcp0
-JeGeO5HF
-JgKg11k
-Ji#j\vm
-Ji]Q;
-JjQ=
-JkKkLkMkVk@fYkp
-JlcG_B*
-JmSWzX
-Jp=wj
-Jp>P
-JrBr@ri
-JtzT
-Ju6i
 Jul  3 2013
-JupA[
-JwLwKwr
-Jx\feY
-JzD)
-K0+9yAbY
-K0L0
-K0fpx
-K2C]
-K2tZvZ
-K3RR]
-K8L8M8N8
-K<L<M<l
-KBD@PB
-KC4R,
-KEH<z
 KERNEL32.dll
 KEY_ALL_ACCESS
 KEY_CREATE_LINK
@@ -3001,43 +1272,8 @@ KEY_SET_VALUE
 KEY_WOW64_32KEY
 KEY_WOW64_64KEY
 KEY_WRITE
-KFG0r4SHB
-KFs\
-KG%2i4
-KGLG
-KHiX
-KIvXWBwX
-KK,F"
-KKU|
-KMMKJJSLLeKefD
-KMxG
-KN1n
-KOJO
-KQ;RJT
-KQLQi>t
-KQdV
-KR72A
-KVHV
-KW'Ne8*
-KY'0d
-KY+F
-K[5Z
-K\Ei
-K^8v
-K^kY@
-KcT2N7LcF9r9
-KdUWBdj
 KeyError
 KeyboardInterrupt
-KfU5
-KiLi
-Kk|q
-KmdO
-KnJn`
-KpLpMpk
-KvLv
-Kw._uh
-KyLy
 L.__reversed__() -- return a reverse iterator over the list
 L.__sizeof__() -- size of L in memory, in bytes
 L.append(object) -- append object to end
@@ -3049,17 +1285,9 @@ L.pop([index]) -> item -- remove and return item at index (default last).\nRaise
 L.remove(value) -- remove first occurrence of value.\nRaises ValueError if the value is not present.
 L.reverse() -- reverse *IN PLACE*
 L.sort(cmp=None, key=None, reverse=False) -- stable sort *IN PLACE*;\ncmp(x, y) -> -1, 0, 1
-L0cD;=4:$Ml
-L3M3
-L5t\
-L9M9
-L:7I&DKIEW
 L:GetExitCodeProcess
 L:GetModuleFileName
-L;PS
-L@pK
 LBRACE
-LBX1n6
 LC_ALL
 LC_COLLATE
 LC_CTYPE
@@ -3070,30 +1298,17 @@ LEFTSHIFT
 LEFTSHIFTEQUAL
 LESS
 LESSEQUAL
-LFMFNFY
-LFz1P=
 LK_LOCK
 LK_NBLCK
 LK_NBRLCK
 LK_RLCK
 LK_UNLCK
 LLLii|i:DuplicateHandle
-LL}=HHI
-LNal
 LOCAL
 LONG pickle has negative byte count
 LPAR
-LQ|J
 LSQB
 LShift
-LSmZ
-LV[:ipc
-LXRXYXD7MXW
-LXqy
-LZMZ
-L[J[4
-L`yk
-LaJa
 Label %d/'%s' not found\n
 Label %s is a keyword\n
 Label %s is non-terminal %d.\n
@@ -3101,14 +1316,9 @@ Label %s is terminal %d.\n
 Label @ %8p, %d: %s\n
 Lambda
 Latest Service Pack installed on the system
-LcRb
-LdDQ
 Left-recursion below '%s'\n
 Left-recursion for '%s'\n
 Lengths should be the same
-Lf\nN
-LgMgTg]g
-LgSg^gHgig
 Li:TerminateProcess
 Li:WaitForSingleObject
 Line endings translated so far.\n\nOnly line endings translated during reading are considered.\n\nSubclasses should override.\n
@@ -3116,9 +1326,6 @@ List
 List field "elts" must be a list, not a %.200s
 ListComp
 ListComp field "generators" must be a list, not a %.200s
-LlfQMl|
-LmNmeJKmk
-LoMoF6>CNoC
 Load
 LoadKey
 LoadKey(key, sub_key, file_name) - Creates a subkey under the specified key\nand stores registration information from a specified file into that subkey.\n\nkey is an already open key, or any one of the predefined HKEY_* constants.\nsub_key is a string that identifies the sub_key to load\nfile_name is the name of the file to load registry data from.\n This file must have been created with the SaveKey() function.\n Under the file allocation table (FAT) file system, the filename may not\nhave an extension.\n\nA call to LoadKey() fails if the calling process does not have the\nSE_RESTORE_PRIVILEGE privilege.\n\nIf key is a handle returned by ConnectRegistry(), then the path specified\nin fileName is relative to the remote computer.\n\nThe docs imply key must be in the HKEY_USER or HKEY_LOCAL_MACHINE tree
@@ -3131,60 +1338,17 @@ LockType
 LogReaderType
 LookupError
 Low-level inferface to warnings functionality.
-LrIrHrJrw
-LsJs<O
-Ltm{]
-Lt|Z
-Lu7u7
-Lvxb
-L}M}R
-M(N(O(P(Q(R(S(T(U(V(W(X(Y(Z([(\(](^(_(`(a(b(c(d(e(f(!&,&"&-&
-M)N)O)P)Q)R)S)T)U)V)W)X)Y)Z)[)\)])^)_)`)a)b)c)d)e)f)
-M0N0O0P0
-M1N1
-M2H[N[T[
-M2N2
-M5CO:3\>
-M6,7I
-M8MF
-M9NfT<MfH
-M<qU->rUsUS0:BR?i
 MAGIC
 MAXREPEAT
 MAXYEAR
 MAX_WBITS
-MAks1
-MBNBg
-MCB2'b&bd
 MD5Type
-MDNDM
-MENEq
-MGiI
-MH.i
 MINEQUAL
 MINUS
 MINYEAR
-MJVK
-MK%Q
-MMjK
-MN+F|o&N
-MN1j
-MO-n
-MOIP
-MOMkLk'A
-MPm[
-MQ=LNQ
-MR\oc
 MS-Windows OS system call failed.
 MSTART
 MSVCR100.dll
-MT*LL
-MVYd\dzB^d
-MW@d}O?d
-MX?Uusv
-M]QLN
-M^sl
-M_TFO_0
 Major release number
 Major version number
 MapViewOfFile
@@ -3193,13 +1357,10 @@ Max string recursion exceeded
 MbP?sleep length is too large
 MemoryError
 Method or function hasn't been implemented yet.
-MgNgn
 Minor release number
 Minor version number
 Missing ']' in format string
 Mixing iteration and read methods would lose data
-MmRd
-Mn.a
 Module
 Module dictionary insertion problem.
 Module field "body" must be a list, not a %.200s
@@ -3209,9 +1370,6 @@ Module use of %.150s conflicts with this version of Python.
 More keyword list entries (%d) than format specifiers (%d)
 MoveFileA
 MoveFileW
-MpOp/
-MqOqc?Pqf
-MuJugunu
 Mult
 MultiByteToWideChar
 MultibyteCodec
@@ -3220,66 +1378,16 @@ MultibyteIncrementalEncoder
 MultibyteStreamReader
 MultibyteStreamWriter
 Must have exactly one of read/write/append mode and at most one plus
-M{LvM
-N N!N#N&N)N.N/N1N3N5N7N<N@NANBNDNFNJNQNUNWNZN[NbNcNdNeNgNhNjNkNlNmNnNoNrNtNuNvNwNxNyNzN{N|N}N
-N S4X
-N"OdO
-N#N$N(N+N.N/N0N5N@NANDNGNQNZN\NcNhNiNtNuNyN
-N%O'O\tO+O^OgO8eZO]O_OWO2O=OvOtO
-N)N+N.N@NGNHN
-N)O)P)Q)R)S)T)U)V)W)X)Y)Z)[)
-N*N1N6N<N?NBNVNXN
-N*ja
-N,4.4
-N,p]u/f
-N5O5L
-N6)7cd
-N7O7
-N7OL4
-N9P&PeP|Q8RcR
-N:O<O
-N;NMNONNN
-N=lXOeO
 N?QeQkQ
 NAME
-NAOAp
-NASs
-NAwp
-NBcHS
 NCN]N
-NCOCV
-NCQAQgQmQnQlQ
-NC`Nf@t
-NEN]N
-NEQDQ
 NEWLINE
 NEWOBJ class argument has NULL tp_new
 NEWOBJ class argument isn't a type object
 NEWOBJ expected an arg tuple.
-NGkN
-NHQCS`S
-NISMS
-NJ2"v
-NJAx4R
-NJSISaS`SoSnS
-NKX{
-NKjM`
-NLSV
-NM!l[17S
-NM0^
-NMOOOGOWO^O4O[OUO0OPOQO=O:O8OCOTO<OFOcO\O`O/ONO6OYO]OHOZOLQKQMQuQ
-NMS)Z
-NN"L.PSD25X^uU7<S;
-NNO\PuPCR
-NN\vP
 NNii
-NOOEQAS
 NOTEQUAL
-NQOvP*Q
-NRNSNiN
-NSBt
 NSIG
-NSLSx
 NT%d
 NULL
 NULL object in marshal data for list
@@ -3290,38 +1398,15 @@ NULL object passed to Py_BuildValue
 NULL result without error in PyObject_Call
 NULL\n
 NUMBER
-NUO=O
-NVSUA94UXQq
-NW?Q
-NWLW)
-NXOXPX
-NZO~O
-N\=9HDdAL\
-N\PuPHT
-N\fN@Q
-N\fNGN
-N\fP\rP#P
-N\nN+N8N
-N\nOMO
-N\rN-N0N9NKN9\
-N\rOHSIT>T/Z
-N\tOZO0O[O]OWOGOvO
-N\u]y
-N]O]G
 Name
 Name not found globally.
 NameError
-NbSK"
-NdKdW
-NeP0
 Negative filedescriptor
 Negative seek position %zd
 Negative size passed to PyByteArray_FromStringAndSize
 Negative size passed to PyString_FromStringAndSize
 Negative size passed to PyUnicode_FromStringAndSize
 Negative size value %zd
-NiRU[
-NkX7
 No frozen submodule named %.200s
 No module named %.200s
 No such frozen object named %.200s
@@ -3338,28 +1423,12 @@ NotImplemented
 NotImplementedError
 NotImplementedType
 NotIn
-NpPjPaP^P`PSPKP]PrPHPMPAP[PJPbP
-Nqdr
-Nq|Q
-Nr4[
-NryB
-NsJsZ5
-Ns~G
-Nt#A
-NtOtPtQtRtStTtVtXt]t`tatbtctdtetftgthtitjtktltntotqtrtstttutxtytzt{t|t}t
-Ntws
-NuOuQ@Xc^s^\n_
-NuOuQue6RuR
 Null importer object
 NullImporter
 NullImporter()
 Number of days.
 Number of microseconds (>= 0 and less than 1 second).
 Number of seconds (>= 0 and less than 1 day).
-Nw5\r[
-Nxpym`3c3t
-NyUiQc
-O!0!2!.!a#b#c#d#e#f#g#h#i#j#k#l#m#n#o#p#q#r#s#t#u#v#w#x#y#z#P!C!Q!
 O!:_pickler
 O!:astimezone
 O!:isexpr
@@ -3368,11 +1437,6 @@ O!O!:combine
 O!O!nnO!
 O!O!|O:runcode
 O!O!|OOO:function
-O!O#O(O)O,O-O.O1O3O5O7O9O;O>O?O@OAOBODOEOGOHOIOJOKOLOROTOVOaObOfOhOjOkOmOnOqOrOuOwOxOyOzO}O
-O!P)P,P
-O!P\vP
-O!X1X
-O!Xq
 O!n;decoding error handler must return (unicode, int) tuple
 O!n;encoding error handler must return (unicode, int) tuple
 O!n;translating error handler must return (unicode, int) tuple
@@ -3382,7 +1446,6 @@ O!|O:super
 O!|OO:st2list
 O!|OO:st2tuple
 O!|s:compilest
-O&P%P
 O(O)(OOOO)
 O(OO)
 O(OO)O
@@ -3391,23 +1454,6 @@ O(On)
 O(On)O
 O(cO)O
 O(ziiz)
-O)PLP
-O*9y]
-O+P\tP|Q
-O-P*P
-O.O1O`O3O5O7O9O;O>O@OBOHOIOKOLOROTOVOXO_OcOjOlOnOqOwOxOyOzO}O~O
-O/TQY\fxhV
-O0x5
-O2P2
-O3P3
-O3P7P,P
-O4P4
-O4s<T
-O8M2
-O8P8
-O9OVO
-O9P9
-O9i0
 O:CloseKey
 O:DisableReflectionKey
 O:EnableReflectionKey
@@ -3419,29 +1465,7 @@ O:make_scanner
 O:memoryview
 O:sequence2st
 O:writelines
-O?cQ2
-O@4d
-O@P"P
-OA\nz
-ODRIR
-OD^Y
-OF02
-OGGqHq
-OGPG
-OIQ!S
-OI_2NHElS4U@DlIlyCcL
-OJ5XqC
-OJU2
-OJe~
-OKm7hIC7w>$V,Z-Z@FgW6J
-OLx\k\{
-OMV^P>>WU^PU]0
-OMg^
-ON)V@
-ON\v
-OO!0"0A
 OO!:call_tracing
-OO"FsIQ
 OO&:_iterencode
 OO&:scan_once
 OO&|zi:scanstring
@@ -3451,9 +1475,7 @@ OOOO
 OOOOOOOOO:make_encoder
 OOOOi
 OOOi|OOO:warn_explicit
-OOPAbGr
 OOiO:SetValue
-OO{p
 OO|i
 OO|i:dump
 OO|n:BlockingIOError
@@ -3465,38 +1487,12 @@ OO|nn:bisect_left
 OO|nn:bisect_right
 OO|nn:insort_left
 OO|nn:insort_right
-OPQQR
-OPQRS
-OPQW[
 OPT_BARE_EXEC
 OPT_EXEC
 OPT_IMPORT_STAR
-OPs8z
-OQVhZ
-ORQ^U%Z
 OS system call failed.
 OSError
-OSU:XQYc[F\
-OSztuGCWdE|t}t{tC
 OS|i
-OTS>Y
-OTXI
-OUxP
-OV:t
-OVQtQ
-OWjkk}
-OX6RE:>K>L
-OY"4PY
-OY";i9
-OZP<\
-OZw3(?
-O\aW
-O\nOc
-O\rgnm
-O\vOIQGQFQHQhQqQ
-O\vO\fO
-O\vO`OHOIOVO_OjOlO~O
-O^W\nb
 O_APPEND
 O_BINARY
 O_CREAT
@@ -3511,46 +1507,27 @@ O_TEMPORARY
 O_TEXT
 O_TRUNC
 O_WRONLY
-O`vC-G1
 Object is not a handle
 Object is not writable.
 Object wrapper with a custom sort key.
 Objects of type '%s' can not be used as binary registry values
 Objects that know how to pickle objects\n
 Objects that know how to unpickle
-OceQh
-OczcWS!
-OdO7O>OTOXO
 Odd-length string
-Of)<K
-OhThVh
 Oi:CreatePipe
 Oi:EnumKey
 Oi:EnumValue
 Oi:op_irepeat
 Oi:op_repeat
-OiBG
 OiO!|nOO
-OiO{O
 Oi|O:IncrementalNewlineDecoder
-OjVj
-OkOnO
-Ol%iUV
-Ol?;r;4
-OlQqQ
-Ol\_g
-OmyBR
 On:combinations
 On:combinations_with_replacement
 On:fromfile
-OnWw
 Only '.' or '[' may follow ']' in format field specifier
 Onn:delslice
 Onn:getslice
 OnnO:setslice
-Op>s,b
-OpOuO
-OpW:p
 Open file and return a stream.  Raise IOError upon failure.\n\nfile is either a text or byte string giving the name (and the path\nif the file isn't in the current working directory) of the file to\nbe opened or an integer file descriptor of the file to be\nwrapped. (If a file descriptor is given, it is closed when the\nreturned I/O object is closed, unless closefd is set to False.)\n\nmode is an optional string that specifies the mode in which the file\nis opened. It defaults to 'r' which means open for reading in text\nmode.  Other common values are 'w' for writing (truncating the file if\nit already exists), and 'a' for appending (which on some Unix systems,\nmeans that all writes append to the end of the file regardless of the\ncurrent seek position). In text mode, if encoding is not specified the\nencoding used is platform dependent. (For reading and writing raw\nbytes use binary mode and leave encoding unspecified.) The available\nmodes are:\n\n========= ===============================================================\nCharacter Meaning\n--------- ---------------------------------------------------------------\n'r'       open for reading (default)\n'w'       open for writing, truncating the file first\n'a'       open for writing, appending to the end of the file if it exists\n'b'       binary mode\n't'       text mode (default)\n'+'       open a disk file for updating (reading and writing)\n'U'       universal newline mode (for backwards compatibility; unneeded\n          for new code)\n========= ===============================================================\n\nThe default mode is 'rt' (open for reading text). For binary random\naccess, the mode 'w+b' opens and truncates the file to 0 bytes, while\n'r+b' opens the file without truncation.\n\nPython distinguishes between files opened in binary and text modes,\neven when the underlying operating system doesn't. Files opened in\nbinary mode (appending 'b' to the mode argument) return contents as\nbytes objects without any decoding. In text mode (the default, or when\n't' is appended to the mode argument), the contents of the file are\nreturned as strings, the bytes having been first decoded using a\nplatform-dependent encoding or using the specified encoding if given.\n\nbuffering is an optional integer used to set the buffering policy.\nPass 0 to switch buffering off (only allowed in binary mode), 1 to select\nline buffering (only usable in text mode), and an integer > 1 to indicate\nthe size of a fixed-size chunk buffer.  When no buffering argument is\ngiven, the default buffering policy works as follows:\n\n* Binary files are buffered in fixed-size chunks; the size of the buffer\n  is chosen using a heuristic trying to determine the underlying device's\n  "block size" and falling back on `io.DEFAULT_BUFFER_SIZE`.\n  On many systems, the buffer will typically be 4096 or 8192 bytes long.\n\n* "Interactive" text files (files for which isatty() returns True)\n  use line buffering.  Other text files use the policy described above\n  for binary files.\n\nencoding is the name of the encoding used to decode or encode the\nfile. This should only be used in text mode. The default encoding is\nplatform dependent, but any encoding supported by Python can be\npassed.  See the codecs module for the list of supported encodings.\n\nerrors is an optional string that specifies how encoding errors are to\nbe handled---this argument should not be used in binary mode. Pass\n'strict' to raise a ValueError exception if there is an encoding error\n(the default of None has the same effect), or pass 'ignore' to ignore\nerrors. (Note that ignoring encoding errors can lead to data loss.)\nSee the documentation for codecs.register for a list of the permitted\nencoding error strings.\n\nnewline controls how universal newlines works (it only applies to text\nmode). It can be None, '', '\n', '\r', and '\r\n'.  It works as\nfollows:\n\n* On input, if newline is None, universal newlines mode is\n  enabled. Lines in the input can end in '\n', '\r', or '\r\n', and\n  these are translated into '\n' before being returned to the\n  caller. If it is '', universal newline mode is enabled, but line\n  endings are returned to the caller untranslated. If it has any of\n  the other legal values, input lines are only terminated by the given\n  string, and the line ending is returned to the caller untranslated.\n\n* On output, if newline is None, any '\n' characters written are\n  translated to the system default line separator, os.linesep. If\n  newline is '', no translation takes place. If newline is any of the\n  other legal values, any '\n' characters written are translated to\n  the given string.\n\nIf closefd is False, the underlying file descriptor will be kept open\nwhen the file is closed. This does not work when a file name is given\nand must be True in that case.\n\nopen() returns a file object whose type depends on the mode, and\nthrough which the standard file operations such as reading and writing\nare performed. When open() is used to open a file in a text mode ('w',\n'r', 'wt', 'rt', etc.), it returns a TextIOWrapper. When used to open\na file in a binary mode, the returned class varies: in read binary\nmode, it returns a BufferedReader; in write binary and append binary\nmodes, it returns a BufferedWriter, and in read/write mode, it returns\na BufferedRandom.\n\nIt is also possible to use a string or bytearray as a file for both\nreading and writing. For strings StringIO can be used like a file\nopened in a text mode, and for bytes a BytesIO can be used like a file\nopened in a binary mode.\n
 OpenKey
 OpenKeyEx
@@ -3558,18 +1535,14 @@ OpenProcess
 Operating system platform
 Operator interface.\n\nThis module exports a set of functions implemented in C corresponding\nto the intrinsic operators of Python.  For example, operator.add(x, y)\nis equivalent to the expression x+y.  The function names are those\nused for special methods; variants without leading and trailing\n'__' are also provided for convenience.
 Options and arguments (and corresponding environment variables):\n-B     : don't write .py[co] files on import; also PYTHONDONTWRITEBYTECODE=x\n-c cmd : program passed in as string (terminates option list)\n-d     : debug output from parser; also PYTHONDEBUG=x\n-E     : ignore PYTHON* environment variables (such as PYTHONPATH)\n-h     : print this help message and exit (also --help)\n-i     : inspect interactively after running script; forces a prompt even\n
-OqPq
 Orphaned RLE code at start
 Os(ssi)
-Os+W,a
 Os:DeleteKey
 Os:SaveKey
-OsQs
 Oss:LoadKey
 Osssi
 Oss|ii:compile
 Os|ii:DeleteKeyEx
-OtPGRsSo`Ic_g,n
 Out of memory interning slotdef names
 Out of memory while compressing data
 Out of memory while decompressing data
@@ -3578,23 +1551,15 @@ Out of range float values are not JSON compliant
 OutputDebugStringA
 OutputDebugStringW
 OutputType
-OvOtO
 OverflowError
 Overriding __eq__ blocks inheritance of __hash__ in 3.x
-OwOLO
-OxSi`)nOz
-Oxox
-OyZkAJ
 Oz:CreateKey
 Oz:DeleteValue
 Oz:QueryValue
 Oz:QueryValueEx
-OzOTQRQUQiQwQvQxQ
 OzOiO:SetValueEx
 Oz|ii:CreateKeyEx
 Oz|ii:OpenKey
-O{OiOpO
-O{T Z
 O|O&O&:index
 O|O:enumerate
 O|O:format
@@ -3647,63 +1612,14 @@ O|zO:charmap_encode
 O|zi:utf_16_encode
 O|zi:utf_32_encode
 O|zzzi:fileio
-O}Rj_SaSg
-O~O{O
-P P"P#P$P'P+P/P0P1P2P3P4P5P6P7P8P9P;P=P?P@PAPBPDPEPFPIPJPKPMPPPQPRPSPTPVPWPXPYP[P]P^P_P`PaPbPcPdPfPgPhPiPjPkPmPnPoPpPqPrPsPtPuPxPyPzP|P}P
-P P'P5P/P1P
-P kzlTotzP}@
-P!Y"Z"["\"]"^"_"`"a"b"
-P"P'P.P0P2P3P5P@PAPBPEPFPJPLPNPQPRPSPWPYP_P`PbPcPfPgPjPmPpPqP;P
-P"P0P
-P"Ph4BPFPNPSPWPcPfPjPpP
-P%@Fpg`
-P'P.P@P;PAP
-P(Q(R(S(T(U(V(W(X(Y(Z([(\(](^(
-P*P%P
-P*Rq\ceUl
-P.P-P
-P0rT
-P41h<h
-P4b&^
-P7MSp
-P83c
-P9#=z
-P:rN}
-P?DW
 PAGESIZE
 PATH
-PA\l
-PBw<uIl@
-PCPGP
-PDi5j
-PEP_PiPkPcPdPFP@PnPsPWPQP
 PERCENT
 PERCENTEQUAL
-PFP]
-PFPpPBP
-PFQFd
-PFum
-PHS:a<Xn
-PHS>T3T
-PIQlQ
-PJ+zkkxgeY
-PJQdQ
-PJtPg
 PKG_DIRECTORY
-PKVKgKOMhM-N{O"P8PPP]PTQUQXQ[Q\Q]Q^Q_Q`QbQcQdQeQfQhQiQjQkQmQoQpQrQvQzQ|Q}Q~Q"R#R'R(R)R*R+R-R2R>RBRCRDRFRGRHRIRJRKRMRNRORPRQRRRSRTRURVRWRYRZR^R_RaRbRdReRfRgRhRiRjRkRpRqRrRsRtRuRwRxRfT|T%U+U.U8VMVKWdWE[d[%\%]U]t]|^~^3_a_h_q`-amauc!d)d.e1e2e9e;e<eDeNePeReVeze{e|e~e!f$f'f-f/f0f1f3f7f8f<fDfFfGfJfRfVfYf\f_fafdfefffhfjfkflfofqfrfufvfwfyf!g&g)g*g,g-g0g?gAgFgGgKgMgOgPgSg_gdgfgwgghhhphqhwhyh{h~h'i,iLiwiAjejtjwj|j~j$k'k)k*k:k;k=kAkBkFkGkLkOkPkQkRkXk&l'l*l/l0l1l2l5l8l:l@lAlElFlIlJlUl]l^laldlglhlwlxlzl!m"m#mnm[n=rzr1s'tnttvvv8wHwSw[xpx!z"zfz)|!#"###$#%#&#'#(#)#*#+#,#-#.#/#0#1#2#3#4#5#6#7#8#9#:#;#<#=#>#?#@#A#B#C#D#E#F#G#H#I#J#K#L#M#N#O#P#Q#R#S#T#U#V#W#X#Y#Z#[#,!]#^#_#`#a#b#c#d#e#f#g#h#i#j#k#l#m#n#o#p#q#r#s#t#u#v#w#x#y#z#{#|#}#&"
 PLUS
 PLUSEQUAL
-PLwgX2}3{g_
-PMp_
-PNo=
-POPW
 POSIX exception code
-POv[
-PP\Qb
-PROR
-PUYe
-PVRJW
-PVRoR&T
 PYTHONCASEOK
 PYTHONDEBUG
 PYTHONDONTWRITEBYTECODE
@@ -3727,23 +1643,12 @@ PY_COMPILED
 PY_FROZEN
 PY_RESOURCE
 PY_SOURCE
-P[.L2?5;xWS?f
-P\fP%P(P~PCPUPHPNPlP{P
-P\nP\fP
-P\tP\nP
-P\vQ\fQ
-P]Yp3K
-P^0N
-P^rE
-P_3l
 P_DETACH
 P_NOWAIT
 P_NOWAITO
 P_OVERLAY
 P_WAIT
 P_a_4e
-P`N<B
-PaRaR
 Pack the values v1, v2, ... according to fmt.\nWrite the packed bytes into the writable buffer buf starting at offset.
 Package name too long
 Param
@@ -3752,30 +1657,12 @@ Parent module '%.200s' not loaded, cannot perform relative import
 ParserError
 Pass
 Patch release number
-PbOb+
-Pbwt
-Pc;c
-PcKQQcRcScTcVQUc{2;@Vc_
-Pe6^
-PeU^q[{Rf
 PendingDeprecationWarning
-Pg=6*ZQg
-PgMb"
-PhQxQMRjRaX|X`Y
-Pi=L=
-PiQi[i
 PickleError
 Pickler
 Pickler(file, protocol=0) -- Create a pickler.\n\nThis takes a file-like object for writing a pickle data stream.\nThe optional proto argument tells the pickler to use the given\nprotocol; supported protocols are 0, 1, 2.  The default\nprotocol is 0, to be backwards compatible.  (Protocol 0 is the\nonly protocol that can be written to a file opened in text\nmode and read back successfully.  When using a protocol higher\nthan 0, make sure the file is opened in binary mode, both when\npickling and unpickling.)\n\nProtocol 1 is more efficient than protocol 0; protocol 2 is\nmore efficient than protocol 1.\n\nSpecifying a negative protocol version selects the highest\nprotocol version supported.  The higher the protocol used, the\nmore recent the version of Python needed to read the pickle\nproduced.\n\nThe file parameter must have a write() method that accepts a single\nstring argument.  It can thus be an open file object, a StringIO\nobject, or any other custom object that meets this interface.\n
 PicklingError
-Pm!M
-PoPmP\Q
-PoQoRorUD
 Pop the smallest item off the heap, maintaining the heap invariant.
-PpQpRpSpTpUpVpXpq
-Ppg@h\tQ
-PqS\rW
-PrOrNr|
 Precision not allowed in integer format specifier
 Print
 Print field "values" must be a list, not a %.200s
@@ -3786,15 +1673,7 @@ ProfilerError
 ProfilerType
 Program interrupted by user.
 ProxyType
-Psfs|s
-Psm9MLcKwV
-PtOtQtZK
-PtsN
-PuQ[\w^
-PuSuG
 Purported %s module %.200s not found
-PvfkyZ
-Px^OgG
 PyAST_Compile
 PyAST_FromNode
 PyArena_AddPyObject
@@ -4758,133 +2637,19 @@ Python import machinery not initialized
 Python int too large to convert to C int
 Python int too large to convert to C long
 Python's standard exception class hierarchy.\n\nExceptions found here are defined both in the exceptions module and the\nbuilt-in namespace.  It is recommended that user-defined exceptions\ninherit from Exception.  See the documentation for the exception\ninheritance hierarchy.\n
-Q B `$a$b$c$d$e$f$g$h$i$j$k$l$m$n$o$p$q$r$s$`!a!b!c!d!e!f!g!h!i!j!I3
-Q Q"Q#Q$Q%Q&Q'Q(Q)Q*Q+Q,Q-Q.Q/Q0Q1Q2Q3Q4Q5Q6Q7Q8Q9Q:Q;Q<Q=Q>QBQGQJQLQNQOQPQRQSQWQXQYQ[Q]Q^Q_Q`QaQcQdQfQgQiQjQoQrQzQ~Q
-Q!Q2Q
-Q!Q:Q7Q<Q;Q?Q@QRQLQTQbQ
-Q!R!g(h(i(j(k(l(m(n(o(p(q(r(s(t(u(
-Q#Q'Q(Q,Q-Q/Q1Q3Q4Q5Q8Q9QBQJQOQSQUQWQXQ_QdQfQ~Q
-Q%R$R)R*R(R
-Q.YeY
-Q/X-Y
 Q01$
-Q0R0S0T0
-Q1R1
-Q3R3
-Q5QJQ2
-Q5R2R3RFR1R
-Q6R6
-Q73B9enA~
-Q:vu
-Q;R8R7R:R0R.R6RAR
-Q>jd
-Q@O1:2,0
-QBW*
-QC)Hh
-QEJh
-QENHN_N^N
-QHRH
-QI6BI
-QIaEp
-QIjMxp)
-QJjTa
-QKmB\m
-QM9s
-QMek
-QNRCRJRMRLRKRGR
-QOX7a>aha9e
-QP?K
-QQQr
-QTS!S
-QTmi
 QUOTE_ALL
 QUOTE_MINIMAL
 QUOTE_NONE
 QUOTE_NONNUMERIC
-QV3`
-QVAWA@A
-QVR\RTR[R]R*S
-QVhEA
-QY50]"a2
-QY5I
-QZB;GC`
-Q[O&T+Ywe
-Q[tz@
-Q\rT}T
-Q\vQ\fQ\rQ
-Q^SiSnS
-Q_Nu
-Q`n1
-QaMa
-QaRZRRR^R_RURbR
-QcRcw>
-QdTdl
-Qe:6
-QfLp
-Qg,R
-QgX[
-Qha\nR*X
-Qi)s`PRi
-QjRoR
-Qjt_
-QkOkq
-QkRmRlRnR
-Qk_ENk$JUk{0k
-Qkkbal
-QlRlX9Pl>
-QmOm15n
-QpSsLL7
-QqRq
-QrRtRuRiR
-QtRt
-QuRu
-Qu`ukQb
 QueryInfoKey
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryReflectionKey
 QueryValue
 QueryValueEx
-Qupu
-QvRvSvTv
-Qxw22
-QzRxR{R|R
-QzRzI
-Q{OO
-R SGS
-R!R"R#R%R&R'R*R,R/R1R2R4R5R<R>RDRERFRGRHRIRKRNRORRRSRURWRXR
-R!xNxdxzx0y
-R"R(R1R2R5R<RERIRURWRXRZR\R_R`RaRfRnRwRxRyR
-R"Y!q_r
-R#SsSuS
-R$vAm
-R%S%T%U%V%W%X%
-R&S&T&U&V&W&X&''
-R&S&T&U&V&W&X&u
-R'R*R.R3R9RORDRKRLR^RTRjRtRiRsR
-R)TtV
-R-R3R?R@RLR^RaR\R
-R1PJ<2
-R1h58
-R2wD!J
-R5S5X
-R5k@<<(MaU
-R7S7
-R8"I
 R8SiS
-R9S9F
-R:\Sg|p5rL
-R:e$ts
-R;SNS
-R;SU=
-R;TOU
-R;TtV
-R=S|S
-R?Wqq
-RASAx
 RBRACE
-RBSBn
-RDQSU-W
 REG_BINARY
 REG_CREATED_NEW_KEY
 REG_DWORD
@@ -4914,50 +2679,19 @@ REG_RESOURCE_LIST
 REG_RESOURCE_REQUIREMENTS_LIST
 REG_SZ
 REG_WHOLE_HIVE_VOLATILE
-RESE
-RFt[
-RGWGu`{
-RHVBVLV5VAVJVIVFVXVZV@V3V=V,V>V8V*V:V
 RIGHTSHIFT
 RIGHTSHIFTEQUAL
-RIRWRaR
-RM8p:p9p;p<pa
-RNW*XL]
-RNW\rx\vw
-RNjW
 RPAR
-RRSTSSSQSfSwSxSyS
-RSDS
 RSQB
 RShift
-RT#Y(}YWNw>z
 RULE
-RUP3<<Z
-RUa(g
-RVgb
-RWOLxk
-RWf8/
-RXVy
-RXdD^
-RYKSwX)Zxu
-RYVkVyViVdVxVjVhVeVqVoVlVbVvV
-RYeu
-R\nS\vS$S5S>SBS
-R\nS\vS<S
-R\rSWS{S
-R\tR\vR\fR
-R\tScSrS
-R]tw\g%d
-R^Y?UB@Gl
 R_OK
 Raise
 Random
 Random()
 Random() -> create a random number generator with its own internal state.
 Raw stream returned invalid position %lld
-RccH
 Re-calculating FIRST set for '%s' ???\n
-ReXeQe
 Read and return a line from the stream.\n\nIf limit is specified, at most limit bytes will be read.\n\nThe line terminator is always b'\n' for binary files; for text\nfiles, the newlines argument to open can be used to select the line\nterminator(s) recognized.\n
 Read and return up to n bytes, with at most one read() call\nto the underlying raw stream. A short result does not imply\nthat EOF is imminent.\n\nReturns an empty bytes object on EOF.\n
 Read and return up to n bytes.\n\nIf the argument is omitted, None, or negative, reads and\nreturns all data until EOF.\n\nIf the argument is positive, and the underlying raw stream is\nnot 'interactive', multiple raw reads may be issued to satisfy\nthe byte count (unless EOF is reached first).  But for\ninteractive raw streams (as well as sockets and pipes), at most\none raw read will be issued, and a short result does not imply\nthat EOF is imminent.\n\nReturns an empty bytes object on EOF.\n\nReturns None if the underlying raw stream was open in non-blocking\nmode and no data is available at the moment.\n
@@ -5072,38 +2806,9 @@ Returns size in memory, in bytes.
 Returns the Integral closest to x between 0 and x.
 Returns the pickle magic to allow ST objects to be pickled.
 Returns underlying file descriptor if one exists.\n\nAn IOError is raised if the IO object does not use a file descriptor.\n
-RgCWpv^h
-RgWVP
-RlNl
-RmrA2SKm7H
-RnPns
-RoWoZo`oho
 Rotate the deque n steps to the right (default n=1).  If n is negative, rotates left.
-RqLRKO
-Rq\q`qhq
-RrTr
-Rt>z6
-Ruim
 RuntimeError
 RuntimeWarning
-RwR}R
-RwSw
-RwbVr
-RxS\
-R|U$X
-R}AQ
-S!S SpSqS\tT
-S"S$S%S'S(S)S+S,S-S/S0S1S2S3S4S5S6S7S8S<S=S@SBSDSFSKSLSMSPSTSXSYS[S]SeShSjSlSmSrSvSyS{S|S}S~S
-S"\%\,\4\Lbjb
-S#S/S1S3S8S@SFSES
-S#Tm5r5
-S$SrS
-S%S'S(S)S+S,S-S0S2S5S<S=S>SBSLSKSYS[SaScSeSlSmSrSyS~S
-S%`qbrl
-S*SQS
-S*Y `Ka
-S-WNY
-S.V;V9V2V?V4V)VSVNVWVtV6V/V0V
 S.__format__(format_spec) -> string\n\nReturn a formatted version of S as described by format_spec.
 S.__format__(format_spec) -> unicode\n\nReturn a formatted version of S as described by format_spec.
 S.__sizeof__() -> size of S in memory, in bytes
@@ -5176,44 +2881,20 @@ S.upper() -> string\n\nReturn a copy of the string S converted to uppercase.
 S.upper() -> unicode\n\nReturn a copy of S converted to uppercase.
 S.zfill(width) -> string\n\nPad a numeric string S with zeros on the left, to fill a field\nof the specified width.  The string S is never truncated.
 S.zfill(width) -> unicode\n\nPad a numeric string S with zeros on the left, to fill a field\nof the specified width. The string S is never truncated.
-S/VQX
 S03$
-S0T7T*TTTET
-S3T3U3
-S4nKQ;R
-S5zf-
-S6r&
-S8T8
-S8Tj
-S8u\rS
-S8xBg=h
-S9SHSGSES^S
-S9T4V6Z1\
 S:Struct
 S:intern
 S:loads
-S<I9f;i56J"eT
-S?S@S>S
-SAS\S
-SB"5
 SCOPE_MASK
 SCOPE_OFF
-SD[D`
 SEARCH_ERROR
 SEMI
-SEO7Tb
-SFDn6=`<[GqCV
-SFOT
-SFT1XIY
-SFd6\
-SGN-Y;rnS
 SHA1
 SHA224
 SHA256
 SHA384
 SHA512
 SHELL32.dll
-SI*a)a
 SIGABRT
 SIGBREAK
 SIGFPE
@@ -5223,17 +2904,9 @@ SIGSEGV
 SIGTERM
 SIG_DFL
 SIG_IGN
-SIlIN
-SJTqT
-SKyu
 SLASH
 SLASHEQUAL
-SLS"W#W
-SLciO
 SO!O!:type
-SPQPu
-SQ"Mf
-ST(He
 STAR
 STAREQUAL
 STARTF_USESHOWWINDOW
@@ -5244,30 +2917,10 @@ STD_OUTPUT_HANDLE
 STILL_ACTIVE
 STRING
 STType
-SUT$T(Tn5CTbTfTlT
-SUus.w
-SW]fH
 SW_HIDE
-SWsh
-SW|I[=1
-SYXY~
-SZTZUZ;P%Ry0VZ+GWZw=!CXZYZ}C7LZZ[Z>@WF\Z]Z4G^Z_ZH9@
-SZVZ9NTZ
-S[I[E
-S\nS\vS\fS
-S\tN\vN
-S\tS\nS\vS\fS
-S^:Qi3|
-S^eEu1U!P
-S_!cZQa
-SaRa6G
 Samples should be same size
 SaveKey
 SaveKey(key, file_name) - Saves the specified key, and all its subkeys to the specified file.\n\nkey is an already open key, or any one of the predefined HKEY_* constants.\nfile_name is the name of the file to save registry data to.\n This file cannot already exist. If this filename includes an extension,\n it cannot be used on file allocation table (FAT) file systems by the\n LoadKey(), ReplaceKey() or RestoreKey() methods.\n\nIf key represents a key on a remote computer, the path described by\nfile_name is relative to the remote computer.\nThe caller of this method must possess the SeBackupPrivilege security privilege.\nThis function passes NULL for security_attributes to the API.
-SbH6yW
-Scf}
-SdvHq
-SeTeP
 Second argument to a division or modulo operation was zero.
 Second element of tuple returned by %s must be a tuple
 See OpenKey()
@@ -5305,26 +2958,14 @@ Sign not allowed with integer format specifier 'c'
 Signal the end from iterator.next().
 Simple type for output to strings.
 Simple type for treating strings as input file streams
-SimuT
 Single '{' encountered in format string
 Single '}' encountered in format string
 Size should be 1 or 4
 Size should be 1, 2 or 4
-SjPj^68
-Sj_t
-SjeJ
-SlTl
 Sleep
 Slice
-SmoX
 Software\Python\PythonCore\
 Software\Python\PythonCore\%s\Modules\%s%s
-SowDE
-Sp4r
-SpV`VnVsVfVcVmVrV^VwV
-Sqgu
-SsTs
-SsTuT
 St#|t#:translate
 StandardError
 Step for islice() must be a positive integer or None.
@@ -5338,115 +2979,34 @@ StringIO
 StringIO([s]) -- Return a StringIO-like stream for reading or writing
 Strings should be even-sized
 Struct
-SuUvU<UMUPU4U*UQUbU6U5U0URUEU
 Subscript
 Suite
 Suite field "body" must be a list, not a %.200s
 Support for POSIX locales.
-SwRw
-SxTx
-SyXXaYa
 SyntaxError
 SyntaxWarning
 System product type
 SystemError
 SystemExit
 SystemTimeToFileTime
-Sy~U
 S|O:module.__init__
-S|bO
 S|z:escape_encode
-S}mk\V$e
-T!T'T(T*T/T1T4T5TCTDTGTMTOT^TbTdTfTgTiTkTmTnTtT
-T"T$T%T*T0T3T6T7T:T=T?TATBTDTETGTITLTMTNTOTQTZT]T^T_T`TaTcTeTgTiTjTkTlTmTnToTpTtTyTzT~T
-T"U#U
-T'TMT
-T)TJT9T;T8T.T5T6T T<T@T1T+T
 T.__new__(S, ...) -> a new object with type S, a subtype of T
 T.__sizeof__() -- size of T in memory, in bytes
 T.count(value) -> integer -- return number of occurrences of value
 T.index(value, [start, [stop]]) -> integer -- return first index of value.\nRaises ValueError if the value is not present.
-T0*X(X1
-T0W@W
-T0yES
-T3w8
-T4U4
-T5XWX
-T5d4dt
-T6M@_
-T8=H
-T8h;
-T9U9V9G
-T9U@UcULU.U\UEUVUWU8U3U]U
-T<i\j\R
-T=J;'pr
-T=T@T,T-T<T.T6T)T
-T>T&TNT'TFTCT3THTBT
-T>d(f
-T@5d0A6dPN
-TAcT<@m0dG^
-TBhF
-TCE1#<
-TDUDh
-TEUEVE
-TFU1U
-TFUFp
-TFt`
-TG-U
-TGUGD
-THQY^A
-THS4
-TI0K
-TI?M
 TILDE
-TJK47
-TK>`xcij2|
-TKTRTSTTTVTCT!TWTYT#T2T
-TKU`
-TL/K
-TLHdI
-TLJ`L`,
-TM7O
 TMP_MAX
-TN+g
-TNE^
-TNS>s
-TP\Y\q[c\f\
-TS(>313
-TSMJ
-TS|M
-TTQMn
-TUO}
-TUVWXY
-TWyH4
-TX-d
-TXTNl
 TYPE_CLASS
 TYPE_FUNCTION
 TYPE_MODULE
-TYPY
-TYhVJY
-T[GW
-T\fT\nT
-T]S]U]%2JC
-T]bAF7B
-T_TqTwTpT
-T`S`T
 Tab size set to %d\n
 TabError
-TbThT
-Tb}R
-TcTgTdT
-TdUd
-Te\Ng
-Te`eL
 Tell the current file position.
 TerminateProcess
 TerminateProcess(handle, exit_code) -> None\n\nTerminate the specified process and all of its threads.
 Text I/O implementation using an in-memory buffer.\n\nThe initial_value argument sets the value of object.  The newline\nargument is like the one of TextIOWrapper's constructor.
 TextIOWrapper
-TfSf
-Tg^J\4r
 The abstract base class for all I/O classes, acting on streams of\nbytes. There is no public constructor.\n\nThis class provides dummy implementations for many methods that\nderived classes can override selectively; the default implementations\nrepresent a file that cannot be read, written or seeked.\n\nEven though IOBase does not declare read, readinto, or write because\ntheir signatures will vary, implementations and clients should\nconsider those methods part of the interface. Also, implementations\nmay raise a IOError when operations they do not support are called.\n\nThe basic type used for binary data read from or written to a file is\nbytes. bytearrays are accepted too, and in some cases (such as\nreadinto) needed. Text I/O classes work with str data.\n\nNote that calling any method (even inquiries) on a closed stream is\nundefined. Implementations may raise IOError in this case.\n\nIOBase (and its subclasses) support the iterator protocol, meaning\nthat an IOBase object can be iterated over yielding the lines in a\nstream.\n\nIOBase also supports the :keyword:`with` statement. In this example,\nfp is closed after the suite of the with statement is complete:\n\nwith open('spam.txt', 'r') as fp:\n    fp.write('Spam and eggs!')\n
 The basestring type cannot be instantiated
 The error setting of the decoder or encoder.\n\nSubclasses should override.\n
@@ -5478,29 +3038,16 @@ This object has no __dict__
 This object has no __weakref__
 This thread state must be current when releasing
 Thousands separators not allowed with integer format specifier 'c'
-Thpgwckw
 Thread-local data
 Thread-local dummy
-TizaLd
-Tj`da
-TkTtT
-TkTzT~TeTlTtTfT
 TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
-TnSnz
-ToJop
-ToTaT`T
 Too many decimal digits in format string
 Too much data for base64 line
 Tools that operate on functions.
 Total seconds in the duration.
-ToxDUoVod8w0WoXoYoF
-TpW39
-TpdKT{fujc
-TqTvT
-TrUA\f
 Traceback (most recent call last):\n
 Trailing \ in string
 Trailing garbage
@@ -5529,19 +3076,8 @@ TryExcept field "orelse" must be a list, not a %.200s
 TryFinally
 TryFinally field "body" must be a list, not a %.200s
 TryFinally field "finalbody" must be a list, not a %.200s
-TsP5UsVsWs
-TsSs{7
-TtUt
-TtUt+>@
-Tu;S]
 Tuple
 Tuple field "elts" must be a list, not a %.200s
-TvTfT
-TwTqTdT
-TwVwu
-Tx&x
-TyJw
-Typ+UWf[mmTSkt\r]U
 Type "help", "copyright", "credits" or "license" for more information.
 Type %.100s doesn't define __format__
 Type %.100s doesn't define __sizeof__
@@ -5549,23 +3085,7 @@ Type %.100s doesn't support the buffer API
 Type basestring cannot be instantiated; it is the base for str and unicode.
 Type must be _winreg.REG_SZ
 TypeError
-T{)vSb'YFTyk
-T{TwT
-T|TNN
-U!U%U&U
-U#U(U
-U#n-gg
 U%08x
-U'U*UgU
-U*U+U2U5U6U;U<U=UAUGUIUJUMUPUQUXUZU[U^U`UaUdUfU
-U+U5UPU^U
-U0[q_ f
-U1JN34rHGcPOHcd<IcJcFC"UVDk9ENKcvCLc]
-U2V2
-U4HozL
-U6V6
-U8o6qhQ
-U9Mja03
 U:charmap_build
 U:chdir
 U:listdir
@@ -5574,68 +3094,17 @@ U:remove
 U:rmdir
 U:stat
 U:write
-UAYG}ECEj
 UAdd
-UB^W
-UF0>zN
-UFTnTRk
-UFtM
-UG?[lE^ZbZ$
-UH)5I><VgT
-UIUmUAUUU?UPU<U7UVUuUvUwU3U0U\U
-UJTD~9
-UK|6
 UNAVAILABLE
 UNICODE
-UNVPV
-UNfV
 UO|:utime
-UO}X
-UQWQ
-UR\RlRwR
 USER32.dll
 USub
 UTF-16LE
 UTF-8
-UTM_
-UTWq
-UTXXXWY
-UTbT
-UThXjp
-UTvP
-UUUU
-UUVUZ;'9?
-UUlGb.
-UW+5
-UW6ThyAW
-UYTYWYj
-UYWeW
-UYZYXY
-U[pG?K;4?
-U\fW)X7X
-U\nU\vU\fU\rU
-U\rW/X*X4X$X0X1X!X
-U\tU<UAU
-U\tU\fU\rU
-Ua>?N
-UbOm
-UbyCV
-UcPu
-Uc\S
-Ud|NmJZd
-Ue~4VeK
-Uf_0q
-Ufv-
-Ug?u"O/M#O
-UgR9VgLH
-UhV;W
-UhnM
 Ui:access
-UiXiW
 Ui|:chmod
 Ui|i:mkdir
-Ulf4
-UmSmWmM
 UnaryOp
 UnboundLocalError
 Unexpected data in internal list
@@ -5677,147 +3146,26 @@ Unspecified run-time error.
 UnsupportedOperation
 Unterminated string starting at
 Unversioned directory
-UoSoVoXo
 Update a set with the intersection of itself and another.
 Update a set with the symmetric difference of itself and another.
 Update a set with the union of itself and others.
 Update this hash object's state with the provided string.
 Update this hashing object's state with the provided string.
-Ur\M}
-Urb3
-UreuoY
 UserWarning
 Using default static path.\n
 Using environment $PYTHONPATH.\n
-UuX/c"dIfKfmh
-UvbU
-UwUEV
-Uy:gUkwUgo>a
-UzzvP
-U{U~U
 U|:_getfullpathname
 U|:_isdir
 U|i:mkdir
 U|s:startfile
 U|si:file
-V V!V"V%V&V(V)V*V+V.V/V0V3V5V7V8V:V<V=V>V@VAVBVCVDVEVFVGVHVIVJVKVOVPVQVRVSVUVVVZV[V]V^V_V`VaV
-V$V#V
-V'V-VXV9VWV,VMVbVYV\VLVTV
-V,V0V3V5V7V9V;V<V=V?V@VAVCVDVFVIVKVMVOVTV^V`VaVbVcVfViVmVoVqVrVuV
-V.W*W4W<Y
-V.r@rtI
-V0V7V
-V1(3
-V2PWKJ{KLU68IO
-V3(pf
-V3R9
-V3W0W(W-W,W/W)W
-V3W3X3
-V43U
-V4\o
-V6>4p
-V7B3
-V7PGWXW
-V:O<Or
-V;'mtPu
-V;VIVvVfV8
-V<Bm0537
-V=FN7
-V@zw
-VADh
 VALIDATION FAILURE: report this to the maintainer!
-VAWA
-VAWEWLWIWKWRW
-VAsHs
 VBAR
 VBAREQUAL
-VCRO!;
-VD=e&
-VDWDXDi
-VESkj
-VEV:N5
-VFWFXFq
-VHWHD
-VH[G[
-VI:\6\S
-VJP^E2zT@
-VJWQW@WMW
-VMch83|
-VMv|
-VN[m\-e
-VO;ObOIOSOdO>OgORO_OAOXO-O3O?OaO
-VQTQUQSQc:WQjLdNy
-VRcJ%Wg
-VSUS)
-VSf20<QS+K47
-VTS2>l
-VTVS
-VUMW
-VVLa
-VWV;:K;K
-VWf4oKZfCXNW"PJ
-VY.If
-VYTlKj
-VY[Y)
-V\nV\rV
-V\nV\vV\rV
-V\tV\rV
-V][He
-V^_^/021k
-VaTa@<O
 Value returned by %s must be string or tuple
 ValueError
-Vbrs
-Vb|J5?9SUb
-Vc0a
-Vcu6
-VdR@
-VdVqVkV{V|V
-VePeWe
-VfWH_
-Vj0q
-VjWjXF
-Vl#BB
-VluN
-Vn2jvPYlKZ(O
-VnWn!
-VoWrWmWkWqWpWvW
-VpY<[i\j\
-VqQqo
-VqYK[L[
-VuEY4d
-VvWv
-Vwj^4K
-V|dC>
-W W!W"W$W%W&W'W+W1W2W4W5W6W7W8W<W=W?WAWCWDWEWFWHWIWKWRWSWTWUWVWXWYWbWcWeWgWlWnWpWqWrWtWuWxWyWzW}W~W
-W W"W#W$W%W)W*W,W.W/W3W4W=W>W?WEWFWLWMWRWbWeWgWhWkWmWnWoWpWqWsWtWuWwWyWzW{W|W~W
-W YbY6ZAZIZfZjZ@Z<ZbZZZFZJZp[
-W%f?i
-W&W7W8WNW;W@WOWiW
-W+YfZ
-W+YfZZ[u[
-W0N@|
-W0X0
-W0XDY
-W0Y0m
-W1._o
-W1X1A
-W2|g
-W3NXE
-W4+u.u_
 W4vC
-W5XWX
-W5uCO8u
-W:gxu=z
-W=X=Y=D
-W>Lj1
-W?I]XfP
-WA045<K
 WAIT_OBJECT_0
-WCaYo
-WEXE
-WGY\t[
-WGqY
 WHAT_ADD_INFO
 WHAT_DEFINE_FILE
 WHAT_DEFINE_FUNC
@@ -5826,16 +3174,6 @@ WHAT_EXIT
 WHAT_LINENO
 WHAT_LINE_TIMES
 WHAT_OTHER
-WHX%X
-WHcH{\
-WJa2!n"n#n$n;F#Cc0(n
-WKtB
-WK}7`
-WLBe
-WLQfRf
-WMX^
-WQYb_
-WRtN?jV
 WSABASEERR
 WSAEACCES
 WSAEADDRINUSE
@@ -5884,107 +3222,26 @@ WSAEWOULDBLOCK
 WSANOTINITIALISED
 WSASYSNOTREADY
 WSAVERNOTSUPPORTED
-WSXhXdXOXMXIXoXUXNX]XYXeX[X=XcXqX
-WTQTTTVTP
-WUYQYOYNYPY
-WUcik+u
-WWsq
-WWw{
-WYyr
-WZYi[
-WZ_L
-W\fX\rX
-W\nW\fW
-W\nW\tW
-W\vW\fW\rW
-W\vW\rW
-W\vW\tW
-W\vX\rX
-W^XQXXXWXZXTXkXLXmXJXbXRXKXgY
 W_OK
-W_V_IWc_d_ke'RR_B
-WahHQaM
 WaitForSingleObject
 WaitForSingleObject(handle, timeout) -> result\n\nWait until the specified object is in the signaled state or\nthe time-out interval elapses. The timeout value is specified\nin milliseconds.
 Warning
 Weak ref proxy used after referent went away.
 Weak-reference support module.
-Wf[fcf
-Wfpo|<
-Wfvv
 While
 While field "body" must be a list, not a %.200s
 While field "orelse" must be a list, not a %.200s
-WiPi
-WiX<
-Wi`Ga
 WideCharToMultiByte
 Win32 exception code
 Windows Error 0x%X
 Windows: mmap(fileno, length[, tagname[, access[, offset]]])\n\nMaps length bytes from the file specified by the file handle fileno,\nand returns a mmap object.  If length is larger than the current size\nof the file, the file is extended to contain length bytes.  If length\nis 0, the maximum length of the map is the current size of the file,\nexcept that if the file is empty Windows raises an exception (you cannot\ncreate an empty mapping on Windows).\n\nUnix: mmap(fileno, length[, flags[, prot[, access[, offset]]]])\n\nMaps length bytes from the file specified by the file descriptor fileno,\nand returns a mmap object.  If length is 0, the maximum length of the map\nwill be the current size of the file when mmap is called.\nflags specifies the nature of the mapping. MAP_PRIVATE creates a\nprivate copy-on-write mapping, so changes to the contents of the mmap\nobject will be private to this process, and MAP_SHARED creates a mapping\nthat's shared with all other processes mapping the same areas of the file.\nThe default value is MAP_SHARED.\n\nTo map anonymous memory, pass -1 as the fileno (both versions).
 WindowsError
-Wiqd
 With
 With field "body" must be a list, not a %.200s
-WlYl
-WnW'Y\r\
-Wnffm1
-WqXE
-WrSrYr'
 Write string to file.\n\nReturns the number of characters written, which is always equal to\nthe length of the string.\n
 Write string to stream.\nReturns the number of characters written (which is always equal to\nthe length of the string).\n
 Write the given buffer to the IO stream.\n\nReturns the number of bytes written, which is never less than\nlen(b).\n\nRaises BlockingIOError if the buffer is full and the\nunderlying raw stream cannot accept more data at the moment.\n
 Writing negative value into unsigned field
-Ws`QW-TzzP`T[
-Wsjshspsxsus{szs
-Wt!L
-WtZtF
-WuW{WsWtWbWhW}W\fYEY
-WuX~X
-Wua>Xul
-WwWjWiWaWfWdW|W
-WzA{
-W{X{P
-W|W{WhWmWvWsW
-X X&X'X-X2X9X?XIXLXMXOXPXUX_XaXdXgXhXxX|X
-X X'X2X9X
-X"X#X%X&X'X(X)X+X,X-X.X/X1X2X3X4X6X7X8X9X:X;X<X=X>X?X@XAXBXCXEXFXGXHXIXJXKXNXOXPXRXSXUXVXWXYXZX[X\X]X_X`XaXbXcXdXfXgXhXiXjXmXnXoXpXqXrXsXtXuXvXwXxXyXzX{X|X}X
-X$OFUO
-X%Y"Y$YjYiY
-X'X#X(X
-X(Tr
-X)W,W*W3W9W.W/W\W;WBWiW
-X)Y+Y*Y-YT[
-X,e^pqvrv
-X-[%[2[#[,['[&[/[.[{[
-X03DL8bF>HaH
-X0[*[$[z[7\h\
-X2jC}
-X3X?X6X.X9X8X-X,X;XaY
-X4U3^96H+
-X8Y8B
-X9KPx1dF_>d5HW
-X;MYD0]
-X?FMZQk4
-X@(m6
-XAZb\
-XAzM
-XC[Y`
-XDX XeXlX
-XGYGL
-XGmQ}
-XHn]w
-XHvb)
-XL] kIk
-XL^TY,g
-XL~N
-XMVgZL
-XOY=r
-XP"|>T3bg^
-XR>A=AXBG:
-XTI\qW
-XTYnY
-XUa\nb
 XXX ambiguity!\n
 XXX block stack overflow
 XXX block stack underflow
@@ -5992,163 +3249,10 @@ XXX lineno: %d, opcode: %d\n
 XXX readobject called with exception set\n
 XXX too high nonterminal number!\n
 XXX too many states!\n
-XXXb^
-XZ9Q
-XZZh`
-X[g9\[][X5T
-X\Y`ZXZUZgZ^Z8Z5ZmZPZ_ZeZlZSZdZWZCZ]ZRZDZ[ZHZ
-X\fYA
-X\rYSY
-X\tX\nX\fX
-X\vYSY[Y]YcY
-X]YhVo
-X^,BO^Q^A9
 X_OK
-X`YwZ
-XbVm
-XjKQKR
-Xkm8UkVkz
-Xle\
-XmGa
-XmY\t[
-XnK-
-XnaN
-XoIf
-XpDo
-Xp\p?
-XpzcK
-XqRqZq
-XrTrRrQr*
-XrX!XbXKXpX
-XrYM[
-XrZr]r[r
-XsBI
-XsSe
-Xt3V-]
-XtYtH
-XvYvZv
-Xw`wjw
-Xx[P
-XyYy`JJZ
-Y Y!Y"Y#Y&Y(Y,Y0Y2Y3Y5Y6Y;Y=Y>Y?Y@YCYEYFYJYLYMYPYRYSYYY[Y\Y]Y^Y_YaYcYdYfYgYhYiYjYkYlYmYnYoYpYqYrYuYwYzY{Y|Y~Y
-Y Z#Z)Z%Z\fZ\tZk[X\
-Y!Y#Y$Y(Y/Y0Y3Y5Y6Y?YCYFYRYSYYY[Y]Y^Y_YaYcYkYmYoYrYuYvYyY{Y|Y
-Y&r(s(F+G+P+Q+|#
-Y'YsYP[Q[S[
-Y(\G^w_?b>e
-Y*YplQ
-Y0Z0[0
-Y1&X{
-Y2Y4Yf[
-Y2Z2
-Y2fG
-Y4Z4[4
-Y4m64YT
-Y6S2EF(=d;t
-Y7Y8Y
-Y9Z9[9\9]9K
-Y:r6
-Y;1l
-Y<JY
-Y=Uq7
-Y=^Uaxdyd
-Y@tb
-YAZA[A
-YCZCK
-YEB:H
-YE{@h
-YFZFw
-YFl]
-YHg;~\}\+S!]#]%]qR$]&]'])RT
-YIYGYHYDYTY
-YP[M\
-YP[W[\[c`Ha
-YQXN
-YQ[Q^Q]QaQcQ
-YR(a
-YRZR[R]R_R`RbRcRdRfRhRkRlRmRnRpRqRsRtRuRvRwRxRyRzR{R|R~R
-YTEnpr
-YU#V
-YVVV
-YVrX
-YWYXYZY
-YW[X[
-YXN9j
-YY9>!
-YY_s
-YZZZ
-Y\fZ\tZ2Z4Z
-Y\tY\nY\vY\fY
-Y\vY\fY
-Y\vY\rY
-Y]X]p8V]
-Y^fc
 YaRwND
-YaYa
-Yb[e[
-YbbEfj5@R
-Yd[dv
-Yf"3
-YfZfafefsfwfxf
-Yf[f\f]f^f`fbfcfefgfifjfkflfmfqfrfsfufxfyf{f|f}f
-YhrASh[h`ha
-YiH3
 Yield
-YmAM}
-YmY-^
-Yn$NE=nLLNZnb6
-Yo.A"
-Yr<S
-Yr^y^
-Ys8IY
-YvtGd'\e
-Y{SwS
-Y{Y~YwY
-Y{wm
-Y|GH
-Y|c}v}{}>#=#0"
-Y}YyY
-Z!Z"Z$Z&Z'Z(Z*Z+Z,Z-Z.Z/Z0Z3Z5Z7Z8Z9Z:Z;Z=Z>Z?ZAZBZCZDZEZGZHZKZLZMZNZOZPZQZRZSZTZVZWZXZYZ[Z\Z]Z^Z_Z`ZaZcZdZeZfZhZiZkZlZmZnZoZpZqZrZsZxZyZ{Z|Z}Z~Z
-Z#Z$Z'Z(Z*Z-Z0ZDZEZGZHZLZPZUZ^ZcZeZgZmZwZzZ{Z~Z
-Z#ZgZmZwZ~Z
-Z&P7wwS
-Z'Z-ZUZeZzZ
-Z*[6[>[C[E[@[Q[U[Z[[[e[i[p[s[u[x[
-Z-Z.Z
-Z1[1\1E
-Z2V8)IKh
-Z3Zl[
-Z6%d#d(
-Z8\N\M\
-Z>ZMZ9ZLZpZiZGZQZVZBZ\Zr[n[
-Z>fi
-Z?E9d>mA
-Z?dIw
-Z@ZgZJZUZ<ZbZuZ
-Z@ZlZIZ5Z6ZbZjZ
-Z@w-N
-ZCkF~
-ZD[D
-ZGXN
-ZH[HP
-ZIPQQQRQ_Ex
-ZJn{
 ZLIB_VERSION
-ZNiN
-ZP[P
-ZR2JJHlXjXFXv=MFp3
-ZT%f%W%`%l%c%Z%i%]%R%d%U%^%j%a%X%g%[%S%e%V%_%k%b%Y%h%\%Q%P%m%n%p%o%
-ZTW[Y[S
-ZVESo;a;qX
-ZWY9fV(6pMKR&15Jg
-ZX_X
-ZY+p
-ZYpX*G
-Z[;YsJSvxfuj
-Z\fZ\rZ
-Z\nZ\vZ\rZ
-Z\t\pa
-Z_@EY0
 Z_BEST_COMPRESSION
 Z_BEST_SPEED
 Z_DEFAULT_COMPRESSION
@@ -6159,81 +3263,16 @@ Z_FULL_FLUSH
 Z_HUFFMAN_ONLY
 Z_NO_FLUSH
 Z_SYNC_FLUSH
-Z_tr
-Zc[ca
-Zc\cYc[c
-ZdQd
-Zda$
-Ze?c
-Zebe
 Zero padding is not allowed in complex format specifier
 ZeroDivisionError
-ZhCZDZET
-Zhz1
-Zi@x
-Zi]o]L^y^
 Zip path name is too long
 ZipImportError
-Ziwi`iTiui0i
-Zjz\v
-Zk[k`TjFTD_k'EuY
-Zlmp
-Zm2E]m#
-ZoXn
-Zo[o\o]oG
-Zrkd
-Zs[q[
-Zu\uu
-Zu\wjaAN1T
-Zw9[
-ZwZzZ
-Z{Z}Z
-[ [!["[#[$[%[&['[([)[*[+[,[-[.[/[0[1[3[5[6[8[9[:[;[<[=[>[?[A[B[C[D[E[F[G[H[I[J[K[L[M[N[O[R[V[^[`[a[g[h[k[m[n[o[r[t[v[w[x[y[{[|[~[
-[![%[-[8[A[K[L[R[V[^[h[n[o[|[}[~[
-[%[]RA[V[}[
-[,\,],^,_,`,a,b,c,d,e,f,g,h,i,j,k,l,m,n,
-[,\@\A\?\>\
-[0R;z
-[4[-[L[R[h[o[|[
-[6lH.
-[8\8D
-[:jkpuu
-[:vNajbjuA
-[A8X4
-[B\BS
-[CWP
 [Errno %s] %s
 [Errno %s] %s: %s
 [Error %s] %s
 [Error %s] %s: %s
-[F\FS
-[Gb~e
-[HduQ
-[Kb1g
-[KuT
-[LR>2<X
 [LcP
 [MSC v.1600 64 bit (AMD64)]
-[MbPg=h
-[PEQ/<M9f
-[Q%tE6(
-[R!C~B+6$>\RZRD2fB8<K;&1
-[S5V$l
-[X\Xg6A<jLq
-[Xdue
-[[t3a[P
-[\f\0\7]C]k]A]K]?]5]Q]N]U]3]:]R]=]1]Y]B]9]I]8]<]2]6]@]E]D^A^X_
-[\n\\v\1\L]P]4]G]
-[^F04:SIsDh>
-[^t5OEj
-[bZb*@I
-[gC;WSDS
-[gZg]g
-[h1R
-[i_Mb
-[k1m
-[l7k7
-[nfek
 [raw_]input
 [raw_]input: input too long
 [raw_]input: lost sys.stdin
@@ -6241,226 +3280,22 @@ Z{Z}Z
 [sep] -> string in ISO 8601 format, YYYY-MM-DDTHH:MM:SS[.mmmmmm][+HH:MM].\n\nsep is used to separate the year from the time, and defaults to 'T'.
 [sssss]
 [tz] -> new datetime with tz's local day and time.
-[wvf
-[x\x^x_x`xaxbxcxdxexfxgxhxixoxpxqxrxsxtxuxvxxxyxzx{x}x~x
-[yYTXms
-[zcK)w
-\ \!\#\&\(\)\*\+\-\.\/\0\2\3\5\6\7\C\D\F\G\L\M\R\S\T\V\W\X\Z\[\\\]\_\b\d\g\h\i\j\k\l\m\p\r\s\t\u\v\w\x\{\|\}\~\
-\ \"\(\8\9\A\F\N\S\P\O\q[l\n\bNv\y\
 \ at end of string
-\#\&\)\+\,\.\0\2\5\6\Y\Z\\\b\c\g\h\i\m\p\t\u\z\{\|\}\
-\%\|\z\{\~\
-\'_6bHb\nfgf
-\3\q]c]J]e]r]l]^]h]g]b]
-\4QN
-\5EU{
-\6Rzf
-\7_J_/`P`m`
-\9ns
-\>XMN0
-\>cym
-\AJL@
-\B/gE
-\CE4
-\Ef7
-\Fm_l
-\G]GX
-\H4BnB(6
-\Hcd
-\KzL
-\MwY
 \N escapes not supported (can't load unicodedata module)
-\NiN
-\O,9k
-\OJR
 \PythonPath
-\S4i5i7iY
-\T^T]TY
 \U%02x%02x%02x%02x
-\UDsWK
 \Uxxxxxxxx out of range
-\WzB
-\XFm
-\Yf=jZm
-\Z[e[s[Q[S[b[u
-\[e7K7mEX
-\\tcOfHh<w
-\]]^_`aaabcd
-\crN
-\eCOqb
-\f0\r0A
-\fU2UeUNU9UHU-U;U@UKU\nW
-\hcf
-\i[il
-\kgk5D/
-\l(A0
-\l7w
 \nOriginal exception was:\n
 \ntype    : %s\nrefcount: %ld\naddress : %p\n
-\pFAI
-\rRBY
-\rV{2i
-\re4
-\rmj>zjZ
-\t1u
-\tP!PuR1U<Z
-\t\n\v\f\r////////////////////////////
 \t\n\v\f\r//////////////////////////////
-\t\n\v\f\r/////////////////////////////////
 \t\n\v\f\r////////////////////////////////////
-\t\pakS
-\t\t\n\n\v\v\f\f\f\f\r\r\r\r
-\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\vNUO
 \x%02x
-\xnwhk
-\}3mIN
-] 888B^
-] ]!]"]#]%](]*]+],]/]0]1]2]3]5]6]7]8]9]:];]<]?]@]A]B]C]D]E]F]H]I]M]N]O]P]Q]R]S]T]U]V]W]Y]Z]\]^]_]`]a]b]c]d]e]f]g]h]j]m]n]p]q]r]s]u]v]w]x]y]z]{]|]}]~]
-] ]$]&]1]9]B]
-] ]\f](]\r]&]%]
-]!\!D"E"Z!Y!
-]!^"^#^ ^$^
-]!kdk
-]"Z"!!"!#!(!
-]"^"!(,("(-(
-]%sOu
-]&bGb
-])^)_)`)a)b)c)d)e)f)g)h)i)j)k)l)
-]*eNe!hKj
-]+]#]$]&]']1]4]9]=]?]B]C]F]H]U]Q]Y]J]_]`]a]b]d]j]m]p]y]z]~]
 ], maxlen=%Id)
-]1^1K
-]2^2_2H
-]33v
-]40C
-]4^4_4`4a4
-]5$Dz07W&J09a
-]6lKV
-]7\6J
-]8^8_8H
-]8usO
-]>6ls
-]E^=^@^C^~^
-]GL:d
-]Gp4
-]KcME
-]L5Py
-]L]R]N]K]l]s]v]
-]N6P
-]N_ba=cif
-]O^N^J^M^K^
-]P[PA
-]RZS
-]R^Rd
-]U=xTx
-]ULrMrOrSr
-]WZBW7=VFND7
-]X0Gx
-]X]>]4]=]l][]o]]]k]K]J]i]t]
-]Y+NN:5CZY/
-]YmY
-][^c^U^W^T^
-]\t]\n]\v]\f]\r]
-]ayr
-]dFd!
-]e2Gj
-]eae[e
-]i]pe
-]i`ii
-]k\Du
-]mD?r
-]mDN
-]nDg
-]q_qM
-]u^u_u`uaubucuduguhuiukulumunuoupuqusuuuvuwuzu{u|u}u~u
-]v^vJO
-^ ^!^"^#^$^%^(^)^*^+^,^/^0^2^3^4^5^6^9^:^>^?^@^A^C^F^G^H^I^J^K^M^N^O^P^Q^R^S^V^W^X^Y^Z^\^]^_^`^c^d^e^f^g^h^i^j^k^l^m^n^o^p^q^u^w^y^~^
-^ ^.^(^2^5^>^K^P^I^Q^V^X^[^\^^^h^j^k^l^m^n^p^
-^!e e&e"e\vk
-^"I'J'K'L'M'
-^'_8bEe
-^(_"_#_$_T_
-^.^>^I^\8V^a8k^l^m^n^
-^1QRO
-^1^;^<^7^D^T^[^^^a^
-^3_0_g_]`Z`g`
-^4aRbRdRk
-^5_7_W_l_i_k_
-^5hW-@e1bWx2gW
-^6ZJt5e^
-^6^7^D^C^@^N^W^T^_^b^d^G^u^v^z^
-^8f0>
-^9_9`9a9b9M
-^9xM
-^:_J_wa_lzu
-^<twz
-^=G2H
-^?xOZ
-^B7nA
-^G/Dl2
-^G_G`GY
-^HQv
-^H_HX
-^M&B+f,f?=.f3f
-^M3Y4Y8YjE5Y39^@
-^QdF
-^Vtdoa
-^Vv1UD
-^YNG~@8Y[
-^]f1g
-^_'07FS_L
-^`4vRj
-^a_ac
-^anK<cVx
-^b5a
-^fW?PTI
-^jBuk
-^mrS
-^na>b
-^nx3K?)
-^o5>ao_o`oH
-^oEZ_
-^ocb{n
-^p_4a^e\ff6f
-^pe1oU`7R\r
-^r]r2
-^t<Ah<D
-^udueu
-^wcRr
-^x*ywJ
-^yoS
-_ `Ka4b
-_!_"_#_$_(_+_,_._0_4_6_;_=_?_@_D_E_G_M_P_T_X_[_`_c_d_g_o_r_t_u_x_z_}_~_
-_#_4_6_=_@_E_T_X_d_g_}_
-_%`Qe=gBlrl
-_)_-_8_A_H_L_N_/_Q_V_W_Y_a_m_s_w_
-_,a(aAa^aqasaRaSarala
-_0tf
-_6[M~9UTN
-_7`9`T`r`^`E`S`G`I`[`L`@`B`_`$`D`X`f`n`BbCb
-_<YAY7
-_<`]`Z`g`A`Y`c`
-_=gfq
-_?91M
-_ALMwRM7A_
-_AyJ
-_BF1S
 _BufferedIOBase
 _CHUNK_SIZE
-_C`Cs
 _Cn>m
-_FC3
-_F`Fe
-_GJRVNV
-_Ga?aKawabaca_aZaXaua*b
 _HUGE
-_IKZ
 _IOBase
-_L[un
-_N$z2f
-_N%VZ
-_Na/c
 _PY_STRUCT_FLOAT_COERCE
 _PY_STRUCT_RANGE_CHECKING
 _PyArg_NoKeywords
@@ -6637,17 +3472,8 @@ _Py_hgidentifier
 _Py_hgversion
 _Py_parse_inf_or_nan
 _Py_svnversion
-_R_pS
-_R`La
 _RawIOBase
-_StS3a
 _TextIOBase
-_Woa
-_[SSGx
-_\b^bdbabfbbbYb`bZbeb
-_\c\g\h\i\p\
-_\nbSbTbRbQb
-_\tbPb
 __C_specific_handler
 __CppXcptFilter
 __IOBase_closed
@@ -6751,7 +3577,6 @@ __irshift__
 __itemsize__
 __iter__ returned non-iterator of type '%.100s'
 __itruediv__
-__lO%0g_Q_FQU_X_Y_\_P
 __len__() should return >= 0
 __len__() should return an int
 __length_hint__
@@ -6774,6 +3599,7 @@ __map_jisx0213_pair
 __map_jisxcommon
 __map_ksx1001
 __members__
+__members__ and __methods__ not supported in 3.x
 __metaclass__
 __methods__
 __methods__ not supported in 3.x
@@ -6844,13 +3670,11 @@ __warningregistry__
 __weakref__
 __weakref__ slot disallowed: either we already got one, or __itemsize__ != 0
 __weakrefoffset__
-_a\:`a2;IBaa
 _after_fork
 _amsg_exit
 _ast
 _ast.AST
 _attributes
-_avh
 _beginthreadex
 _bisect
 _checkClosed
@@ -6887,7 +3711,6 @@ _daylight
 _dialects
 _dup
 _dup2
-_e`zf`l
 _encoded_null
 _endthreadex
 _environ
@@ -6899,8 +3722,6 @@ _exit(status)\n\nExit to the system with specified status, without normal exit p
 _expand
 _extension_cache
 _extension_registry
-_f><B9[f'QM
-_fTfAfOfVfafWfwf
 _fdopen
 _fields
 _fileno
@@ -6929,8 +3750,6 @@ _hotshot
 _hotshot.LogReaderType
 _hotshot.ProfilerType
 _hypot
-_iHIZHbi
-_iJC
 _initterm
 _initterm_e
 _inverted_registry
@@ -6969,7 +3788,6 @@ _lsprof
 _lsprof.Profiler
 _lsprof.profiler_entry
 _lsprof.profiler_subentry
-_mZ@h4k
 _malloc_crt
 _mbstrlen
 _md5
@@ -6981,13 +3799,12 @@ _multibytecodec
 _onexit
 _open
 _open_osfhandle
-_orR
-_pDx
 _pickler
 _putch
 _putenv
 _putwch
 _random
+_random.Random
 _read
 _reduce_ex
 _run_module_as_main
@@ -7025,13 +3842,10 @@ _time64
 _timezone
 _tzname
 _tzset
-_u`vaga
 _umask
 _ungetch
 _unlink
 _unlock
-_v`vavbvcvdvp@evfvgvhviv
-_vagana]aUa
 _vsnprintf
 _warnings
 _warnings provides basic warning filtering support.\nIt is a helper module to speed up interpreter start-up.
@@ -7045,58 +3859,7 @@ _winreg
 _wopen
 _write
 _zip_directory_cache
-`!a!b!c!d!e!f!g!h!i!
-`!a!b!c!d!e!f!g!h!i!!0"0#0$0%0&0'0(0)0ASDSES!
-`!a!b!c!d!e!f!g!h!i!j!k!
-`"`#`$`,`-`.`0`1`2`3`4`6`7`8`9`:`=`>`@`D`E`F`G`H`I`J`L`N`O`Q`S`T`V`W`X`[`\`^`_```a`e`f`n`q`r`t`u`w`~`
-`$`-`3`5`@`G`H`I`L`Q`T`V`W`]`a`g`q`~`
-`$a$b$c$d$e$f$g$h$i$j$k$l$m$n$o$p$q$r$s$`!a!b!c!d!e!f!g!h!i!
-`$a$b$c$d$e$f$g$h$i$t$u$v$w$x$y$z${$|$}$BN\N
-`(`M`p`h`b`F`C`l`k`j`d`Ab
-`0a0
-`0aLaCfDf
 `2a2b2c2d2e2f2g2h2i2j2k2l2m2n2o2p2q2r2s2t2u2v2w2x2y2z2{2
-`2cec
-`3IC7
-`3a3
-`4[Vz
-`5ktk
-`7|Q-NP
-`8l4zI2HY5X
-`9g=s
-`:NMo
-`:`Z`A`j`w`_`J`F`M`c`C`d`B`l`k`Y`
-`:c?ete
-`>Huz8D
-`@LtQWu
-`Afloat too large to pack with d format
-`BwAK
-`G&vj
-`IaIh
-`IaJa+aEa6a2a.aFa/aOa)a@a bh
-`Ibyb
-`JfT
-`K^RC
-`LqCfL^M`
-`Oom^
-`QhajXn=r@r
-`UJvJ}VXOt
-`\nqWlIl/Ymg*
-`\r`)`+`\n`?`!`x`y`{`z`B`j`}`
-`]dBt
-`abc
-`cGI
-`eqWv
-`gaIS
-`hah
-`i-b*br
-`nan4
-`pL0j=N
-`plMWJd*
-`rIq
-`tAX
-`vbwe
-`zaz
 a = iadd(a, b) -- Same as a += b.
 a = iand(a, b) -- Same as a &= b.
 a = iconcat(a, b) -- Same as a += b, for a and b sequences.
@@ -7119,76 +3882,17 @@ a number is required
 a partial object's dictionary may not be deleted
 a strictly positive integer is required
 a tzinfo subclass must implement %s()
-a!a"a%a(a)a*a,a-a.a/a0a1a2a3a4a5a6a7a8a9a:a;a<a=a>a@aAaBaCaDaEaFaGaIaKaMaOaPaRaSaTaVaWaXaYaZa[a\a^a_a`aaacadaeafaiajakalamanaoaqarasatavaxayaza{a|a}a~a
-a!bbe
-a"a*a+a0a1a5a6a7a9aAaEaFaIa^a`alaraxa{a|a
-a#oIq>|
-a$e\nkakQpXp
-a%b%c%d%e%f%g%h%i%j%k%l%m%n%o%p%q%
-a+R*vl_
-a+a0a7a>
-a+aJaua
-a-bndpd
-a.bidodyd
-a0n4
-a1b^f
-a2YT
-a2b2J
-a2b4b
 a2b_base64
 a2b_hex
 a2b_hex(hexstr) -> s; Binary data of hexadecimal representation.\n\nhexstr must contain an even number of hex digits (upper or lower case).\nThis function is also available as "unhexlify()"
 a2b_hqx
 a2b_qp
 a2b_uu
-a7a!b"b
-a7a0a
-a7lX
-a:ao9AaFa`a|a
-a<3L^[S0kNX79WBFm
-a@;dH
-a@yc
 aAbBcdHIjmMpSUwWxXyYzZ%
-aAigp
-aC"Z_H
-aFbFcFf
-aGa>a(a'aJa?a<a,a4a=aBaDasawaXaYaZakataoaeaqa_a]aSaua
-aGe_h_H>!
-aH\W,X0XeL~
-aIJ7rZ
-aIbyb
-aKp~p
-aNaLaDaMa>a4a'a\ra
-aNkXp
-aO@pZl
-aOIX
-aQ'6/
-aR#T]
-aScS}S
-aT_T
-aVRO
-aWFZ
-aWiq
-aWo^hCaLI
-aWuz
-aXdX9
-aZqZ
-a\na\fa
-a\na\va\fa
-a\ra]a
-a\rbKb
-a\vaJb
-a^ML~F
-a^\njiq
-aaOSvt
 aaaa
 aaaaa
 aaaaaaa
 aaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaa
-ab7Lbb
-ab\aH{
 abort
 abort() -> does not return!\n\nAbort the interpreter immediately.  This 'dumps core' or otherwise fails\nin the hardest way possible on the hosting operating system.
 abort() called from Python code didn't abort!
@@ -7222,10 +3926,6 @@ adler32
 adler32(string[, start]) -- Compute an Adler-32 checksum of string.\n\nAn optional starting value can be specified.  The returned checksum is\na signed integer.
 adpcm2lin
 advapi32.dll
-af`f0Di
-ahxI
-aibi
-akEx
 alaw2lin
 alias
 all(iterable) -> bool\n\nReturn True if bool(x) is True for all values x in the iterable.\nIf the iterable is empty, return True.
@@ -7252,8 +3952,6 @@ apply() arg 2 expected sequence, found %s
 apply() arg 3 expected dictionary, found %s
 apply() not supported in 3.x; use func(*args, **kwargs)
 apply(object[, args[, kwargs]]) -> value\n\nCall a callable object with positional arguments taken from the tuple args,\nand keyword arguments taken from the optional dictionary kwargs.\nNote that classes are callable, as are instances with a __call__() method.\n\nDeprecated since release 2.3. Instead, use the extended call syntax:\n    function(*args, **keywords).
-aq6l
-aqgPh
 archive
 archive path is empty
 archive path too long
@@ -7312,7 +4010,6 @@ array.remove(x): x not in list
 array.write() not supported in 3.x; use array.tofile()
 arrayiterator
 as_integer_ratio
-asbs!
 ascii
 ascii -> bin, done. Decode .hqx coding
 ascii(object) -> string\n\nReturn the same as repr().  In Python 3.x, the repr() result will\ncontain printable characters unescaped, while the ascii() result\nwill have such characters backslash-escaped.
@@ -7343,8 +4040,6 @@ at least
 at least 
 at most
 at most 
-at5y
-ataTaza[aea;ajaaaVa)b'b+b+dMd[d]dtdvdrdsd}dudfd
 atan
 atan(x)\n\nReturn the arc tangent (measured in radians) of x.
 atan(x)\n\nReturn the arc tangent of x.
@@ -7375,89 +4070,22 @@ attribute name must be a string
 attribute name must be string, not '%.200s'
 attribute of type '%.200s' is not callable
 attribute value type must be bool
-auZm
 audioop
 audioop.error
 augassign
 auto-releasing thread-state, but no thread-state for this thread
 available
 avgpp
-awbw
-awbwO
-awiwm#p
-az"}r
-a|0mQ};v
-b b"b#b'b)b+b9b=bBbCbDbFbLbPbQbRbTbVbZb\bdbmbobsbzb}b
-b b#b&b'b(b)b+b-b/b0b1b2b5b6b8b9b:b;b<bBbDbEbFbJbObPbUbVbWbYbZb\b]b^b_b`babbbdbebhbqbrbtbubwbxbzb{b}b
-b!b*b.b0b2b3bAbNb^bcb[b`bhb|b
-b"C"E"H"v"w"
-b"b!b%b$b,b
-b#b)bFbLbQbRbabdb{bmbsb
-b#e#oIq
-b#e+e*e
-b$C4 
-b)e%e
-b-dqgCh
-b-f~b
-b0c0
-b1c1t
 b2a_base64
 b2a_hex
+b2a_hex(data) -> s; Hexadecimal representation of binary data.\n\nThis function is also available as "hexlify()".
 b2a_hqx
 b2a_qp
 b2a_qp(data, quotetabs=0, istext=1, header=0) -> s; \n Encode a string using quoted-printable encoding. \n\nOn encoding, when istext is set, newlines are not encoded, and white \nspace at end of lines is.  When istext is not set, \r and \n (CR/LF) are \nboth encoded.  When quotetabs is set, space and tabs are encoded.
 b2a_uu
-b4c4d4
-b5lTl\lJl
-b5r]d
-b6bKbNb/e
-b6c6
-b6gUi5
-b7eEere
-b8GL\tO
-b8c8T
-b9NUS
-b9cKcCc
-b9e;e8e
-b9eA
-b:iaBRBq92r
 b;%c requires int or char
 b;array item must be integer
-b?&SW5Rbj5
-b?b>b@b
-b?ete
-b@IF|
-bAeCe
-bB!g
-bBcB
 bBhHiIlLqQ
-bCkAZ
-bDcDD
-bF_1
-bGj9
-bHTXN\vz
-bIvtU
-bJDOz
-bN33
-bNc>c/cUcBcFcOcIc:cPc=c*c+c(cMcLcHeIe
-bOvM
-bPc>cMc
-bPjPdPQNkPAOZ
-bSSLh"t
-bTZUq
-bUFMY
-bX]Xl
-bXb1
-bYmdv
-bYr;u
-b[Xf
-b\fb\rb
-b\fp\vP
-b\r.lc
-b\rc\vc
-b\tb\rb\fb
-b_f_h_4SS
-baFQ
 backquote not supported in 3.x; use repr()
 backslashreplace
 backslashreplace_errors
@@ -7496,18 +4124,8 @@ base
 bases
 bases must be types
 basestring
-bb>V|M&C
-bboi
-bcb[bXb6e
-bck?e'^
-bede
 bench
-bg7;VOo
-bgc>e
-bgcg
-bhcheh55ghEGkhmh0=.WD
 bias
-bicijQei}
 big5
 big5hkscs
 big5hkscs_bmp
@@ -7528,28 +4146,18 @@ bisect_left(a, x[, lo[, hi]]) -> index\n\nReturn the index where to insert item 
 bisect_right
 bit_length
 bits_per_digit
-bl:1Y7i
-blkI
 block_size
 blocksize
-bmgAh
-bmvnOjnp|c
-boao,
-bocoMAdoeofogohoiojokoloX@I
 body
 bool
 bool = QueryReflectionKey(hkey) - Determines the reflection state for the specified key.\nWill generally raise NotImplemented if executed on a 32-bit Operating System.\n
 bool(x) -> bool\n\nReturns True when the argument x is true, False otherwise.\nThe builtins True and False are the only two instances of the class bool.\nThe class bool is a subclass of the class int, and cannot be subclassed.
 boolop
-bopq4O
 both destination and source must have the buffer interface
-bqb{bzbpb
 braces
-brc\nk
 break
 break_stmt
 btcnSR
-buSa
 buffer
 buffer assignment index out of range
 buffer error
@@ -7568,17 +4176,12 @@ buffer_info
 buffer_info() -> (address, length)\n\nReturn a tuple (address, length) giving the current memory address and\nthe length in items of the buffer used to hold array's contents\nThe length should be multiplied by the itemsize attribute to calculate\nthe buffer length in bytes.
 buffer_size
 buffering
-bugni
 build
 builtin
 builtin_function_or_method
 builtin_function_or_method order comparisons not supported in 3.x
 builtin_module_names
 builtins
-bwb}brbtb7e
-bwouGO
-bxBO
-bxcx
 byte array too long to convert to int
 byte format requires -128 <= number <= 127
 byte must be in range(0, 256)
@@ -7596,51 +4199,11 @@ bytes
 bytes_warning
 byteswap
 byteswap()\n\nByteswap all items of the array.  If the items in the array are not 1, 2,\n4, or 8 bytes in size, RuntimeError is raised.
-bzlToP}:
-b|b~bybsb
-c nZ
-c&c'c)c,c-c.c0c1c3c4c5c6c7c8c;c<c>c?c@cAcDcGcHcJcQcRcScTcVcWcXcYcZc[c\c]c`cdcecfchcjckclcocpcrcsctcucxcyc|c}c~c
-c)c*c-c5c6c9c<cAcBcCcDcFcJcKcNcRcScTcXc[cecfclcmcqctcucxc|c}c
-c0i:r6
-c2RiSiL
-c2egejede\eheee
-c4fsg:n+s
-c6JKg
-c7yB2_;G
-c8e\tg
-c9Ob
-c9cCcec|c
-c9cKcJc<c)cAc4cXcTcYc-cGc3cZcQc8cWc@cHcJeFe
-c9d9Q
-c:dleofBh
 c:putch
 c:ungetch
 c:write_byte
 c;%c requires int or char
 c;array item must be char
-c<l6wCU
-c<wM
-c=#eS
-c=C9&fUP/N
-c=hsk
-c?eEe
-cAW@
-cAdA
-cBYs[sZsu
-cBf!k
-cB|9s
-cC&X
-cCdC
-cEdAd\vd
-cFC83K
-cFec\
-cGdGA
-cIs^Z0!Rw1
-cJ5a
-cJv_GpFp
-cM;X[ewx
-cO"i
-cP=Ke
 cPickle
 cPickle.BadPickleGet
 cPickle.Pdata
@@ -7655,26 +4218,9 @@ cStringIO.StringI
 cStringIO.StringO
 cStringIO.cStringIO_CAPI
 cStringIO_CAPI
-cT7?T
-cTbL
-cVc,cDcEc6cCc
-cVeVfVgVmVnVoVpVrVsVtVuVwVxVyVzV}V~V
-cVu4&
-cW?E@u
-cWeog
-cWiWaW
-cX[k[\n\\rdQg\
-cYeKj
-cYm=
-c\nc\vc\fc\rc
-c\nc\vc\rc
-c\td\nd
-c^efebece
 c_call
 c_exception
 c_return
-c`e`P`U`m`i`o`
-cakefSh
 calcsize
 call
 call stack is not deep enough
@@ -7764,6 +4310,7 @@ can't start new thread
 can't subtract offset-naive and offset-aware datetimes
 can't translate character u'\%s' in position %zd: %.400s
 can't translate characters in position %zd-%zd: %.400s
+can't unpack IEEE 754 special value on non-IEEE platform
 can't use U and writing mode at once
 cannot add more blocks to the deque
 cannot add more objects to bytearray
@@ -7805,10 +4352,6 @@ catching classes that don't inherit from BaseException is not allowed in 3.x
 catching of string exceptions is deprecated
 category
 category is not a subclass of Warning
-cc=E$AYBW2h
-cdNu
-cdSO
-ceeeV
 ceil
 ceil(x)\n\nReturn the ceiling of x as a float.\nThis is the smallest integral value >= x.
 cell
@@ -7841,11 +4384,6 @@ chmod
 chmod(path, mode)\n\nChange the access permissions of a file.
 chr() arg not in range(256)
 chr(i) -> character\n\nReturn a string of one character with ordinal i; 0 <= i < 256.
-ciUC+r
-cj5M
-ckcic
-ckkkdk
-clUUPl
 class
 class %.50s has no attribute '%.400s'
 class has no name
@@ -7891,7 +4429,6 @@ cmp() wrapper for sort with custom keys.
 cmp(x, y) -> integer\n\nReturn negative if x<y, zero if x==y, positive if x>y.
 cmpop
 cmpwrapper
-cn=W
 co_argcount
 co_cellvars
 co_code
@@ -7906,7 +4443,6 @@ co_names
 co_nlocals
 co_stacksize
 co_varnames
-cod/e
 code
 code inequality comparisons not supported in 3.x
 code object or built-in function name
@@ -7926,7 +4462,6 @@ coerce() not supported in 3.x
 coerce(x, y) -> (x1, y1)\n\nReturn a tuple consisting of the two numeric arguments converted to\na common type, using the same rules as used by arithmetic operations.\nIf coercion is not possible, raise TypeError.
 coercing to Unicode: need string or buffer, %.80s found
 coercion should return None or 2-tuple
-cogCn
 col_info
 col_offset
 collect
@@ -8039,88 +4574,24 @@ cp949
 cp949ext
 cp950
 cp950ext
-cp`=murfb
-cpcSe
-cpnUV
-cqczc
-cqnU
-crar-C@
 crc32
 crc32(string[, start]) -- Compute a CRC-32 checksum of string.\n\nAn optional starting value can be specified.  The returned checksum is\na signed integer.
 crc_hqx
 crop
 cross
-csbsj
-ctetA
 ctime
 ctime(seconds) -> string\n\nConvert a time in seconds since the Epoch to a string in local time.\nThis is equivalent to asctime(localtime(seconds)). When the time tuple is\nnot present, current time as returned by localtime() is used.
 currency_symbol
 current-directory
-cv)w
-cwcgc
 cycle
 cycle()
 cycle(iterable) --> cycle object\n\nReturn elements from the iterable until it is exhausted.\nThen repeat the sequence indefinitely.
-czdv
-c{cichczc]eVeQeYeWe_UOeXeUeTe
 c|O:array
-c}3N
-d RXw
-d d"d$d%d)d*d/d0d5d=d?dKdOdQdRdSdTdZd[d\d]d_d`dadcdmdsdtd{d}d
-d d\fd&d!d^d
-d"d#d$d
-d"dydQd`dmd
-d"e)eA
-d$nQo|v
-d%d)d/dZd[d]dsd}d
-d&d6d
-d'n'i'ilKo
-d*d-d=d,d
-d.d!d
-d0e0f0
-d1nD/W
-d3e3
-d4g8j
-d4ggrfwFz
-d6e6
-d6exe9j
-d7Wr
-d8e8f8U
-d9d7d"d#d\fd&d0d(dAd5d/d\nd
 d:fromtimestamp
+d:sleep
 d:utcfromtimestamp
 d;array item must be float
-d<cUs4RF)LdU
-d<h8h
-d?dldkdYdedwdse
-d@d%d'd\vd
-dEeEv
-dFeFl
-dH-Z
-dH6s
-dJN`/T=O7U$j^U%jAP<9e
-dJd[]
-dJfjN
 dO:ldexp
-dQy/
-dR(WPgj
-dRPC\fh
-dS`ScSO
-dSwv
-dT65s5VXPHU
-dXcX
-dXdTd
-dZcZd
-dZdK:
-d\rd6d
-d\td d$d
-d\td\nd\rd
-d]opqvpz
-d^d\dKdSd`dPd
-d_2J
-daGh
-daeaTC
-dagVgDm
 data
 data error
 data out of range
@@ -8140,6 +4611,7 @@ datetime.datetime_CAPI
 datetime.time
 datetime.timedelta
 datetime.tzinfo
+datetime_CAPI
 day is out of range for month
 day of month out of range
 day of month, range [1, 31]
@@ -8150,10 +4622,8 @@ day of year, range [1, 366]
 daylight
 days
 days=%d; must have magnitude <= %d
-dc;i
-dce_h
-dclcW
 dd:rect
+ddddd
 deallocated bytearray object has exported buffers
 deallocating None
 debug
@@ -8212,7 +4682,6 @@ delitem(a, b) -- Same as del a[b].
 delslice
 delslice(a, b, c) -- Same as del a[b:c].
 denominator
-deq_
 deque
 deque index out of range
 deque mutated during iteration
@@ -8242,8 +4711,6 @@ destination is too small to receive data from source
 detach
 details of the calls
 device
-dfir
-dgdodvdNd*e
 dialect
 dialect name must be a string or unicode
 dict
@@ -8293,11 +4760,7 @@ division_warning
 divmod
 divmod()
 divmod(x, y) -> (quotient, remainder)\n\nReturn the tuple ((x-x%y)/y, x%y).  Invariant: div*y + mod == x.
-djej
-dk:RP
-dleof
 dllhandle
-dnfnD
 don't know how to byteswap this array type
 don't know how to handle %.400s in error callback
 dont_inherit
@@ -8307,14 +4770,9 @@ dotted_as_names
 dotted_name
 double
 doublequote
-dp4snT
-drjrX
 dropwhile
 dropwhile()
 dropwhile(predicate, iterable) --> dropwhile object\n\nDrop items from the iterable while predicate(item) is true.\nAfterwards, return every element until the iterable is exhausted.
-dsesfs
-dtf0l
-duewexe
 dump
 dump(obj, file, protocol=0) -- Write an object in pickle format to the given file.\n\nSee the Pickler docstring for the meaning of optional argument proto.
 dump(object) -- Write an object in pickle format to the object's pickle stream
@@ -8327,88 +4785,17 @@ dup2
 dup2(old_fd, new_fd)\n\nDuplicate file descriptor.
 duplicate argument '%s' in function definition
 duplicate base class %s
-dvezeye{e
 dwFlags
-dwew1
-dxd_dzdQdgd4dmd{dre
-dyfyiyjykylynypyqyrysytyuyvyyy{y|y}y~y
 dynamic module does not define init function (init%.200s)
 dynamic module not initialized properly
 d|O:fromtimestamp
 d|O:round
-d}Nz
-e e!e
-e"e&e)e.e1e:e<e=eCeGeIePeReTe_e`egekeze}e
-e#k=k4t
-e$e#e+e4e5e7e6e8eKuHeVeUeMeXe^e]erexe
 e%+.02d
-e%f-f f'f/f
-e(f|p
-e*j'k
-e.g,g*g+g-gck
-e.lFO
-e/fBf
-e12_<U(?,BUX1Bk
-e1f/h\q6z
-e1f1x
-e26V;V
-e2eDeTekeze
-e2f2g
-e2n}q
-e4f4g4h4i4
-e5f5
-e6f!f2f5f
-e6p8iL
-e=-n+A*Af
-e>g9g8g;g:g?g<g3g
-e@I7K
-e@RgK<o
-eBaNJ0
-eBfIfOfCfRfLfEfAf
-eEgGgYgUgLgHg]gMgZgKg
-eEyTv
-eHCHY
-eHfHs
-eHyAy
-eI%g;
-eJf_fGfQf
-eLqm
-eM*J
-eM1f4f3f
-eQDS
-eSE3V
-eTdTfTgThTiT
-eVdVgV
-eVdq
-eWgNW;
-eWl"o
-eYifk
-eZ@7tQuRsUW=p
-eZPZ
-eZcZdZ0
-eZl%u
-e\g!n{v
-e\ne\ve\fe\re
-e\re\te\fe
-e\te\ne
-e]fZfdfhfff^f
-e^5Q
-eayn
-ec^ce
-ed!42
-eeUP
-ee\a\
-eefaf[fYf\fbf
-ef8Off
-eg)7gg
-eijimit
 either 0 or 
-ekt=
 elif
 ellipsis
 else
 elts
-eme_e~0
 empty mode string
 empty pathname
 empty pattern string
@@ -8447,23 +4834,16 @@ end-of-line convention used in this file
 endpos
 endswith
 endswith first arg must be str, unicode, or tuple, not %s
-enfnm6r&{P
-enfpftfvfof
-enq>y
 enumerate
 enumerate(iterable[, start]) -> iterator for index, value of iterable\n\nReturn an enumerate object.  iterable must be another object that supports\niteration.  The enumerate object yields pairs containing a count (from\nstart, which defaults to zero) and a value yielded by the iterable argument.\nenumerate is useful for obtaining an indexed list:\n    (0, seq[0]), (1, seq[1]), (2, seq[2]), ...
 environ
 environment can only contain strings
 environment must be dictionary or None
-eobK$T
-eodo2
-epfpP
 epsilon
 eq(a, b) -- Same as a==b.
 erf(x)\n\nError function at x.
 erfc
 erfc(x)\n\nComplementary error function at x.
-erg\nf
 errmsg
 errno
 error
@@ -8472,12 +4852,9 @@ error=%d\n
 errorcode
 errors
 errors must be a string
-esNeQ
 escape_decode
 escape_encode
 escapechar
-esfsjsaBlsoshs}<
-esg5f6f4f
 et#:_getfullpathname
 et#:listdir
 et:_isdir
@@ -8485,10 +4862,10 @@ et:lstat
 et:stat
 et;execve() arg 2 must contain only strings
 et;spawnve() arg 2 must contain only strings
-etBXP\nL
 etO:execv
 etO:utime
 etOO:execve
+eti:access
 eti:chmod
 eti|i
 et|i:mkdir
@@ -8503,9 +4880,6 @@ eval must be given globals and locals when called without a frame
 eval() arg 1 must be a string or code object
 eval(source[, globals[, locals]]) -> value\n\nEvaluate the source in the context of globals and locals.\nThe source may be a string representing a Python expression\nor a code object as returned by compile().\nThe globals must be a dictionary and locals can be any mapping,\ndefaulting to the current globals and locals.\nIf only globals is given, locals defaults to it.\n
 eval_input
-evfxf
-ewfw
-ewh/?y
 exactly
 exc_clear
 exc_clear() -> None\n\nClear global information on the current exception.  Subsequent calls to\nexc_info() will return (None,None,None) until another exception is raised\nin the current thread or the execution stack returns to a frame where\nanother exception is being handled.
@@ -8661,64 +5035,8 @@ extend(array or iterable)\n\n Append items to the end of the array.
 extended slice
 extended slice invalid in nested slice
 extendleft
-ezfz
-ezzb
-ez}z
-f!f"f#f$f&f)f*f+f,f.f0f1f3f9f7f@fEfFfJfLfQfNfWfXfYf[f\f`faf
-f!f"f#f$f&f)f*f+f,f.f0f2f3f7f8f9f:f;f=f?f@fBfDfEfFfGfHfIfJfMfNfPfQfXf
-f!f*fEfQfNf
-f#g4jfjIjgj2jhj>j]jmjvj[jQj(jZj;j?jAjjjdjPjOjTjojij`j<j^jVjUjMjNjFjUkTkVk
-f$fefWfYf
-f$mkf
-f&f"f3f+f:f
-f(f1f$f
-f-n2rKt
 f.xreadlines() not supported in 3.x, try 'for line in f' instead
-f1g1m
-f30r@
-f3g3
-f4f1f6f5f
-f4f9f.f
-f9YCSJhj@@u>ijjjkj`
-f::dW:Me
-f:f"f$f+f0f1f3f
 f;array item must be float
-f;f\tf.f
-f<9X<X6
-f=j8j:jYjkjXj9jDjbjajKjGj5j_jHjYkwk
-fBgBL
-fDmQ>
-fE_(N
-fFNDn7G
-fFUjUfUDU^UaUCUJU1UVUOUUU/UdU8U.U\U,UcU3UAUWU
-fHfLf
-fJNc?
-fJq1
-fKr:'
-fK~RB
-fM3j
-fMVOV
-fOfDfIfAf^f]fdfgfhf_fbfpf
-fOrpZK
-fPoPL
-fP~V
-fQi]Sd
-fS]r?O
-fScS
-fU_Cx
-fW]IV
-fWsl{
-fZ3w
-fZZB
-f[q[s
-f[tz
-f[~Wn
-f\ff-fvf~g
-f\rg\vgmg
-f\tf\rf
-f\tf\vf\rf
-f\tg=g4g1g5g!kdk{k
-f\vf\rf
 f_back
 f_bavail
 f_bfree
@@ -8732,15 +5050,12 @@ f_exc_type
 f_exc_type has been removed in 3.x
 f_exc_value
 f_exc_value has been removed in 3.x
-f_f)s
 f_favail
 f_ffree
 f_files
 f_flag
 f_frsize
-f_gNgOgPgQg\gVg^gIgFg`gSgWgek
 f_globals
-f_k_z
 f_lasti
 f_lineno
 f_lineno can only be set by a line trace function
@@ -8748,7 +5063,6 @@ f_locals
 f_namemax
 f_restricted
 f_trace
-fa"N
 fabs
 fabs(x)\n\nReturn the absolute value of the float x.
 factor
@@ -8759,20 +5073,12 @@ factorial(x) -> Integral\n\nFind x!. Raise a ValueError if x is negative or non-
 false
 fast
 fast mode: can't pickle cyclic objects including object type %s at %p
-fayw
-fb(b
-fba+o)
-fc)Nf
 fclose
 fdel
-fdnd
 fdopen
 fdopen(fd [, mode='r' [, bufsize]]) -> file_object\n\nReturn an open file object connected to a file descriptor.
-fege
 feof
 ferror
-ffffff
-ffffffffffffffff
 fflush
 fget
 fgetc
@@ -8834,7 +5140,6 @@ field value is required for Subscript
 field value is required for keyword
 field_size_limit
 fieldnameiterator
-figi
 file
 file descriptor cannot be a negative integer (%i)
 file encoding
@@ -8880,16 +5185,14 @@ first argument must be a sequence
 first argument must be a string, not %.80s
 first argument must be callable
 first argument must be sequence of strings
-fjN4IV
-fjfkflf~fsfuf
 flag indicating that a space needs to be printed; used by print
 flags
-flel?7yKb1
 float
 float argument required, not %.200s
 float division by zero
 float divmod()
 float modulo
+float too large to pack with d format
 float too large to pack with f format
 float() argument must be a string or a number
 float(r) didn't return a float
@@ -8917,13 +5220,8 @@ flush( [mode] ) -- Return a string containing any remaining compressed data.\n\n
 flush() -> None.  Does nothing.
 flush() -> None.  Flush the internal I/O buffer.
 flush(): does nothing.
-fmg!h
-fmi@\
 fmod
 fmod(x, y)\n\nReturn fmod(x, y), according to platform C.  x % y may differ.
-fmpegm$C+?@G
-fngnhninjnknln
-foP|
 fopen
 for_stmt
 format
@@ -8940,9 +5238,8 @@ fplist
 fprintf
 fputc
 fputs
-fqAm<hQn
-fqfyfjfrf
 frac_digits
+frame
 frame does not exist
 frametimings
 fread
@@ -8990,10 +5287,7 @@ fsum
 fsum(iterable)\n\nReturn an accurate floating point sum of values in the iterable.\nAssumes IEEE-754 floating point arithmetic.
 fsync
 fsync(fildes)\n\nforce write of file with filedescriptor to disk.
-ftGd$T
 ftell
-fu`z
-fugu
 full frozen module name too long
 func
 func_closure
@@ -9015,62 +5309,7 @@ functools
 functools.partial
 future feature %.100s is not defined
 future_builtins
-fwfxfyf{f
 fwrite
-fxN\
-fxf gfi_i8iNibiqi?iEiji9iBiWiYiziHiIi5ili3i=iei
-fyzg5
-fzf~fwf
-g g!g"g#g$g%g'g)g.g0g2g3g6g7g8g9g;g<g>g?gAgDgEgGgJgKgMgRgTgUgWgXgYgZg[g]gbgcgdgfgggkglgngqgtgvg
-g g"g3g>gEgGgHgLgTgUg]gfglgngtgvg{g
-g!h!f!i!j!U"X"V"Y"W"
-g!h8hHhFhSh9hBhTh)h
-g"h}v~vD
-g&g'g8
-g(g kbkyk
-g)h)i)j)k)l)m)n)o)p)q)r)s)t)u)
-g/e1T
-g2Vno
-g2h2m
-g2h3h`hahNhbhDhdh
-g3!?IYNY
-g4T6BK0Q<5
-g5RM_c
-g7h7
-g8*M
-g86Ej_ZI(ADDX
-g8h8a
-g9H5_D%11F>L!9yMGE~8
-g9YsO
-g:3r5r4rdK:O2r4JORlBJ
-g;]DY
-g<>7FkU
-g>lNlHr
-gAhA
-gAl\vncs&~
-gC\\n
-gDbd
-gGLDP
-gHrnb
-gKPLL<0g(<wP1g
-gMgj
-gPAE
-gPh@h<hCh*hEh
-gQGYWd]j
-gQHY
-gS!B
-gSlSzS
-gUPPPHPZPVPlPxP
-gY&ObM
-gY9RCU
-gZP\OPW
-g[TT
-g[a[:Fc[q
-g\oNq}q
-g_Aa
-g`isn"
-g`s`I
-gaiJ
 gamma
 gamma(x)\n\nGamma function at x.
 garbage
@@ -9078,11 +5317,8 @@ garbage collection
 gb18030
 gb18030ext
 gb2312
-gbW}
 gbcommon
-gbk`l
 gbkext
-gbk{k
 gc couldn't allocate "__del__"
 gc couldn't create gc.garbage list
 gc: %.100s <%.100s %p>\n
@@ -9091,7 +5327,6 @@ gc: collecting generation %d...\n
 gc: done
 gc: done, %Id unreachable, %Id uncollectable
 gc: objects in each generation:
-gd4T
 ge(a, b) -- Same as a>=b.
 generation
 generator
@@ -9198,14 +5433,9 @@ getweakrefs
 getweakrefs(object) -- return a list of all weak reference objects\nthat point to 'object'.
 getwindowsversion
 getwindowsversion()\n\nReturn information about the running version of Windows as a named tuple.\nThe members are named: major, minor, build, platform, service_pack,\nservice_pack_major, service_pack_minor, suite_mask, and product_type. For\nbackward compatibility, only the first 5 items are available by indexing.\nAll elements are numbers, except service_pack which is a string. Platform\nmay be 0 for win32s, 1 for Windows 9x/ME, 2 for Windows NT/2000/XP/Vista/7,\n3 for Windows CE. Product_type may be 1 for a workstation, 2 for a domain\ncontroller, 3 for a server.
-gfifhf%Hk
-ggbg
 gi_code
 gi_frame
 gi_running
-gjC_RQbN
-gjgsg
-gjm^c
 global
 global name '%.200s' is not defined
 global_stmt
@@ -9214,15 +5444,9 @@ globals and locals cannot be NULL
 globals must be a dict
 globals must be a real dict; try eval(expr, {}, mapping)
 globals() -> dictionary\n\nReturn the dictionary containing the current scope's global variables.
-gm5{lx
 gmtime
 gmtime([seconds]) -> (tm_year, tm_mon, tm_mday, tm_hour, tm_min,\n                       tm_sec, tm_wday, tm_yday, tm_isdst)\n\nConvert seconds since the Epoch to a time tuple expressing UTC (a.k.a.\nGMT).  When 'seconds' is not passed in, convert the current time instead.
-gn2t
-gnoRr:u:wt
-gogpg
 goofy result from PyOS_snprintf
-gpLb
-gqr<
 grammar.c:findlabel()
 grey22grey
 grey2grey2
@@ -9240,90 +5464,11 @@ groupindex
 grouping
 groups
 groups([default=None]) -> tuple.\n    Return a tuple containing all the subgroups of the match, from 1.\n    The default argument is used for groups\n    that did not participate in the match
-gsgwg
-gshs%
-gs~X
 gt(a, b) -- Same as a>b.
-gv]R
-gvg{g
-gwg|g
-gxgyg
-gzcXAt
-g|gjg
-g|gjgrg#kfkgk
-g}ow
-g~vFdpO%
-h h"h#h$h%h&h'h(h+h,h-h.h/h0h1h4h5h6h:h;h?hGhKhMhOhRhVhWhXhYhZh[h\h]h^h_hjhlhmhnhohphqhrhshuhxhyhzh{h|h}h~h
-h"i&i
-h%Y,Y-Y2Y8Y>Y
-h&h(h.hMh:h%h h,k/k-k1k4kmk
-h(h'h,h-h/h0h1h3h;h?hDhEhJhLhUhWhXh[hkhnhohphqhrhuhyhzh{h|h
-h(i*i
-h+hYhchwh
-h,h1h[hrhuhD
-h0DE`A
-h0VI~
-h1i1
-h3sIM?{PRJ6eB;h
-h5h+h-h/hNhDh4h
-h5i5
-h9i9X
-h9k;k?k<k
 h;array item must be integer
-h>T4T
-h>k:k=k
-h>kLp/t
-h>kSkWl"o
-h>lNl
-h?HRWk\kl8Xkq
-h@z7
-hD_Ja
-hDb8p9
-hE:V
-hEiE
-hF1G"
-hFh)h@hMh2hNh
-hFiFx
-hGYgkfu
-hGiGL
-hHiHjHkHv
-hIh2h3h;hKhOh
-hLhQh=h
-hLwF|
-hM$5*NwVS
-hN[Vs
-hNc\rz
-hObt
-hP+v
-hPU3
-hSQ\Ti
 hStdError
 hStdInput
 hStdOutput
-hSyU~
-hTR"
-hU.[6a7x
-hUhfhAhgh@h>hJhIh)h
-hUlUiU+GM\3?
-hUrWrU>D0\rh=o
-hViVo>
-hVioh
-hW@?7
-hWXK
-hWhZgZt
-hWoWsWtWuW{W
-hX1:@
-hX;Jh
-hYWI
-h\niIi
-h\uHn\
-h\vi\ni
-h]mS|u
-h^jp
-h_g\rb
-h_j0^
-h_j:k#l}l
-haU;
 handle
 handler must be callable
 handlers
@@ -9334,8 +5479,6 @@ hasattr(object, name) -> bool\n\nReturn whether the object has an attribute with
 hash
 hash(object) -> integer\n\nReturn a hash value for the object.  Two objects with the same value have\nthe same hash value.  The reverse is not necessarily true, but likely.
 hash_randomization
-hci<nDn\tws|
-hcictMG
 header
 header crc mismatch
 heap argument must be a list
@@ -9349,7 +5492,6 @@ heappushpop
 heappushpop(heap, item) -> value. Push item on the heap, then pop and return the smallest item\nfrom the heap. The combined action runs more efficiently than\nheappush() followed by a separate call to heappop().
 heapreplace
 heapreplace(heap, item) -> value. Pop and return the current smallest value, and add the new item.\n\nThis is more efficient than heappop() followed by heappush(), and can be\nmore appropriate when using a fixed-size heap.  Note that the value\nreturned may be larger than item!  That constrains reasonable uses of\nthis routine unless written as part of a conditional replacement:\n\n    if item > heap[0]:\n        item = heapreplace(heap, item)\n
-hehNm
 hello.pys
 helper for pickle
 hex() argument can't be converted to hex
@@ -9360,13 +5502,6 @@ hexdigest
 hexdigest() -> string\n\nLike digest(), but returns the digest as a string of hexadecimal digits.
 hexlify
 hexversion
-hgWhxZKT
-hhVY
-hhkh
-hk;GsML
-hmhnh
-hn^Z
-hoiSj
 hotshot-version
 hotshot.ProfilerError
 hour
@@ -9379,39 +5514,9 @@ how many times this is called
 how many times this is called recursively
 how many times this was called
 how to treat errors
-hpep
-hpgpdp!2[
-hp~Qhl
-hqgq
-hqh~h
-hq{8iqD:ETR0\
-hr;q;{;\tiCi\rdi
-hsidq
-hthwh
 huge integer: number of bits overflows a Py_ssize_t
-huhth
-hw4B
-hwmppLu
-hxh{h
-hxi4iii@ioiDiviXiAitiLi;iKi7i\iOiQi2iRi/i{i<iFkEkCkBkHkAk
-hyiwi\ixikiTi~ini9iti=iYi0iai^i]i
 hypot
 hypot(x, y)\n\nReturn the Euclidean distance, sqrt(x*x + y*y).
-h{htte<tUt6_
-h|hkhrh
-h|xC~l
-h}h6k3k7k8k
-i!i"i#i%i&i'i(i)i*i+i,i.i/i1i2i3i5i6i7i8i:i;i<i>i@iAiCiDiEiFiGiHiIiJiKiLiMiNiOiPiQiRiSiUiViXiYi[i\i_iaibidieigihiiijilimioipirisitiuivizi{i}i~i
-i!j!V
-i#i!i
-i&J9t
-i)j}r
-i0jkjFjsj~j
-i1i3i5i8i;iBiEiIiNiWi[icidieifihiiilipiqirizi{i
-i4280
-i915
-i91k
-i:13
 i:GetStdHandle
 i:_exit
 i:close
@@ -9431,55 +5536,18 @@ i:strerror
 i:umask
 i:unichr
 i;array item must be integer
-i<}Ke
-i>j>B
-i?Gf
-iAnT
-iCO,o
-iCjc<
-iCr3Z
-iDj>j
-iE.X"
-iG0c
-iIRTAmBmCmEml
-iIb:W9
-iIkLk3l3o
-iJihiki^iSiyi
-iJkMkKk
 iO!;audioop.ratecv: illegal state argument
 iO:signal
 iOi:lseek
 iO|ziL
-iS4f
-iSIb
-iSzS
-iUJ>`
-iVnV
-iWvm
-iY6*!Ej
-iZi5j
-i[wm&l
-i\l\f\w
-i\ti\ni
-i\ti\ni\fi
-i]Wb
-i]ici[iGkrk
-i^\N5rdPQ]
-i_l*mim/n
 iadd
-iakalamau
 iand
-ibJ\4l@z
 iconcat
 id(object) -> integer\n\nReturn the identity of an object.  This is guaranteed to be unique among\nsimultaneously existing objects.  (Hint: it's the object's memory address.)
-idgd
 idiv
-ieni
 ietO:spawnv
 ietOO:spawnve
-if<d
 if_stmt
-ificiyi
 ifilter
 ifilter()
 ifilter(function or None, sequence) --> ifilter object\n\nReturn those items of sequence for which function(item) is true.\nIf function is None, return the items that are true.
@@ -9487,7 +5555,6 @@ ifilterfalse
 ifilterfalse()
 ifilterfalse(function or None, sequence) --> ifilterfalse object\n\nReturn those items of sequence for which function(item) is false.\nIf function is None, return the items that are false.
 ifloordiv
-igLo
 ignore
 ignore_environment
 ignore_errors
@@ -9497,7 +5564,6 @@ ii:ratecv
 ii:read
 ii:setmode
 ii:waitpid
-iicix
 iiii
 iiiiO
 iiiiSO!O!O!SSiS|O!O!:code
@@ -9505,7 +5571,6 @@ iiiiiii
 iiiiiiiO
 iiiiiiiii
 iii|iiiiO
-iiji
 iil:locking
 illegal UTF-16 surrogate
 illegal Unicode character
@@ -9536,13 +5601,13 @@ illegal trailing nodes for testlist_comp
 illegal use of '*' in arglist
 illegal use of '**' in arglist
 illegal variable argument trailer for varargslist
-illl
 ilshift
 im_class
 im_func
 im_self
 imag
 imageop
+imageop.error
 imap
 imap()
 imap() must have at least two arguments.
@@ -9651,6 +5716,7 @@ integer argument expected, got '%s'
 integer argument expected, got float
 integer argument expected, got non-integer (implicit conversion using __int__ is deprecated)
 integer conversion failed
+integer division or modulo by zero
 integer division result too large for a float
 integer out of range for '%c' format code
 integer time of last access
@@ -9736,16 +5802,12 @@ invalid whence (%i, should be 0, 1 or 2)
 invalid window size
 invert
 invert(a) -- Same as ~a.
-ipjp
 ipow
-iqi9i`iBi]i
-iqkqjq
 irepeat
 irshift
 is a nested function
 is not retrievable
 is*:write
-is0b1b2b
 isCallable
 isCallable(a) -- Same as callable(a).
 isMappingType
@@ -9859,10 +5921,7 @@ itertools.takewhile
 itertools.tee
 itertools.tee_dataobject
 itervalues
-itlVSk
 itruediv
-ivsh,Opp
-ixi4i
 ixor
 izip
 izip argument #%zd must support iteration
@@ -9871,62 +5930,9 @@ izip(iter1 [,iter2 [...]]) --> izip object\n\nReturn a izip object whose .next()
 izip_longest argument #%zd must support iteration
 izip_longest() got an unexpected keyword argument
 izip_longest(iter1 [,iter2 [...]], [fillvalue=None]) --> izip_longest object\n\nReturn an izip_longest object whose .next() method returns a tuple where\nthe i-th element comes from the i-th iterable argument.  The .next()\nmethod continues until the longest iterable in the argument sequence\nis exhausted and then it raises StopIteration.  When the shorter iterables\nare exhausted, the fillvalue is substituted in their place.  The fillvalue\ndefaults to None or can be specified by a keyword argument.\n
-izjzkzlz
-izjzkzlzmznzozqzrzszuz{z|z}z~z
 i|ii:set_threshold
 i|si
 i|z:setlocale
-i~tK{
-j j"j#j$j%j&j'j)j+j,j-j.j0j2j3j4j6j7j8j9j:j;j<j?j@jAjBjCjEjFjHjIjJjKjLjMjNjOjQjRjSjTjUjVjWjZj\j]j^j_j`jbjcjdjfjgjhjijjjkjljmjnjojpjrjsjtjujvjwjxjzj{j}j~j
-j j$j(j0j2j4j7j;j>j?jEjFjIjJjNjPjQjRjUjVj[jdjgjjjqjsj~j
-j&p*s
-j*t*k*4+{*e*v*o*
-j1;UNhPh06Sh
-j4&It
-j4k4l4
-j5*5
-j6k6
-j7sRs
-j9_Y
-j:k:v
-j;WCg
-j<p5p/p7p4p1pBp8p?p:p9p@p;p3pAp
-j>oI
-j>p0p2p
-jDj\fjrj6jxjGjbjYjfjHj8j"j
-jKqF
-jNn:C
-jPj[j5j
-jPkNk
-jR1DHZ}5Q;IZ3PJZKZ=NLZMZNZw2QZOZhQPZUCRZ
-jRsRnR
-jS'v)Q~
-jSuu
-jThT
-jUnq
-jWs^
-jX):hXfXeXlXdXnXs
-jY"u
-jYqYL
-jZFZAw
-jZ~;89hZ2
-j[LNhuUw
-j\fk?oFr
-j\tj\vj\fj\rj
-j]rK{
-j_kxk
-j`2c
-j`VNW6|HJG
-jaNP
-jb*c)cG
-jck@l
-jdOr
-jeieZ
-jfR3iQU
-jfkflfmf{f
-jgkPQ\i[L}
-jhsAv
-jiLW
 jisx0208
 jisx0212
 jisx0213_1_bmp
@@ -9937,89 +5943,19 @@ jisx0213_bmp
 jisx0213_emp
 jisx0213_pair
 jisxcommon
-jkiAlz
-jkkkO
-jm`2
-jmkmw
-jo^zD`
 johab
 join
 join() result is too long for a Python string
 join(list [,sep]) -> string\njoinfields(list [,sep]) -> string\n\nReturn a string composed of the words in list, with\nintervening occurrences of sep.  Sep defaults to a single\nspace.\n\n(join and joinfields are synonymous)
 joinfields
-jpom
 json speedups\n
 json.decoder
-ju`f
 jumpahead
 jumpahead requires an integer, not '%s'
 jumpahead(int) -> None.  Create new state from existing state and integer.
-jyNQTn
-jyj=j(jXj|j
-j{\iAY
-k l!l(m4m-m
-k#l'l(l&l$l
-k$k(k+k,k/k5k6k;k?kFkJkMkRkVkXk]k`kgkkknkpkuk}k~k
-k%k&k(k)k*k+k,k-k.k/k0k1k3k4k5k6k8k;k<k=k?k@kAkBkDkEkHkJkKkMkNkOkPkQkRkSkTkUkVkWkXkZk[k\k]k^k_k`kakhkikkklkmknkokpkqkrksktkukvkwkxkzk}k~k
-k%lzmcmdmvm\rmam
-k&</kJkXklkukzk
-k'rL
-k,k5kFkVk`kekgkwk
-k.l/l,l/n8nTn!n2ngnJn n%n#n
-k1l1
-k2fi
-k2l2y
-k3l3
-k5e>R2M3
-k5l5
-k5t\tw
-k7l7
-k7y1|Ye3v>
-k8=ph:c
-k8k7k
-k8l8m8p
-k9.P7lx
-k;0d(E1d
-k;AG-k
-k<D4
-k=\NoS=ZsN>ZUSe;?Z5KPK@ZkGnVAZ5EA6BZL7N?CZDZ-KEZw5FZBA;WGZ8L
-k?l\l
-k?o|o
-k@l@E
-kBl^l
-kCpDpJpHpIpEpFp
-kF4lX
-kGTh
-kIt:|C
-kJbY
-kJneS
-kMb5L
-kO7c
-kR1Z2Z3ZTJ4Z+J5Z6ZO3oV7Z0;.58Z9Zn9/QhR:ZC8jOo2;Z<Z
-kRX=XyX
-kRiRuR'
-kUHe
-kVjV}I
-kXq=i=
-kZBI}
-k[pZp"r
-k\tk\nk\vk\fk\rk
-k\tk\rlUpVpWpRp
-k\tp\vp
-k^GL
-k^UNU
-k_pap]p`p#r
-k_rarAt8w
 kb`$a$b$c$d$e$f$g$h$i$t$u$v$w$x$y$z${$|$}$p!q!r!s!t!u!v!w!x!y!6N?N
 kbhit
 kbhit() -> bool\n\nReturn true if a keypress is waiting to be read.
-kbp&r
-kb|V
-kclci
-kcpl|n|;
-kdU>
-kdld
-kdqu
 key = ConnectRegistry(computer_name, key) - Establishes a connection to a predefined registry handle on another computer.\n\ncomputer_name is the name of the remote computer, of the form \\computername.\n If None, the local computer is used.\nkey is the predefined handle to connect to.\n\nThe return value is the handle of the opened key.\nIf the function fails, a WindowsError exception is raised.
 key = CreateKey(key, sub_key) - Creates or opens the specified key.\n\nkey is an already open key, or one of the predefined HKEY_* constants\nsub_key is a string that names the key this method opens or creates.\n If key is one of the predefined keys, sub_key may be None. In that case,\n the handle returned is the same key handle passed in to the function.\n\nIf the key already exists, this function opens the existing key\n\nThe return value is the handle of the opened key.\nIf the function fails, an exception is raised.
 key = CreateKeyEx(key, sub_key, res, sam) - Creates or opens the specified key.\n\nkey is an already open key, or one of the predefined HKEY_* constants\nsub_key is a string that names the key this method opens or creates.\nres is a reserved integer, and must be zero.  Default is zero.\nsam is an integer that specifies an access mask that describes the desired\n If key is one of the predefined keys, sub_key may be None. In that case,\n the handle returned is the same key handle passed in to the function.\n\nIf the key already exists, this function opens the existing key\n\nThe return value is the handle of the opened key.\nIf the function fails, an exception is raised.
@@ -10034,90 +5970,18 @@ keyword can't be an expression
 keyword list must be a dictionary
 keywords
 keywords must be strings
-kgUq
-kgb<P
-kgngNGE
-kgvB=W
-khheC\
-kilid`
 kill
 kill(pid, sig)\n\nKill a process with a signal.
 kk:kill
 kkk:move
-klE^
-klnFk
-kr&s
 ksx1001
-kvlv
-kwIu
 kwarg
 kwargs
-kwnCn
-ky#n
-l l#l%l+l,l-l1l3l6l7l9l:l;l<l>l?lClDlElHlKlLlMlNlOlQlRlSlVlXlYlZlblclelflglklllmlnlolqlslulwlxlzl{l|l
-l!l)l$l*l2l5eUekeMrRrVr0rb
-l"Y&g
-l#n\tpEs
-l$l#l^lUlbljl
-l&l'l(l,l.l3l5l6l:l;l?lJlKlMlOlRlTlYl[l\lklmloltlvlxlyl{l
-l)m[t
-l/n8
-l2mJn
-l3lYl\l
-l4lkp*r6r;rGrYr[r
-l5l6l:l
-l6nAo
-l6qnk
-l8lAl@l>l
-l8nI
-l9m'm8m)m.m5m
-l9m'm\fmCmHm
-l9m9j
-l9mrn
 l:chr
 l;array item must be integer
 l;range() requires 1-3 int arguments
-l;ue
 l;xrange() requires 1-3 int arguments
-l>HE
-l>m,r6t4xw
-l>m6t4xFZu
-l?m?H
-l?r1N<N
-l@]Qnd]
 lAo&o~o
-lBZB
-lCNvY
-lDa>
-lDyJ9E
-lEsIy
-lFOe
-lFlRl\lOlJlTlKlLlqp^r
-lGFP^
-lGS1
-lGmGT
-lHmH
-lJZl
-lJhK
-lK(IO
-lK@K
-lL+Lr7
-lL+`,`VA$<-`.`M
-lN'jgPyJVH7OI3RNd=
-lQ^dCe
-lSuT{
-lUtw
-lUxUsZ
-lWvWtW
-lZkZpZ=
-l[iV(N
-l[rmb
-l\tl\nl\vl\fl
-l\tl\rl
-l\vm2m*mAm%m\fm1m
-l]hZ
-l]lWlYl_l`lPlUlal[lMlNlpp_r]r~v
-l^s2i8'Bi
 lambda
 lambda cannot contain assignment
 lambdef
@@ -10130,13 +5994,10 @@ latin-1
 latin-1-
 latin_1_decode
 latin_1_encode
-lbl?
-ld\EL
 ldexp
 ldexp(x, i)\n\nReturn x * (2**i).
 le(a, b) -- Same as a<=b.
 left
-lekeoe_
 len() of unsized object
 len(object) -> integer\n\nReturn the number of items of a sequence or mapping.
 length
@@ -10144,15 +6005,8 @@ length must be greater than zero
 length too large
 letters
 level
-lfjfm
-lflslel{l
 lgamma
 lgamma(x)\n\nNatural logarithm of absolute value of Gamma function at x.
-lgkg:I
-lgnn
-lh,L
-lhgd
-lhliltlvl
 li:open_osfhandle
 lib\os.py
 library version mismatch
@@ -10175,7 +6029,6 @@ lineno must be an integer
 lineterminator
 lineterminator must be set
 linetimings
-lirsT
 list
 list assignment index out of range
 list changed size during iteration
@@ -10197,14 +6050,9 @@ listmaker
 listreverseiterator
 literal
 little
-ljX>jjS
-ljlzl
-ljmjnjojG=a
 ljust
-lknk
 ll|l;range() requires 1-3 int arguments
 ll|l;xrange() requires 1-3 int arguments
-lm$CZ
 lo must be non-negative
 load
 load() -- Load a pickle
@@ -10251,16 +6099,17 @@ logic error in count_list_fors
 logreader
 logreader's file object already closed
 logreader(filename) --> log-iterator\nCreate a log-reader for the timing information file.
-loko
 long
 long division or modulo by zero
 long has too many bits to express in a platform size_t
 long int too large to convert
+long int too large to convert to float
 long int too large to convert to int
 long is too large to format
 long string too large to convert
 long too big to convert
 long too large to pickle
+long() arg 2 must be >= 2 and <= 36
 long() argument must be a string or a number, not '%.200s'
 long() can't convert non-string with explicit base
 long() missing string argument
@@ -10280,9 +6129,6 @@ lost sys.stdout
 lower
 lower(s) -> string\n\nReturn a copy of the string s converted to lowercase.
 lowercase
-lp#Gm
-lqlolil
-lrl~ltl
 lseek
 lseek(fd, pos, how) -> newpos\n\nSet the current position of a file descriptor.
 lshift
@@ -10292,75 +6138,6 @@ lstat(path) -> stat result\n\nLike stat(path), but do not follow symbolic links.
 lstrip
 lstrip(s) -> string\n\nReturn a copy of the string s with leading whitespace removed.
 lt(a, b) -- Same as a<b.
-lt07tt
-ltlvl
-ltpzpcr
-luiu
-lv\Zdz
-lvp|p}pxpbrar`r
-lwmwnwc
-lx f
-lxlglkl
-l}bJ
-l~lhlsl
-m m!m"m#m$m&m(m)m,m-m/m0m4m6m7m8m:m?m@mBmDmImLmPmUmVmWmXm[m]m_mambmdmemgmhmkmlmmmpmqmrmsmumvmymzm{m}m~m
-m m,m
-m"m\tm
-m&m'm(mgl.m/m1m9m<m?mWm^m_mamemgmompm|m
-m)n)o)p)q)r)s)t)u)z):*I*!*,*<*K*Y*_*
-m+mMm.m5m
-m+nnnNnkn
-m-nnn.n
-m.m1m9m?mXmemE
-m.t.zB}
-m/mhm
-m0n0
-m1Cqt
-m3Wm\m"
-m5m3m
-m6<m>m
-m6s7s1uPy
-m8N>J
-m9n\n'n<n
-m<m?m
-m>6Pr
-m>n?tB
-m?v1^Ku
-m@n@o@F
-mB&TTM1Q[3}GR
-mCRI\)Y
-mCt!Z
-mC}8
-mDnDU
-mFmlp
-mFnGn
-mH/fmX
-mI*9l
-mL5m]
-mM%J
-mM<03e
-mNkM
-mO)>$MAA
-mOW"k
-mOmRmTm3m
-mQ.bx
-mS.Xk@c
-mTDb
-mTh8|Mv
-mU]g
-mXDcqp
-mXmbmmmom
-mY`6
-mZITUOcE
-m[nmo
-m\fmcm
-m\m`m|mcm
-m\m|n
-m\nm$m&m'mgl/m<m[m^m`mpm
-m\tm\nm\rm
-m\tnXn<q&qgq
-m]ho4
-m^mgm`m
 major
 make_encoder
 make_scanner
@@ -10384,6 +6161,8 @@ match
 match(string[, pos[, endpos]]) --> match object or None.\n    Matches zero or more characters at the beginning of the string
 math
 math domain error
+math range error
+math.fsum partials
 max(iterable[, key=func]) -> value\nmax(a, b, c, ...[, key=func]) -> value\n\nWith a single iterable argument, return its largest item.\nWith two or more arguments, return the largest argument.
 max_10_exp
 max_buffer_size
@@ -10405,10 +6184,6 @@ maxy
 mbcs
 mbcs_decode
 mbcs_encode
-mbeb
-mc&;-Di
-mdldkd
-mdmZmymYm
 member_descriptor
 memchr
 memcmp
@@ -10433,9 +6208,6 @@ method_descriptor
 methodcaller
 methodcaller needs at least one argument, the method name
 methodcaller(name, ...) --> methodcaller object\n\nReturn a callable object that calls the given method on its operand.\nAfter f = methodcaller('name'), the call f(r) returns r.name().\nAfter g = methodcaller('name', 'date', foo=1), the call g(r) returns\nr.name('date', foo=1).
-mfmxmwmYm
-mhRP
-mi*WniVBmHd:oipiqiaVrisiuitiviwiaGxiXTyiN=b
 micro
 microsecond
 microsecond must be in 0..999999
@@ -10456,16 +6228,11 @@ missing ')' in getargs format
 missing child nodes of listmaker
 missing child nodes of testlist_comp
 missing format argument
-mkX0u
 mkdir
 mkdir(path [, mode=0777])\n\nCreate a directory.
 mktime
 mktime argument out of range
 mktime(tuple) -> floating point number\n\nConvert a time tuple in local time to seconds since the Epoch.
-ml)S
-mlkl
-mm8xzw
-mmR=F
 mmap
 mmap assignment must be single-character string
 mmap can't modify a readonly memory map.
@@ -10485,10 +6252,6 @@ mmap.error
 mmap.mmap
 mmaps don't support concatenation
 mmaps don't support repeat operation
-mnkn]
-mnmZmtmim
-mnnnon
-mo-AnooopoJ
 mod(a, b) -- Same as a % b.
 mode
 mode string must begin with one of 'r', 'w', 'a' or 'U', not '%.200s'
@@ -10514,101 +6277,34 @@ month out of range
 more argument specifiers than keyword list entries (remaining format:'%s')
 more than 255 arguments
 move
-mpm|m_m
-mppplpl
-mqm(
-mqnqoqqqpqUEd
 mro() -> list\nreturn a type's method resolution order
 mro() returned a non-class ('%.500s')
 mro() returned base with unsuitable layout ('%.500s')
-msis
 msvcrt
 mul(a, b) -- Same as a * b.
 multibytecodec.__map_*
 multiple bases have instance lay-out conflict
-munu
 must assign iterable to extended slice
 must be %.50s, not %.50s
 must be %d-item sequence, not %.50s
 must be sequence of length %d, not %d
 must have exactly one of read/write/append mode
-mvnvovpvqvrvsvtv(>
-mwnw
-mxnx
-myrcw
-mzn}o
-m{m}mum
 n must be >= 0
-n"n&n'n(n*n,n.n0n1n3n5n
-n"n'n
-n"n'n2n6n9n;n<nDnEnHnInKnOnQnRnSnTnWn\n]n^nbncnhnsn{n}n
-n$o4oF=A?
-n%p%o%P%^%j%a%
-n'Es
-n'pSSDU
-n)o>o o,o
-n+ocp
-n-o@o0o<o5o
-n.n^nhn\nan1n(n`nqnkn9n"n0nSnen'nxndnwnUnynRnfn5n6nZn q
-n.o\toNo
-n/o6oKoto*o\to)o
-n0r?sWt
-n1o1p1
-n2O[
-n3#P$@BRV5:J
-n3nKn@nQn;n
-n4e3DS@S
-n6~UNt^
-n7-M
-n9<QHLFEg
-n9o9p9k
 n:read
 n:read1
 n:resize
 n:urandom
 n:zfill
-n;]M"GIE
-n<@=Z\nnGX$mBx;q
-n<n=nEnbn+n?nAn]nsn
-n=\sS
-n>o>Z
-n>sA
-n@SPD2e4k
-nAoAV
-nBoB
-nCn:nNn$n
-nCoCt
-nF1C9
-nGqTqRqcq`qAq]qbqrqxqjqaqBqXqCqKqpq_qPqSq
-nK-;d
-nL+\e
-nLuxv
-nM&m
-nNncnDnrnin_n
 nNqYqiqdqIqgq\qlqfqLqeq^qFqhqVq:rRr7sEs?s>sotZtUt_t^tAt?tYt[t\tvuxu
 nO:insert
 nO:nlargest
 nO:nsmallest
-nP]EQ
-nQ?hBhy
-nQW_
-nSXJ20_
-nSnTn2n%nDn
-nWjZ
-nWqQ
-n[nXn$nVnnn-n&non4nMn:n,nCn
-n[r[z
-n\foo=
-n\no\fo
-n\tn\vn
-n\ttYukx
 n_cs_precedes
 n_fields
 n_sep_by_space
 n_sequence_fields
 n_sign_posn
 n_unnamed_fields
-n`X;6XrRo`EM
 name
 name '%.200s' is not defined
 name '%.400s' is assigned to before global declaration
@@ -10619,11 +6315,6 @@ nameless module
 names
 nb_float should return float object
 nb_int should return int object
-nboFoGo$o
-nboLq
-nbvD
-ncIg
-nd!y
 ndigits
 ndim
 ne(a, b) -- Same as a!=b.
@@ -10656,16 +6347,9 @@ newx
 newy
 next
 next(iterator[, default])\n\nReturn the next item from the iterator. If default is given and the iterator\nis exhausted, it is returned instead of raising StopIteration.
-nf-FofY
-nfu=z
-nhlhp9RLfh&Nr?
-nj3{Bd
 nlargest
-nlolm
 nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
-nnr_@
-nnsn~
 no codec search functions registered: can't find encoding
 no current thread ident
 no int where int expected in memo
@@ -10697,7 +6381,6 @@ no_site
 no_user_site
 noload
 noload() -- not load a pickle, but go through most of the motions\n\nThis function can be used to read past a pickle without instantiating\nany objects or importing any modules.  It can also be used to find all\npersistent references without instantiating any objects or importing\nany modules.\n
-nomooo
 non-default argument follows default argument
 non-hexadecimal number found in fromhex() arg at position %zd
 non-keyword arg after keyword arg
@@ -10707,7 +6390,6 @@ non-zero padding bits in shift sequence
 nonempty __slots__ not supported for subtype of '%s'
 nonlocal
 nonlocal is a keyword in 3.x
-noo`o_o
 not a Zip file
 not a Zip file: '%.200s'
 not a chance
@@ -10727,15 +6409,9 @@ not writable
 not_
 not_(a) -- Same as not a.
 not_test
-np;2o
-nrn_n>n#nkn+nvnMn
-nrorxr
-ns7c
 nsmallest
-nsosqsws
 nt.stat_result
 nt.statvfs_result
-nuSqN
 null
 null argument to internal routine
 null byte in argument for int()
@@ -10753,51 +6429,7 @@ n|c:center
 n|c:ljust
 n|c:rjust
 n|i:seek
-o!o"o#o%o&o'o(o,o.o0o2o4o5o7o8o9o:o;o<o=o?o@oAoBo
-o"t8t
-o%o6o<o
-o&o)o*o/o0o3o6o;o<o-oOoQoRoSoWoYoZo]o^oaoboholo}o~o
-o(J#J
-o+o/o
-o0}m
-o1o8o2o#o
-o3Mr71
-o4p4
-o5|U
-o6p6
-o6s7s
-o7CP
-o:nQoQ0A
-o=b3
-o>|us
-o?p?q?M
-o@XV0R?A
-oA^f
-oB6S&>W
-oF@\jFH
-oFpF
-oJMCePq7Y
-oKA3NDJFI1
-oL98L8h
-oM'qeN]K
-oNq t0u8uQurvL{
-oNv\vw
-oOBY
-oQofoTo
-oRmR
 oUoroRoPoWo
-oVkK6
-oVqVrV
-oW_Wh
-o[2Z
-o\fqou
-o\n*zG
-o\no\fo\ro
-o\no\vo\fo\ro
-o\tp\vp
-o_SLyS
-o`j8M1q`A
-oaoko}ogo
 object
 object  : 
 object cannot be interpreted as an index
@@ -10811,31 +6443,20 @@ object.readline() returned non-string
 object_hook
 object_pairs_hook
 oboOo
-ocowojo{o
 oct() argument can't be converted to oct
 oct(number) -> string\n\nReturn the octal representation of an integer or long integer.
-oe1\
 offset
 offset must be zero or positive
-ofmf
 ois Pinard]\n\nHeaps are arrays for which a[k] <= a[2*k+1] and a[k] <= a[2*k+2] for\nall k, counting elements from 0.  For the sake of comparison,\nnon-existing elements are considered to be infinite.  The interesting\nproperty of a heap is that a[0] is always its smallest element.\n\nThe strange invariant above is meant to be an efficient memory\nrepresentation for a tournament.  The numbers below are `k', not a[k]:\n\n                                   0\n\n                  1                                 2\n\n          3               4                5               6\n\n      7       8       9       10      11      12      13      14\n\n    15 16   17 18   19 20   21 22   23 24   25 26   27 28   29 30\n\n\nIn the tree above, each cell `k' is topping `2*k+1' and `2*k+2'.  In\nan usual binary tournament we see in sports, each cell is the winner\nover the two cells it tops, and we can trace the winner down the tree\nto see all opponents s/he had.  However, in many computer applications\nof such tournaments, we do not need to trace the history of a winner.\nTo be more memory efficient, when a winner is promoted, we try to\nreplace it by something else at a lower level, and the rule becomes\nthat a cell and the two cells it tops contain three different items,\nbut the top cell "wins" over the two topped cells.\n\nIf this heap invariant is protected at all time, index 0 is clearly\nthe overall winner.  The simplest algorithmic way to remove it and\nfind the "next" winner is to move some loser (let's say cell 30 in the\ndiagram above) into the 0 position, and then percolate this new 0 down\nthe tree, exchanging values, until the invariant is re-established.\nThis is clearly logarithmic on the total number of items in the tree.\nBy iterating over all items, you get an O(n ln n) sort.\n\nA nice feature of this sort is that you can efficiently insert new\nitems while the sort is going on, provided that the inserted items are\nnot "better" than the last 0'th element you extracted.  This is\nespecially useful in simulation contexts, where the tree holds all\nincoming events, and the "win" condition means the smallest scheduled\ntime.  When an event schedule other events for execution, they are\nscheduled into the future, so they can easily go into the heap.  So, a\nheap is a good structure for implementing schedulers (this is what I\nused for my MIDI sequencer :-).\n\nVarious structures for implementing schedulers have been extensively\nstudied, and heaps are good for this, as they are reasonably speedy,\nthe speed is almost constant, and the worst case is not much different\nthan the average case.  However, there are other representations which\nare more efficient overall, yet the worst cases might be terrible.\n\nHeaps are also very useful in big disk sorts.  You most probably all\nknow that a big sort implies producing "runs" (which are pre-sorted\nsequences, which size is usually related to the amount of CPU memory),\nfollowed by a merging passes for these runs, which merging is often\nvery cleverly organised[1].  It is very important that the initial\nsort produces the longest runs possible.  Tournaments are a good way\nto that.  If, using all the memory available to hold a tournament, you\nreplace and percolate items that happen to fit the current run, you'll\nproduce runs which are twice the size of the memory for random input,\nand much better for input fuzzily ordered.\n\nMoreover, if you output the 0'th item on disk and get an input which\nmay not fit in the current tournament (because the value "wins" over\nthe last output value), it cannot fit in the heap, so the size of the\nheap decreases.  The freed memory could be cleverly reused immediately\nfor progressively building a second heap, which grows at exactly the\nsame rate the first heap is melting.  When the first heap completely\nvanishes, you switch heaps and start a new run.  Clever and quite\neffective!\n\nIn a word, heaps are useful memory structures to know.  I use them in\na few applications, and I think it is good to keep a `heap' module\naround. :-)\n\n--------------------\n[1] The disk balancing algorithms which are current, nowadays, are\nmore annoying than clever, and this is a consequence of the seeking\ncapabilities of the disks.  On devices which cannot seek, like big\ntape drives, the story was quite different, and one had to be very\nclever to ensure (far in advance) that each tape movement will be the\nmost effective possible (that is, will best participate at\n"progressing" the merge).  Some tapes were even able to read\nbackwards, and this was also used to avoid the rewinding time.\nBelieve me, real good tape sorts were quite spectacular to watch!\nFrom all times, sorting has always been a Great Art! :-)\n
-oj=u=
-ojpj
-okXM
 old style getargs format uses new features
 old_lambdef
 old_test
-omo[oxono
-omy,{
 once
 once_registry
 onceregistry
 only named arguments may follow *expression
-onogq
-ooo[o
 oooooooooooooooooooooooooooooooooooooo
 ooooooooooooooooooooooooooooooooooooooooooooooo
-opO>ncocW=
 op_add
 op_and_
 op_concat
@@ -10886,12 +6507,10 @@ operator.isCallable() is not supported in 3.x. Use hasattr(obj, '__call__').
 operator.itemgetter
 operator.methodcaller
 operator.sequenceIncludes() is not supported in 3.x. Use operator.contains().
-oppjsj~
 optimize
 optimized
 optional 3rd arg must be a dictionary
 optional_vars
-op{vI{
 or_(a, b) -- Same as a | b.
 or_test
 ord() expected a character, but string of length %zd found
@@ -10901,75 +6520,8 @@ ordinal must be >= 1
 ordinal not in range(128)
 ordinal not in range(256)
 orelse
-orkr
-orwrmrnr
-ouquU
 out of memory
 ovolo
-oxoro|ozo
-oytOfw
-ozopodo
-ozoxo
-o|oXo
-p p!p"p$p%p&p'p(p)p*p
-p p#p/p4p7p9p<pCpDpHpIpJpKpTpUp]p^pNpdpeplpnpupvp~p
-p!q!r!s!t!u!v!w!x!y!
-p!q!r!s!t!u!v!w!x!y!`!a!b!c!d!e!f!g!h!i!
-p&q]x
-p'p p
-p(pJp]p^pNpdpup
-p*p\fr\nr
-p+p!p"p#p)p
-p+yb
-p,r-r8rHrgrir
-p.q1q#q%q"q2q
-p/pPq
-p0p>p2pQpcp
-p0q0
-p0q0tv
-p0rrrortr
-p1fggg
-p2x+~
-p3f9J;
-p3q3
-p5q5
-p6qYq
-p8q8
-p8vtSJ
-p9p5pOp^p
-p9ryr
-p:BO&
-p;alpC
-p=r}r
-p>/XWF%
-p>q>b
-p@=nbH
-p@q@L
-pAU7
-pApgN
-pArIrJrlrprsrnr
-pBrxr
-pGqGf
-pG{15RT4+6?K)XG
-pH*I
-pLcbE
-pO=y
-pOupu
-pQ[0
-pTG[U^
-pV/s
-pWLQ
-pWxNb
-pXCxWj
-pY#i
-pZjAUL]O
-p[a3
-p\fp\rp
-p\np#p
-p\qc
-p\tp\np\vp\fp\rp
-p\tq\nq
-p\tt`tYu$vkx,
 p_cs_precedes
 p_sep_by_space
 p_sign_posn
@@ -11008,11 +6560,6 @@ path too long
 path_hooks
 path_importer_cache
 pattern
-pbCqJ
-pcZ>j
-pd+K
-pd:@9
-pdlXX*d
 peek
 peek() should have returned a bytes object, not '%.200s'
 pending buffer overflow
@@ -11020,8 +6567,6 @@ permutations(iterable[, r]) --> permutations object\n\nReturn successive r-lengt
 persistent id must be string
 persistent_id
 persistent_load
-pfug
-pgRPcC
 phase
 phase(z) -> float\n\nReturn argument, also known as the phase angle, of a complex.
 pickle
@@ -11030,11 +6575,7 @@ pickle protocol %d asked for; the highest available protocol is %d
 pinned buffer
 pipe
 pipe() -> (read_end, write_end)\n\nCreate a pipe.
-pjtj
 platform
-pmU5
-pmqm<Cg
-pnqnrntnsn
 polar
 polar(z) -> r: float, phi: float\n\nConvert a complex from rectangular coordinates to polar coordinates. r is\nthe distance from 0 and phi the phase angle.
 poorly formed 'exec' statement: %d parts to statement
@@ -11072,7 +6613,6 @@ pow(a, b) -- Same as a ** b.
 pow(x, y)\n\nReturn x**y (x to the power of y).
 pow(x, y[, z]) -> number\n\nWith two arguments, equivalent to x**y.  With three arguments,\nequivalent to (x**y) % z, but may be more efficient (e.g. for longs).
 power
-pp%c
 pppppppppppppppppppppppppppppppppppppp
 prec too big
 prefix
@@ -11107,140 +6647,20 @@ putenv
 putenv(key, value)\n\nChange or add an environment variable.
 putwch
 putwch(unicode_char) -> None\n\nWide char variant of putch(), accepting a Unicode value.
-pvc$
-pw3n
-pwowd
-pxQ[
-pxVo\
-pxm=\
 py3k_warning
 py3kwarning
 python
 python%d%d.dll
 python27.dll
 python: Can't reopen .pyc file\n
-pzyz}z
-q q!q"q#q$q%q'q(q)q*q+q,q-q.q2q3q4q
-q q+q-q/q0q1q8qAqEqFqGqJqKqPqRqWqZq\q^q`qhqyq
-q q.q0qFqGqQqH
-q!r!p
-q"r"s"t"u"v"w"x"y"z"{"|"
-q&q0q!q6qnq
-q(q:q
-q/q1qsq\qhqEqrqJqxqzq
-q1rgjN]BP
-q2r2
-q3u^y3}N
-q4V6V2V8VkVdV/VlVjV
-q4`FtJ
-q4q11L
-q4r4s4
-q5rFrpsrs
-q7I0V6T7
-q8Br
-q8TToh
-q9XhuW
-q;Kl.
-q=r=D
-q>Q0a
-q>b=bCbHbIb;y@yFyIy[y\ySyZybyWy`yoygyzy
-qD/p&<0pyC\
-qDrDg
-qDrSr
-qEJ^
-qFrF
-qH=EFl
-qJ2R
-qKrZr
-qM;f
-qNuSP]
-qPuPN0d
-qRF8?L
-qRs}{
-qT~w
-qUhE 
-qVCs
-qXgX|7
-qYGq
-q\qFqGq
-q\v\y\45S
-q\vq\fq
-q\vq\fq\rq
-q_FLr_p
-qaq?paR5
-qb73lbp
-qbt(u,us
-qdeFj+):"+P4
-qepS
-qeqUq
-qfqbqLqVqlq
-qjud
-qjwjm
-qkyH]
-qlnlol#WqInKtl}
-qoso
-qpppp
 qqiA
-qr>Fnrmr
 qrstuv
-qssnsos
-qt08TUO8pF]
 quotechar
 quotechar must be set if quoting enabled
 quotetabs
 quoting
-qwB+qEq
-qwsus
-q{vI{
-q~r{r|r
 r must be non-negative
-r r!r"r#r$r%r&r'r)r+r-r.r/r2r3r4r:r<r>r@rArBrCrDrErFrIrJrKrNrOrPrQrSrTrUrWrXrZr\r^r`rcrdrerhrjrkrlrmrprqrsrtrvrwrxr{r|r}r
-r$r+r/r4r8r9rArBrCrErNrOrPrSrUrVrZr\r^r`rcrhrkrnrorqrwrxr{r|r
-r%s%t%u%v%w%x%',
-r%tZt
-r(r-r,r0r2r;r<r?r@rFrKrXrtr~r
-r(rlp
-r1mE
-r5H3
-r5hA
-r6&0D
-r6s%s4s)s:t*t3t"t%t5t6t4t/t
-r6|Lz@z
-r7s7
-r8g0rK
-r8s8
-r9<uMuK
-r9s9p
-r<sBs;s:s@sJsIsDtJtKtRtQtWt@tOtPtNtBtFtMtTt
-r>s>t>u>c
-r?s?R
-rAsAh
-rBRBk
-rBsB
 rCsMsQsLsbtstqtutrtgtnt
-rDsPsdtctjtptmt
-rFg]>9SC
-rH3n2n0ndcT4g
-rIA3X
-rIdh!F]
-rJh@$p[
-rL]w
-rMIU}HOIBO"X;2kSD
-rNFS
-rNsWsit
-rO9wsY
-rP.BPb
-rP\O
-rS:2
-rUrVr?>
-rXsRs^s_s`s]s[sasZsYs
-rZ'u
-r\rrXr
-r\tr\nr\vr\fr\rr
-r]rfror~r
-r^tn{n}
-r`L9
-r`u`F
 radians
 radians(x)\n\nConvert angle x from degrees to radians.
 radix
@@ -11264,8 +6684,6 @@ raw_input([prompt]) -> string\n\nRead a string from standard input.  The trailin
 raw_unicode_escape_decode
 raw_unicode_escape_encode
 rawunicodeescape
-rayo
-rb/A<KJ
 read
 read byte out of range
 read length must be positive
@@ -11475,7 +6893,6 @@ required field "value" missing from keyword
 required field "values" missing from BoolOp
 required field "values" missing from Dict
 required field "values" missing from Print
-resec
 reset
 reset() -- Reset the file position to the beginning
 resize
@@ -11492,65 +6909,36 @@ reversed
 reversed()
 reversed(sequence) -> reverse iterator over values of the sequence\n\nReturn a reverse iterator
 rewind
-rf>h>
 rfind
 rfind(s, sub [,start [,end]]) -> int\n\nReturn the highest index in s where substring sub is found,\nsuch that sub is contained within s[start,end].  Optional\narguments start and end are interpreted as in slice notation.\n\nReturn -1 on failure.
-rfufpf
-rg_m
 rgb2grey
 rgb2rgb8
 rgb82rgb
-rhC<
-rhjV
-rhscw
 right
 right operand length must match slice length
 right operand must be a single byte
 rindex
-risfsgslsesksjs
 rjust
 rlecode_hqx
 rledecode_hqx
-rljP
 rmdir
 rmdir(path)\n\nRemove a directory.
-ro7b
 rotate
 round
 round(number[, ndigits]) -> floating point number\n\nRound a number to a given precision in decimal digits (default 0 digits).\nThis always returns a floating point number.  Precision may be negative.
 rounded value too large to represent
 rounds
-rpBMh4RH\Fx
 rpartition
-rqGz
-rqs-
-rqsqi
-rr2<)2
-rrks
 rshift
 rshift(a, b) -- Same as a >> b.
 rsplit
-rssstspNqs
 rstrip
 rstrip(s) -> string\n\nReturn a copy of the string s with trailing whitespace removed.
-rsucz
-rt,3h
-ru&o
-ruE`
 runcall
 runcall(callable[, args[, kw]]) -> callable()\nProfile a specific function call, returning the result of that call.
 runcode
 runcode(code, globals[, locals])\nExecute a code object while collecting profile data.  If locals is\nomitted, globals is used for the locals as well.
 runpy
-rwuwi
-rw|w}w
-ry%l_P
-rz}b
-r}s|s
-s s#s$s&s's(s-s/s0s2s3s5s6s:s;s<s=s@sAsBsCsDsEsFsGsHs
-s!s\ns
-s"s$s's(s,s1s2s5s:s;s=sCsMsPsRsVsXs]s^s_s`sfsgsiskslsnsosqswsys|s
-s"s9s%s,s8s1sPsMsWs`slsos~s
 s#:compress
 s#:fromhex
 s#:fromstring
@@ -11597,10 +6985,7 @@ s#|nn:find
 s#|nn:rfind
 s#|z:escape_decode
 s#|z:readbuffer_encode
-s&t*t
-s&t*t)t.tbt
 s(O){sOss}
-s)wMwC}b}#~7
 s*:StringIO
 s*:a2b_base64
 s*:a2b_hex
@@ -11636,19 +7021,6 @@ s*|zi:utf_7_decode
 s*|zi:utf_8_decode
 s*|zii:utf_16_ex_decode
 s*|zii:utf_32_ex_decode
-s,dsb,
-s,u+u7u8u
-s.zk
-s1LA`
-s2R"
-s2t:tUt?t_tYtAt\titptctjtvt~t
-s3Yp]p
-s4?U2v^U
-s4s/s)s%s>sNsOs
-s5t5
-s6Ki@
-s6t6
-s9@;a
 s:NullImporter
 s:atof
 s:chdir
@@ -11669,8 +7041,6 @@ s:setdefaultencoding
 s:strxfrm
 s:suite
 s:system
-s:u9u
-s:u[w
 s:zipimporter
 s:zipimporter.get_code
 s:zipimporter.get_data
@@ -11683,61 +7053,12 @@ s;execve() arg 3 contains a non-string key
 s;execve() arg 3 contains a non-string value
 s;spawnve() arg 3 contains a non-string key
 s;spawnve() arg 3 contains a non-string value
-s<DqEqa9
-s<^P)8i
-sAJbKbxBLbMbNbWJ8XeYcOB
-sCNqp6'
-sC}7
-sEBF
-sG'L9
-sH'=GU,I"8Jd
-sK%t
-sK_P`P
-sL>f
-sLH9~dL
-sLv<w
-sM0]_
-sMOuseBp
-sN]leQ%
 sO:register_error
-sO?;b
 sOs(ssi):load_module
-sOtO
-sP*`bh
-sPwPj
-sQ#d
-sQHf
-sSRS
-sSqSoSrS
-sT*gE
-sTIT
-sTOu
-sTu"v
-sTuA~,
-sTu]u\uZuYu
-sYt^
-sYyAw
-sZ/06OG
-sZwZ
-s[R[89+Tl[
-s\0Y
-s\ft\vt
 s\nincompatible marshal format), raise EOFError, ValueError or TypeError.\nThe file must be an open file object opened in binary mode ('rb' or\n'r+b').\n\nNote: If an object containing an unsupported type was marshalled with\ndump(), load() will substitute None for the unmarshallable type.
-s\ts\vs\fs\rs
-s\v<h\D;L
-s\vs0s"s1s3s's2s-s&s#s5s\fs.t,t0t+t
-s\vs\rs
-s]#7m
-s]uF~
-s]zj
-s_gNBZ
 s_push: parser stack overflow\n
-s`Mj
 sampling rate not > 0
-sara
-sav\
 save_reduce
-sbag
 scale
 scanner
 scanstring
@@ -11779,7 +7100,6 @@ sequence2st
 sequence2st() requires a single sequence argument
 sequenceIncludes
 sequenceIncludes(a, b) -- Same as b in a (note reversed operands; deprecated).
-sere
 serial
 service_pack
 service_pack_major
@@ -11825,7 +7145,6 @@ setting stack size not supported
 settrace
 settrace(function)\n\nSet the global debug tracing function.  It will be called on each\nfunction call.  See the debugger chapter in the library manual.
 setvbuf
-sf&K
 sha224
 sha256
 sha384
@@ -11838,7 +7157,6 @@ shift_jisx0213
 short
 short format requires SHRT_MIN <= number <= SHRT_MAX
 showwarning
-siCr
 signal
 signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object
 signal number out of range
@@ -11861,7 +7179,6 @@ single-segment read-write buffer
 single_input
 sinh
 sinh(x)\n\nReturn the hyperbolic sine of x.
-sitJ
 site
 size
 size does not fit in an int
@@ -11871,11 +7188,8 @@ size must be zero or positive
 size not valid: %zd bytes
 size of a digit in bits
 sizeof_digit
-sjAD
-sk5I@
 skipinitialspace
 skipkeys
-sk|U
 sleep
 sleep(seconds)\n\nDelay execution for a given number of seconds.  The argument may be\na floating point number for subsecond precision.
 slice
@@ -11887,10 +7201,7 @@ slice(stop)\nslice(start, stop[, step])\n\nCreate a slice object.  This is used 
 sliceop
 slllllll
 slot state is not a dictionary
-sltlYMx
-smY\M`
 small_stmt
-snqg
 softspace
 sort
 sort_keys
@@ -11920,8 +7231,6 @@ splitlines
 sprintf
 sqrt
 sqrt(x)\n\nReturn the square root of x.
-sqx6#KX
-srWY?
 ss#nns
 ss:__setformat__
 ss:addinfo
@@ -11935,7 +7244,6 @@ ss|O!:load_dynamic
 ss|O!:load_source
 st2list
 st2tuple
-stIZ
 st_atime
 st_ctime
 st_dev
@@ -11971,6 +7279,7 @@ stat_result
 stat_result: Result from stat or lstat.\n\nThis object may be accessed either as a tuple of\n  (mode, ino, dev, nlink, uid, gid, size, atime, mtime, ctime)\nor via the attributes st_mode, st_ino, st_dev, st_nlink, st_uid, and so on.\n\nPosix/windows: If your platform supports st_blksize, st_blocks, st_rdev,\nor st_flags, they are available as attributes only.\n\nSee os.stat for more information.
 state
 state is not a dictionary
+state vector is the wrong size
 state vector must be a tuple
 staticmeth
 staticmeth(*args, **kw)
@@ -12072,10 +7381,8 @@ sum(sequence[, start]) -> value\n\nReturns the sum of a sequence of numbers (NOT
 super
 super(type, obj) -> bound super object; requires isinstance(obj, type)\nsuper(type) -> unbound super object\nsuper(type, type2) -> bound super object; requires issubclass(type2, type)\nTypical use to call a cooperative superclass method:\nclass C(B):\n    def meth(self, arg):\n        super(C, self).meth(arg)
 super(type, obj): obj must be an instance or subtype of type
-svtv
 swapcase
 swapcase(s) -> string\n\nReturn a copy of the string s with upper case characters\nconverted to lowercase and vice versa.
-sxtx
 symbols
 symmetric_difference
 symmetric_difference_update
@@ -12114,9 +7421,6 @@ s|si:popen
 s|si:popen2
 s|si:popen3
 s|si:popen4
-t t!t#t$t't)t+t-t/t1t2t7t8t9t:t;t=t>t?t@tBtCtDtEtFtGtHtItJtKtLtMt
-t!t-t1t$t#t
-t!u[u_u
 t#t#:maketrans
 t#t#t#|n:replace
 t#t#|nn:count
@@ -12124,57 +7428,6 @@ t#t#|nn:find
 t#t#|nn:rfind
 t#|z#n:split
 t#|z:charbuffer_encode
-t$t&t(t)t*t+t,t-t.t/t0t1t9t@tCtDtFtGtKtMtQtRtWt]tbtftgthtktmtntqtrt
-t$t1t9tSt@tCtMtRt]tqt
-t&t(t%u&ukuju
-t&vaw
-t)t t2t
-t*t[t&t%t(t0t.t,t
-t.uGuHu
-t/uoulu
-t0u0v0
-t1u1
-t2JT.
-t2u2
-t3u3v3
-t4*V-
-t6ZeXeYe@5_
-t7J7R
-t99Lv
-t:wVyZy
-t;0K~>P
-t=u=J
-t>88/RV0y5
-t?u@u>u
-t@qG
-tAN[3nsP
-tAt\tWtUtYtwtmt~t
-tBuB
-tD#3-:y
-tDuqr
-tE%3
-tFvBvLv
-tGDK
-tGuGn
-tHLf
-tHuH
-tK0T2s7{
-tK5:Z5'MPA?H}<Y
-tK=4j
-tLcu
-tP/Re\
-tQ:R
-tQrQ
-tTjc
-tU3F.>
-tUs]p]m
-tV#5p24DiD-@T^
-tW]p
-tY&hNMia
-t[Iz
-t\fu\ru4v8v:v
-t\vt\ft\rt
-t]Tv4
 tab-width:
 tabcheck
 tabsize must be at least 1
@@ -12186,7 +7439,6 @@ tan(x)\n\nReturn the tangent of x (measured in radians).
 tan(x)\n\nReturn the tangent of x.
 tanh
 tanh(x)\n\nReturn the hyperbolic tangent of x.
-tarasa)
 target
 targets
 tb_frame
@@ -12194,10 +7446,6 @@ tb_lasti
 tb_lineno
 tb_next
 tback
-tbuTsbD
-tbvev&y*y,y+y
-tcPM
-tducu
 tee(iterable, n=2) --> tuple of n independent iterators.
 tell
 tell() -- get the current position.
@@ -12217,10 +7465,6 @@ testlist1
 testlist_comp
 testlist_safe
 text
-tg#2u
-tgVQ
-tgsg
-tgvg
 the BufferedRWPair object is being garbage-collected
 the class associated with a method
 the class invoking super()
@@ -12255,9 +7499,6 @@ threading
 throw
 throw() third argument must be a traceback object
 throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration.
-thuh
-thyh
-th}S
 time
 time of last access
 time of last change
@@ -12281,7 +7522,6 @@ timetz
 timeunit
 timezone
 title
-tjuj
 tm_hour
 tm_isdst
 tm_mday
@@ -12298,8 +7538,6 @@ tmpnam
 tmpnam has been removed in 3.x; use the tempfile module
 tmpnam is a potential security risk to your program
 tmpnam() -> string\n\nReturn a unique name for a temporary file.
-tmrmt
-to5]
 tobytes
 today
 tofile
@@ -12322,7 +7560,6 @@ toordinal
 tostereo
 tostring
 tostring() -> string\n\nConvert the array to an array of machine values and return the string\nrepresentation.
-tot%t
 total size of all interned strings: %Id/%Id mortal/immortal\n
 total size, in bytes
 total struct size too long
@@ -12338,10 +7575,6 @@ toupper
 tovideo
 tp_compare didn't return -1 or -2 for exception
 tp_compare didn't return -1, 0 or 1
-tpvpa4{
-tq.RG^JKl
-tqptLu
-tquqn
 traceback
 tracebacklimit
 trailer
@@ -12370,9 +7603,6 @@ truth(a) -- Return True if a is true, False otherwise.
 try/except/finally
 try/finally
 try_stmt
-tssxAp/^0x
-tt2z
-tu*1r2t
 tuple
 tuple = EnumValue(key, index) - Enumerates values of an open registry key.\nkey is an already open key, or any one of the predefined HKEY_* constants.\nindex is an integer that identifies the index of the value to retrieve.\n\nThe function retrieves the name of one subkey each time it is called.\nIt is typically called repeatedly, until a WindowsError exception\nis raised, indicating no more values.\n\nThe result is a tuple of 3 items:\nvalue_name is a string that identifies the value.\nvalue_data is an object that holds the value data, and whose type depends\n on the underlying registry type.\ndata_type is an integer that identifies the type of the value data.
 tuple = QueryInfoKey(key) - Returns information about a key.\n\nkey is an already open key, or any one of the predefined HKEY_* constants.\n\nThe result is a tuple of 3 items:An integer that identifies the number of sub keys this key has.\nAn integer that identifies the number of values this key has.\nA long integer that identifies when the key was last modified (if available)\n as 100's of nanoseconds since Jan 1, 1600.
@@ -12388,7 +7618,6 @@ tuple2ast
 tuple2ast is removed in 3.x; use tuple2st
 tuple2st
 tupleiterator
-twuw
 type
 type '%.100s' is not an acceptable base type
 type '%.100s' participates in gc and is a base type but has inappropriate tp_free slot
@@ -12409,74 +7638,19 @@ tzinfo.%s() returned %d; must be in -1439 .. 1439
 tzinfo.tzname() must return None or a string, not '%s'
 tzname
 tzname.replace() did not return a string
-t|tyt
-u u!u"u#u$u&u'u*u.u4u6u9u<u=u?uAuBuCuDuFuGuIuJuMuPuQuRuSuUuVuWuXu
-u u!u$u'u)u*u/u6u9u=u>u?u@uCuGuHuNuPuRuWu^u_uauouquyuzu{u|u}u~u
-u v)v
-u"ueufubupu
 u#:fromunicode
 u#:putwch
 u#;array item must be unicode character
 u#nns
 u%04x
-u%um
-u%urrGS
-u&u,u<uDuMuJuIu[uFuZuiudugukumuxuvu
-u'v\rv\vv\tv
-u(u)u0u1u2u3u
-u-uOuLuNuKu
-u/uouyu
-u/v-v1v=v3v<v5v2v0v
 u005c
-u12L
-u4v4w4
-u5v5G
-u7^:mGH
-u8aPT
 u:ExpandEnvironmentStrings
 u:ungetwch
-u=XEe9"R#R
-uCmB
-uCvHvIvGv
-uDA=a5
-uE\y
-uEvEC
-uEw_
 uHyc[
-uJTZ7j
-uL5u-d
-uLJAS
-uR{q}
-uU>S
-uVI5s
-uVvXv
-uWsceO
-uYEyS]qV|lp|
-uYvY|Y
-u[vb
-u\tu\nu\vu\fu
-u\vdvYvPvSvWvZv
-u\vv\rv\tv
-u]z]w
-u^x^p
-u_vav
-u`3j
-ua3q#w
-uawaI
 ubyte format requires 0 <= number <= 255
-uc$d
-uewexef
-ufNN
-ugohyc;Rss{c
-ujvj,Og@
 ulaw2lin
-ulnh
-ul|y
 umask
 umask(new_mask) -> old_mask\n\nSet the current numeric umask and return the previous umask.
-umo-
-um|W
-un-MABvnwnxn!Uyn3Ozn{n
 unable to get file status from '%s'
 unary op %d should not be possible
 unaryop
@@ -12523,6 +7697,7 @@ unhexlify
 unichr
 unichr() arg not in range(0x10000) (narrow Python build)
 unichr(i) -> Unicode character\n\nReturn a Unicode string of one character with ordinal i; 0 <= i <= 0x10ffff.
+unicode
 unicode argument expected, got '%s'
 unicode argument without an encoding
 unicode(object='') -> unicode object\nunicode(string[, encoding[, errors]]) -> unicode object\n\nCreate a new Unicode object from the given encoded string.\nencoding defaults to the current default string encoding.\nerrors can be 'strict', 'replace' or 'ignore' and defaults to 'strict'.
@@ -12601,22 +7776,17 @@ unsupported pickle protocol: %d
 unsupported type for timedelta %s component: %s
 unterminated shift sequence
 unused_data
-unvlv
-uo_J
 update
 update (arg)\n\nUpdate the md5 object with the string arg. Repeated calls are\nequivalent to a single call with the concatenation of all the\narguments.
 upper
 upper(s) -> string\n\nReturn a copy of the string s converted to uppercase.
 uppercase
-urRi
 urandom
 urandom(n) -> str\n\nReturn n random bytes suitable for cryptographic use.
-urlsS
 usage: %s [option] ... [-c cmd | -m mod | file | -] [arg] ...\n
 user ID of owner
 ushort format requires 0 <= number <= USHRT_MAX
 usuiobcPQRb
-usvsM
 utcfromtimestamp
 utcnow
 utcoffset
@@ -12654,71 +7824,7 @@ utf_8_encode
 utime
 utime() arg 2 must be a tuple (atime, mtime)
 utime(path, (atime, mtime))\nutime(path, None)\n\nSet the access and modified time of the file to the given values.  If the\nsecond form is used, set the access and modified times to the current time.
-uvvvwvxv
-uwyI{T{R{
-uyuwu
-uy}m~
-uy~o
-u{Q7h>o
-u{v|v
-u~u%v
-v!v#v'v(v,v.v/v1v2v6v7v9v:v;v=vAvBvDvEvFvGvHvIvJvKvNvOvPvQvRvSvUvWvXvYvZv[v]v_v`vavbvdvevfvgvhvivjvlvmvnvpvqvrvsvtvuvvvwvyvzv|v
-v#v%v&v)v-v2v3v5v8v9v:v<vJv@vAvCvDvEvIvKvUvYv_vdvevmvnvovqvtv
-v$v&v!v"v
-v&w&y&z&{&|&}&~&j-k-
-v'v v!v"v$v4v0v;vGvHvFv\vXvavbvhvivjvgvlvpvrvvvxv|v
-v'w'x'y'z'{'|'}'~'
-v,vQvOvovvv
-v-v5vCvKvdvevmvovqv
-v1w1x1
-v3bcacd
-v6EbYD
-v7JSHSSAJ5,6s
-v7w>w<w6w8w:wkxCxNxeyhymy
-v8>Q\cPVM
-v8w8
-v9b;
-v9w/w-w1w2w4w3w=w%w;w5wHxRxIxMxJxLx&xExPxdygyiyjycykyay
-v9w9
-v:ib^73;,LKKdbfbjbkb
-v:vb
-v<v"v v@v-v0v?v5vCv>v3vMv^vTv\vVvkvov
-v=y4
-v>Ga
-v>w>x>y>z>{>|>h
-v?1Rd@
-v?w?Z
-v@Y>/XT
-vAal
-vAwA
-vA{p]J
-vB9<~
-vBwBxBC
-vEn<Zm<Lj2[
-vF3?V
-vFlmwG
-vFwGwDwMwEwJwNwKwLw
 vH7B
-vI8\JB
-vLv<
-vNz4
-vQO+t
-vR7r
-vRf\tN
-vT7e
-vTfP
-vTu$R
-vUw_w`wRwVwZwiwgwTwYwmw
-vU}O
-vV03]
-vXuXwXtXxX$
-v[wkwfw^wcwywjwlw\wewhwbw
-v\nv%v
-v\nv\fv
-v\tv\vv\rv
-v\tw\vw
-v^QKz
-vaL^
 value
 value not found in bytearray
 value too large to convert to float: %.200s
@@ -12732,99 +7838,16 @@ vars
 vars() argument must have __dict__ attribute
 vars(): no locals!?
 vars([object]) -> dictionary\n\nWithout arguments, equivalent to locals().\nWith an argument, equivalent to object.__dict__.
-vbJS|oDQ1o
-vbwe
-vc]E(2|F
-vd@P
-vdtd~Bn
-ve?ndb
 verbose
 version
 version_info
 vfprintf
-vfwFz
-vfwgrFz
-vgmj
-vgvKR
-vharYN
-vhgZ
-vh~0
 viewitems
 viewkeys
 viewvalues
-viui1
-vk2O
-vl1F
-vlab>c
-vlwlyl|
-vlx?z
-vm%n)F`Csm
-vnt1d
-vowo
-vqwqo
-vrxrzrr
-vswsW
-vuwu
-vuzQ
-vwEV
-vz*vwzfX
-v~w?z
-w w(w
-w!w#w$w%w'w*w+w
-w"w'w#x,x"x5x/x(x.x+x!x)x3x*x1xTy[yOy\ySyRyQy
-w"w(w-w.w/w4w5w6w9w=w>wBwEwFwJwMwNwOwRwVwWw\w^w_w`wbwdwgwjwlwpwrwswtwzw}w
-w%w&w
-w%xIyWy
-w%y#y'y(y$y)y
-w&w@w
-w)w$w
-w)|)^*d*E*U*F*V*
 w*:readinto
-w+OQvr
-w-w&w5w8wPwQwGwCwZwhwbwew
-w-w5w9@
-w-xCxNxOxQxhxnxK
-w-y1y/yT|S|
-w0/S
-w0x'x8x
-w1V;NW
-w3Xc
-w4&G
-w4w6wFwMwNw\w_wbwzw
-w5x5y5z5H
-w6x6
-w7w8wGwZwhwkw[wew
 w9xpopen.exe
-w9yi|k|
-w:u@uNuKuHu[uruyu
-w;@2e
-w=x=S
-w>y@yAy
-w?8pw
-wBy?y
-wCh;S
-wCxC
-wE[a
-wF,XkTf`IJ
-wFxFS
-wHxH
-wJvJ?
-wLx9J4
-wM^p
-wOxOzO}O
-wPTm
-wQ0`
-wR}RH::
 wShowWindow
-wTUAvT@7t
-wVYq
-wXR\r
-w\nw\fw
-w\y<r3#
-w]xlxox\rz
-w_JW
-w`2d|L
-w`xdxex\xmxqxjxnxpxixhx^xbxtysyrypy
 waitpid
 waitpid(pid, options) -> (pid, status << 8)\n\nWait for completion of a given process.  options is ignored on Windows.
 warn
@@ -12833,7 +7856,6 @@ warnall
 warnings
 warnings.showwarning() must be set to a function or method
 warnoptions
-waxa
 wcscoll
 wcsncmp
 wcsrchr
@@ -12845,9 +7867,6 @@ weakref
 weekday
 weeks
 weightA should be >= 1, weightB should be >= 0
-wem9m
-wfxk
-wg|f|
 whence must be between 0 and 2, not %d
 while
 while compressing
@@ -12874,13 +7893,6 @@ with BOM
 with_item
 with_statement
 with_stmt
-wl{V
-wmt?l>xm
-wn>Jj
-woS3|
-wow~w
-wpf;V8T!
-wptp
 wrapper %s doesn't take keyword arguments
 wrapper_descriptor
 writable
@@ -12914,15 +7926,7 @@ writing
 wrong number of children for 'except' clause: %d
 wrong number of tokens for 'while' statement: %d
 wrvr
-wy9o
-w~wyw
-x x!x"x$x(x*x+x.x/x1x2x3x5x6x=x?xAxBxCxDxFxHxIxJxKxMxOxQxSxTxXxYxZx
-x!x"x#x-x.x0x5x7xCxDxGxHxLxNxRx\x^x`xaxcxdxhxjxnxzx~x
-x!x,xGxdxjx
 x%02x
-x&xmy
-x&y x*yEx
-x.7c[
 x.__abs__() <==> abs(x)
 x.__add__(y) <==> x+y
 x.__and__(y) <==> x&y
@@ -13002,71 +8006,11 @@ x.__sub__(y) <==> x-y
 x.__truediv__(y) <==> x/y
 x.__xor__(y) <==> x^y
 x.next() -> the next value, or raise StopIteration
-x0y0
-x2xUyPy`y_yVy^y]yWyZy
-x3G>
-x4!V
-x4x7x
-x5I^
-x7OB
-x9'g
-x9x:x;x
-x<x%x,x#x)xNxmxVxWx&xPxGxLxjx
-x=6T%N,AY3
-x=cZf
-x>ehu
-x>y@y`y
-x?z<z@z=z7z;z
-x@g9R
-xAW<,nd
-xAq2
-xAyGyHyzy
-xD-n
-xGyGz
-xJoZ
-xJyLyKyEyDy
-xKW?9
-xKxW
-xLF<t:G
-xMhQ
-xN0\
-xO,o
-xP2g3gB44g5g~I,N`C7gA1q3
-xPWY
-xQf<^J
-xQkX)YU\
-xQxjyj3Z
-xS(q
-xSEQr
-xTfLnW
-xXAR
-xY<Z0Z
-xYBT
 x[y:z] <==> x[y.__index__():z.__index__()]
-x\fx\rxFyIyHyGy
-x\nx\vx
-x\tx\rx
-x^ix^cuN
-x_m18
-xa>y
-xc:PCFsT~c
-xcyc
-xd!j
-xd459
-xdyd
-xeMM
-xfG9[
-xgygzg{g}g
-xh"pV
-xhmx
-xidT
-xieb
-xkz8N
 xmlcharrefreplace
 xmlcharrefreplace_errors
 xor(a, b) -- Same as a ^ b.
 xor_expr
-xoxy}\fw
 xrange
 xrange object index out of range
 xrange(%ld)
@@ -13078,164 +8022,24 @@ xrange() result has too many items
 xrange(stop) -> xrange object\nxrange(start, stop[, step]) -> xrange object\n\nLike range(), but instead of returning a list, returns an object that\ngenerates the numbers in the range on demand.  For looping, this is \nslightly faster than range() and more memory efficient.
 xreadlines
 xreadlines() -> returns self.\n\nFor backward compatibility. File objects now include the performance\noptimizations previously implemented in the xreadlines module.
-xvBh
 xxsubtype
 xxsubtype is an example module showing how to subtype builtin types from C.\ntest_descr.py in the standard test suite requires it in order to complete.\nIf you don't care about the examples, and don't intend to run the Python\ntest suite, you can recompile Python without Modules/xxsubtype.c.
 xxsubtype.spamdict
 xxsubtype.spamlist
-xx{w
-x{x|y
-x}y}z}{}|}}}~}
-y y!y"y#y%y&y'y(y)y*y+y,y-y.y/y0y1y2y3y5y6y7y8y9y=y?yByCyDyEyGyJyKyLyMyNyOyPyQyRyTyUyXyYyaycy
-y y%y'y)y-y1y4y5y;y=y?yDyEyFyJyKyOyQyTyXy[y\ygyiykyryyy{y|y~y
-y*n&q
-y+zJz0z/z(z&z
-y,y+y@y`yWy_yZyUySyzy
 y.__rpow__(x[, z]) <==> pow(x, y[, z])
-y.y1y4yL
-y.z1z
-y0y%y;yJyXy[y
-y14a'
-y1z;z>z7zCzWzIzazbziz
-y2S8
-y4di~
-y4j[k,]
-y4z4
-y6#XJT
-y64N
-y6z6{6|6
-y7z7A
-y8C2
-y9*O
-y9z9
-y9{<y
-y:aTg]
-y:qK
-y=MWLE>=
-yAzA
-yB}M~
-yDNe4
-yDzHzGz
-yEzEO
-yF8Q~
-yG_Iu
-yI}hH
-yKnIt8
-yL5M
-yLr=
-yMwU^a
-yMzNzFzLzKz
-yN/7s?8mkB0IN
-yNaXa
-yP+lS^iw
-yQK:y8
-yRc4T
-yTDI.SS8`3T
-yU_F
-yUzU\<,?tFT?xH"GI6{U
-yWkW
-yXzXjJ
-y\nz\v{f}zAC{~y\t
-y\ty\ny\vy\fy\ry
-y\vz}z
-y\z[zVzXzTzZz
-yazbz`z
-yb!bTk
-ybec
-ydxdlE
 year
+year >= 1900 required
 year is out of range
 year out of range
 year, for example, 1993
 year=%ld is before 1900; the datetime strftime() methods require year >= 1900
-yegHze}Mk
-yejlV]Bm
-yf@>zfl:{fKO|f<T6<}f~fM<RH3N!g
-yg(x
-ygugxg
-ygzhz3|<|9|,|;|
-yhglboO
 yield
 yield expression
 yield_expr
 yield_stmt
-ykxk
-ykziz>|?|8|=|7|@|k~m~y~i~j~
-ymzm
-ynzlzmz
-yp5N|f
-ypzqzW|\|Y|[|Z|
-ypz{
-yp|p~p
-yqO4
-yvk9z
-yxz{z
-yyzy*
-yzzyz
-y}yyy
-z!z"z$z%z&z'z(z)z*z+z,z-z.z/z0z1z2z4z5z6z8z:z>z@zAzBzCzDzEzGzHzIzJzKzLzMzNzOzPzRzSzTzUzVzXzYzZz[z\z]z^z_z`zazbzczdzezfzgzhz
-z!z'z+z-z/z0z4z5z8z9z:zDzEzGzHzLzUzVzYz\z]z_z`zezgzjzmzuzxz~z
 z*|n:unpack_from
-z069e\S\q
-z0{0
-z1{1
-z2sWuWQC
-z2{2|2
-z4iJ\
-z4nATR
-z56cl
-z5{G{4{%{0{"{${3{
-z7v26G
-z7zT~w
-z8s9s
-z9<Ms`
-z9z7zQz
-z9{0}o
-z;8B
-z=NIz
-z=i O9
-z?<qB
-z@ddddd
-zA(9hm
-zG7R|8
-zG{G|G
-zHyvzv{v|v
-zI{V{F{P{R{T{M{K{O{Q{
-zI|H|J|G|E|
-zJ{;{D{H{L{N{@{X{E{
-zKskM
-zKyy}L~S
-zL|C|M|
-zNwK%e
 zO:ConnectRegistry
-zOJsW`
-zS$t
-zSG8
-zSdS
-zUBE@2G
-zUYPYNYZYXYbY`YgYlYiYxY
-zVYX
-zV{VQG
-zYnS
-zY~8
-zZOPGD
-z\i8
-z\tz\nz\fz
-z_"c9W
-z`AE{L
-z`Dn^Y
-zaj@M
-zb{b}b|bUD"c}
-zcA-z8zGzLzVzYz\z_z`zgzjzuzxz
-zc}c)Lsc
-zd|c|e|
-ze;Evee
 zfill
-zf{d{m{t{i{r{e{s{q{p{a{x{v{c{
-zg`M0c
-zgqgR
-zgygc
-ziQjQnQ
 zip argument #%zd must support iteration
 zip(seq1 [, seq2 [...]]) -> [(seq1[0], seq2[0] ...), (...)]\n\nReturn a list of tuples, where each tuple contains the i-th element\nfrom each of the argument sequences.  The returned list is truncated\nin length to the length of the shortest argument sequence.
 zipimport
@@ -13248,90 +8052,13 @@ zipimport: no memory to allocate source buffer
 zipimporter
 zipimporter()
 zipimporter(archivepath) -> zipimporter object\n\nCreate a new zipimporter instance. 'archivepath' must be a path to\na zipfile, or to a specific path inside a zipfile. For example, it can be\n'/tmp/myimport.zip', or '/tmp/myimport.zip/mydirectory', if mydirectory is a\nvalid directory inside the archive.\n\n'ZipImportError is raised if 'archivepath' doesn't point to a valid Zip\narchive.\n\nThe 'archive' attribute of zipimporter objects contains the name of the\nzipfile targeted.
-zi{iO=|i(8>A}i21T;u9~ic
 zlib
 zlib.Compress
 zlib.Decompress
 zlib.error
-zn_J
-znt}
-zoB8
-zp_3o _
-zu1P
-zuZwow
-zvhEcR{
-zw8,4:
-zwJ>z
-zxzyz
 zzOOiiOzO:CreateProcess
-{!{"{#{'{){-{/{0{2{4{5{6{7{9{;{={?{@{A{B{C{D{F{H{J{M{N{S{U{W{Y{\{^{_{a{c{d{e{f{g{h{i{j{k{l{m{o{p{s{t{v{x{z{|{}{
-{"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""|@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@}~
-{#{'{){*{+{-{.{/{0{1{4{={?{@{A{G{N{U{`{d{f{i{j{m{o{r{s{w{
-{-{;{G{N{`{m{o{r{
-{.{1{ {%{${3{>{
-{1{+{-{/{2{8{
-{5{({6{P{z{
-{5|5M
-{6Xfb<
-{9&VHh
-{A38
-{B'hp
-{C|CE
-{D>kC
-{D|DG
-{E'Lq
-{FZ7T
-{F|Fe
-{HeTi
-{H|HK
-{Ij>{Qd3uQsQOA
-{JFwHO
-{MVv
-{M{\v{L{E{u{e{t{g{p{q{l{n{
-{OPGr
-{OP\tYGr
-{OfI
-{Tc|Xz
-{WVPu]qw
-{X{Z{E{u{L{]{`{n{{{b{r{q{
-{^;P7Uqn
-{cucS:l
-{e|ei
-{g7|d|E{gc9X
-{hb5c
-{j7p
-{kHw
-{nm?W
-{oyo_9
-{pazZpgLtZ
-{pjB[3\3zp
-{soT
-{sys
-{xOc
 {{{{{{{{||||||||{{{{{{
 {{{{{{{{||||||||{{{{{{{{||||||||{{{{{{
-| |!|"|#|$|%|(|)|+|,|-|.|/|0|1|2|3|4|5|6|7|9|:|;|<|=|>|B|C|D|E|F|G|H|I|J|K|L|N|O|P|Q|R|S|T|U|V|W|X|Y|Z|[|\|]|^|_|`|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|u|v|w|x|y|z|~|
-| |%|&|(|,|1|3|4|6|9|:|F|J|U|Q|R|S|Y|Z|[|\|]|^|a|c|g|i|m|n|p|r|y|||}|
-|!}!{!z!r!s!
-|&|(|"|%|0|\~P~V~c~X~b~_~Q~`~W~S~
-|&|E|J|Q|W|^|a|i|n|o|p|
-|*|&|8|A|@|
-|.~>~F~7~2~C~+~=~1~E~A~4~9~H~5~?~/~D
-|0R4
-|2,r-r'HL
-|3hd
-|5Ee
-|5}=}8}6}:}E},})}A}G}>}?}J};}(}c
-|7|+|=|L|C|T|O|@|P|X|_|d|V|e|l|u|
-|?NNu
-|B}BN
-|F6Cl5];aA
-|F}C}q}.}9}<}@}0}3}D}/}B}2}1}=
-|GkLl=]N
-|K3e,U^
-|Kf>0;e><2$
-|LVQX
-|N54
 |O&:read
 |O&:readline
 |O&:readlines
@@ -13344,6 +8071,7 @@ zzOOiiOzO:CreateProcess
 |O:list
 |O:localtime
 |O:lstrip
+|O:now
 |O:read
 |O:readline
 |O:readlines
@@ -13370,23 +8098,7 @@ zzOOiiOzO:CreateProcess
 |Oss:bytearray
 |Oss:unicode
 |Oz:__init__
-|QJa
-|Qlk^
-|T32Wdu
-|T~U~^~Z~a~R~Y~H
-|USO
-|VRQb
-|VwN-OR
-|XD8
-|X}o}c}S}V}g}j}O}m}\}k}R}T}i}Q}_}N}>
-|\n\pRh2
-|^}P}h}U}+}n}r}a}f}b}p}s}
-|apaka~a
-|ayaza{a
-|bwb$
 |c:isoformat
-|coc(7wctc~
-|flf{f
 |i:Pickler
 |i:__reduce__
 |i:__reduce_ex__
@@ -13399,16 +8111,14 @@ zzOOiiOzO:CreateProcess
 |i:readline
 |i:splitlines
 |i:stat_float_times
-|idjt
+|ii:enable
 |iii:replace
 |iiiiO
 |iiiiO:replace
 |iiiii:compressobj
 |iiiiiiiO:replace
-|jrj
 |l:read
 |l:readlines
-|m{mY
 |n:peek
 |n:pop
 |n:product
@@ -13418,76 +8128,11 @@ zzOOiiOzO:CreateProcess
 |n:stack_size
 |n:truncate
 |nn:flush
-|n}n!o~n"ou8zC#o$oB=?Ry2%o&o'oxR(o}V)oLF
-|q}0Rc
-|rkZ
 |s*:new
 |s:IncrementalDecoder
 |s:IncrementalEncoder
 |s:compile
 |ss:decode
 |ss:encode
-|v~u~x~p~w~o~z~r~t~h~K
-|w}wH
 |zz:tempnam
-|{{{{{{{{||||||||}}~~~~
-|}fxE
-|}|y|u|q|m|i|e|a|]|Y|U|Q|M|I|E|A|>|<|:|8|6|4|2|0|.|,|*|(|&|$|"| 
-}!}#}$}%}&}(})}*},}-}.}0}1}2}3}4}5}6}7}8}9}:};}<}=}>}?}@}A}B}C}D}E}F}G}H}I}J}K}L}M}N}O}P}Q}R}S}T}U}V}W}X}Y}Z}[}\}]}^}_}`}a}b}c}d}e}f}g}h}i}j}k}l}m}o}p}q}r}s}t}u}v}
-}#}&}*}-}1}<}=}>}@}A}G}H}M}Q}S}W}Y}Z}\}]}e}g}j}p}x}z}{}
-}#}1}A}H}S}\}z}
-}#~#Z"["X"Y"
-}0Yq
-}0qf
-}1Db
-}4~4A
-}5~5bD<NA
-}6^V2d
-}7~7M
-}9uB
-}?j;IwGFHwq
-}Blin
-}IgN\;k0b
-}K74
-}N@o`B846Wu=@
-}Q!fu
-}QzQR
-}[nUJ
-}\n}E}K}.}2}?}5}F}s}V}N}r}h}n}O}c}
-}bxb'
-}dO7
-}ee]MX
-}k|khI
-}ohr
-}r0S
-}sTc_
-}vO\tT
-}v~v!w"w#w$w%w
 }}}}}}}}}}~}}~}}}}}}}}}}}}}}}}}}}
-~ ~!~"~#~$~%~&~'~(~)~*~+~,~-~.~/~0~1~2~3~4~5~6~7~8~9~
-~ ~'~(~,~-~/~3~6~?~D~E~G~N~P~R~X~_~a~b~e~k~n~o~s~x~~~
-~ ~'~,~E~s~u~~~
-~1[WB
-~B!C"C#CO
-~CoU
-~DSEtmxm`?O
-~GI6t
-~HN2
-~Kjm
-~N(ZPx
-~Nbfh
-~NzP}P\PGPCPLPZPIPePvPNPUPuPtPwPOP
-~S\LH
-~V}VT
-~\t~\n~\v~\f~\r~
-~\t~\v~"~F~f~;~5~9~C~7~2~:~g~]~V~^~Y~Z~y~j~i~|~{~
-~a!bG@N
-~a2ktm
-~bYJ
-~dt1
-~e%fWM~
-~hW9
-~j_6}jv
-~k"lQ
-~syst
-~wuWS`i

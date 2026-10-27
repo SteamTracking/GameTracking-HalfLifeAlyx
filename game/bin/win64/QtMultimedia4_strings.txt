@@ -1,7 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -15,7 +13,6 @@
 , pixelAspectRatio=
 , viewport=
 ,<ellipsis>
--64OS
 .?AUQAudioEngineFactoryInterface@@
 .?AUQFactoryInterface@@
 .?AVInputPrivate@@
@@ -51,7 +48,6 @@
 .?AVbad_typeid@std@@
 .?AVexception@std@@
 .?AVtype_info@@
-/?size@QImage@@QEBA?AVQSize@@XZ
 /audio
 1#IND
 1#INF
@@ -60,12 +56,8 @@
 1feedback()
 2notify()
 2stateChanged(QAudio::State)
-:\v?lock@QMutex@@QEAAXXZ
 <ellipsis>
 <unknown>
-=\r?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
->QAbstractVideoBuffer::HandleType
->\r?qstrcmp@@YAHPEBD0@Z
 ??0QAbstractAudioDeviceInfo@@QEAA@XZ
 ??0QAbstractAudioInput@@QEAA@XZ
 ??0QAbstractAudioOutput@@QEAA@XZ
@@ -186,13 +178,16 @@
 ?arg@QString@@QEBA?AV1@HHHAEBVQChar@@@Z
 ?atEnd@QIODevice@@UEBA_NXZ
 ?availableDevices@QAudioDeviceInfo@@SA?AV?$QList@VQAudioDeviceInfo@@@@W4Mode@QAudio@@@Z
+?bits@QImage@@QEAAPEAEXZ
 ?bits@QVideoFrame@@QEAAPEAEXZ
 ?bits@QVideoFrame@@QEBAPEBEXZ
 ?bufferSize@QAudioInput@@QEBAHXZ
 ?bufferSize@QAudioOutput@@QEBAHXZ
+?byteCount@QImage@@QEBAHXZ
 ?byteOrder@QAudioFormat@@QEBA?AW4Endian@1@XZ
 ?bytesAvailable@QIODevice@@UEBA_JXZ
 ?bytesFree@QAudioOutput@@QEBAHXZ
+?bytesPerLine@QImage@@QEBAHXZ
 ?bytesPerLine@QVideoFrame@@QEBAHXZ
 ?bytesReady@QAudioInput@@QEBAHXZ
 ?bytesToWrite@QIODevice@@UEBA_JXZ
@@ -248,24 +243,32 @@
 ?free@QString@@CAXPEAUData@1@@Z
 ?frequency@QAudioFormat@@QEBAHXZ
 ?fromLatin1_helper@QString@@CAPEAUData@1@PEBDH@Z
+?fromUtf8@QString@@SA?AV1@PEBDH@Z
 ?handle@QAbstractVideoBuffer@@UEBA?AVQVariant@@XZ
 ?handle@QAudioDeviceInfo@@AEBA?AVQByteArray@@XZ
 ?handle@QVideoFrame@@QEBA?AVQVariant@@XZ
 ?handleType@QAbstractVideoBuffer@@QEBA?AW4HandleType@1@XZ
 ?handleType@QVideoFrame@@QEBA?AW4HandleType@QAbstractVideoBuffer@@XZ
 ?handleType@QVideoSurfaceFormat@@QEBA?AW4HandleType@QAbstractVideoBuffer@@XZ
+?handler@QVariant@@1PEBUHandler@1@EB
 ?height@QVideoFrame@@QEBAHXZ
 ?imageFormatFromPixelFormat@QVideoFrame@@SA?AW4Format@QImage@@W4PixelFormat@1@@Z
+?instance@QFactoryLoader@@QEBAPEAVQObject@@AEBVQString@@@Z
+?invokeMethod@QMetaObject@@SA_NPEAVQObject@@PEBDW4ConnectionType@Qt@@VQGenericReturnArgument@@VQGenericArgument@@444444444@Z
 ?isActive@QAbstractVideoSurface@@QEBA_NXZ
 ?isFormatSupported@QAbstractVideoSurface@@UEBA_NAEBVQVideoSurfaceFormat@@@Z
 ?isFormatSupported@QAudioDeviceInfo@@QEBA_NAEBVQAudioFormat@@@Z
 ?isMapped@QVideoFrame@@QEBA_NXZ
 ?isNull@QAudioDeviceInfo@@QEBA_NXZ
+?isNull@QVariant@@QEBA_NXZ
 ?isReadable@QVideoFrame@@QEBA_NXZ
+?isSequential@QIODevice@@UEBA_NXZ
 ?isValid@QAudioFormat@@QEBA_NXZ
 ?isValid@QVideoFrame@@QEBA_NXZ
 ?isValid@QVideoSurfaceFormat@@QEBA_NXZ
 ?isWritable@QVideoFrame@@QEBA_NXZ
+?keys@QFactoryLoader@@QEBA?AVQStringList@@XZ
+?lock@QMutex@@QEAAXXZ
 ?map@QImageVideoBuffer@@UEAAPEAEW4MapMode@QAbstractVideoBuffer@@PEAH1@Z
 ?map@QMemoryVideoBuffer@@UEAAPEAEW4MapMode@QAbstractVideoBuffer@@PEAH1@Z
 ?map@QVideoFrame@@QEAA_NW4MapMode@QAbstractVideoBuffer@@@Z
@@ -280,26 +283,36 @@
 ?metaObject@QAudioEnginePlugin@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QAudioInput@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QAudioOutput@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QFactoryLoader@@UEBAPEBUQMetaObject@@XZ
 ?mode@QAudioDeviceInfo@@AEBA?AW4Mode@QAudio@@XZ
 ?nearestFormat@QAbstractVideoSurface@@UEBA?AVQVideoSurfaceFormat@@AEBV2@@Z
 ?nearestFormat@QAudioDeviceInfo@@QEBA?AVQAudioFormat@@AEBV2@@Z
+?node_create@QMapData@@QEAAPEAUNode@1@QEAPEAU21@HH@Z
 ?notify@QAbstractAudioInput@@IEAAXXZ
 ?notify@QAbstractAudioOutput@@IEAAXXZ
 ?notify@QAudioInput@@IEAAXXZ
 ?notify@QAudioOutput@@IEAAXXZ
 ?notifyInterval@QAudioInput@@QEBAHXZ
 ?notifyInterval@QAudioOutput@@QEBAHXZ
+?open@QIODevice@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
 ?periodSize@QAudioInput@@QEBAHXZ
 ?periodSize@QAudioOutput@@QEBAHXZ
 ?pixelAspectRatio@QVideoSurfaceFormat@@QEBA?AVQSize@@XZ
 ?pixelFormat@QVideoFrame@@QEBA?AW4PixelFormat@1@XZ
 ?pixelFormat@QVideoSurfaceFormat@@QEBA?AW4PixelFormat@QVideoFrame@@XZ
 ?pixelFormatFromImageFormat@QVideoFrame@@SA?AW4PixelFormat@1@W4Format@QImage@@@Z
+?pos@QIODevice@@UEBA_JXZ
 ?preferredFormat@QAudioDeviceInfo@@QEBA?AVQAudioFormat@@XZ
+?prepend@QListData@@QEAAPEAPEAXXZ
 ?processedUSecs@QAudioInput@@QEBA_JXZ
 ?processedUSecs@QAudioOutput@@QEBA_JXZ
 ?property@QVideoSurfaceFormat@@QEBA?AVQVariant@@PEBD@Z
 ?propertyNames@QVideoSurfaceFormat@@QEBA?AV?$QList@VQByteArray@@@@XZ
+?qFree@@YAXPEAX@Z
+?qWarning@@YA?AVQDebug@@XZ
+?qWarning@@YAXPEBDZZ
+?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
+?qstrcmp@@YAHPEBD0@Z
 ?qt_metacall@QAbstractAudioDeviceInfo@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QAbstractAudioInput@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QAbstractAudioOutput@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
@@ -307,6 +320,9 @@
 ?qt_metacall@QAudioEnginePlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QAudioInput@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QAudioOutput@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QFactoryLoader@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QIODevice@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacast@QAbstractAudioDeviceInfo@@UEAAPEAXPEBD@Z
 ?qt_metacast@QAbstractAudioInput@@UEAAPEAXPEBD@Z
 ?qt_metacast@QAbstractAudioOutput@@UEAAPEAXPEBD@Z
@@ -314,6 +330,9 @@
 ?qt_metacast@QAudioEnginePlugin@@UEAAPEAXPEBD@Z
 ?qt_metacast@QAudioInput@@UEAAPEAXPEBD@Z
 ?qt_metacast@QAudioOutput@@UEAAPEAXPEBD@Z
+?qt_metacast@QFactoryLoader@@UEAAPEAXPEBD@Z
+?qt_metacast@QIODevice@@UEAAPEAXPEBD@Z
+?qt_metacast@QObject@@UEAAPEAXPEBD@Z
 ?qt_static_metacall@QAbstractAudioDeviceInfo@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_static_metacall@QAbstractAudioInput@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_static_metacall@QAbstractAudioOutput@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z
@@ -321,6 +340,7 @@
 ?qt_static_metacall@QAudioEnginePlugin@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_static_metacall@QAudioInput@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_static_metacall@QAudioOutput@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z
+?read@QIODevice@@QEAA_JPEAD_J@Z
 ?readLineData@QIODevice@@MEAA_JPEAD_J@Z
 ?readyRead@QIODevice@@IEAAXXZ
 ?realm@QAudioDeviceInfo@@AEBA?AVQString@@XZ
@@ -370,6 +390,7 @@
 ?shared_null@QString@@0UData@1@A
 ?singleShot@QTimer@@SAXHPEAVQObject@@PEBD@Z
 ?size@QIODevice@@UEBA_JXZ
+?size@QImage@@QEBA?AVQSize@@XZ
 ?size@QVideoFrame@@QEBA?AVQSize@@XZ
 ?sizeHint@QVideoSurfaceFormat@@QEBA?AVQSize@@XZ
 ?start@QAbstractVideoSurface@@UEAA_NAEBVQVideoSurfaceFormat@@@Z
@@ -467,7 +488,6 @@ April
 August
 C:\Valve\ThirdPartyCode\lgpl\qt\qt_valve_win64\lib\QtMultimedia4.pdb
 CorExitProcess
-D\f?open@QIODevice@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
 December
 DecodePointer
 DeleteCriticalSection
@@ -514,7 +534,6 @@ Format_YV12
 FreeEnvironmentStringsW
 FreeLibrary
 Friday
-G\t?handler@QVariant@@1PEBUHandler@1@EB
 GetACP
 GetActiveWindow
 GetCPInfo
@@ -546,7 +565,6 @@ GetUserDefaultLCID
 GetUserObjectInformationW
 GetVersion
 HH:mm:ss
-HMXB
 HeapAlloc
 HeapCreate
 HeapDestroy
@@ -577,7 +595,6 @@ March
 MessageBoxW
 Monday
 MultiByteToWideChar
-NKeb
 NULL
 Norwegian-Nynorsk
 November
@@ -586,6 +603,7 @@ OutputPrivate
 QAbstractAudioDeviceInfo
 QAbstractAudioInput
 QAbstractAudioOutput
+QAbstractVideoBuffer::HandleType
 QAbstractVideoSurface
 QAudio::Error
 QAudio::Mode
@@ -610,6 +628,7 @@ QAudioInput: open error, invalid sample size (%d).
 QAudioInputPrivate
 QAudioOutput
 QAudioOutput: Memory allocation error
+QAudioOutput: open error
 QAudioOutput: open error, frequency out of range (%d).
 QAudioOutput: open error, invalid format.
 QAudioOutput: open error, invalid number of channels (%d).
@@ -624,14 +643,12 @@ QtGui4.dll
 QtMultimedia4.dll
 Qt_GetCustomAllocators
 QueryPerformanceCounter
-RSDS
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S;uD
 Saturday
 September
 SetConsoleCtrlHandler
@@ -654,25 +671,6 @@ WideCharToMultiByte
 WriteFile
 ZE-Q
 [thunk]:
-\f?node_create@QMapData@@QEAAPEAUNode@1@QEAPEAU21@HH@Z
-\f?pos@QIODevice@@UEBA_JXZ
-\f?prepend@QListData@@QEAAPEAPEAXXZ
-\f?qFree@@YAXPEAX@Z
-\n?isSequential@QIODevice@@UEBA_NXZ
-\n?keys@QFactoryLoader@@QEBA?AVQStringList@@XZ
-\r?qWarning@@YA?AVQDebug@@XZ
-\r?qWarning@@YAXPEBDZZ
-\r?qt_metacast@QFactoryLoader@@UEAAPEAXPEBD@Z
-\r?qt_metacast@QIODevice@@UEAAPEAXPEBD@Z
-\r?qt_metacast@QObject@@UEAAPEAXPEBD@Z
-\r?read@QIODevice@@QEAA_JPEAD_J@Z
-\t?fromUtf8@QString@@SA?AV1@PEBDH@Z
-\t?instance@QFactoryLoader@@QEBAPEAVQObject@@AEBVQString@@@Z
-\t?invokeMethod@QMetaObject@@SA_NPEAVQObject@@PEBDW4ConnectionType@Qt@@VQGenericReturnArgument@@VQGenericArgument@@444444444@Z
-\t\r?byteCount@QImage@@QEBAHXZ
-\v?metaObject@QFactoryLoader@@UEBAPEBUQMetaObject@@XZ
-\v\r?bytesPerLine@QImage@@QEBAHXZ
-^\r?qt_metacall@QFactoryLoader@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 __based(
 __cdecl
 __clrcall
@@ -767,7 +765,6 @@ com.trolltech.Qt.QFactoryInterface
 const
 const 
 czech
-d\r?qt_metacall@QIODevice@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 dddd, MMMM dd, yyyy
 default
 deviceReady
@@ -808,15 +805,12 @@ german-lichtenstein
 german-luxembourg
 german-swiss
 great britain
-h\r?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 handleType
 holland
 hong-kong
 int 
 irish-english
 italian-swiss
-kU'9
-l\n?isNull@QVariant@@QEBA_NXZ
 long
 long 
 new-zealand
@@ -835,7 +829,6 @@ processMore()
 protected: 
 public: 
 puerto-rico
-qQAudioOutput: open error
 scanLineDirection
 short
 short 
@@ -873,7 +866,6 @@ supportedFormatsChanged()
 surfaceFormatChanged(QVideoSurfaceFormat)
 swedish-finland
 swiss
-t\f?bits@QImage@@QEAAPEAEXZ
 template-parameter-
 tier0.dll
 trinidad & tobago
@@ -911,7 +903,5 @@ waveOutUnprepareHeader
 waveOutWrite
 wchar_t
 yCbCrColorSpace
-z?aUY
-zc%C1
 {flat}
 {for 

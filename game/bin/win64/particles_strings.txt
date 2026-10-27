@@ -1,7 +1,5 @@
                           
-                AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZ`
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+                AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZ
  Base Class Array'
  Base Class Descriptor at (
  Child collection: [%p]
@@ -54,7 +52,6 @@ $SPECULARCOLOR
 $SPECULAREXPONENT
 $SPECULAREXPONENTBLENDTOFULL
 $SPECULARSCALE
-$tIAT\tK
 %.15lf
 %02X
 %02x 
@@ -67,12 +64,11 @@ $tIAT\tK
 %s allocation count overflow( %llu >= %llu )\n
 %s is trying to get CP object %d but the function read limit is %d\n
 %s is trying to get CP renderable %d but the function read limit is %d\n
+%s: %s\n
 %s: string format requested %d chars\n
-&Sgw
 'Lighten blend mode
 (None)
 (null)
-*StO9>T
 +inf
 +r_stereo_mode_crossed
 ,<ellipsis>
@@ -82,7 +78,6 @@ $tIAT\tK
 -128
 -128 0 0
 -90.0f
--BfF
 -avx
 -enable_2gb_morphs
 -inf
@@ -907,7 +902,6 @@ $tIAT\tK
 .tls
 .tls$
 .tls$ZZZ
-.xJ>Hf
 .xdata
 .xdata$x
 0 -128 0
@@ -926,12 +920,11 @@ $tIAT\tK
 0.0f
 0.25
 00000000-0000-0000-0000-000000000000
-0iN>/
-0lz 
 1 0 0
 1 1 1
 1 1000
 1#IND
+1#INF
 1#QNAN
 1#SNAN
 1.0f
@@ -947,7 +940,6 @@ $tIAT\tK
 100000000
 1000000000
 1024
-11Y@
 128 0 0
 1345
 137.508
@@ -962,20 +954,12 @@ $tIAT\tK
 3.3f
 30.0
 33S@ff
-37>k
-3>N;kU
-3>fvw
-3L?Zb%
-4,&\n9,&\n9,&\n9,&\n9o
 45.0
-4?Ku
 5000
 60.0
 64.0
 75.0
-8f?D
 :???;???;???3776>????/?/????7'7&>?????????
-;1#INF
 <!-- kv3 encoding:%s:version{%s} format:%s:version{%s} -->\n
 <!-- schema 
 <deferred>
@@ -986,15 +970,7 @@ $tIAT\tK
 <unconnected>
 <unimplemented>
 <unknown>
-=2qg
-=87M
-=cQ6
-=imb;D
->FixupResourceName: Illegal full path passed in ("%s")!\n
->cQ6
->jtm}S
 ?/?????/?.>??????????????>>??;?/?+???;?/?**?/?;???+?/?;??>>??????????????>.?/?????/?
-?7zQ6$
 ??0CThreadFastMutex@@QEAA@XZ
 ??0CThreadMutex@@QEAA@XZ
 ?????????>&7'7????/?/????>6773???;???;???:
@@ -1019,17 +995,12 @@ $tIAT\tK
 ?SpinLockForWrite@CThreadSpinRWLock@@AEAAXPEBDHI@Z
 ?StartsWith@CBufferString@@QEAA_NPEBD@Z
 ?ToLowerFast@CBufferString@@QEAAXH@Z
-?UUUUUU
 ?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockWrite@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?V_SplitString@@YAXPEBD0AEAV?$CUtlVector@VCUtlString@@V?$CUtlMemory@VCUtlString@@H@@@@_N@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
-?f`Y4
-?qBJ
-?ysB
 A minimum on particle simulation time, particle simulation happening more frequently than this will lerp.
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 AE_ACTION_SET_TURN_RATE_SCALE
 AE_BLIND_ZOMBIE_SNIFF
@@ -1100,7 +1071,6 @@ Alpha fade out random
 Alpha fade out simple
 Alpha random
 Alpha window threshold random
-Am_bUseShadowFastPath
 Amount of simulation time that can elapse before new systems start falling back to cheaper versions
 Anchor point source
 Anim
@@ -1138,7 +1108,6 @@ Apply fog to particle
 Apply global light to color
 Apply motion vectors
 April
-Aq?S
 Arc Duration Maximum
 Arc Speed
 AreFileApisANSI
@@ -1166,8 +1135,6 @@ Avg Actual Traces
 Avg Intersection Tests
 Avg. Render (us)
 Avg. Sim (us)
-BC?>6t9^\tc:>
-BF>^G
 BLURFILTER_BOX
 BLURFILTER_GAUSSIAN
 BONE_INDICES
@@ -1217,6 +1184,7 @@ BreakPieceExternal
 Bump Strength
 CAnimMotorList
 CAnimMovementManager
+CAuthPhysBody
 CAuthPhysJoint
 CBaseRendererSource2
 CBaseTrailRenderer
@@ -1800,7 +1768,6 @@ Duration value for path point
 DynamicConfigList
 ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!\n
 ERROR: SweepRenderer::render_slices got into an infinite loop!\n
-ET5>
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EconItemToolModel_001
 EditorDynamicConfig
@@ -1851,7 +1818,6 @@ External wind force
 Extra Arc Data Point
 FATAL ERROR: unable to register all schema data: %s\n
 FCVAR_NEVER_AS_STRING
-FEMh\f
 FIXME:A particle control point is trying to use an invalid slot %d! Only 64 are available. Ignoring for now, but a crash may happen later if this system is used.\n
 FORCE_SCALE
 FX Light
@@ -1907,6 +1873,7 @@ Fixed "Animation Type" in Sprite Renderer not working for non-particle normal al
 Fixed "Inherit Attribute from Parent Particles" not keeping parent particles in sync with children.\n
 Fixed Rate
 Fixed bugs in "Position along path sequential" where it could incorrectly create too many particles at the last control point. Also fixed issues with control points specified in backward order in that operator as well as "Movement lock to saved position along path".\n
+FixupResourceName: Illegal full path passed in ("%s")!\n
 FixupResourceName: Illegal path, missing extension passed in ("%s")!\n
 FlattenedSerializersVersion001
 Flip U or V texcoords if pitch or yaw go over PI
@@ -1970,8 +1937,6 @@ Globally Scale Initial Attributes
 Glow Alpha
 Glow RGB
 Gravity
-H'dx#
-HAT\tKAT\tKAT\tKAT\tK
 HH:mm:ss
 HITBOX_INDEX
 HITBOX_LERP_CONSTANT
@@ -2063,7 +2028,6 @@ KL2H
 KeyValueCache001
 KeyValuesSystem
 Kill Particle
-L>ev
 LCMapStringEx
 LCMapStringW
 LIFE_DURATION
@@ -2116,7 +2080,6 @@ Lock vector attribute to a list of values
 LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
 LoggingSystem_RegisterLoggingChannel
-LrwcE
 MANUAL_ANIMATION_FRAME
 MATCHFRAMEWORK_001
 MAX_PATTACH_TYPES
@@ -2254,7 +2217,6 @@ Not safe to 'new' this class due to alignment requirements
 November
 Number of Children to Use
 Numer of points along path
-OZQ%
 October
 Offscreen Time Before Decay
 Offset
@@ -2516,7 +2478,6 @@ Plat_USTime
 Plat_UUIDFromString
 Plat_UUIDToString
 Play EndCap when Finished
-Po5H
 Point vector at next particle position
 PointDefinitionWithTimeValues_t
 PointDefinition_t
@@ -2576,7 +2537,6 @@ RGB blend weight for sequence 0
 RGB blend weight for sequence 1
 ROTATION
 ROTATION_SPEED
-RSDSp*
 Radial Amount (-1..1)
 RadianEuler
 Radius
@@ -2721,8 +2681,6 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S+Ot
-S9>H
 SCALAR_EXPRESSION_ADD
 SCALAR_EXPRESSION_DIVIDE
 SCALAR_EXPRESSION_INPUT_1
@@ -3113,26 +3071,18 @@ X Dimension Count
 X Dimension Spacing
 X axis scaling scalar field
 X offset of center point
-X/4B
 XY velocity only
 Y Dimension Count
 Y Dimension Spacing
 Y axis scaling scalar field
 Y offset of center point
-Y?Mi
 Yz'x
 Z Dimension Count
 Z Dimension Spacing
 Z axis scaling scalar field
-[aOni*{
 [thunk]:
-\nCwf\r
-\nPlz 
 \n\n----------------------------\nInstance Count:\n
 \t%4d -  %s\n
-\tcQr
-\tkE>fvw
-^<V7w
 _RDATA
 _V_strncmp
 _V_strncpy
@@ -3280,8 +3230,6 @@ avg_num_tests
 avg_num_traces
 avg_render
 avg_sim
-b>mUf
-b?/n3>j
 bUpdate
 bad exception
 baked_light_indexing
@@ -3325,7 +3273,6 @@ breakable_count
 breakable_model
 breakable_skin
 brush only
-bt3V
 bulge control 0=random 1=orientation of start pnt 2=orientation of end point
 burst_randomize
 burst_scale
@@ -3498,7 +3445,6 @@ cylinder inner radius
 cylinder outer output
 cylinder outer radius
 cylinder top control point
-d8L2
 damage
 dampen scale
 data_offset
@@ -3575,8 +3521,6 @@ duration scale
 dynamic control point count
 dynamic_interaction
 e+000
-eF>t
-eLK(w
 ease in and out
 ease out
 emission count scale control point
@@ -3628,7 +3572,6 @@ even distribution count
 event_class
 event_keys
 eventindex
-exTx#
 explosion_behavior
 explosion_buildup
 explosion_delay
@@ -3640,7 +3583,6 @@ exponent
 exponential falloff exponent
 expression
 extern "C" 
-f>KZ}
 faceMergeAngle
 fade bias
 fade end time
@@ -3726,7 +3668,6 @@ gravity
 group ID to affect
 group emission times for new particles
 group id
-h0'D
 half-lambert normals
 hand
 hand control point number
@@ -3750,7 +3691,6 @@ how long before a trail grows to its full length
 hue adjust
 hurt_me
 hurt_them
-iWy?
 ignore delta time
 ignore normal
 ignore radius
@@ -3815,14 +3755,12 @@ invert input from total particle count
 invert_orientation
 is_debris
 itemgroups
-k=yI
 kill on no collision
 kill particle on collision
 kill unused
 last_sniff
 latency CP
 latency CP field
-lcQe
 length
 length max
 length min
@@ -3902,10 +3840,6 @@ loop_break_on_flashlight
 loop_in_action
 looping
 low violence definition
-lwK?
-mG4>
-mXr4
-m\nXo
 m_ActivityName
 m_AttachmentName
 m_Attenuation0
@@ -4279,6 +4213,7 @@ m_bUseQuat
 m_bUseRandomCPs
 m_bUseRawMeshGroup
 m_bUseScalarForTextureCoordinate
+m_bUseShadowFastPath
 m_bUseTexture
 m_bUseTopology
 m_bUseVelocity
@@ -5346,8 +5281,6 @@ modeldoc9
 models
 motion vectors texture
 multiplayer_break
-n03>Pu
-n?9a
 n\f"pA3Q
 name
 names
@@ -5386,7 +5319,6 @@ num to emit
 num_particles
 numsegments
 object local space axis 0/1
-obwQ4
 offset
 offset amount
 offset axis
@@ -5486,9 +5418,6 @@ override CP 2 (X/Y/Z *= pitch/yaw/roll)
 override CP field
 override max velocity from this CP
 override translucent materials
-owM&
-p\rP!J
-p\rP\f0
 parent_bone
 particle
 particle density
@@ -5589,8 +5518,6 @@ public:
 purecall
 pvec_color_black
 pvec_color_white
-quX?
-r\tVr.>T
 r_draw_particle_children_with_parents
 r_drawparticles
 r_freezeparticles
@@ -5985,8 +5912,6 @@ use soft edges for distance alpha
 use the derivative
 use velocity for test direction
 use_additional_offset
-uzKs@>
-v2!L.2
 value
 value to lerp to
 vanmgrph
@@ -6062,7 +5987,6 @@ vpcf9
 vr_carry_type
 vsnap
 vstdlib.dll
-w8#5
 wait for children to finish
 warp amount
 warp max
@@ -6085,8 +6009,6 @@ yaw offset min
 yaw random exponent
 yaw_end
 yaw_start
-z:KCAuthPhysBody
-{YIN?
 {flat}
 {for 
 {}[]()=&, \t\n'"*;

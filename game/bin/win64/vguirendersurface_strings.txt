@@ -1,7 +1,5 @@
                           
                 AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZ
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -32,6 +30,8 @@
 #include is NULL 
 #var_
 #var_%s
+%%%d
+%%%s%%
 %d %d %d %d
 %d_hidden
 %d_width
@@ -40,6 +40,8 @@
 %lld
 %s moved to front\n
 %s string image, int src_corner_height, int src_corner_width, int draw_corner_height, int draw_corner_width
+%s%d
+%s%s
 %s, bool showScrollBar, bool allowMouseWheel, bool overrideChildPanelWidth
 %s, bool textHidden, bool editable, bool unicode, bool NumericInputOnly, int maxchars
 %s, int SubTabPosition
@@ -60,9 +62,7 @@
 &Exit
 &Reload Localization
 &Save
-&Sgw
 (no name)
-*StO9>T
 -avx
 -language
 -pixel_offset_x
@@ -234,46 +234,28 @@
 .tls$
 .tls$ZZZ
 .vmat
-.xJ>Hf
 .xdata
 .xdata$x
 0 - no auto-resize
 0 - top-left
-0\f%0t
-0iN>/
 0x%016llX
 1 - resize right
 1 - top-right
-11Y@
 2 - bottom-left
 2 - resize down
 255 255 255 255
 3 - bottom-right
 3 - down & right
-37>k
-3>N;kU
-3>fvw
 4 - no pin
-5\r%5h
-;1cb
 <NULL>
 <deferred>
 <no failure reason set>
 <null>
 <unconnected>
-=1cb
-=87M
-=cQ6
-=imb;D
->cQ6
->jtm}S
-?1cb
-?7zQ6$
 ??0CThreadFastMutex@@QEAA@XZ
 ??0CThreadMutex@@QEAA@PEBD@Z
 ??0CThreadMutex@@QEAA@XZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
-?CircularProgressBar
 ?DevMsg@@YAXPEBDZZ
 ?FixSlashes@CBufferString@@QEAAPEBDD@Z
 ?FixupPathName@CBufferString@@QEAAPEBDD@Z
@@ -297,11 +279,6 @@
 ?UnlockRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?UnlockWrite@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
-?f`Y4
-?qBJ
-?ysB
-@^8U)zj
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
 AUUUUUU
@@ -328,8 +305,6 @@ AssetSystem001
 AssetSystemTest001
 August
 AutoResize
-BC?>6t9^\tc:>
-BF>^G
 Bad dynamic_cast!
 Bad expression operator: '%c%c', expected C style boolean expression operator.
 Bad expression syntax: '%s', expected a single matching pair of enclosing braces.
@@ -446,6 +421,7 @@ CheckButton.HighlightFgColor
 CheckButton.SelectedTextColor
 CheckButton.TextColor
 CheckButtonChecked
+CircularProgressBar
 CircularProgressBar.BgColor
 CircularProgressBar.FgColor
 ClickPanel
@@ -559,7 +535,6 @@ DrawUnicodeString
 DrawWordBubble
 DropContext
 ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!\n
-ET5>
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EconItemToolModel_001
 EditMenu
@@ -580,7 +555,6 @@ ExpandButton
 ExpandButton.Color
 Expanded
 FATAL ERROR: unable to register all schema data: %s\n
-FEMh\f
 February
 Fieldname is not unique: %s\nRename it and try again.
 FileSelectionCombo
@@ -683,7 +657,6 @@ HorizScrollBar
 HostStateMgr001
 Hotkey
 IMECandidatesMenu
-IND)ind)
 IND)ind)fmodf
 INITY
 IQuickTime001
@@ -725,8 +698,6 @@ KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s\n
 KeyValues::SaveToFile: couldn't open file "%s" in path "%s".\n
 KeyValuesSystem
 KillFocus
-L=RadioButton
-L>ev
 LCMapStringEx
 LCMapStringW
 LINUX
@@ -779,7 +750,6 @@ MarlettSmall
 MaterialUtils_001
 MathLib_Init
 Maximize
-MbP?
 Menu
 Menu.ArmedBgColor
 Menu.ArmedTextColor
@@ -836,7 +806,6 @@ NextChild
 None
 November
 NumericInputOnly
-OZQ%
 October
 OnCancel
 OnChangeChild
@@ -909,7 +878,7 @@ QueryPerformanceCounter
 Queued fxn call: %s '%s'\n
 Queued fxn call: %s\n
 QueuedLoaderVersion001
-RSDS
+RadioButton
 RadioButtonChecked
 RaiseException
 RecursiveLoadFromBuffer:  got EOF instead of keyname
@@ -955,7 +924,6 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S9>H
 SHELL32.dll
 SHGetFileInfoA
 SNAN)
@@ -1232,15 +1200,10 @@ WorldRendererBuilderMgr001
 WorldRendererMgr001
 WriteConsoleW
 WriteFile
-X/4B
 X360
 [ no resource file associated with dialog ]
 [%s] applying key '%s', has changed from '%s' to '%s'\n
-[aOni*{
 [nothing currently selected]
-\tcQr
-\tkE>fvw
-^<V7w
 _RDATA
 _V_ComposeFileName
 _V_ExtractFileExtension
@@ -1372,7 +1335,6 @@ corner
 cosf
 cvar_name
 cvar_value
-d8L2
 dddd, MMMM dd, yyyy
 debugbreak
 default
@@ -1398,8 +1360,6 @@ drawcolor_override
 drophoverdelay
 droppable
 dulltext
-eF>t
-eLK(w
 east
 editable
 enabled
@@ -1436,7 +1396,6 @@ frames
 g_Tier1_CRC32Table
 g_pMemAlloc
 group
-h0'D
 handle
 hslider
 iconImage
@@ -1451,7 +1410,6 @@ inputsystem
 invalid_parameter
 itemID
 itemIndex
-k=yI
 keyboardFocusColor_override
 keyboardinputenabled
 labelText
@@ -1460,8 +1418,6 @@ lastBarWidth
 left
 localize
 log10
-mG4>
-m\nXo
 m_bAutoHideButtons
 m_flAlpha
 m_iTitleTextInsetXOverride
@@ -1483,7 +1439,6 @@ maxchars
 minimum-height
 minimum-width
 mouseinputenabled
-n03>Pu
 navDown
 navLeft
 navRight
@@ -1492,7 +1447,6 @@ newPanel
 north
 north-east
 north-west
-obwQ4
 oldtall
 oldwide
 operator
@@ -1502,7 +1456,6 @@ operator<=>
 original
 outoffocus_bgcolor_override
 overrideChildPanelWidth
-owM&
 paintbackground
 paintborder
 panel
@@ -1527,7 +1480,6 @@ proportional_int
 proportional_xpos
 proportional_ypos
 purecall
-r\tVr.>T
 r_screen_size_expansion
 replace
 replaceSelection
@@ -1539,7 +1491,6 @@ resourcesystem
 restrict(
 result
 right
-sHF'
 scaleAmount
 scaleImage
 screenx
@@ -1610,8 +1561,6 @@ url
 use scheme colors
 use_proportional_insets
 usetitlesafe
-uzKs@>
-v2!L.2
 variable
 vgui/
 vgui2

@@ -6,9 +6,9 @@
   Program %d %s\n
   duration=%0.3f\n
   keyframe=%d\n
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+  size=%d\n
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ %.2s:%.2s
  %02x
  (clean effects)
  (comment)
@@ -20,7 +20,6 @@
  (lyrics)
  (original)
  (visual impaired)
- 23\fq
  RUD
  full %hhu
 !(e=av_dict_get(*options, "protocol_blacklist", ((void *)0), 0)) || (uc->protocol_blacklist && !strcmp(uc->protocol_blacklist, e->value))
@@ -29,9 +28,10 @@
 !dst->codec_whitelist && !dst->format_whitelist && !dst->protocol_whitelist && !dst->protocol_blacklist
 !s->write_flag
 !whitelist || !(e=av_dict_get(*options, "protocol_whitelist", ((void *)0), 0)) || !strcmp(whitelist, e->value)
-$tIALBUMARTIST
 %*X %X %X %X
 %+08.4f%+09.4f
+%.4s
+%0*d
 %0.3f
 %02d:%02d:%02d%c%02d
 %02d:%02d:%02d.%02d
@@ -39,8 +39,12 @@ $tIALBUMARTIST
 %02x
 %06lx%s
 %08x 
+%1.0f %s
 %1.0fk %s
+%1.4f %s
+%3.2f %s
 %Id bytes of comment header remain\n
+%d/%d
 %lld
 %lld %lld %lld / %s %s %s target:%s limit:%lld start:%lld noc:%d\n
 %lld kb/s
@@ -49,10 +53,12 @@ $tIALBUMARTIST
 %s #%d, %s, %s '%s':\n
 %s%d.%06d
 %s%lld
+%s-%s
+%s/%s
 %s: pri %d trc %d matrix %d
 %sMetadata:\n
 %sSide data:\n
-( 8PX
+%s_%d
 (%f/%f/%f) 
 ('8PW
 ((AVFrame *)pkt->data)->buf
@@ -63,13 +69,10 @@ $tIALBUMARTIST
 , SAR %d:%d DAR %d:%d
 , bitrate: 
 , start: 
+-%.2s-%.2s
 --prefix=/d/dev/steam/thirdpartycode/ffmpeg/dev/build_win64 --toolchain=msvc --enable-shared --disable-static --enable-runtime-cpudetect --disable-all --enable-avcodec --enable-avutil --enable-avresample --enable-avformat --enable-swscale --arch=x86_64 --enable-parser=h264 --enable-decoder='aac,h264,vp8,vp9,gif,vorbis,mp3,flac,alac,pcm*' --enable-demuxer='aac,matroska,gif,ogg,mov,mp3,flac,wav' --enable-hwaccels --enable-dxva2 --disable-decoder=mpeg1video --disable-decoder=mpeg2video --disable-decoder=vc1 --disable-decoder=h263 --enable-libvpx
--64OS
 .mp1
-.mp2
-.mp3
 0123456789ABCDEF0123456789abcdefFFmpeg version 3.3.4
-012v
 0x%016llX%016llX%016llX%016llX
 0x%016llX%016llX%016llX%016llX%016llX%016llX%016llX%016llX
 1#IND
@@ -80,7 +83,6 @@ $tIALBUMARTIST
 2 F!\#J&U(8*W+A-;0O1]3Y7_=LCSMP
 24BG
 2Vu1
-2\vpp
 2vuy
 32x32 pixels 'file icon'
 333333
@@ -94,7 +96,6 @@ $tIALBUMARTIST
 700WP
 77214d4b196a87cd520045fd20a51d67
 8BPS2
-:Feje$
 <GSpherical:InitialViewHeadingDegrees>
 <GSpherical:InitialViewPitchDegrees>
 <GSpherical:InitialViewRollDegrees>
@@ -105,7 +106,6 @@ $tIALBUMARTIST
 <GSpherical:StitchingSoftware>
 A bright coloured fish
 A capella
-A(L4
 AALP
 AAS4K
 AASCL
@@ -114,6 +114,7 @@ ABGR
 ACDV
 ACLR
 AFLC
+ALBUMARTIST
 AMVF
 AP41
 APE Tag is a header\n
@@ -138,7 +139,6 @@ AVIndex stream %d, chunk %u, offset %llx, dts %lld, size %u, duration %u\n
 AVIndex stream %d, sample %u, offset %llx, dts %lld, size %u, distance %d, keyframe %d\n
 AVIndex stream %d, sample %u, offset %llx, dts %lld, size %u, distance %u, keyframe %d\n
 AVRn
-AVUI
 AVd1
 AVdh
 AVdnd
@@ -146,7 +146,6 @@ AVdv
 AVin
 AVj2Z
 AVmp
-AVrp
 AVupf
 AYUV
 A_AAC
@@ -219,11 +218,9 @@ Booty Bass
 BritPop
 Broken file, %skeyframe not correctly marked.\n
 Broken file, trak/mdat not at top-level\n
-C210
 CAVSY
 CDV5
 CDVH
-CFHD
 CHAP
 CHAPTER%03d
 CHQX
@@ -318,7 +315,6 @@ DVR
 DVX3
 DX50\r
 DXD3
-DXDI
 DXGM\r
 DYM4\r
 D_WEBVTT/CAPTIONS
@@ -401,7 +397,6 @@ FLAC
 FLV1
 FLV4
 FMP4\r
-FMVC
 FPS1
 FRWU
 FSV1
@@ -496,7 +491,6 @@ HDX4\r
 HDYC
 HFYUD
 HH:mm:ss
-HMXB
 HandBrake %d.%d.%d
 Hap1
 Hap5
@@ -548,7 +542,6 @@ INMC
 IPJ2Y
 IPRD
 IPRT
-ISCC
 ISFT
 ISMP
 ISO: File Type Major Brand: %.4s\n
@@ -660,13 +653,6 @@ List of protocols that are allowed to be used
 List of protocols that are not allowed to be used
 Lo-Fi
 Lyricist/text writer
-M0G0
-M0R0
-M0RA
-M0RG
-M0Y2
-M101
-M102
 M263
 M4CC\r
 M4S2\r
@@ -676,16 +662,8 @@ M702
 M703
 M704
 M705
-M8G0
-M8RA
-M8RG
-M8Y0
-M8Y2
-M8Y4
-M8YA
 MAC3\nP
 MAC6+P
-MAGY
 MAIN
 METADATA_BLOCK_PICTURE
 MJ2CY
@@ -740,9 +718,7 @@ Multiple mdhd?\n
 Musical
 NAME
 NELL
-NKeb
 NO16
-NONE
 NOPTS
 NULL
 NV12
@@ -822,8 +798,6 @@ QDMC$P
 QIVG
 QMP4\r
 QPEG=
-Qclp
-Qclq
 QuickTime / MOV
 R10g
 R10k
@@ -841,7 +815,6 @@ RIFX
 RMP4\r
 RPZA+
 RSCC
-RSDS
 RT21M
 RV15
 RV16
@@ -864,17 +837,7 @@ Rhythmic Soul
 Rock
 Rock & Roll
 S263W
-S;uD
-SCPR
 SEDG\r
-SHQ0
-SHQ1
-SHQ2
-SHQ3
-SHQ4
-SHQ5
-SHQ7
-SHQ9
 SIPP\r
 SL25
 SLDV
@@ -887,13 +850,11 @@ SN40\r
 SNOW#
 SP54|
 SPV1
-SPXN
 STREAMINFO must be first FLACMetadataBlock\n
 STSZ sample size %d invalid (too large), ignoring\n
 STSZ sample size %d invalid (too small), ignoring\n
 SUDS
 SVQ1
-SVQ3
 SVQ3\r
 S_ASS
 S_DVBSUB
@@ -923,14 +884,6 @@ Setting avg frame rate based on r frame rate\n
 Setting default whitelist '%s'\n
 Setting the AVFormatContext to bitexact mode, because the AVCodecContext is in that mode. This behavior will change in the future. To keep the current behavior, set AVFormatContext.flags |= AVFMT_FLAG_BITEXACT.\n
 Showtunes
-Shr0
-Shr1
-Shr2
-Shr3
-Shr4
-Shr5
-Shr6
-Shr7
 Skipped opening external track: stream %d, alias: path='%s', dir='%s', filename='%s', volume='%s', nlvl_from=%d, nlvl_to=%d.Set enable_drefs to allow this.\n
 Skipping %d bytes of junk at %lld.\n
 Skipping %s ID3v2 frame %s.\n
@@ -963,7 +916,6 @@ SystemFunction036
 T263
 TALB
 TALBTBPMTCOMTCONTCOPTDLYTENCTEXTTFLTTIT1TIT2TIT3TKEYTLANTLENTMEDTOALTOFNTOLYTOPETOWNTPE1TPE2TPE3TPE4TPOSTPUBTRCKTRSNTRSOTSRCTSSE
-TARV<
 TCMP
 TCOM
 TCON
@@ -980,7 +932,6 @@ TENC
 TIME
 TIT2
 TLAN
-TM20
 TPE1
 TPE2
 TPE3
@@ -1028,7 +979,6 @@ Trip-Hop
 Truncating packet of size %d to %lld\n
 Tuesday
 U263
-UCOD
 UDTA parsing failed retrying raw\n
 ULDX\r
 ULH0
@@ -1093,8 +1043,6 @@ VDTZ
 VIDM\r
 VIXL=
 VMnc^
-VNna
-VNo7
 VP30[
 VP31
 VP31+
@@ -1146,7 +1094,6 @@ WAVEFORMATEX support for RIFX files
 WAVEFORMATEXTENSIBLE_CHANNEL_MASK
 WAWV\r
 WHAM/
-WMA2
 WMV1
 WMV2
 WMV3
@@ -1173,12 +1120,10 @@ Xxanr
 Y216
 Y411
 Y41B
-Y41P
 Y41P3
 Y422
 Y42B
 Y800
-YLC0
 YUNV
 YUV8K
 YUV9
@@ -1192,32 +1137,28 @@ YVU9
 YVYU
 ZECO
 ZJPG
-ZLIB\f
 ZMBVV
 ZMP4\r
 Zero bytes per frame, but %d samples per frame
 ZyGo
 [%zu, %zu, %zu, %zu] 
+[0x%x]
 [aax] activation_bytes option is missing!\n
 [aax] activation_bytes value needs to be 4 bytes!\n
 [aax] audible_fixed_key value needs to be 16 bytes!\n
 [aax] error in drm blob decryption!\n
 [aax] file checksum == 
 [aax] mismatch in checksums!\n
+[pad %lu] 
 \n%s  %-16s: 
-\r\r\r\r\v\v\v\v\v\v\v\v\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\n\n\n\n\v\v\v\v\f\f\f\f\r\r\r\r
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 _cabs
 _hypot
 _logb
 _nextafter
-`h`hhh
 a12v
 abcdefghijklmnopqrstuvwxyz
 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+-.
 abort decoding on minor error detection
-ac-3
 account_id
 account_type
 aclr not decoded - incomplete atom\n
@@ -1469,7 +1410,6 @@ binary
 bitexact
 bitrate max/min/avg: %d/%d/%d buffer size: %d vbv_delay: %lld
 bitstream
-bj*iH
 block_lr
 block_rl
 bottom_top
@@ -1477,7 +1417,6 @@ buf_size >= 0
 buffer
 bxbg
 bxrg
-bxy2
 bxyv
 c608
 cache
@@ -1586,10 +1525,6 @@ dref
 drop a frame at curr_cts: %lld @ %lld\n
 ds64
 dts shift %d\n
-dtsc
-dtse
-dtsh
-dtsl
 dump_separator
 duplicate saiz atom\n
 duplicate senc atom\n
@@ -1602,7 +1537,6 @@ dvbsub
 dvbtxt
 dvc 
 dvc1
-dvca
 dvcp
 dvcs
 dvh1
@@ -1620,7 +1554,6 @@ dvsd
 dvsl
 e+000
 eac3
-ec-3
 edit_date
 edts
 effects
@@ -1788,7 +1721,6 @@ ilbc\tP
 ilst
 im24
 im32
-ima4
 image/bmp
 image/gif
 image/jpeg
@@ -1819,7 +1751,6 @@ invalid size %lld in stsd\n
 invalid start code %s in RIFF header\n
 jp2h
 jpeg
-kU'9
 karaoke
 keepside
 kernel32.dll
@@ -1932,7 +1863,6 @@ mov_update_dts_shift(): dts_shift set to %d\n
 mp1v
 mp2,mp3,m2a,mpa
 mp2vY
-mp4a
 mp4a config channels %d obj %d ext obj %d sample rate %d ext sample rate %d\n
 mp4v
 mp4v\r
@@ -1995,6 +1925,7 @@ out-of-memory error. Skipping cover art block.\n
 output_ts_offset
 overread end of atom '%.4s' by %lld bytes\n
 packetsize
+pad %d %d\n
 palette
 palette: 
 paramchange: 
@@ -2075,8 +2006,6 @@ sample rate not set\n
 sample_count=%d, sample_duration=%d\n
 sample_rate %lu, 
 sample_size = %u sample_count = %u\n
-samr
-sawb
 sbgp
 season_number
 seek2any
@@ -2093,7 +2022,6 @@ set number of bytes to skip before reading header and frames
 set output timestamp offset
 set packet size
 set probing size
-sevc
 sgi 
 shift timestamps so they are non negative
 shift timestamps so they start at 0
@@ -2128,10 +2056,8 @@ specify how many microseconds are analyzed to probe the input
 speex packet too small\n
 spex$P
 spherical: 
-sqcp
 sqrt
 ssegment
-ssmv\fP
 st->index_entries
 st->internal->avctx->ticks_per_frame
 st->request_probe <= 0
@@ -2238,7 +2164,6 @@ ts_min < ts_max
 tscc:
 tshd
 twos
-tx3g
 type %d, len %d\n
 type:'%s' parent:'%s' sz: %lld %lld %lld\n
 udta
@@ -2270,11 +2195,9 @@ using cached pos_min=0x%llx dts_min=%s\n
 uuid
 uyv1
 v210
-v308
 v408
 v410
 vc-1X
-vdva
 verify embedded CRCs
 version
 version =%d, isom =%d\n
@@ -2308,7 +2231,6 @@ width %lu height %lu
 writing
 wrong chunk count %u\n
 wrong sample count\n
-wwwUUUDDD"""
 x264
 xalg
 xd51
@@ -2339,12 +2261,8 @@ xdvd
 xdve
 xdvf
 xface
-xppwpp
-xpxxxx
 xtor
 yuv10
 yuv2
 yuv4
 yuvs
-z?aUY
-zc%C1

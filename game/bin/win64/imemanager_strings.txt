@@ -96,7 +96,6 @@
 .tls$ZZZ
 .xdata
 0x%4.4x 
-2\vppV
 <deferred>
 <no failure reason set>
 <null>
@@ -142,8 +141,7 @@ CMemAllocSystemInitialize
 COLORCORRECTION_VERSION_1
 COrderedConstructor_Create<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>,class CResolveOrderedFunc<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>,&void __cdecl _ORDERED_INIT_SHUTDOWN_WRAPPER_RESOLVEFUNC<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>(class COrderedConstructor_DependencyManagement<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)> > &)>,0>::AddRef
 CSchemaRegistration::RegisterAllModuleData
-C\TSF: Failed to CoCreateInstance.\n
-C\true
+CUtlString::FormatV
 ChangJie
 Chinese
 Chinese (Simplified)
@@ -212,7 +210,6 @@ FontManager_001
 Full-Width Alphanumeric
 Full-Width Katakana
 GCTL
-GCUtlString::FormatV
 GOOGLEPINYIN2.IME
 GSFailure
 GameResourceServiceClientV001
@@ -406,8 +403,6 @@ Quan Pin 6.0
 QueryPerformanceCounter
 QueuedLoaderVersion001
 Quick
-RSDSw0J8,{ZA
-R\vppV
 RegCloseKey
 RegEnumKeyExA
 RegOpenKeyExA
@@ -476,6 +471,7 @@ StatusWindow_OnSymbol
 SteamAudio001
 TINTLGNT.IME
 TSF Init() Failure!\n
+TSF: Failed to CoCreateInstance.\n
 TSF: Failed to initialize UI Element sink.\n
 TSF: Failed to initialize thread manager sink.\n
 TSF: Failed to load the TSF thread manager.\n
@@ -592,7 +588,6 @@ c:\buildslave\hlvr_rel_win64\build\src\public\ordered_constructor.h
 c:\buildslave\hlvr_rel_win64\build\src\tier1\configvalue.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\utlstring.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier2\schemabindings.cpp
-c\t4
 chajei.ime
 dayi.ime
 error
@@ -622,6 +617,7 @@ purecall
 quick.ime
 sogoupy.ime
 tier0.dll
+true
 winabc.ime
 winabcx.ime
 winar30.ime

@@ -1,8 +1,6 @@
                           
                              
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  AND 
  Base Class Array'
  Base Class Descriptor at (
@@ -24,10 +22,13 @@
  new
  throw(
  volatile
-!5Ng
 !initialFetch
 #File Error#(%d) : 
+%.*f
+%.*s"%w"%s
 %.16g
+%.2X 
+%.2x
 %02d
 %02d:%02d:%02d
 %02x
@@ -50,6 +51,8 @@
 %s (rowid>? AND rowid<?)
 %s (rowid>?)
 %s (~%lld rows)
+%s - %s
+%s AS %s
 %s OR name=%Q
 %s SUBQUERY %d
 %s TABLE %s
@@ -57,13 +60,19 @@
 %s USING INTEGER PRIMARY KEY
 %s VIRTUAL TABLE INDEX %d:%s
 %s mode not allowed: %s
+%s%.*s"%w"
+%s%s
+%s(%d)
 %s(%d) : %s
 %s-mj%08X
 %s-shm
+%s.%s
 %s.%s may not be NULL
+%s: %s
+%s: %s.%s
 %s: %s.%s.%s
+%s:%d
 %s\etilqs_
-( 8PX
 ('8PW
 (NULL)
 (blob)
@@ -75,7 +84,6 @@
 ,<ellipsis>
 ,nil
 -- TRIGGER %s
--64OS
 -Inf
 -journal
 -wal
@@ -102,24 +110,18 @@
 1#INF
 1#QNAN
 1#SNAN
-12MNOPmRSTUVWXYZ[\
-12ijk6n
 2011-06-28 17:39:05 af0d91adf497f5f36ec3813f04235a6e195a605f
 2nd reference to page %d
 3.7.7.1
-3b1$ j
 700PP
 700WP
 922337203685477580
-9Eag
-:DEFGHIJKLMNOP
 :memory:
 <ellipsis>
 <file unknown>
 <program name unknown>
 <unknown>
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@`
-@now
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @wKA
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 AFTER
@@ -147,7 +149,6 @@ BINARY
 Bad memory block found at 0x%p.\n
 Bad memory block found at 0x%p.\n\nMemory allocated at %hs(%d).\n
 Bad ptr map entry key=%d expected=(%d,%d) got=(%d,%d)
-Bcdep
 BitAnd
 BitNot
 BitOr
@@ -193,10 +194,6 @@ Count
 CreateIndex
 CreateTable
 DAMAGED
-DEFGHIJKLMNOP
-DEFGHIJKLMNOPvRSTUVWXYZ[\
-DEFGHIJKLMNOPwRSTUVWXYZ[\
-DEFGHIJKLMNOP~RSTUVWXYZ[\
 DELETE FROM %Q.%s WHERE %s=%Q
 DELETE FROM %Q.%s WHERE name=%Q AND type='index'
 DELETE FROM %Q.%s WHERE tbl_name=%Q and type!='trigger'
@@ -229,7 +226,6 @@ Expire
 Explain
 Expression tree is too large (maximum depth %d)
 Expression: 
-FGHIJKLMNOP
 Failed to read ptrmap key=%d
 February
 FkCounter
@@ -239,7 +235,6 @@ Fragmentation of %d bytes reported as %d on page %d
 Free
 Friday
 Function
-GHEFGHIJKLMNOP
 GROUP
 GROUP BY
 GetActiveWindow
@@ -256,7 +251,6 @@ HEAP CORRUPTION DETECTED: before %hs block (#%d) at 0x%p.\nCRT detected that the
 HEAP CORRUPTION DETECTED: on top of Free block at 0x%p.\nCRT detected that the application wrote to a heap buffer that was freed.\n
 HEAP CORRUPTION DETECTED: on top of Free block at 0x%p.\nCRT detected that the application wrote to a heap buffer that was freed.\n\nMemory allocated at %hs(%d).\n
 HH:mm:ss
-HMXB
 Halt
 HaltIfNull
 HerF
@@ -301,14 +295,12 @@ LC_TIME
 LIKE or GLOB pattern too complex
 LIMIT clause should come after %s not before
 LIST
-LLLLLLLLLL
 Largest number used: %Id bytes.\n
 Last
 List of tree roots: 
 LoadAnalysis
 MATCH
 MM/dd/yy
-MNOPQRSTUVWXYZ[\
 Main freelist: 
 MakeRecord
 March
@@ -322,7 +314,6 @@ Move
 Multiple uses for byte %d of page %d
 Multiply
 MustBeInt
-NKeb
 NO ACTION
 NOCASE
 NONE
@@ -386,8 +377,6 @@ RESTRICT
 RIGHT and FULL OUTER JOINs are not currently supported
 ROLLBACK
 ROWID
-RSDS
-RSTUVWXYZ[\
 RTRIM
 ReadCookie
 Real
@@ -409,7 +398,6 @@ Rowid %lld out of order (max larger than parent min of %lld)
 Rowid %lld out of order (min less than parent max of %lld)
 Rowid %lld out of order (min less than parent min of %lld)
 Rowid %lld out of order (previous was %lld)
-S;uD
 SCALAR
 SCAN
 SCAN TABLE %s %s%s(~%d rows)
@@ -512,14 +500,11 @@ VNext
 VOpen
 VRename
 VUpdate
-VWXB
-VWXYZ[\
 Vacuum
 Variable
 VerifyCookie
 Warning
 Wednesday
-X129x
 Yield
 [X]Ti
 [thunk]:
@@ -551,10 +536,8 @@ _heapchk fails with _HEAPBADEND.\n
 _heapchk fails with _HEAPBADNODE.\n
 _heapchk fails with _HEAPBADPTR.\n
 _heapchk fails with unknown return value!\n
-_ijk
 _rowid_
 `RTTI
-`abcdef
 `adjustor{
 `anonymous namespace'
 `copy constructor closure'
@@ -566,7 +549,6 @@ _rowid_
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static destructor helper'
 `local static guard'
 `local static thread guard'
@@ -604,7 +586,6 @@ a GROUP BY clause is required before HAVING
 a JOIN clause is required before %s
 a NATURAL join may not have an ON or USING clause
 aTR'
-abcdefVW12vtm
 abcdefghijklmnopqrstuvwxyz
 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
 abort at %d in [%s]: %s
@@ -675,7 +656,6 @@ cannot rollback transaction - SQL statements in progress
 cannot start a transaction within a transaction
 cannot use index: %s
 case_sensitive_like
-cdeL
 changes
 char
 char 
@@ -818,7 +798,6 @@ german-swiss
 glob
 great britain
 group_concat
-h)jDEFGHIJKLMNOP\vRSTUVWXYZ[\
 hidden
 holland
 hong-kong
@@ -853,7 +832,6 @@ italian-swiss
 journal_mode
 journal_size_limit
 julianday
-kU'9
 keyinfo(%d
 large file support is disabled
 last_insert_rowid
@@ -870,7 +848,6 @@ long
 long 
 lower
 ltrim
-m12x
 main
 malformed database schema (%s)
 match
@@ -883,7 +860,6 @@ misuse of aggregate: %s()
 misuse of aliased aggregate %s
 mode
 month
-nDEFGHIJKLMNOPvRSTUVWXYZ[\
 name
 name=%Q
 name='%q' AND type='index'
@@ -1104,7 +1080,6 @@ type='trigger' AND (%s)
 type='trigger' AND name='%q'
 type='view'
 typeof
-uFo,w_1#
 uLm:.P
 unable to close due to unfinalised statements
 unable to close due to unfinished backup operation
@@ -1178,12 +1153,8 @@ winWrite
 writable_schema
 wrong # of entries in index 
 wrong number of arguments to function %.*s()
-xppwpp
-xpxxxx
 year
 yf8x5
-z?aUY
-zc%C1
 zeroblob
 zeroblob(%d)
 {flat}

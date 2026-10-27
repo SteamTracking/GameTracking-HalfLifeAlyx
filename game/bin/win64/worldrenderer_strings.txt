@@ -1,21 +1,19 @@
                           
                 AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZCUtlString::FormatV
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
- C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
  Type Descriptor'
  delete
  delete[]
  new
-"e?<<<<<<l?
-$Ib?s
 %cmaps%c
 %d %d %d %d
 %d (s/n %d)
+%f %f %f
+%g %g
+%g %g %g
 %g %g %g %g
 %i %i %i %i
 %lld
@@ -28,27 +26,23 @@ $Ib?s
 %s allocation count overflow
 %s allocation count overflow( %llu > %llu )\n
 %s allocation count overflow( %llu >= %llu )\n
+%s%s
 %s( No I/O Connections )\n
 %s0x%08X %s = "%s"\n
 %s0x%08X:%s = "%s"\n
+%s: %s\n
 %s: string format requested %d chars\n
 %s== World '%s' Entity Lump '%s': %d entities ==\n
 %sEntity %d (%s '%s'):\n
 %sI/O Connections:\n
-&?PPPPPPP?
-&Sgw
 (None)
 (hide)
 (null)
 (show)
 (spew)
-)yIx
-*StO9>T
 ++%s is at refcount %d\n
 +inf
-,HR>O
 --%s is at refcount %d\n
--BH>t
 -avx
 -enable_2gb_morphs
 -inf
@@ -56,7 +50,6 @@ $Ib?s
 -sse3
 -sse4
 .00cfg
-.>\rfJBGo
 .?AUAsyncProcessResult@CBaseIntrospectedToKV3TypeManager@@
 .?AV<lambda_1>@?1???$ConvertFromBC6h@UBGRA8888_t@@$00@ImageLoader@@YA_NPEBEPEAUBGRA8888_t@@HH@Z@
 .?AV<lambda_1>@?1???$ConvertFromBC6h@URGBA32323232F_t@@$0A@@ImageLoader@@YA_NPEBEPEAURGBA32323232F_t@@HH@Z@
@@ -240,10 +233,8 @@ $Ib?s
 .tls$ZZZ
 .vpk
 .vwnod
-.xJ>Hf
 .xdata
 .xdata$x
-/2GG>!B
 0 = Density corresponds to blade existance, 1 = Density corresponds to blade height, 2 = Both 0 and 1
 0 = Off, 1 = Low, 2 = Med, 3 = high, 4 = ultra
 0.003
@@ -252,32 +243,11 @@ $Ib?s
 0.707 0.707 0.0
 00000000-0000-0000-0000-000000000000
 0123456789abcdefghijklmnopqrstuvwxyz
-0E>X
-0X8b?~
-0iN>/
 10.0
-11Y@
 1DBlend
 2000.0
-2\rU2h
-3 FB
 3000.0
-37>k
-3>N;kU
-3>fvw
-3?tr
 40.0
-51>W
-6NK>
-6\fXO>\ntA
-7>I0
-7?GX
-7~xh
-8Ccosf
-8ke?;
-9>70
-9>powf
-;1cb
 <<NULL ENTITY LUMP>>
 <deferred>
 <empty>
@@ -288,23 +258,9 @@ $Ib?s
 <null>
 <unconnected>
 <unknown>
-=1cb
-=87M
-=cQ6
-=e2m
-=imb;D
->TypeManager
->cQ6
->jtm}S
-?!5WOo
-?49HoKC
-?7zQ6$
-?7{KV\nU
-?8bunz8
 ??0CThreadFastMutex@@QEAA@XZ
 ??0CThreadMutex@@QEAA@PEBD@Z
 ??0CThreadMutex@@QEAA@XZ
-?@En[vP
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
 ?Concat@CBufferString@@QEAAPEBDPEBD0ZZ
 ?ExtractFileBase@CBufferString@@QEAAPEBDPEBD@Z
@@ -316,7 +272,6 @@ $Ib?s
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@PEBULoggingMetaData_t@@PEBDZZ
 ?Purge@CBufferString@@QEAAXH@Z
-?R0I?
 ?Relinquish@CBufferString@@QEAAPEADW4EAllocationOption_t@1@@Z
 ?RemoveAt@CBufferString@@QEAAPEBDHH@Z
 ?Replace@CBufferString@@QEAAHPEBD0_N@Z
@@ -327,17 +282,9 @@ $Ib?s
 ?StartsWith@CBufferString@@QEAA_NPEBD@Z
 ?StripExtension@CBufferString@@QEAAPEBDXZ
 ?ToLowerFast@CBufferString@@QEAAXH@Z
-?UUUUUU
 ?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
-?f`Y4
-?kxG2)
-?lZE
-?qBJ
-?rAj
-?ysB
-A>pP&
 AABB_t
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABGR8888
@@ -373,7 +320,6 @@ AE_VORTIGAUNT_ZAP_SHOOT
 AE_ZOMBIE_POPHEADCRAB
 AE_ZOMBIE_TOGGLE_HEAD
 AIWalkable
-AK>(v
 ANIMATION_TYPE_FIT_LIFETIME
 ANIMATION_TYPE_FIXED_RATE
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
@@ -430,8 +376,6 @@ Attempted to set attribute %s as if it was a non-attribute key!\n
 August
 AutoLayer
 BC6H
-BC?>6t9^\tc:>
-BF>^G
 BGR101111_UFLOAT
 BGR565
 BGR888
@@ -485,9 +429,9 @@ BoneOverride_t
 BreakCommand
 BreakPieceEmbedded
 BreakPieceExternal
-C5R?\t
 CAnimMotorList
 CAnimMovementManager
+CAuthPhysBody
 CAuthPhysJoint
 CBaseIntrospectedToKV3TypeManager::AllocateResourceFromAsyncResult
 CEmptyEntityInstance
@@ -511,10 +455,8 @@ CGlobalConfigValueRegistry::HookUpConfigValue
 CGrassTileObjectDesc::CreateGrass(1267): 
 CHandle
 CKV3FormatManager::RegisterFormatConversion
-CL:>8
 CMemAllocSystemInitialize
 CMotionTransform
-CNULL
 CNetworkVarChainer
 COLLISION_MODE_INITIAL_TRACE_DOWN
 COLLISION_MODE_PER_FRAME_PLANESET
@@ -563,7 +505,6 @@ CUtlVector
 CVariantBase
 CVariantDefaultAllocator
 CVoxelVisibility
-CWD>~3
 CWorld::CacheNodes
 CWorldNode::CreateSceneObjects(612): 
 CWorldNode::GrassFileCreateManifest
@@ -710,7 +651,6 @@ Double-register of KV3 conversion (from '%s' to '%s')
 Dump all of the worlds that we know about
 Dump the contents of an entity lump
 DynamicConfigList
-E>nEA
 ENTITY_DORMANT
 ENTITY_IO_TARGET_CLASSNAME
 ENTITY_IO_TARGET_CLASSNAME_DERIVES_FROM
@@ -725,12 +665,9 @@ ENTITY_LUMP_NONE
 ENTITY_NOT_DORMANT
 ENTITY_SUSPENDED
 ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!\n
-ET5>
 EXPORTSYSTEM_INTERFACE_VERSION_001
-E[\rn?gc
 EconItemToolModel_001
 EditorDynamicConfig
-EiUL
 EmptyAnim
 EncodeBC6Blocks
 EncodeBC7Blocks
@@ -769,10 +706,8 @@ Expected token
 Expected type of next member
 Expected value or ']'
 ExtraVertexStreamOverride_t
-F>qUxv
 FATAL ERROR: unable to register all schema data: %s\n
 FCVAR_NEVER_AS_STRING
-FEMh\f
 Failed to allocate an instance of a class
 Failed to assign bool literal value
 Failed to call CBaseIntrospectedToKV3TypeManager::Init
@@ -781,7 +716,6 @@ Failed to load geometry for level %s\n
 Failed to mount world vpk file %s, file could not be found.\n
 Failed to transfer KV3 data for resource '%s' - %s\n
 February
-FfW?
 FillAttr
 FindClose
 FindFirstFileExW
@@ -810,7 +744,6 @@ FontManager_001
 FreeEnvironmentStringsW
 FreeLibrary
 Friday
-G>US
 GAME
 GCTL
 GameResourceServiceClientV001
@@ -893,7 +826,6 @@ IND)ind)"
 INITY
 IQuickTime001
 IkLockLocal
-Il?333333c?
 InfoForResourceTypeCEntityLump
 InfoForResourceTypeCModel
 InfoForResourceTypeCRenderMesh
@@ -927,8 +859,6 @@ KL2H
 KV3 load transfer failed for resource '%s': %s
 KeyValueCache001
 KeyValuesSystem
-L>ev
-L?UUUUUUU?
 LCMapStringEx
 LCMapStringW
 LE_BGRA8888
@@ -945,8 +875,6 @@ LINEAR_RGB888
 LINEAR_RGBA16161616
 LINEAR_RGBA8888
 LOG_GENERAL
-LWG>
-LWW>
 LeaveCriticalSection
 Lightmap version number is out of date! Reverting to dynamic lighting
 Line %d at "%s": %s
@@ -965,7 +893,6 @@ LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
 LoggingSystem_RegisterLoggingChannel
 Long grass load frame: %f ms for %d grass tiles\n
-LrwcE
 MATCHFRAMEWORK_001
 MClassHasCustomAlignedNewDelete
 MM/dd/yy
@@ -984,7 +911,6 @@ March
 MaterialOverride_t
 MaterialUtils_001
 MathLib_Init
-MbP?
 MeshDrawPrimitiveFlags_t
 MeshSystem001
 MeshUtils001
@@ -993,10 +919,7 @@ ModelDocUtils001
 Monday
 MountWorldVPK() ++%s is at refcount %d\n
 MultiByteToWideChar
-N3`d?
-N>O=I9
-N>VF
-NQ?s
+NULL
 NV_DST16
 NV_DST24
 NV_INTZ
@@ -1033,7 +956,6 @@ OBJECT_TYPE_PRECOMPUTED_VISMEMBERS
 OBJECT_TYPE_RENDER_TO_CUBEMAPS
 OBJECT_TYPE_RENDER_WITH_DYNAMIC
 OBJECT_TYPE_WORLDSPACE_TEXURE_BLEND
-OZQ%
 ObjectTypeFlags_t
 October
 Offset
@@ -1088,7 +1010,6 @@ Plat_SetDenormalsAreZero
 Plat_ShouldCollectMiniDumpsForFatalErrors
 Plat_UUIDFromString
 Plat_UUIDToString
-Po5H
 PostProcessingSystem_001
 PreviewAttachmentModel
 PreviewBoneAttachedModel
@@ -1098,8 +1019,6 @@ PreviewPresetList
 Print model load-time conversion info
 PropertyEditorSystem_001
 PushCurrentSkewBrightnessValuesToSceneObject
-Q5rHg,>
-QAf?
 QAngle
 Quaternion
 QueryPerformanceCounter
@@ -1111,6 +1030,7 @@ R32F
 R32_UINT
 R8G8B8A8_ETC2_EAC
 R8G8B8_ETC2
+R8_UINT
 RESOURCE_TYPE_ENTITY_LUMP
 RESOURCE_TYPE_WORLD
 RESOURCE_TYPE_WORLD_NODE
@@ -1139,7 +1059,6 @@ RGBA8888
 RGBA8888_LINEAR
 RGBX555
 RGBX8888
-RSDS
 RadianEuler
 RaiseException
 RandomFloat
@@ -1176,9 +1095,6 @@ RtlPcToFileHeader
 RtlUnwind
 RtlUnwindEx
 RtlVirtualUnwind
-S+Ot
-S9>H
-S>$hkDh$h>[2
 SNAN)
 SSE and SSE2 are required.
 Saturday
@@ -1252,7 +1168,7 @@ Trying to find a flex controller (%s) that doesn't actually exist in the model.\
 Tuesday
 Two Bone
 Two KV3 format GUIDs with the same human-friendly name ('%s')
-UA>N0Wl
+TypeManager
 UNKNOWN
 UPDATE_STRING_TOKEN_DATABASE
 UUUUUU
@@ -1344,12 +1260,10 @@ Vector2D
 Vector4D
 VectorAligned
 VisBuilder_001
-W=vmdlkeys0
 WARNING: Failed to convert introspected block for file: %s\n
 WARNING: Invalid resource version (%d): %s\n
 WARNING: Invalid worldnode version '%d' for file: %s\n
 WARNING: Trying to create a CRenderContextPtr without a valid context.\n
-WaNd?
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning
@@ -1372,28 +1286,13 @@ WorldRendererMgr001
 World_t
 WriteConsoleW
 WriteFile
-X/4B
 X360_DST16
 X360_DST24
 X360_DST24F
-Y8a:
-Y>kX>M
-Z\>z8
-[*ncd>0
-[aOni*{
-\nCwf\r
 \nLoaded List:\n
 \nPending List:\n
-\nh?oT
-\nk>oB
-\r\f\v\v\n\n\t\t\t\t\t
 \tWorld: %s
 \t\t\tNodes Loaded: %d / %d\n
-\tcQr
-\tkE>fvw
-\vA03>A|
-^<V7w
-^RfN>
 _RDATA
 _V_strncmp
 _V_strncpy
@@ -1415,7 +1314,6 @@ __thiscall
 __unaligned
 __vectorcall
 _class
-_oD>Kg
 _test_conversion_counter
 `RTTI
 `anonymous namespace'
@@ -1453,7 +1351,6 @@ _test_conversion_counter
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
-a6>r
 abcdefghijklmnopqrstuvwxyz
 address family not supported
 address in use
@@ -1505,7 +1402,6 @@ breakable_count
 breakable_model
 breakable_skin
 broken pipe
-bt3V
 burst_randomize
 burst_scale
 c:\buildslave\hlvr_rel_win64\build\src\bitmap\ati_compress_loader.cpp
@@ -1531,7 +1427,6 @@ c:\buildslave\hlvr_rel_win64\build\src\tier2\schemabindings.cpp
 c:\buildslave\hlvr_rel_win64\build\src\worldrenderer\Retail\win64\worldrenderer.pdb
 c:\buildslave\hlvr_rel_win64\build\src\worldrenderer\grasstilesceneobject.cpp
 c:\buildslave\hlvr_rel_win64\build\src\worldrenderer\worldrenderermgr.cpp
-c?FA@s}
 cable
 cantdie
 carry_type
@@ -1552,12 +1447,10 @@ connection already in progress
 connection refused
 connection reset
 control_point
+cosf
 create_particle
 cross device link
 cstring
-d8L2
-d?000000`?
-dRL>
 damage
 dddd, MMMM dd, yyyy
 debris
@@ -1573,8 +1466,6 @@ dmg.explosive
 dmg.fire
 duration
 dynamic_interaction
-eF>t
-eLK(w
 ehandle
 emitFromWorld
 enable_limit
@@ -1597,8 +1488,6 @@ explosion_delay
 explosion_type
 explosive_damage
 explosive_radius
-fD>b
-fWi?
 faceMergeAngle
 false
 file exists
@@ -1622,8 +1511,6 @@ game_keys
 generic
 glow
 gravity
-h0'D
-h>1my
 handindex
 headtype
 health
@@ -1656,11 +1543,9 @@ js_array
 js_object
 js_raw_args
 js_value
-k=yI
 kv 0x%p AddRef refcount == %d\n
 kv 0x%p Release refcount == %d\n
 last_sniff
-lcQe
 length
 lockRotationAlpha
 log10
@@ -1669,10 +1554,6 @@ loop_break_on_damage
 loop_break_on_flashlight
 loop_in_action
 looping
-m?H7
-mG4>
-mXr4
-m\nXo
 m_Bone
 m_CScriptComponent
 m_ChainData
@@ -2034,10 +1915,7 @@ modeldoc8
 modeldoc9
 modellib
 multiplayer_break
-n03>Pu
 nTries < 10000000
-n\f"pA3Q0
-n]?iJ
 name
 nav_attribute_avoid
 nav_data
@@ -2065,9 +1943,6 @@ not enough memory
 not supported
 null
 numsegments
-o?GS
-oI>O7
-obwQ4
 operation canceled
 operation in progress
 operation not permitted
@@ -2079,9 +1954,7 @@ operator co_await
 operator<=>
 origin_max_delta
 origin_relative
-owM&
 owner dead
-p\r0\fP
 parent_bone
 particle
 particles/
@@ -2097,15 +1970,14 @@ point1
 pose_control
 pose_control_type
 position
+powf
 preferred_carryangles
 prop_data
 protocol error
 protocol not supported
 purecall
-qS>g?h3
 qangle
 quaternion
-r\tVr.>T
 r_drawworld
 r_grass_allow_flattening
 r_grass_alpha_test
@@ -2139,7 +2011,6 @@ resourcesystem
 restrict(
 result out of range
 rootNode
-sHF'
 s_EntComponentInfo
 sc_allow_dynamic_constant_batching
 sc_allow_precomputed_vismembers
@@ -2162,7 +2033,6 @@ stream timeout
 string_t
 suppress
 surface_prop
-tZ:Q
 test_angles_relative
 texcoord
 text
@@ -2184,8 +2054,6 @@ unknown_variant_type
 unsigned
 use_additional_offset
 utlstringtoken
-uzKs@>
-v2!L.2
 value
 value too large
 vanmgrph
@@ -2197,6 +2065,7 @@ vector4d
 version
 vmap
 vmdl
+vmdlkeys0
 vmdlkeys1
 vmdlkeys2
 vmdlkeys3
@@ -2234,7 +2103,6 @@ vpcf9
 vr_carry_type
 vsnap
 vstdlib.dll
-w8#o
 width
 world renderer - 
 world_dump_loaded_worlds
@@ -2246,10 +2114,7 @@ worldrenderer
 worldrenderer.dll
 worldspawn
 wrong protocol type
-xT?V
 yaw_end
 yaw_start
-z:KCAuthPhysBody
-{YIN?
 {}[]()=&, \t\n'"*;
 {}[]=, \t\n'":|;

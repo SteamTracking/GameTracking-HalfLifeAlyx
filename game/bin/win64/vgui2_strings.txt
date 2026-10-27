@@ -2,8 +2,6 @@
                 AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZ
   %d:  %s at 0x%p/0x%p \n
   KEY_SPACE
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -16,6 +14,7 @@
 #base is NULL 
 #include
 #include is NULL 
+%d %d
 %d %d %d %d
 %f %f %f %f
 %i %i %i %i
@@ -26,12 +25,12 @@
 %s.ico
 %s.tga
 %s: string format requested %d chars\n
-&Sgw
+%s_%d
+%x %x
 '"KEY_APOSTROPHE
 (no name)
 (null)
 **KEY_PAD_MULTIPLY
-*StO9>T
 ++KEY_PAD_PLUS
 ,<KEY_COMMA
 --KEY_PAD_MINUS
@@ -149,7 +148,6 @@
 .tls
 .tls$
 .tls$ZZZ
-.xJ>Hf
 .xdata
 .xdata$x
 //KEY_PAD_DIVIDE
@@ -158,20 +156,15 @@
 0 0 0 196
 0 0 0 255
 0)KEY_0
-0iN>/
 0x%016llX
 1!KEY_1
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-11Y@
 200 200 200 196
 2@KEY_2
 3#KEY_3
-37>k
-3>N;kU
-3>fvw
 4$KEY_4
 40 40 40 196
 5%KEY_5
@@ -192,12 +185,6 @@
 <null>
 <unconnected>
 =+KEY_EQUAL, L
-=87M
-=cQ6
-=imb;D
->cQ6
->jtm}S
-?7zQ6$
 ??0CThreadFastMutex@@QEAA@XZ
 ??0CThreadMutex@@QEAA@XZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
@@ -211,7 +198,6 @@
 ?Purge@CBufferString@@QEAAXH@Z
 ?SetLength@CBufferString@@QEAAPEADH_NPEAH@Z
 ?SpinLockForWrite@CThreadSpinRWLock@@AEAAXPEBDHI@Z
-?UUUUUU
 ?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
@@ -219,10 +205,6 @@
 ?V_SplitString@@YAXPEBD0AEAV?$CUtlVector@PEADV?$CUtlMemory@PEADH@@@@@Z
 ?V_UnicodeBufferLength@@YAHPEB_WHAEA_N@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
-?f`Y4
-?qBJ
-?ysB
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.dll
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
@@ -240,8 +222,6 @@ AssetPreviewSystem_001
 AssetSystem001
 AssetSystemTest001
 August
-BC?>6t9^\tc:>
-BF>^G
 Bad expression operator: '%c%c', expected C style boolean expression operator.
 Bad expression syntax: '%s', expected a single matching pair of enclosing braces.
 Bad expression token: %c
@@ -386,7 +366,6 @@ DotaCardGameClient_001
 DragDrop
 DragQueryFileA
 DrawIconEx
-ET5>
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EconItemToolModel_001
 EmptyClipboard
@@ -404,7 +383,6 @@ EventSystem001
 ExitProcess
 ExtTextOutA
 FATAL ERROR: unable to register all schema data: %s\n
-FEMh\f
 February
 FgColor
 FgColorDim
@@ -621,7 +599,6 @@ KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s\n
 KeyValues::SaveToFile: couldn't open file "%s" in path "%s".\n
 KeyValuesSystem
 KillFocus
-L>ev
 LBUTTONDBLCLK
 LCMapStringEx
 LCMapStringW
@@ -710,7 +687,6 @@ NetworkSystemUtilsVersion001
 NetworkSystemVersion001
 NotifyIconMsg
 November
-OZQ%
 October
 OleInitialize
 OnMovedPopupToFront
@@ -751,7 +727,6 @@ PropertySheet.TextColor
 PropertySheet.TransitionEffectTime
 QueryPerformanceCounter
 QueuedLoaderVersion001
-RSDSe
 RadioButton.SelectedTextColor
 RadioButton.TextColor
 RaiseException
@@ -804,7 +779,6 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S9>H
 SHDeleteKeyA
 SHELL32.dll
 SHGetFileInfoA
@@ -1052,20 +1026,15 @@ WorldRendererBuilderMgr001
 WorldRendererMgr001
 WriteConsoleW
 WriteFile
-X/4B
 X360
 You need to name the scheme (%s)!
 [%s] unexpected parameter for height="%s" - must be either a number, or "max"\n
 [%s] unexpected parameter for width="%s" - must be either a number, or "max"\n
 [%s] unknown layout command '%s' (valid values 'region', 'place')\n
-[aOni*{
 [{KEY_LBRACKET
-\tcQr
-\tkE>fvw
 \tpanel '%s' of type '%s' leaked\n
 \|KEY_BACKSLASH
 ]}KEY_RBRACKET
-^<V7w
 _RDATA
 _V_ExtractFileExtension
 _V_MakeAbsolutePath
@@ -1172,7 +1141,6 @@ control
 controls
 corner
 custom
-d8L2
 dDKEY_D
 danish
 dashedrect
@@ -1186,8 +1154,6 @@ dropshadow
 dutch
 e+000
 eEKEY_E
-eF>t
-eLK(w
 enabled
 end-down
 end-right
@@ -1209,7 +1175,6 @@ g_pMemAlloc
 german
 gradient
 gradient_horizontal
-h0'D
 hHKEY_H
 height
 iIKEY_I
@@ -1235,7 +1200,6 @@ italian
 italic
 jJKEY_J
 japanese
-k=yI
 kKKEY_K
 keyboard input
 korean
@@ -1247,9 +1211,7 @@ left-center
 list
 localize
 log10
-mG4>
 mMKEY_M
-m\nXo
 margin
 margin-bottom
 margin-left
@@ -1263,7 +1225,6 @@ min height
 min width
 mouse input
 mousepressed
-n03>Pu
 nNKEY_N
 name
 nan(ind)
@@ -1272,7 +1233,6 @@ newPanel
 no such file '%s'\n
 norwegian
 oOKEY_O
-obwQ4
 offset
 ole32.dll
 only
@@ -1282,7 +1242,6 @@ operator co_await
 operator<=>
 outline
 overflow
-owM&
 pPKEY_P
 padding
 padding-bottom
@@ -1306,7 +1265,6 @@ proportional_base
 purecall
 qQKEY_Q
 rRKEY_R
-r\tVr.>T
 r_screen_size_expansion
 range
 region
@@ -1367,8 +1325,6 @@ unknown color '%s' referenced by style key '%s'\n
 unknown pseudoclass on style %s in file %s\n
 update
 uses_appearances
-uzKs@>
-v2!L.2
 vVKEY_V
 vgui/
 vgui/%s

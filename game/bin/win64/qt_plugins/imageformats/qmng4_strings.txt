@@ -1,7 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -12,13 +10,7 @@
  new
  throw(
  volatile
-#?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
-$?red@QColor@@QEBAHXZ
-(?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
-)?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
-)?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
 ,<ellipsis>
--64OS
 .?AUQFactoryInterface@@
 .?AUQImageIOHandlerFactoryInterface@@
 .?AVQImageIOHandler@@
@@ -38,11 +30,8 @@ $?red@QColor@@QEBAHXZ
 1#SNAN
 1.0.10
 1.2.5
-2\n0(Y
-2\vp(Y
 <ellipsis>
 <unknown>
-=\r?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
 ??0QByteArray@@QEAA@PEBD@Z
 ??0QImage@@QEAA@HHW4Format@0@@Z
 ??0QImage@@QEAA@XZ
@@ -61,8 +50,8 @@ $?red@QColor@@QEBAHXZ
 ??4QImage@@QEAAAEAV0@$$QEAV0@@Z
 ??4QImage@@QEAAAEAV0@AEBV0@@Z
 ??BQColor@@QEBA?AVQVariant@@XZ
-?Transformation could not be initialized
 ?append@QListData@@QEAAPEAPEAXXZ
+?blue@QColor@@QEBAHXZ
 ?changeGuard@QMetaObject@@SAXPEAPEAVQObject@@PEAV2@@Z
 ?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
 ?connectNotify@QObject@@MEAAXPEBD@Z
@@ -80,13 +69,31 @@ $?red@QColor@@QEBAHXZ
 ?free@QString@@CAXPEAUData@1@@Z
 ?fromLatin1_helper@QString@@CAPEAUData@1@PEBDH@Z
 ?green@QColor@@QEBAHXZ
+?handler@QVariant@@1PEBUHandler@1@EB
 ?height@QImage@@QEBAHXZ
 ?invalidate@QColor@@AEAAXXZ
+?isOpen@QIODevice@@QEBA_NXZ
+?isReadable@QIODevice@@QEBA_NXZ
 ?metaObject@QImageIOPlugin@@UEBAPEBUQMetaObject@@XZ
+?peek@QIODevice@@QEAA?AVQByteArray@@_J@Z
+?qDebug@@YAXPEBDZZ
+?qFree@@YAXPEAX@Z
+?qWarning@@YAXPEBDZZ
+?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
+?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
+?read@QIODevice@@QEAA_JPEAD_J@Z
+?red@QColor@@QEBAHXZ
 ?removeGuard@QMetaObject@@SAXPEAPEAVQObject@@@Z
+?scanLine@QImage@@QEAAPEAEH@Z
+?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
+?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
+?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
+?setRgb@QColor@@QEAAXHHHH@Z
 ?shared_null@QListData@@2UData@1@A
 ?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
 ?userType@QVariant@@QEBAHXZ
+?width@QImage@@QEBAHXZ
 ?write@QIODevice@@QEAA_JPEBD_J@Z
 A required callback is not defined
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
@@ -121,7 +128,6 @@ EnterCriticalSection
 EnumSystemLocalesA
 Event type is invalid
 ExitProcess
-F&?scanLine@QImage@@QEAAPEAEH@Z
 FatalAppExitA
 February
 FlsAlloc
@@ -134,7 +140,6 @@ FreeLibrary
 Friday
 Function is invalid at this point
 Function not yet implemented
-G\t?handler@QVariant@@1PEBUHandler@1@EB
 GetACP
 GetActiveWindow
 GetCPInfo
@@ -167,7 +172,6 @@ GetUserObjectInformationW
 GetVersion
 Global data length invalid
 HH:mm:ss
-HMXB
 Handle could not be initialized
 HeapAlloc
 HeapCreate
@@ -216,7 +220,6 @@ Missing IDAT chunk(s)
 Missing PLTE chunk
 Monday
 MultiByteToWideChar
-NKeb
 NULL
 NULL separator not found
 No MNG header (MHDR) found
@@ -239,7 +242,6 @@ QtCore4.dll
 QtGui4.dll
 Qt_GetCustomAllocators
 QueryPerformanceCounter
-RSDSh
 RaiseException
 Reading suspended; waiting for I/O to catch up
 Requested nEED resources are not supported
@@ -248,8 +250,6 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S,?setRgb@QColor@@QEAAXHHHH@Z
-S;uD
 SEEK suspension; application decides
 Saturday
 September
@@ -283,6 +283,7 @@ There is not enough data in the IDAT chunk(s)
 Thursday
 Timer suspension; normal animation delay
 Too much data in IDAT chunk(s)
+Transformation could not be initialized
 Tuesday
 UNKNOWN
 UnhandledExceptionFilter
@@ -294,12 +295,6 @@ WideCharToMultiByte
 WriteFile
 Writing was unsuccessful; disk full?
 [thunk]:
-\f?blue@QColor@@QEBAHXZ
-\f?qDebug@@YAXPEBDZZ
-\f?qFree@@YAXPEAX@Z
-\n?isReadable@QIODevice@@QEBA_NXZ
-\r?qWarning@@YAXPEBDZZ
-\r?read@QIODevice@@QEAA_JPEAD_J@Z
 __based(
 __cdecl
 __clrcall
@@ -422,7 +417,6 @@ english-usa
 enum 
 evNT points to unknown SEEK
 extern "C" 
-f"?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 fabs
 float
 floor
@@ -449,7 +443,6 @@ invalid frame/image height
 invalid frame/image width
 irish-english
 italian-swiss
-kU'9
 lcms encountered an error
 ldexp
 log10
@@ -751,9 +744,7 @@ new-zealand
 norwegian
 norwegian-bokmal
 norwegian-nynorsk
-o\n?isOpen@QIODevice@@QEBA_NXZ
 operator
-p\f?peek@QIODevice@@QEAA?AVQByteArray@@_J@Z
 pattern=QT_PLUGIN_VERIFICATION_DATA\nversion=4.8.3\ndebug=false\nbuildkey=Windows x64 msvc release full-config
 portuguese-brazilian
 powf
@@ -814,9 +805,6 @@ void
 volatile
 volatile 
 wchar_t
-z?aUY
-zc%C1
 zlib encountered an error
-{8?width@QImage@@QEBAHXZ
 {flat}
 {for 

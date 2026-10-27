@@ -1,7 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -12,15 +10,7 @@
  new
  throw(
  volatile
-!?platformExtension@QGraphicsSystem@@UEAAPEAVQGraphicsSystemEx@@XZ
-#?qt_metacast@QGraphicsSystemPlugin@@UEAAPEAXPEBD@Z
-$?releaseDC@QPaintDevice@@UEBAXPEAUHDC__@@@Z
-&?runtimeData@QPixmapData@@UEBAPEAV1@XZ
-'?setBoundingRect@QPaintBuffer@@QEAAXAEBVQRectF@@@Z
-)?setGeometry@QRasterWindowSurface@@UEAAXAEBVQRect@@@Z
-*?setMask@QRasterPixmapData@@UEAAXAEBVQBitmap@@@Z
 ,<ellipsis>
--64OS
 .?AUQFactoryInterface@@
 .?AUQGraphicsSystemFactoryInterface@@
 .?AVQGraphicsSystem@@
@@ -45,11 +35,6 @@ $?releaseDC@QPaintDevice@@UEBAXPEAUHDC__@@@Z
 1#INF
 1#QNAN
 1#SNAN
-2\n0,V
-2\vp,V
-6?transformed@QPixmapData@@UEBA?AVQPixmap@@AEBVQTransform@@W4TransformationMode@Qt@@@Z
-8?winId@QWidget@@QEBAPEAUHWND__@@XZ
-8?window@QWindowSurface@@QEBAPEAVQWidget@@XZ
 <ellipsis>
 <unknown>
 ??0QChar@@QEAA@UQLatin1Char@@@Z
@@ -76,8 +61,13 @@ $?releaseDC@QPaintDevice@@UEBAXPEAUHDC__@@@Z
 ??6@YAAEAVQDataStream@@AEAV0@AEBVQRegion@@@Z
 ??6QDataStream@@QEAAAEAV0@H@Z
 ??8QString@@QEBA_NAEBVQLatin1String@@@Z
+?alphaChannel@QPixmapData@@UEBA?AVQPixmap@@XZ
 ?append@QListData@@QEAAPEAPEAXXZ
 ?arg@QString@@QEBA?AV1@_KHHAEBVQChar@@@Z
+?beginNewFrame@QPaintBuffer@@QEAAXXZ
+?beginPaint@QRasterWindowSurface@@UEAAXAEBVQRegion@@@Z
+?buffer@QRasterPixmapData@@UEAAPEAVQImage@@XZ
+?buffer@QWindowSurface@@UEAAPEAVQImage@@PEBVQWidget@@@Z
 ?changeGuard@QMetaObject@@SAXPEAPEAVQObject@@PEAV2@@Z
 ?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
 ?connectNotify@QObject@@MEAAXPEBD@Z
@@ -112,17 +102,37 @@ $?releaseDC@QPaintDevice@@UEBAXPEAUHDC__@@@Z
 ?metric@QRasterPixmapData@@MEBAHW4PaintDeviceMetric@QPaintDevice@@@Z
 ?numFrames@QPaintBuffer@@QEBAHXZ
 ?offset@QWindowSurface@@UEBA?AVQPoint@@PEBVQWidget@@@Z
+?open@QFile@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
+?paintDevice@QRasterWindowSurface@@UEAAPEAVQPaintDevice@@XZ
+?paintEngine@QPaintBuffer@@UEBAPEAVQPaintEngine@@XZ
+?paintEngine@QRasterPixmapData@@UEBAPEAVQPaintEngine@@XZ
+?platformExtension@QGraphicsSystem@@UEAAPEAVQGraphicsSystemEx@@XZ
+?qFree@@YAXPEAX@Z
+?qt_metacall@QGraphicsSystemPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacast@QGraphicsSystemPlugin@@UEAAPEAXPEBD@Z
+?releaseDC@QPaintDevice@@UEBAXPEAUHDC__@@@Z
 ?removeGuard@QMetaObject@@SAXPEAPEAVQObject@@@Z
+?resize@QRasterPixmapData@@UEAAXHH@Z
+?runtimeData@QPixmapData@@UEBAPEAV1@XZ
+?scroll@QRasterPixmapData@@UEAA_NHHAEBVQRect@@@Z
+?setAlphaChannel@QRasterPixmapData@@UEAAXAEBVQPixmap@@@Z
+?setBoundingRect@QPaintBuffer@@QEAAXAEBVQRectF@@@Z
 ?setFloatingPointPrecision@QDataStream@@QEAAXW4FloatingPointPrecision@1@@Z
+?setGeometry@QRasterWindowSurface@@UEAAXAEBVQRect@@@Z
+?setMask@QRasterPixmapData@@UEAAXAEBVQBitmap@@@Z
 ?shared_null@QListData@@2UData@1@A
 ?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
+?toImage@QRasterPixmapData@@UEBA?AVQImage@@AEBVQRect@@@Z
+?toImage@QRasterPixmapData@@UEBA?AVQImage@@XZ
 ?toLower@QString@@QEBA?AV1@XZ
+?transformed@QPixmapData@@UEBA?AVQPixmap@@AEBVQTransform@@W4TransformationMode@Qt@@@Z
+?winId@QWidget@@QEBAPEAUHWND__@@XZ
+?window@QWindowSurface@@QEBAPEAVQWidget@@XZ
 ?writeBytes@QDataStream@@QEAAAEAV1@PEBDI@Z
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 April
 August
 C:\Valve\ThirdPartyCode\lgpl\qt\qt_valve_win64\plugins\graphicssystems\qtracegraphicssystem4.pdb
-C\f?open@QFile@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
 CorExitProcess
 December
 DecodePointer
@@ -170,9 +180,7 @@ GetTickCount
 GetUserDefaultLCID
 GetUserObjectInformationW
 GetVersion
-H ?paintDevice@QRasterWindowSurface@@UEAAPEAVQPaintDevice@@XZ
 HH:mm:ss
-HMXB
 HeapAlloc
 HeapCreate
 HeapDestroy
@@ -187,8 +195,6 @@ IsValidLocale
 January
 July
 June
-K ?paintEngine@QPaintBuffer@@UEBAPEAVQPaintEngine@@XZ
-K'?setAlphaChannel@QRasterPixmapData@@UEAAXAEBVQPixmap@@@Z
 KERNEL32.dll
 LCMapStringW
 LC_ALL
@@ -204,24 +210,20 @@ March
 MessageBoxW
 Monday
 MultiByteToWideChar
-NKeb
 NULL
 Norwegian-Nynorsk
 November
 October
-P ?paintEngine@QRasterPixmapData@@UEBAPEAVQPaintEngine@@XZ
 QtCore4.dll
 QtGui4.dll
 Qt_GetCustomAllocators
 QueryPerformanceCounter
-RSDSk
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S;uD
 Saturday
 September
 SetConsoleCtrlHandler
@@ -238,16 +240,10 @@ Tuesday
 UNKNOWN
 UnhandledExceptionFilter
 Unknown exception
-W%?resize@QRasterPixmapData@@UEAAXHH@Z
 Wednesday
 WideCharToMultiByte
 WriteFile
-Y"?qt_metacall@QGraphicsSystemPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 [thunk]:
-\f?buffer@QRasterPixmapData@@UEAAPEAVQImage@@XZ
-\f?buffer@QWindowSurface@@UEAAPEAVQImage@@PEBVQWidget@@@Z
-\f?qFree@@YAXPEAX@Z
-\v?alphaChannel@QPixmapData@@UEBA?AVQPixmap@@XZ
 __based(
 __cdecl
 __clrcall
@@ -372,11 +368,6 @@ hong-kong
 int 
 irish-english
 italian-swiss
-j3?toImage@QRasterPixmapData@@UEBA?AVQImage@@AEBVQRect@@@Z
-k3?toImage@QRasterPixmapData@@UEBA?AVQImage@@XZ
-kU'9
-k\f?beginNewFrame@QPaintBuffer@@QEAAXXZ
-l\f?beginPaint@QRasterWindowSurface@@UEAAXAEBVQRegion@@@Z
 long
 long 
 new-zealand
@@ -429,7 +420,6 @@ std::nullptr_t
 struct 
 swedish-finland
 swiss
-t&?scroll@QRasterPixmapData@@UEAA_NHHAEBVQRect@@@Z
 template-parameter-
 tier0.dll
 trace
@@ -444,7 +434,5 @@ void
 volatile
 volatile 
 wchar_t
-z?aUY
-zc%C1
 {flat}
 {for 

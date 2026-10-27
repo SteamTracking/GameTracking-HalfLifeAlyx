@@ -4,10 +4,8 @@
      precision mediump float;     uniform sampler2D u_texture;     uniform vec4 u_color;     varying vec2 v_texCoord;         void main()     {         vec4 abgr = texture2D(u_texture, v_texCoord);         gl_FragColor = abgr;         gl_FragColor.r = abgr.b;         gl_FragColor.b = abgr.r;         gl_FragColor *= u_color;     } 
      precision mediump float;     uniform sampler2D u_texture;     uniform vec4 u_color;     varying vec2 v_texCoord;         void main()     {         vec4 abgr = texture2D(u_texture, v_texCoord);         gl_FragColor = abgr;         gl_FragColor.r = abgr.b;         gl_FragColor.b = abgr.r;         gl_FragColor.a = 1.0;         gl_FragColor *= u_color;     } 
      precision mediump float;     uniform vec4 u_color;         void main()     {         gl_FragColor = u_color;     } 
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- "$&(*,.02468:<>@BDFHJLNPRTVXZ\^`bdfhjlnprtvxz|~
+     uniform mat4 u_projection;     attribute vec2 a_position;     attribute vec2 a_texCoord;     attribute vec2 a_angle;     attribute vec2 a_center;     varying vec2 v_texCoord;         void main()     {         float s = a_angle[0];         float c = a_angle[1] + 1.0;         mat2 rotationMatrix = mat2(c, -s, s, c);         vec2 position = rotationMatrix * (a_position - a_center) + a_center;         v_texCoord = a_texCoord;         gl_Position = u_projection * vec4(position, 0.0, 1.0);        gl_PointSize = 1.0;     } 
  #%u! (Bug? FIXME?)
- $(,048<@DHLPUY]aeimquy}
  %s file [%s].\n
  (THIS IS PROBABLY A BUG!)
  (file='%s' timestamp=%u windowid=%u)
@@ -28,19 +26,21 @@
  (timestamp=%u windowid=%u which=%u state=%u x=%d y=%d xrel=%d yrel=%d)
  (timestamp=%u windowid=%u which=%u x=%d y=%d direction=%s)
  (timestamp=%u)
- )19AJRZbjs{
-!)@:F,@zj/@\G1@|
-!QPW
-"3DUfw
 #define UVCoordScale 1.0\n
 #define sampler2D sampler2DRect\n#define texture2D texture2DRect\n#define UVCoordScale 0.5\n
 %d bpp BMP files not supported
 %d,%d,%d,%d
 %d-bpp BMP images are not supported
+%d.%d
+%s %s
+%s (%d)
 %s (call to %s failed, reporting an error of %s)
 %s (timestamp=%u windowid=%u code=%d data1=%p data2=%p)
 %s not available
+%s%s%s
 %s() DirectX error 0x%8.8lx
+%s,%s,%s
+%s: %s
 %s: %s (%d): %s %s
 %s: %s (%d): %s %s (0x%X)
 %s: Unknown DirectSound error: 0x%x
@@ -321,32 +321,11 @@
 0x%.4x/0x%.4x
 0x%.4x/0x%.4x=
 0x%x
-2\fp\vP\n0!0
 3-bit IMA ADPCM currently not supported
-33333
 333?
 504944564944
-5cjMT
-6lo"
 78696e70757403000000000000000000,Fightstick TES,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b10,leftshoulder:b4,lefttrigger:a2,rightshoulder:b5,righttrigger:a5,start:b7,x:b2,y:b3,
 8859-1
-;glActiveTexture
-;opengl
-<Failed loading 
-<\rUUUUU
-=1cb
-=@zj?@L~@@\GA@l
-=v<y5
-?1cb
-?>UUUUU
-?IUUUUU
-?LUUUUU
-?UUUUUU
-?Unsupported YUV format
-?\rUUUUU
-?cUUUUU
-?v<y5
-@result
 A BMP image contains a pixel with a color out of the palette
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
 AC Back
@@ -392,7 +371,6 @@ AuthenticAMD
 AvRevertMmThreadCharacteristics
 AvSetMmThreadCharacteristicsW
 BMP file with bad dimensions (%dx%d)
-B\fp\v0
 Backspace
 BeginScene()
 BitBlt
@@ -401,7 +379,6 @@ Break
 BrightnessDown
 BrightnessUp
 Button name too large: %s
-C333
 CINTLGNT.IME
 CONFLICTINGRENDERSTATE
 CONFLICTINGTEXTUREFILTER
@@ -573,7 +550,6 @@ Cursor hot spot doesn't lie within cursor
 Cursor not associated with the current mouse
 Cursors are not currently supported
 D3D9.DLL
-DC?h
 DEBUG
 DEST
 DEVICELOST
@@ -679,6 +655,7 @@ F32LSB
 F32MSB
 F32SYS
 FOURCC pixel formats are not supported
+Failed loading 
 Failed to compile shader:\n%s%s\n%s
 Failed to create message window for joystick autodetect
 Failed to create notify device for joystick autodetect
@@ -688,7 +665,6 @@ Failed to link shader program
 Failed to load the shader
 Failed to load the shader: %s
 Failed to obtain XInput device capabilities. Device disconnected?
-Fc?u(5
 File is not a Windows BMP file
 Find
 FormatMessageW
@@ -1045,7 +1021,6 @@ Mixing buffer was lost
 ModeSwitch
 MulDiv
 Mute
-NEJ(~
 NOTAVAILABLE
 NOTFOUND
 NVIDIA Corporation 
@@ -1176,7 +1151,6 @@ QueryPerformanceFrequency
 Querying DirectInput interface
 RIFF form type is not WAVE (not a Waveform file)
 RIFF size truncates chunk
-RSDSA9\r
 RaiseException
 ReadFile
 Reading from
@@ -2241,7 +2215,6 @@ SystemParametersInfoW
 System\CurrentControlSet\Control\MediaCategories\{%02X%02X%02X%02X-%02X%02X-%02X%02X-%02X%02X-%02X%02X%02X%02X%02X%02X}
 TINTLGNT.IME
 TOOMANYOPERATIONS
-TTar
 TaskDialogIndirect
 TerminateProcess
 Texture dimensions are limited to %dx%d
@@ -2319,7 +2292,6 @@ UTF32
 UTF32BE
 UTF32LE
 UTF8
-UUUUU
 Unable to create DIB
 Unable to create DXGI interface
 Unable to create Direct3D interface
@@ -2367,6 +2339,7 @@ Unsupported YUV conversion
 Unsupported YUV conversion mode
 Unsupported YUV conversion mode: %d\n
 Unsupported YUV destination format: %s
+Unsupported YUV format
 Unsupported audio format
 Unsupported block alignment
 Unsupported interface -- Is DirectX 8.0 or later installed?
@@ -2377,7 +2350,6 @@ Unsupported texture format
 UpdateTexture()
 Upitch
 Uplane
-V?LUUUUU
 VERBOSE
 VERSION.dll
 VK_<Unknown>
@@ -2436,6 +2408,7 @@ WARN
 WASAPI
 WASAPI CoCreateInstance(MMDeviceEnumerator)
 WASAPI can't activate audio endpoint
+WASAPI can't create an event handle
 WASAPI can't determine buffer size
 WASAPI can't determine minimum device period
 WASAPI can't determine mix format
@@ -2508,11 +2481,9 @@ You probably don't have a working Vulkan driver installed. %s %s %s(%d)
 Ypitch
 Yplane
 \n\nSDL assertion report.\n
-\rp\f`\vP\n0!0\n
 _SDL_DummySurface
 _SDL_WindowRenderData
 _SDL_WindowTextureData
-`5Sf
 a_angle
 a_center
 a_position
@@ -2526,8 +2497,6 @@ back
 best
 break
 c:\buildslave\sdl_win32\build\dev\VisualC\x64\Release\SDL2.pdb
-cUUUUU
-c\t4
 callback
 calloc_func
 could not read any dollar gesture from rwops
@@ -2535,7 +2504,6 @@ count
 d3dcompiler_43.dll
 d3dcompiler_46.dll
 d3dcompiler_47.dll
-dNtsq
 default
 direct-to-disk audio
 direct3d
@@ -2550,7 +2518,6 @@ dropblock
 dropframe
 dst_pitch
 dummy
-eFlv!@r
 eglBindAPI
 eglChooseConfig
 eglCreateContext
@@ -2574,7 +2541,6 @@ eglSwapInterval
 eglTerminate
 eglWaitGL
 eglWaitNative
-f?>UUUUU
 false
 flipped
 fmt chunk after data chunk in WAVE file
@@ -2584,6 +2550,7 @@ free_func
 gamma
 generic
 given touch id not found
+glActiveTexture
 glActiveTextureARB
 glAttachObjectARB
 glAttachShader
@@ -2708,7 +2675,6 @@ index must be -1 or in the range of 0 - %d
 index must be in the range of 0 - %d
 info
 instance
-k\vtH
 k_eControllerType_
 leftshoulder
 leftstick
@@ -2736,12 +2702,12 @@ mouse_input
 name
 ncolors
 nearest
-nmP:F
 no gesture touch devices registered
 none
 normal
 numrects
 ole32.dll
+opengl
 opengles2
 outputIndex
 overscan
@@ -2761,13 +2727,13 @@ precision mediump float;\nuniform sampler2D u_texture;\nuniform sampler2D u_text
 precision mediump float;\nuniform sampler2D u_texture;\nuniform sampler2D u_texture_u;\nuniform sampler2D u_texture_v;\nuniform vec4 u_color;\nvarying vec2 v_texCoord;\n\n// YUV offset \nconst vec3 offset = vec3(0, -0.501960814, -0.501960814);\n\n// RGB coefficients \nconst mat3 matrix = mat3( 1,       1,        1,\n                          0,      -0.3441,   1.772,\n                          1.402,  -0.7141,   0);\n\nvoid main()\n{\n    mediump vec3 yuv;\n    lowp vec3 rgb;\n\n    // Get the YUV values \n    yuv.x = texture2D(u_texture,   v_texCoord).r;\n    yuv.yz = texture2D(u_texture_u, v_texCoord).ra;\n\n    // Do the color transform \n    yuv += offset;\n    rgb = matrix * yuv;\n\n    // That was easy. :) \n    gl_FragColor = vec4(rgb, 1);\n    gl_FragColor *= u_color;\n}
 pressed
 ps_2_0
-qWASAPI can't create an event handle
 queue
 ramp
 realloc_func
 rect
 rects
 released
+result
 retry
 ri7f>
 rightshoulder
@@ -2804,8 +2770,6 @@ u_texture_u
 u_texture_v
 unable to create an EGL window surface
 unable to show color buffer in an OS-native window
-v<y5
-v@     uniform mat4 u_projection;     attribute vec2 a_position;     attribute vec2 a_texCoord;     attribute vec2 a_angle;     attribute vec2 a_center;     varying vec2 v_texCoord;         void main()     {         float s = a_angle[0];         float c = a_angle[1] + 1.0;         mat2 rotationMatrix = mat2(c, -s, s, c);         vec2 position = rotationMatrix * (a_position - a_center) + a_center;         v_texCoord = a_texCoord;         gl_Position = u_projection * vec4(position, 0.0, 1.0);        gl_PointSize = 1.0;     } 
 value
 varying vec4 v_color;\n\nvoid main()\n{\n    gl_FragColor = v_color;\n}
 varying vec4 v_color;\n\nvoid main()\n{\n    gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;\n    v_color = gl_Color;\n}

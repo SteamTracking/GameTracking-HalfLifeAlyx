@@ -1,7 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  invalidly modified type 
 !(flags & G_PARAM_STATIC_NAME) || is_canonical (name)
 !G_IS_PARAM_SPEC_OVERRIDE (pspec)
@@ -9,7 +7,10 @@
 !g_type_is_a (prerequisite_type, interface_type)
 %I64i
 %I64u
+%s | %u
 %s(%p)%s'%s'
+%s()%s'%s'
+%s: %s
 %s: Can't find property to override for '%s::%s'
 %s: The G_BINDING_INVERT_BOOLEAN flag can only be used when binding boolean properties; the source property '%s' is of type '%s'
 %s: The G_BINDING_INVERT_BOOLEAN flag can only be used when binding boolean properties; the target property '%s' is of type '%s'
@@ -63,7 +64,6 @@
 (type & TYPE_ID_MASK) == 0
 (unknown)
 *private_size_or_offset <= 0xffff
--64OS
 -g-type-private--GTypeFlags
 -g-type-private--IFaceHolder
 -g-type-private--dependants-array
@@ -402,7 +402,6 @@ GetTimeFormatEx
 GetUserDefaultLocaleName
 GetUserObjectInformationW
 HH:mm:ss
-HMXB
 HeapAlloc
 HeapFree
 HeapReAlloc
@@ -427,7 +426,6 @@ March
 MessageBoxW
 Monday
 MultiByteToWideChar
-NKeb
 NODE_IS_IFACE (iface)
 NODE_IS_IFACE (iface) && IFACE_NODE_N_PREREQUISITES (iface) < MAX_N_PREREQUISITES && (prerequisite_node->is_instantiatable || NODE_IS_IFACE (prerequisite_node))
 NODE_REFCOUNT (node) > 0
@@ -442,14 +440,12 @@ PSPEC_APPLIES_TO_VALUE (pspec, value)
 PSPEC_APPLIES_TO_VALUE (pspec, value1)
 PSPEC_APPLIES_TO_VALUE (pspec, value2)
 QueryPerformanceCounter
-RSDS
 Read-only property '%s' on class '%s' has type '%s' which is not equal to or more restrictive than the type '%s' of the property on the interface '%s'\n
 Read/writable property '%s' on class '%s' has type '%s' which is not exactly equal to the type '%s' of the property on the interface '%s'\n
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlUnwindEx
 RtlVirtualUnwind
-S;uD
 Saturday
 September
 SetDefaultDllDirectories
@@ -1276,7 +1272,6 @@ invalid unclassed type '%s' in class cast to '%s'
 invalid uninstantiatable type '%s' in cast to '%s'
 invalid_closure_notify
 invert-boolean
-kU'9
 key != NULL
 klass != NULL
 lcopy_format
@@ -1503,5 +1498,3 @@ weak_locations != NULL
 weak_pointer_location != NULL
 weak_ref != NULL
 weak_ref!= NULL
-z?aUY
-zc%C1

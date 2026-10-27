@@ -17,9 +17,7 @@
    + Fbx Frame Start: %6lld End: %6lld Duration: %6lld @ %6.2f fps\n
    + Fbx Time Start:  %6.2f End: %6.2f Duration: %6.2f @ %6.2f fps\n
    + Shape %3d Deltas: %5d - %s\n
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  (%d %d %d)
  * Animation Stack %s Layer %s - %s\n
  * Fbx Time: %6.2f Fbx Frame: %6lld Dmx Time: %6.2f Dmx Frame: %d\n
@@ -29,10 +27,8 @@
  * Skinning Mesh: %s\n
  + Searched:
  -testmode
- ?IsFBX@FbxImporter@fbxsdk@@QEAA_NXZ
  Base Class Array'
  Base Class Descriptor at (
- C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
  FAILED :: %s\n
@@ -40,7 +36,6 @@
  Type Descriptor'
  [ %f %f %f %f  %f %f %f %f  %f %f %f %f  %f %f %f %f ]
  [curvetype %s]\n
- \t??9FbxVector4@fbxsdk@@QEBA_NAEBV01@@Z
  \t\n\r@()[]{}=&,:*|;'!
  \t\n\r@()[]{}=&,:*|;'!#
  and they all will have undefined parameters, including empty names\n
@@ -55,20 +50,14 @@
  to expected: 
  value: 
  {%d,%d,%d}
-!?MultNormalize@FbxMatrix@fbxsdk@@QEBA?AVFbxVector4@2@AEBV32@@Z
-!?Normalize@FbxVector4@fbxsdk@@QEAAXXZ
-!?ObjectType@FbxCriteria@fbxsdk@@SA?AV12@AEBVFbxClassId@2@@Z
-!\n??DFbxMatrix@fbxsdk@@QEBA?AV01@AEBV01@@Z
 "%s" "%.10f"\n
 "%s" "[ %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f ]"\n
 "%s" "[ %f %f %f %f ]"\n
 "%s" "[ %f %f %f ]"\n
 "%s" "[ %f %f ]"\n
 "%s" "{ %d %d %d }"\n
-"?ParseForGlobalSettings@FbxImporter@fbxsdk@@QEAAX_N@Z
 "ActBusy.txt"\n
 "Proxies"\n
-"e?<<<<<<l?
 "id" "elementid" 
 # of children to enable
 # of children to set
@@ -78,41 +67,49 @@
 #base is NULL 
 #include
 #include is NULL 
-$?Set@FbxMatrix@fbxsdk@@QEAAXHHN@Z
 $DiffuseColor
-$Ib?s
 $TransparentColor
 $prefix_attribute$
 $prefix_element$
+%*s %d
 %-40s\t%6d\t%9d\t\t%5.2f
+%-7s %s
 %.04f
+%.10f
 %.15lf
 %02X
 %02d:%02d:%02d %2s
 %04d/%02d/%02d
 %05d,     0x%p,     %5d,      '%s'\n
 %08x
-%0kK
 %511s
-%?SetAt@FbxLayerElementArray@fbxsdk@@QEAAXHPEBXW4EFbxType@2@@Z
 %d "%512[^"]" %d
+%d %d %d
 %d %d %d %d
 %d %f %f %f %f %f %f
 %d %f %f %f %f %f %f %f %f
 %d edges, %d interior edges, %d silhouette edges\n
 %d joint weights per vertex, max %d
+%d,%d
+%d,%d,%d
 %d,%d,%d,%d
 %d_%lld_%x.dmx
 %d_%lld_%x_in.dmx
+%f %f
+%f %f %f
 %f %f %f %f
 %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f
+%f,%f
 %f,%f,%f,%f
+%g %g
+%g %g %g
 %g %g %g %g
 %i %i %i %i
 %i.txt
 %lld
 %llu
 %llx
+%s %f %f
 %s %s -> %s
 %s (%s -> %s)
 %s (%s) = remove( pos %i, count %i )
@@ -120,6 +117,8 @@ $prefix_element$
 %s (Color)
 %s (Material)
 %s + %-8s %s\n
+%s - %s
+%s - %s:%s
 %s - Failed to create node: %s (Likely skipping duplicate)
 %s :: %s (%d)
 %s :: %s (%s) (%d)
@@ -130,25 +129,33 @@ $prefix_element$
 %s F=%d V=%d hE=%d
 %s channel
 %s encoding %s %d format %s %d %s\n
+%s$%i
+%s%s
 %s(%d) : %s\n
 %s(%d): FGD Parse error: %s %s\n
 %s(%d): error: %s
 %s(%i): '%s': %s
+%s(%s)
 %s(%s) = %s
+%s.%s.%s
 %s/%s.vmdl
 %s/%s/%s.%s
 %s: %d parts
+%s: %s
+%s: %s\n
 %s: Element uses unknown element type %s\n
 %s: Empty table passed
 %s: Excluding %d parts
 %s: No table passed
 %s: Variable '%s' is multiply defined with different types.
 %s: string format requested %d chars\n
+%s:%s
 %sEdgeActive
 %sEdgeCurveType
 %sEdgeValue
 %sIndices
 %s_%d_mesh
+%s_%d_tm
 %s_%s.vmdl_prefab
 %s_color
 %s_delta
@@ -159,30 +166,22 @@ $prefix_element$
 %s_hull_shape
 %s_matgrp
 %s_mesh_shape
+%s_o
+%s_p
 %s_physshapes.dmx
 %s_shape
 %s_spline_delta
-&?PPPPPPP?
-&Sgw
 '%s' is not a valid variable type
 'Number of columns in grid
 'Number of rows in grid
 'OverrideClass' was specified but class '%s' has not been previously defined.\n
+(%d,%d
+(%d,%d,%d
 (%d,%d,%d,%d
-(?Transpose@FbxMatrix@fbxsdk@@QEBA?AV12@XZ
 (Advanced Feature) Used to specify special interaction rules or exclusions. References a name in scripts/collision_properties.txt.
 (None)
 (Use Override Sound)
 (null)
-)?sAmbient@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
-)?sBump@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
-)?sDiffuse@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
-)?sDisplacementColor@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
-)?sEmissive@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
-)?sNormalMap@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
-)?sReflection@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
-)?sShininess@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
-)yIx
 *** Converter error - element "%s" already has a non-int attribute "%s"!\n
 *** Element "%s" has attribute "%s" with an unexpected type!\n
 *** Log "%s" has attribute "%s" with an unexpected type (expected int array)!\n
@@ -199,22 +198,14 @@ $prefix_element$
 *** line error: 'rgb+a' packing cannot pack image '%s' belonging to sequences %d and %d!\n
 *** line error: incompatible packmode change when %d sequences already defined!\n
 *** line error: invalid sequence type '%s', packing 'flat' allows only 'sequence-rgba'!\n
-*?sSpecular@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
-*?sTransparentColor@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
-*?sVectorDisplacementColor@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
-*Cm_qFixupRotation
-*StO9>T
-*\n??DFbxVector4@fbxsdk@@QEBA?AV01@N@Z
 +inf
 , range [0-
 , renamed duplicates to: 
 , should be between 0 and 
-,HR>O
 ,\n...or incorrect match of interpretation: 
 ---- dmxconvert cmdline ----\n
 ---- dmxconvert output ----\n
 ---------------------------\n
--BH>t
 -avx
 -enable_2gb_morphs
 -inf
@@ -225,7 +216,6 @@ $prefix_element$
 -sse3
 -sse4
 .00cfg
-.>\rfJBGo
 .?AU?$TArrayDeleter@C@v11@AbcCoreAbstract@Alembic@@
 .?AU?$TArrayDeleter@E@v11@AbcCoreAbstract@Alembic@@
 .?AU?$TArrayDeleter@F@v11@AbcCoreAbstract@Alembic@@
@@ -2355,11 +2345,11 @@ $prefix_element$
 .vmat
 .vmdl
 .vvd
-.xJ>Hf
 .xdata
 .xdata$x
 .xform
 // "act busy name"\t\tThis is the name that a mapmaker must specify in the hint node.\n
+// %511s
 // FRAMERATE=%f
 // \t"busy_anim"\t\t\t"Activity Name".\n
 // \t"busy_sequence"\t\t"Sequence Name". If specified, this is used over the activity name. Specify it in the hint node.\n
@@ -2375,61 +2365,30 @@ $prefix_element$
 // \t\t\t\t\t\t"BA_INT_DANGER"\t\tbreak out of this anim only if threatened\n
 // \t\t\t\t\t\t"BA_INT_NONE"\t\tbreak out only when time runs out. No external influence will break me out.\n
 // \t\t\t\t\t\t"BA_INT_PLAYER"\t\tbreak out of this anim if I can see the player, or I'm threatened\n
-/2GG>!B
 0 0 0
 0.02
 0.04
 00000000-0000-0000-0000-000000000000
 0123456789abcdefghijklmnopqrstuvwxyz
-08DA
-0E>X
-0X8b?~
-0\r50t
-0iN>/
 0x%016llX
 0x%llx
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-11Y@
 16-byte data pool
 180_recovery
 1DBlend
 1DBlendEditor
-1sAL"
-2%?SetBoolProp@FbxIOSettings@fbxsdk@@QEAAXPEBD_N@Z
 2DBlend
 2DBlendEditor
 2DBlendFromAnimation
-2\vp8DA
 2_BONE_IK
-3 FB
-37>k
-3>N;kU
-3>fvw
-3?tr
 4-byte data pool
-4\r%4t
-51>W
-5sfm_v8
 64 283 0
-6NK>
-6\fXO>\ntA
-75P=
-7>I0
-7?GX
-7~xh
 8-byte data pool
-8CDmeConstraintTarget CUtlMemoryPool
-8Csinf
-8\n??GFbxVector4@fbxsdk@@QEBA?AV01@AEBV01@@Z
-8ke?;
-9>70
 :: <NO TARGET BONE>
 ; tris:
-;1cb
-;sfm_v2
 <!-- DMXVersion
 <!-- kv3 encoding:%s:version{%s} format:%s:version{%s} -->\n
 <!-- schema 
@@ -2445,23 +2404,8 @@ $prefix_element$
 <p>Loads a content file containing animation keyframe data and resolves into animation data which plays in reverse, i.e. backwards.</p><p>Works the same as AnimFile except the direction of the animation data.</p><p>When specifying a sub frame range, the frame range is pulled from the animation file before reversal.</p><p>For a typical walk style animation with extracted motion, likely an AnimAlign to first frame of the original forward animation will be required.</p>
 <unconnected>
 <unnamed>
-=1cb
-=87M
 ==Errors==\n
 ==Warnings==\n
-=cQ6
-=e2m
-=imb;D
->cQ6
->jtm}S
->m_flOffset
-?!5WOo
-?1cb
-?333?
-?49HoKC
-?7zQ6$
-?7{KV\nU
-?8bunz8
 ??$EvaluateValue@M@FbxProperty@fbxsdk@@QEAAMAEBVFbxTime@1@_N@Z
 ??0CThreadMutex@@QEAA@XZ
 ??0FbxAMatrix@fbxsdk@@QEAA@AEBV01@@Z
@@ -2501,7 +2445,17 @@ $prefix_element$
 ??4FbxString@fbxsdk@@QEAAAEBV01@AEBV01@@Z
 ??4FbxVector4@fbxsdk@@QEAAAEAV01@AEBV01@@Z
 ??8FbxMatrix@fbxsdk@@QEBA_NAEBV01@@Z
-?@En[vP
+??9FbxVector4@fbxsdk@@QEBA_NAEBV01@@Z
+??AFbxColor@fbxsdk@@QEBAAEBNH@Z
+??AFbxQuaternion@fbxsdk@@QEAAAEANH@Z
+??AFbxQuaternion@fbxsdk@@QEBAAEBNH@Z
+??BFbxString@fbxsdk@@QEBAPEBDXZ
+??DFbxMatrix@fbxsdk@@QEBA?AV01@AEBV01@@Z
+??DFbxVector4@fbxsdk@@QEBA?AV01@N@Z
+??GFbxVector4@fbxsdk@@QEBA?AV01@AEBV01@@Z
+??HFbxTime@fbxsdk@@QEBA?AV01@AEBV01@@Z
+??HFbxVector4@fbxsdk@@QEBA?AV01@AEBV01@@Z
+??YFbxString@fbxsdk@@QEAAAEBV01@PEBD@Z
 ?AppendConcat@CBufferString@@QEAAPEBDHPEBQEBDPEBH_N@Z
 ?AppendFormat@CBufferString@@QEAAHPEBDZZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
@@ -2509,7 +2463,6 @@ $prefix_element$
 ?Bind@FbxPathUtils@fbxsdk@@SA?AVFbxString@2@PEBD0_N@Z
 ?Buffer@FbxString@fbxsdk@@QEAAPEADXZ
 ?Buffer@FbxString@fbxsdk@@QEBAPEBDXZ
-?CTSListBase: Misaligned list\n
 ?ClassId@FbxAnimLayer@fbxsdk@@2VFbxClassId@2@A
 ?ClassId@FbxAnimStack@fbxsdk@@2VFbxClassId@2@A
 ?ClassId@FbxBlendShape@fbxsdk@@2VFbxClassId@2@A
@@ -2533,8 +2486,6 @@ $prefix_element$
 ?Create@FbxScene@fbxsdk@@SAPEAV12@PEAVFbxManager@2@PEBD@Z
 ?Destroy@FbxObject@fbxsdk@@QEAAX_N@Z
 ?DevMsg@@YAXPEBDZZ
-?DmAttributeList_t CUtlMemoryPool
-?DualHull
 ?EndGetMeshEdgeVertices@FbxMesh@fbxsdk@@QEAAXXZ
 ?EnterScope@CVProfile@@QEAAXPEBDH0_NH@Z
 ?EvaluateGlobalTransform@FbxNode@fbxsdk@@QEAAAEAVFbxAMatrix@2@VFbxTime@2@W4EPivotSet@12@_N2@Z
@@ -2657,20 +2608,37 @@ $prefix_element$
 ?Is@FbxClassId@fbxsdk@@QEBA_NAEBV12@@Z
 ?IsAnimated@FbxProperty@fbxsdk@@QEBA_NPEAVFbxAnimLayer@2@@Z
 ?IsEmpty@FbxString@fbxsdk@@QEBA_NXZ
+?IsFBX@FbxImporter@fbxsdk@@QEAA_NXZ
+?IsValid@FbxProperty@fbxsdk@@QEBA_NXZ
+?IsValidBindPose@FbxPose@fbxsdk@@QEAA_NPEAVFbxNode@2@NPEAVFbxStatus@2@@Z
+?IsZero@FbxVector4@fbxsdk@@QEBA_NH@Z
+?Length@FbxVector4@fbxsdk@@QEBANXZ
 ?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@VColor@@PEBDZZ
 ?MakeAbsolutePath@CBufferString@@QEAAPEBDPEBD0@Z
 ?MakeRelativePath@CBufferString@@QEAAPEBDPEBD0@Z
+?MultNormalize@FbxMatrix@fbxsdk@@QEBA?AVFbxVector4@2@AEBV32@@Z
+?Normalize@FbxVector4@fbxsdk@@QEAAXXZ
+?ObjectType@FbxCriteria@fbxsdk@@SA?AV12@AEBVFbxClassId@2@@Z
+?ParseForGlobalSettings@FbxImporter@fbxsdk@@QEAAX_N@Z
 ?Purge@CBufferString@@QEAAXH@Z
-?R0I?
 ?Relinquish@CBufferString@@QEAAPEADW4EAllocationOption_t@1@@Z
+?RemapIndexArrayTo@fbxsdk@@YAHPEAVFbxLayerElement@1@W4EMappingMode@21@PEAV?$FbxLayerElementArrayTemplate@H@1@@Z
 ?RemoveAt@CBufferString@@QEAAPEBDHH@Z
+?RemoveBadPolygonsFromMeshes@FbxGeometryConverter@fbxsdk@@QEAAXPEAVFbxScene@2@PEAV?$FbxArray@PEAVFbxNode@fbxsdk@@@2@@Z
+?RemoveDeformer@FbxGeometry@fbxsdk@@QEAAPEAVFbxDeformer@2@HPEAVFbxStatus@2@@Z
 ?RemoveDotSlashes@CBufferString@@QEAAPEBDD@Z
 ?RemoveFirstDir@CBufferString@@QEAAPEBDPEAV1@@Z
 ?Replace@CBufferString@@QEAAHPEBD0_N@Z
+?Set@FbxMatrix@fbxsdk@@QEAAXHHN@Z
+?SetAt@FbxLayerElementArray@fbxsdk@@QEAAXHPEBXW4EFbxType@2@@Z
+?SetBoolProp@FbxIOSettings@fbxsdk@@QEAAXPEBD_N@Z
+?SetCount@FbxLayerElementArray@fbxsdk@@QEAAXH@Z
+?SetCurrentAnimationStack@FbxScene@fbxsdk@@QEAAXPEAVFbxAnimStack@2@@Z
 ?SetExtension@CBufferString@@QEAAPEBDPEBD@Z
+?SetFrame@FbxTime@fbxsdk@@QEAAX_JW4EMode@12@@Z
 ?SetLength@CBufferString@@QEAAPEADH_NPEAH@Z
 ?SetPtr@CBufferString@@QEAAXPEADHH_N1@Z
 ?ShortenPath@CBufferString@@QEAAPEBD_N@Z
@@ -2679,6 +2647,7 @@ $prefix_element$
 ?StripTrailingSlash@CBufferString@@QEAAPEBDXZ
 ?Swap@CBufferString@@QEAAXAEAV1@@Z
 ?ToLowerFast@CBufferString@@QEAAXH@Z
+?Transpose@FbxMatrix@fbxsdk@@QEBA?AV12@XZ
 ?Trim@CBufferString@@QEAAPEBDPEBD@Z
 ?TruncateAt@CBufferString@@QEAAPEBDH_N@Z
 ?UUUUUU
@@ -2687,19 +2656,19 @@ $prefix_element$
 ?V_SplitString@@YAXPEBD0AEAV?$CUtlVector@PEADV?$CUtlMemory@PEADH@@@@@Z
 ?V_SplitString@@YAXPEBD0AEAV?$CUtlVector@VCUtlString@@V?$CUtlMemory@VCUtlString@@H@@@@_N@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
-?XZa
-?f`Y4
-?kxG2)
-?lZE
-?qBJ
-?rAj
-?sqrt
-?vmdlkeys0
-?ysB
+?sAmbient@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
+?sBump@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
+?sDiffuse@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
+?sDisplacementColor@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
+?sEmissive@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
+?sNormalMap@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
+?sReflection@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
+?sShininess@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
+?sSpecular@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
+?sTransparentColor@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
+?sVectorDisplacementColor@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
+@%s%s
 @%s_ref
-@Tools
-@\n??HFbxTime@fbxsdk@@QEBA?AV01@AEBV01@@Z
-@^8U)zj
 @idle
 @unnamed_%d
 A box shape which cloth collides with.
@@ -2764,7 +2733,6 @@ A test expression which adds two values
 A test expression which negates an integer
 A test with no parameters, returns 0
 A vector value
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.dll
 AE_ACTION_ALLOW_COMBO
@@ -2863,7 +2831,6 @@ AE_ZOMBIE_POPHEADCRAB
 AE_ZOMBIE_POPHEADCRAB event format missing velocity parameter! Usage: event AE_ZOMBIE_POPHEADCRAB "<BoneName> <Speed>" \n
 AE_ZOMBIE_TOGGLE_HEAD
 AIWalkable
-AK>(v
 ANIMATION_TYPE_FIT_LIFETIME
 ANIMATION_TYPE_FIXED_RATE
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
@@ -2977,6 +2944,7 @@ Anim Name
 AnimAddLayer
 AnimAlign
 AnimAutoLayer
+AnimBase
 AnimBaseParams
 AnimBindPose
 AnimBlendLayer
@@ -3102,9 +3070,6 @@ AutoLayer
 Automatically builds a physics hull from render geometry.
 B-Spline
 BA_INT_NONE
-BAnimBase
-BC?>6t9^\tc:>
-BF>^G
 Back-solve Joints
 Back-solve Joints Drive Meshes
 Back-solve Min Weight
@@ -3174,7 +3139,6 @@ Bend-only Springs
 BentNormalData
 BentNormals support removed.
 Bezier
-Bik_plane_debug_bone_index
 Binary
 Binary (deterministic sequential ids)
 Binary: Element uses unknown element type %s\n
@@ -3238,9 +3202,9 @@ BreakPieceList
 BreakPieceSimpleParticles
 BrowInV
 By default, any change to the chain position will be reflected in parent's rotation.  Uncheck this if you wish the parent to be left unmodified.
-C5R?\t
 CAnimMotorList
 CAnimMovementManager
+CAuthPhysBody
 CAuthPhysJoint
 CBaseConstraint
 CBaseRendererSource2
@@ -3304,6 +3268,7 @@ CDmeCombinationOperator CUtlMemoryPool
 CDmeComponent CUtlMemoryPool
 CDmeConnectionOperator CUtlMemoryPool
 CDmeConstraintSlave CUtlMemoryPool
+CDmeConstraintTarget CUtlMemoryPool
 CDmeControlGroup CUtlMemoryPool
 CDmeDCCMakefile CUtlMemoryPool
 CDmeDag CUtlMemoryPool
@@ -3436,7 +3401,6 @@ CIKRuleData_Ground_VirtualPlanes
 CIKruleLocalHierarchy
 CImagePlaneNode
 CKV3FormatManager::RegisterFormatConversion
-CL:>8
 CManifestInstance
 CMapCordon
 CMapDotaTileGrid
@@ -3561,6 +3525,7 @@ CSmdParser::Parse(98): preamble error: expecting "version" or comment(//), got: 
 CSolveIKChainAnimNode
 CSpinUpdateBase
 CStrongHandle< InfoForResourceTypeIMaterial2 >
+CTSListBase: Misaligned list\n
 CTSListBase::CTSListBase
 CTerrainSelection
 CUndoArrayAttributeSetMultipleValueElement
@@ -3646,8 +3611,6 @@ CVPointConstraint
 CVTiltTwistConstraint
 CVTwistConstraint
 CVisibilityMgr
-CWD>~3
-C\n??HFbxVector4@fbxsdk@@QEBA?AV01@AEBV01@@Z
 C_INIT_AddVectorToVector
 C_INIT_AgeNoise
 C_INIT_ChaoticAttractor
@@ -4321,6 +4284,7 @@ Dm Memory usage: type\t\t\t\tcount\ttotalsize\twastage %%\touter\t\tinner\t\tdat
 Dm Unserialize: Attempted to read an attribute ("%s") of an inappropriate type!\n
 DmAttributeAddedListenerInfo_t CUtlMemoryPool
 DmAttributeChangedListenerInfo_t CUtlMemoryPool
+DmAttributeList_t CUtlMemoryPool
 DmAttributeRemovedListenerInfo_t CUtlMemoryPool
 DmElement
 DmElementChangedListenerInfo_t CUtlMemoryPool
@@ -4489,6 +4453,7 @@ Down
 Draw as opaque
 DriverBone
 Dual sequence combine mode
+DualHull
 Duplicate bone %d renamed :: "%s" -> "%s"\n
 Duplicate model config '%s'
 Duration
@@ -4496,8 +4461,6 @@ Duration at which to Stop
 DynamicConfig
 DynamicConfigList
 DynamicConfigReplacements
-E>nEA
-E?WIN32
 ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!\n
 ERROR: Sequence %d already specified!\n
 ERROR: Sequence %d is missing, total of %d sequences!\n
@@ -4505,16 +4468,13 @@ ERROR: Sequence number %d is too big!\n
 ERROR: Specified full path %s does not lie under the mod search path!)\n
 ERROR: Specified path %s could not be made content-relative\n
 ERROR: Unable to create an attribute handle! Save, quit, restart and clean up your file to have fewer elements!\n
-ET5>
 EXPORTSYSTEM_INTERFACE_VERSION_001
-E[\rn?gc
 Ease In
 Ease In/Out
 Ease Out
 EconItemToolModel_001
 EditGameClassProps
 EditorDynamicConfig
-EiUL
 EightWaySequence() helper not supported
 Element uses unknown element type %s\n
 Element.%s
@@ -4665,7 +4625,6 @@ Extract TY
 Extract TZ
 ExtractMotion
 ExtractMotionEditor
-F>qUxv
 FABRIK
 FATAL ERROR: unable to register all schema data: %s\n
 FBX Import failed: "%s" for file: %s\n
@@ -4675,9 +4634,7 @@ FBX file version %d.%d.%d - SDK\n
 FBXSurfaceMaterial( %s ).FBX_vmatPath found but empty
 FBXSurfaceMaterial( %s ).FBX_vmatPath found but not a string attribute
 FBX_vmatPath
-FEMh\f
 FRAMERATE
-F_K@a
 Face %d
 Face Fit
 Face Merge Angle
@@ -4750,7 +4707,6 @@ FbxSystem
 February
 Feet
 FeetSettings
-FfW?
 File has not been opened!\n
 File that provides meshes for each particle
 Film
@@ -4852,13 +4808,10 @@ Friction Bias
 Friction Scale
 Friday
 From Name
-Fsfm_v3
-G>US
 GAME
 GAMECONSOLE
 GAMEROOT
 GCTL
-Ga=UU
 GameDataList
 GameDataNode
 GameResourceServiceClientV001
@@ -5120,7 +5073,6 @@ Ignoring invalid cmd sequence with no references: %s
 Ignoring invalid cmd sequence, reference count (%d) != group size (%d x %d = %d): %s
 IkChain
 IkLockLocal
-Il?333333c?
 Image packing validation failed!
 Immovable model (hint)
 Import Mode
@@ -5306,13 +5258,11 @@ Joint weights data is invalid
 Joint weights specified, but joint indices is missing
 July
 June
-K1?U20
 KERNEL32.dll
 KL2H
 KV Conditional Evaluation Error
 KV3 syntax error: %s
 KV3 syntax error: %s while parsing @entitygroup %s
-Kbones
 Keep track of the position/orientation of the specific chain before the sequence is applied, then after it's applied, do a local IK rule to move it back into position/orientation. The weights are floating point values form 0.0 to 1.0, if both are 0 this node does nothing.
 KeyValue
 KeyValueCache001
@@ -5329,8 +5279,6 @@ Keyframe animation data
 Kochanek-Bartels
 Kochanek-Bartels Early
 Kochanek-Bartels Late
-L>ev
-L?UUUUUUU?
 LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
@@ -5350,8 +5298,6 @@ LOS collision group
 LOWVIOLENCE
 LR Offset in FLU local space
 LR control point number
-LWG>
-LWW>
 Last Frame
 Last two rows as percentage of total size %f %%:\n
 LastFrame
@@ -5502,7 +5448,6 @@ Loop FPS
 Loop Start Frame
 Looping
 Lowest
-LrwcE
 MATCHFRAMEWORK_001
 MClassHasCustomAlignedNewDelete
 MM/dd/yy
@@ -5554,7 +5499,6 @@ Maximum Trace Length
 Maximum Velocity
 Maximum radius for created lights
 Maximum segment length %
-MbP?
 Medium
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
@@ -5671,14 +5615,10 @@ MultiByteToWideChar
 Must call InitModelDocLib before using the library.
 Must specify a valid not for GetParent()\n
 Must specify both a 'min' and 'max' value.
-N3`d?
-N>O=I9
-N>VF
 NAN(IND)
 NAN(SNAN)
 NO TARGET
 NONE
-NQ?s
 NULL
 NULL CompoundPropertyReader passed into 
 NULL CompoundPropertyReaderPtr
@@ -5804,7 +5744,6 @@ Num Iterations
 NumSegments
 Number
 ORIENT
-OZQ%
 Object
 Object Rotation
 October
@@ -6048,7 +5987,6 @@ Plat_ShouldCollectMiniDumpsForFatalErrors
 Plat_UUIDFromString
 Plat_UUIDToString
 Play End Cap Effect
-Po5H
 Point 0
 Point 1
 Pose Param
@@ -6120,8 +6058,6 @@ PropertyEditorSystem_001
 Proxies
 Pull towards control point
 PushBack
-Q5rHg,>
-QAf?
 QAngle
 Quad Bend Tolerance
 Quadratic
@@ -6129,14 +6065,10 @@ Quadric Error Metric
 QueryPerformanceCounter
 QueuedLoaderVersion001
 Quintic
-R5P=
 RGB blend weight for sequence 0
 RGB blend weight for sequence 1
 ROTATION
 RPCRT4.dll
-RSDS
-R\fp8DA
-R\vp8DA
 Radial Basis Function Type
 Radius
 Radius Bias
@@ -6343,9 +6275,6 @@ RunScript failed: Empty script name specified
 RunScript failed: IncludeScript stack overflow, depth: %d
 RunScript failed: Scripting disabled or no server running
 Runtime is referencing editor-only config '%s'
-S+Ot
-S9>H
-S>$hkDh$h>[2
 SCENE
 SFM Session
 SFM Settings
@@ -6762,6 +6691,7 @@ ToolFramework2_002
 ToolSceneNodeFactory_001
 ToolScriptManager001
 ToolService_001
+Tools
 Total1
 Totals
 Trace Direction Override
@@ -6796,9 +6726,6 @@ Turn off animation compression for this animation.<p><span style="color:#aa0000"
 Two Bone
 Two KV3 format GUIDs with the same human-friendly name ('%s')
 Type of the singleton node to find
-U20>3
-U4tT
-UA>N0Wl
 UL Offset in FLU local space
 UL control point number
 UNKNOWN
@@ -6945,7 +6872,6 @@ VScript
 VScriptDbg
 VScriptManager010
 VStringTokenSystem001
-VT~K
 V_CompareNameWithWildcards
 V_FixDoubleSlashes
 V_FixSlashes
@@ -7062,10 +6988,10 @@ Volumetric Solve Amount
 WARNING: Failed to parse class '%s'.\n
 WARNING: No 'models_ModelDocGameData' FGD was specified in the 'ModelDoc' section of gameinfo.gi.\n
 WARNING: Unable to load the FGD file '%s'.\n
+WIN32
 WINDOWS
 WINXP
 WORLD
-WaNd?
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Walk to Run Speed Determination
@@ -7157,57 +7083,30 @@ WriteToAttribute
 Wrong namespace specified for node %s
 Wrote symbol stats to file: %s
 X - Forward
-X ?IsValid@FbxProperty@fbxsdk@@QEBA_NXZ
 X axis scaling Scalar field
 X offset of center point
-X#?RemoveBadPolygonsFromMeshes@FbxGeometryConverter@fbxsdk@@QEAAXPEAVFbxScene@2@PEAV?$FbxArray@PEAVFbxNode@fbxsdk@@@2@@Z
-X/4B
 X360
 XY velocity only
-X`kK
 XformSample!
 Y - Left
 Y axis scaling Scalar field
 Y offset of center point
-Y8a:
-Y>kX>M
-Y@bad allocation
 Yaw Bounce
 Yaw Friction
 Z axis scaling Scalar field
-Z\>z8
 Zero skin weights on one or more vertices
 [%d] Aborting undo '%s'\n
 [%d] Popping undo '%s'\n
 [%d] Pushing undo '%s'\n
 [%f %f %f %f]
-[*ncd>0
-[aOni*{
-\fp\v`8DA
+[%f %f %f]
 \materialsrc\
-\n&?SetFrame@FbxTime@fbxsdk@@QEAAX_JW4EMode@12@@Z
-\n??BFbxString@fbxsdk@@QEBAPEBDXZ
-\n??YFbxString@fbxsdk@@QEAAAEBV01@PEBD@Z
-\nCwf\r
 \nERROR: EXCEPTION:\n
 \nERROR: UNKNOWN EXCEPTION\n
 \ng default\n
-\nh?oT
-\nk>oB
-\r#?RemapIndexArrayTo@fbxsdk@@YAHPEAVFbxLayerElement@1@W4EMappingMode@21@PEAV?$FbxLayerElementArrayTemplate@H@1@@Z
-\r\f\v\v\n\n\t\t\t\t\t
 \sound\
-\t??AFbxColor@fbxsdk@@QEBAAEBNH@Z
-\t??AFbxQuaternion@fbxsdk@@QEAAAEANH@Z
-\t??AFbxQuaternion@fbxsdk@@QEBAAEBNH@Z
+\t%8d
 \tNAN encountered in element '%s' guid %s attribute '%s'!\n
-\tcQr
-\tkE>fvw
-\vA03>A|
-\vp8DA
-^<V7w
-^RfN>
-_#?RemoveDeformer@FbxGeometry@fbxsdk@@QEAAPEAVFbxDeformer@2@HPEAVFbxStatus@2@@Z
 _ARG%d
 _ARG1
 _ARG2
@@ -7290,7 +7189,6 @@ _loopSpine
 _mesh
 _name
 _nextafter
-_oD>Kg
 _out
 _outDelta
 _outFrameArms
@@ -7299,7 +7197,6 @@ _outLoopDelta
 _right
 _test_conversion_counter
 _zero
-`8DA
 `RTTI
 `anonymous namespace'
 `copy constructor closure'
@@ -7336,7 +7233,6 @@ _zero
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
-a6>r
 abcdefghijklmnopqrstuvwxyz
 abs_origin_drop_height
 abs_origin_drop_height_spring_strength
@@ -7528,10 +7424,8 @@ autovisgroup
 axies
 axis
 axisSystem
-b ?IsValidBindPose@FbxPose@fbxsdk@@QEAA_NPEAVFbxNode@2@NPEAVFbxStatus@2@@Z
 bUpdate
 bUseExactGeometry and bConvexHull both specified - creating PhysicsMeshFile
-b\fp\v0
 back_solve_influence_threshold
 back_solve_joints
 back_solve_joints_drive_meshes
@@ -7540,6 +7434,7 @@ backgroundColor
 backgroundFXClip
 backgroundMap
 bad address
+bad allocation
 bad array new length
 bad cast
 bad exception
@@ -7636,6 +7531,7 @@ bone_weight_3
 bonemask
 bonemerge
 bonename
+bones
 bookmarkSets
 bookmarks
 bookmarksW
@@ -7671,7 +7567,6 @@ brightness
 broken pipe
 brush only
 bspline
-bt3V
 bulge
 bulge control 0=random 1=orientation of start pnt 2=orientation of end point
 burst_randomize
@@ -7699,8 +7594,6 @@ c:\buildslave\hlvr_rel_win64\build\src\tier1\mempool.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\utlbuffer.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\utlstring.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier2\schemabindings.cpp
-c?FA@s}
-cNDS
 cable
 cableclass
 cables_list
@@ -7970,9 +7863,6 @@ cycle pose parameter: %s, without cyclepose on cmd sequence: %s\n
 cycle_type
 cyclepose without cycle pose parameter on cmd sequence: %s\n
 cyclestart
-d8L2
-d?000000`?
-dRL>
 damage
 damage_direction_cp
 damage_position_cp
@@ -8092,8 +7982,6 @@ dxt5
 dynamic_attributes
 dynamic_interaction
 e+000
-eF>t
-eLK(w
 early exit while reading obj file containing embedded null\n
 ease in and out
 ease out
@@ -8240,8 +8128,7 @@ eye_data_list
 eyelid
 eyes
 eyes_follow
-fD>b
-fWi?
+f_%d
 fabs
 faceMergeAngle
 faceSet
@@ -8451,8 +8338,6 @@ groupColor
 group_id
 group_name
 growth time
-h0'D
-h>1my
 halfEdges %d,%d faces %d,%d angle %.1f deg.
 halfgridsnap
 halfhealth
@@ -8533,6 +8418,7 @@ ignore_rotation
 ik_chain_name
 ik_debug_chain_to_filter_by
 ik_hinge_debug_bone_index
+ik_plane_debug_bone_index
 ikchain
 ikchainjoint
 ikchainold
@@ -8635,8 +8521,6 @@ invert input from total particle count
 invert_axes
 invert_orientation
 io error
-ioV@
-ioV@[
 ios_base::badbit set
 ios_base::eofbit set
 ios_base::failbit set
@@ -8660,7 +8544,6 @@ is_physics_mesh
 is_ragdoll
 is_static_node
 iterations
-j!?Length@FbxVector4@fbxsdk@@QEBANXZ
 jiggle_root_bone
 jiggle_type
 jigglebone
@@ -8678,7 +8561,6 @@ js_array
 js_object
 js_raw_args
 js_value
-k=yI
 key_value_text
 keyframe
 keyframeclass
@@ -8711,7 +8593,6 @@ lastFrame
 last_frame
 last_sniff
 layers
-lcQe
 ldexp
 left
 leftEdgeActive
@@ -8803,10 +8684,6 @@ looping
 low violence definition
 lower_hemisphere_is_black
 lowest
-m?H7
-mG4>
-mXr4
-m\nXo
 m_Activities
 m_ActivityName
 m_Anchor
@@ -9608,6 +9485,7 @@ m_flNoiseScaleLoc
 m_flNormalMapScrollRate
 m_flNormalSpringStiffness
 m_flNumToAssign
+m_flOffset
 m_flOffsetByRadiusFactor
 m_flOffsetRot
 m_flOpEndFadeInTime
@@ -10092,6 +9970,7 @@ m_pszSoundName
 m_pszTargetLayerID
 m_pszTimeOfDayParameter
 m_qBaseOrientation
+m_qFixupRotation
 m_qOffset
 m_reference
 m_renderRadius
@@ -10485,11 +10364,7 @@ multilevel
 multilevelchannel
 multiplayer_break
 mute
-n ?IsZero@FbxVector4@fbxsdk@@QEBA_NH@Z
-n03>Pu
 nLayoffState
-n\f"pA3Q
-n]?iJ
 name
 name_mode
 name_prompt
@@ -10572,12 +10447,9 @@ numcolumns
 numframes
 numrows
 numsegments
-o?GS
-oI>O7
 oOffset
 obj2dmx
 object local space axis 0/1
-obwQ4
 offset
 offset amount
 offset axis
@@ -10690,11 +10562,8 @@ override_value
 overrideclass
 overridesound
 overridewalktorunspeed
-owM&
 owner dead
 ownerlog
-p8DA
-p\r0\fP
 packmode
 paintsplat
 parameter %s has no value
@@ -10858,7 +10727,6 @@ proxies
 proxyType
 purecall
 pvTarget
-qS>g?h3
 qangle
 qangle log
 qangle_array
@@ -10868,8 +10736,6 @@ quadratic
 quaternion
 quaternion log
 quaternion_array
-r\tVr.>T
-r\vp8DA
 radius
 radius 1
 radius 2
@@ -11034,8 +10900,6 @@ row_weight_list
 run for killed parent particles
 runspeed
 s off\ng cMesh\nusemtl initialShadingGroup\n
-s%?SetCount@FbxLayerElementArray@fbxsdk@@QEAAXH@Z
-sHF'
 saco
 sanitizetrajectories
 saturation
@@ -11117,10 +10981,13 @@ sfm_trackgroup
 sfm_v
 sfm_v1
 sfm_v10
+sfm_v2
+sfm_v3
 sfm_v4
 sfm_v5
 sfm_v6
 sfm_v7
+sfm_v8
 sfm_v9
 shader
 shadow_color_day
@@ -11151,6 +11018,7 @@ simple_cubic
 simulating
 simulationTime
 simulationTimeScale
+sinf
 sinh
 size
 size at which to fade away
@@ -11239,6 +11107,7 @@ spriteNumPP
 spriteScalePP
 spriteTwistPP
 spriteTwistRatePP
+sqrt
 srcCropXEnd
 srcCropXStart
 srcCropYEnd
@@ -11716,9 +11585,8 @@ user_specified_color
 user_specified_materialgroup
 usesLaggedValues
 utlstringtoken
-uzKs@>
+v %f %f %f
 v %f %f %f\n#%d ComponentIndex %d, queue %d, angle %.1f; ring:
-v2!L.2
 value
 value to lerp to
 value too large
@@ -11789,6 +11657,7 @@ vmat
 vmatPath
 vmatrix log
 vmdl
+vmdlkeys0
 vmdlkeys1
 vmdlkeys2
 vmdlkeys3
@@ -11843,11 +11712,11 @@ vsnap
 vstFlexSlider
 vstdlib.dll
 vsutils_py
+vt %f %f
 vtex
 vvtx
 vwnod
 vwrld
-w%?SetCurrentAnimationStack@FbxScene@fbxsdk@@QEAAXPEAVFbxAnimStack@2@@Z
 walkspeed
 walktorunspeeddetermination
 warp max
@@ -11890,7 +11759,6 @@ wrinkleIndices
 wrinkleScales
 wrong protocol type
 wstring
-xT?V
 xcoord
 xfade
 xfriction
@@ -11913,7 +11781,6 @@ ycoord
 yfriction
 ymax
 ymin
-z:KCAuthPhysBody
 z_spring_strength
 zero
 zero dir
@@ -11922,7 +11789,6 @@ zfriction
 zmax
 zmin
 znear
-{YIN?
 {error}
 {}[]()=&, \t\n'"*;
 {}[]=, \t\n'":|;

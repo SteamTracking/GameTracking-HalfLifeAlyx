@@ -1,7 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Glas fr
  Kowalsky v
  a yl dybry gw
@@ -38,8 +36,10 @@
 #%04x%04x%04x
 %s must be one of %s
 %s must be one of %s or a number
+%s/%s
 %s: PangoLayout changed since PangoLayoutIter was created, iterator invalid
 %s: failed to allocate glyph string of length %i\n
+%s=%d
 '%s' is not a valid value for the '%s' attribute on <span> tag, line %d; valid values are %s
 '%s' is not a valid value for the 'stretch' attribute on <span> tag, line %d; valid values are for example 'condensed', 'ultraexpanded', 'normal'
 '%s' is not a valid value for the 'style' attribute on <span> tag, line %d; valid values are 'normal', 'oblique', 'italic'
@@ -47,7 +47,6 @@
 '%s' is not a valid value for the 'weight' attribute on <span> tag, line %d; valid values are for example 'light', 'ultrabold' or a number
 (guint) level <= 3
 (unknown)
--64OS
 -abcdefghijklmnopqrstuvwxyz
 ..\..\..\pango\break.c
 ..\..\..\pango\ellipsize.c
@@ -93,16 +92,12 @@
 1.36.8
 1.8.0
 6\niii
-8Csin
-;1cb
 </markup>
 <markup>
-=1cb
 =\nkkk
 =\vjam
 ?333333
 ?UUUUUU
-@^8U)zj
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 Aku isa mangan beling tanpa lara.
 AliceBlue
@@ -288,7 +283,6 @@ GhostWhite
 GreenYellow
 Gvxam mincetu apocikvyeh: 
 HH:mm:ss
-HMXB
 Had error when making markup parser: %s\n
 HeapAlloc
 HeapFree
@@ -442,7 +436,6 @@ Mo l
 Monday
 Monospace
 MultiByteToWideChar
-NKeb
 N\rlt
 NavajoWhite
 NavajoWhite1
@@ -765,7 +758,6 @@ PowderBlue
 Puotsu mangiari u vitru, nun mi fa mali.
 QueryPerformanceCounter
 Quizdeltagerne spiste jordb
-RSDS
 R\nsss
 RaiseException
 ReadConsoleW
@@ -789,7 +781,6 @@ RtlLookupFunctionEntry
 RtlUnwindEx
 RtlVirtualUnwind
 S urrainn dhomh gloinne ithe; cha ghoirtich i mi.
-S;uD
 SaddleBrown
 SandyBrown
 Sans
@@ -889,6 +880,7 @@ WhiteSmoke
 WideCharToMultiByte
 WriteConsoleW
 WriteFile
+Y %d %d
 Y\nuuu
 YellowGreen
 Z\thr
@@ -900,17 +892,11 @@ Z\thr
 \r\r\r\r\r\r\r\r\r\r\r\r\r
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\t\t\t\t\t\t\t\t\t\t\v\t\t
 \rmap
 \t000
 \t333
@@ -925,7 +911,6 @@ Z\thr
 \tRRR
 \tTTT
 \tWWW
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v
 \vjbo
 _cabs
@@ -1580,7 +1565,6 @@ ivory3
 ivory4
 ivote.
 izol ce mamvj ka raq kuse bafkeh mew.
-kU'9
 ka strax hwila p
 kannada
 katakana
@@ -2208,7 +2192,6 @@ runic
 s mexik
 s1 != NULL
 s2 != NULL
-sHF'
 salmon
 salmon1
 salmon2
@@ -2375,8 +2358,6 @@ yellow1
 yellow2
 yellow3
 yellow4
-z?aUY
-zc%C1
 zh-cn
 zh-hk
 zh-mo

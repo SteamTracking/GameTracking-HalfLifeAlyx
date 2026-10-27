@@ -1,7 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -25,7 +23,6 @@
 .?AVpcharNode@@
 .?AVtype_info@@
 .mixcrt
-1\r5#t
 1newConnection()
 1readyRead()
 2newConnection()
@@ -60,12 +57,17 @@
 ?metaObject@QPacketProtocol@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QTcpServer@@UEBAPEBUQMetaObject@@XZ
 ?nextPendingConnection@QTcpServer@@UEAAPEAVQTcpSocket@@XZ
+?qFree@@YAXPEAX@Z
+?qWarning@@YAXPEBDZZ
+?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QPacketProtocol@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QTcpServer@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacast@QObject@@UEAAPEAXPEBD@Z
 ?qt_metacast@QPacketProtocol@@UEAAPEAXPEBD@Z
 ?qt_metacast@QTcpServer@@UEAAPEAXPEBD@Z
 ?read@QPacketProtocol@@QEAA?AVQPacket@@XZ
 ?receiveMessage@QDeclarativeDebugServer@@QEAAXAEBVQByteArray@@@Z
+?removeGuard@QMetaObject@@SAXPEAPEAVQObject@@@Z
 ?send@QPacketProtocol@@QEAAXAEBVQPacket@@@Z
 ?setParent@QObject@@QEAAXPEAV1@@Z
 ?state@QAbstractSocket@@QEBA?AW4SocketState@1@XZ
@@ -198,7 +200,6 @@ R6031\r\n- Attempt to initialize the CRT more than once.\nThis indicates a bug i
 R6032\r\n- not enough space for locale information\r\n
 R6033\r\n- Attempt to use MSIL code from this assembly during native code initialization\nThis indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.\r\n
 R6034\r\nAn application has made an attempt to load the C runtime library incorrectly.\nPlease contact the application's support team for more information.\r\n
-RSDS
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlUnwindEx
@@ -230,11 +231,6 @@ Wednesday
 WideCharToMultiByte
 WriteFile
 [thunk]:
-\f?qFree@@YAXPEAX@Z
-\f?qWarning@@YAXPEBDZZ
-\f?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-\r?qt_metacast@QObject@@UEAAPEAXPEBD@Z
-\r?removeGuard@QMetaObject@@SAXPEAPEAVQObject@@@Z
 \r\nThis application has requested the Runtime to terminate it in an unusual way.\nPlease contact the application's support team for more information.\r\n
 __based(
 __cdecl

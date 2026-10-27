@@ -31,9 +31,7 @@
   int bitCount(  int);ivec2 bitCount(ivec2);ivec3 bitCount(ivec3);ivec4 bitCount(ivec4);  int bitCount( uint);ivec2 bitCount(uvec2);ivec3 bitCount(uvec3);ivec4 bitCount(uvec4);  int findMSB(highp   int);ivec2 findMSB(highp ivec2);ivec3 findMSB(highp ivec3);ivec4 findMSB(highp ivec4);  int findMSB(highp  uint);ivec2 findMSB(highp uvec2);ivec3 findMSB(highp uvec3);ivec4 findMSB(highp uvec4);\n
   int bitfieldExtract(  int, int, int);ivec2 bitfieldExtract(ivec2, int, int);ivec3 bitfieldExtract(ivec3, int, int);ivec4 bitfieldExtract(ivec4, int, int); uint bitfieldExtract( uint, int, int);uvec2 bitfieldExtract(uvec2, int, int);uvec3 bitfieldExtract(uvec3, int, int);uvec4 bitfieldExtract(uvec4, int, int);  int bitfieldInsert(  int base,   int, int, int);ivec2 bitfieldInsert(ivec2 base, ivec2, int, int);ivec3 bitfieldInsert(ivec3 base, ivec3, int, int);ivec4 bitfieldInsert(ivec4 base, ivec4, int, int); uint bitfieldInsert( uint base,  uint, int, int);uvec2 bitfieldInsert(uvec2 base, uvec2, int, int);uvec3 bitfieldInsert(uvec3 base, uvec3, int, int);uvec4 bitfieldInsert(uvec4 base, uvec4, int, int);\n
   int findLSB(  int);ivec2 findLSB(ivec2);ivec3 findLSB(ivec3);ivec4 findLSB(ivec4);  int findLSB( uint);ivec2 findLSB(uvec2);ivec3 findLSB(uvec3);ivec4 findLSB(uvec4);\n
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (Start: 
@@ -64,7 +62,6 @@
  B type <id> 
  Base Class Array'
  Base Class Descriptor at (
- C>TQ
  Can't specify initial state of dynamic constant buffers at creation time!\n
  ClampMode <id> 
  Class Hierarchy Descriptor'
@@ -88,7 +85,6 @@
  Pointer <id> 
  Profile specification
  Result Type <id> 
- T"T$l&l(l*l,l.l0l2l4l6l8l:l<l>l@lBlDlFlHlJlLlNlPlRlTlVlXlZl\l^l`lbldlflhljlllnlplrltlvlxlzl|l~l
  TaskEXT execution model. 
  TensorLayout <id> 
  TensorView <id> 
@@ -590,7 +586,6 @@
  xfb_offset=
  xfb_stride=
  yielding Result Id 
-!AxU
 " in stage 
 "%s": Bad mode
 "%s": Information lost writing value (%g) as (unsigned) RATIONAL
@@ -605,7 +600,6 @@
 "defined" can't be (un)defined:
 "defined" is (un)defined:
 "displayWindow" attribute not found in the header.
-"e?<<<<<<l?
 "end of file"
 "invalid token"
 "lineOrder" attribute not found in the header.
@@ -616,13 +610,10 @@
 "screenWindowCenter" attribute not found in the header.
 "screenWindowWidth" attribute not found in the header.
 # of channels is zero.\n
-#4o>w
-#Ib?AG
 #RenderSystem_UnableToStartGame
 #Vulkan_DisableInstructions
 #Vulkan_InitializationFailure
 #Vulkan_RequiredExtensionMissing
-#bML"
 #base
 #base is NULL 
 #define
@@ -694,10 +685,9 @@
 #version: versions 300, 310, and 320 require specifying the 'es' profile
 #version: versions 300, 310, and 320 support only the es profile
 #version: versions before 150 do not allow a profile token
-$4\f>\fL\fN\fT\f`\fb\fT\f
 $Global
-$Ib?s
 $accept
+%-.13e
 %.100s: Can not read TIFF directory
 %.15lf
 %02X
@@ -706,6 +696,7 @@ $accept
 %@,S,V,S,V,,,,S
 %@,S,V,S,V,,V,S
 %@,S,V,S,V,>S
+%d (%s)
 %d [CustomResolve] Oopsies! BeginProgrammableResolve without a custom resolve pending?\n
 %d [CustomResolve] Oopsies! BeginProgrammableResolve without being in render pass... Some transient state?\n
 %d [CustomResolve] Oopsies! EndProgrammableResolve without a custom resolve pending?\n
@@ -715,9 +706,12 @@ $accept
 %i %i %i %i
 %ld%c
 %lld
+%lld (%s)
 %llu
+%llu (%s)
 %lu: Row out of range, max %lu
 %lu: Sample out of range, max %lu
+%p::%p:%d
 %s     subgroupAdd(%s);\n
 %s     subgroupAnd(%s);\n
 %s     subgroupBroadcast(%s, uint);\n
@@ -779,16 +773,23 @@ $accept
 %s     subgroupShuffleUp(%s, uint delta);\n
 %s     subgroupShuffleXor(%s, uint);\n
 %s     subgroupXor(%s);\n
+%s %s (
 %s %s decoding is not implemented
 %s %s encoding is not implemented
+%s (%d)
 %s allocation count overflow
 %s allocation count overflow( %llu > %llu )\n
 %s allocation count overflow( %llu >= %llu )\n
 %s called on an immutable constant buffer\n
 %s compression support is not configured
+%s does not support all required features, disabling.\n
+%s is not enabled, validation will fail.\n
 %s profile; removed in version %d
 %s with storage tileImageEXT
+%s%d
+%s%s
 %s2-d encoding
+%s: %s
 %s: %s at line %u of %s %u (got %u, expected %u)
 %s: Bad code word at line %u of %s %u (x %u)
 %s: Bad field type %d for "%s"
@@ -840,10 +841,12 @@ $accept
 %s: zlib error: %s
 %sEOL padding
 %s[line %d:%d] 
+%s\%s
+%s_%d
+%s_0
 %suncompressed data
-&*ZV2X&d
-&?PPPPPPP?
-&Sgw
+%u (%s)
+%u (0x%x)\n
 ' could not be inlined because the return instruction is not at the end of the function. This could be fixed by running merge-return before inlining.
 ' decorated with 
 ' decorated with both 
@@ -871,7 +874,6 @@ $accept
 (%s): Setting %s to %s\n
 (..., float bias)
 (..., float lod)
-(08@H
 (Did you mean gl_InstanceIndex?)
 (Did you mean gl_VertexIndex?)
 (None)
@@ -907,8 +909,6 @@ $accept
 ), while in source code it is (
 ), words(
 ): error at column 
-)yIx
-*"Z6,82:&<!
 *** IB "%s": Tried to lock a GPU-only buffer!\n
 *** IB "%s": Tried to lock a non integral number of indices!\n
 *** IB "%s": Tried to lock a static buffer twice!\n
@@ -923,12 +923,6 @@ $accept
 *** VB "%s": Tried to lock too much memory (%d>%d)!\n
 *** VB "%s": Tried to lock too much memory for subregion (%d>%d)!\n
 *** VB "%s": Tried to lock twice without an unlock!\n
-**Z,,.20&2!
-*0,b.v002b4v608b:v<0>zB\DzBVF
-*5KS
-*StO9>T
-*V\nR"r\nN"r\nR"z\nR"*\nP 6\n$"^\nR"r\nN"t\nN"t\nH"*\nR
-*Vc>L
 +1.#INF
 += and -= on a buffer reference
 +inf
@@ -978,9 +972,6 @@ $accept
 , which cannot be used with the current execution modes:\n
 , xfb_stride 
 , zero found
-,HR><y5
-,HR>O
-,J.T0
 ,f16vec
 ,f16vec4
 ,float
@@ -994,8 +985,6 @@ $accept
 ,vec
 ,vec4
 -1.#INF
--9D\t/9a
--BH>t
 -Stop: 
 -adapter
 -autoconfig
@@ -1021,6 +1010,7 @@ $accept
 -maxtexturepoolsize_2gb
 -maxtextureres
 -maxtextureres_2gb
+-memory-
 -multigpu
 -newtexturestreaming
 -nogammaramp
@@ -1066,6 +1056,7 @@ $accept
 -vulkan_disable_external_subpass_dependency
 -vulkan_disable_khr_descriptor_update_template
 -vulkan_disable_khr_dynamic_rendering
+-vulkan_disable_khr_fragment_shading_rate
 -vulkan_disable_khr_image_format_list
 -vulkan_disable_khr_maintenance1
 -vulkan_disable_khr_maintenance2
@@ -1107,13 +1098,6 @@ $accept
 . This structure has 
 . Using the field of a named struct as an interpolant argument is not allowed (ES-only).
 .00cfg
-.0MF
-.0WF
-.0eF
-.0nF
-.0sF
-.<0P266Z8D6
-.>\rfJBGo
 .?AU_Crt_new_delete@std@@
 .?AUctype_base@std@@
 .?AV<lambda_00d418324e0a069b83d45dd6b18e66f1>@@
@@ -1754,16 +1738,11 @@ $accept
 .P6APEBVConstant@analysis@opt@spvtools@@PEBVType@123@PEBV0123@PEAVConstantManager@123@@Z
 .P6AXW4spv_message_level_t@@PEBDAEBUspv_position_t@@1@Z
 .P6A_NPEAVIRContext@opt@spvtools@@PEAVInstruction@12@AEBV?$vector@PEBVConstant@analysis@opt@spvtools@@V?$allocator@PEBVConstant@analysis@opt@spvtools@@@std@@@std@@@Z
-.PUF
-.PYF
-.PeF
-.PnF
 .bss
 .data
 .data$r
 .data$rs
 .edata
-.h0p2
 .idata$2
 .idata$3
 .idata$4
@@ -1772,13 +1751,7 @@ $accept
 .length
 .length()
 .length() on vectors and matrices
-.pWF
-.pYF
 .pdata
-.peF
-.pmF
-.pnF
-.poF
 .rdata
 .rdata$T
 .rdata$r
@@ -1797,31 +1770,16 @@ $accept
 .tls$
 .tls$ZZZ
 .txt
-.xJ>Hf
 .xdata
 .xdata$x
 // OpModuleProcessed 
-/2GG>!B
-/P8i
 /TF<)VGy#WH
-/yQA
-0(\f*\f,\f.\f0\f2\f
 0.05
 0.90
 00000000-0000-0000-0000-000000000000
 0123456789
 0123456789abcdefghijklmnopqrstuvwxyz
-08@HPX`$^
-08@HR
-08vH
 0: Bilinear, 1: Trilinear, 2: Aniso 2x, 3: Aniso 4x, 4: Aniso 8x, 5: Aniso 16x
-0<4H6Q
-0>0VF
-0E>X
-0X8b?~
-0b\fT\f
-0iN>/
-0n2,4
 0x%016llX
 0x%x
 1#IND
@@ -1831,8 +1789,6 @@ $accept
 1.#IND
 1.2.5
 1/4 stride is too large:
-11UT
-11Y@
 16-bit  literal
 16-bit arrays not supported
 16-bit binary literal
@@ -1849,52 +1805,20 @@ $accept
 16-bit vectors only take vector types
 1600
 1:1: Tokens : ( T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | BOOLLITERAL | ID | INTEGERLITERAL | HEXINTEGERLITERAL | FLOATLITERAL | COMMENT | WS );
-1A26b
 1DBlend
-1\fU14<
-1\fe14B
-1\nT5\n
-1wsHp
 2 Entry points cannot share the same name and ExecutionMode.
-2.N0|
-207"
-20N-
-20V,
 256.0
-28Z:
-2@ZB2D0FpH J)
 2DMS
 2DRect
-2\rU2h
-3 FB
 32-bit 
 32-bit signed integer
 32-bit signed integer vector
 32-bit signed literal
 32-bit unsigned integer
 32-bit unsigned integer vector
-3288
-3299
+3298
 3309
-37>k
-3>N;kU
-3>fvw
-3?tr
-3\f534+
-40V,
-482:
-4FlH>F~
-4N6f4
-4X2J
-51>W
-52F*
-5W`W!
-5\tV9\t
-5\vH9\v
-5h`W!
-6$8d6f
-60gF
-60mF
+3319
 64-bit binary literal
 64-bit hexadecimal literal
 64-bit integer
@@ -1907,20 +1831,6 @@ $accept
 64-bit unsigned integer vector
 64-bits unsigned integer scalar type
 64.0
-6J8T:
-6NK>
-6P\F
-6\fXO>\ntA
-6`UF
-6pmF
-6poF
-7>I0
-7?GX
-7h>?8
-7yp>
-7~8A
-7~xh
-8&Kx
 8- or 16-bit loads must be a scalar, vector or matrix type
 8- or 16-bit stores must be a scalar, vector or matrix type
 8- or 16-bit types can only be used with width-only conversions
@@ -1930,22 +1840,7 @@ $accept
 8-bit unsigned integer
 8-bit unsigned integer vector
 8-bit vectors only take vector types
-88FH
-8:0R:
-8:0V,
-8@B0V,
-8@HPXfH
-8@HPZ
-8@HP^
-8@HVH
-8Bp\,
 8b  16-May-2010
-8ke?;
-8x8`Z
-9>70
-9a&g
-9a>d
-9g>@3
 : 64-bit atomics require the Int64Atomics capability
 : Component Count must be 
 : Component Count must be 32-bit integer OpConstant
@@ -2024,7 +1919,7 @@ $accept
 : storage class forbidden by universal validation rules.
 : storage class must be Function, Workgroup, CrossWorkGroup or Generic in the OpenCL environment.
 : truncated 
-:<4@628
+:%d:%d
 ; Annotations
 ; Bound: 
 ; Debug Information
@@ -2037,7 +1932,6 @@ $accept
 ; Types, variables and constants
 ; Version: 
 ; may be removed in future release
-;1cb
 ;BIb?
 <!-- kv3 encoding:%s:version{%s} format:%s:version{%s} -->\n
 <!-- schema 
@@ -2046,7 +1940,6 @@ $accept
 <EOR>
 <NULL>
 <NoDebugString>
-<\f>\f@\fB\fD\fF\fH\fJ\fL
 <bad token>
 <deferred>
 <float
@@ -2065,32 +1958,11 @@ $accept
 <unknown op>
 <unknown>
 <x360>
-=1cb
-=87M
-=cQ6
-=e2m
-=imb;D
 > contains a PhysicalStorageBuffer pointer, which is not allowed. If you want to interface shader stages with a PhysicalStorageBuffer, cast to a uint64 or uvec2 instead.
 > is later referenced by 
 > is used by entry point '
 > which is called with execution model 
-> x$>&x*>,x0.2H4R6
->*ZV,X*Zv\&^A
 >, but is not listed as an interface
->-memory-
->0Av
->SSE and SSE2 are required.
->cQ6
->jtm}S
->plF
->prF
-?!5WOo
-?1cb
-?49HoKC
-?7zQ6$
-?7{KV\nU
-?8UUUUU
-?8bunz8
 ??0CThreadEvent@@QEAA@_N@Z
 ??0CThreadFastMutex@@QEAA@XZ
 ??0CThreadMutex@@QEAA@PEBD@Z
@@ -2100,7 +1972,6 @@ $accept
 ??1CThreadEvent@@QEAA@XZ
 ??1CThreadSemaphore@@QEAA@XZ
 ??_FCThreadRWLock_FastRead@@QEAAXXZ
-?@En[vP
 ?Allocate@COneTimeEvent@@SAPEAV1@XZ
 ?AppendFormat@CBufferString@@QEAAHPEBDZZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
@@ -2113,17 +1984,14 @@ $accept
 ?FixSlashes@CBufferString@@QEAAPEBDD@Z
 ?FixupPathName@CBufferString@@QEAAPEBDD@Z
 ?Format@CBufferString@@QEAAHPEBDZZ
-?GetProfile_ultrafast
 ?HandleFirstWriteLockTransition@CThreadRWLock_FastRead@@IEAAXXZ
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?JV8f
 ?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LockForRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@VColor@@PEBDZZ
 ?Purge@CBufferString@@QEAAXH@Z
-?R0I?
 ?Release@CThreadSemaphore@@QEAA_NHPEAH@Z
 ?RemoveAt@CBufferString@@QEAAPEBDHH@Z
 ?Replace@CBufferString@@QEAAHPEBD0_N@Z
@@ -2145,30 +2013,7 @@ $accept
 ?UnlockWrite@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?UnlockWrite_LockForRead@CThreadRWLock_FastRead@@QEAA?AW4RWLockTranstionResult_t@@PEBDH@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
-?WUUUUU
 ?Wait@CThreadSyncObject@@QEAA_NI@Z
-?f`Y4
-?kxG2)
-?lZE
-?qBJ
-?rAj
-?sequence number %d too low in sheet file!!!\n
-?ysB
-@08NH
-@20V,
-@40V,
-@6 MF
-@6`oF
-@8@FH
-@8@HPX`hp
-@8@HP^H
-@8@HVH
-@8@NH
-@8FH
-@:0Q7
-@Integer overflow in %s
-@JBTD
-@^8U)zj
 @count
 @data
 @entryPointOutput
@@ -2176,10 +2021,8 @@ $accept
 @fragcoord
 @gl_SubgroupInvocationID
 @gl_SubgroupSize
-@hpx
 @patchConstantOutput
 @patchConstantResult
-@pn>6
 @position
 @sampleCount
 @sampleResultShadow
@@ -2194,8 +2037,6 @@ A module-scope OpVariable with initialization value cannot be marked with the Im
 A per vertex structure containing an array is not allowed as input in ES
 A structure containing an array is not allowed as input in ES
 A structure containing an struct is not allowed as input in ES
-A!;I2
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABGR
 ABGR8888
@@ -2234,7 +2075,6 @@ AE_VORTIGAUNT_ZAP_SHOOT
 AE_ZOMBIE_POPHEADCRAB
 AE_ZOMBIE_TOGGLE_HEAD
 AIWalkable
-AK>(v
 ALIGN_TYPE is wrong, please fix
 AMD RADV
 AMPERSAND
@@ -2258,8 +2098,6 @@ ATOMIC_UINT
 ATTACHMENTEXT
 ATTEMPTED TO DECOMMIT OWNED MEMORY STACK SPACE\n
 ATTRIBUTE
-A\nPE\n
-A`1w>
 Aboring OnReadPixels because of GPU memory allocation failure.\n
 AbsISubINTEL
 AbsUSubINTEL
@@ -2535,15 +2373,11 @@ August
 AutoINTEL
 AutoLayer
 Auxiliary qualifiers (centroid, patch, and sample) must appear before storage and precision qualifiers
-B.f?y
-B0V,
 BANG
 BC6H
-BC?>6t9^\tc:>
 BF16VEC2
 BF16VEC3
 BF16VEC4
-BF>^G
 BFIU
 BFLOAT16_T
 BFloat16ConversionINTEL
@@ -2565,7 +2399,6 @@ BGRA8888_LINEAR
 BGRX5551
 BGRX8888
 BGRX8888_LINEAR
-BKbhTb~XBK!;
 BOOL
 BOOLCONSTANT
 BOOLLITERAL
@@ -2750,8 +2583,6 @@ BuiltinSymbolTable {\n
 BurstCoalesceINTEL
 ByVal
 ByteAddressBuffer
-C-Yn
-C5R?\t
 CALLDATAEXT
 CALLDATAINEXT
 CALLDATAINNV
@@ -2760,6 +2591,7 @@ CARET
 CASE
 CAnimMotorList
 CAnimMovementManager
+CAuthPhysBody
 CAuthPhysJoint
 CCIR601 sampling not implemented yet
 CCITT Group 3
@@ -2775,7 +2607,6 @@ CFAPlaneColor
 CGlobalConfigValueRegistry::HookUpConfigValue
 CInputLayoutDict<class CInputLayoutVulkan>::ConcatentateInputLayouts
 CKV3FormatManager::RegisterFormatConversion
-CL:>8
 CLargeCommandBufferChunk CUtlMemoryPoolMT
 CMediumCommandBufferChunk CUtlMemoryPoolMT
 CMemAllocSystemInitialize
@@ -2828,27 +2659,27 @@ CRenderContextVulkan::UAVBarrier
 CRenderContextVulkan::WriteDataIntoTexture
 CRenderContextVulkan_SoftwareCommandLists::SemaphoreWaitAtBegin - already set semaphore to wait on, can't set another one.\n
 CRenderContextVulkan_SoftwareCommandLists::SetConstantBufferDataInternal
-CRenderDeviceBase::AsyncSetTextureData(3277): 
-CRenderDeviceBase::CreateConstantBuffer(1547): 
-CRenderDeviceBase::FindOrCreateTexture(1720): 
+CRenderDeviceBase::AsyncSetTextureData(3279): 
+CRenderDeviceBase::CreateConstantBuffer(1549): 
+CRenderDeviceBase::FindOrCreateTexture(1722): 
 CRenderDeviceBase::FindOrCreateTexture: Trying to load multiple mipmaps into 3d or array texture: %s\n
-CRenderDeviceBase::Flush(958): 
-CRenderDeviceBase::ForceFlushGPU(975): 
+CRenderDeviceBase::Flush(960): 
+CRenderDeviceBase::ForceFlushGPU(977): 
 CRenderDeviceBase::InitPerFrameMemoryStack
-CRenderDeviceBase::Present(681): 
-CRenderDeviceBase::ProcessPendingAsyncTextureUpdates(3410): 
-CRenderDeviceVulkan::CreateDefaultBuffers(2096): 
+CRenderDeviceBase::Present(683): 
+CRenderDeviceBase::ProcessPendingAsyncTextureUpdates(3412): 
+CRenderDeviceVulkan::CreateDefaultBuffers(2147): 
 CRenderDeviceVulkan::CreateDefaultShaders
 CRenderDeviceVulkan::CreateDescriptorSet: Failed to create descriptor set.\n
-CRenderDeviceVulkan::CreateGPUBufferFormatted(4604): 
-CRenderDeviceVulkan::DeleteQueryObject(3789): 
+CRenderDeviceVulkan::CreateGPUBufferFormatted(4655): 
+CRenderDeviceVulkan::DeleteQueryObject(3840): 
 CRenderDeviceVulkan::GetDeviceSpecificTexture
 CRenderDeviceVulkan::GetDeviceSpecificTexture() failed to get texture data.\n
 CRenderDeviceVulkan::InitDevice: failed to get queue properties\n
 CRenderDeviceVulkan::InitDevice: no graphics queue found\n
 CRenderDeviceVulkan::InitDevice: vkEnumerateDeviceExtensionProperties( ... ) failed.\n
 CRenderDeviceVulkan::OnLowMemoryNotification - evicting all textures to reduce memory pressure.\n
-CRenderDeviceVulkan::ReadTexturePixels(3426): 
+CRenderDeviceVulkan::ReadTexturePixels(3477): 
 CRenderDeviceVulkan::RebakeStaticDescriptorSetsReferencingTexture - could not allocate descriptor in new pool.\n
 CRenderDeviceVulkan::SetHardwareGammaRamp failed to get swap chain.\n
 CRenderDeviceVulkan::UpdateDescriptorSet: Failed to update descriptor set.\n
@@ -2868,7 +2699,7 @@ CSolveIKChainAnimNode
 CSwapChainBase::QueuePresentAndWait() looped for %d iterations without a present event.\n
 CSwapChainVulkan::CreateSwapChain
 CSwapChainVulkan::CreateSwapChain - DISPLAY: "%s" WAYLAND_DISPLAY: "%s" GAMESCOPE_WAYLAND_DISPLAY: "%s".\n
-CSwapChainVulkan::CreateSwapChain(2804): 
+CSwapChainVulkan::CreateSwapChain(2855): 
 CSwapChainVulkan::SwapBuffers(): the main thread is more than %d frames ahead which means no swap queue images are available.  Waiting for outstanding frames...\n
 CSwapChainVulkan::SwapBuffers(): waited for %0.2f seconds\n
 CTSListBase: Misaligned list\n
@@ -2899,7 +2730,7 @@ CTextureManagerBase::MarkAsyncUpdatedThisFrame - Invalid texture handle.\n
 CTextureManagerBase::PreloadTextureBits
 CTextureManagerBase::RemoveTextureFromAnyQueues
 CTextureManagerBase::WasAsyncUpdatedThisFrame - Invalid texture handle.\n
-CTextureManagerVulkan::ComputeTextureObject(1529): 
+CTextureManagerVulkan::ComputeTextureObject(1536): 
 CTextureManagerVulkan::ComputeTextureObject: Tried to create a depth-stencil texture which is *not* a render target!\n
 CTextureManagerVulkanNew::LoadStreamingData
 CTextureStreamingHelper::LoadExplicitlyRequestedTextures
@@ -2982,7 +2813,6 @@ CUtlSymbol
 CUtlSymbolLarge
 CUtlVector
 CVfxShaderFile::Unserialize
-CWD>~3
 C_INIT_AddVectorToVector
 C_INIT_AgeNoise
 C_INIT_CreateFromCPs
@@ -3575,10 +3405,8 @@ Current Times must be a 32-bit float scalar type
 CurrentICCProfile
 CurrentPreProfileMatrix
 CurrentRayTimeNV
-Cy2@K>
 Cycle or diamond double-reference to '%s'
 CycleOverride
-D0V,
 D15S1
 D16_SHADOW
 D24FS8
@@ -3588,7 +3416,6 @@ D24X8
 D24X8_SHADOW
 D3DCOLORtoUBYTE4
 DASH
-DB$DdBx
 DCT coefficient out of range
 DCT scaled block size %dx%d not supported
 DEC_OP
@@ -3643,8 +3470,6 @@ Data type must be a type instruction
 Data type must be specified for Function, Private, and Workgroup storage classes
 DataType
 DateTime
-Db$ddbH
-DbFA
 Debug info extension instruction found inside function but outside block
 Debug info extension instruction other than DebugScope, DebugNoScope, DebugDeclare, and DebugValue found inside function
 Debug info extension instruction other than DebugScope, DebugNoScope, DebugFunctionDefinition, DebugDeclare, and DebugValue found inside function
@@ -3826,7 +3651,6 @@ DumpModeDecode: Not enough data for scanline %d
 Duplicate non-aggregate type declarations are not allowed. Opcode: 
 DynamicConfigList
 Dynamically adjust texture streaming budget based on GPU memory usage.
-E>nEA
 ELSE
 EQUAL
 EQ_OP
@@ -3838,7 +3662,6 @@ ERROR_not_op_extension
 ES Profile
 ESC_SEQ
 ESSL
-ET5>
 EXECUTABLE_PATH
 EXIFIFDOffset
 EXPLICITINTERPAMD
@@ -3848,17 +3671,11 @@ EXRHeader variable is not initialized.
 EXRReadFile() - B channel not found!\n
 EXRReadFile() - G channel not found!\n
 EXRReadFile() - R channel not found!\n
-EX`W!
-E[\rn?gc
-E\vTI\v
 Early exit
 EarlyAndLateFragmentTestsAMD
 EarlyFragmentTests
 EconItemToolModel_001
 EditorDynamicConfig
-EiU>
-EiUL
-Ei`W!
 ElemSize must be a 32-bit unsigned integer OpConstant
 Element type is not defined.
 EliminateDeadIOComponentsPass only valid for input and output variables.
@@ -4306,7 +4123,6 @@ F64MAT4X4
 F64VEC2
 F64VEC3
 F64VEC4
-F>qUxv
 FATAL ERROR: unable to register all schema data: %s\n
 FAbs
 FAdd
@@ -4316,7 +4132,6 @@ FClamp
 FConvert
 FDM Offset Info:\n\tbShouldUseFDMOffset: %s\n\tbGotEyeTracking: %s\n\tFoveation Center: [%f, %f]   [%f, %f]\n\tRender Area: %ux%u\n\tFDM Granularity: %ux%u\n\tFDM Offsets: [%d, %d]   [%d, %d]\n
 FDiv
-FEMh\f
 FIU,
 FIU,F
 FIU,F,
@@ -4464,7 +4279,6 @@ February
 Fetch
 FetchMicroTriangleVertexBarycentricNV
 FetchMicroTriangleVertexPositionNV
-FfW?
 FieldOfViewCotangent
 File
 File has not been opened!\n
@@ -4654,7 +4468,6 @@ FuseLoopsInFunctionINTEL
 Fwidth
 FwidthCoarse
 FwidthFine
-G>US
 GAME
 GAMECONSOLE
 GAMESCOPE_WAYLAND_DISPLAY
@@ -4885,7 +4698,6 @@ GatherCmpGreen
 GatherCmpRed
 GatherGreen
 GatherRed
-Gc:\buildslave\hlvr_rel_win64\build\src\tier1\mempool.cpp
 Generating SPIR-V array-of-arrays, but Vulkan only supports single array level for this resource
 Generating variable pointers requires capability 
 Generic
@@ -4956,6 +4768,7 @@ GetProfile_bc6h_veryfast
 GetProfile_bc6h_veryslow
 GetProfile_fast
 GetProfile_slow
+GetProfile_ultrafast
 GetProfile_veryfast
 GetRenderTargetSampleCount
 GetRenderTargetSamplePosition
@@ -4989,7 +4802,6 @@ Google Skia SkSL
 Google Tint Compiler
 Google rspirv
 Google spiregg
-GrJoq>@
 Grad
 Graphics Device changed, resetting video config\n
 GrayResponseCurve
@@ -5083,8 +4895,6 @@ GroupUMinNonUniformAMD
 GroupUniformArithmeticKHR
 GroupWaitEvents
 Groups
-H$6t
-H*0"ZOW
 HERO_C
 HEXINTEGERLITERAL
 HEX_DIGIT
@@ -5096,8 +4906,6 @@ HITATTRNV
 HITOBJECTATTRNV
 HITOBJECTNV
 HLSL
-HXFpJ
-HZ$\dZX
 HalfFloat
 HalftoneHints
 HammerMapLoader001
@@ -5182,7 +4990,6 @@ HitTriangleVertexPositionsKHR
 Hitch alert: Present was waiting for %d iterations and %.1f seconds.\n
 HlslCounterBufferGOOGLE
 HlslSemanticGOOGLE
-Hn$pdnR
 Horizontal differencing "Predictor" not supported with %d-bit samples
 Horizontal2Pixels
 Horizontal4Pixels
@@ -5192,7 +4999,6 @@ HostOnlyINTEL
 HostStateMgr001
 Huffman code size table overflow
 Huffman table 0x%02x was not defined
-H|LDN
 I could not work out what I was expecting, like so many of us these days!\n
 I16VEC2
 I16VEC3
@@ -5217,7 +5023,6 @@ I64VEC4
 I8VEC2
 I8VEC3
 I8VEC4
-I;u>A
 IA88
 IATTACHMENTEXT
 IAdd
@@ -5265,7 +5070,6 @@ IMix
 IMul
 IMul32x16INTEL
 INC_OP
-IND)ind)
 INFO : 
 INITY
 INOUT
@@ -5321,7 +5125,6 @@ ITEXTURECUBEARRAY
 IVEC2
 IVEC3
 IVEC4
-I\nJM\n
 Id is 0
 Id must be an unsigned integer scalar
 Identifier
@@ -5332,9 +5135,7 @@ If you want to interface shader stages with a buffer_reference cast to a uint64 
 IgnoreIntersectionKHR
 IgnoreIntersectionNV
 Ignoring initializer for uniform
-IiGM>nw
 IkLockLocal
-Il?333333c?
 Illegal number of components (
 Illegal to have non-comment, non-whitespace tokens before #version
 Illegal use of QCOM image processing decorated texture
@@ -5557,6 +5358,7 @@ Int64
 Int64Atomics
 Int64ImageEXT
 Int8
+Integer overflow in %s
 IntegerFunctions2INTEL
 Intel
 Intensity
@@ -5692,8 +5494,6 @@ IsValidReserveId
 Isolines
 IterationMultiple
 IterationMultiple loop control operand must be greater than zero
-J*L`N*X
-J*LdN*R
 JFIF APP0 marker: version %d.%02d, density %dx%d  %d
 JFIF extension marker: JPEG-compressed thumbnail image, length %u
 JFIF extension marker: RGB thumbnail image, length %u
@@ -5703,7 +5503,6 @@ JPEG
 JPEG datastream contains no image
 JPEG parameter struct mismatch: library thinks size is %u, caller expects %u
 JPEGMEM
-J\nx\fT
 January
 July
 June
@@ -5729,9 +5528,6 @@ Kill
 Kitsunebi Games
 Kitsunebi Games Nuvk SPIR-V Emitter and DLSL compiler
 Kongruent
-L-n>4
-L>ev
-L?UUUUUUU?
 LAYOUT
 LCIDToLocaleName
 LCMapStringEx
@@ -5766,8 +5562,6 @@ LLVM/SPIR-V Translator
 LOG_GENERAL
 LOWVIOLENCE
 LOW_PRECISION
-LWG>
-LWW>
 LZWDecode: Bogus encoding, loop in the code table; scanline %d
 LZWDecode: Corrupted LZW table at scanline %d
 LZWDecode: Not enough data at scanline %d (short %ld bytes)
@@ -5889,11 +5683,8 @@ LoopControlINTEL
 LoopCountINTEL
 LoopFuseINTEL
 LoopMerge
-LrwcE
 Luminance
 LunarG
-M'y>0y
-M8MF
 MAT2
 MAT2X2
 MAT2X3
@@ -5909,7 +5700,6 @@ MAT4X4
 MATCHFRAMEWORK_001
 MAX_ALLOC_CHUNK is wrong, please fix
 MEDIUM_PRECISION
-MGiI
 MLIR SPIR-V Serializer
 MM/dd/yy
 MMHostInterfaceAddressWidthINTEL
@@ -6139,14 +5929,10 @@ MultiViewport
 Multiple case constructs have branches to the case construct that targets 
 Multiple function bodies in multiple compilation units for the same signature in the same stage:
 Must be only one constituent
-N3`d?
-N>O=I9
-N>VF
 NAN(IND)
 NAN(SNAN)
 NClamp
 NE_OP
-NJ2"v
 NMax
 NMin
 NONE
@@ -6155,8 +5941,6 @@ NONTEMPORAL
 NONUNIFORM
 NOPERSPECTIVE
 NOTE: 
-NQ?s
-NT*V
 NULL
 NVIDIA
 NV_DST16
@@ -6165,7 +5949,6 @@ NV_INTZ
 NV_NULL
 NV_RAWZ
 NZSL
-N\nx\fX
 Naga
 Name
 Name must be an OpString
@@ -6194,7 +5977,6 @@ NetworkSystemVersion001
 Newline in string literal
 Next token is
 Nintendo
-Nm\t$q\tdm\t
 No Buffer
 No OpEntryPoint instruction was found. This is only allowed if the Linkage capability is being used.
 No Vulkan heaps support system memory allocation for this resource.\n
@@ -6302,14 +6084,11 @@ Number of image operand ids doesn't correspond to the bit mask
 Number of local variables ('Function' Storage Class) exceeded the valid limit (
 NumberOfInks
 Nuvk SPIR-V Emitter and DLSL compiler
-O*9y]
 OCTAL_ESC
 OR_ASSIGN
 OR_OP
 OUTSTANDING_HOOKUP_REQUEST 
 OVER_BUDGET
-OZQ%
-OZw3(?
 ObjectOffset must be a 32-bit unsigned integer OpConstant
 ObjectRayDirectionKHR
 ObjectRayDirectionNV
@@ -6532,16 +6311,6 @@ Overflow of the sheet cache texture. Releasing and starting over. This is ok in 
 Overflow of the sheet cache texture: Try increasing SheetCacheTextureRows in gameinfo.gi (current value %d)!\n
 Override default %s Vulkan GPU memory pool size: %d MB (default: %d MB)\n
 OverrideCoverageNV
-P08@HPX`hpx
-P08@HR
-P0:P
-P0<0V,
-P0>H
-P20V,
-P2`W!
-P2p\,
-P4Jp
-P8>H
 PACKED
 PARTICLE_DEPTH_FEATHERING_OFF
 PARTICLE_DEPTH_FEATHERING_ON_OPTIONAL
@@ -6615,7 +6384,6 @@ PayloadNodeArraySizeAMDX
 PayloadNodeBaseIndexAMDX
 PayloadNodeNameAMDX
 PayloadNodeSparseArrayAMDX
-Pe6^
 PeelCount
 PeelCount and DontUnroll loop controls must not both be specified
 Per-component robustness and per-element robustness are mutually exclusive.
@@ -6667,7 +6435,6 @@ PixarLog
 PixelCenterInteger
 PixelInterlockOrderedEXT
 PixelInterlockUnorderedEXT
-Pl@g&
 PlanarConfiguration
 Planarconfig tag value assumed incorrect, assuming data is contig instead of chunky
 Plat_DebugPrint
@@ -6705,7 +6472,6 @@ Plat_VirtualFree
 Plat_WindowToOsSpecificHandle
 Plus
 PlusUconst
-Po5H
 PointCoord
 PointMode
 PointSize
@@ -6809,15 +6575,10 @@ PushConstantNumWorkgroups
 PushConstantRegionGroupOffset
 PushConstantRegionOffset
 PushConstants
-Pv$x
 Q2XXR
-Q5rHg,>
-QAf?
 QAngle
 QUESTION
 QUEUEFAMILYCOHERENT
-Q\nTU\n
-Qkkbal
 QuadControlKHR
 QuadDerivativesKHR
 QuadReadAcrossDiagonal
@@ -6837,8 +6598,6 @@ Queue
 QueueFamily
 QueueFamilyKHR
 QueuedLoaderVersion001
-R p"Q
-R0V,
 R11_EAC
 R11fG11fB10f
 R16F
@@ -6847,8 +6606,6 @@ R16Snorm
 R16f
 R16i
 R16ui
-R1h58
-R2 4F
 R32F
 R32_UINT
 R32f
@@ -6859,6 +6616,7 @@ R64ui
 R8G8B8A8_ETC2_EAC
 R8G8B8_ETC2
 R8Snorm
+R8_UINT
 R8ui
 RAYQUERYEXT
 READONLY
@@ -6968,7 +6726,6 @@ RND_CONV_ODD
 RND_INF
 RND_MIN_INF
 RND_ZERO
-RSDSJ
 RST%d
 RWBuffer
 RWByteAddressBuffer
@@ -7294,12 +7051,9 @@ RuntimeDescriptorArray
 RuntimeDescriptorArrayEXT
 Rust
 Rust GPU Compiler Backend
-S+Ot
 S,S,V1,
 S,V2,V4
 S,V4
-S9>H
-S>$hkDh$h>[2
 SAMPLE
 SAMPLER
 SAMPLER1D
@@ -7351,7 +7105,6 @@ SGreaterThanEqual
 SHADERCALLCOHERENT
 SHARED
 SIMTCallINTEL
-SKyu
 SLASH
 SLessThan
 SLessThanEqual
@@ -7569,6 +7322,7 @@ SPV_QCOM_image_processing2
 SPV_QCOM_tile_shading
 SPV_VALIDATOR_ignore_type_decl_unique
 SRem
+SSE and SSE2 are required.
 SSign
 STAR
 STDGL
@@ -8203,13 +7957,12 @@ TIFFVStripSize
 TIFFVTileSize
 TILDE
 TILEIMAGEEXT
-TR$T V8X>V
-TR$T V8X>VE
 TRN_ZERO
 TSPEC_CUBE_CAN_SAMPLE_AS_ARRAY
 TSPEC_CUBE_TEXTURE
 TSPEC_FLAGS
 TSPEC_FRAGMENT_DENSITY_MAP
+TSPEC_FRAGMENT_SHADING_RATE
 TSPEC_INPUT_ATTACHMENT
 TSPEC_LINEAR_ADDRESSING_360
 TSPEC_LINEAR_COLOR_SPACE
@@ -8231,9 +7984,7 @@ TSPEC_USE_TYPED_IMAGEFORMAT
 TSPEC_VERTEX_TEXTURE
 TSPEC_VOLUME_TEXTURE
 TUUUU
-TXV~X
 TYPE_NAME
-T\V~T\X
 Tag 
 Tag %d
 Tag Value
@@ -8550,7 +8301,6 @@ U64VEC4
 U8VEC2
 U8VEC3
 U8VEC4
-UA>N0Wl
 UATTACHMENTEXT
 UAVBarrier - requested barrier for more mip levels than are in the texture. Requested baseLevel: %d levelCount: %d (Actual levels: %d).  Clamping to actual number of levels.\n
 UAddSatINTEL
@@ -8632,7 +8382,6 @@ UTEXTUREBUFFER
 UTEXTURECUBE
 UTEXTURECUBEARRAY
 UUID mismatch in pipeline cache file.  Deleting %s in order to regenerate it.\n
-UUUU
 UUUUUU
 UV88
 UVEC2
@@ -8640,10 +8389,6 @@ UVEC3
 UVEC4
 UVLX8888
 UVWQ8888
-UY`W!
-U\tTY\tb
-Uj`W!
-Uk`W!
 Unable find required entry points in %s\n
 Unable to determine buffer encoding.
 Unable to determine source language
@@ -8917,10 +8662,12 @@ VK_KHR_device_group
 VK_KHR_device_group_creation
 VK_KHR_dynamic_rendering
 VK_KHR_dynamic_rendering_local_read
+VK_KHR_fragment_shading_rate
 VK_KHR_get_physical_device_properties2
 VK_KHR_image_format_list
 VK_KHR_maintenance1
 VK_KHR_maintenance2
+VK_KHR_maintenance7
 VK_KHR_multiview
 VK_KHR_shader_float16_int8
 VK_KHR_surface
@@ -9098,7 +8845,6 @@ Variables identified with the StorageBuffer storage class are used to access tra
 Variables identified with the Uniform storage class are 
 Variables identified with the UniformConstant storage class 
 Variables must have a function[7] storage class inside of a function
-Vc0a
 VeaFOfb
 VecTypeHint
 Vector
@@ -9255,7 +9001,6 @@ VulkanMemoryModelKHR
 VulkanMemoryModelKHR capability must only be specified if the VulkanKHR memory model is used.
 W3C WebGPU Group
 W3C WebGPU Group WHLSL Shader Translator
-W=vmdlkeys0
 WAITING_FOR_HOOKUP_JOB 
 WAITING_FOR_IO 
 WARNING : 
@@ -9273,14 +9018,12 @@ WITHIN_BUDGET
 WORKGROUPCOHERENT
 WRAP
 WRITEONLY
-WaNd?
 WaitForSingleObjectEx
 WaitForThreadpoolTimerCallbacks
 WaitKernel
 WaitWorkGroup
 Waited for left eye command buffers to finish for 250ms, trying again.  Likely a GPU hang.\n
 Waiting for oustanding shader compile on another thread for %0.2f seconds.\n
-Wak>E
 WakeAllConditionVariable
 WakeConditionVariable
 Warning
@@ -9380,12 +9123,10 @@ Wrong JPEG library version: library is %d, caller expects %d
 X must be a 32-bit unsigned integer OpConstant
 X-LEGEND
 X-LEGEND Mesa-IR/SPIR-V Translator
-X/4B
 X360
 X360_DST16
 X360_DST24
 X360_DST24F
-X>0S
 XClipPathUnits
 XMLPacket
 XOR_ASSIGN
@@ -9400,11 +9141,7 @@ Xenia Emulator Microcode Translator
 Xenia Xenia Emulator Microcode Translator
 XfbBuffer
 XfbStride
-XsBI
 Y must be a 32-bit unsigned integer OpConstant
-Y8a:
-Y>kX>
-Y>kX>M
 YCbCrCoefficients
 YCbCrPositioning
 YCbCrSubsampling
@@ -9414,11 +9151,6 @@ YResolution
 Yaay! VK_EXT_host_image_copy is enabled. ^_^\n
 YpU_Z
 Z must be a 32-bit unsigned integer OpConstant
-Z0V,
-Z>w_F
-Z@&LHA'\r:C(
-Z@2P&R
-Z@2P&R\t
 ZFP compression is not supported.
 ZIPDecode
 ZIPEncode
@@ -9426,16 +9158,12 @@ ZIPPostEncode
 ZIPSetupDecode
 ZIPSetupEncode
 ZIPVSetField
-ZSq>
-Z\>z8
 ZeroExtend
 Zext
 Zig Compiler
 Zig Software Foundation
 Zig Software Foundation Zig Compiler
-Zjz\v
 Zpm"U
-[*ncd>0
 [1;30m
 [31m
 [32m
@@ -9779,38 +9507,20 @@ Zpm"U
 [] buf, uint offset);\n
 [] buf, uint offset, uint stride, int matrixLayout, int matrixInterpretation);\n
 [] matrix, 
-[aOni*{
 [gl_MinProgramTexelOffset, gl_MaxProgramTexelOffset]
-[h1R
-\f \f"\f$\f&\f(\f*\f,\f.\f
-\f%\f*\f/\f4\f:\f?\fD\fI\fO\fT\fY\f^\fd\fi\fn\fs\fy\f~\f
-\fp2\4X
-\fp\vPt
 \n    near %s\n    
-\n#\n(\n-\n2\n7\n<\nA\nF\nK\nQ\nW\n]\nc\ni\no\nu\n{\n
-\n0R7
-\nCwf\r
 \nIHDRPLTEIDATIENDtRNScHRMgAMAiCCPsBITsRGBtEXtzTXtiTXtbKGDhISTpHYssPLTtIMEoFFseXIf
 \nLinked 
 \n\tCommand Buffer Labels - %d\n
 \n\tObjects - %d\n
-\nh?oT
-\nk>oB
-\r \r%\r*\r/\r4\r9\r>\rC\rH\rM\rR\rW\r\\ra\rf\rk\rp\ru\rz\r
-\r&^$R&:6$&J8
-\r\f\v\v\n\n\t\t\t\t\t
-\rmj>zjZ
 \t FreeBlock Start: %s End: %s\n
 \t The lexer was matching from line %d, offset %d, which\n\t 
-\t!\t'\t-\t3\t9\t?\tE\tK\tQ\tW\t]\tc\ti\to\tu\t{\t
-\t9sv
+\t%.*s\n
 \tAvail Count ( %d ) ( %llu MB ) \n
 \tFramebuffer Count ( %d ): \n
 \tInUse Count ( %d ) ( %llu MB ) \n
-\tJR>8o
 \tLayout Count( %d ) \n
 \tMULTIVIEW RENDERPASS!\n
-\tN1a
 \tPMB Type ( %s ): Count ( %d ) ( %llu MB ) \n
 \tPSO Count ( %d ) \n
 \tRenderpass Count Count ( %d ): \n
@@ -9820,18 +9530,7 @@ Zpm"U
 \t\tLabel[%d] - %s { %f, %f, %f, %f}\n
 \t\tObject[%d] - %s, Handle %p, Name "%s"\n
 \t\tObject[%d] - %s, Handle %p\n
-\t\t\n\n\v\v\f\f\f\f\r\r\r\r
-\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\tcQr
-\tkE>fvw
-\v \v%\v*\v/\v4\v9\v>\vD\vJ\vO\vT\vY\v_\vd\vi\vn\vt\vy\v~\v
-\vA03>A|
-]u9g
-^<V7w
-^PWF
-^RfN>
-^oEZ_
 _RDATA
 _TIFFMergeFieldInfo
 _TIFFSetupFieldInfo
@@ -9908,21 +9607,15 @@ __vectorcall
 _arr_
 _cabs
 _class
-_f>PH
 _hypot
 _logb
 _nextafter
-_oD>Kg
 _payloadarr_
 _ptr_
 _runtimearr_
 _struct_
 _test_conversion_counter
 _tools.txt
-`08FH
-`20V,
-`6`mF
-`8@FH
 `RTTI
 `anonymous namespace'
 `copy constructor closure'
@@ -9934,8 +9627,6 @@ _tools.txt
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`hpx
-`hz0@4
 `local static guard'
 `local static thread guard'
 `local vftable constructor closure'
@@ -9962,10 +9653,6 @@ _tools.txt
 `vftable'
 `virtual displacement map'
 a storage class of PhysicalStorageBuffer.
-a6>r
-a\nPe\n
-a\tvH
-a\vDe\v
 abcdefghijklmnopqrstuvwxyz
 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_0123456789
 abort
@@ -10140,6 +9827,7 @@ atan2
 atan2pi
 atanh
 atanpi
+ati_compress_wrapper.dll
 atomic counter types
 atomic counters can only be highp
 atomic counters offset should align based on 4:
@@ -10205,7 +9893,6 @@ auto-map-bindings
 auto_unragdoll_duration
 average
 averageRounded
-b0V,
 bUpdate
 back-edge block
 bad address
@@ -10363,7 +10050,6 @@ breakable_count
 breakable_model
 breakable_skin
 broken pipe
-bt3V
 buffer
 buffer aliasing not yet supported
 buffer block
@@ -10433,15 +10119,13 @@ c:\buildslave\hlvr_rel_win64\build\src\rendersystem\vulkan\renderthreadvulkan.cp
 c:\buildslave\hlvr_rel_win64\build\src\rendersystem\vulkan\shadertablevulkan.cpp
 c:\buildslave\hlvr_rel_win64\build\src\rendersystem\vulkan\texturevulkan.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\configvalue.cpp
+c:\buildslave\hlvr_rel_win64\build\src\tier1\mempool.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\utlbuffer.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\utlstring.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier2\schemabindings.cpp
 c:\buildslave\hlvr_rel_win64\build\src\vfx\compiletargetexpr.g
 c:\buildslave\hlvr_rel_win64\build\src\vfx\vfx_shader_file.cpp
 c:\buildslave\hlvr_rel_win64\build\src\vfx\vfxexpr.g
-c>F2
-c>v\tk
-c?FA@s}
 c[subcomponent][.component]
 cable
 cacheData
@@ -10971,9 +10655,6 @@ cubeFaceCoordAMD
 cubeFaceIndex
 cubeFaceIndexAMD
 cubic
-d8-t
-d8L2
-d?000000`?
 dFdx
 dFdxCoarse
 dFdxFine
@@ -10986,8 +10667,6 @@ dPdxFine
 dPdy
 dPdyCoarse
 dPdyFine
-dQy/
-dRL>
 damage
 data error
 data height too large.
@@ -11144,16 +10823,9 @@ dxsupport
 dxsupport.cfg
 dynamic_interaction
 e+000
-e>US
-eF>t
-eI`W!
-eLK(w
-eZ`W!
-e\tTi\tb
 early_and_late_fragment_tests_amd
 early_fragment_tests
 either the block needs a location, or all members need a location, or no members have a location
-el`W!
 elif
 eliminate-dead-branches
 eliminate-dead-code-aggressive
@@ -11194,7 +10866,6 @@ event
 event_class
 event_keys
 eventindex
-ewh/?y
 exclusive or second child into first child
 exclusive-or
 exclusive_or_expression
@@ -11495,13 +11166,6 @@ f64mat4x4
 f64vec2
 f64vec3
 f64vec4
-f@TF
-f@h>j
-fD>b
-fGa>
-fP~V
-fVh>~
-fWi?
 fabs
 face-forward
 faceMergeAngle
@@ -11679,7 +11343,6 @@ frexp
 friction
 friend
 ftransform
-fu`z
 full_quads 
 full_quads qualifier
 fully_specified_type
@@ -11726,7 +11389,6 @@ g_pMemAlloc
 g_pThreadPool
 game_class
 game_keys
-gd>Z
 generic
 geometry
 geometry shader passthrough
@@ -12002,16 +11664,12 @@ globallycoherent
 glow
 glslang_binary_double_output
 goto
-gqr<
 gravity
 greaterThan
 greaterThanEqual
 group operation
 groupMemoryBarrier
 groupshared
-h0'D
-h>1my
-hPU3
 half
 half float image
 half float literal
@@ -12135,14 +11793,11 @@ hitObjectTraceRayNV
 hitobject shader record NV
 hitobjectattribute number
 hitobjectshaderrecordnv
-hj>>d
-hj`W!
 hlsl-iomap
 hlsl-offsets
 horizontal differencing 
 host access qualifier
 host unreachable
-hp~H
 hurt_me
 hurt_them
 hvec2
@@ -12175,11 +11830,7 @@ i64vec4
 i8vec2
 i8vec3
 i8vec4
-i91k
 iMulExtended
-i\nZm\n
-i\vDm\v
-i]Wb
 iattachmentEXT
 icoopmatNV
 identical
@@ -12531,17 +12182,10 @@ ivec2/uvec2 convert to texture handle
 ivec3
 ivec4
 j'Vlk
-j0V,
-jeTb
 jump_statement
-k=yI
-k>4\tF
-k>RU
 keep-uncalled
 kernel enqeue flags
 kernel profiling info
-l6qnk
-lDa>
 last case/default label not followed by statements
 last_sniff
 layout
@@ -12555,7 +12199,6 @@ layoutBindings
 layout_qualifier
 layout_qualifier_id
 layout_qualifier_id_list
-lcQe
 ldexp
 left angle bracket
 left shift second child into first child
@@ -12629,12 +12272,6 @@ lowp   int bitCount(  int);lowp ivec2 bitCount(ivec2);lowp ivec3 bitCount(ivec3)
 lowp   int findLSB(  int);lowp ivec2 findLSB(ivec2);lowp ivec3 findLSB(ivec3);lowp ivec4 findLSB(ivec4);lowp   int findLSB( uint);lowp ivec2 findLSB(uvec2);lowp ivec3 findLSB(uvec3);lowp ivec4 findLSB(uvec4);\n
 lowp precision qualifier
 lowp uint stencilAttachmentReadEXT();lowp uint stencilAttachmentReadEXT(int);highp float depthAttachmentReadEXT();highp float depthAttachmentReadEXT(int);\n
-m?H7
-mG4>
-mO-B
-mXr4
-m\fem4:
-m\nXo
 m_Bone
 m_ChainData
 m_Children
@@ -13112,11 +12749,7 @@ must have two parameters
 must occur first in shader
 must specify 'location' to use 'component'
 mutable
-n$Kx
-n03>Pu
 nTries < 10000000
-n\f"pA3Q
-n]?iJ
 name
 name already defined
 name too long
@@ -13256,11 +12889,6 @@ number of parameters must match call to coopMatPerElementNV
 numeric literal too big
 numeric literal too long
 numsegments
-o9sp
-o?GS
-oI>O7
-oI>b
-obwQ4
 octal and hex sequences not supported
 octal literal digit too large
 octal literal too big
@@ -13357,24 +12985,8 @@ overloaded functions must have the same parameter precision qualifiers for argum
 overloaded functions must have the same parameter storage qualifiers for argument
 overloaded functions must have the same qualifiers
 overloaded functions must have the same return type
-owM&
 owner dead
-p08FH
-p08vH
-p0:0V,
-p0<0V,
-p20V,
-p40V,
-p6P\F
-p6`nF
-p8:0V,
-p8@B
-p8FH
-p>.G1
-p>Y3
-p?ati_compress_wrapper.dll
 pExt->vkCreateDescriptorUpdateTemplateKHR( m_pDeviceVulkan, &descriptorUpdateTemplateCreateInfo, NULL, &pPipelineOut->m_pDescriptorUpdateTemplate )
-pJ*L`N*Z
 pack16
 pack32
 pack64
@@ -13433,7 +13045,6 @@ placement_attach
 placement_bone
 placement_mode
 play_endcap
-pm>6/
 png/jpg
 point
 point0
@@ -13499,9 +13110,6 @@ public
 purecall
 pushConstantRanges
 push_constant
-q>F,3
-qS>g?h3
-q\nNu\n
 quad_derivatives
 quad_derivatives qualifier
 quads
@@ -13510,7 +13118,6 @@ qualifier has no effect on non-output parameters
 quantization mode
 queue
 queuefamilycoherent
-r0V,
 r11f_g11f_b10f
 r16_snorm
 r16f
@@ -13523,10 +13130,6 @@ r64i
 r64ui
 r8_snorm
 r8ui
-rEH`W!
-rNm>)
-r\tVr.>T
-r\vpt
 r_break_on_validation_error
 r_defer_async_texture_updates
 r_frame_sync_enable
@@ -13732,7 +13335,6 @@ row_major
 rs_submit_twice
 rspirv
 rsqrt
-ru&o
 rules: A Block or BufferBlock cannot be nested within another Block or BufferBlock. 
 s Type must be a scalar or vector type.
 s Type must be an array of scalar or vector type.
@@ -13763,9 +13365,7 @@ s type.
 s vector component count.
 s vector element type.
 s%lld
-sAmTb
 sBGRA
-sHF'
 sRGB
 sRGBA
 sRGBx
@@ -13865,6 +13465,7 @@ semEqual and semUnequal must either both include gl_SemanticsVolatile or neither
 semUnequal must not be gl_SemanticsRelease or gl_SemanticsAcquireRelease
 semUnequal must not include multiple of gl_SemanticsRelease, gl_SemanticsAcquire, or gl_SemanticsAcquireRelease
 semicolon
+sequence number %d too low in sheet file!!!\n
 sequence_name
 sequence_number
 set is too large
@@ -14526,7 +14127,6 @@ too many length or distance symbols
 too many links
 too many storage qualifiers
 too many symbolic link levels
-tr$tdrF
 traceNV
 traceRayEXT
 traceRayKHR
@@ -14608,7 +14208,6 @@ u64vec4
 u8vec2
 u8vec3
 u8vec4
-uJ`W!
 uMulExtended
 u_abs
 u_abs_diff
@@ -14687,7 +14286,6 @@ uint64_t conversion to acclerationStructureEXT
 uint8_t
 uintBitsToBFloat16EXT
 uintBitsToFloat
-um`W!
 umulExtended
 unable to declare patch constant function interface variable
 unable to find output symbol for Append()
@@ -14866,10 +14464,6 @@ uvec2 conversion to reference
 uvec3
 uvec4
 uvec4  subgroupPartitionNV(%s);\n
-uzKs@>
-v0>2b
-v2!L.2
-vQO+t
 validation.cache
 value
 value is out of range:
@@ -15785,6 +15379,7 @@ vload_halfn
 vloada_halfn
 vloadn
 vmdl
+vmdlkeys0
 vmdlkeys1
 vmdlkeys2
 vmdlkeys3
@@ -15910,9 +15505,6 @@ vulkan_shader_table_print
 vulkan_steamvr_eye0_readback.vtex
 vulkan_steamvr_eye1_readback.vtex
 vulkan_viewports_optimiziation
-w+OQvr
-w3Xc
-wXR\r
 warn
 warning: 
 when Dim is either 1D or 2D.
@@ -15925,7 +15517,6 @@ with ExplicitLod
 with a Storage Class of Input or Output.
 with bias argument
 with layout(location =
-wn>Jj
 workgroupcoherent
 wrap-opkill
 wrinkle
@@ -15938,8 +15529,6 @@ wrong number of matrix columns:
 wrong number of structure members
 wrong protocol type
 wrong vector size (or rows in a matrix column):
-xT?V
-xf$h*~Z
 xfb layout qualifier
 xfb_
 xfb_buffer
@@ -15951,20 +15540,11 @@ xfb_stride is too small to hold all buffer entries:
 xfb_stride must be multiple of 2 for buffer holding a half float or 16-bit integer:
 xfb_stride must be multiple of 4:
 xfb_stride must be multiple of 8 for buffer holding a double or 64-bit integer:
-y9*O
-yE>cb
 yaw_end
 yaw_start
-z0V,
-z:KCAuthPhysBody
-z>h4
-zp~5
 { } style initializers
-{YIN?
-{kHw
 {}[]()=&, \t\n'"*;
 {}[]=, \t\n'":|;
-|\6^N`6bNd<fXh<jXl<nNp<rTt<vNx6
 } gl_in[];in int gl_PrimitiveIDIn;out gl_PerVertex {vec4 gl_Position;float gl_PointSize;float gl_ClipDistance[];\n
 } gl_in[gl_MaxPatchVertices];\n
 } gl_out[];patch out float gl_TessLevelOuter[4];patch out float gl_TessLevelInner[2];\n
@@ -15972,5 +15552,3 @@ zp~5
 };out int gl_PrimitiveID;out int gl_Layer;
 };uniform gl_DepthRangeParameters gl_DepthRange;\n
 ~!%^&*()-+=|,.<>/?;:[]{}#\
-~PSF
-~pWF

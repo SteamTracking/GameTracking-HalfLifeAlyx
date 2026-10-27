@@ -1,7 +1,5 @@
                           
                 AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZUPDATE_STRING_TOKEN_DATABASE
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -21,9 +19,7 @@
 %s allocation count overflow( %llu > %llu )\n
 %s allocation count overflow( %llu >= %llu )\n
 %s: string format requested %d chars\n
-&Sgw
 (null)
-*StO9>T
 +inf
 -avx
 -enable_2gb_morphs
@@ -142,44 +138,28 @@
 .tls
 .tls$
 .tls$ZZZ
-.xJ>Hf
 .xdata
 .xdata$x
 /tmp/fdm_%s_%d_%d.ppm
 0=Off, 1=All AlphaTested, 2=only AlphaTested with PrepassAlphaTest enabled
 0=Off, 1=DebugWireframe, 2=DebugSolidBlink
-0iN>/
 1 = bloom output, 2 = quarter res downsample
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-11Y@
 1DBlend
-2\vpd"
-37>k
-3>N;kU
-3>fvw
 3D Skybox
 3D Skybox Procedural
 3DSkybox Depth Prepass
 3DSkybox Translucent Forward
 3DSkyboxForward
 3DSkyboxLightBinnerVr
-5t8)
 60.0
-8xH)
-9wn+:wn+:wn+:wn+:\f
 <deferred>
 <no failure reason set>
 <null>
 <unconnected>
-=87M
-=cQ6
-=imb;D
->cQ6
->jtm}S
-?7zQ6$
 ??0CThreadMutex@@QEAA@XZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
 ?Concat@CBufferString@@QEAAPEBDPEBD0ZZ
@@ -194,15 +174,10 @@
 ?SetLength@CBufferString@@QEAAPEADH_NPEAH@Z
 ?StartsWith@CBufferString@@QEAA_NPEBD@Z
 ?ToLowerFast@CBufferString@@QEAAXH@Z
-?UUUUUU
 ?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?V_SplitString@@YAXPEBD0AEAV?$CUtlVector@VCUtlString@@V?$CUtlMemory@VCUtlString@@H@@@@_N@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
-?f`Y4
-?qBJ
-?ysB
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABGR8888
 AE_ACTION_SET_TURN_RATE_SCALE
@@ -255,7 +230,6 @@ Allow bloom on scene monitors
 Ambient Occlusion Proxies
 Ambient Occlusion Proxies Downsample Depth
 AmbientOcclusionDepth
-Aname
 Anim
 AnimAddLayer
 AnimAlign
@@ -296,8 +270,6 @@ AssetSystemTest001
 August
 AutoLayer
 BC6H
-BC?>6t9^\tc:>
-BF>^G
 BGR101111_UFLOAT
 BGR565
 BGR888
@@ -354,6 +326,7 @@ CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
 CUtlMemoryPoolBase::CUtlMemoryPoolBase
 CUtlRBTree overflow with %u elements!\n
 CUtlRBTree<void *,int,bool (__cdecl*)(void * const &,void * const &),class CUtlMemory<struct UtlRBTreeNode_t<void *,int>,int> >::NewNode
+CUtlString::FormatV
 CVrQuadRenderer
 C_INIT_AddVectorToVector
 C_INIT_AgeNoise
@@ -470,6 +443,7 @@ CreateFileW
 CreateInterface
 CreatePerViewConstantBuffer
 Creating fragment density map with size: %ux%ux%u (RT: %ux%ux%u)\n
+Creating variable rate shading map with size: %ux%ux%u (RT: %ux%ux%u)\n
 CustomClearColor
 CycleOverride
 D15S1
@@ -485,6 +459,7 @@ DXT3
 DXT5
 DXT5_NM
 D_ENABLE_VOLUMETRIC_FOG is set, but cannot find CVolumetricFog via "VolumetricFog"\n
+Debug use of variable rate shading for foveated rendering
 DebugDraw
 DebugDrawObjects
 DebugTextureInfo001
@@ -522,7 +497,6 @@ DynamicAmbientOcclusion
 DynamicConfigList
 DynamicGBuffer
 ERROR! Cannot load RenderingPipelineVrStartup resource manifest for the vr render pipeline!\n
-ET5>
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EconItemToolModel_001
 EditorDynamicConfig
@@ -533,6 +507,8 @@ EmptyAnim
 Enable for spec-correctness, disable for speed. You shouldn't change this unless you know what you are doing.
 Enable tiler optimizations for eg. Steam Frame.
 Enable use of a fragment density map for foveated rendering
+Enable use of a variable rate shading for foveated rendering
+Enable use of eye tracking with variable rate shading for foveated rendering
 EncodePointer
 Engine2/RenderingPipeline/AmbientOcclusionProxies
 Engine2/RenderingPipeline/HighPrecisionLighting
@@ -548,7 +524,6 @@ EventSystem001
 ExitProcess
 FATAL ERROR: unable to register all schema data: %s\n
 FCVAR_NEVER_AS_STRING
-FEMh\f
 February
 FindClose
 FindFirstFileExW
@@ -578,7 +553,6 @@ GBufferSSAO
 GBufferSSAOTemp
 GBuffer_Expensive
 GCTL
-GCUtlString::FormatV
 GameOverlay
 GameResourceServiceClientV001
 GameResourceServiceServerV001
@@ -603,6 +577,7 @@ GetDefaultMiniDumpTypeFlags
 GetEnvironmentStringsW
 GetFileSizeEx
 GetFileType
+GetFoveatedVariableRateShadingMap(2852): 
 GetLastError
 GetModuleFileNameW
 GetModuleHandleExW
@@ -667,7 +642,6 @@ KeyValuesSystem
 Kick Dependent Views
 Kick Dependent Views View
 Kicks off creation of dependent views early in the frame
-L>ev
 LCMapStringEx
 LCMapStringW
 LE_BGRA8888
@@ -697,7 +671,6 @@ LockDynamicConstantBuffer failed in CreatePerViewConstantBuffer!!!\n
 LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
 LoggingSystem_RegisterLoggingChannel
-LrwcE
 MATCHFRAMEWORK_001
 MM/dd/yy
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
@@ -740,7 +713,6 @@ NoDecalGBuffer
 NoOpPostprocess
 NoPoseControl
 November
-OZQ%
 OcclusionQueryIssueLayer
 October
 Offset
@@ -805,7 +777,6 @@ Plat_IsInDebugSession
 Plat_NeedsLowFragmentation
 Plat_SetDenormalsAreZero
 Plat_ShouldCollectMiniDumpsForFatalErrors
-Po5H
 PostDecalForwardDynamic
 PostDecalForwardNoDecals
 PostDecalPrepassDynamic
@@ -836,6 +807,7 @@ R32F
 R32_UINT
 R8G8B8A8_ETC2_EAC
 R8G8B8_ETC2
+R8_UINT
 RG11_EAC
 RG1616
 RG1616F
@@ -860,8 +832,6 @@ RGBA8888
 RGBA8888_LINEAR
 RGBX555
 RGBX8888
-RSDScK
-R\fpd"
 RaiseException
 RandomFloat
 ReadConsoleW
@@ -911,8 +881,6 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S+Ot
-S9>H
 SNAN)
 SSAO
 SSAOBlurH
@@ -1063,6 +1031,7 @@ UnhandledExceptionFilter
 Unknown exception
 Unsupported MSAA sample count for custom MSAA resolve\n
 Update PerViewConstantBufferVR_t (%s)
+Update VRS Map
 Use compute shaders for bloom on Vulkan
 Use subsampled rendering with FDM.
 UserInfoChangeService_001
@@ -1170,19 +1139,13 @@ WorldRendererBuilderMgr001
 WorldRendererMgr001
 WriteConsoleW
 WriteFile
-X/4B
 X360_DST16
 X360_DST24
 X360_DST24F
-[aOni*{
-\nCwf\r
 \tActive: %s\n
 \tCurrent Map: %s\n
 \tList of maps affected:\n
 \tNot in VR!\n
-\tcQr
-\tkE>fvw
-^<V7w
 _RDATA
 _V_strncmp
 _V_strncpy
@@ -1271,7 +1234,6 @@ break_uniform_burst
 breakable_count
 breakable_model
 breakable_skin
-bt3V
 burst_randomize
 burst_scale
 c:\buildslave\hlvr_rel_win64\build\src\interfaces\interfaces.cpp
@@ -1309,7 +1271,6 @@ collision_prop
 composite
 control_point
 create_particle
-d8L2
 damage
 dddd, MMMM dd, yyyy
 debris
@@ -1325,8 +1286,6 @@ dmg.fire
 duration
 dynamic_interaction
 e+000
-eF>t
-eLK(w
 emitFromWorld
 enable_limit
 error
@@ -1352,6 +1311,7 @@ fove_radial_outer_only
 fove_square
 fove_square_use_legacy
 foveated_fdm_texture_%d_%d_%d
+foveated_vrs_texture_%d_%d_%d
 frame
 friction
 fullsort the opaque pass when there wasn't a depth prepass
@@ -1362,7 +1322,6 @@ generic
 glow
 gravity
 guasssianbloomblurrenderer_reflection_mip_%d_%d
-h0'D
 handindex
 headtype
 health
@@ -1380,9 +1339,7 @@ invalid stoi argument
 invalid_parameter
 invert_orientation
 is_debris
-k=yI
 last_sniff
-lcQe
 length
 lockRotationAlpha
 log10
@@ -1391,9 +1348,6 @@ loop_break_on_damage
 loop_break_on_flashlight
 loop_in_action
 looping
-mG4>
-mXr4
-m\nXo
 m_Bone
 m_ChainData
 m_Children
@@ -1536,6 +1490,7 @@ materials/dev/downsample_depth.vmat
 materials/dev/gaussian_bloom_blur.vmat
 materials/dev/gaussian_bloom_blur_cs.vmat
 materials/dev/generalfilter_additive.vmat
+materials/dev/generate_shading_rate_map.vmat
 materials/dev/hdrpostprocessing.vmat
 materials/dev/msaa_resolve.vmat
 materials/dev/msaa_resolve_cs.vmat
@@ -1591,14 +1546,12 @@ modeldoc7
 modeldoc8
 modeldoc9
 multiplayer_break
-n03>Pu
-n\f"pA3Qx
+name
 nan(ind)
 nan(snan)
 nav_attribute_avoid
 nav_data
 numsegments
-obwQ4
 operator
 operator "" 
 operator co_await
@@ -1609,7 +1562,6 @@ outputColor
 outputDepth
 overlay
 overrideIntermediateColor
-owM&
 parent_bone
 particle
 particles/
@@ -1632,9 +1584,6 @@ prop_data
 purecall
 quad_coverage.vtex
 quad_coverage_lock.vtex
-r<}\v<}\v<}\v<}\v
-r\tVr.>T
-r\vpd"
 r_bloom_compute
 r_cubemap_debug_colors
 r_deferred_cubemap_diffuse
@@ -1721,11 +1670,8 @@ texturescale
 tier0.dll
 true
 turn_rate
-ultra
 uniform_burst
 use_additional_offset
-uzKs@>
-v2!L.2
 value
 vanmgrph
 vector too long
@@ -1815,6 +1761,9 @@ vr_translucent_screen_space_downres
 vr_use_biplanar_seamless
 vr_use_fullsort_for_opaque
 vr_use_invalid_bubble
+vr_vrs
+vr_vrs_debug
+vr_vrs_eye_tracked
 vr_warp
 vr_warp_debug
 vr_wipe_use_depth
@@ -1823,4 +1772,3 @@ vstdlib.dll
 width
 yaw_end
 yaw_start
-{YIN?

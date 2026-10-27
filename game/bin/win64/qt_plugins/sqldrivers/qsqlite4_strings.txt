@@ -1,8 +1,7 @@
                           
                              
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ AND 
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -22,8 +21,10 @@
  new
  throw(
  volatile
-!5Ng
+%.*f
+%.*s"%w"%s
 %.16g
+%.2x
 %02d
 %02d:%02d:%02d
 %02x
@@ -36,12 +37,15 @@
 %d values for %d columns
 %lld
 %r %s BY term out of range - should be between 1 and %d
+%r ORDER BY term does not match any column in the result set
 %s %T cannot reference objects in database %s
 %s (rowid<?)
 %s (rowid=?)
 %s (rowid>? AND rowid<?)
 %s (rowid>?)
 %s (~%lld rows)
+%s - %s
+%s AS %s
 %s OR name=%Q
 %s SUBQUERY %d
 %s TABLE %s
@@ -49,10 +53,17 @@
 %s USING INTEGER PRIMARY KEY
 %s VIRTUAL TABLE INDEX %d:%s
 %s mode not allowed: %s
+%s%.*s"%w"
+%s%s
+%s(%d)
 %s-mj%08X
 %s-shm
+%s.%s
 %s.%s may not be NULL
+%s: %s
+%s: %s.%s
 %s: %s.%s.%s
+%s:%d
 %s\etilqs_
 (NULL)
 (blob)
@@ -61,7 +72,6 @@
 +Inf
 ,<ellipsis>
 -- TRIGGER %s
--64OS
 -Inf
 .?AUQFactoryInterface@@
 .?AUQSqlDriverFactoryInterface@@
@@ -85,20 +95,13 @@
 1#INF
 1#QNAN
 1#SNAN
-12MNOPmRSTUVWXYZ[\
-12ijk6n
 2011-06-28 17:39:05 af0d91adf497f5f36ec3813f04235a6e195a605f
 2nd reference to page %d
 3.7.7.1
-3b1$ j
 922337203685477580
-9Eag
-:DEFGHIJKLMNOP
 :memory:
 <ellipsis>
 <unknown>
->@second
->\t?grow@QVectorData@@SAHHHH_N@Z
 ??0QByteArray@@QEAA@PEBDH@Z
 ??0QChar@@QEAA@UQLatin1Char@@@Z
 ??0QSqlCachedResult@@IEAA@PEBVQSqlDriver@@@Z
@@ -141,7 +144,6 @@
 ??4QVariant@@QEAAAEAV0@AEBV0@@Z
 ??8QString@@QEBA_NAEBV0@@Z
 ??8QString@@QEBA_NAEBVQLatin1String@@@Z
-?API call with %s database connection pointer
 ?allocate@QVectorData@@SAPEAU1@HH@Z
 ?append@QListData@@QEAAPEAPEAXXZ
 ?append@QSqlIndex@@QEAAXAEBVQSqlField@@@Z
@@ -181,21 +183,28 @@
 ?free@QString@@CAXPEAUData@1@@Z
 ?free@QVectorData@@SAXPEAU1@H@Z
 ?fromLatin1_helper@QString@@CAPEAUData@1@PEBDH@Z
+?grow@QVectorData@@SAHHHH_N@Z
+?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
 ?init@QSqlCachedResult@@IEAAXH@Z
+?insert@QString@@QEAAAEAV1@HVQChar@@@Z
 ?isActive@QSqlResult@@IEBA_NXZ
 ?isEmpty@QSqlRecord@@QEBA_NXZ
 ?isIdentifierEscaped@QSqlDriver@@QEBA_NAEBVQString@@W4IdentifierType@1@@Z
 ?isNull@QSqlCachedResult@@MEAA_NH@Z
+?isNull@QVariant@@QEBA_NXZ
 ?isOpen@QSqlDriver@@UEBA_NXZ
 ?isOpenError@QSqlDriver@@QEBA_NXZ
 ?isSelect@QSqlResult@@IEBA_NXZ
 ?isValid@QSqlError@@QEBA_NXZ
 ?lastError@QSqlQuery@@QEBA?AVQSqlError@@XZ
 ?lastError@QSqlResult@@IEBA?AVQSqlError@@XZ
+?lastIndexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
+?left@QString@@QEBA?AV1@H@Z
 ?metaObject@QSqlDriverPlugin@@UEBAPEBUQMetaObject@@XZ
+?mid@QString@@QEBA?AV1@HH@Z
 ?next@QSqlQuery@@QEAA_NXZ
-?now
 ?numericalPrecisionPolicy@QSqlResult@@IEBA?AW4NumericalPrecisionPolicy@QSql@@XZ
+?qFree@@YAXPEAX@Z
 ?qt_metacall@QSqlDriver@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QSqlDriverPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacast@QSqlDriver@@UEAAPEAXPEBD@Z
@@ -247,12 +256,10 @@
 ?value@QSqlQuery@@QEBA?AVQVariant@@H@Z
 ?virtual_hook@QSqlCachedResult@@MEAAXHPEAX@Z
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@aTR'
-@minute
 @wKAhour
-@weekday 
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 AFTER
+API call with %s database connection pointer
 API called with NULL prepared statement
 API called with finalized prepared statement
 ATTACH '' AS vacuum_db;
@@ -271,16 +278,11 @@ BEFORE
 BEGIN
 BEGIN EXCLUSIVE;
 BINARY
-B\fp\v0
 Bad ptr map entry key=%d expected=(%d,%d) got=(%d,%d)
-Bcdep
 BitAnd
 BitNot
 BitOr
 Blob
-BmTwinOpenShm
-Bs+i
-B}Tat most %d tables in a join
 C:\Valve\ThirdPartyCode\lgpl\qt\qt_valve_win64\plugins\sqldrivers\qsqlite4.pdb
 CASCADE
 COMMIT
@@ -301,7 +303,6 @@ Cannot add a REFERENCES column with non-NULL default value
 Cannot add a UNIQUE column
 Cannot add a column to a view
 Cannot add a column with non-constant default
-Cforeign key mismatch
 Checkpoint
 Child page depth differs
 Clear
@@ -321,10 +322,6 @@ CreateFileMappingW
 CreateFileW
 CreateIndex
 CreateTable
-DEFGHIJKLMNOP
-DEFGHIJKLMNOPvRSTUVWXYZ[\
-DEFGHIJKLMNOPwRSTUVWXYZ[\
-DEFGHIJKLMNOP~RSTUVWXYZ[\
 DELETE FROM %Q.%s WHERE %s=%Q
 DELETE FROM %Q.%s WHERE name=%Q AND type='index'
 DELETE FROM %Q.%s WHERE tbl_name=%Q and type!='trigger'
@@ -356,7 +353,6 @@ ExitProcess
 Expire
 Explain
 Expression tree is too large (maximum depth %d)
-FGHIJKLMNOP
 Failed to read ptrmap key=%d
 FatalAppExitA
 February
@@ -375,7 +371,6 @@ FreeEnvironmentStringsW
 FreeLibrary
 Friday
 Function
-GHEFGHIJKLMNOP
 GROUP
 GROUP BY
 GetACP
@@ -425,7 +420,6 @@ GetVersionExW
 Gosub
 Goto
 HH:mm:ss
-HMXB
 Halt
 HaltIfNull
 HeapAlloc
@@ -481,7 +475,6 @@ LC_TIME
 LIKE or GLOB pattern too complex
 LIMIT clause should come after %s not before
 LIST
-LLLLLLLLLL
 Last
 LeaveCriticalSection
 List of tree roots: 
@@ -490,10 +483,8 @@ LoadLibraryW
 LocalFree
 LockFile
 LockFileEx
-M@%r ORDER BY term does not match any column in the result set
 MATCH
 MM/dd/yy
-MNOPQRSTUVWXYZ[\
 Main freelist: 
 MakeRecord
 MapViewOfFile
@@ -507,7 +498,6 @@ MultiByteToWideChar
 Multiple uses for byte %d of page %d
 Multiply
 MustBeInt
-NKeb
 NO ACTION
 NOCASE
 NONE
@@ -570,8 +560,6 @@ RESTRICT
 RIGHT and FULL OUTER JOINs are not currently supported
 ROLLBACK
 ROWID
-RSDS
-RSTUVWXYZ[\
 RTRIM
 RaiseException
 ReadCookie
@@ -600,7 +588,6 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S;uD
 SCALAR
 SCAN
 SCAN TABLE %s %s%s(~%d rows)
@@ -710,25 +697,15 @@ VNext
 VOpen
 VRename
 VUpdate
-VWXB
-VWXYZ[\
 Vacuum
 Variable
 VerifyCookie
 Wednesday
 WideCharToMultiByte
 WriteFile
-X129x
-Y@unable to delete/modify user-function due to active statements
 Yield
 [X]Ti
 [thunk]:
-\f?qFree@@YAXPEAX@Z
-\t?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
-\t?insert@QString@@QEAAAEAV1@HVQChar@@@Z
-\v?lastIndexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
-\v?left@QString@@QEBA?AV1@H@Z
-\v?mid@QString@@QEBA?AV1@HH@Z
 _ROWID_
 __based(
 __cdecl
@@ -746,10 +723,8 @@ __restrict
 __stdcall
 __thiscall
 __unaligned
-_ijk
 _rowid_
 `RTTI
-`abcdef
 `adjustor{
 `anonymous namespace'
 `copy constructor closure'
@@ -797,7 +772,6 @@ _rowid_
 a GROUP BY clause is required before HAVING
 a JOIN clause is required before %s
 a NATURAL join may not have an ON or USING clause
-abcdefVW12vtm
 abcdefghijklmnopqrstuvwxyz
 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
 abort at %d in [%s]: %s
@@ -813,6 +787,7 @@ america
 american
 american english
 american-english
+at most %d tables in a join
 attached databases must use the same text encoding as main database
 attempt to write a readonly database
 australian
@@ -864,7 +839,6 @@ cannot rollback transaction - SQL statements in progress
 cannot start a transaction within a transaction
 cannot use index: %s
 case_sensitive_like
-cdeL
 changes
 char
 char 
@@ -956,6 +930,7 @@ file:
 float
 foreign key
 foreign key constraint failed
+foreign key mismatch
 foreign key on %s should reference only one column of table %T
 foreign_key_list
 foreign_keys
@@ -977,7 +952,6 @@ german-swiss
 glob
 great britain
 group_concat
-h)jDEFGHIJKLMNOP\vRSTUVWXYZ[\
 hidden
 holland
 hong-kong
@@ -1010,9 +984,7 @@ italian-swiss
 journal_mode
 journal_size_limit
 julianday
-kU'9
 keyinfo(%d
-l\n?isNull@QVariant@@QEBA_NXZ
 large file support is disabled
 last_insert_rowid
 legacy_file_format
@@ -1028,19 +1000,18 @@ long
 long 
 lower
 ltrim
-m12x
 main
 malformed database schema (%s)
 match
 max_page_count
 memory
+minute
 misuse at line %d of [%.10s]
 misuse of aggregate function %.*s()
 misuse of aggregate: %s()
 misuse of aliased aggregate %s
 mode
 month
-nDEFGHIJKLMNOPvRSTUVWXYZ[\
 name
 name=%Q
 name='%q' AND type='index'
@@ -1133,6 +1104,7 @@ rows inserted
 rows updated
 rtrim
 schema_version
+second
 secure_delete
 seekWinFile
 selectid
@@ -1259,11 +1231,11 @@ type='trigger' AND (%s)
 type='trigger' AND name='%q'
 type='view'
 typeof
-uFo,w_1#
 uLm:.P
 unable to close due to unfinalised statements
 unable to close due to unfinished backup operation
 unable to delete/modify collation sequence due to active statements
+unable to delete/modify user-function due to active statements
 unable to get the page. error code=%d
 unable to identify the object to be reindexed
 unable to open a temporary database file for storing temporary tables
@@ -1313,12 +1285,14 @@ vtable constructor failed: %s
 wal_autocheckpoint
 wal_checkpoint
 wchar_t
+weekday 
 win32
 winAccess
 winClose
 winDelete
 winFileSize
 winOpen
+winOpenShm
 winRead
 winShmMap1
 winShmMap2
@@ -1333,8 +1307,6 @@ wrong # of entries in index
 wrong number of arguments to function %.*s()
 year
 yf8x5
-z?aUY
-zc%C1
 zeroblob
 zeroblob(%d)
 {flat}

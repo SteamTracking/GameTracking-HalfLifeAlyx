@@ -1,7 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -31,19 +29,15 @@
 #document
 #document-fragment
 #text
-$\n?isEmpty@QString@@QEBA_NXZ
 %.16g
 %1 is an invalid PUBLIC identifier.
 %1 is an invalid encoding name.
 %1 is an invalid processing instruction name.
-%\n?isEmpty@QStringRef@@QEBA_NXZ
 &amp;
 &apos;
 &quot;
-*\n?isEncName@QXmlUtils@@SA_NAEBVQString@@@Z
 , but got '
 ,<ellipsis>
--64OS
 .?AVQBuffer@@
 .?AVQDomAttrPrivate@@
 .?AVQDomCDATASectionPrivate@@
@@ -93,11 +87,6 @@ $\n?isEmpty@QString@@QEBA_NXZ
 1#INF
 1#QNAN
 1#SNAN
-2\n0L
-2\vpL
-2\vpP
-9\f?open@QBuffer@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
-:\r?qsnprintf@@YAHPEAD_KPEBDZZ
 <!DOCTYPE 
 <!ENTITY 
 <!NOTATION 
@@ -107,7 +96,6 @@ $\n?isEmpty@QString@@QEBA_NXZ
 <?xml version="1.0" encoding="
 <ellipsis>
 <unknown>
->\t?grow@QVectorData@@SAHHHH_N@Z
 ??0?$QVector@VQXmlStreamAttribute@@@@QEAA@AEBV0@@Z
 ??0?$QVector@VQXmlStreamAttribute@@@@QEAA@H@Z
 ??0?$QVector@VQXmlStreamAttribute@@@@QEAA@HAEBVQXmlStreamAttribute@@@Z
@@ -598,8 +586,13 @@ $\n?isEmpty@QString@@QEBA_NXZ
 ?fromList@?$QVector@VQXmlStreamAttribute@@@@SA?AV1@AEBV?$QList@VQXmlStreamAttribute@@@@@Z
 ?fromRawData@QXmlInputSource@@MEAA?AVQString@@AEBVQByteArray@@_N@Z
 ?fromStdVector@?$QVector@VQXmlStreamAttribute@@@@SA?AV1@AEBV?$vector@VQXmlStreamAttribute@@V?$allocator@VQXmlStreamAttribute@@@std@@@std@@@Z
+?fromUcs4@QString@@SA?AV1@PEBIH@Z
+?fromUnicode@QTextCodec@@QEBA?AVQByteArray@@AEBVQString@@@Z
+?fromUnicode@QTextEncoder@@QEAA?AVQByteArray@@AEBVQString@@@Z
+?fromUnicode@QTextEncoder@@QEAA?AVQByteArray@@PEBVQChar@@H@Z
 ?front@?$QVector@VQXmlStreamAttribute@@@@QEAAAEAVQXmlStreamAttribute@@XZ
 ?front@?$QVector@VQXmlStreamAttribute@@@@QEBAAEBVQXmlStreamAttribute@@XZ
+?grow@QVectorData@@SAHHHH_N@Z
 ?hasAttribute@QDomElement@@QEBA_NAEBVQString@@@Z
 ?hasAttribute@QXmlStreamAttributes@@QEBA_NAEBVQLatin1String@@@Z
 ?hasAttribute@QXmlStreamAttributes@@QEBA_NAEBVQString@@0@Z
@@ -609,21 +602,28 @@ $\n?isEmpty@QString@@QEBA_NXZ
 ?hasChildNodes@QDomNode@@QEBA_NXZ
 ?hasError@QXmlStreamReader@@QEBA_NXZ
 ?hasError@QXmlStreamWriter@@QEBA_NXZ
+?hasFailure@QTextDecoder@@QEBA_NXZ
 ?hasFeature@QDomImplementation@@QEBA_NAEBVQString@@0@Z
 ?hasFeature@QXmlSimpleReader@@UEBA_NAEBVQString@@@Z
 ?hasProperty@QXmlSimpleReader@@UEBA_NAEBVQString@@@Z
+?hasShrunk@QHashData@@QEAAXXZ
 ?ignorableWhitespace@QXmlDefaultHandler@@UEAA_NAEBVQString@@@Z
 ?implementation@QDomDocument@@QEBA?AVQDomImplementation@@XZ
 ?importNode@QDomDocument@@QEAA?AVQDomNode@@AEBV2@_N@Z
 ?index@QXmlAttributes@@QEBAHAEBVQLatin1String@@@Z
 ?index@QXmlAttributes@@QEBAHAEBVQString@@0@Z
 ?index@QXmlAttributes@@QEBAHAEBVQString@@@Z
+?indexIn@QRegExp@@QEBAHAEBVQString@@HW4CaretMode@1@@Z
 ?indexOf@?$QVector@VQXmlStreamAttribute@@@@QEBAHAEBVQXmlStreamAttribute@@H@Z
+?indexOf@QString@@QEBAHAEBVQLatin1String@@HW4CaseSensitivity@Qt@@@Z
+?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
 ?init@QXmlInputSource@@AEAAXXZ
 ?insert@?$QVector@VQXmlStreamAttribute@@@@QEAAPEAVQXmlStreamAttribute@@PEAV2@AEBV2@@Z
 ?insert@?$QVector@VQXmlStreamAttribute@@@@QEAAPEAVQXmlStreamAttribute@@PEAV2@HAEBV2@@Z
 ?insert@?$QVector@VQXmlStreamAttribute@@@@QEAAXHAEBVQXmlStreamAttribute@@@Z
 ?insert@?$QVector@VQXmlStreamAttribute@@@@QEAAXHHAEBVQXmlStreamAttribute@@@Z
+?insert@QString@@QEAAAEAV1@HAEBV1@@Z
+?insert@QString@@QEAAAEAV1@HPEBVQChar@@H@Z
 ?insertAfter@QDomNode@@QEAA?AV1@AEBV1@0@Z
 ?insertBefore@QDomNode@@QEAA?AV1@AEBV1@0@Z
 ?insertData@QDomCharacterData@@QEAAXKAEBVQString@@@Z
@@ -633,6 +633,7 @@ $\n?isEmpty@QString@@QEBA_NXZ
 ?isAttr@QDomNode@@QEBA_NXZ
 ?isCDATA@QXmlStreamReader@@QEBA_NXZ
 ?isCDATASection@QDomNode@@QEBA_NXZ
+?isChar@QXmlUtils@@SA_NVQChar@@@Z
 ?isCharacterData@QDomNode@@QEBA_NXZ
 ?isCharacters@QXmlStreamReader@@QEBA_NXZ
 ?isComment@QDomNode@@QEBA_NXZ
@@ -647,17 +648,30 @@ $\n?isEmpty@QString@@QEBA_NXZ
 ?isEmpty@?$QVector@VQXmlStreamAttribute@@@@QEBA_NXZ
 ?isEmpty@QDomNamedNodeMap@@QEBA_NXZ
 ?isEmpty@QDomNodeList@@QEBA_NXZ
+?isEmpty@QString@@QEBA_NXZ
+?isEmpty@QStringRef@@QEBA_NXZ
+?isEncName@QXmlUtils@@SA_NAEBVQString@@@Z
 ?isEndDocument@QXmlStreamReader@@QEBA_NXZ
 ?isEndElement@QXmlStreamReader@@QEBA_NXZ
 ?isEntity@QDomNode@@QEBA_NXZ
 ?isEntityReference@QDomNode@@QEBA_NXZ
 ?isEntityReference@QXmlStreamReader@@QEBA_NXZ
+?isLetter@QXmlUtils@@SA_NVQChar@@@Z
+?isNCName@QXmlUtils@@SA_NAEBVQString@@@Z
+?isNCName@QXmlUtils@@SA_NAEBVQStringRef@@@Z
+?isNameChar@QXmlUtils@@SA_NVQChar@@@Z
 ?isNotation@QDomNode@@QEBA_NXZ
 ?isNull@QDomImplementation@@QEAA_NXZ
 ?isNull@QDomNode@@QEBA_NXZ
+?isNull@QString@@QEBA_NXZ
+?isNull@QStringRef@@QEBA_NXZ
+?isOpen@QIODevice@@QEBA_NXZ
 ?isProcessingInstruction@QDomNode@@QEBA_NXZ
 ?isProcessingInstruction@QXmlStreamReader@@QEBA_NXZ
+?isPublicID@QXmlUtils@@SA_NAEBVQString@@@Z
+?isSequential@QIODevice@@UEBA_NXZ
 ?isSharedWith@?$QVector@VQXmlStreamAttribute@@@@QEBA_NAEBV1@@Z
+?isSpace@QChar@@QEBA_NXZ
 ?isStandaloneDocument@QXmlStreamReader@@QEBA_NXZ
 ?isStartDocument@QXmlStreamReader@@QEBA_NXZ
 ?isStartElement@QXmlStreamReader@@QEBA_NXZ
@@ -671,9 +685,13 @@ $\n?isEmpty@QString@@QEBA_NXZ
 ?lastChild@QDomNode@@QEBA?AV1@XZ
 ?lastChildElement@QDomNode@@QEBA?AVQDomElement@@AEBVQString@@@Z
 ?lastIndexOf@?$QVector@VQXmlStreamAttribute@@@@QEBAHAEBVQXmlStreamAttribute@@H@Z
+?latin1@QLatin1String@@QEBAPEBDXZ
+?left@QString@@QEBA?AV1@H@Z
+?length@QByteArray@@QEBAHXZ
 ?length@QDomCharacterData@@QEBAIXZ
 ?length@QDomNamedNodeMap@@QEBAIXZ
 ?length@QDomNodeList@@QEBAIXZ
+?length@QString@@QEBAHXZ
 ?length@QXmlAttributes@@QEBAHXZ
 ?lexicalHandler@QXmlSimpleReader@@UEBAPEAVQXmlLexicalHandler@@XZ
 ?lineNumber@QDomNode@@QEBAHXZ
@@ -681,9 +699,13 @@ $\n?isEmpty@QString@@QEBA_NXZ
 ?lineNumber@QXmlStreamReader@@QEBA_JXZ
 ?localName@QDomNode@@QEBA?AVQString@@XZ
 ?localName@QXmlAttributes@@QEBA?AVQString@@H@Z
+?makeDecoder@QTextCodec@@QEBAPEAVQTextDecoder@@XZ
+?makeEncoder@QTextCodec@@QEBAPEAVQTextEncoder@@V?$QFlags@W4ConversionFlag@QTextCodec@@@@@Z
 ?malloc@?$QVector@VQXmlStreamAttribute@@@@AEAAPEAUQVectorData@@H@Z
 ?message@QXmlParseException@@QEBA?AVQString@@XZ
+?metaObject@QBuffer@@UEBAPEBUQMetaObject@@XZ
 ?mid@?$QVector@VQXmlStreamAttribute@@@@QEBA?AV1@HH@Z
+?mid@QString@@QEBA?AV1@HH@Z
 ?name@QDomAttr@@QEBA?AVQString@@XZ
 ?name@QDomDocumentType@@QEBA?AVQString@@XZ
 ?name@QXmlStreamAttribute@@QEBA?AVQStringRef@@XZ
@@ -700,6 +722,7 @@ $\n?isEmpty@QString@@QEBA_NXZ
 ?namespaceUri@QXmlStreamNamespaceDeclaration@@QEBA?AVQStringRef@@XZ
 ?namespaceUri@QXmlStreamReader@@QEBA?AVQStringRef@@XZ
 ?next@QXmlInputSource@@UEAA?AVQChar@@XZ
+?nextNode@QHashData@@SAPEAUNode@1@PEAU21@@Z
 ?nextSibling@QDomNode@@QEBA?AV1@XZ
 ?nextSiblingElement@QDomNode@@QEBA?AVQDomElement@@AEBVQString@@@Z
 ?nodeName@QDomNode@@QEBA?AVQString@@XZ
@@ -718,12 +741,15 @@ $\n?isEmpty@QString@@QEBA_NXZ
 ?nodeType@QDomProcessingInstruction@@QEBA?AW4NodeType@QDomNode@@XZ
 ?nodeType@QDomText@@QEBA?AW4NodeType@QDomNode@@XZ
 ?nodeValue@QDomNode@@QEBA?AVQString@@XZ
+?node_create@QMapData@@QEAAPEAUNode@1@QEAPEAU21@HH@Z
 ?normalize@QDomNode@@QEAAXXZ
 ?notationDecl@QXmlDefaultHandler@@UEAA_NAEBVQString@@00@Z
 ?notationDeclarations@QXmlStreamReader@@QEBA?AV?$QVector@VQXmlStreamNotationDeclaration@@@@XZ
 ?notationName@QDomEntity@@QEBA?AVQString@@XZ
 ?notationName@QXmlStreamEntityDeclaration@@QEBA?AVQStringRef@@XZ
 ?notations@QDomDocumentType@@QEBA?AVQDomNamedNodeMap@@XZ
+?number@QString@@SA?AV1@HH@Z
+?open@QBuffer@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
 ?ownerDocument@QDomNode@@QEBA?AVQDomDocument@@XZ
 ?ownerElement@QDomAttr@@QEBA?AVQDomElement@@XZ
 ?parentNode@QDomNode@@QEBA?AV1@XZ
@@ -734,6 +760,8 @@ $\n?isEmpty@QString@@QEBA_NXZ
 ?popContext@QXmlNamespaceSupport@@QEAAXXZ
 ?pop_back@?$QVector@VQXmlStreamAttribute@@@@QEAAXXZ
 ?pop_front@?$QVector@VQXmlStreamAttribute@@@@QEAAXXZ
+?pos@QBuffer@@UEBA_JXZ
+?position@QStringRef@@QEBAHXZ
 ?position@QXmlStreamStringRef@@QEBAHXZ
 ?prefix@QDomNode@@QEBA?AVQString@@XZ
 ?prefix@QXmlNamespaceSupport@@QEBA?AVQString@@AEBV2@@Z
@@ -743,6 +771,7 @@ $\n?isEmpty@QString@@QEBA_NXZ
 ?prefixes@QXmlNamespaceSupport@@QEBA?AVQStringList@@AEBVQString@@@Z
 ?prefixes@QXmlNamespaceSupport@@QEBA?AVQStringList@@XZ
 ?prepend@?$QVector@VQXmlStreamAttribute@@@@QEAAXAEBVQXmlStreamAttribute@@@Z
+?previousNode@QHashData@@SAPEAUNode@1@PEAU21@@Z
 ?previousSibling@QDomNode@@QEBA?AV1@XZ
 ?previousSiblingElement@QDomNode@@QEBA?AVQDomElement@@AEBVQString@@@Z
 ?processName@QXmlNamespaceSupport@@QEBAXAEBVQString@@_NAEAV2@2@Z
@@ -759,10 +788,18 @@ $\n?isEmpty@QString@@QEBA_NXZ
 ?pushContext@QXmlNamespaceSupport@@QEAAXXZ
 ?push_back@?$QVector@VQXmlStreamAttribute@@@@QEAAXAEBVQXmlStreamAttribute@@@Z
 ?push_front@?$QVector@VQXmlStreamAttribute@@@@QEAAXAEBVQXmlStreamAttribute@@@Z
+?qFree@@YAXPEAX@Z
+?qHash@@YAIAEBVQString@@@Z
 ?qName@QXmlAttributes@@QEBA?AVQString@@H@Z
+?qRealloc@@YAPEAXPEAX_K@Z
+?qWarning@@YAXPEBDZZ
+?qsnprintf@@YAHPEAD_KPEBDZZ
+?qt_metacall@QBuffer@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacast@QBuffer@@UEAAPEAXPEBD@Z
 ?qualifiedName@QXmlStreamAttribute@@QEBA?AVQStringRef@@XZ
 ?qualifiedName@QXmlStreamReader@@QEBA?AVQStringRef@@XZ
 ?raiseError@QXmlStreamReader@@QEAAXAEBVQString@@@Z
+?read@QIODevice@@QEAA_JPEAD_J@Z
 ?readData@QBuffer@@MEAA_JPEAD_J@Z
 ?readElementText@QXmlStreamReader@@QEAA?AVQString@@W4ReadElementTextBehaviour@1@@Z
 ?readElementText@QXmlStreamReader@@QEAA?AVQString@@XZ
@@ -1069,8 +1106,6 @@ GetUserDefaultLCID
 GetUserObjectInformationW
 GetVersion
 HH:mm:ss
-HMXB
-H\n?isLetter@QXmlUtils@@SA_NVQChar@@@Z
 HeapAlloc
 HeapCreate
 HeapDestroy
@@ -1117,7 +1152,6 @@ Monday
 MultiByteToWideChar
 NDATA
 NDATA in parameter entity declaration.
-NKeb
 NMTOKEN
 NMTOKENS
 NOTATION
@@ -1145,8 +1179,6 @@ QtXml4.dll
 Qt_GetCustomAllocators
 QueryPerformanceCounter
 REQUIRED
-RSDS
-R\v?makeDecoder@QTextCodec@@QEBAPEAVQTextDecoder@@XZ
 RaiseException
 Recursive entity detected.
 Reference to external entity '%1' in attribute value.
@@ -1156,11 +1188,8 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S;uD
 SYSTEM
 SYSTEM 
-S\t?hasFailure@QTextDecoder@@QEBA_NXZ
-S\v?makeEncoder@QTextCodec@@QEBAPEAVQTextEncoder@@V?$QFlags@W4ConversionFlag@QTextCodec@@@@@Z
 Saturday
 September
 Sequence ']]>' not allowed in content.
@@ -1187,45 +1216,12 @@ UnhandledExceptionFilter
 Unknown exception
 Unknown feature %s
 Unsupported XML version.
-W\n?isNCName@QXmlUtils@@SA_NAEBVQString@@@Z
 Wednesday
 WideCharToMultiByte
 WriteFile
 XML declaration not at start of document.
-X\n?isNCName@QXmlUtils@@SA_NAEBVQStringRef@@@Z
-Y\n?isNameChar@QXmlUtils@@SA_NVQChar@@@Z
-Y\r?qt_metacall@QBuffer@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 [CDATA[
 [thunk]:
-\f?nextNode@QHashData@@SAPEAUNode@1@PEAU21@@Z
-\f?node_create@QMapData@@QEAAPEAUNode@1@QEAPEAU21@HH@Z
-\f?number@QString@@SA?AV1@HH@Z
-\f?pos@QBuffer@@UEBA_JXZ
-\f?position@QStringRef@@QEBAHXZ
-\f?previousNode@QHashData@@SAPEAUNode@1@PEAU21@@Z
-\f?qFree@@YAXPEAX@Z
-\f?qHash@@YAIAEBVQString@@@Z
-\n?isSequential@QIODevice@@UEBA_NXZ
-\n?isSpace@QChar@@QEBA_NXZ
-\n\v?latin1@QLatin1String@@QEBAPEBDXZ
-\r?qRealloc@@YAPEAXPEAX_K@Z
-\r?qWarning@@YAXPEBDZZ
-\r?qt_metacast@QBuffer@@UEAAPEAXPEBD@Z
-\r?read@QIODevice@@QEAA_JPEAD_J@Z
-\t?fromUcs4@QString@@SA?AV1@PEBIH@Z
-\t?fromUnicode@QTextCodec@@QEBA?AVQByteArray@@AEBVQString@@@Z
-\t?fromUnicode@QTextEncoder@@QEAA?AVQByteArray@@AEBVQString@@@Z
-\t?fromUnicode@QTextEncoder@@QEAA?AVQByteArray@@PEBVQChar@@H@Z
-\t?indexIn@QRegExp@@QEBAHAEBVQString@@HW4CaretMode@1@@Z
-\t?indexOf@QString@@QEBAHAEBVQLatin1String@@HW4CaseSensitivity@Qt@@@Z
-\t?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
-\t?insert@QString@@QEAAAEAV1@HAEBV1@@Z
-\t?insert@QString@@QEAAAEAV1@HPEBVQChar@@H@Z
-\t?isChar@QXmlUtils@@SA_NVQChar@@@Z
-\v?left@QString@@QEBA?AV1@H@Z
-\v?length@QByteArray@@QEBAHXZ
-\v?length@QString@@QEBAHXZ
-\v?mid@QString@@QEBA?AV1@HH@Z
 ]]]]><![CDATA[>
 ^<\?xml\s+(version\s*=\s*((['"])[-a-zA-Z0-9_.:]+\3))?\s*(encoding\s*=\s*((['"])[A-Za-z][-a-zA-Z0-9_.]*\6))?\s*\?>
 __based(
@@ -1317,7 +1313,6 @@ cointerface
 const
 const 
 czech
-d\t?hasShrunk@QHashData@@QEAAXXZ
 dddd, MMMM dd, yyyy
 double
 dutch-belgian
@@ -1363,7 +1358,6 @@ german-lichtenstein
 german-luxembourg
 german-swiss
 great britain
-h\n?isNull@QString@@QEBA_NXZ
 holland
 hong-kong
 http://trolltech.com/xml/features/report-start-end-entity
@@ -1372,13 +1366,11 @@ http://www.w3.org/2000/xmlns/
 http://www.w3.org/XML/1998/namespace
 http://xml.org/sax/features/namespace-prefixes
 http://xml.org/sax/features/namespaces
-i\n?isNull@QStringRef@@QEBA_NXZ
 int 
 internal general entity reference not allowed in DTD
 invalid name for processing instruction
 irish-english
 italian-swiss
-kU'9
 letter is expected
 long
 long 
@@ -1388,7 +1380,6 @@ no error occurred
 norwegian
 norwegian-bokmal
 norwegian-nynorsk
-o\n?isOpen@QIODevice@@QEBA_NXZ
 operator
 portuguese-brazilian
 pr china
@@ -1456,9 +1447,5 @@ volatile
 wchar_t
 wrong value for standalone declaration
 xmlns
-z?aUY
-z\n?isPublicID@QXmlUtils@@SA_NAEBVQString@@@Z
-zc%C1
 {flat}
 {for 
-|\v?metaObject@QBuffer@@UEBAPEBUQMetaObject@@XZ

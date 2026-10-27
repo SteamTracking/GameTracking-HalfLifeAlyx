@@ -1,7 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -14,14 +12,15 @@
  throw(
  volatile
 #File Error#(%d) : 
+%.2X 
 %Id bytes in %Id %hs Blocks.\n
 %hs located at 0x%p is %Iu bytes long.\n
 %hs located at 0x%p is %Iu bytes long.\n\nMemory allocated at %hs(%d).\n
 %s%s%p%s%I64d%s%d%s
+%s%s%s%s
 %s(%d) : %s
 ' is being used without being initialized.
 ' was corrupted.
-( 8PX
 ('8PW
 (null)
 , Line 
@@ -162,7 +161,6 @@ R6031\r\n- Attempt to initialize the CRT more than once.\nThis indicates a bug i
 R6032\r\n- not enough space for locale information\r\n
 R6033\r\n- Attempt to use MSIL code from this assembly during native code initialization\nThis indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.\r\n
 R6034\r\nAn application has made an attempt to load the C runtime library without using a manifest.\nThis is an unsupported way to load Visual C++ DLLs. You need to modify your application to build with a manifest.\nFor more information, see the "Visual C++ Libraries as Shared Side-by-Side Assemblies" topic in the product documentation.\r\n
-RSDS]D
 RegCloseKey
 RegOpenKeyExA
 RegQueryValueExA
@@ -249,7 +247,6 @@ _sftbuf.c
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static destructor helper'
 `local static guard'
 `local static thread guard'
@@ -447,7 +444,5 @@ wchar_t
 winsig.c
 wsprintfA
 wtombenv.c
-xppwpp
-xpxxxx
 {flat}
 {for 

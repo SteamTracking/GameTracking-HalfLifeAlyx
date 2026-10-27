@@ -8,6 +8,7 @@
 #include
 #include is NULL 
 %-20s "%s" %s%s\n
+%-20s %s\n
 %d_%d_%d_%d_%d.tmp
 %i %i %i %i
 %llu
@@ -144,7 +145,6 @@
 1819
 1836
 2071
-2\vpp
 <Invalid file time %lld>
 <NULL>
 <deferred>
@@ -306,6 +306,7 @@ COrderedConstructor_Create<class COrderedInitShutdownRefWrapper<&void __cdecl Ea
 CPackedStore::BuildHashTables
 CPackedStore::CPackedStore
 CSchemaRegistration::RegisterAllModuleData
+CTSListBase: Misaligned list\n
 CTSListBase::CTSListBase
 CTSQueue corruption
 CTSQueue<struct CAsyncIOResult_t,0>::Push
@@ -431,7 +432,6 @@ From Steam: [%s]\%s\n
 GAME
 GAMECONSOLE
 GCTL
-GCTSListBase: Misaligned list\n
 GSFailure
 GameResourceServiceClientV001
 GameResourceServiceServerV001
@@ -549,8 +549,6 @@ PreloadDirectoryEntries
 PropertyEditorSystem_001
 QueryPerformanceCounter
 QueuedLoaderVersion001
-RSDS
-R\vpp
 RandomInt
 ReadFile
 Reading UGC %llu that still needs update. Continuing...\n

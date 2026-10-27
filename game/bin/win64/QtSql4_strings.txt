@@ -1,7 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  AND 
  AS %1_%2_%3
  ASC
@@ -23,7 +21,6 @@
  throw(
  volatile
 ", database="
-$\n?isEmpty@QString@@QEBA_NXZ
 , auto-value: "
 , generated: 
 , length: 
@@ -63,10 +60,8 @@ $\n?isEmpty@QString@@QEBA_NXZ
 .?AVtype_info@@
 /sqldrivers
 0123456789abcdef
-<\v?lockForRead@QReadWriteLock@@QEAAXXZ
 <ellipsis>
 <unknown>
->\t?grow@QVectorData@@SAHHHH_N@Z
 ??0QAbstractItemModelPrivate@@QEAA@XZ
 ??0QAbstractTableModel@@IEAA@AEAVQAbstractItemModelPrivate@@PEAVQObject@@@Z
 ??0QAtomicInt@@QEAA@H@Z
@@ -386,30 +381,44 @@ $\n?isEmpty@QString@@QEBA_NXZ
 ?free_helper@QHashData@@QEAAXP6AXPEAUNode@1@@Z@Z
 ?fromLatin1@QChar@@SA?AV1@D@Z
 ?fromLatin1@QString@@SA?AV1@PEBDH@Z
+?grow@QVectorData@@SAHHHH_N@Z
 ?handle@QSqlDriver@@UEBA?AVQVariant@@XZ
 ?handle@QSqlResult@@UEBA?AVQVariant@@XZ
+?hasChildren@QAbstractTableModel@@EEBA_NAEBVQModelIndex@@@Z
 ?hasOutValues@QSqlResult@@IEBA_NXZ
+?hasShrunk@QHashData@@QEAAXXZ
+?headerData@QAbstractItemModel@@UEBA?AVQVariant@@HW4Orientation@Qt@@H@Z
 ?headerData@QSqlQueryModel@@UEBA?AVQVariant@@HW4Orientation@Qt@@H@Z
 ?headerData@QSqlTableModel@@UEBA?AVQVariant@@HW4Orientation@Qt@@H@Z
+?headerDataChanged@QAbstractItemModel@@IEAAXW4Orientation@Qt@@HH@Z
 ?hostName@QSqlDatabase@@QEBA?AVQString@@XZ
+?index@QAbstractTableModel@@UEBA?AVQModelIndex@@HHAEBV2@@Z
 ?indexColumn@QSqlRelation@@QEBA?AVQString@@XZ
 ?indexInQuery@QSqlQueryModel@@IEBA?AVQModelIndex@@AEBV2@@Z
 ?indexInQuery@QSqlTableModel@@IEBA?AVQModelIndex@@AEBV2@@Z
 ?indexOf@QSqlRecord@@QEBAHAEBVQString@@@Z
+?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
 ?init@QSqlCachedResult@@IEAAXH@Z
 ?insert@QSqlRecord@@QEAAXHAEBVQSqlField@@@Z
 ?insertColumns@QSqlQueryModel@@UEAA_NHHAEBVQModelIndex@@@Z
 ?insertRecord@QSqlTableModel@@QEAA_NHAEBVQSqlRecord@@@Z
+?insertRow@QAbstractItemModel@@QEAA_NHAEBVQModelIndex@@@Z
 ?insertRowIntoTable@QSqlRelationalTableModel@@MEAA_NAEBVQSqlRecord@@@Z
 ?insertRowIntoTable@QSqlTableModel@@MEAA_NAEBVQSqlRecord@@@Z
+?insertRows@QAbstractItemModel@@UEAA_NHHAEBVQModelIndex@@@Z
 ?insertRows@QSqlTableModel@@UEAA_NHHAEBVQModelIndex@@@Z
+?instance@QCoreApplication@@SAPEAV1@XZ
+?instance@QFactoryLoader@@QEBAPEAVQObject@@AEBVQString@@@Z
+?invokeMethod@QMetaObject@@SA_NPEAVQObject@@PEBDW4ConnectionType@Qt@@VQGenericReturnArgument@@VQGenericArgument@@444444444@Z
 ?isActive@QSqlQuery@@QEBA_NXZ
 ?isActive@QSqlResult@@IEBA_NXZ
 ?isAutoValue@QSqlField@@QEBA_NXZ
 ?isDescending@QSqlIndex@@QEBA_NH@Z
 ?isDirty@QSqlTableModel@@QEBA_NAEBVQModelIndex@@@Z
 ?isDriverAvailable@QSqlDatabase@@SA_NAEBVQString@@@Z
+?isEmpty@QListData@@QEBA_NXZ
 ?isEmpty@QSqlRecord@@QEBA_NXZ
+?isEmpty@QString@@QEBA_NXZ
 ?isForwardOnly@QSqlQuery@@QEBA_NXZ
 ?isForwardOnly@QSqlResult@@IEBA_NXZ
 ?isGenerated@QSqlField@@QEBA_NXZ
@@ -422,6 +431,7 @@ $\n?isEmpty@QString@@QEBA_NXZ
 ?isNull@QSqlQuery@@QEBA_NH@Z
 ?isNull@QSqlRecord@@QEBA_NAEBVQString@@@Z
 ?isNull@QSqlRecord@@QEBA_NH@Z
+?isNull@QVariant@@QEBA_NXZ
 ?isOpen@QSqlDatabase@@QEBA_NXZ
 ?isOpen@QSqlDriver@@UEBA_NXZ
 ?isOpenError@QSqlDatabase@@QEBA_NXZ
@@ -429,12 +439,19 @@ $\n?isEmpty@QString@@QEBA_NXZ
 ?isReadOnly@QSqlField@@QEBA_NXZ
 ?isSelect@QSqlQuery@@QEBA_NXZ
 ?isSelect@QSqlResult@@IEBA_NXZ
+?isSpace@QChar@@QEBA_NXZ
+?isValid@QDate@@QEBA_NXZ
+?isValid@QDateTime@@QEBA_NXZ
 ?isValid@QSqlDatabase@@QEBA_NXZ
 ?isValid@QSqlError@@QEBA_NXZ
 ?isValid@QSqlField@@QEBA_NXZ
 ?isValid@QSqlQuery@@QEBA_NXZ
 ?isValid@QSqlRelation@@QEBA_NXZ
 ?isValid@QSqlResult@@IEBA_NXZ
+?isValid@QTime@@QEBA_NXZ
+?isValid@QVariant@@QEBA_NXZ
+?itemData@QAbstractItemModel@@UEBA?AV?$QMap@HVQVariant@@@@AEBVQModelIndex@@@Z
+?keys@QFactoryLoader@@QEBA?AVQStringList@@XZ
 ?last@QSqlQuery@@QEAA_NXZ
 ?lastError@QSqlDatabase@@QEBA?AVQSqlError@@XZ
 ?lastError@QSqlDriver@@QEBA?AVQSqlError@@XZ
@@ -445,20 +462,33 @@ $\n?isEmpty@QString@@QEBA_NXZ
 ?lastInsertId@QSqlResult@@MEBA?AVQVariant@@XZ
 ?lastQuery@QSqlQuery@@QEBA?AVQString@@XZ
 ?lastQuery@QSqlResult@@IEBA?AVQString@@XZ
+?latin1@QLatin1String@@QEBAPEBDXZ
 ?length@QSqlField@@QEBAHXZ
+?length@QString@@QEBAHXZ
+?lockForRead@QReadWriteLock@@QEAAXXZ
+?match@QAbstractItemModel@@UEBA?AV?$QList@VQModelIndex@@@@AEBVQModelIndex@@HAEBVQVariant@@HV?$QFlags@W4MatchFlag@Qt@@@@@Z
+?maybeSpace@QDebug@@QEAAAEAV1@XZ
+?metaObject@QFactoryLoader@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QSqlDriver@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QSqlDriverPlugin@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QSqlQueryModel@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QSqlRelationalTableModel@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QSqlTableModel@@UEBAPEBUQMetaObject@@XZ
+?mid@QString@@QEBA?AV1@HH@Z
+?mimeData@QAbstractItemModel@@UEBAPEAVQMimeData@@AEBV?$QList@VQModelIndex@@@@@Z
+?mimeTypes@QAbstractItemModel@@UEBA?AVQStringList@@XZ
 ?name@QSqlField@@QEBA?AVQString@@XZ
 ?name@QSqlIndex@@QEBA?AVQString@@XZ
 ?next@QSqlQuery@@QEAA_NXZ
+?nextNode@QHashData@@SAPEAUNode@1@PEAU21@@Z
 ?nextResult@QSqlQuery@@QEAA_NXZ
 ?nextResult@QSqlResult@@IEAA_NXZ
+?node_create@QMapData@@QEAAPEAUNode@1@QEAPEAU21@HH@Z
+?node_delete@QMapData@@QEAAXQEAPEAUNode@1@HPEAU21@@Z
 ?notification@QSqlDriver@@IEAAXAEBVQString@@@Z
 ?numRowsAffected@QSqlQuery@@QEBAHXZ
 ?number@QSqlError@@QEBAHXZ
+?number@QString@@SA?AV1@HH@Z
 ?numericalPrecisionPolicy@QSqlDatabase@@QEBA?AW4NumericalPrecisionPolicy@QSql@@XZ
 ?numericalPrecisionPolicy@QSqlDriver@@QEBA?AW4NumericalPrecisionPolicy@QSql@@XZ
 ?numericalPrecisionPolicy@QSqlQuery@@QEBA?AW4NumericalPrecisionPolicy@QSql@@XZ
@@ -467,21 +497,37 @@ $\n?isEmpty@QString@@QEBA_NXZ
 ?open@QSqlDatabase@@QEAA_NXZ
 ?orderByClause@QSqlRelationalTableModel@@MEBA?AVQString@@XZ
 ?orderByClause@QSqlTableModel@@MEBA?AVQString@@XZ
+?parent@QAbstractTableModel@@EEBA?AVQModelIndex@@AEBV2@@Z
 ?password@QSqlDatabase@@QEBA?AVQString@@XZ
 ?port@QSqlDatabase@@QEBAHXZ
 ?precision@QSqlField@@QEBAHXZ
 ?prepare@QSqlQuery@@QEAA_NAEBVQString@@@Z
 ?prepare@QSqlResult@@MEAA_NAEBVQString@@@Z
+?prepend@QString@@QEAAAEAV1@AEBV1@@Z
+?prepend@QString@@QEAAAEAV1@AEBVQLatin1String@@@Z
 ?previous@QSqlQuery@@QEAA_NXZ
 ?primaryIndex@QSqlDatabase@@QEBA?AVQSqlIndex@@AEBVQString@@@Z
 ?primaryIndex@QSqlDriver@@UEBA?AVQSqlIndex@@AEBVQString@@@Z
 ?primaryKey@QSqlTableModel@@QEBA?AVQSqlIndex@@XZ
 ?primeInsert@QSqlTableModel@@IEAAXHAEAVQSqlRecord@@@Z
+?qAddPostRoutine@@YAXP6AXXZ@Z
+?qFree@@YAXPEAX@Z
+?qHash@@YAIAEBVQString@@@Z
+?qMalloc@@YAPEAX_K@Z
+?qMemCopy@@YAPEAXPEAXPEBX_K@Z
+?qWarning@@YA?AVQDebug@@XZ
+?qWarning@@YAXPEBDZZ
+?qt_metacall@QAbstractTableModel@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QFactoryLoader@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QSqlDriver@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QSqlDriverPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QSqlQueryModel@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QSqlRelationalTableModel@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QSqlTableModel@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacast@QAbstractTableModel@@UEAAPEAXPEBD@Z
+?qt_metacast@QFactoryLoader@@UEAAPEAXPEBD@Z
+?qt_metacast@QObject@@UEAAPEAXPEBD@Z
 ?qt_metacast@QSqlDriver@@UEAAPEAXPEBD@Z
 ?qt_metacast@QSqlDriverPlugin@@UEAAPEAXPEBD@Z
 ?qt_metacast@QSqlQueryModel@@UEAAPEAXPEBD@Z
@@ -787,7 +833,6 @@ LC_TIME
 LeaveCriticalSection
 LoadLibraryW
 MM/dd/yy
-M\t?hasChildren@QAbstractTableModel@@EEBA_NAEBVQModelIndex@@@Z
 March
 MessageBoxW
 Monday
@@ -829,7 +874,6 @@ QtCore4.dll
 QtSql4.dll
 Qt_GetCustomAllocators
 QueryPerformanceCounter
-RSDS
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -851,7 +895,6 @@ Thursday
 Tuesday
 UNKNOWN
 UPDATE 
-U\r?qt_metacall@QAbstractTableModel@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 Unable to delete row
 Unable to find table 
 Unable to select fields from table 
@@ -862,45 +905,7 @@ WHERE
 Wednesday
 WideCharToMultiByte
 WriteFile
-Z\f?parent@QAbstractTableModel@@EEBA?AVQModelIndex@@AEBV2@@Z
 [thunk]:
-\f?nextNode@QHashData@@SAPEAUNode@1@PEAU21@@Z
-\f?node_create@QMapData@@QEAAPEAUNode@1@QEAPEAU21@HH@Z
-\f?node_delete@QMapData@@QEAAXQEAPEAUNode@1@HPEAU21@@Z
-\f?number@QString@@SA?AV1@HH@Z
-\f?prepend@QString@@QEAAAEAV1@AEBV1@@Z
-\f?prepend@QString@@QEAAAEAV1@AEBVQLatin1String@@@Z
-\f?qAddPostRoutine@@YAXP6AXXZ@Z
-\f?qFree@@YAXPEAX@Z
-\f?qHash@@YAIAEBVQString@@@Z
-\f\r?qMemCopy@@YAPEAXPEAXPEBX_K@Z
-\n?isEmpty@QListData@@QEBA_NXZ
-\n?isSpace@QChar@@QEBA_NXZ
-\n?isValid@QDate@@QEBA_NXZ
-\n?isValid@QDateTime@@QEBA_NXZ
-\n?isValid@QTime@@QEBA_NXZ
-\n?isValid@QVariant@@QEBA_NXZ
-\n?itemData@QAbstractItemModel@@UEBA?AV?$QMap@HVQVariant@@@@AEBVQModelIndex@@@Z
-\n?keys@QFactoryLoader@@QEBA?AVQStringList@@XZ
-\n\r?qMalloc@@YAPEAX_K@Z
-\n\v?latin1@QLatin1String@@QEBAPEBDXZ
-\r?qWarning@@YA?AVQDebug@@XZ
-\r?qWarning@@YAXPEBDZZ
-\r?qt_metacast@QAbstractTableModel@@UEAAPEAXPEBD@Z
-\r?qt_metacast@QFactoryLoader@@UEAAPEAXPEBD@Z
-\r?qt_metacast@QObject@@UEAAPEAXPEBD@Z
-\t?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
-\t?insertRow@QAbstractItemModel@@QEAA_NHAEBVQModelIndex@@@Z
-\t?insertRows@QAbstractItemModel@@UEAA_NHHAEBVQModelIndex@@@Z
-\t?instance@QCoreApplication@@SAPEAV1@XZ
-\t?instance@QFactoryLoader@@QEBAPEAVQObject@@AEBVQString@@@Z
-\t?invokeMethod@QMetaObject@@SA_NPEAVQObject@@PEBDW4ConnectionType@Qt@@VQGenericReturnArgument@@VQGenericArgument@@444444444@Z
-\v?length@QString@@QEBAHXZ
-\v?metaObject@QFactoryLoader@@UEBAPEBUQMetaObject@@XZ
-\v?mid@QString@@QEBA?AV1@HH@Z
-\v?mimeData@QAbstractItemModel@@UEBAPEAVQMimeData@@AEBV?$QList@VQModelIndex@@@@@Z
-\v?mimeTypes@QAbstractItemModel@@UEBA?AVQStringList@@XZ
-^\r?qt_metacall@QFactoryLoader@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 __based(
 __cdecl
 __clrcall
@@ -994,7 +999,6 @@ com.trolltech.Qt.QSqlDriverFactoryInterface
 const
 const 
 czech
-d\t?hasShrunk@QHashData@@QEAAXXZ
 dddd, MMMM dd, yyyy
 double
 dutch-belgian
@@ -1019,25 +1023,20 @@ french-belgian
 french-canadian
 french-luxembourg
 french-swiss
-g\v?match@QAbstractItemModel@@UEBA?AV?$QList@VQModelIndex@@@@AEBVQModelIndex@@HAEBVQVariant@@HV?$QFlags@W4MatchFlag@Qt@@@@@Z
 generic-type-
 german-austrian
 german-lichtenstein
 german-luxembourg
 german-swiss
 great britain
-h\r?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 holland
 hong-kong
-i\t?headerData@QAbstractItemModel@@UEBA?AVQVariant@@HW4Orientation@Qt@@H@Z
 identifier,type
 int 
 irish-english
 isIdentifierEscapedImplementation
 isIdentifierEscapedImplementation(QString,IdentifierType)
 italian-swiss
-j\t?headerDataChanged@QAbstractItemModel@@IEAAXW4Orientation@Qt@@HH@Z
-l\n?isNull@QVariant@@QEBA_NXZ
 long
 long 
 name
@@ -1046,7 +1045,6 @@ norwegian
 norwegian-bokmal
 norwegian-nynorsk
 notification(QString)
-o\v?maybeSpace@QDebug@@QEAAAEAV1@XZ
 operator
 portuguese-brazilian
 pr china
@@ -1121,4 +1119,3 @@ volatile
 wchar_t
 {flat}
 {for 
-~\t?index@QAbstractTableModel@@UEBA?AVQModelIndex@@HHAEBV2@@Z

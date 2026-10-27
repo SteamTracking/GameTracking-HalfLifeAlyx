@@ -113,7 +113,9 @@
 %language%
 %lld
 %s failed to localize: %s\n
+%s\%s
 %s\Settings
+%s_[%s]
 *.txt
 -all_languages
 -ccsyntax
@@ -242,6 +244,7 @@ COL$
 COLORCORRECTION_VERSION_1
 COrderedConstructor_Create<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>,class CResolveOrderedFunc<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>,&void __cdecl _ORDERED_INIT_SHUTDOWN_WRAPPER_RESOLVEFUNC<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>(class COrderedConstructor_DependencyManagement<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)> > &)>,0>::AddRef
 CSchemaRegistration::RegisterAllModuleData
+CTSListBase: Misaligned list\n
 CTSListBase::CTSListBase
 CUtlBlockMemory overflow!\n
 CUtlBlockMemory<char,int>::ChangeSize
@@ -287,7 +290,6 @@ French
 Full paths not allowed in localization file specification '%s'\n
 GAMECONSOLE
 GCTL
-GCTSListBase: Misaligned list\n
 GSFailure
 GameResourceServiceClientV001
 GameResourceServiceServerV001
@@ -395,7 +397,6 @@ PostProcessingSystem_001
 PropertyEditorSystem_001
 QueryPerformanceCounter
 QueuedLoaderVersion001
-RSDS
 ReadDirectoryChangesW
 RegCloseKey
 RegCreateKeyExA

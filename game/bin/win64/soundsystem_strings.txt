@@ -2,12 +2,12 @@
   %d: %s (%08lx :: %08lx) %s [%.1fs]\n
  *SoundEvent Data*
  : %s : vol: %4.2f, sndlvl: %4.2f \n
-!I>Ct
 #OS_Default_Device
 #base
 #base is NULL 
 #include
 #include is NULL 
+%*s%s.%s: 
 %*s(%08x):Pausing: %s (%08x) : elapsed time: %.2fs\n
 %*s(%08x):Stopping: %s (%08x) : elapsed time: %.2fs\n
 %*sOperator Stack: %s\n%*sOperator: %s\n
@@ -16,7 +16,9 @@
 %*smixgroup: %s\n
 %.15lf
 %02X
+%d %s %s\n
 %d) %s %s -> %s\n
+%d) %s\n
 %dOffset: %i\n
 %f %f %f %f
 %f Async I/O Bumped priority for %s (%8.2f msec)\n
@@ -25,6 +27,7 @@
 %lld
 %llu
 %ls [wstring, len = %d]
+%s %s
 %s : param size = %i, field size = %i\n
 %s = %s: %i : %i : %i : %i : %i : %i\n
 %s Operator Fields: %i\n
@@ -36,16 +39,29 @@
 %s set to %.2f\n
 %s set to %x (%s)\n
 %s unable to allocate %u bytes\n
+%s%s
+%s%s 
+%s%s%f
+%s%s%i
 %s%s%llu
+%s%s%s
+%s%s%u
 %s, UNKNOWN %i
+%s.%s
+%s: %f\n
+%s: %s
 %s: %s (%i : %i)\n
+%s: %s\n
 %s: Failed %d\n
 %s: Has a failed library stack message.\n
 %s: Has a failed sound event message.\n
 %s: Sound event executionlist has exceeded MAX_VOICES. Index %i : %s\n
 %s: params.pSfx is NULL.\n
 %s: string format requested %d chars\n
+%s:%i
+%s::%s
 %s::Execute: Can't find operator stack %s in %s\n
+%s\n%s
 %s_%s_linear
 %s_%s_mapping_curve
 %s_KV3
@@ -56,11 +72,11 @@
 %s_random_variance
 %s_seek_speed_filter
 (%2db) %6i : %s\n
+(%s) %d
 (None)
 (Steam Audio) Update physics material attribute of a VMAT file. They are used for picking acoustic material property for Steam Audio.
 (connected: %s %i )
 (null)
-+KjB
 +inf
 ---empty---
 ---invalid event---
@@ -393,13 +409,11 @@
 0.023
 0.15
 0.55
-0\f50t\f
+00000000-0000-0000-0000-000000000000
 0x%016llX
 1440.0
 1DBlend
-1e<w 
 2701
-2\vpp
 4000
 <!-- kv3 encoding:%s:version{%s} format:%s:version{%s} -->\n
 <!-- schema 
@@ -415,9 +429,7 @@
 <null>
 <unconnected>
 <unknown>
->EJtM
 >fff?fff?
-?333333
 ??0CThreadEvent@@QEAA@_N@Z
 ??0CThreadFastMutex@@QEAA@XZ
 ??0CThreadMutex@@QEAA@PEBD@Z
@@ -462,20 +474,9 @@
 ?UnlockWrite@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
 ?Wait@CThreadSyncObject@@QEAA_NI@Z
-?amN2
 ?fff?fff?fff?fff?
-?gUB
 ?gf0Bgf0Bgf0Bgf0B
-?l@GC
-?math_randomize_float
-?s,DT
-?vmdlkeys0
-?wr^a
 @%s.output
-@?calc_spatialize_speakers
-@@util_interval_timer
-@math_filter_float
-@math_float
 @public.%s
 AE_ACTION_SET_TURN_RATE_SCALE
 AE_BLIND_ZOMBIE_SNIFF
@@ -580,6 +581,7 @@ Audio device starved %d samples \n
 AudioMixer
 AutoLayer
 Available Operators:\n
+BPM: %f\n
 Bad KV3 data for resource: %s\n
 Bad command in vmix!\n
 Bad expression operator: '%c%c', expected C style boolean expression operator.
@@ -608,10 +610,8 @@ Bandwidth
 BaseIKRig
 BasePhysicsShape
 BaseStack
-Bcalc_occlusion_src1
 BenchmarkService001
 BentNormalData
-Bgame_entity_world_aabb
 Bgf0B
 BinaryProperties_GetValue
 Bits/Sample:\t%d\n
@@ -635,6 +635,7 @@ CAsyncWavDataCache:  %i sounds total %s, %.2f %% of capacity\n
 CAudioDirectSound2::SNDDMA_InitInterleaved
 CAudioMixThread::CAudioMixThread
 CAudioMixerWaveMP3::OpenHandle
+CAuthPhysBody
 CAuthPhysJoint
 CEntityIndex
 CGlobalConfigValueRegistry::HookUpConfigValue
@@ -883,7 +884,6 @@ Couldn't load dsound.dll\n
 Couldn't parse the input.\n
 CreateInterface
 CreateSimpleThread
-Csoundevent_stop_all
 CurTime: %f\n
 Currently gets info for a single operator field
 Currently sets a single float operator field
@@ -1169,7 +1169,6 @@ KeyValues Error: %s in file %s\n
 KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s\n
 KeyValues::SaveToFile: couldn't open file "%s" in path "%s".\n
 KeyValuesSystem
-L?fff?
 LFO Type
 LINUX
 LOG Fade in
@@ -1194,7 +1193,6 @@ List all known sounds.
 List all mix groups to dev console.
 List all mix layers to dev console.
 List all mixers to dev console.
-LkV~
 Load all the probes from a file and log the nearby probes within the radius.
 LoadFromBuffer: expected '{', found '%s'
 LoadKV3Object error: %s\n
@@ -1210,10 +1208,8 @@ LoggingSystem_RegisterLoggingChannel
 LowPass
 Lowest
 Lowpass4Tap
-LrwcE
 MASK_WATER
 MATCHFRAMEWORK_001
-MC#e
 MClassHasCustomAlignedNewDelete
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
@@ -1236,7 +1232,6 @@ MaterialUtils_001
 MathLib_Init
 Max Count
 Max Time
-MbP?
 Medium
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
@@ -1385,7 +1380,6 @@ Play a note from a specified sampler
 Play a sound at a specified volume.
 Play a sound.
 PlaySoundA
-Po5H
 PostProcessingSystem_001
 PresetDSP
 PreviewAttachmentModel
@@ -1429,13 +1423,12 @@ RESOURCE_TYPE_SOUNDEVENTSCRIPT
 RESOURCE_TYPE_SOUNDSTACKSCRIPT
 RESOURCE_TYPE_VMIX_LIST
 ROOM Detected \n
-RSDS"
-R\vpp
 RadianEuler
 Random
 Random Modulation
 RandomFloat
 RandomInt
+Rate:\t\t%d\n
 RecursiveLoadFromBuffer:  got EOF instead of keyname
 RecursiveLoadFromBuffer:  got NULL key
 RecursiveLoadFromBuffer:  got conditional between key and value
@@ -1474,7 +1467,6 @@ Reverb Width ms
 RtlUnwindEx
 Running snd_get_physics_surface_properties for %s mod.\n
 Running snd_set_physics_surface_properties for %s mod.\n
-S+Ot
 SDL Audio Device: %s\n
 SEQUENCER ERROR: Loading sequence file(error %s)!\n
 SEQUENCER ERROR: Loading vmidi manifest file(error %s)!\n
@@ -1742,7 +1734,6 @@ VBaseFileSystem011
 VBik001
 VConComm001
 VDebugService_001
-VEM5
 VERTICAL SHAFT Detected \n
 VEngineCvar007
 VFileSystem017
@@ -1884,6 +1875,7 @@ Warning: sos_start_soundevent unable to read opvar %s for passing from event %s\
 Warning: track_queue: No track name specified on %s, playing without track features\n
 WeightList
 Width Reflectivity
+Windows Audio
 Windows Audio Device: %s\n
 Windows DirectSound
 Windows audio failed to initialize\n
@@ -1891,9 +1883,7 @@ Won't age handle!\n
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
-Wt<c
 X360
-X<"wP
 XAudio error %08x\n
 XAudio2 Device
 XAudio2 Sound Device: %s\n
@@ -1907,7 +1897,6 @@ XAudio2_7.dll
 \n%*sName: %s\n
 \n%*sName: %s\n%*sNameSpace: %s\n
 \nActive Sound events: %d\n
-\nCwf\r
 \nOperator Field: %s\n
 \nSOS PRINT STRING: %s: %s\n
 \nType Name: %s\n
@@ -2033,7 +2022,6 @@ break_uniform_burst
 breakable_count
 breakable_model
 breakable_skin
-bt3V
 burst_randomize
 burst_scale
 c:\buildslave\hlvr_rel_win64\build\src\interfaces\interfaces.cpp
@@ -2072,7 +2060,6 @@ c:\buildslave\hlvr_rel_win64\build\src\tier1\utlbuffer.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\utlmemoryarena.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\utlstring.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier2\schemabindings.cpp
-cO~j
 cable
 calc_angles_facing
 calc_audibility
@@ -2549,10 +2536,8 @@ itemName
 itemPos
 itemType
 itemTypeName
-k8y<=
 key_groups
 last_sniff
-lcQe
 left_front
 left_front1
 left_front2
@@ -2583,7 +2568,6 @@ loop_break_on_flashlight
 loop_in_action
 looping
 lvl: %3.2f 
-mXr4
 m_Angles
 m_Bone
 m_ChainData
@@ -2956,7 +2940,6 @@ mute
 mute: %3.2f\n
 nOffset < m_nAllocationSize
 nTries < 10000000
-n\f"pA3Q
 name
 named
 nav_attribute_avoid
@@ -3100,7 +3083,6 @@ output_x
 output_y
 output_z
 overwrite
-p\r0\fP
 parallel filters
 paramName
 parameter
@@ -3158,10 +3140,8 @@ public.sync_bpm_beats
 public.volume
 public_field_name
 purecall
-qWindows Audio
 quantize_multiplier
 quantize_type
-rAb<
 radius
 radius0
 radius1
@@ -3456,7 +3436,6 @@ suppress
 surface_prop
 sync_track
 sync_type
-t\tvi
 tanh
 test
 test_angles_relative
@@ -3511,6 +3490,7 @@ vgraph_name
 vgraph_track
 vmat
 vmdl
+vmdlkeys0
 vmdlkeys1
 vmdlkeys2
 vmdlkeys3
@@ -3593,10 +3573,6 @@ width
 xfade
 yaw_end
 yaw_start
-z:KCAuthPhysBody
-z>00000000-0000-0000-0000-000000000000
-{YIN?
 {}[]()=&, \t\n'"*;
 {}[]=, \t\n'":|;
 ~CSosOperatorSystem: Deleting orphaned CSosOperatorStack pointer for %s via shutdown\n
-~Csoundevent_control

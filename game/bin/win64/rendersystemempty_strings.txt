@@ -22,15 +22,12 @@
   TEX: %u textures, %.2f MB\n
   TOTAL: %.2f MB\n
   VB: %d buffers, %.2f MB\n
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  -shadowTargetSize forcing nPoolSizeInMb size to %d from %d, bLarge %d, avail %lld\n
  Base Class Array'
  Base Class Descriptor at (
- C>TQ
  Can't specify initial state of dynamic constant buffers at creation time!\n
  Class Hierarchy Descriptor'
  Complete Object Locator'
@@ -42,7 +39,6 @@
  new
  receiver regenerated
  uncorrected errors
-!AxU
 "%s": Bad mode
 "%s": Information lost writing value (%g) as (unsigned) RATIONAL
 "Predictor" value %d not supported
@@ -50,28 +46,27 @@
 "compression" attribute not found in the header.
 "dataWindow" attribute not found in the header or invalid.
 "displayWindow" attribute not found in the header.
-"e?<<<<<<l?
 "lineOrder" attribute not found in the header.
 "pixelAspectRatio" attribute not found in the header.
 "screenWindowCenter" attribute not found in the header.
 "screenWindowWidth" attribute not found in the header.
 # of channels is zero.\n
-#bML"
 #base
 #base is NULL 
 #include
 #include is NULL 
-$Ib?s
 %.100s: Can not read TIFF directory
 %f %f %f %f
 %i %i %i %i
 %ld%c
+%lld
 %lu: Row out of range, max %lu
 %lu: Sample out of range, max %lu
 %s %s decoding is not implemented
 %s %s encoding is not implemented
 %s compression support is not configured
 %s2-d encoding
+%s: %s
 %s: %s at line %u of %s %u (got %u, expected %u)
 %s: Bad code word at line %u of %s %u (x %u)
 %s: Bad field type %d for "%s"
@@ -122,18 +117,12 @@ $Ib?s
 %s: zlib error: %s
 %sEOL padding
 %suncompressed data
-&?PPPPPPP?
-&Sgw
+%u (0x%x)\n
 (%s): ADD %s = %s\n
 (%s): Setting %s to %s\n
 (null)
-)yIx
-*5KS
-*StO9>T
 , channels = 
 , height = 
-,HR>O
--BH>t
 -adapter
 -autoconfig
 -autoconfig_level
@@ -159,7 +148,6 @@ $Ib?s
 -sse4
 -vulkan
 .00cfg
-.>\rfJBGo
 .?AU_Crt_new_delete@std@@
 .?AUctype_base@std@@
 .?AV?$CBaseAppSystem@VIRenderDeviceMgr@@@@
@@ -305,47 +293,19 @@ $Ib?s
 .tls$
 .tls$ZZZ
 .txt
-.xJ>Hf
 .xdata
 .xdata$x
-/2GG>!B
-/P8i
 /TF<)VGy#WH
-/yQA
 0123456789abcdefghijklmnopqrstuvwxyz
 0: Bilinear, 1: Trilinear, 2: Aniso 2x, 3: Aniso 4x, 4: Aniso 8x, 5: Aniso 16x
-0E>X
-0X8b?~
-0iN>/
 0x%016llX
 1#IND
 1#INF
 1#QNAN
 1#SNAN
 1.2.5
-11Y@
 1600
-1A26b
-1wsHp
-3 FB
-37>k
-3>N;kU
-3>fvw
-3?tr
-51>W
-52F*
-6NK>
-6\fXO>\ntA
-7>I0
-7?GX
-7~8A
-7~xh
-8&Kx
 8b  16-May-2010
-8ke?;
-9>70
-9>powf
-9a&g
 <NULL>
 <deferred>
 <invalid %d>
@@ -355,18 +315,6 @@ $Ib?s
 <unconnected>
 <unknown multisample type
 <x360>
-=87M
-=cQ6
-=e2m
-=imb;D
->WIN32
->cQ6
->jtm}S
-?!5WOo
-?49HoKC
-?7zQ6$
-?7{KV\nU
-?8bunz8
 ??0CThreadEvent@@QEAA@_N@Z
 ??0CThreadFastMutex@@QEAA@XZ
 ??0CThreadMutex@@QEAA@PEBD@Z
@@ -374,7 +322,6 @@ $Ib?s
 ??0CThreadRWLock_FastRead@@QEAA@_N@Z
 ??1CThreadEvent@@QEAA@XZ
 ??1CThreadSemaphore@@QEAA@XZ
-?@En[vP
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
 ?DevMsg@@YAXPEBDZZ
 ?DevWarning@@YAXPEBDZZ
@@ -390,13 +337,11 @@ $Ib?s
 ?LockForRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?Purge@CBufferString@@QEAAXH@Z
-?R0I?
 ?RemoveAt@CBufferString@@QEAAPEBDHH@Z
 ?SetExtension@CBufferString@@QEAAPEBDPEBD@Z
 ?SetLength@CBufferString@@QEAAPEADH_NPEAH@Z
 ?SpinLockForWrite@CThreadSpinRWLock@@AEAAXPEBDHI@Z
 ?ToLowerFast@CBufferString@@QEAAXH@Z
-?UUUUUU
 ?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
@@ -405,18 +350,8 @@ $Ib?s
 ?UnlockWrite@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
 ?Wait@CThreadSyncObject@@QEAA_NI@Z
-?f`Y4
-?kxG2)
-?lZE
-?qBJ
-?rAj
-?ysB
-@Integer overflow in %s
-A!;I2
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABGR8888
-AK>(v
 ALIGN_TYPE is wrong, please fix
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
 ARGB8888
@@ -454,10 +389,7 @@ AsyncHookUpTextureBits
 AsyncTextureHookup
 At marker 0x%02x, recovery action %d
 August
-B.f?y
 BC6H
-BC?>6t9^\tc:>
-BF>^G
 BGR101111_UFLOAT
 BGR565
 BGR888
@@ -471,7 +403,6 @@ BGRA8888_LINEAR
 BGRX5551
 BGRX8888
 BGRX8888_LINEAR
-BKbhTb~XBK!;
 Backing store not supported
 Bad VTEX data for '%s'\n
 Bad expression operator: '%c%c', expected C style boolean expression operator.
@@ -507,8 +438,6 @@ Bogus message code %d
 Bogus sampling factors
 Bogus virtual array access
 Buffer passed to JPEG library is too small
-C-Yn
-C5R?\t
 CCIR601 sampling not implemented yet
 CCITT Group 3
 CCITT Group 4
@@ -519,20 +448,19 @@ CEntityIndex
 CFALayout
 CFAPlaneColor
 CGlobalConfigValueRegistry::HookUpConfigValue
-CL:>8
 CLargeCommandBufferChunk CUtlMemoryPoolMT
 CMediumCommandBufferChunk CUtlMemoryPoolMT
 CMemAllocSystemInitialize
 COLORCORRECTION_VERSION_1
 COrderedConstructor_Create<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>,class CResolveOrderedFunc<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>,&void __cdecl _ORDERED_INIT_SHUTDOWN_WRAPPER_RESOLVEFUNC<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)>(class COrderedConstructor_DependencyManagement<class COrderedInitShutdownRefWrapper<&void __cdecl EarlyInit_Common(bool,class COrderedConstructor_DependencyManagement<void> &)> > &)>,0>::AddRef
-CRenderDeviceBase::AsyncSetTextureData(3277): 
-CRenderDeviceBase::CreateConstantBuffer(1547): 
-CRenderDeviceBase::FindOrCreateTexture(1720): 
+CRenderDeviceBase::AsyncSetTextureData(3279): 
+CRenderDeviceBase::CreateConstantBuffer(1549): 
+CRenderDeviceBase::FindOrCreateTexture(1722): 
 CRenderDeviceBase::FindOrCreateTexture: Trying to load multiple mipmaps into 3d or array texture: %s\n
-CRenderDeviceBase::Flush(958): 
-CRenderDeviceBase::ForceFlushGPU(975): 
-CRenderDeviceBase::Present(681): 
-CRenderDeviceBase::ProcessPendingAsyncTextureUpdates(3410): 
+CRenderDeviceBase::Flush(960): 
+CRenderDeviceBase::ForceFlushGPU(977): 
+CRenderDeviceBase::Present(683): 
+CRenderDeviceBase::ProcessPendingAsyncTextureUpdates(3412): 
 CResourceArray
 CResourceString
 CSchemaRegistration::RegisterAllModuleData
@@ -579,7 +507,6 @@ CUtlStringToken
 CUtlSymbol
 CUtlSymbolLarge
 CUtlVector
-CWD>~3
 CalibrationIlluminant1
 CalibrationIlluminant2
 CameraCalibration1
@@ -688,9 +615,7 @@ DocumentName
 DotRange
 DotaCardGameClient_001
 DumpModeDecode: Not enough data for scanline %d
-E>nEA
 ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!\n
-ET5>
 EXECUTABLE_PATH
 EXIFIFDOffset
 EXPORTSYSTEM_INTERFACE_VERSION_001
@@ -698,9 +623,7 @@ EXRHeader variable is not initialized.
 EXRReadFile() - B channel not found!\n
 EXRReadFile() - G channel not found!\n
 EXRReadFile() - R channel not found!\n
-E[\rn?gc
 EconItemToolModel_001
-EiUL
 Empty
 Empty Driver
 Empty JPEG image (DNL not supported)
@@ -726,9 +649,7 @@ EventSystem001
 Evict all resident texture.
 ExitProcess
 ExtraSamples
-F>qUxv
 FATAL ERROR: unable to register all schema data: %s\n
-FEMh\f
 Failed AllocateTexture for '%s'\n
 Failed to allocate field info array
 Failed to allocate memory for %s (%ld elements of %ld bytes each)
@@ -749,7 +670,6 @@ FaxRecvParams
 FaxRecvTime
 FaxSubAddress
 February
-FfW?
 FieldOfViewCotangent
 File not open for reading
 FileKeys
@@ -781,8 +701,6 @@ FreeOffsets
 Freed EMS handle %u
 Freed XMS handle %u
 Friday
-G%lld
-G>US
 GAMECONSOLE
 GCTL
 GPSIFDOffset
@@ -826,8 +744,6 @@ GrayResponseCurve
 GrayResponseUnit
 Group3Options
 Group4Options
-H$6t
-H*0"ZOW
 HH:mm:ss
 HIGHDPI
 HalftoneHints
@@ -848,8 +764,6 @@ INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID_MORPH_VERT_ID
 INPUT_LAYOUT_VARIATION_STREAM1_MAT3X4
 IQuickTime001
 ISO JBIG
-IiGM>nw
-Il?333333c?
 Image data size is zero or too large: width = 
 Image too wide for this implementation
 ImageDepth
@@ -879,6 +793,7 @@ Insufficient data size in offset table.
 Insufficient data size.\n
 Insufficient header/data size.\n
 Insufficient memory (case %d)
+Integer overflow in %s
 Intentionally vague touch behavior for %p\n
 InterlockedFlushSList
 Internal error, unknown tag 0x%x
@@ -932,8 +847,6 @@ KeyValueCache001
 KeyValues Error: %s in file %s\n
 KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s\n
 KeyValuesSystem
-L>ev
-L?UUUUUUU?
 LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
@@ -953,8 +866,6 @@ LINEAR_RGBA8888
 LINUX
 LOG_GENERAL
 LOWVIOLENCE
-LWG>
-LWW>
 LZWDecode: Bogus encoding, loop in the code table; scanline %d
 LZWDecode: Corrupted LZW table at scanline %d
 LZWDecode: Not enough data at scanline %d (short %ld bytes)
@@ -986,10 +897,8 @@ LogLuvInitState
 LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
 LoggingSystem_RegisterLoggingChannel
-M8MF
 MATCHFRAMEWORK_001
 MAX_ALLOC_CHUNK is wrong, please fix
-MGiI
 MM/dd/yy
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
@@ -1028,13 +937,8 @@ Model
 ModelDocUtils001
 Monday
 MultiByteToWideChar
-N3`d?
-N>O=I9
-N>VF
 NAN(IND)
 NAN(SNAN)
-NJ2"v
-NQ?s
 NULL
 NV_DST16
 NV_DST24
@@ -1072,10 +976,7 @@ Not enough
 Not implemented yet
 November
 NumberOfInks
-O*9y]
 OUTSTANDING_HOOKUP_REQUEST 
-OZQ%
-OZw3(?
 Obtained EMS handle %u
 Obtained XMS handle %u
 October
@@ -1107,7 +1008,6 @@ PanoramaUIClient001
 PanoramaUIEngine001
 ParseEXRHeaderFromMemory() failed! Error message: %s\n
 ParticleSystemMgr003
-Pe6^
 Photometric tag is missing, assuming data is YCbCr
 Photometric tag value assumed incorrect, assuming data is YCbCr instead of RGB
 PhotometricInterpretation
@@ -1147,10 +1047,7 @@ Premature end of input file
 PrimaryChromaticities
 PropertyEditorSystem_001
 Q2XXR
-Q5rHg,>
-QAf?
 QAngle
-Qkkbal
 Quantization table 0x%02x was not defined
 Quantizing to %d = %d*%d*%d colors
 Quantizing to %d colors
@@ -1160,11 +1057,11 @@ QueuedLoaderVersion001
 R11_EAC
 R16F
 R16F_EXPAND
-R1h58
 R32F
 R32_UINT
 R8G8B8A8_ETC2_EAC
 R8G8B8_ETC2
+R8_UINT
 RENDER_BUFFER_APPEND_CONSUME_BUFFER
 RENDER_BUFFER_BYTEADDRESS_BUFFER
 RENDER_BUFFER_STRUCTURED_BUFFER
@@ -1255,7 +1152,6 @@ RGBA8888
 RGBA8888_LINEAR
 RGBX555
 RGBX8888
-RSDSJ
 RST%d
 RadianEuler
 RaiseException
@@ -1320,15 +1216,12 @@ RtlPcToFileHeader
 RtlUnwind
 RtlUnwindEx
 RtlVirtualUnwind
-S9>H
-S>$hkDh$h>[2
 SGILog
 SGILog compression cannot handle non-contiguous data
 SGILog compression supported only for %s, or raw data
 SGILog24
 SGILogDataFmt
 SGILogEncode
-SKyu
 SMaxSampleValue
 SMinSampleValue
 SSE and SSE2 are required.
@@ -1432,6 +1325,7 @@ TSPEC_CUBE_CAN_SAMPLE_AS_ARRAY
 TSPEC_CUBE_TEXTURE
 TSPEC_FLAGS
 TSPEC_FRAGMENT_DENSITY_MAP
+TSPEC_FRAGMENT_SHADING_RATE
 TSPEC_INPUT_ATTACHMENT
 TSPEC_LINEAR_ADDRESSING_360
 TSPEC_LINEAR_COLOR_SPACE
@@ -1493,7 +1387,6 @@ TransferFunction
 Trying to set dxlevel (%d) which is higher than the card can support (%d)!\n
 Trying to set dxlevel (%d) which is lower than the card can support (%d)!\n
 Tuesday
-UA>N0Wl
 UNKNOWN
 UUUUUU
 UV88
@@ -1583,7 +1476,6 @@ V_vsnprintf
 V_vsnprintfSize
 V_wcstod
 V_wcstoi64
-Vc0a
 VeaFOfb
 Vector
 Vector2D
@@ -1601,9 +1493,9 @@ Vulkan
 WAITING_FOR_HOOKUP_JOB 
 WAITING_FOR_IO 
 WARNING: Trying to create a CRenderContextPtr without a valid context.\n
+WIN32
 WINDOWS
 WINXP
-WaNd?
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning
@@ -1625,7 +1517,6 @@ Write to XMS failed
 WriteConsoleW
 WriteFile
 Wrong JPEG library version: library is %d, caller expects %d
-X/4B
 X360
 X360_DST16
 X360_DST24
@@ -1636,9 +1527,6 @@ XPosition
 XResolution
 XYZ, Luv
 Xbox 360
-XsBI
-Y8a:
-Y>kX>M
 YCbCrCoefficients
 YCbCrPositioning
 YCbCrSubsampling
@@ -1646,7 +1534,6 @@ YClipPathUnits
 YPosition
 YResolution
 YpU_Z
-Z@&LHA'\r:C(
 ZFP compression is not supported.
 ZIPDecode
 ZIPEncode
@@ -1654,27 +1541,9 @@ ZIPPostEncode
 ZIPSetupDecode
 ZIPSetupEncode
 ZIPVSetField
-Z\>z8
-Zjz\v
 Zpm"U
-[*ncd>0
-[aOni*{
-[h1R
 \nIHDRPLTEIDATIENDtRNScHRMgAMAiCCPsBITsRGBtEXtzTXtiTXtbKGDhISTpHYssPLTtIMEoFFseXIf
-\nh?oT
-\nk>oB
-\r\f\v\v\n\n\t\t\t\t\t
-\rmj>zjZ
-\tN1a
-\t\t\n\n\v\v\f\f\f\f\r\r\r\r
-\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUnknown
-\tcQr
-\tkE>fvw
-\vA03>A|
-^<V7w
-^RfN>
-^oEZ_
 _RDATA
 _TIFFMergeFieldInfo
 _TIFFSetupFieldInfo
@@ -1702,7 +1571,6 @@ _cabs
 _hypot
 _logb
 _nextafter
-_oD>Kg
 _tools.txt
 `RTTI
 `anonymous namespace'
@@ -1740,7 +1608,6 @@ _tools.txt
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
-a6>r
 abcdefghijklmnopqrstuvwxyz
 acos
 address family not supported
@@ -1793,7 +1660,6 @@ c:\buildslave\hlvr_rel_win64\build\src\tier1\mempool.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\utlbuffer.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\utlstring.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier2\schemabindings.cpp
-c?FA@s}
 cannot read TIFF_ANY type %d for field "%s"
 ceil
 cfg/video_version.txt
@@ -1810,10 +1676,6 @@ connection refused
 connection reset
 cosh
 cross device link
-d8L2
-d?000000`?
-dQy/
-dRL>
 data error
 data height too large.
 data width or data height is negative.
@@ -1830,14 +1692,8 @@ dummyfilename.tif
 dxsupport
 dxsupport.cfg
 e+000
-eF>t
-eLK(w
 error
-ewh/?y
 executable format error
-fD>b
-fP~V
-fWi?
 fabs
 false
 file error
@@ -1858,20 +1714,13 @@ for chopped "StripOffsets" array
 for field info array
 for strip array
 frexp
-fu`z
 function not supported
 g_VProfCurrentProfile
 g_pMemAlloc
 g_pThreadPool
-gqr<
-h0'D
-h>1my
-hPU3
 header crc mismatch
 horizontal differencing 
 host unreachable
-i91k
-i]Wb
 identifier removed
 illegal byte sequence
 immediate
@@ -1908,16 +1757,10 @@ iostream
 iostream stream error
 is a directory
 j'Vlk
-k=yI
-l6qnk
-lDa>
 ldexp
 lineOrder
 localize
 log10
-m?H7
-mG4>
-m\nXo
 m_Format
 m_Frames
 m_Images
@@ -1955,9 +1798,6 @@ min megatexels
 min_processor_count
 modf
 must be either LogLUV or LogL
-n$Kx
-n03>Pu
-n]?iJ
 name
 nan(ind)
 nan(snan)
@@ -1985,9 +1825,6 @@ not a stream
 not connected
 not enough memory
 not supported
-o?GS
-oI>O7
-obwQ4
 operation canceled
 operation in progress
 operation not permitted
@@ -1997,17 +1834,15 @@ operator
 operator "" 
 operator co_await
 operator<=>
-owM&
 owner dead
 permission denied
 pixelAspectRatio
 png/jpg
+powf
 protocol error
 protocol not supported
 pseudo-
 purecall
-qS>g?h3
-r\tVr.>T
 r_defer_async_texture_updates
 r_fullscreen_gamma
 r_gpu_mem_stats
@@ -2031,8 +1866,6 @@ resource unavailable try again
 resourcesystem
 restrict(
 result out of range
-ru&o
-sAmTb
 scanline
 screenWindowCenter
 screenWindowWidth
@@ -2103,9 +1936,6 @@ unknown exception
 unknown header flags set
 uvCropped
 uvUncropped
-uzKs@>
-v2!L.2
-vQO+t
 value too large
 vector too long
 version
@@ -2113,11 +1943,4 @@ video.cfg
 video_version
 vstdlib
 vstdlib.dll
-w+OQvr
-w3Xc
-wXR\r
-wn>Jj
 wrong protocol type
-xT?V
-y9*O
-{kHw

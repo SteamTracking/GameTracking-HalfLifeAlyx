@@ -1,83 +1,667 @@
-!1AQaq
-"2BRbr
-#3CScs
-$4DTdt
-%5EUeu
-&6FVfv
-'7GWgw
-(8HXhx
-)9IYiy
-*:JZjz
-+Qn?K
--64OS
-/kr?Nc
-0k?t\r
-1T?V\f
-2)?Mg7?
-2?kG
-2p=W
-351?*
-3?JC
-3?RD
-5?vQ
-5cQ;a
-5j<b1
-5k?4
-5k?g
-6>ff
-6L>ff
-7?A~2?V
-7?X7>>\nJq?8/
-8N>~U
-9x\tB
-:LPC<H
-:h=7p
-;k?qq
-;xGR
-=BBt?9
-=zRf
->333
->333?
->3kU
->BBt?
->D11?
->Lnt
->Lnt>
->M2j
->YPt
->YPt?
->YPt?I
->fff
->fff=
->jMk?*p
->nlZ
->wdL>
->wdl
-?D2d
-?qXJ
-?whH
-?xDQ?^fX
+        %3d %3d %3d %3d %3d %3d %3d %3d
+        %4u %4u %4u %4u %4u %4u %4u %4u
+        //No embedded pixel shader\n
+        //No embedded vertex shader\n
+        pixelshader = \n            asm {\n
+        vertexshader = \n            asm {\n
+    Component %d: %dhx%dv q=%d
+    Component %d: dc=%d ac=%d
+    with %d x %d thumbnail image
+  Ss=%d, Se=%d, Ah=%d, Al=%d
+ R16
+ deflate 1.1.4 Copyright 1995-2002 Jean-loup Gailly 
+ inflate 1.1.4 Copyright 1995-2002 Mark Adler 
+!)@UUUUUU
+#?RADIANCE
+#?RADIANCE\n#File created by Microsoft (R) D3DX library\nFORMAT=32-bit_rle_rgbe\n#Timestamp: 
+$PRESHADER_PS
+$PRESHADER_VS
+%12.12e
+%8x-%4x-%4x-%2x%2x-%2x%2x%2x%2x%2x%2x
+%TEMP%
+%XJ\v
+%Xs\v
+%d:%lg,
+%f%s
+%s %s
+%s %s {
+%s[%d] = \n{\n
+%u %u%s
+%u %u\n-1.000000\n
+%u %u\n255\n
+%xr\v
+('8PW
+(null)
+-Y %u +X %u\n
+//listing for: %s[%d]\n
+/IcE
+0032
+00ffff
+0123456789ABCDEF
+0303
+0WEIGHTS
+1.0.18
+1.1.4
+1WEIGHTS
+2WEIGHTS
+32-bit_rle_rgbe
+32-bit_rle_xyze
+3WEIGHTS
+53q\v
+59h\v
+5BM\v
+5La\f
+5U8\n
+5cV\n
+5eq\v
+6b  27-Mar-1998
+700PP
+8A;T
+98|.D
+9Fdu'A
+9H$u,9
+9S(v#E3
+9uHt H
+9x tE9
+<%.8x-%.4x-%.4x-%.2x%.2x-%.2x%.2x%.2x%.2x%.2x%.2x>
+</font>
+<body bgcolor="#000000">
+<font color = "#%s">
+<pre>
+<uninitialized>
+=BC4St{=BC5StP=BC4Ut/=BC5U
+=DXT1th=DXT2ta=YUY2t4=DXT3tS=DXT4tL=DXT5tE=GRGBt
+=RGBGt
+=UYVYt\nf
+=UYVYu$
+=YUY2t(=GRGBt
+=YUY2tS=DXT3
+??2@YAPEAX_K@Z
+??3@YAXPEAX@Z
+?terminate@@YAXXZ
+A8L9
+A90t/A
+A9:|HA
+ADAPTIVETESS_W
+ADAPTIVETESS_X
+ADAPTIVETESS_Y
+ADAPTIVETESS_Z
+ADDRESSU
+ADDRESSV
+ADDRESSW
+ADDSIGNED
+ADDSIGNED2X
+ADDSMOOTH
+ADVAPI32.dll
+AL16
+ALIGN_TYPE is wrong, please fix
+ALPHA
+ALPHAARG0
+ALPHAARG1
+ALPHAARG2
+ALPHABLENDENABLE
+ALPHAFUNC
+ALPHAOP
+ALPHAREF
+ALPHAREPLICATE
+ALPHATESTENABLE
+ALWAYS
+AMBIENT
+AMBIENTMATERIALSOURCE
+ANISOTROPIC
+ANTIALIASEDLINEENABLE
+ARRAY
+A_A^A]A\_^[]
+A_A^A]A\_^]
+Adobe APP14 marker: version %d, flags 0x%04x 0x%04x, transform %d
+Ambient
 Animation
 AnimationKey\n
 AnimationOptions\n
 AnimationSet\n
 Animation\n
-B?fN+?b
-BBt?
-BBt?9
+Application  is  running with png.c from libpng-%.20s
+Application transferred too few scanlines
+Application transferred too many scanlines
+Application was compiled with png.h from libpng-%.20s
+ArfD
+At marker 0x%02x, recovery action %d
+Attempted to set both read_data_fn and write_data_fn in
 BINARY
+BINARY_RESOURCE
+BINARY_RESOURCE 
+BLENDCURRENTALPHA
+BLENDDIFFUSEALPHA
+BLENDFACTOR
+BLENDFACTORALPHA
+BLENDOP
+BLENDOPALPHA
+BLENDTEXTUREALPHA
+BLENDTEXTUREALPHAPM
+BLUE
+BORDER
+BORDERCOLOR
+BOTHINVSRCALPHA
+BOTHSRCALPHA
+BUMPENVLOFFSET
+BUMPENVLSCALE
+BUMPENVMAP
+BUMPENVMAPLUMINANCE
+BUMPENVMAT00
+BUMPENVMAT01
+BUMPENVMAT10
+BUMPENVMAT11
+BYTE
+Backing store not supported
+Backward
+Bogus DAC index %d
+Bogus DAC value 0x%x
+Bogus DHT index %d
+Bogus DQT index %d
+Bogus Huffman table definition
+Bogus JPEG colorspace
+Bogus buffer control mode
+Bogus input colorspace
+Bogus marker length
+Bogus message code %d
+Bogus sampling factors
+Bogus virtual array access
 Boolean
 Boolean2d
 Boolean2d\n
 Boolean\n
-C">VG
-C=ip
+Buffer error in compressed datastream in %s chunk
+Buffer passed to JPEG library is too small
+CAMERASPACENORMAL
+CAMERASPACEPOSITION
+CAMERASPACEREFLECTIONVECTOR
+CCIR601 sampling not implemented yet
+CCW_STENCILFAIL
+CCW_STENCILFUNC
+CCW_STENCILPASS
+CCW_STENCILZFAIL
+CHAR
+CLAMP
+CLIPPING
+CLIPPLANE0
+CLIPPLANE1
+CLIPPLANE2
+CLIPPLANE3
+CLIPPLANE4
+CLIPPLANE5
+CLIPPLANEENABLE
+CNfD;CFu^fD;CRuWfD;CJuPL
+COLOR1
+COLOR2
+COLORARG0
+COLORARG1
+COLORARG2
+COLOROP
+COLORVERTEX
+COLORWRITEENABLE
+COLORWRITEENABLE1
+COLORWRITEENABLE2
+COLORWRITEENABLE3
+COMPLEMENT
+CONSTANT
+CONTINUOUS
+COORD0
+COORD1
+COORD2
+COORD3
+COUNT1
+COUNT2
+COUNT3
+COUNT4
+CRC error
+CSTRING
+CTAB
+CUBIC
+CULLMODE
+CURRENT
+Call to NULL read function
+Call to NULL write function
+Can't write tRNS with an alpha channel
+Cannot quantize more than %d color components
+Cannot quantize to fewer than %d colors
+Cannot quantize to more than %d colors
+Cannot transcode due to multiple use of quantization table %d
+Caution: quantization tables are too coarse for baseline JPEG
+CloseHandle
+Closed temporary file %s
 ColorRGB
 ColorRGBA
 ColorRGBA\n
 ColorRGB\n
+Columnwise
+CompareStringA
 Coords2d
 Coords2d\n
+Copyright (C) 1998, Thomas G. Lane
+Corrupt JPEG data: %u extraneous bytes before marker 0x%02x
+Corrupt JPEG data: bad Huffman code
+Corrupt JPEG data: found marker 0x%02x instead of RST%d
+Corrupt JPEG data: premature end of data segment
+CreateCompatibleDC
+CreateDIBSection
+CreateFileA
+CreateFileMappingA
+CreateFileW
+CreateFontIndirectA
+CreateFontIndirectW
+CreateMutexA
+CrfA9
+CtA9
+CxD;ChuYD;
+D!d$(L!d$ H
+D!t$H
+D$00u
+D$0H
+D$0L
+D$8H
+D$DH
+D$HB
+D$HH
+D$PH
+D$PHc
+D$Pxof 
+D$T0304
+D$Xbin H
+D$\0032H
+D$hH
+D$hL
+D$lA
+D3DAssemble
+D3DCompile
+D3DDisassemble
+D3DPreprocess
+D3DX Effect Compiler
+D3DX: (WARN) An allocation of zero bytes should return a unique non-null pointer to at\r\n
+D3DX: (WARN) D3DX relies upon this behavior.\r\n
+D3DX: (WARN) Overloaded ::new and ::delete operators do not conform to C++ standards:\r\n
+D3DX: (WARN) least zero bytes. Deletion of a null pointer should quietly do nothing.\r\n
+D3DXAssembleShader
+D3DXAssembleShaderFromFileA
+D3DXAssembleShaderFromFileW
+D3DXAssembleShaderFromResourceA
+D3DXAssembleShaderFromResourceW
+D3DXBoxBoundProbe
+D3DXCheckCubeTextureRequirements
+D3DXCheckTextureRequirements
+D3DXCheckVersion
+D3DXCheckVolumeTextureRequirements
+D3DXCleanMesh
+D3DXColorAdjustContrast
+D3DXColorAdjustSaturation
+D3DXCompileShader
+D3DXCompileShaderFromFileA
+D3DXCompileShaderFromFileW
+D3DXCompileShaderFromResourceA
+D3DXCompileShaderFromResourceW
+D3DXComputeBoundingBox
+D3DXComputeBoundingSphere
+D3DXComputeIMTFromPerTexelSignal
+D3DXComputeIMTFromPerVertexSignal
+D3DXComputeIMTFromSignal
+D3DXComputeIMTFromTexture
+D3DXComputeNormalMap
+D3DXComputeNormals
+D3DXComputeTangent
+D3DXComputeTangentFrame
+D3DXComputeTangentFrameEx
+D3DXConcatenateMeshes
+D3DXConvertMeshSubsetToSingleStrip
+D3DXConvertMeshSubsetToStrips
+D3DXCreateAnimationController
+D3DXCreateBox
+D3DXCreateBuffer
+D3DXCreateCompressedAnimationSet
+D3DXCreateCubeTexture
+D3DXCreateCubeTextureFromFileA
+D3DXCreateCubeTextureFromFileExA
+D3DXCreateCubeTextureFromFileExW
+D3DXCreateCubeTextureFromFileInMemory
+D3DXCreateCubeTextureFromFileInMemoryEx
+D3DXCreateCubeTextureFromFileW
+D3DXCreateCubeTextureFromResourceA
+D3DXCreateCubeTextureFromResourceExA
+D3DXCreateCubeTextureFromResourceExW
+D3DXCreateCubeTextureFromResourceW
+D3DXCreateCylinder
+D3DXCreateEffect
+D3DXCreateEffectCompiler
+D3DXCreateEffectCompilerFromFileA
+D3DXCreateEffectCompilerFromFileW
+D3DXCreateEffectCompilerFromResourceA
+D3DXCreateEffectCompilerFromResourceW
+D3DXCreateEffectEx
+D3DXCreateEffectFromFileA
+D3DXCreateEffectFromFileExA
+D3DXCreateEffectFromFileExW
+D3DXCreateEffectFromFileW
+D3DXCreateEffectFromResourceA
+D3DXCreateEffectFromResourceExA
+D3DXCreateEffectFromResourceExW
+D3DXCreateEffectFromResourceW
+D3DXCreateEffectPool
+D3DXCreateFontA
+D3DXCreateFontIndirectA
+D3DXCreateFontIndirectW
+D3DXCreateFontW
+D3DXCreateKeyframedAnimationSet
+D3DXCreateLine
+D3DXCreateMatrixStack
+D3DXCreateMesh
+D3DXCreateMeshFVF
+D3DXCreateNPatchMesh
+D3DXCreatePMeshFromStream
+D3DXCreatePRTBuffer
+D3DXCreatePRTBufferTex
+D3DXCreatePRTCompBuffer
+D3DXCreatePRTEngine
+D3DXCreatePatchMesh
+D3DXCreatePolygon
+D3DXCreateRenderToEnvMap
+D3DXCreateRenderToSurface
+D3DXCreateSPMesh
+D3DXCreateSkinInfo
+D3DXCreateSkinInfoFVF
+D3DXCreateSkinInfoFromBlendedMesh
+D3DXCreateSphere
+D3DXCreateSprite
+D3DXCreateTeapot
+D3DXCreateText: Alloc of glyphBuf failed\n
+D3DXCreateText: CreateOFContext failed\n
+D3DXCreateText: GetGlyphOutline failed\n
+D3DXCreateText: GetOutlineTextMetrics failed.  Probably no font selected\n
+D3DXCreateText: GetTextMetrics failed.  Probably no font selected\n
+D3DXCreateText: Invalid deviation parameter\n
+D3DXCreateText: Invalid extrusion parameter\n
+D3DXCreateText: MakeDisplayListFromGlyph failed\n
+D3DXCreateText: MakeLinesFromTTPolygon failed\n
+D3DXCreateText: No text specified\n
+D3DXCreateText: Non vector font selected\n
+D3DXCreateTextA
+D3DXCreateTextW
+D3DXCreateTexture
+D3DXCreateTextureFromFileA
+D3DXCreateTextureFromFileExA
+D3DXCreateTextureFromFileExW
+D3DXCreateTextureFromFileInMemory
+D3DXCreateTextureFromFileInMemoryEx
+D3DXCreateTextureFromFileW
+D3DXCreateTextureFromResourceA
+D3DXCreateTextureFromResourceExA
+D3DXCreateTextureFromResourceExW
+D3DXCreateTextureFromResourceW
+D3DXCreateTextureGutterHelper
+D3DXCreateTextureShader
+D3DXCreateTorus
+D3DXCreateVolumeTexture
+D3DXCreateVolumeTextureFromFileA
+D3DXCreateVolumeTextureFromFileExA
+D3DXCreateVolumeTextureFromFileExW
+D3DXCreateVolumeTextureFromFileInMemory
+D3DXCreateVolumeTextureFromFileInMemoryEx
+D3DXCreateVolumeTextureFromFileW
+D3DXCreateVolumeTextureFromResourceA
+D3DXCreateVolumeTextureFromResourceExA
+D3DXCreateVolumeTextureFromResourceExW
+D3DXCreateVolumeTextureFromResourceW
+D3DXDebugMute
+D3DXDeclaratorFromFVF
+D3DXDisassembleEffect
+D3DXDisassembleShader
+D3DXDoNotMute
+D3DXFVFFromDeclarator
+D3DXFileCreate
+D3DXFillCubeTexture
+D3DXFillCubeTextureTX
+D3DXFillTexture
+D3DXFillTextureTX
+D3DXFillVolumeTexture
+D3DXFillVolumeTextureTX
+D3DXFilterTexture
+D3DXFindShaderComment
+D3DXFloat16To32Array
+D3DXFloat32To16Array
+D3DXFrameAppendChild
+D3DXFrameCalculateBoundingSphere
+D3DXFrameDestroy
+D3DXFrameFind
+D3DXFrameNumNamedMatrices
+D3DXFrameRegisterNamedMatrices
+D3DXFresnelTerm
+D3DXGenerateOutputDecl
+D3DXGeneratePMesh
+D3DXGetDeclLength
+D3DXGetDeclVertexSize
+D3DXGetDriverLevel
+D3DXGetFVFVertexSize
+D3DXGetImageInfoFromFileA
+D3DXGetImageInfoFromFileInMemory
+D3DXGetImageInfoFromFileW
+D3DXGetImageInfoFromResourceA
+D3DXGetImageInfoFromResourceW
+D3DXGetPixelShaderProfile
+D3DXGetShaderConstantTable
+D3DXGetShaderConstantTableEx
+D3DXGetShaderInputSemantics
+D3DXGetShaderOutputSemantics
+D3DXGetShaderSamplers
+D3DXGetShaderSize
+D3DXGetShaderVersion
+D3DXGetVertexShaderProfile
+D3DXIntersect
+D3DXIntersectSubset
+D3DXIntersectTri
+D3DXLoadMeshFromXA
+D3DXLoadMeshFromXInMemory
+D3DXLoadMeshFromXResource
+D3DXLoadMeshFromXW
+D3DXLoadMeshFromXof
+D3DXLoadMeshHierarchyFromXA
+D3DXLoadMeshHierarchyFromXInMemory
+D3DXLoadMeshHierarchyFromXW
+D3DXLoadPRTBufferFromFileA
+D3DXLoadPRTBufferFromFileW
+D3DXLoadPRTCompBufferFromFileA
+D3DXLoadPRTCompBufferFromFileW
+D3DXLoadPatchMeshFromXof
+D3DXLoadSkinMeshFromXof
+D3DXLoadSurfaceFromFileA
+D3DXLoadSurfaceFromFileInMemory
+D3DXLoadSurfaceFromFileW
+D3DXLoadSurfaceFromMemory
+D3DXLoadSurfaceFromResourceA
+D3DXLoadSurfaceFromResourceW
+D3DXLoadSurfaceFromSurface
+D3DXLoadVolumeFromFileA
+D3DXLoadVolumeFromFileInMemory
+D3DXLoadVolumeFromFileW
+D3DXLoadVolumeFromMemory
+D3DXLoadVolumeFromResourceA
+D3DXLoadVolumeFromResourceW
+D3DXLoadVolumeFromVolume
+D3DXMatrixAffineTransformation
+D3DXMatrixAffineTransformation2D
+D3DXMatrixDecompose
+D3DXMatrixDeterminant
+D3DXMatrixInverse
+D3DXMatrixLookAtLH
+D3DXMatrixLookAtRH
+D3DXMatrixMultiply
+D3DXMatrixMultiplyTranspose
+D3DXMatrixOrthoLH
+D3DXMatrixOrthoOffCenterLH
+D3DXMatrixOrthoOffCenterRH
+D3DXMatrixOrthoRH
+D3DXMatrixPerspectiveFovLH
+D3DXMatrixPerspectiveFovRH
+D3DXMatrixPerspectiveLH
+D3DXMatrixPerspectiveOffCenterLH
+D3DXMatrixPerspectiveOffCenterRH
+D3DXMatrixPerspectiveRH
+D3DXMatrixReflect
+D3DXMatrixRotationAxis
+D3DXMatrixRotationQuaternion
+D3DXMatrixRotationX
+D3DXMatrixRotationY
+D3DXMatrixRotationYawPitchRoll
+D3DXMatrixRotationZ
+D3DXMatrixScaling
+D3DXMatrixShadow
+D3DXMatrixTransformation
+D3DXMatrixTransformation2D
+D3DXMatrixTranslation
+D3DXMatrixTranspose
+D3DXOptimizeFaces
+D3DXOptimizeVertices
+D3DXPlaneFromPointNormal
+D3DXPlaneFromPoints
+D3DXPlaneIntersectLine
+D3DXPlaneNormalize
+D3DXPlaneTransform
+D3DXPlaneTransformArray
+D3DXPreprocessShader
+D3DXPreprocessShaderFromFileA
+D3DXPreprocessShaderFromFileW
+D3DXPreprocessShaderFromResourceA
+D3DXPreprocessShaderFromResourceW
+D3DXQuaternionBaryCentric
+D3DXQuaternionExp
+D3DXQuaternionInverse
+D3DXQuaternionLn
+D3DXQuaternionMultiply
+D3DXQuaternionNormalize
+D3DXQuaternionRotationAxis
+D3DXQuaternionRotationMatrix
+D3DXQuaternionRotationYawPitchRoll
+D3DXQuaternionSlerp
+D3DXQuaternionSquad
+D3DXQuaternionSquadSetup
+D3DXQuaternionToAxisAngle
+D3DXRectPatchSize
+D3DXSHAdd
+D3DXSHDot
+D3DXSHEvalConeLight
+D3DXSHEvalDirection
+D3DXSHEvalDirectionalLight
+D3DXSHEvalHemisphereLight
+D3DXSHEvalSphericalLight
+D3DXSHMultiply2
+D3DXSHMultiply3
+D3DXSHMultiply4
+D3DXSHMultiply5
+D3DXSHMultiply6
+D3DXSHPRTCompSplitMeshSC
+D3DXSHPRTCompSuperCluster
+D3DXSHProjectCubeMap
+D3DXSHRotate
+D3DXSHRotateZ
+D3DXSHScale
+D3DXSaveMeshHierarchyToFileA
+D3DXSaveMeshHierarchyToFileW
+D3DXSaveMeshToXA
+D3DXSaveMeshToXW
+D3DXSavePRTBufferToFileA
+D3DXSavePRTBufferToFileW
+D3DXSavePRTCompBufferToFileA
+D3DXSavePRTCompBufferToFileW
+D3DXSaveSurfaceToFileA
+D3DXSaveSurfaceToFileInMemory
+D3DXSaveSurfaceToFileW
+D3DXSaveTextureToFileA
+D3DXSaveTextureToFileInMemory
+D3DXSaveTextureToFileW
+D3DXSaveVolumeToFileA
+D3DXSaveVolumeToFileInMemory
+D3DXSaveVolumeToFileW
+D3DXSimplifyMesh
+D3DXSphereBoundProbe
+D3DXSplitMesh
+D3DXTessellateNPatches
+D3DXTessellateRectPatch
+D3DXTessellateTriPatch
+D3DXTriPatchSize
+D3DXUVAtlasCreate
+D3DXUVAtlasPack
+D3DXUVAtlasPartition
+D3DXUseFontOutlines:LoopOrientation : Total loop angle is zero, assuming CW orientation\n
+D3DXValidIndices:   (Likely problem is that two triangles share same points with opposite orientations)
+D3DXValidIndices: A neighbor triangle index(%d) was found more than once on triangle %d
+D3DXValidIndices: A point(%d) was found more than once in triangle %d
+D3DXValidIndices: An invalid index value(%d) was found on face %d
+D3DXValidIndices: An invalid neighbor index value(%d) was found on face %d
+D3DXValidMesh
+D3DXValidMesh:     A bowtie is the usage of a single vertex by two separate fans of triangles.
+D3DXValidMesh:     The fix is to duplicate the vertex so that each fan has its own vertex.
+D3DXValidMesh: A bowtie was found.  Bowties can be fixed by call D3DXCleanMesh
+D3DXValidMesh: Bowtie found around vertex %d shared by faces %d and %d
+D3DXValidPatchMesh
+D3DXVec2BaryCentric
+D3DXVec2CatmullRom
+D3DXVec2Hermite
+D3DXVec2Normalize
+D3DXVec2Transform
+D3DXVec2TransformArray
+D3DXVec2TransformCoord
+D3DXVec2TransformCoordArray
+D3DXVec2TransformNormal
+D3DXVec2TransformNormalArray
+D3DXVec3BaryCentric
+D3DXVec3CatmullRom
+D3DXVec3Hermite
+D3DXVec3Normalize
+D3DXVec3Project
+D3DXVec3ProjectArray
+D3DXVec3Transform
+D3DXVec3TransformArray
+D3DXVec3TransformCoord
+D3DXVec3TransformCoordArray
+D3DXVec3TransformNormal
+D3DXVec3TransformNormalArray
+D3DXVec3Unproject
+D3DXVec3UnprojectArray
+D3DXVec4BaryCentric
+D3DXVec4CatmullRom
+D3DXVec4Cross
+D3DXVec4Hermite
+D3DXVec4Normalize
+D3DXVec4Transform
+D3DXVec4TransformArray
+D3DXWeldVertices
+D9-2b\v
+D9=6x\n
+D9=Gg\n
+D9`0t
+D9`@t\nD9`P
+D9kltgD8
+DB;L
+DCT coefficient out of range
+DEBUGMONITORTOKEN
+DECR
+DECRSAT
+DEPTHBIAS
+DESTALPHA
+DESTBLEND
+DESTBLENDALPHA
+DESTCOLOR
+DIFFUSE
+DIFFUSEMATERIALSOURCE
+DIRECTIONAL
+DISABLE
+DISCRETE
+DITHERENABLE
+DMAPOFFSET
+DORMQL
+DORMQR
+DORMTR
+DOTPRODUCT3
+DOUBLE
+DSTEBZ
+DSYTRD
+DWORD
 DXT1
 DXT1 
 DXT2
@@ -88,46 +672,386 @@ DXT4
 DXT4 
 DXT5
 DXT5 
-E>ff
+Data error in compressed datastream in %s chunk
+DebugSetMute
+Decompression Error
+Decompression error
+Define Arithmetic Table 0x%02x: 0x%02x
+Define Huffman Table 0x%02x
+Define Quantization Table %d  precision %d
+Define Restart Interval %u
+DeleteCriticalSection
+DeleteDC
+DeleteFileA
+DeleteFileW
+DeleteObject
+Didn't expect more than one scan
+Diffuse
+DisableD3DXPSGP
+DisableMMX
+DisablePSGP
+DisableThreadLibraryCalls
+Duplicate PLTE chunk
+Duplicate bKGD chunk
+Duplicate cHRM chunk
+Duplicate gAMA chunk
+Duplicate hIST chunk
+Duplicate iCCP chunk
+Duplicate oFFs chunk
+Duplicate pCAL chunk
+Duplicate pHYs chunk
+Duplicate sBIT chunk
+Duplicate sCAL chunk
+Duplicate sRGB chunk
+Duplicate tIME chunk
+Duplicate tRNS chunk
+E8OAu
+ELEMENTINDEX
+EMISSIVEMATERIALSOURCE
+ENABLEADAPTIVETESSELLATION
+EQUAL
+EXP2
+EXPOSURE=
+Emissive
+Empty JPEG image (DNL not supported)
+Empty input file
+Empty keyword in iCCP chunk
+Empty keyword in sPLT chunk
+Empty keyword in tEXt chunk
+Empty keyword in zTXt chunk
+End Of Image
+EnterCriticalSection
+Epsilon
 Error decoding compressed text
+ExpandEnvironmentStringsA
+ExtTextOutA
+ExtTextOutW
 ExternalVisual\n
+Extra compressed data
+Extra compressed data.
+Extra compression data
+F94(uaE9u
+FALSE
+FILLMODE
+FILTER
+FLAT
+FLOAT
+FOGCOLOR
+FOGDENSITY
+FOGENABLE
+FOGEND
+FOGSTART
+FOGTABLEMODE
+FOGVERTEXMODE
+FORMAT=
+Failed to create temporary file %s
+Failed to create x file data object!
+FindResourceA
+FindResourceW
 FloatKeys
 FloatKeys\n
+FormatMessageA
+Forward
+Fractional sampling not implemented yet
 FrameTransformMatrix\n
 Frame\n
-FzA?
-G?j4
-GL=m
+FreeLibrary
+FreeResource
+Freed EMS handle %u
+Freed XMS handle %u
+G0H90t
+GAUSSIANQUAD
+GDI32.dll
+GOURAUD
+GREATER
+GREATEREQUAL
+GREEN
 GRGB
 GRGB 
+GenuineIntel
+GeomTex
+GetACP
+GetCharABCWidthsI
+GetCharWidthI
+GetCharacterPlacementA
+GetCharacterPlacementW
+GetCurrentObject
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetFileSize
+GetFileSizeEx
+GetFontLanguageInfo
+GetFontUnicodeRanges
+GetFullPathNameW
+GetGlyphOutlineA
+GetGlyphOutlineW
+GetLastError
+GetModuleHandleA
+GetObjectA
+GetObjectW
+GetOutlineTextMetricsA
+GetProcAddress
+GetProcessHeap
+GetSystemInfo
+GetSystemTimeAsFileTime
+GetTempFileNameA
+GetTempFileNameW
+GetTempPathA
+GetTextMetricsA
+GetTextMetricsW
+GetTickCount
+GetVersionExA
+GlobalMemoryStatus
+GlobalMemoryStatusEx
 Guid
 Guid\n
-HMXB
+H I9O t\n
+H!D$X!D$`!D$d
+H!t$(H!t$0H!t$8H!t$@H
+H!t$xH!t$pH!t$hH!t$`H!t$XH!t$PL
+H9k`u/
+H9q`u\nH9qP
+H9{@v&H
+HcD$tM
+HcL$HH
+HcVdI
+Hc\rHS\v
+Hc\rYj\v
 Header\n
-I>wdL>
-I?IK
-Iho?
+HeapAlloc
+HeapFree
+Huffman code size table overflow
+Huffman table 0x%02x was not defined
+I@33s?333?
+IDCT output block size %d not supported
+INCR
+INCRSAT
+INDEXEDVERTEXBLENDENABLE
+INVBLENDFACTOR
+INVDESTALPHA
+INVDESTCOLOR
+INVERT
+INVSRCALPHA
+INVSRCCOLOR
+Ignoring PLTE chunk in grayscale PNG
+Ignoring attempt to set chromaticity value exceeding 21474.83
+Ignoring attempt to set negative chromaticity value
+Ignoring attempt to write 16-bit bKGD chunk when bit_depth is 8
+Ignoring attempt to write 16-bit tRNS chunk when bit_depth is 8
+Ignoring attempt to write bKGD chunk out-of-range for bit_depth
+Ignoring attempt to write tRNS chunk out-of-range for bit_depth
+Ignoring bad adaptive filter type
+Ignoring extra png_read_update_info() call; row buffer not reallocated
+Ignoring gAMA chunk with gamma=0
+Ignoring incorrect cHRM value when sRGB is also present
+Ignoring incorrect gAMA value when sRGB is also present
+Ignoring nonzero compression type in iCCP chunk
+Ignoring request to write a PLTE chunk in grayscale PNG
+Ignoring truncated iCCP profile.\n
+Image too wide for this implementation
+Image width or height is zero in IHDR
+Improper call to JPEG library in state %d
+Incompatible libpng version in application and library
+Incomplete compressed datastream in %s chunk
+Inconsistent progression sequence for component %d coefficient %d
+Incorrect IEND chunk length
+Incorrect bKGD chunk index value
+Incorrect bKGD chunk length
+Incorrect cHRM chunk length
+Incorrect gAMA chunk length
+Incorrect hIST chunk length
+Incorrect oFFs chunk length
+Incorrect pHYs chunk length
+Incorrect sBIT chunk length
+Incorrect sRGB chunk length
+Incorrect tIME chunk length
+Incorrect tRNS chunk length
 IndexedColor
 IndexedColor\n
+InitializeCriticalSection
 InlineData
 InlineData\n
-K9?t
-Kh>X
-Kt?5z
-Kt?v
-LPS>
-LPS>&
-LR>k}
-LS0?
-LS0?*6F
-Lnt>
-Lt?<g
-Lt?s
+Input file read error
+Insufficient memory (case %d)
+Insufficient memory for hIST chunk data.
+Insufficient memory for pCAL parameter.
+Insufficient memory for pCAL params.
+Insufficient memory for pCAL purpose.
+Insufficient memory for pCAL units.
+Insufficient memory to create entries.
+Insufficient memory to create name.
+Insufficient memory to process iCCP chunk.
+Insufficient memory to process iCCP profile.
+Insufficient memory to process text chunk.
+Insufficient memory to store zTXt chunk.
+Invalid IHDR chunk
+Invalid JPEG file structure: SOS before SOF
+Invalid JPEG file structure: missing SOS marker
+Invalid JPEG file structure: two SOF markers
+Invalid JPEG file structure: two SOI markers
+Invalid PLTE after IDAT
+Invalid SOS parameters for sequential JPEG
+Invalid attempt to read row data
+Invalid bKGD after IDAT
+Invalid background palette index
+Invalid bit depth
+Invalid bit depth for RGB image
+Invalid bit depth for RGBA image
+Invalid bit depth for grayscale image
+Invalid bit depth for grayscale+alpha image
+Invalid bit depth for paletted image
+Invalid bit depth in IHDR
+Invalid cHRM after IDAT
+Invalid cHRM blue point
+Invalid cHRM blue point specified
+Invalid cHRM green point
+Invalid cHRM green point specified
+Invalid cHRM red point
+Invalid cHRM red point specified
+Invalid cHRM white point
+Invalid cHRM white point specified
+Invalid color quantization mode change
+Invalid color type
+Invalid color type in IHDR
+Invalid color type/bit depth combination in IHDR
+Invalid component ID %d in SOS
+Invalid compression type specified
+Invalid filter type specified
+Invalid gAMA after IDAT
+Invalid hIST after IDAT
+Invalid iCCP after IDAT
+Invalid image color type specified
+Invalid image height
+Invalid image size in IHDR
+Invalid image width
+Invalid interlace type specified
+Invalid memory pool code %d
+Invalid number of colors in palette
+Invalid number of histogram entries specified
+Invalid number of transparent colors specified
+Invalid oFFs after IDAT
+Invalid pCAL after IDAT
+Invalid pCAL data
+Invalid pCAL parameters for equation type
+Invalid pHYs after IDAT
+Invalid palette chunk
+Invalid parameter passed to C runtime function.\n
+Invalid progressive parameters Ss=%d Se=%d Ah=%d Al=%d
+Invalid progressive parameters at scan script entry %d
+Invalid sBIT after IDAT
+Invalid sBIT depth specified
+Invalid sCAL after IDAT
+Invalid sCAL data
+Invalid sPLT after IDAT
+Invalid sRGB after IDAT
+Invalid sRGB rendering intent specified
+Invalid scan script at entry %d
+Invalid tRNS after IDAT
+Invalid time specified for tIME chunk
+Invalid zlib compression method or flags in IDAT
+IsBadCodePtr
+IsBadReadPtr
+IsBadWritePtr
+IsDBCSLeadByte
+IsProcessorFeaturePresent
+It's an error to set both read_data_fn and write_data_fn in the 
+JFIF APP0 marker: version %d.%02d, density %dx%d  %d
+JFIF extension marker: JPEG-compressed thumbnail image, length %u
+JFIF extension marker: RGB thumbnail image, length %u
+JFIF extension marker: palette thumbnail image, length %u
+JFIF extension marker: type 0x%02x, length %u
+JPEG datastream contains no image
+JPEG parameter struct mismatch: library thinks size is %u, caller expects %u
+KEEP
+KERNEL32.dll
+L$HH
+L$PH
+L$XI
+L$pH
+L9shv`E3
+L9whv`E3
+LASTBETA_D3DCOLOR
+LASTBETA_UBYTE4
+LASTPIXEL
+LERP
+LESS
+LESSEQUAL
+LIGHTAMBIENT
+LIGHTATTENUATION0
+LIGHTATTENUATION1
+LIGHTATTENUATION2
+LIGHTDIFFUSE
+LIGHTDIRECTION
+LIGHTENABLE
+LIGHTFALLOFF
+LIGHTING
+LIGHTPHI
+LIGHTPOSITION
+LIGHTRANGE
+LIGHTSPECULAR
+LIGHTTHETA
+LIGHTTYPE
+LINEAR
+LOCALVIEWER
+LcD$T3
+LeaveCriticalSection
+Light0Dir
+Light0Row0
+Light0Row1
+Light0Row2
+Light0SH
+Limiting gamma to 21474.83
+LoadLibraryA
+LoadResource
+LocalFree
+LockResource
+Lower
+M9N(t\nM9N8
+MAGFILTER
+MATERIAL
+MATERIALAMBIENT
+MATERIALDIFFUSE
+MATERIALEMISSIVE
+MATERIALPOWER
+MATERIALSPECULAR
+MAXANISOTROPY
+MAXMIPLEVEL
+MAXTESSELLATIONLEVEL
+MAX_ALLOC_CHUNK is wrong, please fix
+MINFILTER
+MINTESSELLATIONLEVEL
+MIN_LINEAR_MAG_MIP_POINT
+MIN_LINEAR_MAG_POINT_MIP_LINEAR
+MIN_MAG_LINEAR_MIP_POINT
+MIN_MAG_MIP_LINEAR
+MIN_MAG_MIP_POINT
+MIN_MAG_POINT_MIP_LINEAR
+MIN_POINT_MAG_LINEAR_MIP_POINT
+MIN_POINT_MAG_MIP_LINEAR
+MIPFILTER
+MIPLODBIAS
+MIPMAPLODBIAS
+MIRROR
+MIRRORONCE
+MODULATE
+MODULATE2X
+MODULATE4X
+MODULATEALPHA_ADDCOLOR
+MODULATECOLOR_ADDALPHA
+MODULATEINVALPHA_ADDCOLOR
+MODULATEINVCOLOR_ADDALPHA
+MULTIPLYADD
+MULTISAMPLEANTIALIAS
+MULTISAMPLEMASK
+Malformed iCCP chunk
+MapViewOfFile
 Material
 MaterialWrap\n
 Material\n
 Matrix4x4
 Matrix4x4\n
+Maximum supported image dimension is %u pixels
 MeshFace
 MeshFaceWraps\n
 MeshFace\n
@@ -136,89 +1060,601 @@ MeshNormals\n
 MeshTextureCoords\n
 MeshVertexColors\n
 Mesh\n
-NKeb
-O!C?wdL>
-O_?qZ
+Microsoft (R) D3DX9 Shader Compiler
+Microsoft (R) D3DX9 Shader Compiler 4.09.02.1154 PRIVATE
+MinCosThresh
+Miscellaneous marker 0x%02x, length %u
+Missing Huffman code table entry
+Missing IHDR before IDAT
+Missing IHDR before PLTE
+Missing IHDR before bKGD
+Missing IHDR before cHRM
+Missing IHDR before gAMA
+Missing IHDR before hIST
+Missing IHDR before iCCP
+Missing IHDR before oFFs
+Missing IHDR before pCAL
+Missing IHDR before pHYs
+Missing IHDR before sBIT
+Missing IHDR before sCAL
+Missing IHDR before sPLT
+Missing IHDR before sRGB
+Missing IHDR before tEXt
+Missing IHDR before tRNS
+Missing IHDR before zTXt
+Missing PLTE before IDAT
+Missing PLTE before bKGD
+Missing PLTE before cHRM
+Missing PLTE before hIST
+Missing PLTE before tRNS
+MoveFileA
+MoveFileW
+MoveToEx
+MultiByteToWideChar
+NEVER
+NONE
+NORMAL
+NORMALDEGREE
+NORMALIZENORMALS
+NOTEQUAL
+NULL
+NULL row buffer for row %ld, pass %d
+NULL;\n\n
+No IDATs written into file
+No image in file
+No memory for pCAL params.
+No memory for pCAL purpose.
+No memory for sPLT palettes.
+No memory to process text chunk.
+No transpose
+Non-unit
+NormTex
+Not a JPEG file: starts with 0x%02x 0x%02x
+Not a PNG file
+Not enough image data
+Not enough memory for text.
+Not enough memory to decompress chunk
+Not enough memory to decompress chunk.
+Not enough memory to decompress chunk..
+Not enough memory to process text chunk.
+Not enough memory to process zTXt chunk.
+Not implemented yet
+O fffffff
+O$fffffff
+Obtained EMS handle %u
+Obtained XMS handle %u
+Opened temporary file %s
+Out of Memory
+Out of memory processing unknown chunk.
+Out of memory processing zTXt chunk.
+Out of memory while procesing keyword
+Out of memory while processing sCAL chunk
+Out of memory while processing unknown chunk.
+Out of memory!
+Out of place IHDR
+Out of place gAMA chunk
+Out of place iCCP chunk
+Out of place sBIT chunk
+Out of place sRGB chunk
+Out of place tIME chunk
+Output file write error --- out of disk space?
+OutputDebugStringA
+Overflow in png_memcpy_check.
+Overflow in png_memset_check.
+P A;E
+PASSTHRU
+PATCHEDGESTYLE
+PATCHSEGMENTS
+PHONG
+PIXELSHADER
+PIXELSHADERCONSTANT
+PIXELSHADERCONSTANT1
+PIXELSHADERCONSTANT2
+PIXELSHADERCONSTANT3
+PIXELSHADERCONSTANT4
+PIXELSHADERCONSTANTB
+PIXELSHADERCONSTANTF
+PIXELSHADERCONSTANTI
+PNG file corrupted by ASCII conversion
+PNG unsigned integer out of range.\n
+POINT
+POINTSCALEENABLE
+POINTSCALE_A
+POINTSCALE_B
+POINTSCALE_C
+POINTSIZE
+POINTSIZE_MAX
+POINTSIZE_MIN
+POINTSPRITEENABLE
+POSITIONDEGREE
+PREMODULATE
+PROJECTED
+PROJECTIONTRANSFORM
+PSIZE
+PYRAMIDALQUAD
+Palette size 0, hIST allocation skipped.
+Patch %i degenerate
+Potential overflow in png_zalloc()
+Power
+Precision
+Premature end of JPEG file
+Premature end of input file
+Profile size field missing from iCCP chunk
 ProgressiveMesh\n
 PropertyBag\n
-Q<Uj
+QUADRATIC
+QUINTIC
+Quantization table 0x%02x was not defined
+Quantizing to %d = %d*%d*%d colors
+Quantizing to %d colors
+QueryPerformanceCounter
+RANGEFOGENABLE
+REPLACE
+RESULTARG
+REVSUBTRACT
 RGBG
 RGBG 
+RST%d
+Read Error
+Read failed on temporary file
+Read from EMS failed
+Read from XMS failed
+ReadFile
+RegCloseKey
+RegOpenKeyA
+RegQueryValueExA
+ReleaseMutex
+Requested feature was omitted at compile time
+Right
 RightHanded\n
-S;uD
-S>qZ
+Row has too many bytes to allocate in memory.
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+SAMPLER
+SCISSORTESTENABLE
+SDWORD
+SELECTARG1
+SELECTARG2
+SELECTMASK
+SEPARATEALPHABLENDENABLE
+SHADEMODE
+SLOPESCALEDEPTHBIAS
+SOLID
+SPECULAR
+SPECULARENABLE
+SPECULARMATERIALSOURCE
+SPHEREMAP
+SPOT
+SRCALPHA
+SRCALPHASAT
+SRCBLEND
+SRCBLENDALPHA
+SRCCOLOR
+SRGBTEXTURE
+SRGBWRITEENABLE
+STATEBLOCK
+STENCILENABLE
+STENCILFAIL
+STENCILFUNC
+STENCILMASK
+STENCILPASS
+STENCILREF
+STENCILWRITEMASK
+STENCILZFAIL
+STRING
+SUBTRACT
+SWORD
+Safe minimum
+Sampling factors too large for interleaved scan
+Saved by D3DX
+Scan script does not transmit all data
+ScriptApplyDigitSubstitution
+ScriptBreak
+ScriptFreeCache
+ScriptGetFontProperties
+ScriptGetProperties
+ScriptItemize
+ScriptJustify
+ScriptPlace
+ScriptRecordDigitSubstitution
+ScriptShape
+ScriptStringAnalyse
+ScriptStringCPtoX
+ScriptStringFree
+ScriptStringOut
+ScriptString_pSize
+ScriptTextOut
+Seek failed on temporary file
+SelectObject
+Selected %d colors for quantization
+SetBkColor
+SetBkMode
+SetEndOfFile
+SetFilePointer
+SetMapMode
+SetTextAlign
+SetTextColor
+SetUnhandledExceptionFilter
+Setting gamma=0
+Setting negative gamma to zero
+ShadTex
+SizeofResource
+Sleep
+Smoothing not supported with nonstandard sampling ratios
+Software\Microsoft\Direct3D
+Sorry, there are legal restrictions on arithmetic coding
+Specular
+SrcTex0
+SrcTex1
+SrcTex2
+SrcTex3
+SrcTex4
+SrcTex5
+SrcTex6
+SrcTex7
+Start Of Frame 0x%02x: width=%u, height=%u, components=%d
+Start Of Scan: %d components
+Start of Image
 StringProperty
 StringProperty\n
-TV?9\t
+Suspension not allowed here
+T$0H
+T$HL
+T$PA
+T$xH
+TEMP
+TEMPLATE
+TEX0
+TEX1
+TEX2
+TEX3
+TEX4
+TEX5
+TEX6
+TEX7
+TEX8
+TEXCOORDINDEX
+TEXCOORDSIZE1_0
+TEXCOORDSIZE1_1
+TEXCOORDSIZE1_2
+TEXCOORDSIZE1_3
+TEXCOORDSIZE1_4
+TEXCOORDSIZE1_5
+TEXCOORDSIZE1_6
+TEXCOORDSIZE1_7
+TEXCOORDSIZE2_0
+TEXCOORDSIZE2_1
+TEXCOORDSIZE2_2
+TEXCOORDSIZE2_3
+TEXCOORDSIZE2_4
+TEXCOORDSIZE2_5
+TEXCOORDSIZE2_6
+TEXCOORDSIZE2_7
+TEXCOORDSIZE3_0
+TEXCOORDSIZE3_1
+TEXCOORDSIZE3_2
+TEXCOORDSIZE3_3
+TEXCOORDSIZE3_4
+TEXCOORDSIZE3_5
+TEXCOORDSIZE3_6
+TEXCOORDSIZE3_7
+TEXCOORDSIZE4_0
+TEXCOORDSIZE4_1
+TEXCOORDSIZE4_2
+TEXCOORDSIZE4_3
+TEXCOORDSIZE4_4
+TEXCOORDSIZE4_5
+TEXCOORDSIZE4_6
+TEXCOORDSIZE4_7
+TEXTURE
+TEXTUREFACTOR
+TEXTURETRANSFORM
+TEXTURETRANSFORMFLAGS
+TFACTOR
+TMatRow0
+TMatRow1
+TMatRow2
+TMatRow3
+TRUE
+TWEENFACTOR
+TWEENING
+TWOSIDEDSTENCILMODE
+TerminateProcess
+Texture0@Name
+Texture1
 TextureFilename\n
 TimedFloatKeys
 TimedFloatKeys\n
+Too many color components: %d, max %d
+TranslateCharsetInfo
+Transpose
+Truncating incorrect info tRNS chunk length
+Truncating incorrect tRNS chunk length
+U8!t$@H!t$8H!t$HH
+UCHAR
+ULONGLONG
+UNICODE
 UO6?
-UQ?K
+USEW
 UYVY
 UYVY 
 UYVYRGBGYUY2GRGBDXT1DXT2DXT3DXT4DXT5F
-Ug5;
+Unable to write international text\n
+Unexpected marker 0x%02x
+UnhandledExceptionFilter
+Unit
+Unknown APP0 marker (not JFIF), length %u
+Unknown APP14 marker (not Adobe), length %u
+Unknown Adobe color transform code %d
+Unknown compression method in IHDR
+Unknown compression type %d
+Unknown compression type in zTXt chunk
+Unknown filter method in IHDR
+Unknown interlace method in IHDR
+Unknown sRGB intent
+Unknown zTXt compression type %d
+Unknown zlib error
+UnmapViewOfFile
+Unrecognized component IDs %d %d %d, assuming YCbCr
+Unrecognized equation type for pCAL chunk
+Unrecognized unit type for oFFs chunk
+Unrecognized unit type for pHYs chunk
+Unsupported JPEG data precision %d
+Unsupported JPEG process: SOF type 0x%02x
+Unsupported color conversion request
+Unsupported marker type 0x%02x
+Upper
 Url\n
-V=mu
-V?AG\v
-V?DO
-VG:?3
-VG:?8
+VERTEXBLEND
+VERTEXSHADER
+VERTEXSHADERCONSTANT
+VERTEXSHADERCONSTANT1
+VERTEXSHADERCONSTANT2
+VERTEXSHADERCONSTANT3
+VERTEXSHADERCONSTANT4
+VERTEXSHADERCONSTANTB
+VERTEXSHADERCONSTANTF
+VERTEXSHADERCONSTANTI
+VIEWTRANSFORM
+Valid palette required for paletted images\n
 Vector
 Vector\n
-W?Bv
-W?rm
-X1?B
+Virtual array controller messed up
+VirtualAlloc
+VirtualFree
+VirtualProtect
+WIREFRAME
+WORD
+WORLDTRANSFORM
+WRAP
+WRAP0
+WRAP1
+WRAP10
+WRAP11
+WRAP12
+WRAP13
+WRAP14
+WRAP15
+WRAP2
+WRAP3
+WRAP4
+WRAP5
+WRAP6
+WRAP7
+WRAP8
+WRAP9
+WaitForSingleObject
+Warning: thumbnail image size does not match data length %u
+Warning: unknown JFIF revision number %d.%02d
+WideCharToMultiByte
+Width is too large for libpng to process pixels
+Width too large for libpng to process image data.
+Write Error
+Write failed on temporary file --- out of disk space?
+Write to EMS failed
+Write to XMS failed
+WriteFile
+Wrong JPEG library version: library is %d, caller expects %d
+X5&U\v
+XFt'=
+XTt =
+XYZB1
+XYZB2
+XYZB3
+XYZB4
+XYZB5
+XYZRHW
+XYZW
+X\r0p\f
 YUY2
 YUY2 
-ZJ?{f
-\t?hxS
-\t?hxS>b
+Z E3
+ZENABLE
+ZERO
+ZFUNC
+ZWRITEENABLE
+Zero length keyword
+Zero length tRNS chunk
+Zero length zTXt chunk
+\$HfD9D$Xt
+\$`H!\$hH!\$pH!\$xH
+\fDfC9LE
+\n//listing of all techniques and passes with embedded asm listings \n\n
+\r\ntemplate %s {
+_XcptFilter
+__C_specific_handler
+__CxxFrameHandler
+__badioinfo
+__dllonexit
+__pioinfo
+_amsg_exit
+_clearfp
+_errno
+_fileno
+_finite
+_initterm
+_iob
+_isatty
+_isnan
+_itoa
+_lock
+_lseeki64
+_onexit
+_purecall
+_setjmp
+_snprintf
+_strdate
+_strdup
+_stricmp
+_strtime
+_tempnam
+_ultoa
+_unlock
+_vsnprintf
+_vsnwprintf
+_write
+a0a0a0
+abort
+acos
+acosf
 alpha
-bJ4?>
-bJ4?Gt/
+array %s %s
+asin
+asinf
+atan
+atan2
+atan2f
+atof
+atoi
+atol
 bRightHanded
-bY?G 
+bad allocation
 blue
-d2?Nc/
-dV>S?o
-dV>S?o=
+buffer error
+cF94(tjE9u
+calloc
+ceil
+ceilf
+cluster %d has bad singular value[%d]\n
+cosf
+d$8H
+d$@E2
+d3d10.dll
+d3d10_1.dll
+d3d9.dll
+d3d9d.dll
+d3dcompiler_43.dll
+d3dx
+d3dx9_31.dll
+d3dx9_43.dll
+d3dx9_43.pdb
+data error
 data1
 data2
 data3
 data4
-du?hxS
-du?j
+e0e0e0
 emissiveColor
+empty distance tree with lengths
+euhH
+extra interior spaces removed from keyword
+f9,QtfE;
+f9Czt&fD;[vsyE3
+f9Czt,f9Kzt&fD;[vsyE3
+fA9DM
+fA9E
+fA9LU
+fA;<Wu\rI
+fD9U
+fD9{xs?
+fD;kRt3fD9sRt,
+fE9B`t
+fE9E
+fE9\f
+fE9tM
 faceColor
 faceIndexes
 faceNormals
 faceVertexIndices
 faceWrapValues
 faces
+ffff
+ffff40
+fflush
+file error
 filename
 flags
+floor
+floorf
+fmod
+fmodf
 frameMatrix
-g?0F
+fread
+free
+frexp
+fwrite
 gY?%y
+gdi32.dll
 green
 guidExternalVisual
+iTXt chunk not supported.
+image size exceeds user limits in IHDR
+incompatible version
+incomplete distance tree
+incomplete dynamic bit lengths tree
+incomplete literal/length tree
+incorrect data check
+incorrect header check
 index
 indexColor
+insufficient memory
+invalid bit length repeat
+invalid block type
+invalid chunk type
+invalid distance code
+invalid keyword character 0x%02X
+invalid literal/length code
+invalid stored block lengths
+invalid window size
 irq)
 irq1
-jK>ff
-k?ms
-kU'9
-kW?nR
+isalnum
+isalpha
+isdigit
+isleadbyte
+isspace
+iswalpha
+iswdigit
+iswpunct
+iswspace
+isxdigit
+kernel32.dll
 keyType
 keys
-lCE;
+keyword length must be 1 - 79 characters
+l$0Hc
+l$PE9U
+l$XI
+ldexp
+leading spaces removed from keyword
+logf
+longjmp
+m@L9)t6A
 major
+malformed height string in sCAL chunk
+malformed sPLT chunk
+malformed width string in sCAL chunk
+malloc
 matrix
+memcmp
+memcpy
+memmove
+memory
+memset
 minor
-n>bf
+modff
+msvcrt.dll
 nFaceIndexes
 nFaceNormals
 nFaceVertexIndices
@@ -232,38 +1668,120 @@ nUrls
 nValues
 nVertexColors
 nVertices
+need dictionary
 normals
 openclosed
+oversubscribed distance tree
+oversubscribed dynamic bit lengths tree
+oversubscribed literal/length tree
+pixelshader 
+png_do_dither returned rowbytes=0
+png_do_rgb_to_gray found nongray pixel
+png_write_info was never called before png_write_row.
 positionquality
 power
-qr/?Pq,
-r5?T
-ru<A
+powf
+ps.1.0
+ps.1.1
+ps.1.2
+ps.1.3
+ps.1.4
+ps.2.0
+ps.2.a
+ps.2.b
+ps.2.sw
+ps.2.x
+ps.3.0
+ps.3.sw
+ps_1_0
+ps_1_1
+ps_1_2
+ps_1_3
+ps_1_4
+ps_2_0
+ps_2_a
+ps_2_b
+ps_2_sw
+ps_2_x
+ps_3_0
+ps_3_sw
+qsort
+rand
+read error
+realloc
+resource
+rtfA
+sPLT chunk has bad length
+sPLT chunk requires too much memory
+sPLT chunk too long
+same structure.  Resetting write_data_fn to NULL.
+setlocale
+sinf
 specularColor
+sqrt
+sqrtf
+srand
+sscanf
+stream end
+stream error
+strtod
+t!L9-1v\n
+t$LA
+t*Hc}
+t.H9{hv(H
+tRNS chunk not allowed with alpha channel
+t\nA9T
+technique 
 textureCoords
 tfkeys
+the same structure.  Resetting read_data_fn to NULL.
 time
+too many length or distance symbols
+trailing spaces removed from keyword
 truefalse
-u>S?o
-uE</0
-uE<r
+tx_1_0
+u.Hi
+uPD;CpuJL
+ujfE9H ucfE9H0u\fE9H@uUfE9HPuNfE9H`uGfE9Hpu@A
+unknown compression method
+unknown critical chunk
 urls
+usp10.dll
+u~D9/uyH
+vBlendColor
 value
 values
-vc?4
 vertexColors
+vertexshader 
 vertices
+vs.1.0
+vs.1.1
+vs.2.0
+vs.2.a
+vs.2.sw
+vs.2.x
+vs.3.0
+vs.3.sw
+vs_1_0
+vs_1_1
+vs_2_0
+vs_2_a
+vs_2_sw
+vs_2_x
+vs_3_0
+vs_3_sw
+wcstombs
+wctomb
 wdL>
-wdL>%
-wo;RG\v
-x4?6!
-x>+Qn
-xGR?
-xof 0302bin 0064
-yWe?
-yx?0b
-z?VG
-z?aUY
-zc%C1
-zlK<l|.
+xfB;l
+xof %stxt 
+xof 0303txt 0032        template FVFData         {             <B6E70A0E-8EF9-4e83-94AD-ECC8B0C04897>             DWORD dwFVF;             DWORD nDWords;             array DWORD data[nDWords];         }         template VertexElement         {             <F752461C-1E23-48f6-B9F8-8350850F336F>             DWORD Type;             DWORD Method;             DWORD Usage;             DWORD UsageIndex;         }         template DeclData         {             <BF22E553-292C-4781-9FEA-62BD554BDD93>             DWORD nElements;             array VertexElement Elements[nElements];             DWORD nDWords;             array DWORD data[nDWords];         }         template PMAttributeRange         {             <917E0427-C61E-4a14-9C64-AFE65F9E9844>             DWORD iFaceOffset;             DWORD nFacesMin;             DWORD nFacesMax;             DWORD iVertexOffset;             DWORD nVerticesMin;             DWORD nVerticesMax;         }         template PMVSplitRecord         {             <574CCC14-F0B3-4333-822D-93E8A8A08E4C>             DWORD iFaceCLW;             DWORD iVlrOffset;             DWORD iCode;         }         template PMInfo         {             <B6C3E656-EC8B-4b92-9B62-681659522947>             DWORD nAttributes;             array PMAttributeRange attributeRanges[nAttributes];             DWORD nMaxValence;             DWORD nMinLogicalVertices;             DWORD nMaxLogicalVertices;             DWORD nVSplits;             array PMVSplitRecord splitRecords[nVSplits];             DWORD nAttributeMispredicts;             array DWORD attributeMispredicts[nAttributeMispredicts];         } 
+xof 0303txt 0032        template XSkinMeshHeader         {             <3CF169CE-FF7C-44ab-93C0-F78F62D172E2>             WORD nMaxSkinWeightsPerVertex;             WORD nMaxSkinWeightsPerFace;             WORD nBones;         }         template VertexDuplicationIndices         {             <B8D65549-D7C9-4995-89CF-53A9A8B031E3>             DWORD nIndices;             DWORD nOriginalVertices;             array DWORD indices[nIndices];         }         template FaceAdjacency         {             <A64C844A-E282-4756-8B80-250CDE04398C>             DWORD nIndices;             array DWORD indices[nIndices];         }         template SkinWeights         {             <6F0D123B-BAD2-4167-A0D0-80224F25FABB>             STRING transformNodeName;             DWORD nWeights;             array DWORD vertexIndices[nWeights];             array float weights[nWeights];             Matrix4x4 matrixOffset;         }         template Patch         {             <A3EB5D44-FC22-429D-9AFB-3221CB9719A6>             DWORD nControlIndices;             array DWORD controlIndices[nControlIndices];         }         template PatchMesh         {             <D02C95CC-EDBA-4305-9B5D-1820D7704BBF>             DWORD nVertices;             array Vector vertices[nVertices];             DWORD nPatches;             array Patch patches[nPatches];             [ ... ]         }         template PatchMesh9         {             <B9EC94E1-B9A6-4251-BA18-94893F02C0EA>             DWORD Type;             DWORD Degree;             DWORD Basis;             DWORD nVertices;             array Vector vertices[nVertices];             DWORD nPatches;             array Patch patches[nPatches];             [ ... ]         } template EffectFloats         {             <F1CFE2B3-0DE3-4e28-AFA1-155A750A282D>             DWORD nFloats;             array float Floats[nFloats];         }         template EffectString         {             <D55B097E-BDB6-4c52-B03D-6051C89D0E42>             STRING Value;         }         template EffectDWord         {             <622C0ED0-956E-4da9-908A-2AF94F3CE716>             DWORD Value;         } template EffectParamFloats         {             <3014B9A0-62F5-478c-9B86-E4AC9F4E418B>             STRING ParamName;             DWORD nFloats;             array float Floats[nFloats];         } template EffectParamString         {             <1DBC4C88-94C1-46ee-9076-2C28818C9481>             STRING ParamName;             STRING Value;         }         template EffectParamDWord         {             <E13963BC-AE51-4c5d-B00F-CFA3A9D97CE5>             STRING ParamName;             DWORD Value;         }         template EffectInstance         {             <E331F7E4-0559-4cc2-8E99-1CEC1657928F>             STRING EffectFilename;             [ ... ]         } template AnimTicksPerSecond         {             <9E415A43-7BA6-4a73-8743-B73D47E88476>             DWORD AnimTicksPerSecond;         }         template CompressedAnimationSet         {             <7F9B00B3-F125-4890-876E-1C42BF697C4D>             DWORD CompressedBlockSize;             FLOAT TicksPerSec;             DWORD PlaybackType;             DWORD BufferLength;             array DWORD CompressedData[BufferLength];         } 
+y E3
+zero length keyword
+zlib error
+zlib memory error
+zlib version error
 zqJ?wdL>
+|fE;dE
+}HL9{`t.L

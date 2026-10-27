@@ -1,28 +1,22 @@
                           
-                AAAAAAAAAAAAAAAAZZZZZZZZZZZZZZZZ
- !"#$%&'()*+,-./0123
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  <null>
  Base Class Array'
  Base Class Descriptor at (
- C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
  Type Descriptor'
- ]Acosh
- ]Asinh
+ at %p
  delete
  delete[]
  in function '%s'
  in function <%s:%d>
  in main chunk
  new
-"e?<<<<<<l?
-$Ib?s
 %016llx
 %12.6f
 %d %d %d %d
+%g %g
+%g %g %g
 %g %g %g %g
 %i %i %i %i
 %lld
@@ -35,9 +29,11 @@ $Ib?s
 %s has no instance glue - are you doing objectName.%s instead of objectName:%s?
 %s near '%s'
 %s parameter %d: expected %s but got %s.\n
+%s%s
+%s: %s
 %s: string format requested %d chars\n
-&?PPPPPPP?
-&Sgw
+%s:%d: %s
+%s|%d
 '%s' expected
 '%s' expected (to close '%s' at line %d)
 '=' or 'in' expected
@@ -50,9 +46,9 @@ $Ib?s
 'package.preload' must be a table
 'setfenv' cannot change environment of given object
 'tostring' must return a string to 'print'
+(%s) %s:%d
 (*temporary)
 (*vararg)
-(04\n \n008@HPX\n
 (binary)
 (error object is not a string)
 (for control)
@@ -62,18 +58,12 @@ $Ib?s
 (for state)
 (for step)
 (null)
-(yaX
-)yIx
-*StO9>T
-,HR>O
--BH>t
 -avx
 -luajit
 -sse2
 -sse3
 -sse4
 .00cfg
-.>\rfJBGo
 .?AV?$CBaseAppSystem@VIScriptManager@@@@
 .?AV?$CTier0AppSystem@VIScriptManager@@@@
 .?AV?$CTier1AppSystem@VIScriptManager@@$0A@@@
@@ -155,51 +145,19 @@ $Ib?s
 .tls
 .tls$
 .tls$ZZZ
-.xJ>Hf
 .xdata
 .xdata$x
-/2GG>!B
 0123456789ABCDEF
 0123456789ABCDEFPX
 0123456789abcdef
 0123456789abcdefpx
-0C1X4\f6
-0E>X
-0X8b?~
-0iN>/
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-11UT
-11Y@
 127.0.0.1
 1434713789_main
-1X2\v3z3
-2\vp4d
-37>k
-3>N;kU
-3>fvw
 4\tgA
-51>W
-601\v
-6L4\v
-6NK>
-6Z2\v
-6\fXO>
-6\fXO>\ntA
-6i8\v
-7>I0
-7?GX
-7yp>
-7~xh
-8@HPX
-8Csin
-8ke?;
-9>70
-9>pow
-9g>@3
-;1cb
 <?xml version="1.0" encoding="UTF-8"?>\n
 <deferred>
 <eof>
@@ -214,55 +172,28 @@ $Ib?s
 <unknown>
 =(debug command)
 =(load)
-=1cb
-=87M
-=cQ6
-=e2m
-=imb;D
 =stdin
 ><![CDATA[%s]]>
->cQ6
->jtm}S
-?1cb
-?456789:;<=
-?7zQ6$
-?8UUUUU
-?8bunz8
 ??0CThreadMutex@@QEAA@XZ
 ??0CVirtualMachineCallStackTranslationEncoder@@QEAA@PEBD@Z
 ??1CVirtualMachineCallStackTranslationEncoder@@QEAA@XZ
-?@En[vP
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
 ?DevMsg@@YAXPEBDZZ
 ?EncodeAsNativePointer@CVirtualMachineCallStackTranslationEncoder@@QEAAPEAXPEBD0I@Z
 ?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z
-?JV8f
 ?Lock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@VColor@@PEBDZZ
-?N]TUUU
 ?Purge@CBufferString@@QEAAXH@Z
-?R0I?
 ?UUUUUU
 ?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
-?exp
-?f`Y4
-?qBJ
-?rAj
-?ysB
 @(\fEtobitDbnotEbswapFlshift
-@6D5\v
-@BXV
-@^8U)zj
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
-AK>(v
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
-A`1w>
 AnimGraphEditorUtils001
 AnimationSystemUtils_001
 AnimationSystem_001
@@ -276,9 +207,6 @@ AssetSystem001
 AssetSystemTest001
 Attempted to ConvertToCopiedData for unsupported type (%d)\n
 August
-BC?>6t9^\tc:>
-BF>^G
-B\fp\v0
 Bad address
 Bad file descriptor
 BakedLODBuilderMgr001
@@ -291,10 +219,8 @@ BitwiseXor
 Breakpoint type (%s) not supported.
 Broken pipe
 C++ exception
-C5R?\t
 CDesc
 CGlobalConfigValueRegistry::HookUpConfigValue
-CL:>8
 CMemAllocSystemInitialize
 COLORCORRECTION_VERSION_1
 COMSPEC
@@ -309,7 +235,7 @@ CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
 CUtlMemoryPoolBase::CUtlMemoryPoolBase
 CUtlRBTree overflow with %u elements!\n
 CUtlRBTree<void *,int,bool (__cdecl*)(void * const &,void * const &),class CUtlMemory<struct UtlRBTreeNode_t<void *,int>,int> >::NewNode
-CWD>~3
+CUtlString::FormatV
 Cabs
 Can't call %s:%s on an object of type %s
 Cannot recover from failed socket shutdown.
@@ -332,7 +258,6 @@ CreateNonBlockingSocket
 CreatePipe
 CreateProcessW
 Cross
-Cy2@K>
 DbyteDcharCsub
 DebugTextureInfo001
 Debugger
@@ -343,34 +268,25 @@ Domain error
 DotaCardGameClient_001
 DuplicateHandle
 DynASM 1.5.0
-E>nEA
 EDesc
-ET5>
 EXPORTSYSTEM_INTERFACE_VERSION_001
-E[\rn?gc
-Eatan2
 EconItemToolModel_001
 EncodePointer
 EngineServiceMgr001
 EnterCriticalSection
 Epairs@
 Error: Duplicate command handler registered (%s)!\n
-Eup^
 Eval
 EventSystem001
 Exec format error
 ExitProcess
-F>qUxv
 FATAL ERROR: unable to register all schema data: %s\n
 FDesc
-FEMh\f
-FFFFFFFFFFFFFFFF
 FILE*
 Failed to find %s
 Failed to read %s
 Fassert
 February
-FfW?
 File exists
 File too large
 Filename too long
@@ -391,10 +307,8 @@ FreeEnvironmentStringsW
 FreeLibrary
 Friday
 Function not implemented
-G>US
 GAME
 GCTL
-GCUtlString::FormatV
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameUIService_001
@@ -434,21 +348,16 @@ GetStringTypeW
 GetSystemTimeAsFileTime
 GetTempPath2W
 GetTempPathW
-GfZ+?p
 Global
 Globals
-GrJoq>@
-H>r1
 HH:mm:ss
 HammerMapLoader001
 HelpSystem_001
 HostStateMgr001
-I;u>A
 IND)ind)
 IND)ind)S
 INITY
 IQuickTime001
-Il?333333c?
 Illegal byte sequence
 Improper link
 Inappropriate I/O control operation
@@ -481,12 +390,9 @@ JIT compiler disabled
 January
 July
 June
-K2K2K2
 KERNEL32.dll
 KeyValueCache001
 KeyValuesSystem
-L>ev
-L?UUUUUUU?
 LCMapStringEx
 LCMapStringW
 LOADLIB: %s
@@ -496,8 +402,6 @@ LUA Memory usage: The VM has a usage of %s bytes.\n
 LUA_CPATH
 LUA_NOENV
 LUA_PATH
-LWG>
-LWW>
 LeaveCriticalSection
 Left
 Length
@@ -526,7 +430,6 @@ LuaDBGp: Trying to connect to %s:%d\n
 LuaDBGp: Unknown command received from the IDE - "%s"
 LuaDbg - Debugging started\n
 LuaDbg - Debugging stopped\n
-M'y>0y
 MATCHFRAMEWORK_001
 MM/dd/yy
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
@@ -543,12 +446,8 @@ Missing breakpoint with given ID %s.
 ModelDocUtils001
 Monday
 MultiByteToWideChar
-N3`d?
-N>O=I9
-N>VF
 NAN(IND)
 NAN(SNAN)
-NQ?s
 NavSystem001
 NetworkClientService_001
 NetworkMessagesVersion001
@@ -574,7 +473,6 @@ Normalized
 Not a directory
 Not enough space
 November
-OZQ%
 October
 Operation not permitted
 Ordered constructor wrapped type has no default constructor.\n\tYou must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.\n
@@ -602,27 +500,10 @@ PostProcessingSystem_001
 Print a message
 Print a warning
 PropertyEditorSystem_001
-Q5rHg,>
-QAf?
 QAngle
-QQQQQQQQQQGQQQQQYYYYQQQQREQQQQQQRRRRRRRR
-QQQQQQQQQQQQQQQQQQ
-QQQQRRRRRRRRRRRRRRRR
-QQRRR
-QQcfQQQQQQ
 Quaternion
 QueryPerformanceCounter
 QueuedLoaderVersion001
-REQ 
-REQQ
-RRQQ
-RRRRRRQRQ
-RRRRRRRR
-RRRRRRRR4Q5QQQQQ
-RRRRRRRREEGRQQQQ
-RSDS
-R\fp4d
-R\vp4d
 RaiseException
 RandomFloat
 RandomInt
@@ -654,12 +535,8 @@ RtlRestoreContext
 RtlUnwind
 RtlUnwindEx
 RtlVirtualUnwind
-S9>H
-S>$hkDh$h>[2
 SNAN)
-SQpq
 SSE and SSE2 are required.
-SSSSSSSS
 Saturday
 SceneSystem_002
 SceneUtils_001
@@ -704,10 +581,7 @@ StatsService_001
 SteamAudio001
 Sunday
 SystemFunction036
-TQSQQRQQ
-TUUU
 TUUUU
-TXnr
 TerminateProcess
 TestScriptMgr001
 TextLayout_001
@@ -731,13 +605,10 @@ ToolScriptManager001
 ToolService_001
 Trying to set a breakpoint with missing file/line. Ensure the file is part of the Eclipse project (refresh project is necessary) and reopen the file in Eclipse.
 Tuesday
-UA>N0Wl
 UInt64
 UPDATE_STRING_TOKEN_DATABASE
 UTF-16LEUNICODE
 UTF-8
-UUUU
-UUUUU
 UUUUUU
 Unable to create environment
 Unable to update line number for the breakpoint with ID %s
@@ -809,11 +680,9 @@ WARNING: Lua unable to create VM\n
 WARNING: Lua unmap unable to decommit all pages\n
 WARNING: Lua unmap unable to find %llu pages\n
 WS2_32.dll
-WaNd?
 WaitForSingleObject
 WaitForSingleObjectEx
 Waiting for debugger connection...\n
-Wak>E
 WakeAllConditionVariable
 Warning
 Warning:  %s = '%s' is infinite, clamping value.\n
@@ -824,15 +693,7 @@ WorldRendererBuilderMgr001
 WorldRendererMgr001
 WriteConsoleW
 WriteFile
-X/4B
 Xbox VDP is not supported on this platform.
-Y8a:
-Y>kX>M
-ZSq>
-Z\>z8
-[*ncd>0
-[*ncd>TQ
-[aOni*{
 [builtin:
 [none]
 [string "
@@ -840,21 +701,10 @@ Z\>z8
 \n\tno field package.preload['%s']
 \n\tno file '%s'
 \n\tno module '%s' in file '%s'
-\nh?oT
-\nk>oB
-\nrandomseed
-\t2K2K
-\tJR>8o
-\tcQr
 \tisrunning
-\tkE>fvw
-\vA03>A|
 \var\srcds\shared\dota
 \vgetregistry\fgetmetatable\fsetmetatable
-\vp4d
-^<V7w
-^RfN>
-^axb
+_%x%llx_%s
 _LOADED
 _LOADLIB
 _NAME
@@ -915,7 +765,6 @@ _fwscanf_s_l
 _hypot
 _logb
 _nextafter
-_oD>Kg
 _printf_l
 _printf_p
 _printf_p_l
@@ -1064,7 +913,6 @@ _wscanf_s_l
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
-a6>r
 abcdefghijklmnopqrstuvwxyz
 abort
 acos
@@ -1089,7 +937,6 @@ attempt to compare two %s values
 attempt to load chunk with wrong mode
 attempt to use a closed file
 attempt to yield across C-call boundary
-b\rp\fP
 bad FPU precision (use D3DCREATE_FPU_PRESERVE with DirectX)
 bad action while in __gc metamethod
 bad argument #%d to '%s' (%s)
@@ -1124,8 +971,6 @@ c:\buildslave\hlvr_rel_win64\build\src\tier1\utlstring.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier2\schemabindings.cpp
 c:\buildslave\hlvr_rel_win64\build\src\vscript\Retail\win64\vscript.pdb
 c:\buildslave\hlvr_rel_win64\build\src\vscript\languages\lua\vlua\vlua.cpp
-c>F2
-c?FA@s}
 call
 calling '%s' on bad self (%s)
 cannot change a protected metatable
@@ -1163,7 +1008,6 @@ collect
 collectgarbage
 color
 command
-concat
 concatenate
 config
 connection aborted
@@ -1185,9 +1029,6 @@ cpath
 createEyieldFresume
 cstring
 currentline
-d8L2
-d?000000`?
-dRL>
 dddd, MMMM dd, yyyy
 dead
 debug
@@ -1203,8 +1044,6 @@ dump
 duplicate label '%s'
 duplicate table key
 e+000
-eF>t
-eLK(w
 ehandle
 else
 elseif
@@ -1217,9 +1056,6 @@ error loading module '%s' from file '%s':\n\t%s
 errorEpcall
 eval
 external hook
-fD>b
-fGa>
-fWi?
 fabs
 false
 feature
@@ -1241,7 +1077,6 @@ float64
 floor
 flush
 fmod
-fmodEldexpCmin
 foreach
 foreachi
 format
@@ -1280,9 +1115,6 @@ global
 gmatch
 goto
 gsub
-h0'D
-h5uv
-h>1my
 handle
 handle_lightbinding
 hit_condition
@@ -1291,8 +1123,6 @@ hit_value
 host unreachable
 hscript
 hscript_lightbinding
-huge
-i>VF
 idekey
 identifier removed
 index
@@ -1322,13 +1152,10 @@ invalid_parameter
 isarray
 isempty
 isvararg
-jeTb
 js_array
 js_object
 js_raw_args
 js_value
-k=yI
-k>4\tF
 language
 lastlinedefined
 ldexp
@@ -1357,10 +1184,7 @@ lua_assert_on_error
 lua_debug> 
 lua_report_memory
 luaopen_%s
-m?H7
-mG4>
-mO-B
-m\nXo
+l|%d|%s
 main
 main function has more than %d %s
 malformed number
@@ -1383,8 +1207,6 @@ modfClog
 module
 module '%s' not found:%s
 move
-n03>Pu
-n]?iJ
 name
 name conflict for module '%s'
 namewhat
@@ -1418,10 +1240,6 @@ number
 number out of range
 numchildren
 nups
-o*do^
-o?GS
-oI>O7
-obwQ4
 on\f3
 open
 operation canceled
@@ -1433,11 +1251,7 @@ operator ""
 operator co_await
 operator<=>
 output
-owM&
 owner dead
-p>.G1
-p>Y3
-p\r`\f04d
 package
 page
 pagesize
@@ -1462,14 +1276,8 @@ protocol not supported
 protocol_version
 purecall
 putf
-q>F,3
-qS>g?h3
 qangle
 quaternion
-rNm>)
-r\tVr.>T
-r\vp4d
-random
 rawequal
 rawset
 read
@@ -1492,8 +1300,6 @@ rshift
 running
 running\visyieldable
 runtime code generation failed, restricted kernel?
-sAasin
-sHF'
 scanf
 scanf_s
 schemasystem
@@ -1517,7 +1323,6 @@ size
 skip
 snan)
 snprintf
-sort
 source
 sprintf
 sprintf_s
@@ -1627,8 +1432,7 @@ urn:debugger_protocol_v1
 userdata
 userdata length overflow
 utlstringtoken
-uzKs@>
-v2!L.2
+u|%d|%s
 value expected
 value too large
 variable names
@@ -1666,9 +1470,6 @@ vwprintf
 vwprintf_s
 vwscanf
 vwscanf_s
-w8#5
-wHbr^
-wNcvn
 what
 while
 wprintf
@@ -1679,8 +1480,5 @@ wrong number of arguments to 'insert'
 wrong protocol type
 wscanf
 wscanf_s
-xT?V
 xmlns
 xpcall
-yE>cb
-z>h4

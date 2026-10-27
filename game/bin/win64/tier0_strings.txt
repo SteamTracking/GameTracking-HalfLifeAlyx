@@ -14,17 +14,13 @@
   Count  
   HEAP_ZERO_MEMORY is specified.\n
   Scope                                                      Calls Calls/Frame  Time+Child    Pct        Time    Pct   Avg/Frame    Avg/Call Avg-NoChild        Peak\n
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  %12.3f %12.2f
  %12s %12s
  (forced)
  (including user space up to 63 bits)
  -codemsg "
- B\kji2
  Base Class Array'
  Base Class Descriptor at (
- C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
  File
@@ -37,13 +33,14 @@
  noexcept
  volatile
 "%s" +url_execute "%%1"
-"e?<<<<<<l?
 "name" of the file referenced by the symbolic link named /etc/malloc.conf
-#4o>w
-#9fm
-#Ib?AG
-$Ib?s
+%%%d%s
+%%%s
+%%-%d%s
+%%.%if
+%%.%if%s
 %.0f pct of time accounted for\n
+%.2f
 %0*llx bytes at %0*llx is the largest open user-space VA region%s\n
 %0*llx bytes of %s at %0*llx%s\n
 %0*llx: address after highest user-space virtual region\n
@@ -58,8 +55,11 @@ $Ib?s
 %d frames sampled for %.2f seconds\n
 %d:%02d.%03d
 %d:%02d:%02d.%03d
+%i%s
 %llu
 %llu,%u,%u,%s\r\n
+%s %i %s\n
+%s (%d)
 %s (%d) : %s
 %s (%d) : %s\n
 %s (Build %d) version %d.%d (LimitedUser: %s)
@@ -73,6 +73,7 @@ $Ib?s
 %s test: single thread push/pop, in order... 
 %s test: single thread push/pop, interleaved... 
 %s total bytes in user-space regions (%s bytes in kernel-space regions)\n
+%s%s
 %s%s_%d_%02d%02d_%02d%02d%02d_%d%s%s.mdmp
 %s(%d%%) %s
 %s: Unable to get executable filename (%d byte buffer).
@@ -106,7 +107,6 @@ $Ib?s
 %u MB memory used assuming maximum PageHeap overhead.\n
 %u lifetime allocations (%u delta).\n
 %u outstanding allocations (%d delta).\n
-&?PPPPPPP?
 &AElig;
 &Aacute;
 &Acirc;
@@ -131,7 +131,6 @@ $Ib?s
 &Oslash;
 &Otilde;
 &Ouml;
-&Sgw
 &THORN;
 &Uacute;
 &Ucirc;
@@ -144,6 +143,7 @@ $Ib?s
 &aelig;
 &agrave;
 &amp;
+&apos;
 &aring;
 &atilde;
 &auml;
@@ -219,20 +219,11 @@ $Ib?s
 (Unknown Cause)
 (failed)%s
 (null)
-(yaX
-)yIx
 ***** OUT OF MEMORY! /+/ attempted allocation size: %llu ****\n
 ******** BEGIN VPROF REPORT ********\n
 ******** END VPROF REPORT ********\n
-*StO9>T
-*Vc>L
-+i9O
-+tPOu
 ,%03d
 ,<ellipsis>
-,HR><y5
-,HR>O
--&apos;
 -- Hierarchical Call Graph --\n
 -- Profile scopes sorted by average time (including children) --
 -- Profile scopes sorted by average time (without children) --
@@ -246,8 +237,6 @@ $Ib?s
 ---------------------------------------------------------\nEncountered %s.\nWrote minidump to %s\n---------------------------------------------------------
 -------------------------------------------\n
 -2GB
--9D\t/9a
--BH>t
 -NOPROCESSHEAP
 -PROCESSHEAP
 -PROCESSHEAPZEROMEM
@@ -303,7 +292,6 @@ $Ib?s
 ..........| 
 .........| 
 .00cfg
-.>\rfJBGo
 .?AV?$CStdMemAlloc@U?$MemConfig@$0A@$0A@UDefaultAdditionalProperties@@@@@@
 .?AV?$CStdMemAlloc@U?$MemConfig@$0A@$0A@URuntimeAdditionalProperties@@@@@@
 .?AV?$CStdMemAlloc_Data@U?$MemConfig@$0A@$0A@UDefaultAdditionalProperties@@@@@@
@@ -418,62 +406,24 @@ $Ib?s
 .tls$
 .tls$ZZZ
 .txt
-.xJ>Hf
 .xdata
 .xdata$x
-/2GG>!B
 0.0.0-0-g0000000000000000000000000000000000000000
 0123456789
 0123456789ABCDEF
 0123456789abcdef
 0123456789abcdefghijklmnopqrstuvwxyz
-0E>X
-0X8b?~
-0iN>/
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-11UT
-11Y@
 2464
-2\f524@
-3 FB
-3+5<t
 3627
-37>k
-3>N;kU
-3>fvw
-3?tr
-4\fE4t;
 4\tgA
-51>W
 5?INF
-5m8>8=t
-6NK>
-6\fXO>
-6\fXO>\ntA
-7>I0
-7?GX
-7h>?8
-7yp>
-7~xh
-82Pa8
 8BUUUUUU
-8Csinf
-8J;@ts
-8ke?;
-8powf
-99jd9
-9>70
-9>expf
-9Z=K7
-9a&g
-9a>d
-9g>@3
 ::<lambda_
 ::_CAssertFastInternal::AssertionFailed
-;1cb
 ;BIb?
 <assertion dialog internal error>
 <ellipsis>
@@ -507,23 +457,7 @@ $Ib?s
 <pre>
 <unable to get local hostname>
 <unknown>
-=1cb
-=87M
-=cQ6
-=e2m
-=imb;D
->0Av
 >::operator ()
->cQ6
->jtm}S
-?!5WOo
-?1cb
-?3Fx
-?49HoKC
-?7zQ6$
-?7{KV\nU
-?8UUUUU
-?8bunz8
 ??0BasicStatStructFieldDesc@@QEAA@$$QEAV0@@Z
 ??0BasicStatStructFieldDesc@@QEAA@AEBV0@@Z
 ??0BasicStatStructFieldDesc@@QEAA@W4BasicStatStructFieldTypes_t@@W4BasicStatStructFieldCombineMethods_t@@@Z
@@ -653,7 +587,6 @@ $Ib?s
 ??_FCThreadRWLock_FastRead@@QEAAXXZ
 ??_FCThreadSpinLock@@QEAAXXZ
 ??_FCVProfReporter@@QEAAXXZ
-?@En[vP
 ?AcquireLock@CThreadFastMutex@@AEAAXI@Z
 ?AcquireLock@CThreadMutex@@AEAAXI@Z
 ?AddBudgetGroupName@CVProfile@@IEAAHPEBDH@Z
@@ -846,7 +779,6 @@ $Ib?s
 ?GetVPrevSibling@CVProfNode@@QEBAPEBV1@XZ
 ?GetVSibling@CVProfNode@@QEAAPEAV1@XZ
 ?GetVSibling@CVProfNode@@QEBAPEBV1@XZ
-?HEAP WARNING: memory block at %p appears to be corrupt\n
 ?HandleFirstWriteLockTransition@CEventRWLock@@IEAAXAEAVCEventListNode@@@Z
 ?HandleFirstWriteLockTransition@CThreadRWLock_FastRead@@IEAAXXZ
 ?HandlerQueueHeartBeat@MiniDumpStandardData_t@@QEBAXXZ
@@ -873,8 +805,6 @@ $Ib?s
 ?IsThreadRunning@CThread@@MEAA_NXZ
 ?IsValid@CThreadSyncObject@@QEBA_NXZ
 ?IsValid@CVProfReporter@@QEBA_NXZ
-?JV8f
-?Ji@9
 ?Join@CThread@@QEAA_NI@Z
 ?KillMe@CVProfReporter@@IEAAXXZ
 ?LocalSymCleanup@CDbgHelpFunctionsLoader@@QEAAXXZ
@@ -935,7 +865,6 @@ $Ib?s
 ?Purge@CBufferString@@QEAAXH@Z
 ?Purge@CVirtualMemorySnapshot@@QEAAXXZ
 ?PushGroup@CVProfile@@QEAAXH@Z
-?R0I?
 ?ReachedZeroReferences@CFiber@@AEAAXXZ
 ?RegisterNumBudgetGroupsChangedCallBack@CVProfile@@QEAAXP6AXXZ@Z
 ?Release@CThreadFullMutex@@QEAA_NXZ
@@ -1157,7 +1086,6 @@ $Ib?s
 ?V_UnicodeValidate@@YA_NPEB_W@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
 ?V_wcsistr@@YAPEB_WPEB_W0@Z
-?WUUUUU
 ?Wait@CThreadSyncObject@@QEAA_NI@Z
 ?WaitForCall@CWorkerThread@@QEAA_NIPEAI@Z
 ?WaitForCall@CWorkerThread@@QEAA_NPEAI@Z
@@ -1172,25 +1100,11 @@ $Ib?s
 ?WaitForReply@CWorkerThread@@IEAAHIP6AIIPEAPEAVCThreadEvent@@HI@Z@Z
 ?WaitForReply@CWorkerThread@@QEAAHI@Z
 ?Yield@CThread@@SAXXZ
-?\rz0w
-?\vxMW
 ?_FooHacked_DontEverCallMe@Hack_WatchWindow_t@@SAPEBU1@PEBX@Z
-?f`Y4
-?id7
-?kxG2)
-?lZE
-?qBJ
-?rAj
 ?s_iCurrentUniqueNodeID@CVProfNode@@1HA
-?ysB
-@^8U)zj
-@pn>6
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.dll
-AK>(v
 AUUUUUU
-A`1w>
 AcquireSRWLockExclusive
 AddVectoredExceptionHandler
 Advapi32.dll
@@ -1246,10 +1160,6 @@ AttachConsole
 August
 AuthenticAMD
 Average %.2f fps, %.2f ms per frame\n
-B,fK
-BC1%M
-BC?>6t9^\tc:>
-BF>^G
 BSQ_cache_reference
 Bad node link detected\n
 BeginPaint
@@ -1259,7 +1169,6 @@ BroadcastAssertionMiniDumpContext_t
 BroadcastAssertionMiniDumpHandler - [Invoking crashdumpmailer]\n
 Build-time option settings
 BuiltDebug
-C5R?\t
 CBufferString::AppendConcat
 CBufferString::AppendConcatV
 CBufferString::AppendFormatV
@@ -1276,7 +1185,6 @@ CBufferString::ToLowerFast
 CBufferString::ToUpperFast
 CBufferString::TruncateAt
 CBufferString::UnicodeCaseConvert
-CL:>8
 CLoggingSystem::AllocTag
 CLoggingSystem::AllocTag overflowed!\n
 CLoggingSystem::RegisterLoggingChannel
@@ -1302,7 +1210,6 @@ CThreadSyncObject::WaitForMultiple
 CTimestampedEventLog::AllocateEvent
 CTimestampedEventLog::FlushBuffer
 CTimestampedEventLog::SetListener
-CWD>~3
 CWatchdogThread::M_BeginHangScope
 CWatchdogThread::M_EndHangScope
 Called Resume() on a thread that is not suspended!\n
@@ -1320,7 +1227,6 @@ CatchAndWriteMiniDumpEx
 CatchAndWriteMiniDumpExForVoidPtrFn
 CatchAndWriteMiniDumpExReturnsInt
 CatchAndWriteMiniDumpForVoidPtrFn
-Ccoshf
 CheckTokenMembership
 ClearHardwareBreakpoint
 ClearSingleThreadedWorkThread
@@ -1370,9 +1276,6 @@ CreateSimpleThread
 CreateSolidBrush
 CreateThread
 CreateWindowExA
-Csinhf
-Cy2@K>
-D"A/oyu
 DBGHELP_SERVICE=1
 DEBUG_EXITPROCESS
 December
@@ -1397,12 +1300,10 @@ DoAssertDialog: invalid Assert response returned from dialog/vxconsole - breakin
 DoWaitForMultipleObjects
 DrawTextA
 DuplicateHandle
-E>nEA
 ERROR: Alloc exceeded allocation limit /+/ %llu > %llu
 ERROR: Hang watchdog thread exceeded the maximum number of allowed nested scopes!\n
 ERROR: Hang watchdog thread scope underrun! (Did someone forget to call EndWatchdogHangScope?)\n
 ERROR: Virtual reservation exceeded limit /+/ %llu > %llu
-ET5>
 ETWBegin
 ETWEnd
 ETWGetRenderFrameNumber
@@ -1431,10 +1332,7 @@ ETWResourceFrameMark
 ETWSendPacket
 ETWSimFrameMark
 ETWThrottled
-E[\rn?gc
 EarlyInit_Tier0
-EiU>
-EiUL
 EnableWindow
 EncodePointer
 EndDialog
@@ -1455,15 +1353,12 @@ Exit Process
 ExitProcess
 Exiting due to logging LR_ABORT request.\n
 ExpandEnvironmentStringsA
-F>qUxv
 FAIL: !IsEmpty()\n
 FAIL: !Validate()\n
 FAIL: Not all items popped\n
-FEMh\f
 FF\n@acosf
 Fatal Error
 February
-FfW?
 File: %s\nLine: %i\nExpr: %s
 FileSystem
 FileTimeToSystemTime
@@ -1484,7 +1379,6 @@ FreeEnvironmentStringsW
 FreeLibrary
 FreeSid
 Friday
-G>US
 GCTL
 GDI32.dll
 GameDVR_Enabled
@@ -1587,11 +1481,8 @@ GetWindowLongA
 GetWindowLongPtrA
 GetWindowRect
 GetWindowThreadProcessId
-GfZ+?p
 GlobalMemoryStatusEx
-GrJoq>@
-H$BQ
-H>r1
+HEAP WARNING: memory block at %p appears to be corrupt\n
 HEAP WARNING: memory block at %p is unexpectedly allocated\n
 HEAP WARNING: memory block at %p is unexpectedly free\n
 HEAP WARNING: memory block at %p is unexpectedly unrecognized\n
@@ -1622,7 +1513,6 @@ HeapReAlloc
 HeapSetInformation
 HeapSize
 HeapValidate
-I;u>A
 IAssertionFailureListener::AssertionFailure()
 IMemAlloc::DumpStats: could not open output file %s
 IND)ind)
@@ -1634,7 +1524,6 @@ Ignore For 24 Hours
 Ignore This File
 Ignores this assertion for 24 hours.\r\nThis can be undone by running with -clearassertstate on the command line.
 Ignores this assertion until you quit the program.
-Il?333333c?
 Illegal char string format specifier '%c' (%d) in '%s'
 Illegal wchar_t string format specifier '%c' (%d) in '%s'
 InitPME
@@ -1672,19 +1561,13 @@ June
 K32GetMappedFileNameW
 K32GetModuleInformation
 KERNEL32.dll
-KM^bM
 Kernel32.dll
 KeyValuesSystem
-L-n>4
-L>ev
-L?UUUUUUU?
 LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
 LOADING
 LOG_GENERAL
-LWG>
-LWW>
 Launch Debugger
 LdrLockLoaderLock
 LdrLockLoaderLock() probe error. Unable to unlock the loader lock. Please report this to Dave K. You can run with "-noloaderlockprobe" to work around this issue.\n
@@ -1744,8 +1627,6 @@ LoggingSystem_SetChannelVerbosityByTag
 LoggingSystem_SetLoggingResponsePolicy
 LoggingSystem_TagName
 LoggingSystem_UnregisterLoggingListener
-M'y>0y
-MGiI
 MINIDUMP_FULL
 MINIDUMP_WRAP_CODE: Entering [%s(%u):%s:]\n
 MINIDUMP_WRAP_CODE: In __except block\n
@@ -1804,15 +1685,11 @@ Monday
 MoveFileExW
 MoveFileW
 MultiByteToWideChar
-N3`d?
-N>O=I9
-N>VF
 NAN(IND)
 NAN(SNAN)
 NOTE: this is the total bytes of the regions above, not the growth since the old snapshot\n
 NO_GAME_ASSERT_DIALOG
 NPCs
-NQ?s
 NULL
 Name
 NavMesh
@@ -1827,10 +1704,10 @@ Number of bin size classes
 Number of large size classes
 Number of thread-cache bin size classes
 OS type: %s (%d)\n
+OS: %s\n
 OSR2 
 OSTypesAreCompatible
 OVERRIDE_MINIDUMP_PATH
-OZQ%
 October
 OpenEventA
 OpenFileMappingA
@@ -2104,16 +1981,10 @@ PropVariantCopy
 PushMiniProfilerTS
 PushPopThread
 PushThread
-Q5rHg,>
-QAf?
-QguI
-Qkkbal
 Qt_GetCustomAllocators
 Quantum size
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RD?4KF?=GH?9FJ?8HL?
-RSDS\r
 RaiseException
 ReadConsoleW
 ReadFile
@@ -2155,9 +2026,6 @@ RunTSListTests
 RunTSQueueTests
 RunWithAlternateStack
 Running %s...\n
-S9>H
-S>$hkDh$h>[2
-S>T7W>
 SDL2.dll
 SDL_AudioStreamAvailable
 SDL_AudioStreamClear
@@ -2434,7 +2302,6 @@ SysStringByteLen
 SysStringLen
 SystemTimeToTzSpecificLocalTime
 System\GameConfigStore
-T9K<
 TSList cannot hold more that %d nodes\n
 TUUU
 TUUUU
@@ -2527,16 +2394,13 @@ TranslateMessage
 TranslateStackInfo
 TryAcquireSRWLockExclusive
 Tuesday
-UA>N0Wl
 UCS-2
 UNKNOWN
 URL Protocol
 URL:%s protocol
-URdN
 USER32.dll
 UTF-16LEUNICODE
 UTF-8
-UUUU
 UUUUU
 UUUUUU
 Unable to create event, error %d\n
@@ -2828,20 +2692,17 @@ VirtualAlloc
 VirtualFree
 VirtualProtect
 VirtualQuery
-W 7x
 WARNING: Large alloc of %llu bytes of memory (limit %llu)
 WARNING: Large virtual reservation of %llu bytes of memory (limit %llu)
 WARNING: there were errors during information capture, this report may be incomplete\n
 WARNING: total wall clock time was %.2f seconds, results may be invalid\n
 WINMM.dll
 WS2_32.dll
-WaNd?
 WaitForMultiple: %d exceeded maximum of %d\n
 WaitForMultipleObjects
 WaitForSingleObject
 WaitForSingleObjectEx
 WaitOnAddress
-Wak>E
 WakeAllConditionVariable
 WakeByAddressAll
 WakeByAddressSingle
@@ -2887,57 +2748,28 @@ Windows XP Professional x64
 Working set: %s\n
 WriteConsoleW
 WriteFile
-X 843"8
-X/4B
-X>0S
 X?fff?
-XS&Y+
 XboxDVRCheck: AllowGameDVR = 0x%08X (e0x%08X)\n
 XboxDVRCheck: AppCaptureEnabled = 0x%08X (e0x%08X)\n
 XboxDVRCheck: GameDVR_Enabled = 0x%08X (e0x%08X)\n
-Y8a:
-Y>kX>
-Y>kX>M
-Z>w_F
-ZSq>
-Z\>z8
-Zjz\v
 ZwQueryInformationProcess
 [   func+child         func ]
 [   func+child       func ]
 [ func+child     func ]
-[*ncd>0
-[*ncd>TQ
 [/code]
 [/list]
 [PID:%d TIME:%s EXE:%s CWD:%s] 
-[aOni*{
 [code]
 [img]
 [list]
 [thunk]:
 [url=
-\D2%4
 \\.\GDPERF
 \\.\GDPERF.VXD
-\n4Zv
 \nAbortMessage({
 \nOS memory stats:\n
 \nTesting %d threads:\n
 \n\nCMiniDumpComment encountered an error while generating the comment
-\nh?oT
-\nk>oB
-\t6RtcZO"
-\t9sv
-\tJR>8o
-\tcQr
-\tkE>fvw
-\vA03>A|
-\veBV
-]u9g
-^<V7w
-^RfN>
-^axb
 _AssertValidReadPtr
 _AssertValidReadWritePtr
 _AssertValidWritePtr
@@ -3004,11 +2836,9 @@ __thiscall
 __unaligned
 __vectorcall
 _cabs
-_f>PH
 _hypot
 _logb
 _nextafter
-_oD>Kg
 `RTTI
 `adjustor{
 `anonymous namespace'
@@ -3059,14 +2889,11 @@ _oD>Kg
 `virtual displacement map'
 `vtordispex{
 `vtordisp{
-a6>r
-a?y#c?sIe?
 abandoned_vm
 abcdefghijklmnopqrstuvwxyz
 abort
 abort_conf
 accessviolation
-aco-nz
 acos
 active
 alloc
@@ -3101,7 +2928,6 @@ atan
 atan2
 auto
 autoargs
-b\fp\v0
 background_thread
 bad allocation
 bad array new length
@@ -3132,9 +2958,6 @@ c:\buildslave\hlvr_rel_win64\build\src\tier0\platform_sdl.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier0\threadtools.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier0\tier0_strtools.cpp
 c:\source2_minidump_log.txt
-c>F2
-c>v\tk
-c?FA@s}
 cache_oblivious
 ceil
 char
@@ -3166,15 +2989,12 @@ const
 content_assertion
 cosf
 cosh
+coshf
 crash
 create
 curlextents
 curregs
 curslabs
-d8-t
-d8L2
-d?000000`?
-dRL>
 datatypemisalignment
 dbghelp.dll
 dbghelp\10\dbgcore.dll
@@ -3202,12 +3022,8 @@ disabled
 distributed...
 done\n
 double
-ds\fw
 dump
 e+000
-e>US
-eF>t
-eLK(w
 enabled
 enum 
 epoch
@@ -3215,6 +3031,7 @@ error
 exitprocess_%d
 experimental
 experimental_
+expf
 extent_avail
 extent_grow
 extent_hooks
@@ -3224,9 +3041,6 @@ extents_dirty
 extents_muzzy
 extents_retained
 extern "C" 
-fD>b
-fGa>
-fWi?
 fabs
 failed to load DbgHelp.dll.
 false
@@ -3247,7 +3061,6 @@ forced
 forced dump\n
 free
 frexp
-g9@x!8
 g_Mathlib_GammaToLinearByteTable
 g_Mathlib_SinCosTable
 g_Tier1_BitWriteMasks
@@ -3277,17 +3090,11 @@ game\..\autoargs
 game\bin
 game\bin\win64
 gamemode.dll
-gd>Z
 gdump
 generic-type-
-h0'D
-h>1my
 high
 higher
-hj>>d
 hooks
-i>VF
-i]Wb
 ignored_assertions.txt
 initialized
 inity
@@ -3298,15 +3105,10 @@ internal
 interval
 intoverflow
 invalid_parameter
-jeTb
 jemalloc
 junk
-k=yI
-k>4\tF
-k>RU
 kernel32
 kernel32.dll
-lWi]
 large
 lazy_lock
 ldexp
@@ -3321,6 +3123,7 @@ linux
 list too long
 log10
 log10f
+log2
 log_start
 log_stop
 logf
@@ -3328,11 +3131,6 @@ long
 long 
 lookup
 lower
-m?H5p?
-m?H7
-mG4>
-mO-B
-m\nXo
 macos
 malloc_conf
 map/set too long
@@ -3352,10 +3150,7 @@ muzzy_decay_ms
 muzzy_nmadvise
 muzzy_npurge
 muzzy_purged
-n03>Pu
-n>log2
 nTries < 10000000
-n]?iJ
 name
 nan(ind)
 nan(snan)
@@ -3392,11 +3187,6 @@ num_runs
 num_spin_acq
 num_threads
 num_wait
-o9sp
-o?GS
-oI>O7
-oI>b
-obwQ4
 ole32.dll
 oleaut32.dll
 operator
@@ -3437,20 +3227,16 @@ opt.xmalloc
 opt.zero
 opt_safety_checks
 oversize_threshold
-owM&
-p>.G1
-p>Y3
 pactive
 pactivep
 page
 pass\n
-pb>pAf>
 pdirty
 percpu
 percpu_arena
 phycpu
-pm>6/
 pmuzzy
+powf
 primary
 private: 
 privinstruction
@@ -3472,15 +3258,10 @@ psapi.dll
 public: 
 purecall
 purge
-q>F,3
-qS>g?h3
 quantum
 query
 queue force advance\n
 queue max wait\n
-r9T6
-rNm>)
-r\tVr.>T
 remove
 reset
 resident
@@ -3491,16 +3272,15 @@ retained
 retained_bytes
 rtree
 run_interval
-s3o\
-sHF'
-sVwES
 secondary
 shell32.dll
 short
 short 
 signed 
+sinf
 singlestep
 sinh
+sinhf
 size
 slab_size
 slab_sizes
@@ -3540,15 +3320,12 @@ total_wait_time
 true
 tsd_nominal_tsds_lock
 ugc:
-ujGs?
 union 
 unknown
 unsigned 
 uptime
 utilization
 utrace
-uzKs@>
-v2!L.2
 value of the environment variable MALLOC_CONF
 valve.org
 vector too long
@@ -3567,20 +3344,11 @@ vrfcore.dll
 vsjitdebugger.exe -p %d
 vtune
 vtuneapi.dll
-w!hy
 warning
 wchar_t
 windows
 winhttp.dll
-wn>Jj
-wo=N
-x8}0\t9
-xT?V
 xmalloc
-yE>cb
-z>h4
-z\r8Pf
-z`%1Is}
 zero
 {flat}
 {for 

@@ -1,13 +1,10 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
  Complete Object Locator'
  Type Descriptor'
- \f?number@QString@@SA?AV1@IH@Z
  delete
  delete[]
  new
@@ -41,10 +38,8 @@
 2connectionError(QString,QBearerEngineImpl::ConnectionError)
 2forcedSessionClose(QNetworkConfiguration)
 2updateCompleted()
-:\v?lock@QMutex@@QEAAXXZ
 <ellipsis>
 <unknown>
->\v?lockInline@QMutex@@QEAAXXZ
 ??0QBearerEngine@@QEAA@PEAVQObject@@@Z
 ??0QBearerEnginePlugin@@QEAA@PEAVQObject@@@Z
 ??0QChar@@QEAA@UQLatin1Char@@@Z
@@ -114,6 +109,7 @@
 ?fromLatin1@QString@@SA?AV1@PEBDH@Z
 ?fromLatin1_helper@QString@@CAPEAUData@1@PEBDH@Z
 ?hardwareAddress@QNetworkInterface@@QEBA?AVQString@@XZ
+?hasShrunk@QHashData@@QEAAXXZ
 ?humanReadableName@QNetworkInterface@@QEBA?AVQString@@XZ
 ?identifier@QNetworkConfiguration@@QEBA?AVQString@@XZ
 ?index@QNetworkInterface@@QEBAHXZ
@@ -121,16 +117,27 @@
 ?interfaceFromName@QNetworkInterface@@SA?AV1@AEBVQString@@@Z
 ?isValid@QNetworkConfiguration@@QEBA_NXZ
 ?isValid@QNetworkInterface@@QEBA_NXZ
+?lock@QMutex@@QEAAXXZ
+?lockInline@QMutex@@QEAAXXZ
 ?metaObject@QBearerEnginePlugin@@UEBAPEBUQMetaObject@@XZ
 ?name@QNetworkInterface@@QEBA?AVQString@@XZ
 ?newConfigurationActivated@QNetworkSessionPrivate@@IEAAXXZ
+?nextNode@QHashData@@SAPEAUNode@1@PEAU21@@Z
+?node_create@QMapData@@QEAAPEAUNode@1@QEAPEAU21@HH@Z
+?node_delete@QMapData@@QEAAXQEAPEAUNode@1@HPEAU21@@Z
+?number@QString@@SA?AV1@HH@Z
+?number@QString@@SA?AV1@IH@Z
+?qFree@@YAXPEAX@Z
+?qHash@@YAIAEBVQString@@@Z
 ?qNetworkConfigurationManagerPrivate@@YAPEAVQNetworkConfigurationManagerPrivate@@XZ
 ?qt_metacall@QBearerEngine@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QBearerEnginePlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QNetworkSessionPrivate@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacast@QBearerEngine@@UEAAPEAXPEBD@Z
 ?qt_metacast@QBearerEnginePlugin@@UEAAPEAXPEBD@Z
 ?qt_metacast@QNetworkSessionPrivate@@UEAAPEAXPEBD@Z
+?qt_metacast@QObject@@UEAAPEAXPEBD@Z
 ?quitPendingWaitsForOpened@QNetworkSessionPrivate@@IEAAXXZ
 ?realloc@QListData@@QEAAXH@Z
 ?registerType@QMetaType@@SAHPEBDP6AXPEAX@ZP6APEAXPEBX@Z@Z
@@ -255,7 +262,6 @@ QtCore4.dll
 QtNetwork4.dll
 Qt_GetCustomAllocators
 QueryPerformanceCounter
-RSDS
 RaiseException
 Roaming was aborted or is not possible.
 RtlCaptureContext
@@ -287,13 +293,6 @@ Wednesday
 WideCharToMultiByte
 WriteFile
 [thunk]:
-\f?nextNode@QHashData@@SAPEAUNode@1@PEAU21@@Z
-\f?node_create@QMapData@@QEAAPEAUNode@1@QEAPEAU21@HH@Z
-\f?node_delete@QMapData@@QEAAXQEAPEAUNode@1@HPEAU21@@Z
-\f?number@QString@@SA?AV1@HH@Z
-\f?qFree@@YAXPEAX@Z
-\f?qHash@@YAIAEBVQString@@@Z
-\r?qt_metacast@QObject@@UEAAPEAXPEBD@Z
 __based(
 __cdecl
 __clrcall
@@ -385,7 +384,6 @@ connectionError(QString,QBearerEngineImpl::ConnectionError)
 const
 const 
 czech
-d\t?hasShrunk@QHashData@@QEAAXXZ
 dddd, MMMM dd, yyyy
 decrementTimeout()
 doRequestUpdate()
@@ -421,7 +419,6 @@ german-lichtenstein
 german-luxembourg
 german-swiss
 great britain
-h\r?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 holland
 hong-kong
 id,error

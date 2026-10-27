@@ -5,9 +5,7 @@
     Component %d: dc=%d ac=%d
     with %d x %d thumbnail image
   Ss=%d, Se=%d, Ah=%d, Al=%d
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -18,23 +16,10 @@
  new
  throw(
  volatile
-#?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
-$3br
-%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %ld%c
-&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-( 8PX
 ('8PW
-(?setColor@QImage@@QEAAXHI@Z
-(?setColorCount@QImage@@QEAAXH@Z
-(?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
-(?setDotsPerMeterX@QImage@@QEAAXH@Z
-(?setDotsPerMeterY@QImage@@QEAAXH@Z
 (null)
-)?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
-)?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
 ,<ellipsis>
--64OS
 .?AUQFactoryInterface@@
 .?AUQImageIOHandlerFactoryInterface@@
 .?AVQImageIOHandler@@
@@ -48,20 +33,16 @@ $3br
 .?AVbad_typeid@std@@
 .?AVexception@std@@
 .?AVtype_info@@
-/?size@QImage@@QEBA?AVQSize@@XZ
 /TF<)VGy#WH
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-2\vpH,
 700PP
 700WP
 8c  16-Jan-2011
-;&?scaled@QImage@@QEBA?AV1@AEBVQSize@@W4AspectRatioMode@Qt@@W4TransformationMode@4@@Z
 <ellipsis>
 <unknown>
-=\r?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
 ??0QByteArray@@QEAA@PEBD@Z
 ??0QImage@@QEAA@AEBVQSize@@W4Format@0@@Z
 ??0QImageIOHandler@@QEAA@XZ
@@ -111,20 +92,41 @@ $3br
 ?height@QImage@@QEBAHXZ
 ?imageCount@QImageIOHandler@@UEBAHXZ
 ?isNull@QImage@@QEBA_NXZ
+?isOpen@QIODevice@@QEBA_NXZ
+?isReadable@QIODevice@@QEBA_NXZ
+?isWritable@QIODevice@@QEBA_NXZ
 ?jumpToImage@QImageIOHandler@@UEAA_NH@Z
 ?jumpToNextImage@QImageIOHandler@@UEAA_NXZ
 ?loopCount@QImageIOHandler@@UEBAHXZ
 ?metaObject@QImageIOPlugin@@UEBAPEBUQMetaObject@@XZ
 ?nextImageDelay@QImageIOHandler@@UEBAHXZ
+?peek@QIODevice@@QEAA_JPEAD_J@Z
+?qDetectCPUFeatures@@YAIXZ
+?qFree@@YAXPEAX@Z
+?qWarning@@YAXPEBDZZ
+?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
+?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
+?read@QIODevice@@QEAA_JPEAD_J@Z
 ?removeGuard@QMetaObject@@SAXPEAPEAVQObject@@@Z
+?scaled@QImage@@QEBA?AV1@AEBVQSize@@W4AspectRatioMode@Qt@@W4TransformationMode@4@@Z
+?scanLine@QImage@@QEAAPEAEH@Z
+?setColor@QImage@@QEAAXHI@Z
+?setColorCount@QImage@@QEAAXH@Z
+?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
+?setDotsPerMeterX@QImage@@QEAAXH@Z
+?setDotsPerMeterY@QImage@@QEAAXH@Z
+?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
+?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
 ?shared_null@QListData@@2UData@1@A
+?size@QImage@@QEBA?AVQSize@@XZ
 ?staticMetaObject@QBuffer@@2UQMetaObject@@B
 ?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
 ?toInt@QVariant@@QEBAHPEA_N@Z
 ?toRect@QVariant@@QEBA?AVQRect@@XZ
 ?toSize@QVariant@@QEBA?AVQSize@@XZ
+?width@QImage@@QEBAHXZ
 ?write@QIODevice@@QEAA_JPEBD_J@Z
-A!;I2
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ALIGN_TYPE is wrong, please fix
 Adobe APP14 marker: version %d, flags 0x%04x 0x%04x, transform %d
@@ -135,7 +137,6 @@ April
 Arithmetic table 0x%02x was not defined
 At marker 0x%02x, recovery action %d
 August
-BKbhTb~XBK!;
 Backing store not supported
 Bogus DAC index %d
 Bogus DAC value 0x%x
@@ -187,7 +188,6 @@ End Of Image
 EnterCriticalSection
 EnumSystemLocalesA
 ExitProcess
-F&?scanLine@QImage@@QEAAPEAEH@Z
 Failed to create temporary file %s
 FatalAppExitA
 February
@@ -235,7 +235,6 @@ GetUserDefaultLCID
 GetUserObjectInformationW
 GetVersion
 HH:mm:ss
-HMXB
 HeapAlloc
 HeapCreate
 HeapDestroy
@@ -299,7 +298,6 @@ Miscellaneous marker 0x%02x, length %u
 Missing Huffman code table entry
 Monday
 MultiByteToWideChar
-NKeb
 NULL
 Norwegian-Nynorsk
 Not a JPEG file: starts with 0x%02x 0x%02x
@@ -321,7 +319,6 @@ Quantization table 0x%02x was not defined
 Quantizing to %d = %d*%d*%d colors
 Quantizing to %d colors
 QueryPerformanceCounter
-RSDS
 RST%d
 RaiseException
 Read failed on temporary file
@@ -334,7 +331,6 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S;uD
 Sampling factors too large for interleaved scan
 Saturday
 Scan script does not transmit all data
@@ -386,16 +382,8 @@ WriteConsoleW
 WriteFile
 Wrong JPEG library version: library is %d, caller expects %d
 YpU_Z
-Z@&LHA'\r:C(
 Zpm"U
 [thunk]:
-\f?qDetectCPUFeatures@@YAIXZ
-\f?qFree@@YAXPEAX@Z
-\n?isReadable@QIODevice@@QEBA_NXZ
-\n?isWritable@QIODevice@@QEBA_NXZ
-\r?qWarning@@YAXPEBDZZ
-\r?read@QIODevice@@QEAA_JPEAD_J@Z
-\tN1a
 __based(
 __cdecl
 __clrcall
@@ -424,7 +412,6 @@ __unaligned
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static destructor helper'
 `local static guard'
 `local static thread guard'
@@ -505,7 +492,6 @@ english-us
 english-usa
 enum 
 extern "C" 
-f"?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 float
 french-belgian
 french-canadian
@@ -525,14 +511,12 @@ irish-english
 italian-swiss
 j'Vlk
 jpeg
-kU'9
 long
 long 
 new-zealand
 norwegian
 norwegian-bokmal
 norwegian-nynorsk
-o\n?isOpen@QIODevice@@QEBA_NXZ
 operator
 pattern=QT_PLUGIN_VERIFICATION_DATA\nversion=4.8.3\ndebug=false\nbuildkey=Windows x64 msvc release full-config
 portuguese-brazilian
@@ -542,11 +526,9 @@ private:
 protected: 
 public: 
 puerto-rico
-q\f?peek@QIODevice@@QEAA_JPEAD_J@Z
 qjpeg4.dll
 qt_plugin_instance
 qt_plugin_query_verification_data
-sAmTb
 short
 short 
 signed 
@@ -592,10 +574,5 @@ void
 volatile
 volatile 
 wchar_t
-xppwpp
-xpxxxx
-z?aUY
-zc%C1
-{8?width@QImage@@QEBAHXZ
 {flat}
 {for 

@@ -50,10 +50,9 @@
   XMLPacket (XMP Metadata):\n
   YCbCr Positioning: 
   YCbCr Subsampling: %u, %u\n
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  %5lu
+ %5u
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (unit %u = 0x%x)
@@ -79,9 +78,7 @@
 "%s": Bad mode
 "%s": Information lost writing value (%g) as (unsigned) RATIONAL
 "Predictor" value %d not supported
-#?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
 %.100s: Can not read TIFF directory
-%?rotate@QMatrix@@QEAAAEAV1@N@Z
 %S: Cannot open
 %d bit input not supported in PixarLog
 %d: Sample out of range, max %d
@@ -95,11 +92,13 @@
 %lu: Sample out of range, max %lu
 %lu: Strip out of range, max %lu
 %lu: Tile out of range, max %lu
+%lu\n
 %s %s decoding is not implemented
 %s %s encoding is not implemented
 %s compression support is not configured
 %s%u (0x%x)
 %s2-d encoding
+%s: %s
 %s: %s at line %u of %s %u (got %u, expected %u)
 %s: Bad code word at line %u of %s %u (x %u)
 %s: Bad field type %d for "%s"
@@ -130,6 +129,7 @@
 %s: No space for %s arrays
 %s: No space for Group 3/4 reference line
 %s: No space for LogLuv state block
+%s: No space for SGILog translation buffer
 %s: No space for data buffer at scanline %ld
 %s: No space for output buffer
 %s: No space for state block
@@ -170,19 +170,12 @@
 %sunassoc-alpha
 %suncompressed data
 %sunspecified
-( 8PX
+%u (0x%x)\n
 ('8PW
-(?setColorTable@QImage@@QEAAXV?$QVector@I@@@Z
-(?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
-(?setDotsPerMeterX@QImage@@QEAAXH@Z
-(?setDotsPerMeterY@QImage@@QEAAXH@Z
 (infinite)\n
 (null)
 (present)\n
-)?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
-)?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
 ,<ellipsis>
--64OS
 .?AUQFactoryInterface@@
 .?AUQImageIOHandlerFactoryInterface@@
 .?AVQImageIOHandler@@
@@ -196,7 +189,6 @@
 .?AVbad_typeid@std@@
 .?AVexception@std@@
 .?AVtype_info@@
-/?size@QImage@@QEBA?AVQSize@@XZ
 0 (0x0)
 0x%ulx
 0x%x
@@ -205,23 +197,12 @@
 1#QNAN
 1#SNAN
 1.2.5
-11UT
-2\n0 8
-2\vp 8
-6?transformed@QImage@@QEBA?AV1@AEBVQMatrix@@W4TransformationMode@Qt@@@Z
 7 (0x7)
 700PP
 700WP
-7yp>
-8&Kx
-9g>@3
 <ellipsis>
 <unknown>
 <unsupported data type in TIFFPrint>
-=\r?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
->8UUUUU
->Tag 
-?%s: No space for SGILog translation buffer
 ??0QByteArray@@QEAA@PEBD@Z
 ??0QImage@@QEAA@HHW4Format@0@@Z
 ??0QImageIOHandler@@QEAA@XZ
@@ -240,6 +221,7 @@
 ??4QImage@@QEAAAEAV0@AEBV0@@Z
 ?allocate@QVectorData@@SAPEAU1@HH@Z
 ?append@QListData@@QEAAPEAPEAXXZ
+?bits@QImage@@QEAAPEAEXZ
 ?changeGuard@QMetaObject@@SAXPEAPEAVQObject@@PEAV2@@Z
 ?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
 ?colorTable@QImage@@QEBA?AV?$QVector@I@@XZ
@@ -265,6 +247,9 @@
 ?height@QImage@@QEBAHXZ
 ?imageCount@QImageIOHandler@@UEBAHXZ
 ?isNull@QImage@@QEBA_NXZ
+?isOpen@QIODevice@@QEBA_NXZ
+?isReadable@QIODevice@@QEBA_NXZ
+?isWritable@QIODevice@@QEBA_NXZ
 ?jumpToImage@QImageIOHandler@@UEAA_NH@Z
 ?jumpToNextImage@QImageIOHandler@@UEAA_NXZ
 ?logicalDpiX@QPaintDevice@@QEBAHXZ
@@ -273,17 +258,34 @@
 ?metaObject@QImageIOPlugin@@UEBAPEBUQMetaObject@@XZ
 ?mirrored@QImage@@QEBA?AV1@_N0@Z
 ?nextImageDelay@QImageIOHandler@@UEBAHXZ
+?peek@QIODevice@@QEAA?AVQByteArray@@_J@Z
+?qFree@@YAXPEAX@Z
+?qMalloc@@YAPEAX_K@Z
+?qMemSet@@YAPEAXPEAXH_K@Z
+?qWarning@@YAXPEBDZZ
+?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
+?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
+?read@QIODevice@@QEAA_JPEAD_J@Z
 ?reallocate@QVectorData@@SAPEAU1@PEAU1@HHH@Z
 ?removeGuard@QMetaObject@@SAXPEAPEAVQObject@@@Z
+?rotate@QMatrix@@QEAAAEAV1@N@Z
+?scanLine@QImage@@QEAAPEAEH@Z
+?setColorTable@QImage@@QEAAXV?$QVector@I@@@Z
+?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
+?setDotsPerMeterX@QImage@@QEAAXH@Z
+?setDotsPerMeterY@QImage@@QEAAXH@Z
+?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
+?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
 ?shared_null@QListData@@2UData@1@A
+?size@QImage@@QEBA?AVQSize@@XZ
 ?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
 ?toInt@QVariant@@QEBAHPEA_N@Z
+?transformed@QImage@@QEBA?AV1@AEBVQMatrix@@W4TransformationMode@Qt@@@Z
 ?type@QVariant@@QEBA?AW4Type@1@XZ
+?width@QImage@@QEBAHXZ
 ?write@QIODevice@@QEAA_JPEBD_J@Z
-@Compression algorithm does not support random access
-@No space for "TransferFunction" tag
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
-A`1w>
 ActiveArea
 AdobeDeflate
 AnalogBalance
@@ -358,6 +360,7 @@ Colormap
 ComponentsConfiguration
 CompressedBitsPerPixel
 Compression
+Compression algorithm does not support random access
 Compression scheme %u %s decoding is not implemented
 Compression scheme %u %s encoding is not implemented
 Compression scheme does not support access to raw uncompressed data
@@ -371,7 +374,6 @@ CreateFileW
 CurrentICCProfile
 CurrentPreProfileMatrix
 CustomRendered
-Cy2@K>
 DNGBackwardVersion
 DNGPrivateData
 DNGVersion
@@ -416,7 +418,6 @@ ExposureMode
 ExposureProgram
 ExposureTime
 ExtraSamples
-F&?scanLine@QImage@@QEAAPEAEH@Z
 FALSE
 FNumber
 Failed to allocate field info array
@@ -495,13 +496,11 @@ GetVersion
 GlobalAlloc
 GlobalFree
 GlobalSize
-GrJoq>@
 GrayResponseCurve
 GrayResponseUnit
 Group3Options
 Group4Options
 HH:mm:ss
-HMXB
 HalftoneHints
 HeapAlloc
 HeapCreate
@@ -512,7 +511,6 @@ HeapSetInformation
 HeapSize
 Horizontal differencing "Predictor" not supported with %d-bit samples
 HostComputer
-I;u>A
 ICC Profile
 IEEE floating point\n
 ISO JBIG
@@ -573,7 +571,6 @@ LogL16InitState
 LogLuvDecode24: Not enough data at row %d (short %d pixels)
 LogLuvDecode32: Not enough data at row %d (short %d pixels)
 LogLuvInitState
-M'y>0y
 MM/dd/yy
 Make
 MakerNote
@@ -603,13 +600,13 @@ MissingRequired
 Model
 Monday
 MultiByteToWideChar
-NKeb
 NULL
 NeXT
 NeXTDecode: Not enough data for scanline %ld
 No "get" routine setup
 No "put" routine setupl; probably can not handle image format
 No space %s
+No space for "TransferFunction" tag
 No space for B&W mapping table
 No space for CIE L*a*b*->RGB conversion state.
 No space for LZW code table
@@ -684,8 +681,6 @@ QtGui4.dll
 Qt_GetCustomAllocators
 QueryPerformanceCounter
 RGB color
-RSDS
-R\vp 8
 RaiseException
 RawDataUniqueID
 ReadFile
@@ -704,7 +699,6 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S;uD
 SGILog
 SGILog compression cannot handle non-contiguous data
 SGILog compression supported only for %s, or raw data
@@ -808,6 +802,7 @@ TIFFWriteRawStrip
 TIFFWriteRawTile
 TIFFWriteScanline
 TRUE
+Tag 
 Tag %d
 Tag Value
 TargetPrinter
@@ -829,7 +824,6 @@ Too much
 TransferFunction
 Tuesday
 UNKNOWN
-UUUU
 UnhandledExceptionFilter
 UniqueCameraModel
 Unknown
@@ -838,7 +832,6 @@ Unknown encoding %d for LogLuv compression
 Unknown exception
 UnmapViewOfFile
 UserComment
-Wak>E
 Warning, 
 Wednesday
 WhiteBalance
@@ -866,17 +859,8 @@ ZIPPostEncode
 ZIPSetupDecode
 ZIPSetupEncode
 ZIPVSetField
-ZSq>
 [thunk]:
 \%03o
-\f?qFree@@YAXPEAX@Z
-\n?isReadable@QIODevice@@QEBA_NXZ
-\n?isWritable@QIODevice@@QEBA_NXZ
-\n\r?qMalloc@@YAPEAX_K@Z
-\r?qWarning@@YAXPEBDZZ
-\r?read@QIODevice@@QEAA_JPEAD_J@Z
-\r\r?qMemSet@@YAPEAXPEAXH_K@Z
-\tJR>8o
 _TIFFMergeFieldInfo
 _TIFFSetupFieldInfo
 _TIFFVGetField
@@ -913,7 +897,6 @@ _nextafter
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static destructor helper'
 `local static guard'
 `local static thread guard'
@@ -964,7 +947,6 @@ belgian
 bilevel art scan\n
 bool
 britain
-c>F2
 canadian
 cannot read TIFF_ANY type %d for field "%s"
 ceil
@@ -1016,8 +998,6 @@ enum
 error diffused\n
 expf
 extern "C" 
-f"?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-fGa>
 fabs
 field[%2d] %5lu, %2d, %2d, %d, %2d, %5s, %5s, %s\n
 float
@@ -1059,9 +1039,6 @@ initYCbCrConversion
 int 
 irish-english
 italian-swiss
-jeTb
-k>4\tF
-kU'9
 ldexp
 log10
 log10f
@@ -1069,23 +1046,17 @@ logf
 long
 long 
 lsb-to-msb\n
-mO-B
 min-is-black
 min-is-white
 modf
 msb-to-lsb\n
 must be either LogLUV or LogL
-n$Kx
 new-zealand
 none 
 norwegian
 norwegian-bokmal
 norwegian-nynorsk
-o\n?isOpen@QIODevice@@QEBA_NXZ
 operator
-p>.G1
-p>Y3
-p\f?peek@QIODevice@@QEAA?AVQByteArray@@_J@Z
 palette color (RGB from colormap)
 pattern=QT_PLUGIN_VERIFICATION_DATA\nversion=4.8.3\ndebug=false\nbuildkey=Windows x64 msvc release full-config
 portuguese-brazilian
@@ -1097,11 +1068,9 @@ protected:
 pseudo-
 public: 
 puerto-rico
-q>F,3
 qt_plugin_instance
 qt_plugin_query_verification_data
 qtiff4.dll
-rNm>)
 row 0 bottom, col 0 lhs
 row 0 bottom, col 0 rhs
 row 0 lhs, col 0 bottom
@@ -1151,7 +1120,6 @@ strips
 struct 
 swedish-finland
 swiss
-t\f?bits@QImage@@QEAAPEAEXZ
 tanh
 template-parameter-
 tier0.dll
@@ -1179,11 +1147,5 @@ void\n
 volatile
 volatile 
 wchar_t
-xppwpp
-xpxxxx
-z>h4
-z?aUY
-zc%C1
-{8?width@QImage@@QEBAHXZ
 {flat}
 {for 

@@ -22,15 +22,12 @@
   TEX: %u textures, %.2f MB\n
   TOTAL: %.2f MB\n
   VB: %d buffers, %.2f MB\n
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  -shadowTargetSize forcing nPoolSizeInMb size to %d from %d, bLarge %d, avail %lld\n
  Base Class Array'
  Base Class Descriptor at (
- C>TQ
  Can't specify initial state of dynamic constant buffers at creation time!\n
  Class Hierarchy Descriptor'
  Complete Object Locator'
@@ -42,7 +39,6 @@
  new
  receiver regenerated
  uncorrected errors
-!AxU
 "%s": Bad mode
 "%s": Information lost writing value (%g) as (unsigned) RATIONAL
 "Predictor" value %d not supported
@@ -50,7 +46,6 @@
 "compression" attribute not found in the header.
 "dataWindow" attribute not found in the header or invalid.
 "displayWindow" attribute not found in the header.
-"e?<<<<<<l?
 "lineOrder" attribute not found in the header.
 "pixelAspectRatio" attribute not found in the header.
 "screenWindowCenter" attribute not found in the header.
@@ -61,12 +56,10 @@
 #RenderSystem_CannotCreateDevice
 #RenderSystem_NoValidDevice
 #RenderSystem_UnableToStartGame
-#bML"
 #base
 #base is NULL 
 #include
 #include is NULL 
-$Ib?s
 %.100s: Can not read TIFF directory
 %f %f %f %f
 %i %i %i %i
@@ -74,11 +67,13 @@ $Ib?s
 %lld
 %lu: Row out of range, max %lu
 %lu: Sample out of range, max %lu
+%p::%p:%d
 %s %s decoding is not implemented
 %s %s encoding is not implemented
 %s called on an immutable constant buffer\n
 %s compression support is not configured
 %s2-d encoding
+%s: %s
 %s: %s at line %u of %s %u (got %u, expected %u)
 %s: Bad code word at line %u of %s %u (x %u)
 %s: Bad field type %d for "%s"
@@ -130,12 +125,10 @@ $Ib?s
 %s: zlib error: %s
 %sEOL padding
 %suncompressed data
-&?PPPPPPP?
-&Sgw
+%u (0x%x)\n
 (%s): ADD %s = %s\n
 (%s): Setting %s to %s\n
 (null)
-)yIx
 *** IB "%s": Failed to allocate!\n
 *** IB "%s": Tried to lock a GPU-only buffer!\n
 *** IB "%s": Tried to lock a non integral number of indices!\n
@@ -149,14 +142,10 @@ $Ib?s
 *** VB "%s": Tried to lock a static buffer twice!\n
 *** VB "%s": Tried to lock too much memory (%d>%d)!\n
 *** VB "%s": Tried to lock twice without an unlock!\n
-*5KS
-*StO9>T
 +r_texture_pool_size
 +r_texture_pool_size %d overriding the default texture pool size of %d MB\n
 , channels = 
 , height = 
-,HR>O
--BH>t
 -adapter
 -autoconfig
 -autoconfig_level
@@ -192,7 +181,6 @@ $Ib?s
 -sse4
 -vulkan
 .00cfg
-.>\rfJBGo
 .?AUID3DXInclude@@
 .?AU_Crt_new_delete@std@@
 .?AUctype_base@std@@
@@ -395,20 +383,13 @@ $Ib?s
 .tls$
 .tls$ZZZ
 .txt
-.xJ>Hf
 .xdata
 .xdata$x
-/2GG>!B
-/P8i
 /TF<)VGy#WH
-/yQA
 0.05
 0.90
 0123456789abcdefghijklmnopqrstuvwxyz
 0: Bilinear, 1: Trilinear, 2: Aniso 2x, 3: Aniso 4x, 4: Aniso 8x, 5: Aniso 16x
-0E>X
-0X8b?~
-0iN>/
 0x%016llX
 1#IND
 1#INF
@@ -417,35 +398,12 @@ $Ib?s
 1.2.5
 10_0
 10_1
-11Y@
 11_0
 11_1
 1600
-1A26b
-1wsHp
 256.0
-2\rU2h
-3 FB
-37>k
-3>N;kU
-3>fvw
-3?tr
-3\f534+
-51>W
-52F*
 64.0
-6NK>
-6\fXO>\ntA
-7>I0
-7?GX
-7~8A
-7~xh
-8&Kx
 8b  16-May-2010
-8ke?;
-9>70
-9>powf
-9a&g
 <Invalid>
 <NULL>
 <No D3D11>
@@ -461,19 +419,6 @@ $Ib?s
 <unknown multisample type
 <unknown>
 <x360>
-=87M
-=cQ6
-=e2m
-=imb;D
->Report the maximum D3D feature level available.
->WIN32
->cQ6
->jtm}S
-?!5WOo
-?49HoKC
-?7zQ6$
-?7{KV\nU
-?8bunz8
 ??0CThreadEvent@@QEAA@_N@Z
 ??0CThreadFastMutex@@QEAA@XZ
 ??0CThreadMutex@@QEAA@PEBD@Z
@@ -482,7 +427,6 @@ $Ib?s
 ??0CThreadSemaphore@@QEAA@HHPEBD_N@Z
 ??1CThreadEvent@@QEAA@XZ
 ??1CThreadSemaphore@@QEAA@XZ
-?@En[vP
 ?AppendFormat@CBufferString@@QEAAHPEBDZZ
 ?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z
 ?DevMsg@@YAXPEBDZZ
@@ -499,7 +443,6 @@ $Ib?s
 ?LockForRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULeafCodeInfo_t@@PEBDZZ
 ?Purge@CBufferString@@QEAAXH@Z
-?R0I?
 ?Release@CThreadSemaphore@@QEAA_NHPEAH@Z
 ?RemoveAt@CBufferString@@QEAAPEBDHH@Z
 ?Set@CThreadEvent@@QEAA_NXZ
@@ -508,7 +451,6 @@ $Ib?s
 ?SetLength@CBufferString@@QEAAPEADH_NPEAH@Z
 ?SpinLockForWrite@CThreadSpinRWLock@@AEAAXPEBDHI@Z
 ?ToLowerFast@CBufferString@@QEAAXH@Z
-?UUUUUU
 ?Unlock@CThreadFastMutex@@QEAAXPEBDH@Z
 ?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockRead@CThreadSpinRWLock@@QEAAXPEBDH@Z
@@ -517,19 +459,8 @@ $Ib?s
 ?UnlockWrite@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
 ?Wait@CThreadSyncObject@@QEAA_NI@Z
-?f`Y4
-?kxG2)
-?lZE
-?qBJ
-?rAj
-?sequence number %d too low in sheet file!!!\n
-?ysB
-@Integer overflow in %s
-A!;I2
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABGR8888
-AK>(v
 ALIGN_TYPE is wrong, please fix
 ALPHA %s CUBEMAP %s MIPCUBEMAP %s SQUAREONLY %s\n
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
@@ -577,10 +508,7 @@ AsyncHookUpTextureBits
 AsyncTextureHookup
 At marker 0x%02x, recovery action %d
 August
-B.f?y
 BC6H
-BC?>6t9^\tc:>
-BF>^G
 BGR101111_UFLOAT
 BGR565
 BGR888
@@ -594,9 +522,7 @@ BGRA8888_LINEAR
 BGRX5551
 BGRX8888
 BGRX8888_LINEAR
-BKbhTb~XBK!;
 BLENDOP %s CLIPPLANESCALEDPOINTS %s CLIPTLVERTS %s\n
-B\vp\nP
 Back buffer %dx%d [%d, %d], MS: %d, %d, Swap %d, Windowed %d (device window %p), flags %d, refresh %d, interval %x\n
 Backing store not supported
 Bad VTEX data for '%s'\n
@@ -634,8 +560,6 @@ Bogus message code %d
 Bogus sampling factors
 Bogus virtual array access
 Buffer passed to JPEG library is too small
-C-Yn
-C5R?\t
 CANBLTSYSTONONLOCAL %s CANRENDERAFTERFLIP %s HWRASTERIZATION %s\n
 CCIR601 sampling not implemented yet
 CCITT Group 3
@@ -648,7 +572,6 @@ CFALayout
 CFAPlaneColor
 CGlobalConfigValueRegistry::HookUpConfigValue
 CInputLayoutDict<class CInputLayoutDx9>::ConcatentateInputLayouts
-CL:>8
 CLargeCommandBufferChunk CUtlMemoryPoolMT
 CMediumCommandBufferChunk CUtlMemoryPoolMT
 CMemAllocSystemInitialize
@@ -668,15 +591,15 @@ CRenderContextDx9::ResolveDepthStencilTarget
 CRenderContextDx9::ResolveRenderTarget
 CRenderContextDx9::SetConstantBufferDataInternal
 CRenderContextDx9::SetTextureDataFromResource
-CRenderDeviceBase::AsyncSetTextureData(3277): 
-CRenderDeviceBase::CreateConstantBuffer(1547): 
-CRenderDeviceBase::FindOrCreateTexture(1720): 
+CRenderDeviceBase::AsyncSetTextureData(3279): 
+CRenderDeviceBase::CreateConstantBuffer(1549): 
+CRenderDeviceBase::FindOrCreateTexture(1722): 
 CRenderDeviceBase::FindOrCreateTexture: Trying to load multiple mipmaps into 3d or array texture: %s\n
-CRenderDeviceBase::Flush(958): 
-CRenderDeviceBase::ForceFlushGPU(975): 
+CRenderDeviceBase::Flush(960): 
+CRenderDeviceBase::ForceFlushGPU(977): 
 CRenderDeviceBase::InitPerFrameMemoryStack
-CRenderDeviceBase::Present(681): 
-CRenderDeviceBase::ProcessPendingAsyncTextureUpdates(3410): 
+CRenderDeviceBase::Present(683): 
+CRenderDeviceBase::ProcessPendingAsyncTextureUpdates(3412): 
 CRenderDeviceDx9::CreateDefaultShaders
 CRenderDeviceDx9::CreatePixelShader: Failed to create Pixel Shader!\n
 CRenderDeviceDx9::CreateVertexShader: Failed to create Vertex Shader!\n
@@ -771,7 +694,6 @@ CUtlStringToken
 CUtlSymbol
 CUtlSymbolLarge
 CUtlVector
-CWD>~3
 CalibrationIlluminant1
 CalibrationIlluminant2
 CameraCalibration1
@@ -973,13 +895,11 @@ Dx9Device()->CreateVolumeTexture( actualSpec.m_nWidth, actualSpec.m_nHeight, act
 Dx9Device()->CreateVolumeTexture( nWidth, nHeight, nDepth, nMipLevels, d3dUsage, d3dFormat, D3DPOOL_SYSTEMMEM, (IDirect3DVolumeTexture9 **)&pLockableTexture, NULL )
 Dx9Device()->UpdateSurface( pSrcSurface, NULL, pDestSurface, &pt )
 Dynamically adjust texture streaming budget based on GPU memory usage.
-E>nEA
 EDeviceCreated
 EDeviceLost
 EDeviceRestored
 ERROR! D3D call failed! hr = %s ( %s )\n*** Run with Debug D3D9 Runtime to see native D3D errors!\n
 ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!\n
-ET5>
 EXECUTABLE_PATH
 EXIFIFDOffset
 EXPORTSYSTEM_INTERFACE_VERSION_001
@@ -987,12 +907,10 @@ EXRHeader variable is not initialized.
 EXRReadFile() - B channel not found!\n
 EXRReadFile() - G channel not found!\n
 EXRReadFile() - R channel not found!\n
-E[\rn?gc
 E_FAIL
 E_INVALIDARG
 E_OUTOFMEMORY
 EconItemToolModel_001
-EiUL
 Empty
 Empty JPEG image (DNL not supported)
 Empty input file
@@ -1031,9 +949,7 @@ ExitAndReportBadThirdPartyProcesses
 ExitProcess
 Externally allocated textures unsupported in DX9\n
 ExtraSamples
-F>qUxv
 FATAL ERROR: unable to register all schema data: %s\n
-FEMh\f
 FOGRANGE %s FOGTABLE %s FOGVERTEX %s ZFOG %s WFOG %s\n
 Failed AllocateTexture for '%s'\n
 Failed to allocate field info array
@@ -1065,7 +981,6 @@ FaxRecvParams
 FaxRecvTime
 FaxSubAddress
 February
-FfW?
 FieldOfViewCotangent
 File not open for reading
 FileKeys
@@ -1108,7 +1023,6 @@ FreeOffsets
 Freed EMS handle %u
 Freed XMS handle %u
 Friday
-G>US
 GAME
 GAMECONSOLE
 GCTL
@@ -1117,7 +1031,6 @@ GPU reports %dMB available memory which is too low, using %d MB\n
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameUIService_001
-Gc:\buildslave\hlvr_rel_win64\build\src\tier1\mempool.cpp
 GetACP
 GetCPInfo
 GetCPUInformation
@@ -1178,8 +1091,6 @@ GrayResponseCurve
 GrayResponseUnit
 Group3Options
 Group4Options
-H$6t
-H*0"ZOW
 HH:mm:ss
 HIGHDPI
 HWTRANSFORMANDLIGHT %s NPATCHES %s PUREDEVICE %s\n
@@ -1205,8 +1116,6 @@ INTZ
 INTZRAWZDF16DF24ATI2ATI1
 IQuickTime001
 ISO JBIG
-IiGM>nw
-Il?333333c?
 Image data size is zero or too large: width = 
 Image too wide for this implementation
 ImageDepth
@@ -1237,6 +1146,7 @@ Insufficient data size in offset table.
 Insufficient data size.\n
 Insufficient header/data size.\n
 Insufficient memory (case %d)
+Integer overflow in %s
 Intentionally vague touch behavior for %p\n
 InterlockedFlushSList
 Internal D3D9 driver error at Present.\n
@@ -1294,8 +1204,6 @@ KeyValueCache001
 KeyValues Error: %s in file %s\n
 KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s\n
 KeyValuesSystem
-L>ev
-L?UUUUUUU?
 LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
@@ -1315,8 +1223,6 @@ LINEAR_RGBA8888
 LINUX
 LOG_GENERAL
 LOWVIOLENCE
-LWG>
-LWW>
 LZWDecode: Bogus encoding, loop in the code table; scanline %d
 LZWDecode: Corrupted LZW table at scanline %d
 LZWDecode: Not enough data at scanline %d (short %ld bytes)
@@ -1353,10 +1259,8 @@ LogLuvInitState
 LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
 LoggingSystem_RegisterLoggingChannel
-M8MF
 MATCHFRAMEWORK_001
 MAX_ALLOC_CHUNK is wrong, please fix
-MGiI
 MIPMAPLODBIAS %s WBUFFER %s ZBIAS %s ZTEST %s\n
 MM/dd/yy
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
@@ -1402,14 +1306,9 @@ Model
 ModelDocUtils001
 Monday
 MultiByteToWideChar
-N3`d?
-N>O=I9
-N>VF
 NAN(IND)
 NAN(SNAN)
-NJ2"v
 NOT 
-NQ?s
 NULL
 NV_DST16
 NV_DST24
@@ -1447,11 +1346,8 @@ Not enough
 Not implemented yet
 November
 NumberOfInks
-O*9y]
 OLEAUT32.dll
 OUTSTANDING_HOOKUP_REQUEST 
-OZQ%
-OZw3(?
 Obtained EMS handle %u
 Obtained XMS handle %u
 October
@@ -1492,7 +1388,6 @@ PanoramaUIClient001
 PanoramaUIEngine001
 ParseEXRHeaderFromMemory() failed! Error message: %s\n
 ParticleSystemMgr003
-Pe6^
 Photometric tag is missing, assuming data is YCbCr
 Photometric tag value assumed incorrect, assuming data is YCbCr instead of RGB
 PhotometricInterpretation
@@ -1545,10 +1440,7 @@ Premature end of input file
 PrimaryChromaticities
 PropertyEditorSystem_001
 Q2XXR
-Q5rHg,>
-QAf?
 QAngle
-Qkkbal
 Quantization table 0x%02x was not defined
 Quantizing to %d = %d*%d*%d colors
 Quantizing to %d colors
@@ -1558,11 +1450,11 @@ QueuedLoaderVersion001
 R11_EAC
 R16F
 R16F_EXPAND
-R1h58
 R32F
 R32_UINT
 R8G8B8A8_ETC2_EAC
 R8G8B8_ETC2
+R8_UINT
 RAWZ
 RENDER_BUFFER_APPEND_CONSUME_BUFFER
 RENDER_BUFFER_BYTEADDRESS_BUFFER
@@ -1654,7 +1546,6 @@ RGBA8888
 RGBA8888_LINEAR
 RGBX555
 RGBX8888
-RSDS
 RST%d
 RadianEuler
 RaiseException
@@ -1676,6 +1567,7 @@ ReductionMatrix2
 ReferenceBlackWhite
 RegisterConfigValue: Unknown error constructing config value "%s"!\n
 Registering anonymous field with tag %d (0x%x) failed
+Release
 ReleaseD3DTexture(166): 
 ReleaseThreadHandle
 RenderBufferFlags_t
@@ -1704,6 +1596,7 @@ Rendering/Texture Unthrottle Streaming
 Rendering/Vertex Buffers (MB)
 Rendersystem/SheetCacheTextureCols
 Rendersystem/SheetCacheTextureRows
+Report the maximum D3D feature level available.
 Requested feature was omitted at compile time
 Reset Issue: Still Have Surface %s\n
 Reset Issue: Still Have Texture %s\n
@@ -1723,8 +1616,6 @@ RtlPcToFileHeader
 RtlUnwind
 RtlUnwindEx
 RtlVirtualUnwind
-S9>H
-S>$hkDh$h>[2
 SELECT * FROM Win32_VideoController
 SEPARATETEXTUREMEMORIES %s TEXTURENONLOCALVIDMEM %s TEXTURESYSTEMMEMORY %s\n
 SGILog
@@ -1735,7 +1626,6 @@ SGILogDataFmt
 SGILogEncode
 SHADERAPI CAPS:\n
 SHADER_MODEL_3
-SKyu
 SMaxSampleValue
 SMinSampleValue
 SSE and SSE2 are required.
@@ -1850,6 +1740,7 @@ TSPEC_CUBE_CAN_SAMPLE_AS_ARRAY
 TSPEC_CUBE_TEXTURE
 TSPEC_FLAGS
 TSPEC_FRAGMENT_DENSITY_MAP
+TSPEC_FRAGMENT_SHADING_RATE
 TSPEC_INPUT_ATTACHMENT
 TSPEC_LINEAR_ADDRESSING_360
 TSPEC_LINEAR_COLOR_SPACE
@@ -1923,7 +1814,6 @@ Trying to set dxlevel (%d) which is higher than the card can support (%d)!\n
 Trying to set dxlevel (%d) which is lower than the card can support (%d)!\n
 Trying to use unsupported blend mode in D3D9!\n
 Tuesday
-UA>N0Wl
 UNKNOWN
 USER32.dll
 UUUUUU
@@ -2028,7 +1918,6 @@ V_vsnprintf
 V_vsnprintfSize
 V_wcstod
 V_wcstoi64
-Vc0a
 VeaFOfb
 Vector
 Vector2D
@@ -2047,9 +1936,9 @@ Vulkan
 WAITING_FOR_HOOKUP_JOB 
 WAITING_FOR_IO 
 WARNING: Trying to create a CRenderContextPtr without a valid context.\n
+WIN32
 WINDOWS
 WINXP
-WaNd?
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning
@@ -2073,7 +1962,6 @@ Write to XMS failed
 WriteConsoleW
 WriteFile
 Wrong JPEG library version: library is %d, caller expects %d
-X/4B
 X360
 X360_DST16
 X360_DST24
@@ -2084,9 +1972,6 @@ XPosition
 XResolution
 XYZ, Luv
 Xbox 360
-XsBI
-Y8a:
-Y>kX>M
 YCbCrCoefficients
 YCbCrPositioning
 YCbCrSubsampling
@@ -2095,7 +1980,6 @@ YPosition
 YResolution
 You're likely out of OS Paged Pool Memory! For more info, see\nhttp://support.steampowered.com/cgi-bin/steampowered.cfg/php/enduser/std_adp.php?p_faqid=150
 YpU_Z
-Z@&LHA'\r:C(
 ZFP compression is not supported.
 ZIPDecode
 ZIPEncode
@@ -2103,31 +1987,13 @@ ZIPPostEncode
 ZIPSetupDecode
 ZIPSetupEncode
 ZIPVSetField
-Z\>z8
-Zjz\v
 Zpm"U
-[*ncd>0
-[aOni*{
-[h1R
 \nDevice Caps :\n
 \nIHDRPLTEIDATIENDtRNScHRMgAMAiCCPsBITsRGBtEXtzTXtiTXtbKGDhISTpHYssPLTtIMEoFFseXIf
 \nPrimitive Caps :\n
 \nRaster Caps :\n
 \nTexture Caps :\n
-\nh?oT
-\nk>oB
-\r\f\v\v\n\n\t\t\t\t\t
-\rmj>zjZ
-\tN1a
-\t\t\n\n\v\v\f\f\f\f\r\r\r\r
-\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tGetProfile_ultrafast
-\tcQr
-\tkE>fvw
-\vA03>A|
-^<V7w
-^RfN>
-^oEZ_
 _RDATA
 _TIFFMergeFieldInfo
 _TIFFSetupFieldInfo
@@ -2155,7 +2021,6 @@ _cabs
 _hypot
 _logb
 _nextafter
-_oD>Kg
 _tools.txt
 `RTTI
 `anonymous namespace'
@@ -2193,7 +2058,6 @@ _tools.txt
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
-a6>r
 abcdefghijklmnopqrstuvwxyz
 acos
 address family not supported
@@ -2208,6 +2072,7 @@ argument out of domain
 asin
 atan
 atan2
+ati_compress_wrapper.dll
 bad address
 bad allocation
 bad array new length
@@ -2261,10 +2126,10 @@ c:\buildslave\hlvr_rel_win64\build\src\rendersystem\texturebase.cpp(2927):Resour
 c:\buildslave\hlvr_rel_win64\build\src\rendersystem\texturebase.cpp(2938):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
 c:\buildslave\hlvr_rel_win64\build\src\rendersystem\texturebase.cpp(2949):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
 c:\buildslave\hlvr_rel_win64\build\src\tier1\configvalue.cpp
+c:\buildslave\hlvr_rel_win64\build\src\tier1\mempool.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\utlbuffer.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier1\utlstring.cpp
 c:\buildslave\hlvr_rel_win64\build\src\tier2\schemabindings.cpp
-c?FA@s}
 cannot read TIFF_ANY type %d for field "%s"
 ceil
 cfg/video_version.txt
@@ -2288,10 +2153,6 @@ d3d9.dll
 d3d9ex
 d3d_max_feature_level
 d3dx9_43.dll
-d8L2
-d?000000`?
-dQy/
-dRL>
 data error
 data height too large.
 data width or data height is negative.
@@ -2311,14 +2172,8 @@ dxgi.dll
 dxsupport
 dxsupport.cfg
 e+000
-eF>t
-eLK(w
 error
-ewh/?y
 executable format error
-fD>b
-fP~V
-fWi?
 fabs
 false
 file error
@@ -2340,23 +2195,15 @@ for field info array
 for strip array
 fraps64.dll
 frexp
-fu`z
 fullscreen
 function not supported
 g_Mathlib_GammaToLinearByteTable
 g_VProfCurrentProfile
 g_pMemAlloc
 g_pThreadPool
-gqr<
-h0'D
-h>1my
-hPU3
 header crc mismatch
 horizontal differencing 
 host unreachable
-i91k
-iRelease
-i]Wb
 identifier removed
 illegal byte sequence
 immediate
@@ -2395,17 +2242,11 @@ iostream stream error
 is a directory
 ispc_texcomp.dll
 j'Vlk
-k=yI
 kernel32.dll
-l6qnk
-lDa>
 ldexp
 lineOrder
 localize
 log10
-m?H7
-mG4>
-m\nXo
 m_Format
 m_Frames
 m_Images
@@ -2478,11 +2319,8 @@ min_processor_count
 minimized
 modf
 must be either LogLUV or LogL
-n$Kx
-n03>Pu
 nSizeInBytes <= RENDER_BUFFER_DYNAMIC_VERTEX_FIXED_SIZE_DX9
 nTries < 10000000
-n]?iJ
 name
 nan(ind)
 nan(snan)
@@ -2511,9 +2349,6 @@ not a stream
 not connected
 not enough memory
 not supported
-o?GS
-oI>O7
-obwQ4
 ole32.dll
 operation canceled
 operation in progress
@@ -2524,9 +2359,7 @@ operator
 operator "" 
 operator co_await
 operator<=>
-owM&
 owner dead
-p?ati_compress_wrapper.dll
 pCubeTexture->LockRect( face, m, &lockedRect, &lockRect, flags )
 pCubeTexture->UnlockRect( face, m )
 pDestSurface->GetDesc( &desc )
@@ -2580,6 +2413,7 @@ pixelAspectRatio
 png/jpg
 position
 positiont
+powf
 protocol error
 protocol not supported
 ps_3_0
@@ -2587,9 +2421,7 @@ psapi.dll
 pseudo-
 psize
 purecall
-qS>g?h3
 queued
-r\tVr.>T
 r_defer_async_texture_updates
 r_frame_sync_enable
 r_fullscreen_gamma
@@ -2633,11 +2465,10 @@ resource unavailable try again
 resourcesystem
 restrict(
 result out of range
-ru&o
-sAmTb
 scanline
 screenWindowCenter
 screenWindowWidth
+sequence number %d too low in sheet file!!!\n
 setting.
 setting.CentroidHack
 setting.DXLevel
@@ -2714,9 +2545,6 @@ unknown exception
 unknown header flags set
 uvCropped
 uvUncropped
-uzKs@>
-v2!L.2
-vQO+t
 value too large
 vbExisting.m_nOffset <= RENDER_BUFFER_DYNAMIC_VERTEX_FIXED_SIZE_DX9
 vb_created_input_layout
@@ -2728,13 +2556,6 @@ video_version
 vs_3_0
 vstdlib
 vstdlib.dll
-w+OQvr
-w3Xc
-wXR\r
 windowed
-wn>Jj
 wrinkle
 wrong protocol type
-xT?V
-y9*O
-{kHw

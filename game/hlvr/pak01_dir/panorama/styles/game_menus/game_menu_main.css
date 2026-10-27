@@ -259,6 +259,7 @@
     height: 710px;
 }
 /* GameMenuOptionTogglePanel********************************/
+GameMenuOptionRenderingFoveatedTogglePanel,
 GameMenuOptionTogglePanel
 {
     width: 100%;
@@ -273,6 +274,7 @@ GameMenuOptionTogglePanel
     transition-duration: 0s;
 }
 
+GameMenuOptionRenderingFoveatedTogglePanel Label,
 GameMenuOptionTogglePanel Label
 {
     vertical-align: center;
@@ -283,11 +285,13 @@ GameMenuOptionTogglePanel Label
     text-align: right;
 }
 
+GameMenuOptionRenderingFoveatedTogglePanel.mini_option Label,
 GameMenuOptionTogglePanel.mini_option Label
 {
     /*font-size: 70px;*/
 }
 
+GameMenuOptionRenderingFoveatedTogglePanel:hover,
 GameMenuOptionTogglePanel:hover
 {
     color: #fff;
@@ -298,6 +302,7 @@ GameMenuOptionTogglePanel:hover
 
 }
 
+GameMenuOptionRenderingFoveatedTogglePanel:active,
 GameMenuOptionTogglePanel:active
 {
     background-color: #FFBE55;
@@ -383,6 +388,7 @@ GameMenuOptionTogglePanel:active
 }
 
 .single_controller_on GameMenuOptionTogglePanel.single_controller:hover .switch_image,
+GameMenuOptionRenderingFoveatedTogglePanel:hover .switch_image,
 GameMenuOptionTogglePanel:hover .switch_image
 {
     background-image: url("s2r://panorama/images/game_menu_ui/component_switch_on_hover_png.vtex");
@@ -390,6 +396,7 @@ GameMenuOptionTogglePanel:hover .switch_image
 }
 
 .single_controller_off GameMenuOptionTogglePanel.single_controller:hover .switch_image,
+GameMenuOptionRenderingFoveatedTogglePanel.switch_off:hover .switch_image,
 GameMenuOptionTogglePanel.switch_off:hover .switch_image
 {
     background-image: url("s2r://panorama/images/game_menu_ui/component_switch_off_hover_png.vtex");
@@ -398,6 +405,7 @@ GameMenuOptionTogglePanel.switch_off:hover .switch_image
 
 
 .single_controller_off GameMenuOptionTogglePanel.single_controller:active .switch_image,
+GameMenuOptionRenderingFoveatedTogglePanel.switch_off:active .switch_image,
 GameMenuOptionTogglePanel.switch_off:active .switch_image
 {
     background-image: url("s2r://panorama/images/game_menu_ui/component_switch_off_press_png.vtex");
@@ -405,6 +413,7 @@ GameMenuOptionTogglePanel.switch_off:active .switch_image
 }
 
 .single_controller_on GameMenuOptionTogglePanel.single_controller:active .switch_image,
+GameMenuOptionRenderingFoveatedTogglePanel:active .switch_image,
 GameMenuOptionTogglePanel:active .switch_image
 {
     background-image: url("s2r://panorama/images/game_menu_ui/component_switch_on_press_png.vtex");

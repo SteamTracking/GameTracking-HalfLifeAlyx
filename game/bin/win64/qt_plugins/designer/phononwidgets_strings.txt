@@ -2,10 +2,7 @@
     <ui language="c++">        <widget class="Phonon::SeekSlider" name="seekSlider"/>    </ui>
     <ui language="c++">        <widget class="Phonon::VideoPlayer" name="videoPlayer">            <property name="geometry">                <rect>                    <x>0</x>                    <y>0</y>                    <width>300</width>                    <height>200</height>                </rect>            </property>        </widget>    </ui>
     <ui language="c++">        <widget class="Phonon::VolumeSlider" name="volumeSlider"/>    </ui>
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- ?paletteChange@QWidget@@MEAAXAEBVQPalette@@@Z
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -16,26 +13,6 @@
  new
  throw(
  volatile
-"?qt_metacall@QPlainTextEdit@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacall@QVBoxLayout@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-"?qt_metacast@QAction@@UEAAPEAXPEBD@Z
-"?qt_metacast@QDialog@@UEAAPEAXPEBD@Z
-"?qt_metacast@QDialogButtonBox@@UEAAPEAXPEBD@Z
-"\r?canInsertFromMimeData@QPlainTextEdit@@MEBA_NPEBVQMimeData@@@Z
-$?reject@QDialog@@UEAAXXZ
-$?releaseDC@QWidget@@UEBAXPEAUHDC__@@@Z
-$yCq,
-%?resizeEvent@QWidget@@MEAAXPEAVQResizeEvent@@@Z
-&"?qt_metacall@QAction@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-&?scrollContentsBy@QPlainTextEdit@@MEAAXHH@Z
-&IDATx
-)?setEnabled@QAction@@QEAAX_N@Z
-)?setGeometry@QBoxLayout@@UEAAXAEBVQRect@@@Z
-*?setLayout@QWidget@@QEAAXPEAVQLayout@@@Z
-*gja
-+?setModal@QDialog@@QEAAX_N@Z
-+?setPlainText@QPlainTextEdit@@QEAAXAEBVQString@@@Z
-+\f?objectName@QObject@@QEBA?AVQString@@XZ
 ,<ellipsis>
 .?AV?$ExtensionFactory@VQDesignerTaskMenuExtension@@VVideoPlayer@Phonon@@VVideoPlayerTaskMenu@@@qdesigner_internal@@
 .?AVMimeTypeDialog@@
@@ -71,15 +48,6 @@ $yCq,
 .?AVbad_typeid@std@@
 .?AVexception@std@@
 .?AVtype_info@@
-.?setWindowTitle@QWidget@@QEAAXAEBVQString@@@Z
-.?showEvent@QDialog@@MEAAXPEAVQShowEvent@@@Z
-.?showEvent@QPlainTextEdit@@MEAAXPEAVQShowEvent@@@Z
-.?showEvent@QWidget@@MEAAXPEAVQShowEvent@@@Z
-/?spacerItem@QLayoutItem@@UEAAPEAVQSpacerItem@@XZ
-1/?sizeHint@QAbstractScrollArea@@UEBA?AVQSize@@XZ
-1?styleChange@QWidget@@MEAAXAEAVQStyle@@@Z
-1Nf\flRXD
-1VWW4/
 1accept()
 1mediaObjectStateChanged(Phonon::State,Phonon::State)
 1pause()
@@ -88,35 +56,19 @@ $yCq,
 1slotLoad()
 1slotMimeTypes()
 1stop()
-2.?setVisible@QDialog@@UEAAX_N@Z
-2?takeAt@QBoxLayout@@UEAAPEAVQLayoutItem@@H@Z
 2accepted()
 2rejected()
 2stateChanged(Phonon::State,Phonon::State)
 2triggered()
-3,?setReadOnly@QPlainTextEdit@@QEAAX_N@Z
-3/?sizeHint@QBoxLayout@@UEBA?AVQSize@@XZ
-38?warning@QMessageBox@@SA?AW4StandardButton@1@PEAVQWidget@@AEBVQString@@1V?$QFlags@W4StandardButton@QMessageBox@@@@W421@@Z
-4Mc\r
-6A76n\r
-8?viewportEvent@QAbstractScrollArea@@MEAA_NPEAVQEvent@@@Z
-8?winEvent@QWidget@@MEAA_NPEAUtagMSG@@PEAJ@Z
-8?window@QWidget@@QEBAPEAV1@XZ
-8?windowActivationChange@QWidget@@MEAAX_N@Z
-8?windowFlags@QWidget@@QEBA?AV?$QFlags@W4WindowType@Qt@@@@XZ
 :/trolltech/phononwidgets/images/seekslider.png
 :/trolltech/phononwidgets/images/videoplayer.png
 :/trolltech/phononwidgets/images/volumeslider.png
-;"?qt_metacall@QDialog@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-;/?sizeHint@QDialog@@UEBA?AVQSize@@XZ
-<"?qt_metacall@QDialogButtonBox@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 <ellipsis>
 <phonon/seekslider.h>
 <phonon/videoplayer.h>
 <phonon/volumeslider.h>
 <unknown>
 <widget class="%1" name="%2"/>
-?.?setVisible@QWidget@@UEAAX_N@Z
 ??0MediaSource@Phonon@@QEAA@AEBVQString@@@Z
 ??0QAction@@QEAA@AEBVQString@@PEAVQObject@@@Z
 ??0QChar@@QEAA@UQLatin1Char@@@Z
@@ -147,12 +99,21 @@ $yCq,
 ??1VolumeSlider@Phonon@@UEAA@XZ
 ??8QString@@QEBA_NAEBV0@@Z
 ?QStringList_join@QtPrivate@@YA?AVQString@@PEBVQStringList@@AEBV2@@Z
+?accept@QDialog@@UEAAXXZ
+?actionEvent@QWidget@@MEAAXPEAVQActionEvent@@@Z
+?addItem@QBoxLayout@@UEAAXPEAVQLayoutItem@@@Z
+?addWidget@QBoxLayout@@QEAAXPEAVQWidget@@HV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
 ?append@QListData@@QEAAPEAPEAXXZ
 ?arg@QString@@QEBA?AV1@AEBV1@0@Z
 ?arg@QString@@QEBA?AV1@AEBV1@HAEBVQChar@@@Z
 ?availableMimeTypes@BackendCapabilities@Phonon@@YA?AVQStringList@@XZ
+?canInsertFromMimeData@QPlainTextEdit@@MEBA_NPEBVQMimeData@@@Z
 ?cast@QMetaObject@@QEBAPEAVQObject@@PEAV2@@Z
+?changeEvent@QDialogButtonBox@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QPlainTextEdit@@MEAAXPEAVQEvent@@@Z
+?changeEvent@QWidget@@MEAAXPEAVQEvent@@@Z
 ?changeGuard@QMetaObject@@SAXPEAPEAVQObject@@PEAV2@@Z
+?childEvent@QLayout@@MEAAXPEAVQChildEvent@@@Z
 ?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
 ?closeEvent@QDialog@@MEAAXPEAVQCloseEvent@@@Z
 ?closeEvent@QWidget@@MEAAXPEAVQCloseEvent@@@Z
@@ -200,6 +161,7 @@ $yCq,
 ?fontChange@QWidget@@MEAAXAEBVQFont@@@Z
 ?free@QString@@CAXPEAUData@1@@Z
 ?fromLatin1_helper@QString@@CAPEAUData@1@PEBDH@Z
+?fromUtf8@QString@@SA?AV1@PEBDH@Z
 ?geometry@QLayout@@UEBA?AVQRect@@XZ
 ?getDC@QWidget@@UEBAPEAUHDC__@@XZ
 ?getOpenFileName@QFileDialog@@SA?AVQString@@PEAVQWidget@@AEBV2@11PEAV2@V?$QFlags@W4Option@QFileDialog@@@@@Z
@@ -232,6 +194,7 @@ $yCq,
 ?metaObject@QAction@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QDialog@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QDialogButtonBox@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QExtensionFactory@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QPlainTextEdit@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QVBoxLayout@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@SeekSlider@Phonon@@UEBAPEBUQMetaObject@@XZ
@@ -252,33 +215,88 @@ $yCq,
 ?mouseReleaseEvent@QPlainTextEdit@@MEAAXPEAVQMouseEvent@@@Z
 ?mouseReleaseEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z
 ?moveEvent@QWidget@@MEAAXPEAVQMoveEvent@@@Z
+?objectName@QObject@@QEBA?AVQString@@XZ
+?paintEngine@QWidget@@UEBAPEAVQPaintEngine@@XZ
+?paintEvent@QPlainTextEdit@@MEAAXPEAVQPaintEvent@@@Z
+?paintEvent@QWidget@@MEAAXPEAVQPaintEvent@@@Z
+?paletteChange@QWidget@@MEAAXAEBVQPalette@@@Z
+?qFree@@YAXPEAX@Z
+?qRegisterResourceData@@YA_NHPEBE00@Z
+?qUnregisterResourceData@@YA_NHPEBE00@Z
+?qt_metacall@QAction@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QDialog@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QDialogButtonBox@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QExtensionFactory@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QPlainTextEdit@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QVBoxLayout@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@SeekSlider@Phonon@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@VideoPlayer@Phonon@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@VolumeSlider@Phonon@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacast@QAction@@UEAAPEAXPEBD@Z
+?qt_metacast@QDialog@@UEAAPEAXPEBD@Z
+?qt_metacast@QDialogButtonBox@@UEAAPEAXPEBD@Z
+?qt_metacast@QExtensionFactory@@UEAAPEAXPEBD@Z
+?qt_metacast@QObject@@UEAAPEAXPEBD@Z
+?qt_metacast@QPlainTextEdit@@UEAAPEAXPEBD@Z
+?qt_metacast@QVBoxLayout@@UEAAPEAXPEBD@Z
 ?qt_metacast@SeekSlider@Phonon@@UEAAPEAXPEBD@Z
 ?qt_metacast@VideoPlayer@Phonon@@UEAAPEAXPEBD@Z
 ?qt_metacast@VolumeSlider@Phonon@@UEAAPEAXPEBD@Z
+?reject@QDialog@@UEAAXXZ
+?releaseDC@QWidget@@UEBAXPEAUHDC__@@@Z
 ?removeGuard@QMetaObject@@SAXPEAPEAVQObject@@@Z
+?resizeEvent@QDialog@@MEAAXPEAVQResizeEvent@@@Z
+?resizeEvent@QPlainTextEdit@@MEAAXPEAVQResizeEvent@@@Z
+?resizeEvent@QWidget@@MEAAXPEAVQResizeEvent@@@Z
+?scrollContentsBy@QPlainTextEdit@@MEAAXHH@Z
+?setEnabled@QAction@@QEAAX_N@Z
+?setGeometry@QBoxLayout@@UEAAXAEBVQRect@@@Z
+?setLayout@QWidget@@QEAAXPEAVQLayout@@@Z
+?setModal@QDialog@@QEAAX_N@Z
+?setPlainText@QPlainTextEdit@@QEAAXAEBVQString@@@Z
+?setReadOnly@QPlainTextEdit@@QEAAX_N@Z
+?setVisible@QDialog@@UEAAX_N@Z
+?setVisible@QWidget@@UEAAX_N@Z
+?setWindowFlags@QWidget@@QEAAXV?$QFlags@W4WindowType@Qt@@@@@Z
+?setWindowTitle@QWidget@@QEAAXAEBVQString@@@Z
 ?shared_null@QListData@@2UData@1@A
 ?shared_null@QString@@0UData@1@A
+?showEvent@QDialog@@MEAAXPEAVQShowEvent@@@Z
+?showEvent@QPlainTextEdit@@MEAAXPEAVQShowEvent@@@Z
+?showEvent@QWidget@@MEAAXPEAVQShowEvent@@@Z
+?sizeHint@QAbstractScrollArea@@UEBA?AVQSize@@XZ
+?sizeHint@QBoxLayout@@UEBA?AVQSize@@XZ
+?sizeHint@QDialog@@UEBA?AVQSize@@XZ
+?sizeHint@QWidget@@UEBA?AVQSize@@XZ
+?spacerItem@QLayoutItem@@UEAAPEAVQSpacerItem@@XZ
 ?staticMetaObject@QObject@@2UQMetaObject@@B
 ?staticMetaObject@VideoPlayer@Phonon@@2UQMetaObject@@B
+?styleChange@QWidget@@MEAAXAEAVQStyle@@@Z
+?tabletEvent@QWidget@@MEAAXPEAVQTabletEvent@@@Z
+?takeAt@QBoxLayout@@UEAAPEAVQLayoutItem@@H@Z
 ?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
+?timerEvent@QPlainTextEdit@@MEAAXPEAVQTimerEvent@@@Z
 ?toLower@QString@@QEBA?AV1@XZ
 ?tr@QMetaObject@@QEBA?AVQString@@PEBD0@Z
+?viewportEvent@QAbstractScrollArea@@MEAA_NPEAVQEvent@@@Z
+?warning@QMessageBox@@SA?AW4StandardButton@1@PEAVQWidget@@AEBVQString@@1V?$QFlags@W4StandardButton@QMessageBox@@@@W421@@Z
+?wheelEvent@QPlainTextEdit@@MEAAXPEAVQWheelEvent@@@Z
+?wheelEvent@QWidget@@MEAAXPEAVQWheelEvent@@@Z
+?widget@QLayoutItem@@UEAAPEAVQWidget@@XZ
+?winEvent@QWidget@@MEAA_NPEAUtagMSG@@PEAJ@Z
+?window@QWidget@@QEBAPEAV1@XZ
+?windowActivationChange@QWidget@@MEAAX_N@Z
+?windowFlags@QWidget@@QEBA?AV?$QFlags@W4WindowType@Qt@@@@XZ
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 Adobe ImageReadyq
 An error has occurred in '%1': %2
 April
 August
 Available Mime Types
-B#?qt_metacast@QPlainTextEdit@@UEAAPEAXPEBD@Z
-B3?timerEvent@QPlainTextEdit@@MEAAXPEAVQTimerEvent@@@Z
 C:\Valve\ThirdPartyCode\lgpl\qt\qt_valve_win64\plugins\designer\phononwidgets.pdb
-CJ9u
 Choose Video Player Media Source
 CorExitProcess
-DHKS\
 December
 DecodePointer
 DeleteCriticalSection
@@ -296,7 +314,6 @@ FlsSetValue
 FreeEnvironmentStringsW
 FreeLibrary
 Friday
-G*QG{|t
 GetACP
 GetActiveWindow
 GetCPInfo
@@ -327,7 +344,6 @@ GetTickCount
 GetUserDefaultLCID
 GetUserObjectInformationW
 GetVersion
-H3k4z
 HH:mm:ss
 HIb2
 HeapAlloc
@@ -337,8 +353,6 @@ HeapFree
 HeapReAlloc
 HeapSetInformation
 HeapSize
-HfLl
-IDATx
 IEND
 InitializeCriticalSectionAndSpinCount
 IsDebuggerPresent
@@ -363,12 +377,10 @@ March
 MessageBoxW
 Monday
 MultiByteToWideChar
-N8?wheelEvent@QPlainTextEdit@@MEAAXPEAVQWheelEvent@@@Z
 NULL
 Norwegian-Nynorsk
 November
 October
-PNG\r\n
 Pause
 Phonon
 Phonon Seek Slider
@@ -379,7 +391,6 @@ Phonon::VideoPlayer
 Phonon::VolumeSlider
 PhononCollection
 Play
-Q8?wheelEvent@QWidget@@MEAAXPEAVQWheelEvent@@@Z
 QDesignerCustomWidgetCollectionInterface
 QDesignerCustomWidgetInterface
 QDesignerTaskMenuExtension
@@ -388,14 +399,12 @@ QtDesigner4.dll
 QtGui4.dll
 Qt_GetCustomAllocators
 QueryPerformanceCounter
-RSDSu
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S ?paintEngine@QWidget@@UEBAPEAVQPaintEngine@@XZ
 Saturday
 SeekSliderPlugin
 September
@@ -413,7 +422,6 @@ Tuesday
 UNKNOWN
 UnhandledExceptionFilter
 Unknown exception
-Vg\f5
 Video Player Error
 VideoPlayerPlugin
 VideoPlayerTaskMenu
@@ -421,23 +429,8 @@ VolumeSliderPlugin
 Wednesday
 WideCharToMultiByte
 WriteFile
-ZOV"R
-Z{TAK
 [thunk]:
-\f?qFree@@YAXPEAX@Z
-\n?actionEvent@QWidget@@MEAAXPEAVQActionEvent@@@Z
-\n?metaObject@QExtensionFactory@@UEBAPEBUQMetaObject@@XZ
-\r?childEvent@QLayout@@MEAAXPEAVQChildEvent@@@Z
-\r?qRegisterResourceData@@YA_NHPEBE00@Z
-\r?qUnregisterResourceData@@YA_NHPEBE00@Z
-\r?qt_metacast@QObject@@UEAAPEAXPEBD@Z
 \rIHDR
-\t?fromUtf8@QString@@SA?AV1@PEBDH@Z
-\v?addItem@QBoxLayout@@UEAAXPEAVQLayoutItem@@@Z
-\v?qt_metacall@QExtensionFactory@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-\v?qt_metacast@QExtensionFactory@@UEAAPEAXPEBD@Z
-^8?widget@QLayoutItem@@UEAAPEAVQWidget@@XZ
-^IDATx
 __based(
 __cdecl
 __clrcall
@@ -505,7 +498,6 @@ american
 american english
 american-english
 australian
-b"rP0j
 bad exception
 belgian
 bool
@@ -530,7 +522,6 @@ com.trolltech.Qt.Designer.TaskMenu
 const
 const 
 czech
-d\r?changeEvent@QDialogButtonBox@@MEAAXPEAVQEvent@@@Z
 dddd, MMMM dd, yyyy
 double
 dutch-belgian
@@ -550,8 +541,6 @@ english-us
 english-usa
 enum 
 extern "C" 
-f/?sizeHint@QWidget@@UEBA?AVQSize@@XZ
-fX6Z
 float
 french-belgian
 french-canadian
@@ -563,16 +552,11 @@ german-lichtenstein
 german-luxembourg
 german-swiss
 great britain
-h\r?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 holland
 hong-kong
-i ?paintEvent@QPlainTextEdit@@MEAAXPEAVQPaintEvent@@@Z
-iJt]'wM
 int 
 irish-english
 italian-swiss
-l%?resizeEvent@QDialog@@MEAAXPEAVQResizeEvent@@@Z
-l.?setWindowFlags@QWidget@@QEAAXV?$QFlags@W4WindowType@Qt@@@@@Z
 long
 long 
 mediaObjectStateChanged(Phonon::State,Phonon::State)
@@ -581,7 +565,6 @@ newstate,oldstate
 norwegian
 norwegian-bokmal
 norwegian-nynorsk
-o\v?addWidget@QBoxLayout@@QEAAXPEAVQWidget@@HV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
 operator
 pattern=QT_PLUGIN_VERIFICATION_DATA\nversion=4.8.3\ndebug=false\nbuildkey=Windows x64 msvc release full-config
 phonon4.dll
@@ -595,7 +578,6 @@ public:
 puerto-rico
 qt_plugin_instance
 qt_plugin_query_verification_data
-r\r?changeEvent@QPlainTextEdit@@MEAAXPEAVQEvent@@@Z
 rm~\t0
 short
 short 
@@ -639,19 +621,11 @@ union
 united-kingdom
 united-states
 unsigned 
-v%?resizeEvent@QPlainTextEdit@@MEAAXPEAVQResizeEvent@@@Z
 virtual 
 void
 void 
 volatile
 volatile 
 wchar_t
-xIDATx
-z~ED
-{ ?paintEvent@QWidget@@MEAAXPEAVQPaintEvent@@@Z
 {flat}
 {for 
-|2?tabletEvent@QWidget@@MEAAXPEAVQTabletEvent@@@Z
-|\r?changeEvent@QWidget@@MEAAXPEAVQEvent@@@Z
-~#?qt_metacast@QVBoxLayout@@UEAAPEAXPEBD@Z
-~\n?accept@QDialog@@UEAAXXZ
